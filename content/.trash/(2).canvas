@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"bab8d1a35043e973","x":-120,"y":1230,"width":1689,"height":1278,"type":"group","label":"Groupe sans titre"},
+		{"id":"a5027b444cc33e05","x":-366,"y":-441,"width":1313,"height":1030,"type":"group","label":"Groupe sans titre"},
+		{"id":"fe26ffbd217d1023","x":1569,"y":700,"width":1140,"height":410,"type":"group","label":"Groupe sans titre"},
+		{"id":"question3-titre","type":"text","text":"# 3. Justice Au-Dessus des Lois ?\n\n**Conflit lois/justice**","x":354,"y":1266,"width":593,"height":178},
+		{"id":"antigone-creon","type":"text","text":"## Antigone vs Créon\n\n**Antigone :**\n- Lois divines > lois humaines\n- \"Lois non écrites, inébranlables des dieux\"\n- Existent depuis toujours\n\n**Créon :**\n- Nécessité lois pour société\n- \"Nul n'est au-dessus des lois\"\n\n→ **Tragédie : deux justifications valides**","x":-90,"y":1532,"width":519,"height":444},
+		{"id":"lutte-droits","type":"text","text":"## Lutte pour Droits\n\n**Historiquement :**\n- Droits minorités\n- Modification lois injustes\n\n**Dilemme :**\nSuivre lois ou justice quand opposition ?\n\n→ **Désobéissance civile**","x":502,"y":1532,"width":519,"height":320},
+		{"id":"nuremberg","type":"text","text":"## Procès de Nuremberg\n\n**Accusés nazis :**\n- \"Obéissance aux ordres\"\n- \"Respect des lois en place\"\n\n**Juges :**\n- Droit désobéir normes illégales\n- Condamnation de l'obéissance aveugle\n\n→ **Légalité ≠ Justice**","x":1095,"y":1532,"width":444,"height":355},
+		{"id":"synthese-justice","type":"text","text":"## Synthèse\n\n**Tensions permanentes :**\n- **Définition** : Égalité, liberté, moralité ?\n- **Méthode** : Impartialité, utilité, tradition ?\n- **Application** : Lois humaines vs justice transcendante ?\n\n→ **Justice = questionnement perpétuel**","x":354,"y":2065,"width":889,"height":320},
+		{"id":"question2-titre","type":"text","text":"# 2. Comment Déterminer Principes de Justice ?\n\n**Problème de l'impartialité**","x":1889,"y":720,"width":400,"height":100},
+		{"id":"rawls-voile","type":"text","text":"## John Rawls - Voile d'Ignorance\n\n**Expérience de pensée :**\n- Ignorer sa propre identité\n- (richesse, origines, etc.)\n- Choisir principes sans privilégier position sociale\n\n**Limite :**\n- Reste expérience pensée\n- Difficile se détacher de soi","x":1589,"y":870,"width":350,"height":220},
+		{"id":"utilitarisme","type":"text","text":"## Utilitarisme\n\n**\"Plus grand bonheur pour plus grand nombre\"**\n\n**Dilemme du tramway :**\n- Sauver 4 personnes\n- En sacrifiant 1\n- → Intervenir pour majorité\n\n**Avantage :** Résolution problèmes éthiques","x":1989,"y":870,"width":350,"height":220},
+		{"id":"critique-utilitarisme","type":"text","text":"## Critique Utilitarisme\n\n**Danger pour minorités**\n- Privilégier majorité\n- Ignorer besoins groupes minoritaires\n- Sacrifier individus pour collectif\n\n→ **Tyrannie de la majorité**","x":2389,"y":920,"width":300,"height":150},
+		{"id":"titre-principal","type":"text","text":"# Philosophie de la Justice\n\n*Trois questions fondamentales*","x":1021,"y":-633,"width":400,"height":133},
+		{"id":"question1-titre","type":"text","text":"# 1. Qu'est-ce que la Justice ?\n\n**Pas de définition unique**\n*Égalité ? Liberté ? Moralité ?*","x":-136,"y":-421,"width":400,"height":100},
+		{"id":"platon-definitions","type":"text","text":"## Platon - République\n\n**Recherche de l'essence de la justice**\n\n**Première définition :**\n- Dire la vérité\n- Rendre à chacun son dû\n\n**Réfutation Socrate :**\n- Rendre arme à ami déséquilibré ?\n- Peut mener à injustice","x":-346,"y":-271,"width":350,"height":350},
+		{"id":"anneau-gyges","type":"text","text":"## Mythe Anneau de Gygès\n\n**Glaucon :**\n- Justice par crainte punition ?\n- Si invisibilité → méfaits\n\n**Question fondamentale :**\n- Justice par contrainte externe ?\n- Ou justice intrinsèque ?\n\n→ **Motivation à être juste**","x":-346,"y":114,"width":350,"height":360},
+		{"id":"bienfaits-justice","type":"text","text":"## Justice et Bienfaits\n\n**Glaucon :**\n- Choisir justice pour ses bienfaits\n- Qui choisirait justice = malheur ?\n\n**Calcul rationnel vs valeur intrinsèque**","x":54,"y":122,"width":300,"height":345},
+		{"id":"thrasymaque","type":"text","text":"## Thrasymaque\n\n**\"Justice = avantage du plus fort\"**\n\n- Critique toujours actuelle\n- Justice profite aux riches/puissants ?\n- Mais critique suppose justice idéale\n\n→ **Relativisme de la justice**","x":264,"y":-271,"width":300,"height":345},
+		{"id":"justice-politique","type":"text","text":"## Justice et Politique\n\n**Pour Platon :**\nComprendre justice = comprendre organisation politique\n\n→ **Dimension collective**","x":601,"y":53,"width":300,"height":293}
+	],
+	"edges":[
+		{"id":"edge1","fromNode":"titre-principal","fromSide":"bottom","toNode":"a5027b444cc33e05","toSide":"top"},
+		{"id":"edge2","fromNode":"question1-titre","fromSide":"bottom","toNode":"platon-definitions","toSide":"top"},
+		{"id":"edge3","fromNode":"question1-titre","fromSide":"bottom","toNode":"thrasymaque","toSide":"top"},
+		{"id":"edge4","fromNode":"platon-definitions","fromSide":"bottom","toNode":"anneau-gyges","toSide":"top"},
+		{"id":"edge5","fromNode":"thrasymaque","fromSide":"bottom","toNode":"bienfaits-justice","toSide":"top"},
+		{"id":"edge6","fromNode":"thrasymaque","fromSide":"right","toNode":"justice-politique","toSide":"left"},
+		{"id":"edge8","fromNode":"a5027b444cc33e05","fromSide":"bottom","toNode":"fe26ffbd217d1023","toSide":"top"},
+		{"id":"edge10","fromNode":"question2-titre","fromSide":"bottom","toNode":"rawls-voile","toSide":"top"},
+		{"id":"edge11","fromNode":"question2-titre","fromSide":"bottom","toNode":"utilitarisme","toSide":"top"},
+		{"id":"edge12","fromNode":"utilitarisme","fromSide":"right","toNode":"critique-utilitarisme","toSide":"left"},
+		{"id":"edge15","fromNode":"question3-titre","fromSide":"bottom","toNode":"antigone-creon","toSide":"top"},
+		{"id":"edge16","fromNode":"question3-titre","fromSide":"bottom","toNode":"lutte-droits","toSide":"top"},
+		{"id":"edge17","fromNode":"question3-titre","fromSide":"bottom","toNode":"nuremberg","toSide":"top"},
+		{"id":"edge18","fromNode":"antigone-creon","fromSide":"bottom","toNode":"synthese-justice","toSide":"top"},
+		{"id":"edge19","fromNode":"lutte-droits","fromSide":"bottom","toNode":"synthese-justice","toSide":"top"},
+		{"id":"edge20","fromNode":"nuremberg","fromSide":"bottom","toNode":"synthese-justice","toSide":"top"},
+		{"id":"edge21","fromNode":"platon-definitions","fromSide":"right","toNode":"thrasymaque","toSide":"left","label":"Opposition"},
+		{"id":"675c62607ecd6542","fromNode":"bab8d1a35043e973","fromSide":"top","toNode":"fe26ffbd217d1023","toSide":"bottom"}
+	]
+}

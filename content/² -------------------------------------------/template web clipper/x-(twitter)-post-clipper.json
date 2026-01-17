@@ -1,0 +1,53 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "X (Twitter) Post",
+	"behavior": "create",
+	"noteContentFormat": "![x.com]({{url}})\n\n## Post Text\n\n{{title|split:\" on X: \"|last|slice:1,-5|split:\" https://t.co\"|first}}\n\n## Image Previews\n\n{{selector:img[alt=\"Image\"]?src|image:\"\"}}\n\n",
+	"properties": [
+		{
+			"name": "url",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{title|split:\\\" on X: \\\"|first}}",
+			"type": "multitext"
+		},
+		{
+			"name": "handle",
+			"value": "{{url|split:\\\"/\\\"|slice:3,-2}}",
+			"type": "text"
+		},
+		{
+			"name": "profile",
+			"value": "https://x.com/@{{url|split:\\\"/\\\"|slice:3,-2}}",
+			"type": "text"
+		},
+		{
+			"name": "image",
+			"value": "{{selector:img[alt=\\\"Image\\\"]?src|first}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "clippings, twitter",
+			"type": "multitext"
+		},
+		{
+			"name": "published",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		}
+	],
+	"triggers": [
+		"/^https:\\/\\/x\\.com\\/[A-Za-z0-9_]+\\/status\\/\\d+$/"
+	],
+	"noteNameFormat": "{{published|date:\"YYYY-MM-DD\"}} X {{url|split:\"/\"|slice:3,-2}}",
+	"path": "00 Inbox/Clippings"
+}

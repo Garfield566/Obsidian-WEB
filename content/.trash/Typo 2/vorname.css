@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'vorname';
+    src: url('E:\Poisson\Typo\Vorname.otf') format('opentype');
+}
+.vorname-text { font-family: 'vorname', sans-serif !important; }

@@ -1,0 +1,17 @@
+---
+title: "Le Vent se Lève - Soundtrack"
+source: "https://www.nautiljon.com/ost/le+vent+se+l%C3%A8ve+-+soundtrack.html"
+author:
+published:
+created: 2025-04-15
+description: "OST : Le Vent se Lève - Soundtrack. Date de sortie : 17/07/2013, Ref. : TKCA-73920"
+tags:
+  - "clippings"
+image:
+---
+## Tracklist
+
+- [Romanisée](https://www.nautiljon.com/ost/)
+- [Originale](https://www.nautiljon.com/ost/)
+
+<table><tbody><tr><th><span>#</span></th><th colspan="2"><span>Titre</span></th><th>Clip</th><th>Paroles</th><th>Générique</th><th>Tabs.</th></tr><tr><td>1</td><td>Tabiji (Muchuu Hikou)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>Nagare Boshi</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Caproni (Sekkeika no Yume)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Tabiji (Deai)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Naoko (Deai)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>Hinan</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>Onjin</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Caproni (Maboroshi no Kyodaiki)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td>Tokimeki</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td>Tabiji (Imouto)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td>Tabiji (Hatsu Shussha)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>Hayabusa Han</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td>Hayabusa</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td>Junkers</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>15</td><td>Tabiji (Italy no Kaze)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>16</td><td>Tabiji (Caprony no Intai)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>17</td><td>Tabiji (Karuizawa no Deai)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>18</td><td>Naoka (Unmei)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td>Naoka (Niji)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>Castorp (Ma no Yama)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>21</td><td>Kaze</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>22</td><td>Kami Hikouki</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>23</td><td>Naoka (Propose)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>24</td><td>Hachishi Tokutei</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>25</td><td>Castorp (Wakare)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>26</td><td>Naoka (Aitakute)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>27</td><td>Naoka (Meguriai)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>28</td><td>Tabiji (Kekkon)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>29</td><td>Naoka (Manazashi)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>30</td><td>Tabiji (Wakare)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>31</td><td>Tabiji (Yume no Oukoku)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>32</td><td>Hikoukigumo ~ Arai Yumi</td></tr></tbody></table>

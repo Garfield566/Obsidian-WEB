@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'vorname';
+    src: url('data:font/truetype;base64,') format('truetype');
+}
+.vorname-text { font-family: 'vorname', sans-serif !important; }

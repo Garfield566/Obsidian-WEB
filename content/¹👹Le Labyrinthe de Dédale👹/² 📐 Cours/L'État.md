@@ -1,0 +1,24 @@
+---
+excalidraw-plugin: "parsed"
+tags:
+  - "excalidraw"
+image: "https://la-philosophie.com/wp-content/uploads/2012/05/eugene-delacroix-la-libert%C3%A9-guidant-le-peuple.jpg"
+cour: "philo"
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+
+
+# Excalidraw Data
+## Text Elements
+%%
+## Drawing
+```compressed-json
+N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQA2bQAOGjoghH0EDihmbgBtAF1+CFw4OABlKKhxVFAwSHUMmohiXFIAa1T6hkIECgAhXGx25VJhDmIAYTZ8NlJuCABiADMk
+
+5YAGZewuyGwRQOyASWr9SrH2hGnZ+YlFgEYEB4ediD3SA6hjjMHh0fGpmZzBZQcgcZhwNpZKAvN4fL76ABihHw+EqMGCC0EHhh+yh8LObAuAHUSOpuHxwLtcUcTgSLmiMRIsSQce88ScAErCZSSDjhXJoO78KlsmkZADyEOwahg3Du63Wwte1M+JwRnCgCNw+mRsrQAFYlbD2Rl1dlyoQjDUeIrKcrRaqMgAVLBQACCRGUXAkwWW0KNKvxUVI7ve
+
+bAokhCxG4HCEKIDDvhAFEJm6wxGows2mMqAm4Sc0zmnfBmmMhBMXsxsGMUQANbgAdniABYlVWa/gAJrcZv6pLaHhJO48Q12oxsAzcOrdegEIQ1O6UgC+eZN+i55eIfOYAvQZYrStGJAtVvJtu6R+IlQQcG4o4vpBIAFk2MQECncJpgtG0MsCGFD0fAFrinSlIH6GYfz3ZRNFwAAKHg7iSahUDuJsUJ4ABmABOFD1m0fUAEodkgDkEGUOM2gWUgYP
+
+gnhBxQu5sIbDDm1bVB8KIiBl1Xc0QUJBBJSgdgwRjON8CVZZyEyMiJiYQgOGUUD6kgLJP2/bgQXnYVdiIW80C0hAdIgDhtRqQzjOEKAiD5TTSHnHi7TsAArBBsBycpTLgF83w/L8ECgv98AAu0hmExgnQnfBlO6WBEExdJ3JEkjlWYKADGLeK0FjeMwIgWZhgC7ggpClT8tCd0koiqKxJRZdwBXOhlmRcIpyXEAlyAA=
+```
+%%

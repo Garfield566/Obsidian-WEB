@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"type":"text","text":"histoire","id":"063e1da22fe77a91","x":-1010,"y":-505,"width":250,"height":60},
+		{"type":"text","text":"pays","id":"6c1d00fa8c9c57f7","x":-990,"y":-305,"width":250,"height":80},
+		{"type":"text","text":"autre catégorie","id":"32ed67e2fc93640a","x":-1240,"y":-145,"width":250,"height":60},
+		{"type":"text","text":"###  Note type","id":"08215b57b7523b4d","x":-1420,"y":-540,"width":180,"height":70}
+	],
+	"edges":[
+		{"id":"f2cb18a26aa66f19","fromNode":"08215b57b7523b4d","fromSide":"right","toNode":"063e1da22fe77a91","toSide":"left","color":"4"},
+		{"id":"1c7e30ed58bfef3a","fromNode":"08215b57b7523b4d","fromSide":"right","toNode":"32ed67e2fc93640a","toSide":"top","color":"6"},
+		{"id":"5e843e3829251ab7","fromNode":"08215b57b7523b4d","fromSide":"right","toNode":"6c1d00fa8c9c57f7","toSide":"left","color":"2"},
+		{"id":"9dc6d2898bc10e37","fromNode":"6c1d00fa8c9c57f7","fromSide":"left","toNode":"08215b57b7523b4d","toSide":"right","color":"2"},
+		{"id":"a6660070e354bbb0","fromNode":"063e1da22fe77a91","fromSide":"left","toNode":"08215b57b7523b4d","toSide":"right","color":"4"},
+		{"id":"bc5f21c4ba26647f","fromNode":"32ed67e2fc93640a","fromSide":"top","toNode":"08215b57b7523b4d","toSide":"right","color":"6"}
+	]
+}

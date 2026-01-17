@@ -1,0 +1,272 @@
+---
+title: "Le vent se lève (2013) ⭐ 7.8 | Animation, Biographique, Drame"
+source: "https://www.imdb.com/fr/title/tt2013293/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_le%2520vent%2520se%2520l%25C3%25A8ve"
+author:
+  - "[[IMDb]]"
+published:
+created: 2025-04-15
+description: "Le vent se lève: Réalisé par Hayao Miyazaki. Avec Hideaki Anno, Hidetoshi Nishijima, Miori Takimoto, Masahiko Nishimura. Un regard sur la vie de Jiro Horikoshi, l'homme qui a dessiné des avions de chasse japonais pendant la Seconde Guerre mondiale."
+tags:
+  - "clippings"
+image:
+---
+![Le vent se lève (2013)](https://m.media-amazon.com/images/M/MV5BYjU0ZWY4YWUtOWQ0Mi00OGVmLTkxZWEtMWNkMTQyODM0MGU1XkEyXkFqcGc@._V1_QL75_UY281_CR11,0,190,281_.jpg)
+
+Le vent se lève (2013)
+
+![In Hayao Miyazaki's farewell film, he takes a look at the life of Jiro Horikoshi, the man who designed Japanese fighter planes during World War II.](https://m.media-amazon.com/images/M/MV5BMTM5OTY4NzMwM15BMl5BanBnXkFtZTgwMTA3NDU2MDE@._V1_QL75_UX500_CR0,47,500,281_.jpg)
+
+In Hayao Miyazaki's farewell film, he takes a look at the life of Jiro Horikoshi, the man who designed Japanese fighter planes during World War II.
+
+Un regard sur la vie de Jiro Horikoshi, l'homme qui a dessiné des avions de chasse japonais pendant la Seconde Guerre mondiale.Un regard sur la vie de Jiro Horikoshi, l'homme qui a dessiné des avions de chasse japonais pendant la Seconde Guerre mondiale.Un regard sur la vie de Jiro Horikoshi, l'homme qui a dessiné des avions de chasse japonais pendant la Seconde Guerre mondiale.### [Avis des utilisateurs217](https://www.imdb.com/fr/title/tt2013293/reviews/?ref_=tt_ururv_sm)
+
+Commentaire à la une
+
+9 /10### [The Most different Miyazaki's Film](https://www.imdb.com/fr/review/rw2871820/?ref_=tt_ururv_perm)
+
+This film is totally different from Miyazaki's other films and I personally think, like what he's mentioned, a message to to world about how he looks at the war, war machines, peace, love and living. As I am a Taiwanese, who has once colonized and ruled by Japanese during the second world war, how Japanese coped with the war topic is always sensitive. However, what I saw in this film is truly reflecting that Miyazaki is peace loving and his point of view on war, life and love. He depicted about the beauty of dreams and surviving. You can see that everyone in this film try every hard to live, even though the time is hard and forced to strike a balance between dreams and reality. However, they are self fulfilling. So who is to blame? who ruined their lives and dreams? Those who leads them to the war to blame.  
+  
+In short, the film perfectly shows how the director's been telling in almost every his masterpiece but in a personally way, to the audience. Just like a final message he would like yo transmit to the world. I felt overwhelmed by the film and sad that he decided to retired. Please go to watch this film and you will do feel the courage to live hard and live well.
+
+Utile • 161 13
+
+### Histoire
+
+Jiro dreams of flying and designing beautiful airplanes, inspired by the famous Italian aeronautical designer Caproni. Nearsighted from a young age and unable to be a pilot, Jiro joins a major Japanese engineering company in 1927 and becomes one of the world's most innovative and accomplished airplane designers. The film chronicles much of his life, depicting key historical events, including the Great Kanto Earthquake of 1923, the Great Depression, the tuberculosis epidemic and Japan's plunge into war. Jiro meets and falls in love with Nahoko, and grows and cherishes his friendship with his colleague Honjo.—
+
+- [Résumé de l’intrigue](https://www.imdb.com/fr/title/tt2013293/plotsummary/?ref_=tt_stry_pl)
+- [Synopsis de l’intrigue](https://www.imdb.com/fr/title/tt2013293/plotsummary/?ref_=tt_stry_pl#synopsis)
+
+### Le saviez-vous
+
+[
+
+### Meilleurs choix
+
+](https://www.imdb.com/fr/what-to-watch/top-picks/?ref_=tt_tpks_sm)
+
+Connectez-vous pour évaluer et suivre la liste de favoris afin de recevoir des recommandations personnalisées
+
+![Princesse Mononoké](https://m.media-amazon.com/images/M/MV5BYjk2Yzc0YTktM2JhMC00MmZhLTk5MjMtYWE2NjUwZDdiOThjXkEyXkFqcGc@._V1_QL75_UY207_CR6,0,140,207_.jpg)
+
+Princesse Mononoké
+
+8,3
+
+[Princesse Mononoké](https://www.imdb.com/fr/title/tt0119698/?ref_=tt_tpks_t_1_pd_detail_2_pbr_ic)
+
+7,7
+
+[Paprika](https://www.imdb.com/fr/title/tt0851578/?ref_=tt_tpks_t_2_pd_detail_2_pbr_ic)
+
+8,0
+
+[Akira](https://www.imdb.com/fr/title/tt0094625/?ref_=tt_tpks_t_3_pd_detail_2_pbr_ic)
+
+![Le Tombeau des lucioles](https://m.media-amazon.com/images/M/MV5BZWUwYWM0MmQtNmY3ZC00OTAwLWJkYmItMWVkY2RiMTA4MTFmXkEyXkFqcGc@._V1_QL75_UY207_CR8,0,140,207_.jpg)
+
+Le Tombeau des lucioles
+
+8,5
+
+[Le Tombeau des lucioles](https://www.imdb.com/fr/title/tt0095327/?ref_=tt_tpks_t_4_pd_detail_2_pbr_ic)
+
+![Death Note](https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+Death Note
+
+8,9
+
+[Death Note](https://www.imdb.com/fr/title/tt0877057/?ref_=tt_tpks_t_5_pd_detail_2_pbr_ic)
+
+![Demon Slayer - Kimetsu no Yaiba, le film : Le Train de l'Infini](https://m.media-amazon.com/images/M/MV5BYmEwNjIyNDItNjVjOS00NjM5LWJlOGUtODI4YWFlZmQ0MjJmXkEyXkFqcGc@._V1_QL75_UY207_CR3,0,140,207_.jpg)
+
+Demon Slayer - Kimetsu no Yaiba, le film: Le Train de l'Infini
+
+8,2
+
+[Demon Slayer - Kimetsu no Yaiba, le film: Le Train de l'Infini](https://www.imdb.com/fr/title/tt11032374/?ref_=tt_tpks_t_6_pd_detail_2_pbr_ic)
+
+![Les Enfants du temps](https://m.media-amazon.com/images/M/MV5BNDNkOTczZmMtYWE1OS00MTY1LTk1NmUtZDc5YzZhM2RmZjk3XkEyXkFqcGc@._V1_QL75_UY207_CR4,0,140,207_.jpg)
+
+Les Enfants du temps
+
+7,5
+
+[Les Enfants du temps](https://www.imdb.com/fr/title/tt9426210/?ref_=tt_tpks_t_7_pd_detail_2_pbr_ic)
+
+![Silent Voice](https://m.media-amazon.com/images/M/MV5BZjMzZDMzMDYtMGU1ZC00MGJjLWJhYjgtZGUzMzg5YjNmY2ZmXkEyXkFqcGc@._V1_QL75_UY207_CR3,0,140,207_.jpg)
+
+Silent Voice
+
+8,1
+
+[Silent Voice](https://www.imdb.com/fr/title/tt5323662/?ref_=tt_tpks_t_8_pd_detail_2_pbr_ic)
+
+![SPY×FAMILY](https://m.media-amazon.com/images/M/MV5BZDkwNjc0NWEtNzJlOC00N2YwLTk4MjktZGFlZDE2Y2QzOWI0XkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+SPY×FAMILY
+
+8,3
+
+[SPY×FAMILY](https://www.imdb.com/fr/title/tt13706018/?ref_=tt_tpks_t_9_pd_detail_2_pbr_ic)
+
+![Neon Genesis Evangelion](https://m.media-amazon.com/images/M/MV5BZjZjZGI3ZDQtODNmZC00NjE0LTlmYTUtOTljMWI2YjNmMTQ0XkEyXkFqcGc@._V1_QL75_UY207_CR4,0,140,207_.jpg)
+
+Neon Genesis Evangelion
+
+8,5
+
+[Neon Genesis Evangelion](https://www.imdb.com/fr/title/tt0112159/?ref_=tt_tpks_t_10_pd_detail_2_pbr_ic)
+
+![Le Garçon et le Héron](https://m.media-amazon.com/images/M/MV5BODYxZTg0ZmEtZjY5Yy00N2ZkLWIzZWItNzRlNjRhOGNlNTM3XkEyXkFqcGc@._V1_QL75_UY207_CR6,0,140,207_.jpg)
+
+Le Garçon et le Héron
+
+7,4
+
+[Le Garçon et le Héron](https://www.imdb.com/fr/title/tt6587046/?ref_=tt_tpks_t_11_pd_detail_2_pbr_ic)
+
+![Cowboy Bebop](https://m.media-amazon.com/images/M/MV5BMTU3ZTdiOGQtYmYwYy00OGM5LThmNjMtZGJmNTVlZjk1ZmEyXkEyXkFqcGc@._V1_QL75_UY207_CR6,0,140,207_.jpg)
+
+Cowboy Bebop
+
+8,9
+
+[Cowboy Bebop](https://www.imdb.com/fr/title/tt0213338/?ref_=tt_tpks_t_12_pd_detail_2_pbr_ic)
+
+![Hotarubi no mori e](https://m.media-amazon.com/images/M/MV5BNTQyOTlhMzEtYWYyYi00YmQ5LWExYmYtNGY2MGYwOTg1YjM0XkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+Hotarubi no mori e
+
+7,8
+
+[Hotarubi no mori e](https://www.imdb.com/fr/title/tt2061702/?ref_=tt_tpks_t_13_pd_detail_2_pbr_ic)
+
+7,8
+
+[Look Back](https://www.imdb.com/fr/title/tt31711040/?ref_=tt_tpks_t_14_pd_detail_2_pbr_ic)
+
+![Tokyo Ghoul](https://m.media-amazon.com/images/M/MV5BZWI2NzZhMTItOTM3OS00NjcyLThmN2EtZGZjMjlhYWMwODMzXkEyXkFqcGc@._V1_QL75_UY207_CR3,0,140,207_.jpg)
+
+Tokyo Ghoul
+
+7,7
+
+[Tokyo Ghoul](https://www.imdb.com/fr/title/tt3741634/?ref_=tt_tpks_t_15_pd_detail_2_pbr_ic)
+
+![Perfect Blue](https://m.media-amazon.com/images/M/MV5BNGZkNmZjOWEtZTY4OS00M2E2LWJlMmYtNTcyNjg3YzE1ODIxXkEyXkFqcGc@._V1_QL75_UY207_CR3,0,140,207_.jpg)
+
+Perfect Blue
+
+8,0
+
+[Perfect Blue](https://www.imdb.com/fr/title/tt0156887/?ref_=tt_tpks_t_16_pd_detail_2_pbr_ic)
+
+![Your Lie in April](https://m.media-amazon.com/images/M/MV5BZGMyYmFmNzgtMWQ4NS00MWE2LTg4YmEtZGY1MTBiODE0YmE5XkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+Your Lie in April
+
+8,5
+
+[Your Lie in April](https://www.imdb.com/fr/title/tt3895150/?ref_=tt_tpks_t_17_pd_detail_2_pbr_ic)
+
+![Jujutsu Kaisen 0](https://m.media-amazon.com/images/M/MV5BMzNhZTdmNDYtNTA0NC00MmNmLWIzYjUtNjg5NzNlYWQ0N2E5XkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+Jujutsu Kaisen 0
+
+7,8
+
+[Jujutsu Kaisen 0](https://www.imdb.com/fr/title/tt14331144/?ref_=tt_tpks_t_18_pd_detail_2_pbr_ic)
+
+7,6
+
+[Suzume](https://www.imdb.com/fr/title/tt16428256/?ref_=tt_tpks_t_19_pd_detail_2_pbr_ic)
+
+![Ghost in the Shell](https://m.media-amazon.com/images/M/MV5BMDdhZmE1YzMtYTliYS00NGZmLTk5NDMtZTI1YWFlOTc3NTIyXkEyXkFqcGc@._V1_QL75_UY207_CR3,0,140,207_.jpg)
+
+Ghost in the Shell
+
+7,9
+
+[Ghost in the Shell](https://www.imdb.com/fr/title/tt0113568/?ref_=tt_tpks_t_20_pd_detail_2_pbr_ic)
+
+![Your Name.](https://m.media-amazon.com/images/M/MV5BM2U1YzcyOGQtNjY5NC00ZWM0LTk0ZDItMTVhN2E2ODk3MWQ4XkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+Your Name.
+
+8,4
+
+[Your Name.](https://www.imdb.com/fr/title/tt5311514/?ref_=tt_tpks_t_21_pd_detail_2_pbr_ic)
+
+![Tokyo Godfathers](https://m.media-amazon.com/images/M/MV5BNmEzNDcwYzQtMzM0Zi00YWYxLTkzOWEtY2Y0ZTJiNDVjM2NkXkEyXkFqcGc@._V1_QL75_UX140_CR0,0,140,207_.jpg)
+
+Tokyo Godfathers
+
+7,8
+
+[Tokyo Godfathers](https://www.imdb.com/fr/title/tt0388473/?ref_=tt_tpks_t_22_pd_detail_2_pbr_ic)
+
+![Doukyuusei](https://m.media-amazon.com/images/M/MV5BNjdjMTVlOGItNTExNi00YjhjLWI4NjMtNGY3ZmJhMWMxNjdlXkEyXkFqcGc@._V1_QL75_UY207_CR3,0,140,207_.jpg)
+
+Doukyuusei
+
+7,7
+
+[Doukyuusei](https://www.imdb.com/fr/title/tt5526028/?ref_=tt_tpks_t_23_pd_detail_2_pbr_ic)
+
+![L'Île aux chiens](https://m.media-amazon.com/images/M/MV5BN2RhNjMwOGQtZGQ4Ny00M2M2LTkyYTgtYzY2ZmMyYzkxMThlXkEyXkFqcGc@._V1_QL75_UY207_CR6,0,140,207_.jpg)
+
+L'Île aux chiens
+
+7,8
+
+[L'Île aux chiens](https://www.imdb.com/fr/title/tt5104604/?ref_=tt_tpks_t_24_pd_detail_2_pbr_ic)
+
+![Le garçon et la bête](https://m.media-amazon.com/images/M/MV5BZmExNDQ4YTctNTRkMS00MWZiLThmNDgtOGU5MzZmYzkwODZhXkEyXkFqcGc@._V1_QL75_UY207_CR8,0,140,207_.jpg)
+
+Le garçon et la bête
+
+7,6
+
+[Le garçon et la bête](https://www.imdb.com/fr/title/tt4272866/?ref_=tt_tpks_t_25_pd_detail_2_pbr_ic)
+
+![The Garden of Words](https://m.media-amazon.com/images/M/MV5BYjdiMDdlMDItOGM4Ny00YmE4LTk0MTEtMGRhM2Y4OWZkZDZkXkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+The Garden of Words
+
+7,4
+
+[The Garden of Words](https://www.imdb.com/fr/title/tt2591814/?ref_=tt_tpks_t_26_pd_detail_2_pbr_ic)
+
+![Dans un recoin de ce monde](https://m.media-amazon.com/images/M/MV5BNjU1YTFiZGMtOGNiNy00M2JmLWEyNjgtYmRhNjBjOGRiZTA2XkEyXkFqcGc@._V1_QL75_UY207_CR8,0,140,207_.jpg)
+
+Dans un recoin de ce monde
+
+7,8
+
+[Dans un recoin de ce monde](https://www.imdb.com/fr/title/tt4769824/?ref_=tt_tpks_t_27_pd_detail_2_pbr_ic)
+
+![Les Contes de Terremer](https://m.media-amazon.com/images/M/MV5BZjg2MTc2ODUtZTczNi00YWFkLThlY2MtMmQ2ZWRkY2NiMWIyXkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+Les Contes de Terremer
+
+6,3
+
+[Les Contes de Terremer](https://www.imdb.com/fr/title/tt0495596/?ref_=tt_tpks_t_28_pd_detail_2_pbr_ic)
+
+![Demon Slayer: Kimetsu no Yaiba](https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg)
+
+Demon Slayer: Kimetsu no Yaiba
+
+8,6
+
+[Demon Slayer: Kimetsu no Yaiba](https://www.imdb.com/fr/title/tt9335498/?ref_=tt_tpks_t_29_pd_detail_2_pbr_ic)
+
+![Chainsaw Man](https://m.media-amazon.com/images/M/MV5BZGY2ZTM2MWMtNzA2OS00ZjJlLWIwZTMtMDBhN2EwYjZjZjEyXkEyXkFqcGc@._V1_QL75_UY207_CR0,0,140,207_.jpg)
+
+Chainsaw Man
+
+8,3
+
+[Chainsaw Man](https://www.imdb.com/fr/title/tt13616990/?ref_=tt_tpks_t_30_pd_detail_2_pbr_ic)

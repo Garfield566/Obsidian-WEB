@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'bigsamurai';
+    src: url('data:font/truetype;base64,') format('truetype');
+}
+.bigsamurai-text { font-family: 'bigsamurai', sans-serif !important; }

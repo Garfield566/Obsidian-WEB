@@ -1,0 +1,78 @@
+> [!infobox]
+> # 📚 [Titre du Livre]
+> ###### [Auteur]
+> ![[[Couverture du livre.png]|300]]
+>
+> ###### Détails Clés
+> | Catégorie | Information |
+> | :--- | :--- |
+> **Auteur(s)** | [[Nom de l'Auteur]] |
+> **Année de Publication** | [Année] |
+> **Genre Principal** | [Ex: Roman, Essai, Poésie, Science-Fiction, Polar] |
+> **Mouvement littéraire** | [Ex: Réalisme, Postmodernisme, Absurde, Baroque] |
+> **Langue Originale** | [Langue] |
+> **Nombre de Pages** | [Chiffre] |
+>
+> [Courte phrase ou citation résumant l'œuvre et son impact.]
+
+---
+
+## 💡 Thèmes et Idées Centrales
+
+### 📝 Résumé de l'intrigue (ou Thèse pour un Essai)
+> [!abstract]
+> [Résumé concis de l'histoire (ou de l'argumentation principale de l'essai), en insistant sur le conflit ou la question centrale.]
+
+### 📌 Thèmes Majeurs
+* **Thème 1 :** [Ex: La quête d'identité, la critique sociale, la fatalité, l'amour interdit.]
+* **Thème 2 :** [Ex: Le rôle de la mémoire, l'influence de la technologie, la nature humaine.]
+* **Motivation de l'Auteur :** [Quel message l'auteur cherchait-il à transmettre ?]
+
+---
+
+## ✍️ Structure et Style
+
+> [!notion]- #### Structure Narrative
+>
+> * **Point de Vue (Narration) :** [Ex: Première personne (Je), Troisième personne omnisciente, Narration interne.]
+> * **Organisation :** [Ex: Linéaire, Récit éclaté, Flashbacks fréquents, Chapitres thématiques.]
+> * **Rythme :** [Ex: Rapide et rythmé (action), Lent et introspectif (description).]
+
+> [!notion]- #### Style Littéraire
+>
+> * **Registre de Langue :** [Ex: Soutenu, Lyrique, Ironique, Brutal, Mélange de registres.]
+> * **Particularités Stylistiques :** [Ex: Longues phrases descriptives, dialogues vifs, utilisation de la parataxe, humour noir.]
+> * **Atmosphère/Tonalité :** [Ex: Mélancolique, Anxiogène, Comique, Épique.]
+
+---
+
+## 👥 Personnages et Citations (Pour un Roman)
+
+> [!notion]- #### [Nom du Personnage Principal]
+>
+> | Rôle | Caractéristique |
+> | :--- | :--- |
+> | **Fonction** | [Ex: Héros, Victime, Observateur, Narrateur] |
+> | **Motivation** | [Ce qui le guide : ambition, peur, idéal] |
+> | **Évolution** | [Son parcours psychologique et physique.] |
+>
+> > [!quote] Citation Clé :
+> > "[Un extrait qui définit le personnage ou un moment clé de l'intrigue.]"
+
+---
+
+## 🧐 Réception et Contexte
+
+> [!critique]- #### Critique et Influence
+>
+> * **Réception Initiale :** [Comment le livre a-t-il été accueilli par la critique et le public à sa sortie ?]
+> * **Impact Historique/Culturel :** [A-t-il provoqué un scandale ? Changé les codes du genre ?]
+> * **Influence Postérieure :** [Quels autres auteurs ou œuvres a-t-il inspirés ? (Ex: [[Auteur X]])]
+
+> [!info] **Analyse Personnelle**
+> * **Mon Passage Préféré :** [Localisation (Chapitre/Page) et raison.]
+> * **Note :** [Votre évaluation personnelle sur 5 ou 10.]
+
+---
+
+## 🏷️ Liens Obsidienne (Mots-clés / Tags)

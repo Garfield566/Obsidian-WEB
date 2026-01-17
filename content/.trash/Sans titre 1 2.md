@@ -1,0 +1,5 @@
+> [!PDF|yellow] [[La-fable-des-abeilles.pdf#page=5&selection=20,0,46,73&color=yellow|La-fable-des-abeilles, p.5]]
+> Un nombreux essaim d’abeilles habitait une ruche spacieuse. Là, dans une heureuse abondance, elles vivaient tranquilles. Ces mouches, célèbres par leurs lois, ne l’étaient pas moins par le succès de leurs armes, et par la manière dont elles se multipliaient. Leur domicile était un séminaire parfait de science et d’industrie. Jamais abeilles ne vécurent sous un plus sage gouvernement : cependant, jamais il n’y en eut de plus inconstantes et de moins satisfaites. Elles n’étaient, ni les malheureuses esclaves d’une dure tyrannie, ni exposées aux cruels désordres de la féroce démocratie. Elles étaient conduites par des rois qui ne pouvaient errer, parce que leur pouvoir était sagement borné par les lois
+""
+
+#économie

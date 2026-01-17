@@ -1,0 +1,13 @@
+
+/* Police générée automatiquement par Typo Embedder Plugin */
+@font-face {
+    font-family: 'vorname';
+    src: url('data:font/truetype;base64,') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Exemple d'utilisation */
+.vorname-text {
+    font-family: 'vorname', sans-serif;
+}

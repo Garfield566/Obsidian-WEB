@@ -1,0 +1,91 @@
+# Structure de données pour organiser Jusnaturalisme et Positivisme Juridique
+
+philosophie_du_droit = {
+    "Jusnaturalisme": {
+        "definition": "Le juste est le respect du droit naturel.",
+        "critique_sentiment_injustice": [
+            "Confusion intérêt particulier à court terme vs juste pour tous.",
+            "Sensibilité limitée à ses propres intérêts.",
+            "Confusion entre le juste et l’habitude (ex: apartheid).",
+            "Manipulation émotionnelle via médias (ex: affaire Outreau)."
+        ],
+        "raison_droit_naturel": "La raison fournit un critère fiable : le droit naturel (DN).",
+        "droit_naturel_vs_positif": {
+            "DN": "Droits attachés à la nature humaine, universels et immuables.",
+            "DP": "Droits donnés par l'État, variables selon temps et lieu."
+        },
+        "principe_fondamental": "Égalité par nature (mêmes droits fondamentaux pour tous).",
+        "critere_injustice": "Loi injuste si elle viole l'égalité et les droits naturels.",
+        "hierarchie_droits": ["Vie", "Dignité", "Liberté"],
+        "role_etat": "L'État doit faire respecter le DN via un DP conforme.",
+        "regimes": {
+            "injuste": [
+                "Non respect du DN.",
+                "Arguments sécuritaires ou religieux pour justifier l’injustice.",
+                "Domination via peur."
+            ],
+            "juste": [
+                "Respect du DN.",
+                "Débat public et consentement.",
+                "Application de la force pour protéger droits."
+            ]
+        },
+        "kant_vs_rousseau": {
+            "accord": "Le jusnaturalisme est critère du juste.",
+            "desaccord": {
+                "rousseau": "Pouvoir au législateur, droit à la révolution.",
+                "kant": "Pas d'homme juste absolu, obéissance inconditionnelle, séparation des pouvoirs."
+            }
+        },
+        "objections": [
+            "Fausse universalité (exclusions femmes, races).",
+            "Absence de consensus universel sur les droits."
+        ],
+        "conclusion": "Le DN est idéal mais limité; raison et État indispensables."
+    },
+    "Positivisme_juridique": {
+        "absence_critere_moral": "Pas de critère moral universel du juste.",
+        "dissensus_irreduisible": "Désaccord sur le juste irréductible.",
+        "separation_droit_morale": "DP distinct de la morale, impose règles sociales.",
+        "types_regles": {
+            "morale": "Privée, sanction = mauvaise conscience.",
+            "sociale": "Non écrite, sanction = critique sociale.",
+            "droit": "Écrite, sanction = intervention judiciaire."
+        },
+        "contenu_dp": "Organise la vie sociale, pas forcément moral.",
+        "prescription": "Délai légal pour poursuivre un acte, sauf crimes imprescriptibles.",
+        "qualification_juridique": "Traduit faits en règles pour juger.",
+        "regles_internes": {
+            "hierarchie_normes": [
+                "Constitution",
+                "Traités internationaux",
+                "Lois",
+                "Règlements"
+            ],
+            "modus_ponens": [
+                "Majeure : Si A alors B.",
+                "Mineure : A constaté.",
+                "Conclusion : B appliqué."
+            ],
+            "garanties_procedure": [
+                "Procès public",
+                "Défense",
+                "Verdict motivé",
+                "Appel"
+            ]
+        },
+        "conclusion": "État de droit = soumission aux règles, pas à l’arbitraire.",
+        "hans_kelsen": {
+            "essence": "Théorie pure du droit, sans morale externe.",
+            "democratie_vs_autocratie": {
+                "autocratie": "Prétend savoir le juste absolu.",
+                "democratie": "Accepte pluralité, débat et compromis."
+            },
+            "modele_bottom_up": "Parlement cherche compromis, pas vérité absolue."
+        }
+    }
+}
+
+# Exemple d'affichage simple
+import pprint
+pprint.pprint(philosophie_du_droit)
