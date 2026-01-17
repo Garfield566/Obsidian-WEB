@@ -2,6 +2,8 @@
 cssclass: menustable
 banner: "![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20230702214935.png]]"
 ---
+
+tube
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
