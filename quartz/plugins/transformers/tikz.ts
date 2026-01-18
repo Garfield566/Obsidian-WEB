@@ -2,16 +2,17 @@ import { Code, Root as MdRoot } from "mdast"
 import { QuartzTransformerPlugin } from "../types"
 import { visit } from "unist-util-visit"
 import { load, tex, dvi2svg } from "node-tikzjax"
-import { h, s } from "hastscript"
+import { h } from "hastscript"
 import { Element, Properties } from "hast"
 import { toHtml } from "hast-util-to-html"
 import { fromHtmlIsomorphic } from "hast-util-from-html-isomorphic"
+import { BuildCtx } from "../../util/ctx"
 
 async function tex2svg(input: string, showConsole: boolean) {
   await load()
   const dvi = await tex(input, {
     texPackages: { pgfplots: "", amsmath: "intlimits" },
-    tikzLibraries: "arrows.meta,calc,positioning",
+    tikzLibraries: "arrows.meta,calc,positioning,patterns",
     addToPreamble: "% comment",
     showConsole,
   })
@@ -70,15 +71,15 @@ export const TikzJax: QuartzTransformerPlugin<Options> = (opts?: Options) => {
   const o = { ...defaultOpts, ...opts }
   return {
     name: "TikzJax",
-    markdownPlugins({ argv }) {
+    markdownPlugins(ctx: BuildCtx) {
       // Skip tikz transpilation during watch mode (takes too long)
-      if (argv.watch && !argv.force) return []
+      if (ctx.argv.watch) return []
 
       return [
         () => async (tree) => {
           const nodes: TikzNode[] = []
           visit(tree, "code", (node: Code, index, parent) => {
-            let { lang, meta, value } = node
+            const { lang, meta, value } = node
             if (lang === "tikz") {
               const base64Match = meta?.match(/alt\s*=\s*"data:image\/svg\+xml;base64,([^"]+)"/)
               let base64String = undefined
@@ -97,16 +98,24 @@ export const TikzJax: QuartzTransformerPlugin<Options> = (opts?: Options) => {
           for (let i = 0; i < nodes.length; i++) {
             const { index, parent, value, base64 } = nodes[i]
             let svg
-            if (base64 !== undefined) svg = base64
-            else svg = await tex2svg(value, o.showConsole)
-            const node = parent.children[index] as Code
+            try {
+              if (base64 !== undefined) {
+                svg = base64
+              } else {
+                svg = await tex2svg(value, o.showConsole)
+              }
+              const node = parent.children[index] as Code
 
-            parent.children.splice(index, 1, {
-              type: "html",
-              value: toHtml(makeTikzGraph(node, svg, parseStyle(node?.meta)), {
-                allowDangerousHtml: true,
-              }),
-            })
+              parent.children.splice(index, 1, {
+                type: "html",
+                value: toHtml(makeTikzGraph(node, svg, parseStyle(node?.meta)), {
+                  allowDangerousHtml: true,
+                }),
+              })
+            } catch (e) {
+              console.error(`[TikzJax] Error rendering TikZ diagram: ${e}`)
+              // Keep original code block on error
+            }
           }
         },
       ]
