@@ -1,0 +1,82 @@
+name: Analyze Tags
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**/*.md'
+      - 'content/.obsidian/plugins/emergent-tags/decisions.json'
+  workflow_dispatch:  # Permet de lancer manuellement
+  schedule:
+    - cron: '0 2 * * *'  # Quotidien à 2h UTC
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'backend/requirements.txt'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      # Persistance de la DB via artifacts GitHub
+      - name: Download previous database
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          workflow: analyze-tags.yml
+          name: analysis-db
+          path: backend/data/
+          if_no_artifact_found: warn
+        continue-on-error: true
+
+      - name: Create directories
+        run: |
+          mkdir -p backend/data
+          mkdir -p content/.obsidian/plugins/emergent-tags
+
+      - name: Run analysis
+        run: |
+          python -m backend.src.main \
+            --vault-path ./content \
+            --output content/.obsidian/plugins/emergent-tags/suggestions.json \
+            --db-path backend/data/tags.db \
+            --decisions content/.obsidian/plugins/emergent-tags/decisions.json \
+            --verbose
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+
+      # Upload DB comme artifact (retention 90 jours)
+      - name: Upload database artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-db
+          path: backend/data/tags.db
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet content/.obsidian/plugins/emergent-tags/suggestions.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit suggestions
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config user.name "Tag Analyzer Bot"
+          git config user.email "bot@github.com"
+          git add content/.obsidian/plugins/emergent-tags/suggestions.json
+          git commit -m "🏷️ Update tag suggestions [skip ci]" || exit 0
+          git push
