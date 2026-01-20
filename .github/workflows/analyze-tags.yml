@@ -5,11 +5,14 @@ on:
     branches: [main]
     paths:
       - 'content/**/*.md'
-      - 'content/.obsidian/plugins/emergent-tags/decisions.json'
+      - 'content/emergent-tags/decisions.json'
       - 'backend/**/*.py'
   workflow_dispatch:  # Permet de lancer manuellement
   schedule:
     - cron: '0 2 * * *'  # Quotidien à 2h UTC
+
+permissions:
+  contents: write  # Permet au workflow de pousser des commits
 
 jobs:
   analyze:
@@ -18,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
         with:
           fetch-depth: 0
 
@@ -55,15 +60,15 @@ jobs:
       - name: Create directories
         run: |
           mkdir -p backend/data
-          mkdir -p content/.obsidian/plugins/emergent-tags
+          mkdir -p content/emergent-tags
 
       - name: Run analysis
         run: |
           python -m backend.src.main \
             --vault-path ./content \
-            --output content/.obsidian/plugins/emergent-tags/suggestions.json \
+            --output content/emergent-tags/suggestions.json \
             --db-path backend/data/tags.db \
-            --decisions content/.obsidian/plugins/emergent-tags/decisions.json \
+            --decisions content/emergent-tags/decisions.json \
             --verbose
         env:
           PYTHONPATH: ${{ github.workspace }}
@@ -81,15 +86,15 @@ jobs:
       - name: Commit suggestions
         run: |
           echo "=== Checking suggestions file ==="
-          ls -la content/.obsidian/plugins/emergent-tags/ || echo "Directory not found"
+          ls -la content/emergent-tags/ || echo "Directory not found"
 
-          if [ -f content/.obsidian/plugins/emergent-tags/suggestions.json ]; then
+          if [ -f content/emergent-tags/suggestions.json ]; then
             echo "✅ suggestions.json found"
-            echo "File size: $(wc -c < content/.obsidian/plugins/emergent-tags/suggestions.json) bytes"
+            echo "File size: $(wc -c < content/emergent-tags/suggestions.json) bytes"
 
             git config user.name "Tag Analyzer Bot"
             git config user.email "bot@github.com"
-            git add content/.obsidian/plugins/emergent-tags/suggestions.json
+            git add content/emergent-tags/suggestions.json
 
             if git diff --staged --quiet; then
               echo "No changes to commit"
