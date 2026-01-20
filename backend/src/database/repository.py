@@ -20,6 +20,19 @@ from .models import (
 )
 
 
+class NumpyEncoder(json.JSONEncoder):
+    """Encodeur JSON qui gère les types numpy."""
+
+    def default(self, obj):
+        if isinstance(obj, np.floating):
+            return float(obj)
+        if isinstance(obj, np.integer):
+            return int(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super().default(obj)
+
+
 class Repository:
     """Gestionnaire des opérations de base de données."""
 
@@ -154,8 +167,8 @@ class Repository:
         """Crée un nouveau tag latent."""
         latent = LatentTag(
             name=name,
-            confidence=confidence,
-            reasoning=json.dumps(reasoning) if reasoning else None,
+            confidence=float(confidence) if isinstance(confidence, np.floating) else confidence,
+            reasoning=json.dumps(reasoning, cls=NumpyEncoder) if reasoning else None,
         )
         self.session.add(latent)
         self.session.flush()  # Pour obtenir l'ID
@@ -223,8 +236,8 @@ class Repository:
         suggestion = TagSuggestion(
             tag_name=tag_name,
             note_path=note_path,
-            confidence=confidence,
-            reasoning=json.dumps(reasoning) if reasoning else None,
+            confidence=float(confidence) if isinstance(confidence, np.floating) else confidence,
+            reasoning=json.dumps(reasoning, cls=NumpyEncoder) if reasoning else None,
         )
         self.session.add(suggestion)
         self.session.commit()
@@ -319,9 +332,9 @@ class Repository:
         """Crée un nouveau cluster."""
         cluster = Cluster(
             name=name,
-            coherence=coherence,
-            centroid_terms=json.dumps(centroid_terms) if centroid_terms else None,
-            suggested_tags=json.dumps(suggested_tags) if suggested_tags else None,
+            coherence=float(coherence) if coherence is not None and isinstance(coherence, np.floating) else coherence,
+            centroid_terms=json.dumps(centroid_terms, cls=NumpyEncoder) if centroid_terms else None,
+            suggested_tags=json.dumps(suggested_tags, cls=NumpyEncoder) if suggested_tags else None,
         )
         if centroid is not None:
             cluster.set_centroid(centroid)
