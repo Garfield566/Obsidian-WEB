@@ -124,48 +124,38 @@ class SimilarityEngineV2:
         def process_batch(batch_notes: list[ParsedNote]) -> dict:
             return self.embedder.embed_notes(batch_notes)
 
-        # Traite note par note avec timeout pour éviter les blocages
+        # Traite note par note - VERSION SIMPLIFIÉE POUR DEBUG
         all_embeddings = {}
         total_notes = len(notes)
         errors = []
-        skipped = []
-
-        for i, note in enumerate(notes):
-            try:
-                # Log pour toutes les notes à partir de 90%
-                if show_progress and (i / total_notes) >= 0.90:
-                    print(f"\n   [{i+1}/{total_notes}] {note.path[-70:]}...", end="", flush=True)
-
-                # Utilise ThreadPoolExecutor pour timeout
-                with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
-                    future = executor.submit(self.embedder.embed_note, note)
-                    try:
-                        embedding = future.result(timeout=NOTE_EMBEDDING_TIMEOUT)
-                        all_embeddings[note.path] = embedding
-                        if show_progress and (i / total_notes) >= 0.90:
-                            print(" OK", flush=True)
-                    except concurrent.futures.TimeoutError:
-                        skipped.append(note.path)
-                        all_embeddings[note.path] = np.zeros(self.embedder.embedding_dim)
-                        if show_progress:
-                            print(f" TIMEOUT ({NOTE_EMBEDDING_TIMEOUT}s)", flush=True)
-
-            except Exception as e:
-                errors.append(f"Note {note.path}: {str(e)}")
-                all_embeddings[note.path] = np.zeros(self.embedder.embedding_dim)
-                if show_progress:
-                    print(f"\n   ⚠️ Erreur: {note.path[-50:]}: {str(e)[:50]}", flush=True)
-
-            if show_progress and (i + 1) % 100 == 0 and (i / total_notes) < 0.90:
-                pct = (i + 1) / total_notes * 100
-                print(f"   Embeddings: {pct:.1f}%", flush=True)
 
         if show_progress:
-            print(f"   Embeddings: 100%")
+            print(f"\n   === TRAITEMENT DE {total_notes} NOTES ===", flush=True)
+
+        for i, note in enumerate(notes):
+            pct = (i + 1) / total_notes * 100
+
+            # Affiche progression tous les 10%
+            if show_progress and (i + 1) % max(1, total_notes // 10) == 0:
+                print(f"   Progression: {pct:.0f}% ({i+1}/{total_notes})", flush=True)
+
+            # Affiche chaque note à partir de 85%
+            if show_progress and pct >= 85:
+                print(f"   -> [{i+1}] {note.path[-60:]}", flush=True)
+
+            try:
+                embedding = self.embedder.embed_note(note)
+                all_embeddings[note.path] = embedding
+            except Exception as e:
+                errors.append(note.path)
+                all_embeddings[note.path] = np.zeros(self.embedder.embedding_dim)
+                if show_progress:
+                    print(f"   ⚠️ ERREUR: {str(e)[:80]}", flush=True)
+
+        if show_progress:
+            print(f"\n   === TERMINÉ: {len(all_embeddings)} embeddings ===", flush=True)
             if errors:
-                print(f"   ⚠️ {len(errors)} erreurs")
-            if skipped:
-                print(f"   ⏱️ {len(skipped)} notes ignorées (timeout)")
+                print(f"   ⚠️ {len(errors)} erreurs", flush=True)
 
         # Construit l'index vectoriel
         paths = list(all_embeddings.keys())
