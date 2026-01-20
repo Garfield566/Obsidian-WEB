@@ -121,17 +121,29 @@ class SimilarityEngineV2:
 
         # Traite par batch
         all_embeddings = {}
-        for i in range(0, len(notes), self.config.batch_size):
+        total_notes = len(notes)
+        errors = []
+
+        for i in range(0, total_notes, self.config.batch_size):
             batch = notes[i:i + self.config.batch_size]
-            batch_embeddings = self.embedder.embed_notes(batch)
-            all_embeddings.update(batch_embeddings)
+
+            try:
+                # Désactive la progression de l'embedder pour éviter les doublons
+                batch_embeddings = self.embedder.embed_notes(batch, show_progress=False)
+                all_embeddings.update(batch_embeddings)
+            except Exception as e:
+                errors.append(f"Batch {i // self.config.batch_size}: {str(e)}")
+                # Continue avec le batch suivant
+                continue
 
             if show_progress:
-                pct = min(100, (i + len(batch)) / len(notes) * 100)
+                pct = min(100, (i + len(batch)) / total_notes * 100)
                 print(f"\r   Embeddings: {pct:.1f}%", end="", flush=True)
 
         if show_progress:
             print()
+            if errors:
+                print(f"   ⚠️ {len(errors)} erreurs lors de l'embedding")
 
         # Construit l'index vectoriel
         paths = list(all_embeddings.keys())

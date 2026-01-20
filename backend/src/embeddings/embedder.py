@@ -3,10 +3,15 @@
 from typing import Optional
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from tqdm import tqdm
+import signal
+import sys
 
 from ..parsers.note_parser import ParsedNote
 from ..database.repository import Repository
+
+
+# Timeout pour l'embedding d'une note (en secondes)
+EMBEDDING_TIMEOUT = 30
 
 
 class Embedder:
@@ -112,11 +117,25 @@ class Embedder:
 
         # Génère les embeddings manquants
         if notes_to_embed:
-            iterator = tqdm(notes_to_embed, desc="Embedding notes") if show_progress else notes_to_embed
+            total = len(notes_to_embed)
+            errors = []
 
-            for note in iterator:
-                embedding = self.embed_note(note)
-                embeddings[note.path] = embedding
+            for i, note in enumerate(notes_to_embed):
+                try:
+                    embedding = self.embed_note(note)
+                    embeddings[note.path] = embedding
+                except Exception as e:
+                    errors.append((note.path, str(e)))
+                    # Crée un embedding nul pour les notes problématiques
+                    embeddings[note.path] = np.zeros(self._embedding_dim)
+
+                if show_progress and (i + 1) % 50 == 0:
+                    print(f"   Embeddings: {(i + 1) / total * 100:.1f}%")
+
+            if show_progress:
+                print(f"   Embeddings: 100%")
+                if errors:
+                    print(f"   ⚠️ {len(errors)} notes avec erreurs (embeddings nuls)")
 
         return embeddings
 
