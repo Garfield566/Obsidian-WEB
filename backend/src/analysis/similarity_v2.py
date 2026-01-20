@@ -11,16 +11,10 @@ from dataclasses import dataclass, field
 from typing import Optional
 import numpy as np
 from tqdm import tqdm
-import concurrent.futures
-import time
 
 from ..parsers.note_parser import ParsedNote
 from ..embeddings.embedder import Embedder
 from .vector_index import VectorIndex, SearchResult
-from .batch_processor import BatchProcessor, print_progress
-
-# Timeout pour l'embedding d'une note (secondes)
-NOTE_EMBEDDING_TIMEOUT = 30
 
 
 @dataclass
@@ -112,50 +106,30 @@ class SimilarityEngineV2:
             self._tags_by_note[note.path] = set(note.tags)
             self._links_by_note[note.path] = set(note.outgoing_links)
 
-        # Génère les embeddings par batch
+        # Génère les embeddings
         if show_progress:
             print(f"   Indexation de {len(notes)} notes...")
 
-        processor = BatchProcessor(
-            batch_size=self.config.batch_size,
-            progress_callback=print_progress if show_progress else None,
-        )
-
-        def process_batch(batch_notes: list[ParsedNote]) -> dict:
-            return self.embedder.embed_notes(batch_notes)
-
-        # Traite note par note - VERSION SIMPLIFIÉE POUR DEBUG
+        # Traite note par note
         all_embeddings = {}
         total_notes = len(notes)
         errors = []
 
-        if show_progress:
-            print(f"\n   === TRAITEMENT DE {total_notes} NOTES ===", flush=True)
-
         for i, note in enumerate(notes):
-            pct = (i + 1) / total_notes * 100
-
-            # Affiche progression tous les 10%
-            if show_progress and (i + 1) % max(1, total_notes // 10) == 0:
-                print(f"   Progression: {pct:.0f}% ({i+1}/{total_notes})", flush=True)
-
-            # Affiche chaque note à partir de 85%
-            if show_progress and pct >= 85:
-                print(f"   -> [{i+1}] {note.path[-60:]}", flush=True)
-
             try:
                 embedding = self.embedder.embed_note(note)
                 all_embeddings[note.path] = embedding
             except Exception as e:
                 errors.append(note.path)
                 all_embeddings[note.path] = np.zeros(self.embedder.embedding_dim)
-                if show_progress:
-                    print(f"   ⚠️ ERREUR: {str(e)[:80]}", flush=True)
 
-        if show_progress:
-            print(f"\n   === TERMINÉ: {len(all_embeddings)} embeddings ===", flush=True)
-            if errors:
-                print(f"   ⚠️ {len(errors)} erreurs", flush=True)
+            # Affiche progression tous les 10%
+            if show_progress and (i + 1) % max(1, total_notes // 10) == 0:
+                pct = (i + 1) / total_notes * 100
+                print(f"   Embeddings: {pct:.0f}%", flush=True)
+
+        if show_progress and errors:
+            print(f"   ⚠️ {len(errors)} notes avec erreurs")
 
         # Construit l'index vectoriel
         paths = list(all_embeddings.keys())
