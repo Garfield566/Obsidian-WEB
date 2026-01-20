@@ -226,38 +226,49 @@ class TagHealthAnalyzer:
         """Calcule la cohérence et la dispersion d'un groupe de notes.
 
         Retourne (coherence, dispersion).
+        Optimisé: utilise le cache et limite à un échantillon de 20 notes max.
         """
         if len(note_paths) < 2:
             return 1.0, 0.0
 
-        # Récupère les embeddings
+        import numpy as np
+
+        # Limite à un échantillon pour éviter les calculs trop longs
+        sample_paths = note_paths[:20] if len(note_paths) > 20 else note_paths
+
+        # Récupère les embeddings depuis le cache DB uniquement (pas de recalcul)
         embeddings = []
-        for path in note_paths:
-            note = self.notes.get(path)
-            if note:
-                embedding = self.embedder.embed_note(note)
-                embeddings.append(embedding)
+        for path in sample_paths:
+            if self.repository:
+                db_note = self.repository.get_note(path)
+                if db_note:
+                    cached = db_note.get_embedding()
+                    if cached is not None:
+                        embeddings.append(cached)
 
         if len(embeddings) < 2:
-            return 1.0, 0.0
+            # Pas assez d'embeddings en cache, retourne valeurs par défaut
+            return 0.7, 0.2
 
-        import numpy as np
         embeddings = np.array(embeddings)
 
-        # Cohérence = similarité moyenne entre toutes les paires
+        # Cohérence = similarité moyenne (échantillon limité)
+        sample_size = min(10, len(embeddings))
         total_sim = 0.0
         count = 0
-        for i in range(len(embeddings)):
-            for j in range(i + 1, len(embeddings)):
+        for i in range(sample_size):
+            for j in range(i + 1, sample_size):
                 sim = np.dot(embeddings[i], embeddings[j])
                 total_sim += sim
                 count += 1
 
-        coherence = total_sim / count if count > 0 else 0.0
+        coherence = total_sim / count if count > 0 else 0.7
 
         # Dispersion = écart-type des distances au centroïde
         centroid = np.mean(embeddings, axis=0)
-        centroid = centroid / np.linalg.norm(centroid)
+        norm = np.linalg.norm(centroid)
+        if norm > 0:
+            centroid = centroid / norm
 
         distances = [1 - np.dot(e, centroid) for e in embeddings]
         dispersion = np.std(distances)
@@ -284,14 +295,36 @@ class TagHealthAnalyzer:
         return "stable"
 
     def _find_similar_tags(self, tag_name: str, top_k: int = 3) -> list[str]:
-        """Trouve les tags similaires à un tag donné."""
+        """Trouve les tags similaires à un tag donné.
+
+        Optimisé: utilise le cache des embeddings de tags.
+        """
         all_tags = list(self._tag_notes.keys())
         if len(all_tags) < 2:
             return []
 
-        tag_embeddings = self.embedder.embed_tags(all_tags)
-        target_embedding = tag_embeddings.get(tag_name)
+        # Limite le nombre de tags à comparer pour éviter les calculs trop longs
+        if len(all_tags) > 100:
+            # Prend seulement les tags les plus utilisés
+            sorted_tags = sorted(all_tags, key=lambda t: len(self._tag_notes.get(t, [])), reverse=True)
+            all_tags = sorted_tags[:100]
+            if tag_name not in all_tags:
+                all_tags.append(tag_name)
 
+        # Utilise le cache si possible
+        tag_embeddings = {}
+        for tag in all_tags:
+            if self.repository:
+                db_tag = self.repository.get_tag(tag)
+                if db_tag:
+                    cached = db_tag.get_embedding()
+                    if cached is not None:
+                        tag_embeddings[tag] = cached
+                        continue
+            # Si pas en cache, calcule (mais devrait être rare)
+            tag_embeddings[tag] = self.embedder.embed_tag(tag)
+
+        target_embedding = tag_embeddings.get(tag_name)
         if target_embedding is None:
             return []
 
