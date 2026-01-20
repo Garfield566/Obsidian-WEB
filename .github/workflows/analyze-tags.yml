@@ -6,6 +6,7 @@ on:
     paths:
       - 'content/**/*.md'
       - 'content/.obsidian/plugins/emergent-tags/decisions.json'
+      - 'backend/**/*.py'
   workflow_dispatch:  # Permet de lancer manuellement
   schedule:
     - cron: '0 2 * * *'  # Quotidien à 2h UTC
@@ -32,6 +33,15 @@ jobs:
           pip install --upgrade pip
           pip install -r backend/requirements.txt
 
+      # Cache pour le modèle Sentence-Transformers (~500MB)
+      - name: Cache Sentence-Transformers model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: huggingface-${{ runner.os }}-paraphrase-multilingual
+          restore-keys: |
+            huggingface-${{ runner.os }}-
+
       # Persistance de la DB via artifacts GitHub
       - name: Download previous database
         uses: dawidd6/action-download-artifact@v3
@@ -57,6 +67,7 @@ jobs:
             --verbose
         env:
           PYTHONPATH: ${{ github.workspace }}
+          HF_HOME: ~/.cache/huggingface
 
       # Upload DB comme artifact (retention 90 jours)
       - name: Upload database artifact
