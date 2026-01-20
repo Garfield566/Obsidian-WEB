@@ -119,29 +119,33 @@ class SimilarityEngineV2:
         def process_batch(batch_notes: list[ParsedNote]) -> dict:
             return self.embedder.embed_notes(batch_notes)
 
-        # Traite par batch
+        # Traite note par note pour identifier les problèmes
         all_embeddings = {}
         total_notes = len(notes)
         errors = []
 
-        for i in range(0, total_notes, self.config.batch_size):
-            batch = notes[i:i + self.config.batch_size]
-
+        for i, note in enumerate(notes):
             try:
-                # Désactive la progression de l'embedder pour éviter les doublons
-                batch_embeddings = self.embedder.embed_notes(batch, show_progress=False)
-                all_embeddings.update(batch_embeddings)
-            except Exception as e:
-                errors.append(f"Batch {i // self.config.batch_size}: {str(e)}")
-                # Continue avec le batch suivant
-                continue
+                # Log autour de 94% où le blocage se produit
+                if show_progress and 0.92 <= (i / total_notes) <= 0.96:
+                    print(f"\n   [DEBUG {i+1}/{total_notes}] {note.path[-60:]}...", flush=True)
 
-            if show_progress:
-                pct = min(100, (i + len(batch)) / total_notes * 100)
+                embedding = self.embedder.embed_note(note)
+                all_embeddings[note.path] = embedding
+
+            except Exception as e:
+                errors.append(f"Note {note.path}: {str(e)}")
+                # Embedding nul pour les notes problématiques
+                all_embeddings[note.path] = np.zeros(self.embedder.embedding_dim)
+                if show_progress:
+                    print(f"\n   ⚠️ Erreur: {note.path[-50:]}: {str(e)[:50]}", flush=True)
+
+            if show_progress and (i + 1) % 50 == 0:
+                pct = (i + 1) / total_notes * 100
                 print(f"\r   Embeddings: {pct:.1f}%", end="", flush=True)
 
         if show_progress:
-            print()
+            print(f"\r   Embeddings: 100%")
             if errors:
                 print(f"   ⚠️ {len(errors)} erreurs lors de l'embedding")
 

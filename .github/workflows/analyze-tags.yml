@@ -43,14 +43,15 @@ jobs:
             huggingface-${{ runner.os }}-
 
       # Persistance de la DB via artifacts GitHub
-      - name: Download previous database
-        uses: dawidd6/action-download-artifact@v3
-        with:
-          workflow: analyze-tags.yml
-          name: analysis-db
-          path: backend/data/
-          if_no_artifact_found: warn
-        continue-on-error: true
+      # TEMPORAIREMENT DÉSACTIVÉ pour debug - force recalcul complet
+      # - name: Download previous database
+      #   uses: dawidd6/action-download-artifact@v3
+      #   with:
+      #     workflow: analyze-tags.yml
+      #     name: analysis-db
+      #     path: backend/data/
+      #     if_no_artifact_found: warn
+      #   continue-on-error: true
 
       - name: Create directories
         run: |
