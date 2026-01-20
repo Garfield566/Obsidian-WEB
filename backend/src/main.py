@@ -1,14 +1,14 @@
-"""Point d'entrée principal du système de tags émergents."""
+"""Point d'entrée principal du système de tags émergents (v2 optimisé)."""
 
 from pathlib import Path
 from typing import Optional
 import click
-from tqdm import tqdm
+import time
 
 from .parsers import NoteParser
 from .embeddings import Embedder
-from .analysis import SimilarityEngine, SimilarityConfig
-from .clustering import ClusterDetector
+from .analysis.similarity_v2 import SimilarityEngineV2, SimilarityConfigV2
+from .clustering.detector_v2 import ClusterDetectorV2
 from .tags import TagHealthAnalyzer, TagGenerator, TagMatcher, FeedbackIntegrator
 from .database import Repository
 from .output import SuggestionGenerator
@@ -85,10 +85,11 @@ def analyze_vault(
     min_cluster_size: int = 3,
     verbose: bool = True,
 ) -> dict:
-    """Fonction principale d'analyse du vault.
+    """Fonction principale d'analyse du vault (v2 optimisée).
 
-    Retourne un dictionnaire avec les statistiques d'analyse.
+    Supporte efficacement jusqu'à 40K+ notes.
     """
+    start_time = time.time()
     vault_path = Path(vault_path)
     db_path = Path(db_path)
 
@@ -96,13 +97,15 @@ def analyze_vault(
     db_path.parent.mkdir(parents=True, exist_ok=True)
 
     if verbose:
-        print(f"Analyse du vault: {vault_path}")
-        print(f"Base de données: {db_path}")
+        print(f"🏷️  Analyse du vault: {vault_path}")
+        print(f"📦 Base de données: {db_path}")
+        print("=" * 50)
 
     # Initialise le repository
     repository = Repository(str(db_path))
 
     # 1. Parse toutes les notes
+    step_start = time.time()
     if verbose:
         print("\n1. Parsing des notes...")
 
@@ -110,69 +113,81 @@ def analyze_vault(
     notes = parser.parse_vault()
 
     if verbose:
-        print(f"   {len(notes)} notes trouvées")
+        print(f"   ✓ {len(notes)} notes trouvées ({time.time() - step_start:.1f}s)")
 
     if not notes:
-        print("Aucune note trouvée. Arrêt.")
+        print("⚠️  Aucune note trouvée. Arrêt.")
         return {"status": "empty", "notes": 0}
 
     # Nettoie les notes supprimées de la DB
     current_paths = [n.path for n in notes]
     deleted = repository.delete_notes_not_in(current_paths)
     if verbose and deleted > 0:
-        print(f"   {deleted} notes supprimées de la DB")
+        print(f"   🗑️  {deleted} notes supprimées de la DB")
 
     # 2. Intègre le feedback si disponible
     feedback_stats = None
     if decisions_path and Path(decisions_path).exists():
+        step_start = time.time()
         if verbose:
             print("\n2. Intégration du feedback...")
 
         feedback_integrator = FeedbackIntegrator(repository)
-        decisions = feedback_integrator.load_decisions_from_file(decisions_path)
+        decisions_data = feedback_integrator.load_decisions_from_file(decisions_path)
 
-        if decisions:
-            integrated = feedback_integrator.integrate_decisions(decisions)
+        if decisions_data:
+            integrated = feedback_integrator.integrate_decisions(decisions_data)
             feedback_stats = feedback_integrator.get_feedback_stats()
             if verbose:
-                print(f"   {integrated} décisions intégrées")
-                print(f"   Taux d'acceptation: {int(feedback_stats.acceptance_rate * 100)}%")
+                print(f"   ✓ {integrated} décisions intégrées ({time.time() - step_start:.1f}s)")
+                print(f"   📊 Taux d'acceptation: {int(feedback_stats.acceptance_rate * 100)}%")
+    else:
+        if verbose:
+            print("\n2. Pas de feedback à intégrer")
 
-    # 3. Génère les embeddings
+    # 3. Initialise l'embedder et le moteur de similarité v2
+    step_start = time.time()
     if verbose:
-        print("\n3. Génération des embeddings...")
+        print("\n3. Initialisation du moteur de similarité...")
 
     embedder = Embedder(repository=repository, use_cache=True)
-    notes_dict = {n.path: n for n in notes}
 
-    # 4. Analyse de similarité
-    if verbose:
-        print("\n4. Analyse de similarité...")
-
-    config = SimilarityConfig(
+    config = SimilarityConfigV2(
         min_similarity=min_similarity,
         min_cluster_size=min_cluster_size,
+        batch_size=100,
     )
-    similarity_engine = SimilarityEngine(notes, embedder, config)
-    similarity_engine.analyze_all(show_progress=verbose)
+    similarity_engine = SimilarityEngineV2(embedder, config)
+
+    # 4. Indexation des notes (embeddings + index vectoriel)
+    step_start = time.time()
+    if verbose:
+        print("\n4. Indexation et embeddings...")
+
+    similarity_engine.index_notes(notes, show_progress=verbose)
+
+    if verbose:
+        print(f"   ✓ Indexation terminée ({time.time() - step_start:.1f}s)")
 
     # 5. Détection des clusters
+    step_start = time.time()
     if verbose:
         print("\n5. Détection des clusters...")
 
-    cluster_detector = ClusterDetector(
+    cluster_detector = ClusterDetectorV2(
         similarity_engine,
         min_cluster_size=min_cluster_size,
         min_similarity=min_similarity,
     )
-    clusters = cluster_detector.detect_hybrid_clusters()
+    clusters = cluster_detector.detect_clusters(show_progress=verbose)
 
     if verbose:
         quality = cluster_detector.evaluate_clustering_quality(clusters)
-        print(f"   {len(clusters)} clusters détectés")
-        print(f"   Couverture: {int(quality['coverage'] * 100)}%")
+        print(f"   ✓ {len(clusters)} clusters ({time.time() - step_start:.1f}s)")
+        print(f"   📊 Couverture: {quality['coverage']:.1%}, Cohérence moy: {quality['avg_coherence']:.2f}")
 
     # 6. Collecte des tags existants
+    step_start = time.time()
     existing_tags = set()
     for note in notes:
         existing_tags.update(note.tags)
@@ -181,56 +196,81 @@ def analyze_vault(
     if verbose:
         print(f"\n6. {len(existing_tags)} tags existants trouvés")
 
-    # Met à jour les tags dans la DB
+    # Met à jour les tags dans la DB (par batch pour performance)
     for tag in existing_tags:
         usage = sum(1 for n in notes if tag in n.tags)
         repository.upsert_tag(name=tag, usage_count=usage)
 
-    # 7. Analyse de santé des tags
+    # 7. Analyse de santé des tags (optimisée)
+    step_start = time.time()
     if verbose:
         print("\n7. Analyse de santé des tags...")
 
+    notes_dict = {n.path: n for n in notes}
     health_analyzer = TagHealthAnalyzer(notes_dict, embedder, repository)
-    health_alerts = health_analyzer.get_health_alerts()
+
+    # Limite le nombre d'alertes pour performance
+    health_alerts = health_analyzer.get_health_alerts(max_alerts=500)
 
     if verbose:
         vault_health = health_analyzer.compute_vault_health_score()
-        print(f"   Score de santé global: {int(vault_health * 100)}%")
-        print(f"   {len(health_alerts)} alertes générées")
+        print(f"   ✓ Score de santé: {vault_health:.0%} ({time.time() - step_start:.1f}s)")
+        print(f"   ⚠️  {len(health_alerts)} alertes générées")
 
-    # 8. Génération de nouveaux tags
+    # 8. Génération de nouveaux tags (basée sur clusters)
+    step_start = time.time()
     if verbose:
         print("\n8. Génération de suggestions de nouveaux tags...")
 
-    tag_generator = TagGenerator(
-        cluster_detector, embedder, existing_tags, repository
+    # Adapte le TagGenerator pour utiliser les clusters v2
+    tag_generator = TagGeneratorV2(
+        clusters=clusters,
+        similarity_engine=similarity_engine,
+        existing_tags=existing_tags,
+        repository=repository,
     )
-    new_tag_suggestions = tag_generator.generate_suggestions()
-    tag_generator.save_suggestions(new_tag_suggestions)
+    new_tag_suggestions = tag_generator.generate_suggestions(max_suggestions=50)
 
     if verbose:
-        print(f"   {len(new_tag_suggestions)} nouveaux tags suggérés")
+        print(f"   ✓ {len(new_tag_suggestions)} nouveaux tags suggérés ({time.time() - step_start:.1f}s)")
 
     # 9. Matching de tags existants
+    step_start = time.time()
     if verbose:
         print("\n9. Recherche d'attributions de tags existants...")
 
-    tag_matcher = TagMatcher(notes_dict, similarity_engine, embedder, repository)
-    tag_assignments = tag_matcher.find_tag_suggestions()
-    tag_matcher.save_suggestions(tag_assignments)
+    tag_matcher = TagMatcherV2(
+        notes_dict=notes_dict,
+        similarity_engine=similarity_engine,
+        existing_tags=existing_tags,
+        repository=repository,
+    )
+    tag_assignments = tag_matcher.find_suggestions(max_suggestions=100)
 
     if verbose:
-        print(f"   {len(tag_assignments)} attributions suggérées")
+        print(f"   ✓ {len(tag_assignments)} attributions suggérées ({time.time() - step_start:.1f}s)")
 
     # 10. Génère le fichier de sortie
     if verbose:
-        print(f"\n10. Génération du fichier de sortie: {output_path}")
+        print(f"\n10. Génération du fichier de sortie...")
+
+    # Convertit les clusters v2 au format attendu par SuggestionGenerator
+    clusters_for_output = [
+        {
+            "id": f"cl_{c.id:03d}",
+            "notes": c.notes,
+            "coherence": c.coherence,
+            "centroid_terms": c.centroid_terms,
+            "suggested_tags": c.suggested_tags,
+        }
+        for c in clusters
+    ]
 
     output_generator = SuggestionGenerator(
         new_tags=new_tag_suggestions,
         tag_assignments=tag_assignments,
         health_alerts=health_alerts,
-        clusters=clusters,
+        clusters=clusters_for_output,
         total_notes=len(notes),
         total_tags=len(existing_tags),
         health_analyzer=health_analyzer,
@@ -247,6 +287,7 @@ def analyze_vault(
     repository.close()
 
     # Résumé
+    total_time = time.time() - start_time
     stats = {
         "status": "success",
         "notes_analyzed": len(notes),
@@ -256,22 +297,191 @@ def analyze_vault(
         "tag_assignments_suggested": len(tag_assignments),
         "health_alerts": len(health_alerts),
         "vault_health_score": health_analyzer.compute_vault_health_score() if health_analyzer else 0,
+        "execution_time_seconds": total_time,
     }
 
     if verbose:
         print("\n" + "=" * 50)
-        print("RÉSUMÉ DE L'ANALYSE")
+        print("✅ ANALYSE TERMINÉE")
         print("=" * 50)
-        print(f"Notes analysées: {stats['notes_analyzed']}")
-        print(f"Tags existants: {stats['existing_tags']}")
-        print(f"Clusters détectés: {stats['clusters_detected']}")
-        print(f"Nouveaux tags suggérés: {stats['new_tags_suggested']}")
-        print(f"Attributions suggérées: {stats['tag_assignments_suggested']}")
-        print(f"Alertes de santé: {stats['health_alerts']}")
-        print(f"Score de santé: {int(stats['vault_health_score'] * 100)}%")
+        print(f"📝 Notes analysées: {stats['notes_analyzed']}")
+        print(f"🏷️  Tags existants: {stats['existing_tags']}")
+        print(f"📦 Clusters détectés: {stats['clusters_detected']}")
+        print(f"✨ Nouveaux tags suggérés: {stats['new_tags_suggested']}")
+        print(f"📎 Attributions suggérées: {stats['tag_assignments_suggested']}")
+        print(f"⚠️  Alertes de santé: {stats['health_alerts']}")
+        print(f"💚 Score de santé: {stats['vault_health_score']:.0%}")
+        print(f"⏱️  Temps total: {total_time:.1f}s")
         print("=" * 50)
 
     return stats
+
+
+# ===== Adaptateurs pour la nouvelle architecture =====
+
+class TagGeneratorV2:
+    """Générateur de tags adapté pour SimilarityEngineV2."""
+
+    def __init__(
+        self,
+        clusters: list,
+        similarity_engine: SimilarityEngineV2,
+        existing_tags: list[str],
+        repository: Repository,
+    ):
+        self.clusters = clusters
+        self.engine = similarity_engine
+        self.existing_tags = set(existing_tags)
+        self.repository = repository
+
+    def generate_suggestions(self, max_suggestions: int = 50) -> list[dict]:
+        """Génère des suggestions de nouveaux tags basées sur les clusters."""
+        suggestions = []
+
+        # Tags rejetés précédemment
+        rejected_tags = self.repository.get_rejected_tag_names()
+
+        for cluster in self.clusters[:max_suggestions * 2]:
+            # Vérifie si le cluster a déjà un tag approprié
+            if cluster.suggested_tags:
+                continue  # Le cluster a déjà des tags
+
+            # Génère un nom de tag basé sur les termes du cluster
+            if not cluster.centroid_terms:
+                continue
+
+            # Crée un nom de tag
+            tag_name = self._generate_tag_name(cluster)
+            if not tag_name:
+                continue
+
+            # Vérifie que le tag n'existe pas et n'a pas été rejeté
+            if tag_name in self.existing_tags or tag_name in rejected_tags:
+                continue
+
+            # Calcule la confiance
+            confidence = min(0.95, cluster.coherence * 0.8 + 0.2 * (cluster.size / 20))
+
+            suggestions.append({
+                "id": f"lt_{len(suggestions):03d}",
+                "name": tag_name,
+                "confidence": confidence,
+                "notes": cluster.notes[:10],  # Limite pour le JSON
+                "reasoning": {
+                    "summary": f"Cluster de {cluster.size} notes avec termes communs: {', '.join(cluster.centroid_terms[:3])}",
+                    "details": {
+                        "cluster_size": cluster.size,
+                        "coherence": cluster.coherence,
+                        "centroid_terms": cluster.centroid_terms,
+                    },
+                },
+            })
+
+            if len(suggestions) >= max_suggestions:
+                break
+
+        return suggestions
+
+    def _generate_tag_name(self, cluster) -> Optional[str]:
+        """Génère un nom de tag à partir des termes du cluster."""
+        if not cluster.centroid_terms:
+            return None
+
+        # Prend les 2-3 premiers termes
+        terms = cluster.centroid_terms[:2]
+
+        # Capitalise et joint
+        name = "/".join(t.capitalize() for t in terms)
+
+        # Nettoie
+        name = name.replace(" ", "-")
+
+        return name if len(name) > 2 else None
+
+
+class TagMatcherV2:
+    """Matcher de tags adapté pour SimilarityEngineV2."""
+
+    def __init__(
+        self,
+        notes_dict: dict,
+        similarity_engine: SimilarityEngineV2,
+        existing_tags: list[str],
+        repository: Repository,
+    ):
+        self.notes = notes_dict
+        self.engine = similarity_engine
+        self.existing_tags = existing_tags
+        self.repository = repository
+
+        # Index tags par note
+        self._notes_by_tag: dict[str, list[str]] = {}
+        for path, note in notes_dict.items():
+            for tag in note.tags:
+                if tag not in self._notes_by_tag:
+                    self._notes_by_tag[tag] = []
+                self._notes_by_tag[tag].append(path)
+
+    def find_suggestions(self, max_suggestions: int = 100) -> list[dict]:
+        """Trouve des suggestions d'attribution de tags existants."""
+        suggestions = []
+
+        # Pour chaque note sans beaucoup de tags
+        for path, note in self.notes.items():
+            if len(note.tags) >= 5:  # Skip si déjà bien tagué
+                continue
+
+            # Trouve les voisins
+            neighbors = self.engine.find_neighbors(path, k=10, threshold=0.7)
+
+            # Collecte les tags des voisins
+            neighbor_tags: dict[str, list[tuple[str, float]]] = {}
+            for neighbor_path, score in neighbors.neighbors:
+                neighbor_note = self.notes.get(neighbor_path)
+                if neighbor_note:
+                    for tag in neighbor_note.tags:
+                        if tag not in note.tags:  # Tag que la note n'a pas
+                            if tag not in neighbor_tags:
+                                neighbor_tags[tag] = []
+                            neighbor_tags[tag].append((neighbor_path, score))
+
+            # Suggère les tags les plus fréquents chez les voisins
+            for tag, sources in neighbor_tags.items():
+                if len(sources) < 2:  # Au moins 2 voisins avec ce tag
+                    continue
+
+                # Vérifie si suggestion existe déjà
+                if self.repository.suggestion_exists(tag, path):
+                    continue
+
+                avg_score = sum(s[1] for s in sources) / len(sources)
+                confidence = min(0.95, avg_score * (len(sources) / 5))
+
+                if confidence < 0.5:
+                    continue
+
+                suggestions.append({
+                    "id": f"ta_{len(suggestions):03d}",
+                    "note": path,
+                    "tag": tag,
+                    "confidence": confidence,
+                    "reasoning": {
+                        "summary": f"{len(sources)} notes similaires ont ce tag",
+                        "details": {
+                            "matching_notes": [
+                                {"path": s[0], "similarity": s[1]}
+                                for s in sources[:3]
+                            ],
+                        },
+                    },
+                })
+
+                if len(suggestions) >= max_suggestions:
+                    return suggestions
+
+        # Trie par confiance
+        suggestions.sort(key=lambda x: x["confidence"], reverse=True)
+        return suggestions[:max_suggestions]
 
 
 if __name__ == "__main__":

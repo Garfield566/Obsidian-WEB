@@ -135,12 +135,18 @@ class TagHealthAnalyzer:
         """Analyse la santé de tous les tags."""
         return {tag: self.analyze_tag(tag) for tag in self._tag_notes}
 
-    def get_health_alerts(self) -> list[HealthAlert]:
-        """Génère les alertes de santé pour tous les tags."""
+    def get_health_alerts(self, max_alerts: int = 500) -> list[HealthAlert]:
+        """Génère les alertes de santé pour tous les tags.
+
+        Args:
+            max_alerts: Nombre maximum d'alertes à retourner
+        """
         alerts = []
         all_health = self.analyze_all_tags()
 
         for tag_name, health in all_health.items():
+            if len(alerts) >= max_alerts:
+                break
             # Alerte faible usage
             if health.usage_count < self.LOW_USAGE_THRESHOLD:
                 alerts.append(HealthAlert(
