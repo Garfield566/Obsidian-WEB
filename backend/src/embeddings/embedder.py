@@ -65,8 +65,14 @@ class Embedder:
                     return cached
 
         # Prépare le texte pour l'embedding
-        title_text = note.title
+        title_text = note.title[:500]  # Limite le titre
         content_text = self._clean_content(note.content)
+
+        # Limite la taille du contenu pour éviter les blocages
+        # Le modèle a une limite de tokens, pas besoin de tout le contenu
+        MAX_CONTENT_LENGTH = 5000
+        if len(content_text) > MAX_CONTENT_LENGTH:
+            content_text = content_text[:MAX_CONTENT_LENGTH]
 
         # Génère les embeddings
         title_embedding = self.embed_text(title_text)
@@ -76,7 +82,13 @@ class Embedder:
         embedding = (2 * title_embedding + content_embedding) / 3
 
         # Normalise
-        embedding = embedding / np.linalg.norm(embedding)
+        norm = np.linalg.norm(embedding)
+        if norm > 0:
+            embedding = embedding / norm
+        else:
+            # Si le vecteur est nul, retourne un vecteur aléatoire normalisé
+            embedding = np.random.randn(self._embedding_dim)
+            embedding = embedding / np.linalg.norm(embedding)
 
         # Met en cache si disponible
         if self.use_cache and self.repository:
@@ -122,10 +134,15 @@ class Embedder:
 
             for i, note in enumerate(notes_to_embed):
                 try:
+                    # Log pour debug si proche de 94% (où ça bloque)
+                    if show_progress and i >= int(total * 0.93) and i <= int(total * 0.96):
+                        print(f"\n   [DEBUG] Processing note {i+1}/{total}: {note.path[:80]}...")
+
                     embedding = self.embed_note(note)
                     embeddings[note.path] = embedding
                 except Exception as e:
                     errors.append((note.path, str(e)))
+                    print(f"\n   ⚠️ Erreur note {note.path}: {str(e)[:100]}")
                     # Crée un embedding nul pour les notes problématiques
                     embeddings[note.path] = np.zeros(self._embedding_dim)
 
