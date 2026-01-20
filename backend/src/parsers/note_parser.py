@@ -36,15 +36,25 @@ class NoteParser:
     TAG_PATTERN = re.compile(r"(?:^|\s)#([a-zA-Z0-9_/\-]+)", re.MULTILINE)
     INLINE_TAG_PATTERN = re.compile(r"#([a-zA-Z0-9_/\-]+)")
 
+    # Extensions de fichiers à ignorer (images, media, etc.)
+    IGNORED_EXTENSIONS = {
+        '.png', '.jpg', '.jpeg', '.gif', '.bmp', '.svg', '.webp',
+        '.mp3', '.mp4', '.wav', '.ogg', '.webm', '.mov',
+        '.pdf', '.zip', '.rar', '.7z',
+    }
+
     def __init__(self, vault_path: str | Path):
-        self.vault_path = Path(vault_path)
+        # Résout le chemin en absolu pour éviter les problèmes de chemins relatifs
+        self.vault_path = Path(vault_path).resolve()
         self._note_cache: dict[str, ParsedNote] = {}
 
     def parse_note(self, note_path: str | Path) -> ParsedNote:
         """Parse une note et extrait toutes ses métadonnées."""
         path = Path(note_path)
+        # Résout le chemin en absolu
         if not path.is_absolute():
             path = self.vault_path / path
+        path = path.resolve()
 
         with open(path, "r", encoding="utf-8") as f:
             raw_content = f.read()
@@ -85,10 +95,14 @@ class NoteParser:
         notes: list[ParsedNote] = []
         note_paths: dict[str, ParsedNote] = {}
 
-        # Premier passage : parser toutes les notes
+        # Premier passage : parser toutes les notes markdown
         for md_file in self.vault_path.rglob("*.md"):
             # Ignore les fichiers dans .obsidian et .git
             if ".obsidian" in md_file.parts or ".git" in md_file.parts:
+                continue
+
+            # Vérifie que c'est bien un fichier markdown (pas une image, etc.)
+            if md_file.suffix.lower() in self.IGNORED_EXTENSIONS:
                 continue
 
             try:
@@ -98,7 +112,7 @@ class NoteParser:
                 note_name = md_file.stem
                 note_paths[note_name.lower()] = note
             except Exception as e:
-                print(f"Erreur parsing {md_file}: {e}")
+                print(f"Erreur parsing {md_file.relative_to(self.vault_path)}: {e}")
                 continue
 
         # Deuxième passage : calculer les liens entrants
