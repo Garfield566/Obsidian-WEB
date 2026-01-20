@@ -2,14 +2,11 @@
 
 from dataclasses import dataclass, asdict
 from datetime import datetime
-from typing import Optional
+from typing import Optional, Union
 import json
 import hashlib
 
-from ..tags.generator import NewTagSuggestion
-from ..tags.matcher import TagAssignmentSuggestion
 from ..tags.analyzer import HealthAlert, TagHealthAnalyzer
-from ..clustering.detector import DetectedCluster
 from ..tags.feedback import FeedbackStats
 
 
@@ -38,14 +35,17 @@ class SuggestionsOutput:
 
 
 class SuggestionGenerator:
-    """Génère le fichier JSON de suggestions."""
+    """Génère le fichier JSON de suggestions.
+
+    Compatible avec les formats V1 (dataclass) et V2 (dict).
+    """
 
     def __init__(
         self,
-        new_tags: list[NewTagSuggestion],
-        tag_assignments: list[TagAssignmentSuggestion],
+        new_tags: list,  # NewTagSuggestion ou dict
+        tag_assignments: list,  # TagAssignmentSuggestion ou dict
         health_alerts: list[HealthAlert],
-        clusters: list[DetectedCluster],
+        clusters: list,  # DetectedCluster ou dict
         total_notes: int,
         total_tags: int,
         health_analyzer: Optional[TagHealthAnalyzer] = None,
@@ -99,20 +99,52 @@ class SuggestionGenerator:
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(asdict(output), f, indent=2, ensure_ascii=False)
 
-    def _format_new_tag(self, tag: NewTagSuggestion) -> dict:
-        """Formate une suggestion de nouveau tag."""
+    def _format_new_tag(self, tag) -> dict:
+        """Formate une suggestion de nouveau tag.
+
+        Accepte un objet NewTagSuggestion ou un dict.
+        """
+        # Si c'est déjà un dict (format V2)
+        if isinstance(tag, dict):
+            return {
+                "id": tag.get("id", f"lt_{hash(tag.get('name', '')) % 10000:04d}"),
+                "name": tag.get("name", ""),
+                "confidence": tag.get("confidence", 0),
+                "notes": tag.get("notes", []),
+                "reasoning": tag.get("reasoning", {}),
+                "detection_count": tag.get("detection_count", 1),
+                "first_detected": tag.get("first_detected", datetime.now().isoformat()),
+            }
+
+        # Format V1 (dataclass)
         return {
             "id": f"lt_{hash(tag.name) % 10000:04d}",
             "name": tag.name,
             "confidence": tag.confidence,
             "notes": tag.notes,
             "reasoning": tag.reasoning,
-            "detection_count": tag.detection_count,
-            "first_detected": tag.first_detected,
+            "detection_count": getattr(tag, "detection_count", 1),
+            "first_detected": getattr(tag, "first_detected", datetime.now().isoformat()),
         }
 
-    def _format_tag_assignment(self, assign: TagAssignmentSuggestion) -> dict:
-        """Formate une suggestion d'attribution de tag."""
+    def _format_tag_assignment(self, assign) -> dict:
+        """Formate une suggestion d'attribution de tag.
+
+        Accepte un objet TagAssignmentSuggestion ou un dict.
+        """
+        # Si c'est déjà un dict (format V2)
+        if isinstance(assign, dict):
+            note = assign.get("note", assign.get("note_path", ""))
+            tag = assign.get("tag", "")
+            return {
+                "id": assign.get("id", f"ta_{hash(f'{tag}_{note}') % 10000:04d}"),
+                "note": note,
+                "tag": tag,
+                "confidence": assign.get("confidence", 0),
+                "reasoning": assign.get("reasoning", {}),
+            }
+
+        # Format V1 (dataclass)
         return {
             "id": f"ta_{hash(f'{assign.tag}_{assign.note_path}') % 10000:04d}",
             "note": assign.note_path,
@@ -132,8 +164,24 @@ class SuggestionGenerator:
             "alternative_tags": alert.alternative_tags,
         }
 
-    def _format_cluster(self, cluster: DetectedCluster) -> dict:
-        """Formate un cluster."""
+    def _format_cluster(self, cluster) -> dict:
+        """Formate un cluster.
+
+        Accepte un objet DetectedCluster ou un dict.
+        """
+        # Si c'est déjà un dict (format V2)
+        if isinstance(cluster, dict):
+            cluster_id = cluster.get("id", "cl_000")
+            return {
+                "id": cluster_id if isinstance(cluster_id, str) else f"cl_{cluster_id:03d}",
+                "name": cluster.get("name", cluster.get("suggested_name", f"Cluster")),
+                "notes": cluster.get("notes", []),
+                "coherence": round(cluster.get("coherence", 0), 2),
+                "centroid_terms": cluster.get("centroid_terms", cluster.get("key_terms", []))[:10],
+                "suggested_tags": cluster.get("suggested_tags", []),
+            }
+
+        # Format V1 (dataclass)
         return {
             "id": f"cl_{cluster.id:03d}",
             "name": cluster.suggested_name or f"Cluster {cluster.id}",
