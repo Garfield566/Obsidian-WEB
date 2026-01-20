@@ -80,8 +80,24 @@ jobs:
 
       - name: Commit suggestions
         run: |
-          git config user.name "Tag Analyzer Bot"
-          git config user.email "bot@github.com"
-          git add content/.obsidian/plugins/emergent-tags/suggestions.json || true
-          git diff --staged --quiet || git commit -m "🏷️ Update tag suggestions [skip ci]"
-          git push || true
+          echo "=== Checking suggestions file ==="
+          ls -la content/.obsidian/plugins/emergent-tags/ || echo "Directory not found"
+
+          if [ -f content/.obsidian/plugins/emergent-tags/suggestions.json ]; then
+            echo "✅ suggestions.json found"
+            echo "File size: $(wc -c < content/.obsidian/plugins/emergent-tags/suggestions.json) bytes"
+
+            git config user.name "Tag Analyzer Bot"
+            git config user.email "bot@github.com"
+            git add content/.obsidian/plugins/emergent-tags/suggestions.json
+
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "🏷️ Update tag suggestions [skip ci]"
+              git push
+              echo "✅ Changes pushed successfully"
+            fi
+          else
+            echo "❌ suggestions.json NOT found!"
+          fi
