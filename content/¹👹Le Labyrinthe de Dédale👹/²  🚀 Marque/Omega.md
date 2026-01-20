@@ -6,7 +6,7 @@ notes: o
 Pays d'Origine: Suisse
 sticker: .
 cover: https://i.pinimg.com/736x/06/45/a0/0645a0511edb42f5a1b2819bc1ca8410.jpg
-Gamme de prix: 1k-15k
+amme de prix: 1k-15k
 ---
 
 ![cover|500](https://i.pinimg.com/736x/06/45/a0/0645a0511edb42f5a1b2819bc1ca8410.jpg)

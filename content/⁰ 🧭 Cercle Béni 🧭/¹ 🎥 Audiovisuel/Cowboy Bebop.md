@@ -3,7 +3,7 @@ Titre: Cowboy Bebop
 note-audio: ✨✨✨✨✨
 note-scénario: ✨✨
 note-visuel: ✨✨✨✨
-cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxHDU85i_npD1k0NeyiQT_bD1MEOf_a4Wpg&s
+cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cQnxHDU85i_npD1k0NeyiQT_bD1MEOf_a4Wpg&s
 genre: Animation, Science-fiction, Action
 sous_genres: Space Opera, Drame, Aventure
 Réalisateurs: Shinichirō Watanabe (Réalisateur), Keiko Nobumoto (Scénariste)
@@ -26,7 +26,7 @@ tags:
   - Bad_Dog_No_Biscuits
   - Space_Lion
   - Rain
-  - Green_Bird
+  - reen_Bird
   - Blue
   - The_Real_Folk_Blues
   - Call_Me_Call_Me

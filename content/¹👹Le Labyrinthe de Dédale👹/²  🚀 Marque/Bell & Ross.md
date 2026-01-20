@@ -3,7 +3,7 @@ brand: Bell & Ross
 cover: https://cdn.worldvectorlogo.com/logos/bell-ross.svg
 created: "1992"
 Dead: no
-Gamme de prix: 2k-100k
+amme de prix: 2k-100k
 notes: .
 Pays d'Origine: France
 sticker: .

@@ -318,6 +318,54 @@ class Repository:
         )
         return {d.target for d in decisions if d.target}
 
+    def get_kept_tag_names(self) -> set[str]:
+        """Récupère les noms de tags qui ont été conservés (alertes ignorées)."""
+        decisions = (
+            self.session.query(Decision)
+            .filter(Decision.type == "tag_kept")
+            .all()
+        )
+        return {d.target for d in decisions if d.target}
+
+    def get_deleted_tag_names(self) -> set[str]:
+        """Récupère les noms de tags qui ont été supprimés."""
+        decisions = (
+            self.session.query(Decision)
+            .filter(Decision.type == "tag_deleted")
+            .all()
+        )
+        return {d.target for d in decisions if d.target}
+
+    def get_archived_tag_names(self) -> set[str]:
+        """Récupère les noms de tags qui ont été archivés."""
+        decisions = (
+            self.session.query(Decision)
+            .filter(Decision.type == "tag_archived")
+            .all()
+        )
+        return {d.target for d in decisions if d.target}
+
+    def mark_tag_as_kept(self, tag_name: str) -> None:
+        """Marque un tag comme conservé (alerte ignorée)."""
+        self.record_decision(
+            decision_type="tag_kept",
+            target=tag_name,
+            original_value=tag_name,
+        )
+
+    def mark_tag_as_deleted(self, tag_name: str) -> None:
+        """Marque un tag comme supprimé."""
+        self.record_decision(
+            decision_type="tag_deleted",
+            target=tag_name,
+            original_value=tag_name,
+        )
+        # Met aussi à jour le statut du tag s'il existe
+        tag = self.get_tag(tag_name)
+        if tag:
+            tag.status = "deleted"
+            self.session.commit()
+
     # ===== Clusters =====
 
     def create_cluster(

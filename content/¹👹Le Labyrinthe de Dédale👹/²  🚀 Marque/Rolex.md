@@ -3,7 +3,7 @@ brand: Rolex
 cover: https://www.thewatchcompany.com/media/tm_blog/p/o/7/6485/post_7_6485.jpg
 created: "1905"
 Dead: no
-Gamme de prix: 3k-50k
+amme de prix: 3k-50k
 notes: .
 Pays d'Origine: Suisse
 sticker: .

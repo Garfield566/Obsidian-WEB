@@ -6,7 +6,7 @@ created: "1881"
 Dead: no
 notes: ✨✨✨✨
 sticker: emoji//1f47a
-Gamme de prix: 100-10k
+amme de prix: 100-10k
 ---
 
 

@@ -29,7 +29,7 @@ tags:
   - "#Akin"
   - "#Nujabes_Luvsic_Part_3"
   - "#Shing02"
-  - "#The_Garden"
+  - "#The_arden"
   - "#In_Memory_of_the_Swordsman"
   - "#Fat_Jon"
   - "#Storm"

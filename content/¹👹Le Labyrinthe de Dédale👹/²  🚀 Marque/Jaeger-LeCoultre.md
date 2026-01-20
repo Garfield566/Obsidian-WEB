@@ -3,7 +3,7 @@ brand: Jaeger-LeCoultre
 cover: https://1000logos.net/wp-content/uploads/2018/10/Jaeger-leCoultre-symbol.jpg
 created: "1833"
 Dead: no
-Gamme de prix: 5k-100k
+amme de prix: 5k-100k
 notes: ✨✨✨✨
 Pays d'Origine: Suisse
 sticker: .

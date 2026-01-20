@@ -43,6 +43,19 @@ class NoteParser:
         '.pdf', '.zip', '.rar', '.7z',
     }
 
+    # Dossiers à ignorer completement
+    IGNORED_FOLDERS = {
+        '.obsidian', '.git', '.trash', 'z_Templates', 'Templates',
+        'templates', '_templates', 'z_templates',
+    }
+
+    # Patterns de fichiers à ignorer
+    IGNORED_FILE_PATTERNS = [
+        '.sidecar.md',      # Notes d'images (plugin Image Sidecar)
+        'Pasted image',     # Images collees
+        'Template',         # Fichiers template
+    ]
+
     def __init__(self, vault_path: str | Path):
         # Résout le chemin en absolu pour éviter les problèmes de chemins relatifs
         self.vault_path = Path(vault_path).resolve()
@@ -97,12 +110,17 @@ class NoteParser:
 
         # Premier passage : parser toutes les notes markdown
         for md_file in self.vault_path.rglob("*.md"):
-            # Ignore les fichiers dans .obsidian et .git
-            if ".obsidian" in md_file.parts or ".git" in md_file.parts:
+            # Ignore les fichiers dans les dossiers exclus
+            if any(folder in md_file.parts for folder in self.IGNORED_FOLDERS):
                 continue
 
             # Vérifie que c'est bien un fichier markdown (pas une image, etc.)
             if md_file.suffix.lower() in self.IGNORED_EXTENSIONS:
+                continue
+
+            # Ignore les fichiers qui matchent les patterns exclus
+            file_name = md_file.name
+            if any(pattern in file_name for pattern in self.IGNORED_FILE_PATTERNS):
                 continue
 
             try:

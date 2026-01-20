@@ -224,4 +224,4 @@ La fonction atteint son minimum en \( x = 2 \) avec une valeur de -1.
 > - Elle permet de trouver les extrema des fonctions
 > - Elle est liée à l'intégrale par le théorème fondamental de l'analyse
 
-#Fonction/Analyse #{CalculDifferentiel} #{Optimisation}
+ #{CalculDifferentiel} #{Optimisation}

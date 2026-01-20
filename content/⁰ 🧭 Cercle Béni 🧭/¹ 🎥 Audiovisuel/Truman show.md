@@ -7,7 +7,7 @@ cover: https://i2.wp.com/www.iletaitunefoislecinema.com/wp-content/uploads/2018/
 genre: Drame, Comédie satirique, Science-fiction
 sous_genres: ""
 Réalisateurs: "Peter Weir Scénariste : Andrew Niccol"
-Compositeurs.: Burkhard Dallwitz, avec contributions de Philip Glass
+Compositeurs.: Burkhard Dallwitz, avec contributions de Philip lass
 animation.: Paramount
 Année de Sortie: 1998
 type: film
@@ -21,7 +21,7 @@ tags:
   - Peter-Weir
   - Andrew-Niccol
   - Burkhard-Dallwitz
-  - Philip-Glass
+  - Philip-lass
   - Truman_Sleeps
   - Opening_Theme
   - Anthem_Part-2

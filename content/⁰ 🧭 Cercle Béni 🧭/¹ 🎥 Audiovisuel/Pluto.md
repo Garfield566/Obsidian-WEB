@@ -3,7 +3,7 @@ Titre: Pluto
 note-audio: ✨✨✨✨✨
 note-scénario: ✨✨✨✨✨
 note-visuel: ✨✨✨
-cover: https://occ-0-8407-1723.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSLPqLtp1iCgrTTRY35j5e32rDaEXwWFAIJGfJfzsAsvkrAXyVS06s5jSqQqhzOjgNWkuCH0lzWWhltaOkI8MOmo-9V1DfBXMNgi.jpg?r=ac7
+cover: https://occ-0-8407-1723.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSLPqLtp1iCgrTTRY35j5e32rDaEXwWFAIJfJfzsAsvkrAXyVS06s5jSqQqhzOjgNWkuCH0lzWWhltaOkI8MOmo-9V1DfBXMNgi.jpg?r=ac7
 genre: Animation, Science-fiction, Thriller
 sous_genres: Science-Fiction, Thriller
 Réalisateurs: "Osamu Tezuka (Œuvre originale : Astro Boy), Naoki Urasawa & Takashi Nagasaki (Adaptation)"
@@ -25,7 +25,7 @@ tags:
   - Pluto_Main_Theme
   - Memories_of_War
   - The_Last_Robot
-  - Melancholy_of_Gesicht
+  - Melancholy_of_esicht
   - Artificial_Soul
   - Human_and_Machine
   - Unraveling_the_Truth

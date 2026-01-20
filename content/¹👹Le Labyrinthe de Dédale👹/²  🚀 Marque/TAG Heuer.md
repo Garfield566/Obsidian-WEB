@@ -1,9 +1,9 @@
 ---
-brand: TAG Heuer
+brand: TAHeuer
 cover: https://logowik.com/content/uploads/images/tag-heuer-with-wordmark1869.logowik.com.webp
 created: "1860"
 Dead: no
-Gamme de prix: 400-60k
+amme de prix: 400-60k
 notes: .
 Pays d'Origine: Suisse
 sticker: .

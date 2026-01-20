@@ -23,7 +23,7 @@ tags:
   - Ashnikko
   - d4vd
   - ZAND
-  - Mako-Grey
+  - Mako-rey
   - Djerv
   - Misha-Mansoor
   - Mick-Wingert
@@ -68,19 +68,19 @@ tags:
   - Our_Love
   - Curtis-Harding
   - Jazmine-Sullivan
-  - Goodbye
+  - oodbye
   - Ramsey
-  - Get_Jinxed
+  - et_Jinxed
   - Agnete-Kjølsrud
   - Dirty_Little_Animals
   - Bones-UK
-  - Guns_For_Hire
+  - uns_For_Hire
   - Misfit_Toys
   - Pusha-T
   - Mako
   - Dynasties-Dystopia
   - Denzel-Curry
-  - Gizzle
+  - izzle
   - Bren-Joy
   - Snakes
   - Pvris

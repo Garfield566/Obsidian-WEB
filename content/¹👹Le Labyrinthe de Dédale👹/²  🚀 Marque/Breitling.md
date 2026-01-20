@@ -3,7 +3,7 @@ brand: Breitling
 cover: https://i.pinimg.com/originals/66/df/dd/66dfddb8979887236806cbb174fb086e.jpg
 created: "1884"
 Dead: no
-Gamme de prix: 1k-30k
+amme de prix: 1k-30k
 notes: .
 Pays d'Origine: Suisse
 sticker: .

@@ -1,6 +1,6 @@
 ---
 database-plugin: basic
-cover: https://m.media-amazon.com/images/M/MV5BYjc4MzVlODAtNjEzYi00MmE5LWIzYzYtMGM5YzE1OGViN2ExXkEyXkFqcGc@._V1_.jpg
+cover: https://m.media-amazon.com/images/M/MV5BYjc4MzVlODAtNjEzYi00MmE5LWIzYzYtMM5YzE1OViN2ExXkEyXkFqcc@._V1_.jpg
 ---
 # 🎥 **Monster**
 > [!infobox]

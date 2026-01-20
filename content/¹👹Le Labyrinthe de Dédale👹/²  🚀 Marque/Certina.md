@@ -3,7 +3,7 @@ brand: Certina
 cover: https://www.watchonista.com/sites/default/files/styles/0x60/public/watchographer/306/profile/logo.jpg
 created: "1888"
 Dead: no
-Gamme de prix: 200-5k
+amme de prix: 200-5k
 notes: .
 Pays d'Origine: Suisse
 sticker: .

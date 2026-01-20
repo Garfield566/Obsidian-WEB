@@ -94,6 +94,12 @@ class FeedbackIntegrator:
                 self._handle_assignment_rejected(decision)
             elif decision.type == "tag_modified":
                 self._handle_tag_modified(decision)
+            elif decision.type == "tag_kept":
+                self._handle_tag_kept(decision)
+            elif decision.type == "tag_deleted":
+                self._handle_tag_deleted(decision)
+            elif decision.type == "tag_archived":
+                self._handle_tag_archived(decision)
 
             integrated += 1
 
@@ -149,6 +155,33 @@ class FeedbackIntegrator:
         """Traite la modification d'un nom de tag."""
         # Enregistre le pattern de modification pour apprentissage futur
         pass  # TODO: Implémenter l'apprentissage des patterns
+
+    def _handle_tag_kept(self, decision: FeedbackDecision) -> None:
+        """Traite la conservation d'un tag (ignorer l'alerte)."""
+        tag_name = decision.original_name
+        if not tag_name:
+            return
+
+        # Marque le tag comme "kept" pour ne plus generer d'alerte
+        self.repository.mark_tag_as_kept(tag_name)
+
+    def _handle_tag_deleted(self, decision: FeedbackDecision) -> None:
+        """Traite la suppression d'un tag."""
+        tag_name = decision.original_name
+        if not tag_name:
+            return
+
+        # Marque le tag comme supprime
+        self.repository.mark_tag_as_deleted(tag_name)
+
+    def _handle_tag_archived(self, decision: FeedbackDecision) -> None:
+        """Traite l'archivage d'un tag."""
+        tag_name = decision.original_name
+        if not tag_name:
+            return
+
+        # Marque le tag comme archive
+        self.repository.upsert_tag(name=tag_name, status="archived")
 
     def get_feedback_stats(self) -> FeedbackStats:
         """Calcule les statistiques de feedback."""

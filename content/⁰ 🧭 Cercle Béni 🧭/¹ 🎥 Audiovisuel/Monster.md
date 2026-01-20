@@ -1,5 +1,5 @@
 ---
-cover: https://m.media-amazon.com/images/M/MV5BYzU2MWQ5NGQtYmNlMC00ZjJkLWJmODItZDM5MDM3YmUyMWJkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg
+cover: https://m.media-amazon.com/images/M/MV5BYzU2MWQ5NQtYmNlMC00ZjJkLWJmODItZDM5MDM3YmUyMWJkXkEyXkFqcc@._V1_FMjpg_UX1000_.jpg
 animation.: Madhouse
 Année de Sortie: 2001
 database-plugin: "1"

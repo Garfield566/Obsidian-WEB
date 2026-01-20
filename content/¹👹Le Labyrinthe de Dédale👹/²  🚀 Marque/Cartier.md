@@ -3,7 +3,7 @@ brand: Cartier
 created: "1847"
 Dead: no
 notes: .
-Gamme de prix: 3k-300k
+amme de prix: 3k-300k
 sticker: .
 Pays d'Origine: France
 cover: https://www.watchonista.com/sites/default/files/watchographer/290/profile/2000px-cartier_logo.svg_.jpg

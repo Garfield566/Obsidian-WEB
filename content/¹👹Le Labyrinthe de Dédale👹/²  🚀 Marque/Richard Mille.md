@@ -4,7 +4,7 @@ cover: https://logowik.com/content/uploads/images/richard-mille9316.logowik.com.
 Pays d'Origine: Suisse
 sticker: .
 notes: .
-Gamme de prix: 80k-3M
+amme de prix: 80k-3M
 Dead: no
 created: "2001"
 ---

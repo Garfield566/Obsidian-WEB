@@ -3,7 +3,7 @@ brand: Chopard
 created: "1860"
 Dead: no
 cover: https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-Chopard.jpg
-Gamme de prix: 1k-80k
+amme de prix: 1k-80k
 notes: .
 Pays d'Origine: Suisse
 sticker: .

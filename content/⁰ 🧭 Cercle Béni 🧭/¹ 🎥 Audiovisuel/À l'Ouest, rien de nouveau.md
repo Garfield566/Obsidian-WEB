@@ -4,7 +4,7 @@ note-audio: 6✨
 note-scénario: 8.5✨
 note-visuel: 7✨
 cover: https://cinedweller.com/wp-content/uploads/2023/03/A-l-ouest-rien-de-nouveau-affiche.jpg
-genre: Drame, Guerre
+genre: Drame, uerre
 sous_genres: Historique, Anti-guerre
 Réalisateurs: Edward-Berger
 Compositeurs.: Volker-Bertelmann
@@ -15,7 +15,7 @@ vue: true
 tags:
   - À_l-Ouest_rien_de_nouveau
   - Drame
-  - Guerre
+  - uerre
   - guerre-mondial
   - historique
   - Edward-Berger

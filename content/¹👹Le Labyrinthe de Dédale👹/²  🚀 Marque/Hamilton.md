@@ -1,12 +1,12 @@
 ---
 brand: Hamilton
-Gamme de prix: 250-10k
+amme de prix: 250-10k
 notes: .
 Pays d'Origine: Suisse
 sticker: .
 Dead: no
 created: "1892"
-cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJYzpWaJLCT7Zd5XFrxeaJiAjHPWACs_6BfQ&s
+cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cSJYzpWaJLCT7Zd5XFrxeaJiAjHPWACs_6BfQ&s
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Le CAUCHEMAR de l'Autriche-Hongrie pendant la Première Guerre Mondiale"
+title: "Le CAUCHEMAR de l'Autriche-Hongrie pendant la Première uerre Mondiale"
 channel: "Epoques Epiques"
 published: 2025-03-23
 url: "https://www.youtube.com/watch?v=Xudb9yEQ2qQ"

@@ -1,12 +1,12 @@
 ---
 brand: Tudor
-cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3D7ckAEJkBrFES31v_dHW8iTDU1DSYccJw&s
+cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cTS3D7ckAEJkBrFES31v_dHW8iTDU1DSYccJw&s
 created: "1926"
 Dead: no
 Pays d'Origine: Suisse
 sticker: emoji//1f441-fe0f-200d-1f5e8-fe0f
 notes: .
-Gamme de prix: 1k-100k
+amme de prix: 1k-100k
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3D7ckAEJkBrFES31v_dHW8iTDU1DSYccJw&s)

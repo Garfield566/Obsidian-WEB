@@ -5,7 +5,7 @@ Dead: no
 Pays d'Origine: "Japan "
 sticker: emoji//1f3ef
 cover: https://www.uhren-shop.ch/uhren-magazin/wp-content/uploads/2020/10/Blog-Citizen-Uhren-Schweiz-2020.jpg.webp
-Gamme de prix: 100-3k
+amme de prix: 100-3k
 notes: ✨✨✨✨
 ---
 

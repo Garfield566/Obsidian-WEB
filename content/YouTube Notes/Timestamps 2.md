@@ -1,5 +1,5 @@
 ---
-title: "Comment la 1ère Guerre Mondiale a transformé le Japon ?"
+title: "Comment la 1ère uerre Mondiale a transformé le Japon ?"
 channel: "Epoques Epiques"
 published: 2025-05-18
 url: "https://www.youtube.com/watch?v=_jHKS8oyvC0&list=WL"

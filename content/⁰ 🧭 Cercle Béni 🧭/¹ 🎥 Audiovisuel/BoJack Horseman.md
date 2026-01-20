@@ -3,7 +3,7 @@ Titre: BoJack Horseman
 note-audio: ✨✨✨✨✨
 note-scénario: ✨✨✨✨
 note-visuel: ✨✨✨✨
-cover: https://image.tmdb.org/t/p/original/81BCTObfPk0EvarJpUgnGXHvM9x.jpg
+cover: https://image.tmdb.org/t/p/original/81BCTObfPk0EvarJpUgnXHvM9x.jpg
 genre: Comédie dramatique, Satire
 sous_genres: Psychologique, Mélancolique
 Réalisateurs: Raphael-Bob-Waksberg
@@ -30,7 +30,7 @@ tags:
   - Don-t_Stop_Dancing
   - Mr-Peanutbutter-s_House
   - BoJack-s_Lament
-  - Grouplove
+  - rouplove
   - Oberhofer
   - Jesse-Novak
   - St-Vincent

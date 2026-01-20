@@ -144,9 +144,21 @@ class TagHealthAnalyzer:
         alerts = []
         all_health = self.analyze_all_tags()
 
+        # Recupere les tags deja traites (conserves, supprimes, archives)
+        excluded_tags: set[str] = set()
+        if self.repository:
+            excluded_tags.update(self.repository.get_kept_tag_names())
+            excluded_tags.update(self.repository.get_deleted_tag_names())
+            excluded_tags.update(self.repository.get_archived_tag_names())
+
         for tag_name, health in all_health.items():
             if len(alerts) >= max_alerts:
                 break
+
+            # Skip les tags deja traites par l'utilisateur
+            if tag_name in excluded_tags:
+                continue
+
             # Alerte faible usage
             if health.usage_count < self.LOW_USAGE_THRESHOLD:
                 alerts.append(HealthAlert(

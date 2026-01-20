@@ -3,7 +3,7 @@ brand: IWC
 cover: https://upload.wikimedia.org/wikipedia/commons/d/dc/IWC_Schaffhausen_Logo.jpg
 created: "1868"
 Dead: no
-Gamme de prix: 4k-200k
+amme de prix: 4k-200k
 notes: .
 Pays d'Origine: Suisse
 sticker: .

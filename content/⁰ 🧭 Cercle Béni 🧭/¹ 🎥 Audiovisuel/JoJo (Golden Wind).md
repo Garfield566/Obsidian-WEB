@@ -1,5 +1,5 @@
 ---
-Titre: JoJo (Golden Wind)
+Titre: JoJo (olden Wind)
 note-audio: ✨✨✨✨
 note-scénario: ✨✨✨
 note-visuel: ✨✨✨✨
@@ -24,10 +24,10 @@ tags:
   - Yugo-Kanno
   - David-Production
   - JoJo
-  - Golden_Wind
+  - olden_Wind
   - Daisuke-Hasegaw
   - Il_Vento_D-Oro
-  - Giorno-s_Theme
+  - iorno-s_Theme
   - Traitor-s_Requiem
   - Modern_Criminal
   - Torture_Dance

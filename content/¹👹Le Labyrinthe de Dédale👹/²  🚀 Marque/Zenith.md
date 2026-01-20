@@ -5,7 +5,7 @@ Dead: no
 Pays d'Origine: Suisse
 sticker: .
 notes: .
-Gamme de prix: 300-100k
+amme de prix: 300-100k
 cover: https://static.wixstatic.com/media/68e207_e7cf6ddfd3594bbb9ccfe873d255bc0d~mv2.jpg/v1/fill/w_1600,h_800,al_c,q_90/file.jpg
 ---
 

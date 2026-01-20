@@ -5,7 +5,7 @@ Dead: no
 Pays d'Origine: Allemagne
 notes: .
 cover: https://cdn.worldvectorlogo.com/logos/junghans.svg
-Gamme de prix: 30-2k
+amme de prix: 30-2k
 ---
 
 

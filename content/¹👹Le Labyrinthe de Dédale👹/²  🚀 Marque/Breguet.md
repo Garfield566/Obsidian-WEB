@@ -4,7 +4,7 @@ cover: https://upload.wikimedia.org/wikipedia/fr/0/02/Breguet-logo.jpg
 Pays d'Origine: Suisse
 created: "1775"
 Dead: no
-Gamme de prix: 5k-400k
+amme de prix: 5k-400k
 notes: .
 sticker: .
 ---

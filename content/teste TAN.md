@@ -176,4 +176,4 @@ $$x = 1.107 + k\pi \text{ pour tout entier } k$$
 >
 > Ce qu'il faut retenir : la tangente est une fonction qui capture l'idée d'inclinaison, avec des propriétés mathématiques riches et des applications concrètes dans de nombreux domaines.
 
-#Fonction/Trigonométrie #Analyse #Géométrie
+#Fonction/Trigonométrie #Analyse éométrie

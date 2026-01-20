@@ -1,5 +1,5 @@
 ---
-cover: https://m.media-amazon.com/images/M/MV5BMzMxYWE5ZjMtMGJiMi00YmZjLTg2MGEtMWY1YjBkNWUxNzQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg
+cover: https://m.media-amazon.com/images/M/MV5BMzMxYWE5ZjMtMJiMi00YmZjLTg2MEtMWY1YjBkNWUxNzQ5XkEyXkFqcc@._V1_FMjpg_UX1000_.jpg
 Réalisateurs: Takeshi Koike
 Scénariste: "\t Katsuhito Ishii"
 Compositeurs.: "\t James Shimoji"

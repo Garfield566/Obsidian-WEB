@@ -3,7 +3,7 @@ Titre: BoJack Horseman
 note-audio: ✨✨✨✨✨
 note-scénario: ✨✨✨
 note-visuel: ✨✨✨✨✨
-cover: https://www.lasteve.fr/wp-content/uploads/2020/09/Great-Pretender-e1599286893351.jpg
+cover: https://www.lasteve.fr/wp-content/uploads/2020/09/reat-Pretender-e1599286893351.jpg
 genre: Comédie, Crime, Heist (casse)
 sous_genres: Thriller, Psychologique
 Réalisateurs: Ryota-Kosawa
@@ -21,7 +21,7 @@ tags:
   - Ryota-Kosawa
   - Yutaka-Yamada
   - Wit-Studio
-  - Great_Pretender
+  - reat_Pretender
   - Confidence_Man
   - Los_Angeles_Connection
   - Singapore_Sky

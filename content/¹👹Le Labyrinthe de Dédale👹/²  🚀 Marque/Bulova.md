@@ -3,7 +3,7 @@ brand: Bulova
 cover: https://cdn.worldvectorlogo.com/logos/bulova-1.svg
 created: "1875"
 Dead: no
-Gamme de prix: 200-5k
+amme de prix: 200-5k
 notes: .
 Pays d'Origine: USA
 sticker: .

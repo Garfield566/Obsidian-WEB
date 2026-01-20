@@ -1,5 +1,5 @@
 ---
-title: "Le SACRIFICE de la LÉGION : la bataille de Camerone (1863)."
+title: "Le SACRIFICE de la LÉION : la bataille de Camerone (1863)."
 channel: "Batailles de France"
 published: 2025-04-15
 url: "https://www.youtube.com/watch?v=2DuZrkegR0A"

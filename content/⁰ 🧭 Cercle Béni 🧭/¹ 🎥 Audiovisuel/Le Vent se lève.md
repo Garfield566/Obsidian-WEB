@@ -14,7 +14,7 @@ tags:
   - anime
   - Miyazaki
   - Aviation
-  - Guerre-mondiale
+  - uerre-mondiale
   - Drame
   - Joe-Hisaishi
   - The_Wind_Rises

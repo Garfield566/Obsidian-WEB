@@ -2,7 +2,7 @@
 brand: Longines
 cover: https://i.pinimg.com/736x/e0/ce/07/e0ce0771f4e6c58203eeb6a638375500.jpg
 Dead: no
-Gamme de prix: 500-10k
+amme de prix: 500-10k
 notes: .
 created: "1832"
 Pays d'Origine: Suisse

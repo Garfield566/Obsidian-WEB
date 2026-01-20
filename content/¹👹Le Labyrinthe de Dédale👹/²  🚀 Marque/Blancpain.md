@@ -6,7 +6,7 @@ notes: .
 created: "1735"
 cover: https://1000logos.net/wp-content/uploads/2018/10/good-watch-brand.jpg
 Dead: no
-Gamme de prix: 2k-200k
+amme de prix: 2k-200k
 ---
 
 ![cover|500](https://1000logos.net/wp-content/uploads/2018/10/good-watch-brand.jpg)

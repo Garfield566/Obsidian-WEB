@@ -1,9 +1,9 @@
 ---
 brand: Lip
-cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkJP8Hcq-yL26kBg0At9w&s
+cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cTnpOASsq7vfow2kqkJP8Hcq-yL26kBg0At9w&s
 created: "1867"
 Dead: no
-Gamme de prix: 40-3k
+amme de prix: 40-3k
 notes: .
 Pays d'Origine: France
 sticker: .

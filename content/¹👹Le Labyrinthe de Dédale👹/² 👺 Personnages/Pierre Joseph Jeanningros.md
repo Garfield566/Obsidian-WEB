@@ -11,8 +11,8 @@ cover: https://geneacdn.net/bundles/geneanetgeneastar/images/celebrites/200px/je
 date: (1816-1902)
 siècle: XIX
 nationalité: France
-category: General
-sous_category: Grand Officier
+category: eneral
+sous_category: rand Officier
 ---
 
 > [!infobox]

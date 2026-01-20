@@ -6,7 +6,7 @@ Dead: no
 Pays d'Origine: Suisse
 sticker: .
 notes: .
-Gamme de prix: 300-8k
+amme de prix: 300-8k
 ---
 
 ![cover|500](https://uploads-ssl.webflow.com/5880c2457f92b892427ba1ee/5887a52c86b107d0160018d5_mido-watches-news.png)

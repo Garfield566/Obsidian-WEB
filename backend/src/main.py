@@ -426,13 +426,16 @@ class TagMatcherV2:
         """Trouve des suggestions d'attribution de tags existants."""
         suggestions = []
 
+        # Tags populaires (utilises par au moins 3 notes)
+        popular_tags = {tag for tag, notes in self._notes_by_tag.items() if len(notes) >= 3}
+
         # Pour chaque note sans beaucoup de tags
         for path, note in self.notes.items():
-            if len(note.tags) >= 5:  # Skip si déjà bien tagué
+            if len(note.tags) >= 8:  # Skip si deja tres bien tague
                 continue
 
-            # Trouve les voisins
-            neighbors = self.engine.find_neighbors(path, k=10, threshold=0.7)
+            # Trouve les voisins avec un seuil plus bas
+            neighbors = self.engine.find_neighbors(path, k=15, threshold=0.55)
 
             # Collecte les tags des voisins
             neighbor_tags: dict[str, list[tuple[str, float]]] = {}
@@ -440,24 +443,28 @@ class TagMatcherV2:
                 neighbor_note = self.notes.get(neighbor_path)
                 if neighbor_note:
                     for tag in neighbor_note.tags:
-                        if tag not in note.tags:  # Tag que la note n'a pas
+                        # Tag que la note n'a pas et qui est populaire
+                        if tag not in note.tags and tag in popular_tags:
                             if tag not in neighbor_tags:
                                 neighbor_tags[tag] = []
                             neighbor_tags[tag].append((neighbor_path, score))
 
-            # Suggère les tags les plus fréquents chez les voisins
+            # Suggere les tags les plus frequents chez les voisins
             for tag, sources in neighbor_tags.items():
-                if len(sources) < 2:  # Au moins 2 voisins avec ce tag
+                # Au moins 1 voisin avec score > 0.7, ou 2+ voisins
+                high_score_sources = [s for s in sources if s[1] > 0.7]
+                if len(sources) < 2 and len(high_score_sources) < 1:
                     continue
 
-                # Vérifie si suggestion existe déjà
+                # Verifie si suggestion existe deja
                 if self.repository.suggestion_exists(tag, path):
                     continue
 
                 avg_score = sum(s[1] for s in sources) / len(sources)
-                confidence = min(0.95, avg_score * (len(sources) / 5))
+                # Confiance basee sur le score et le nombre de sources
+                confidence = min(0.95, avg_score * 0.7 + 0.3 * min(1.0, len(sources) / 3))
 
-                if confidence < 0.5:
+                if confidence < 0.45:
                     continue
 
                 suggestions.append({

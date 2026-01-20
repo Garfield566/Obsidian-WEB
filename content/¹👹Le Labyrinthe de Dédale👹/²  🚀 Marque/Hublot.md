@@ -1,7 +1,7 @@
 ---
 cover: https://www.icon-icon.com/wp-content/uploads/2020/03/Hublot-logo-journal-du-luxe.png
 brand: Hublot
-Gamme de prix: 2k-300k
+amme de prix: 2k-300k
 notes: .
 Dead: no
 created: "1980"

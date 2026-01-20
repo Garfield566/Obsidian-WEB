@@ -3,7 +3,7 @@ Titre: Dorohedoro
 note-audio: ✨✨✨
 note-scénario: ✨✨✨
 note-visuel: ✨✨✨✨
-cover: https://occ-0-8407-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABa5lhqmhCcInDv3CgQAsEGJn_pTlcAEOaKA-n9slY5klxo0kpT91rjuOXPexMFmUx1CFkA4fISA4haOg0Zx6rG5CO1PMSnJmVIw4.jpg?r=0d0
+cover: https://occ-0-8407-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABa5lhqmhCcInDv3CgQAsEJn_pTlcAEOaKA-n9slY5klxo0kpT91rjuOXPexMFmUx1CFkA4fISA4haOg0Zx6r5CO1PMSnJmVIw4.jpg?r=0d0
 genre: Fantasy noire, Action, Comédie noire
 sous_genres: Mystère
 Réalisateurs: Q-Hayashida (auteur du manga original)

@@ -6,7 +6,7 @@ Dead: no
 Pays d'Origine: Italie
 sticker: .
 notes: .
-Gamme de prix: 5k-120k
+amme de prix: 5k-120k
 ---
 
 

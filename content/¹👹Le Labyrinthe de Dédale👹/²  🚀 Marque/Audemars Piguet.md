@@ -3,7 +3,7 @@ brand: Audemars Piguet
 created: "1875"
 Dead: no
 notes: .
-Gamme de prix: 10-150k
+amme de prix: 10-150k
 Pays d'Origine: Suisse
 sticker: .
 cover: https://cdn.worldvectorlogo.com/logos/audemars-piguet.svg
