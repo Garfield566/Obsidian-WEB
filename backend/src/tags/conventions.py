@@ -8,6 +8,7 @@ Conventions supportées:
 - Dates/Siècles: chiffres romains + `\` (ex: XIX, XIX\1789, XIX\1789\14-juillet)
 - Concepts avec auteur: concept\auteur (ex: anomie\durkheim, volonté-de-puissance\nietzsche)
 - Disciplines académiques: discipline\sous-domaine (ex: mathématiques\analyse, physique\mécanique)
+- Objets mathématiques: objet-composé ou objet\auteur (ex: fonction-exponentielle, intégrale\riemann)
 - Œuvres d'art: mouvement\auteur\titre (ex: impressionnisme\monet\impression-soleil-levant)
 - Catégories génériques: séparateur `\` (ex: Physique\Quantique)
 """
@@ -27,6 +28,7 @@ class TagFamily(Enum):
     DATE = "date"               # Dates et siècles (chiffres romains)
     CONCEPT_AUTHOR = "concept_author"  # Concepts avec auteur (anomie\durkheim)
     DISCIPLINE = "discipline"   # Disciplines académiques (mathématiques\analyse)
+    MATH_OBJECT = "math_object" # Objets mathématiques (intégrale\riemann, fonction-exponentielle)
     ARTWORK = "artwork"         # Œuvres d'art (mouvement\auteur\titre)
     CATEGORY = "category"       # Catégories génériques (Xxx\Yyy)
     GENERIC = "generic"         # Tags génériques sans convention spécifique
@@ -80,6 +82,47 @@ KNOWN_DISCIPLINES = {
     "epistemologie", "logique", "rhétorique", "rhetorique", "esthétique",
     "esthetique", "éthique", "ethique", "métaphysique", "metaphysique",
     "politique", "statistiques", "probabilités", "probabilites",
+}
+
+# Objets mathématiques connus (pour détection objet\auteur)
+# Ce sont des objets qui peuvent avoir des variantes associées à des auteurs
+KNOWN_MATH_OBJECTS = {
+    # Intégrales et dérivées
+    "intégrale", "integrale", "dérivée", "derivee", "différentielle", "differentielle",
+    # Fonctions
+    "fonction", "série", "serie", "suite", "limite",
+    # Algèbre
+    "groupe", "anneau", "corps", "espace", "algèbre", "algebre", "module",
+    "matrice", "vecteur", "tenseur", "opérateur", "operateur",
+    # Topologie et géométrie
+    "variété", "variete", "espace", "métrique", "metrique", "topologie",
+    "surface", "courbe", "fibré", "fibre",
+    # Analyse
+    "mesure", "norme", "produit", "somme", "convergence",
+    # Logique et fondements
+    "axiome", "théorème", "theoreme", "lemme", "proposition", "conjecture",
+    # Structures
+    "catégorie", "categorie", "morphisme", "foncteur", "transformation",
+}
+
+# Mathématiciens connus (pour détection objet\auteur)
+KNOWN_MATHEMATICIANS = {
+    # Analyse
+    "riemann", "lebesgue", "cauchy", "weierstrass", "fourier", "laplace",
+    "taylor", "maclaurin", "euler", "lagrange", "dirichlet", "poisson",
+    # Algèbre
+    "galois", "abel", "noether", "hilbert", "dedekind", "kronecker",
+    "cayley", "hamilton", "grassmann", "clifford", "jordan", "lie",
+    # Géométrie et topologie
+    "euclide", "riemann", "poincaré", "poincare", "hausdorff", "borel",
+    "cantor", "zorn", "zermelo", "banach", "frechet", "sobolev",
+    # Logique
+    "gödel", "godel", "turing", "church", "tarski", "kleene",
+    # Probabilités
+    "kolmogorov", "markov", "bayes", "bernoulli", "gauss", "poisson",
+    # Autres
+    "fermat", "descartes", "pascal", "leibniz", "newton", "jacobi",
+    "legendre", "hermite", "chebyshev", "bessel", "stirling",
 }
 
 # Mouvements artistiques connus (pour détection œuvres d'art)
@@ -152,6 +195,16 @@ def classify_tag(tag: str) -> TagInfo:
             family=TagFamily.CONCEPT_AUTHOR,
             prefix=parts[0],  # Le concept
             hierarchy=[parts[1]],  # L'auteur
+            normalized=_normalize_for_comparison(tag),
+        )
+
+    # Vérifie si c'est un objet mathématique avec auteur (ex: intégrale\riemann)
+    if len(parts) == 2 and _is_math_object_author(parts[0], parts[1]):
+        return TagInfo(
+            raw=tag,
+            family=TagFamily.MATH_OBJECT,
+            prefix=parts[0],  # L'objet
+            hierarchy=[parts[1]],  # L'auteur/variante
             normalized=_normalize_for_comparison(tag),
         )
 
@@ -271,6 +324,28 @@ def _is_discipline(first_part: str) -> bool:
     return first_part.lower() in KNOWN_DISCIPLINES
 
 
+def _is_math_object_author(obj: str, author: str) -> bool:
+    """Détecte si un tag est de la forme objet\auteur pour les objets mathématiques.
+
+    Convention: objet-math\mathématicien
+    Ex: intégrale\riemann, intégrale\lebesgue, série\fourier
+
+    Critères:
+    - L'objet est un objet mathématique connu
+    - L'auteur est un mathématicien connu
+    """
+    obj_normalized = obj.lower().replace("-", "")
+    author_normalized = author.lower().replace("-", "")
+
+    # Vérifie si c'est un objet mathématique connu
+    is_math_obj = obj_normalized in KNOWN_MATH_OBJECTS
+
+    # Vérifie si l'auteur est un mathématicien connu
+    is_mathematician = author_normalized in KNOWN_MATHEMATICIANS
+
+    return is_math_obj and is_mathematician
+
+
 def _is_artwork(parts: list[str]) -> bool:
     """Détecte si un tag est une œuvre d'art (mouvement\auteur\titre).
 
@@ -363,6 +438,17 @@ def can_compare_semantically(tag1: str, tag2: str) -> bool:
         disc2 = info2.prefix.lower() if info2.prefix else ""
         return disc1 == disc2
 
+    if family == TagFamily.MATH_OBJECT:
+        # Pour les objets mathématiques, on peut comparer sémantiquement
+        # si c'est le même objet (même avec auteurs différents)
+        # Ex: intégrale\riemann vs intégrale\lebesgue = comparables
+        # Ex: intégrale\riemann vs série\fourier = non comparables
+        obj1 = info1.prefix.lower() if info1.prefix else ""
+        obj2 = info2.prefix.lower() if info2.prefix else ""
+        obj1_norm = obj1.replace("-", "")
+        obj2_norm = obj2.replace("-", "")
+        return obj1_norm == obj2_norm
+
     if family == TagFamily.ARTWORK:
         # Pour les œuvres d'art, on peut comparer sémantiquement
         # si c'est le même mouvement artistique
@@ -446,6 +532,14 @@ def suggest_tag_format(concept: str, family: TagFamily, context: dict = None) ->
             return f"{discipline}\\{subdomain.lower()}"
         return discipline
 
+    if family == TagFamily.MATH_OBJECT:
+        # Objet mathématique: objet-composé ou objet\auteur
+        author = context.get("author", "")
+        obj_formatted = concept.lower().replace(" ", "-")
+        if author:
+            return f"{obj_formatted}\\{author.lower()}"
+        return obj_formatted
+
     if family == TagFamily.ARTWORK:
         # Œuvre d'art: mouvement\auteur\titre
         movement = context.get("movement", "")
@@ -478,6 +572,7 @@ def get_tag_family_label(family: TagFamily) -> str:
         TagFamily.DATE: "Date/Siècle",
         TagFamily.CONCEPT_AUTHOR: "Concept/Auteur",
         TagFamily.DISCIPLINE: "Discipline",
+        TagFamily.MATH_OBJECT: "Objet mathématique",
         TagFamily.ARTWORK: "Œuvre d'art",
         TagFamily.CATEGORY: "Catégorie",
         TagFamily.GENERIC: "Générique",
