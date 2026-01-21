@@ -6,7 +6,8 @@ Conventions supportées:
 - Entités politiques: préfixe `entité\` (ex: entité\prusse)
 - Aires culturelles: préfixe `aire\` (ex: aire\monde-hellénistique)
 - Dates/Siècles: chiffres romains + `\` (ex: XIX, XIX\1789, XIX\1789\14-juillet)
-- Catégories/Concepts: séparateur `\` (ex: Physique\Quantique)
+- Concepts avec auteur: concept\auteur (ex: anomie\durkheim, volonté-de-puissance\nietzsche)
+- Catégories génériques: séparateur `\` (ex: Physique\Quantique)
 """
 
 import re
@@ -22,7 +23,8 @@ class TagFamily(Enum):
     ENTITY = "entity"           # Entités politiques (entité\...)
     AREA = "area"               # Aires culturelles (aire\...)
     DATE = "date"               # Dates et siècles (chiffres romains)
-    CATEGORY = "category"       # Catégories/concepts (Xxx\Yyy)
+    CONCEPT_AUTHOR = "concept_author"  # Concepts avec auteur (anomie\durkheim)
+    CATEGORY = "category"       # Catégories génériques (Xxx\Yyy)
     GENERIC = "generic"         # Tags génériques sans convention spécifique
 
 
@@ -48,6 +50,18 @@ FAMILY_PREFIXES = {
     "entité": TagFamily.ENTITY,
     "entite": TagFamily.ENTITY,  # Sans accent
     "aire": TagFamily.AREA,
+}
+
+# Liste de noms d'auteurs/philosophes connus (pour détection concept\auteur)
+# Cette liste peut être étendue ou remplacée par une détection plus intelligente
+KNOWN_AUTHORS = {
+    "durkheim", "merton", "nietzsche", "marx", "weber", "bourdieu", "foucault",
+    "deleuze", "derrida", "heidegger", "husserl", "kant", "hegel", "spinoza",
+    "descartes", "platon", "aristote", "socrate", "freud", "lacan", "jung",
+    "darwin", "einstein", "newton", "leibniz", "locke", "hume", "rousseau",
+    "montesquieu", "tocqueville", "arendt", "habermas", "rawls", "popper",
+    "kuhn", "lakatos", "feyerabend", "wittgenstein", "russell", "frege",
+    "carnap", "quine", "putnam", "kripke", "searle", "dennett", "chalmers",
 }
 
 
@@ -91,6 +105,16 @@ def classify_tag(tag: str) -> TagInfo:
             family=TagFamily.PERSON,
             prefix=None,
             hierarchy=[tag],
+            normalized=_normalize_for_comparison(tag),
+        )
+
+    # Vérifie si c'est un concept\auteur (ex: anomie\durkheim)
+    if len(parts) == 2 and _is_concept_author(parts[0], parts[1]):
+        return TagInfo(
+            raw=tag,
+            family=TagFamily.CONCEPT_AUTHOR,
+            prefix=parts[0],  # Le concept
+            hierarchy=[parts[1]],  # L'auteur
             normalized=_normalize_for_comparison(tag),
         )
 
@@ -151,6 +175,37 @@ def _is_person_name(tag: str) -> bool:
     return name_parts >= 2
 
 
+def _is_concept_author(concept: str, author: str) -> bool:
+    """Détecte si un tag est de la forme concept\auteur.
+
+    Convention: concept-composé\nom-auteur
+    Ex: anomie\durkheim, volonté-de-puissance\nietzsche
+
+    Critères:
+    - L'auteur est en minuscules (pas de majuscule initiale comme les catégories)
+    - L'auteur est un nom connu OU ressemble à un nom de famille
+    - Le concept peut contenir des tirets (volonté-de-puissance)
+    """
+    # L'auteur doit être en minuscules (différencie de Physique\Quantique)
+    if author[0].isupper():
+        return False
+
+    # Vérifie si l'auteur est dans la liste connue
+    author_normalized = author.lower().replace("-", "")
+    if author_normalized in KNOWN_AUTHORS:
+        return True
+
+    # Heuristique: si l'auteur ressemble à un nom de famille
+    # (pas de tiret ou un seul tiret pour noms composés)
+    if author.count("-") <= 1 and author.isalpha():
+        # Et le concept contient potentiellement des tirets (concept composé)
+        # ou est un mot simple en minuscules
+        if concept.islower() or "-" in concept:
+            return True
+
+    return False
+
+
 def _normalize_for_comparison(tag: str) -> str:
     """Normalise un tag pour la comparaison (détection doublons syntaxiques)."""
     # Lowercase
@@ -202,6 +257,18 @@ def can_compare_semantically(tag1: str, tag2: str) -> bool:
     if family == TagFamily.AREA:
         # Deux aires différentes = pas de comparaison
         return info1.normalized == info2.normalized
+
+    if family == TagFamily.CONCEPT_AUTHOR:
+        # Pour les concept\auteur, on peut comparer sémantiquement
+        # si c'est le même concept (même avec auteurs différents)
+        # Ex: anomie\durkheim vs anomie\merton = comparables
+        # Ex: anomie\durkheim vs volonté-de-puissance\nietzsche = non comparables
+        concept1 = info1.prefix.lower() if info1.prefix else ""
+        concept2 = info2.prefix.lower() if info2.prefix else ""
+        # Normalise les tirets pour la comparaison
+        concept1_norm = concept1.replace("-", "")
+        concept2_norm = concept2.replace("-", "")
+        return concept1_norm == concept2_norm
 
     if family == TagFamily.CATEGORY:
         # Pour les catégories, on peut comparer sémantiquement
@@ -260,6 +327,15 @@ def suggest_tag_format(concept: str, family: TagFamily, context: dict = None) ->
             return century
         return concept
 
+    if family == TagFamily.CONCEPT_AUTHOR:
+        # Concept avec auteur: concept\auteur
+        author = context.get("author", "")
+        # Le concept avec tirets pour les mots composés
+        concept_formatted = concept.lower().replace(" ", "-")
+        if author:
+            return f"{concept_formatted}\\{author.lower()}"
+        return concept_formatted
+
     if family == TagFamily.CATEGORY:
         # Catégorie: Parent\Enfant
         parent = context.get("parent", "")
@@ -279,6 +355,7 @@ def get_tag_family_label(family: TagFamily) -> str:
         TagFamily.ENTITY: "Entité politique",
         TagFamily.AREA: "Aire culturelle",
         TagFamily.DATE: "Date/Siècle",
+        TagFamily.CONCEPT_AUTHOR: "Concept/Auteur",
         TagFamily.CATEGORY: "Catégorie",
         TagFamily.GENERIC: "Générique",
     }
