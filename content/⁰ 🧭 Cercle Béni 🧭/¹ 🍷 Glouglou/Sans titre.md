@@ -10,8 +10,6 @@ tags:
 
 ![cover|700](https://image.tmdb.org/t/p/original/1K0xW8RtPzACZ2Tu42H9R3OlGEw.jpg)
 
-
-
 ## 🥄 **Ingrédients**
 
 - 6 cl de **tequila**

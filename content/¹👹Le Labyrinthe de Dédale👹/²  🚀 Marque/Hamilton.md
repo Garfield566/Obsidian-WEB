@@ -9,9 +9,7 @@ created: "1892"
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cSJYzpWaJLCT7Zd5XFrxeaJiAjHPWACs_6BfQ&s
 ---
 
-
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJYzpWaJLCT7Zd5XFrxeaJiAjHPWACs_6BfQ&s)
-
 
 ## Historique
 

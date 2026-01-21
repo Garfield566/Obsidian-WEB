@@ -2,8 +2,8 @@
 url: "https://en.wikipedia.org/wiki/Battle_of_Camar%C3%B3n"
 title: "Battle of Camarón - Wikipedia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2006-03-10T15:16:45+01:00
 modified: "2025-01-22T14:13:35+01:00"
 created: 2025-04-17

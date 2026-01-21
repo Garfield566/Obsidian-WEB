@@ -19,15 +19,15 @@ Je vais maintenant générer la note complète en suivant le template fourni.
 ```tikz
 \begin{document}
 \begin{tikzpicture}[domain=0:10, scale=0.6]
-  \draw[very thin,color=gray] (-0.5,-0.5) grid (10.5,10.5);
-  \draw[->] (-0.5,0) -- (10.5,0) node[right] {$x$};
-  \draw[->] (0,-0.5) -- (0,10.5) node[above] {$y$};
+ \draw[very thin,color=gray] (-0.5,-0.5) grid (10.5,10.5);
+ \draw[->] (-0.5,0) -- (10.5,0) node[right] {$x$};
+ \draw[->] (0,-0.5) -- (0,10.5) node[above] {$y$};
 
-  % Tracé de la fonction exponentielle
-  \draw[color=red, domain = 0:10, samples=60] plot (\x,{exp(\x)}) node[right] {$f(x) = e^x$};
+ % Tracé de la fonction exponentielle
+ \draw[color=red, domain = 0:10, samples=60] plot (\x,{exp(\x)}) node[right] {$f(x) = e^x$};
 
-  % Ligne y=x pour comparaison
-  \draw[color=blue, domain = 0:10, samples=60] plot (\x,{\x}) node[right] {$f(x) = x$};
+ % Ligne y=x pour comparaison
+ \draw[color=blue, domain = 0:10, samples=60] plot (\x,{\x}) node[right] {$f(x) = x$};
 \end{tikzpicture}
 \end{document}
 ```
@@ -133,9 +133,9 @@ $$e^{i\pi} + 1 = 0$$
 
 #### Tableau de Variations
 
-| $x$ | $-\infty$ |  | 0 |  | $+\infty$ |
+| $x$ | $-\infty$ | | 0 | | $+\infty$ |
 |---|---|---|---|---|---|
-| $f'(x)$ |  | $+$ | $+$ | $+$ |  |
+| $f'(x)$ | | $+$ | $+$ | $+$ | |
 | $f(x)$ | $0^+$ | $\nearrow$ | 1 | $\nearrow$ | $+\infty$ |
 
 #### Points Remarquables
@@ -143,7 +143,7 @@ $$e^{i\pi} + 1 = 0$$
 - **Extrema locaux** : Aucun
 - **Points d'inflexion** : Aucun
 - **Asymptotes** :
-  - Horizontale : $y = 0$ (asymptote en $-\infty$)
+ - Horizontale : $y = 0$ (asymptote en $-\infty$)
 
 ---
 
@@ -170,4 +170,4 @@ La fonction exponentielle est utilisée pour modéliser des phénomènes de croi
 > [!info] Rappel Important
 > La dérivée de $e^x$ est égale à elle-même, ce qui en fait une fonction très importante en analyse.
 
-#Fonction/Exponentielle #Analyse #Mathématiques  #World-War-I 
+#Fonction/Exponentielle #Analyse #Mathématiques #World-War-I 

@@ -11,7 +11,6 @@ notes: ✨✨✨✨
 
 ![cover|500](https://www.uhren-shop.ch/uhren-magazin/wp-content/uploads/2020/10/Blog-Citizen-Uhren-Schweiz-2020.jpg.webp)
 
-
 ## Historique
 
 La marque Citizen a été fondée en 1918 sous le nom de "Shokosha Watch Research Institute" à Tokyo, au Japon. Le nom "Citizen" a été adopté en 1930 dans le but de créer une montre que tous les citoyens du monde pourraient posséder et apprécier. Depuis ses débuts, Citizen a été à l'avant-garde de l'innovation horlogère, avec une réputation de haute qualité et de technologies avancées.

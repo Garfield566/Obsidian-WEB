@@ -11,8 +11,7 @@ created: "2001"
 
 ![cover|500](https://logowik.com/content/uploads/images/richard-mille9316.logowik.com.webp)
 
-
-##  Historique
+## Historique
 
 Richard Mille est une marque horlogère de luxe fondée en 2001 par le Français Richard Mille, en collaboration avec Audemars Piguet. La marque est célèbre pour ses montres haut de gamme qui combinent technologie de pointe, innovation et matériaux de haute performance.
 

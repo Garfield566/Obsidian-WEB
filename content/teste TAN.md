@@ -11,14 +11,14 @@ tube
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
-    axis lines=middle,
-    grid=both,
-    domain=-1.4:1.4,
-    samples=200,
-    xlabel={$x$},
-    ylabel={$f(x)$},
-    width=10cm,
-    height=8cm
+ axis lines=middle,
+ grid=both,
+ domain=-1.4:1.4,
+ samples=200,
+ xlabel={$x$},
+ ylabel={$f(x)$},
+ width=10cm,
+ height=8cm
 ]
 \addplot[blue, thick] {tan(x)};
 \end{axis}

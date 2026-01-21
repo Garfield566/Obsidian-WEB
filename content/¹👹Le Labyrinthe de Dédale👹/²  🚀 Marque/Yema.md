@@ -9,9 +9,7 @@ Pays d'Origine: France
 sticker: .
 ---
 
-
 ![cover|500](https://yema.com/cdn/shop/files/YEMA_social_sharing_featured_img_1200w_1200x.jpg?v=1597390823)
-
 
 ## Historique
 

@@ -11,7 +11,6 @@ sticker: .
 
 ![cover|500](https://upload.wikimedia.org/wikipedia/commons/d/dc/IWC_Schaffhausen_Logo.jpg)
 
-
 ## Historique
 
 IWC, abréviation de International Watch Co., est une marque horlogère suisse fondée en 1868 par l'horloger américain Florentine Ariosto Jones à Schaffhouse, en Suisse. Dès ses débuts, IWC s'est distinguée par son engagement envers l'innovation technique et la qualité horlogère.
@@ -21,7 +20,7 @@ IWC, abréviation de International Watch Co., est une marque horlogère suisse f
 IWC est réputée pour plusieurs innovations dans le domaine de l'horlogerie, notamment :
 
 - **Calibres de manufacture** : IWC produit ses propres mouvements de haute horlogerie, allant des mouvements à remontage manuel aux mouvements automatiques complexes avec complications.
-  
+ 
 - **Ingenieur** : Introduite en 1955, la collection Ingenieur est connue pour son design robuste et sa résistance aux champs magnétiques, destinée principalement aux ingénieurs et aux professionnels exposés à des environnements magnétiques.
 
 - **Pilot's Watch** : IWC a une longue tradition dans la fabrication de montres pour pilotes, caractérisées par leur lisibilité optimale, leurs fonctionnalités spécifiques à l'aviation et leur design inspiré de l'aéronautique.
@@ -31,7 +30,7 @@ IWC est réputée pour plusieurs innovations dans le domaine de l'horlogerie, no
 IWC se positionne dans plusieurs secteurs de l'horlogerie de luxe, y compris :
 
 - **Montres de pilote** : Les collections comme la Big Pilot's Watch et la Pilot's Chronograph sont populaires parmi les amateurs d'aviation et les collectionneurs, offrant des montres robustes avec des complications spécifiques à l'aviation.
-  
+ 
 - **Ingenieur** : Les montres Ingenieur combinent technologie et esthétique, offrant une protection contre les champs magnétiques tout en conservant une allure sportive et élégante.
 
 - **Portugieser** : La collection Portugieser est célèbre pour ses montres au design épuré et élégant, souvent équipées de complications comme les chronographes et les calendriers.

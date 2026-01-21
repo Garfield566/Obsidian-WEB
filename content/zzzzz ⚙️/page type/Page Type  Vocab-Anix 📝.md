@@ -3,9 +3,7 @@ banner: "![[zzzzz/image/Pasted image 20230422131127.png]]"
 sticker: 1f99d
 ---
 
-#  Vocab/Anix 
-
-
+# Vocab/Anix 
 
 ## Méta-données
 
@@ -26,7 +24,6 @@ sticker: 1f99d
 
 #### Races : Chat
 
-
 #### Races : Poisson
 
 #### Races : Lapin
@@ -39,14 +36,7 @@ sticker: 1f99d
 
 #### Races : Oiseau
 
-
 #blalba #ggggg #kjhmjh
-
-
-
-
-
-
 
 #### Races : Hamster
 
@@ -63,7 +53,6 @@ sticker: 1f99d
 ##### Côtes et océans
 
 #### - Amérique du Nord
-
 
 ##### Forêts boréales
 
@@ -89,10 +78,9 @@ sticker: 1f99d
 
 #### - Asie
 
-
 ##### Forêts tropicales humides
 
-#####  Forêts tempérées
+##### Forêts tempérées
 
 ##### Déserts et zones arides
 
@@ -117,9 +105,7 @@ sticker: 1f99d
 
 ##### Côtes et océans
 
-
 #### - Océanie
-
 
 ##### Forêts tropicales humides
 
@@ -133,10 +119,6 @@ sticker: 1f99d
 
 #### Lexique
 
-
-
 ## Réflexions ou Commentaires
-
-
 
 ### Sous-titre 1

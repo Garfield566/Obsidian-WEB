@@ -11,7 +11,6 @@ amme de prix: 1k-100k
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3D7ckAEJkBrFES31v_dHW8iTDU1DSYccJw&s)
 
-
 ## Historique
 
 Tudor est une marque horlogère suisse fondée en 1926 par Hans Wilsdorf, le fondateur également de Rolex. L'objectif initial de Tudor était de proposer des montres de qualité à un prix plus abordable tout en bénéficiant de l'excellence technique et de l'image de Rolex.

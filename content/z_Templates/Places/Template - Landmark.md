@@ -1,10 +1,10 @@
 
 > [!infobox]
 > # `=this.file.name`
-> **Pronounced:**  "`=this.Pronounced`"
+> **Pronounced:** "`=this.Pronounced`"
 > ![[PlaceholderImage.png]]
 > ###### Info
->  |
+> |
 > ---|---|
 > **Type** | `=this.type` |
 > **Owners** | `=this.owners` |
@@ -57,10 +57,8 @@ SORT file.name ASC
 
 ## History
 
-
 ## DM Notes
 ### Hidden Details
-
 
 ### Notes
 

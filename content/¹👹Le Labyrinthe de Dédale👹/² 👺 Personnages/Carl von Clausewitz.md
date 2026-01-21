@@ -2,8 +2,8 @@
 url: "https://en.wikipedia.org/wiki/Carl_von_Clausewitz"
 title: "Carl von Clausewitz"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: "2001-08-10T12:25:53+02:00"
 modified: "2025-02-26T19:36:21+01:00"
 created: "2025-04-16"
@@ -39,7 +39,6 @@ sous_category: "military-strategy"
 > |---|---|
 > | **Influence** | <ul style="margin: 0; padding-left: 15px;"><li>Modern military strategy</li><li>Political science</li><li>Business strategy analogies</li></ul> |
 > | **Critics** | <ul style="margin: 0; padding-left: 15px;"><li>Antoine-Henri Jomini</li><li>20th century technocrats</li></ul> |
-
 
 **Carl Philipp Gottfried** (or **Gottlieb**) **von Clausewitz**<sup id="cite_ref-1" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-1"><span class="cite-bracket">[</span>note 1<span class="cite-bracket">]</span></a></sup> ([/ˈklaʊzəvɪts/](https://en.wikipedia.org/wiki/Help:IPA/English "Help:IPA/English") [*KLOW\-zə-vits*](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key"), German: [\[ˈkaʁl fɔn ˈklaʊzəvɪts\]](https://en.wikipedia.org/wiki/Help:IPA/Standard_German "Help:IPA/Standard German") <sup class="ext-phonos-attribution noexcerpt navigation-not-searchable"><a href="https://en.wikipedia.org/wiki/File:De-Carl_von_Clausewitz.ogg" title="File:De-Carl von Clausewitz.ogg">ⓘ</a></sup>; 1 July 1780 – 16 November 1831)<sup id="cite_ref-Clausewitzstudies.org_2-0" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-Clausewitzstudies.org-2"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup> was a [Prussian](https://en.wikipedia.org/wiki/Kingdom_of_Prussia "Kingdom of Prussia") general and [military theorist](https://en.wikipedia.org/wiki/Military_theory "Military theory") who stressed the "moral" (in modern terms meaning [psychological](https://en.wikipedia.org/wiki/Military_psychology "Military psychology")) and political aspects of waging war. His most notable work, *[Vom Kriege](https://en.wikipedia.org/wiki/Vom_Kriege "Vom Kriege")* (*About War*), though unfinished at his death, is considered a seminal treatise on [military strategy](https://en.wikipedia.org/wiki/Military_strategy "Military strategy") and [science](https://en.wikipedia.org/wiki/Military_science "Military science").
 
@@ -198,9 +197,6 @@ In military academies, schools, and universities worldwide, Clausewitz's *Vom Kr
 
 Some theorists of [management](https://en.wikipedia.org/wiki/Management "Management") look to Clausewitz - just as some look to [Sun Tzu](https://en.wikipedia.org/wiki/Sun_Tzu "Sun Tzu") - to bolster ideas on the concept of [leadership](https://en.wikipedia.org/wiki/Leadership "Leadership").<sup id="cite_ref-56" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-56"><span class="cite-bracket">[</span>53<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-57" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-57"><span class="cite-bracket">[</span>54<span class="cite-bracket">]</span></a></sup>
 
-
-
-
- #russian_empire  #psychologie  #France  #polish #philosophie  #Carl-von-Clausewitz #military-strategy #XIX #On_War #Friction_in_War #Fog_of_War #Trinity_of_War #War_as_Policy #Napoleonic_Wars
+ #russian_empire #psychologie #France #polish #philosophie #Carl-von-Clausewitz #military-strategy #XIX #On_War #Friction_in_War #Fog_of_War #Trinity_of_War #War_as_Policy #Napoleonic_Wars
 ![](https://auth.wikimedia.org/loginwiki/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1)
 

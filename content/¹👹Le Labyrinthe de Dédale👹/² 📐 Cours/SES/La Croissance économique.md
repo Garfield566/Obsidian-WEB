@@ -1,17 +1,16 @@
 ---
 excalidraw-plugin: raw
 tags:
-  - "excalidraw"
-image: "https://knowledge.skema.edu/wp-content/uploads/2024/12/incertitude-france-economie-uncertainty-croissance-400x270.png"
+ - "excalidraw"
+image: "https://knowledge.skema.edu/wp-content/uploads/2024/12/incertitude--economie-uncertainty-croissance-400x270.png"
 cour: "eco"
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Excalidraw Data
 
 ## Text Elements
-La Croissance Économique  ^KbD7Faew
+La Croissance Économique ^KbD7Faew
 
 Progrès Technique 
  ^18Q67wgZ
@@ -25,7 +24,7 @@ Sur plus de production ^r7sJq4wc
 ( Si constante des autre facteur ) ^ghfBakyB
 
 Hausse des prélèvement
-obligatoire  ^mCCS2vQG
+obligatoire ^mCCS2vQG
 
 ( ∆+ Revenue État ) ^gd1jRnNi
 
@@ -41,9 +40,9 @@ Baise des prix ^ittghQvf
 
 ( Cout L/unitaire ) ^VZgNFuEP
 
-Consommation  ^tgawCLlo
+Consommation ^tgawCLlo
 
-Investissements  ^9Ww0IPFG
+Investissements ^9Ww0IPFG
 
 ( Matériel or Immatériel ) ^43VitttZ
 
@@ -56,7 +55,7 @@ Offre ^5Mvh5qLR
 Demande ^vimDbWPa
 
 pouvoir
-d'achat  ^hM9twa3B
+d'achat ^hM9twa3B
 
 Du progrès technique à la croissance ^eiAkEazo
 
@@ -65,19 +64,19 @@ Inovation ^vKr9WUv4
 Création de New Industrie +Job ^xUTd2Wr4
 
 JOB
-qualifier  ^A9Xn20a5
+qualifier ^A9Xn20a5
 
-∆–  Demande
+∆– Demande
 main-d'oeuvre non qualifier ^WgNb2mrl
 
-∆+  Demande
+∆+ Demande
 main-d'oeuvre qualifier
 capital humain ^27Pz4Xw2
 
 ∆+ Salaire
 ouvriers qualifier ^icOXmUDG
 
-∆+   Inégalité Main-d'oeuvre
+∆+ Inégalité Main-d'oeuvre
 Qualifier / non Qualifier ^kS1r3I4K
 
 ∆- Salaire
@@ -102,13 +101,13 @@ Or ^8A5dvMde
 Matériel ^WaTgYOqq
 
 ∆+ Investissement 
-Immatériel  ^qHUcvQg3
+Immatériel ^qHUcvQg3
 
 Or ^32ZHr2ml
 
-∆+ Démographiques  ^jTaJlSbI
+∆+ Démographiques ^jTaJlSbI
 
-∆+ Investissement  ^pq4BfjF8
+∆+ Investissement ^pq4BfjF8
 
 ∆+ Pop Active ^AEQVQnve
 
@@ -119,30 +118,30 @@ Accumulation
 Facteur K ^fvbNkDLD
 
 Accumulation 
-Facteur  ^QmONj3rd
+Facteur ^QmONj3rd
 
-∆+ Économique  ^7xTDifme
+∆+ Économique ^7xTDifme
 
 Investissement 
-éducation  ^V8va6Ao0
+éducation ^V8va6Ao0
 
 augmentation 
-des Revenus  ^3tehLJoc
+des Revenus ^3tehLJoc
 
 Création
 d'emploi ^4HPvQL8g
 
 encouragement à
-l'Entreprenariat  ^xZsxfNXP
+l'Entreprenariat ^xZsxfNXP
 
 Mobilité
-Sociale  ^6mHZWplG
+Sociale ^6mHZWplG
 
 Entrepreneur 
-Innovent  ^7X82Lj97
+Innovent ^7X82Lj97
 
 Progrès
-technique  ^shuQPY2N
+technique ^shuQPY2N
 
 Inégalité
 ∆+ (Riche / Pauvre ) ^JwyNWp58
@@ -150,9 +149,9 @@ Inégalité
 ∆+ Mobilité
 Sociale ^OrQgxZv6
 
-∆+ Économique  ^xsFa7Dwf
+∆+ Économique ^xsFa7Dwf
 
-∆- Inégalité  ^0GfQva3k
+∆- Inégalité ^0GfQva3k
 
 ANVAR ^NoYr4F1J
 
@@ -163,10 +162,10 @@ aide à la Recherche ^wzt39ZVK
 
 INPI ^ir0BICTR
 
-Institue Nationale de la propriété Individuelle  ^7uYZfDKp
+Institue Nationale de la propriété Individuelle ^7uYZfDKp
 
 Brevet
-Institutions  ^Rbu4Zrs4
+Institutions ^Rbu4Zrs4
 
 %%
 ## Drawing

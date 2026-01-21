@@ -1,16 +1,15 @@
 ```tikz
 \begin{document}
 \begin{tikzpicture}[domain=0:10, scale=0.6]
-  \draw[very thin,color=gray] (-0.5,-0.5) grid (10.5,10.5);
-  \draw[->] (-0.5,0) -- (10.5,0) node[right] {$x$};
-  \draw[->] (0,-0.5) -- (0,10.5) node[above] {$y$};
-  
-  \draw[color=red, domain = 0:2, samples=60] plot (\x,{exp(\x)}) node[right] {$f(x) = e^x$};
-  \draw[color=blue, domain = 0:2, samples=60] plot (\x,{\x}) node[right] {$f(x) = x$};
+ \draw[very thin,color=gray] (-0.5,-0.5) grid (10.5,10.5);
+ \draw[->] (-0.5,0) -- (10.5,0) node[right] {$x$};
+ \draw[->] (0,-0.5) -- (0,10.5) node[above] {$y$};
+ 
+ \draw[color=red, domain = 0:2, samples=60] plot (\x,{exp(\x)}) node[right] {$f(x) = e^x$};
+ \draw[color=blue, domain = 0:2, samples=60] plot (\x,{\x}) node[right] {$f(x) = x$};
 \end{tikzpicture}
 \end{document}
 ```
-
 
 ## 💡 Définition et Caractérisation
 
@@ -36,15 +35,15 @@ On appelle également parfois fonction exponentielle toute fonction dont l'expre
 La valeur de la fonction exponentielle en $x=1$ est un nombre irrationnel noté $\mathbf{\mathrm{e}}$.
 
 - $\mathrm{e} = \exp(1) \approx 2,71828$
-    
+ 
 - Ce nombre est appelé la base de la fonction exponentielle et permet la notation alternative :
-    
-    $$\forall x \in \mathbb{R}, \quad \exp(x) = \mathrm{e}^x$$
-    
+ 
+ $$\forall x \in \mathbb{R}, \quad \exp(x) = \mathrm{e}^x$$
+ 
 
 ---
 
-###  Relations Algébriques et Réciproque
+### Relations Algébriques et Réciproque
 
 La fonction exponentielle est la seule fonction continue sur $\mathbb{R}$ qui transforme une somme en produit (propriété des puissances) :
 
@@ -54,14 +53,14 @@ C'est une **bijection** de $\mathbb{R}$ vers $\mathbb{R}^{*+}$ (l'ensemble des r
 
 ---
 
-###  Applications et Généralisations
+### Applications et Généralisations
 
 Les applications élémentaires des fonctions exponentielles réelles ou complexes concernent notamment :
 
 - La résolution des **équations différentielles** linéaires.
-    
+ 
 - La mise en place de la **théorie de Fourier**.
-    
+ 
 
 Sa définition permet de l'étendre à des espaces plus complexes (fonctions de $\mathbb{C}$ vers $\mathbb{C}^*$), où elle s'utilise en **géométrie riemannienne**, dans la théorie des **groupes de Lie**, ou encore dans l'étude des **algèbres de Banach**.
 #Fonction/Exponentielle #Fonction/Logarithme 

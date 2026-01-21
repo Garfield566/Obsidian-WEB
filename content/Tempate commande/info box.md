@@ -1,6 +1,6 @@
 
 > [!infobox]
-> #  Docteur Zoidberg
+> # Docteur Zoidberg
 > ###### 1723-1790
 > ![[Pasted image 20250501200525.png]]
 >

@@ -9,7 +9,6 @@ Pays d'Origine: Suisse
 sticker: .
 ---
 
-
 ![cover|500](https://www.icon-icon.com/wp-content/uploads/2020/03/Hublot-logo-journal-du-luxe.png)
 
 ## Historique

@@ -4,7 +4,7 @@
 > 
 > ![[Pasted image 20250413221115.png]]
 > ###### Basic Information
->  |
+> |
 > ---|---|
 > **Naissance** | `19 juin 1978` |1978
 > **Décès** | `=link(this.hq)` |

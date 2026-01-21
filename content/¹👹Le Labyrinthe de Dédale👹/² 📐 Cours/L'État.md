@@ -1,12 +1,11 @@
 ---
 excalidraw-plugin: "parsed"
 tags:
-  - "excalidraw"
+ - "excalidraw"
 image: "https://la-philosophie.com/wp-content/uploads/2012/05/eugene-delacroix-la-libert%C3%A9-guidant-le-peuple.jpg"
 cour: "philo"
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Excalidraw Data
 ## Text Elements

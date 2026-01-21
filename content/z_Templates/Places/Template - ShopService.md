@@ -1,10 +1,10 @@
 
 > [!infobox]
 > # `=this.file.name`
-> **Pronounced:**  "`=this.Pronounced`"
+> **Pronounced:** "`=this.Pronounced`"
 > ![[PlaceholderImage.png]]
 > ###### Info
->  |
+> |
 > ---|---|
 > **Aliases** | `=this.aliases` |
 > **Type** | `=this.type` |
@@ -19,10 +19,8 @@ TBD
 
 ## History
 
-
 ## DM Notes
 ### Hidden Details
-
 
 ### Notes
 

@@ -1,7 +1,7 @@
 ---
 title: Any Summary
 auteur:
-  - Auteur de la note (vous)
+ - Auteur de la note (vous)
 cover: https://topai.tools/assets/img/tools/anysummary.webp
 date: Date de création ou de mise à jour de la note
 sujet: Sujet principal de la note sur l'IA
@@ -19,8 +19,7 @@ notes_supplémentaires: Remarques ou informations supplémentaires
 
 ![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20231106213147.png]]
 
-←[[⁰   --------------🏡Home🏡 --------------/🏡Home🏡|🏡Home🏡]]
-
+←[[⁰ --------------🏡Home🏡 --------------/🏡Home🏡|🏡Home🏡]]
 
 ## L'IA description 
 AnySummary est un outil basé sur l'IA qui résume rapidement les fichiers audio ou vidéo de longues interviews. Il propose un format de résumé personnalisable tel que des puces, des citations ou un résumé complet, et peut créer des résumés à partir de fichiers ou d'URL. Il prend en charge différents types de fichiers, notamment les fichiers images, audio, vidéo, texte et CSV. AnySummary fournit également des FAQ utiles, des exemples et des commentaires des clients.

@@ -11,7 +11,6 @@ sticker: .
 
 ![cover|500](https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-Chopard.jpg)
 
-
 ## Historique
 
 Chopard est une marque horlogère suisse fondée en 1860 par Louis-Ulysse Chopard à Sonvilier, en Suisse. Initialement spécialisée dans la fabrication de montres de poche de précision, Chopard s'est rapidement distinguée par son savoir-faire artisanal et la qualité de ses créations horlogères.
@@ -21,7 +20,7 @@ Chopard est une marque horlogère suisse fondée en 1860 par Louis-Ulysse Chopar
 Chopard est réputée pour plusieurs innovations dans le domaine de l'horlogerie, notamment :
 
 - **Montres de luxe** : Chopard est reconnue pour ses montres de luxe, alliant tradition horlogère suisse et design élégant.
-  
+ 
 - **Mouvements mécaniques** : Chopard produit ses propres mouvements mécaniques de haute précision, offrant des montres fiables et précises.
 
 - **Haute joaillerie** : En plus de l'horlogerie, Chopard excelle dans la haute joaillerie, créant des montres incrustées de diamants et de pierres précieuses.

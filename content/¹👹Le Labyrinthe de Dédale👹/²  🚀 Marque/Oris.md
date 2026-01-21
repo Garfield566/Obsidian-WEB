@@ -9,9 +9,7 @@ Pays d'Origine: Suisse
 sticker: .
 ---
 
-
 ![cover|500](https://i0.wp.com/magmontres.fr/wp-content/uploads/2014/12/Oris-110-ans.jpg?resize=650%2C325)
-
 
 ## Historique
 

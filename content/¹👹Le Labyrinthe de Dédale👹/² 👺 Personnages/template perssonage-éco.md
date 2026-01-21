@@ -37,9 +37,6 @@
 > > [!danger] Implications / Critique
 > > [Les conséquences de la théorie, ou les critiques qui lui sont adressées.]
 
-
-
-
 ---
 
 ### Productions

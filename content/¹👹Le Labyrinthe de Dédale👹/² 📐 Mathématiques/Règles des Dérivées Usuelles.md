@@ -6,33 +6,32 @@ moc_lie: Calcul Différentiel
 ```tikz
 \begin{document}
 \begin{tikzpicture}[domain=0:10, scale=0.6]
-  \draw[very thin,color=gray] (-0.5,-0.5) grid (10.5,10.5);
-  \draw[->] (-0.5,0) -- (10.5,0) node[right] {$x$};
-  \draw[->] (0,-0.5) -- (0,10.5) node[above] {$y$};
-  
-  \draw[color=red, domain = 0:5, samples=60] plot (\x,{\x*\x/10}) node[right] {$f(x) = x^2$};
-  \draw[color=blue, domain = 0:5, samples=60] plot (\x,{2*\x}) node[right] {$f(x) = 2x$};
+ \draw[very thin,color=gray] (-0.5,-0.5) grid (10.5,10.5);
+ \draw[->] (-0.5,0) -- (10.5,0) node[right] {$x$};
+ \draw[->] (0,-0.5) -- (0,10.5) node[above] {$y$};
+ 
+ \draw[color=red, domain = 0:5, samples=60] plot (\x,{\x*\x/10}) node[right] {$f(x) = x^2$};
+ \draw[color=blue, domain = 0:5, samples=60] plot (\x,{2*\x}) node[right] {$f(x) = 2x$};
 \end{tikzpicture}
 \end{document}
 ```
  Présentation
 Cette note regroupe les règles de base du calcul différentiel pour les fonctions d'une variable réelle, ainsi que le tableau des dérivées des fonctions usuelles.
 
-##  Analyse : Les Règles Opératoires
+## Analyse : Les Règles Opératoires
 
 Soient $u$ et $v$ deux fonctions dérivables sur un intervalle $I$, et $k$ un réel constant. Les règles suivantes permettent de dériver les combinaisons de ces fonctions.
 
-| **Opération**                     | **Fonction**              | **Dérivée**              |
+| **Opération** | **Fonction** | **Dérivée** |
 | --------------------------------- | ------------------------- | ------------------------ |
-| **Somme**                         | $u + v$                   | $u' + v'$                |
-| **Produit par Constante**         | $k \cdot u$               | $k \cdot u'$             |
-| **Produit**                       | $u \cdot v$               | $u'v + u v'$             |
-| **Quotient**                      | $\frac{u}{v}$ ($v \ne 0$) | $\frac{u'v - u v'}{v^2}$ |
-| **Inverse**                       | $\frac{1}{v}$ ($v \ne 0$) | $-\frac{v'}{v^2}$        |
-| **Composée** (Règle de la chaîne) | $g(u(x))$                 | $u'(x) \cdot g'(u(x))$   |
+| **Somme** | $u + v$ | $u' + v'$ |
+| **Produit par Constante** | $k \cdot u$ | $k \cdot u'$ |
+| **Produit** | $u \cdot v$ | $u'v + u v'$ |
+| **Quotient** | $\frac{u}{v}$ ($v \ne 0$) | $\frac{u'v - u v'}{v^2}$ |
+| **Inverse** | $\frac{1}{v}$ ($v \ne 0$) | $-\frac{v'}{v^2}$ |
+| **Composée** (Règle de la chaîne) | $g(u(x))$ | $u'(x) \cdot g'(u(x))$ |
 
-
-##  Exemple : Le Tableau des Dérivées Usuelles
+## Exemple : Le Tableau des Dérivées Usuelles
 
 Ce tableau liste les dérivées des fonctions élémentaires. Notez que nous utilisons $u$ pour représenter une fonction dérivable (permettant d'appliquer la [[Règle de la Chaîne]]).
 
@@ -48,7 +47,7 @@ Ce tableau liste les dérivées des fonctions élémentaires. Notez que nous uti
 |$\mathrm{e}^x$|$\mathrm{e}^x$|$\mathrm{e}^u$|$\mathrm{e}^u \cdot u'$|
 |$\ln(x)$ ($x>0$)|$\frac{1}{x}$|$\ln(u)$ ($u>0$)|$\frac{u'}{u}$|
 
-##  Applications
+## Applications
 
 ### Exemple de Calcul (Produit)
 

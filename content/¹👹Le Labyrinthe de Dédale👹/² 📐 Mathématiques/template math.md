@@ -1,15 +1,15 @@
 ```tikz
 \begin{document}
 \begin{tikzpicture}[domain=0:10, scale=0.6]
-  \draw[very thin,color=gray] (-0.5,-0.5) grid (10.5,10.5);
-  \draw[->] (-0.5,0) -- (10.5,0) node[right] {$x$};
-  \draw[->] (0,-0.5) -- (0,10.5) node[above] {$y$};
-  
-  % Tracé de la fonction principale
-  \draw[color=red, domain = 0:10, samples=60] plot (\x,{/* FONCTION ICI */}) node[right] {$f(x) = $ /* FORMULE */};
-  
-  % Ligne y=x pour comparaison (optionnel)
-  % \draw[color=blue, domain = 0:10, samples=60] plot (\x,{\x}) node[right] {$f(x) = x$};
+ \draw[very thin,color=gray] (-0.5,-0.5) grid (10.5,10.5);
+ \draw[->] (-0.5,0) -- (10.5,0) node[right] {$x$};
+ \draw[->] (0,-0.5) -- (0,10.5) node[above] {$y$};
+ 
+ % Tracé de la fonction principale
+ \draw[color=red, domain = 0:10, samples=60] plot (\x,{/* FONCTION ICI */}) node[right] {$f(x) = $ /* FORMULE */};
+ 
+ % Ligne y=x pour comparaison (optionnel)
+ % \draw[color=blue, domain = 0:10, samples=60] plot (\x,{\x}) node[right] {$f(x) = x$};
 \end{tikzpicture}
 \end{document}
 ```
@@ -116,9 +116,9 @@ $$[FORMULE EULER]$$
 
 #### Tableau de Variations
 
-| $x$ | [BORNE INF] |  | [POINTS REMARQUABLES] |  | [BORNE SUP] |
+| $x$ | [BORNE INF] | | [POINTS REMARQUABLES] | | [BORNE SUP] |
 |---|---|---|---|---|---|
-| $f'(x)$ |  | [SIGNE] |  | [SIGNE] |  |
+| $f'(x)$ | | [SIGNE] | | [SIGNE] | |
 | $f(x)$ | [LIMITE] | [VARIATION] | [VALEUR] | [VARIATION] | [LIMITE] |
 
 #### Points Remarquables
@@ -126,9 +126,9 @@ $$[FORMULE EULER]$$
 - **Extrema locaux** : [COORDONNÉES]
 - **Points d'inflexion** : [COORDONNÉES]
 - **Asymptotes** :
-  - Verticales : $x = [VALEUR]$
-  - Horizontales : $y = [VALEUR]$
-  - Obliques : $y = [ÉQUATION]$
+ - Verticales : $x = [VALEUR]$
+ - Horizontales : $y = [VALEUR]$
+ - Obliques : $y = [ÉQUATION]$
 
 ---
 
@@ -152,7 +152,5 @@ $$[FORMULE EULER]$$
 
 > [!info] Rappel Important
 > [RAPPEL UTILE]
-
-
 
 #Fonction/[CATÉGORIE] #[TAG_2] #[TAG_3]

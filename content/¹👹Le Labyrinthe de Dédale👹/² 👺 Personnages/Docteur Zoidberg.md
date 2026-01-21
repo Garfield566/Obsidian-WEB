@@ -8,10 +8,8 @@ nationalité: "0"
 ---
 # Docteur Zoidberg
 
-
-
 > [!infobox]
-> #  Docteur Zoidberg
+> # Docteur Zoidberg
 > ###### 1723-1790
 > ![[Pasted image 20250501200525.png]]
 >
@@ -30,7 +28,6 @@ nationalité: "0"
 > | **Notable works** | <ul style="margin: 0; padding-left: 15px;"><li>The Theory of Moral Sentiments (1759)</li><li>The Wealth of Nations (1776)</li></ul> |
 > | **Notable ideas** | <ul style="margin: 0; padding-left: 15px;"><li>Classical economics</li><li>Free market</li><li>Division of labour</li><li>Absolute advantage</li><li>Invisible hand</li></ul> |
 
-
 ## **Présentation**
 
 **David Ricardo** (1772-1823) était un économiste britannique, considéré comme l'un des fondateurs de l'économie classique. Né à Londres dans une famille de commerçants juifs portugais, il a quitté l'école à l'âge de 14 ans pour travailler dans l'entreprise familiale, ce qui lui a permis de se familiariser avec les affaires et le commerce. Après s'être engagé dans le secteur financier, il s'est progressivement intéressé à l'économie politique, un domaine dans lequel il a produit des contributions majeures.
@@ -46,15 +43,15 @@ David Ricardo est principalement associé à l'**économie classique**, une éco
 ## **Travail réalisé**
 
 - **Des principes de l'économie politique et de l'impôt** (1817) : Dans cet ouvrage, Ricardo explore la manière dont les biens et services sont produits, échangés et distribués. Il y établit plusieurs concepts clés :
-    
-    - **La théorie de la valeur** : Ricardo distingue entre la valeur d'échange et la valeur d'usage. Il soutient que la valeur d'un bien est déterminée par la quantité de travail nécessaire à sa production, établissant ainsi les fondements de la théorie de la valeur travail.
-        
-    - **La rente** : Ricardo introduit la notion de rente économique, définie comme le revenu généré par des terres ou des ressources en raison de leur rareté. Il explique comment la rente augmente lorsque les terres de qualité inférieure sont mises en culture, ce qui a des implications importantes pour la répartition des richesses.
-        
-    - **L'avantage comparatif** : Ce principe fondamental du commerce international explique comment les pays peuvent bénéficier du commerce en se spécialisant dans la production de biens pour lesquels ils ont un coût d'opportunité relativement faible. Cela permet d'optimiser les ressources et d'accroître l'efficacité économique.
-        
+ 
+ - **La théorie de la valeur** : Ricardo distingue entre la valeur d'échange et la valeur d'usage. Il soutient que la valeur d'un bien est déterminée par la quantité de travail nécessaire à sa production, établissant ainsi les fondements de la théorie de la valeur travail.
+ 
+ - **La rente** : Ricardo introduit la notion de rente économique, définie comme le revenu généré par des terres ou des ressources en raison de leur rareté. Il explique comment la rente augmente lorsque les terres de qualité inférieure sont mises en culture, ce qui a des implications importantes pour la répartition des richesses.
+ 
+ - **L'avantage comparatif** : Ce principe fondamental du commerce international explique comment les pays peuvent bénéficier du commerce en se spécialisant dans la production de biens pour lesquels ils ont un coût d'opportunité relativement faible. Cela permet d'optimiser les ressources et d'accroître l'efficacité économique.
+ 
 - **Principes de l'économie politique** (1817) : Cet ouvrage aborde des questions économiques essentielles, y compris la production, la distribution et l'échange. Ricardo y développe son analyse des forces du marché et la manière dont elles déterminent les prix et les salaires.
-    
+ 
 
 ## **Citations Mémorables**
 

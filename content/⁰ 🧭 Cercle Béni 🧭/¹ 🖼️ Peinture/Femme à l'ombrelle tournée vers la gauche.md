@@ -8,20 +8,17 @@ Techniques: Huile sur toile
 date: "1886"
 sticker: emoji//261d-fe0f
 tags:
-  - peinture
-  - Claude-Monet
-  - Impressionniste
+ - peinture
+ - Claude-Monet
+ - Impressionniste
 ---
 ## Femme à l'ombrelle tournée vers la gauche
 
 ![cover|500](https://www.cineclubdecaen.com/peinture/peintres/monet/femmealombrelletourneeverslagauche.jpg)
 
-
-
-
-Essai de figure en plein-air : Femme à l'ombrelle tournée vers la gauche  
-Claude Monet, 1886  
-Huile sur toile, 131 x 88,7 cm  
+Essai de figure en plein-air : Femme à l'ombrelle tournée vers la gauche 
+Claude Monet, 1886 
+Huile sur toile, 131 x 88,7 cm 
 Paris, musée d'Orsay
 
 ![](https://www.cineclubdecaen.com/peinture/materiel/pictos/h120l090.gif)

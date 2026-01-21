@@ -1,6 +1,5 @@
 # Callouts
 
-
 > [!note]
 
 > [!abstract]

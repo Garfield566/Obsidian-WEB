@@ -1,12 +1,11 @@
 ---
 excalidraw-plugin: raw
 tags:
-  - "excalidraw"
+ - "excalidraw"
 cour: "philo"
 image: "https://media.beauxarts.com/uploads/2022/10/pierre-auguste_renoir_-_by_the_water-1300x1098.jpg"
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Excalidraw Data
 ## Text Elements
@@ -15,10 +14,9 @@ Doxa : Ensemble des opinions
 
 Le Bonheur ^9Id5rvt2
 
-- Doxa  ^X61nVm2z
+- Doxa ^X61nVm2z
 
 Se sentir bien 
-
 
 être heureux
 
@@ -39,7 +37,7 @@ désir: on est heureux si on satisfait nos désirs ^Iv4qOUkm
 Gérer c'est plaisir
 Ce satifaire de ce qu'on A
 
-On ne devrais pas  faire quelque chose qu'on n'est pas sur de réusir
+On ne devrais pas faire quelque chose qu'on n'est pas sur de réusir
 
 exemple: tanter d'être médecin pour un fils de fermier ^8WDVaBUN
 
@@ -54,7 +52,7 @@ mais qu'on avais pas la force de résister ^ZEnFAokO
 
 Cour terme
 
-   =/
+ =/
 
 long terme ^hDoAN6VB
 
@@ -62,15 +60,15 @@ La satisfaction de c'est desirs à cours termes maine
 tau ou tard à des Regre ou Remor et donc triste ^lhRWi4s9
 
 Désirer long-terme nous berse d'idéalisme, 
-et conclue toujours à une déception  ^qox1Npl5
+et conclue toujours à une déception ^qox1Npl5
 
-                situation de départ:
+ situation de départ:
 Onest pas malheureux, mais on n'est pas heureux non plus ^OiiAxemx
 
 Désir
-long-terme  ^wYtCCWc4
+long-terme ^wYtCCWc4
 
-Se heurte à des difficultés  ^ngv8umFs
+Se heurte à des difficultés ^ngv8umFs
 
 Idialisation du désir ^u6odw5qM
 
@@ -85,13 +83,13 @@ cose de l'idéaliqation ^0JSYyyPJ
 
 déception ^jBZIgSXA
 
-Malheureux  ^bWihCiUZ
+Malheureux ^bWihCiUZ
 
 Ataraxie ^HTmOPf8n
 
 vocabulaires : ^gE0QmYQe
 
-Doxa: l'opinion confuse que l'on se fait sur quelqu'un ou sur un aspect de la réalité  ^AR6evRj8
+Doxa: l'opinion confuse que l'on se fait sur quelqu'un ou sur un aspect de la réalité ^AR6evRj8
 
 Idéale : Obejet parfait sans défaut mais qui n'existe pas. ^wkMXRY22
 
@@ -104,7 +102,7 @@ Média : Ce qui est en relation avec autre chose de manière indirecte, c'est-à
 Le Désir mimétique crée un enfer sur terre. ^vz7yJuSf
 
 exemple des notes
-pour ce qui vise la meilleure  ^iQES4nuO
+pour ce qui vise la meilleure ^iQES4nuO
 
 18 ^ZQUUErP6
 
@@ -118,7 +116,7 @@ nous (citoyen ordinaire) ^4EoibPRm
 
 Ceux qui sont moins bien ^JDIvG25d
 
-admirations  ^S86JE3J7
+admirations ^S86JE3J7
 
 = Imitation
 veux être lui ^EU3vHPr9
@@ -135,13 +133,13 @@ frustrations :(
 jalousie ^PuY5A2NK
 
 Dépassement
-du modèle de sa classe  ^UF10ntHb
+du modèle de sa classe ^UF10ntHb
 
 Est le premier dans la cours 
 des notes de sa classe ^VmY1Yv8j
 
 veux être le meilleur 
-de sont écoles  ^EM6GYZe2
+de sont écoles ^EM6GYZe2
 
 pas atteinte
  de l'obj ^N5StKoIf
@@ -156,7 +154,7 @@ Est le premier dans la cours
 des notes de l'école ^I0p2ZdnG
 
 veux être le meilleur 
-du monde (etc)  ^iMNJzhrK
+du monde (etc) ^iMNJzhrK
 
 pas atteinte
  de l'obj ^7aqMOriR
@@ -165,13 +163,13 @@ frustrations :(
 jalousie ^bfd9fxhO
 
 Dépassement
-du modèle  ^fMoVE0ba
+du modèle ^fMoVE0ba
 
 Est le premier ^3Ru5dJ0r
 
 Il fini par être le premier dans 
 la course des note donc ne pourra pas être moquer parce qui fond 
-la même course que lui,  mais siam il ne sera pas premier pour ce qui
+la même course que lui, mais siam il ne sera pas premier pour ce qui
 fond du foote. Et donc sera de tout magnière moquer car on ne gagne pas toute les cource ^3Dhk5tg4
 
 la seule réponse à cela est de rester neutre 
@@ -187,7 +185,7 @@ moi profond ^EHn0INbd
 moi social ^OfvHRJYL
 
 On est un n'êtres unique
-aux désir propres  ^809HvCuw
+aux désir propres ^809HvCuw
 
 veut s'integrer/ être comme
  tout le monde ^BaRNFYMx
@@ -199,7 +197,7 @@ sentiment de malaitre
 un role ^4IMFxATe
 
 Modèle sociale 
-conformisme  ^vx5IIVdN
+conformisme ^vx5IIVdN
 
 se qu'on veut ^YqF8fZEE
 
@@ -210,12 +208,12 @@ le présent et être en accord avec naux désir propre. ^VcONcnf6
 but sortire de cette conformiter estle risque de 
 ce prendre des critique (qui bien souvent te feront revenir à la conformité ) ^gfYeiUlw
 
-Nietzshe  ^Msl31m3H
+Nietzshe ^Msl31m3H
 
 A une version similaire 
-mais plus compliquée  ^z0s7UwZl
+mais plus compliquée ^z0s7UwZl
 
-l'éternel retour  ^QYyT2s5R
+l'éternel retour ^QYyT2s5R
 
 Ne faire que des choix que si on devait le revivre pour l'éterniter
 , on le ferait ^VaWRZ6Np
@@ -234,7 +232,7 @@ l'obj n'existe pas ^wSDKBqMN
 
 l'obj n'a pas de limite
 (= on n'en a jamais asser)
-  avoir de l'argent ^Dfbs5x6Q
+ avoir de l'argent ^Dfbs5x6Q
 
 objet existe ^SkdmdJRZ
 

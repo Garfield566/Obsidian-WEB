@@ -2,13 +2,11 @@
 NoteIcon: SessionNote
 ---
 
-#  **`=this.file.name` "`=this.aliases`" (`=link(this.WhichParty)`)**
+# **`=this.file.name` "`=this.aliases`" (`=link(this.WhichParty)`)**
 ## Prep
 ### To Do
 
-
 ### Plan
-
 
 ### Quick References
 > [!column|3 no-title]
@@ -24,19 +22,14 @@ NoteIcon: SessionNote
 ## During
 ### Events
 
-
 ### Travel & Rest
 
-
 ### Loot, Rewards & Purchases
-
 
 ## Post
 ### New Creations
 
-
 ### Date & Time
-
 
 ### End of Session Notes
 

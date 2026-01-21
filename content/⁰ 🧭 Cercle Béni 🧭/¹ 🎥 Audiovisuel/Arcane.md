@@ -13,85 +13,85 @@ Année de Sortie: 2024
 type: série
 vue: true
 tags:
-  - Freya-Ridings
-  - Marcus-King
-  - Stefflon-Don
-  - Raja-Kumari-ft
-  - Jarina-De-Marco
-  - Fever-333
-  - Woodkid
-  - Ashnikko
-  - d4vd
-  - ZAND
-  - Mako-rey
-  - Djerv
-  - Misha-Mansoor
-  - Mick-Wingert
-  - Stromae
-  - Pomme
-  - King-Princess
-  - Twenty-One-Pilots
-  - Sheryl-Lee-Ralph
-  - Stray-Kids
-  - Young-Miko
-  - Tom-Morello
-  - Royal-the-Serpent
-  - Imagine-Dragons
-  - JID
-  - I_Cant_Hear_It_Now
-  - Sucker
-  - Renegade
-  - Hellfire
-  - To_Ashes_And_Blood
-  - Paint_The_Town_Blue
-  - Remember_Me
-  - Cocktail_Molotov
-  - What_Have_They_Done_To_Us
-  - Rebel_Heart
-  - The_Beast
-  - Spin_The_Wheel
-  - Ma_Meilleure_Ennemie
-  - Fantastic
-  - The_Line
-  - Blood_Sweat_Tears
-  - Come_Play
-  - Wasteland
-  - Enemy
-  - Alex-Seaver
-  - Alexander-Temple
-  - Andrew-Kierszenbaum
-  - Kelci-Hahn
-  - Ray-Chen
-  - Fortiche
-  - Playground
-  - Bea-Miller
-  - Our_Love
-  - Curtis-Harding
-  - Jazmine-Sullivan
-  - oodbye
-  - Ramsey
-  - et_Jinxed
-  - Agnete-Kjølsrud
-  - Dirty_Little_Animals
-  - Bones-UK
-  - uns_For_Hire
-  - Misfit_Toys
-  - Pusha-T
-  - Mako
-  - Dynasties-Dystopia
-  - Denzel-Curry
-  - izzle
-  - Bren-Joy
-  - Snakes
-  - Pvris
-  - Miyavi
-  - When_Everything_Went_Wrong
-  - Fantastic-Negrito
-  - What_Could_Have_Been
-  - Sting
-  - Arcane
-  - Animation
-  - audiovisuel
+ - Freya-Ridings
+ - Marcus-King
+ - Stefflon-Don
+ - Raja-Kumari-ft
+ - Jarina-De-Marco
+ - Fever-333
+ - Woodkid
+ - Ashnikko
+ - d4vd
+ - ZAND
+ - Mako-rey
+ - Djerv
+ - Misha-Mansoor
+ - Mick-Wingert
+ - Stromae
+ - Pomme
+ - King-Princess
+ - Twenty-One-Pilots
+ - Sheryl-Lee-Ralph
+ - Stray-Kids
+ - Young-Miko
+ - Tom-Morello
+ - Royal-the-Serpent
+ - Imagine-Dragons
+ - JID
+ - I_Cant_Hear_It_Now
+ - Sucker
+ - Renegade
+ - Hellfire
+ - To_Ashes_And_Blood
+ - Paint_The_Town_Blue
+ - Remember_Me
+ - Cocktail_Molotov
+ - What_Have_They_Done_To_Us
+ - Rebel_Heart
+ - The_Beast
+ - Spin_The_Wheel
+ - Ma_Meilleure_Ennemie
+ - Fantastic
+ - The_Line
+ - Blood_Sweat_Tears
+ - Come_Play
+ - Wasteland
+ - Enemy
+ - Alex-Seaver
+ - Alexander-Temple
+ - Andrew-Kierszenbaum
+ - Kelci-Hahn
+ - Ray-Chen
+ - Fortiche
+ - Playground
+ - Bea-Miller
+ - Our_Love
+ - Curtis-Harding
+ - Jazmine-Sullivan
+ - oodbye
+ - Ramsey
+ - et_Jinxed
+ - Agnete-Kjølsrud
+ - Dirty_Little_Animals
+ - Bones-UK
+ - uns_For_Hire
+ - Misfit_Toys
+ - Pusha-T
+ - Mako
+ - Dynasties-Dystopia
+ - Denzel-Curry
+ - izzle
+ - Bren-Joy
+ - Snakes
+ - Pvris
+ - Miyavi
+ - When_Everything_Went_Wrong
+ - Fantastic-Negrito
+ - What_Could_Have_Been
+ - Sting
+ - Arcane
+ - Animation
+ - audiovisuel
 sticker: emoji//1fac0
 ---
 
@@ -131,7 +131,6 @@ sticker: emoji//1fac0
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Riot-Games</li><li>#Fortiche-Productions</li></ul> |
 > | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Steampunk</li><li>#League-of-Legends</li><li>#Hybrid-Animation</li></ul> |
 
-
 ## 📖 **Synopsis**
 
 _Arcane_ suit l’histoire des sœurs **Vi** et **Jinx** dans un monde déchiré entre **Piltover**, une cité riche et technologique, et **Zaun**, un sous-monde sombre et opprimé. Les deux sœurs, issues de familles séparées par des tragédies, évoluent dans des directions opposées : Vi devient une figure clé de la résistance, luttant contre l'injustice à Piltover, tandis que Jinx, marquée par des traumatismes, bascule dans la folie, devenant un agent de chaos dans Zaun.
@@ -139,8 +138,6 @@ _Arcane_ suit l’histoire des sœurs **Vi** et **Jinx** dans un monde déchiré
 La première saison présente la montée des tensions entre les deux cités, mettant en lumière les conflits internes et les luttes de pouvoir. **Jayce**, un scientifique innovant de Piltover, et **Caitlyn**, une inspectrice dévouée, se retrouvent pris dans cette guerre de classes, cherchant à trouver un équilibre dans une société de plus en plus fracturée. Pendant ce temps, **Silco**, le leader impitoyable de Zaun, cherche à tirer profit des tensions pour faire avancer ses propres ambitions.
 
 Dans la saison 2, les conséquences de ces conflits deviennent plus graves, avec la montée en puissance de **l'énergie Hextech**, une technologie capable de transformer l’équilibre des pouvoirs. Vi et Jinx sont maintenant plongées dans une lutte encore plus personnelle, leurs relations de famille devenant le cœur de l’histoire. La série explore la frontière floue entre le bien et le mal, les sacrifices et les rédemptions, tout en approfondissant l’univers de _League of Legends_ avec des personnages et des intrigues encore plus complexes.
-
-
 
 ## *Soundtrack*
 
@@ -158,7 +155,6 @@ Dans la saison 2, les conséquences de ces conflits deviennent plus graves, avec
 10. _“Snakes”_ – **Pvris**, **Miyavi**
 11. _“When_Everything_Went_Wrong”_ – **Fantastic-Negrito**
 12. _“What_Could_Have_Been”_ – **Sting** feat. **Ray-Chen**
-
 
 ### Tracklist saisons 2
 
@@ -186,39 +182,38 @@ Dans la saison 2, les conséquences de ces conflits deviennent plus graves, avec
 ### Note
 ##### **Critères Audio**
 
-| **Critère**                                      | **Description**                                                                                                                      | **Points de l'** |
+| **Critère** | **Description** | **Points de l'** |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| **Bande-son original (40 points)**               |                                                                                                                                      |                  |
-|                                                  | _Qualité des compositions_ (20 points )                                                                                              |                  |
-|                                                  | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier.                                     | 0/10             |
-|                                                  | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ?                                | 0/5              |
-|                                                  | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ?            | 0/5              |
-|                                                  | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés.                            | 0/20             |
-| **Conception sonore (30 points)**                |                                                                                                                                      |                  |
-|                                                  | _Ambiance et immersion_ (15 points) :                                                                                                | 0/15             |
-|                                                  | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre.           | 0/15             |
-|                                                  | _Cohérence avec l'univers_ (15 points):                                                                                              | 0/15             |
-|                                                  | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15             |
-| **Doublage/vocale d'interprétation (30 points)** |                                                                                                                                      |                  |
-|                                                  | _Qualité des voix_ (15 points) :                                                                                                     | 0/15             |
-|                                                  | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15             |
-|                                                  | Mélangé des                                                                                                                          | 0/15             |
-|                                                  | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ?                        | 0/15             |
+| **Bande-son original (40 points)** | | |
+| | _Qualité des compositions_ (20 points ) | |
+| | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier. | 0/10 |
+| | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ? | 0/5 |
+| | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ? | 0/5 |
+| | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés. | 0/20 |
+| **Conception sonore (30 points)** | | |
+| | _Ambiance et immersion_ (15 points) : | 0/15 |
+| | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre. | 0/15 |
+| | _Cohérence avec l'univers_ (15 points): | 0/15 |
+| | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15 |
+| **Doublage/vocale d'interprétation (30 points)** | | |
+| | _Qualité des voix_ (15 points) : | 0/15 |
+| | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15 |
+| | Mélangé des | 0/15 |
+| | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ? | 0/15 |
 
 -------
 ##### **Critères Visuel**
 
-| **Critère**                                | **Description**                                                                                                                                  | **Points** |
+| **Critère** | **Description** | **Points** |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| Animation/Graphisme   (50 points)          |                                                                                                                                                  |            |
-|                                            | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style.                               | 0/20       |
-|                                            | _Détails et textures_ : richesse des décors, soin des personnages et objets.                                                                     | 0/15       |
-|                                            | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ?                                                               | 0/15       |
-| Direction artistique           (50 points) |                                                                                                                                                  |            |
-|                                            | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels.                  | 0/20       |
-|                                            | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes.                                                 | 0/15       |
-|                                            | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15       |
-
+| Animation/Graphisme (50 points) | | |
+| | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style. | 0/20 |
+| | _Détails et textures_ : richesse des décors, soin des personnages et objets. | 0/15 |
+| | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ? | 0/15 |
+| Direction artistique (50 points) | | |
+| | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels. | 0/20 |
+| | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes. | 0/15 |
+| | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15 |
 
 ---
 

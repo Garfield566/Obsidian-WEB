@@ -8,15 +8,13 @@ artist: Claude Monet
 siècle: XXIe
 Techniques: Huile sur toile
 tags:
-  - peinture
-  - Claude-Monet
-  - Impressionniste
+ - peinture
+ - Claude-Monet
+ - Impressionniste
 peintre: Claude Monet
 ---
 
-
 ![cover|500](https://www.cineclubdecaen.com/peinture/peintres/monet/femmealombrelleh450.jpg)
-
 
 _La Promenade_, aussi appelée _La Femme à l'ombrelle_, appartient à une série de peintures exécutées par Monet pendant les étés 1875 et 1876 et qui représentent le jardin de sa seconde maison à Argenteuil et les champs couverts de coquelicots près de Colombes et de Gennevilliers. La figure humaine, qui avait joué un rôle négligeable dans ses peintures ces dernières années, prend une importance renouvelée, avec sa femme Camille servant constamment de modèle.
 

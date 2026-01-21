@@ -8,9 +8,7 @@ cover: https://cdn.worldvectorlogo.com/logos/junghans.svg
 amme de prix: 30-2k
 ---
 
-
 ![cover|500](https://cdn.worldvectorlogo.com/logos/junghans.svg)
-
 
 ## Historique
 

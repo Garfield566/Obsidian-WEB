@@ -6,7 +6,7 @@ published:
 created: 2025-05-13
 description: "Explore the fact-checked online encyclopedia from Encyclopaedia Britannica with hundreds of thousands of objective articles, biographies, videos, and images from experts."
 tags:
-  - "clippings"
+ - "clippings"
 ---
 ## métallurgie
 

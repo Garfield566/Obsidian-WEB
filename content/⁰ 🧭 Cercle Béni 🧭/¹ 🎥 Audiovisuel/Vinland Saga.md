@@ -13,38 +13,38 @@ Année de Sortie: 2023
 type: série
 vue: true
 tags:
-  - Vinland_Saga
-  - Animation
-  - Aventure
-  - Drame
-  - historique
-  - Action
-  - Épopée
-  - Makoto-Yukimura
-  - Shūhei-Yabuta
-  - Yutaka-Yamada
-  - Wit-Studio
-  - MAPPA
-  - Survive-Said-The-Prophet
-  - Aimer
-  - MAN-WITH-A-MISSION
-  - milet
-  - Anonymouz
-  - MUKANJYO
-  - Torches
-  - Dark_Crow
-  - Drown
-  - The_Battle_Unfolds
-  - Thorfinn-s_Vow
-  - Askeladd-s_Strategy
-  - Blood_and_Steel
-  - River
-  - Paradox
-  - Peaceful_Dreams
-  - Einar-s_Hope
-  - Fate-s_Tide
-  - A_New_Beginning
-  - audiovisuel
+ - Vinland_Saga
+ - Animation
+ - Aventure
+ - Drame
+ - historique
+ - Action
+ - Épopée
+ - Makoto-Yukimura
+ - Shūhei-Yabuta
+ - Yutaka-Yamada
+ - Wit-Studio
+ - MAPPA
+ - Survive-Said-The-Prophet
+ - Aimer
+ - MAN-WITH-A-MISSION
+ - milet
+ - Anonymouz
+ - MUKANJYO
+ - Torches
+ - Dark_Crow
+ - Drown
+ - The_Battle_Unfolds
+ - Thorfinn-s_Vow
+ - Askeladd-s_Strategy
+ - Blood_and_Steel
+ - River
+ - Paradox
+ - Peaceful_Dreams
+ - Einar-s_Hope
+ - Fate-s_Tide
+ - A_New_Beginning
+ - audiovisuel
 ---
 
 # 🎥 Vinland Saga
@@ -88,8 +88,6 @@ L’histoire explore la lutte intérieure de Thorfinn, tiraillé entre son dési
 Dans la deuxième saison, _Vinland Saga_ change de ton, mettant l’accent sur la quête de paix de Thorfinn et son rejet de la violence. Travaillant comme esclave sur une ferme danoise, il rencontre **Einar**, un autre esclave avec qui il partage une vision d’un futur meilleur. Ensemble, ils tentent de reconstruire leur vie tout en affrontant les obstacles d’un monde cruel.
 ## *Soundtrack*
 
-
-
 #audiovisuel 
 
 #### **Tracklist** 
@@ -117,39 +115,38 @@ Dans la deuxième saison, _Vinland Saga_ change de ton, mettant l’accent sur l
 ### Note
 ##### **Critères Audio**
 
-| **Critère**                                      | **Description**                                                                                                                      | **Points de l'** |
+| **Critère** | **Description** | **Points de l'** |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| **Bande-son original (40 points)**               |                                                                                                                                      |                  |
-|                                                  | _Qualité des compositions_ (20 points )                                                                                              |                  |
-|                                                  | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier.                                     | 0/10             |
-|                                                  | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ?                                | 0/5              |
-|                                                  | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ?            | 0/5              |
-|                                                  | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés.                            | 0/20             |
-| **Conception sonore (30 points)**                |                                                                                                                                      |                  |
-|                                                  | _Ambiance et immersion_ (15 points) :                                                                                                | 0/15             |
-|                                                  | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre.           | 0/15             |
-|                                                  | _Cohérence avec l'univers_ (15 points):                                                                                              | 0/15             |
-|                                                  | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15             |
-| **Doublage/vocale d'interprétation (30 points)** |                                                                                                                                      |                  |
-|                                                  | _Qualité des voix_ (15 points) :                                                                                                     | 0/15             |
-|                                                  | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15             |
-|                                                  | Mélangé des                                                                                                                          | 0/15             |
-|                                                  | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ?                        | 0/15             |
+| **Bande-son original (40 points)** | | |
+| | _Qualité des compositions_ (20 points ) | |
+| | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier. | 0/10 |
+| | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ? | 0/5 |
+| | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ? | 0/5 |
+| | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés. | 0/20 |
+| **Conception sonore (30 points)** | | |
+| | _Ambiance et immersion_ (15 points) : | 0/15 |
+| | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre. | 0/15 |
+| | _Cohérence avec l'univers_ (15 points): | 0/15 |
+| | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15 |
+| **Doublage/vocale d'interprétation (30 points)** | | |
+| | _Qualité des voix_ (15 points) : | 0/15 |
+| | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15 |
+| | Mélangé des | 0/15 |
+| | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ? | 0/15 |
 
 -------
 ##### **Critères Visuel**
 
-| **Critère**                                | **Description**                                                                                                                                  | **Points** |
+| **Critère** | **Description** | **Points** |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| Animation/Graphisme   (50 points)          |                                                                                                                                                  |            |
-|                                            | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style.                               | 0/20       |
-|                                            | _Détails et textures_ : richesse des décors, soin des personnages et objets.                                                                     | 0/15       |
-|                                            | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ?                                                               | 0/15       |
-| Direction artistique           (50 points) |                                                                                                                                                  |            |
-|                                            | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels.                  | 0/20       |
-|                                            | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes.                                                 | 0/15       |
-|                                            | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15       |
-
+| Animation/Graphisme (50 points) | | |
+| | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style. | 0/20 |
+| | _Détails et textures_ : richesse des décors, soin des personnages et objets. | 0/15 |
+| | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ? | 0/15 |
+| Direction artistique (50 points) | | |
+| | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels. | 0/20 |
+| | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes. | 0/15 |
+| | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15 |
 
 ---
 

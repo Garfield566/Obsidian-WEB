@@ -1,16 +1,15 @@
 ---
 excalidraw-plugin: raw
 tags:
-  - "excalidraw"
+ - "excalidraw"
 cour: "philo"
 image: "https://i.f1g.fr/media/cms/orig/2021/06/26/d67f258dd46ab4ac1deb05fecb55cfff5295bce5229d63f45a62ab344edb559b.png"
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Excalidraw Data
 ## Text Elements
-Le travaille  ^yjl0sTuS
+Le travaille ^yjl0sTuS
 
 1 - Une source de douleur ^9kvbIidV
 
@@ -26,7 +25,7 @@ b) Rousseau ( on veut être valoriser) ^1QkeieLy
 
 2-L c'est bien ^iYyo0awt
 
-- aquisition de compétences  ^UBfQ50El
+- aquisition de compétences ^UBfQ50El
 
 compétence en puissances ^BLWtjP8W
 
@@ -38,23 +37,23 @@ compétence acte ^mzxZgWwe
 
 1. [Conscience de soi A] ↔ [Conscience de soi B] ^QA5oTHmw
 
-↘      ↙ ^zk8PpyuI
+↘ ↙ ^zk8PpyuI
 
 (Lutte à mort des consciences) ^b8MQyW9A
 
-↙      ↘ ^ifBcnXr7
+↙ ↘ ^ifBcnXr7
 
-(1) Mort (impasse)   (2) Soumission (dialectique) ^RIiY81N9
+(1) Mort (impasse) (2) Soumission (dialectique) ^RIiY81N9
 
 2. [Maître] ← dépendance → [Esclave] ^8LprCby7
 
-↘                        ↙ ^7BAAJoK3
+↘ ↙ ^7BAAJoK3
 
-Jouissance            Travail (émancipation) ^EjxHhtWj
+Jouissance Travail (émancipation) ^EjxHhtWj
 
 3. [Travail] → (Objectivation) → [Libération de l’esclave] ^bAy8BVbK
 
-↘                   ↙ ^No5eaxaG
+↘ ↙ ^No5eaxaG
 
 (Renversement dialectique : l’esclave triomphe) ^R53ZG1bp
 
@@ -72,7 +71,7 @@ le travail c'est bien ça permet de créer des chose qu'on aurait
 pas faite sans cette contrainte ^VK6NBjnu
 
 But le travail à été aliéniser par le capitalisme, le travaille à la chaine 
-enlaive tout sense au L l'abaille et l'architecte  ^TvjsQKFn
+enlaive tout sense au L l'abaille et l'architecte ^TvjsQKFn
 
 qui permet pa la suite de produire quelquechose qui va pouvoire
 reflaiter objectivement les compétence de la personne ^1LTcnaSn

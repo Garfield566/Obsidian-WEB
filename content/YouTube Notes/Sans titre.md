@@ -1,17 +1,17 @@
 
 > [!infobox]+
 > # `=this.file.name`
-> **Pronounced:**  "`=this.Pronounced`"
+> **Pronounced:** "`=this.Pronounced`"
 > ![[PlaceholderImage.png]]
 > ###### Info
->  |
+> |
 > ---|---|
 > **Aliases** | `=this.aliases` |
 > **Theme** | `=this.theme` |
 > **Planet** | `=link(this.PlanetPlane)` |
 > **Terrain** | `=this.terrain` |
 > ###### Politics
->  |
+> |
 > ---|---|
 > **Rulers** | `=this.Rulers` |
 > **Leaders** | `=this.Leaders` |
@@ -113,21 +113,15 @@ SORT file.name ASC
 
 ## History
 
-
 ## Politics & Relationships
-
 
 ## Current Events
 
-
 ## Plot Hooks
-
 
 ## Hidden Details
 
-
 ## General Notes
-
 
 # Message from Bag of Tips
 Would you like it if you have a way to automatically calculate travel time between your settlements and other landmarks? If you would, check out my video on how to add these to your vaults!

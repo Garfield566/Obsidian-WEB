@@ -9,16 +9,13 @@ Techniques: "1"
 date: "1"
 sticker: emoji//261d-fe0f
 tags:
-  - peinture
+ - peinture
 artist: "1"
 database-plugin: "1"
 ---
 ## Femme à l'ombrelle
 
 ![cover|500](https://www.cineclubdecaen.com/peinture/peintres/monet/femmealombrelleh450.jpg)
-
-
-
 
 ### Description visuelle
 
@@ -36,7 +33,5 @@ _(Ajoutez vos propres réflexions sur le message, les émotions ou les symboles 
 
 - **Liens** : _(articles, vidéos, catalogues)_
 - **Bibliographie** : _(livres ou publications pertinentes)_
-
-
 
 #peinture 

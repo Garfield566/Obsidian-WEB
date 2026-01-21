@@ -11,8 +11,8 @@ Youtube_ID: "giQI_-DNBo"
 Youtube_Duration: "15:06"
 speakers:
 tags:
-  - "youtube"
-  - "inbox"
+ - "youtube"
+ - "inbox"
 ---
 
 # Le NIGERIA est en chute libre !

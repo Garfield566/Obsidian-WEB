@@ -4,8 +4,8 @@ title:
 author:
 description:
 tags:
-  - "clippings"
-  - "medium"
+ - "clippings"
+ - "medium"
 published:
 created: 2025-05-19T15:26:02+02:00
 ---
@@ -41,23 +41,18 @@ Table of Contents
 - [References](https://www.britannica.com/money/coin/Early-modern-minting#ref124716-references)
 
 > [!infobox]
-> #  Herodian
+> # Herodian
 > 
 > ![Herodian coin](https://cdn.britannica.com/14/132714-050-EB2520A2/coin-Herodian-palm-branch-wreath-Judea-34-AD.jpg?w=385)
 Herodian coin from Judea with palm branch (right) and wreath (left), 34 AD.
-
 
 **coin**, a piece of metal or, rarely, some other material (such as leather or porcelain) certified by a [mark](https://www.britannica.com/money/mark-German-currency) or marks upon it as being of a specific intrinsic or exchange value.
 
 The use of cast-metal pieces as a medium of exchange is very ancient and probably developed out of the use in commerce of ordinary [ingots](https://www.britannica.com/technology/ingot) of [bronze](https://www.britannica.com/technology/bronze-alloy) and other metals that possessed an [intrinsic value](https://www.britannica.com/money/intrinsic-value). Until the development of [bills of exchange](https://www.britannica.com/money/bill-of-exchange) in medieval Europe and paper [currency](https://www.britannica.com/money/currency) in medieval China, metal coins were the only such medium. Despite their diminished use in most commercial transactions, coins are still indispensable to modern economies; in fact, their importance is growing as the result of the widespread use of coin-operated machines. For a discussion of paper currencies, *see* [money](https://www.britannica.com/money/money).
 
-
-
 ## Coins as historical data
 
 Being made in most ages of precious [metal](https://www.britannica.com/science/metal-chemistry), or alternatively possessing a substantial token value, coins have always been prized, often hoarded, and, therefore, frequently buried for safety. The contents of such savings banks have been dug up in all ages, so that the coins of past civilizations continue to be found in vast numbers. Studied alongside literary or archaeological evidence, they yield a wide range of information that is especially valuable for chronology and [economic history](https://www.britannica.com/money/economic-history). Coins may reflect the wealth and power of cities and states, and study of their distribution may help to define the physical extent of territorial dominion or to illustrate major commercial connections. Thus, the popularity in ancient times of Athenian coins in the Levant and of Corinthian silver in [Magna Graecia](https://www.britannica.com/place/Magna-Graecia) (southern Italy) testifies to established trade links. Finds of early Roman imperial gold in India corroborate the reference of the Roman historian [Pliny the Elder](https://www.britannica.com/biography/Pliny-the-Elder) to the drain on Roman gold to pay for Indian and other Eastern luxuries. Likewise, huge finds of Arab silver coins in Scandinavia show the extent of trade, in particular the demand for furs by the ʿAbbāsid caliphs and the Sāmānid rulers of Iran. One result of such widespread commercial contacts is that certain currencies acquired special international preeminence. In ancient times, those of Athens, Corinth, and [Philip II](https://www.britannica.com/biography/Philip-II-king-of-Macedonia) of Macedon were widely popular. The uniform [coinage](https://www.britannica.com/money/coinage) of Philip’s son [Alexander the Great](https://www.britannica.com/biography/Alexander-the-Great) was struck at mints widely scattered throughout his vast empire and was universally accepted. In medieval times, the gold dinars (a term derived from the Roman denarius) of the early caliphs and the gold ducats of Florence and Venice played a similar role—as did the silver dollars of Mexico, the [Maria Theresa](https://www.britannica.com/biography/Maria-Theresa) of Austria, and the gold sovereigns of Great Britain in modern times. Moreover, the study of depreciation and debasement of coinage may illuminate past national financial distress. For example, the heavily alloyed 3rd-century- ad Roman antoniniani (coins introduced by the Roman emperor Caracalla, originally having a value of two denarii) tell their tale as clearly as the depreciating paper currency of Germany in and after 1919.
-
-
 
 No less valuable than the economic evidence yielded by a comparative study of coins is their purely [documentary](https://www.britannica.com/topic/documentation) importance. Together with [medals](https://www.britannica.com/topic/medal), they present an unrivaled series of historical portraits from the 4th century bc to the present day, many of them otherwise unknown, like the Greco-Bactrian kings or certain usurpers during the Roman Empire. Greek coinage is a particularly notable contribution to the history of art, displaying not only the beauty and strength of many artistic traditions but also (like Roman coinage) the miniature likenesses of numerous large-scale sculptural and architectural works now lost. The imperial coinage of Rome, apart from its portraiture, is important above all for the remarkable detail of its chronological and political content; and from both [Greek](https://www.britannica.com/place/ancient-Greece) and Roman coins much can be learned of [mythology](https://www.britannica.com/topic/myth) and religion. The Christian influences active in medieval Europe can be similarly measured from medieval currencies.
 
@@ -68,7 +63,6 @@ The foregoing metals furnished most currencies until the early 20th century, whe
 ### Origins of coins
 
 In both the East and the West, [coinage](https://www.britannica.com/money/coinage) proper was preceded by more primitive currencies, nonmonetary or semi-monetary, which survived into the historic age of true coins, and may have derived originally from the [barter](https://www.britannica.com/money/barter-trade) of cattle, implements, and the like. The earliest [currency](https://www.britannica.com/money/currency) of China of the 8th century bc consisted of miniature hoes and billhooks (pruning implements), with inscriptions indicating the authority. The small bronze [celts](https://www.britannica.com/technology/celt-tool) (prehistoric tools resembling chisels) and bronze rings frequently found in hoards in western Europe probably played a monetary role. Even in modern times such mediums of exchange as fishhook currency have been known.
-
 
 Metal has always achieved wide popularity as an exchange medium, being durable, divisible, and portable; and the origins of true coinage lie there. [Ancient Egypt](https://www.britannica.com/place/ancient-Egypt), which was using [gold](https://www.britannica.com/science/gold-chemical-element) bars of set weight from the 4th millennium bc, eventually developed a currency of gold rings (but it did not adopt the use of coinage in [foreign trade](https://www.britannica.com/money/international-trade) until the late 4th century ad). In the [Middle East](https://www.britannica.com/place/ancient-Middle-East), gold rings long served the dual purposes of adornment and currency, supplemented by gold and [silver](https://www.britannica.com/science/silver) bars from which segments could be cut. The choice of metal was, as usual, determined by availability. Around the [Aegean Sea](https://www.britannica.com/place/Aegean-Sea), heavy [copper](https://www.britannica.com/science/copper) ingots were used as currency several centuries before the invention of true coinage. These ingots, known as [talents](https://www.britannica.com/science/talent-unit-of-weight), were originally a unit of weight of roughly 55 to 60 pounds (more than 25 kg); talents were later used as a measure of value. The discovery of an iron bar with a handful (*[drachma](https://www.britannica.com/money/drachma)*) of fractional iron spits (*obeloi*) dedicated in the Heraeum (a temple of the goddess Hera) at [Argos](https://www.britannica.com/place/Argos), perhaps as part of King [Pheidon](https://www.britannica.com/biography/Pheidon) of Argos’ reforms of [weights and measures](https://www.britannica.com/topic/weights-and-measures) in the 7th century bc, shows such currency continuing until historical times. Similar bundles of spits have been found elsewhere and are evidence of the desire to subdivide a cumbersome unit into smaller fractions for normal use. At the other end of the scale, there was, ultimately, the desire to express the value of a talent of copper or iron in terms of gold or silver; and Homer, who speaks of metal basins, tripods, and axes as gifts and prizes in a way that shows them as a recognized standard of wealth, also speaks of the talent of gold (i.e., the value of a heavy base-metal talent expressed in a little pellet of gold). In [Italy](https://www.britannica.com/topic/history-of-Italy) rough lumps of bronze (*aes rude*) formed a currency from early times, being succeeded by bars of regular weight; and Julius Caesar’s record of the ancient British use of iron bars as currency (following his raids on Britain in 55 and 54 bc) is still borne out by not infrequent finds.
 
@@ -92,13 +86,10 @@ Much more popular was the representation of idealized heads of deities, which, o
 
 In [Sicily](https://www.britannica.com/place/Sicily) the defeat of Carthage in 480 bc may have been commemorated by the famous [decadrachms](https://www.britannica.com/topic/decadrachm) (*Demareteia*) associated with Queen Demarete, wife of King Gelon. These superb and now very rare examples of early classical genius showed on the obverse the head of [Arethusa](https://www.britannica.com/topic/Arethusa-Greek-mythology) (the fountain nymph of Syracusan Ortygia), wreathed (possibly for victory), and on the reverse a chariot above a fleeing lion.
 
-
-
 > [!infobox]
 > 
 > ![Arethusa](https://cdn.britannica.com/04/70604-004-DBEB836C/side-decadrachm-nymph-reverse-quadriga-charioteer-dolphins.jpg?w=385)
 >Arethusa depicted on a silver decadrachm, *c.* 400 bce.
-
 
 ### From the Persian Wars to Alexander the Great, 490–336 bc
 
@@ -118,8 +109,6 @@ In contrast to the deliberate archaism of Athenian types, a wide flowering was s
 
 It was in [Italy](https://www.britannica.com/topic/history-of-Italy) and [Sicily](https://www.britannica.com/place/Sicily) that the finest work appeared. In Italy, Tarentine [silver](https://www.britannica.com/science/silver) continued its type of Taras on a dolphin. In the middle of the 5th century the agonistic type showing a horseman appeared; the celebrated Tarentine cavalry was thus commemorated down to the middle of the 4th century. About 340 Tarentum issued very beautiful [gold](https://www.britannica.com/science/gold-chemical-element) coins with a head of [Persephone](https://www.britannica.com/topic/Persephone-Greek-goddess) and, on the reverse, the infant Taras appealing to Zeus enthroned. Heraclea, founded in the middle of the 5th century, issued fine staters with a helmeted Athena and Heracles seated or strangling or wrestling with a lion. Metapontum introduced a most striking head of its founder, [Leucippus](https://www.britannica.com/biography/Leucippus). Other mints of the time were at Neapolis, with its types of the siren Parthenope and her father, the man-headed bull Achelous; at Velia, with its head of a nymph and, on the reverse, the eastern type of a lion attacking a bull; at Thurium, with its unusually fine head of Athena and the powerful bull on the reverse; and at Terina, remarkable for its beautiful treatment of the Victory type.
 
-
-
 > [!infobox]
 > 
 > ![Persephone](https://cdn.britannica.com/30/93130-050-A0AC5269/gold-coin-Persephone-Carthage-317-bce.jpg?w=385)
@@ -129,12 +118,10 @@ G. Dagli Orti—De Agostini/age fotostock
 
 In Sicily, and particularly in [Syracuse](https://www.britannica.com/place/Syracuse-Italy), the [engraver](https://www.britannica.com/art/engraving) ’s art reached perfection. The coins of Syracuse showed many varieties of the heads of Arethusa and Persephone, and the chariot of the reverse was found capable of varied treatment. After the middle of the 5th century, artists began to sign their work, and it is thus possible to prove that other towns engaged engravers from Syracuse. The Syracusan coinage was mainly silver. During the siege by the Athenians, beautiful little gold coins were struck with, reverse, Heracles strangling a lion. With the prosperity following the enemy’s defeat, Syracusan art reached its zenith. As the Demareteion commemorated the defeat of the Carthaginians, so the great series of decadrachms perpetuated the memory of the victory of 413 over the Athenians. The agonistic types and the word *athla* on some of them show that they were distributed at the games held to celebrate the victory; their types were widely copied, and their engravers, Cimon and Euainetos, gained a place among the world’s greatest artists.
 
-
 > [!infobox]
 > ![The nymph Arethusa](https://cdn.britannica.com/41/7641-004-D56624BF/tetradrachm-Syracuse-headband-engraver-nymph-Italy-Cimon.jpg?w=385)
 >
 Silver tetradrachm from Syracuse, Italy, signed by the engraver Cimon above the headband of the nymph Arethusa, *c.* 410 bc. In the British Museum. Diameter 28 mm.
-
 
 Among other cities of Sicily there was a notable series from [Acragas](https://www.britannica.com/place/Agrigento) in the 5th century, with its beautiful double-eagle type, seen most magnificently on the rare and famous decadrachms. Camarina showed fine types of the river god Hipparis and the nymph Camarina on a swan. [Himera](https://www.britannica.com/place/Himera), before its destruction in 409, issued some very interesting types, such as the nymph Himera sacrificing while Silenus beside her bathes at the [thermal spring](https://www.britannica.com/science/hot-spring) for which Himera was noted; or [Pelops](https://www.britannica.com/topic/Pelops) (a grandson of Zeus) in his chariot, referring to a victory of a Himeran at the Olympic Games, which Pelops is said to have founded. Catana used the artist Heracleidas to design a splendid facing head of [Apollo](https://www.britannica.com/topic/Apollo-Greek-mythology). [Selinus](https://www.britannica.com/place/Selinus-ancient-city-Sicily) abandoned its parsley leaf and issued some remarkable types, notably that of Apollo and [Artemis](https://www.britannica.com/topic/Artemis-Greek-goddess) in their quadriga and, on the reverse, the local hero sacrificing at an altar, alluding to the cessation of the plague as a result of appeals to Apollo as healer.
 
@@ -145,8 +132,6 @@ Alexander introduced a new era in coinage, struck in vast quantities at a variet
 ### The coin portrait
 
 The coinage of Alexander established a new style: the coin portrait became an almost regular feature in Greek [currency](https://www.britannica.com/money/currency) that was predominantly regal. The portrait, however, was not at first that of a living monarch. Philip II and Alexander were content with their names on their coins, of which the obverses showed, for Philip, Apollo and Zeus and, for Alexander, Heracles and Athena. Alexander added the title basileus (king) only after his Persian conquest. After his death his deified portrait appeared on the coins of [Lysimachus](https://www.britannica.com/biography/Lysimachus) in Thrace and on the early coins of [Ptolemy I](https://www.britannica.com/biography/Ptolemy-I-Soter) in Egypt. It was not until 306 that a living king put his own portrait on his coins, when Ptolemy I appeared, still as god, with the aegis of Zeus. [Seleucus I](https://www.britannica.com/biography/Seleucus-I-Nicator) similarly put himself on his coins as Dionysus; in time the divine attribute was dropped, and the ruler appeared as a mortal wearing only the royal diadem. In Macedonia, Arrhidaeus, Cassander, and Antigonus still followed the types of Alexander; and the early coins of [Demetrius I Poliorcetes](https://www.britannica.com/biography/Demetrius-I-Poliorcetes) (336–283) were without a portrait. Soon, however, his own portrait appeared, still with the horns that deify him. His successor had only types of deities. Pyrrhus did not appear on any of his extensive coinages, but the last two kings of Macedonia, Perseus and Philip V, left very fine portraits. The kings of [Pontus](https://www.britannica.com/place/Pontus-ancient-district-Turkey), notably Mithradates VI, had a magnificent series of portraits. The kings of [Pergamum](https://www.britannica.com/place/Pergamum) used the same portrait throughout, that of the founder of the dynasty, Philetairus I, and the Ptolemies in Egypt throughout their long series used only the head and legend of Ptolemy I, except on certain special issues. Among the early Seleucids, Antiochus I was reluctant to drop the portrait of Seleucus I, but the portrait of the reigning monarch became the rule.
-
-
 
 > [!infobox]
 >![Alexander the Great](https://cdn.britannica.com/42/7642-004-42BBD267/Alexander-the-Great-tetradrachm-copy-Zeus-Ammon-281-bce.jpg?w=385)
@@ -169,13 +154,10 @@ As the greater part of the Greek world was now ruled by the Diadochi, their vari
 
 After the Roman conquest of Greece it is clear from the resumed activity of the mints that the Greek cities were autonomous in one respect at least, for the [silver](https://www.britannica.com/science/silver) [coinage](https://www.britannica.com/money/coinage) required in Greek territory could be supplied only by Greek mints, the task being beyond the power of Rome at this time. The [Thessalians](https://www.britannica.com/place/Thessaly) issued silver coins of the type of Zeus and Athena and the legend *Thessalon;* a similar coinage was issued by the Boeotians. Maronea and [Thasos](https://www.britannica.com/place/Thasos) issued tetradrachms that became a great commercial [currency](https://www.britannica.com/money/currency) for trade across the Danube with the Scythians and Celts who imitated them. Macedonia itself issued tetradrachms bearing the names of Roman governors. In Asia, after the defeat of Antiochus III at Magnesia, there was an outburst of tetradrachms of Attic weight and local types at towns such as Lampsacus, Smyrna, and Magnesia. Other cities resumed the issue of Alexander tetradrachms, continuing to the middle of the 2nd century, when the Roman province of Asia was set up and cistophori replaced them. These, so called from the Dionysian chest (the sacred box or basket carried in the worship of Dionysus, usually shown containing snakes), which formed the principal type, were first struck at Pergamum after 228 bc; the reverse is a bow in a case between two serpents.
 
-
 > [!infobox]
 > 
 ![Seleucid king of the Hellenistic Syrian Empire](https://cdn.britannica.com/24/13424-004-A0C15068/Antiochus-III-coin-British-Museum.jpg?w=385)
 Antiochus III, coin, late 3rd–early 2nd century bce; in the British Museum.
-
-
 
 In the west the rise of Rome in the 3rd century introduced a new factor into the history of Greek coinage. The first coinage to disappear was that of [Etruria](https://www.britannica.com/place/Etruria-ancient-country-Italy) —a silver issue curiously always left blank on one side—after a life of two centuries. Rome’s early intercourse with the Greek cities of Italy is reflected in the Romano-Campanian coinage. In the south the Italian campaign of Pyrrhus left its [mark](https://www.britannica.com/money/mark-German-currency) on various coinages, notably at Tarentum. The towns of [Magna Graecia](https://www.britannica.com/place/Magna-Graecia) gradually lost their silver coinage under Roman influence, although Greek bronze coins lasted until the 1st century at Paestum.
 
@@ -203,7 +185,6 @@ The right of coinage in Greece was sometimes continuous and sometimes intermitte
 
 It is the reverse types of this series of coins that give them their importance. The coins of Athens preserve representations of many statues famous in antiquity that have long since perished, such as the Athena Parthenos of Phidias; the great Athena Promachos on the Acropolis, visible far out at sea; or the Dionysus of Alcamenes, possibly a pupil of Phidias. A coin of Elis preserves the Olympian [Zeus of Phidias](https://www.britannica.com/topic/Statue-of-Zeus), and one of Lacedaemon the [Apollo](https://www.britannica.com/topic/Apollo-Greek-mythology) of Amyclae, near Sparta. Local cults and incidents in the lives of the Greek divinities are common types. Local celebrities are also recorded, for example, [Homer](https://www.britannica.com/biography/Homer-Greek-poet) at several of the various towns that claimed him as a native (notably Smyrna), [Anacreon](https://www.britannica.com/biography/Anacreon) at Teos, [Sappho](https://www.britannica.com/biography/Sappho-Greek-poet) at Eresus in Lesbos, [Herodotus](https://www.britannica.com/biography/Herodotus-Greek-historian) at [Halicarnassus](https://www.britannica.com/place/Halicarnassus), and [Alcaeus](https://www.britannica.com/biography/Alcaeus) at Mytilene, which recorded on its coins a whole series of its famous men, most otherwise unknown. Reverse types also represent many architectural views of great importance, and the celebration of games and festivals is frequently recorded on coins.
 
-
 > [!infobox]
 > 
 ![Athena Parthenos](https://cdn.britannica.com/94/5994-050-7E0C77B1/aegis-Varakion-Athena-statue-gold-Roman-Athens.jpg?w=385)
@@ -227,7 +208,6 @@ These aes signatum bars were halfway between aes rude and true coinage. In 269 t
 ### Introduction of the denarius
 
 Adjustment of the previously fluctuating relationship between bronze and silver was first secured by the issue about 211 bc of the silver denarius (marked *X* —i.e., 10 bronze asses), together with fractional coins, also of silver (marked *V* —i.e., five; and *IIS* —i.e., 2 1 / 2 asses—a sesterce, or sestertius). The denarii were lighter than the quadrigati; their types were a Roma head on the obverse, with the [Dioscuri](https://www.britannica.com/topic/Dioscuri) (the twin deities Castor and Pollux) and *ROMA* on the reverse. Their production came to be confined principally to the mint of Rome. The victoriates, again lighter (their weight standard had come from Illyria), were issued until about 150 bc, being perhaps intended for principal circulation outside Italy. The denarius, however, quickly established itself as the major currency in the central and western Mediterranean. In its eastward expansion, Rome learned to make use of local currencies—gold staters of Macedonia and silver tetradrachms of Athens or Asia. Rome was also prepared to employ Macedonian gold in the west, as was shown by the release to western markets of large quantities of gold staters after about 150 bc. In the 2nd century bc, Roman coinage in gold was exceptional. Coinage in bronze, however, continued, but further variation in silver–bronze values was seen in two developments. The as dropped in weight to that of an uncia and then less, becoming a token currency; together with its fractions, it was now always struck and not cast. The value of the denarius in terms of bronze was altered, being revalued about 133 at 16 instead of 10 asses; the silver quinarius (now of eight asses and with the types of the victoriate) became rare; and the silver [sesterce](https://www.britannica.com/topic/sesterce) (now equal to four asses) virtually disappeared. After about 80 bc the striking of bronze was discontinued until the time of Caesar.
-
 
 > [!infobox]
 >
@@ -267,7 +247,6 @@ The bronze of Rome was marked *S* (*enatus*) *C* (*onsulto*) and continued to be
 
 The use of Caesar’s own portrait upon coinage set a precedent; although under Augustus and Tiberius token denominations occasionally lacked the imperial portrait, it was thereafter an essential element of virtually every gold, silver, and bronze coin of the official mints, as also of nearly all provincial and local coins. Emphasis on the personality of the emperor (extended sometimes to empresses, sons, or deceased members of the imperial house) was a powerful propaganda instrument in a coinage that circulated throughout a vast empire. The great series of imperial portraits, from Augustus to Romulus in ad 476, is artistically outstanding. Many of the finest appeared on the large brass sesterces down to the 3rd century and on the even larger bronze medallions produced for presentation; but particular care was taken over the portraits for gold, which, being softer, showed a beautiful and highly sensitive impression. Nothing is known of the portrait artists, though it is likely that they were often from the Greek East.
 
-
 > [!infobox]
 >
 >
@@ -277,20 +256,17 @@ The use of Caesar’s own portrait upon coinage set a precedent; although under 
 ![Nero](https://cdn.britannica.com/43/7643-004-BE60FAC7/Portrait-Nero-sestertius-mint-Lyon-France-British.jpg?w=385)
 Portrait of Nero on a bronze sestertius struck at the mint in Lyon, France, *c.*ad 64–66; in the British Museum. Diameter 36 mm.
 
-
 Imperial reverse types, if artistically less remarkable, are uniquely important for the unparalleled fullness of the historical commentary that they supply. The major mints provided annual evidence of imperial interests: victories in war; frontier defense (e.g., *Rex Parthis datus* —“A king is given to the Parthians”—of Trajan); a well-earned peace (e.g., the *Pace terra marique parta Ianum clusit* —“There being peace on land and sea, the doors of the Temple of Janus were closed”—of Nero); the birth of an heir or alternative provision for the succession; public shows; acts of social reform or public relief (e.g., *Civitatibus Asiae restitutis* —“For the restitution of the citizenries of Asia”); imperial journeys (e.g., *Adventus Augusti* —“The arrival of the emperor”); and religious or other anniversaries (e.g., the *Felix temporum reparatio* —“Happy days are here again”—on Rome’s 1,100th birthday). Their interpretation demands care, since, being selected by imperial officials, their tenor can conflict with the attitude of anti-imperial historians. But they show the efforts made by emperors, as the omnipotent semireligious heads of a huge and heterogeneous empire, to conciliate and inform. They contributed powerfully to the growing conception of an eternal Roman empire, seen no less in the special types of eagle (the soul flown heavenward) or funeral pyre or temple in honour of “good” emperors consecrated as *divi* than in the annual record of military victory, economic security, and provincial peace and implicit in the regularity of imperial succession. The normal colour given to this imperial program was religious, for the coinage types commonly embraced such characteristically Roman concepts as Aequitas (Justice), Fides (Faith), and Concordia (Harmony)—social virtues operating in the guise of minor deities.
 
 ### The 4th century and after
 
 [Diocletian](https://www.britannica.com/biography/Diocletian) ’s institution of the [tetrarchy](https://www.britannica.com/topic/tetrarch-ancient-Greek-official), by which the empire was divided administratively between two Augusti and two Caesars, brought fundamental changes in social and economic policy; the instability of prices called for complete renewal of the monetary system. His coinage reforms took place in stages from about 286 to about 296. First, new aurei were struck at 60 to the pound of gold. Then, about 293–294, new silver coins, of good purity, were struck at the revised Neronian weight of 96 to the pound of silver. Finally, about 294–296, new copper coins appeared that were larger and intrinsically more valuable than the small debased double denarii of previous reigns. The contemporary names of these silver and copper pieces are not known. This reformed coinage was struck at a variety of mints from Londinium (London) to Alexandria, most of which coined in all three metals. Types were closely controlled in the silver and copper coinage; in the latter the almost universal type was for some years that of the “Genius Populi Romani.” The obverse bore the portrait of one or other of the tetrarchs, each of whom coined with portraits of all four.
 
-
 > [!infobox]
 > 
 >
 ![Diocletian](https://cdn.britannica.com/14/12314-050-161308A7/Diocletian-detail-bust-Rome-Capitoline-Museum.jpg?w=385)
 Diocletian, detail of a bust in the Capitoline Museum, Rome.
-
 
 The breakdown of the tetrarchy after 306 weakened the new system. Copper was quickly and steadily lightened, and silver struck very sparingly. Gold, however, continued in good supply; and though Constantine’s solidus showed a reduced weight standard, there was no shortage of gold throughout the rest of the 4th century. In time, silver coinage increased, especially after about 350, when the miliarense (1/1,000 of a gold pound) and smaller denominations appeared. By the end of the 4th century, however, the size of copper coins had dropped very sharply, and in the 5th, until the Western Empire collapsed in ad 476, the western coinage consisted finally of gold with a little silver, struck mainly from the mints of Ravenna and Rome.
 
@@ -309,7 +285,6 @@ In Italy [Odoacer](https://www.britannica.com/biography/Odoacer) (476–493) had
 ![Theodoric](https://cdn.britannica.com/84/58784-004-4F4408BA/triple-solidus-mint-Theodoric-Rome-Paris-Bibliotheque.jpg?w=385)
 Gold triple solidus of Theodoric from the mint at Rome, *c.*ad 500; in the Bibliothèque Nationale, Paris. Diameter 34 mm.
 
-
 In [Gaul](https://www.britannica.com/place/Gaul-ancient-region-Europe) the [Burgundians](https://www.britannica.com/topic/Burgundian) struck their own imitative gold thirds, first, under [Gundobad](https://www.britannica.com/biography/Gundobad) (473–516), inscribed with a royal monogram, though not yet displacing the imperial name and portrait. The largest of the Gaulish coinages, however, was that of the [Merovingian](https://www.britannica.com/topic/Merovingian-dynasty) [Franks](https://www.britannica.com/topic/Frank-people), beginning with [Clovis I](https://www.britannica.com/biography/Clovis-I) (481–511). The gold consisted mainly of thirds, at first with some subsidiary silver and [copper](https://www.britannica.com/science/copper), inscribed by [Theodoric I](https://www.britannica.com/biography/Theodoric-I-king-of-Reims) (511–533/534) and [Childebert I](https://www.britannica.com/biography/Childebert-I) of Paris (511–558) with their own names. As elsewhere, the types of the gold borrowed steadily from the imperial series, either the former Roman or the current Byzantine. Reverses showed a Victory, though the theme of the “cross on steps” of [Tiberius II](https://www.britannica.com/biography/Tiberius-II-Constantinus) (578–582) gradually displaced it, beginning in the south. Obverses generally showed a profile, and later sometimes a frontal, bust. A profound break with tradition came when [Theodebert I](https://www.britannica.com/biography/Theodebert-I) (533/534–547/548) substituted his own name on his gold for that of the Byzantine emperor—a change that in turn was to influence Visigothic gold. The right of striking gold had meanwhile been widely extended, to mints presumably operated by royal permission and numbering nearly 500 in all. These were distributed over an area including not only what is now France but also the [Low Countries](https://www.britannica.com/place/Low-Countries), the Rhineland, and [Switzerland](https://www.britannica.com/place/Switzerland). The types of Merovingian gold coins diverged increasingly from imperial models: nearly all of them were inscribed on the obverse with the name of the issuing authority, most often municipal, and on the reverse with that of the moneyer. As the Merovingian dynasty drew to a close in the 8th century, gold coinage became poorer in quality, and it gave way to the small silver denarius, of about 1.2 grams, struck in quantity. This change heralded the Carolingian revival of the denarius.
 
 Coinage supply to Britain was interrupted when the mints of Roman Gaul were closed about 395, and scarcely any gold or silver coin entered Britain during about 450–550. Subsequent penetration of Merovingian gold encouraged a brief Anglo-Saxon coinage of gold thirds (*see below* [Early Anglo-Saxon coins](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth#ref16001)).
@@ -323,23 +298,18 @@ Inspiring many features of these transient coinages, but outliving them all, sto
 ![Byzantine emperor](https://cdn.britannica.com/04/29804-004-6CE22ED7/Basil-I-coin-British-Museum.jpg?w=385)
 Basil I, coin, 9th century; in the British Museum.
 
-
 Byzantine [coinage](https://www.britannica.com/money/coinage) began effectively with the reign (491–518) of [Anastasius I](https://www.britannica.com/biography/Anastasius-I). Thenceforth, it consisted, in addition to gold, of [silver](https://www.britannica.com/science/silver) and bronze. Silver, always rather rare, consisted of the small siliqua (1 / 24 of a solidus) or keration, followed by the larger miliaresion and the still larger hexagram. Bronze was in most periods very commonly struck. Its appearance and tariffing were reformed by Anastasius, who issued large pieces marked *M, K, I,* and *E* (equal to 40, 20, 10, and five *nummi*); other multiples were found either later or locally, as *IB* (equal to 12 *nummi*) at Alexandria. Such marks of value continued until [Basil I](https://www.britannica.com/biography/Basil-I-Byzantine-emperor) (867–886). Constantinople itself was the main [mint](https://www.britannica.com/money/mint-metallurgy) in all three metals, which were coined also at Carthage and Ravenna. Thessalonica, Nicomedia, Cyzicus, Antioch, and Alexandria struck bronze only; at one time or another Rome struck gold and bronze, while Syracuse and Catana also contributed. The technique of gold and silver minting was generally high; that of bronze was coarse, and overstriking was common.
 
 ### Types and legends of Byzantine coins
 
 For gold, the earliest obverses were diademed profile busts or helmeted facing busts, both common on previous coins of eastern and western empires. The facing bust showed the emperor in military panoply with a cross in his hand or on his helmet, and, if the cross was lacking on the obverse, it appeared on the reverse. With [Justin I](https://www.britannica.com/biography/Justin-I) (518–527) and [Justinian I](https://www.britannica.com/biography/Justinian-I) (527–565), the seated figures of the emperors were shown side by side (527). Thereafter, the facing head became more common: from the time of [Phocas](https://www.britannica.com/biography/Phocas) (602–610) it was increasingly formalized, a process that reached its climax in the 8th century. Under [Heraclius](https://www.britannica.com/biography/Heraclius-Byzantine-emperor) (610–641) the habit began of showing the emperor with one or more of his sons; and, with figure types now more common, it was possible to show emperor and empress together or even, as with [John I Tzimisces](https://www.britannica.com/biography/John-I-Tzimisces) (969–976), the emperor being crowned by the Virgin, with the hand of God above. The reverses of the gold coins at first emphasized the Victory (doubtless regarded as an angel) of previous issues. Tiberius II introduced the cross potent on steps, a type destined to play a long and important part. [Justinian II](https://www.britannica.com/biography/Justinian-II) (685–711) was the first to use the haloed bust of Christ, who had previously been shown only on a coin of about 450, in the act of marrying the empress Pulcheria to Marcian. The Iconoclasm of [Leo III](https://www.britannica.com/biography/Leo-III) (717–741) and his successors banished such divine representations in favour either of the cross on steps or of imperial figures on the reverses, but with [Michael III](https://www.britannica.com/biography/Michael-III-Byzantine-emperor) (842–867) the bust of Christ returned. From Basil I the throned Christ predominated.
 
-
 > [!infobox]
 >
 ![Byzantine emperor](https://cdn.britannica.com/49/36849-004-B348DD36/Michael-III-coin-British-Museum.jpg?w=385)
 Michael III, coin, 9th century; in the British Museum.
 
-
 The obverses of the silver coins, beginning with profile busts, thereafter included seated figures, facing busts, and purely epigraphic designs. The introduction of the larger hexagram by Heraclius in 615 allowed fuller scope for later designers, whose reverses often consisted of a cross on steps or a bust of Christ surrounded by inscriptions; from the 10th century the cross bore a central portrait medallion of the emperor himself.
-
-
 
 > [!infobox]
 >
@@ -348,12 +318,10 @@ Heraclius, gold coin from Constantinople, 610–641.
 
 In bronze coinage there was at first less flexibility. The earliest types were, obverse, a profile bust and, reverse, a cross and [mark](https://www.britannica.com/money/mark-German-currency) of value. Under Justinian I the facing bust prevailed, and in his 12th year he introduced the dating of his bronze coins on the reverse, in the form *Anno XII;* the inclusion of a regnal date was thereafter normal on bronze until [Constans II](https://www.britannica.com/biography/Constans-II-Pogonatus) (641–668). From the time of [Justin II](https://www.britannica.com/biography/Justin-II) (565–578) the obverses showed two or more standing imperial figures combined (until Basil I) with the mark of value. From the 10th century the reverses were taken up wholly by three or four lines of inscription; and the anonymous bronze coins of John Tzimisces combined such a reverse, reading *Iesus Christus Basileu* (*s*) *Basile* (*on*), with a new obverse showing the facing bust of Christ designated *Emmanuel.*
 
-
 > [!infobox]
 > 
 ![John I Tzimisces](https://cdn.britannica.com/98/42598-050-BF8FC6D0/John-I-Tzimisces-effigy-gold-coin-Byzantine.jpg?w=385)
 John I Tzimisces (left), effigy on a gold coin from Constantinople, 969–976.
-
 
 The orthography of Byzantine coin legends became remarkably complex as the Latin and Greek alphabets were increasingly mingled and individual letters took on new or specialized forms and words were severely abbreviated. At first the inscriptions were purely Latin, the emperor’s names and titles being in the conventional form *D* (*ominus*) *N* (*oster*) *—P* (*ius*) *F* (*elix*) *Aug* (*ustus*). Even before Anastasius, however, *Perpetuus* had been a variant for *P.F.*, and, abbreviated in the form *PP*, it finally prevailed. In the 7th century, Greek letters were more commonly mixed with the Latin in such legends as that of Justinian II, when he styled himself *Servus Christi;* and in the later 8th, the general shift to Greek from Latin conceptions was plain in the emperor’s new title of *Basileus.* Comparatively long votive inscriptions, as “Lord, help thy servant,” and metrical inscriptions (a practice more common in Asia than in Europe) began in the 10th century.
 
@@ -421,7 +389,6 @@ In [Austria](https://www.britannica.com/place/Austria) there was a ducal silver 
 
 The [Bohemian](https://www.britannica.com/place/Bohemia) ducal coinage of deniers from the 10th to the 12th century showed Byzantine, Scandinavian, and even English influences; by the 12th century the Prague [mint](https://www.britannica.com/money/mint-metallurgy) was developing its own style. [Wenceslas II](https://www.britannica.com/biography/Wenceslas-II) first produced the gros in 1300, and [John](https://www.britannica.com/biography/John-king-of-Bohemia) of Luxembourg (1310–46) the first gold florins, with, obverse, [crown](https://www.britannica.com/money/crown-monetary-unit) and, reverse, rampant lion. The regal coinage of [Hungary](https://www.britannica.com/place/Hungary) began with the deniers of [Stephen I](https://www.britannica.com/biography/Stephen-I-king-of-Hungary) (St. Stephen; 1000–38), and the style remained crude until [Charles I](https://www.britannica.com/biography/Charles-I-king-of-Hungary) (1310–42) introduced a lily-bearing gold florin and a silver gros modeled on those of Naples and Rome.
 
-
 > [!infobox]
 >
 ![John of Luxembourg](https://cdn.britannica.com/41/46541-004-8F3A457B/John-of-Luxembourg-denier-count-British-Museum.jpg?w=385)
@@ -435,30 +402,24 @@ With the formation of the [Austro-Hungarian Empire](https://www.britannica.com/p
 
 The origin of Norwegian, Danish, and Swedish coinages is clearly the result of the Danish conquest of England. The Runic alphabet was employed, though not by any means exclusively, on many early coins of Denmark and [Norway](https://www.britannica.com/place/Norway). The Norwegian series began with [Haakon the Great](https://www.britannica.com/biography/Haakon-Sigurdsson) (*c.* 970–995), who copied the pennies of [Ethelred II](https://www.britannica.com/biography/Ethelred-the-Unready). In the second half of the 11th century, a coinage of small, thin pennies began, which developed into bracteates. [Magnus VI](https://www.britannica.com/biography/Magnus-VI) (1263–80) restored the coinage, more or less imitating the English sterlings of the time.
 
-
 > [!infobox]
 > 
 >
 ![King of England](https://cdn.britannica.com/54/354-004-DC2637E5/Ethelred-II-coin-British-Museum.jpg?w=385)
 Ethelred II, coin, 10th century; in the British Museum.
 
-
 The [money](https://www.britannica.com/money/money) of Denmark began with pennies of [Sweyn I](https://www.britannica.com/biography/Sweyn-I) (*c.* 987–1014), also copied from the coinage of Ethelred II; the coins of [Canute](https://www.britannica.com/biography/Canute-I) (Cnut) the Great (1016–35) and [Hardecanute](https://www.britannica.com/biography/Hardecanute) (Harthacnut; reign extended to England in 1040–42) were mainly English in character.
-
 
 > [!infobox]
 >
 ![King of Denmark](https://cdn.britannica.com/96/41396-004-89944D30/Sweyn-I-coin-Royal-Collection-of-Coins.jpg?w=385)
 Sweyn I, coin, 10th century; in the Royal Collection of Coins and Medals, Nationalmuseet, Copenhagen.
 
-
 With [Magnus I](https://www.britannica.com/biography/Magnus-I-Olafsson) (reign extended to Denmark in 1042–47) other influences, especially Byzantine, appeared, and the latter was very strong under [Sweyn II Estridsen](https://www.britannica.com/biography/Sweyn-II-Estridsen) (1047–74). Bracteates came in during the second half of the 12th century. The coinage is very difficult to classify until the time of Eric of Pomerania (1397). There were important episcopal coinages at Roskilde and Lund in the 12th and 13th centuries.
-
 
 > [!infobox]
 ![Sweyn II](https://cdn.britannica.com/97/41397-004-0C61F9CC/Sweyn-II-coin-Royal-Collection-of-Coins.jpg?w=385)
 Sweyn II, coin, 11th century; in the Royal Collection of Coins and Medals, National Museum, Copenhagen.
-
 
 [Sweden](https://www.britannica.com/place/Sweden) had very few early coins; Swedish coinage began with imitations by Olaf Skötkonung (995) of English pennies and included the usual [bracteate](https://www.britannica.com/art/bracteate-jewelry) coinage. The money was restored by Albert of Mecklenburg (1364–89). The thaler was introduced by [Sten Sture](https://www.britannica.com/biography/Sten-Sture-the-Younger) the Younger (1512–20). The money of [Gustav II Adolf](https://www.britannica.com/biography/Gustav-II-Adolf) (1611–32) is historically interesting. Under [Charles XII](https://www.britannica.com/biography/Charles-XII) (1697–1718) there was highly curious money of necessity (i.e., a coinage struck to fulfill a need, usually in time of war and siege, but with inadequate technical means available). The small [copper](https://www.britannica.com/science/copper) daler was struck, sometimes plated; types included Roman divinities. During the 17th and 18th centuries there was a large issue of enormous plates of copper, stamped with their full value in silver money as a countermark.
 
@@ -532,12 +493,10 @@ On February 15, 1971, the U.K. currency was decimalized. With 100 “new pence�
 
 Coinage began by following English usage in regard to types and weights: the earliest [silver](https://www.britannica.com/science/silver) pennies were those of [David I](https://www.britannica.com/biography/David-I) (1124–53) and copied Stephen’s, though the use of profile portraits in the 13th and 14th centuries showed an interesting divergence. Gold nobles and silver groats were issued by [David II](https://www.britannica.com/biography/David-II) in 1356–57 on the standard of Edward III. From [Robert III](https://www.britannica.com/biography/Robert-III) onward the French or Flemish standard for [gold](https://www.britannica.com/science/gold-chemical-element) was preferred, and during the 16th century, especially under [James V](https://www.britannica.com/biography/James-V) and Mary, a strong continental influence on design was apparent in a series of gold coins of originality and frequent beauty. Silver coins had begun to show debasement of metal, and as early as [James III](https://www.britannica.com/biography/James-III-king-of-Scotland) [copper](https://www.britannica.com/science/copper) small change—“black” farthings—had been introduced. The Scottish [coinage](https://www.britannica.com/money/coinage) of James VI ([James I](https://www.britannica.com/biography/James-I-king-of-England-and-Scotland) of England) marked a peak in range and variety: after the union of the crowns in 1603, Scots coinage decreased in quantity and ceased in 1707 after the [union of the Scottish and English parliaments](https://www.britannica.com/event/Act-of-Union-Great-Britain-1707). Hitherto the value of Scottish coinage in relation to English had been 12:1. Under [George VI](https://www.britannica.com/biography/George-VI) a [shilling](https://www.britannica.com/money/shilling) with a Scottish reverse was first coined as part of the general British series.
 
-
 > [!infobox]
 > 
 ![King of the Scots](https://cdn.britannica.com/79/3779-004-C0204CD5/Robert-III-coin-British-Museum.jpg?w=385)
 Robert III, coin, 14th century; in the British Museum.
-
 
 ### Ireland
 
@@ -545,12 +504,10 @@ Irish [currency](https://www.britannica.com/money/currency) from the 8th to the 
 
 In 1723 there was uproar in Ireland over the monopoly granted to the English entrepreneur [William Wood](https://www.britannica.com/biography/William-Wood-English-ironmaster-circa-1723) to [mint](https://www.britannica.com/money/mint-metallurgy) a debased Irish coinage, derisorily termed “Wood’s halfpence.” Under pressure from, among others, [Jonathan Swift](https://www.britannica.com/biography/Jonathan-Swift), the satirist, whose “Drapier’s Letters” furiously attacked him, Wood revoked his patent in 1725 (*see below* [Coins of the United States](https://www.britannica.com/money/coin/Coins-of-the-United-States#ref16050)). Irish coinage was discontinued in 1822; from then on, Irish needs were served by British coinage. In 1928 the coinage of the Irish Free State (later the republic of Ireland) was introduced, with, obverse, harp on all denominations, and reverses bearing a range of animal, bird, and fish designs. In February 1971 the coinage of the republic was decimalized.
 
-
 > [!infobox]
 >
 ![Jonathan Swift](https://cdn.britannica.com/58/9158-050-37846E0B/Jonathan-Swift-detail-oil-painting-Charles-Jervas.jpg?w=385)
 Jonathan Swift, detail of an oil painting by Charles Jervas, c. 1718; in the National Portrait Gallery, London.
-
 
 ### Isle of Man and Channel Islands
 
@@ -602,13 +559,11 @@ Coins minted in Spanish America circulated abundantly in Brazil from the 17th to
 
 The first coins struck in the North American Colonies were [silver](https://www.britannica.com/science/silver) shillings, sixpences, and threepences, made by silversmiths John Hull and Robert Sanderson at a [mint](https://www.britannica.com/money/mint-metallurgy) in Boston from 1652 to 1682, by order of the general court of [Massachusetts Bay Colony](https://www.britannica.com/place/Massachusetts-Bay-Colony). This mint dated its coins 1652 over the entire 30-year period to conceal the continuous mintage from British authorities in London.
 
-
 With very few exceptions, the coins circulating in the Colonies until the Revolution were unauthorized private issues or old worn coppers no longer acceptable in England or Ireland. Silver was rare (consisting mainly of Spanish and Mexican dollars) and [gold](https://www.britannica.com/science/gold-chemical-element) almost nonexistent. Copper was then a semiprecious metal, and in theory (though seldom in practice) 24 [copper](https://www.britannica.com/science/copper) halfpence contained a [shilling’s](https://www.britannica.com/money/shilling) worth of copper. Some of the Colonies, notably those in [New England](https://www.britannica.com/place/New-England), repeatedly experimented with paper [money](https://www.britannica.com/money/money), with disastrous results. Ostensibly to satisfy the colonists’ needs for metallic [currency](https://www.britannica.com/money/currency), but in reality for the benefit of owners of mines in Cornwall, the Royal Mint in 1688 issued tin farthings bearing the image of James II on horseback and the curious denomination of 1 / 24 of a Spanish real. The Rosa Americana pieces, struck by [William Wood](https://www.britannica.com/biography/William-Wood-English-ironmaster-circa-1723) of Wolverhampton under royal patent dated July 12, 1722, received a disappointingly small circulation in [New York](https://www.britannica.com/place/New-York-state) and New England. Another [coinage](https://www.britannica.com/money/coinage) by Wood in 1722–24, intended for Ireland but rejected there because of scandalous circumstances surrounding his purchase of the royal patent, was shipped to the North American Colonies. Later these coins were supplemented by quantities of lightweight imitation halfpence, made principally in Birmingham, Eng. Alone among the Colonies, Virginia (because of a provision of its 1606 charter) had an official copper coinage executed at the Royal Mint in 1773. [New Hampshire](https://www.britannica.com/place/New-Hampshire-state) authorized William Moulton to make coppers in 1776, but the number was extremely small. The [Continental Congress](https://www.britannica.com/topic/Continental-Congress), colonial delegates of the incipient United States, uttered [pewter](https://www.britannica.com/technology/pewter) dollars in the same year to provide moral support for its inflated paper currency. These bore a sundial, the word *Fugio* (“I flee”), the motto “Mind Your Business,” and 13 links for the united colonies.
 
 The end of the [American Revolution](https://www.britannica.com/event/American-Revolution) in 1783 occasioned the manufacture and circulation of immense quantities of British copper tokens designed for the American trade. Between 1785 and 1789 the Republic of Vermont and the states of Connecticut, [New Jersey](https://www.britannica.com/place/New-Jersey), and Massachusetts awarded contracts to various individuals to strike copper coins, and Congress similarly licensed James Jarvis in 1787 to make cents of the same design as the 1776 dollars. All these ventures were failures, the authorized coins being driven out of circulation by British tokens, Birmingham halfpence, and the lightweight issues of “Machin’s Mill” (a clandestine mint near Newburgh, N.Y.). The copper panic of 1789–90 followed, coppers of all kinds dropping to 72 to the shilling from their former 14 or 15.
 
 Congressional efforts to establish a national mint had resulted in the issue of the historic 1783 Nova Constellatio silver patterns of 1,000, 500, and 100 units, from dies by the Englishman Benjamin Dudley, exemplifying the extraordinary Morris Plan, drawn up by Robert Morris, superintendent of finance, which reconciled the diverse colonial moneys of account. In 1786, however, Congress adopted instead the proposals of [Thomas Jefferson](https://www.britannica.com/biography/Thomas-Jefferson) for a decimal monetary system based on the [dollar](https://www.britannica.com/money/dollar), and in 1792 the mint was finally built in Philadelphia, with [David Rittenhouse](https://www.britannica.com/biography/David-Rittenhouse) as director. Jefferson tried vainly to hire as die engraver a Swiss, Jean Pierre Droz, who nevertheless furnished dies, hubs, and presses. Before the mint was quite ready, the first official American silver coin, the half dime, was struck in October 1792 in John Harper’s cellar a short distance away, from dies by Robert Birch and [Joseph Wright](https://www.britannica.com/biography/Joseph-Wright-English-painter), who were also responsible for the regular cents and half cents of 1793. Silver followed in 1794 and gold in 1795, the engraver being Robert Scot.
-
 
 > [!infobox]
 > 
@@ -617,7 +572,6 @@ The first U.S. mint, built in 1792, Philadelphia, Pa.
 
 Later designers of American coins included [Gilbert Stuart](https://www.britannica.com/biography/Gilbert-Stuart) (1796 silver), Titian Peale and [Thomas Sully](https://www.britannica.com/biography/Thomas-Sully-American-artist) (the 1836 dollars engraved by Christian Gobrecht), [Augustus Saint-Gaudens](https://www.britannica.com/biography/Augustus-Saint-Gaudens) (1907–33 10- and 20-dollar gold pieces, called eagles and double eagles), Bela Lyon Pratt (1908–29 half eagles and quarter eagles), Victor Brenner (the Lincoln cent), [James Earle Fraser](https://www.britannica.com/biography/James-Earle-Fraser) (the buffalo nickel), A.A. Weinman and [Hermon MacNeil](https://www.britannica.com/biography/Hermon-A-MacNeil) (1916 silver), [John Flannagan](https://www.britannica.com/biography/John-Bernard-Flannagan) (1932 quarter dollar), Laura G. Fraser, and Chester Beach and [Gutzon Borglum](https://www.britannica.com/biography/Gutzon-Borglum) (various commemorative coins).
 
-
 > [!infobox]
 > 
 ![Coin designer](https://cdn.britannica.com/52/102152-050-04DAB73C/Augustus-Saint-Gaudens-1910.jpg?w=385)
@@ -625,13 +579,10 @@ Augustus Saint-Gaudens, *c.* 1910.
 
 The discovery of gold and silver in various regions and the difficulty of transporting large quantities of bullion through country menaced by Indians and bandits prompted the founding of both private and federal local mints. The Bechtlers of Rutherfordton, N.C., coined locally mined gold long before the government built a mint in Charlotte. The California [gold rush](https://www.britannica.com/money/gold-rush) stimulated coining by many bankers and assayers. Private coinage was legal so long as the coins contained full bullion weight and purity and imitated no official issues; Bechtler and Moffat gold (the latter coined at San Francisco) circulated at about par until the Civil War, while lightweight private gold took a discount. The California private mints mostly ceased operations when the San Francisco federal branch started, but those in the less accessible regions of Colorado continued long afterward, and as late as 1901 Joseph Lesher struck octagonal silver dollars in that state.
 
-
 > [!infobox]
 > 
 ![U.S. gold coin](https://cdn.britannica.com/80/58780-004-353D9F4B/Figure-Liberty-gold-piece-Pres-coin-relief-1907.jpg?w=385)
 Figure of Liberty on a U.S. $20 gold piece designed for Pres. Theodore Roosevelt by Augustus Saint-Gaudens, 1907. The relief being too high, the coin proved unsuitable for circulation. In the American Numismatic Society, New York City. Diameter 34 mm.
-
-
 
 From 1851 to 1900 many brief experiments with odd denominations were tried, all of which proved superfluous. A law of 1873 discontinued the silver dollar until political pressure from mine owners forced through Congress an 1878 act requiring the mint to buy $2,000,000 to $4,000,000 worth of silver monthly and coin the entire amount into silver dollars. Coinage was discontinued in 1935. Millions of the silver dollars long remained stored in banks and treasury vaults, but eventually they became scarce; and in 1964 a new minting was authorized. Gold was recalled in 1934, but gold coins of numismatic interest (*see* [coin collecting](https://www.britannica.com/topic/coin-collecting)) may be retained in any quantity by “collectors of rare and unusual coin” (Presidential Order 6260). By an act of 1853 all silver coins except the dollar are [fiduciary](https://www.britannica.com/money/fiduciary). The passing of 19th-century artistic canons has been reflected in American coin designs, which since 1909 have portrayed statesmen rather than personifications of liberty. All the above influences have combined to make the 20th-century American coinage system the simplest in use in any major nation.
 
@@ -655,12 +606,10 @@ The Sāsānian coinage was very extensive in silver, and the early emperors also
 
 The conquering Muslims at first mimicked the coinage of their predecessors. In the western provinces they issued gold and copper pieces imitated from contemporary Byzantine coins, modifying the cross on the reverse of the latter somewhat to suit Muslim sensibilities. In the eastern provinces the Arab governors issued silver dirhams that were copies of late Sāsānian coins (mostly of those of Khosrow II; with the addition of short Arabic inscriptions on the margin and often the name of the Arab governor in Pahlavi; even the crude representation of the fire altar was retained. Toward the end of the 7th century, the fifth Umayyad caliph, [ʿAbd al-Malik](https://www.britannica.com/biography/Abd-al-Malik-Umayyad-caliph), instituted a coinage more in keeping with the principles of Islam. This “reformed coinage” was of gold (first issued in ad 698–699), silver (first issued in 696–697), and copper. The old coin, called [dinar](https://www.britannica.com/money/dinar-currency) (from the Aramaic derivation of the Roman denarius aureus), derived its standard (4.25 grams) from the Byzantine solidus; the standard of the silver coin ([dirham](https://www.britannica.com/topic/dirham), from the name of the Sāsānian coin, which in its turn was derived from Greek drachma) was reduced to 2.92 grams, but it retained in its thin material and style some features of its Sāsānian predecessor; the name of the copper change, *fals,* comes from the Latin word *follis* (“money bag,” by derivation a copper coin of low value). The reformed gold and silver coinage has no pictorial type, only skillfully arranged inscriptions, which are nonetheless of high historical value.
 
-
 > [!infobox]
 >
 ![Khosrow II](https://cdn.britannica.com/12/1912-004-D32D18EA/Khosrow-II-coin-collection-American-Numismatic-Society.jpg?w=385)
 Khosrow II, coin, ad 590–628; in the collection of the American Numismatic Society.
-
 
 The reformed dinar and dirham bear on the obverse the Muslim profession of faith—“There is no god but God: he has no associate”—and around it the marginal legend “In the name of God; this dinar (or dirham) was struck at... in the year....” The reverse area has a quotation from Qurʾān CXII, “Say: He is Allah, the One! / Allah, the eternally Besought of all! / He begetteth not nor was begotten. / and there is none comparable unto Him.” Around is Qurʾān IX, 33: “He it is who hath sent His messenger with the guidance and the Religion of Truth, that He may cause it to prevail over all religion, however much the idolators may be averse.”
 
@@ -718,12 +667,10 @@ Before coins were invented, cowrie shells were used as [money](https://www.brita
 
 After the Han period (206 bc – ad 220), the standard coin underwent many modifications. The coin was issued in iron and lead, in six-grain and four-grain weights, and in token versions. Yet the ideal of the five-grain coin of Han survived until the rise of the [T’ang dynasty](https://www.britannica.com/topic/Tang-dynasty), when the emperor Kao-tsu in 621 issued the Kai-yuan coin, which gave the coinage of all the Far East its form until the end of the 19th century—a round coin with a square hole and a four-character legend stating the function (*tong-bao,* which means “circulating treasure”) and date of the coin. The Southern [Sung dynasty](https://www.britannica.com/topic/Song-dynasty) (1127–1279) dated their coins on the reverse with regnal years, and the T’ang and Ming dynasties (618–907 and 1368–1644, respectively) put the mint name on the reverse, as did the [Ch’ing dynasty](https://www.britannica.com/topic/Qing-dynasty) (1644–1911/12), this last giving it in Manchu characters. Paper money has been in use in China since the 9th century and was current almost to the exclusion of regular coins under certain Mongol emperors, such as [Kublai Khan](https://www.britannica.com/biography/Kublai-Khan), whose paper money is described by [Marco Polo](https://www.britannica.com/biography/Marco-Polo). For more than 2,000 years the [copper](https://www.britannica.com/science/copper) [cash](https://www.britannica.com/money/cash-money) was the only official coinage of China; gold and silver were current by weight only, the latter in the form of ingots. As a result of the popularity of imported Spanish colonial and Mexican dollars, several attempts were made to institute a silver coinage based on the [dollar](https://www.britannica.com/money/dollar) in the 19th century; not until the very end of the 19th century were mints established to strike silver and copper coins of European style. Under the republic, coins were at once struck with the portraits of [Sun Yat-sen](https://www.britannica.com/biography/Sun-Yat-sen) and Pres. [Yüan Shih-k’ai](https://www.britannica.com/biography/Yuan-Shikai), and the various generals who fought for control of China issued their own coins. The currency of both the People’s Republic of China and Taiwan is the [yuan](https://www.britannica.com/money/renminbi) (dollar). The very extensive series of [talismans](https://www.britannica.com/topic/amulet), coinlike in shape but usually larger and in their legends and types reflecting popular Chinese religious thought, is noteworthy.
 
-
 > [!infobox]
 >
 ![Chinese coin](https://cdn.britannica.com/44/7644-004-3597AD46/token-coin-emperor-Northern-Song-dynasty-Huizong.jpg?w=385)
 Bronze token coin designed by the emperor Huizong, Northern Song dynasty, 1107; in the British Museum, London.
-
 
 ### Japan
 
@@ -827,7 +774,6 @@ Table of Contents
 
 ---
 
-
 ## Functions of money
 
 The basic function of money is to enable buying to be separated from selling, thus permitting trade to take place without the so-called double coincidence of [barter](https://www.britannica.com/money/barter-trade). In principle, [credit](https://www.britannica.com/money/credit) could perform this function, but, before extending credit, the seller would want to know about the prospects of repayment. That requires much more information about the buyer and imposes costs of information and verification that the use of money avoids.
@@ -842,7 +788,4 @@ These examples have shown the “medium of exchange” function of money. Separa
 
 Anything can serve as money that habit or social convention and successful experience endow with the quality of general acceptability, and a variety of items have so served—from the [wampum](https://www.britannica.com/money/wampum) (beads made from shells) of American Indians, to [cowries](https://www.britannica.com/animal/cowrie) (brightly coloured shells) in India, to whales’ teeth among the Fijians, to tobacco among early colonists in [North America](https://www.britannica.com/place/North-America), to large stone disks on the Pacific island of [Yap](https://www.britannica.com/place/Yap-Islands), to cigarettes in post-World War II Germany and in prisons the world over. In fact, the wide use of cattle as money in [primitive](https://www.britannica.com/topic/primitive-culture) times survives in the word *pecuniary*, which comes from the Latin *pecus*, meaning cattle. The development of money has been marked by repeated innovations in the objects used as money.
 
-
-
-
-#économie #finance   #economy 
+#économie #finance #economy 

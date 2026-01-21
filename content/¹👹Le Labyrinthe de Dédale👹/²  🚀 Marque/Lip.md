@@ -11,7 +11,6 @@ sticker: .
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkJP8Hcq-yL26kBg0At9w&s)
 
-
 ## Historique
 
 La marque Lip a été fondée en 1867 par Emmanuel Lipmann à Besançon, en France, une ville connue pour son industrie horlogère. Lip a rapidement gagné une réputation pour ses montres de haute qualité et ses innovations. Au fil des décennies, Lip a introduit de nombreuses premières mondiales et est devenue une marque emblématique de l'horlogerie française.

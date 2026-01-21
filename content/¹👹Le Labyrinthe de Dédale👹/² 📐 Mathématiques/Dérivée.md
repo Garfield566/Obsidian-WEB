@@ -10,7 +10,7 @@ moc_lie: Calcul Différentiel
 > 
 > Elle correspond au coefficient directeur (la pente) de la tangente à la courbe de la fonction en ce point.
 
-##  Présentation
+## Présentation
 
 ### Définition et Contexte
 
@@ -30,7 +30,7 @@ Géométriquement, ce taux représente la **pente de la sécante** qui relie les
 
 ---
 
-##  Analyse
+## Analyse
 
 ### Définition Formelle
 

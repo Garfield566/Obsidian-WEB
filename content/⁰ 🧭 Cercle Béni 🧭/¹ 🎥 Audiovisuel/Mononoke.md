@@ -13,28 +13,28 @@ Année de Sortie: 2007
 type: Série animée
 vue: true
 tags:
-  - Mystère
-  - Horreur
-  - Psychologique
-  - Surnaturel
-  - Japon-féodal
-  - Yasuharu-Takanashi
-  - Kenji-Nakamura
-  - Toei-Animation
-  - oboroge
-  - ononoki
-  - fukashigi
-  - samishige
-  - isamashige
-  - ayashige
-  - kurushige
-  - munashige
-  - osoroshige
-  - hakanage
-  - kanashige
-  - abunage
-  - utsurigi
-  - audiovisuel
+ - Mystère
+ - Horreur
+ - Psychologique
+ - Surnaturel
+ - Japon-féodal
+ - Yasuharu-Takanashi
+ - Kenji-Nakamura
+ - Toei-Animation
+ - oboroge
+ - ononoki
+ - fukashigi
+ - samishige
+ - isamashige
+ - ayashige
+ - kurushige
+ - munashige
+ - osoroshige
+ - hakanage
+ - kanashige
+ - abunage
+ - utsurigi
+ - audiovisuel
 ---
 
 # 🎥 Mononoke
@@ -74,64 +74,61 @@ tags:
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Toei-Animation</li></ul> |
 > | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Japanese-Folklore</li><li>#Supernatural-Horror</li><li>#Ukiyo-e-Art</li></ul> |
 
-
-## 📖 Synopsis  
+## 📖 Synopsis 
 *Set in an ethereal Japan where ancient traditions clash with emerging modernity, *Mononoke* follows the enigmatic Medicine Seller as he travels between distant, starkly contrasted regions—from imperial Kyoto to isolated rural hamlets. His quest is to exorcise Mononoke—vengeful spirits born of unresolved human emotion—but only after discovering their Form, Truth, and Reason. At the heart of the series lies the haunting interplay between the Medicine Seller and tormented individuals, whose inner traumas manifest as spectral beings. The core conflict opposes spiritual mysticism to empirical ignorance, as each arc interrogates the boundaries of belief. Themes include guilt, repression, identity, trauma, and karmic retribution. With hypnotic, ukiyo-e inspired animation and a tone that shifts between philosophical horror and psychological drama, *Mononoke* defies convention in both form and storytelling.*
 
-## 🎵 Soundtrack  
-### Saison-1  
-1. *"oboroge"* – **yasuharu-takanashi**  
-2. *"mononoke"* – **yasuharu-takanashi**  
-3. *"ononoki"* – **yasuharu-takanashi**  
-4. *"fukashigi"* – **yasuharu-takanashi**  
-5. *"samishige"* – **yasuharu-takanashi**  
-6. *"isamashige"* – **yasuharu-takanashi**  
-7. *"ayashige"* – **yasuharu-takanashi**  
-8. *"kurushige"* – **yasuharu-takanashi**  
-9. *"munashige"* – **yasuharu-takanashi**  
-10. *"osoroshige"* – **yasuharu-takanashi**  
-11. *"hakanage"* – **yasuharu-takanashi**  
-12. *"kanashige"* – **yasuharu-takanashi**  
-13. *"abunage"* – **yasuharu-takanashi**  
+## 🎵 Soundtrack 
+### Saison-1 
+1. *"oboroge"* – **yasuharu-takanashi** 
+2. *"mononoke"* – **yasuharu-takanashi** 
+3. *"ononoki"* – **yasuharu-takanashi** 
+4. *"fukashigi"* – **yasuharu-takanashi** 
+5. *"samishige"* – **yasuharu-takanashi** 
+6. *"isamashige"* – **yasuharu-takanashi** 
+7. *"ayashige"* – **yasuharu-takanashi** 
+8. *"kurushige"* – **yasuharu-takanashi** 
+9. *"munashige"* – **yasuharu-takanashi** 
+10. *"osoroshige"* – **yasuharu-takanashi** 
+11. *"hakanage"* – **yasuharu-takanashi** 
+12. *"kanashige"* – **yasuharu-takanashi** 
+13. *"abunage"* – **yasuharu-takanashi** 
 14. *"utsurigi"* – **yasuharu-takanashi**
-
 
 ### Note
 ##### **Critères Audio**
 
-| **Critère**                                      | **Description**                                                                                                                      | **Points de l'** |
+| **Critère** | **Description** | **Points de l'** |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| **Bande-son original (40 points)**               |                                                                                                                                      |                  |
-|                                                  | _Qualité des compositions_ (20 points )                                                                                              |                  |
-|                                                  | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier.                                     | 0/10             |
-|                                                  | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ?                                | 0/5              |
-|                                                  | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ?            | 0/5              |
-|                                                  | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés.                            | 0/20             |
-| **Conception sonore (30 points)**                |                                                                                                                                      |                  |
-|                                                  | _Ambiance et immersion_ (15 points) :                                                                                                | 0/15             |
-|                                                  | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre.           | 0/15             |
-|                                                  | _Cohérence avec l'univers_ (15 points):                                                                                              | 0/15             |
-|                                                  | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15             |
-| **Doublage/vocale d'interprétation (30 points)** |                                                                                                                                      |                  |
-|                                                  | _Qualité des voix_ (15 points) :                                                                                                     | 0/15             |
-|                                                  | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15             |
-|                                                  | Mélangé des                                                                                                                          | 0/15             |
-|                                                  | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ?                        | 0/15             |
+| **Bande-son original (40 points)** | | |
+| | _Qualité des compositions_ (20 points ) | |
+| | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier. | 0/10 |
+| | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ? | 0/5 |
+| | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ? | 0/5 |
+| | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés. | 0/20 |
+| **Conception sonore (30 points)** | | |
+| | _Ambiance et immersion_ (15 points) : | 0/15 |
+| | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre. | 0/15 |
+| | _Cohérence avec l'univers_ (15 points): | 0/15 |
+| | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15 |
+| **Doublage/vocale d'interprétation (30 points)** | | |
+| | _Qualité des voix_ (15 points) : | 0/15 |
+| | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15 |
+| | Mélangé des | 0/15 |
+| | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ? | 0/15 |
 
 -------
 ##### **Critères Visuel**
 
-| **Critère**                                | **Description**                                                                                                                                  | **Points** |
+| **Critère** | **Description** | **Points** |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| Animation/Graphisme   (50 points)          |                                                                                                                                                  |            |
-|                                            | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style.                               | 0/20       |
-|                                            | _Détails et textures_ : richesse des décors, soin des personnages et objets.                                                                     | 0/15       |
-|                                            | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ?                                                               | 0/15       |
-| Direction artistique           (50 points) |                                                                                                                                                  |            |
-|                                            | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels.                  | 0/20       |
-|                                            | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes.                                                 | 0/15       |
-|                                            | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15       |
-
+| Animation/Graphisme (50 points) | | |
+| | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style. | 0/20 |
+| | _Détails et textures_ : richesse des décors, soin des personnages et objets. | 0/15 |
+| | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ? | 0/15 |
+| Direction artistique (50 points) | | |
+| | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels. | 0/20 |
+| | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes. | 0/15 |
+| | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15 |
 
 ---
 
@@ -160,9 +157,9 @@ tags:
 ||_Résonance émotionnelle_ (10 points) :|0/10|
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
-|             | |
+| | |
 | ----------- | --------------------------------------------------------------------------------------- |
 | **Artists** | <ul style="margin: 0; padding-left: 15px;"><li>#yasuharu-takanashi</li></ul> |
-| **Bands**   | <ul style="margin: 0; padding-left: 15px;"></ul>   |
-| **Tracks**  | <ul style="margin: 0; padding-left: 15px;"><li>#oboroge</li><li>#mononoke</li><li>#ononoki</li><li>#fukashigi</li><li>#samishige</li><li>#isamashige</li><li>#ayashige</li><li>#kurushige</li><li>#munashige</li><li>#osoroshige</li><li>#hakanage</li><li>#kanashige</li><li>#abunage</li><li>#utsurigi</li></ul> |
+| **Bands** | <ul style="margin: 0; padding-left: 15px;"></ul> |
+| **Tracks** | <ul style="margin: 0; padding-left: 15px;"><li>#oboroge</li><li>#mononoke</li><li>#ononoki</li><li>#fukashigi</li><li>#samishige</li><li>#isamashige</li><li>#ayashige</li><li>#kurushige</li><li>#munashige</li><li>#osoroshige</li><li>#hakanage</li><li>#kanashige</li><li>#abunage</li><li>#utsurigi</li></ul> |
 | **General** | <ul style="margin: 0; padding-left: 15px;"><li>#mononoke</li><li>#audiovisuel</li></ul> |

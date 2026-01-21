@@ -1,22 +1,22 @@
 # GRAPHIQUES TIKZ À TESTER DANS OBSIDIAN
 
-  
+ 
 
 Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
-  
+ 
 
 ---
 
-  
+ 
 
 ## SECTION 1: POLYNÔMES
 
-  
+ 
 
 ### 1.1 - Fonction linéaire x
 
-  
+ 
 
 ```tikz
 
@@ -24,7 +24,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -60,11 +60,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 1.2 - Fonction quadratique x²
 
-  
+ 
 
 ```tikz
 
@@ -72,7 +72,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -108,11 +108,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 1.3 - Fonction cubique x³
 
-  
+ 
 
 ```tikz
 
@@ -120,7 +120,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -156,11 +156,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 1.4 - Polynôme degré 5 (x⁵)
 
-  
+ 
 
 ```tikz
 
@@ -168,7 +168,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -204,11 +204,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 1.5 - Polynôme avec gros coefficient (100x²)
 
-  
+ 
 
 ```tikz
 
@@ -216,7 +216,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -252,19 +252,19 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ---
 
-  
+ 
 
 ## SECTION 2: FONCTIONS TRIGONOMÉTRIQUES
 
-  
+ 
 
 ### 2.1 - Sinus simple sin(x)
 
-  
+ 
 
 ```tikz
 
@@ -272,7 +272,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -308,11 +308,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 2.2 - Cosinus simple cos(x)
 
-  
+ 
 
 ```tikz
 
@@ -320,7 +320,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -356,11 +356,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 2.3 - Tangente tan(x)
 
-  
+ 
 
 ```tikz
 
@@ -368,7 +368,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -404,11 +404,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 2.4 - Sinus haute fréquence sin(5x)
 
-  
+ 
 
 ```tikz
 
@@ -416,7 +416,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -452,19 +452,19 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ---
 
-  
+ 
 
 ## SECTION 3: FONCTIONS EXPONENTIELLES
 
-  
+ 
 
 ### 3.1 - Exponentielle simple e^x
 
-  
+ 
 
 ```tikz
 
@@ -472,7 +472,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -508,11 +508,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 3.2 - Exponentielle décroissante e^(-x)
 
-  
+ 
 
 ```tikz
 
@@ -520,7 +520,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -556,19 +556,19 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ---
 
-  
+ 
 
 ## SECTION 4: FONCTIONS LOGARITHMIQUES
 
-  
+ 
 
 ### 4.1 - Logarithme népérien ln(x)
 
-  
+ 
 
 ```tikz
 
@@ -576,7 +576,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -612,19 +612,19 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ---
 
-  
+ 
 
 ## SECTION 5: FRACTIONS RATIONNELLES
 
-  
+ 
 
 ### 5.1 - Inverse 1/x
 
-  
+ 
 
 ```tikz
 
@@ -632,7 +632,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -668,11 +668,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 5.2 - Inverse carré 1/x²
 
-  
+ 
 
 ```tikz
 
@@ -680,7 +680,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -716,11 +716,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 5.3 - Fraction rationnelle x/(x²+1)
 
-  
+ 
 
 ```tikz
 
@@ -728,7 +728,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -764,19 +764,19 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ---
 
-  
+ 
 
 ## SECTION 6: RACINES
 
-  
+ 
 
 ### 6.1 - Racine carrée √x
 
-  
+ 
 
 ```tikz
 
@@ -784,7 +784,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -820,19 +820,19 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ---
 
-  
+ 
 
 ## SECTION 7: SURFACES 3D
 
-  
+ 
 
 ### 7.1 - Paraboloïde x² + y²
 
-  
+ 
 
 ```tikz
 
@@ -840,7 +840,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -890,11 +890,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 7.2 - Selle x² - y²
 
-  
+ 
 
 ```tikz
 
@@ -902,7 +902,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -952,11 +952,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 7.3 - Cône √(x² + y²)
 
-  
+ 
 
 ```tikz
 
@@ -964,7 +964,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -1014,89 +1014,89 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 7.4 - Surface cubique x³ + y³
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
-  
+ 
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
-    view={60}{30},
-    xlabel=$x$,
-    ylabel=$y$,
-    zlabel=$z$,
-    colormap/cool,
-    width=12cm,
-    height=10cm,
-    xmin=-3, xmax=3,
-    ymin=-3, ymax=3,
-    zmin=-60, zmax=60
+ view={60}{30},
+ xlabel=$x$,
+ ylabel=$y$,
+ zlabel=$z$,
+ colormap/cool,
+ width=12cm,
+ height=10cm,
+ xmin=-3, xmax=3,
+ ymin=-3, ymax=3,
+ zmin=-60, zmax=60
 ]
 \addplot3[
-    mesh,
-    samples=18,
-    domain=-3:3,
-    y domain=-3:3
+ mesh,
+ samples=18,
+ domain=-3:3,
+ y domain=-3:3
 ] {x^3+y^3};
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
-  
+ 
 
 ```tikz
 
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
-  
+ 
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
-    view={60}{30},
-    xlabel=$x$,
-    ylabel=$y$,
-    zlabel=$z$,
-    colormap/cool,
-    xmin=-2, xmax=2,
-    ymin=-2, ymax=2,
-    zmin=-16, zmax=16
+ view={60}{30},
+ xlabel=$x$,
+ ylabel=$y$,
+ zlabel=$z$,
+ colormap/cool,
+ xmin=-2, xmax=2,
+ ymin=-2, ymax=2,
+ zmin=-16, zmax=16
 ]
 \addplot3[
-    surf,
-    samples=18,
-    domain=-3:3,
-    y domain=-3:3
+ surf,
+ samples=18,
+ domain=-3:3,
+ y domain=-3:3
 ] {x^3+y^3};
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
 
-  
+ 
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
-  
+ 
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
-    view={60}{30},
-    xlabel=$x$,
-    ylabel=$y$,
-    zlabel=$z$,
-    colormap/cool,
-    xmin=-2, xmax=2,
-    ymin=-2, ymax=2,
-    zmin=-16, zmax=16
+ view={60}{30},
+ xlabel=$x$,
+ ylabel=$y$,
+ zlabel=$z$,
+ colormap/cool,
+ xmin=-2, xmax=2,
+ ymin=-2, ymax=2,
+ zmin=-16, zmax=16
 ]
 \addplot3[
-    surf,
-    samples=15,
-    domain=-2:2,
-    y domain=-2:2
+ surf,
+ samples=15,
+ domain=-2:2,
+ y domain=-2:2
 ] {x^3+y^3};
 \end{axis}
 \end{tikzpicture}
@@ -1104,7 +1104,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 ```
 ### 7.5 - Surface trigonométrique sin(x) + cos(y)
 
-  
+ 
 
 ```tikz
 
@@ -1112,7 +1112,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -1162,11 +1162,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 7.6 - Selle hyperbolique xy
 
-  
+ 
 
 ```tikz
 
@@ -1174,7 +1174,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -1224,11 +1224,11 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ### 7.7 - Surface degré 5 (x⁵ + y⁵)
 
-  
+ 
 
 ```tikz
 
@@ -1236,7 +1236,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 \pgfplotsset{compat=1.16}
 
-  
+ 
 
 \begin{document}
 
@@ -1286,89 +1286,32 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ```
 
-  
+ 
 
 ---
 
-  
+ 
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
-  
+ 
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
-    view={60}{30},
-    xlabel=$x$,
-    ylabel=$y$,
-    zlabel=$z$,
-    colormap/cool,
-    xmin=-3, xmax=3,
-    ymin=-3, ymax=3,
-    zmin=-60, zmax=60
+ view={60}{30},
+ xlabel=$x$,
+ ylabel=$y$,
+ zlabel=$z$,
+ colormap/cool,
+ xmin=-3, xmax=3,
+ ymin=-3, ymax=3,
+ zmin=-60, zmax=60
 ]
 \addplot3[
-    mesh,
-    samples=18,
-    domain=-3:3,
-    y domain=-3:3
-] {x^3+y^3};
-\end{axis}
-\end{tikzpicture}
-\end{document}
-```
-
-
-```tikz
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
-  
-\begin{document}
-\begin{tikzpicture}
-\begin{axis}[
-    view={60}{30},
-    xlabel=$x$,
-    ylabel=$y$,
-    zlabel=$z$,
-    colormap/cool,
-    xmin=-3, xmax=3,
-    ymin=-3, ymax=3,
-    zmin=-60, zmax=60
-]
-\addplot3[
-    surf,
-    samples=25,
-    domain=-3:3,
-    y domain=-3:3
-] {x^3+y^3};
-\end{axis}
-\end{tikzpicture}
-\end{document}
-```
-
-
-```tikz
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
-  
-\begin{document}
-\begin{tikzpicture}
-\begin{axis}[
-    view={60}{30},
-    xlabel=$x$,
-    ylabel=$y$,
-    zlabel=$z$,
-    colormap/cool,
-    xmin=-3, xmax=3,
-    ymin=-3, ymax=3,
-    zmin=-60, zmax=60
-]
-\addplot3[
-    surf,
-    faceted color=black,
-    samples=18,
-    domain=-3:3,
-    y domain=-3:3
+ mesh,
+ samples=18,
+ domain=-3:3,
+ y domain=-3:3
 ] {x^3+y^3};
 \end{axis}
 \end{tikzpicture}
@@ -1378,49 +1321,103 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
-  
+ 
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
-    view={60}{30},
-    xlabel=$x$,
-    ylabel=$y$,
-    zlabel=$z$,
-    colormap/cool,
-    xmin=-3, xmax=3,
-    ymin=-3, ymax=3,
-    zmin=-60, zmax=60
+ view={60}{30},
+ xlabel=$x$,
+ ylabel=$y$,
+ zlabel=$z$,
+ colormap/cool,
+ xmin=-3, xmax=3,
+ ymin=-3, ymax=3,
+ zmin=-60, zmax=60
 ]
 \addplot3[
-    surf,
-    opacity=0.8,
-    samples=18,
-    domain=-3:3,
-    y domain=-3:3
-] {x^3+y^3};
-
-\addplot3[
-    mesh,
-    draw=black,
-    samples=18,
-    domain=-3:3,
-    y domain=-3:3
+ surf,
+ samples=25,
+ domain=-3:3,
+ y domain=-3:3
 ] {x^3+y^3};
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
 
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+ 
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+ view={60}{30},
+ xlabel=$x$,
+ ylabel=$y$,
+ zlabel=$z$,
+ colormap/cool,
+ xmin=-3, xmax=3,
+ ymin=-3, ymax=3,
+ zmin=-60, zmax=60
+]
+\addplot3[
+ surf,
+ faceted color=black,
+ samples=18,
+ domain=-3:3,
+ y domain=-3:3
+] {x^3+y^3};
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+ 
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+ view={60}{30},
+ xlabel=$x$,
+ ylabel=$y$,
+ zlabel=$z$,
+ colormap/cool,
+ xmin=-3, xmax=3,
+ ymin=-3, ymax=3,
+ zmin=-60, zmax=60
+]
+\addplot3[
+ surf,
+ opacity=0.8,
+ samples=18,
+ domain=-3:3,
+ y domain=-3:3
+] {x^3+y^3};
+
+\addplot3[
+ mesh,
+ draw=black,
+ samples=18,
+ domain=-3:3,
+ y domain=-3:3
+] {x^3+y^3};
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
 
 ```tikz
 ```
 ## RÉSUMÉ
 
-  
+ 
 
 **20 graphiques** prêts à tester couvrant:
 
-  
+ 
 
 ✅ **Polynômes** (5 graphiques) - degré 1 à 5, avec coefficients variés
 
@@ -1436,7 +1433,7 @@ Copiez les blocs ````tikz` dans Obsidian pour les tester.
 
 ✅ **Surfaces 3D** (7 graphiques) - paraboloïde, selle, cône, etc.
 
-  
+ 
 
 **Tous les graphiques ont:**
 

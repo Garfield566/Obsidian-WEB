@@ -20,21 +20,20 @@ nationalité: "Autrichien"
 > | **Nationality** | <ul style="margin: 0; padding-left: 15px;"><li>Austrian</li><li>American (naturalized 1939)</li></ul> |
 > | **Education** | <ul style="margin: 0; padding-left: 15px;"><li>University of Vienna (Dr. Jur. 1906)</li></ul> |
 
-
 Joseph Schumpeter est un économiste autrichien naturalisé américain, pionnier de la théorie de l'évolution économique par l'innovation, qui analyse le capitalisme comme un système dynamique en perpétuelle transformation à travers l'effet d'« entrepreneurs innovateurs » et le phénomène de destruction créatrice.[](https://www.larousse.fr/encyclopedie/personnage/Joseph_Alois_Schumpeter/143616)​
 
 ## Notions clés
 
-> [!notion] Innovation et entrepreneur  
+> [!notion] Innovation et entrepreneur 
 > L'innovation est au cœur de la croissance économique, portée par l'entrepreneur qui opère de nouvelles combinaisons : produits, méthodes, marchés, sources de financement. Contexte d'utilisation :`[[Théorie de l’évolution économique]]`[](https://wp.unil.ch/bases/2013/08/joseph-schumpeter-les-cycles-economiques-et-les-innovations-technologiques/)​
 
-> [!notion] Destruction créatrice  
+> [!notion] Destruction créatrice 
 > Le processus par lequel la nouveauté détruit les anciennes structures économiques obsolètes, générant à la fois croissance et crises (fermetures d'usines, chômage). Contexte d'utilisation :`[[Capitalisme, socialisme et démocratie]]`[](https://wp.unil.ch/bases/2013/08/joseph-schumpeter-les-cycles-economiques-et-les-innovations-technologiques/)​
 
-> [!notion] Cycles économiques  
+> [!notion] Cycles économiques 
 > Les fluctuations économiques sont liées aux vagues d'innovation, avec des phases de croissance rapide suivies de diminutions. Contexte d'utilisation :`[[Business Cycles]]`[](https://fr.wikipedia.org/wiki/Joseph_Schumpeter)​
 
-> [!notion] Économie stationnaire et équilibre général  
+> [!notion] Économie stationnaire et équilibre général 
 > Schumpeter partie d'un modèle d'économie stationnaire d'équilibre pour le critique, soulignant que l'économie capitaliste est caractérisée par un mouvement constant et des déséquilibres. Contexte d'utilisation :`[[Théorie de l’évolution économique]]`[](https://www.economie-et-politique.org/2024/09/05/joseph-schumpeter-un-heterodoxe/)​
 
 ## Productions
@@ -49,8 +48,7 @@ Joseph Schumpeter est un économiste autrichien naturalisé américain, pionnier
 
 ## Liens Obsidienne
 
-
-#History_of_Economic_Analysis #Joseph-Schumpeter #economy   #XX  #The_Theory_of_Economic_Development  
-#Capitalism_Socialism_and_Democracy  #Business_Cycles  #Ten_Great_Economists  #Economic_Doctrine_and_Method  
-#Imperialism_and_Social_Classes  #Creative_Destruction  #Entrepreneurship  #Innovation_Theory  #The_Crisis_of_the_Tax_State  #The_Instability_of_Capitalism  #The_March_into_Socialism  #Science_and_Ideology  #Methodological_Individualism  
-#Das_Wesen_der_Wirtschaftskrisen #The_Common_Sense_of_Econometrics  
+#History_of_Economic_Analysis #Joseph-Schumpeter #economy #XX #The_Theory_of_Economic_Development 
+#Capitalism_Socialism_and_Democracy #Business_Cycles #Ten_Great_Economists #Economic_Doctrine_and_Method 
+#Imperialism_and_Social_Classes #Creative_Destruction #Entrepreneurship #Innovation_Theory #The_Crisis_of_the_Tax_State #The_Instability_of_Capitalism #The_March_into_Socialism #Science_and_Ideology #Methodological_Individualism 
+#Das_Wesen_der_Wirtschaftskrisen #The_Common_Sense_of_Econometrics 

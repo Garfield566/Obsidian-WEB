@@ -7,24 +7,20 @@ banner_y: 0.71668
 
 # Titre de la Note
 
-
-
 ## Méta-données
 
 > [!abstract]- ### Source/Référence
 
 > [!info]- ### Liens connexes
 
-> [!info]-  ### Annexes
+> [!info]- ### Annexes
 
 > [!example]- ### # utiliser:
 > #Page-type
 
-
 ## Résumé
 
 > [!note]- ### Sous-titre 1
-
 
 ## Contenu
 
@@ -35,8 +31,6 @@ banner_y: 0.71668
 
 > [!note]- ### Sous-titre 2
 
-
 ## Réflexions ou Commentaires
-
 
 > [!note]- ### Sous-titre 1

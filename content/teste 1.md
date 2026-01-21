@@ -9,14 +9,14 @@ banner: "![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20230702214935.p
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
-    axis lines=middle,
-    grid=both,
-    domain=-6.28:6.28,
-    samples=200,
-    xlabel={$x$},
-    ylabel={$f(x)$},
-    width=10cm,
-    height=8cm
+ axis lines=middle,
+ grid=both,
+ domain=-6.28:6.28,
+ samples=200,
+ xlabel={$x$},
+ ylabel={$f(x)$},
+ width=10cm,
+ height=8cm
 ]
 \addplot[blue, thick] {cos(deg(x))};
 \end{axis}
@@ -27,37 +27,37 @@ banner: "![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20230702214935.p
 ```tikz
 \begin{document}
 \begin{tikzpicture}[scale=3]
-  % Axes
-  \draw[->] (-1.3,0) -- (1.3,0) node[right] {$x$};
-  \draw[->] (0,-1.3) -- (0,1.3) node[above] {$y$};
+ % Axes
+ \draw[->] (-1.3,0) -- (1.3,0) node[right] {$x$};
+ \draw[->] (0,-1.3) -- (0,1.3) node[above] {$y$};
 
-  % Cercle
-  \draw[thick] (0,0) circle (1);
+ % Cercle
+ \draw[thick] (0,0) circle (1);
 
-  % Angle (exemple: 40 degrés)
-  \draw[very thick, red] (0.5,0) arc (0:40:0.5);
-  \node[red] at (0.6,0.2) {$\theta$};
+ % Angle (exemple: 40 degrés)
+ \draw[very thick, red] (0.5,0) arc (0:40:0.5);
+ \node[red] at (0.6,0.2) {$\theta$};
 
-  % Point sur le cercle
-  \draw[thick, blue] (0,0) -- (0.766,0.643);
-  \fill[blue] (0.766,0.643) circle (0.03);
-  \node[blue, above right] at (0.766,0.643) {$M$};
+ % Point sur le cercle
+ \draw[thick, blue] (0,0) -- (0.766,0.643);
+ \fill[blue] (0.766,0.643) circle (0.03);
+ \node[blue, above right] at (0.766,0.643) {$M$};
 
-  % Projection pour cos (ligne verticale rouge)
-  \draw[very thick, red, dashed] (0.766,0) -- (0.766,0.643);
+ % Projection pour cos (ligne verticale rouge)
+ \draw[very thick, red, dashed] (0.766,0) -- (0.766,0.643);
 
-  % Projection pour cos (ligne horizontale verte)
-  \draw[very thick, green!60!black] (0,0) -- (0.766,0);
-  \node[green!60!black, below] at (0.383,0) {$\cos(\theta)$};
+ % Projection pour cos (ligne horizontale verte)
+ \draw[very thick, green!60!black] (0,0) -- (0.766,0);
+ \node[green!60!black, below] at (0.383,0) {$\cos(\theta)$};
 
-  % Projection pour sin
-  \draw[thick, orange] (0,0) -- (0,0.643);
-  \node[orange, left] at (0,0.32) {$\sin(\theta)$};
+ % Projection pour sin
+ \draw[thick, orange] (0,0) -- (0,0.643);
+ \node[orange, left] at (0,0.32) {$\sin(\theta)$};
 
-  % Graduations
-  \node[below left] at (0,0) {$O$};
-  \node[below] at (1,0) {$1$};
-  \node[left] at (0,1) {$1$};
+ % Graduations
+ \node[below left] at (0,0) {$O$};
+ \node[below] at (1,0) {$1$};
+ \node[left] at (0,1) {$1$};
 \end{tikzpicture}
 \end{document}
 ```
@@ -154,10 +154,10 @@ $$ \cos(x) = \frac{e^{ix} + e^{-ix}}{2} $$
 
 #### Tableau de Variations
 
-| $x$ | $-\infty$ |  | $-\frac{3\pi}{2}$ |  | $-\pi$ |  | $-\frac{\pi}{2}$ |  | $0$ |  | $\frac{\pi}{2}$ |  | $\pi$ |  | $\frac{3\pi}{2}$ |  | $+\infty$ |
+| $x$ | $-\infty$ | | $-\frac{3\pi}{2}$ | | $-\pi$ | | $-\frac{\pi}{2}$ | | $0$ | | $\frac{\pi}{2}$ | | $\pi$ | | $\frac{3\pi}{2}$ | | $+\infty$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| $\cos'(x)$ |  | + |  | - |  | + |  | - |  | + |  | - |  | + |  | - |  |
-| $\cos(x)$ |  | 1 |  | 0 |  | -1 |  | 0 |  | 1 |  | 0 |  | -1 |  | 0 |  | 1 |
+| $\cos'(x)$ | | + | | - | | + | | - | | + | | - | | + | | - | |
+| $\cos(x)$ | | 1 | | 0 | | -1 | | 0 | | 1 | | 0 | | -1 | | 0 | | 1 |
 
 #### Points Remarquables
 

@@ -11,7 +11,6 @@ sticker: .
 
 ![cover|500](https://www.watchonista.com/sites/default/files/styles/0x60/public/watchographer/306/profile/logo.jpg)
 
-
 ## Historique
 
 Certina est une marque horlogère suisse fondée en 1888 par les frères Adolf et Alfred Kurth à Grenchen, en Suisse. Depuis plus de 130 ans, Certina est reconnue pour la fabrication de montres robustes, précises et fiables, souvent associées à des activités sportives et d'aventure.

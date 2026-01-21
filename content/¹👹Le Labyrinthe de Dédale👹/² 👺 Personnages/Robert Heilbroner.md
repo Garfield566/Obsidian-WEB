@@ -2,8 +2,8 @@
 url: "https://en.wikipedia.org/wiki/Robert_Heilbroner"
 title: "Robert Heilbroner - Wikipedia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: "2003-12-16T04:48:28+01:00"
 modified: "2025-04-04T14:22:21+02:00"
 created: "2025-04-17"
@@ -48,7 +48,6 @@ Heilbroner was born in 1919, in [New York City](https://en.wikipedia.org/wiki/Ne
 
 ## Career
 
-
 After World War II, Heilbroner worked briefly as a banker and entered into academia in the 1950s as a research fellow at the [New School for Social Research](https://en.wikipedia.org/wiki/New_School_for_Social_Research "New School for Social Research") in New York. During this period, he was highly influenced by the German economist [Adolph Lowe](https://en.wikipedia.org/wiki/Adolph_Lowe "Adolph Lowe"), who was a foremost representative of the German Historical School. In 1963, Heilbroner earned a [Ph.D.](https://en.wikipedia.org/wiki/Doctor_of_Philosophy "Doctor of Philosophy") in Economics from the [New School for Social Research](https://en.wikipedia.org/wiki/New_School_for_Social_Research "New School for Social Research"), where he was subsequently appointed [Norman Thomas](https://en.wikipedia.org/wiki/Norman_Thomas "Norman Thomas") Professor of Economics in 1971, and where he remained for more than twenty years. He mainly taught History of Economic Thought courses at the New School.
 
 Although a highly unconventional economist, who regarded himself as more of a social theorist and "worldly philosopher" (philosopher pre-occupied with "worldly" affairs, such as economic structures), and who tended to integrate the disciplines of history, economics and philosophy, Heilbroner was nevertheless recognized by his peers as a prominent economist. He was elected vice president of the [American Economic Association](https://en.wikipedia.org/wiki/American_Economic_Association "American Economic Association") in 1972.
@@ -60,7 +59,6 @@ Though an outspoken [socialist](https://en.wikipedia.org/wiki/Socialism "Sociali
 Less than 75 years after it officially began, the contest between capitalism and socialism is over: capitalism has won... Capitalism organizes the material affairs of humankind more satisfactorily than socialism.<sup id="cite_ref-reason.com_3-0" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-reason.com-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup>
 
 He further wrote in *[Dissent](https://en.wikipedia.org/wiki/Dissent_\(American_magazine\) "Dissent (American magazine)")* in 1992 that "capitalism has been as unmistakable a success as socialism has been a failure"<sup id="cite_ref-reason.com_3-1" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-reason.com-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> and complimented [Milton Friedman](https://en.wikipedia.org/wiki/Milton_Friedman "Milton Friedman"), [Friedrich Hayek](https://en.wikipedia.org/wiki/Friedrich_Hayek "Friedrich Hayek"), and [Ludwig von Mises](https://en.wikipedia.org/wiki/Ludwig_von_Mises "Ludwig von Mises") on their insistence of the free market's superiority.<sup id="cite_ref-4" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup> He emphasized that "democratic liberties have not yet appeared, except fleetingly, in any nation that has declared itself to be fundamentally anticapitalist."<sup id="cite_ref-reason.com_3-2" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-reason.com-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> However, Heilbroner's preferred capitalist model was the highly redistributionist [welfare states](https://en.wikipedia.org/wiki/Welfare_state "Welfare state") of [Scandinavia](https://en.wikipedia.org/wiki/Scandinavia "Scandinavia"); he stated that his model society was "a slightly idealized [Sweden](https://en.wikipedia.org/wiki/Sweden "Sweden")."<sup id="cite_ref-5" class="reference"><a href="https://en.wikipedia.org/wiki/#cite_note-5"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup>
-
 
 ## *The Worldly Philosophers*
 
@@ -79,7 +77,5 @@ Published in 1953, *The Worldly Philosophers: The Lives, Times and Ideas of the 
 9. The Heresies of [John Maynard Keynes](https://en.wikipedia.org/wiki/John_Maynard_Keynes "John Maynard Keynes")
 10. The Contradictions of [Joseph Schumpeter](https://en.wikipedia.org/wiki/Joseph_Schumpeter "Joseph Schumpeter")
 11. The End of the Worldly Philosophy?
-
-
 
 #economy #Robert-Heilbroner #The_Worldly_Philosophers #americain #XX #The_Wonderful_World #The_Gloomy_Presentiments #The_Dreams #The_Inexorable_System #The_Victorian_World #The_Savage_Society #The_Heresies #The_Contradictions #Adam-Smith #Thomas-Malthus #David-Ricardo #Robert-Owen #Henri-Saint_Simon #Charles-Fourier #John_Stuart-Mill #Karl-Marx #Francis_Ysidro-Edgeworth #Frederic-Bastiat #Henry-George #John_A-Hobson #Alfred-Marshall #Thorstein-Veblen #John_Maynard-Keynes #Joseph-Schumpeter

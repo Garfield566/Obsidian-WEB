@@ -17,29 +17,29 @@ Intuitivement, la dérivée mesure la pente de la tangente à la courbe représe
 > ```tikz
 > \begin{document}
 > \begin{tikzpicture}[scale=1.5]
->   % Axes
->   \draw[->] (-1,0) -- (4,0) node[right] {$x$};
->   \draw[->] (0,-1) -- (0,3) node[above] {$y$};
+> % Axes
+> \draw[->] (-1,0) -- (4,0) node[right] {$x$};
+> \draw[->] (0,-1) -- (0,3) node[above] {$y$};
 >
->   % Courbe
->   \draw[color=blue, domain=0.5:3.5, smooth, variable=\x] plot ({\x}, {0.5*\x*\x});
+> % Courbe
+> \draw[color=blue, domain=0.5:3.5, smooth, variable=\x] plot ({\x}, {0.5*\x*\x});
 >
->   % Point a
->   \filldraw (1,0.5) circle (1.5pt) node[below] {$a$};
->   \filldraw (1,0.5) circle (1.5pt);
->   \draw[dashed] (1,0) -- (1,0.5);
+> % Point a
+> \filldraw (1,0.5) circle (1.5pt) node[below] {$a$};
+> \filldraw (1,0.5) circle (1.5pt);
+> \draw[dashed] (1,0) -- (1,0.5);
 >
->   % Point a+h
->   \filldraw (2,2) circle (1.5pt) node[below] {$a+h$};
->   \filldraw (2,2) circle (1.5pt);
->   \draw[dashed] (2,0) -- (2,2);
+> % Point a+h
+> \filldraw (2,2) circle (1.5pt) node[below] {$a+h$};
+> \filldraw (2,2) circle (1.5pt);
+> \draw[dashed] (2,0) -- (2,2);
 >
->   % Tangente
->   \draw[red, thick] (1,0.5) -- (3,4);
+> % Tangente
+> \draw[red, thick] (1,0.5) -- (3,4);
 >
->   % Taux d'accroissement
->   \draw[<->] (1.1,0.5) -- (1.9,2) node[midway, right] {$\Delta y$};
->   \draw[<->] (1,0) -- (2,0) node[midway, below] {$\Delta x = h$};
+> % Taux d'accroissement
+> \draw[<->] (1.1,0.5) -- (1.9,2) node[midway, right] {$\Delta y$};
+> \draw[<->] (1,0) -- (2,0) node[midway, below] {$\Delta x = h$};
 > \end{tikzpicture}
 > \end{document}
 > ```
@@ -51,25 +51,25 @@ Intuitivement, la dérivée mesure la pente de la tangente à la courbe représe
 > ```tikz
 > \begin{document}
 > \begin{tikzpicture}[scale=1.5]
->   % Axes
->   \draw[->] (-1,0) -- (4,0) node[right] {$x$};
->   \draw[->] (0,-1) -- (0,3) node[above] {$y$};
+> % Axes
+> \draw[->] (-1,0) -- (4,0) node[right] {$x$};
+> \draw[->] (0,-1) -- (0,3) node[above] {$y$};
 >
->   % Courbe
->   \draw[color=blue, domain=0.5:3.5, smooth, variable=\x] plot ({\x}, {0.5*\x*\x});
+> % Courbe
+> \draw[color=blue, domain=0.5:3.5, smooth, variable=\x] plot ({\x}, {0.5*\x*\x});
 >
->   % Point de tangence
->   \filldraw (1,0.5) circle (1.5pt) node[below] {$a$};
->   \filldraw (1,0.5) circle (1.5pt);
+> % Point de tangence
+> \filldraw (1,0.5) circle (1.5pt) node[below] {$a$};
+> \filldraw (1,0.5) circle (1.5pt);
 >
->   % Tangente
->   \draw[red, thick] (1,0.5) -- (3,4);
->   \node[red, above] at (2,2.25) {$f'(a) = \text{pente}$};
+> % Tangente
+> \draw[red, thick] (1,0.5) -- (3,4);
+> \node[red, above] at (2,2.25) {$f'(a) = \text{pente}$};
 >
->   % Angle
->   \draw[->] (1,0.5) -- (1.5,1.25);
->   \draw[->] (1,0.5) -- (1.5,0.5);
->   \node at (1.3,0.7) {$\theta$};
+> % Angle
+> \draw[->] (1,0.5) -- (1.5,1.25);
+> \draw[->] (1,0.5) -- (1.5,0.5);
+> \node at (1.3,0.7) {$\theta$};
 > \end{tikzpicture}
 > \end{document}
 > ```

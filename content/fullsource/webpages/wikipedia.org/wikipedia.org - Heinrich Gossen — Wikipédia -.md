@@ -11,8 +11,8 @@ Youtube_ID: "[]"
 Youtube_Duration:
 speakers:
 tags:
-  - "youtube"
-  - "inbox"
+ - "youtube"
+ - "inbox"
 ---
 
 # Heinrich Gossen — Wikipédia

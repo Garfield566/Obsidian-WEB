@@ -9,9 +9,7 @@ Pays d'Origine: Suisse
 sticker: .
 ---
 
-
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwSF78R97kTNsTvFVyTQHTuag1_HjfDrGwhg&s)
-
 
 ## Historique
 
@@ -38,7 +36,7 @@ Patek Philippe se positionne dans le segment haut de gamme de l'horlogerie de lu
 Les prix des montres Patek Philippe varient considérablement en fonction des modèles et des complications :
 
 - **Nouveaux modèles** : Les prix des montres Patek Philippe neuves commencent généralement autour de 15 000 euros pour les modèles de base, et peuvent atteindre plusieurs millions d'euros pour les montres hautement complexes et uniques.
-  
+ 
 - **Occasion et vintage** : Les montres Patek Philippe d'occasion sont très prisées sur le marché et peuvent être trouvées à partir de 10 000 euros pour les modèles plus anciens ou moins complexes. Les modèles vintage et les éditions limitées en bon état peuvent se vendre à des prix bien plus élevés, souvent déterminés par la rareté et l'état de conservation.
 
 ## Liens

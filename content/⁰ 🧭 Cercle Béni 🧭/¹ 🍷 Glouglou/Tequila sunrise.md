@@ -4,8 +4,8 @@ Ingrédients principaux: Tequila
 durée préparations: 4 min
 cover: https://cocktailcorner.fr/wp-content/uploads/2021/03/Tequila-Sunrise.jpg
 tags:
-  - cocktail
-  - Tequila
+ - cocktail
+ - Tequila
 Ingrédients: 🔸🔵 6 cl de Tequila
 Ingrédients-1: 🔸🔵 33 cl de jus d'orange
 Ingrédients-2: 🔸🔵 2 cl de sirop de grenadine
@@ -15,8 +15,6 @@ Ingrédients-4: 🔸🔵
 ## 🍹Tequila sunrise
 
 ![cover|300](https://resize.elle.fr/portrait_320_webp/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/tequilla-sunrise-2070424/21780342-6-fre-FR/Cocktail-Tequila-sunrise.jpg)
-
-
 
 ## 🥄 **Ingrédients**
 

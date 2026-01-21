@@ -1,21 +1,20 @@
 ---
 excalidraw-plugin: raw
 tags:
-  - "excalidraw"
-  - "maths"
-cour: "math"
+ - "excalidraw"
+ - s"
+cour: 
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Excalidraw Data
 
 ## Text Elements
 F( a+h) - F(a)
 ---------------
-  ( a+h) - a ^79KUZsQx
+ ( a+h) - a ^79KUZsQx
 
-=  ^wnw3iTB4
+= ^wnw3iTB4
 
 Tangente ^191eGwoC
 

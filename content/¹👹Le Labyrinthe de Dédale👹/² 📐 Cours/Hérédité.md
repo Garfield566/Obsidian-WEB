@@ -1,12 +1,11 @@
 ---
 excalidraw-plugin: raw
 tags:
-  - "excalidraw"
+ - "excalidraw"
 image: "https://i.etsystatic.com/9874746/r/il/4f466f/3566381019/il_fullxfull.3566381019_7mft.jpg"
-cour: "math"
+cour: 
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Excalidraw Data
 
@@ -75,7 +74,7 @@ Multiplier et soustraire : ^Z8pFZdwm
 
 4k⋅(2k+3)= 8k² +12k ^zs3UhVuA
 
-(8k²+14k+3) - (8k² +12k) = 2k+3  ^DdEJoyOo
+(8k²+14k+3) - (8k² +12k) = 2k+3 ^DdEJoyOo
 
 Diviser le premier terme du nouveau reste par le premier terme du diviseur : ^AHaDVW4X
 

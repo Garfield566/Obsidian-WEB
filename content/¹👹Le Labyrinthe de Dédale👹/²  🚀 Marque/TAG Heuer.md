@@ -11,7 +11,6 @@ sticker: .
 
 ![cover|500](https://logowik.com/content/uploads/images/tag-heuer-with-wordmark1869.logowik.com.webp)
 
-
 ## Historique
 
 TAG Heuer est une marque horlogère suisse fondée en 1860 par Édouard Heuer à Saint-Imier, en Suisse. La marque s'est distinguée par son innovation constante dans le domaine de la chronométrie et son engagement envers le sport automobile.

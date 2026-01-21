@@ -11,7 +11,6 @@ cover: https://www.watchonista.com/sites/default/files/watchographer/290/profile
 
 ![cover|500](https://www.watchonista.com/sites/default/files/watchographer/290/profile/2000px-cartier_logo.svg_.jpg)
 
-
 ## Historique
 
 Cartier a été fondée en 1847 par Louis-François Cartier à Paris, en France. La maison Cartier est rapidement devenue célèbre pour ses créations élégantes et luxueuses, attirant une clientèle prestigieuse comprenant des familles royales et des personnalités influentes. En 1904, Louis Cartier, petit-fils du fondateur, a révolutionné l'industrie horlogère en créant la première montre-bracelet moderne, la Santos, pour l'aviateur Alberto Santos-Dumont. Cette innovation a marqué le début de l'ère moderne des montres-bracelets.

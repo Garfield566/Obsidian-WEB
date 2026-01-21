@@ -4,8 +4,8 @@ title:
 author: 
 description: 
 tags:
-  - clippings
-  - medium
+ - clippings
+ - medium
 published: 
 created: 2025-04-17T12:46:58+02:00
 cover: https://www.hervecuisine.com/wp-content/uploads/2020/04/DSC02520-351x185.jpg.webp
@@ -23,8 +23,6 @@ cover: https://www.hervecuisine.com/wp-content/uploads/2020/04/DSC02520-351x185.
 > | sel | 1 cc|
 > | eau | 200-250 ml |
 > | huile |
-
-
 
 ## Etapes de la recette
 

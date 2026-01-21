@@ -5,13 +5,12 @@ Ingrédients:
 durée préparations: 
 cover: https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/nate-2070438/21780832-2-fre-FR/Cocktail-Nate.jpg
 tags:
-  - cocktail
-  - Tequila
+ - cocktail
+ - Tequila
 ---
 ## 🍹 Nate à la tequila
 
 ![cover|350](https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/nate-2070438/21780832-2-fre-FR/Cocktail-Nate.jpg)
-
 
 ## 🥄 **Ingrédients**
 

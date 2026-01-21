@@ -17,8 +17,7 @@ notes_supplémentaires: Remarques ou informations supplémentaires
 
 ![cover|500](https://picwish.com/wp-content/uploads/2023/04/ia-tool-1.jpg)
 
-←[[⁰   --------------🏡Home🏡 --------------/🏡Home🏡|🏡Home🏡]]
-
+←[[⁰ --------------🏡Home🏡 --------------/🏡Home🏡|🏡Home🏡]]
 
 ## L'IA description 
 

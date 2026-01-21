@@ -11,29 +11,29 @@ note-visuel: ✨✨✨✨✨
 note-audio: ✨✨✨✨✨
 note-scénario: ✨✨✨✨✨
 tags:
-  - anime
-  - Miyazaki
-  - Aviation
-  - uerre-mondiale
-  - Drame
-  - Joe-Hisaishi
-  - The_Wind_Rises
-  - Elegy_for_the_Wind
-  - The_Sky_of_Hokkaido
-  - The_Wind_and_the_Flowers
-  - Naokos_Theme
-  - Jiros_Dream
-  - The_Morning_Fog
-  - The_Airplane
-  - A_Dream_of_the_Sky
-  - The_Sky_the_Earth_and_the_Wind
-  - The_Road_to_the_Wind
-  - The_Wind_and_the_Birds
-  - An_Empty_House
-  - ghibli
-  - Naokos_Song
-  - A_Farewell
-  - audiovisuel
+ - anime
+ - Miyazaki
+ - Aviation
+ - uerre-mondiale
+ - Drame
+ - Joe-Hisaishi
+ - The_Wind_Rises
+ - Elegy_for_the_Wind
+ - The_Sky_of_Hokkaido
+ - The_Wind_and_the_Flowers
+ - Naokos_Theme
+ - Jiros_Dream
+ - The_Morning_Fog
+ - The_Airplane
+ - A_Dream_of_the_Sky
+ - The_Sky_the_Earth_and_the_Wind
+ - The_Road_to_the_Wind
+ - The_Wind_and_the_Birds
+ - An_Empty_House
+ - ghibli
+ - Naokos_Song
+ - A_Farewell
+ - audiovisuel
 vue: true
 animation.: ghibli
 ---
@@ -68,13 +68,13 @@ animation.: ghibli
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Studio-Ghibli</li></ul> |
 > | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Biographical-Drama</li><li>#Aircraft-Design</li><li>#Miyazaki-Farewell</li></ul> |
 
-##  **📖 Synopsis** :
+## **📖 Synopsis** :
 
 _Le Vent se lève_ raconte l’histoire de **Jiro Horikoshi**, un ingénieur aéronautique, et de son rêve de concevoir des avions de combat pendant l’ère turbulente des années 1930 et 1940. Inspiré par les designs d’avions célèbres, Jiro lutte contre la réalité de la guerre tout en cherchant à réaliser sa passion pour l’aviation. Le film explore son parcours à travers ses créations, ses sacrifices, et la guerre qui éclate au Japon, tout en mettant en lumière sa relation avec **Naoko**, une jeune femme malade, et leur amour fragile.
 
 Miyazaki plonge dans la dualité du rêve et de la réalité, en interrogeant le prix à payer pour l’aspiration à la beauté et à l’innovation, alors que la guerre met en péril l’humanité et la paix. Le film est une réflexion sur la beauté et l'horreur de la guerre, ainsi qu'une exploration de l’esprit humain face aux défis monumentaux de l’histoire.
 
-##  *🎷Soundtrack*
+## *🎷Soundtrack*
 
 #### **Tracklist** (Bande-son du film)
 
@@ -100,39 +100,38 @@ https://youtu.be/Inyrh-HWjUA
 ### Note
 ##### **Critères Audio**
 
-| **Critère**                                      | **Description**                                                                                                                      | **Points de l'** |
+| **Critère** | **Description** | **Points de l'** |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| **Bande-son original (40 points)**               |                                                                                                                                      |                  |
-|                                                  | _Qualité des compositions_ (20 points )                                                                                              |                  |
-|                                                  | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier.                                     | 0/10             |
-|                                                  | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ?                                | 0/5              |
-|                                                  | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ?            | 0/5              |
-|                                                  | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés.                            | 0/20             |
-| **Conception sonore (30 points)**                |                                                                                                                                      |                  |
-|                                                  | _Ambiance et immersion_ (15 points) :                                                                                                | 0/15             |
-|                                                  | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre.           | 0/15             |
-|                                                  | _Cohérence avec l'univers_ (15 points):                                                                                              | 0/15             |
-|                                                  | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15             |
-| **Doublage/vocale d'interprétation (30 points)** |                                                                                                                                      |                  |
-|                                                  | _Qualité des voix_ (15 points) :                                                                                                     | 0/15             |
-|                                                  | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15             |
-|                                                  | Mélangé des                                                                                                                          | 0/15             |
-|                                                  | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ?                        | 0/15             |
+| **Bande-son original (40 points)** | | |
+| | _Qualité des compositions_ (20 points ) | |
+| | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier. | 0/10 |
+| | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ? | 0/5 |
+| | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ? | 0/5 |
+| | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés. | 0/20 |
+| **Conception sonore (30 points)** | | |
+| | _Ambiance et immersion_ (15 points) : | 0/15 |
+| | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre. | 0/15 |
+| | _Cohérence avec l'univers_ (15 points): | 0/15 |
+| | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15 |
+| **Doublage/vocale d'interprétation (30 points)** | | |
+| | _Qualité des voix_ (15 points) : | 0/15 |
+| | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15 |
+| | Mélangé des | 0/15 |
+| | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ? | 0/15 |
 
 -------
 ##### **Critères Visuel**
 
-| **Critère**                                | **Description**                                                                                                                                  | **Points** |
+| **Critère** | **Description** | **Points** |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| Animation/Graphisme   (50 points)          |                                                                                                                                                  |            |
-|                                            | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style.                               | 0/20       |
-|                                            | _Détails et textures_ : richesse des décors, soin des personnages et objets.                                                                     | 0/15       |
-|                                            | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ?                                                               | 0/15       |
-| Direction artistique           (50 points) |                                                                                                                                                  |            |
-|                                            | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels.                  | 0/20       |
-|                                            | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes.                                                 | 0/15       |
-|                                            | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15       |
-
+| Animation/Graphisme (50 points) | | |
+| | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style. | 0/20 |
+| | _Détails et textures_ : richesse des décors, soin des personnages et objets. | 0/15 |
+| | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ? | 0/15 |
+| Direction artistique (50 points) | | |
+| | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels. | 0/20 |
+| | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes. | 0/15 |
+| | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15 |
 
 ---
 

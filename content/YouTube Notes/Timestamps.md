@@ -16,7 +16,7 @@ URL: https://www.youtube.com/watch?v=i2-WWbYJn_w
 > [!note]+ Description
 > Kanban est une méthode de gestion de projet agile comme la méthode Scrum. Dans cette vidéo, vous serez tout sur la méthode Kanban en quelques minutes.
 -----
-- D'autres outils,  modèles et techniques dans la boîte à outils marketing ici : https://bit.ly/3yNec7C (code promo : BAOL)
+- D'autres outils, modèles et techniques dans la boîte à outils marketing ici : https://bit.ly/3yNec7C (code promo : BAOL)
 -----
 - Pour aller plus loin en marketing : https://bit.ly/3Ly5hth 
 -----

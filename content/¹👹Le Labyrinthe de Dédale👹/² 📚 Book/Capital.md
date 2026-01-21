@@ -1,13 +1,11 @@
 
 # **5 Le rapport capital/ revenu dans le long terme**
 
-Il commence le chapitre en nous rappelant ce qu'on a pu conclure des chapitres précédents ( que le capital terrien a été progressivement remplacé par le capital immobilier, industriel et financier. /// & Que la valeur totale du stock de capital, mesurée en annés de revenu national - rapport qui mesure l'importance globale du capital dans l'économie et la société ne semble pas avoir sur le très longue périod. Au Royaume-Uni comme en France. Le capital national représente environ cinq-six années de revenu national au début des années 2010, soit un niveau à peine inférieur àXVIII et XIX jusqu' a la première guerre mondiale. Puis la forte progression du rapport capital/ revenu depuis les années 50s) De cela il se posse la question de es-ce que le capital/ revenu va retrouver ou dépasser au cours du XXI ses niveau d'avant 1er G ?.  
+Il commence le chapitre en nous rappelant ce qu'on a pu conclure des chapitres précédents ( que le capital terrien a été progressivement remplacé par le capital immobilier, industriel et financier. /// & Que la valeur totale du stock de capital, mesurée en annés de revenu national - rapport qui mesure l'importance globale du capital dans l'économie et la société ne semble pas avoir sur le très longue périod. Au Royaume-Uni comme en France. Le capital national représente environ cinq-six années de revenu national au début des années 2010, soit un niveau à peine inférieur àXVIII et XIX jusqu' a la première guerre mondiale. Puis la forte progression du rapport capital/ revenu depuis les années 50s) De cela il se posse la question de es-ce que le capital/ revenu va retrouver ou dépasser au cours du XXI ses niveau d'avant 1er G ?. 
 ## 2ème
 La comparaison entre UE/USA particulièrement entre 1914-1945, UE bien plus touché d'ou un rapport capital/revenu plus faible en UE pendant 1920-1980. Mais en enlevant c'est période le rapport capital/revenu penche plus ver l'UE d'ordre dix-sept UE contre quatre-cinq USA, qui on été dépassé au début des années 1990, il avoisinent les six années de revenu 2010, contre à peine quatre années for USA
 
-
-
-R  
+R 
 
 - [B/L](https://misterprepa.net/classe-preparatoire/support-de-cours/prepa-b-l/), [ESH](https://misterprepa.net/classe-preparatoire/support-de-cours/esh-prepa/)
 
@@ -52,11 +50,7 @@ On retrouve β, le **rapport capital/revenu.** La lettre s désigne le **taux
 
 Cette loi traduit une réalité importante : **un pays qui épargne beaucoup et qui croît lentement** **accumule dans le long terme un stock de capital**. Il s’agit d’une loi asymptotique, valable uniquement pour les formes de capital cumulables par l’homme. Il faut aussi que prix des actifs évoluent de la même façon que les prix à la consommation. Par conséquent, cette loi n’explique pas les chocs de court terme subis par le rapport capital/revenu. Elle permet toutefois de comprendre vers quel niveau d’équilibre potentiel le rapport capital/revenu tend à se diriger dans le long terme. Ainsi, **une** **hausse de β signifie surtout que les détenteurs du capital contrôlent une part plus importante des richesses et que les revenus issus des patrimoines accumulés dans le passé progressent plus vite que les revenus issus de la participation à la production d’aujourd’hui**. L’augmentation du rapport du capital au revenu entraîne alors une augmentation de la part du revenu du capital dans le revenu total (pourvu que le taux de rendement du capital ne diminue pas trop suite à la hausse du rapport du capital au revenu).
 
-
-**Histoire : bulle la plus spéculative  de la période 1970-2010 est : Japon 1990, les valeurs des patrimoines privé passant d'à peine  4 année de Revenu  nationale a sept années. Pour par la suite chuter puis se stabiliser** graf 5.3
-
-
-
+**Histoire : bulle la plus spéculative de la période 1970-2010 est : Japon 1990, les valeurs des patrimoines privé passant d'à peine 4 année de Revenu nationale a sept années. Pour par la suite chuter puis se stabiliser** graf 5.3
 
 - Années 1970 : Début de la formation de multiples bulles immobilières et boursières dans les pays riches.
 

@@ -9,7 +9,6 @@ sticker: emoji//1f47a
 amme de prix: 100-10k
 ---
 
-
 ![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20240614205442.png]]
 
 ## Historique

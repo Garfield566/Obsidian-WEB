@@ -65,39 +65,38 @@ Résumé de l'histoire sans spoiler
 ### Note
 ##### **Critères Audio**
 
-| **Critère**                                      | **Description**                                                                                                                      | **Points de l'** |
+| **Critère** | **Description** | **Points de l'** |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| **Bande-son original (40 points)**               |                                                                                                                                      |                  |
-|                                                  | _Qualité des compositions_ (20 points )                                                                                              |                  |
-|                                                  | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier.                                     | 0/10             |
-|                                                  | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ?                                | 0/5              |
-|                                                  | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ?            | 0/5              |
-|                                                  | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés.                            | 0/20             |
-| **Conception sonore (30 points)**                |                                                                                                                                      |                  |
-|                                                  | _Ambiance et immersion_ (15 points) :                                                                                                | 0/15             |
-|                                                  | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre.           | 0/15             |
-|                                                  | _Cohérence avec l'univers_ (15 points):                                                                                              | 0/15             |
-|                                                  | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15             |
-| **Doublage/vocale d'interprétation (30 points)** |                                                                                                                                      |                  |
-|                                                  | _Qualité des voix_ (15 points) :                                                                                                     | 0/15             |
-|                                                  | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15             |
-|                                                  | Mélangé des                                                                                                                          | 0/15             |
-|                                                  | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ?                        | 0/15             |
+| **Bande-son original (40 points)** | | |
+| | _Qualité des compositions_ (20 points ) | |
+| | **Richesse mélodique** : Variété et complexité des morceaux, et leur capacité à se différencier. | 0/10 |
+| | **Adéquation au ton de l’œuvre** : La musique soutient-elle les émotions et l'atmosphère de l'œuvre ? | 0/5 |
+| | **Originalité et créativité** : La bande sonore a-t-elle une identité propre ? Casse-t-elle les conventions habituelles ? | 0/5 |
+| | _Impact émotionnel_ : capacité de la musique à transmettre ou amplificateur les émotions et moments clés. | 0/20 |
+| **Conception sonore (30 points)** | | |
+| | _Ambiance et immersion_ (15 points) : | 0/15 |
+| | **Contribution à l’immersion** : Effets sonores et ambiance auditive qui renforcent l’immersion dans l’univers de l’œuvre. | 0/15 |
+| | _Cohérence avec l'univers_ (15 points): | 0/15 |
+| | **Enrichissement de l'univers** : Les bruitages et les sons d'ambiance sont-ils cohérents avec le genre et l’atmosphère de l'œuvre ? | 0/15 |
+| **Doublage/vocale d'interprétation (30 points)** | | |
+| | _Qualité des voix_ (15 points) : | 0/15 |
+| | **Adéquation et émotion** : Les sont-elles en phase avec la personnalité des des des personnages ? Sont-elles justes et émouvantes ? | 0/15 |
+| | Mélangé des | 0/15 |
+| | **Clarté et équilibre** : Les dialogues sont-ils clairs et bien mixés avec les effets sonores et la musique ? | 0/15 |
 
 -------
 ##### **Critères Visuel**
 
-| **Critère**                                | **Description**                                                                                                                                  | **Points** |
+| **Critère** | **Description** | **Points** |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| Animation/Graphisme   (50 points)          |                                                                                                                                                  |            |
-|                                            | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style.                               | 0/20       |
-|                                            | _Détails et textures_ : richesse des décors, soin des personnages et objets.                                                                     | 0/15       |
-|                                            | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ?                                                               | 0/15       |
-| Direction artistique           (50 points) |                                                                                                                                                  |            |
-|                                            | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels.                  | 0/20       |
-|                                            | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes.                                                 | 0/15       |
-|                                            | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15       |
-
+| Animation/Graphisme (50 points) | | |
+| | _Technique de qualité globale_ : inclut la fluidité uniquement si pertinente, sinon la cohérence interne au style. | 0/20 |
+| | _Détails et textures_ : richesse des décors, soin des personnages et objets. | 0/15 |
+| | _Adéquation au genre et univers_: le style visuel sert-il le thème et l’histoire ? | 0/15 |
+| Direction artistique (50 points) | | |
+| | _Originalité, créativité & signature visuelle_ : innovation dans le design des personnages, environnements ou concepts visuels. | 0/20 |
+| | _Utilisation des couleurs_ : harmonie, palettes, symbolisme ou audace dans le choix des teintes. | 0/15 |
+| | _Utilisation des formes et géométries_ : exploitation des lignes, structures, perspectives ou designs innovants pour renforcer l’univers visuel. | 0/15 |
 
 ---
 
@@ -127,6 +126,5 @@ Résumé de l'histoire sans spoiler
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
 ###### Tags
-
 
 #Film-Série #Genre 

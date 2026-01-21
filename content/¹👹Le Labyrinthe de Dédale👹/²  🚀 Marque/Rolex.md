@@ -9,9 +9,7 @@ Pays d'Origine: Suisse
 sticker: .
 ---
 
-
 ![cover|500](https://www.thewatchcompany.com/media/tm_blog/p/o/7/6485/post_7_6485.jpg)
-
 
 ## Historique
 

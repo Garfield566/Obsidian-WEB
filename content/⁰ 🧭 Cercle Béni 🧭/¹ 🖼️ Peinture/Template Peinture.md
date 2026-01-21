@@ -46,4 +46,4 @@ banner:
 
 **Émotions :** Sentiments et émotions provoqués par l'œuvre
 
-#Peinture #Courant-Artistique #Artiste #Musée
+#peinture #Courant-Artistique #Artiste #Musée

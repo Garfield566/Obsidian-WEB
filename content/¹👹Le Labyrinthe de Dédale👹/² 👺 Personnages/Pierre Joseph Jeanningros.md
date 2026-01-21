@@ -2,8 +2,8 @@
 url: https://fr.wikipedia.org/wiki/Pierre_Joseph_Jeanningros
 title: Pierre Joseph Jeanningros — Wikipédia
 tags:
-  - clippings
-  - wikipedia
+ - clippings
+ - wikipedia
 published: 2006-03-31T11:14:46+02:00
 modified: 2024-11-01T23:36:03+01:00
 created: 2025-04-16
@@ -134,4 +134,4 @@ Une statue du général fut inaugurée le 15 août 1909 à Besançon, sa ville 
 ![](https://auth.wikimedia.org/loginwiki/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1)
 #XIX 
 
-#France #Mexique #personnage  #Sébastopol #Magenta  #Solferino #Légion-étrangère #Italian-Campaign #Crimean-War  #Jeanningros #Battle_of_Camerone #Siege_of_Puebla #Franco-Prussian_War #Legion_dHonneur
+#France #Mexique #personnage #Sébastopol #Magenta #Solferino #Légion-étrangère #Italian-Campaign #Crimean-War #Jeanningros #Battle_of_Camerone #Siege_of_Puebla #Franco-Prussian_War #Legion_dHonneur
