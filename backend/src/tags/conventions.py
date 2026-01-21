@@ -7,6 +7,8 @@ Conventions supportées:
 - Aires culturelles: préfixe `aire\` (ex: aire\monde-hellénistique)
 - Dates/Siècles: chiffres romains + `\` (ex: XIX, XIX\1789, XIX\1789\14-juillet)
 - Concepts avec auteur: concept\auteur (ex: anomie\durkheim, volonté-de-puissance\nietzsche)
+- Disciplines académiques: discipline\sous-domaine (ex: mathématiques\analyse, physique\mécanique)
+- Œuvres d'art: mouvement\auteur\titre (ex: impressionnisme\monet\impression-soleil-levant)
 - Catégories génériques: séparateur `\` (ex: Physique\Quantique)
 """
 
@@ -24,6 +26,8 @@ class TagFamily(Enum):
     AREA = "area"               # Aires culturelles (aire\...)
     DATE = "date"               # Dates et siècles (chiffres romains)
     CONCEPT_AUTHOR = "concept_author"  # Concepts avec auteur (anomie\durkheim)
+    DISCIPLINE = "discipline"   # Disciplines académiques (mathématiques\analyse)
+    ARTWORK = "artwork"         # Œuvres d'art (mouvement\auteur\titre)
     CATEGORY = "category"       # Catégories génériques (Xxx\Yyy)
     GENERIC = "generic"         # Tags génériques sans convention spécifique
 
@@ -62,6 +66,39 @@ KNOWN_AUTHORS = {
     "montesquieu", "tocqueville", "arendt", "habermas", "rawls", "popper",
     "kuhn", "lakatos", "feyerabend", "wittgenstein", "russell", "frege",
     "carnap", "quine", "putnam", "kripke", "searle", "dennett", "chalmers",
+}
+
+# Disciplines académiques connues (racines autonomes, sans hiérarchie entre elles)
+KNOWN_DISCIPLINES = {
+    "mathématiques", "mathematiques", "physique", "chimie", "biologie",
+    "philosophie", "histoire", "géographie", "geographie", "sociologie",
+    "psychologie", "anthropologie", "économie", "economie", "linguistique",
+    "littérature", "litterature", "musicologie", "informatique", "médecine",
+    "medecine", "droit", "théologie", "theologie", "archéologie", "archeologie",
+    "astronomie", "géologie", "geologie", "écologie", "ecologie", "botanique",
+    "zoologie", "génétique", "genetique", "neurologie", "épistémologie",
+    "epistemologie", "logique", "rhétorique", "rhetorique", "esthétique",
+    "esthetique", "éthique", "ethique", "métaphysique", "metaphysique",
+    "politique", "statistiques", "probabilités", "probabilites",
+}
+
+# Mouvements artistiques connus (pour détection œuvres d'art)
+KNOWN_ART_MOVEMENTS = {
+    # Peinture / Arts visuels
+    "impressionnisme", "post-impressionnisme", "expressionnisme", "cubisme",
+    "fauvisme", "surréalisme", "surrealisme", "dadaïsme", "dadaisme",
+    "baroque", "rococo", "renaissance", "maniérisme", "manierisme",
+    "romantisme", "réalisme", "realisme", "naturalisme", "symbolisme",
+    "art-nouveau", "art-déco", "art-deco", "futurisme", "constructivisme",
+    "minimalisme", "pop-art", "hyperréalisme", "hyperrealisme",
+    "néoclassicisme", "neoclassicisme", "gothique", "abstrait",
+    # Musique
+    "classique", "romantique", "modernisme", "sérialisme", "serialisme",
+    "jazz", "blues", "rock", "punk", "hip-hop",
+    # Littérature
+    "parnasse", "nouveau-roman", "existentialisme", "absurde",
+    # Architecture
+    "brutalisme", "fonctionnalisme", "déconstructivisme", "deconstructivisme",
 }
 
 
@@ -115,6 +152,26 @@ def classify_tag(tag: str) -> TagInfo:
             family=TagFamily.CONCEPT_AUTHOR,
             prefix=parts[0],  # Le concept
             hierarchy=[parts[1]],  # L'auteur
+            normalized=_normalize_for_comparison(tag),
+        )
+
+    # Vérifie si c'est une discipline académique (ex: mathématiques\analyse)
+    if len(parts) >= 1 and _is_discipline(parts[0]):
+        return TagInfo(
+            raw=tag,
+            family=TagFamily.DISCIPLINE,
+            prefix=parts[0],  # La discipline
+            hierarchy=parts[1:] if len(parts) > 1 else [],
+            normalized=_normalize_for_comparison(tag),
+        )
+
+    # Vérifie si c'est une œuvre d'art (ex: impressionnisme\monet\impression-soleil-levant)
+    if len(parts) >= 2 and _is_artwork(parts):
+        return TagInfo(
+            raw=tag,
+            family=TagFamily.ARTWORK,
+            prefix=parts[0],  # Le mouvement
+            hierarchy=parts[1:],  # auteur et/ou titre
             normalized=_normalize_for_comparison(tag),
         )
 
@@ -206,6 +263,33 @@ def _is_concept_author(concept: str, author: str) -> bool:
     return False
 
 
+def _is_discipline(first_part: str) -> bool:
+    """Détecte si la première partie est une discipline académique connue.
+
+    Ex: mathématiques, physique, sociologie, etc.
+    """
+    return first_part.lower() in KNOWN_DISCIPLINES
+
+
+def _is_artwork(parts: list[str]) -> bool:
+    """Détecte si un tag est une œuvre d'art (mouvement\auteur\titre).
+
+    Convention: mouvement\auteur\titre
+    Ex: impressionnisme\monet\impression-soleil-levant
+        baroque\caravage\vocation-de-saint-matthieu
+
+    Critères:
+    - Le premier élément est un mouvement artistique connu
+    - 2-3 parties (mouvement\auteur ou mouvement\auteur\titre ou mouvement\titre)
+    """
+    if len(parts) < 2 or len(parts) > 3:
+        return False
+
+    # Le premier élément doit être un mouvement artistique connu
+    movement = parts[0].lower()
+    return movement in KNOWN_ART_MOVEMENTS
+
+
 def _normalize_for_comparison(tag: str) -> str:
     """Normalise un tag pour la comparaison (détection doublons syntaxiques)."""
     # Lowercase
@@ -269,6 +353,24 @@ def can_compare_semantically(tag1: str, tag2: str) -> bool:
         concept1_norm = concept1.replace("-", "")
         concept2_norm = concept2.replace("-", "")
         return concept1_norm == concept2_norm
+
+    if family == TagFamily.DISCIPLINE:
+        # Pour les disciplines, on peut comparer sémantiquement
+        # si c'est la même discipline (même avec sous-domaines différents)
+        # Ex: mathématiques\analyse vs mathématiques\algèbre = comparables
+        # Ex: mathématiques\analyse vs physique\mécanique = non comparables
+        disc1 = info1.prefix.lower() if info1.prefix else ""
+        disc2 = info2.prefix.lower() if info2.prefix else ""
+        return disc1 == disc2
+
+    if family == TagFamily.ARTWORK:
+        # Pour les œuvres d'art, on peut comparer sémantiquement
+        # si c'est le même mouvement artistique
+        # Ex: impressionnisme\monet\x vs impressionnisme\renoir\y = comparables
+        # Ex: impressionnisme\monet\x vs baroque\caravage\y = non comparables
+        mvt1 = info1.prefix.lower() if info1.prefix else ""
+        mvt2 = info2.prefix.lower() if info2.prefix else ""
+        return mvt1 == mvt2
 
     if family == TagFamily.CATEGORY:
         # Pour les catégories, on peut comparer sémantiquement
@@ -336,6 +438,25 @@ def suggest_tag_format(concept: str, family: TagFamily, context: dict = None) ->
             return f"{concept_formatted}\\{author.lower()}"
         return concept_formatted
 
+    if family == TagFamily.DISCIPLINE:
+        # Discipline: discipline\sous-domaine
+        subdomain = context.get("subdomain", "")
+        discipline = concept.lower()
+        if subdomain:
+            return f"{discipline}\\{subdomain.lower()}"
+        return discipline
+
+    if family == TagFamily.ARTWORK:
+        # Œuvre d'art: mouvement\auteur\titre
+        movement = context.get("movement", "")
+        author = context.get("author", "")
+        title = concept.lower().replace(" ", "-")
+        if movement and author:
+            return f"{movement.lower()}\\{author.lower()}\\{title}"
+        elif movement:
+            return f"{movement.lower()}\\{title}"
+        return title
+
     if family == TagFamily.CATEGORY:
         # Catégorie: Parent\Enfant
         parent = context.get("parent", "")
@@ -356,6 +477,8 @@ def get_tag_family_label(family: TagFamily) -> str:
         TagFamily.AREA: "Aire culturelle",
         TagFamily.DATE: "Date/Siècle",
         TagFamily.CONCEPT_AUTHOR: "Concept/Auteur",
+        TagFamily.DISCIPLINE: "Discipline",
+        TagFamily.ARTWORK: "Œuvre d'art",
         TagFamily.CATEGORY: "Catégorie",
         TagFamily.GENERIC: "Générique",
     }
