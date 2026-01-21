@@ -46,15 +46,35 @@ class NoteParser:
     # Dossiers à ignorer completement
     IGNORED_FOLDERS = {
         '.obsidian', '.git', '.trash', 'z_Templates', 'Templates',
-        'templates', '_templates', 'z_templates',
+        'templates', '_templates', 'z_templates', 'Sans titre',
     }
 
-    # Patterns de fichiers à ignorer
+    # Patterns de fichiers à ignorer (case-insensitive matching)
     IGNORED_FILE_PATTERNS = [
         '.sidecar.md',      # Notes d'images (plugin Image Sidecar)
         'Pasted image',     # Images collees
         'Template',         # Fichiers template
+        'template',         # Fichiers template (minuscule)
+        'Sans titre',       # Notes non nommées
+        'Untitled',         # Notes non nommées (anglais)
     ]
+
+    # Préfixes de noms de fichiers à ignorer (commence par...)
+    IGNORED_FILE_PREFIXES = [
+        'test', 'teste',                    # Notes de test
+        'todo', 'a faire',                  # Listes de tâches
+        'brouillon', 'draft',               # Brouillons
+        'temp', 'tmp', 'scratch',           # Fichiers temporaires
+    ]
+
+    # Noms de fichiers exacts à ignorer (sans extension)
+    IGNORED_FILE_NAMES = {
+        'tests',                            # Fichier tests exact
+        'todos',                            # Fichier todos exact
+        'drafts',                           # Fichier drafts exact
+        'index', 'readme', 'home',          # Fichiers d'index
+        'inbox', 'boite de reception',      # Inbox
+    }
 
     def __init__(self, vault_path: str | Path):
         # Résout le chemin en absolu pour éviter les problèmes de chemins relatifs
@@ -120,7 +140,16 @@ class NoteParser:
 
             # Ignore les fichiers qui matchent les patterns exclus
             file_name = md_file.name
-            if any(pattern in file_name for pattern in self.IGNORED_FILE_PATTERNS):
+            file_stem_lower = md_file.stem.lower()
+            if any(pattern.lower() in file_name.lower() for pattern in self.IGNORED_FILE_PATTERNS):
+                continue
+
+            # Ignore les noms de fichiers exacts (test, brouillon, etc.)
+            if file_stem_lower in self.IGNORED_FILE_NAMES:
+                continue
+
+            # Ignore les fichiers dont le nom commence par un préfixe exclu
+            if any(file_stem_lower.startswith(prefix) for prefix in self.IGNORED_FILE_PREFIXES):
                 continue
 
             try:
@@ -130,7 +159,7 @@ class NoteParser:
                 note_name = md_file.stem
                 note_paths[note_name.lower()] = note
             except Exception as e:
-                print(f"Erreur parsing {md_file.relative_to(self.vault_path)}: {e}")
+                # Ignore silently - encoding issues with Windows console
                 continue
 
         # Deuxième passage : calculer les liens entrants

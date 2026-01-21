@@ -1,5 +1,13 @@
 """Point d'entrée principal du système de tags émergents (v2 optimisé)."""
 
+import sys
+import io
+
+# Force UTF-8 encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 from pathlib import Path
 from typing import Optional
 import click
@@ -8,8 +16,10 @@ import time
 from .parsers import NoteParser
 from .embeddings import Embedder
 from .analysis.similarity_v2 import SimilarityEngineV2, SimilarityConfigV2
+from .analysis.entity_detector import EntityDetector, aggregate_entities_across_notes
 from .clustering.detector_v2 import ClusterDetectorV2
 from .tags import TagHealthAnalyzer, TagGenerator, TagMatcher, FeedbackIntegrator, RedundancyDetector
+from .tags.conventions import TagFamily, classify_tag, suggest_tag_format, get_tag_family_label
 from .database import Repository
 from .output import SuggestionGenerator
 
@@ -217,7 +227,7 @@ def analyze_vault(
         print(f"   ✓ Score de santé: {vault_health:.0%} ({time.time() - step_start:.1f}s)")
         print(f"   ⚠️  {len(health_alerts)} alertes générées")
 
-    # 8. Génération de nouveaux tags (basée sur clusters)
+    # 8. Génération de nouveaux tags (basée sur clusters + entités)
     step_start = time.time()
     if verbose:
         print("\n8. Génération de suggestions de nouveaux tags...")
@@ -228,11 +238,15 @@ def analyze_vault(
         similarity_engine=similarity_engine,
         existing_tags=existing_tags,
         repository=repository,
+        notes=notes,  # Ajout pour détection d'entités
     )
     new_tag_suggestions = tag_generator.generate_suggestions(max_suggestions=50)
 
     if verbose:
+        cluster_count = sum(1 for s in new_tag_suggestions if s.get("source") == "cluster")
+        entity_count = sum(1 for s in new_tag_suggestions if s.get("source") == "entity")
         print(f"   ✓ {len(new_tag_suggestions)} nouveaux tags suggérés ({time.time() - step_start:.1f}s)")
+        print(f"   📊 {cluster_count} depuis clusters, {entity_count} depuis entités")
 
     # 9. Matching de tags existants
     step_start = time.time()
@@ -343,7 +357,16 @@ def analyze_vault(
 # ===== Adaptateurs pour la nouvelle architecture =====
 
 class TagGeneratorV2:
-    """Générateur de tags adapté pour SimilarityEngineV2."""
+    """Générateur de tags adapté pour SimilarityEngineV2.
+
+    Combine deux sources de suggestions :
+    1. Clusters sémantiques de notes similaires
+    2. Entités nommées détectées dans le contenu (personnes, lieux, dates, etc.)
+    """
+
+    # Seuils
+    MIN_ENTITY_NOTES = 2  # Nombre min de notes pour une suggestion d'entité
+    MIN_CONFIDENCE_ENTITY = 0.65
 
     def __init__(
         self,
@@ -351,23 +374,52 @@ class TagGeneratorV2:
         similarity_engine: SimilarityEngineV2,
         existing_tags: list[str],
         repository: Repository,
+        notes: Optional[list] = None,
     ):
         self.clusters = clusters
         self.engine = similarity_engine
         self.existing_tags = set(existing_tags)
         self.repository = repository
+        self.notes = notes or []
+
+        # Détecteur d'entités
+        self.entity_detector = EntityDetector()
 
     def generate_suggestions(self, max_suggestions: int = 50) -> list[dict]:
-        """Génère des suggestions de nouveaux tags basées sur les clusters."""
+        """Génère des suggestions de nouveaux tags.
+
+        Combine suggestions de clusters et d'entités détectées.
+        """
         suggestions = []
 
         # Tags rejetés précédemment
         rejected_tags = self.repository.get_rejected_tag_names()
 
+        # 1. Suggestions basées sur les clusters
+        cluster_suggestions = self._generate_cluster_suggestions(rejected_tags, max_suggestions)
+        suggestions.extend(cluster_suggestions)
+
+        # 2. Suggestions basées sur les entités détectées
+        if self.notes:
+            entity_suggestions = self._generate_entity_suggestions(rejected_tags, max_suggestions)
+            suggestions.extend(entity_suggestions)
+
+        # Déduplique et trie par confiance
+        suggestions = self._deduplicate_suggestions(suggestions)
+        suggestions.sort(key=lambda x: x["confidence"], reverse=True)
+
+        return suggestions[:max_suggestions]
+
+    def _generate_cluster_suggestions(
+        self, rejected_tags: set, max_suggestions: int
+    ) -> list[dict]:
+        """Génère des suggestions basées sur les clusters."""
+        suggestions = []
+
         for cluster in self.clusters[:max_suggestions * 2]:
             # Vérifie si le cluster a déjà un tag approprié
             if cluster.suggested_tags:
-                continue  # Le cluster a déjà des tags
+                continue
 
             # Génère un nom de tag basé sur les termes du cluster
             if not cluster.centroid_terms:
@@ -389,7 +441,8 @@ class TagGeneratorV2:
                 "id": f"lt_{len(suggestions):03d}",
                 "name": tag_name,
                 "confidence": confidence,
-                "notes": cluster.notes[:10],  # Limite pour le JSON
+                "notes": cluster.notes[:10],
+                "source": "cluster",
                 "reasoning": {
                     "summary": f"Cluster de {cluster.size} notes avec termes communs: {', '.join(cluster.centroid_terms[:3])}",
                     "details": {
@@ -404,6 +457,218 @@ class TagGeneratorV2:
                 break
 
         return suggestions
+
+    def _generate_entity_suggestions(
+        self, rejected_tags: set, max_suggestions: int
+    ) -> list[dict]:
+        """Génère des suggestions basées sur les entités détectées."""
+        suggestions = []
+
+        # Détecte les entités dans toutes les notes
+        notes_entities = self.entity_detector.detect_entities_batch(self.notes)
+
+        # Agrège les entités qui apparaissent dans plusieurs notes
+        aggregated = aggregate_entities_across_notes(
+            notes_entities, min_notes=self.MIN_ENTITY_NOTES
+        )
+
+        # Collecte les infos détaillées sur chaque entité
+        entity_details: dict = {}
+        for path, note_entities in notes_entities.items():
+            for entity in note_entities.entities:
+                tag = entity.suggested_tag
+                if tag in aggregated:
+                    if tag not in entity_details:
+                        entity_details[tag] = []
+                    entity_details[tag].append(entity)
+
+        for tag, note_paths in aggregated.items():
+            # Vérifie la redondance avec les tags existants
+            if tag in self.existing_tags or tag in rejected_tags:
+                continue
+
+            # Vérifie similarité avec tags existants (normalise)
+            tag_lower = tag.lower()
+            is_redundant = False
+            for existing in self.existing_tags:
+                existing_lower = existing.lower()
+                # Similarité simple : contient ou est contenu
+                if tag_lower in existing_lower or existing_lower in tag_lower:
+                    is_redundant = True
+                    break
+            if is_redundant:
+                continue
+
+            # Calcule la confiance moyenne des détections
+            entities = entity_details.get(tag, [])
+            if not entities:
+                continue
+
+            # Confiance de base : moyenne des détections (0.5-0.9)
+            avg_detection_confidence = sum(e.confidence for e in entities) / len(entities)
+
+            # Facteurs de confiance plus discriminants :
+            # 1. Nombre de notes (2-10+) : 30% du score
+            notes_count = len(note_paths)
+            notes_factor = min(1.0, (notes_count - 1) / 8)  # 2 notes = 0.125, 10 notes = 1.0
+
+            # 2. Occurrences totales : 20% du score
+            total_occurrences = sum(e.occurrences for e in entities)
+            occurrences_factor = min(1.0, total_occurrences / 15)  # 15 occurrences = max
+
+            # 3. Qualité de détection : 50% du score
+            # La confiance de détection est déjà entre 0.5 et 0.9
+            detection_factor = (avg_detection_confidence - 0.5) / 0.4  # Normalise 0.5-0.9 vers 0-1
+
+            # Score final composé (plafonne naturellement à ~0.9 max)
+            confidence = (
+                0.50 * detection_factor +     # Qualité de détection
+                0.30 * notes_factor +          # Nombre de notes
+                0.20 * occurrences_factor      # Fréquence
+            )
+
+            # Ajuste l'échelle pour avoir des scores entre 0.5 et 0.92
+            confidence = 0.50 + (confidence * 0.42)
+            confidence = round(confidence, 2)
+
+            if confidence < self.MIN_CONFIDENCE_ENTITY:
+                continue
+
+            # Construit le raisonnement
+            entity_sample = entities[0]
+            family_label = self._get_family_label(entity_sample.family)
+
+            # Calcule les alternatives et vérifications de convention
+            alternatives = self._compute_tag_alternatives(tag, entity_sample)
+
+            suggestions.append({
+                "id": f"lt_ent_{len(suggestions):03d}",
+                "name": tag,
+                "confidence": round(confidence, 2),
+                "notes": note_paths[:10],
+                "source": "entity",
+                "alternatives": alternatives,
+                "reasoning": {
+                    "summary": f"{family_label} détecté(e) dans {len(note_paths)} notes",
+                    "details": {
+                        "entity_type": entity_sample.family.value,
+                        "raw_text": entity_sample.raw_text,
+                        "total_occurrences": total_occurrences,
+                        "notes_count": len(note_paths),
+                    },
+                },
+            })
+
+            if len(suggestions) >= max_suggestions:
+                break
+
+        return suggestions
+
+    def _get_family_label(self, family: TagFamily) -> str:
+        """Retourne un label lisible pour une famille de tags."""
+        labels = {
+            TagFamily.PERSON: "Personne",
+            TagFamily.GEO: "Lieu géographique",
+            TagFamily.ENTITY: "Entité politique",
+            TagFamily.AREA: "Aire culturelle",
+            TagFamily.DATE: "Date/Siècle",
+            TagFamily.CONCEPT_AUTHOR: "Concept/Auteur",
+            TagFamily.DISCIPLINE: "Discipline",
+            TagFamily.MATH_OBJECT: "Objet mathématique",
+            TagFamily.ARTWORK: "Mouvement artistique",
+            TagFamily.CATEGORY: "Catégorie",
+            TagFamily.GENERIC: "Concept",
+        }
+        return labels.get(family, "Entité")
+
+    def _compute_tag_alternatives(self, suggested_tag: str, entity) -> list[dict]:
+        """Calcule les alternatives pour un tag suggéré.
+
+        Retourne une liste d'alternatives avec:
+        - name: le nom alternatif du tag
+        - reason: raison de l'alternative
+        - is_convention: si c'est une correction de convention
+        """
+        alternatives = []
+
+        # 1. Vérifie si le tag respecte les conventions
+        tag_info = classify_tag(suggested_tag)
+
+        # Si le tag est générique mais pourrait avoir une convention spécifique
+        if tag_info.family == TagFamily.GENERIC:
+            # Suggère un format plus structuré selon le type d'entité détectée
+            family_map = {
+                "person": TagFamily.PERSON,
+                "geo": TagFamily.GEO,
+                "entity": TagFamily.ENTITY,
+                "area": TagFamily.AREA,
+                "date": TagFamily.DATE,
+                "discipline": TagFamily.DISCIPLINE,
+            }
+            expected_family = family_map.get(entity.family.value)
+            if expected_family:
+                # Génère le format conventionnel
+                context = {}
+                if hasattr(entity, 'context') and entity.context and isinstance(entity.context, dict):
+                    context = entity.context
+                conventional = suggest_tag_format(
+                    entity.raw_text, expected_family, context
+                )
+                if conventional != suggested_tag and conventional.lower() != suggested_tag.lower():
+                    alternatives.append({
+                        "name": conventional,
+                        "reason": f"Format conventionnel pour {get_tag_family_label(expected_family)}",
+                        "is_convention": True,
+                    })
+
+        # 2. Cherche des tags existants similaires
+        similar_existing = self._find_similar_existing_tags(suggested_tag)
+        for existing_tag, similarity_reason in similar_existing:
+            alternatives.append({
+                "name": existing_tag,
+                "reason": similarity_reason,
+                "is_convention": False,
+            })
+
+        return alternatives[:3]  # Limite à 3 alternatives
+
+    def _find_similar_existing_tags(self, tag: str) -> list[tuple[str, str]]:
+        """Trouve des tags existants similaires au tag suggéré.
+
+        Retourne une liste de (tag_existant, raison).
+        """
+        similar = []
+        tag_lower = tag.lower()
+        tag_parts = set(tag_lower.replace("\\", " ").replace("-", " ").split())
+
+        for existing in self.existing_tags:
+            existing_lower = existing.lower()
+
+            # 1. Contenance simple
+            if tag_lower in existing_lower:
+                similar.append((existing, f"Le tag existant '{existing}' contient ce concept"))
+                continue
+            if existing_lower in tag_lower:
+                similar.append((existing, f"Ce concept est inclus dans le tag existant '{existing}'"))
+                continue
+
+            # 2. Mots en commun
+            existing_parts = set(existing_lower.replace("\\", " ").replace("-", " ").split())
+            common_parts = tag_parts & existing_parts
+            if len(common_parts) >= 1 and len(common_parts) >= len(tag_parts) * 0.5:
+                common_str = ", ".join(common_parts)
+                similar.append((existing, f"Mots communs: {common_str}"))
+
+        return similar[:2]  # Limite à 2 tags similaires
+
+    def _deduplicate_suggestions(self, suggestions: list[dict]) -> list[dict]:
+        """Déduplique les suggestions en gardant celle avec la meilleure confiance."""
+        seen: dict = {}
+        for suggestion in suggestions:
+            key = suggestion["name"].lower()
+            if key not in seen or suggestion["confidence"] > seen[key]["confidence"]:
+                seen[key] = suggestion
+        return list(seen.values())
 
     def _generate_tag_name(self, cluster) -> Optional[str]:
         """Génère un nom de tag à partir des termes du cluster."""

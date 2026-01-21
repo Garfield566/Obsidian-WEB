@@ -1,4 +1,8 @@
-"""Générateur de nouveaux tags basé sur les clusters détectés."""
+"""Générateur de nouveaux tags basé sur les clusters détectés.
+
+Note: L'intégration des entités détectées est faite dans main.py (TagGeneratorV2)
+pour éviter les imports circulaires.
+"""
 
 from dataclasses import dataclass, field
 from typing import Optional, Literal
@@ -20,6 +24,7 @@ class NewTagSuggestion:
     reasoning: dict  # Détails complets
     detection_count: int = 1
     first_detected: Optional[str] = None
+    source: str = "cluster"  # "cluster" ou "entity"
 
 
 class TagGenerator:
@@ -56,7 +61,7 @@ class TagGenerator:
             self._rejected_tags = repository.get_rejected_tag_names()
 
     def generate_suggestions(self) -> list[NewTagSuggestion]:
-        """Génère des suggestions de nouveaux tags."""
+        """Génère des suggestions de nouveaux tags basées sur les clusters."""
         # Détecte les clusters
         clusters = self.cluster_detector.detect_hybrid_clusters()
 
@@ -107,6 +112,7 @@ class TagGenerator:
                 notes=cluster.notes,
                 reasoning=reasoning,
                 detection_count=detection_count,
+                source="cluster",
             ))
 
         # Trie par confiance décroissante
@@ -241,8 +247,8 @@ class TagGenerator:
             "summary": f"Cluster de {len(cluster.notes)} notes partageant le concept '{tag_name.split('/')[-1]}'",
             "details": {
                 "semantic_score": round(cluster.coherence, 2),
-                "structural_score": 0.0,  # TODO: à calculer
-                "contextual_score": 0.0,  # TODO: à calculer
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
                 "key_terms": cluster.key_terms[:10],
                 "term_frequencies": term_freq,
                 "similar_existing_tags": similar_tags,

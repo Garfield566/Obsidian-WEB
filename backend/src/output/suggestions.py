@@ -115,7 +115,7 @@ class SuggestionGenerator:
         """
         # Si c'est déjà un dict (format V2)
         if isinstance(tag, dict):
-            return {
+            result = {
                 "id": tag.get("id", f"lt_{hash(tag.get('name', '')) % 10000:04d}"),
                 "name": tag.get("name", ""),
                 "confidence": tag.get("confidence", 0),
@@ -123,10 +123,15 @@ class SuggestionGenerator:
                 "reasoning": tag.get("reasoning", {}),
                 "detection_count": tag.get("detection_count", 1),
                 "first_detected": tag.get("first_detected", datetime.now().isoformat()),
+                "source": tag.get("source", "cluster"),
             }
+            # Ajoute les alternatives si présentes
+            if "alternatives" in tag:
+                result["alternatives"] = tag["alternatives"]
+            return result
 
         # Format V1 (dataclass)
-        return {
+        result = {
             "id": f"lt_{hash(tag.name) % 10000:04d}",
             "name": tag.name,
             "confidence": tag.confidence,
@@ -134,7 +139,12 @@ class SuggestionGenerator:
             "reasoning": tag.reasoning,
             "detection_count": getattr(tag, "detection_count", 1),
             "first_detected": getattr(tag, "first_detected", datetime.now().isoformat()),
+            "source": getattr(tag, "source", "cluster"),
         }
+        # Ajoute les alternatives si présentes
+        if hasattr(tag, "alternatives"):
+            result["alternatives"] = tag.alternatives
+        return result
 
     def _format_tag_assignment(self, assign) -> dict:
         """Formate une suggestion d'attribution de tag.
