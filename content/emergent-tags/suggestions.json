@@ -1,9 +1,39 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-21T17:59:32.902691",
+  "generated_at": "2026-01-21T18:13:24.687360",
   "vault_hash": "8591147b",
   "suggestions": {
     "new_tags": [
+      {
+        "id": "lt_ent_001",
+        "name": "geo\\europe",
+        "confidence": 0.87,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (3).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 24 notes",
+          "details": {
+            "entity_type": "geo",
+            "raw_text": "europe",
+            "total_occurrences": 74,
+            "notes_count": 24
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-21T18:13:24.687413",
+        "source": "entity",
+        "alternatives": []
+      },
       {
         "id": "lt_ent_003",
         "name": "geo\\chine",
@@ -30,37 +60,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902731",
-        "source": "entity",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_005",
-        "name": "geo\\europe",
-        "confidence": 0.87,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 24 notes",
-          "details": {
-            "entity_type": "geo",
-            "raw_text": "europe",
-            "total_occurrences": 74,
-            "notes_count": 24
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902736",
+        "first_detected": "2026-01-21T18:13:24.687418",
         "source": "entity",
         "alternatives": []
       },
@@ -90,7 +90,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902739",
+        "first_detected": "2026-01-21T18:13:24.687422",
         "source": "entity",
         "alternatives": []
       },
@@ -120,12 +120,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902742",
+        "first_detected": "2026-01-21T18:13:24.687426",
         "source": "entity",
         "alternatives": []
       },
       {
-        "id": "lt_ent_002",
+        "id": "lt_ent_004",
         "name": "geo\\vienne",
         "confidence": 0.85,
         "notes": [
@@ -148,7 +148,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902744",
+        "first_detected": "2026-01-21T18:13:24.687429",
         "source": "entity",
         "alternatives": []
       },
@@ -178,7 +178,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902747",
+        "first_detected": "2026-01-21T18:13:24.687434",
         "source": "entity",
         "alternatives": []
       },
@@ -208,7 +208,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902750",
+        "first_detected": "2026-01-21T18:13:24.687438",
         "source": "entity",
         "alternatives": []
       },
@@ -236,7 +236,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902755",
+        "first_detected": "2026-01-21T18:13:24.687444",
         "source": "entity",
         "alternatives": []
       },
@@ -262,7 +262,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902759",
+        "first_detected": "2026-01-21T18:13:24.687449",
         "source": "entity",
         "alternatives": []
       },
@@ -292,7 +292,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902762",
+        "first_detected": "2026-01-21T18:13:24.687453",
         "source": "entity",
         "alternatives": []
       },
@@ -322,7 +322,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902765",
+        "first_detected": "2026-01-21T18:13:24.687457",
         "source": "entity",
         "alternatives": []
       },
@@ -348,12 +348,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902767",
+        "first_detected": "2026-01-21T18:13:24.687461",
         "source": "entity",
         "alternatives": []
       },
       {
-        "id": "lt_ent_004",
+        "id": "lt_ent_002",
         "name": "geo\\japon",
         "confidence": 0.8,
         "notes": [
@@ -373,7 +373,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902770",
+        "first_detected": "2026-01-21T18:13:24.687465",
         "source": "entity",
         "alternatives": []
       },
@@ -399,12 +399,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902772",
+        "first_detected": "2026-01-21T18:13:24.687468",
         "source": "entity",
         "alternatives": []
       },
       {
-        "id": "lt_ent_001",
+        "id": "lt_ent_005",
         "name": "geo\\tokyo",
         "confidence": 0.79,
         "notes": [
@@ -424,12 +424,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902775",
+        "first_detected": "2026-01-21T18:13:24.687472",
         "source": "entity",
         "alternatives": []
       },
       {
-        "id": "lt_ent_013",
+        "id": "lt_ent_012",
         "name": "dérivée",
         "confidence": 0.78,
         "notes": [
@@ -451,7 +451,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902777",
+        "first_detected": "2026-01-21T18:13:24.687475",
         "source": "entity",
         "alternatives": []
       },
@@ -477,12 +477,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902780",
+        "first_detected": "2026-01-21T18:13:24.687479",
         "source": "entity",
         "alternatives": []
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_007",
         "name": "aire\\orient",
         "confidence": 0.77,
         "notes": [
@@ -502,7 +502,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902782",
+        "first_detected": "2026-01-21T18:13:24.687483",
         "source": "entity",
         "alternatives": []
       },
@@ -527,7 +527,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902785",
+        "first_detected": "2026-01-21T18:13:24.687487",
         "source": "entity",
         "alternatives": []
       },
@@ -552,7 +552,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902787",
+        "first_detected": "2026-01-21T18:13:24.687490",
         "source": "entity",
         "alternatives": []
       },
@@ -576,12 +576,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902790",
+        "first_detected": "2026-01-21T18:13:24.687494",
         "source": "entity",
         "alternatives": []
       },
       {
-        "id": "lt_ent_007",
+        "id": "lt_ent_006",
         "name": "aire\\occident",
         "confidence": 0.76,
         "notes": [
@@ -598,7 +598,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902797",
+        "first_detected": "2026-01-21T18:13:24.687497",
         "source": "entity",
         "alternatives": []
       },
@@ -622,7 +622,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902799",
+        "first_detected": "2026-01-21T18:13:24.687500",
         "source": "entity",
         "alternatives": []
       },
@@ -646,7 +646,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902801",
+        "first_detected": "2026-01-21T18:13:24.687504",
         "source": "entity",
         "alternatives": [
           {
@@ -677,12 +677,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902804",
+        "first_detected": "2026-01-21T18:13:24.687507",
         "source": "entity",
         "alternatives": []
       },
       {
-        "id": "lt_ent_012",
+        "id": "lt_ent_013",
         "name": "métrique",
         "confidence": 0.72,
         "notes": [
@@ -702,7 +702,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902806",
+        "first_detected": "2026-01-21T18:13:24.687511",
         "source": "entity",
         "alternatives": []
       },
@@ -728,7 +728,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902809",
+        "first_detected": "2026-01-21T18:13:24.687514",
         "source": "entity",
         "alternatives": []
       },
@@ -750,7 +750,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902811",
+        "first_detected": "2026-01-21T18:13:24.687518",
         "source": "entity",
         "alternatives": [
           {
@@ -778,7 +778,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902814",
+        "first_detected": "2026-01-21T18:13:24.687521",
         "source": "entity",
         "alternatives": []
       },
@@ -800,7 +800,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902816",
+        "first_detected": "2026-01-21T18:13:24.687525",
         "source": "entity",
         "alternatives": [
           {
@@ -828,7 +828,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902818",
+        "first_detected": "2026-01-21T18:13:24.687529",
         "source": "entity",
         "alternatives": []
       },
@@ -850,7 +850,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902821",
+        "first_detected": "2026-01-21T18:13:24.687532",
         "source": "entity",
         "alternatives": []
       },
@@ -873,7 +873,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902823",
+        "first_detected": "2026-01-21T18:13:24.687537",
         "source": "entity",
         "alternatives": []
       },
@@ -897,7 +897,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902825",
+        "first_detected": "2026-01-21T18:13:24.687540",
         "source": "entity",
         "alternatives": []
       },
@@ -919,7 +919,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902828",
+        "first_detected": "2026-01-21T18:13:24.687544",
         "source": "entity",
         "alternatives": []
       },
@@ -941,7 +941,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902830",
+        "first_detected": "2026-01-21T18:13:24.687547",
         "source": "entity",
         "alternatives": []
       },
@@ -964,7 +964,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902832",
+        "first_detected": "2026-01-21T18:13:24.687550",
         "source": "entity",
         "alternatives": []
       },
@@ -986,7 +986,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902835",
+        "first_detected": "2026-01-21T18:13:24.687553",
         "source": "entity",
         "alternatives": []
       },
@@ -1008,7 +1008,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902837",
+        "first_detected": "2026-01-21T18:13:24.687557",
         "source": "entity",
         "alternatives": []
       },
@@ -1030,7 +1030,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902840",
+        "first_detected": "2026-01-21T18:13:24.687561",
         "source": "entity",
         "alternatives": []
       },
@@ -1052,7 +1052,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902842",
+        "first_detected": "2026-01-21T18:13:24.687564",
         "source": "entity",
         "alternatives": []
       },
@@ -1074,7 +1074,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902844",
+        "first_detected": "2026-01-21T18:13:24.687568",
         "source": "entity",
         "alternatives": []
       },
@@ -1096,7 +1096,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-21T17:59:32.902847",
+        "first_detected": "2026-01-21T18:13:24.687572",
         "source": "entity",
         "alternatives": []
       }
@@ -1231,7 +1231,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-21T17:59:31.763062",
+          "last_used": "2026-01-21T18:13:23.812483",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md"
@@ -1250,7 +1250,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-21T17:59:31.865520",
+          "last_used": "2026-01-21T18:13:23.835997",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md"
@@ -1269,7 +1269,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-21T17:59:31.778032",
+          "last_used": "2026-01-21T18:13:23.821034",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Cyberpunk_Edgerunners.md"
@@ -1288,7 +1288,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-21T17:59:31.862717",
+          "last_used": "2026-01-21T18:13:23.772445",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Cyberpunk_Edgerunners.md"
@@ -1307,7 +1307,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-21T17:59:31.849995",
+          "last_used": "2026-01-21T18:13:23.824509",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle tournée vers la droite.md"
@@ -1326,7 +1326,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-21T17:59:31.814048",
+          "last_used": "2026-01-21T18:13:23.810027",
           "days_inactive": 0,
           "notes_using": [
             "Tempate commande/tag code.md"
@@ -1345,7 +1345,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-21T17:59:31.771431",
+          "last_used": "2026-01-21T18:13:23.842206",
           "days_inactive": 0,
           "notes_using": [
             "Tempate commande/tag code.md"
@@ -1446,8 +1446,8 @@
       ],
       "suggested_tags": [
         "Crime-Mystery",
-        "Madhouse",
-        "Kuniaki-Haishima"
+        "Kuniaki-Haishima",
+        "Madhouse"
       ]
     },
     {
@@ -1480,7 +1480,7 @@
     "health_score": 0.87,
     "feedback_impact": {
       "decisions_integrated": 1000,
-      "acceptance_rate": "43%"
+      "acceptance_rate": "38%"
     }
   }
 }
