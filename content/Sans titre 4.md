@@ -170,4 +170,4 @@ La fonction exponentielle est utilisée pour modéliser des phénomènes de croi
 > [!info] Rappel Important
 > La dérivée de $e^x$ est égale à elle-même, ce qui en fait une fonction très importante en analyse.
 
-#Fonction/Exponentielle #Analyse #Mathématiques
+#Fonction/Exponentielle #Analyse #Mathématiques  #World-War-I 
