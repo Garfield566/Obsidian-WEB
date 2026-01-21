@@ -1,6 +1,10 @@
 ---
 database-plugin: basic
 cover: https://www.ecranlarge.com/content/uploads/2020/08/ppgi07fkngkuhlm667ro3oa04bx-434.jpg
+tags:
+  - Crime-Mystery
+  - Madhouse
+  - Kuniaki-Haishima
 ---
 # 🎥 **Monster**
 > [!infobox]
