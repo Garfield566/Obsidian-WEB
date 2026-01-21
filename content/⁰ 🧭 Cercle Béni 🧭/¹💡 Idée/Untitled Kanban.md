@@ -1,5 +1,5 @@
 ---
-kanban-plugin: table
+knbn-pluin: tble
 ---
 
 ## 

@@ -1,15 +1,14 @@
 ---
-cover: https://www.cineclubdecaen.com/peinture/peintres/monet/femmealombrelletourneeverslagauche.jpg
-siècle: XXIe
+cover: https://www.cineclubdecen.com/peinture/peintres/monet/femmelombrelletourneeversluche.jpsiècle: XXIe
 mouvement: Impressionniste
-peintre: Claude Monet
-taille: 131 x 88,7 cm
+peintre: Clude Monet
+tille: 131 x 88,7 cm
 Techniques: Huile sur toile
-date: "1886"
+dte: "1886"
 sticker: emoji//261d-fe0f
-tags:
+ts:
  - peinture
- - Claude-Monet
+ - Clude-Monet
  - Impressionniste
 ---
 ## Femme à l'ombrelle tournée vers la gauche

@@ -1,6 +1,6 @@
 ---
-database-plugin: basic
-cover: https://www.macommune.info/wp-content/uploads/2018/02/cine_enfants.jpg
+dtbse-pluin: bsic
+cover: https://www.mcommune.info/wp-content/uplods/2018/02/cine_enfnts.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

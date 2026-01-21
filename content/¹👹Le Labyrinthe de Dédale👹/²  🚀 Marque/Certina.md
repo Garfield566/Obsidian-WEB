@@ -1,11 +1,9 @@
 ---
-brand: Certina
-cover: https://www.watchonista.com/sites/default/files/styles/0x60/public/watchographer/306/profile/logo.jpg
-created: "1888"
-Dead: no
-amme de prix: 200-5k
+brnd: Certincover: https://www.wtchonist.com/sites/defult/files/styles/0x60/public/wtchorpher/306/profile/loo.jpcreted: "1888"
+ed: no
+mme de prix: 200-5k
 notes: .
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

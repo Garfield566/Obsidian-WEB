@@ -1,17 +1,16 @@
 ---
 Titre: Femme à l'ombrelle
-cover: https://www.cineclubdecaen.com/peinture/peintres/monet/femmealombrelle.jpg
-taille: 100 x 81 cm
+cover: https://www.cineclubdecen.com/peinture/peintres/monet/femmelombrelle.jptille: 100 x 81 cm
 mouvement: Impressionniste
-date: "1875"
-artist: Claude Monet
+dte: "1875"
+rtist: Clude Monet
 siècle: XXIe
 Techniques: Huile sur toile
-tags:
+ts:
  - peinture
- - Claude-Monet
+ - Clude-Monet
  - Impressionniste
-peintre: Claude Monet
+peintre: Clude Monet
 ---
 
 ![cover|500](https://www.cineclubdecaen.com/peinture/peintres/monet/femmealombrelleh450.jpg)

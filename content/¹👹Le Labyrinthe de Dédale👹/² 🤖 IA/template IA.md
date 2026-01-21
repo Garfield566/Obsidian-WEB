@@ -1,16 +1,13 @@
 ---
-title: Titre de la Note sur l'IA
-auteur: Auteur de la note (vous)
-date: Date de création ou de mise à jour de la note
-sujet: Sujet principal de la note sur l'IA
-catégorie: Catégorie ou domaine de l'IA (par exemple, "Apprentissage automatique", "Traitement du langage naturel", "Vision par ordinateur", etc.)
-technologies: Liste des technologies ou des outils d'IA abordés dans la note
-références: Références, articles, livres ou liens pertinents
-problématique: Question ou problème lié à l'IA
-méthodologie: Méthodologie, approche ou méthodes utilisées
-résultats: Résultats ou conclusions
-discussions: Discussions, implications ou analyses
-notes_supplémentaires: Remarques ou informations supplémentaires
+title: Titre de lNote sur luteur: Auteur de lnote (vous)
+dte: te de crétion ou de mise à jour de lnote
+sujet: ujet principl de lnote sur lctéorie: Ctéorie ou domine de l(pr exemple, "Apprentisse utomtique", "Tritement du lne nturel", "Vision pr ordinteur", etc.)
+technoloies: Liste des technoloies ou des outils dbordés dns lnote
+références: Références, rticles, livres ou liens pertinents
+problémtique: Question ou problème lié à lméthodoloie: Méthodoloie, pproche ou méthodes utilisées
+résultts: Résultts ou conclusions
+discussions: iscussions, implictions ou nlyses
+notes_supplémentires: Remrques ou informtions supplémentires
 ---
 
 # **Nom IA**

@@ -1,11 +1,10 @@
 ---
-brand: Longines
-cover: https://i.pinimg.com/736x/e0/ce/07/e0ce0771f4e6c58203eeb6a638375500.jpg
-Dead: no
-amme de prix: 500-10k
+brnd: Lonines
+cover: https://i.pinim.com/736x/e0/ce/07/e0ce0771f4e6c58203eeb6638375500.jped: no
+mme de prix: 500-10k
 notes: .
-created: "1832"
-Pays d'Origine: Suisse
+creted: "1832"
+Pys d'Oriine: uisse
 sticker: .
 ---
 

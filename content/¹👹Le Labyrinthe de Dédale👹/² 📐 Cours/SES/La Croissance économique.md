@@ -1,9 +1,8 @@
 ---
-excalidraw-plugin: raw
-tags:
- - "excalidraw"
-image: "https://knowledge.skema.edu/wp-content/uploads/2024/12/incertitude--economie-uncertainty-croissance-400x270.png"
-cour: "eco"
+exclrw-pluin: rw
+ts:
+ - "exclrw"
+ime: "https://knowlede.skem.edu/wp-content/uplods/2024/12/incertitude--economie-uncertinty-croissnce-400x270.pncour: "eco"
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

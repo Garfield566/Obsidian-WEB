@@ -1,9 +1,8 @@
 ---
-title: "Le CAUCHEMAR de l'Autriche-Hongrie pendant la Première uerre Mondiale"
-channel: "Epoques Epiques"
-published: 2025-03-23
-url: "https://www.youtube.com/watch?v=Xudb9yEQ2qQ"
-thumbnailUrl: "https://i.ytimg.com/vi/Xudb9yEQ2qQ/maxresdefault.jpg"
+title: "Le CAUCHEMAR de l'Autriche-Honrie pendnt lPremière Mondile"
+chnnel: "Epoques Epiquepublished: 2025-03-23
+url: "https://www.youtube.com/wtch?v=Xudb9yEQ2qQ"
+thumbnilUrl: "https://i.ytim.com/vi/Xudb9yEQ2qQ/mxresdefult.jp
 ---
 ## Le CAUCHEMAR de l'Autriche-Hongrie pendant la Première Guerre Mondiale
 

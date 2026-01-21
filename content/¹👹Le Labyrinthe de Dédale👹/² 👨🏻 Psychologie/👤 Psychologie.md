@@ -1,5 +1,5 @@
 ---
-cssclass: hidetitle, menustable
+cssclss: hetitle, menustble
 
 ---
 #

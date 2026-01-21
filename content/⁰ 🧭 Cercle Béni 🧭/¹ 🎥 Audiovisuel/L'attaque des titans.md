@@ -1,31 +1,25 @@
 ---
-Titre: L'Attaque des Titans
-note-audio: ✨✨✨✨
-note-scénario: ✨✨✨✨✨
+Titre: L'Attque des note-udio: ✨✨✨✨
+note-scénrio: ✨✨✨✨✨
 note-visuel: ✨✨✨
-cover: https://img.20mn.fr/9kr78x0KS5a2zl4AvQzhPw/1444x920_anime-attaque-titans-vit-actuellement-saison-finale-wakanim-alors-manga-doit-terminer-aussi-2021
-genre: 
-sous_genres: Science-Fiction, Thriller
-Réalisateurs: Hajime Isayama (Auteur du manga), Tetsurō Araki (Réalisateur des saisons 1-3)
-Compositeurs.: Hiroyuki Sawano
-animation.: Wit Studio (Saison 1-3), MAPPA (Saison 4)
-Année de Sortie: 2020
+cover: https://im.20mn.fr/9kr78x0K52zl4AvQzhPw/1444x920_nime-ttque-titns-vit-ctuellement-sison-finle-wknim-lors-mn-doit-terminer-ussi-2021
+enre: 
+sous_enres: cience-Fiction, Rélisteurs: Hjime Isym(Auteur du mn), Tetsurō Arki (Rélisteur des sisons 1-3)
+Compositeurs.: Hiroyuki wno
+nimtion.: Wit tudio (ison 1-3), MAPPA (ison 4)
+Année de ortie: 2020
 type: série
 vue: true
-tags:
+ts:
  - MAPPA
- - Wit-Studio
- - Hiroyuki-Sawano
- - Hajime-Isayama
- - Tetsurō-Araki
+ - Wit-tudio
+ - Hiroyuki-wno
  - Action
- - Drame
- - Fantastique
- - Post-apocalyptique
+ - rme
+ - Fntstique
  - Horreur
  - Mystère
- - L-Attaque_des_Titans
- - audiovisuel
+ - udiovisuel
 ---
 
 # 🎥 *L'Attaque des Titans
@@ -56,9 +50,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Hajime-Isayama<br>#Yuki-Kaji<br>#Hiroyuki-Sawano</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li><br><br></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Wit-Studio<br>#MAPPA</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Titans<br>#Omni-Directional-Mobility-Gear<br>#Wall-Society</li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li><br><br></li></ul> |
 
 ## 📖 **Synopsis**
 

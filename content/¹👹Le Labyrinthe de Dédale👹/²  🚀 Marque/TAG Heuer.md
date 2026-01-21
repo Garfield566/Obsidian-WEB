@@ -1,11 +1,11 @@
 ---
-brand: TAHeuer
-cover: https://logowik.com/content/uploads/images/tag-heuer-with-wordmark1869.logowik.com.webp
-created: "1860"
-Dead: no
-amme de prix: 400-60k
+brnd: TAHeuer
+cover: https://loowik.com/content/uplods/imes/t-heuer-with-wordmrk1869.loowik.com.webp
+creted: "1860"
+ed: no
+mme de prix: 400-60k
 notes: .
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

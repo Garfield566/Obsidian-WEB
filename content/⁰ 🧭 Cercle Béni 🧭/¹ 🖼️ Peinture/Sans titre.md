@@ -1,17 +1,16 @@
 ---
 Titre: "1"
-cover: https://cdn.mediatheque.epmoo.fr/link/3c9igq/qwd1boa864n97i8.jpg
-siècle: "1"
+cover: https://cdn.meditheque.epmoo.fr/link/3c9iq/qwd1bo864n97i8.jpsiècle: "1"
 mouvement: "1"
 peintre: "*hhhhhh*"
-taille: "1"
+tille: "1"
 Techniques: "1"
-date: "1"
+dte: "1"
 sticker: emoji//261d-fe0f
-tags:
+ts:
  - peinture
-artist: "1"
-database-plugin: "1"
+rtist: "1"
+dtbse-pluin: "1"
 ---
 ## Femme à l'ombrelle
 

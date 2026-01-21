@@ -1,37 +1,19 @@
 ---
-Titre: À l'Ouest, rien de nouveau
-note-audio: 6✨
-note-scénario: 8.5✨
+Titre: À l'Ouest, rien de nouveu
+note-udio: 6✨
+note-scénrio: 8.5✨
 note-visuel: 7✨
-cover: https://cinedweller.com/wp-content/uploads/2023/03/A-l-ouest-rien-de-nouveau-affiche.jpg
-genre: Drame, uerre
-sous_genres: Historique, Anti-guerre
-Réalisateurs: Edward-Berger
-Compositeurs.: Volker-Bertelmann
-animation.: animation
-Année de Sortie: 2022
+cover: https://cinedweller.com/wp-content/uplods/2023/03/A-l-ouest-rien-de-nouveu-ffiche.jpenre: rme, sous_enres: Historique, Anti-Rélisteurs: Compositeurs.: nimtion.: nimtion
+Année de ortie: 2022
 type: Film
 vue: true
-tags:
- - À_l-Ouest_rien_de_nouveau
- - Drame
- - uerre
- - guerre-mondial
+ts:
+ - rme
  - historique
- - Edward-Berger
- - Volker-Bertelmann
- - Remains
- - Uniform
- - Comrades
- - Front
- - War_Machines
- - No_End
- - Rain_Of_Shells
- - Weapons
- - Making_Sense_Of_War
- - Death_Of_A_Comrade
- - Humanity-s_Loss
- - audiovisuel
+ - Rin_Of_hells
+ - Mkin_ense_Of_Wr
+ - eth_Of_A_Comrde
+ - udiovisuel
 ---
 
 # 🎥 À l'Ouest, rien de nouveau
@@ -59,14 +41,14 @@ tags:
 > | | |
 > |---|---|
 > | **World** | <ul style="margin: 0; padding-left: 15px;"><li>World-War-I</li><li>Western-Front</li><li>Germany-1917-1918</li></ul> |
-> | **Main-Characters** | <ul style="margin: 0; padding-left: 15px;"><li>Paul-Bäumer (#Felix-Kammerer)</li><li>Stanislaus-Katczinsky (#Albrecht-Schuch)</li><li>Matthias-Erzberger (#Daniel-Brühl)</li></ul> |
+> | **Main-Characters** | <ul style="margin: 0; padding-left: 15px;"><li>Paul-Bäumer ()</li><li>Stanislaus-Katczinsky ()</li><li>Matthias-Erzberger (ühl)</li></ul> |
 > | **Themes** | <ul style="margin: 0; padding-left: 15px;"><li>Horrors-of-war</li><li>Lost-generation</li><li>Nationalism-critique</li></ul> |
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Edward-Berger</li><li>#Felix-Kammerer</li><li>#Daniel-Brühl</li><li>#Volker-Bertelmann</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Amusement-Park-Films</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#World-War-I</li><li>#Anti-War</li><li>#German-Cinema</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li>ühl</li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#World-War-I</li><li></li><li></li></ul> |
 ## 📖 **Synopsis**
 
 Adapté du célèbre roman d’Erich Maria Remarque, _À l'Ouest, rien de nouveau_ raconte l’histoire poignante de **Paul Bäumer**, un jeune soldat allemand de 17 ans, qui s’engage avec enthousiasme dans l’armée pendant la Première Guerre mondiale. Mais son optimisme initial se heurte rapidement à la dure réalité des tranchées, où la violence, la peur et la mort dominent.

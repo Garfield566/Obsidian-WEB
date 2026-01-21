@@ -1,7 +1,7 @@
 ---
 
-excalidraw-plugin: parsed
-tags: [excalidraw]
+exclrw-pluin: prsed
+ts: [exclrw]
 
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==

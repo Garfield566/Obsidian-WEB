@@ -1,13 +1,12 @@
 ---
-url: "https://www.permanentstyle.com/2024/01/what-colour-theory-can-teach-you-about-clothing.html"
+url: "https://www.permnentstyle.com/2024/01/wht-colour-theory-cn-tech-you-bout-clothin.html"
 title:
-author:
+uthor:
 description:
-tags:
- - "clippings"
- - "medium"
+ts:
+ - "clippin- "medium"
 published:
-created: 2025-07-07T16:03:32+02:00
+creted: 2025-07-07T16:03:32+02:00
 ---
 # 
 By Untitled

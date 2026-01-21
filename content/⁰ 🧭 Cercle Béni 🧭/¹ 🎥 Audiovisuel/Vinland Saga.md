@@ -1,50 +1,29 @@
 ---
-Titre: Vinland Saga
-note-audio: ✨✨✨
-note-scénario: ✨✨✨✨✨
+Titre: Vinlnd note-udio: ✨✨✨
+note-scénrio: ✨✨✨✨✨
 note-visuel: ✨✨✨
-cover: https://m.media-amazon.com/images/S/pv-target-images/5aaa2dd8113f4708049920b99ad37446f587fc7e30f5d21c6766520bccb03804._SX1080_FMjpg_.jpg
-genre: Animation, Aventure, Drame
-sous_genres: Historique, Action, Épopée
-Réalisateurs: Makoto Yukimura (Auteur du manga), Shūhei Yabuta (Réalisateur de l’anime)
-Compositeurs.: Yutaka-Yamada
-animation.: Wit Studio (Saison 1), MAPPA (Saison 2)
-Année de Sortie: 2023
+cover: https://m.medi-mzon.com/imes//pv-tret-imes/52dd8113f4708049920b99d37446f587fc7e30f5d21c6766520bccb03804._X1080_FMjp_.jpenre: Animtion, Aventure, rme
+sous_enres: Historique, Action, Rélisteurs: Mkoto Yukimur(Auteur du mn), hūhei Ybut(Rélisteur de l’nime)
+Compositeurs.: Yutk-Ymdnimtion.: Wit tudio (ison 1), MAPPA (ison 2)
+Année de ortie: 2023
 type: série
 vue: true
-tags:
- - Vinland_Saga
- - Animation
+ts:
+ - Vinlnd_- Animtion
  - Aventure
- - Drame
+ - rme
  - historique
  - Action
- - Épopée
- - Makoto-Yukimura
- - Shūhei-Yabuta
- - Yutaka-Yamada
- - Wit-Studio
+ - hūhei-Ybut- Yutk-Ymd- Wit-tudio
  - MAPPA
- - Survive-Said-The-Prophet
- - Aimer
- - MAN-WITH-A-MISSION
- - milet
- - Anonymouz
- - MUKANJYO
- - Torches
- - Dark_Crow
- - Drown
- - The_Battle_Unfolds
- - Thorfinn-s_Vow
- - Askeladd-s_Strategy
- - Blood_and_Steel
- - River
- - Paradox
- - Peaceful_Dreams
- - Einar-s_Hope
- - Fate-s_Tide
- - A_New_Beginning
- - audiovisuel
+ - urvive--The-Prophet
+ - MAN-WITH-A-MIION
+ - rk_Crow
+ - rown
+ - Askeldd-s_trtey
+ - Blood_nd_teel
+ - Peceful_rems
+ - udiovisuel
 ---
 
 # 🎥 Vinland Saga
@@ -75,9 +54,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Makoto-Yukimura<br>#Yutaka-Yamada<br>#Shuhei-Yabuta</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li><br>#Yutaka-Yamada<br></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Wit-Studio<br>#MAPPA</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Viking-Saga<br>#Historical-Fiction<br>#Warrior's-Path</li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li><br><br>'s-Path</li></ul> |
 
 ## 📖 **Synopsis**
 

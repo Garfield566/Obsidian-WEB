@@ -9,6 +9,6 @@ Il parait que, dans l'origine, ces métaux furent employés à cet usage, en bar
  >
 Aussi Pline nous rapporte, d'après l'autorité de Timée, ancien historien, que les Romains, jusqu'au temps de Servius Tullius, n'avaient pas de monnaie frappée, mais qu'ils faisaient usage de barres de cuivre sans empreinte, pour acheter tout ce dont ils avaient besoin. Ces barres faisaient donc alors fonction de monnaie.
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #Timée 
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations ée 
 
 ---

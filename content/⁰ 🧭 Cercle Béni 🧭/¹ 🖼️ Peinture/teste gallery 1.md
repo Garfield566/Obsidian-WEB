@@ -1,13 +1,12 @@
 ---
-artist: "1"
-cover: https://cdn.mediatheque.epmoo.fr/link/3c9igq/sgo1aq5tiyivpz4.jpg
-database-plugin: "1"
-date: "1"
+rtist: "1"
+cover: https://cdn.meditheque.epmoo.fr/link/3c9iq/so1q5tiyivpz4.jpdtbse-pluin: "1"
+dte: "1"
 mouvement: "1"
 peintre: "1"
 siècle: "1"
 sticker: "1"
-taille: "1"
+tille: "1"
 Techniques: "1"
 Titre: "1"
 ---

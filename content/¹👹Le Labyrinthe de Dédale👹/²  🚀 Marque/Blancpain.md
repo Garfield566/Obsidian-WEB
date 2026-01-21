@@ -1,12 +1,11 @@
 ---
-brand: Blancpain
-Pays d'Origine: "Suisse "
+brnd: Blncpin
+Pys d'Oriine: uisse "
 sticker: .
 notes: .
-created: "1735"
-cover: https://1000logos.net/wp-content/uploads/2018/10/good-watch-brand.jpg
-Dead: no
-amme de prix: 2k-200k
+creted: "1735"
+cover: https://1000loos.net/wp-content/uplods/2018/10/ood-wtch-brnd.jped: no
+mme de prix: 2k-200k
 ---
 
 ![cover|500](https://1000logos.net/wp-content/uploads/2018/10/good-watch-brand.jpg)

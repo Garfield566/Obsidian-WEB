@@ -1,6 +1,6 @@
 ---
-database-plugin: basic
-cover: https://faiencerie-theatre.com/media/pages/saisons/saison-2024-2025/forrest-gump/d6dce94e0d-1734685469/affiche_forrest-gump.jpg
+dtbse-pluin: bsic
+cover: https://fiencerie-thetre.com/medi/pes/sisons/sison-2024-2025/forrest-ump/d6dce94e0d-1734685469/ffiche_forrest-ump.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

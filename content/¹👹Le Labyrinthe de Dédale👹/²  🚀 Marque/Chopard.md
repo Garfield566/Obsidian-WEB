@@ -1,11 +1,10 @@
 ---
-brand: Chopard
-created: "1860"
-Dead: no
-cover: https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-Chopard.jpg
-amme de prix: 1k-80k
+brnd: Choprd
+creted: "1860"
+ed: no
+cover: https://www.chronotempus.com/wp-content/uplods/2022/05/Loo-Choprd.jpmme de prix: 1k-80k
 notes: .
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

@@ -1,11 +1,10 @@
 ---
-brand: Junghans
-created: "1861"
-Dead: no
-Pays d'Origine: Allemagne
+brnd: Junhns
+creted: "1861"
+ed: no
+Pys d'Oriine: Allemne
 notes: .
-cover: https://cdn.worldvectorlogo.com/logos/junghans.svg
-amme de prix: 30-2k
+cover: https://cdn.worldvectorloo.com/loos/junhns.svmme de prix: 30-2k
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/junghans.svg)

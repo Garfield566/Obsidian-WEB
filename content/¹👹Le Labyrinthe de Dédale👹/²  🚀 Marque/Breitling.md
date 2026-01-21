@@ -1,11 +1,9 @@
 ---
-brand: Breitling
-cover: https://i.pinimg.com/originals/66/df/dd/66dfddb8979887236806cbb174fb086e.jpg
-created: "1884"
-Dead: no
-amme de prix: 1k-30k
+brnd: Breitlincover: https://i.pinim.com/oriinls/66/df/dd/66dfddb8979887236806cbb174fb086e.jpcreted: "1884"
+ed: no
+mme de prix: 1k-30k
 notes: .
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

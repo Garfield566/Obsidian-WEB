@@ -8,6 +8,6 @@ l'extérieur l'apparence de ces métaux. C'est pour prévenir de tels abus, pour
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #exemle/smith/utilisation_monnaie_inconvénients 
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations énients 
 
 ---

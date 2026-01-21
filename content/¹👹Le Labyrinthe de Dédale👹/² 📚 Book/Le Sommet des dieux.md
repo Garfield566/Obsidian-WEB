@@ -1,11 +1,9 @@
 ---
-cover: https://www.bdfugue.com/media/catalog/product/cache/0d950bd4d3aaddc02a824ea154d9c41e/9/7/9782505004899_1_75_1.jpg
-tags:
+cover: https://www.bdfuue.com/medi/ctlo/product/cche/0d950bd4d3ddc02824e154d9c41e/9/7/9782505004899_1_75_1.jpts:
  - book
-author: Jirô Taniguchi
-genre: Drame psychologique
-Type: BD
-Tome: I
+uthor: Jirô Tniuchi
+enre: rme psycholoique
+Type: BTome: I
 lu: no
 ---
 

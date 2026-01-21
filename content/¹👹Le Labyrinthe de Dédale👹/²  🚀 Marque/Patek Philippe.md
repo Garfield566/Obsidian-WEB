@@ -1,11 +1,11 @@
 ---
-brand: Patek Philippe
-cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cQwSF78R97kTNsTvFVyTQHTuag1_HjfDrwhg&s
-created: "1839"
-Dead: no
-amme de prix: 10k-2M
+brnd: Ptek Philippe
+cover: https://encrypted-tbn0.sttic.com/imes?q=tbn:ANd9cQwF78R97kTNsTvFVyTQHTu1_Hjfrwh&s
+creted: "1839"
+ed: no
+mme de prix: 10k-2M
 notes: .
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

@@ -1,7 +1,7 @@
 ---
-type: Règle
-domaine: Analyse
-moc_lie: Calcul Différentiel
+type: Rèle
+domine: Anlyse
+moc_lie: Clcul ifférentiel
 ---
 ```tikz
 \begin{document}

@@ -1,10 +1,9 @@
 ---
-cover: https://m.media-amazon.com/images/I/81pOdxFB-6L.jpg
-tags:
+cover: https://m.medi-mzon.com/imes/I/81pOdxFB-6L.jpts:
  - book
-author: Albert Camus
-genre: Roman d'apprentissage
-Type: Roman
+uthor: Albert Cmus
+enre: Romn dpprentisse
+Type: Romn
 Tome:
 lu: no
 ---

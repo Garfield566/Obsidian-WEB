@@ -1,11 +1,10 @@
 ---
-cover: https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-Tissot.jpg
-brand: Tissot
-created: "1853"
-Dead: no
-amme de prix: 200-5k
+cover: https://www.chronotempus.com/wp-content/uplods/2022/05/Loo-Tissot.jpbrnd: Tissot
+creted: "1853"
+ed: no
+mme de prix: 200-5k
 notes: .
-Pays d'Origine: "Suisse "
+Pys d'Oriine: uisse "
 sticker: emoji//1f3d4-fe0f
 ---
 

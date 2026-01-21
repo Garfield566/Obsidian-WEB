@@ -1,10 +1,9 @@
 ---
 Type: ""
-Ingrédients principaux: 
-Ingrédients: 
-durée préparations: 
-cover: https://1000logos.net/wp-content/uploads/2018/10/good-watch-brand.jpg
-tags:
+Inrédients principux: 
+Inrédients: 
+durée préprtions: 
+cover: https://1000loos.net/wp-content/uplods/2018/10/ood-wtch-brnd.jpts:
 ---
 ## 🍹 Nom
 

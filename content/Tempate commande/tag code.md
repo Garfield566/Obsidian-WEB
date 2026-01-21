@@ -1,6 +1,6 @@
 <%*
 // CONFIGURATION
-const MIN_TAG_LENGTH = 2; // Tags d'au moins 2 caractères (#go OK, #a KO)
+const MIN_TAG_LENGTH = 2; // Tags d'au moins 2 caractères (#go OK, KO)
 const EXACT_MATCH_ONLY = true; // Désactive toute similarité morphologique
 
 // RÉCUPÉRATION DES TAGS EXISTANTS

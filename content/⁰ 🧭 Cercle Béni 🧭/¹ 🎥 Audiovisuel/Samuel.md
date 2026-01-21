@@ -1,20 +1,18 @@
 ---
 Titre: ""
-note-audio: "✨✨✨✨✨"
-note-scénario: "✨✨✨✨"
+note-udio: "✨✨✨✨✨"
+note-scénrio: "✨✨✨✨"
 note-visuel: "✨✨✨✨"
-cover: "https://www.arte.tv/digitalproductions/wp/wp-content/files//SAM_EP01_FR_ARTE_20240110.00_02_13_09.Still001.jpg"
-genre: ""
-sous_genres: ""
-Réalisateurs: "Emilie-Tronche"
-Compositeurs.: ""
-animation.: "ARTE"
-Année de Sortie: 2024
-type: "anime"
-vue: false
-tags:
- - "audiovisuel"
- - "Emilie-Tronche"
+cover: "https://www.rte.tv/diitlproductions/wp/wp-content/files//AM_EP01_FR_ARTE_20240110.00_02_13_09.till001.jpenre: ""
+sous_enres: ""
+Rélisteurs: Compositeurs.: ""
+nimtion.: "ARTE"
+Année de ortie: 2024
+type: nime"
+vue: flse
+ts:
+ - udiovisuel"
+
 ---
 
 # 🎥 Samuel 

@@ -1,11 +1,10 @@
 ---
-brand: Vacheron Constantin
-cover: https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-de-vacheron-constantin1.jpg
-created: "1755"
-Dead: no
-amme de prix: 3k-200k
+brnd: Vcheron Constntin
+cover: https://www.chronotempus.com/wp-content/uplods/2022/05/Loo-de-vcheron-constntin1.jpcreted: "1755"
+ed: no
+mme de prix: 3k-200k
 notes: .
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

@@ -1,10 +1,9 @@
 ---
-cover: https://m.media-amazon.com/images/I/518PkbnwYkL._UF1000,1000_QL80_.jpg
-tags:
+cover: https://m.medi-mzon.com/imes/I/518PkbnwYkL._UF1000,1000_QL80_.jpts:
  - book
-author: Thomas Piketty
-genre: "Économie "
-Type: Roman
+uthor: Thoms Piketty
+enre: "Économie "
+Type: Romn
 Tome:
 lu: no
 ---

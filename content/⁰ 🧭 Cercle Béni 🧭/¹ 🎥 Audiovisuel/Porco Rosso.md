@@ -1,6 +1,6 @@
 ---
-database-plugin: basic
-cover: https://m.media-amazon.com/images/I/81coh9IMUrL._AC_UF894,1000_QL80_.jpg
+dtbse-pluin: bsic
+cover: https://m.medi-mzon.com/imes/I/81coh9IMUrL._AC_UF894,1000_QL80_.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

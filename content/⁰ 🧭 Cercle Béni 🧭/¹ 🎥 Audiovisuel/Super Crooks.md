@@ -1,37 +1,24 @@
 ---
-Titre: Super Crooks
-note-audio: ✨✨✨
-note-scénario: ✨✨✨
+Titre: uper Crooks
+note-udio: ✨✨✨
+note-scénrio: ✨✨✨
 note-visuel: ✨✨✨✨✨
-cover: https://www.ecranlarge.com/content/uploads/2021/11/super-crooks-photo-1406241.jpg
-genre: Action, Crime, Super-héros
-sous_genres: Thriller, Heist (casse)
-Réalisateurs: Mark-Millar, Leinil-Yu (comic original)
-Compositeurs.: Towa-Tei
-animation.: ShadowMachine, Tornante-Company
-Année de Sortie: 2010
-type: Série animée
+cover: https://www.ecrnlre.com/content/uplods/2021/11/super-crooks-photo-1406241.jpenre: Action, Crime, uper-héros
+sous_enres: Heist (csse)
+Rélisteurs: (comic oriinl)
+Compositeurs.: nimtion.: hdowMchine, Année de ortie: 2010
+type: érie nimée
 vue: true
-tags:
- - Bones
- - Towa-Tei
- - Leinil-Yu
- - Mark-Millar
- - Thriller
+ts:
  - Heist
- - Super-héros
+ - uper-héros
  - Crime
  - Action
- - Super-héros
- - Theme_of_Super_Crooks
- - Larceny_Legends
- - Heroes_and_Heists
- - Johnny-s_Blast
- - Betrayal-s_Tune
- - High-Stakes_Hustle
- - The_Final_Play
- - Victory_or_Doom
- - audiovisuel
+ - uper-héros
+ - Theme_of_uper_Crooks
+ - Hih-tkes_Hustle
+ - Victory_or_oom
+ - udiovisuel
 ---
 
 # 🎥 Super Crooks
@@ -62,9 +49,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Mark-Millar</li><br><li>#Leinil-Francis-Yu</li><br><li>#Dai-Sato</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Bones</li><br><li>#Netflix-Animation</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Super-Villains</li><br><li>#Heist-Story</li><br><li>#Millarverse</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
 
 ### **📖 Synopsis pour Super Crooks** :
 

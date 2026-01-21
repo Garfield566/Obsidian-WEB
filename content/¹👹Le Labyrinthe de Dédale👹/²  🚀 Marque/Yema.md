@@ -1,11 +1,10 @@
 ---
-brand: Yema
-cover: https://yema.com/cdn/shop/files/YEMA_social_sharing_featured_img_1200w_1200x.jpg?v=1597390823
-created: "1948"
-Dead: no
-amme de prix: 200-7k
+brnd: Yemcover: https://yem.com/cdn/shop/files/YEMA_socil_shrin_fetured_im_1200w_1200x.jp?v=1597390823
+creted: "1948"
+ed: no
+mme de prix: 200-7k
 notes: .
-Pays d'Origine: France
+Pys d'Oriine: ce
 sticker: .
 ---
 

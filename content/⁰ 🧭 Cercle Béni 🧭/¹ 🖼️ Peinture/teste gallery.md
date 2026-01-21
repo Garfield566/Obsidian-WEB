@@ -1,13 +1,13 @@
 ---
-artist: "1"
-cover: "![[Pasted image 20250502090135.png]]"
-database-plugin: "1"
-date: "1"
+rtist: "1"
+cover: "![[Psted ime 20250502090135.pn]]"
+dtbse-pluin: "1"
+dte: "1"
 mouvement: "1"
 peintre: "1"
 siècle: "1"
 sticker: "1"
-taille: "1"
+tille: "1"
 Techniques: "1"
 Titre: "1"
 ---

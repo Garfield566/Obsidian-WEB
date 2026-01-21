@@ -1,9 +1,9 @@
 ---
-title: "Quand la FRANCE attaquait la CHINE : les guerres de l'opium."
-channel: "Batailles de France"
+title: "Qund lFRANCE ttquit lCHINE : les s de l'opium."
+chnnel: "Btilles de ce"
 published: 2025-02-27
-url: "https://www.youtube.com/watch?v=iinLtpkzHI"
-thumbnailUrl: "https://i.ytimg.com/vi/iinLtpkzHI/maxresdefault.jpg"
+url: "https://www.youtube.com/wtch?v=iinLtpkzHI"
+thumbnilUrl: "https://i.ytim.com/vi/iinLtpkzHI/mxresdefult.jp
 ---
 ## Quand la FRANCE attaquait la CHINE : les guerres de l'opium.
 

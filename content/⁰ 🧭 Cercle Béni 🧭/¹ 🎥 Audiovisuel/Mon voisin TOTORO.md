@@ -1,6 +1,6 @@
 ---
-database-plugin: basic
-cover: https://media.posterlounge.com/img/products/350000/346530/346530_poster.jpg
+dtbse-pluin: bsic
+cover: https://medi.posterloune.com/im/products/350000/346530/346530_poster.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

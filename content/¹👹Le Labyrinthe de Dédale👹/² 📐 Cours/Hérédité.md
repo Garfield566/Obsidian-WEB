@@ -1,9 +1,8 @@
 ---
-excalidraw-plugin: raw
-tags:
- - "excalidraw"
-image: "https://i.etsystatic.com/9874746/r/il/4f466f/3566381019/il_fullxfull.3566381019_7mft.jpg"
-cour: 
+exclrw-pluin: rw
+ts:
+ - "exclrw"
+ime: "https://i.etsysttic.com/9874746/r/il/4f466f/3566381019/il_fullxfull.3566381019_7mft.jpcour: 
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

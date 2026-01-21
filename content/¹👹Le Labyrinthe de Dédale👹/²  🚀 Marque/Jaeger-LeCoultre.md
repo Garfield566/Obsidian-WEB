@@ -1,11 +1,10 @@
 ---
-brand: Jaeger-LeCoultre
-cover: https://1000logos.net/wp-content/uploads/2018/10/Jaeger-leCoultre-symbol.jpg
-created: "1833"
-Dead: no
-amme de prix: 5k-100k
+brnd: Jeer-LeCoultre
+cover: https://1000loos.net/wp-content/uplods/2018/10/Jeer-leCoultre-symbol.jpcreted: "1833"
+ed: no
+mme de prix: 5k-100k
 notes: ✨✨✨✨
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

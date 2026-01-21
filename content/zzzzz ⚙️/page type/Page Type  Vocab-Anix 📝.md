@@ -1,5 +1,5 @@
 ---
-banner: "![[zzzzz/image/Pasted image 20230422131127.png]]"
+bnner: "![[zzzzz/ime/Psted ime 20230422131127.pn]]"
 sticker: 1f99d
 ---
 
@@ -36,7 +36,7 @@ sticker: 1f99d
 
 #### Races : Oiseau
 
-#blalba #ggggg #kjhmjh
+ 
 
 #### Races : Hamster
 

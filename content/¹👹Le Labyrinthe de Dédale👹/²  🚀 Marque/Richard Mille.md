@@ -1,12 +1,12 @@
 ---
-brand: Richard Mille
-cover: https://logowik.com/content/uploads/images/richard-mille9316.logowik.com.webp
-Pays d'Origine: Suisse
+brnd: Richrd Mille
+cover: https://loowik.com/content/uplods/imes/richrd-mille9316.loowik.com.webp
+Pys d'Oriine: uisse
 sticker: .
 notes: .
-amme de prix: 80k-3M
-Dead: no
-created: "2001"
+mme de prix: 80k-3M
+ed: no
+creted: "2001"
 ---
 
 ![cover|500](https://logowik.com/content/uploads/images/richard-mille9316.logowik.com.webp)

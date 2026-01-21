@@ -5,6 +5,6 @@
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #exemple/smith/histoire_monnaie_cupidité 
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations é 
 
 ---

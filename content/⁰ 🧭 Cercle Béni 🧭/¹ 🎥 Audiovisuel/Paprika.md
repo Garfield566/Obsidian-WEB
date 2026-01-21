@@ -1,6 +1,6 @@
 ---
-database-plugin: basic
-cover: https://www.ecranlarge.com/content/uploads/2020/08/kjounohny8if6v6bhzfebli1g3w-128-scaled.jpg
+dtbse-pluin: bsic
+cover: https://www.ecrnlre.com/content/uplods/2020/08/kjounohny8if6v6bhzfebli13w-128-scled.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

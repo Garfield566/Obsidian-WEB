@@ -40,9 +40,9 @@ sticker: "1"
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Rei-Hiroe</li><li>#Sunao-Katabuchi</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Madhouse</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Mercenary</li><li></li><li>#South-Asia-Setting</li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ## **📖Synopsis**
 See also: [List of _Black Lagoon_ characters](https://en.wikipedia.org/wiki/List_of_Black_Lagoon_characters "List of Black Lagoon characters")
@@ -155,6 +155,6 @@ https://archive.org/details/04-dont-stop/OST/19+Melting+Brain.flac
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
 ###### Tags
-#EDISON #MELL #Takase_Kazuya
-#Red_fraction 
-#Opening #Ending #Remix
+ 
+ 
+ 

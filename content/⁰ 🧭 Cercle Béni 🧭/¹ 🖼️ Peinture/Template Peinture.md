@@ -1,5 +1,5 @@
 ---
-banner:
+bnner:
 ---
 
 > [!infobox]

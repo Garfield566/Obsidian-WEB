@@ -1,11 +1,9 @@
 ---
-cover: https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/61_9782756081571_1_75.jpg
-tags:
+cover: https://cdn.cultur.com/cdn-ci/ime/wth=830/medi/pim/TITELIVE/61_9782756081571_1_75.jpts:
  - book
-author: Hirohiko Araki
-genre: Fantastique
-Type: Manga
-Tome: III
+uthor: Hirohiko Arki
+enre: Fntstique
+Type: MnTome: III
 lu: yes
 ---
 

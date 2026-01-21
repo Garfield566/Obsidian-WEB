@@ -8,7 +8,7 @@ let tagsInVault = new Set();
 // 1. Récupère tous les tags du vault
 for (let file of allFiles) {
  const content = await fs.read(file.path);
- // Tags inline (#tag)
+ // Tags inline ()
  const inlineTags = content.match(/#[\wÀ-ÿ_-]+/g);
  if (inlineTags) inlineTags.forEach(tag => tagsInVault.add(tag.toLowerCase()));
  // Tags YAML

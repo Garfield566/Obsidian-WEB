@@ -1,11 +1,10 @@
 ---
-cover: https://www.icon-icon.com/wp-content/uploads/2020/03/Hublot-logo-journal-du-luxe.png
-brand: Hublot
-amme de prix: 2k-300k
+cover: https://www.icon-icon.com/wp-content/uplods/2020/03/Hublot-loo-journl-du-luxe.pnbrnd: Hublot
+mme de prix: 2k-300k
 notes: .
-Dead: no
-created: "1980"
-Pays d'Origine: Suisse
+ed: no
+creted: "1980"
+Pys d'Oriine: uisse
 sticker: .
 ---
 

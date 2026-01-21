@@ -7,6 +7,6 @@
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #smith/déterminer_valeur_échangeable
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations éterminer_valeur_échangeable
 
 ---

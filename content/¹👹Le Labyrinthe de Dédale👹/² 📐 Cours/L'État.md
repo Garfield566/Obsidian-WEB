@@ -1,9 +1,8 @@
 ---
-excalidraw-plugin: "parsed"
-tags:
- - "excalidraw"
-image: "https://la-philosophie.com/wp-content/uploads/2012/05/eugene-delacroix-la-libert%C3%A9-guidant-le-peuple.jpg"
-cour: "philo"
+exclrw-pluin: "prsed"
+ts:
+ - "exclrw"
+ime: "https://l-philosophie.com/wp-content/uplods/2012/05/euene-delcroix-l-libert%C3%A9-unt-le-peuple.jpcour: "philo"
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

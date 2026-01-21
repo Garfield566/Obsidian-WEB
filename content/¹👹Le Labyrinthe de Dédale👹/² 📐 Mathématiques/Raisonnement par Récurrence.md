@@ -1,6 +1,6 @@
 ---
 type: Théorème
-domaine: Analyse
+domine: Anlyse
 ---
 > [!infobox] Raisonnement par Récurrence (Principe)
 > 
@@ -53,4 +53,4 @@ $$\text{C'est la démonstration que } \mathcal{P}(k) \implies \mathcal{P}(k+1)$$
 
 > [!info] Applications et Liens
 >
-#Raisonnement/Récurrence
+écurrence

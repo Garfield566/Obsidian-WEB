@@ -1,12 +1,11 @@
 ---
 Type: ""
-Ingrédients principaux: 
-Ingrédients: 
-durée préparations: 
-cover: https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/nate-2070438/21780832-2-fre-FR/Cocktail-Nate.jpg
-tags:
- - cocktail
- - Tequila
+Inrédients principux: 
+Inrédients: 
+durée préprtions: 
+cover: https://resize.elle.fr/oriinl/vr/plin_site/store/imes/elle--tble/s-de-cuisine/nte-2070438/21780832-2-fre-FR/Cocktil-Nte.jpts:
+ - cocktil
+ - Tequil
 ---
 ## 🍹 Nate à la tequila
 

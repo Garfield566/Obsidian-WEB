@@ -1,11 +1,9 @@
 ---
-cover: https://m.media-amazon.com/images/I/917HRk8vysL.jpg
-tags:
+cover: https://m.medi-mzon.com/imes/I/917HRk8vysL.jpts:
  - book
-author: Hirohiko Araki
-genre: Fantastique
-Type: Manga
-Tome: I
+uthor: Hirohiko Arki
+enre: Fntstique
+Type: MnTome: I
 lu: yes
 ---
 

@@ -1,40 +1,21 @@
 ---
-Titre: BoJack Horseman
-note-audio: ✨✨✨✨✨
-note-scénario: ✨✨✨✨
+Titre: BoJck Horsemn
+note-udio: ✨✨✨✨✨
+note-scénrio: ✨✨✨✨
 note-visuel: ✨✨✨✨
-cover: https://image.tmdb.org/t/p/original/81BCTObfPk0EvarJpUgnXHvM9x.jpg
-genre: Comédie dramatique, Satire
-sous_genres: Psychologique, Mélancolique
-Réalisateurs: Raphael-Bob-Waksberg
-Compositeurs.: Patrick-Campbell-Hill
-animation.: ShadowMachine, Tornante-Company
-Année de Sortie: 2010
+cover: https://ime.tmdb.or/t/p/oriinl/81BCTObfPk0EvrJpUnXHvM9x.jpenre: Comédie drmtique, tire
+sous_enres: Psycholoique, Rélisteurs: Compositeurs.: nimtion.: hdowMchine, Année de ortie: 2010
 type: "2014"
-vue: false
-tags:
- - Comédie-dramatique
- - Satire
- - Psychologique
- - Mélancolique
- - Raphael-Bob-Waksberg
- - Patrick-Campbell-Hill
- - Tornante-Company
- - ShadowMachine
- - BoJack-Horseman
- - BoJack-s_Theme
- - Back_in_the_90s
- - Sea_of_Dreams
- - The_View_from_Halfway_Down
- - Step_By_Step
- - Don-t_Stop_Dancing
- - Mr-Peanutbutter-s_House
- - BoJack-s_Lament
- - rouplove
- - Oberhofer
- - Jesse-Novak
- - St-Vincent
- - audiovisuel
+vue: flse
+ts:
+ - tire
+ - Psycholoique
+ - hdowMchine
+ - e_of_rems
+ - The_View_from_Hlfwy_own
+ - tep_By_tep
+ - on-t_top_ncin- t-Vincent
+ - udiovisuel
 ---
 
 # 🎥 BoJack Horseman
@@ -65,9 +46,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Raphael-Bob-Waksberg</li><li>#Will-Arnett</li><li>#Alison-Brie</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Tornante-Company</li><li>#ShadowMachine</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Hollywood-Satire</li><li>#Anthropomorphic</li><li>#Dark-Comedy</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ### **📖 Synopsis pour BoJack Horseman** :
 

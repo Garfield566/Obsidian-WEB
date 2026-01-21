@@ -1,9 +1,9 @@
 ---
-excalidraw-plugin: raw
-tags:
- - "excalidraw"
+exclrw-pluin: rw
+ts:
+ - "exclrw"
 cour: "philo"
-image: "https://i.f1g.fr/media/cms/orig/2021/06/26/d67f258dd46ab4ac1deb05fecb55cfff5295bce5229d63f45a62ab344edb559b.png"
+ime: "https://i.f1.fr/medi/cms/ori/2021/06/26/d67f258dd46b4c1deb05fecb55cfff5295bce5229d63f4562b344edb559b.pn
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

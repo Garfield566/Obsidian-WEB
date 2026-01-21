@@ -9,6 +9,6 @@
 
 **Pourquoi c'est important :** Un des exemple les plus célèbre de smith, sur la division du travail avec l'exemple de la fabrique d'épingle
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #exemple/smith/la_manufacture_dépingle 
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations épingle 
 
 ---

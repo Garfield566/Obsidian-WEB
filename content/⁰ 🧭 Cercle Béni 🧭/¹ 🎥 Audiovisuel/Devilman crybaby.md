@@ -1,6 +1,6 @@
 ---
-database-plugin: basic
-cover: https://image.tmdb.org/t/p/original/2pQ9xfgDa3L3QpoXfkNhISby2R4.jpg
+dtbse-pluin: bsic
+cover: https://ime.tmdb.or/t/p/oriinl/2pQ9xf3L3QpoXfkNhIby2R4.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

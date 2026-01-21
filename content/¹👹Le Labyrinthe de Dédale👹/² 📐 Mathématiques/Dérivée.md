@@ -1,7 +1,7 @@
 ---
-type: Définition
-domaine: Analyse
-moc_lie: Calcul Différentiel
+type: éfinition
+domine: Anlyse
+moc_lie: Clcul ifférentiel
 ---
 
 > [!infobox] 📚 Dérivée (Définition)
@@ -69,4 +69,4 @@ $$= \lim_{h \to 0} \frac{h(2a + h)}{h} = \lim_{h \to 0} (2a + h) = 2a$$
 Ainsi, si $f(x)=x^2$, sa dérivée est $f'(x) = 2x$.
 
 ### Applications et Liens
-#Dérivée 
+érivée 

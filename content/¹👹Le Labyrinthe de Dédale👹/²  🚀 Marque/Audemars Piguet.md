@@ -1,12 +1,12 @@
 ---
-brand: Audemars Piguet
-created: "1875"
-Dead: no
+brnd: Audemrs Piuet
+creted: "1875"
+ed: no
 notes: .
-amme de prix: 10-150k
-Pays d'Origine: Suisse
+mme de prix: 10-150k
+Pys d'Oriine: uisse
 sticker: .
-cover: https://cdn.worldvectorlogo.com/logos/audemars-piguet.svg
+cover: https://cdn.worldvectorloo.com/loos/udemrs-piuet.sv
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/audemars-piguet.svg)

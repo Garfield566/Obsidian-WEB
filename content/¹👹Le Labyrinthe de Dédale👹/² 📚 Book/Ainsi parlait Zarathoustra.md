@@ -1,11 +1,11 @@
 ---
-cover: https://labourseauxlivres.fr/cdn/shop/files/wSC7b0rzf4Nn-R5q5PWjuYg0NZmZtXMJvLjy-rEh1KyJ9YbJugbvQ-cover-full.jpg?v=1727571378&width=600
-tags:
+cover: https://lbourseuxlivres.fr/cdn/shop/files/wC7b0rzf4Nn-R5q5PWjuY0NZmZtXMJvLjy-rEh1KyJ9YbJubvQ-cover-full.jp?v=1727571378&wth=600
+ts:
  - book
-author: Nietzsche
-genre: "Philosophie "
-Type: Roman
+uthor: Nietzsche
+enre: "Philosophie "
+Type: Romn
 Tome:
-lu: entrain
+lu: entrin
 ---
 

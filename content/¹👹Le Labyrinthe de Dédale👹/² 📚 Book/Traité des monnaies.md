@@ -1,10 +1,9 @@
 ---
-cover: https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9cQV7wxdf9_rvrYuHkSlvmQy_ImBwSiMAcZW5FUPlroKYj3wjiRI2e_gRt2gzFTjSkLBlaOILk-90f0LPjgVr4K_T6z-h3V69gHLVkDMf2iecOMERQIedCSg
-tags:
+cover: https://encrypted-tbn2.sttic.com/shoppin?q=tbn:ANd9cQV7wxdf9_rvrYuHklvmQy_ImBwiMAcZW5FUPlroKYj3wjiRI2e_Rt2zFTjkLBlOILk-90f0LPjVr4K_T6z-h3V69HLVkMf2iecOMERQIedCts:
  - book
-author: author
-genre: anime
-Type: Roman
+uthor: uthor
+enre: nime
+Type: Romn
 Tome:
 lu: no
 ---

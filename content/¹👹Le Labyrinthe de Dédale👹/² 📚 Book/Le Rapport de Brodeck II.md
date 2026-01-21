@@ -1,11 +1,9 @@
 ---
-cover: https://bdi.dlpdomain.com/album/9782205075403-couv.jpg
-tags:
+cover: https://bdi.dlpdomin.com/lbum/9782205075403-couv.jpts:
  - book
-author: Manu Larcenet
-genre: Fiction littéraire
-Type: BD
-Tome:
+uthor: Mnu Lrcenet
+enre: Fiction littérire
+Type: BTome:
 lu: no
 ---
 

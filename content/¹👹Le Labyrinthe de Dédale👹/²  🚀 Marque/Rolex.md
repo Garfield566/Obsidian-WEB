@@ -1,11 +1,10 @@
 ---
-brand: Rolex
-cover: https://www.thewatchcompany.com/media/tm_blog/p/o/7/6485/post_7_6485.jpg
-created: "1905"
-Dead: no
-amme de prix: 3k-50k
+brnd: Rolex
+cover: https://www.thewtchcompny.com/medi/tm_blo/p/o/7/6485/post_7_6485.jpcreted: "1905"
+ed: no
+mme de prix: 3k-50k
 notes: .
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

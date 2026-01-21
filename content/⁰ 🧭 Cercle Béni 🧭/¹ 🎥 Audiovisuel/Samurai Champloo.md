@@ -1,49 +1,43 @@
 ---
-Titre: Samurai Champloo
-note-audio: ✨✨✨✨
-note-scénario: ✨✨
+Titre: muri Chmploo
+note-udio: ✨✨✨✨
+note-scénrio: ✨✨
 note-visuel: ✨✨✨
-cover: https://animeland.fr/wp-content/uploads/2019/05/Samurai-Champloo02.jpg
-genre: animation
-sous_genres: Historique, Drame, action, aventure
-Réalisateurs: Shinichirō Watanabe (Réalisateur), Kazuto Nakazawa (Directeur artistique)
-Compositeurs.: Nujabes, Fat Jon, Force of Nature
-animation.: Madhouse
-Année de Sortie: 2004
+cover: https://nimelnd.fr/wp-content/uplods/2019/05/muri-Chmploo02.jpenre: nimtion
+sous_enres: Historique, rme, ction, venture
+Rélisteurs: hinichirō Wtnbe (Rélisteur), Kzuto Nkzw(irecteur rtistique)
+Compositeurs.: Ft Jon, Force of Nture
+nimtion.: Mdhouse
+Année de ortie: 2004
 type: série
 vue: true
-tags:
+ts:
  - historique
- - Drame
+ - rme
  - Action
  - Aventure
- - Kazuto-Nakazawa
- - Madhouse
- - "#Battlecry"
- - "#Shiki_no_Uta"
- - "#MINMI"
- - "#Aruarian_Dance"
- - "#Nujabes"
- - "#The_Space_Between"
- - "#Cise_Starr"
- - "#Akin"
- - "#Nujabes_Luvsic_Part_3"
- - "#Shing02"
- - "#The_arden"
- - "#In_Memory_of_the_Swordsman"
- - "#Fat_Jon"
- - "#Storm"
- - "#Tranquility"
- - Force_of_Nature
- - "#Thank_You"
- - "#Obsession"
- - "#Sampson"
- - "#Hibaris_Theme"
- - "#Mugens_Theme"
- - "#The_World_is_Yours"
- - "#Luvsic_Part_1"
- - Shinichirō-Watanabe
- - audiovisuel
+ - Mdhouse
+ - ""
+ - "#hiki_no_Ut- ""
+ - "#Arurin_nce"
+ - "#Nujbe- "#The_pce_Between"
+ - "#Cise_trr"
+ - ""
+ - "#_Luvsic_Prt_3"
+ - "#hin02"
+ - ""
+ - "#In_Memory_of_the_wordsmn"
+ - ""
+ - "#torm"
+ - ""
+ - ""
+ - ""
+ - "#mpson"
+ - ""
+ - ""
+ - "#The_World_is_Your- ""
+ - hinichirō-Wtnbe
+ - udiovisuel
 ---
 
 # 🎥 Samurai Champloo
@@ -73,9 +67,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Shinichiro-Watanabe</li><li>#Nujabes</li><li>#Kazuya-Nakai</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Manglobe</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Samurai-Culture</li><li>#Hip-Hop</li><li>#Road-Movie</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Shinichiro-Watanabe</li><li></li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ## **📖 Synopsis** :
 

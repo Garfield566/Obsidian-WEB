@@ -134,4 +134,4 @@ Une statue du général fut inaugurée le 15 août 1909 à Besançon, sa ville 
 ![](https://auth.wikimedia.org/loginwiki/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1)
 #XIX 
 
-#France #Mexique #personnage #Sébastopol #Légion-étrangère #Crimean-War 
+#France #Mexique #personnage ébastopol #Légion-étrangère #Crimean-War 

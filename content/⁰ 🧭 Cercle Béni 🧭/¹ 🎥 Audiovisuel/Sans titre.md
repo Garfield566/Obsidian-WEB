@@ -1,19 +1,18 @@
 ---
 Titre: ""
-note-audio: ✨✨✨✨✨
-note-scénario: ✨✨✨✨
+note-udio: ✨✨✨✨✨
+note-scénrio: ✨✨✨✨
 note-visuel: ✨✨✨✨
-cover: https://pbs.twimg.com/profile_images/952484198878674944/cddkhQ2y_400x400.jpg
-genre: ""
-sous_genres: ""
-Réalisateurs: ""
+cover: https://pbs.twim.com/profile_imes/952484198878674944/cddkhQ2y_400x400.jpenre: ""
+sous_enres: ""
+Rélisteurs: ""
 Compositeurs.: ""
-animation.: ""
-Année de Sortie: .nan
+nimtion.: ""
+Année de ortie: .nn
 type: ""
-vue: false
-tags:
- - audiovisuel
+vue: flse
+ts:
+ - udiovisuel
 ---
 
 # 🎥 BoJack Horseman
@@ -109,4 +108,4 @@ Au fil des saisons, la série met en lumière des questions universelles comme l
 ||_Résonance émotionnelle_ (10 points) :|0/10|
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
-#audiovisuel #marque #histoire #musique #chess #Mononoke 
+#audiovisuel #marque #histoire #musique #chess 

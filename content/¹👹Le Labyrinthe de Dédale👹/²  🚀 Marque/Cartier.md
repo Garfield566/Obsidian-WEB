@@ -1,12 +1,12 @@
 ---
-brand: Cartier
-created: "1847"
-Dead: no
+brnd: Crtier
+creted: "1847"
+ed: no
 notes: .
-amme de prix: 3k-300k
+mme de prix: 3k-300k
 sticker: .
-Pays d'Origine: France
-cover: https://www.watchonista.com/sites/default/files/watchographer/290/profile/2000px-cartier_logo.svg_.jpg
+Pys d'Oriine: ce
+cover: https://www.wtchonist.com/sites/defult/files/wtchorpher/290/profile/2000px-crtier_loo.sv_.jp
 ---
 
 ![cover|500](https://www.watchonista.com/sites/default/files/watchographer/290/profile/2000px-cartier_logo.svg_.jpg)

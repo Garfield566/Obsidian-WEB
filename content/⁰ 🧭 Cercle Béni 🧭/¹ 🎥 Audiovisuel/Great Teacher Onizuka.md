@@ -1,37 +1,25 @@
 ---
 Titre: ""
-note-audio: "✨✨✨✨✨"
-note-scénario: "✨✨✨✨"
+note-udio: "✨✨✨✨✨"
+note-scénrio: "✨✨✨✨"
 note-visuel: "✨✨✨✨"
-cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cRko3azLvdItH8mwlHIfl8I9fLUSHXUIFxUw&s"
-genre: "Comédie, Drame, Slice of life"
-sous_genres: ""
-Réalisateurs: "Noriyuki Abe"
-Compositeurs.: "Yusuke Honma"
-Scénariste: "Masashi Sogo (adaptation du manga de Tohru Fujisawa)"
-animation.: "Studio Pierrot"
-Année de Sortie: 1999
-type: "Série animée"
+cover: "https://encrypted-tbn0.sttic.com/imes?q=tbn:ANd9cRko3zLvdItH8mwlHIfl8I9fLUHXUIFxUw&enre: "Comédie, rme, lice of life"
+sous_enres: ""
+Rélisteurs: "Noriyuki Abe"
+Compositeurs.: "Yusuke Honmcénriste: "Msshi oo (dpttion du mnde Tohru Fujisw)"
+nimtion.: tudio Année de ortie: 1999
+type: érie nimée"
 vue: true
-tags:
- - "audiovisuel"
+ts:
+ - udiovisuel"
  - "Comédie"
- - "Drame"
- - "Slice_of_life"
- - "Noriyuki-Abe"
- - "Masashi-Sogo"
- - "Tohru-Fujisawa"
- - "Yusuke-Honma"
- - "Studio-Pierrot"
- - "Takagi-Wataru"
- - "Ayako-Kawasumi"
- - "Driver-s_High"
- - "Hitori_no_Yoru"
- - "Last_Piece"
- - "Shizuku"
- - "School_Life_Theme"
- - "Memories_of_Youth"
-Acteurs principaux: "(doublage ais) : Takagi Wataru (Eikichi Onizuka), Ayako Kawasumi (Azusa Fuyutsuki)"
+ - rme"
+ - lice_of_life"
+ - "Msshi-oo"
+ - tudio-- - river-s_Hih"
+ - hizuku"
+ - chool_Life_Theme"
+Acteurs principux: "(double is) : Tki Wtru (Eikichi Onizuk), Ayko Kwsumi (AzusFuyutsuki)"
 ---
 
 # 🎥 GTO
@@ -62,9 +50,9 @@ Acteurs principaux: "(doublage ais) : Takagi Wataru (Eikichi Onizuka), Ayako Kaw
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Tohru-Fujisawa</li><li>#Masayuki-Fujihara</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Pierrot</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Delinquent-Teacher</li><li>#School-Comedy</li><li>#90s-Anime</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ### **📖 Synopsis :
 

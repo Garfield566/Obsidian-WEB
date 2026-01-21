@@ -1,8 +1,7 @@
 ---
-excalidraw-plugin: raw
-tags:
- - "excalidraw"
- - s"
+exclrw-pluin: rw
+ts:
+ - "exclrw"
 cour: 
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==

@@ -9,6 +9,6 @@ Ainsi, dans cette acception vulgaire, on peut dire du travail, comme des autres 
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #smith/travail_mesure_réelle_définitive
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations éelle_définitive
 
 ---

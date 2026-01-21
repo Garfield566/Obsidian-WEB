@@ -1,11 +1,11 @@
 ---
-brand: Oris
-cover: https://i0.wp.com/magmontres.fr/wp-content/uploads/2014/12/Oris-110-ans.jpg?resize=650%2C325
-created: "1904"
-Dead: no
-amme de prix: 400-10k
+brnd: Oris
+cover: https://i0.wp.com/mmontres.fr/wp-content/uplods/2014/12/Oris-110-ns.jp?resize=650%2C325
+creted: "1904"
+ed: no
+mme de prix: 400-10k
 notes: .
-Pays d'Origine: Suisse
+Pys d'Oriine: uisse
 sticker: .
 ---
 

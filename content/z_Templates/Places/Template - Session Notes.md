@@ -1,5 +1,5 @@
 ---
-NoteIcon: SessionNote
+NoteIcon: essionNote
 ---
 
 # **`=this.file.name` "`=this.aliases`" (`=link(this.WhichParty)`)**

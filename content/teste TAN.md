@@ -1,6 +1,6 @@
 ---
-cssclass: menustable
-banner: "![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20230702214935.png]]"
+cssclss: menustble
+bnner: "![[zzzzz ⚙️/ime 1 🖼/ime bnque/Psted ime 20230702214935.pn]]"
 ---
 caca
 tube

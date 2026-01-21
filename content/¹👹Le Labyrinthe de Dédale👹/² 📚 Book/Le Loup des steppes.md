@@ -1,10 +1,9 @@
 ---
-cover: https://m.media-amazon.com/images/I/81+LVO2lkPL._SY522_.jpg
-tags:
+cover: https://m.medi-mzon.com/imes/I/81+LVO2lkPL._Y522_.jpts:
  - book
-author: Hermann Hesse
-genre: Roman d'apprentissage
-Type: Roman
+uthor: Hermnn Hesse
+enre: Romn dpprentisse
+Type: Romn
 Tome:
 lu: no
 ---

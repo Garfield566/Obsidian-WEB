@@ -1,18 +1,16 @@
 ---
-title: Any Summary
-auteur:
- - Auteur de la note (vous)
-cover: https://topai.tools/assets/img/tools/anysummary.webp
-date: Date de création ou de mise à jour de la note
-sujet: Sujet principal de la note sur l'IA
-catégorie: Fait des Résumez
-technologies: Liste des technologies ou des outils d'IA abordés dans la note
-références: Références, articles, livres ou liens pertinents
-problématique: Question ou problème lié à l'IA
-méthodologie: Méthodologie, approche ou méthodes utilisées
-résultats: Résultats ou conclusions
-discussions: Discussions, implications ou analyses
-notes_supplémentaires: Remarques ou informations supplémentaires
+title: Any ummry
+uteur:
+ - Auteur de lnote (vous)
+cover: https://topi.tools/ssets/im/tools/nysummry.webp
+dte: te de crétion ou de mise à jour de lnote
+sujet: ujet principl de lnote sur lctéorie: Fit des Résumez
+technoloies: Liste des technoloies ou des outils dbordés dns lnote
+références: Références, rticles, livres ou liens pertinents
+problémtique: Question ou problème lié à lméthodoloie: Méthodoloie, pproche ou méthodes utilisées
+résultts: Résultts ou conclusions
+discussions: iscussions, implictions ou nlyses
+notes_supplémentires: Remrques ou informtions supplémentires
 ---
 
 # **Any Summary**

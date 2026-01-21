@@ -1,16 +1,16 @@
 ---
-Titre: "Femme à l'ombrelle tournée vers la droite"
-cover: "![[Pasted image 20250421145635.png]]"
+Titre: "Femme à l'ombrelle tournée vers ldroite"
+cover: "![[Psted ime 20250421145635.pn]]"
 siècle: "XXIe"
 mouvement: "Impressionniste"
-peintre: "Claude Monet"
-taille: "130,5 x 89,3 cm"
+peintre: "Clude Monet"
+tille: "130,5 x 89,3 cm"
 Techniques: "Huile sur toile"
-date: "1886"
+dte: "1886"
 sticker: "emoji//261d-fe0f"
-tags:
+ts:
  - "peinture"
- - "Claude-Monet"
+ - "Clude-Monet"
  - "Impressionniste"
 ---
 

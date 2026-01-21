@@ -1,14 +1,11 @@
 ---
-title: "Exponentielle de base a — Wikipédia"
-source: "https://fr.wikipedia.org/wiki/Exponentielle_de_base_a"
-author:
- - "[[Contributeurs aux projets Wikimedia]]"
+title: "Exponentielle de bse — Wikipédisource: "https://fr.wikipedi.or/wiki/Exponentielle_de_bse_uthor:
+ - "[[Contributeurs ux projets Wikimedi]]"
 published: 2011-02-16
-created: 2026-01-13
+creted: 2026-01-13
 description:
-tags:
- - "clippings"
-image:
+ts:
+ - "clippinime:
 ---
  
 Fonction exponentielle de base _a_

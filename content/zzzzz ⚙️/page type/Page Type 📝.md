@@ -1,7 +1,7 @@
 ---
-banner: "![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20230422130358.png]]"
+bnner: "![[zzzzz ⚙️/ime 1 🖼/ime bnque/Psted ime 20230422130358.pn]]"
 sticker: 1f537
-banner_y: 0.71668
+bnner_y: 0.71668
 
 ---
 

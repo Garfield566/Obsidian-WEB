@@ -1,11 +1,11 @@
 ---
-brand: Lip
-cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cTnpOASsq7vfow2kqkJP8Hcq-yL26kBg0At9w&s
-created: "1867"
-Dead: no
-amme de prix: 40-3k
+brnd: Lip
+cover: https://encrypted-tbn0.sttic.com/imes?q=tbn:ANd9cTnpOAsq7vfow2kqkJP8Hcq-yL26kB0At9w&s
+creted: "1867"
+ed: no
+mme de prix: 40-3k
 notes: .
-Pays d'Origine: France
+Pys d'Oriine: ce
 sticker: .
 ---
 

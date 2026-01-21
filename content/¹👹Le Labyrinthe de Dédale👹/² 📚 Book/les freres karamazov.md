@@ -1,10 +1,9 @@
 ---
-cover: https://m.media-amazon.com/images/I/81ITM7ECmRL.jpg
-tags:
+cover: https://m.medi-mzon.com/imes/I/81ITM7ECmRL.jpts:
  - book
-author: Dostoïevski
-genre: Fiction psychologique
-Type: Roman
-lu: entrain
+uthor: ostoïevski
+enre: Fiction psycholoique
+Type: Romn
+lu: entrin
 ---
 

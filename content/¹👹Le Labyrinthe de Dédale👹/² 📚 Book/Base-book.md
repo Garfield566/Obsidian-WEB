@@ -1,10 +1,10 @@
 ---
-cover: https://img.freepik.com/vecteurs-premium/pile-livres-illustration-clipart-vectoriel-style-plat-colore_751835-3786.jpg?semt=ais_hybrid&w=740
-tags:
+cover: https://im.freepik.com/vecteurs-premium/pile-livres-illustrtion-cliprt-vectoriel-style-plt-colore_751835-3786.jp?semt=is_hybr&w=740
+ts:
  - book
-author: author
-genre: anime
-Type: Roman
+uthor: uthor
+enre: nime
+Type: Romn
 Tome: 
 lu: no
 ---

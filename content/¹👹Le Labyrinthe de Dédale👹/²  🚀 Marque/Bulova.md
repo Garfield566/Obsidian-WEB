@@ -1,11 +1,9 @@
 ---
-brand: Bulova
-cover: https://cdn.worldvectorlogo.com/logos/bulova-1.svg
-created: "1875"
-Dead: no
-amme de prix: 200-5k
+brnd: Bulovcover: https://cdn.worldvectorloo.com/loos/bulov-1.svcreted: "1875"
+ed: no
+mme de prix: 200-5k
 notes: .
-Pays d'Origine: USA
+Pys d'Oriine: UA
 sticker: .
 ---
 

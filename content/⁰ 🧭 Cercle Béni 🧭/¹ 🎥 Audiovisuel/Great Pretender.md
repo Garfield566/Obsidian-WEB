@@ -1,37 +1,24 @@
 ---
-Titre: BoJack Horseman
-note-audio: ✨✨✨✨✨
-note-scénario: ✨✨✨
+Titre: BoJck Horsemn
+note-udio: ✨✨✨✨✨
+note-scénrio: ✨✨✨
 note-visuel: ✨✨✨✨✨
-cover: https://www.lasteve.fr/wp-content/uploads/2020/09/reat-Pretender-e1599286893351.jpg
-genre: Comédie, Crime, Heist (casse)
-sous_genres: Thriller, Psychologique
-Réalisateurs: Ryota-Kosawa
-Compositeurs.: Yutaka-Yamada
-animation.: Wit-Studio
-Année de Sortie: 2020
-type: Série animée
+cover: https://www.lsteve.fr/wp-content/uplods/2020/09/ret-Pretender-e1599286893351.jpenre: Comédie, Crime, Heist (csse)
+sous_enres: Psycholoique
+Rélisteurs: Compositeurs.: Yutk-Ymdnimtion.: Wit-tudio
+Année de ortie: 2020
+type: érie nimée
 vue: true
-tags:
+ts:
  - Comédie
  - Crime
  - Heist
- - Thriller
- - Psychologique
- - Ryota-Kosawa
- - Yutaka-Yamada
- - Wit-Studio
- - reat_Pretender
- - Confidence_Man
- - Los_Angeles_Connection
- - Singapore_Sky
- - Snow_of_London
- - Wizard_of_Far_East
- - Scams_Artistry
- - Thiefs_Tale
- - Partners_in_Crime
- - Trust_and_Trickery
- - audiovisuel
+ - Psycholoique
+ - Yutk-Ymd- Wit-tudio
+ - inpore_ky
+ - now_of_London
+ - cms_Artistry
+ - udiovisuel
 ---
 
 # 🎥 **Great Pretender**
@@ -62,9 +49,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Hiro-Kaburaki</li><li>#Yutaka-Yamada</li><li>#Ryota-Kosawa</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li>#Yutaka-Yamada</li><li></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Wit-Studio</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Heist</li><li>#Con-Artists</li><li>#International-Settings</li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Heist</li><li></li><li></li></ul> |
 
 ### **📖 Synopsis pour Great Pretender** :
 

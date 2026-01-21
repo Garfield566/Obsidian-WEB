@@ -1,40 +1,20 @@
 ---
-Titre: Pluto
-note-audio: ✨✨✨✨✨
-note-scénario: ✨✨✨✨✨
+Titre: note-udio: ✨✨✨✨✨
+note-scénrio: ✨✨✨✨✨
 note-visuel: ✨✨✨
-cover: https://occ-0-8407-1723.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSLPqLtp1iCgrTTRY35j5e32rDaEXwWFAIJfJfzsAsvkrAXyVS06s5jSqQqhzOjgNWkuCH0lzWWhltaOkI8MOmo-9V1DfBXMNgi.jpg?r=ac7
-genre: Animation, Science-fiction, Thriller
-sous_genres: Science-Fiction, Thriller
-Réalisateurs: "Osamu Tezuka (Œuvre originale : Astro Boy), Naoki Urasawa & Takashi Nagasaki (Adaptation)"
-Compositeurs.: Yugo-Kanno
-animation.: M2
-Année de Sortie: 2023
+cover: https://occ-0-8407-1723.1.nflxso.net/dnm/pi/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABLPqLtp1iCrTTRY35j5e32rEXwWFAIJfJfzsAsvkrAXyV06s5jqQqhzOjNWkuCH0lzWWhltOkI8MOmo-9V1fBXMNi.jp?r=c7
+enre: Animtion, cience-fiction, sous_enres: cience-Fiction, Rélisteurs: "Osmu Tezuk(Œuvre oriinle : Astro Boy), Noki Ursw& Tkshi Nski (Adpttion)"
+Compositeurs.: Yuo-Knno
+nimtion.: Année de ortie: 2023
 type: série
 vue: true
-tags:
- - Animation
- - Science-fiction
- - Thriller
- - Pluto
- - M2
- - Osamu-Tezuka
- - Astro-Boy
- - Naoki-Urasawa
- - Takashi-Nagasaki
- - Pluto_Main_Theme
- - Memories_of_War
- - The_Last_Robot
- - Melancholy_of_esicht
- - Artificial_Soul
- - Human_and_Machine
- - Unraveling_the_Truth
- - Tragedy_in_Uran
- - Heart_of_Pluto
- - Final_Confrontation
- - Hope_in_the_Future
- - Yugo-Kanno
- - audiovisuel
+ts:
+ - Animtion
+ - cience-fiction
+ - Noki-Ursw- _Min_Theme
+ - Artificil_oul
+ - Yuo-Knno
+ - udiovisuel
 ---
 
 # 🎥 Pluto
@@ -64,9 +44,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Naoki-Urasawa</li><br><li>#Osamu-Tezuka</li><br><li>#Yugo-Kanno</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Studio-M2</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Astro-Boy-Reimagining</li><br><li>#Robot-Rights</li><br><li>#Noir-Thriller</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Naoki-Urasawa</li><br><li></li><br><li>#Yugo-Kanno</li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
 
 ## **📖 Synopsis** :
 

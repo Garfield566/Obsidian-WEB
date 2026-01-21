@@ -1,37 +1,25 @@
 ---
-Titre: Dorohedoro
-note-audio: ✨✨✨
-note-scénario: ✨✨✨
+Titre: orohedoro
+note-udio: ✨✨✨
+note-scénrio: ✨✨✨
 note-visuel: ✨✨✨✨
-cover: https://occ-0-8407-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABa5lhqmhCcInDv3CgQAsEJn_pTlcAEOaKA-n9slY5klxo0kpT91rjuOXPexMFmUx1CFkA4fISA4haOg0Zx6r5CO1PMSnJmVIw4.jpg?r=0d0
-genre: Fantasy noire, Action, Comédie noire
-sous_genres: Mystère
-Réalisateurs: Q-Hayashida (auteur du manga original)
+cover: https://occ-0-8407-114.1.nflxso.net/dnm/pi/v6/E8vc_W8CLv7-yMQu8KMEC7Rrr8/AAAAB5lhqmhCcInv3CQAsEJn_pTlcAEOKA-n9slY5klxo0kpT91rjuOXPexMFmUx1CFkA4f4hO0Zx6r5CO1PMnJmVIw4.jp?r=0d0
+enre: Fntsy Action, Comédie sous_enres: Mystère
+Rélisteurs: (uteur du mnoriinl)
 Compositeurs.: K(i)Noe
-animation.: MAPPA
-Année de Sortie: 2020
-type: Série animée
+nimtion.: MAPPA
+Année de ortie: 2020
+type: érie nimée
 vue: true
-tags:
- - Dorohedoro
- - Fantasy-noire
+ts:
+ - orohedoro
  - Action
  - Comédie
- - noire
  - Mystère
- - Q-Hayashida
- - K-NoW_NAME
- - Welcome_to_Chaos
- - Night_SURF
- - Who_Am_I
- - The_Hole-s_Melody
- - Reptilian_Revenge
- - Nikaido-s_Day
- - Sorcerer-s_Showdown
- - Magic_vs_Curse
- - Endless_Battle
- - Final_Puzzle
- - audiovisuel
+ - Niht_URF
+ - Niko-s_y
+ - orcerer-s_howdown
+ - udiovisuel
 sticker: ""
 ---
 
@@ -63,9 +51,9 @@ sticker: ""
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Q-Hayashida</li><li>#Yuichiro-Hayashi</li><li>#Hiroshi-Seko</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#MAPPA</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Dark-Fantasy</li><li>#Body-Horror</li><li>#Urban-Decay</li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ### **📖 Synopsis pour Dorohedoro** :
 

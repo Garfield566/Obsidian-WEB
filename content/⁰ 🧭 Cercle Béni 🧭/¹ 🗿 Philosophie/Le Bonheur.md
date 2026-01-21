@@ -1,9 +1,9 @@
 ---
-excalidraw-plugin: raw
-tags:
- - "excalidraw"
+exclrw-pluin: rw
+ts:
+ - "exclrw"
 cour: "philo"
-image: "https://media.beauxarts.com/uploads/2022/10/pierre-auguste_renoir_-_by_the_water-1300x1098.jpg"
+ime: "https://medi.beuxrts.com/uplods/2022/10/pierre-uuste_renoir_-_by_the_wter-1300x1098.jp
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

@@ -1,10 +1,9 @@
 ---
-brand: Breguet
-cover: https://upload.wikimedia.org/wikipedia/fr/0/02/Breguet-logo.jpg
-Pays d'Origine: Suisse
-created: "1775"
-Dead: no
-amme de prix: 5k-400k
+brnd: Breuet
+cover: https://uplod.wikimedi.or/wikipedi/fr/0/02/Breuet-loo.jpPys d'Oriine: uisse
+creted: "1775"
+ed: no
+mme de prix: 5k-400k
 notes: .
 sticker: .
 ---

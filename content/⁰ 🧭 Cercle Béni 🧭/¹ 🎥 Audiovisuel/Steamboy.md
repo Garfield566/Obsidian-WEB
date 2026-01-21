@@ -1,6 +1,6 @@
 ---
-database-plugin: basic
-cover: https://fr.web.img2.acsta.net/medias/nmedia/18/35/37/59/18388012.jpg
+dtbse-pluin: bsic
+cover: https://fr.web.im2.cst.net/medis/nmedi/18/35/37/59/18388012.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

@@ -1,12 +1,11 @@
 ---
-cover: https://www.paneraicentral.com/wp-content/uploads/2015/02/Officine_Panerai_logo.jpg
-brand: Panerai
-created: "1860"
-Dead: no
-Pays d'Origine: Italie
+cover: https://www.pnericentrl.com/wp-content/uplods/2015/02/Officine_Pneri_loo.jpbrnd: Pneri
+creted: "1860"
+ed: no
+Pys d'Oriine: Itlie
 sticker: .
 notes: .
-amme de prix: 5k-120k
+mme de prix: 5k-120k
 ---
 
 ![cover|500](https://www.paneraicentral.com/wp-content/uploads/2015/02/Officine_Panerai_logo.jpg)

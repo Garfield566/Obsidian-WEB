@@ -1,16 +1,12 @@
 ---
-Type: cocktail
-Ingrédients principaux: Tequila
-durée préparations: 4 min
-cover: https://cocktailcorner.fr/wp-content/uploads/2021/03/Tequila-Sunrise.jpg
-tags:
- - cocktail
- - Tequila
-Ingrédients: 🔸🔵 6 cl de Tequila
-Ingrédients-1: 🔸🔵 33 cl de jus d'orange
-Ingrédients-2: 🔸🔵 2 cl de sirop de grenadine
-Ingrédients-3: 🔸🔵 1 rondelle d'orange
-Ingrédients-4: 🔸🔵
+Type: cocktil
+Inrédients principux: Tequildurée préprtions: 4 min
+cover: https://cocktilcorner.fr/wp-content/uplods/2021/03/Tequil-unrise.jpts:
+ - cocktil
+ - TequilInrédients: 🔸🔵 6 cl de TequilInrédients-1: 🔸🔵 33 cl de jus d'orne
+Inrédients-2: 🔸🔵 2 cl de sirop de rendine
+Inrédients-3: 🔸🔵 1 rondelle d'orne
+Inrédients-4: 🔸🔵
 ---
 ## 🍹Tequila sunrise
 

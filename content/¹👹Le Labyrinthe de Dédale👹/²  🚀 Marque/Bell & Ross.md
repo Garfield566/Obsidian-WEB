@@ -1,11 +1,10 @@
 ---
-brand: Bell & Ross
-cover: https://cdn.worldvectorlogo.com/logos/bell-ross.svg
-created: "1992"
-Dead: no
-amme de prix: 2k-100k
+brnd: Bell & Ross
+cover: https://cdn.worldvectorloo.com/loos/bell-ross.svcreted: "1992"
+ed: no
+mme de prix: 2k-100k
 notes: .
-Pays d'Origine: France
+Pys d'Oriine: ce
 sticker: .
 ---
 

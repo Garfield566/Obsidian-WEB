@@ -1,14 +1,14 @@
 ---
-url: https://www.hervecuisine.com/recette/recette-pain-pita-cuit-a-la-poele-pain-libanais/
+url: https://www.hervecuisine.com//-pin-pit-cuit--l-poele-pin-libnis/
 title: 
-author: 
+uthor: 
 description: 
-tags:
- - clippings
+ts:
+ - clippins
  - medium
 published: 
-created: 2025-04-17T12:46:58+02:00
-cover: https://www.hervecuisine.com/wp-content/uploads/2020/04/DSC02520-351x185.jpg.webp
+creted: 2025-04-17T12:46:58+02:00
+cover: https://www.hervecuisine.com/wp-content/uplods/2020/04/C02520-351x185.jp.webp
 ---
 
 > [!infobox]
@@ -33,4 +33,4 @@ cover: https://www.hervecuisine.com/wp-content/uploads/2020/04/DSC02520-351x185.
 5. Faites cuire dans une poêle chaude sans matière grasse pour 3 à 5 minutes en retournant le pain
 6. Pour le houmous, simplement mixez tous les ingrédients sauf le persil que vous mettrez sur le houmous
 
-#recipe #galette 
+ 
