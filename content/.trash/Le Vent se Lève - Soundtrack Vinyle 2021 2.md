@@ -6,7 +6,7 @@ published:
 created: 2025-04-15
 description: "OST : Le Vent se Lève - Soundtrack [Vinyle 2021]. Date de sortie : 24/04/2021, Ref. : TJJA-10033"
 tags:
-  - "clippings"
+ - "clippings"
 image:
 ---
 [Inscription](https://www.nautiljon.com/membre/inscription.php) [Connexion](https://www.nautiljon.com/membre/login.php)
@@ -22,7 +22,7 @@ Vous devez être connecté pour pouvoir avoir des notifications
 
 [Go-goldorak](https://www.nautiljon.com/membre/profil,go-goldorak.html "Go-goldorak")
 
-![](https://www.nautiljon.com/images/ost/00/74/mini/le_vent_se_leve_-_soundtrack_vinyle_2021_23347.webp?10)  
+![](https://www.nautiljon.com/images/ost/00/74/mini/le_vent_se_leve_-_soundtrack_vinyle_2021_23347.webp?10) 
 
 J'ai écouté
 

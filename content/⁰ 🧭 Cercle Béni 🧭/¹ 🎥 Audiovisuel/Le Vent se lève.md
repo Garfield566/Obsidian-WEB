@@ -11,28 +11,9 @@ note-visuel: ✨✨✨✨✨
 note-audio: ✨✨✨✨✨
 note-scénario: ✨✨✨✨✨
 tags:
- - anime
- - Miyazaki
- - Aviation
- - uerre-mondiale
+
  - Drame
- - Joe-Hisaishi
- - The_Wind_Rises
- - Elegy_for_the_Wind
- - The_Sky_of_Hokkaido
- - The_Wind_and_the_Flowers
- - Naokos_Theme
- - Jiros_Dream
- - The_Morning_Fog
- - The_Airplane
- - A_Dream_of_the_Sky
- - The_Sky_the_Earth_and_the_Wind
- - The_Road_to_the_Wind
- - The_Wind_and_the_Birds
- - An_Empty_House
- - ghibli
- - Naokos_Song
- - A_Farewell
+
  - audiovisuel
 vue: true
 animation.: ghibli
@@ -64,9 +45,9 @@ animation.: ghibli
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Hayao-Miyazaki</li><li>#Joe-Hisaishi</li><li>#Hideaki-Anno</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Studio-Ghibli</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Biographical-Drama</li><li>#Aircraft-Design</li><li>#Miyazaki-Farewell</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ## **📖 Synopsis** :
 

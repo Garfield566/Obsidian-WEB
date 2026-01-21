@@ -2,12 +2,12 @@
 title: "Le Vent se lève (OST) Joe Hisaishi"
 source: "https://www.senscritique.com/album/le_vent_se_leve/9719529"
 author:
-  - "[[SensCritique]]"
+ - "[[SensCritique]]"
 published:
 created: 2025-04-15
 description: "Le Vent se lève (OST) est un album de Joe Hisaishi. null"
 tags:
-  - "clippings"
+ - "clippings"
 image:
 ---
 Tracks

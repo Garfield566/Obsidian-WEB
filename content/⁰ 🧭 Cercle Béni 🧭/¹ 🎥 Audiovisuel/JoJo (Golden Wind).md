@@ -5,7 +5,7 @@ note-scénario: ✨✨✨
 note-visuel: ✨✨✨✨
 cover: https://images5.alphacoders.com/108/thumb-1920-1081459.jpg
 genre: Animation, Action, Aventure
-sous_genres: " Fantastique, Mafia, Drame"
+sous_genres: " Fantastique, Drame"
 Réalisateurs: Hirohiko Araki (Auteur du manga), Naokatsu Tsuda (Réalisateur de l’anime)
 Compositeurs.: Yugo-Kanno
 animation.: " David Production"
@@ -17,27 +17,11 @@ tags:
  - Action
  - Aventure
  - Fantastique
- - Mafia
+
  - Drame
- - Hirohiko-Araki
- - Naokatsu-Tsuda
+
  - Yugo-Kanno
- - David-Production
- - JoJo
- - olden_Wind
- - Daisuke-Hasegaw
- - Il_Vento_D-Oro
- - iorno-s_Theme
- - Traitor-s_Requiem
- - Modern_Criminal
- - Torture_Dance
- - Diavolo-s_Theme
- - Bucciarati-s_Resolve
- - Stand_Proud
- - Abbacchio-s_Final_Act
- - Polpo-s_Lighter
- - Clash_and_Talking_Head
- - Eulogy_for_the_Fallen
+
  - audiovisuel
 ---
 
@@ -68,9 +52,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Hirohiko-Araki</li><li>#Yugo-Kanno</li><li>#Kensho-Ono</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#David-Production</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Stand-Battles</li><li>#Passione-Gang</li><li>#JoJo-Part-5</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li>#Yugo-Kanno</li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ## 📖 **Synopsis**
 

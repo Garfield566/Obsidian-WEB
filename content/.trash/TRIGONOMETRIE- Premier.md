@@ -1,13 +1,12 @@
 ---
 excalidraw-plugin: ""
 tags:
-  - "excalidraw"
-  - "maths"
+ - "excalidraw"
+ - "maths"
 image: "https://i.ytimg.com/vi/xcwV4SXzhLs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAAtzeovO-LQDxseMTdteSC4lRFow"
 cour: "math"
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Text Elements
 Radians α ^h9HNR8Oj
@@ -17,7 +16,6 @@ X+K*2π ^lcvedvQU
 ns α ^PzpbPsql
 
 Sin Cos ^tIahk1ph
-
 
 # Embedded files
 7d81076ca80b0375bbc3730e891883e3f6dec3f4: [[zzzzz ⚙️/image 1 🖼/image banque/Pasted Image 20240822171627_977.png]]
@@ -81,7 +79,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 701.6666666666672,
 			"height": 6.6666666666667425,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -127,7 +125,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 11.666666666666742,
 			"height": 436.66666666666697,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -173,7 +171,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 198.33333333333348,
 			"height": 205.0000000000001,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -204,7 +202,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 15,
 			"height": 18.333333333333258,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1534,7 +1532,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 290.0000000000001,
 			"height": 278.3333333333335,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1565,7 +1563,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 31.66666666666663,
 			"height": 20,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1690,7 +1688,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 3.3333333333333712,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1795,7 +1793,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 30,
 			"height": 8.333333333333371,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1920,7 +1918,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 0.0001,
 			"height": 0.0001,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1965,7 +1963,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 0.0001,
 			"height": 0.0001,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -2010,7 +2008,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 556.6666666666671,
 			"height": 30,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -2259,7 +2257,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 18.333333333333258,
 			"height": 473.3333333333337,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -2720,7 +2718,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 0.0001,
 			"height": 0.0001,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -2765,7 +2763,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 453.3333333333336,
 			"height": 500.0000000000002,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -6074,7 +6072,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 73.33333333333337,
 			"height": 125.00000000000011,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -6363,7 +6361,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 25,
 			"height": 35,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -6484,7 +6482,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 48.33333333333337,
 			"height": 8.333333333333371,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -6573,7 +6571,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 20,
 			"height": 36.66666666666674,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -6670,7 +6668,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 60,
 			"height": 8.333333333333371,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -7176,7 +7174,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 46.66666666666674,
 			"height": 303.3333333333336,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -7427,7 +7425,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 65,
 			"height": 353.3333333333335,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -7726,7 +7724,7 @@ d25b06d50e95b1e760ba9c1d20f60bf4b3e00d6d: [[zzzzz ⚙️/image 1 🖼/image banq
 			"width": 10,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,

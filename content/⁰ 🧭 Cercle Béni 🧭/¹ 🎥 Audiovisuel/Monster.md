@@ -143,4 +143,4 @@ Neuf ans plus tard alors que Tenma est sur le point de devenir le directeur d'h√
 ###### Soundtrack-Tags 
 | | |
 |---|---|
-| **Tracks** | <ul style="margin: 0; padding-left: 15px;"><li>#For_the_love_of_life</li><li>#Grain</li><li>#Drift_mind</li><li>#Angel_hand</li><li>#Red_line</li><li>#All_tracks</li></ul> |
+| **Tracks** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li><li></li><li></li><li></li></ul> |

@@ -133,4 +133,4 @@ nationalité: Prussian
 
 ## Liens Obsidienne
 
- #economy #Karl-Marx #philosophie #économie #finance #Adam-Smith #David-Ricardo #Charles-Fourier #russian_empire #France #polish #Crimean-War #The_Communist_Manifesto #Das_Kapital #Prussia #Communism #XIX 
+ #economy #Karl-Marx #philosophie #économie #finance #Adam-Smith #David-Ricardo #Charles-Fourier #russian_empire #France #polish #Crimean-War #Communism #XIX 

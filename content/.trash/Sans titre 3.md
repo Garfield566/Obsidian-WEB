@@ -7,7 +7,7 @@ NoteSource: "Forgotten Realms Wiki"
 > # Pierre Joseph Jeanningros — Wikipédia
 > ![](https://upload.wikimedia.org/wikipedia/commons/2/26/G%C3%A9n%C3%A9ral_Jeanningros.jpg)
 > ###### Stats
-> | Name |  Value |
+> | Name | Value |
 > | --- | --- |
 {{"Add the aside.portable-infobox content here. It should be formatted as: '> | Name | Value |' as one line per element, do not add the table headings as I have already added them manually."}}
 

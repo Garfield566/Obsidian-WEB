@@ -8,6 +8,6 @@ Il est vraisemblable qu'on songea, pour cette nécessité, à différentes denr�
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #exemple/smith/utilisation_monnaie
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations 
 
 ---

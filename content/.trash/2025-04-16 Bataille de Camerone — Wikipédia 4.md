@@ -2,8 +2,8 @@
 NoteSource: "Wikipédia"
 title: "Bataille de Camerone — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2003-07-16
 modified: "2025-03-17"
 created: 2025-04-16
@@ -13,8 +13,8 @@ infobox:
 NoteSource: "Wikipédia"
 title: "Bataille de Camerone — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2003-07-16
 modified: 2025-03-17
 created: 2025-04-16
@@ -27,7 +27,7 @@ created: 2025-04-16
 > | Clé | Valeur |
 > | --- | --- |
 > 
-> |  |  |
+> | | |
 > 
 
 Défaire Ctrl+Z Refaire Ctrl+Maj+Z, Ctrl+Y
@@ -64,7 +64,7 @@ Description de cette image, également commentée ci-après
 
 Relève des blessés par les soldats mexicains.
 
-| Date |  |
+| Date | |
 | --- | --- |
 | Lieu | [Camarón de Tejeda](https://fr.wikipedia.org/wiki/Camar%C3%B3n_de_Tejeda "Camarón de Tejeda") (Camerone) |
 | Issue | Victoire mexicaine |
@@ -72,13 +72,13 @@ Relève des blessés par les soldats mexicains.
 | [Empire français](https://fr.wikipedia.org/wiki/Second_Empire "Second Empire") | [République mexicaine](https://fr.wikipedia.org/wiki/Mexique "Mexique") |
 | --- | --- |
 
-| • [Jean Danjou](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") †   • [Jean Vilain](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") †   • [Clément Maudet](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") † | • [Francisco de Paula Milán](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán") |
+| • [Jean Danjou](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") † • [Jean Vilain](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") † • [Clément Maudet](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") † | • [Francisco de Paula Milán](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán") |
 | --- | --- |
 
-| 65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") | 650 fantassins   200 cavaliers |
+| 65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") | 650 fantassins 200 cavaliers |
 | --- | --- |
 
-| 33 morts   31 blessés | 190 morts   300 blessés |
+| 33 morts 31 blessés | 190 morts 300 blessés |
 | --- | --- |
 
 [Expédition du Mexique](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique")
@@ -167,11 +167,11 @@ Par décision du 4 octobre 1863, le ministre de la Guerre, le [général Randon]
 
 Un monument est érigé sur le site du combat en 1892. Son état d'abandon incite en 1948 le colonel Penette à en dresser un nouveau, inauguré officiellement en 1963 [^10]. Sur ce dernier figure l'inscription:
 
-*Ils furent ici moins de soixante*  
-*Opposés à toute une armée.*  
-*Sa masse les écrasa.*  
-*La vie plutôt que le courage*  
-*Abandonna ces soldats français*  
+*Ils furent ici moins de soixante* 
+*Opposés à toute une armée.* 
+*Sa masse les écrasa.* 
+*La vie plutôt que le courage* 
+*Abandonna ces soldats français* 
 *À Camerone le 30 avril 1863*
 
 Depuis, les militaires mexicains rendent hommage aux soldats mexicains et français tombés ce jour-là en présentant les armes lorsqu'ils passent devant ce monument. L'usage militaire mexicain veut que cette présentation d'armes se déroule dans le plus grand silence, sans sonnerie de musique ni ordre vocal. Il est toujours en usage et les tombes des soldats français morts sont entretenues par le gouvernement mexicain sous le contrôle de l'ambassadeur de France et de son attaché militaire [^11].
@@ -188,7 +188,7 @@ Le 30 avril 1925, également pour la première fois dans l'histoire de la Légio
 
 Commémoration de la bataille de Camerone le 30 avril 1925 à Sidi Bel Abbès. Le lieutenant-colonel Paul-Frédéric Rollet, nouveau chef de corps du 1er régiment étranger, porte son drapeau. A ses côtés le capitaine Emile Eck porte la main du capitaine Danjou.
 
-  
+ 
 En 1954, lors du siège de [Diên Biên Phu](https://fr.wikipedia.org/wiki/Bataille_de_Di%C3%AAn_Bi%C3%AAn_Phu "Bataille de Diên Biên Phu"), afin de respecter la tradition, le récit du combat est lu à la radio par le lieutenant-colonel Lemeunier [^13].
 
 Aujourd'hui, la main du capitaine Danjou est conservée dans la crypte du [musée de la Légion étrangère](https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_%C3%A9trang%C3%A8re "Musée de la Légion étrangère") à [Aubagne](https://fr.wikipedia.org/wiki/Aubagne "Aubagne").
@@ -271,7 +271,7 @@ Bataille de Camerone
 
 Relève des blessés par les soldats mexicains.
 
-| Date |  |
+| Date | |
 | --- | --- |
 | Lieu | [Camarón de Tejeda](https://fr.wikipedia.org/wiki/Camar%C3%B3n_de_Tejeda "Camarón de Tejeda") (Camerone) |
 | Issue | Victoire mexicaine |
@@ -279,13 +279,13 @@ Relève des blessés par les soldats mexicains.
 | [Empire français](https://fr.wikipedia.org/wiki/Second_Empire "Second Empire") | [République mexicaine](https://fr.wikipedia.org/wiki/Mexique "Mexique") |
 | --- | --- |
 
-| • [Jean Danjou](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") †   • [Jean Vilain](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") †   • [Clément Maudet](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") † | • [Francisco de Paula Milán](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán") |
+| • [Jean Danjou](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") † • [Jean Vilain](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") † • [Clément Maudet](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") † | • [Francisco de Paula Milán](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán") |
 | --- | --- |
 
-| 65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") | 650 fantassins   200 cavaliers |
+| 65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") | 650 fantassins 200 cavaliers |
 | --- | --- |
 
-| 33 morts   31 blessés | 190 morts   300 blessés |
+| 33 morts 31 blessés | 190 morts 300 blessés |
 | --- | --- |
 
 [Expédition du Mexique](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique")
@@ -296,25 +296,25 @@ Batailles
 
 Géolocalisation sur la carte: [Mexique](https://fr.wikipedia.org/wiki/Mexique "Mexique")
 
-|  |
+| |
 | --- |
 
 Géolocalisation sur la carte: [Veracruz](https://fr.wikipedia.org/wiki/Veracruz_\(%C3%89tat\) "Veracruz (État)")
 
-|  |
+| |
 | --- |
 
-La **bataille de Camerone** ou **combat de Camerone**, est la défaite héroïque d'une  [ compagnie ](https://fr.wikipedia.org/wiki/Compagnie_\(militaire\) "Compagnie (militaire)")  de la  [ Légion étrangère ](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère")  contre les troupes mexicaines, le lors de l'  [ expédition du Mexique ](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique") .
+La **bataille de Camerone** ou **combat de Camerone**, est la défaite héroïque d'une [ compagnie ](https://fr.wikipedia.org/wiki/Compagnie_\(militaire\) "Compagnie (militaire)") de la [ Légion étrangère ](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") contre les troupes mexicaines, le lors de l' [ expédition du Mexique ](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique") .
 
-Soixante-deux soldats de la Légion (soixante-cinq, selon le  [ récit ](https://fr.wikipedia.org/wiki/R%C3%A9cit_de_Camerone "Récit de Camerone") ) sont assiégés dans une * [ hacienda ](https://fr.wikipedia.org/wiki/Hacienda "Hacienda") * du petit village de  [ Camarón de Tejeda ](https://fr.wikipedia.org/wiki/Camar%C3%B3n_de_Tejeda "Camarón de Tejeda")  («Camerone» en français). Ils résistent durant une journée à l'assaut de 2 000 soldats et cavaliers mexicains. À 18 heures, à court de munitions, les trois légionnaires encore en état de combattre s’apprêtent à charger à la baïonnette jusqu'à une mort certaine <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>. Commandés par le  [ caporal ](https://fr.wikipedia.org/wiki/Caporal "Caporal")   [ Philippe Maine ](https://fr.wikipedia.org/wiki/Philippe_Maine "Philippe Maine") , ils se rendent à l'ennemi à condition de garder leurs armes et de pouvoir soigner leurs blessés, notamment leur  [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant")  ( [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") ) blessé peu de temps avant <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>.
+Soixante-deux soldats de la Légion (soixante-cinq, selon le [ récit ](https://fr.wikipedia.org/wiki/R%C3%A9cit_de_Camerone "Récit de Camerone") ) sont assiégés dans une * [ hacienda ](https://fr.wikipedia.org/wiki/Hacienda "Hacienda") * du petit village de [ Camarón de Tejeda ](https://fr.wikipedia.org/wiki/Camar%C3%B3n_de_Tejeda "Camarón de Tejeda") («Camerone» en français). Ils résistent durant une journée à l'assaut de 2 000 soldats et cavaliers mexicains. À 18 heures, à court de munitions, les trois légionnaires encore en état de combattre s’apprêtent à charger à la baïonnette jusqu'à une mort certaine <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>. Commandés par le [ caporal ](https://fr.wikipedia.org/wiki/Caporal "Caporal") [ Philippe Maine ](https://fr.wikipedia.org/wiki/Philippe_Maine "Philippe Maine") , ils se rendent à l'ennemi à condition de garder leurs armes et de pouvoir soigner leurs blessés, notamment leur [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant") ( [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") ) blessé peu de temps avant <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>.
 
 La bataille de Camerone est célébrée le 30 avril de chaque année comme un haut fait de la Légion étrangère dans toutes ses unités.
 
 ## Préambule
 
-En 1863, pendant l'  [ expédition du Mexique ](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique") , le corps expéditionnaire français  [ assiège Puebla ](https://fr.wikipedia.org/wiki/Bataille_de_Puebla "Bataille de Puebla") . Le  [ régiment étranger ](https://fr.wikipedia.org/wiki/1er_r%C3%A9giment_%C3%A9tranger "1er régiment étranger")  est alors chargé d'escorter les convois entre  [ Veracruz ](https://fr.wikipedia.org/wiki/Veracruz "Veracruz")  et Puebla, disséminant ses compagnies le long des 80 km de l'itinéraire. Le  [ colonel ](https://fr.wikipedia.org/wiki/Colonel_\(France\) "Colonel (France)")   [ Pierre Joseph Jeanningros ](https://fr.wikipedia.org/wiki/Pierre_Joseph_Jeanningros "Pierre Joseph Jeanningros") , commandant du régiment étranger, est installé à Chiquihuite, au milieu du dispositif <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>2<span>]</span></span></a></sup>.
+En 1863, pendant l' [ expédition du Mexique ](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique") , le corps expéditionnaire français [ assiège Puebla ](https://fr.wikipedia.org/wiki/Bataille_de_Puebla "Bataille de Puebla") . Le [ régiment étranger ](https://fr.wikipedia.org/wiki/1er_r%C3%A9giment_%C3%A9tranger "1er régiment étranger") est alors chargé d'escorter les convois entre [ Veracruz ](https://fr.wikipedia.org/wiki/Veracruz "Veracruz") et Puebla, disséminant ses compagnies le long des 80 km de l'itinéraire. Le [ colonel ](https://fr.wikipedia.org/wiki/Colonel_\(France\) "Colonel (France)") [ Pierre Joseph Jeanningros ](https://fr.wikipedia.org/wiki/Pierre_Joseph_Jeanningros "Pierre Joseph Jeanningros") , commandant du régiment étranger, est installé à Chiquihuite, au milieu du dispositif <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>2<span>]</span></span></a></sup>.
 
-Le 29 avril 1863, un convoi français part du port de  [ Veracruz ](https://fr.wikipedia.org/wiki/Veracruz_\(Veracruz\) "Veracruz (Veracruz)")  avec des vivres, du matériel de  [ siège ](https://fr.wikipedia.org/wiki/Si%C3%A8ge_\(militaire\) "Siège (militaire)") , des médicaments, des munitions, quatre millions de  [ francs ](https://fr.wikipedia.org/wiki/Franc_fran%C3%A7ais "Franc français")  en pièces d'or et de nombreuses pièces d'artilleries vitales pour la bataille de Puebla <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>. Renseigné par une éclaireuse amérindienne de l'attaque possible du convoi, le colonel Jeanningros envoie une compagnie aux devants de celui-ci. Les deux compagnies d'intervention étant déjà engagées dans des escortes, c'est la 3 <sup>e</sup>  [ compagnie ](https://fr.wikipedia.org/wiki/Compagnie_\(militaire\) "Compagnie (militaire)")  qui reçoit la mission d'explorer les abords de Palo Verde avant l'arrivée du convoi.
+Le 29 avril 1863, un convoi français part du port de [ Veracruz ](https://fr.wikipedia.org/wiki/Veracruz_\(Veracruz\) "Veracruz (Veracruz)") avec des vivres, du matériel de [ siège ](https://fr.wikipedia.org/wiki/Si%C3%A8ge_\(militaire\) "Siège (militaire)") , des médicaments, des munitions, quatre millions de [ francs ](https://fr.wikipedia.org/wiki/Franc_fran%C3%A7ais "Franc français") en pièces d'or et de nombreuses pièces d'artilleries vitales pour la bataille de Puebla <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>. Renseigné par une éclaireuse amérindienne de l'attaque possible du convoi, le colonel Jeanningros envoie une compagnie aux devants de celui-ci. Les deux compagnies d'intervention étant déjà engagées dans des escortes, c'est la 3 <sup>e</sup> [ compagnie ](https://fr.wikipedia.org/wiki/Compagnie_\(militaire\) "Compagnie (militaire)") qui reçoit la mission d'explorer les abords de Palo Verde avant l'arrivée du convoi.
 
 La compagnie ne dispose pas d'officier pour être commandée. Les officiers sont tous atteints du «
 
@@ -322,11 +322,11 @@ La compagnie ne dispose pas d'officier pour être commandée. Les officiers sont
 
 vómito negro
 
-», le «vomi noir» c’est-à-dire la  [ fièvre jaune ](https://fr.wikipedia.org/wiki/Fi%C3%A8vre_jaune "Fièvre jaune") , comme nombre de membres du corps expéditionnaire. Le capitaine  [ Jean Danjou ](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") ,  [ adjudant-major ](https://fr.wikipedia.org/wiki/Adjudant#France "Adjudant#France")  du régiment, se porte volontaire pour la commander. Le  [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant")   [ Jean Vilain ](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain")  (trésorier payeur par intérim du  [ régiment ](https://fr.wikipedia.org/wiki/R%C3%A9giment "Régiment") ) et le  [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant")   [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet")  (porte-drapeau) demandent à l'accompagner.
+», le «vomi noir» c’est-à-dire la [ fièvre jaune ](https://fr.wikipedia.org/wiki/Fi%C3%A8vre_jaune "Fièvre jaune") , comme nombre de membres du corps expéditionnaire. Le capitaine [ Jean Danjou ](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") , [ adjudant-major ](https://fr.wikipedia.org/wiki/Adjudant#France "Adjudant#France") du régiment, se porte volontaire pour la commander. Le [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant") [ Jean Vilain ](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") (trésorier payeur par intérim du [ régiment ](https://fr.wikipedia.org/wiki/R%C3%A9giment "Régiment") ) et le [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant") [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") (porte-drapeau) demandent à l'accompagner.
 
-Le régiment étranger envoie ainsi le 30 avril au matin les soixante-cinq fantassins valides qu'il reste de la 3 <sup>e</sup> compagnie  <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>, encadrés par trois officiers, éclairer la progression du convoi.
+Le régiment étranger envoie ainsi le 30 avril au matin les soixante-cinq fantassins valides qu'il reste de la 3 <sup>e</sup> compagnie <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>, encadrés par trois officiers, éclairer la progression du convoi.
 
-Le colonel mexicain  [ Francisco de Paula Milán ](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán") , commandant une force de 1 200 fantassins répartis en trois bataillons, dont un de  [ miliciens ](https://fr.wikipedia.org/wiki/Milice "Milice") , ainsi que de 500 cavaliers réguliers appuyés par 300 irréguliers *bandideros* à cheval, est alerté de leur passage. Il envoie aussitôt les irréguliers dont il dispose en reconnaissance afin de se renseigner sur l'unité française. Un historien amateur aurait retrouvé dans les archives mexicaines le courrier de compte rendu fait par ce colonel très expérimenté de l'armée insurgée, écrit le soir même du 30 avril 1863, au général  [ Ignacio Comonfort ](https://fr.wikipedia.org/wiki/Ignacio_Comonfort "Ignacio Comonfort") , commandant en chef de l'armée républicaine. Sa version des combats de Camerone souligne le courage hors pair des légionnaires. Philippe Maine fait un compte rendu exhaustif de ce combat dès le mois de décembre 1863 dans un journal du  [ Périgord ](https://fr.wikipedia.org/wiki/P%C3%A9rigord "Périgord")  (L'écho de Vesone). Le compte rendu officiel établi par le chef de bataillon Régnault, commandant le régiment étranger par intérim en septembre 1863, n'est rendu public que 30 ans après les faits <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>.
+Le colonel mexicain [ Francisco de Paula Milán ](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán") , commandant une force de 1 200 fantassins répartis en trois bataillons, dont un de [ miliciens ](https://fr.wikipedia.org/wiki/Milice "Milice") , ainsi que de 500 cavaliers réguliers appuyés par 300 irréguliers *bandideros* à cheval, est alerté de leur passage. Il envoie aussitôt les irréguliers dont il dispose en reconnaissance afin de se renseigner sur l'unité française. Un historien amateur aurait retrouvé dans les archives mexicaines le courrier de compte rendu fait par ce colonel très expérimenté de l'armée insurgée, écrit le soir même du 30 avril 1863, au général [ Ignacio Comonfort ](https://fr.wikipedia.org/wiki/Ignacio_Comonfort "Ignacio Comonfort") , commandant en chef de l'armée républicaine. Sa version des combats de Camerone souligne le courage hors pair des légionnaires. Philippe Maine fait un compte rendu exhaustif de ce combat dès le mois de décembre 1863 dans un journal du [ Périgord ](https://fr.wikipedia.org/wiki/P%C3%A9rigord "Périgord") (L'écho de Vesone). Le compte rendu officiel établi par le chef de bataillon Régnault, commandant le régiment étranger par intérim en septembre 1863, n'est rendu public que 30 ans après les faits <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>1<span>]</span></span></a></sup>.
 
 ## Déroulement
 
@@ -336,17 +336,17 @@ Le capitaine Jean Danjou.
 
 Insérer un paragraphe
 
-Partie de Chiquihuite vers 1 h du matin, la compagnie passe devant le poste de  [ Paso del Macho ](https://fr.wikipedia.org/wiki/Paso_del_Macho "Paso del Macho")  (le *passage du mâle*), commandé par le  [ capitaine ](https://fr.wikipedia.org/wiki/Capitaine_\(France\) "Capitaine (France)")   [ Félix Gustave Saussier ](https://fr.wikipedia.org/wiki/F%C3%A9lix_Gustave_Saussier "Félix Gustave Saussier")  [^3] et poursuit sa route. Après avoir dépassé le groupe de maisons appelé  [ Camarón de Tejeda ](https://fr.wikipedia.org/wiki/Camar%C3%B3n_de_Tejeda "Camarón de Tejeda")  (55 km à l'ouest de  [ Veracruz ](https://fr.wikipedia.org/wiki/Veracruz_\(Veracruz\) "Veracruz (Veracruz)") ), elle arrive à Palo Verde vers 7 h du matin, après avoir parcouru à  [ marche forcée ](https://fr.wikipedia.org/wiki/Marche_forc%C3%A9e "Marche forcée")  les vingt-quatre kilomètres qui la séparent de sa garnison de départ. Les légionnaires s'arrêtent alors pour faire le café.
+Partie de Chiquihuite vers 1 h du matin, la compagnie passe devant le poste de [ Paso del Macho ](https://fr.wikipedia.org/wiki/Paso_del_Macho "Paso del Macho") (le *passage du mâle*), commandé par le [ capitaine ](https://fr.wikipedia.org/wiki/Capitaine_\(France\) "Capitaine (France)") [ Félix Gustave Saussier ](https://fr.wikipedia.org/wiki/F%C3%A9lix_Gustave_Saussier "Félix Gustave Saussier") [^3] et poursuit sa route. Après avoir dépassé le groupe de maisons appelé [ Camarón de Tejeda ](https://fr.wikipedia.org/wiki/Camar%C3%B3n_de_Tejeda "Camarón de Tejeda") (55 km à l'ouest de [ Veracruz ](https://fr.wikipedia.org/wiki/Veracruz_\(Veracruz\) "Veracruz (Veracruz)") ), elle arrive à Palo Verde vers 7 h du matin, après avoir parcouru à [ marche forcée ](https://fr.wikipedia.org/wiki/Marche_forc%C3%A9e "Marche forcée") les vingt-quatre kilomètres qui la séparent de sa garnison de départ. Les légionnaires s'arrêtent alors pour faire le café.
 
-C'est alors qu'ils repèrent les Mexicains. Le capitaine  [ Jean Danjou ](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou")  se replie dans le village. À peine sont-ils arrivés sur les lieux qu'un coup de feu claque, blessant un légionnaire <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>2<span>]</span></span></a></sup>. La colonne dépasse alors le groupe de maisons. C'est à ce moment que les 300 cavaliers irréguliers du colonel Milán chargent la troupe qui adopte une formation en carré. La première salve, tirée par deux des côtés du carré, brise la charge et met en fuite les Mexicains.
+C'est alors qu'ils repèrent les Mexicains. Le capitaine [ Jean Danjou ](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") se replie dans le village. À peine sont-ils arrivés sur les lieux qu'un coup de feu claque, blessant un légionnaire <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>2<span>]</span></span></a></sup>. La colonne dépasse alors le groupe de maisons. C'est à ce moment que les 300 cavaliers irréguliers du colonel Milán chargent la troupe qui adopte une formation en carré. La première salve, tirée par deux des côtés du carré, brise la charge et met en fuite les Mexicains.
 
-La compagnie se déplace alors derrière une haie de cactus, en haut d'un talus, position estimée plus propice par Danjou à la défense. Après y avoir repoussé une seconde charge de la  [ cavalerie ](https://fr.wikipedia.org/wiki/Cavalerie "Cavalerie")  irrégulière mexicaine, le capitaine Danjou et ses hommes se réfugient dans l'hacienda (la ferme). Le capitaine espère pouvoir tenir suffisamment longtemps dans le couvert offert par cette ruine, face aux troupes du colonel Milán. Il souhaite y attendre l'éventuel renfort d'autres troupes françaises, notamment de la compagnie de grenadiers du capitaine Saussier, en garnison au poste de Paso del Macho. Au cours du repli vers le bâtiment, les deux mules qui transportent les vivres et les munitions, effrayées par le bruit, échappent à leur contrôle et s'enfuient, suivant les chevaux des cavaliers mexicains.
+La compagnie se déplace alors derrière une haie de cactus, en haut d'un talus, position estimée plus propice par Danjou à la défense. Après y avoir repoussé une seconde charge de la [ cavalerie ](https://fr.wikipedia.org/wiki/Cavalerie "Cavalerie") irrégulière mexicaine, le capitaine Danjou et ses hommes se réfugient dans l'hacienda (la ferme). Le capitaine espère pouvoir tenir suffisamment longtemps dans le couvert offert par cette ruine, face aux troupes du colonel Milán. Il souhaite y attendre l'éventuel renfort d'autres troupes françaises, notamment de la compagnie de grenadiers du capitaine Saussier, en garnison au poste de Paso del Macho. Au cours du repli vers le bâtiment, les deux mules qui transportent les vivres et les munitions, effrayées par le bruit, échappent à leur contrôle et s'enfuient, suivant les chevaux des cavaliers mexicains.
 
-Une fois dans l'hacienda, les légionnaires s'empressent de barricader l'enceinte du mieux qu'ils peuvent, à l'aide des débris trouvés sur place. Le  [ sergent ](https://fr.wikipedia.org/wiki/Sergent "Sergent") , Vicente Morzycki, se poste sur le toit du bâtiment principal pour observer les mouvements de l'ennemi. Les Mexicains occupent rapidement l'étage de ce bâtiment et une partie du rez-de-chaussée à l'exception d'une pièce. Ils repoussent par la suite les légionnaires qui occupent cette dernière, par leurs tirs provenant des chambres de l'étage. Ils sont alors maîtres du corps de ferme. Il est déjà dix heures du matin et les hommes du capitaine Danjou, qui n'ont rien mangé depuis la veille commencent à souffrir de la soif et de la chaleur. Un officier mexicain, le capitaine  [ Ramon Laisné ](https://fr.wikipedia.org/wiki/Ramon_Laisn%C3%A9 "Ramon Laisné")  somme les Français de se rendre, ce à quoi le capitaine Danjou fait répondre: «Nous avons des cartouches et ne nous rendrons pas!». Il fait alors jurer à ses hommes de lutter jusqu'au bout.
+Une fois dans l'hacienda, les légionnaires s'empressent de barricader l'enceinte du mieux qu'ils peuvent, à l'aide des débris trouvés sur place. Le [ sergent ](https://fr.wikipedia.org/wiki/Sergent "Sergent") , Vicente Morzycki, se poste sur le toit du bâtiment principal pour observer les mouvements de l'ennemi. Les Mexicains occupent rapidement l'étage de ce bâtiment et une partie du rez-de-chaussée à l'exception d'une pièce. Ils repoussent par la suite les légionnaires qui occupent cette dernière, par leurs tirs provenant des chambres de l'étage. Ils sont alors maîtres du corps de ferme. Il est déjà dix heures du matin et les hommes du capitaine Danjou, qui n'ont rien mangé depuis la veille commencent à souffrir de la soif et de la chaleur. Un officier mexicain, le capitaine [ Ramon Laisné ](https://fr.wikipedia.org/wiki/Ramon_Laisn%C3%A9 "Ramon Laisné") somme les Français de se rendre, ce à quoi le capitaine Danjou fait répondre: «Nous avons des cartouches et ne nous rendrons pas!». Il fait alors jurer à ses hommes de lutter jusqu'au bout.
 
-Les Mexicains mettent le feu au bâtiment principal de l’hacienda et tentent, sans y parvenir, de pénétrer dans la cour du bâtiment par les ouvertures existant dans le mur d'enceinte: les deux entrées principales ainsi qu'une brèche. Le capitaine Danjou est frappé d'une balle en plein cœur à la mi-journée et c’est au  [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant")   [ Jean Vilain ](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain")  que revient le commandement.
+Les Mexicains mettent le feu au bâtiment principal de l’hacienda et tentent, sans y parvenir, de pénétrer dans la cour du bâtiment par les ouvertures existant dans le mur d'enceinte: les deux entrées principales ainsi qu'une brèche. Le capitaine Danjou est frappé d'une balle en plein cœur à la mi-journée et c’est au [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant") [ Jean Vilain ](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") que revient le commandement.
 
-Vers 14 h, c’est au tour du sous-lieutenant Jean Vilain de tomber, frappé en plein front. Le  [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant")   [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet")  prend alors le commandement.
+Vers 14 h, c’est au tour du sous-lieutenant Jean Vilain de tomber, frappé en plein front. Le [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant") [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") prend alors le commandement.
 
 À 17 h, il ne reste plus que douze hommes en état de combattre. C'est à ce moment-là que le colonel mexicain rassemble ses hommes et leur dit de quelle honte ils vont se couvrir s’ils n’arrivent pas à abattre les soldats français restants.
 
@@ -354,21 +354,21 @@ Vers 14 h, c’est au tour du sous-lieutenant Jean Vilain de tomber, frappé en 
 
 Le caporal Philippe Maine.
 
-Neuf heures durant, les légionnaires affrontent les troupes mexicaines sans boire, accablés par la chaleur des Hautes-Plaines, étouffés par la fumée des incendies. En fin d'après-midi, il ne reste en état de combattre que le sous-lieutenant Maudet, le  [ caporal ](https://fr.wikipedia.org/wiki/Caporal "Caporal")   [ Philippe Maine ](https://fr.wikipedia.org/wiki/Philippe_Maine "Philippe Maine") , les légionnaires Catteau, Wensel, Constantin (Belge d’origine) et Leonhard (d’origine belge également). Au signal de l'  [ officier ](https://fr.wikipedia.org/wiki/Officier "Officier") , ils déchargent leurs fusils et chargent à la baïonnette. Victor Catteau, légionnaire d'origine belge, meurt, criblé de 19 balles en protégeant le sous-lieutenant de son corps <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>2<span>]</span></span></a></sup> ; celui-ci est lui-même blessé à deux reprises. Sous les ordres du colonel  [ Angel Lucido Cambas ](https://fr.wikipedia.org/wiki/Angel_Lucido_Cambas "Angel Lucido Cambas") , un officier mexicain d'origine française, le lieutenant  [ Ramon Laisné ](https://fr.wikipedia.org/wiki/Ramon_Laisn%C3%A9 "Ramon Laisné")  <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>2<span>]</span></span></a></sup> somme alors les survivants de se rendre. Maine répond: «Nous nous rendrons si vous nous faites la promesse la plus formelle de relever et de soigner notre sous-lieutenant et tous nos camarades atteints, comme lui, de blessures; si vous nous promettez de nous laisser notre fourniment et nos armes. Enfin, nous nous rendrons, si vous vous engagez à dire à qui voudra l'entendre que, jusqu'au bout, nous avons fait notre devoir.» «On ne refuse rien à des hommes comme vous», répond alors l'officier mexicain. Il ajoute ensuite: «Mais parlez-moi en français. Mes hommes pourraient croire que vous êtes des Espagnols du parti conservateur, et ils vous massacreraient.» 
+Neuf heures durant, les légionnaires affrontent les troupes mexicaines sans boire, accablés par la chaleur des Hautes-Plaines, étouffés par la fumée des incendies. En fin d'après-midi, il ne reste en état de combattre que le sous-lieutenant Maudet, le [ caporal ](https://fr.wikipedia.org/wiki/Caporal "Caporal") [ Philippe Maine ](https://fr.wikipedia.org/wiki/Philippe_Maine "Philippe Maine") , les légionnaires Catteau, Wensel, Constantin (Belge d’origine) et Leonhard (d’origine belge également). Au signal de l' [ officier ](https://fr.wikipedia.org/wiki/Officier "Officier") , ils déchargent leurs fusils et chargent à la baïonnette. Victor Catteau, légionnaire d'origine belge, meurt, criblé de 19 balles en protégeant le sous-lieutenant de son corps <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>2<span>]</span></span></a></sup> ; celui-ci est lui-même blessé à deux reprises. Sous les ordres du colonel [ Angel Lucido Cambas ](https://fr.wikipedia.org/wiki/Angel_Lucido_Cambas "Angel Lucido Cambas") , un officier mexicain d'origine française, le lieutenant [ Ramon Laisné ](https://fr.wikipedia.org/wiki/Ramon_Laisn%C3%A9 "Ramon Laisné") <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>2<span>]</span></span></a></sup> somme alors les survivants de se rendre. Maine répond: «Nous nous rendrons si vous nous faites la promesse la plus formelle de relever et de soigner notre sous-lieutenant et tous nos camarades atteints, comme lui, de blessures; si vous nous promettez de nous laisser notre fourniment et nos armes. Enfin, nous nous rendrons, si vous vous engagez à dire à qui voudra l'entendre que, jusqu'au bout, nous avons fait notre devoir.» «On ne refuse rien à des hommes comme vous», répond alors l'officier mexicain. Il ajoute ensuite: «Mais parlez-moi en français. Mes hommes pourraient croire que vous êtes des Espagnols du parti conservateur, et ils vous massacreraient.» 
 
 Les rescapés sont présentés au colonel Milán, qui s'écrie: « ¡Pero estos no son hombres, son demonios!» (en [français](https://fr.wikipedia.org/wiki/Fran%C3%A7ais "Français"): «Mais ce ne sont pas des hommes, ce sont des démons»).
 
-Lorsque les renforts arrivent sur les lieux, dans les ruines calcinées, il ne reste que les cadavres français et mexicains. Aux alentours, le tambour de la compagnie (Casimir Laï, de nationalité italienne, et né à  [ Cagliari ](https://fr.wikipedia.org/wiki/Cagliari "Cagliari")  en  [ Sardaigne ](https://fr.wikipedia.org/wiki/Sardaigne "Sardaigne") ), seul rescapé libre, est retrouvé par un éclaireur de la colonne de secours. Laissé pour mort sur le terrain (il avait été blessé de sept coups de lance et de deux balles), il a été dépouillé de ses vêtements, jeté dans le fossé bordant la route avant d’être mis en fosse commune. Sa volonté de vivre lui permet de faire plusieurs kilomètres en direction de Chiquihuite dans les broussailles. Il raconte la bataille et ses explications servent au premier compte rendu de la bataille. Il est ensuite décoré de la croix de  [ chevalier de la Légion d’honneur ](https://fr.wikipedia.org/wiki/Ordre_national_de_la_L%C3%A9gion_d'honneur "Ordre national de la Légion d'honneur") , le .
+Lorsque les renforts arrivent sur les lieux, dans les ruines calcinées, il ne reste que les cadavres français et mexicains. Aux alentours, le tambour de la compagnie (Casimir Laï, de nationalité italienne, et né à [ Cagliari ](https://fr.wikipedia.org/wiki/Cagliari "Cagliari") en [ Sardaigne ](https://fr.wikipedia.org/wiki/Sardaigne "Sardaigne") ), seul rescapé libre, est retrouvé par un éclaireur de la colonne de secours. Laissé pour mort sur le terrain (il avait été blessé de sept coups de lance et de deux balles), il a été dépouillé de ses vêtements, jeté dans le fossé bordant la route avant d’être mis en fosse commune. Sa volonté de vivre lui permet de faire plusieurs kilomètres en direction de Chiquihuite dans les broussailles. Il raconte la bataille et ses explications servent au premier compte rendu de la bataille. Il est ensuite décoré de la croix de [ chevalier de la Légion d’honneur ](https://fr.wikipedia.org/wiki/Ordre_national_de_la_L%C3%A9gion_d'honneur "Ordre national de la Légion d'honneur") , le .
 
 ## Ordre de bataille de la 3e compagnie
 
 Cet ordre de bataille ne coïncide pas avec celui de la 3 <sup>e</sup> compagnie du régiment étranger ayant participé à l'intervention au Mexique, mais à celui de la compagnie de marche formée pour la mission d'escorte de convoi <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>3<span>]</span></span></a></sup>, notamment en ce qui concerne les officiers, ayant rejoint volontairement cette unité [ad hoc](https://fr.wikipedia.org/wiki/Ad_hoc "Ad hoc").
 
-- Officiers:  [ capitaine ](https://fr.wikipedia.org/wiki/Capitaine_\(France\) "Capitaine (France)")   [ Jean Danjou ](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") ,  [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant")   [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet")  et  [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant")   [ Jean Vilain ](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain")
-- Sous-officiers: sergent-major Henri Tonel,  [ sergents ](https://fr.wikipedia.org/wiki/Sergent "Sergent")  Jean Germeys, Louis Morzycki, Alfred Palmaert <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>4<span>]</span></span></a></sup> et Charles Schaffner <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>5<span>]</span></span></a></sup>
-- Caporaux:  [ Évariste Berg ](https://fr.wikipedia.org/wiki/%C3%89variste_Berg "Évariste Berg") , Adolphe Del Caretto, Amé Favas, Charles Magnin,  [ Philippe Maine ](https://fr.wikipedia.org/wiki/Philippe_Maine "Philippe Maine")  et André Pinzinger
+- Officiers: [ capitaine ](https://fr.wikipedia.org/wiki/Capitaine_\(France\) "Capitaine (France)") [ Jean Danjou ](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") , [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant") [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") et [ sous-lieutenant ](https://fr.wikipedia.org/wiki/Sous-lieutenant "Sous-lieutenant") [ Jean Vilain ](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain")
+- Sous-officiers: sergent-major Henri Tonel, [ sergents ](https://fr.wikipedia.org/wiki/Sergent "Sergent") Jean Germeys, Louis Morzycki, Alfred Palmaert <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>4<span>]</span></span></a></sup> et Charles Schaffner <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>5<span>]</span></span></a></sup>
+- Caporaux: [ Évariste Berg ](https://fr.wikipedia.org/wiki/%C3%89variste_Berg "Évariste Berg") , Adolphe Del Caretto, Amé Favas, Charles Magnin, [ Philippe Maine ](https://fr.wikipedia.org/wiki/Philippe_Maine "Philippe Maine") et André Pinzinger
 - Tambour: Casimir Laï
-- Légionnaires: Jean Baas, Aloyse Bernardo, Gustave Bertolotto, Claude Billod, Antoine Bogucki, Félix Brunswick, Nicolas Burgiser, Georges Cathenhusen, Victor Catteau, Laurent Constantin, Constant Dael, François Daglincks, Hartog De Vries, Pierre Dicken, Charles Dubois, Frédéric Friedrich, Frédéric Fritz, Georges Fursbaz, Aloïse Gaertner, Léon Gorski, Louis Groux, Hiller, Emile Hipp, Adolphe Jeannin, Ulrich Konrad,  [ Hippolyte Kuwasseg ](https://fr.wikipedia.org/wiki/Hippolyte_Kuwasseg "Hippolyte Kuwasseg") , Jean Kurz, Félix Langmeier, Frédéric Lemmer, Jean-Baptiste Leonhard, Louis Lernoud, Edouard Merlet, Joseph Rerbers, Jean-Guillaume Reuss, Louis Rohr, Hernann Schifer, Joseph Schreiblich, Jean Seffrin, Daniel Seiler, Joseph Sergers, Louis Stoller, Jean-Louis Timmermans,  [ Pharaon Van Del Bulke ](https://fr.wikipedia.org/wiki/Pharaon_Van_Del_Bulke "Pharaon Van Del Bulke") , Jacques Van Der Meersche, Luitpog Van Opstal, Henricus Vandesavel, Jean-Baptiste Verjus, Geoffroy Wensel, Karl Wittgens et Nicolas Zey.
+- Légionnaires: Jean Baas, Aloyse Bernardo, Gustave Bertolotto, Claude Billod, Antoine Bogucki, Félix Brunswick, Nicolas Burgiser, Georges Cathenhusen, Victor Catteau, Laurent Constantin, Constant Dael, François Daglincks, Hartog De Vries, Pierre Dicken, Charles Dubois, Frédéric Friedrich, Frédéric Fritz, Georges Fursbaz, Aloïse Gaertner, Léon Gorski, Louis Groux, Hiller, Emile Hipp, Adolphe Jeannin, Ulrich Konrad, [ Hippolyte Kuwasseg ](https://fr.wikipedia.org/wiki/Hippolyte_Kuwasseg "Hippolyte Kuwasseg") , Jean Kurz, Félix Langmeier, Frédéric Lemmer, Jean-Baptiste Leonhard, Louis Lernoud, Edouard Merlet, Joseph Rerbers, Jean-Guillaume Reuss, Louis Rohr, Hernann Schifer, Joseph Schreiblich, Jean Seffrin, Daniel Seiler, Joseph Sergers, Louis Stoller, Jean-Louis Timmermans, [ Pharaon Van Del Bulke ](https://fr.wikipedia.org/wiki/Pharaon_Van_Del_Bulke "Pharaon Van Del Bulke") , Jacques Van Der Meersche, Luitpog Van Opstal, Henricus Vandesavel, Jean-Baptiste Verjus, Geoffroy Wensel, Karl Wittgens et Nicolas Zey.
 
 ## Armes utilisées
 
@@ -376,7 +376,7 @@ Les deux camps utilisent lors du combat des armements différents.
 
 ### Armes françaises
 
-Les légionnaires sont équipés de fusils à un coup à chargement par la bouche: la  [ carabine Minié ](https://fr.wikipedia.org/wiki/Fusil_Mini%C3%A9 "Fusil Minié")  <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>6<span>]</span></span></a></sup>. Le canon est rayé, ce qui augmente la précision. Les dégâts faits par la  [ balle Minié ](https://fr.wikipedia.org/wiki/Balle_Mini%C3%A9 "Balle Minié")  sont généralement dévastateurs. Chaque légionnaire dispose de munitions pour 60 coups.
+Les légionnaires sont équipés de fusils à un coup à chargement par la bouche: la [ carabine Minié ](https://fr.wikipedia.org/wiki/Fusil_Mini%C3%A9 "Fusil Minié") <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>6<span>]</span></span></a></sup>. Le canon est rayé, ce qui augmente la précision. Les dégâts faits par la [ balle Minié ](https://fr.wikipedia.org/wiki/Balle_Mini%C3%A9 "Balle Minié") sont généralement dévastateurs. Chaque légionnaire dispose de munitions pour 60 coups.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Wallen_wounded_by_Minie_ball.jpg/250px-Wallen_wounded_by_Minie_ball.jpg)
 
@@ -388,7 +388,7 @@ Fémur touché par une balle Minié reconstitué.
 
 ### Armes mexicaines
 
-Les Mexicains disposent d'armes vétustes, comprenant essentiellement des fusils à  [ silex ](https://fr.wikipedia.org/wiki/Platine_%C3%A0_silex "Platine à silex") . Des carabines à répétition, livrées par l'  [ Armée de l'Union ](https://fr.wikipedia.org/wiki/Union_Army "Union Army")  semblent également avoir été utilisées, en nombre limité; seul l'un des trois bataillons mexicains d'infanterie participant au combat en dispose.
+Les Mexicains disposent d'armes vétustes, comprenant essentiellement des fusils à [ silex ](https://fr.wikipedia.org/wiki/Platine_%C3%A0_silex "Platine à silex") . Des carabines à répétition, livrées par l' [ Armée de l'Union ](https://fr.wikipedia.org/wiki/Union_Army "Union Army") semblent également avoir été utilisées, en nombre limité; seul l'un des trois bataillons mexicains d'infanterie participant au combat en dispose.
 
 ## Bilan
 
@@ -398,44 +398,44 @@ L' hacienda où s'est déroulée la bataille.
 
  [^1] <sup><a href="https://fr.wikipedia.org/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[<abbr title="référence">réf.</abbr>souhaitée</a>]</sup>.
 
-Par décision du 4 octobre 1863, le ministre de la Guerre, le  [ général Randon ](https://fr.wikipedia.org/wiki/Jacques_Louis_Randon "Jacques Louis Randon") , ordonne que le nom de «Camerone» soit inscrit sur le  [ drapeau ](https://fr.wikipedia.org/wiki/Drapeau "Drapeau")  du régiment étranger [^9]. De plus, l'  [ empereur ](https://fr.wikipedia.org/wiki/Empereur "Empereur")   [ Napoléon III ](https://fr.wikipedia.org/wiki/Napol%C3%A9on_III "Napoléon III")  décide que les noms de  [ Jean Danjou ](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") ,  [ Jean Vilain ](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain")  et  [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet")  soient gravés sur les murs des  [ Invalides ](https://fr.wikipedia.org/wiki/H%C3%B4tel_des_Invalides "Hôtel des Invalides") .
+Par décision du 4 octobre 1863, le ministre de la Guerre, le [ général Randon ](https://fr.wikipedia.org/wiki/Jacques_Louis_Randon "Jacques Louis Randon") , ordonne que le nom de «Camerone» soit inscrit sur le [ drapeau ](https://fr.wikipedia.org/wiki/Drapeau "Drapeau") du régiment étranger [^9]. De plus, l' [ empereur ](https://fr.wikipedia.org/wiki/Empereur "Empereur") [ Napoléon III ](https://fr.wikipedia.org/wiki/Napol%C3%A9on_III "Napoléon III") décide que les noms de [ Jean Danjou ](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") , [ Jean Vilain ](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") et [ Clément Maudet ](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") soient gravés sur les murs des [ Invalides ](https://fr.wikipedia.org/wiki/H%C3%B4tel_des_Invalides "Hôtel des Invalides") .
 
 Un monument est érigé sur le site du combat en 1892. Son état d'abandon incite en 1948 le colonel Penette à en dresser un nouveau, inauguré officiellement en 1963 <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>7<span>]</span></span></a></sup>. Sur ce dernier figure l'inscription:
 
-*Ils furent ici moins de soixante*  
-*Opposés à toute une armée.*  
-*Sa masse les écrasa.*  
-*La vie plutôt que le courage*  
-*Abandonna ces soldats français*  
+*Ils furent ici moins de soixante* 
+*Opposés à toute une armée.* 
+*Sa masse les écrasa.* 
+*La vie plutôt que le courage* 
+*Abandonna ces soldats français* 
 *À Camerone le 30 avril 1863*
 
 Depuis, les militaires mexicains rendent hommage aux soldats mexicains et français tombés ce jour-là en présentant les armes lorsqu'ils passent devant ce monument. L'usage militaire mexicain veut que cette présentation d'armes se déroule dans le plus grand silence, sans sonnerie de musique ni ordre vocal. Il est toujours en usage et les tombes des soldats français morts sont entretenues par le gouvernement mexicain sous le contrôle de l'ambassadeur de France et de son attaché militaire <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>8<span>]</span></span></a></sup>.
 
 ## L'« esprit de Camerone »
 
-L'idée du «serment de Camerone» est là pour rappeler le courage et la détermination des légionnaires et le respect à la parole donnée accomplie jusqu'au sacrifice suprême. L'expression «faire Camerone» est toujours usitée dans la  [ Légion étrangère ](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère")  en tant que symbole de l'esprit de sacrifice au nom de la parole donnée.
+L'idée du «serment de Camerone» est là pour rappeler le courage et la détermination des légionnaires et le respect à la parole donnée accomplie jusqu'au sacrifice suprême. L'expression «faire Camerone» est toujours usitée dans la [ Légion étrangère ](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") en tant que symbole de l'esprit de sacrifice au nom de la parole donnée.
 
-En 1906, pour la première fois dans l'histoire de la Légion, le récit du combat est lu sur le front des troupes le 30 avril au poste de Ta-Lung en  [ Indochine ](https://fr.wikipedia.org/wiki/Indochine_fran%C3%A7aise "Indochine française") , par le lieutenant Marie François <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>9<span>]</span></span></a></sup>.
+En 1906, pour la première fois dans l'histoire de la Légion, le récit du combat est lu sur le front des troupes le 30 avril au poste de Ta-Lung en [ Indochine ](https://fr.wikipedia.org/wiki/Indochine_fran%C3%A7aise "Indochine française") , par le lieutenant Marie François <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>9<span>]</span></span></a></sup>.
 
-Depuis, tous les 30 avril, les héros de ce combat sont honorés dans tous les  [ régiments ](https://fr.wikipedia.org/wiki/R%C3%A9giment "Régiment")  et par toutes les amicales de la Légion; à cette occasion est lu le  [ récit «officiel» du combat de Camerone ](https://fr.wikipedia.org/wiki/R%C3%A9cit_de_Camerone "Récit de Camerone") .
+Depuis, tous les 30 avril, les héros de ce combat sont honorés dans tous les [ régiments ](https://fr.wikipedia.org/wiki/R%C3%A9giment "Régiment") et par toutes les amicales de la Légion; à cette occasion est lu le [ récit «officiel» du combat de Camerone ](https://fr.wikipedia.org/wiki/R%C3%A9cit_de_Camerone "Récit de Camerone") .
 
-Le 30 avril 1925, également pour la première fois dans l'histoire de la Légion, la main en bois du capitaine Danjou est présentée solennellement sur le front des troupes à  [ Sidi Bel Abbès ](https://fr.wikipedia.org/wiki/Sidi_Bel_Abb%C3%A8s "Sidi Bel Abbès")  lors d'une cérémonie militaire commémorant la bataille de Camerone.
+Le 30 avril 1925, également pour la première fois dans l'histoire de la Légion, la main en bois du capitaine Danjou est présentée solennellement sur le front des troupes à [ Sidi Bel Abbès ](https://fr.wikipedia.org/wiki/Sidi_Bel_Abb%C3%A8s "Sidi Bel Abbès") lors d'une cérémonie militaire commémorant la bataille de Camerone.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/F%C3%AAte_de_Camerone_30_avril_1925.jpg/960px-F%C3%AAte_de_Camerone_30_avril_1925.jpg)
 
 Commémoration de la bataille de Camerone le 30 avril 1925 à Sidi Bel Abbès. Le lieutenant-colonel Paul-Frédéric Rollet, nouveau chef de corps du 1er régiment étranger, porte son drapeau. A ses côtés le capitaine Emile Eck porte la main du capitaine Danjou.
 
-  
-↵En 1954, lors du siège de  [ Diên Biên Phu ](https://fr.wikipedia.org/wiki/Bataille_de_Di%C3%AAn_Bi%C3%AAn_Phu "Bataille de Diên Biên Phu") , afin de respecter la tradition, le récit du combat est lu à la radio par le lieutenant-colonel Lemeunier <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>10<span>]</span></span></a></sup>.
+ 
+↵En 1954, lors du siège de [ Diên Biên Phu ](https://fr.wikipedia.org/wiki/Bataille_de_Di%C3%AAn_Bi%C3%AAn_Phu "Bataille de Diên Biên Phu") , afin de respecter la tradition, le récit du combat est lu à la radio par le lieutenant-colonel Lemeunier <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>10<span>]</span></span></a></sup>.
 
-Aujourd'hui, la main du capitaine Danjou est conservée dans la crypte du  [ musée de la Légion étrangère ](https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_%C3%A9trang%C3%A8re "Musée de la Légion étrangère")  à  [ Aubagne ](https://fr.wikipedia.org/wiki/Aubagne "Aubagne") .
+Aujourd'hui, la main du capitaine Danjou est conservée dans la crypte du [ musée de la Légion étrangère ](https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_%C3%A9trang%C3%A8re "Musée de la Légion étrangère") à [ Aubagne ](https://fr.wikipedia.org/wiki/Aubagne "Aubagne") .
 
 - ![Commémoration de la bataille de Camerone en 2006 à Aubagne.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camerone_2006.jpg/250px-Camerone_2006.jpg)
 	Commémoration de la bataille de Camerone en 2006 à Aubagne.
 	Commémoration de la bataille de Camerone en 2006 à Aubagne.
 - ![Commémoration de la bataille de Camerone par le 1er REC au théâtre antique d'Orange en 2010.](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/ORANGE_Camerone2010.jpg/250px-ORANGE_Camerone2010.jpg)
 	Commémoration de la bataille de Camerone par le 1er REC au théâtre antique d'Orange en 2010.
-	Commémoration de la bataille de Camerone par le 1 <sup>er</sup> REC au théâtre antique d'  [ Orange ](https://fr.wikipedia.org/wiki/Orange_\(Vaucluse\) "Orange (Vaucluse)")  en 2010.
+	Commémoration de la bataille de Camerone par le 1 <sup>er</sup> REC au théâtre antique d' [ Orange ](https://fr.wikipedia.org/wiki/Orange_\(Vaucluse\) "Orange (Vaucluse)") en 2010.
 - ![La main du capitaine Danjou.](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Main_Danjou.gif/250px-Main_Danjou.gif)
 	La main du capitaine Danjou.
 	La main du capitaine Danjou.
@@ -447,13 +447,13 @@ Aujourd'hui, la main du capitaine Danjou est conservée dans la crypte du  [ mus
 
 ## Dans la culture populaire
 
-La bataille de Camerone est chantée par  [ Jean-Pax Méfret ](https://fr.wikipedia.org/wiki/Jean-Pax_M%C3%A9fret "Jean-Pax Méfret") .
+La bataille de Camerone est chantée par [ Jean-Pax Méfret ](https://fr.wikipedia.org/wiki/Jean-Pax_M%C3%A9fret "Jean-Pax Méfret") .
 
-En bande dessinée,  [ Jean-Pierre Gourmelen ](https://fr.wikipedia.org/wiki/Jean-Pierre_Gourmelen "Jean-Pierre Gourmelen")  et  [ Antonio Hernández Palacios ](https://fr.wikipedia.org/wiki/Antonio_Hern%C3%A1ndez_Palacios "Antonio Hernández Palacios")  publient * [ Mac Coy ](https://fr.wikipedia.org/wiki/Mac_Coy "Mac Coy")  tome 11: Camerone* chez  [ Dargaud ](https://fr.wikipedia.org/wiki/Dargaud "Dargaud")  (1983).  [ Philippe Glogowski ](https://fr.wikipedia.org/wiki/Philippe_Glogowski "Philippe Glogowski")  et Marien Puisaye publient quant à eux une bande dessinée en 4 tomes sur l'histoire de la Légion étrangère dont le 1 <sup>er</sup> tome s'intitule *La Légion.: 1: Camerone: histoire de La Légion étrangère, 1831-1918* ( [ Ed. Triomphe ](https://fr.wikipedia.org/wiki/%C3%89ditions_du_Triomphe "Éditions du Triomphe") ).
+En bande dessinée, [ Jean-Pierre Gourmelen ](https://fr.wikipedia.org/wiki/Jean-Pierre_Gourmelen "Jean-Pierre Gourmelen") et [ Antonio Hernández Palacios ](https://fr.wikipedia.org/wiki/Antonio_Hern%C3%A1ndez_Palacios "Antonio Hernández Palacios") publient * [ Mac Coy ](https://fr.wikipedia.org/wiki/Mac_Coy "Mac Coy") tome 11: Camerone* chez [ Dargaud ](https://fr.wikipedia.org/wiki/Dargaud "Dargaud") (1983). [ Philippe Glogowski ](https://fr.wikipedia.org/wiki/Philippe_Glogowski "Philippe Glogowski") et Marien Puisaye publient quant à eux une bande dessinée en 4 tomes sur l'histoire de la Légion étrangère dont le 1 <sup>er</sup> tome s'intitule *La Légion.: 1: Camerone: histoire de La Légion étrangère, 1831-1918* ( [ Ed. Triomphe ](https://fr.wikipedia.org/wiki/%C3%89ditions_du_Triomphe "Éditions du Triomphe") ).
 
 - ![Monument aux morts à Agde, commémoratif de la bataille de Camerone.](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Agde_monument_Camerone.jpg/250px-Agde_monument_Camerone.jpg)
 	Monument aux morts à Agde, commémoratif de la bataille de Camerone.
-	Monument aux morts à  [ Agde ](https://fr.wikipedia.org/wiki/Agde "Agde") , commémoratif de la bataille de Camerone.
+	Monument aux morts à [ Agde ](https://fr.wikipedia.org/wiki/Agde "Agde") , commémoratif de la bataille de Camerone.
 - ![Esplanade commémorative de la bataille de Camerone à Camarón de Tejeda.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Normal_mexico_atoyac_0.jpg/250px-Normal_mexico_atoyac_0.jpg)
 	Esplanade commémorative de la bataille de Camerone à Camarón de Tejeda.
 	Esplanade commémorative de la bataille de Camerone à Camarón de Tejeda.
@@ -462,11 +462,11 @@ En bande dessinée,  [ Jean-Pierre Gourmelen ](https://fr.wikipedia.org/wiki/Jea
 	Obélisque mémorial aux soldats mexicains en mémoire de la bataille de Camerone.
 - ![Plaque de rue dans le centre-ville de Mussidan.](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Louis_Maine%2C_street_sign_in_Mussidan%2C_France.jpg/250px-Louis_Maine%2C_street_sign_in_Mussidan%2C_France.jpg)
 	Plaque de rue dans le centre-ville de Mussidan.
-	Plaque de rue dans le centre-ville de  [ Mussidan ](https://fr.wikipedia.org/wiki/Mussidan "Mussidan") .
+	Plaque de rue dans le centre-ville de [ Mussidan ](https://fr.wikipedia.org/wiki/Mussidan "Mussidan") .
 
-Dans le film de  [ Henri Verneuil ](https://fr.wikipedia.org/wiki/Henri_Verneuil "Henri Verneuil") ,  [ Les Morfalous ](https://fr.wikipedia.org/wiki/Les_Morfalous "Les Morfalous") , le légionnaire Augagneur, incarné par  [ Jean-Paul Belmondo ](https://fr.wikipedia.org/wiki/Jean-Paul_Belmondo "Jean-Paul Belmondo") , évoque la bataille de Camerone en la comparant avec leur situation.
+Dans le film de [ Henri Verneuil ](https://fr.wikipedia.org/wiki/Henri_Verneuil "Henri Verneuil") , [ Les Morfalous ](https://fr.wikipedia.org/wiki/Les_Morfalous "Les Morfalous") , le légionnaire Augagneur, incarné par [ Jean-Paul Belmondo ](https://fr.wikipedia.org/wiki/Jean-Paul_Belmondo "Jean-Paul Belmondo") , évoque la bataille de Camerone en la comparant avec leur situation.
 
-Les éditions  [ Glénat ](https://fr.wikipedia.org/wiki/Gl%C3%A9nat "Glénat")  publient à partir de 2019 une série en quatre volumes sur la bataille <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>11<span>]</span></span></a></sup>. Deux tomes sont parus à ce jour:
+Les éditions [ Glénat ](https://fr.wikipedia.org/wiki/Gl%C3%A9nat "Glénat") publient à partir de 2019 une série en quatre volumes sur la bataille <sup><a href="https://fr.wikipedia.org/w/?title=Bataille_de_Camerone&amp;veaction=edit&amp;section=14#"><span><span>[</span>11<span>]</span></span></a></sup>. Deux tomes sont parus à ce jour:
 
 - [Jean-André Yerlès](https://fr.wikipedia.org/wiki/Jean-Andr%C3%A9_Yerl%C3%A8s "Jean-André Yerlès") (ill.Marc-Antoine Boidin), Legio Patria Nostra - Tome 1: Le Tambour, Glénat, , 64 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2344030134](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2344030134 "Spécial:Ouvrages de référence/978-2344030134"))
 - [Jean-André Yerlès](https://fr.wikipedia.org/wiki/Jean-Andr%C3%A9_Yerl%C3%A8s "Jean-André Yerlès") (ill.Marc-Antoine Boidin), Legio Patria Nostra - Tome 2: Main de bois, Glénat, , 64 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2344040089](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2344040089 "Spécial:Ouvrages de référence/978-2344040089"))
@@ -478,7 +478,7 @@ Les éditions  [ Glénat ](https://fr.wikipedia.org/wiki/Gl%C3%A9nat "Glénat") 
 ### Bibliographie
 
 - Guy Sallat, *Le Sentier des Braises: Philippe Maine*, Paris, OD2C, 30 avril 2022.
-- Lucien-Louis Lande, *La Hacienda de Camaron* in *Souvenirs d'un soldat*, éditeurs H. Lecène et H. Oudin, Paris, 1886 \[[lire en ligne](https://gallica.bnf.fr/ark:/12148/bpt6k909934/f201.image)\]  [ Alexis Hubert de La Hayrie ](https://fr.wikipedia.org/wiki/Alexis_Hubert_de_La_Hayrie "Alexis Hubert de La Hayrie") , *Combat de Camarón - 30 avril 1863*, imprimerie Danel, 1889.
+- Lucien-Louis Lande, *La Hacienda de Camaron* in *Souvenirs d'un soldat*, éditeurs H. Lecène et H. Oudin, Paris, 1886 \[[lire en ligne](https://gallica.bnf.fr/ark:/12148/bpt6k909934/f201.image)\] [ Alexis Hubert de La Hayrie ](https://fr.wikipedia.org/wiki/Alexis_Hubert_de_La_Hayrie "Alexis Hubert de La Hayrie") , *Combat de Camarón - 30 avril 1863*, imprimerie Danel, 1889.
 - Eugène Lanusse, Les héros de Camaron, [éditions Flammarion](https://fr.wikipedia.org/wiki/Groupe_Flammarion "Groupe Flammarion"), 
 	Ce livre a été rédigé par l'aumônier militaire ayant participé à la campagne du Mexique d'après le récit de l'un des protagonistes.
 	Hacienda Camerone.jpg.
@@ -491,7 +491,7 @@ Les éditions  [ Glénat ](https://fr.wikipedia.org/wiki/Gl%C3%A9nat "Glénat") 
 - ![]()
 	El mito de Camerone
 	(es) Joaquim Manes Postigo, , Hergue Editores, 2004 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [84-95319-80-2](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/84-95319-80-2 "Spécial:Ouvrages de référence/84-95319-80-2")).
-- Rapport manuscrit du colonel Jeanningros au général commandant le corps expéditionnaire au Mexique, consultable au  [ Musée de la Légion étrangère ](https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_%C3%A9trang%C3%A8re "Musée de la Légion étrangère") .
+- Rapport manuscrit du colonel Jeanningros au général commandant le corps expéditionnaire au Mexique, consultable au [ Musée de la Légion étrangère ](https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_%C3%A9trang%C3%A8re "Musée de la Légion étrangère") .
 - André-Paul Comor, *Camerone, 30 avril 1863*, éditions Taillandier, 2012.
 - [ Képi blanc ](https://fr.wikipedia.org/wiki/K%C3%A9pi_blanc_\(magazine\) "Képi blanc (magazine)") , notamment le n <sup>o</sup> 754 d'avril 2013 pour une description physique de l'hacienda.
 - [ *Photos commentées de la commémoration de Camerone 2023: Mieux qu'un long discours...*](https://www.legionetrangere.fr/la-fsale/actualites-de-la-fsale/4442-photos-commentees-de-la-commemoration-de-camerone-2023-a-aubagne-bagne-mieux.html "https://www.legionetrangere.fr/la-fsale/actualites-de-la-fsale/4442-photos-commentees-de-la-commemoration-de-camerone-2023-a-aubagne-bagne-mieux.html")
@@ -500,14 +500,14 @@ Les éditions  [ Glénat ](https://fr.wikipedia.org/wiki/Gl%C3%A9nat "Glénat") 
 
 - [ Médaille commémorative de l'expédition du Mexique ](https://fr.wikipedia.org/wiki/M%C3%A9daille_comm%C3%A9morative_de_l'exp%C3%A9dition_du_Mexique "Médaille commémorative de l'expédition du Mexique")
 - [ Légion étrangère ](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère")
-- [  1 <sup>er</sup> régiment étranger ](https://fr.wikipedia.org/wiki/1er_r%C3%A9giment_%C3%A9tranger "1er régiment étranger")
+- [ 1 <sup>er</sup> régiment étranger ](https://fr.wikipedia.org/wiki/1er_r%C3%A9giment_%C3%A9tranger "1er régiment étranger")
 - [ Expédition du Mexique ](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique")
 
 ### Liens externes
 
-- [ Le récit du Combat ](https://www.youtube.com/watch?v=YYYetJ3hsk4 "https://www.youtube.com/watch?v=YYYetJ3hsk4")  sur la Chaine  [ YouTube ](https://fr.wikipedia.org/wiki/YouTube "YouTube")  de la  [ Légion étrangère ](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") .
+- [ Le récit du Combat ](https://www.youtube.com/watch?v=YYYetJ3hsk4 "https://www.youtube.com/watch?v=YYYetJ3hsk4") sur la Chaine [ YouTube ](https://fr.wikipedia.org/wiki/YouTube "YouTube") de la [ Légion étrangère ](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") .
 - [ Le combat de Camerone, 30 avril 1863 ](http://amalep.free.fr/le/traditions/camerone.htm "http://amalep.free.fr/le/traditions/camerone.htm") , Amicale des Anciens de la Légion Étrangère de Paris.
-- [ Jean-Dominique Merchet ](https://fr.wikipedia.org/wiki/Jean-Dominique_Merchet "Jean-Dominique Merchet") ,  [ «L'armée française assiégeait Puebla…» ](http://secretdefense.blogs.liberation.fr/defense/2009/04/larm%C3%A9e-fran%C3%A7aise-assi%C3%A9geait-puebla-joyeux-camerone-.html "http://secretdefense.blogs.liberation.fr/defense/2009/04/larm%C3%A9e-fran%C3%A7aise-assi%C3%A9geait-puebla-joyeux-camerone-.html") , Blog Secret Défense, *[ Libération ](https://fr.wikipedia.org/wiki/Lib%C3%A9ration_\(journal\) "Libération (journal)")*  , 30 avril 2009.
+- [ Jean-Dominique Merchet ](https://fr.wikipedia.org/wiki/Jean-Dominique_Merchet "Jean-Dominique Merchet") , [ «L'armée française assiégeait Puebla…» ](http://secretdefense.blogs.liberation.fr/defense/2009/04/larm%C3%A9e-fran%C3%A7aise-assi%C3%A9geait-puebla-joyeux-camerone-.html "http://secretdefense.blogs.liberation.fr/defense/2009/04/larm%C3%A9e-fran%C3%A7aise-assi%C3%A9geait-puebla-joyeux-camerone-.html") , Blog Secret Défense, *[ Libération ](https://fr.wikipedia.org/wiki/Lib%C3%A9ration_\(journal\) "Libération (journal)")* , 30 avril 2009.
 - [ Le 30 avril 2023, le général d’armée Thierry Burkhard, chef d’état-major des armées (CEMA), s’est rendu au 1er régiment étranger d’Aubagne, maison mère de la Légion étrangère, pour commémorer le 160e anniversaire de la bataille de Camerone ](https://www.defense.gouv.fr/ema/actualites/cema-commemore-160-ans-bataille-camerone "https://www.defense.gouv.fr/ema/actualites/cema-commemore-160-ans-bataille-camerone") .
 - [Portail de l’histoire militaire](https://fr.wikipedia.org/wiki/Portail:Histoire_militaire "Portail:Histoire militaire")
 - [Portail du Mexique](https://fr.wikipedia.org/wiki/Portail:Mexique "Portail:Mexique")

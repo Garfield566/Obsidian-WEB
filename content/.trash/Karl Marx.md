@@ -8,7 +8,6 @@ nationalité: "Allemand"
 ---
 # Karl Marx
 
-
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTekrB349oMfwylXJxASxKtYdJYPsKfrr383w&s)
 
 ## **Présentation**
@@ -18,12 +17,12 @@ nationalité: "Allemand"
 ## **Travail réalisé**
 
 - **Le Manifeste du Parti Communiste** (1848) : Rédigé avec Friedrich Engels, ce pamphlet est l'un des textes les plus célèbres de la pensée politique. Il appelle à la mobilisation des travailleurs du monde entier pour renverser le capitalisme. Dans ce document, Marx et Engels exposent leur analyse des luttes de classes tout au long de l'histoire, affirmant que toutes les sociétés sont basées sur des conflits entre classes dominantes et classes opprimées. Le célèbre slogan "Prolétaires de tous les pays, unissez-vous !" résume leur appel à l'action collective.
-    
+ 
 - **Le Capital** (1867) : Cette œuvre majeure est une analyse approfondie du système capitaliste. Marx y examine la dynamique du capital, la production de la valeur, et la manière dont le travail est exploité pour générer des profits. Il introduit plusieurs concepts clés :
-    
-    - **Valeur d'échange et valeur d'usage** : Marx distingue entre la valeur d'échange d'un bien (son prix sur le marché) et sa valeur d'usage (son utilité). Il soutient que le capitalisme tend à privilégier la valeur d'échange, souvent au détriment des besoins humains réels.
-    - **La plus-value** : Ce concept central de l'analyse marxiste explique comment les capitalistes tirent profit de l'exploitation du travail salarié. La plus-value est la différence entre la valeur produite par le travailleur et le salaire qu'il reçoit. Selon Marx, cette exploitation est inhérente au système capitaliste.
-    - **Alienation** : Marx soutient que le travail sous le capitalisme entraîne l'aliénation des travailleurs, qui deviennent dépossédés de leur créativité et de leur essence humaine en raison des conditions de travail aliénantes.
+ 
+ - **Valeur d'échange et valeur d'usage** : Marx distingue entre la valeur d'échange d'un bien (son prix sur le marché) et sa valeur d'usage (son utilité). Il soutient que le capitalisme tend à privilégier la valeur d'échange, souvent au détriment des besoins humains réels.
+ - **La plus-value** : Ce concept central de l'analyse marxiste explique comment les capitalistes tirent profit de l'exploitation du travail salarié. La plus-value est la différence entre la valeur produite par le travailleur et le salaire qu'il reçoit. Selon Marx, cette exploitation est inhérente au système capitaliste.
+ - **Alienation** : Marx soutient que le travail sous le capitalisme entraîne l'aliénation des travailleurs, qui deviennent dépossédés de leur créativité et de leur essence humaine en raison des conditions de travail aliénantes.
 
 ## **Citations Mémorables**
 

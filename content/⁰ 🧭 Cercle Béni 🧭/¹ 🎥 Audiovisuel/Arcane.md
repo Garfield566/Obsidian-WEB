@@ -13,83 +13,9 @@ Année de Sortie: 2024
 type: série
 vue: true
 tags:
- - Freya-Ridings
- - Marcus-King
- - Stefflon-Don
- - Raja-Kumari-ft
- - Jarina-De-Marco
- - Fever-333
- - Woodkid
- - Ashnikko
- - d4vd
- - ZAND
- - Mako-rey
- - Djerv
- - Misha-Mansoor
- - Mick-Wingert
- - Stromae
- - Pomme
- - King-Princess
- - Twenty-One-Pilots
- - Sheryl-Lee-Ralph
- - Stray-Kids
- - Young-Miko
- - Tom-Morello
- - Royal-the-Serpent
- - Imagine-Dragons
- - JID
- - I_Cant_Hear_It_Now
- - Sucker
- - Renegade
- - Hellfire
- - To_Ashes_And_Blood
- - Paint_The_Town_Blue
- - Remember_Me
- - Cocktail_Molotov
- - What_Have_They_Done_To_Us
- - Rebel_Heart
- - The_Beast
- - Spin_The_Wheel
- - Ma_Meilleure_Ennemie
- - Fantastic
- - The_Line
- - Blood_Sweat_Tears
- - Come_Play
- - Wasteland
- - Enemy
- - Alex-Seaver
- - Alexander-Temple
- - Andrew-Kierszenbaum
- - Kelci-Hahn
- - Ray-Chen
- - Fortiche
- - Playground
- - Bea-Miller
- - Our_Love
- - Curtis-Harding
- - Jazmine-Sullivan
- - oodbye
- - Ramsey
- - et_Jinxed
- - Agnete-Kjølsrud
- - Dirty_Little_Animals
- - Bones-UK
- - uns_For_Hire
- - Misfit_Toys
- - Pusha-T
- - Mako
- - Dynasties-Dystopia
- - Denzel-Curry
- - izzle
- - Bren-Joy
- - Snakes
- - Pvris
- - Miyavi
- - When_Everything_Went_Wrong
- - Fantastic-Negrito
- - What_Could_Have_Been
+
  - Sting
- - Arcane
+
  - Animation
  - audiovisuel
 sticker: emoji//1fac0
@@ -127,9 +53,9 @@ sticker: emoji//1fac0
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Christian-Linke</li><li>#Alex-Yee</li><li>#Pascal-Charrue</li><li>#Arnaud-Delord</li><li>#Alexander-Temple</li><li>#Hailee-Steinfeld</li><li>#Ella-Purnell</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Riot-Games</li><li>#Fortiche-Productions</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Steampunk</li><li>#League-of-Legends</li><li>#Hybrid-Animation</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ## 📖 **Synopsis**
 

@@ -8,6 +8,6 @@ Ainsi, la valeur d'une denrée quelconque pour celui qui la possède et qui n'en
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #smith/def_riche_pauvre
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations 
 
 ---

@@ -2,8 +2,8 @@
 NoteSource: "Forgotten Realms Wiki"
 title: "BoJack Horseman (soundtrack) - Wikipedia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2022-07-20T15:42:40+02:00
 modified: "2024-07-27T05:26:15+02:00"
 created: 2025-04-15
@@ -14,9 +14,8 @@ created: 2025-04-15
 > # BoJack Horseman (soundtrack) - Wikipedia
 > ![](https://upload.wikimedia.org/wikipedia/en/8/8c/BoJack_Horseman_%28soundtrack%29.jpg)
 > ###### Stats
-> | Name |  Value |
+> | Name | Value |
 > | --- | --- |
-
 
 ## Track listing
 

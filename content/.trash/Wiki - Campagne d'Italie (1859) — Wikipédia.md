@@ -215,7 +215,6 @@ Le <a href="https://fr.wikipedia.org/wiki/Royaume_de_Sardaigne_(1720-1861)" titl
 <li></li>
 <li></li></ul>
 
-
 <!-- 
 NewPP limit report
 Parsed by mw‐web.eqiad.canary‐65977c74dc‐dwvpk
@@ -238,16 +237,16 @@ Number of Wikibase entities loaded: 1/500
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  513.344      1 -total
- 27.52%  141.294      1 Modèle:Infobox_Conflit_militaire
- 21.08%  108.210      1 Modèle:Liens
-  9.64%   49.469      1 Modèle:Palette
-  8.16%   41.866      1 Modèle:Portail
-  7.41%   38.030      1 Modèle:Infobox/Ligne_mixte_latitude_longitude_optionnelle
-  7.34%   37.694      2 Modèle:Méta_palette_de_navigation
-  6.40%   32.834      6 Modèle:Liste_simple
-  6.29%   32.264      1 Modèle:Palette_Histoire_de_l&#039;Italie_contemporaine
-  6.07%   31.174      1 Modèle:Traduction/Référence
+100.00% 513.344 1 -total
+ 27.52% 141.294 1 Modèle:Infobox_Conflit_militaire
+ 21.08% 108.210 1 Modèle:Liens
+ 9.64% 49.469 1 Modèle:Palette
+ 8.16% 41.866 1 Modèle:Portail
+ 7.41% 38.030 1 Modèle:Infobox/Ligne_mixte_latitude_longitude_optionnelle
+ 7.34% 37.694 2 Modèle:Méta_palette_de_navigation
+ 6.40% 32.834 6 Modèle:Liste_simple
+ 6.29% 32.264 1 Modèle:Palette_Histoire_de_l&#039;Italie_contemporaine
+ 6.07% 31.174 1 Modèle:Traduction/Référence
 -->
 
 <!-- Saved in parser cache with key frwiki:pcache:1010449:|#|:idhash:canonical and timestamp 20250415055950 and revision id 214620078. Rendering was triggered because: page-view

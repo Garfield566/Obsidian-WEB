@@ -6,7 +6,7 @@ Source: "Wikipédia"
 > 
 > ![Image]()
 > ###### Basic Information
->  |
+> |
 > ---|---|
 > **Naissance** | `` |
 > **Décès** | `` |

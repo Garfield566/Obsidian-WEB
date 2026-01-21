@@ -4,8 +4,8 @@ title:
 author:
 description:
 tags:
-  - "clippings"
-  - "medium"
+ - "clippings"
+ - "medium"
 published:
 created: 2025-05-19T15:24:28+02:00
 ---
@@ -17,20 +17,20 @@ Table of Contents
 
 ---
 
-- [Introduction](https://www.britannica.com/money/coin#ref124716-1)
-- [Coins as historical data](https://www.britannica.com/money/coin#ref15835)
-- [Origins of coins](https://www.britannica.com/money/coin/Origins-of-coins#ref15838)
-- [Ancient Greek coins](https://www.britannica.com/money/coin/Origins-of-coins#ref15878)
-- [Roman coins, republic and empire](https://www.britannica.com/money/coin/Roman-coins-republic-and-empire#ref15954)
-- [Coinage in western continental Europe, Africa, and the Byzantine Empire](https://www.britannica.com/money/coin/Coinage-in-western-continental-Europe-Africa-and-the-Byzantine-Empire#ref15971)
-- [The later medieval and modern coinages of continental Europe](https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages#ref15986)
-- [Coins of the British Isles, colonies, and Commonwealth](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth#ref15998)
-- [Coins of Latin America](https://www.britannica.com/money/coin/Coins-of-Latin-America#ref16027)
-- [Coins of the United States](https://www.britannica.com/money/coin/Coins-of-the-United-States#ref16050)
-- [Coins of Asia](https://www.britannica.com/money/coin/Coins-of-Asia#ref16069)
-- [Coins of Africa](https://www.britannica.com/money/coin/Coins-of-Africa#ref16088)
-- [Techniques of production](https://www.britannica.com/money/coin/Coins-of-Africa#ref16102)
-- [References](https://www.britannica.com/money/coin/Early-modern-minting#ref124716-references)
+- [Introduction](https://www.britannica.com/money/coin)
+- [Coins as historical data](https://www.britannica.com/money/coin)
+- [Origins of coins](https://www.britannica.com/money/coin/Origins-of-coins)
+- [Ancient Greek coins](https://www.britannica.com/money/coin/Origins-of-coins)
+- [Roman coins, republic and empire](https://www.britannica.com/money/coin/Roman-coins-republic-and-empire)
+- [Coinage in western continental Europe, Africa, and the Byzantine Empire](https://www.britannica.com/money/coin/Coinage-in-western-continental-Europe-Africa-and-the-Byzantine-Empire)
+- [The later medieval and modern coinages of continental Europe](https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages)
+- [Coins of the British Isles, colonies, and Commonwealth](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth)
+- [Coins of Latin America](https://www.britannica.com/money/coin/Coins-of-Latin-America)
+- [Coins of the United States](https://www.britannica.com/money/coin/Coins-of-the-United-States)
+- [Coins of Asia](https://www.britannica.com/money/coin/Coins-of-Asia)
+- [Coins of Africa](https://www.britannica.com/money/coin/Coins-of-Africa)
+- [Techniques of production](https://www.britannica.com/money/coin/Coins-of-Africa)
+- [References](https://www.britannica.com/money/coin/Early-modern-minting)
 
 Read More
 
@@ -48,20 +48,20 @@ Table of Contents
 
 ---
 
-- [Introduction](https://www.britannica.com/money/coin#ref124716-1)
-- [Coins as historical data](https://www.britannica.com/money/coin#ref15835)
-- [Origins of coins](https://www.britannica.com/money/coin/Origins-of-coins#ref15838)
-- [Ancient Greek coins](https://www.britannica.com/money/coin/Origins-of-coins#ref15878)
-- [Roman coins, republic and empire](https://www.britannica.com/money/coin/Roman-coins-republic-and-empire#ref15954)
-- [Coinage in western continental Europe, Africa, and the Byzantine Empire](https://www.britannica.com/money/coin/Coinage-in-western-continental-Europe-Africa-and-the-Byzantine-Empire#ref15971)
-- [The later medieval and modern coinages of continental Europe](https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages#ref15986)
-- [Coins of the British Isles, colonies, and Commonwealth](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth#ref15998)
-- [Coins of Latin America](https://www.britannica.com/money/coin/Coins-of-Latin-America#ref16027)
-- [Coins of the United States](https://www.britannica.com/money/coin/Coins-of-the-United-States#ref16050)
-- [Coins of Asia](https://www.britannica.com/money/coin/Coins-of-Asia#ref16069)
-- [Coins of Africa](https://www.britannica.com/money/coin/Coins-of-Africa#ref16088)
-- [Techniques of production](https://www.britannica.com/money/coin/Coins-of-Africa#ref16102)
-- [References](https://www.britannica.com/money/coin/Early-modern-minting#ref124716-references)
+- [Introduction](https://www.britannica.com/money/coin)
+- [Coins as historical data](https://www.britannica.com/money/coin)
+- [Origins of coins](https://www.britannica.com/money/coin/Origins-of-coins)
+- [Ancient Greek coins](https://www.britannica.com/money/coin/Origins-of-coins)
+- [Roman coins, republic and empire](https://www.britannica.com/money/coin/Roman-coins-republic-and-empire)
+- [Coinage in western continental Europe, Africa, and the Byzantine Empire](https://www.britannica.com/money/coin/Coinage-in-western-continental-Europe-Africa-and-the-Byzantine-Empire)
+- [The later medieval and modern coinages of continental Europe](https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages)
+- [Coins of the British Isles, colonies, and Commonwealth](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth)
+- [Coins of Latin America](https://www.britannica.com/money/coin/Coins-of-Latin-America)
+- [Coins of the United States](https://www.britannica.com/money/coin/Coins-of-the-United-States)
+- [Coins of Asia](https://www.britannica.com/money/coin/Coins-of-Asia)
+- [Coins of Africa](https://www.britannica.com/money/coin/Coins-of-Africa)
+- [Techniques of production](https://www.britannica.com/money/coin/Coins-of-Africa)
+- [References](https://www.britannica.com/money/coin/Early-modern-minting)
 
 Read More
 

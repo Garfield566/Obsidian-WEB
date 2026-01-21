@@ -4,8 +4,8 @@ title:
 author:
 description:
 tags:
-  - "clippings"
-  - "medium"
+ - "clippings"
+ - "medium"
 published:
 created: 2025-05-18T11:48:37+02:00
 ---

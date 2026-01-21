@@ -2,8 +2,8 @@
 url: "https://fr.wikipedia.org/wiki/Empire_ottoman"
 title: "Empire ottoman — Wikipédia"
 tags:
-  - "wikipedia"
-  - "reference"
+ - "wikipedia"
+ - "reference"
 created: 2025-04-16
 ---
 [![Page d’aide sur l’homonymie](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Confusion_colour.svg/20px-Confusion_colour.svg.png)](https://fr.wikipedia.org/wiki/Aide:Homonymie "Aide:Homonymie")

@@ -4,16 +4,14 @@ title:
 author:
 description:
 tags:
-  - "clippings"
-  - "medium"
+ - "clippings"
+ - "medium"
 published:
 created: 2025-04-15T17:51:47+02:00
 ---
 # 
 By Untitled
 Published: 
-
-
 
 Anime (mangas) de [Yuki Urushibara](https://www.senscritique.com/contact/Yuki_Urushibara/252836) et [Hiroshi Nagahama](https://www.senscritique.com/contact/Hiroshi_Nagahama/507253) · [1 saison (Terminée)](https://www.senscritique.com/serie/mushishi/487652/saisons) · 25 min · 23 octobre 2005
 

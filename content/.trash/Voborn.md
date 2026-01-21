@@ -1,34 +1,34 @@
 ---
 Pronounced: Voh-born
 aliases:
-  - The realm of Men
+ - The realm of Men
 NoteIcon: Kingdom
 Rulers: Hiigs Ulder
 Theme:
-  - Medieval
+ - Medieval
 Terrain:
-  - Hills
-  - Plains
-  - Mountains
+ - Hills
+ - Plains
+ - Mountains
 GovtType: Monarchy
 Religions:
-  - Followers of Trenn
+ - Followers of Trenn
 PlanetPlane: Rearth
 ---
 
 > [!infobox]+
 > # `=this.file.name`
-> **Pronounced:**  "`=this.Pronounced`"
+> **Pronounced:** "`=this.Pronounced`"
 > ![[PlaceholderImage.png]]
 > ###### Info
->  |
+> |
 > ---|---|
 > **Aliases** | `=this.aliases` |
 > **Theme** | `=this.theme` |
 > **Planet** | `=link(this.PlanetPlane)` |
 > **Terrain** | `=this.terrain` |
 > ###### Politics
->  |
+> |
 > ---|---|
 > **Rulers** | `=this.Rulers` |
 > **Leaders** | `=this.Leaders` |
@@ -130,17 +130,12 @@ SORT file.name ASC
 
 ## History
 
-
 ## Politics & Relationships
-
 
 ## Current Events
 
-
 ## Plot Hooks
 
-
 ## Hidden Details
-
 
 ## General Notes

@@ -2,8 +2,8 @@
 NoteSource: "Wikipedia"
 title: "Bataille de Camerone — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: |date:"YYYY-MM-DD"}}
 modified: "|date:\"YYYY-MM-DD\"}}"
 created: 2025-04-16
@@ -17,8 +17,7 @@ created: 2025-04-16
 > | Clé | Valeur |
 > | --- | --- |
 
-> |  |  |
-
+> | | |
 
 Bataille de Camerone
 
@@ -31,13 +30,13 @@ Relève des blessés par les soldats mexicains.
 | [Empire français](https://fr.wikipedia.org/wiki/Second_Empire "Second Empire") | [République mexicaine](https://fr.wikipedia.org/wiki/Mexique "Mexique") |
 | --- | --- |
 
-| • [Jean Danjou](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") †   • [Jean Vilain](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") †   • [Clément Maudet](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") † | • [Francisco de Paula Milán](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán") |
+| • [Jean Danjou](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") † • [Jean Vilain](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") † • [Clément Maudet](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") † | • [Francisco de Paula Milán](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán") |
 | --- | --- |
 
-| 65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") | 650 fantassins   200 cavaliers |
+| 65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère") | 650 fantassins 200 cavaliers |
 | --- | --- |
 
-| 33 morts   31 blessés | 190 morts   300 blessés |
+| 33 morts 31 blessés | 190 morts 300 blessés |
 | --- | --- |
 
 [Expédition du Mexique](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique")
@@ -126,11 +125,11 @@ Par décision du 4 octobre 1863, le ministre de la Guerre, le [général Randon]
 
 Un monument est érigé sur le site du combat en 1892. Son état d'abandon incite en 1948 le colonel Penette à en dresser un nouveau, inauguré officiellement en 1963 [^10]. Sur ce dernier figure l'inscription:
 
-*Ils furent ici moins de soixante*  
-*Opposés à toute une armée.*  
-*Sa masse les écrasa.*  
-*La vie plutôt que le courage*  
-*Abandonna ces soldats français*  
+*Ils furent ici moins de soixante* 
+*Opposés à toute une armée.* 
+*Sa masse les écrasa.* 
+*La vie plutôt que le courage* 
+*Abandonna ces soldats français* 
 *À Camerone le 30 avril 1863*
 
 Depuis, les militaires mexicains rendent hommage aux soldats mexicains et français tombés ce jour-là en présentant les armes lorsqu'ils passent devant ce monument. L'usage militaire mexicain veut que cette présentation d'armes se déroule dans le plus grand silence, sans sonnerie de musique ni ordre vocal. Il est toujours en usage et les tombes des soldats français morts sont entretenues par le gouvernement mexicain sous le contrôle de l'ambassadeur de France et de son attaché militaire [^11].
@@ -147,7 +146,7 @@ Le 30 avril 1925, également pour la première fois dans l'histoire de la Légio
 
 Commémoration de la bataille de Camerone le 30 avril 1925 à Sidi Bel Abbès. Le lieutenant-colonel Paul-Frédéric Rollet, nouveau chef de corps du 1er régiment étranger, porte son drapeau. A ses côtés le capitaine Emile Eck porte la main du capitaine Danjou.
 
-  
+ 
 En 1954, lors du siège de [Diên Biên Phu](https://fr.wikipedia.org/wiki/Bataille_de_Di%C3%AAn_Bi%C3%AAn_Phu "Bataille de Diên Biên Phu"), afin de respecter la tradition, le récit du combat est lu à la radio par le lieutenant-colonel Lemeunier [^13].
 
 Aujourd'hui, la main du capitaine Danjou est conservée dans la crypte du [musée de la Légion étrangère](https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_%C3%A9trang%C3%A8re "Musée de la Légion étrangère") à [Aubagne](https://fr.wikipedia.org/wiki/Aubagne "Aubagne").

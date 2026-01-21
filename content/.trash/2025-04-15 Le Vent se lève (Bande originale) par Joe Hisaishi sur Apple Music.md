@@ -2,8 +2,8 @@
 NoteSource: "Forgotten Realms Wiki"
 title: "Le Vent se lève (Bande originale) par Joe Hisaishi sur Apple Music"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published:
 modified:
 created: 2025-04-15
@@ -14,9 +14,8 @@ created: 2025-04-15
 > # Le Vent se lève (Bande originale) par Joe Hisaishi sur Apple Music
 > ![](https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/11/00/d8/1100d8a4-1990-205e-c4f1-f46e0fcd83ac/Kaze_ST_Jacket1.jpg/1200x1200bf-60.jpg)
 > ###### Stats
-> | Name |  Value |
+> | Name | Value |
 > | --- | --- |
-
 
 1[Un voyage (Le vol de rêve)](https://music.apple.com/fr/song/un-voyage-le-vol-de-r%C3%AAve/785256916)
 

@@ -6,22 +6,22 @@ published:
 created: 2025-04-15
 description: "OST : Le Vent se Lève - Soundtrack. Date de sortie : 17/07/2013, Ref. : TKCA-73920"
 tags:
-  - "clippings"
+ - "clippings"
 image:
 ---
-8.86/10  
+8.86/10 
 21 membres
 
-#3849  
+#3849 
 [Score](https://www.nautiljon.com/classements/rank/ost/ "Classé #3849 (score de 8.97/10). Le classement est basé principalement sur les notes des membres.")
 
-#391  
+#391 
 [Popularité](https://www.nautiljon.com/classements/popularite/ost/ "Classé #391 (43 membres l'ont dans leur liste). Le classement est basé sur le nombre de membres qui l'ont dans leur liste.")
 
-#2160  
+#2160 
 [Tendance](https://www.nautiljon.com/classements/tendance/ost/ "Classé #2160. Le classement est basé sur l'activité qui s'est produite sur la fiche hier.")
 
-[![Acheter cette OST sur CDJAPAN](http://www.cdjapan.co.jp/cgi-bin/image.cgi?id=TKCA-73920)  
+[![Acheter cette OST sur CDJAPAN](http://www.cdjapan.co.jp/cgi-bin/image.cgi?id=TKCA-73920) 
 Acheter cette OST](https://www.nautiljon.com/site/redirect.php?cdjapan=TKCA-73920)
 
 - Titre original : Kaze Tachinu Soundtrack / 風立ちぬ サウンドトラック

@@ -1,10 +1,10 @@
 
 > [!infobox]+
 > # `=this.file.name`
-> **Pronounced:**  "`=this.Pronounced`"
+> **Pronounced:** "`=this.Pronounced`"
 > ![[PlaceholderImage.png]]
 > ###### Basic Information
->  |
+> |
 > ---|---|
 > **Aliases** | `=this.aliases` |
 > **Base of Operations** | `=link(this.hq)` |
@@ -50,38 +50,27 @@ SORT file.name ASC
 ## Culture
 ### Mission
 
-
 ### Conduct
-
 
 ### Recruitment & Training
 
-
 ### Ranks
 
-
 ### Uniforms & Equipment
-
 
 ## Acquaintances
 ### Allies:
 
-
 ### Rivals:
-
 
 ### Contacts:
 
-
 ## History
-
 
 ## Notes
 ### Plot Hooks
 
-
 ### Hidden Details
-
 
 ### General Notes
 

@@ -2,8 +2,8 @@
 NoteSource: "Forgotten Realms Wiki"
 title: "Le Vent se Lève - Soundtrack [Vinyle 2021]"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published:
 modified:
 created: 2025-04-15
@@ -14,12 +14,12 @@ created: 2025-04-15
 > # Le Vent se Lève - Soundtrack [Vinyle 2021]
 > ![](https://www.nautiljon.com/images/ost/00/74/le_vent_se_leve_-_soundtrack_vinyle_2021_23347.webp?0)
 > ###### Stats
-> | Name |  Value |
+> | Name | Value |
 > - Titre original : Kaze Tachinu Soundtrack / 風立ちぬ サウンドトラック
  >Titre US : The Wind Rises Soundtrack 
  > Type : [Anime](https://www.nautiljon.com/ost/?q=&types_include%5b%5d=1)
->  Ref. : TJJA-10033
->  Date de sortie : 24/04/2021
+> Ref. : TJJA-10033
+> Date de sortie : 24/04/2021
 > Prix : 5280 ¥
 - Label : ![Japon](https://www.nautiljon.com/static/images/flags/jp.png "Japon") [Studio Ghibli Records](https://www.nautiljon.com/societes/studio+ghibli+records,3991.html)
 - Distributeur : ![Japon](https://www.nautiljon.com/static/images/flags/jp.png "Japon") [Tokuma Japan Communications](https://www.nautiljon.com/societes/tokuma+japan+communications,596.html)
@@ -29,7 +29,6 @@ created: 2025-04-15
 - Arrangements : [Hisaishi Joe](https://www.nautiljon.com/people/hisaishi+joe.html)
 - Groupe : [Ghibli](https://www.nautiljon.com/groupes/ghibli,237.html)
 > | --- | --- |
-
 
 [Inscription](https://www.nautiljon.com/membre/inscription.php) [Connexion](https://www.nautiljon.com/membre/login.php)
 
@@ -44,9 +43,7 @@ Vous devez être connecté pour pouvoir avoir des notifications
 
 [Go-goldorak](https://www.nautiljon.com/membre/profil,go-goldorak.html "Go-goldorak")
 
-![](https://www.nautiljon.com/images/ost/00/74/mini/le_vent_se_leve_-_soundtrack_vinyle_2021_23347.webp?10)  
-
-
+![](https://www.nautiljon.com/images/ost/00/74/mini/le_vent_se_leve_-_soundtrack_vinyle_2021_23347.webp?10) 
 
 ## Tracklist
 

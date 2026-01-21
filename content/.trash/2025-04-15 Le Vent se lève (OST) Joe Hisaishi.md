@@ -2,8 +2,8 @@
 NoteSource: "Forgotten Realms Wiki"
 title: "Le Vent se lève (OST) Joe Hisaishi"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published:
 modified:
 created: 2025-04-15
@@ -14,9 +14,8 @@ created: 2025-04-15
 > # Le Vent se lève (OST) Joe Hisaishi
 > ![](https://media.senscritique.com/media/000007070405/300/le_vent_se_leve.jpg)
 > ###### Stats
-> | Name |  Value |
+> | Name | Value |
 > | --- | --- |
-
 
 ### Label:
 

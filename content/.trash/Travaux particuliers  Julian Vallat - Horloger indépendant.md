@@ -6,7 +6,7 @@ published:
 created: 2025-09-10
 description:
 tags:
-  - "clippings"
+ - "clippings"
 image:
 ---
 ## Travaux particuliers

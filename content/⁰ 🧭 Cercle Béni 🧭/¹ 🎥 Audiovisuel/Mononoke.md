@@ -5,7 +5,7 @@ note-scénario: 92 ✨ / 100
 note-visuel: 93 ✨ / 100
 cover: https://api.manga-clic.com/media/anime/mononoke/affiche-anime-mononoke-2007_9hfHVnv.webp
 genre: Animation, Mystère, Horreur, Psychologique
-sous_genres: Surnaturel, Japon féodal
+sous_genres: Japon féodal
 Réalisateurs: Kenji Nakamura
 Compositeurs.: Yasuharu Takanashi
 animation.: Toei Animation
@@ -16,24 +16,7 @@ tags:
  - Mystère
  - Horreur
  - Psychologique
- - Surnaturel
- - Japon-féodal
- - Yasuharu-Takanashi
- - Kenji-Nakamura
- - Toei-Animation
- - oboroge
- - ononoki
- - fukashigi
- - samishige
- - isamashige
- - ayashige
- - kurushige
- - munashige
- - osoroshige
- - hakanage
- - kanashige
- - abunage
- - utsurigi
+
  - audiovisuel
 ---
 
@@ -65,14 +48,14 @@ tags:
 > | | |
 > |---|---|
 > | **World** | <ul style="margin: 0; padding-left: 15px;"><li>Edo-period-Japan</li><li>Supernatural-realm</li><li>Medicine-seller-verse</li></ul> |
-> | **Main-Characters** | <ul style="margin: 0; padding-left: 15px;"><li>Medicine-Seller (#Takahiro-Sakurai)</li></ul> |
+> | **Main-Characters** | <ul style="margin: 0; padding-left: 15px;"><li>Medicine-Seller ()</li></ul> |
 > | **Themes** | <ul style="margin: 0; padding-left: 15px;"><li>Supernatural-phenomena</li><li>Human-emotions</li><li>Truth-revelation</li></ul> |
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Kenji-Nakamura</li><li>#Takahiro-Sakurai</li><li>#Taku-Iwasaki</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Toei-Animation</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Japanese-Folklore</li><li>#Supernatural-Horror</li><li>#Ukiyo-e-Art</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ## 📖 Synopsis 
 *Set in an ethereal Japan where ancient traditions clash with emerging modernity, *Mononoke* follows the enigmatic Medicine Seller as he travels between distant, starkly contrasted regions—from imperial Kyoto to isolated rural hamlets. His quest is to exorcise Mononoke—vengeful spirits born of unresolved human emotion—but only after discovering their Form, Truth, and Reason. At the heart of the series lies the haunting interplay between the Medicine Seller and tormented individuals, whose inner traumas manifest as spectral beings. The core conflict opposes spiritual mysticism to empirical ignorance, as each arc interrogates the boundaries of belief. Themes include guilt, repression, identity, trauma, and karmic retribution. With hypnotic, ukiyo-e inspired animation and a tone that shifts between philosophical horror and psychological drama, *Mononoke* defies convention in both form and storytelling.*
@@ -159,7 +142,7 @@ tags:
 
 | | |
 | ----------- | --------------------------------------------------------------------------------------- |
-| **Artists** | <ul style="margin: 0; padding-left: 15px;"><li>#yasuharu-takanashi</li></ul> |
+| **Artists** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
 | **Bands** | <ul style="margin: 0; padding-left: 15px;"></ul> |
-| **Tracks** | <ul style="margin: 0; padding-left: 15px;"><li>#oboroge</li><li>#mononoke</li><li>#ononoki</li><li>#fukashigi</li><li>#samishige</li><li>#isamashige</li><li>#ayashige</li><li>#kurushige</li><li>#munashige</li><li>#osoroshige</li><li>#hakanage</li><li>#kanashige</li><li>#abunage</li><li>#utsurigi</li></ul> |
-| **General** | <ul style="margin: 0; padding-left: 15px;"><li>#mononoke</li><li>#audiovisuel</li></ul> |
+| **Tracks** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul> |
+| **General** | <ul style="margin: 0; padding-left: 15px;"><li></li><li>#audiovisuel</li></ul> |

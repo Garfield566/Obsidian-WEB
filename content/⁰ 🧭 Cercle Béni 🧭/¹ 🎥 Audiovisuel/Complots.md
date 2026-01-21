@@ -2,9 +2,9 @@
 database-plugin: basic
 cover: https://www.ecranlarge.com/content/uploads/2020/08/ppgi07fkngkuhlm667ro3oa04bx-434.jpg
 tags:
-  - Crime-Mystery
-  - Madhouse
-  - Kuniaki-Haishima
+ - Crime-Mystery
+ - Madhouse
+ - Kuniaki-Haishima
 ---
 # 🎥 **Monster**
 > [!infobox]
@@ -29,9 +29,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Christopher-MacBride</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#XYZ-Films</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Found-Footage<br>#Secret-Society<br>#Paranoia</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li><br><br></li></ul> |
 
 ## 📖 Synopsis
 

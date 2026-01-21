@@ -122,4 +122,4 @@ John Maynard Keynes est un économiste fondamental pour comprendre la macroécon
 ## Liens Obsidienne
 
 #finance #Joseph-Schumpeter #economy #Adam-Smith #The_Wealth_of_Nations #France #Communism #Alfred-Marshall #John_Maynard-Keynes 
-#The_Economics_of_War_in_Germany #Inflation_as_a_Method_of_Taxation #Am_I_a_Liberal #Laissez-Faire_and_Communism #Can_Lloyd_George_Do_It #Economic_Possibilities_for_our_Grandchildren #The_Great_Slump_of_1930 #The_End_of_the_Gold_Standard #The_Means_to_Prosperity #An_Open_Letter_to_President_Roosevelt #The_General_Theory_of_Employment
+ 

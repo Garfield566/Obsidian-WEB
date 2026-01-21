@@ -44,7 +44,7 @@ Cette analyse, développée de façon approfondie dans la RDN, est typiquement l
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #école_historique_écossaise #Adam-Ferguson #William-Robertson 
- #John-Millar
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #école_historique_écossaise 
+ 
 
 ---

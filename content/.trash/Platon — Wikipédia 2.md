@@ -2,11 +2,10 @@
 Source: "Wikipédia"
 ---
 {
-  "schemaVersion": "0.1.0",
-  "name": "Wikipédia avec Code",
-  "behavior": "create",
-  "noteContentFormat": "## Platon — Wikipédia\n```infobox\n\n```\n\n## Description\n\n\n## Contenu Principal\n```wiki-content\nPour les articles homonymes, voir Platon (homonymie) et Plato.
-
+ "schemaVersion": "0.1.0",
+ "name": "Wikipédia avec Code",
+ "behavior": "create",
+ "noteContentFormat": "## Platon — Wikipédia\n```infobox\n\n```\n\n## Description\n\n\n## Contenu Principal\n```wiki-content\nPour les articles homonymes, voir Platon (homonymie) et Plato.
 
 PlatonΠλάτων / plátôn.mw-parser-output .entete.auteur{background-image:url("//upload.wikimedia.org/wikipedia/commons/1/1e/Picto_infobox_auteur.png")}Copie d'un buste de la fin du IVe siècle av. J.-C.Naissance
 Vers 428 / 427 av. J.-C.Athènes, époque classiqueDécès
@@ -31,7 +30,6 @@ Platon développe une réflexion sur les Idées communément appelée théorie d
 La pensée de Platon n'est pas monolithique. Une partie de ses dialogues aboutissent à des apories philosophiques : apportant une solution aux problèmes posés, ils ne constituent pas une réponse unique et définitive. Un long débat a donc agité les commentateurs pour déterminer si Platon professait une philosophie dogmatique ou sceptique.
 Il est généralement considéré comme l'un des premiers philosophes grecs, sinon comme l'inventeur de la philosophie, au point que Whitehead a pu dire : « La philosophie occidentale n'est qu’une suite de notes de bas de page aux dialogues de Platon »[3]. Théophraste, parlant des philosophes, dit de Platon qu'il fut le premier par la renommée et le génie, tout en étant le dernier dans la chronologie.
 
-
 Biographie[modifier | modifier le code]
 Platon, copie du portrait exécuté par Silanion pour l'Académie vers 370 av. J.-C., Centrale Montemartini.
 La vie de Platon est mal connue[4]. La plus ancienne biographie de Platon qui nous soit parvenue, De Platone et dogmate eius[5], est due à un auteur latin du IIe siècle, Apulée. Toutes les autres biographies de Platon — Diogène Laërce, Olympiodore le Jeune[6], Philodème (si l'on considère que les fragments de ses Academica ne constituent pas une biographie, sans quoi il faut le considérer comme le premier avant Apulée) et les auteurs anonymes des Prolégomènes et de la Souda[7] — ont été écrites plus de cinq cents ans après sa mort. À l'exception de quelques données considérées comme certaines, les informations sur sa vie doivent toujours être prises avec circonspection.
@@ -55,7 +53,6 @@ Il a durant sa formation pour condisciple Isocrate, qui selon Diogène Laërce a
 Platon et la vie politique[modifier | modifier le code]
 Platon, par ses origines, est en relation étroite avec le parti oligarchique que par ailleurs il honnit[18]. Il semble qu'il n'ait pas été insensible à la célébrité de sa famille, qu'il mentionne dans le Charmide[p. 8] et dans le Timée[p. 9]. Dans La République, il considère la politique comme étant un honneur, le plus grand devoir d'un bon citoyen et le couronnement de la vie philosophique[p. 10].
 Malgré tout, Platon abandonne de bonne heure la vie politique, carrière par excellence de l'homme libre à Athènes. D’après la Lettre VII, dont l'authenticité est généralement acceptée, il s'est essayé à la politique, et a même pris quelque part au gouvernement des Trente tyrans, un gouvernement despotique et sanguinaire qui aurait procédé à près de 1 500 exécutions sommaires. Il aurait renoncé à la vie publique, dégoûté par les excès et les fureurs des partis[p. 11].
-
 
 « Du temps de ma jeunesse, je ressentais en effet la même chose que beaucoup dans cette situation : je m'imaginais qu'aussitôt devenu maître de moi-même, j'irais tout droit m'occuper des affaires communes de la cité. Et voilà comment le hasard fit que je trouvai les choses de la cité. Le régime d'alors était en effet l'objet de virulentes critiques de la part du plus grand nombre, et une révolution éclata. […] Et moi, voyant donc cela, et les hommes qui s'occupaient de politique, plus j'examinais en profondeur les lois et les coutumes en même temps que j'avançais en âge, plus il me parut qu'il était difficile d'administrer droitement les affaires de la cité. Il n'était en effet pas possible de le faire sans amis et associés dignes de confiance, et il n'était pas aisé d'en trouver parmi ceux qu'on avait sous la main, car notre cité n'était plus administrée selon les coutumes et les habitudes de nos pères. »
 
@@ -126,7 +123,6 @@ Article détaillé : Socrate.
 Platon fut le « disciple »[Note 6],[58],[59] de Socrate, mais la nature exacte des relations entre Socrate et Platon nous est mal connue. Plutarque dit dans Opinions des Philosophes[60] que les opinions de Socrate et de Platon, de quelque chose que ce soit, sont toutes unes. Selon toute vraisemblance, Platon rencontra Socrate vers 407 av. J.-C., à l'âge de vingt ans, et il le fréquenta pendant huit ou neuf ans. À la mort de Socrate, il avait donc environ vingt-huit ans[61]. La place ou le rôle que Platon occupait parmi les disciples de Socrate est inconnu[Note 7].
 Tous les dialogues de Platon, sauf Les Lois et Le Sophiste, mettent en scène Socrate, quoiqu'en ne lui donnant pas toujours le premier rôle ; cette omniprésence atteste quelle influence Socrate exerça sur Platon. Du vivant de Socrate, tous les disciples du cercle socratique, venus de tous les points de l'horizon philosophique, « communiaient non pas dans l'acceptation d'une doctrine philosophique, mais dans une sorte de culte sentimental à l'égard du caractère du Maître, dans la confiance en sa direction spirituelle »[62]. C'est donc la personne même de Socrate qui explique la nature du lien qui l'unit à Platon : pour lui comme pour les autres fidèles du cercle, la conduite de Socrate constitue un exemple surhumain, et sa pensée, un objet de méditation et d'examen. Quand, dans le Phédon[p. 13], Platon fait la liste des proches de Socrate ayant assisté à sa mort, il souligne sa propre absence : « Platon, je crois, était malade » dit Phédon ; la formulation hypothétique (je crois) dans la bouche du mieux informé est l'affirmation implicite que le récit de la mort du Maître est infidèle[63]. Les dialogues comportent certes plusieurs louanges envers Socrate, mais prononcées par des personnages dont nous ne savons pas avec certitude si l'on doit les considérer comme des porte-parole de Platon, bien que cela soit probable. Le seul passage où Platon parle de Socrate en son nom propre, est la Lettre VII, dont on admet généralement l'authenticité[p. 27] :
 
-
 « Entre autres choses, Socrate, mon ami, qui était plus âgé que moi, et dont, je pense, je ne rougirais pas de dire qu'il était l'homme le plus juste de cette époque, ils [les Trente] l'envoyèrent avec d'autres chercher un citoyen, pour l'amener de force, en vue de le mettre à mort, dans le but évident de le rendre complice de leurs agissements, de gré ou de force ; mais lui, refusa d'obéir et préféra courir le risque de tout endurer, plutôt que d'être associé à leurs œuvres impies. »
 
  La mise en scène de Socrate par Platon est en revanche des plus explicites. Socrate apparaît, par exemple, comme l'ami véritable dans le Lysis, comme un homme courageux dans le Lachès, comme un sage dans le Charmide. Une autre caractéristique, plusieurs fois remarquée par ses interlocuteurs et mise en scène par Platon, est l'άτοπία / atopía de Socrate, autrement dit son caractère déroutant[64] dont fait partie cette manœuvre ironique qui consiste à feindre la naïveté, et à prétendre reconnaître le savoir de son interlocuteur. Mais peu importe que Platon, transfigurant parfois le Socrate réel, l'ait dans une certaine mesure, présenté comme un « surhomme ». Bien des traits de Socrate, manifestement pris sur le vif, contribuent à dresser de lui un portrait saisissant, bien loin du Sage abstrait des stoïciens[65].
@@ -188,7 +184,6 @@ Amour de la connaissance[modifier | modifier le code]
 Article détaillé : Le Banquet (Platon).
 La philosophie de Platon ne peut être approchée sans comprendre le rôle fondamental d'un désir violent et multiforme qui s'empare tant de l'âme que du corps : l'amour (en grec ancien : ἔρως)[94]. L'amour est une forme de possession et de délire divins[p. 37] qui se manifeste par un attachement à une personne, à un objet ou même à une idée, accompagné de la pensée que la satisfaction de ce désir peut être une source de modification et d'élévation de l'existence. Cet amour se manifeste de nombreuses manières, qui vont de l'accouplement ou de la débauche, à l'amour de l'élève pour le maître, ou encore à l'excitation frénétique de l'âme poursuivant une idée, telle que le Bien[p. 38]. Il n'y a pas, pour Platon, plusieurs natures du désir érotique qui se manifesteraient dans plusieurs formes d'amour, qui n'auraient qu'un nom en commun. Platon distingue et hiérarchise l'amour selon les différentes finalités que l'on peut observer, mais cette variété des fins du désir n'est qu'une variété dans un même genre. Ainsi, si Platon condamne l'amour charnel ou bestial, et s'il place au plus haut cette forme de délire de l'âme qui possède le philosophe en quête du savoir, la véritable différence entre ces deux orientations se trouve, non dans la nature du désir même, mais dans la capacité de contempler le Beau. C'est pourquoi cette différence dans la finalité de l'amour se manifeste au contact de ce dernier :
 
-
 « La beauté seule jouit du privilège d’être l’objet le plus visible et le plus attrayant. L’homme pourtant dont l’initiation n’est point récente ou qui s’est laissé corrompre, ne s’élève pas promptement de la beauté d’ici-bas vers la beauté parfaite, quand il contemple sur terre l’image qui en porte le nom. Aussi, loin de se sentir frappé de respect à sa vue, il cède alors au plaisir, à la façon des bêtes, cherche à saillir cette image, à lui semer des enfants, et, dans la frénésie de ses fréquentations, il ne craint ni ne rougit de poursuivre une volupté contre nature. Mais l’homme, qui a été récemment initié, ou qui a beaucoup contemplé dans le ciel, lorsqu’il aperçoit en un visage une belle image de la beauté divine, ou quelque idée dans un corps de cette même beauté, il frissonne d’abord, il sent survenir en lui quelques-uns de ses troubles passés ; puis, considérant l’objet qui émeut ses regards, il le vénère comme un dieu. »
 
 — Phèdre, 250-251.
@@ -197,7 +192,6 @@ Cette poursuite de la Beauté pose plusieurs questions que Platon aborde au fil 
 Réminiscence[modifier | modifier le code]
 Article détaillé : Réminiscence (philosophie).
 Platon a montré que la connaissance sensible est moins vraie : l'âme ne peut en effet parvenir à l'être par le moyen des sensations. Il faut donc, aux yeux de Platon, qu'une certaine puissance de l'âme soit au contact des réalités vraies pour produire une science authentique, ce qui implique également que l'âme participe d'une certaine manière à l'intelligible. Ce rapport de l'âme à l'intelligible est décrit à travers le ressouvenir et les mythes que Platon lui rattache. La réminiscence (en grec ancien : ἀνάμνησις, également traduit par ressouvenir) est le ressouvenir par l'âme, à l'occasion d'une perception sensible, de connaissances qu'elle a acquises en dehors de son séjour dans un corps, et qu'elle a perdues lors de sa réincorporation. L'acquisition de la connaissance doit alors débuter par une re-connaissance, avant de se poursuivre par l'épreuve de la réfutation. Cette thèse suppose l'immortalité de l'âme, et l'existence de réalités intelligibles, puisque c'est en séjournant dans un monde intelligible, supérieur au monde empirique, que l'âme a contemplé les réalités divines. L'un des exemples les plus célèbres de cette idée se rencontre dans le Ménon :
-
 
 « Ainsi, immortelle et maintes fois renaissante, l’âme a tout vu, tant ici-bas que dans l’Hadès, et il n’est rien qu’elle n’ait appris ; aussi n’y a-t-il rien d’étonnant à ce que, sur la vertu et sur le reste, elle soit capable de se ressouvenir de ce qu’elle a su antérieurement »
 
@@ -228,30 +222,15 @@ Platon voit le monde comme un être vivant, avec une âme, et un corps[116].
 Le démiurge commence par créer l'âme du monde qui est issue de trois notions fondamentales : l'Être, le Même et l'Autre. L'âme du monde est un intermédiaire entre le sensible et l'intelligible, entre l'indicible caractéristique de l'intelligible et le divisible caractéristique du monde sensible[117]. L'âme du monde a une structure mathématique constituée de cercles, elle est « le principe de l'ensemble des changements ordonnés dans tout l'univers »[118] et témoigne de la conviction de Platon qu'il existe une régularité non seulement dans le monde supralunaire, mais également dans le monde sublunaire. Toutefois, concernant ce dernier, ni le démiurge, ni l'âme du monde n'arrivent à vaincre complètement la nécessité issue de la matière[119].
 
 Corps du monde[modifier | modifier le code]
-Le démiurge ne fabrique pas le corps du monde, il se contente d'y instaurer ordre et mesure sans vraiment y arriver totalement[120]. Pour Platon, comme pour les Grecs depuis Empédocle, le monde est constitué par quatre éléments : le feu, l'air, l'eau et la terre. Ce qui est propre à Platon, c'est d'une part sa volonté de montrer mathématiquement pourquoi il n'y a que quatre éléments et, d'autre part, le rapprochement qu'il établit entre les quatre éléments et quatre polyèdres réguliers : tétraèdre, hexaèdre, octaèdre, icosaèdre[121].   De sorte que pour Platon, « dans le monde sensible, tous les phénomènes observables - c'est-à-dire tout ce qui change suivant la terminologie platonicienne - se réduisent à des interactions entre les mêmes composantes élémentaires, qui peuvent être exprimés en termes de rapports mathématiques »[121].
-
-
+Le démiurge ne fabrique pas le corps du monde, il se contente d'y instaurer ordre et mesure sans vraiment y arriver totalement[120]. Pour Platon, comme pour les Grecs depuis Empédocle, le monde est constitué par quatre éléments : le feu, l'air, l'eau et la terre. Ce qui est propre à Platon, c'est d'une part sa volonté de montrer mathématiquement pourquoi il n'y a que quatre éléments et, d'autre part, le rapprochement qu'il établit entre les quatre éléments et quatre polyèdres réguliers : tétraèdre, hexaèdre, octaèdre, icosaèdre[121]. De sorte que pour Platon, « dans le monde sensible, tous les phénomènes observables - c'est-à-dire tout ce qui change suivant la terminologie platonicienne - se réduisent à des interactions entre les mêmes composantes élémentaires, qui peuvent être exprimés en termes de rapports mathématiques »[121].
 
 polyèdres
-
 
 Tétraèdre
 Hexaèdre
 Octaèdre
 Dodécaèdre
 Icosaèdre
-
-
-
-
-
-
-
-
-
-
-
-
 
 Feu
 
@@ -309,7 +288,6 @@ Philosophe roi[modifier | modifier le code]
 Article détaillé : Philosophe roi.
 Le philosophe, représenté par le personnage de Socrate[146], est une des figures centrales des dialogues de Platon[147],[148]. Pourquoi Platon lie-t-il philosophe et roi ?
 
-
 « À moins que, dis-je, les philosophes n'arrivent à régner dans les cités, ou à moins que ceux qui à présent sont appelés rois et dynastes ne philosophent de manière authentique et satisfaisante et que viennent coïncider l'un avec l'autre pouvoir politique et philosophie ; à moins que les naturels nombreux de ceux qui à présent se tournent séparément vers l'un ou l'autre n'en soient empêchés de force, il n'y aura pas, mon ami Glaucon, de terme aux maux des cités ni, il me semble, à ceux du genre humain »
 
 — La République, V, 473 c-e.
@@ -325,7 +303,6 @@ Platon très tôt s'est intéressé à la notion de mesure. Dans le Gorgias, Soc
 
 — Philèbe, 67 b
 Dans ces derniers écrits, Platon emploie l'idée de mesure droite dans son sens littéral en lien avec l'idée des progrès de l'astronomie de son temps. Les bonnes proportions donnent des entités et des mouvements stables. 
-
 
 « Il n'en reste pas moins que, lorsque les hommes s'interrogent sur les lois, toute leur enquête, ou peu s'en faut, porte sur les mœurs relatives aux plaisirs et aux douleurs qu'éprouvent aussi bien les cités que les particuliers. Ce sont là en effet les deux sources auxquelles la nature donne libre cours ; si l'on puise à ces sources auxquelles la nature donne libre cours où, quand et autant qu'il le faut, c'est le bonheur. »
 
@@ -376,7 +353,6 @@ Enseignement oral de Platon[modifier | modifier le code]
 Platon aurait dispensé « un enseignement oral et ésotérique à l'Académie », mais ses motivations demeurent inconnues. Aristote[p. 41] parle des « enseignements non écrits » (άγραφα δόγματα / ágrapha dógmata) de Platon, et il mentionne une leçon intitulée Sur le Bien (Περί τάγαθου / pérí tágathou) que prononça Platon, qui, à la surprise des auditeurs dont Aristote, Hestiée, Héraclide du Pont, Speusippe, Xénocrate[173], portait « sur les mathématiques, c'est-à-dire sur les Nombres, sur la Géométrie, sur l'Astronomie, et sur le fait que le Bien, c'est l'Un »[p. 42].
 Platon reconnaît la valeur limitée de l'écrit[174] :
 
-
 « L’écriture, Phèdre, a un grave inconvénient, tout comme la peinture. Les produits de la peinture sont comme s’ils étaient vivants ; mais pose-leur une question, ils gardent gravement le silence. Il en est de même des discours écrits. »
 
 — Phèdre, 275 d
@@ -405,9 +381,6 @@ Cependant, Platon est un écrivain et un poète plein de ressources, et il para�
 Détails de l'œuvre[modifier | modifier le code]
 Catégorie principale : Œuvre de Platon.
 L'ensemble des œuvres de Platon se compose de plus d'une trentaine de dialogues, de lettres, d'un livre de définitions et de six dialogues apocryphes. La liste suivante suit l'ordre chronologique proposé par Luc Brisson. Les sous-titres, donnés entre parenthèses, ne sont pas de Platon, mais de Pomponius Atticus, selon Luc Brisson.
-
-
-
 
 Alcibiade majeur (ou Premier Alcibiade, De l'Homme)
 Hippias mineur (ou Second Hippias, Du faux)
@@ -438,7 +411,6 @@ Philèbe (Du plaisir)
 Timée
 Les Lois (De la législation)
 
-
 Authenticité douteuse
 Alcibiade mineur (ou Second Alcibiade, De la prière)
 Clitophon
@@ -450,7 +422,6 @@ Les Rivaux (De la philosophie)
 Théagès (Du savoir)
 Épigrammes
 « Lettre VII »
-
 
 Œuvres apocryphes : le Pseudo-Platon
 Axiochos
@@ -499,15 +470,13 @@ Notes[modifier | modifier le code]
 
 ↑ Disciple est entre guillemets à dessein : le terme pourrait être exagéré, si l'on en croit Platon quand il fait dire à Socrate : « Pour ma part, je n'ai jamais été le maître de personne ».
 
-↑  Diogène Laërce mentionne le fait suivant : « On raconte que Socrate eut un songe : il vit sur ses genoux un cygne [oiseau tutélaire d'Apollon] qui se couvrit de plumes et s’envola. Le lendemain, Platon vint se joindre à lui comme disciple. Et Socrate déclara que Platon était l'oiseau qu'il avait vu en songe ».
+↑ Diogène Laërce mentionne le fait suivant : « On raconte que Socrate eut un songe : il vit sur ses genoux un cygne [oiseau tutélaire d'Apollon] qui se couvrit de plumes et s’envola. Le lendemain, Platon vint se joindre à lui comme disciple. Et Socrate déclara que Platon était l'oiseau qu'il avait vu en songe ».
 
 ↑ Platon aborde cette question dans le premier livre de la République et dans le Gorgias.
 
 ↑ L'interprétation « dualiste » de Platon est illustrée par des philosophes qui, comme Nietzsche, voient en Platon un contempteur du devenir. Il n'y a toutefois qu'une et une seule réalité chez Platon, qui est la réalité dite intelligible, le monde sensible étant toujours perçu et pensé par l'intermédiaire de cette réalité qui le constitue comme monde sensible.
 
 ↑ Platon propose ainsi une réfutation de la possibilité de la connaissance des Idées dans le Parménide. Dans Le Sophiste, il montre que l'absence de modèle intelligible menace de transformer, dans sa totalité, le monde sensible en simulacre.
-
-
 
 Œuvres philosophiques citées[modifier | modifier le code]
 Les passages cités en grec ancien sont tirés de l'édition John Burnet.
@@ -598,8 +567,6 @@ Les passages cités en grec ancien sont tirés de l'édition John Burnet.
 
 ↑ Lettre VII, 341 c-d ; Phèdre, 274-278.
 
-
-
 Références[modifier | modifier le code]
 
 ↑ Prononciation en grec ancien retranscrite selon la norme API.
@@ -612,7 +579,7 @@ Références[modifier | modifier le code]
 
 Diogène Laërce (vers 200), Vies et doctrines des philosophes illustres, t. III, 1-47, Le livre de poche, 1999, p. 391-427
 (en) Olympiodore le Jeune et L. G. Westerink (éd.) (après 527), Commentary on the First Alcibiades of Plato. Critical text and indices, Amsterdam, North-Holland Publ. Co., 1983, xvi-191
-« Chronologie », dans Platon, Lettres  (traduction, introduction, notices et notes de Luc Brisson), Garnier-Flammarion, 1994, 314 p., p. 293-296.
+« Chronologie », dans Platon, Lettres (traduction, introduction, notices et notes de Luc Brisson), Garnier-Flammarion, 1994, 314 p., p. 293-296.
 
 ↑ « De Platone et eius dogmate - Wikisource [archive] », sur la.wikisource.org (consulté le 31 mars 2020).
 
@@ -930,7 +897,7 @@ Diogène Laërce (vers 200), Vies et doctrines des philosophes illustres, t. II
 
 ↑ Albert Lautman, Essai sur les notions de structure et d’existence en mathématique, 1937.
 
-↑ Jean-Pierre Changeux et Alain Connes, Matière à penser, Odile Jacob, 2000  (ISBN 978-2-7381-0815-9).
+↑ Jean-Pierre Changeux et Alain Connes, Matière à penser, Odile Jacob, 2000 (ISBN 978-2-7381-0815-9).
 
 ↑ Pierre Hadot, Études de philosophie ancienne, Les Belles Lettres, 1998, p. 30.
 
@@ -986,13 +953,11 @@ Diogène Laërce (vers 200), Vies et doctrines des philosophes illustres, t. II
 
 ↑ Lambros Couloubaritsis, Aux origines de la philosophie européenne : De la pensée archaïque au néoplatonisme, Bruxelles, de Boeck, coll. « Le point philosophique », 2003 (réimpr. 2005), 4e éd. (1re éd. 1992), 757 p. (ISBN 978-2-8041-4319-0, lire en ligne [archive]), p. 222.
 
-
-
 Bibliographie[modifier | modifier le code]
 Aristote (trad. Pierre Pellegrin), « Politiques », dans Œuvres complètes, Éditions Flammarion, 2014, 2923 p. (ISBN 978-2081273160). 
 Luc Brisson (dir.) (trad. du grec ancien), Platon : Œuvres complètes, Paris, Éditions Flammarion, 2008 (1re éd. 2006), 2204 p. (ISBN 978-2-08-121810-9). 
 Biographies de Platon[modifier | modifier le code]
-Œuvres complètes  (trad. du grec ancien par Luc Brisson), Paris, Éditions Flammarion, 2008 (1re éd. 2006), 2204 p. (ISBN 978-2-08-121810-9), « Lettre VII », p. 639-665. 
+Œuvres complètes (trad. du grec ancien par Luc Brisson), Paris, Éditions Flammarion, 2008 (1re éd. 2006), 2204 p. (ISBN 978-2-08-121810-9), « Lettre VII », p. 639-665. 
 Luc Brisson, « La lettre VII de Platon, une autobiographie », in L'Invention de l'autobiographie, Presses de l'École Normale Supérieure, 1993, p. 36-46.
 Apulée, Sur Platon et sa doctrine (vers 150), in Opuscules philosophiques et fragments, texte établi et traduit par Jean Beaujeu, Les Belles Lettres, 1973.
 Diogène Laërce, Vies, doctrines et sentences des philosophes illustres [détail des éditions] (lire en ligne [archive]) (vers 200), III, introduction, traduction et notes de Luc Brisson, La Pochotèque, Paris, 1999, p. 369-465.
@@ -1088,15 +1053,9 @@ Sur les autres projets Wikimedia :
 
 Platon, sur Wikimedia CommonsPlaton, sur le Wiktionnaire (thésaurus)Platon, sur WikisourcePlaton, sur Wikiquote
 
-
-
-
 Une catégorie est consacrée à ce sujet : Platon.
 
-
 Articles connexes[modifier | modifier le code]
-
-
 
 Académie de Platon
 Philosophie politique (Platon)
@@ -1106,7 +1065,6 @@ Vérité
 Liste des personnages des dialogues de Platon
 Néoplatonisme
 Néoplatonisme médicéen
-
 
 Platoniciens de Cambridge
 Platonisme (doctrine philosophique)
@@ -1138,8 +1096,6 @@ Articles[modifier | modifier le code]
 (fr) Platon mystagogue [archive], par Françoise Béchet
 Ressources[modifier | modifier le code]
 
-
-
 Ressources relatives aux beaux-arts : Bénézit British Museum Grove Art Online Royal Academy of Arts Sandrart.net Union List of Artist Names 
 Ressources relatives à la musique : Discogs MusicBrainz Muziekweb Rate Your Music Répertoire international des sources musicales Songkick 
 Ressources relatives à la recherche : L'Encyclopédie philosophique Internet Encyclopedia of Philosophy Isidore Stanford Encyclopedia of Philosophy 
@@ -1149,13 +1105,12 @@ Ressources relatives au spectacle : Archives suisses des arts de la scène Kuns
 Ressource relative à l'astronomie : Biographical Encyclopedia of Astronomers 
 Ressource relative à la santé : Bibliothèque interuniversitaire de santé 
 Ressource relative à plusieurs domaines : Radio France 
-Ressource relative à l'audiovisuel : IMDb  
+Ressource relative à l'audiovisuel : IMDb 
 Notices dans des dictionnaires ou encyclopédies généralistes : Britannica [archive] Brockhaus [archive] Collective Biographies of Women [archive] Den Store Danske Encyklopædi [archive] Deutsche Biographie [archive] E-archiv.li [archive] Enciclopedia italiana [archive] Gran Enciclopèdia Catalana [archive] Hrvatska Enciklopedija [archive] Internetowa encyklopedia PWN [archive] Larousse [archive] Nationalencyklopedin [archive] Proleksis enciklopedija [archive] Store norske leksikon [archive] Treccani [archive] Universalis [archive] Visuotinė lietuvių enciklopedija [archive] 
 Notices d'autorité : VIAF ISNI BnF (données) IdRef LCCN GND Italie Japon CiNii Espagne Belgique Pays-Bas Pologne Israël NUKAT Catalogne Suède Vatican WorldCat 
 
-
  [afficher]v · mPlaton
-  
+ 
 Connaissance
 
 Théorie des formes (argument du troisième homme)
@@ -1201,10 +1156,10 @@ Jeunesse de Platon
 Académie de Platon
 Platonisme
 
-                          
+ 
 
  [afficher]v · mDialogues de Platon
-  
+ 
 Dialogues
 
 Hippias mineur
@@ -1254,12 +1209,11 @@ Démodocos
 Sisyphe
 Hipparque
 
-                             
+ 
 Liste des personnages des dialogues
 
  [afficher]v · mL'Académie de Platon
-  
-
+ 
 
 Platon
 Speusippe
@@ -1271,12 +1225,11 @@ Crantor
  
 
 Nouvelle Académie
-                             
+ 
 
  [afficher]v · mPlatoniciens
-  
+ 
 Académiciens
-
 
 Anciens
 
@@ -1308,8 +1261,7 @@ Clitomaque
 Charmadas
 Philon de Larissa
 
-                           
-
+ 
 
  
 Médioplatoniciens
@@ -1375,10 +1327,10 @@ Néoplatonisme
 Néoplatonisme médicéen
 Platoniciens de Cambridge
 
-                           
+ 
 
  [afficher]v · mPhilosophie socratique
-  
+ 
 Fondateurs
 
 Socrate
@@ -1434,10 +1386,10 @@ Alexinos
 Phédon d'Élis
 Ménédème d'Érétrie
 
-                          
+ 
 
  [afficher]v · mÉcoles de philosophie antique
-  
+ 
 Présocratiques
 
 École ionienne
@@ -1470,12 +1422,11 @@ Néoplatonisme
 Scepticisme
 Stoïcisme
 
-                            
+ 
 
  [afficher]v · mLittérature grecque
-  
+ 
 Antique
-
 
 Archaïque
 
@@ -1503,7 +1454,6 @@ Tyrtée
 
  
 Classique
-
 
 Théâtre
 
@@ -1561,8 +1511,7 @@ Médecine
 
 Hippocrate
 
-                        
-
+ 
 
  
 Hellénistiqueet époque romaine
@@ -1582,12 +1531,10 @@ Strabon
 Théocrite
 Zénon de Kition
 
-                           
-
+ 
 
  
 Byzantine
-
 
 Antiquité tardive
 
@@ -1619,12 +1566,10 @@ Empire byzantin tardif
 Gémiste Pléthon
 Digénis Akritas
 
-                           
-
+ 
 
  
 Grèce ottomane
-
 
 XIVe siècle
 
@@ -1660,12 +1605,10 @@ Iósipos Misiódax
 Athanásios Psalídas
  Rigas
 
-                         
-
+ 
 
  
 Contemporaine
-
 
 XIXe siècle
 
@@ -1680,9 +1623,7 @@ Georges Séféris
  
 XXIe siècle
 
-
-                           
-
+ 
 
  
 Liste d'auteurs
@@ -1693,26 +1634,26 @@ Canon alexandrin
 Anthologie grecque
 Liste d'auteurs de littérature grecque moderne
 
-                          
+ 
 
- Portail de la philosophie   Portail de la philosophie antique   Portail de la Grèce antique   Portail de l’éducation\n```\n\n## Extraits Codés\n```json\n{\n  \"source\": \"https://fr.wikipedia.org/wiki/Platon\",\n  \"date\": \"\"\n}\n```\n\n---\n*Généré automatiquement via Web Clipper*",
-  "properties": [
-    {
-      "name": "title",
-      "value": "Platon — Wikipédia",
-      "type": "text"
-    },
-    {
-      "name": "url",
-      "value": "https://fr.wikipedia.org/wiki/Platon",
-      "type": "text"
-    }
-  ],
-  "triggers": [
-    "https://*.wikipedia.org/wiki/"
-  ],
-  "noteNameFormat": "Wiki - Platon — Wikipédia",
-  "settings": {
-    "preserveCodeBlocks": true
-  }
+ Portail de la philosophie Portail de la philosophie antique Portail de la Grèce antique Portail de l’éducation\n```\n\n## Extraits Codés\n```json\n{\n \"source\": \"https://fr.wikipedia.org/wiki/Platon\",\n \"date\": \"\"\n}\n```\n\n---\n*Généré automatiquement via Web Clipper*",
+ "properties": [
+ {
+ "name": "title",
+ "value": "Platon — Wikipédia",
+ "type": "text"
+ },
+ {
+ "name": "url",
+ "value": "https://fr.wikipedia.org/wiki/Platon",
+ "type": "text"
+ }
+ ],
+ "triggers": [
+ "https://*.wikipedia.org/wiki/"
+ ],
+ "noteNameFormat": "Wiki - Platon — Wikipédia",
+ "settings": {
+ "preserveCodeBlocks": true
+ }
 }

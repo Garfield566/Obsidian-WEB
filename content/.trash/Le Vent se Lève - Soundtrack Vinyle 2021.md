@@ -26,8 +26,6 @@ author:
 
 ## Résumé
 
-
-
 ---
 
 ## Soundtrack

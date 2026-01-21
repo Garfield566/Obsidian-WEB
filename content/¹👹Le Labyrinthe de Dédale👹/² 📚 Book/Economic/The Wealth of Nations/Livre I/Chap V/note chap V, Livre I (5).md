@@ -5,6 +5,6 @@ La distinction entre le prix réel et le prix nominal des marchandises et du tra
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #smith/prix_rélle #smith/prix_nominal 
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #smith/prix_rélle 
 
 ---

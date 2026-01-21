@@ -2,18 +2,18 @@
 title: "Pitas (pains grecs à garnir)"
 source: "https://www.marmiton.org/recettes/recette_pitas-pains-grecs-a-garnir_38611.aspx"
 author:
-  - "[[Marmiton-aufeminin]]"
+ - "[[Marmiton-aufeminin]]"
 published:
 created: 2025-04-17
 description: "Recette Pitas (pains grecs à garnir) : découvrez les ingrédients, ustensiles et étapes de préparation"
 tags:
-  - "clippings"
+ - "clippings"
 ---
 [Accueil](https://www.marmiton.org/) > [Recettes](https://www.marmiton.org/recettes) > [accompagnement](https://www.marmiton.org/recettes/index/categorie/accompagnement/) > [pain](https://www.marmiton.org/recettes/index/categorie/pain/) > [pita](https://www.marmiton.org/recettes/index/categorie/pita/) > Pitas (pains grecs à garnir)
 
 ![](https://assets.afcdn.com/recipe/20221013/136134_w300h200c1cx1792cy1004cxt0cyt0cxb3584cyb2008.png)
 
-|  |  |
+| | |
 | --- | --- |
 
 ![](https://assets.afcdn.com/recipe/20221013/136134_w648h414c1cx1792cy1004.png) Norma pour Marmiton

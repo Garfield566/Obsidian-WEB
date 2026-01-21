@@ -1,13 +1,13 @@
 ---
 url: "https://x.com/Crypto__Goku/status/1911695537667027245"
 author:
-  - "Goku 🗞"
+ - "Goku 🗞"
 handle: "Crypto__Goku"
 profile: "https://x.com/@Crypto__Goku"
 image: "https://pbs.twimg.com/media/Goe002BXIAAPLbL?format=jpg&name=360x360"
 tags:
-  - "clippings"
-  - "twitter"
+ - "clippings"
+ - "twitter"
 published: 2025-04-14
 created: 2025-04-14
 ---

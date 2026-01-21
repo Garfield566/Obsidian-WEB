@@ -26,7 +26,7 @@ On compare aussi scrum avec Kanban dans la vidéo.
 
 Pour créer vous aussi ce genre de vidéo : https://bit.ly/36gtQJq
 
-#kanban #projet #agile
+ 
 
 *****
 Comment vous dédoubler : https://bit.ly/3kXwRTs (code promo : YouTube = 50% de réduction)

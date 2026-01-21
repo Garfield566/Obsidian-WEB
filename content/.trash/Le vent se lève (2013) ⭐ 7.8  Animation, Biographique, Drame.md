@@ -2,12 +2,12 @@
 title: "Le vent se lève (2013) ⭐ 7.8 | Animation, Biographique, Drame"
 source: "https://www.imdb.com/fr/title/tt2013293/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_le%2520vent%2520se%2520l%25C3%25A8ve"
 author:
-  - "[[IMDb]]"
+ - "[[IMDb]]"
 published:
 created: 2025-04-15
 description: "Le vent se lève: Réalisé par Hayao Miyazaki. Avec Hideaki Anno, Hidetoshi Nishijima, Miori Takimoto, Masahiko Nishimura. Un regard sur la vie de Jiro Horikoshi, l'homme qui a dessiné des avions de chasse japonais pendant la Seconde Guerre mondiale."
 tags:
-  - "clippings"
+ - "clippings"
 image:
 ---
 ![Le vent se lève (2013)](https://m.media-amazon.com/images/M/MV5BYjU0ZWY4YWUtOWQ0Mi00OGVmLTkxZWEtMWNkMTQyODM0MGU1XkEyXkFqcGc@._V1_QL75_UY281_CR11,0,190,281_.jpg)
@@ -24,8 +24,8 @@ Commentaire à la une
 
 9 /10### [The Most different Miyazaki's Film](https://www.imdb.com/fr/review/rw2871820/?ref_=tt_ururv_perm)
 
-This film is totally different from Miyazaki's other films and I personally think, like what he's mentioned, a message to to world about how he looks at the war, war machines, peace, love and living. As I am a Taiwanese, who has once colonized and ruled by Japanese during the second world war, how Japanese coped with the war topic is always sensitive. However, what I saw in this film is truly reflecting that Miyazaki is peace loving and his point of view on war, life and love. He depicted about the beauty of dreams and surviving. You can see that everyone in this film try every hard to live, even though the time is hard and forced to strike a balance between dreams and reality. However, they are self fulfilling. So who is to blame? who ruined their lives and dreams? Those who leads them to the war to blame.  
-  
+This film is totally different from Miyazaki's other films and I personally think, like what he's mentioned, a message to to world about how he looks at the war, war machines, peace, love and living. As I am a Taiwanese, who has once colonized and ruled by Japanese during the second world war, how Japanese coped with the war topic is always sensitive. However, what I saw in this film is truly reflecting that Miyazaki is peace loving and his point of view on war, life and love. He depicted about the beauty of dreams and surviving. You can see that everyone in this film try every hard to live, even though the time is hard and forced to strike a balance between dreams and reality. However, they are self fulfilling. So who is to blame? who ruined their lives and dreams? Those who leads them to the war to blame. 
+ 
 In short, the film perfectly shows how the director's been telling in almost every his masterpiece but in a personally way, to the audience. Just like a final message he would like yo transmit to the world. I felt overwhelmed by the film and sad that he decided to retired. Please go to watch this film and you will do feel the courage to live hard and live well.
 
 Utile • 161 13

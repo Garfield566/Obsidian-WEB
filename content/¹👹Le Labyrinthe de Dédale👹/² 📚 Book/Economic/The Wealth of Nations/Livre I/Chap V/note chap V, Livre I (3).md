@@ -6,6 +6,6 @@ Cependant l'Or et l'Argent, comme toute autre marchandise, varient dans leur val
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #smith/travail_vs_marchandise 
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations 
 
 ---

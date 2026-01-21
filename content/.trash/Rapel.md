@@ -1,13 +1,12 @@
 ---
 excalidraw-plugin: ""
 tags:
-  - "excalidraw"
-  - "maths"
+ - "excalidraw"
+ - "maths"
 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcoLBTF67MFNrY4hUIlS355W2k8dxS_zbv_w&s"
 cour: "math"
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Text Elements
 Théorème de Pythagore ^ofZRaExG
@@ -24,7 +23,6 @@ Théorème de Thalès ^isiuUfJN
 Règle : Si deux droites sont parallèles et qu'elles sont coupées par deux droites sécantes, 
 alors les rapports des longueurs des segments déterminés sur l'une des sécantes sont égaux aux rapports
  des longueurs des segments correspondants déterminés sur l'autre sécante. ^WGtq7yDF
-
 
 # Embedded files
 6be6d4c8312a999ac3c2ddde2c1cff111accd866: [[zzzzz ⚙️/image 1 🖼/image banque/Pasted Image 20240823141445_246.jpg]]
@@ -778,7 +776,7 @@ a022f6031b415b12a59218c99c8ce441a3e674be: [[zzzzz ⚙️/image 1 🖼/image banq
 	],
 	"appState": {
 		"theme": "light",
-		"viewBackgroundColor": "#ffffff",
+		"viewBackgroundColor": "",
 		"currentItemStrokeColor": "#1971c2",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",

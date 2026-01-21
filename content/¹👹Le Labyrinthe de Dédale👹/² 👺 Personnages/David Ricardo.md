@@ -138,4 +138,4 @@ David Ricardo est un économiste essentiel pour comprendre l'avantage comparatif
 ## Liens Obsidienne
 
  #economy #David-Ricardo #Thomas-Malthus #John_Stuart-Mill 
- #On_the_Principles_of_Political_Economy_and_Taxation #Comparative_Advantage #Labor_Theory_of_Value #Ricardian_Equivalence #Iron_Law_of_Wages #Rent_Theory #Free_Trade
+ 

@@ -4,13 +4,11 @@
 |_ Song_ | Lay All Your Love On Me| 
 | ---- | ------- | 
 | _Artists_ | ABBA | 
-|  _Album_ | Super Trouper| 
+| _Album_ | Super Trouper| 
 | _Album Release Date _|1980| 
 | _Added at_|Fri Nov 29 2024 - 20:34:43| 
 
-
-
-|_ Song_ | _Artists_ |  _Album_ | _Album Release Date _| _Added at_|
+|_ Song_ | _Artists_ | _Album_ | _Album Release Date _| _Added at_|
 | ---- | ------- | ------ | ------------------ | -------- |
 | Lay All Your Love On Me| ABBA |Super Trouper |1980 |Fri Nov 29 2024 - 20:34:43 |
 

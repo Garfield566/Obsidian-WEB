@@ -2,8 +2,8 @@
 url: "https://fr.wikipedia.org/wiki/Pierre_Joseph_Jeanningros"
 title: "Pierre Joseph Jeanningros — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2006-03-31T11:14:46+02:00
 modified: "2024-11-01T23:36:03+01:00"
 created: 2025-04-16

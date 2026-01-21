@@ -4,13 +4,11 @@ excalidraw-plugin: parsed
 tags: [excalidraw]
 
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
-
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Text Elements
 obsidian://open?vault=Mon%20Cerveau&file=%C2%B
 2%20%F0%9F%91%B9%20Personnages%2FAdam%20Smith ^UTcKRBQF
-
 
 # Embedded files
 043a10af472a787179135f964093fee4217b1b07: [[zzzzz ⚙️/image 1 🖼/image banque/Pasted Image 20241103205207_655.png]]
@@ -37,7 +35,7 @@ obsidian://open?vault=Mon%20Cerveau&file=%C2%B
 			"angle": 0,
 			"x": -201.00723193063016,
 			"y": -809.2427388412669,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "",
 			"backgroundColor": "transparent",
 			"width": 357.97198486328125,
 			"height": 30.52296121183123,
@@ -97,7 +95,7 @@ obsidian://open?vault=Mon%20Cerveau&file=%C2%B
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#738fa5",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,

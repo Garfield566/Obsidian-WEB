@@ -11,7 +11,6 @@ text:
 
 ### Contenu brut (copie exacte)
 
-
 ---
 
 ### Métadonnées

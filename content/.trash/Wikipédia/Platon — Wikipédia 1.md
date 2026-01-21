@@ -6,7 +6,7 @@ Source: "Wikipédia"
 > 
 > ![[Platon — Wikipédia.png]]
 > ###### Basic Information
->  |
+> |
 > ---|---|
 > **Naissance** | `` |
 > **Décès** | `` |
@@ -22,9 +22,7 @@ Insérez ici un résumé du personnage
 
 ## Biographie
 
-
 ## Œuvres
-
 
 ---
 Source: [Wikipedia](https://fr.wikipedia.org/wiki/Platon — Wikipédia)

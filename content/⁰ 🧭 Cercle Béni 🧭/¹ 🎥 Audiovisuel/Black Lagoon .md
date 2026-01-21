@@ -42,14 +42,14 @@ sticker: "1"
 > |---|---|
 > | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Rei-Hiroe</li><li>#Sunao-Katabuchi</li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Madhouse</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Mercenary</li><li>#Crime-Syndicate</li><li>#South-Asia-Setting</li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Mercenary</li><li></li><li>#South-Asia-Setting</li></ul> |
 
 ## **📖Synopsis**
 See also: [List of _Black Lagoon_ characters](https://en.wikipedia.org/wiki/List_of_Black_Lagoon_characters "List of Black Lagoon characters")
 
 A team of pirate [mercenaries](https://en.wikipedia.org/wiki/Mercenary "Mercenary") known as the Lagoon Company smuggles goods in and around the seas of Southeast Asia in the early to mid 1990s.[[a]](https://en.wikipedia.org/wiki/Black_Lagoon#cite_note-4) The Lagoon Company consists of four members: Dutch, the leader; Revy, the main gunfighter; Benny, the mechanic, computer specialist, and researcher; and Rock, an ex-[salaryman](https://en.wikipedia.org/wiki/Salaryman "Salaryman") hijacked by the team and abandoned by his department chief, eventually becoming their negotiator and "professional" face of the group, retaining his old job skills.
 
-Their base of operations is located in the fictional harbor city of Roanapur in east Thailand near the border of Cambodia (somewhere in the [Mueang Trat district](https://en.wikipedia.org/wiki/Mueang_Trat_district "Mueang Trat district"), likely on the mainland north/northeast of the [Ko Chang island](https://en.wikipedia.org/wiki/Ko_Chang_district "Ko Chang district") or on the island itself). The city is home to the Chinese [triad](https://en.wikipedia.org/wiki/Triad_\(organized_crime\) "Triad (organized crime)"), the [Russian Bratva](https://en.wikipedia.org/wiki/Russian_mafia "Russian mafia"), the [Colombian cartel](https://en.wikipedia.org/wiki/Drug_cartel#Colombia "Drug cartel"), the [Italian mafia](https://en.wikipedia.org/wiki/Italian_mafia "Italian mafia"), a wide assortment of pickpockets, thugs, mercenaries, thieves, prostitutes, assassins, and gunmen. The city also has a large Vietnamese refugee population following the [Vietnamese refugees](https://en.wikipedia.org/wiki/Vietnamese_boat_people "Vietnamese boat people") exodus after the communist takeover of Vietnam in 1975.
+Their base of operations is located in the fictional harbor city of Roanapur in east Thailand near the border of Cambodia (somewhere in the [Mueang Trat district](https://en.wikipedia.org/wiki/Mueang_Trat_district "Mueang Trat district"), likely on the mainland north/northeast of the [Ko Chang island](https://en.wikipedia.org/wiki/Ko_Chang_district "Ko Chang district") or on the island itself). The city is home to the Chinese [triad](https://en.wikipedia.org/wiki/Triad_\(organized_crime\) "Triad (organized crime)"), the [Russian Bratva](https://en.wikipedia.org/wiki/Russian_mafia "Russian mafia"), the [Colombian cartel](https://en.wikipedia.org/wiki/Drug_cartel "Drug cartel"), the [Italian mafia](https://en.wikipedia.org/wiki/Italian_mafia "Italian mafia"), a wide assortment of pickpockets, thugs, mercenaries, thieves, prostitutes, assassins, and gunmen. The city also has a large Vietnamese refugee population following the [Vietnamese refugees](https://en.wikipedia.org/wiki/Vietnamese_boat_people "Vietnamese boat people") exodus after the communist takeover of Vietnam in 1975.
 
 Lagoon Company transports goods for various clients in the American made 80-foot (24 m) [Elco](https://en.wikipedia.org/wiki/Electric_Launch_Company "Electric Launch Company")-type [PT boat](https://en.wikipedia.org/wiki/PT_boat "PT boat"), _Black Lagoon_. It has a particularly friendly relationship with the Russian crime syndicate Hotel Moscow. The team takes on a variety of missions—which may involve violent firefights, hand-to-hand combat, and nautical battles—in various Southeast Asian locations, even going as far as [Isabela, Basilan](https://en.wikipedia.org/wiki/Isabela,_Basilan "Isabela, Basilan") in the Philippines. When they are not working, the members of the Lagoon Company spend much of their down time at The Yellow Flag, a bar in Roanapur which is often destroyed in firefights.
 
@@ -156,5 +156,5 @@ https://archive.org/details/04-dont-stop/OST/19+Melting+Brain.flac
 
 ###### Tags
 #EDISON #MELL #Takase_Kazuya
-#Red_fraction #Dont_Stop #Dont_Look_Behind
+#Red_fraction 
 #Opening #Ending #Remix

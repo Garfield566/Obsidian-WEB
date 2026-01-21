@@ -4,9 +4,7 @@ Réalisateurs: Takeshi Koike
 Scénariste: "\t Katsuhito Ishii"
 Compositeurs.: "\t James Shimoji"
 tags:
- - "\t James-Shimoji"
- - Takeshi-Koike
- - Katsuhito-Ishii
+
 note-audio: "1"
 note-scénario: "1"
 note-visuel: "1"
@@ -37,9 +35,9 @@ animation.: Madhouse
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Takeshi-Koike</li><br><li>#Katsuhito-Ishii</li><br><li>#James-Shimoji</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Madhouse</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Intergalactic-Racing</li><br><li>#Hand-Drawn-Animation</li><br><li>#Cult-Film</li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
 
 ## ## 📖Synopsis
 

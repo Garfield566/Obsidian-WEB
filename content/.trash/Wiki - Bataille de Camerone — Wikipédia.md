@@ -58,17 +58,17 @@ Relève des blessés par les soldats mexicains.
 
 \\n\\n\\n\\n\\n
 
-| • [Jean Danjou](https://fr.wikipedia.org/%22/wiki/Jean_Danjou/%22 "\\"Jean") †   • [Jean Vilain](https://fr.wikipedia.org/%22/wiki/Jean_Vilain/%22 "\\"Jean") †   • [Clément Maudet](https://fr.wikipedia.org/%22/wiki/Cl%C3%A9ment_Maudet/%22 "\\"Clément") † | • [Francisco de Paula Milán](https://fr.wikipedia.org/%22/wiki/Francisco_de_Paula_Mil%C3%A1n/%22 "\\"Francisco") |
+| • [Jean Danjou](https://fr.wikipedia.org/%22/wiki/Jean_Danjou/%22 "\\"Jean") † • [Jean Vilain](https://fr.wikipedia.org/%22/wiki/Jean_Vilain/%22 "\\"Jean") † • [Clément Maudet](https://fr.wikipedia.org/%22/wiki/Cl%C3%A9ment_Maudet/%22 "\\"Clément") † | • [Francisco de Paula Milán](https://fr.wikipedia.org/%22/wiki/Francisco_de_Paula_Mil%C3%A1n/%22 "\\"Francisco") |
 | --- | --- |
 
 \\n\\n\\n\\n\\n
 
-| 65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/%22/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re/%22 "\\"Légion") | 650 fantassins   200 cavaliers |
+| 65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/%22/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re/%22 "\\"Légion") | 650 fantassins 200 cavaliers |
 | --- | --- |
 
 \\n\\n\\n\\n\\n
 
-| 33 morts   31 blessés | 190 morts   300 blessés |
+| 33 morts 31 blessés | 190 morts 300 blessés |
 | --- | --- |
 
 \\n
@@ -128,7 +128,7 @@ Géolocalisation sur la carte : [Mexique](https://fr.wikipedia.org/%22/wiki/Mex
 
 \\n\\n
 
-| [![\"(Voir](https://fr.wikipedia.org/%22//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mexico_topographic_map-blank_2.svg/330px-Mexico_topographic_map-blank_2.svg.png/%22)](https://fr.wikipedia.org/%22//commons.wikimedia.org/wiki/File:Mexico_topographic_map-blank_2.svg?uselang=fr\%22 "\\"(Voir")\\n  ![\"Bataille](https://fr.wikipedia.org/%22//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/8px-Red_pog.svg.png/%22)  Bataille de Camerone\\n |
+| [![\"(Voir](https://fr.wikipedia.org/%22//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mexico_topographic_map-blank_2.svg/330px-Mexico_topographic_map-blank_2.svg.png/%22)](https://fr.wikipedia.org/%22//commons.wikimedia.org/wiki/File:Mexico_topographic_map-blank_2.svg?uselang=fr\%22 "\\"(Voir")\\n ![\"Bataille](https://fr.wikipedia.org/%22//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/8px-Red_pog.svg.png/%22) Bataille de Camerone\\n |
 | --- |
 
 \\n
@@ -139,7 +139,7 @@ Géolocalisation sur la carte : [Veracruz](https://fr.wikipedia.org/%22/wiki/Ve
 
 \\n\\n
 
-| [![\"(Voir](https://fr.wikipedia.org/%22//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mexico_Veracruz_topographic_location_map.png/280px-Mexico_Veracruz_topographic_location_map.png/%22)](https://fr.wikipedia.org/%22//commons.wikimedia.org/wiki/File:Mexico_Veracruz_topographic_location_map.png?uselang=fr\%22 "\\"(Voir")\\n  ![\"Bataille](https://fr.wikipedia.org/%22//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/8px-Red_pog.svg.png/%22)  Bataille de Camerone\\n |
+| [![\"(Voir](https://fr.wikipedia.org/%22//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mexico_Veracruz_topographic_location_map.png/280px-Mexico_Veracruz_topographic_location_map.png/%22)](https://fr.wikipedia.org/%22//commons.wikimedia.org/wiki/File:Mexico_Veracruz_topographic_location_map.png?uselang=fr\%22 "\\"(Voir")\\n ![\"Bataille](https://fr.wikipedia.org/%22//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/8px-Red_pog.svg.png/%22) Bataille de Camerone\\n |
 | --- |
 
 \\n
@@ -194,7 +194,7 @@ Le capitaine [Jean Danjou](https://fr.wikipedia.org/%22/wiki/Jean_Danjou/%22 "\\
 
 \\n
 
-**Cette section ne s'appuie pas, ou pas assez, sur des [sources secondaires ou tertiaires](https://fr.wikipedia.org/%22/wiki/Wikip%C3%A9dia:Sources_primaires,_secondaires_et_tertiaires/%22 "\\"Wikipédia:Sources") indépendantes du sujet.**  
+**Cette section ne s'appuie pas, ou pas assez, sur des [sources secondaires ou tertiaires](https://fr.wikipedia.org/%22/wiki/Wikip%C3%A9dia:Sources_primaires,_secondaires_et_tertiaires/%22 "\\"Wikipédia:Sources") indépendantes du sujet.** 
 \\nPour l'améliorer, [ajoutez-en](https://fr.wikipedia.org/%22/wiki/Aide:Ins%C3%A9rer_une_r%C3%A9f%C3%A9rence/%22 "\\"Aide:Insérer"), ou placez des modèles [{{Source secondaire souhaitée}}](https://fr.wikipedia.org/%22/wiki/Mod%C3%A8le:Source_secondaire_souhait%C3%A9e/%22 "\\"Modèle:Source") ou [{{Source secondaire nécessaire}}](https://fr.wikipedia.org/%22/wiki/Mod%C3%A8le:Source_secondaire_n%C3%A9cessaire/%22 "\\"Modèle:Source") sur les passages mal sourcés. (janvier 2023)\\n
 
 \\n
@@ -307,11 +307,11 @@ Un monument est érigé sur le site du combat en 1892. Son état d'abandon incit
 
 \\n
 
-*Ils furent ici moins de soixante*  
-\\n*Opposés à toute une armée.*  
-\\n*Sa masse les écrasa.*  
-\\n*La vie plutôt que le courage*  
-\\n*Abandonna ces soldats français*  
+*Ils furent ici moins de soixante* 
+\\n*Opposés à toute une armée.* 
+\\n*Sa masse les écrasa.* 
+\\n*La vie plutôt que le courage* 
+\\n*Abandonna ces soldats français* 
 \\n*À Camerone le 30 avril 1863*\\n
 
 \\n
@@ -346,7 +346,7 @@ Commémoration de la bataille de Camerone le 30 avril 1925 à [Sidi Bel Abbès](
 
 \\n
 
-  
+ 
 \\nEn 1954, lors du siège de [Diên Biên Phu](https://fr.wikipedia.org/%22/wiki/Bataille_de_Di%C3%AAn_Bi%C3%AAn_Phu/%22 "\\"Bataille"), afin de respecter la tradition, le récit du combat est lu à la radio par le lieutenant-colonel Lemeunier.\\n
 
 Aujourd'hui, la main du capitaine Danjou est conservée dans la crypte du [musée de la Légion étrangère](https://fr.wikipedia.org/%22/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_%C3%A9trang%C3%A8re/%22 "\\"Musée") à [Aubagne](https://fr.wikipedia.org/%22/wiki/Aubagne/%22 "\\"Aubagne\\"").\\n

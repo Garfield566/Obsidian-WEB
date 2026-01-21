@@ -103,7 +103,7 @@ published: 2001-11-03T18:20:10Z|date:"YYYY-MM-DD"}}
 
 [![Disambiguation icon](https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/40px-Disambig_gray.svg.png)](https://en.wikipedia.org/wiki/File:Disambig_gray.svg)
 
-This [disambiguation](https://en.wikipedia.org/wiki/Help:Disambiguation "Help:Disambiguation") page lists articles associated with the title **Java**.  
+This [disambiguation](https://en.wikipedia.org/wiki/Help:Disambiguation "Help:Disambiguation") page lists articles associated with the title **Java**. 
 If an [internal link](https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Java_\(disambiguation\)&namespace=0) led you here, you may wish to change the link to point directly to the intended article.
 
 ![](https://auth.wikimedia.org/loginwiki/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1)

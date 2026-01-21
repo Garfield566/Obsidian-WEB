@@ -35,51 +35,51 @@ Divisez \( 4k^3 + 8k^2 + 5k + 1 \) par \( k + 1 \) :
 
 1. **Diviser le premier terme :**
 
-   \
-   \frac{4k^3}{k} = 4k^2
-   \
+ \
+ \frac{4k^3}{k} = 4k^2
+ \
 
 2. **Multiplier et soustraire :**
 
-   \
-   4k^2 \cdot (k + 1) = 4k^3 + 4k^2
-   \
+ \
+ 4k^2 \cdot (k + 1) = 4k^3 + 4k^2
+ \
 
-   \
-   (4k^3 + 8k^2 + 5k + 1) - (4k^3 + 4k^2) = 4k^2 + 5k + 1
-   \
+ \
+ (4k^3 + 8k^2 + 5k + 1) - (4k^3 + 4k^2) = 4k^2 + 5k + 1
+ \
 
 3. **Diviser le nouveau terme :**
 
-   \[
-   \frac{4k^2}{k} = 4k
-   \]
+ \[
+ \frac{4k^2}{k} = 4k
+ \]
 
 4. **Multiplier et soustraire :**
 
-   \[
-   4k \cdot (k + 1) = 4k^2 + 4k
-   \]
+ \[
+ 4k \cdot (k + 1) = 4k^2 + 4k
+ \]
 
-   \[
-   (4k^2 + 5k + 1) - (4k^2 + 4k) = k + 1
-   \]
+ \[
+ (4k^2 + 5k + 1) - (4k^2 + 4k) = k + 1
+ \]
 
 5. **Diviser le terme restant :**
 
-   \[
-   \frac{k}{k} = 1
-   \]
+ \[
+ \frac{k}{k} = 1
+ \]
 
 6. **Multiplier et soustraire :**
 
-   \[
-   1 \cdot (k + 1) = k + 1
-   \]
+ \[
+ 1 \cdot (k + 1) = k + 1
+ \]
 
-   \[
-   (k + 1) - (k + 1) = 0
-   \]
+ \[
+ (k + 1) - (k + 1) = 0
+ \]
 
 Le quotient est \( 4k^2 + 4k + 1 \).
 
@@ -94,13 +94,13 @@ Combinez le facteur et le quotient :
 ### Résumé Visuel
 
 1. **Vérification du Facteur :**
-   - Trouvez la racine.
-   - Substituez dans le polynôme.
-   - Si le résultat est zéro, le facteur est valide.
+ - Trouvez la racine.
+ - Substituez dans le polynôme.
+ - Si le résultat est zéro, le facteur est valide.
 
 2. **Écriture en Termes du Facteur :**
-   - Divisez le polynôme par le facteur.
-   - Trouvez le quotient.
-   - Écrivez le polynôme comme le produit du facteur et du quotient.
+ - Divisez le polynôme par le facteur.
+ - Trouvez le quotient.
+ - Écrivez le polynôme comme le produit du facteur et du quotient.
 
 Cette méthode vous permet de vérifier et de factoriser les polynômes de manière structurée et visuelle.

@@ -5,43 +5,21 @@ note-scénario: ✨✨✨✨✨
 note-visuel: ✨✨✨
 cover: https://sm.ign.com/ign_fr/photo/default/cyberpunk-edgerunners-season1-episode2-00-21-37-03-166188263_63pw.jpg
 genre: Science-fiction, Action, Drame
-sous_genres: Cyberpunk, Thriller
-Réalisateurs: Rafał-Jaki, basé sur l'univers de CD-Projekt-Red
+sous_genres: Thriller
+Réalisateurs: basé sur l'univers de CD-Projekt-Red
 Compositeurs.: Akira-Yamaoka
 animation.: Studio-Trigger
 Année de Sortie: 2020
 type: Série animée
 vue: false
 tags:
- - Cyberpunk_Edgerunners
+
  - Science-fiction
  - Action
  - Drame
- - Cyberpunk
+
  - Thriller
- - CD-Projekt-Red
- - Rafał-Jaki
- - Akira-Yamaoka
- - Studio-Trigger
- - Franz-Ferdinand
- - Rosa-Walton
- - Hallie-Coggins
- - This_Fire
- - I_Really_Want_to_Stay_at_Your_House
- - Major_Lazer
- - Pain
- - Let_You_Down
- - Who-s_Ready_for_Tomorrow
- - Cyber_Psycho
- - Edge_of_My_Life
- - Never_Fade_Away
- - Run-The-Jewels
- - LeDestroy
- - Dawg
- - Rat_Boy
- - PTSD
- - Tina_uo
- - Pondsmith-Collaborators
+
  - audiovisuel
 ---
 
@@ -73,14 +51,14 @@ tags:
 > | | |
 > |---|---|
 > | **World** | <ul style="margin: 0; padding-left: 15px;"><li>Night-City</li><li>Cyberpunk-2077-universe</li><li>Corporate-dystopia</li></ul> |
-> | **Main-Characters** | <ul style="margin: 0; padding-left: 15px;"><li>David-Martinez (#Kenn)</li><li>Lucy (#Aoi-Yuki)</li><li>Maine (#Hiroki-Touchi)</li><li>Rebecca (#Fairouz-Ai)</li></ul> |
+> | **Main-Characters** | <ul style="margin: 0; padding-left: 15px;"><li>David-Martinez ()</li><li>Lucy ()</li><li>Maine ()</li><li>Rebecca ()</li></ul> |
 > | **Themes** | <ul style="margin: 0; padding-left: 15px;"><li>Transhumanism</li><li>Corporate-control</li><li>Street-culture</li><li>Self-destruction</li></ul> |
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Hiroyuki-Imaishi</li><li>#Akira-Yamaoka</li><li>#Rafal-Jaki</li><li>#Aoi-Yuki</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#CD-Projekt-Red</li><li>#Studio-Trigger</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Cyberpunk</li><li>#Night-City</li><li>#Anime</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ### **📖 Synopsis pour Cyberpunk: Edgerunners** :
 

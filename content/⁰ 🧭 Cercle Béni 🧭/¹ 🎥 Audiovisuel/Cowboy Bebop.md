@@ -13,25 +13,9 @@ Année de Sortie: 1998
 type: série
 vue: true
 tags:
- - Cowboy_Bebop
+
  - Shinichirō-Watanabe
- - Keiko-Nobumoto
- - Yoko-Kanno
- - The-Seatbelts
- - Steve-Conte
- - Mai-Yamane
- - Emily-Bindinger
- - Tank
- - Rush
- - Bad_Dog_No_Biscuits
- - Space_Lion
- - Rain
- - reen_Bird
- - Blue
- - The_Real_Folk_Blues
- - Call_Me_Call_Me
- - Adieu
- - See_You_Space_Cowboy
+
  - audiovisuel
 ---
 
@@ -62,9 +46,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Shinichiro-Watanabe</li><br><li>#Yoko-Kanno</li><br><li>#Steve-Blum</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Sunrise</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Space-Cowboy</li><br><li>#Jazz-Fusion</li><br><li>#Film-Noir</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Shinichiro-Watanabe</li><br><li></li><br><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
 
 ## 📖 **Synopsis**
 

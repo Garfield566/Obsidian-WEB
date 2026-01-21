@@ -7,9 +7,8 @@ NoteSource: "Forgotten Realms Wiki"
 > # Victor Hugo — Wikipédia
 > ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Victor_Hugo_001.jpg/1200px-Victor_Hugo_001.jpg)
 > ###### Stats
-> | Name |  Value |
+> | Name | Value |
 > | --- | --- |
-
 
 **Victor Hugo**, parfois surnommé l' **Homme océan** ou, de manière posthume, l' **Homme siècle**, est un [poète](https://fr.wikipedia.org/wiki/Po%C3%A8te "Poète"), [dramaturge](https://fr.wikipedia.org/wiki/Dramaturge "Dramaturge"), [écrivain](https://fr.wikipedia.org/wiki/%C3%89crivain "Écrivain"), [romancier](https://fr.wikipedia.org/wiki/Romancier "Romancier") et [dessinateur](https://fr.wikipedia.org/wiki/Dessinateur "Dessinateur") [romantique](https://fr.wikipedia.org/wiki/Romantisme "Romantisme") [français](https://fr.wikipedia.org/wiki/Fran%C3%A7ais_\(peuple\) "Français (peuple)"), né le [7](https://fr.wikipedia.org/wiki/7_vent%C3%B4se "7 ventôse") [ventôse](https://fr.wikipedia.org/wiki/Vent%C3%B4se "Ventôse") [an X](https://fr.wikipedia.org/wiki/An_X "An X") () à [Besançon](https://fr.wikipedia.org/wiki/Besan%C3%A7on "Besançon") et mort le à [Paris](https://fr.wikipedia.org/wiki/Paris "Paris"). Il est considéré comme l'un des [écrivains](https://fr.wikipedia.org/wiki/%C3%89crivain "Écrivain") de la [langue française](https://fr.wikipedia.org/wiki/Fran%C3%A7ais "Français") et de la [littérature mondiale](https://fr.wikipedia.org/wiki/Litt%C3%A9rature "Littérature") les plus importants. Hugo est aussi une [personnalité politique](https://fr.wikipedia.org/wiki/Personnalit%C3%A9_politique "Personnalité politique") et un [intellectuel](https://fr.wikipedia.org/wiki/Intellectuel "Intellectuel") [engagé](https://fr.wikipedia.org/wiki/Litt%C3%A9rature_engag%C3%A9e "Littérature engagée") qui a un rôle [idéologique](https://fr.wikipedia.org/wiki/Id%C3%A9ologie "Idéologie") majeur et occupe une place marquante dans l' [histoire des lettres françaises au XIX <sup>e</sup> siècle](https://fr.wikipedia.org/wiki/Litt%C3%A9rature_fran%C3%A7aise_du_XIXe_si%C3%A8cle "Littérature française du XIXe siècle").
 
@@ -265,8 +264,8 @@ Le théâtre de Victor Hugo a été peu joué dans la première moitié du XX <s
 
 En 1828, Hugo réunit sous le titre *Odes et Ballades* toute sa production poétique antérieure. Fresques historiques, évocation de l'enfance; la forme est encore convenue, sans doute, mais le jeune romantique prend déjà des libertés avec le mètre et la tradition poétique. Cet ensemble permet en outre de percevoir les prémices d'une évolution qui durera toute sa vie: le chrétien convaincu s'y montre peu à peu plus tolérant, son monarchisme qui se fait moins rigide et accorde une place importante à la toute récente épopée napoléonienne; de plus, loin d'esquiver son double héritage paternel (napoléonien) et maternel (royaliste), le poète s'y confronte et s'applique à mettre en scène les contraires (ce que l'on appelle l'antithèse hugolienne) pour mieux les dépasser:
 
-> « Les siècles, tour à tour, ces gigantesques frères,  
-> Différents par leur sort, semblables en leurs vœux,  
+> « Les siècles, tour à tour, ces gigantesques frères, 
+> Différents par leur sort, semblables en leurs vœux, 
 > Trouvent un but pareil par des routes contraires [^171]. »
 
 — Odes et Ballades
@@ -285,9 +284,9 @@ Dès *[Les Feuilles d'automne](https://fr.wikipedia.org/wiki/Les_Feuilles_d%27au
 
 Ces poésies touchent le public parce qu'elles abordent avec une apparente simplicité des thèmes familiers; pourtant, Hugo ne peut résister à son goût pour l'épique et le grand. Ainsi, on peut lire, dès le début des *[Feuilles d'automne](https://fr.wikipedia.org/wiki/Les_Feuilles_d%27automne "Les Feuilles d'automne")*, les vers:
 
-> « Ce siècle avait deux ans! Rome remplaçait Sparte,  
-> Déjà Napoléon perçait sous Bonaparte,  
-> Et du premier consul, déjà, par maint endroit,  
+> « Ce siècle avait deux ans! Rome remplaçait Sparte, 
+> Déjà Napoléon perçait sous Bonaparte, 
+> Et du premier consul, déjà, par maint endroit, 
 > Le front de l’empereur brisait le masque étroit. »
 
 À partir de l'exil commence une période de création littéraire qui est considérée comme la plus riche, la plus originale et la plus puissante de l'œuvre de Victor Hugo. C'est alors que naîtront certains de ses plus grands poèmes [^16].
@@ -502,18 +501,18 @@ Victor Hugo reste cependant profondément croyant en un Dieu souffrant et compat
 
 Son [testament](https://fr.wikipedia.org/wiki/Testament_\(droit\) "Testament (droit)"), représentatif de sa conception de la religion, fait figure de [profession de foi](https://fr.wikipedia.org/wiki/Profession_de_foi "Profession de foi"):
 
-> « Je donne cinquante mille francs aux pauvres.  
-> Je désire être porté au cimetière dans leur corbillard.  
-> Je refuse l'oraison de toutes les églises; je demande une prière à toutes les âmes.  
+> « Je donne cinquante mille francs aux pauvres. 
+> Je désire être porté au cimetière dans leur corbillard. 
+> Je refuse l'oraison de toutes les églises; je demande une prière à toutes les âmes. 
 > Je crois en Dieu [^256]. »
 
 #### Spiritisme
 
 Alors en exil à [Marine Terrace](https://fr.wikipedia.org/wiki/Marine_Terrace "Marine Terrace") sur l' [île de Jersey](https://fr.wikipedia.org/wiki/Jersey "Jersey"), Victor Hugo y reçoit en 1853 son amie [Delphine de Girardin](https://fr.wikipedia.org/wiki/Delphine_de_Girardin "Delphine de Girardin") qui l'initie aux «  [tables parlantes](https://fr.wikipedia.org/wiki/Table_tournante_\(spiritisme\) "Table tournante (spiritisme)")  », une pratique issue du [spiritualisme anglo-saxon](https://fr.wikipedia.org/wiki/Spiritualisme_moderne_anglo-saxon "Spiritualisme moderne anglo-saxon") permettant de communiquer avec les morts en « [écriture automatique](https://fr.wikipedia.org/wiki/%C3%89criture_automatique "Écriture automatique")  » au moyen d'un crayon fixé à l'un des pieds d'un guéridon. En témoigne l' *Album spirite* conservé aux Manuscrits de la Bibliothèque nationale de France [^257]. Victor Hugo participe à de nombreuses séances de « tables parlantes » de 1853 à 1855, dont les échanges avec les esprits des personnes disparues sont consignés dans *Le livre des tables*. Ces séances enregistrent des communications avec des esprits très divers, ainsi la première avec sa fille [Léopoldine](https://fr.wikipedia.org/wiki/L%C3%A9opoldine_Hugo "Léopoldine Hugo"), d'autres avec des personnages historiques, dont [Jésus](https://fr.wikipedia.org/wiki/J%C3%A9sus "Jésus"), et des écrivains comme [Dante](https://fr.wikipedia.org/wiki/Dante_Alighieri "Dante Alighieri") et [Shakespeare](https://fr.wikipedia.org/wiki/William_Shakespeare "William Shakespeare"), ainsi que des entités abstraites telles la Mort, Le Drame ou la Critique, la Bouche d'Ombre; ces textes lui serviront dans ses *Contemplations* et remodèleront sa vision du monde:
 
-> « Tout parle. Et maintenant, homme, sais-tu pourquoi  
-> Tout parle? Écoute bien. C'est que vents, ondes, flammes,  
-> Arbres, roseaux, rochers, tout vit!  
+> « Tout parle. Et maintenant, homme, sais-tu pourquoi 
+> Tout parle? Écoute bien. C'est que vents, ondes, flammes, 
+> Arbres, roseaux, rochers, tout vit! 
 > Tout est plein d'âmes [^258]. »
 
 ### Épouse
@@ -566,7 +565,7 @@ Juliette Drouet n'a cependant pas été la seule maîtresse de Victor Hugo et se
 
 Victor Hugo acquiert plusieurs surnoms. Le premier est issu de sa propre description de [Shakespeare](https://fr.wikipedia.org/wiki/William_Shakespeare "William Shakespeare"); dans son introduction à son ouvrage [éponyme](https://fr.wikipedia.org/wiki/%C3%89ponymie "Éponymie"). Dans cette introduction à *[William Shakespeare](https://fr.wikipedia.org/wiki/William_Shakespeare_\(Hugo\) "William Shakespeare (Hugo)")*, il essaie de s'attarder sur ce qui fait le génie de certains artistes et décrit Shakespeare comme un « Homme Océan » [^257]<sup>,</sup>[^272]<sup>,</sup>[^273]:
 
-> Il y a des hommes océans en effet.  
+> Il y a des hommes océans en effet. 
 > \[...\] tout cela peut être dans un esprit, et alors cet esprit s’appelle génie, et vous avez [Eschyle](https://fr.wikipedia.org/wiki/Eschyle "Eschyle"), vous avez [Isaïe](https://fr.wikipedia.org/wiki/Isa%C3%AFe "Isaïe"), vous avez [Juvénal](https://fr.wikipedia.org/wiki/Juv%C3%A9nal "Juvénal"), vous avez [Dante](https://fr.wikipedia.org/wiki/Dante_Alighieri "Dante Alighieri"), vous avez [Michel-Ange](https://fr.wikipedia.org/wiki/Michel-Ange "Michel-Ange"), vous avez [Shakespeare](https://fr.wikipedia.org/wiki/William_Shakespeare "William Shakespeare"), et c’est la même chose de regarder ces âmes ou de regarder l’Océan.
 
 Dès son vivant et les années 1870, l'expression pour le désigner passe dans la culture populaire [^274]<sup>,</sup>[^275]. Elle est ensuite reprise par des auteurs et des critiques littéraires, parmi lesquels [Joseph Serre](https://fr.wikipedia.org/wiki/Joseph_Serre "Joseph Serre"), pour l'identifier à cette expression qu'il a lui-même forgé [^276]<sup>,</sup>[^277]. Ce surnom se généralise au cours du XX <sup>e</sup>  siècle, et est utilisé par la [Bibliothèque nationale de France](https://fr.wikipedia.org/wiki/Biblioth%C3%A8que_nationale_de_France "Bibliothèque nationale de France") pour le désigner, lorsqu'elle organise une exposition à son sujet [^257]. Depuis, elle est fréquemment utilisée dans la recherche et la critique littéraire [^278]<sup>,</sup>[^279]<sup>,</sup>[^280]<sup>,</sup>[^281]. En parallèle avec « Homme Océan », le surnom « Homme Horizon » est parfois utilisé aussi du vivant de Hugo [^274]. Enfin, des chercheurs et critiques littéraires, comme [Henri Meschonnic](https://fr.wikipedia.org/wiki/Henri_Meschonnic "Henri Meschonnic"), ont proposé le surnom « Homme siècle » pour désigner Victor Hugo [^282].
@@ -782,7 +781,7 @@ Il existe deux catalogues bibliographiques des œuvres de Victor Hugo:
 
 #### Sources d'époque
 
-- [Adèle Foucher](https://fr.wikipedia.org/wiki/Ad%C3%A8le_Foucher "Adèle Foucher") (Adèle Hugo), *Victor Hugo raconté par un témoin de sa vie*, Paris, Bruxelles, Leipzig, Librairie internationale A. Lacroix, Verboeckhoven & C <sup>ie</sup>, éditeurs, 2 t. in -8°, 1863  
+- [Adèle Foucher](https://fr.wikipedia.org/wiki/Ad%C3%A8le_Foucher "Adèle Foucher") (Adèle Hugo), *Victor Hugo raconté par un témoin de sa vie*, Paris, Bruxelles, Leipzig, Librairie internationale A. Lacroix, Verboeckhoven & C <sup>ie</sup>, éditeurs, 2 t. in -8°, 1863 
 	Remarque: C'est l'édition originale des souvenirs réunis par Adèle Hugo. Elle est préférable à l'édition bruxelloise publiée l'année précédente, parce qu'elle est moins fautive et qu'elle comporte quelques additions. Quoique Victor Hugo se soit toujours défendu d'avoir participé à la rédaction de ce livre, on sait qu'il lui apporta un soutien actif, sinon, même, a-t-il rédigé quelques passages.
 - [Paul Lafargue](https://fr.wikipedia.org/wiki/Paul_Lafargue "Paul Lafargue"), La Légende de Victor Hugo de 1817 à 1873, Paris, G. Jacques & C <sup>ie</sup>, (1 <sup>re</sup> éd. 1885), 69 p.([lire sur Wikisource](https://fr.wikisource.org/wiki/La_L%C3%A9gende_de_Victor_Hugo "s:La Légende de Victor Hugo"))
 - [Richard Lesclide](https://fr.wikipedia.org/wiki/Richard_Lesclide "Richard Lesclide"), *Propos de table de Victor Hugo*, E. Dentu, 1885.

@@ -30,9 +30,9 @@ Année de Sortie: 1994
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Luc-Besson<br>#Jean-Reno<br>#Natalie-Portman<br>#Gary-Oldman</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Gaumont<br>#Les-Films-Dauphin</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Hitman<br>#Coming-of-Age<br>#90s-Cinema</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li><br><br><br></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li><br></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li><br><br>#90s-Cinema</li></ul> |
 
 ## **📖Synopsis**
 
@@ -134,7 +134,7 @@ Année de Sortie: 1994
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
 ###### Tags 
-#Eric-Serra #Sting #Luc-Besson 
-#1994_Film #Action_Score #Minimalist_Jazz 
-#Main_Theme #Leon #French_Cinema 
-#Hitman_Music #Dramatic_Tension
+ #Sting 
+ 
+ 
+ 

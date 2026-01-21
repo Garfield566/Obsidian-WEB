@@ -6,6 +6,6 @@ published:
 created: 2025-04-16
 description:
 tags:
-  - "clippings"
+ - "clippings"
 image:
 ---

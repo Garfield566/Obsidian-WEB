@@ -13,11 +13,11 @@ NoteSource: "IMDb"
 
 > [!infobox]
 > ![]()
-> **Titre** : Le vent se lève (2013) ⭐ 7.8 | Animation, Biographique, Drame  
-> **Année** :   
-> **Genre** :   
-> **Durée** :   
-> **Note IMDb** :   
+> **Titre** : Le vent se lève (2013) ⭐ 7.8 | Animation, Biographique, Drame 
+> **Année** : 
+> **Genre** : 
+> **Durée** : 
+> **Note IMDb** : 
 > **Source** : [IMDb]()
 > 0
 > 0

@@ -1,10 +1,10 @@
 
 > [!infobox]+
 > # `=this.file.name` (`=this.pronouns`)
-> **Pronounced:**  "`=this.Pronounced`"
+> **Pronounced:** "`=this.Pronounced`"
 > ![[PlaceholderImage.png]]
 > ###### Bio
->  |
+> |
 > ---|---|
 > **Ancestry** | `=this.ancestry` |
 > **Heritage** | `=this.heritage` |
@@ -14,7 +14,7 @@
 > **Alignment** | `=this.alignment` |
 > **Condition** | `=this.condition` |
 > ###### Info
->  |
+> |
 > ---|---|
 > **Aliases** | `=this.aliases` |
 > **Occupations** | `=this.occupation` |
@@ -30,29 +30,21 @@
 ## Aspirations
 ### Example
 
-
 ## Acquaintances
 ### Family:
 
-
 ### Friends:
-
 
 ### Rivals:
 
-
 ### Met:
 
-
 ## History
-
 
 ## DM
 ### Plot Hooks
 
-
 ### Hidden Details
-
 
 ### General Notes
 

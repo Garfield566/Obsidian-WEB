@@ -43,7 +43,7 @@
 > **[[❗ Quest Database| Quests]]**
 > ![[Quests.png]]
 > 
-> **[[Scratch  Notes]]**
+> **[[Scratch Notes]]**
 > ![[RandomNotes.png]]
 >
 
@@ -60,7 +60,7 @@
 > [!cards|dataview 7] **Party**
 >```dataview
 > TABLE WITHOUT ID
->     "<span style='display: block; text-align: center; margin-bottom: 5px;'>" + link(file.link, Title) + "</span>" AS Title,
+> "<span style='display: block; text-align: center; margin-bottom: 5px;'>" + link(file.link, Title) + "</span>" AS Title,
 >	embed(art) AS "Art"
 > WHERE contains(NoteIcon, "Character") OR contains(NoteIcon, "Settlement") OR contains(NoteIcon, "Deity") OR contains(NoteIcon, "Kingdom") OR contains(NoteIcon, "Landmark") OR contains(NoteIcon, "POI") OR contains(NoteIcon, "Shop") OR contains(NoteIcon, "Group") OR contains(NoteIcon, "Literature") OR contains(NoteIcon, "Letter") OR contains(NoteIcon, "Quest") OR contains(NoteIcon, "SideQuest")
 FLATTEN [ [(seed) => (seed * 1103515245 + 12345) % 2147483648]] AS random

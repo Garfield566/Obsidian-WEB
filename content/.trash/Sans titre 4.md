@@ -6,32 +6,32 @@ Bataille de Camerone
 
 Relève des blessés par les soldats mexicains.
 
-|   |   |
+| | |
 |---|---|
 Informations générales
 |Date|30 avril 1863|
 |Lieu|[Camarón de Tejeda](https://fr.wikipedia.org/wiki/Camar%C3%B3n_de_Tejeda "Camarón de Tejeda") (Camerone)|
 |Issue|Victoire mexicaine|
 
-|   |   |
+| | |
 |---|---|
 Belligérants
 |[![Drapeau de l'Empire français](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_France_%281976%E2%80%932020%29.svg/20px-Flag_of_France_%281976%E2%80%932020%29.svg.png)](https://fr.wikipedia.org/wiki/Fichier:Flag_of_France_\(lighter_variant\).svg "Drapeau de l'Empire français") [Empire français](https://fr.wikipedia.org/wiki/Second_Empire "Second Empire")|[![Drapeau du Mexique](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Mexico_%281823-1864%2C_1867-1893%29.svg/20px-Flag_of_Mexico_%281823-1864%2C_1867-1893%29.svg.png)](https://fr.wikipedia.org/wiki/Fichier:Flag_of_Mexico_\(1823-1864,_1867-1893\).svg "Drapeau du Mexique") [République mexicaine](https://fr.wikipedia.org/wiki/Mexique "Mexique")|
 
-|   |   |
+| | |
 |---|---|
 Commandants
-|• [Jean Danjou](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") †  <br>• [Jean Vilain](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") †  <br>• [Clément Maudet](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") †|• [Francisco de Paula Milán](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán")|
+|• [Jean Danjou](https://fr.wikipedia.org/wiki/Jean_Danjou "Jean Danjou") † <br>• [Jean Vilain](https://fr.wikipedia.org/wiki/Jean_Vilain "Jean Vilain") † <br>• [Clément Maudet](https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Maudet "Clément Maudet") †|• [Francisco de Paula Milán](https://fr.wikipedia.org/wiki/Francisco_de_Paula_Mil%C3%A1n "Francisco de Paula Milán")|
 
-|   |   |
+| | |
 |---|---|
 Forces en présence
-|65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère")|650 fantassins  <br>200 cavaliers|
+|65 fantassins de la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère")|650 fantassins <br>200 cavaliers|
 
-|   |   |
+| | |
 |---|---|
 Pertes
-|33 morts  <br>31 blessés|190 morts  <br>300 blessés|
+|33 morts <br>31 blessés|190 morts <br>300 blessés|
 
 [Expédition du Mexique](https://fr.wikipedia.org/wiki/Exp%C3%A9dition_du_Mexique "Expédition du Mexique")
 
@@ -66,20 +66,20 @@ Batailles
 - [San Jacinto](https://fr.wikipedia.org/wiki/Bataille_de_San_Jacinto_\(1867\) "Bataille de San Jacinto (1867)")
 - [Querétaro](https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Quer%C3%A9taro "Siège de Querétaro")
 
-|   |   |   |
+| | | |
 |---|---|---|
 Données clés
-|Coordonnées|[19° 01′ 23″ nord, 96° 36′ 49″ ouest](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Map/13/19.023125/-96.613611111111/fr)|   |
+|Coordonnées|[19° 01′ 23″ nord, 96° 36′ 49″ ouest](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Map/13/19.023125/-96.613611111111/fr)| |
 
 Géolocalisation sur la carte : [Mexique](https://fr.wikipedia.org/wiki/Mexique "Mexique")
 
-|   |
+| |
 |---|
 |[![(Voir situation sur carte : Mexique)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mexico_topographic_map-blank_2.svg/330px-Mexico_topographic_map-blank_2.svg.png)](https://fr.wikipedia.org/wiki/Fichier:Mexico_topographic_map-blank_2.svg "(Voir situation sur carte : Mexique)")<br><br>![Bataille de Camerone](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/8px-Red_pog.svg.png)<br><br>Bataille de Camerone|
 
 Géolocalisation sur la carte : [Veracruz](https://fr.wikipedia.org/wiki/Veracruz_\(%C3%89tat\) "Veracruz (État)")
 
-|   |
+| |
 |---|
 |[![(Voir situation sur carte : Veracruz)](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mexico_Veracruz_topographic_location_map.png/280px-Mexico_Veracruz_topographic_location_map.png)](https://fr.wikipedia.org/wiki/Fichier:Mexico_Veracruz_topographic_location_map.png "(Voir situation sur carte : Veracruz)")<br><br>![Bataille de Camerone](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/8px-Red_pog.svg.png)<br><br>Bataille de Camerone|
 

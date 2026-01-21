@@ -2,8 +2,8 @@
 title: "Le vent se lève (2013) ⭐ 7.8 | Animation, Biographique, Drame"
 url: "https://www.imdb.com/fr/title/tt2013293/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_le%2520vent%2520se%2520l%25C3%25A8ve"
 tags:
-  - "films"
-  - "cinéma"
+ - "films"
+ - "cinéma"
 rating: "Le vent se lève (2013) ⭐ 7.8 | Animation, Biographique, Drame"
 year: "Le vent se lève (2013) ⭐ 7.8 | Animation, Biographique, Drame"
 genre: "Le vent se lève (2013) ⭐ 7.8 | Animation, Biographique, Drame"

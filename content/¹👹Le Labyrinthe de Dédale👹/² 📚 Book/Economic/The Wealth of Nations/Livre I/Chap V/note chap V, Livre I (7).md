@@ -16,6 +16,6 @@ Dans la suite des temps, et lorsque le peuple se fut familiarisé par degrés av
 
 **Pourquoi c'est important :** Brève note sur pourquoi ça vous intéresse
 
-**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #smith/argent_conditions_valeur_échangeable #Jacques-I #Edouard-III
+**Mots-clés :** #livre #note-livre #note-The_Wealth_of_Nations #smith/argent_conditions_valeur_échangeable 
 
 ---

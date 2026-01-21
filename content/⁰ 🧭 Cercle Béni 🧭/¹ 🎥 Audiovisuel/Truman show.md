@@ -14,20 +14,9 @@ type: film
 vue: true
 tags:
  - audiovisuel
- - The-Truman-Show
+
  - Drame
- - Comédie_satirique
- - Science_fiction
- - Peter-Weir
- - Andrew-Niccol
- - Burkhard-Dallwitz
- - Philip-lass
- - Truman_Sleeps
- - Opening_Theme
- - Anthem_Part-2
- - Dreaming_of_Fiji
- - Underground
- - Father_Kolbe-s_Preaching
+
 ---
 
 # 🎥 the Truman show
@@ -55,9 +44,9 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Jim-Carrey</li><br><li>#Peter-Weir</li><br><li>#Andrew-Niccol</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Paramount-Pictures</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Reality-TV</li><br><li>#Dystopia</li><br><li>#Existential-Crisis</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
 
 ### 📖 Synopsis :
 

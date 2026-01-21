@@ -2,8 +2,8 @@
 NoteSource: "Forgotten Realms Wiki"
 title: "BoJack Horseman — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2014-09-25T20:11:32+02:00
 modified: "2024-12-16T03:21:03+01:00"
 created: 2025-04-15
@@ -18,8 +18,8 @@ created: 2025-04-15
 >| --- | --- |
 >| Genre | [Dramédie](https://fr.wikipedia.org/wiki/Com%C3%A9die_dramatique "Comédie dramatique"), [Satire](https://fr.wikipedia.org/wiki/Satire "Satire"), [Humour noir](https://fr.wikipedia.org/wiki/Humour_noir "Humour noir"), [Sitcom animée](https://fr.wikipedia.org/w/index.php?title=Sitcom_anim%C3%A9e&action=edit&redlink=1 "Sitcom animée (page inexistante)") [(en)](https://en.wikipedia.org/wiki/Animated_sitcom "en:Animated sitcom") |
 >| Création | [Raphael Bob-Waksberg](https://fr.wikipedia.org/wiki/Raphael_Bob-Waksberg "Raphael Bob-Waksberg") |
->| Production | Sampson   [Lisa Hanawalt](https://fr.wikipedia.org/wiki/Lisa_Hanawalt "Lisa Hanawalt") |
->| Acteurs principaux | [Will Arnett](https://fr.wikipedia.org/wiki/Will_Arnett "Will Arnett")   [Aaron Paul](https://fr.wikipedia.org/wiki/Aaron_Paul "Aaron Paul")   [Amy Sedaris](https://fr.wikipedia.org/wiki/Amy_Sedaris "Amy Sedaris")   [Alison Brie](https://fr.wikipedia.org/wiki/Alison_Brie "Alison Brie")   [Paul F. Tompkins](https://fr.wikipedia.org/wiki/Paul_F._Tompkins "Paul F. Tompkins") |
+>| Production | Sampson [Lisa Hanawalt](https://fr.wikipedia.org/wiki/Lisa_Hanawalt "Lisa Hanawalt") |
+>| Acteurs principaux | [Will Arnett](https://fr.wikipedia.org/wiki/Will_Arnett "Will Arnett") [Aaron Paul](https://fr.wikipedia.org/wiki/Aaron_Paul "Aaron Paul") [Amy Sedaris](https://fr.wikipedia.org/wiki/Amy_Sedaris "Amy Sedaris") [Alison Brie](https://fr.wikipedia.org/wiki/Alison_Brie "Alison Brie") [Paul F. Tompkins](https://fr.wikipedia.org/wiki/Paul_F._Tompkins "Paul F. Tompkins") |
 >| Musique | [Grouplove](https://fr.wikipedia.org/wiki/Grouplove "Grouplove") & Jesse Novak |
 >| Pays d'origine | [États-Unis](https://fr.wikipedia.org/wiki/%C3%89tats-Unis "États-Unis") |
 >| Chaîne d'origine | [Netflix](https://fr.wikipedia.org/wiki/Netflix "Netflix") |
@@ -27,8 +27,6 @@ created: 2025-04-15
 >| Nb. d'épisodes | 76 + 1 spécial |
 >| Durée | 25 minutes |
 >| Diff. originale | – |
-
-
 
 BoJack Horseman
 

@@ -1,8 +1,7 @@
 ---
 sticker: 1f536
 ---
-#  Vocab/Couls
-
+# Vocab/Couls
 
 ## Méta-données
 
@@ -14,7 +13,6 @@ sticker: 1f536
 
 ### # utiliser:
 #Page-type 
-
 
 ## Contenu
 ### Couleurs primaires

@@ -153,5 +153,5 @@ Adam Smith est un philosophe et économiste essentiel pour comprendre la naissan
 
 ## Liens Obsidienne
 
- #economy #Adam-Smith #France #Mercantilism #Physiocracy #The_Wealth_of_Nations #The_Theory_of_Moral_Sentiments 
+ #economy #Adam-Smith #France #The_Wealth_of_Nations 
  #Invisible_Hand #Division_of_Labor #Laissez_Faire #Free_Market 

@@ -156,4 +156,4 @@ Ce briefing document résume les principaux éléments du texte fourni, mettant 
 
 convert_to_textConvertir en source
 
-#France #histoire #guerre-américano-mexicaine #XIX #Mexique #Napoléon-III #Bataille-de-Camerone #Légion-étrangère 
+#France #histoire #guerre-américano-mexicaine #XIX #Mexique #Napoléon-III #Légion-étrangère 

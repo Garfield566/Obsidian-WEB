@@ -2,8 +2,8 @@
 url: "https://en.wikipedia.org/wiki/Java_(disambiguation)"
 title: "Java (disambiguation) - Wikipedia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2001-11-03T19:20:10+01:00
 modified: "2025-02-20T22:54:52+01:00"
 created: 2025-04-16
@@ -108,7 +108,7 @@ created: 2025-04-16
 
 [![Disambiguation icon](https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/40px-Disambig_gray.svg.png)](https://en.wikipedia.org/wiki/File:Disambig_gray.svg)
 
-This [disambiguation](https://en.wikipedia.org/wiki/Help:Disambiguation "Help:Disambiguation") page lists articles associated with the title **Java**.  
+This [disambiguation](https://en.wikipedia.org/wiki/Help:Disambiguation "Help:Disambiguation") page lists articles associated with the title **Java**. 
 If an [internal link](https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Java_\(disambiguation\)&namespace=0) led you here, you may wish to change the link to point directly to the intended article.
 
 ![](https://auth.wikimedia.org/loginwiki/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1)

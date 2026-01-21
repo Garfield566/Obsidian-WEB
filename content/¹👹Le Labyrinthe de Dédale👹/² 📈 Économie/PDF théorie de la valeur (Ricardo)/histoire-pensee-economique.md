@@ -88,6 +88,6 @@ Par conséquent, si deux biens ont coûté la même quantité de travail (direct
 >
 >>Joseph Schumpeter, Histoire de l’analyse économique, vols. 1, 2 et 3, Paris, Gallimard, collection Tel, 2004.
 
-#Adam-Smith #Joseph-Schumpeter #David-Ricardo #Labor_theory_of_value #The_Wealth_of_Nations #The_Theory_of_Moral_Sentiments
+#Adam-Smith #Joseph-Schumpeter #David-Ricardo #The_Wealth_of_Nations 
 
-#History_of_Economic_Analysis #The_Worldly_Philosophers #Robert-Heilbroner #economy #Oral-Bac 
+#History_of_Economic_Analysis #The_Worldly_Philosophers #Robert-Heilbroner #economy 

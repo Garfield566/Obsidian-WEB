@@ -2,8 +2,8 @@
 url: "https://fr.wikipedia.org/wiki/David_Ricardo"
 title: "David Ricardo — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2003-09-11T14:01:01+02:00
 modified: "2025-03-24T21:15:40+01:00"
 created: 2025-04-30
@@ -17,7 +17,6 @@ David Ricardo
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Portrait_of_David_Ricardo_by_Thomas_Phillips.jpg/330px-Portrait_of_David_Ricardo_by_Thomas_Phillips.jpg)](https://commons.wikimedia.org/wiki/File:Portrait_of_David_Ricardo_by_Thomas_Phillips.jpg?uselang=fr)
 
 Portrait de David Ricardo peint par [Thomas Phillips](https://fr.wikipedia.org/wiki/Thomas_Phillips "Thomas Phillips").
-
 
 **David Ricardo**, né le 18 avril 1772 à [Londres](https://fr.wikipedia.org/wiki/Londres "Londres") et mort le 11 septembre 1823 à [Gatcombe Park](https://fr.wikipedia.org/wiki/Gatcombe_Park "Gatcombe Park"), est un [économiste](https://fr.wikipedia.org/wiki/%C3%89conomiste "Économiste") et [philosophe](https://fr.wikipedia.org/wiki/Philosophe "Philosophe") [britannique](https://fr.wikipedia.org/wiki/Royaume-Uni "Royaume-Uni"), également [agent de change](https://fr.wikipedia.org/wiki/Agent_de_change "Agent de change") et [député](https://fr.wikipedia.org/wiki/D%C3%A9put%C3%A9 "Député"). Il est considéré comme l'un des économistes [libéraux](https://fr.wikipedia.org/wiki/Lib%C3%A9ralisme "Libéralisme") les plus influents de l'[école classique](https://fr.wikipedia.org/wiki/%C3%89cole_classique "École classique") aux côtés d'[Adam Smith](https://fr.wikipedia.org/wiki/Adam_Smith "Adam Smith") et de [Thomas Malthus](https://fr.wikipedia.org/wiki/Thomas_Malthus "Thomas Malthus").
 
@@ -141,11 +140,11 @@ Article détaillé : [Modèle de croissance de Ricardo](https://fr.wikipedia.or
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ricardo-DR.pdf/page1-400px-Ricardo-DR.pdf.jpg)
 
-La répartition des revenus entre les propriétaires fonciers, les capitalistes et les travailleurs dépend de la fertilité des terres agricoles, des capitaux disponibles (fonds de salaire) et du nombre de travailleurs<sup id="cite_ref-14" class="reference"><a href="https://fr.wikipedia.org/wiki/#cite_note-14"><span class="cite-bracket">[</span>14<span class="cite-bracket">]</span></a></sup>. Les premiers reçoivent la rente, les deuxièmes le profit et les travailleurs le salaire.
+La répartition des revenus entre les propriétaires fonciers, les capitalistes et les travailleurs dépend de la fertilité des terres agricoles, des capitaux disponibles (fonds de salaire) et du nombre de travailleurs<sup id="cite_ref-14" class="reference"><a href="https://fr.wikipedia.org/wiki/"><span class="cite-bracket">[</span>14<span class="cite-bracket">]</span></a></sup>. Les premiers reçoivent la rente, les deuxièmes le profit et les travailleurs le salaire.
 
-On peut représenter graphiquement la répartition des revenus en utilisant les courbes de rendement moyen et de [rendement marginal](https://fr.wikipedia.org/wiki/Loi_des_rendements_d%C3%A9croissants "Loi des rendements décroissants") des terres agricoles<sup id="cite_ref-15" class="reference"><a href="https://fr.wikipedia.org/wiki/#cite_note-15"><span class="cite-bracket">[</span>15<span class="cite-bracket">]</span></a></sup>. Le fonds de salaire sert à payer les travailleurs. Le taux de salaire dépend du nombre de travailleurs. La rente est donnée par la différence entre le rendement moyen et le rendement marginal. Le profit est ce qui reste après avoir rémunéré les propriétaires fonciers et les travailleurs. À court terme on aura alors le nombre de travailleurs ${\displaystyle L_{o}}$ et le salaire ${\displaystyle w}$  .
+On peut représenter graphiquement la répartition des revenus en utilisant les courbes de rendement moyen et de [rendement marginal](https://fr.wikipedia.org/wiki/Loi_des_rendements_d%C3%A9croissants "Loi des rendements décroissants") des terres agricoles<sup id="cite_ref-15" class="reference"><a href="https://fr.wikipedia.org/wiki/"><span class="cite-bracket">[</span>15<span class="cite-bracket">]</span></a></sup>. Le fonds de salaire sert à payer les travailleurs. Le taux de salaire dépend du nombre de travailleurs. La rente est donnée par la différence entre le rendement moyen et le rendement marginal. Le profit est ce qui reste après avoir rémunéré les propriétaires fonciers et les travailleurs. À court terme on aura alors le nombre de travailleurs ${\displaystyle L_{o}}$ et le salaire ${\displaystyle w}$ .
 
-Le profit augmente le fonds de salaire pour l'année suivante. D'autre part, si les travailleurs reçoivent un salaire supérieur au salaire de subsistance, la population augmente ([loi de Malthus](https://fr.wikipedia.org/wiki/Dynamique_des_populations#Mod%C3%A8les_de_dynamiques_de_populations "Dynamique des populations")). À long terme, on aura un état stationnaire avec un salaire égal au salaire de subsistance (  ${\displaystyle w_{s}}$  ) et un profit nul.
+Le profit augmente le fonds de salaire pour l'année suivante. D'autre part, si les travailleurs reçoivent un salaire supérieur au salaire de subsistance, la population augmente ([loi de Malthus](https://fr.wikipedia.org/wiki/Dynamique_des_populations#Mod%C3%A8les_de_dynamiques_de_populations "Dynamique des populations")). À long terme, on aura un état stationnaire avec un salaire égal au salaire de subsistance ( ${\displaystyle w_{s}}$ ) et un profit nul.
 
 ### Théorie de l'avantage comparatif
 
@@ -194,8 +193,8 @@ Christian Bialès, dans son blog, parle de contestation des hypothèses de l'éq
 - *Le cours élevé du lingot, preuve de la dépréciation des billets de la banque* ([1810](https://fr.wikipedia.org/wiki/1810 "1810"))
 - *Réponse aux observations pratiques de M. Bosanquet sur le « Rapport du Bullion Comittee »* ([1811](https://fr.wikipedia.org/wiki/1811 "1811"))
 - *Essai sur le haut prix des lingots* (The High Price of Bullion, A Proof of the Depreciation of Bank Notes, [1811](https://fr.wikipedia.org/wiki/1811 "1811"))
-- *Essai sur l'influence des bas prix du blé sur les profits du capital* (An Essay on the Influence of a Low Price of Corn on the Profits of Stock, [1815](https://fr.wikipedia.org/wiki/1815 "1815"))<sup id="cite_ref-16" class="reference"><a href="https://fr.wikipedia.org/wiki/#cite_note-16"><span class="cite-bracket">[</span>16<span class="cite-bracket">]</span></a></sup>
-- *[Des principes de l'économie politique et de l'impôt](https://fr.wikipedia.org/wiki/Des_principes_de_l%27%C3%A9conomie_politique_et_de_l%27imp%C3%B4t "Des principes de l'économie politique et de l'impôt")* (On the Principles of Political Economy and Taxation, [1817](https://fr.wikipedia.org/wiki/1817 "1817"))<sup id="cite_ref-17" class="reference"><a href="https://fr.wikipedia.org/wiki/#cite_note-17"><span class="cite-bracket">[</span>17<span class="cite-bracket">]</span></a></sup>
+- *Essai sur l'influence des bas prix du blé sur les profits du capital* (An Essay on the Influence of a Low Price of Corn on the Profits of Stock, [1815](https://fr.wikipedia.org/wiki/1815 "1815"))<sup id="cite_ref-16" class="reference"><a href="https://fr.wikipedia.org/wiki/"><span class="cite-bracket">[</span>16<span class="cite-bracket">]</span></a></sup>
+- *[Des principes de l'économie politique et de l'impôt](https://fr.wikipedia.org/wiki/Des_principes_de_l%27%C3%A9conomie_politique_et_de_l%27imp%C3%B4t "Des principes de l'économie politique et de l'impôt")* (On the Principles of Political Economy and Taxation, [1817](https://fr.wikipedia.org/wiki/1817 "1817"))<sup id="cite_ref-17" class="reference"><a href="https://fr.wikipedia.org/wiki/"><span class="cite-bracket">[</span>17<span class="cite-bracket">]</span></a></sup>
 - *Le système de consolidation*, Encyclopædia Britannica ([1820](https://fr.wikipedia.org/wiki/1820 "1820"))
 - *De la protection de l'Agriculture* (On Protection in Agriculture, [1822](https://fr.wikipedia.org/wiki/1822 "1822"))
 - *Plan pour l'établissement d'une Banque Nationale* ([1824](https://fr.wikipedia.org/wiki/1824 "1824"))

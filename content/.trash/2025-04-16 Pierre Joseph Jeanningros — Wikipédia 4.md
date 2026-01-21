@@ -2,8 +2,8 @@
 NoteSource: "Wikipédia"
 title: "Pierre Joseph Jeanningros — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2006-03-31
 modified: "2024-11-01"
 created: 2025-04-16
@@ -13,8 +13,8 @@ infobox:
 NoteSource: "Wikipédia"
 title: "Pierre Joseph Jeanningros — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2006-03-31
 modified: 2024-11-01
 created: 2025-04-16
@@ -32,7 +32,6 @@ created: 2025-04-16
 <tr>
 <td colspan="2"><hr style="height:2px; color:inherit; background-color:#AAAAAA;"></td></tr>
 <tr>
-
 
 <th scope="row">Naissance
 </th>
@@ -61,7 +60,6 @@ created: 2025-04-16
 </tr>
 <tr>
 
-
 <th scope="row">Grade
 </th>
 <td><a href="/wiki/G%C3%A9n%C3%A9ral_de_division" title="Général de division">Général de division</a>
@@ -76,13 +74,13 @@ created: 2025-04-16
 <tr>
 <th scope="row">Commandement
 </th>
-<td><a href="/wiki/1867" title="1867">1867</a>&nbsp;: <abbr class="abbr" title="Première">1<sup>re</sup></abbr>&nbsp;brigade de la <a href="/wiki/2e_division_d%27infanterie_(France)" title="2e division d'infanterie (France)"><abbr class="abbr" title="Deuxième">2<sup>e</sup></abbr>&nbsp;division d'infanterie</a>  <br><a href="/wiki/1873" title="1873">1873</a>&nbsp;: <a href="/wiki/13e_division_d%27infanterie_(France)" title="13e division d'infanterie (France)"><abbr class="abbr" title="Treizième">13<sup>e</sup></abbr>&nbsp;division d'infanterie</a>  <br><a href="/wiki/1878" title="1878">1878</a>&nbsp;: <a href="/wiki/8e_division_d%27infanterie_(France)" title="8e division d'infanterie (France)"><abbr class="abbr" title="Huitième">8<sup>e</sup></abbr>&nbsp;division d'infanterie</a>
+<td><a href="/wiki/1867" title="1867">1867</a>&nbsp;: <abbr class="abbr" title="Première">1<sup>re</sup></abbr>&nbsp;brigade de la <a href="/wiki/2e_division_d%27infanterie_(France)" title="2e division d'infanterie (France)"><abbr class="abbr" title="Deuxième">2<sup>e</sup></abbr>&nbsp;division d'infanterie</a> <br><a href="/wiki/1873" title="1873">1873</a>&nbsp;: <a href="/wiki/13e_division_d%27infanterie_(France)" title="13e division d'infanterie (France)"><abbr class="abbr" title="Treizième">13<sup>e</sup></abbr>&nbsp;division d'infanterie</a> <br><a href="/wiki/1878" title="1878">1878</a>&nbsp;: <a href="/wiki/8e_division_d%27infanterie_(France)" title="8e division d'infanterie (France)"><abbr class="abbr" title="Huitième">8<sup>e</sup></abbr>&nbsp;division d'infanterie</a>
 </td>
 </tr>
 <tr>
 <th scope="row">Conflits
 </th>
-<td><a href="/wiki/Guerre_de_Crim%C3%A9e" title="Guerre de Crimée">Guerre de Crimée</a>  <br><a href="/wiki/Campagne_d%27Italie_(1859)" title="Campagne d'Italie (1859)">Campagne d'Italie</a> <br><a href="/wiki/Intervention_fran%C3%A7aise_au_Mexique" class="mw-redirect" title="Intervention française au Mexique">Expédition du Mexique</a>
+<td><a href="/wiki/Guerre_de_Crim%C3%A9e" title="Guerre de Crimée">Guerre de Crimée</a> <br><a href="/wiki/Campagne_d%27Italie_(1859)" title="Campagne d'Italie (1859)">Campagne d'Italie</a> <br><a href="/wiki/Intervention_fran%C3%A7aise_au_Mexique" class="mw-redirect" title="Intervention française au Mexique">Expédition du Mexique</a>
 </td>
 </tr>
 <tr>
@@ -110,10 +108,6 @@ created: 2025-04-16
 </td>
 </tr>
 <tr>
-
-
-
-
 
 <td class="navigation-only" colspan="2" style="border-top: 2px #EEEEFF solid; font-size: 80%; background:inherit; color: inherit; text-align: right;"><span class="plainlinks" style="float:left;"><a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Pierre_Joseph_Jeanningros&amp;action=edit&amp;section=0"><span class="infodoc">modifier</span></a></span>&nbsp;<span typeof="mw:File"><a href="/wiki/Mod%C3%A8le:Infobox_Personnalit%C3%A9_militaire" title="Consultez la documentation du modèle"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/20px-Info_Simple.svg.png" decoding="async" width="12" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/40px-Info_Simple.svg.png 2x" data-file-width="512" data-file-height="512"></a></span></td>
 </tr>

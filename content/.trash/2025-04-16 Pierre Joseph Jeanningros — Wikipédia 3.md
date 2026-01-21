@@ -2,8 +2,8 @@
 NoteSource: "Wikipédia"
 title: "Pierre Joseph Jeanningros — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2006-03-31
 modified: "2024-11-01"
 created: 2025-04-16
@@ -13,8 +13,8 @@ infobox:
 NoteSource: "Wikipédia"
 title: "Pierre Joseph Jeanningros — Wikipédia"
 tags:
-  - "clippings"
-  - "wikipedia"
+ - "clippings"
+ - "wikipedia"
 published: 2006-03-31
 modified: 2024-11-01
 created: 2025-04-16
@@ -27,7 +27,7 @@ created: 2025-04-16
 > | Clé | Valeur |
 > | --- | --- |
 > 
-> |  |  |
+> | | |
 > 
 
 **Pierre Jean Joseph Jeanningros**, né le à [Besançon](https://fr.wikipedia.org/wiki/Besan%C3%A7on "Besançon") [^1] et mort le à [Paris 17 <sup>e</sup>](https://fr.wikipedia.org/wiki/17e_arrondissement_de_Paris "17e arrondissement de Paris") [^2], est un [général](https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9ral "Général") [français](https://fr.wikipedia.org/wiki/France "France") célèbre pour avoir commandé la [Légion étrangère](https://fr.wikipedia.org/wiki/L%C3%A9gion_%C3%A9trang%C3%A8re "Légion étrangère").

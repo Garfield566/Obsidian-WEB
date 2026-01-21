@@ -4,7 +4,7 @@ note-audio: "✨✨✨✨✨"
 note-scénario: "✨✨✨✨"
 note-visuel: "✨✨✨✨"
 cover: "https://static.posters.cz/image/1300/affiches-et-posters/pulp-fiction-guns-i137395.jpg"
-genre: "Policier, Drame, Thriller"
+genre: Drame, Thriller"
 sous_genres: ""
 Réalisateurs: "Quentin Tarantino"
 Compositeurs.: "Bande-son orchestrée par Quentin Tarantino (musiques non originales)"
@@ -14,34 +14,12 @@ type: "film"
 vue: false
 tags:
  - "audiovisuel"
- - "Misirlou"
- - "Jungle_Boogie"
- - "Son_of_a_Preacher_Man"
+
  - irl_You-ll_Be_a_Woman_Soon"
- - "You_Never_Can_Tell"
- - "Flowers_on_the_Wall"
- - "If_Love_Is_a_Red_Dress"
- - "Surf_Rider"
- - "Bullwinkle_Part_II"
- - "Dick-Dale"
- - "His-Del-Tones"
- - "Kool"
- - "The-ang"
- - "Al-reen"
- - "Dusty-Springfield"
- - "Chuck-Berry"
- - "Urge-Overkill"
- - "Maria-McKee"
- - "The-Statler-Brothers"
- - "The-Lively-Ones"
- - "The-Centurians"
- - "Miramax"
- - "Quentin-Tarantino"
- - "Quentin-Tarantino"
- - "Policier"
+
  - "Drame"
  - "Thriller"
- - "Roger-Avary"
+
 Scénariste: "Quentin Tarantino, Roger Avary"
 ---
 
@@ -70,9 +48,9 @@ Scénariste: "Quentin Tarantino, Roger Avary"
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Quentin-Tarantino</li><br><li>#John-Travolta</li><br><li>#Samuel-L-Jackson</li></ul> |
-> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Miramax</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Nonlinear-Narrative</li><br><li>#Cult-Classic</li><br><li>#90s-Cinema</li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
+> | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li>#90s-Cinema</li></ul> |
 
 ### **📖 Synopsis ** :
 

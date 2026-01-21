@@ -4,8 +4,8 @@ title:
 author:
 description:
 tags:
-  - "clippings"
-  - "medium"
+ - "clippings"
+ - "medium"
 published:
 created: 2025-05-18T11:30:24+02:00
 ---
@@ -17,20 +17,20 @@ Table des matières
 
 ---
 
-- [Introduction](https://www.britannica.com/money/coin#ref124716-1)
-- [Les pièces de monnaie comme données historiques](https://www.britannica.com/money/coin#ref15835)
-- [Origines des pièces de monnaie](https://www.britannica.com/money/coin/Origins-of-coins#ref15838)
-- [Pièces de monnaie grecques antiques](https://www.britannica.com/money/coin/Origins-of-coins#ref15878)
-- [Monnaies romaines, république et empire](https://www.britannica.com/money/coin/Roman-coins-republic-and-empire#ref15954)
-- [Monnaie en Europe continentale occidentale, en Afrique et dans l'Empire byzantin](https://www.britannica.com/money/coin/Coinage-in-western-continental-Europe-Africa-and-the-Byzantine-Empire#ref15971)
-- [Les monnaies médiévales tardives et modernes de l'Europe continentale](https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages#ref15986)
-- [Pièces de monnaie des îles britanniques, des colonies et du Commonwealth](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth#ref15998)
-- [Pièces de monnaie d'Amérique latine](https://www.britannica.com/money/coin/Coins-of-Latin-America#ref16027)
-- [Pièces de monnaie des États-Unis](https://www.britannica.com/money/coin/Coins-of-the-United-States#ref16050)
-- [Pièces de monnaie d'Asie](https://www.britannica.com/money/coin/Coins-of-Asia#ref16069)
-- [Pièces de monnaie d'Afrique](https://www.britannica.com/money/coin/Coins-of-Africa#ref16088)
-- [Techniques de production](https://www.britannica.com/money/coin/Coins-of-Africa#ref16102)
-- [Références](https://www.britannica.com/money/coin/Early-modern-minting#ref124716-references)
+- [Introduction](https://www.britannica.com/money/coin)
+- [Les pièces de monnaie comme données historiques](https://www.britannica.com/money/coin)
+- [Origines des pièces de monnaie](https://www.britannica.com/money/coin/Origins-of-coins)
+- [Pièces de monnaie grecques antiques](https://www.britannica.com/money/coin/Origins-of-coins)
+- [Monnaies romaines, république et empire](https://www.britannica.com/money/coin/Roman-coins-republic-and-empire)
+- [Monnaie en Europe continentale occidentale, en Afrique et dans l'Empire byzantin](https://www.britannica.com/money/coin/Coinage-in-western-continental-Europe-Africa-and-the-Byzantine-Empire)
+- [Les monnaies médiévales tardives et modernes de l'Europe continentale](https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages)
+- [Pièces de monnaie des îles britanniques, des colonies et du Commonwealth](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth)
+- [Pièces de monnaie d'Amérique latine](https://www.britannica.com/money/coin/Coins-of-Latin-America)
+- [Pièces de monnaie des États-Unis](https://www.britannica.com/money/coin/Coins-of-the-United-States)
+- [Pièces de monnaie d'Asie](https://www.britannica.com/money/coin/Coins-of-Asia)
+- [Pièces de monnaie d'Afrique](https://www.britannica.com/money/coin/Coins-of-Africa)
+- [Techniques de production](https://www.britannica.com/money/coin/Coins-of-Africa)
+- [Références](https://www.britannica.com/money/coin/Early-modern-minting)
 
 En savoir plus
 
@@ -38,20 +38,20 @@ Table des matières
 
 ---
 
-- [Introduction](https://www.britannica.com/money/coin#ref124716-1)
-- [Les pièces de monnaie comme données historiques](https://www.britannica.com/money/coin#ref15835)
-- [Origines des pièces de monnaie](https://www.britannica.com/money/coin/Origins-of-coins#ref15838)
-- [Pièces de monnaie grecques antiques](https://www.britannica.com/money/coin/Origins-of-coins#ref15878)
-- [Monnaies romaines, république et empire](https://www.britannica.com/money/coin/Roman-coins-republic-and-empire#ref15954)
-- [Monnaie en Europe continentale occidentale, en Afrique et dans l'Empire byzantin](https://www.britannica.com/money/coin/Coinage-in-western-continental-Europe-Africa-and-the-Byzantine-Empire#ref15971)
-- [Les monnaies médiévales tardives et modernes de l'Europe continentale](https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages#ref15986)
-- [Pièces de monnaie des îles britanniques, des colonies et du Commonwealth](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth#ref15998)
-- [Pièces de monnaie d'Amérique latine](https://www.britannica.com/money/coin/Coins-of-Latin-America#ref16027)
-- [Pièces de monnaie des États-Unis](https://www.britannica.com/money/coin/Coins-of-the-United-States#ref16050)
-- [Pièces de monnaie d'Asie](https://www.britannica.com/money/coin/Coins-of-Asia#ref16069)
-- [Pièces de monnaie d'Afrique](https://www.britannica.com/money/coin/Coins-of-Africa#ref16088)
-- [Techniques de production](https://www.britannica.com/money/coin/Coins-of-Africa#ref16102)
-- [Références](https://www.britannica.com/money/coin/Early-modern-minting#ref124716-references)
+- [Introduction](https://www.britannica.com/money/coin)
+- [Les pièces de monnaie comme données historiques](https://www.britannica.com/money/coin)
+- [Origines des pièces de monnaie](https://www.britannica.com/money/coin/Origins-of-coins)
+- [Pièces de monnaie grecques antiques](https://www.britannica.com/money/coin/Origins-of-coins)
+- [Monnaies romaines, république et empire](https://www.britannica.com/money/coin/Roman-coins-republic-and-empire)
+- [Monnaie en Europe continentale occidentale, en Afrique et dans l'Empire byzantin](https://www.britannica.com/money/coin/Coinage-in-western-continental-Europe-Africa-and-the-Byzantine-Empire)
+- [Les monnaies médiévales tardives et modernes de l'Europe continentale](https://www.britannica.com/money/coin/Charlemagne-and-the-Carolingian-coinages)
+- [Pièces de monnaie des îles britanniques, des colonies et du Commonwealth](https://www.britannica.com/money/coin/Coins-of-the-British-Isles-colonies-and-Commonwealth)
+- [Pièces de monnaie d'Amérique latine](https://www.britannica.com/money/coin/Coins-of-Latin-America)
+- [Pièces de monnaie des États-Unis](https://www.britannica.com/money/coin/Coins-of-the-United-States)
+- [Pièces de monnaie d'Asie](https://www.britannica.com/money/coin/Coins-of-Asia)
+- [Pièces de monnaie d'Afrique](https://www.britannica.com/money/coin/Coins-of-Africa)
+- [Techniques de production](https://www.britannica.com/money/coin/Coins-of-Africa)
+- [Références](https://www.britannica.com/money/coin/Early-modern-minting)
 
 Read More
 
@@ -730,7 +730,7 @@ Il y a eu huit ateliers monétaires en activité à différentes époques de l'h
 
 Les pays où la demande de pièces n'est pas suffisante pour assurer la viabilité économique d'un atelier monétaire national font frapper leurs pièces dans des ateliers monétaires étrangers. L'atelier monétaire britannique frappe des pièces pour d'autres pays depuis le XVIe siècle. De nombreux ateliers monétaires exercent d'autres fonctions que la frappe, notamment l'affinage des métaux précieux et [la fabrication](https://www.britannica.com/technology/manufacturing) de médailles et de sceaux.
 
-Pour le traitement de la [technologie](https://www.britannica.com/technology/technology) de frappe des pièces de monnaie, *voir* [pièce: *Techniques de production.*](https://www.britannica.com/money/coin/Coins-of-Africa#ref16102)
+Pour le traitement de la [technologie](https://www.britannica.com/technology/technology) de frappe des pièces de monnaie, *voir* [pièce: *Techniques de production.*](https://www.britannica.com/money/coin/Coins-of-Africa)
 
 Cet article a été récemment révisé et mis à jour par .
 
