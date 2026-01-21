@@ -95,4 +95,4 @@ Cette série s’adresse autant aux enfants qu’aux adultes nostalgiques de cet
 ||_Résonance émotionnelle_ (10 points) :|0/10|
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
-#musique #audiovisuel #série #histoire
+ #audiovisuel #série #histoire

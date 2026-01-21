@@ -46,7 +46,7 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li>#Shinichiro-Watanabe</li><br><li></li><br><li></li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
 > | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><br><li></li><br><li></li></ul> |
 

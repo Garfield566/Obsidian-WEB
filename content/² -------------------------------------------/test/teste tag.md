@@ -7,7 +7,7 @@ let existingTags = new Set();
 for (let file of files) {
  const content = await fs.read(file.path);
 
- // Cherche les tags en texte (comme #musique)
+ // Cherche les tags en texte (comme )
  const inlineTags = content.match(/#[a-zA-ZÀ-ÿ0-9_-]+/g);
  if (inlineTags) {
  inlineTags.forEach(tag => existingTags.add(tag.toLowerCase()));
@@ -27,7 +27,7 @@ for (let file of files) {
 
 // Liste des mots-clés et tags associés
 const keywords = {
- "musique": "#musique",
+ "musique": "",
  "art": "",
  "peinture": "#peinture",
  "dessin": "",
@@ -45,7 +45,7 @@ const keywords = {
  "philosophie": "#philosophie",
  "recette": "",
  "personnage": "#personnage",
- "book": "#book",
+ "book": "",
  "ia": "",
  "économie": "#économie",
  "finance": "#finance",
@@ -56,7 +56,7 @@ const keywords = {
  "boissons": "",
  "vin": "",
  "bière": "ère",
- "marque": "#marque"
+ "marque": ""
 };
 
 let content = tp.file.content;

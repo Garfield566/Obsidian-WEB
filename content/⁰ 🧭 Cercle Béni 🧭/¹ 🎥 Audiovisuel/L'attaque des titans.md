@@ -17,8 +17,6 @@ ts:
  - Action
  - rme
  - Fntstique
- - Horreur
- - Mystère
  - udiovisuel
 ---
 

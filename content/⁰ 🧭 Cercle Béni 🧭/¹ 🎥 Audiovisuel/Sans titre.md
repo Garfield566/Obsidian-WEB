@@ -108,4 +108,4 @@ Au fil des saisons, la série met en lumière des questions universelles comme l
 ||_Résonance émotionnelle_ (10 points) :|0/10|
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
-#audiovisuel #marque #histoire #musique #chess 
+#audiovisuel  #histoire   

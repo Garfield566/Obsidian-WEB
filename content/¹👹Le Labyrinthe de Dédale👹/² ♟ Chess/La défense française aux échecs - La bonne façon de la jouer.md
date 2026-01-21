@@ -255,4 +255,4 @@ Il s'agit d'un répertoire de GM complet pour les Noirs, combinant théorie, id�
 
 \* Coin inférieur droit: 1...Txf3! 2.gxf3 Ff4 3.Dd3 Fxd2 4.Dxd2 Cxd4 suivi de 5...Cf3. Si 3.gxf4 les Noirs jouent 3...gxf4+ et les Blancs perdent leur Dame.
 
-#chess 
+ 

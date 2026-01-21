@@ -4,8 +4,7 @@ title:
 uthor:
 description:
 ts:
- - "clippin- "medium"
-published:
+ - "clippin- published:
 creted: 2025-07-07T16:03:32+02:00
 ---
 # 

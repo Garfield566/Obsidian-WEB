@@ -2,7 +2,7 @@
 Titre: Vinlnd note-udio: ✨✨✨
 note-scénrio: ✨✨✨✨✨
 note-visuel: ✨✨✨
-cover: https://m.medi-mzon.com/imes//pv-tret-imes/52dd8113f4708049920b99d37446f587fc7e30f5d21c6766520bccb03804._X1080_FMjp_.jpenre: Animtion, Aventure, rme
+cover: https://m.medi-mzon.com/imes//pv-tret-imes/52dd8113f4708049920b99d37446f587fc7e30f5d21c6766520bccb03804._X1080_FMjp_.jpenre: Animtion, rme
 sous_enres: Historique, Action, Rélisteurs: Mkoto Yukimur(Auteur du mn), hūhei Ybut(Rélisteur de l’nime)
 Compositeurs.: Yutk-Ymdnimtion.: Wit tudio (ison 1), MAPPA (ison 2)
 Année de ortie: 2023
@@ -10,7 +10,6 @@ type: série
 vue: true
 ts:
  - Vinlnd_- Animtion
- - Aventure
  - rme
  - historique
  - Action

@@ -52,7 +52,7 @@ tags:
 > ###### Tags
 > | | |
 > |---|---|
-> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li>#Yugo-Kanno</li><li></li></ul> |
+> | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
 > | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 

@@ -48,7 +48,7 @@ ts:
 > |---|---|
 > | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li>ühl</li><li></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li></li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#World-War-I</li><li></li><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 ## 📖 **Synopsis**
 
 Adapté du célèbre roman d’Erich Maria Remarque, _À l'Ouest, rien de nouveau_ raconte l’histoire poignante de **Paul Bäumer**, un jeune soldat allemand de 17 ans, qui s’engage avec enthousiasme dans l’armée pendant la Première Guerre mondiale. Mais son optimisme initial se heurte rapidement à la dure réalité des tranchées, où la violence, la peur et la mort dominent.

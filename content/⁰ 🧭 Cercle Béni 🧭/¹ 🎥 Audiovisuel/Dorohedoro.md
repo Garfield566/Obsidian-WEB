@@ -4,8 +4,7 @@ note-udio: ✨✨✨
 note-scénrio: ✨✨✨
 note-visuel: ✨✨✨✨
 cover: https://occ-0-8407-114.1.nflxso.net/dnm/pi/v6/E8vc_W8CLv7-yMQu8KMEC7Rrr8/AAAAB5lhqmhCcInv3CQAsEJn_pTlcAEOKA-n9slY5klxo0kpT91rjuOXPexMFmUx1CFkA4f4hO0Zx6r5CO1PMnJmVIw4.jp?r=0d0
-enre: Fntsy Action, Comédie sous_enres: Mystère
-Rélisteurs: (uteur du mnoriinl)
+enre: Fntsy Action, Comédie sous_enres: Rélisteurs: (uteur du mnoriinl)
 Compositeurs.: K(i)Noe
 nimtion.: MAPPA
 Année de ortie: 2020
@@ -15,7 +14,6 @@ ts:
  - orohedoro
  - Action
  - Comédie
- - Mystère
  - Niht_URF
  - Niko-s_y
  - orcerer-s_howdown

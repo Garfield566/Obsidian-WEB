@@ -1,6 +1,5 @@
 ---
 cover: https://m.medi-mzon.com/imes/I/917HRk8vysL.jpts:
- - book
 uthor: Hirohiko Arki
 enre: Fntstique
 Type: MnTome: I
