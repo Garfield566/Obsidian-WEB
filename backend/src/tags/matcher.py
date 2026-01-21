@@ -7,6 +7,7 @@ from ..parsers.note_parser import ParsedNote
 from ..embeddings.embedder import Embedder
 from ..analysis.similarity import SimilarityEngine
 from ..database.repository import Repository
+from .conventions import classify_tag, TagFamily
 
 
 @dataclass
@@ -100,6 +101,22 @@ class TagMatcher:
         if len(tagged_paths) < self.MIN_MATCHING_NOTES:
             return None
 
+        # Vérifie si le tag est d'une famille spéciale qui nécessite
+        # une correspondance explicite (pas de suggestion automatique)
+        tag_info = classify_tag(tag)
+
+        # Les noms de personnes ne sont suggérés que si le nom apparaît dans la note
+        if tag_info.family == TagFamily.PERSON:
+            note = self.notes.get(note_path)
+            if note and not self._note_mentions_person(note, tag):
+                return None
+
+        # Les tags geo\, entité\, aire\ nécessitent une correspondance contextuelle forte
+        if tag_info.family in (TagFamily.GEO, TagFamily.ENTITY, TagFamily.AREA):
+            # Exige un seuil de confiance plus élevé pour ces familles
+            # (sera vérifié plus bas avec un seuil ajusté)
+            pass
+
         # Calcule la similarité avec chaque note tagguée
         similarities = []
 
@@ -170,6 +187,44 @@ class TagMatcher:
                 "structural_evidence": f"{len(top_matches)} correspondances sur {total_tagged} notes tagguées",
             }
         }
+
+    def _note_mentions_person(self, note: ParsedNote, person_tag: str) -> bool:
+        """Vérifie si une note mentionne une personne (nom dans le contenu ou titre).
+
+        Pour les tags de type personne (ex: frédéric-ii-de-prusse),
+        on vérifie si le nom apparaît dans la note.
+        """
+        # Extrait les parties du nom
+        name_parts = person_tag.split("-")
+
+        # Construit des variations du nom pour la recherche
+        # Ex: "frédéric-ii-de-prusse" -> ["frédéric", "prusse", "frédéric ii"]
+        search_terms = []
+
+        # Parties significatives (pas les connecteurs comme "de", "von", etc.)
+        connectors = {"de", "du", "von", "van", "di", "da", "le", "la", "i", "ii", "iii", "iv", "v"}
+        significant_parts = [p for p in name_parts if p.lower() not in connectors]
+
+        if significant_parts:
+            # Cherche les parties principales
+            search_terms.extend(significant_parts)
+
+            # Cherche le nom complet (avec espaces)
+            full_name = " ".join(name_parts)
+            search_terms.append(full_name)
+
+        if not search_terms:
+            return False
+
+        # Texte à rechercher (titre + contenu)
+        text_to_search = f"{note.title} {note.content}".lower()
+
+        # Vérifie si au moins une partie significative du nom est mentionnée
+        for term in search_terms:
+            if term.lower() in text_to_search:
+                return True
+
+        return False
 
     def save_suggestions(self, suggestions: list[TagAssignmentSuggestion]) -> None:
         """Sauvegarde les suggestions dans la base de données."""

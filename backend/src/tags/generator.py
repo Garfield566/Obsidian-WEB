@@ -7,6 +7,7 @@ import re
 from ..clustering.detector import ClusterDetector, DetectedCluster
 from ..embeddings.embedder import Embedder
 from ..database.repository import Repository
+from .conventions import suggest_tag_format, TagFamily, classify_tag
 
 
 @dataclass
@@ -114,29 +115,36 @@ class TagGenerator:
         return suggestions
 
     def _generate_tag_name(self, cluster: DetectedCluster) -> str:
-        """Génère un nom de tag pour un cluster."""
+        """Génère un nom de tag pour un cluster.
+
+        Utilise les conventions de nommage:
+        - Catégorie\\Concept (avec backslash)
+        - Tirets pour les noms composés
+        """
         # Utilise le nom suggéré s'il existe
         if cluster.suggested_name:
-            return cluster.suggested_name
+            # Convertit / en \ si nécessaire
+            return cluster.suggested_name.replace("/", "\\")
 
         # Sinon, génère à partir des termes clés
         if not cluster.key_terms:
-            return f"Concept/Cluster-{cluster.id}"
+            return f"Concept\\Cluster-{cluster.id}"
 
         # Prend les 2-3 premiers termes significatifs
         terms = self._filter_significant_terms(cluster.key_terms[:5])[:3]
 
         if not terms:
-            return f"Concept/Cluster-{cluster.id}"
+            return f"Concept\\Cluster-{cluster.id}"
 
         # Détermine le préfixe approprié
         prefix = self._determine_prefix(terms, cluster)
 
-        # Formate le nom
+        # Formate le nom avec tirets (convention pour noms composés)
         name_parts = [t.capitalize() for t in terms]
         name = "-".join(name_parts)
 
-        return f"{prefix}/{name}"
+        # Utilise backslash comme séparateur hiérarchique (convention)
+        return f"{prefix}\\{name}"
 
     def _filter_significant_terms(self, terms: list[str]) -> list[str]:
         """Filtre les termes pour garder les plus significatifs."""

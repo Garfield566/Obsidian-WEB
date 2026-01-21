@@ -6,6 +6,7 @@ import re
 
 from ..embeddings.embedder import Embedder
 from ..database.repository import Repository
+from .conventions import classify_tag, can_compare_semantically, TagFamily
 
 
 @dataclass
@@ -238,13 +239,23 @@ class RedundancyDetector:
         return capitalized_parts >= 2
 
     def _should_skip_semantic_comparison(self, tag1: str, tag2: str) -> bool:
-        """Vérifie si on doit ignorer la comparaison sémantique entre deux tags."""
-        # Si les deux sont des noms de personnes différents, ne pas comparer
+        """Vérifie si on doit ignorer la comparaison sémantique entre deux tags.
+
+        Utilise le module conventions pour respecter les familles de tags:
+        - Ne compare pas geo\ avec entité\
+        - Ne compare pas deux personnes différentes
+        - Ne compare pas deux siècles différents
+        - etc.
+        """
+        # Utilise le module conventions pour vérifier si la comparaison est autorisée
+        if not can_compare_semantically(tag1, tag2):
+            return True
+
+        # Garde aussi la logique legacy pour les noms de personnes
+        # (au cas où le tag ne suit pas exactement la convention)
         if self._is_person_name(tag1) and self._is_person_name(tag2):
-            # Vérifie si c'est le même nom avec variations
             norm1 = self._normalize_tag(tag1)
             norm2 = self._normalize_tag(tag2)
-            # Si les noms normalisés sont différents, ce sont des personnes différentes
             if norm1 != norm2:
                 return True
 
@@ -287,9 +298,12 @@ class RedundancyDetector:
 
     def _normalize_tag(self, tag: str) -> str:
         """Normalise un tag pour la comparaison syntaxique."""
-        # Supprime le préfixe de catégorie (avant /)
+        # Supprime le préfixe de catégorie (avant / ou \)
         if "/" in tag:
             tag = tag.split("/")[-1]
+        if "\\" in tag:
+            # Pour les tags hiérarchiques (geo\europe\berlin), garde la partie finale
+            tag = tag.split("\\")[-1]
 
         # Lowercase, supprime tirets et underscores
         normalized = tag.lower()
