@@ -8,6 +8,7 @@ import hashlib
 
 from ..tags.analyzer import HealthAlert, TagHealthAnalyzer
 from ..tags.feedback import FeedbackStats
+from ..tags.redundancy import RedundantTagGroup
 
 
 @dataclass
@@ -27,6 +28,7 @@ class SuggestionsOutput:
                 "new_tags": [],
                 "tag_assignments": [],
                 "health_alerts": [],
+                "redundant_tags": [],
             }
         if self.clusters is None:
             self.clusters = []
@@ -50,6 +52,7 @@ class SuggestionGenerator:
         total_tags: int,
         health_analyzer: Optional[TagHealthAnalyzer] = None,
         feedback_stats: Optional[FeedbackStats] = None,
+        redundant_tags: Optional[list[RedundantTagGroup]] = None,
     ):
         self.new_tags = new_tags
         self.tag_assignments = tag_assignments
@@ -59,6 +62,7 @@ class SuggestionGenerator:
         self.total_tags = total_tags
         self.health_analyzer = health_analyzer
         self.feedback_stats = feedback_stats
+        self.redundant_tags = redundant_tags or []
 
     def generate(self, vault_hash: Optional[str] = None) -> SuggestionsOutput:
         """Génère la structure de sortie complète."""
@@ -80,6 +84,11 @@ class SuggestionGenerator:
         # Alertes de santé
         output.suggestions["health_alerts"] = [
             self._format_health_alert(alert) for alert in self.health_alerts
+        ]
+
+        # Tags redondants (doublons sémantiques)
+        output.suggestions["redundant_tags"] = [
+            self._format_redundant_group(group) for group in self.redundant_tags
         ]
 
         # Clusters
@@ -162,6 +171,16 @@ class SuggestionGenerator:
             "details": alert.details,
             "recommendation": alert.recommendation,
             "alternative_tags": alert.alternative_tags,
+        }
+
+    def _format_redundant_group(self, group: RedundantTagGroup) -> dict:
+        """Formate un groupe de tags redondants."""
+        return {
+            "id": group.id,
+            "tags": group.tags,
+            "similarity": group.similarity,
+            "usage_counts": group.usage_counts,
+            "recommended": group.recommended,
         }
 
     def _format_cluster(self, cluster) -> dict:

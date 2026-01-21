@@ -9,7 +9,7 @@ from .parsers import NoteParser
 from .embeddings import Embedder
 from .analysis.similarity_v2 import SimilarityEngineV2, SimilarityConfigV2
 from .clustering.detector_v2 import ClusterDetectorV2
-from .tags import TagHealthAnalyzer, TagGenerator, TagMatcher, FeedbackIntegrator
+from .tags import TagHealthAnalyzer, TagGenerator, TagMatcher, FeedbackIntegrator, RedundancyDetector
 from .database import Repository
 from .output import SuggestionGenerator
 
@@ -250,9 +250,29 @@ def analyze_vault(
     if verbose:
         print(f"   ✓ {len(tag_assignments)} attributions suggérées ({time.time() - step_start:.1f}s)")
 
-    # 10. Génère le fichier de sortie
+    # 10. Détection des tags redondants (doublons sémantiques)
+    step_start = time.time()
     if verbose:
-        print(f"\n10. Génération du fichier de sortie...")
+        print("\n10. Détection des tags redondants...")
+
+    # Calcule l'usage de chaque tag
+    tag_usage = {}
+    for tag in existing_tags:
+        tag_usage[tag] = sum(1 for n in notes if tag in n.tags)
+
+    redundancy_detector = RedundancyDetector(
+        embedder=embedder,
+        tag_usage=tag_usage,
+        repository=repository,
+    )
+    redundant_groups = redundancy_detector.detect_redundant_groups(max_groups=50)
+
+    if verbose:
+        print(f"   ✓ {len(redundant_groups)} groupes de doublons détectés ({time.time() - step_start:.1f}s)")
+
+    # 11. Génère le fichier de sortie
+    if verbose:
+        print(f"\n11. Génération du fichier de sortie...")
 
     # Convertit les clusters v2 au format attendu par SuggestionGenerator
     clusters_for_output = [
@@ -275,6 +295,7 @@ def analyze_vault(
         total_tags=len(existing_tags),
         health_analyzer=health_analyzer,
         feedback_stats=feedback_stats,
+        redundant_tags=redundant_groups,
     )
 
     # Crée le répertoire de sortie si nécessaire
@@ -296,6 +317,7 @@ def analyze_vault(
         "new_tags_suggested": len(new_tag_suggestions),
         "tag_assignments_suggested": len(tag_assignments),
         "health_alerts": len(health_alerts),
+        "redundant_groups": len(redundant_groups),
         "vault_health_score": health_analyzer.compute_vault_health_score() if health_analyzer else 0,
         "execution_time_seconds": total_time,
     }
@@ -309,6 +331,7 @@ def analyze_vault(
         print(f"📦 Clusters détectés: {stats['clusters_detected']}")
         print(f"✨ Nouveaux tags suggérés: {stats['new_tags_suggested']}")
         print(f"📎 Attributions suggérées: {stats['tag_assignments_suggested']}")
+        print(f"🔄 Doublons détectés: {stats['redundant_groups']}")
         print(f"⚠️  Alertes de santé: {stats['health_alerts']}")
         print(f"💚 Score de santé: {stats['vault_health_score']:.0%}")
         print(f"⏱️  Temps total: {total_time:.1f}s")
