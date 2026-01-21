@@ -27,8 +27,9 @@ class RedundancyDetector:
     """
 
     # Seuil de similarité sémantique pour considérer deux tags comme redondants
-    # Augmenté à 0.95 pour être très strict - ne garder que les vrais synonymes
-    SEMANTIC_THRESHOLD = 0.95
+    # DÉSACTIVÉ (seuil à 1.0) - trop de faux positifs avec les embeddings
+    # On ne garde que la détection syntaxique (variations de formatage du même tag)
+    SEMANTIC_THRESHOLD = 1.0  # Désactivé - ne détecte que les tags identiques
 
     # Seuil de similarité syntaxique (après normalisation)
     SYNTACTIC_THRESHOLD = 0.9
