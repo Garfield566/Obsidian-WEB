@@ -27,10 +27,20 @@ class RedundancyDetector:
     """
 
     # Seuil de similarité sémantique pour considérer deux tags comme redondants
-    SEMANTIC_THRESHOLD = 0.75
+    # Augmenté de 0.75 à 0.88 pour éviter les faux positifs (ex: Anti-War vs World-War)
+    SEMANTIC_THRESHOLD = 0.88
 
     # Seuil de similarité syntaxique (après normalisation)
     SYNTACTIC_THRESHOLD = 0.9
+
+    # Préfixes qui indiquent des sens opposés (ne pas regrouper)
+    OPPOSING_PREFIXES = [
+        ("anti", ""),
+        ("non", ""),
+        ("un", ""),
+        ("pre", "post"),
+        ("pro", "anti"),
+    ]
 
     def __init__(
         self,
@@ -167,6 +177,10 @@ class RedundancyDetector:
                 if tag2 in processed:
                     continue
 
+                # Vérifie si les tags ont des préfixes opposés
+                if self._has_opposing_prefix(tag1, tag2):
+                    continue
+
                 emb2 = tag_embeddings[tag2]
                 similarity = self.embedder.compute_similarity(emb1, emb2)
 
@@ -184,6 +198,34 @@ class RedundancyDetector:
                 })
 
         return groups
+
+    def _has_opposing_prefix(self, tag1: str, tag2: str) -> bool:
+        """Vérifie si deux tags ont des préfixes opposés (ex: Anti-War vs War)."""
+        # Normalise les tags pour la comparaison
+        t1 = tag1.lower().replace("-", "").replace("_", "")
+        t2 = tag2.lower().replace("-", "").replace("_", "")
+
+        for prefix1, prefix2 in self.OPPOSING_PREFIXES:
+            # Cas 1: tag1 a un préfixe opposé à tag2
+            if t1.startswith(prefix1) and not t2.startswith(prefix1):
+                base1 = t1[len(prefix1):]
+                if base1 in t2 or t2 in base1:
+                    return True
+
+            # Cas 2: tag2 a un préfixe opposé à tag1
+            if t2.startswith(prefix1) and not t1.startswith(prefix1):
+                base2 = t2[len(prefix1):]
+                if base2 in t1 or t1 in base2:
+                    return True
+
+            # Cas 3: préfixes mutuellement opposés (pre/post, pro/anti)
+            if prefix2:
+                if t1.startswith(prefix1) and t2.startswith(prefix2):
+                    return True
+                if t1.startswith(prefix2) and t2.startswith(prefix1):
+                    return True
+
+        return False
 
     def _normalize_tag(self, tag: str) -> str:
         """Normalise un tag pour la comparaison syntaxique."""
