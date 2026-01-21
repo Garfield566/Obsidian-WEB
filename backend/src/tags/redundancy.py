@@ -27,8 +27,8 @@ class RedundancyDetector:
     """
 
     # Seuil de similarité sémantique pour considérer deux tags comme redondants
-    # Augmenté de 0.75 à 0.88 pour éviter les faux positifs (ex: Anti-War vs World-War)
-    SEMANTIC_THRESHOLD = 0.88
+    # Augmenté à 0.95 pour être très strict - ne garder que les vrais synonymes
+    SEMANTIC_THRESHOLD = 0.95
 
     # Seuil de similarité syntaxique (après normalisation)
     SYNTACTIC_THRESHOLD = 0.9
@@ -191,6 +191,10 @@ class RedundancyDetector:
                 if tag2 in processed:
                     continue
 
+                # Vérifie si on doit ignorer cette comparaison (noms de personnes différents)
+                if self._should_skip_semantic_comparison(tag1, tag2):
+                    continue
+
                 # Vérifie si les tags ont des préfixes opposés
                 if self._has_opposing_prefix(tag1, tag2):
                     continue
@@ -212,6 +216,38 @@ class RedundancyDetector:
                 })
 
         return groups
+
+    def _is_person_name(self, tag: str) -> bool:
+        """Détecte si un tag ressemble à un nom de personne (Prénom-Nom)."""
+        # Pattern: deux mots capitalisés séparés par - ou _
+        # Ex: Masayuki-Kojima, John-Smith, Jean_Dupont
+        parts = re.split(r"[-_]", tag)
+
+        if len(parts) < 2:
+            return False
+
+        # Vérifie que chaque partie commence par une majuscule
+        # et ne contient que des lettres
+        capitalized_parts = 0
+        for part in parts:
+            if part and part[0].isupper() and part.isalpha():
+                capitalized_parts += 1
+
+        # Si au moins 2 parties sont des mots capitalisés, c'est probablement un nom
+        return capitalized_parts >= 2
+
+    def _should_skip_semantic_comparison(self, tag1: str, tag2: str) -> bool:
+        """Vérifie si on doit ignorer la comparaison sémantique entre deux tags."""
+        # Si les deux sont des noms de personnes différents, ne pas comparer
+        if self._is_person_name(tag1) and self._is_person_name(tag2):
+            # Vérifie si c'est le même nom avec variations
+            norm1 = self._normalize_tag(tag1)
+            norm2 = self._normalize_tag(tag2)
+            # Si les noms normalisés sont différents, ce sont des personnes différentes
+            if norm1 != norm2:
+                return True
+
+        return False
 
     def _has_opposing_prefix(self, tag1: str, tag2: str) -> bool:
         """Vérifie si deux tags ont des préfixes opposés ou des mots opposés."""
