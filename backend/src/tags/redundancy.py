@@ -42,6 +42,20 @@ class RedundancyDetector:
         ("pro", "anti"),
     ]
 
+    # Paires de mots opposés (ne pas regrouper même si similaires)
+    OPPOSING_WORDS = [
+        ("hero", "villain"),
+        ("heros", "villains"),
+        ("héros", "villain"),
+        ("good", "bad"),
+        ("good", "evil"),
+        ("light", "dark"),
+        ("war", "peace"),
+        ("love", "hate"),
+        ("friend", "enemy"),
+        ("ally", "enemy"),
+    ]
+
     def __init__(
         self,
         embedder: Embedder,
@@ -200,29 +214,36 @@ class RedundancyDetector:
         return groups
 
     def _has_opposing_prefix(self, tag1: str, tag2: str) -> bool:
-        """Vérifie si deux tags ont des préfixes opposés (ex: Anti-War vs War)."""
+        """Vérifie si deux tags ont des préfixes opposés ou des mots opposés."""
         # Normalise les tags pour la comparaison
-        t1 = tag1.lower().replace("-", "").replace("_", "")
-        t2 = tag2.lower().replace("-", "").replace("_", "")
+        t1 = tag1.lower().replace("-", " ").replace("_", " ")
+        t2 = tag2.lower().replace("-", " ").replace("_", " ")
+        t1_clean = t1.replace(" ", "")
+        t2_clean = t2.replace(" ", "")
+
+        # Vérifie les paires de mots opposés
+        for word1, word2 in self.OPPOSING_WORDS:
+            if (word1 in t1 and word2 in t2) or (word2 in t1 and word1 in t2):
+                return True
 
         for prefix1, prefix2 in self.OPPOSING_PREFIXES:
             # Cas 1: tag1 a un préfixe opposé à tag2
-            if t1.startswith(prefix1) and not t2.startswith(prefix1):
-                base1 = t1[len(prefix1):]
-                if base1 in t2 or t2 in base1:
+            if t1_clean.startswith(prefix1) and not t2_clean.startswith(prefix1):
+                base1 = t1_clean[len(prefix1):]
+                if base1 in t2_clean or t2_clean in base1:
                     return True
 
             # Cas 2: tag2 a un préfixe opposé à tag1
-            if t2.startswith(prefix1) and not t1.startswith(prefix1):
-                base2 = t2[len(prefix1):]
-                if base2 in t1 or t1 in base2:
+            if t2_clean.startswith(prefix1) and not t1_clean.startswith(prefix1):
+                base2 = t2_clean[len(prefix1):]
+                if base2 in t1_clean or t1_clean in base2:
                     return True
 
             # Cas 3: préfixes mutuellement opposés (pre/post, pro/anti)
             if prefix2:
-                if t1.startswith(prefix1) and t2.startswith(prefix2):
+                if t1_clean.startswith(prefix1) and t2_clean.startswith(prefix2):
                     return True
-                if t1.startswith(prefix2) and t2.startswith(prefix1):
+                if t1_clean.startswith(prefix2) and t2_clean.startswith(prefix1):
                     return True
 
         return False
