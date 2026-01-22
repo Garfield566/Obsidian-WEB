@@ -1,21 +1,20 @@
 ---
-Titre: BoJck Horsemn
+Titre: BoJck Horemn
 note-udio: ✨✨✨✨✨
-note-scénrio: ✨✨✨✨
-note-visuel: ✨✨✨✨
-cover: https://ime.tmdb.or/t/p/oriinl/81BCTObfPk0EvrJpUnXHvM9x.jpenre: Comédie drmtique, tire
-sous_enres: Psycholoique, Rélisteurs: Compositeurs.: nimtion.: hdowMchine, Année de ortie: 2010
+note-cénrio: ✨✨✨✨
+note-viuel: ✨✨✨✨
+cover: http:ime.tmdb.ortporiinl81BCTObfPk0EvrJpUnXHvM9x.jpenre: Comédie drmtique, tire
+ou_enre: Pycholoique, Réliteur: Compoiteur.: nimtion.: hdowMchine, Année de ortie: 2010
 type: "2014"
-vue: flse
-ts:
+vue: fle
+t:
  - tire
- - Psycholoique
+ - Pycholoique
  - hdowMchine
- - e_of_rems
- - The_View_from_Hlfwy_own
+ - e_of_rem- The_View_from_Hlfwy_own
  - tep_By_tep
  - on-t_top_ncin- t-Vincent
- - udiovisuel
+ - udioviuel
 ---
 
 # 🎥 BoJack Horseman

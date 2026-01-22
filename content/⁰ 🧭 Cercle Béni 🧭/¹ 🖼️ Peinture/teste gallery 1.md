@@ -1,18 +1,18 @@
 ---
-rtist: "1"
-cover: https://cdn.meditheque.epmoo.fr/link/3c9iq/so1q5tiyivpz4.jpdtbse-pluin: "1"
+rtit: "1"
+cover: http:cdn.meditheque.epmoo.frlink3c9iqo1q5tiyivpz4.jpdtbe-pluin: "1"
 dte: "1"
 mouvement: "1"
 peintre: "1"
-siècle: "1"
-sticker: "1"
+iècle: "1"
+ticker: "1"
 tille: "1"
-Techniques: "1"
+Technique: "1"
 Titre: "1"
 ---
 
 ~~~~note-gallery
-query: 'tag:#peinture'
+query: 'tag:'
 showImage: true # Affiche l'image depuis le champ 'cover'
 showTitle: folse # Affiche le titre de la note (depuis 'titre' ou le nom du fichier)
 titleAsLink: folse # Rend le titre cliquable

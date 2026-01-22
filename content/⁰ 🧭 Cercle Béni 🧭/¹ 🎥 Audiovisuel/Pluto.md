@@ -1,20 +1,20 @@
 ---
 Titre: note-udio: ✨✨✨✨✨
-note-scénrio: ✨✨✨✨✨
-note-visuel: ✨✨✨
-cover: https://occ-0-8407-1723.1.nflxso.net/dnm/pi/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABLPqLtp1iCrTTRY35j5e32rEXwWFAIJfJfzsAsvkrAXyV06s5jqQqhzOjNWkuCH0lzWWhltOkI8MOmo-9V1fBXMNi.jp?r=c7
-enre: Animtion, cience-fiction, sous_enres: cience-Fiction, Rélisteurs: "Osmu Tezuk(Œuvre oriinle : Astro Boy), Noki Ursw& Tkshi Nski (Adpttion)"
-Compositeurs.: Yuo-Knno
+note-cénrio: ✨✨✨✨✨
+note-viuel: ✨✨✨
+cover: http:occ-0-8407-1723.1.nflxo.netdnmpiv66AYY37jfdO6hpXcMjf9Yu5cnmO0AAAABLPqLtp1iCrTTRY35j5e32rEXwWFAIJfJfzAvkrAXyV065jqQqhzOjNWkuCH0lzWWhltOkI8MOmo-9V1fBXMNi.jp?r=c7
+enre: Animtion, cience-fiction, ou_enre: cience-Fiction, Réliteur: "Omu Tezuk(Œuvre oriinle : Atro Boy), Noki Urw& Tkhi Nki (Adpttion)"
+Compoiteur.: Yuo-Knno
 nimtion.: Année de ortie: 2023
-type: série
+type: érie
 vue: true
-ts:
+t:
  - Animtion
  - cience-fiction
- - Noki-Ursw- _Min_Theme
+ - Noki-Urw- _Min_Theme
  - Artificil_oul
  - Yuo-Knno
- - udiovisuel
+ - udioviuel
 ---
 
 # 🎥 Pluto

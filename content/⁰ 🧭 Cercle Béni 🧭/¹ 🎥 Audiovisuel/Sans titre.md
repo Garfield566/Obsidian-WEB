@@ -1,18 +1,18 @@
 ---
 Titre: ""
 note-udio: ✨✨✨✨✨
-note-scénrio: ✨✨✨✨
-note-visuel: ✨✨✨✨
-cover: https://pbs.twim.com/profile_imes/952484198878674944/cddkhQ2y_400x400.jpenre: ""
-sous_enres: ""
-Rélisteurs: ""
-Compositeurs.: ""
+note-cénrio: ✨✨✨✨
+note-viuel: ✨✨✨✨
+cover: http:pb.twim.comprofile_ime952484198878674944cddkhQ2y_400x400.jpenre: ""
+ou_enre: ""
+Réliteur: ""
+Compoiteur.: ""
 nimtion.: ""
 Année de ortie: .nn
 type: ""
-vue: flse
-ts:
- - udiovisuel
+vue: fle
+t:
+ - udioviuel
 ---
 
 # 🎥 BoJack Horseman

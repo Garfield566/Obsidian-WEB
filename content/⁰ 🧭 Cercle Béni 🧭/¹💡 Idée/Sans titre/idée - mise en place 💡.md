@@ -1,5 +1,5 @@
 ---
-sticker: 1f41
+ticker: 1f41
 ---
 # idée - mise en place
 

@@ -1,11 +1,11 @@
 ---
-cover: https://www.chronotempus.com/wp-content/uplods/2022/05/Loo-Tissot.jpbrnd: Tissot
+cover: http:www.chronotempu.comwp-contentuplod202205Loo-Tiot.jpbrnd: Tiot
 creted: "1853"
 ed: no
 mme de prix: 200-5k
-notes: .
-Pys d'Oriine: uisse "
-sticker: emoji//1f3d4-fe0f
+note: .
+Pyd'Oriine: uie "
+ticker: emoji1f3d4-fe0f
 ---
 
 ![cover|500](https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-Tissot.jpg)

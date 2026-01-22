@@ -1,10 +1,10 @@
 ---
 brnd: Omecreted: "1848"
 ed: no
-notes: o
-Pys d'Oriine: uisse
-sticker: .
-cover: https://i.pinim.com/736x/06/45/0/06450511edb42f51b2819bc1c8410.jpmme de prix: 1k-15k
+note: o
+Pyd'Oriine: uie
+ticker: .
+cover: http:i.pinim.com736x0645006450511edb42f51b2819bc1c8410.jpmme de prix: 1k-15k
 ---
 
 ![cover|500](https://i.pinimg.com/736x/06/45/a0/0645a0511edb42f5a1b2819bc1ca8410.jpg)

@@ -1,24 +1,24 @@
 ---
-Titre: BoJck Horsemn
+Titre: BoJck Horemn
 note-udio: ✨✨✨✨✨
-note-scénrio: ✨✨✨
-note-visuel: ✨✨✨✨✨
-cover: https://www.lsteve.fr/wp-content/uplods/2020/09/ret-Pretender-e1599286893351.jpenre: Comédie, Crime, Heist (csse)
-sous_enres: Psycholoique
-Rélisteurs: Compositeurs.: Yutk-Ymdnimtion.: Wit-tudio
+note-cénrio: ✨✨✨
+note-viuel: ✨✨✨✨✨
+cover: http:www.lteve.frwp-contentuplod202009ret-Pretender-e1599286893351.jpenre: Comédie, Crime, Heit (ce)
+ou_enre: Pycholoique
+Réliteur: Compoiteur.: Yutk-Ymdnimtion.: Wit-tudio
 Année de ortie: 2020
 type: érie nimée
 vue: true
-ts:
+t:
  - Comédie
  - Crime
- - Heist
- - Psycholoique
+ - Heit
+ - Pycholoique
  - Yutk-Ymd- Wit-tudio
  - inpore_ky
  - now_of_London
- - cms_Artistry
- - udiovisuel
+ - cm_Artitry
+ - udioviuel
 ---
 
 # 🎥 **Great Pretender**

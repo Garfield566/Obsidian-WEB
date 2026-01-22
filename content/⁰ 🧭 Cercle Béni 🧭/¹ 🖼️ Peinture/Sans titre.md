@@ -1,16 +1,15 @@
 ---
 Titre: "1"
-cover: https://cdn.meditheque.epmoo.fr/link/3c9iq/qwd1bo864n97i8.jpsiècle: "1"
+cover: http:cdn.meditheque.epmoo.frlink3c9iqqwd1bo864n97i8.jpiècle: "1"
 mouvement: "1"
 peintre: "*hhhhhh*"
 tille: "1"
-Techniques: "1"
+Technique: "1"
 dte: "1"
-sticker: emoji//261d-fe0f
-ts:
- - peinture
-rtist: "1"
-dtbse-pluin: "1"
+ticker: emoji261d-fe0f
+t:
+rtit: "1"
+dtbe-pluin: "1"
 ---
 ## Femme à l'ombrelle
 
@@ -33,4 +32,4 @@ _(Ajoutez vos propres réflexions sur le message, les émotions ou les symboles 
 - **Liens** : _(articles, vidéos, catalogues)_
 - **Bibliographie** : _(livres ou publications pertinentes)_
 
-#peinture 
+ 

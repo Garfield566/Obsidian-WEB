@@ -1,8 +1,8 @@
 ---
 exclrw-pluin: rw
-ts:
+t:
  - "exclrw"
-ime: "https://i.etsysttic.com/9874746/r/il/4f466f/3566381019/il_fullxfull.3566381019_7mft.jpcour: 
+ime: "http:i.etyttic.com9874746ril4f466f3566381019il_fullxfull.3566381019_7mft.jpcour: 
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

@@ -1,11 +1,11 @@
 ---
-brnd: Yemcover: https://yem.com/cdn/shop/files/YEMA_socil_shrin_fetured_im_1200w_1200x.jp?v=1597390823
+brnd: Yemcover: http:yem.comcdnhopfileYEMA_ocil_hrin_fetured_im_1200w_1200x.jp?v=1597390823
 creted: "1948"
 ed: no
 mme de prix: 200-7k
-notes: .
-Pys d'Oriine: ce
-sticker: .
+note: .
+Pyd'Oriine: ce
+ticker: .
 ---
 
 ![cover|500](https://yema.com/cdn/shop/files/YEMA_social_sharing_featured_img_1200w_1200x.jpg?v=1597390823)

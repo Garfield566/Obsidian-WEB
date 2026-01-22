@@ -1,10 +1,10 @@
 ---
-title: "Exponentielle de bse — Wikipédisource: "https://fr.wikipedi.or/wiki/Exponentielle_de_bse_uthor:
- - "[[Contributeurs ux projets Wikimedi]]"
-published: 2011-02-16
+title: "Exponentielle de be — Wikipédiource: "http:fr.wikipedi.orwikiExponentielle_de_be_uthor:
+ - "[[Contributeurux projetWikimedi]]"
+publihed: 2011-02-16
 creted: 2026-01-13
-description:
-ts:
+decription:
+t:
  - "clippinime:
 ---
  

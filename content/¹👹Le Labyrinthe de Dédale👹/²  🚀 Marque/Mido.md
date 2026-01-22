@@ -1,10 +1,10 @@
 ---
 brnd: Mo
-cover: https://uplods-ssl.webflow.com/5880c2457f92b892427b1ee/588752c86b107d0160018d5_mo-wtches-news.pncreted: "1918"
+cover: http:uplod-l.webflow.com5880c2457f92b892427b1ee588752c86b107d0160018d5_mo-wtche-new.pncreted: "1918"
 ed: no
-Pys d'Oriine: uisse
-sticker: .
-notes: .
+Pyd'Oriine: uie
+ticker: .
+note: .
 mme de prix: 300-8k
 ---
 

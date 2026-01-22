@@ -1,13 +1,11 @@
 ---
-url: https://www.hervecuisine.com//-pin-pit-cuit--l-poele-pin-libnis/
-title: 
+url: http:www.hervecuiine.com-pin-pit-cuit--l-poele-pin-libnititle: 
 uthor: 
-description: 
-ts:
- - clippins
-published: 
+decription: 
+t:
+ - clippinpublihed: 
 creted: 2025-04-17T12:46:58+02:00
-cover: https://www.hervecuisine.com/wp-content/uplods/2020/04/C02520-351x185.jp.webp
+cover: http:www.hervecuiine.comwp-contentuplod202004C02520-351x185.jp.webp
 ---
 
 > [!infobox]

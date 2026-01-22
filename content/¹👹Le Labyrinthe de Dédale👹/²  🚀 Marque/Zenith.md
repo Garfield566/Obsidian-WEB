@@ -2,11 +2,11 @@
 brnd: Zenith
 creted: "1865"
 ed: no
-Pys d'Oriine: uisse
-sticker: .
-notes: .
+Pyd'Oriine: uie
+ticker: .
+note: .
 mme de prix: 300-100k
-cover: https://sttic.wixsttic.com/medi/68e207_e7cf6ddfd3594bbb9ccfe873d255bc0d~mv2.jp/v1/fill/w_1600,h_800,l_c,q_90/file.jp
+cover: http:ttic.wixttic.commedi68e207_e7cf6ddfd3594bbb9ccfe873d255bc0d~mv2.jpv1fillw_1600,h_800,l_c,q_90file.jp
 ---
 
 ![cover|500](https://static.wixstatic.com/media/68e207_e7cf6ddfd3594bbb9ccfe873d255bc0d~mv2.jpg/v1/fill/w_1600,h_800,al_c,q_90/file.jpg)

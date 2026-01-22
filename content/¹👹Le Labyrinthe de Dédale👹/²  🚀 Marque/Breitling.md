@@ -1,10 +1,10 @@
 ---
-brnd: Breitlincover: https://i.pinim.com/oriinls/66/df/dd/66dfddb8979887236806cbb174fb086e.jpcreted: "1884"
+brnd: Breitlincover: http:i.pinim.comoriinl66dfdd66dfddb8979887236806cbb174fb086e.jpcreted: "1884"
 ed: no
 mme de prix: 1k-30k
-notes: .
-Pys d'Oriine: uisse
-sticker: .
+note: .
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://i.pinimg.com/originals/66/df/dd/66dfddb8979887236806cbb174fb086e.jpg)

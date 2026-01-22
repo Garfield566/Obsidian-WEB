@@ -1,0 +1,137 @@
+{
+  "_description": "Mouvements artistiques avec périodes et artistes majeurs",
+  "movements": {
+    "renaissance": {
+      "era": {"start": "1400", "end": "1600"},
+      "tag": "mouvement\\renaissance",
+      "artists": ["vinci", "michel-ange", "raphaël", "botticelli"],
+      "keywords": ["perspective", "humanisme", "antiquité", "florence"]
+    },
+    "baroque": {
+      "era": {"start": "1600", "end": "1750"},
+      "tag": "mouvement\\baroque",
+      "artists": ["caravage", "rubens", "vermeer", "rembrandt"],
+      "keywords": ["clair-obscur", "mouvement", "émotion", "grandeur"]
+    },
+    "rococo": {
+      "era": {"start": "1700", "end": "1780"},
+      "tag": "mouvement\\rococo",
+      "artists": ["watteau", "fragonard", "boucher"],
+      "keywords": ["légèreté", "élégance", "pastel", "fête galante"]
+    },
+    "néoclassicisme": {
+      "era": {"start": "1750", "end": "1830"},
+      "tag": "mouvement\\néoclassicisme",
+      "artists": ["david", "ingres"],
+      "keywords": ["antiquité", "rigueur", "vertu", "raison"]
+    },
+    "romantisme": {
+      "era": {"start": "1800", "end": "1850"},
+      "tag": "mouvement\\romantisme",
+      "artists": ["delacroix", "géricault", "friedrich", "turner"],
+      "keywords": ["passion", "nature", "sublime", "individualisme"]
+    },
+    "réalisme": {
+      "era": {"start": "1840", "end": "1880"},
+      "tag": "mouvement\\réalisme",
+      "artists": ["courbet", "millet", "daumier"],
+      "keywords": ["quotidien", "social", "objectivité", "travail"]
+    },
+    "impressionnisme": {
+      "era": {"start": "1860", "end": "1890"},
+      "tag": "mouvement\\impressionnisme",
+      "artists": ["monet", "renoir", "degas", "pissarro", "sisley"],
+      "keywords": ["lumière", "instant", "plein air", "touche", "couleur"]
+    },
+    "post-impressionnisme": {
+      "era": {"start": "1880", "end": "1910"},
+      "tag": "mouvement\\post-impressionnisme",
+      "artists": ["cézanne", "van-gogh", "gauguin", "seurat"],
+      "keywords": ["structure", "expression", "symbolisme", "pointillisme"]
+    },
+    "symbolisme": {
+      "era": {"start": "1880", "end": "1910"},
+      "tag": "mouvement\\symbolisme",
+      "artists": ["moreau", "redon", "klimt"],
+      "keywords": ["rêve", "mythe", "mystère", "allégorie"]
+    },
+    "art-nouveau": {
+      "era": {"start": "1890", "end": "1910"},
+      "tag": "mouvement\\art-nouveau",
+      "artists": ["mucha", "gaudi", "guimard"],
+      "keywords": ["courbe", "nature", "organique", "ornement"]
+    },
+    "fauvisme": {
+      "era": {"start": "1904", "end": "1908"},
+      "tag": "mouvement\\fauvisme",
+      "artists": ["matisse", "derain", "vlaminck"],
+      "keywords": ["couleur pure", "violence", "spontanéité"]
+    },
+    "expressionnisme": {
+      "era": {"start": "1905", "end": "1930"},
+      "tag": "mouvement\\expressionnisme",
+      "artists": ["munch", "kirchner", "schiele", "kokoschka"],
+      "keywords": ["angoisse", "déformation", "émotion", "subjectivité"]
+    },
+    "cubisme": {
+      "era": {"start": "1907", "end": "1920"},
+      "tag": "mouvement\\cubisme",
+      "artists": ["picasso", "braque", "gris", "léger"],
+      "keywords": ["géométrie", "fragmentation", "multiple points de vue"]
+    },
+    "futurisme": {
+      "era": {"start": "1909", "end": "1944"},
+      "tag": "mouvement\\futurisme",
+      "artists": ["boccioni", "balla", "severini"],
+      "keywords": ["vitesse", "machine", "modernité", "dynamisme"]
+    },
+    "dadaïsme": {
+      "era": {"start": "1916", "end": "1924"},
+      "tag": "mouvement\\dadaïsme",
+      "artists": ["duchamp", "tzara", "arp", "ernst"],
+      "keywords": ["absurde", "anti-art", "provocation", "hasard"]
+    },
+    "constructivisme": {
+      "era": {"start": "1913", "end": "1930"},
+      "tag": "mouvement\\constructivisme",
+      "artists": ["tatline", "rodchenko", "el-lissitzky"],
+      "keywords": ["géométrie", "révolution", "industrie", "abstraction"]
+    },
+    "surréalisme": {
+      "era": {"start": "1924", "end": "1966"},
+      "tag": "mouvement\\surréalisme",
+      "artists": ["dalí", "magritte", "ernst", "miró"],
+      "keywords": ["rêve", "inconscient", "automatisme", "merveilleux"]
+    },
+    "art-déco": {
+      "era": {"start": "1920", "end": "1940"},
+      "tag": "mouvement\\art-déco",
+      "artists": ["tamara-de-lempicka", "cassandre"],
+      "keywords": ["géométrie", "luxe", "modernité", "élégance"]
+    },
+    "expressionnisme-abstrait": {
+      "era": {"start": "1943", "end": "1965"},
+      "tag": "mouvement\\expressionnisme-abstrait",
+      "artists": ["pollock", "de-kooning", "rothko", "kline"],
+      "keywords": ["geste", "spontanéité", "grand format", "action painting"]
+    },
+    "pop-art": {
+      "era": {"start": "1955", "end": "1970"},
+      "tag": "mouvement\\pop-art",
+      "artists": ["warhol", "lichtenstein", "hamilton"],
+      "keywords": ["culture populaire", "consommation", "répétition", "publicité"]
+    },
+    "minimalisme": {
+      "era": {"start": "1960", "end": "1975"},
+      "tag": "mouvement\\minimalisme",
+      "artists": ["judd", "flavin", "andre", "lewitt"],
+      "keywords": ["réduction", "géométrie", "série", "matériau industriel"]
+    },
+    "art-conceptuel": {
+      "era": {"start": "1965", "end": "1975"},
+      "tag": "mouvement\\art-conceptuel",
+      "artists": ["kosuth", "weiner", "on-kawara"],
+      "keywords": ["idée", "langage", "dématérialisation", "processus"]
+    }
+  }
+}

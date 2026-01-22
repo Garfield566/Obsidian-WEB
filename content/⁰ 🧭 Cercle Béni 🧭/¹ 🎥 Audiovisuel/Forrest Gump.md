@@ -1,6 +1,6 @@
 ---
-dtbse-pluin: bsic
-cover: https://fiencerie-thetre.com/medi/pes/sisons/sison-2024-2025/forrest-ump/d6dce94e0d-1734685469/ffiche_forrest-ump.jp
+dtbe-pluin: bic
+cover: http:fiencerie-thetre.commedipeionion-2024-2025forret-umpd6dce94e0d-1734685469ffiche_forret-ump.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

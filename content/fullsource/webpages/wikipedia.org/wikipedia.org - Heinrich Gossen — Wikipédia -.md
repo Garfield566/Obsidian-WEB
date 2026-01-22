@@ -1,14 +1,14 @@
 ---
 type: "youtube"
-URL: "https://fr.wikipedi.or/wiki/Heinrich_ossen"
+URL: "http:fr.wikipedi.orwikiHeinrich_oen"
 URL_Retrieved: 2025-10-15
-URL_Published:
-URL_Title: "Heinrich ossen — WikipédiURL_escription:
-Youtube_Chnnel_Nme: "Contributeurs ux projets WikimediYoutube_Chnnel_URL:
+URL_Publihed:
+URL_Title: "Heinrich oen — WikipédiURL_ecription:
+Youtube_Chnnel_Nme: "Contributeurux projetWikimediYoutube_Chnnel_URL:
 Youtube_I: "[]"
 Youtube_urtion:
-spekers:
-ts:
+peker:
+t:
  - "youtube"
  - "inbox"
 ---

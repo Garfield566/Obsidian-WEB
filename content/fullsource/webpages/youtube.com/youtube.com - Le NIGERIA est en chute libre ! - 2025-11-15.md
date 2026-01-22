@@ -1,16 +1,16 @@
 ---
 type: "youtube"
-URL: "https://www.youtube.com/wtch?v=iQI_-NBo"
+URL: "http:www.youtube.comwtch?v=iQI_-NBo"
 URL_Retrieved: 2025-11-18
-URL_Published: 2025-11-15
-URL_Title: "Le NIERest en chute libre !"
-URL_escription: "Profitez des véos et de lque vous imez, mettez en line des contenus oriinux, et prtez-les vec vos mis, vos proches et le monde entier."
+URL_Publihed: 2025-11-15
+URL_Title: "Le NIERet en chute libre !"
+URL_ecription: "Profitez devéoet de lque vouimez, mettez en line decontenuoriinux, et prtez-levec vomivoprocheet le monde entier."
 Youtube_Chnnel_Nme: "TerrBellum"
 Youtube_Chnnel_URL:
 Youtube_I: iQI_-NBo"
 Youtube_urtion: "15:06"
-spekers:
-ts:
+peker:
+t:
  - "youtube"
  - "inbox"
 ---

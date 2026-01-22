@@ -1,16 +1,12 @@
 ---
 title: Any ummry
 uteur:
- - Auteur de lnote (vous)
-cover: https://topi.tools/ssets/im/tools/nysummry.webp
-dte: te de crétion ou de mise à jour de lnote
-sujet: ujet principl de lnote sur lctéorie: Fit des Résumez
-technoloies: Liste des technoloies ou des outils dbordés dns lnote
-références: Références, rticles, livres ou liens pertinents
-problémtique: Question ou problème lié à lméthodoloie: Méthodoloie, pproche ou méthodes utilisées
-résultts: Résultts ou conclusions
-discussions: iscussions, implictions ou nlyses
-notes_supplémentires: Remrques ou informtions supplémentires
+ - Auteur de lnote (vou)
+cover: http:topi.tooletimtoolnyummry.webp
+dte: te de crétion ou de mie à jour de lnote
+ujet: ujet principl de lnote ur lctéorie: Fit deRéumez
+technoloie: Lite detechnoloieou deoutildbordédnlnote
+référence: Référencerticlelivreou lienpertinentproblémtique: Quetion ou problème lié à lméthodoloie: Méthodoloie, pproche ou méthodeutiliéeréultt: Réulttou concluiondicuion: icuionimplictionou nlyenote_upplémentire: Remrqueou informtionupplémentire
 ---
 
 # **Any Summary**

@@ -16,7 +16,8 @@ import time
 from .parsers import NoteParser
 from .embeddings import Embedder
 from .analysis.similarity_v2 import SimilarityEngineV2, SimilarityConfigV2
-from .analysis.entity_detector import EntityDetector, aggregate_entities_across_notes
+from .analysis.entity_detector_v2 import EntityDetectorV2, aggregate_entities_v2, EntityType
+from .analysis.entity_classifier import ReferenceDatabase
 from .clustering.detector_v2 import ClusterDetectorV2
 from .tags import TagHealthAnalyzer, TagGenerator, TagMatcher, FeedbackIntegrator, RedundancyDetector
 from .tags.conventions import TagFamily, classify_tag, suggest_tag_format, get_tag_family_label
@@ -365,8 +366,35 @@ class TagGeneratorV2:
     """
 
     # Seuils
-    MIN_ENTITY_NOTES = 2  # Nombre min de notes pour une suggestion d'entité
-    MIN_CONFIDENCE_ENTITY = 0.65
+    MIN_ENTITY_NOTES = 3  # Nombre min de notes pour une suggestion d'entité
+    MIN_CONFIDENCE_ENTITY = 0.60
+
+    # Noms à exclure des suggestions (faux positifs connus)
+    EXCLUDED_ENTITY_NAMES = {
+        "pasted-image", "pasted image", "image", "screenshot",
+        "untitled", "sans titre", "new note", "nouvelle note",
+        "test", "teste", "template", "modèle",
+    }
+
+    # Mots trop génériques pour être des tags utiles seuls
+    # Ces mots sont utiles comme partie d'un tag composé (ex: "intégrale\riemann")
+    # mais pas seuls (ex: "intégrale")
+    TOO_GENERIC_WORDS = {
+        # Mots mathématiques très courants mais trop vagues seuls
+        "produit", "somme", "mesure", "suite", "série", "serie",
+        "limite", "fonction", "espace", "groupe", "corps", "module",
+        "norme", "forme", "base", "point", "courbe", "surface",
+        "variété", "variete", "dérivée", "derivee", "métrique", "metrique",
+        "théorème", "theoreme", "transformation", "intégrale", "integrale",
+        # Mots généraux
+        "exemple", "note", "chapitre", "section", "partie", "article",
+        "question", "réponse", "problème", "solution", "méthode",
+        # Siècles seuls (préférer avec période ou année)
+        "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
+        "xi", "xii", "xiii", "xiv", "xv", "xvi", "xvii", "xviii", "xix", "xx", "xxi",
+        # Années rondes trop génériques
+        "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800", "1900", "2000",
+    }
 
     def __init__(
         self,
@@ -382,8 +410,9 @@ class TagGeneratorV2:
         self.repository = repository
         self.notes = notes or []
 
-        # Détecteur d'entités
-        self.entity_detector = EntityDetector()
+        # Détecteur d'entités V2 avec bases de référence
+        self.reference_db = ReferenceDatabase()
+        self.entity_detector = EntityDetectorV2(self.reference_db)
 
     def generate_suggestions(self, max_suggestions: int = 50) -> list[dict]:
         """Génère des suggestions de nouveaux tags.
@@ -461,14 +490,14 @@ class TagGeneratorV2:
     def _generate_entity_suggestions(
         self, rejected_tags: set, max_suggestions: int
     ) -> list[dict]:
-        """Génère des suggestions basées sur les entités détectées."""
+        """Génère des suggestions basées sur les entités détectées (V2 avec bases de référence)."""
         suggestions = []
 
-        # Détecte les entités dans toutes les notes
+        # Détecte les entités dans toutes les notes avec le détecteur V2
         notes_entities = self.entity_detector.detect_entities_batch(self.notes)
 
         # Agrège les entités qui apparaissent dans plusieurs notes
-        aggregated = aggregate_entities_across_notes(
+        aggregated = aggregate_entities_v2(
             notes_entities, min_notes=self.MIN_ENTITY_NOTES
         )
 
@@ -487,8 +516,17 @@ class TagGeneratorV2:
             if tag in self.existing_tags or tag in rejected_tags:
                 continue
 
-            # Vérifie similarité avec tags existants (normalise)
+            # Filtre les faux positifs connus
             tag_lower = tag.lower()
+            tag_base = tag_lower.replace("\\", " ").replace("-", " ").strip()
+            if any(excluded in tag_base for excluded in self.EXCLUDED_ENTITY_NAMES):
+                continue
+
+            # Filtre les mots trop génériques (sauf s'ils ont un préfixe de convention)
+            if "\\" not in tag and tag_lower in self.TOO_GENERIC_WORDS:
+                continue
+
+            # Vérifie similarité avec tags existants (normalise)
             is_redundant = False
             for existing in self.existing_tags:
                 existing_lower = existing.lower()
@@ -504,39 +542,48 @@ class TagGeneratorV2:
             if not entities:
                 continue
 
-            # Confiance de base : moyenne des détections (0.5-0.9)
+            # === NOUVEAU: Score de confiance amélioré V2 ===
             avg_detection_confidence = sum(e.confidence for e in entities) / len(entities)
 
-            # Facteurs de confiance plus discriminants :
-            # 1. Nombre de notes (2-10+) : 30% du score
+            # Facteurs de confiance :
+            # 1. Nombre de notes (3-10+) : 20% du score
             notes_count = len(note_paths)
-            notes_factor = min(1.0, (notes_count - 1) / 8)  # 2 notes = 0.125, 10 notes = 1.0
+            notes_factor = min(1.0, (notes_count - 2) / 7)  # 3 notes = 0.14, 10 notes = 1.0
 
-            # 2. Occurrences totales : 20% du score
+            # 2. Occurrences totales : 15% du score
             total_occurrences = sum(e.occurrences for e in entities)
-            occurrences_factor = min(1.0, total_occurrences / 15)  # 15 occurrences = max
+            occurrences_factor = min(1.0, total_occurrences / 15)
 
-            # 3. Qualité de détection : 50% du score
-            # La confiance de détection est déjà entre 0.5 et 0.9
-            detection_factor = (avg_detection_confidence - 0.5) / 0.4  # Normalise 0.5-0.9 vers 0-1
+            # 3. Qualité de détection (déjà calibrée par le classificateur) : 40% du score
+            detection_factor = min(1.0, (avg_detection_confidence - 0.3) / 0.6)
 
-            # Score final composé (plafonne naturellement à ~0.9 max)
+            # 4. NOUVEAU: Présence dans base de référence : 15% du score
+            in_reference_db = any(e.source == "reference_db" for e in entities)
+            reference_factor = 1.0 if in_reference_db else 0.3
+
+            # 5. NOUVEAU: Présence dans titre : 10% du score
+            in_title = any(getattr(e, 'in_title', False) for e in entities)
+            title_factor = 1.0 if in_title else 0.5
+
+            # Score final composé
             confidence = (
-                0.50 * detection_factor +     # Qualité de détection
-                0.30 * notes_factor +          # Nombre de notes
-                0.20 * occurrences_factor      # Fréquence
+                0.40 * detection_factor +      # Qualité de détection
+                0.20 * notes_factor +           # Nombre de notes
+                0.15 * occurrences_factor +     # Fréquence
+                0.15 * reference_factor +       # Base de référence
+                0.10 * title_factor             # Présence dans titre
             )
 
-            # Ajuste l'échelle pour avoir des scores entre 0.5 et 0.92
-            confidence = 0.50 + (confidence * 0.42)
-            confidence = round(confidence, 2)
+            # Ajuste l'échelle pour avoir des scores entre 0.50 et 0.95
+            confidence = 0.50 + (confidence * 0.45)
+            confidence = round(min(0.95, confidence), 2)
 
             if confidence < self.MIN_CONFIDENCE_ENTITY:
                 continue
 
             # Construit le raisonnement
             entity_sample = entities[0]
-            family_label = self._get_family_label(entity_sample.family)
+            family_label = self._get_entity_type_label(entity_sample.entity_type)
 
             # Calcule les alternatives et vérifications de convention
             alternatives = self._compute_tag_alternatives(tag, entity_sample)
@@ -546,15 +593,17 @@ class TagGeneratorV2:
                 "name": tag,
                 "confidence": round(confidence, 2),
                 "notes": note_paths[:10],
-                "source": "entity",
+                "source": entity_sample.source,
                 "alternatives": alternatives,
                 "reasoning": {
                     "summary": f"{family_label} détecté(e) dans {len(note_paths)} notes",
                     "details": {
-                        "entity_type": entity_sample.family.value,
+                        "entity_type": entity_sample.entity_type.value,
                         "raw_text": entity_sample.raw_text,
                         "total_occurrences": total_occurrences,
                         "notes_count": len(note_paths),
+                        "in_reference_db": in_reference_db,
+                        "in_title": in_title,
                     },
                 },
             })
@@ -565,7 +614,7 @@ class TagGeneratorV2:
         return suggestions
 
     def _get_family_label(self, family: TagFamily) -> str:
-        """Retourne un label lisible pour une famille de tags."""
+        """Retourne un label lisible pour une famille de tags (V1 legacy)."""
         labels = {
             TagFamily.PERSON: "Personne",
             TagFamily.GEO: "Lieu géographique",
@@ -581,8 +630,22 @@ class TagGeneratorV2:
         }
         return labels.get(family, "Entité")
 
+    def _get_entity_type_label(self, entity_type: EntityType) -> str:
+        """Retourne un label lisible pour un type d'entité V2."""
+        labels = {
+            EntityType.PERSON: "Personne",
+            EntityType.PLACE: "Lieu géographique",
+            EntityType.POLITICAL_ENTITY: "Entité politique",
+            EntityType.DISCIPLINE: "Discipline",
+            EntityType.CONCEPT: "Concept théorique",
+            EntityType.ART_MOVEMENT: "Mouvement artistique",
+            EntityType.DATE: "Date/Siècle",
+            EntityType.UNKNOWN: "Entité",
+        }
+        return labels.get(entity_type, "Entité")
+
     def _compute_tag_alternatives(self, suggested_tag: str, entity) -> list[dict]:
-        """Calcule les alternatives pour un tag suggéré.
+        """Calcule les alternatives pour un tag suggéré (V2).
 
         Retourne une liste d'alternatives avec:
         - name: le nom alternatif du tag
@@ -596,21 +659,19 @@ class TagGeneratorV2:
 
         # Si le tag est générique mais pourrait avoir une convention spécifique
         if tag_info.family == TagFamily.GENERIC:
-            # Suggère un format plus structuré selon le type d'entité détectée
-            family_map = {
-                "person": TagFamily.PERSON,
-                "geo": TagFamily.GEO,
-                "entity": TagFamily.ENTITY,
-                "area": TagFamily.AREA,
-                "date": TagFamily.DATE,
-                "discipline": TagFamily.DISCIPLINE,
+            # Suggère un format plus structuré selon le type d'entité détectée (V2)
+            entity_type_to_family = {
+                EntityType.PERSON: TagFamily.PERSON,
+                EntityType.PLACE: TagFamily.GEO,
+                EntityType.POLITICAL_ENTITY: TagFamily.ENTITY,
+                EntityType.DISCIPLINE: TagFamily.DISCIPLINE,
+                EntityType.DATE: TagFamily.DATE,
+                EntityType.ART_MOVEMENT: TagFamily.ARTWORK,
             }
-            expected_family = family_map.get(entity.family.value)
+            expected_family = entity_type_to_family.get(entity.entity_type)
             if expected_family:
                 # Génère le format conventionnel
-                context = {}
-                if hasattr(entity, 'context') and entity.context and isinstance(entity.context, dict):
-                    context = entity.context
+                context = entity.metadata if hasattr(entity, 'metadata') else {}
                 conventional = suggest_tag_format(
                     entity.raw_text, expected_family, context
                 )
@@ -662,10 +723,22 @@ class TagGeneratorV2:
         return similar[:2]  # Limite à 2 tags similaires
 
     def _deduplicate_suggestions(self, suggestions: list[dict]) -> list[dict]:
-        """Déduplique les suggestions en gardant celle avec la meilleure confiance."""
+        """Déduplique les suggestions en gardant celle avec la meilleure confiance.
+
+        Normalise les accents pour éviter les doublons comme série/serie.
+        """
+        import unicodedata
+
+        def normalize_key(name: str) -> str:
+            """Normalise un nom en retirant les accents."""
+            # Décompose les caractères accentués et retire les accents
+            normalized = unicodedata.normalize('NFD', name.lower())
+            without_accents = ''.join(c for c in normalized if unicodedata.category(c) != 'Mn')
+            return without_accents
+
         seen: dict = {}
         for suggestion in suggestions:
-            key = suggestion["name"].lower()
+            key = normalize_key(suggestion["name"])
             if key not in seen or suggestion["confidence"] > seen[key]["confidence"]:
                 seen[key] = suggestion
         return list(seen.values())

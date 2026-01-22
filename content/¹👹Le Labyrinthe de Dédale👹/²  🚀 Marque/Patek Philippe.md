@@ -1,12 +1,11 @@
 ---
 brnd: Ptek Philippe
-cover: https://encrypted-tbn0.sttic.com/imes?q=tbn:ANd9cQwF78R97kTNsTvFVyTQHTu1_Hjfrwh&s
-creted: "1839"
+cover: http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cQwF78R97kTNTvFVyTQHTu1_Hjfrwh&creted: "1839"
 ed: no
 mme de prix: 10k-2M
-notes: .
-Pys d'Oriine: uisse
-sticker: .
+note: .
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwSF78R97kTNsTvFVyTQHTuag1_HjfDrGwhg&s)

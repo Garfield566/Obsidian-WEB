@@ -1,7 +1,7 @@
 ---
 
-exclrw-pluin: prsed
-ts: [exclrw]
+exclrw-pluin: pred
+t: [exclrw]
 
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==

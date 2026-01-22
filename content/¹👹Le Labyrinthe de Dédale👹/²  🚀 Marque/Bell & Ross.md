@@ -1,11 +1,10 @@
 ---
-brnd: Bell & Ross
-cover: https://cdn.worldvectorloo.com/loos/bell-ross.svcreted: "1992"
+brnd: Bell & Rocover: http:cdn.worldvectorloo.comloobell-ro.vcreted: "1992"
 ed: no
 mme de prix: 2k-100k
-notes: .
-Pys d'Oriine: ce
-sticker: .
+note: .
+Pyd'Oriine: ce
+ticker: .
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/bell-ross.svg)

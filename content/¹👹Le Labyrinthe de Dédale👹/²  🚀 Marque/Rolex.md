@@ -1,11 +1,11 @@
 ---
 brnd: Rolex
-cover: https://www.thewtchcompny.com/medi/tm_blo/p/o/7/6485/post_7_6485.jpcreted: "1905"
+cover: http:www.thewtchcompny.commeditm_blopo76485pot_7_6485.jpcreted: "1905"
 ed: no
 mme de prix: 3k-50k
-notes: .
-Pys d'Oriine: uisse
-sticker: .
+note: .
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://www.thewatchcompany.com/media/tm_blog/p/o/7/6485/post_7_6485.jpg)

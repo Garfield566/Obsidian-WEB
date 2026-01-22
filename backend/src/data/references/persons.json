@@ -1,0 +1,123 @@
+{
+  "_description": "Base de personnes connues avec leurs domaines et époques",
+  "persons": {
+    "philosophes": {
+      "platon": {"full_name": "Platon", "aliases": ["plato"], "era": "antiquité", "domain": "philosophie"},
+      "aristote": {"full_name": "Aristote", "aliases": ["aristotle"], "era": "antiquité", "domain": "philosophie"},
+      "socrate": {"full_name": "Socrate", "aliases": ["socrates"], "era": "antiquité", "domain": "philosophie"},
+      "descartes": {"full_name": "René Descartes", "aliases": ["cartésien"], "era": "XVII", "domain": "philosophie"},
+      "kant": {"full_name": "Emmanuel Kant", "aliases": ["kantien"], "era": "XVIII", "domain": "philosophie"},
+      "hegel": {"full_name": "Georg Wilhelm Friedrich Hegel", "aliases": ["hégélien"], "era": "XIX", "domain": "philosophie"},
+      "nietzsche": {"full_name": "Friedrich Nietzsche", "aliases": ["nietzschéen"], "era": "XIX", "domain": "philosophie"},
+      "marx": {"full_name": "Karl Marx", "aliases": ["marxiste", "marxien"], "era": "XIX", "domain": "philosophie"},
+      "heidegger": {"full_name": "Martin Heidegger", "aliases": [], "era": "XX", "domain": "philosophie"},
+      "sartre": {"full_name": "Jean-Paul Sartre", "aliases": ["sartrien"], "era": "XX", "domain": "philosophie"},
+      "foucault": {"full_name": "Michel Foucault", "aliases": ["foucaldien"], "era": "XX", "domain": "philosophie"},
+      "deleuze": {"full_name": "Gilles Deleuze", "aliases": ["deleuzien"], "era": "XX", "domain": "philosophie"},
+      "spinoza": {"full_name": "Baruch Spinoza", "aliases": ["spinoziste"], "era": "XVII", "domain": "philosophie"},
+      "leibniz": {"full_name": "Gottfried Wilhelm Leibniz", "aliases": [], "era": "XVII", "domain": "philosophie"},
+      "locke": {"full_name": "John Locke", "aliases": [], "era": "XVII", "domain": "philosophie"},
+      "hume": {"full_name": "David Hume", "aliases": [], "era": "XVIII", "domain": "philosophie"},
+      "rousseau": {"full_name": "Jean-Jacques Rousseau", "aliases": [], "era": "XVIII", "domain": "philosophie"},
+      "schopenhauer": {"full_name": "Arthur Schopenhauer", "aliases": [], "era": "XIX", "domain": "philosophie"},
+      "wittgenstein": {"full_name": "Ludwig Wittgenstein", "aliases": [], "era": "XX", "domain": "philosophie"},
+      "husserl": {"full_name": "Edmund Husserl", "aliases": [], "era": "XX", "domain": "philosophie"}
+    },
+    "sociologues": {
+      "durkheim": {"full_name": "Émile Durkheim", "aliases": ["durkheimien"], "era": "XIX", "domain": "sociologie"},
+      "weber": {"full_name": "Max Weber", "aliases": ["wébérien"], "era": "XIX", "domain": "sociologie"},
+      "bourdieu": {"full_name": "Pierre Bourdieu", "aliases": ["bourdieusien"], "era": "XX", "domain": "sociologie"},
+      "simmel": {"full_name": "Georg Simmel", "aliases": [], "era": "XIX", "domain": "sociologie"},
+      "parsons": {"full_name": "Talcott Parsons", "aliases": [], "era": "XX", "domain": "sociologie"},
+      "goffman": {"full_name": "Erving Goffman", "aliases": [], "era": "XX", "domain": "sociologie"}
+    },
+    "economistes": {
+      "smith": {"full_name": "Adam Smith", "aliases": [], "era": "XVIII", "domain": "économie"},
+      "ricardo": {"full_name": "David Ricardo", "aliases": [], "era": "XIX", "domain": "économie"},
+      "keynes": {"full_name": "John Maynard Keynes", "aliases": ["keynésien"], "era": "XX", "domain": "économie"},
+      "hayek": {"full_name": "Friedrich Hayek", "aliases": [], "era": "XX", "domain": "économie"},
+      "friedman": {"full_name": "Milton Friedman", "aliases": [], "era": "XX", "domain": "économie"},
+      "malthus": {"full_name": "Thomas Malthus", "aliases": ["malthusien"], "era": "XIX", "domain": "économie"}
+    },
+    "mathematiciens": {
+      "euclide": {"full_name": "Euclide", "aliases": ["euclidien"], "era": "antiquité", "domain": "mathématiques"},
+      "euler": {"full_name": "Leonhard Euler", "aliases": [], "era": "XVIII", "domain": "mathématiques"},
+      "gauss": {"full_name": "Carl Friedrich Gauss", "aliases": ["gaussien"], "era": "XIX", "domain": "mathématiques"},
+      "riemann": {"full_name": "Bernhard Riemann", "aliases": ["riemannien"], "era": "XIX", "domain": "mathématiques"},
+      "cauchy": {"full_name": "Augustin-Louis Cauchy", "aliases": [], "era": "XIX", "domain": "mathématiques"},
+      "cantor": {"full_name": "Georg Cantor", "aliases": [], "era": "XIX", "domain": "mathématiques"},
+      "hilbert": {"full_name": "David Hilbert", "aliases": [], "era": "XX", "domain": "mathématiques"},
+      "gödel": {"full_name": "Kurt Gödel", "aliases": ["godel"], "era": "XX", "domain": "mathématiques"},
+      "poincaré": {"full_name": "Henri Poincaré", "aliases": ["poincare"], "era": "XIX", "domain": "mathématiques"},
+      "lebesgue": {"full_name": "Henri Lebesgue", "aliases": [], "era": "XX", "domain": "mathématiques"},
+      "fourier": {"full_name": "Joseph Fourier", "aliases": [], "era": "XIX", "domain": "mathématiques"},
+      "laplace": {"full_name": "Pierre-Simon Laplace", "aliases": [], "era": "XVIII", "domain": "mathématiques"},
+      "lagrange": {"full_name": "Joseph-Louis Lagrange", "aliases": [], "era": "XVIII", "domain": "mathématiques"},
+      "fermat": {"full_name": "Pierre de Fermat", "aliases": [], "era": "XVII", "domain": "mathématiques"},
+      "pascal": {"full_name": "Blaise Pascal", "aliases": [], "era": "XVII", "domain": "mathématiques"},
+      "galois": {"full_name": "Évariste Galois", "aliases": [], "era": "XIX", "domain": "mathématiques"},
+      "noether": {"full_name": "Emmy Noether", "aliases": [], "era": "XX", "domain": "mathématiques"},
+      "grothendieck": {"full_name": "Alexander Grothendieck", "aliases": [], "era": "XX", "domain": "mathématiques"}
+    },
+    "physiciens": {
+      "newton": {"full_name": "Isaac Newton", "aliases": ["newtonien"], "era": "XVII", "domain": "physique"},
+      "einstein": {"full_name": "Albert Einstein", "aliases": [], "era": "XX", "domain": "physique"},
+      "bohr": {"full_name": "Niels Bohr", "aliases": [], "era": "XX", "domain": "physique"},
+      "heisenberg": {"full_name": "Werner Heisenberg", "aliases": [], "era": "XX", "domain": "physique"},
+      "schrodinger": {"full_name": "Erwin Schrödinger", "aliases": ["schrödinger"], "era": "XX", "domain": "physique"},
+      "dirac": {"full_name": "Paul Dirac", "aliases": [], "era": "XX", "domain": "physique"},
+      "feynman": {"full_name": "Richard Feynman", "aliases": [], "era": "XX", "domain": "physique"},
+      "maxwell": {"full_name": "James Clerk Maxwell", "aliases": [], "era": "XIX", "domain": "physique"},
+      "boltzmann": {"full_name": "Ludwig Boltzmann", "aliases": [], "era": "XIX", "domain": "physique"},
+      "planck": {"full_name": "Max Planck", "aliases": [], "era": "XX", "domain": "physique"}
+    },
+    "ecrivains": {
+      "shakespeare": {"full_name": "William Shakespeare", "aliases": [], "era": "XVI", "domain": "littérature"},
+      "goethe": {"full_name": "Johann Wolfgang von Goethe", "aliases": [], "era": "XVIII", "domain": "littérature"},
+      "dostoievski": {"full_name": "Fiodor Dostoïevski", "aliases": ["dostoevsky", "dostoïevsky"], "era": "XIX", "domain": "littérature"},
+      "tolstoi": {"full_name": "Léon Tolstoï", "aliases": ["tolstoy"], "era": "XIX", "domain": "littérature"},
+      "proust": {"full_name": "Marcel Proust", "aliases": [], "era": "XX", "domain": "littérature"},
+      "kafka": {"full_name": "Franz Kafka", "aliases": [], "era": "XX", "domain": "littérature"},
+      "joyce": {"full_name": "James Joyce", "aliases": [], "era": "XX", "domain": "littérature"},
+      "borges": {"full_name": "Jorge Luis Borges", "aliases": [], "era": "XX", "domain": "littérature"},
+      "camus": {"full_name": "Albert Camus", "aliases": [], "era": "XX", "domain": "littérature"},
+      "baudelaire": {"full_name": "Charles Baudelaire", "aliases": [], "era": "XIX", "domain": "littérature"},
+      "rimbaud": {"full_name": "Arthur Rimbaud", "aliases": [], "era": "XIX", "domain": "littérature"},
+      "balzac": {"full_name": "Honoré de Balzac", "aliases": [], "era": "XIX", "domain": "littérature"},
+      "flaubert": {"full_name": "Gustave Flaubert", "aliases": [], "era": "XIX", "domain": "littérature"},
+      "zola": {"full_name": "Émile Zola", "aliases": [], "era": "XIX", "domain": "littérature"},
+      "hugo": {"full_name": "Victor Hugo", "aliases": [], "era": "XIX", "domain": "littérature"}
+    },
+    "artistes": {
+      "vinci": {"full_name": "Léonard de Vinci", "aliases": ["da vinci", "leonardo"], "era": "XV", "domain": "art"},
+      "michel-ange": {"full_name": "Michel-Ange", "aliases": ["michelangelo", "michelange"], "era": "XVI", "domain": "art"},
+      "rembrandt": {"full_name": "Rembrandt van Rijn", "aliases": [], "era": "XVII", "domain": "art"},
+      "vermeer": {"full_name": "Johannes Vermeer", "aliases": [], "era": "XVII", "domain": "art"},
+      "monet": {"full_name": "Claude Monet", "aliases": [], "era": "XIX", "domain": "art"},
+      "van-gogh": {"full_name": "Vincent van Gogh", "aliases": ["vangogh"], "era": "XIX", "domain": "art"},
+      "picasso": {"full_name": "Pablo Picasso", "aliases": [], "era": "XX", "domain": "art"},
+      "dali": {"full_name": "Salvador Dalí", "aliases": [], "era": "XX", "domain": "art"},
+      "kandinsky": {"full_name": "Vassily Kandinsky", "aliases": [], "era": "XX", "domain": "art"},
+      "mondrian": {"full_name": "Piet Mondrian", "aliases": [], "era": "XX", "domain": "art"},
+      "cezanne": {"full_name": "Paul Cézanne", "aliases": [], "era": "XIX", "domain": "art"},
+      "renoir": {"full_name": "Pierre-Auguste Renoir", "aliases": [], "era": "XIX", "domain": "art"},
+      "manet": {"full_name": "Édouard Manet", "aliases": [], "era": "XIX", "domain": "art"},
+      "matisse": {"full_name": "Henri Matisse", "aliases": [], "era": "XX", "domain": "art"}
+    },
+    "historiens": {
+      "herodote": {"full_name": "Hérodote", "aliases": [], "era": "antiquité", "domain": "histoire"},
+      "thucydide": {"full_name": "Thucydide", "aliases": [], "era": "antiquité", "domain": "histoire"},
+      "braudel": {"full_name": "Fernand Braudel", "aliases": [], "era": "XX", "domain": "histoire"},
+      "le-goff": {"full_name": "Jacques Le Goff", "aliases": [], "era": "XX", "domain": "histoire"},
+      "bloch": {"full_name": "Marc Bloch", "aliases": [], "era": "XX", "domain": "histoire"},
+      "febvre": {"full_name": "Lucien Febvre", "aliases": [], "era": "XX", "domain": "histoire"}
+    },
+    "psychologues": {
+      "freud": {"full_name": "Sigmund Freud", "aliases": ["freudien"], "era": "XX", "domain": "psychologie"},
+      "jung": {"full_name": "Carl Gustav Jung", "aliases": ["jungien"], "era": "XX", "domain": "psychologie"},
+      "lacan": {"full_name": "Jacques Lacan", "aliases": ["lacanien"], "era": "XX", "domain": "psychologie"},
+      "piaget": {"full_name": "Jean Piaget", "aliases": [], "era": "XX", "domain": "psychologie"},
+      "skinner": {"full_name": "B.F. Skinner", "aliases": [], "era": "XX", "domain": "psychologie"}
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
-cover: https://m.medi-mzon.com/imes/I/81ITM7ECmRL.jpts:
-uthor: ostoïevski
-enre: Fiction psycholoique
+cover: http:m.medi-mzon.comimeI81ITM7ECmRL.jpt:
+uthor: otoïevki
+enre: Fiction pycholoique
 Type: Romn
 lu: entrin
 ---

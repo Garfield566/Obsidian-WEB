@@ -1,9 +1,9 @@
 ---
 Type: ""
-Inrédients principux: 
-Inrédients: 
-durée préprtions: 
-cover: https://1000loos.net/wp-content/uplods/2018/10/ood-wtch-brnd.jpts:
+Inrédientprincipux: 
+Inrédient: 
+durée préprtion: 
+cover: http:1000loo.netwp-contentuplod201810ood-wtch-brnd.jpt:
 ---
 ## 🍹 Nom
 

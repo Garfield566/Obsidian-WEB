@@ -1,6 +1,6 @@
 ---
-dtbse-pluin: bsic
-cover: https://fr.web.im2.cst.net/medis/nmedi/18/35/37/59/18388012.jp
+dtbe-pluin: bic
+cover: http:fr.web.im2.ct.netmedinmedi1835375918388012.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

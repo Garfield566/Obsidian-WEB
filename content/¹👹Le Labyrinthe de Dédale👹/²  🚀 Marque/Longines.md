@@ -1,11 +1,10 @@
 ---
-brnd: Lonines
-cover: https://i.pinim.com/736x/e0/ce/07/e0ce0771f4e6c58203eeb6638375500.jped: no
+brnd: Loninecover: http:i.pinim.com736xe0ce07e0ce0771f4e6c58203eeb6638375500.jped: no
 mme de prix: 500-10k
-notes: .
+note: .
 creted: "1832"
-Pys d'Oriine: uisse
-sticker: .
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://i.pinimg.com/736x/e0/ce/07/e0ce0771f4e6c58203eeb6a638375500.jpg)

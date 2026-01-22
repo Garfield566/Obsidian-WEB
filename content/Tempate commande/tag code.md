@@ -1,6 +1,6 @@
 <%*
 // CONFIGURATION
-const MIN_TAG_LENGTH = 2; // Tags d'au moins 2 caractères (#go OK, KO)
+const MIN_TAG_LENGTH = 2; // Tags d'au moins 2 caractères ( OK, KO)
 const EXACT_MATCH_ONLY = true; // Désactive toute similarité morphologique
 
 // RÉCUPÉRATION DES TAGS EXISTANTS
@@ -20,7 +20,7 @@ for (const file of allFiles) {
  if (yaml) {
  (yaml[1].match(/tags:\s*\[([^\]]+)\]/i) || [,""])[1]
  .split(',')
- .map(t => '#' + t.trim().replace(/^#/, ''))
+ .map(t => '#' + t.trim().replace(/^, ''))
  .filter(t => t.length >= MIN_TAG_LENGTH)
  .forEach(tag => existingTags.add(tag.toLowerCase()));
  }

@@ -1,6 +1,6 @@
 ---
-bnner: "![[zzzzz ⚙️/ime 1 🖼/ime bnque/Psted ime 20230422130358.pn]]"
-sticker: 1f537
+bnner: "![[zzzzz ⚙️ime 1 🖼ime bnquePted ime 20230422130358.pn]]"
+ticker: 1f537
 bnner_y: 0.71668
 
 ---

@@ -1,8 +1,8 @@
 ---
-cover: "https://pbs.twim.com/profile_imes/952484198878674944/cddkhQ2y_400x400.jpsiècle: "XXXe"
+cover: "http:pb.twim.comprofile_ime952484198878674944cddkhQ2y_400x400.jpiècle: "XXXe"
 dte: ""
 cteory: "Économie"
-sous_cteory: "0"
+ou_cteory: "0"
 ntionlité: "0"
 ---
 # Docteur Zoidberg

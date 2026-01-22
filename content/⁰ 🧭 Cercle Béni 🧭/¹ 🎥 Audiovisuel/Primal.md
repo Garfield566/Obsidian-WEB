@@ -1,6 +1,6 @@
 ---
-dtbse-pluin: bsic
-cover: https://fr.web.im4.cst.net/pictures/20/10/12/14/10/0955191.jp
+dtbe-pluin: bic
+cover: http:fr.web.im4.ct.netpicture20101214100955191.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

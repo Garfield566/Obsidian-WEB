@@ -1,0 +1,123 @@
+{
+  "_description": "Disciplines académiques avec leurs sous-domaines",
+  "disciplines": {
+    "mathématiques": {
+      "tag": "mathématiques",
+      "aliases": ["mathematiques", "maths", "math"],
+      "subdomains": {
+        "analyse": {"tag": "mathématiques\\analyse", "keywords": ["intégrale", "dérivée", "limite", "continuité", "convergence"]},
+        "algèbre": {"tag": "mathématiques\\algèbre", "keywords": ["groupe", "anneau", "corps", "module", "vecteur", "matrice"]},
+        "géométrie": {"tag": "mathématiques\\géométrie", "keywords": ["espace", "dimension", "métrique", "variété", "courbe", "surface"]},
+        "topologie": {"tag": "mathématiques\\topologie", "keywords": ["ouvert", "fermé", "compact", "connexe", "homéomorphisme"]},
+        "probabilités": {"tag": "mathématiques\\probabilités", "keywords": ["aléatoire", "espérance", "variance", "distribution", "loi"]},
+        "logique": {"tag": "mathématiques\\logique", "keywords": ["axiome", "théorème", "preuve", "démonstration", "proposition"]},
+        "théorie-des-nombres": {"tag": "mathématiques\\théorie-des-nombres", "keywords": ["premier", "divisibilité", "congruence", "diophantien"]}
+      }
+    },
+    "physique": {
+      "tag": "physique",
+      "aliases": ["physics"],
+      "subdomains": {
+        "mécanique": {"tag": "physique\\mécanique", "keywords": ["force", "mouvement", "énergie", "travail", "puissance"]},
+        "thermodynamique": {"tag": "physique\\thermodynamique", "keywords": ["chaleur", "entropie", "température", "équilibre"]},
+        "électromagnétisme": {"tag": "physique\\électromagnétisme", "keywords": ["champ", "courant", "onde", "maxwell"]},
+        "quantique": {"tag": "physique\\quantique", "keywords": ["quantification", "superposition", "intrication", "spin", "wave function"]},
+        "relativité": {"tag": "physique\\relativité", "keywords": ["espace-temps", "courbure", "gravitation", "einstein"]},
+        "optique": {"tag": "physique\\optique", "keywords": ["lumière", "réfraction", "diffraction", "interférence"]}
+      }
+    },
+    "philosophie": {
+      "tag": "philosophie",
+      "aliases": ["philo"],
+      "subdomains": {
+        "métaphysique": {"tag": "philosophie\\métaphysique", "keywords": ["être", "existence", "substance", "essence", "réalité"]},
+        "épistémologie": {"tag": "philosophie\\épistémologie", "keywords": ["connaissance", "vérité", "savoir", "certitude", "justification"]},
+        "éthique": {"tag": "philosophie\\éthique", "keywords": ["bien", "mal", "devoir", "vertu", "morale", "valeur"]},
+        "esthétique": {"tag": "philosophie\\esthétique", "keywords": ["beau", "art", "goût", "sublime", "jugement"]},
+        "logique": {"tag": "philosophie\\logique", "keywords": ["raisonnement", "argument", "syllogisme", "déduction", "induction"]},
+        "politique": {"tag": "philosophie\\politique", "keywords": ["état", "pouvoir", "justice", "liberté", "droit"]}
+      }
+    },
+    "histoire": {
+      "tag": "histoire",
+      "aliases": ["history"],
+      "subdomains": {
+        "ancienne": {"tag": "histoire\\ancienne", "keywords": ["antiquité", "grèce", "rome", "égypte", "mésopotamie"]},
+        "médiévale": {"tag": "histoire\\médiévale", "keywords": ["moyen-âge", "féodal", "croisades", "chevalerie"]},
+        "moderne": {"tag": "histoire\\moderne", "keywords": ["renaissance", "lumières", "révolution", "absolutisme"]},
+        "contemporaine": {"tag": "histoire\\contemporaine", "keywords": ["industriel", "guerre mondiale", "colonisation", "décolonisation"]},
+        "économique": {"tag": "histoire\\économique", "keywords": ["commerce", "industrie", "capitalisme", "crise"]},
+        "des-idées": {"tag": "histoire\\des-idées", "keywords": ["pensée", "mouvement", "courant", "influence"]}
+      }
+    },
+    "sociologie": {
+      "tag": "sociologie",
+      "aliases": ["socio"],
+      "subdomains": {
+        "politique": {"tag": "sociologie\\politique", "keywords": ["pouvoir", "élite", "mobilisation", "vote"]},
+        "économique": {"tag": "sociologie\\économique", "keywords": ["travail", "marché", "consommation", "classe"]},
+        "culturelle": {"tag": "sociologie\\culturelle", "keywords": ["pratique", "représentation", "identité", "norme"]},
+        "urbaine": {"tag": "sociologie\\urbaine", "keywords": ["ville", "quartier", "ségrégation", "mobilité"]}
+      }
+    },
+    "économie": {
+      "tag": "économie",
+      "aliases": ["economie", "éco"],
+      "subdomains": {
+        "microéconomie": {"tag": "économie\\microéconomie", "keywords": ["offre", "demande", "prix", "marché", "consommateur"]},
+        "macroéconomie": {"tag": "économie\\macroéconomie", "keywords": ["pib", "inflation", "chômage", "croissance", "politique monétaire"]},
+        "internationale": {"tag": "économie\\internationale", "keywords": ["commerce", "échange", "mondialisation", "protectionnisme"]},
+        "politique": {"tag": "économie\\politique", "keywords": ["intervention", "régulation", "fiscalité", "redistribution"]}
+      }
+    },
+    "psychologie": {
+      "tag": "psychologie",
+      "aliases": ["psycho"],
+      "subdomains": {
+        "cognitive": {"tag": "psychologie\\cognitive", "keywords": ["perception", "mémoire", "attention", "raisonnement"]},
+        "sociale": {"tag": "psychologie\\sociale", "keywords": ["groupe", "influence", "attitude", "stéréotype"]},
+        "clinique": {"tag": "psychologie\\clinique", "keywords": ["trouble", "thérapie", "diagnostic", "traitement"]},
+        "développement": {"tag": "psychologie\\développement", "keywords": ["enfant", "apprentissage", "stade", "maturation"]}
+      }
+    },
+    "linguistique": {
+      "tag": "linguistique",
+      "aliases": [],
+      "subdomains": {
+        "phonétique": {"tag": "linguistique\\phonétique", "keywords": ["son", "prononciation", "phonème", "articulation"]},
+        "syntaxe": {"tag": "linguistique\\syntaxe", "keywords": ["phrase", "grammaire", "structure", "constituant"]},
+        "sémantique": {"tag": "linguistique\\sémantique", "keywords": ["sens", "signification", "référence", "contexte"]},
+        "pragmatique": {"tag": "linguistique\\pragmatique", "keywords": ["usage", "acte de langage", "implicite", "énonciation"]}
+      }
+    },
+    "anthropologie": {
+      "tag": "anthropologie",
+      "aliases": ["anthro"],
+      "subdomains": {
+        "sociale": {"tag": "anthropologie\\sociale", "keywords": ["parenté", "rituel", "échange", "don"]},
+        "culturelle": {"tag": "anthropologie\\culturelle", "keywords": ["culture", "tradition", "croyance", "mythe"]},
+        "physique": {"tag": "anthropologie\\physique", "keywords": ["évolution", "fossile", "hominidé", "biologique"]}
+      }
+    },
+    "biologie": {
+      "tag": "biologie",
+      "aliases": ["bio"],
+      "subdomains": {
+        "cellulaire": {"tag": "biologie\\cellulaire", "keywords": ["cellule", "membrane", "organite", "cytoplasme"]},
+        "moléculaire": {"tag": "biologie\\moléculaire", "keywords": ["adn", "arn", "protéine", "gène", "transcription"]},
+        "génétique": {"tag": "biologie\\génétique", "keywords": ["hérédité", "mutation", "chromosome", "allèle"]},
+        "évolution": {"tag": "biologie\\évolution", "keywords": ["sélection", "adaptation", "spéciation", "darwin"]},
+        "écologie": {"tag": "biologie\\écologie", "keywords": ["écosystème", "population", "niche", "biodiversité"]}
+      }
+    },
+    "chimie": {
+      "tag": "chimie",
+      "aliases": ["chemistry"],
+      "subdomains": {
+        "organique": {"tag": "chimie\\organique", "keywords": ["carbone", "molécule", "réaction", "synthèse"]},
+        "inorganique": {"tag": "chimie\\inorganique", "keywords": ["métal", "minéral", "coordination", "cristal"]},
+        "physique": {"tag": "chimie\\physique", "keywords": ["thermochimie", "cinétique", "équilibre", "électrochimie"]}
+      }
+    }
+  }
+}

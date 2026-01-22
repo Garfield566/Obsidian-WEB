@@ -1,7 +1,6 @@
 ---
-cover: https://m.medi-mzon.com/imes/I/81pOdxFB-6L.jpts:
-uthor: Albert Cmus
-enre: Romn dpprentisse
+cover: http:m.medi-mzon.comimeI81pOdxFB-6L.jpt:
+uthor: Albert Cmuenre: Romn dpprentie
 Type: Romn
 Tome:
 lu: no

@@ -269,16 +269,17 @@ class EntityDetector:
         # Combine titre et contenu pour l'analyse
         text = f"{note.title}\n{note.content}"
         text_lower = text.lower()
+        title_lower = note.title.lower()
 
         # Détecte les différents types d'entités
         entities.extend(self._detect_dates(text))
         entities.extend(self._detect_persons(text))
-        entities.extend(self._detect_geo(text_lower))
-        entities.extend(self._detect_political_entities(text_lower))
-        entities.extend(self._detect_cultural_areas(text_lower))
-        entities.extend(self._detect_disciplines(text_lower))
+        entities.extend(self._detect_geo(text_lower, title_lower))
+        entities.extend(self._detect_political_entities(text_lower, title_lower))
+        entities.extend(self._detect_cultural_areas(text_lower, title_lower))
+        entities.extend(self._detect_disciplines(text_lower, title_lower))
         entities.extend(self._detect_math_objects(text_lower))
-        entities.extend(self._detect_art_movements(text_lower))
+        entities.extend(self._detect_art_movements(text_lower, title_lower))
 
         # Déduplique et trie par confiance
         entities = self._deduplicate_entities(entities)
@@ -403,14 +404,49 @@ class EntityDetector:
 
         return entities
 
-    def _detect_geo(self, text_lower: str) -> list[DetectedEntity]:
-        """Détecte les lieux géographiques."""
+    def _detect_geo(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les lieux géographiques.
+
+        Pour éviter les faux positifs, on vérifie :
+        - Le nombre d'occurrences (minimum 2, sauf si dans le titre)
+        - La densité (occurrences par rapport à la longueur du texte)
+        """
         entities = []
+        text_length = len(text_lower)
+
+        # Seuil minimum : 2 occurrences OU présence dans le titre
+        MIN_OCCURRENCES = 2
+        # Densité minimum : au moins 1 occurrence pour 2000 caractères
+        MIN_DENSITY = 1 / 2000
 
         for place in self.KNOWN_GEO:
             if place in text_lower:
                 # Compte les occurrences
                 count = text_lower.count(place)
+
+                # Vérifie si le lieu est dans le titre (forte indication de pertinence)
+                in_title = place in title_lower if title_lower else False
+
+                # Calcule la densité
+                density = count / text_length if text_length > 0 else 0
+
+                # Filtre : soit dans le titre, soit assez d'occurrences ET densité suffisante
+                if not in_title:
+                    if count < MIN_OCCURRENCES:
+                        continue
+                    if density < MIN_DENSITY:
+                        continue
+
+                # Calcule la confiance en fonction de la pertinence
+                confidence = 0.6  # Base
+                if in_title:
+                    confidence += 0.25  # Bonus titre
+                if count >= 3:
+                    confidence += 0.1  # Bonus occurrences multiples
+                if density >= MIN_DENSITY * 2:
+                    confidence += 0.05  # Bonus densité élevée
+
+                confidence = min(0.9, confidence)  # Plafond
 
                 tag = suggest_tag_format(TagFamily.GEO, place)
 
@@ -418,19 +454,38 @@ class EntityDetector:
                     family=TagFamily.GEO,
                     raw_text=place,
                     suggested_tag=tag,
-                    confidence=0.8,
+                    confidence=round(confidence, 2),
                     occurrences=count,
                 ))
 
         return entities
 
-    def _detect_political_entities(self, text_lower: str) -> list[DetectedEntity]:
-        """Détecte les entités politiques (empires, royaumes, etc.)."""
+    def _detect_political_entities(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les entités politiques (empires, royaumes, etc.).
+
+        Les entités politiques sont plus spécifiques que les lieux géographiques,
+        donc on garde un seuil plus bas mais on ajuste la confiance.
+        """
         entities = []
+        text_length = len(text_lower)
 
         for entity in self.KNOWN_ENTITIES:
             if entity in text_lower:
                 count = text_lower.count(entity)
+
+                in_title = entity in title_lower if title_lower else False
+
+                # Pour les entités politiques, 1 occurrence suffit si assez longue
+                # mais on ajuste la confiance
+                confidence = 0.65  # Base
+                if in_title:
+                    confidence += 0.2
+                if count >= 2:
+                    confidence += 0.1
+                if count >= 3:
+                    confidence += 0.05
+
+                confidence = min(0.9, confidence)
 
                 tag = suggest_tag_format(TagFamily.ENTITY, entity)
 
@@ -438,19 +493,33 @@ class EntityDetector:
                     family=TagFamily.ENTITY,
                     raw_text=entity,
                     suggested_tag=tag,
-                    confidence=0.85,
+                    confidence=round(confidence, 2),
                     occurrences=count,
                 ))
 
         return entities
 
-    def _detect_cultural_areas(self, text_lower: str) -> list[DetectedEntity]:
-        """Détecte les aires culturelles."""
+    def _detect_cultural_areas(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les aires culturelles.
+
+        Les aires culturelles sont des expressions multi-mots spécifiques,
+        donc moins de faux positifs que les lieux simples.
+        """
         entities = []
 
         for area in self.KNOWN_AREAS:
             if area in text_lower:
                 count = text_lower.count(area)
+
+                in_title = area in title_lower if title_lower else False
+
+                confidence = 0.7  # Base
+                if in_title:
+                    confidence += 0.15
+                if count >= 2:
+                    confidence += 0.1
+
+                confidence = min(0.9, confidence)
 
                 tag = suggest_tag_format(TagFamily.AREA, area)
 
@@ -458,22 +527,50 @@ class EntityDetector:
                     family=TagFamily.AREA,
                     raw_text=area,
                     suggested_tag=tag,
-                    confidence=0.8,
+                    confidence=round(confidence, 2),
                     occurrences=count,
                 ))
 
         return entities
 
-    def _detect_disciplines(self, text_lower: str) -> list[DetectedEntity]:
-        """Détecte les disciplines académiques."""
+    def _detect_disciplines(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les disciplines académiques.
+
+        Les noms de disciplines sont courants, donc on exige au moins 2 occurrences
+        sauf si dans le titre ou le chemin suggère une discipline.
+        """
         entities = []
+        text_length = len(text_lower)
+        MIN_OCCURRENCES = 2
+        MIN_DENSITY = 1 / 3000  # Les disciplines peuvent être mentionnées moins souvent
 
         for discipline in KNOWN_DISCIPLINES:
             if discipline in text_lower:
                 count = text_lower.count(discipline)
 
+                in_title = discipline in title_lower if title_lower else False
+
+                density = count / text_length if text_length > 0 else 0
+
+                # Filtre : titre OU (occurrences ET densité)
+                if not in_title:
+                    if count < MIN_OCCURRENCES:
+                        continue
+                    if density < MIN_DENSITY:
+                        continue
+
                 # Cherche un sous-domaine potentiel
                 subdomain = self._find_subdomain(text_lower, discipline)
+
+                confidence = 0.55  # Base plus basse car les disciplines sont courantes
+                if in_title:
+                    confidence += 0.25
+                if count >= 3:
+                    confidence += 0.1
+                if subdomain:
+                    confidence += 0.1  # Bonus si sous-domaine trouvé
+
+                confidence = min(0.85, confidence)
 
                 tag = suggest_tag_format(
                     TagFamily.DISCIPLINE,
@@ -485,7 +582,7 @@ class EntityDetector:
                     family=TagFamily.DISCIPLINE,
                     raw_text=discipline,
                     suggested_tag=tag,
-                    confidence=0.75,
+                    confidence=round(confidence, 2),
                     occurrences=count,
                 ))
 
@@ -518,13 +615,27 @@ class EntityDetector:
 
         return entities
 
-    def _detect_art_movements(self, text_lower: str) -> list[DetectedEntity]:
-        """Détecte les mouvements artistiques."""
+    def _detect_art_movements(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les mouvements artistiques.
+
+        Les mouvements artistiques sont des termes assez spécifiques,
+        mais on vérifie quand même la pertinence.
+        """
         entities = []
 
         for movement in KNOWN_ART_MOVEMENTS:
             if movement in text_lower:
                 count = text_lower.count(movement)
+
+                in_title = movement in title_lower if title_lower else False
+
+                confidence = 0.65  # Base
+                if in_title:
+                    confidence += 0.2
+                if count >= 2:
+                    confidence += 0.1
+
+                confidence = min(0.9, confidence)
 
                 tag = suggest_tag_format(
                     TagFamily.ARTWORK,
@@ -536,7 +647,7 @@ class EntityDetector:
                     family=TagFamily.ARTWORK,
                     raw_text=movement,
                     suggested_tag=tag,
-                    confidence=0.75,
+                    confidence=round(confidence, 2),
                     occurrences=count,
                 ))
 

@@ -1,10 +1,10 @@
 ---
-title: "métllurie | Britnnicsource: "https://www.britnnic.com/print/rticle/377665"
+title: "métllurie | Britnnicource: "http:www.britnnic.comprintrticle377665"
 uthor:
-published:
+publihed:
 creted: 2025-05-13
-description: "Explore the fct-checked online encyclopedifrom EncyclopediBritnnicwith hundreds of thousnds of objective rticles, orphies, veos, nd imes from experts."
-ts:
+decription: "Explore the fct-checked online encyclopedifrom EncyclopediBritnnicwith hundredof thoundof objective rticleorphieveond imefrom expert."
+t:
  - "clippin
 ---
 ## métallurgie

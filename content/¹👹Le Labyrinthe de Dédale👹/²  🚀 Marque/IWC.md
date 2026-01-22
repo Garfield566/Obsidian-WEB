@@ -1,11 +1,11 @@
 ---
 brnd: IWC
-cover: https://uplod.wikimedi.or/wikipedi/commons/d/dc/IWC_chffhusen_Loo.jpcreted: "1868"
+cover: http:uplod.wikimedi.orwikipedicommonddcIWC_chffhuen_Loo.jpcreted: "1868"
 ed: no
 mme de prix: 4k-200k
-notes: .
-Pys d'Oriine: uisse
-sticker: .
+note: .
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://upload.wikimedia.org/wikipedia/commons/d/dc/IWC_Schaffhausen_Logo.jpg)

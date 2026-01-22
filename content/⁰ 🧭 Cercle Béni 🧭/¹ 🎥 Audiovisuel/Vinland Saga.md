@@ -1,17 +1,17 @@
 ---
 Titre: Vinlnd note-udio: ✨✨✨
-note-scénrio: ✨✨✨✨✨
-note-visuel: ✨✨✨
-cover: https://m.medi-mzon.com/imes//pv-tret-imes/52dd8113f4708049920b99d37446f587fc7e30f5d21c6766520bccb03804._X1080_FMjp_.jpenre: Animtion, rme
-sous_enres: Historique, Action, Rélisteurs: Mkoto Yukimur(Auteur du mn), hūhei Ybut(Rélisteur de l’nime)
-Compositeurs.: Yutk-Ymdnimtion.: Wit tudio (ison 1), MAPPA (ison 2)
+note-cénrio: ✨✨✨✨✨
+note-viuel: ✨✨✨
+cover: http:m.medi-mzon.comimepv-tret-ime52dd8113f4708049920b99d37446f587fc7e30f5d21c6766520bccb03804._X1080_FMjp_.jpenre: Animtion, rme
+ou_enre: Hitorique, Action, Réliteur: Mkoto Yukimur(Auteur du mn), hūhei Ybut(Réliteur de l’nime)
+Compoiteur.: Yutk-Ymdnimtion.: Wit tudio (ion 1), MAPPA (ion 2)
 Année de ortie: 2023
-type: série
+type: érie
 vue: true
-ts:
+t:
  - Vinlnd_- Animtion
  - rme
- - historique
+ - hitorique
  - Action
  - hūhei-Ybut- Yutk-Ymd- Wit-tudio
  - MAPPA
@@ -19,10 +19,9 @@ ts:
  - MAN-WITH-A-MIION
  - rk_Crow
  - rown
- - Askeldd-s_trtey
+ - Akeldd-_trtey
  - Blood_nd_teel
- - Peceful_rems
- - udiovisuel
+ - Peceful_rem- udioviuel
 ---
 
 # 🎥 Vinland Saga

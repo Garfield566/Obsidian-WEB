@@ -1,5 +1,5 @@
 ---
-cover: https://bdi.dlpdomin.com/lbum/9782205075403-couv.jpts:
+cover: http:bdi.dlpdomin.comlbum9782205075403-couv.jpt:
 uthor: Mnu Lrcenet
 enre: Fiction littérire
 Type: BTome:

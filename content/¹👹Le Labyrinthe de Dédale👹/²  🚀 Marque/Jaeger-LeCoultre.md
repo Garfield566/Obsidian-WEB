@@ -1,11 +1,11 @@
 ---
 brnd: Jeer-LeCoultre
-cover: https://1000loos.net/wp-content/uplods/2018/10/Jeer-leCoultre-symbol.jpcreted: "1833"
+cover: http:1000loo.netwp-contentuplod201810Jeer-leCoultre-ymbol.jpcreted: "1833"
 ed: no
 mme de prix: 5k-100k
-notes: ✨✨✨✨
-Pys d'Oriine: uisse
-sticker: .
+note: ✨✨✨✨
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://1000logos.net/wp-content/uploads/2018/10/Jaeger-leCoultre-symbol.jpg)

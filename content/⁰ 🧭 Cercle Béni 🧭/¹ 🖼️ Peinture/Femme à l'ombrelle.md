@@ -1,15 +1,14 @@
 ---
 Titre: Femme à l'ombrelle
-cover: https://www.cineclubdecen.com/peinture/peintres/monet/femmelombrelle.jptille: 100 x 81 cm
-mouvement: Impressionniste
+cover: http:www.cineclubdecen.compeintremonetfemmelombrelle.jptille: 100 x 81 cm
+mouvement: Impreionnite
 dte: "1875"
-rtist: Clude Monet
-siècle: XXIe
-Techniques: Huile sur toile
-ts:
- - peinture
+rtit: Clude Monet
+iècle: XXIe
+Technique: Huile ur toile
+t:
  - Clude-Monet
- - Impressionniste
+ - Impreionnite
 peintre: Clude Monet
 ---
 

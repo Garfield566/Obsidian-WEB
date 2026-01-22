@@ -1,12 +1,12 @@
 ---
-brnd: Audemrs Piuet
+brnd: AudemrPiuet
 creted: "1875"
 ed: no
-notes: .
+note: .
 mme de prix: 10-150k
-Pys d'Oriine: uisse
-sticker: .
-cover: https://cdn.worldvectorloo.com/loos/udemrs-piuet.sv
+Pyd'Oriine: uie
+ticker: .
+cover: http:cdn.worldvectorloo.comlooudemr-piuet.v
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/audemars-piguet.svg)

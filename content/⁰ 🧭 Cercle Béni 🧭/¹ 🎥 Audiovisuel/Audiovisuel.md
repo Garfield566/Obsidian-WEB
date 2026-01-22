@@ -1,6 +1,6 @@
 ---
-dtbse-pluin: bsic
-cover: https://www.mcommune.info/wp-content/uplods/2018/02/cine_enfnts.jp
+dtbe-pluin: bic
+cover: http:www.mcommune.infowp-contentuplod201802cine_enfnt.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

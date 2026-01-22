@@ -1,0 +1,179 @@
+{
+  "_description": "Entités politiques historiques (empires, royaumes, républiques)",
+  "empires": {
+    "empire-romain": {
+      "names": ["empire romain", "rome", "romain"],
+      "era": {"start": "-27", "end": "476"},
+      "tag": "entité\\empire-romain",
+      "type": "empire"
+    },
+    "empire-byzantin": {
+      "names": ["empire byzantin", "byzance", "byzantin"],
+      "era": {"start": "395", "end": "1453"},
+      "tag": "entité\\empire-byzantin",
+      "type": "empire"
+    },
+    "empire-ottoman": {
+      "names": ["empire ottoman", "ottoman", "turcs ottomans"],
+      "era": {"start": "1299", "end": "1922"},
+      "tag": "entité\\empire-ottoman",
+      "type": "empire"
+    },
+    "empire-perse": {
+      "names": ["empire perse", "perse", "achéménides", "sassanides"],
+      "era": {"start": "-550", "end": "651"},
+      "tag": "entité\\empire-perse",
+      "type": "empire"
+    },
+    "empire-mongol": {
+      "names": ["empire mongol", "mongols"],
+      "era": {"start": "1206", "end": "1368"},
+      "tag": "entité\\empire-mongol",
+      "type": "empire"
+    },
+    "empire-britannique": {
+      "names": ["empire britannique", "britannique"],
+      "era": {"start": "1583", "end": "1997"},
+      "tag": "entité\\empire-britannique",
+      "type": "empire"
+    },
+    "empire-français": {
+      "names": ["empire français", "premier empire", "second empire"],
+      "era": {"start": "1804", "end": "1870"},
+      "tag": "entité\\empire-français",
+      "type": "empire"
+    },
+    "empire-allemand": {
+      "names": ["empire allemand", "reich", "deuxième reich"],
+      "era": {"start": "1871", "end": "1918"},
+      "tag": "entité\\empire-allemand",
+      "type": "empire"
+    },
+    "empire-russe": {
+      "names": ["empire russe", "russie impériale"],
+      "era": {"start": "1721", "end": "1917"},
+      "tag": "entité\\empire-russe",
+      "type": "empire"
+    },
+    "empire-austro-hongrois": {
+      "names": ["empire austro-hongrois", "autriche-hongrie", "habsbourg"],
+      "era": {"start": "1867", "end": "1918"},
+      "tag": "entité\\empire-austro-hongrois",
+      "type": "empire"
+    },
+    "saint-empire": {
+      "names": ["saint-empire", "saint empire romain germanique", "premier reich"],
+      "era": {"start": "962", "end": "1806"},
+      "tag": "entité\\saint-empire",
+      "type": "empire"
+    },
+    "empire-chinois": {
+      "names": ["empire chinois", "chine impériale", "empire du milieu"],
+      "era": {"start": "-221", "end": "1912"},
+      "tag": "entité\\empire-chinois",
+      "type": "empire"
+    },
+    "empire-japonais": {
+      "names": ["empire japonais", "japon impérial"],
+      "era": {"start": "1868", "end": "1947"},
+      "tag": "entité\\empire-japonais",
+      "type": "empire"
+    }
+  },
+  "kingdoms": {
+    "royaume-de-france": {
+      "names": ["royaume de france", "france royale"],
+      "era": {"start": "843", "end": "1792"},
+      "tag": "entité\\royaume-de-france",
+      "type": "royaume"
+    },
+    "royaume-d-angleterre": {
+      "names": ["royaume d'angleterre", "angleterre royale"],
+      "era": {"start": "927", "end": "1707"},
+      "tag": "entité\\royaume-d-angleterre",
+      "type": "royaume"
+    },
+    "royaume-de-prusse": {
+      "names": ["royaume de prusse", "prusse"],
+      "era": {"start": "1701", "end": "1918"},
+      "tag": "entité\\royaume-de-prusse",
+      "type": "royaume"
+    },
+    "royaume-de-naples": {
+      "names": ["royaume de naples", "naples"],
+      "era": {"start": "1282", "end": "1816"},
+      "tag": "entité\\royaume-de-naples",
+      "type": "royaume"
+    },
+    "royaume-de-sicile": {
+      "names": ["royaume de sicile", "sicile"],
+      "era": {"start": "1130", "end": "1816"},
+      "tag": "entité\\royaume-de-sicile",
+      "type": "royaume"
+    },
+    "royaume-de-pologne": {
+      "names": ["royaume de pologne", "pologne royale"],
+      "era": {"start": "1025", "end": "1795"},
+      "tag": "entité\\royaume-de-pologne",
+      "type": "royaume"
+    }
+  },
+  "republics": {
+    "urss": {
+      "names": ["urss", "union soviétique", "soviétique"],
+      "era": {"start": "1922", "end": "1991"},
+      "tag": "entité\\urss",
+      "type": "république"
+    },
+    "états-unis": {
+      "names": ["états-unis", "usa", "amérique"],
+      "era": {"start": "1776", "end": null},
+      "tag": "entité\\états-unis",
+      "type": "république"
+    },
+    "république-de-weimar": {
+      "names": ["république de weimar", "weimar"],
+      "era": {"start": "1918", "end": "1933"},
+      "tag": "entité\\république-de-weimar",
+      "type": "république"
+    },
+    "troisième-reich": {
+      "names": ["troisième reich", "allemagne nazie", "reich nazi"],
+      "era": {"start": "1933", "end": "1945"},
+      "tag": "entité\\troisième-reich",
+      "type": "république"
+    },
+    "république-française": {
+      "names": ["république française"],
+      "era": {"start": "1792", "end": null},
+      "tag": "entité\\république-française",
+      "type": "république"
+    }
+  },
+  "ancient_states": {
+    "athènes": {
+      "names": ["athènes antique", "athènes", "athénien"],
+      "era": {"start": "-508", "end": "-322"},
+      "tag": "entité\\athènes-antique",
+      "type": "cité-état"
+    },
+    "sparte": {
+      "names": ["sparte", "spartiate", "lacédémone"],
+      "era": {"start": "-900", "end": "-192"},
+      "tag": "entité\\sparte",
+      "type": "cité-état"
+    },
+    "carthage": {
+      "names": ["carthage", "carthaginois", "punique"],
+      "era": {"start": "-814", "end": "-146"},
+      "tag": "entité\\carthage",
+      "type": "cité-état"
+    },
+    "république-romaine": {
+      "names": ["république romaine", "rome républicaine"],
+      "era": {"start": "-509", "end": "-27"},
+      "tag": "entité\\république-romaine",
+      "type": "république"
+    }
+  }
+}

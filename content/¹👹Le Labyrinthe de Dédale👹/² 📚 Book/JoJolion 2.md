@@ -1,8 +1,8 @@
 ---
-cover: https://m.medi-mzon.com/imes/I/91prOnCJLL._UF1000,1000_QL80_.jpts:
+cover: http:m.medi-mzon.comimeI91prOnCJLL._UF1000,1000_QL80_.jpt:
 uthor: Hirohiko Arki
-enre: Fntstique
+enre: Fnttique
 Type: MnTome: II
-lu: yes
+lu: ye
 ---
 

@@ -1,14 +1,14 @@
 ---
-rtist: "1"
-cover: "![[Psted ime 20250502090135.pn]]"
-dtbse-pluin: "1"
+rtit: "1"
+cover: "![[Pted ime 20250502090135.pn]]"
+dtbe-pluin: "1"
 dte: "1"
 mouvement: "1"
 peintre: "1"
-siècle: "1"
-sticker: "1"
+iècle: "1"
+ticker: "1"
 tille: "1"
-Techniques: "1"
+Technique: "1"
 Titre: "1"
 ---
 ![[Pasted image 20250502090135.png]]

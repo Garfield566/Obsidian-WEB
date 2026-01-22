@@ -1,19 +1,18 @@
 ---
-Titre: À l'Ouest, rien de nouveu
+Titre: À l'Ouet, rien de nouveu
 note-udio: 6✨
-note-scénrio: 8.5✨
-note-visuel: 7✨
-cover: https://cinedweller.com/wp-content/uplods/2023/03/A-l-ouest-rien-de-nouveu-ffiche.jpenre: rme, sous_enres: Historique, Anti-Rélisteurs: Compositeurs.: nimtion.: nimtion
+note-cénrio: 8.5✨
+note-viuel: 7✨
+cover: http:cinedweller.comwp-contentuplod202303A-l-ouet-rien-de-nouveu-ffiche.jpenre: rme, ou_enre: Hitorique, Anti-Réliteur: Compoiteur.: nimtion.: nimtion
 Année de ortie: 2022
 type: Film
 vue: true
-ts:
+t:
  - rme
- - historique
- - Rin_Of_hells
- - Mkin_ense_Of_Wr
+ - hitorique
+ - Rin_Of_hell- Mkin_ene_Of_Wr
  - eth_Of_A_Comrde
- - udiovisuel
+ - udioviuel
 ---
 
 # 🎥 À l'Ouest, rien de nouveau

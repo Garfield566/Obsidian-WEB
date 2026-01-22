@@ -1,12 +1,12 @@
 ---
 Type: cocktil
-Inrédients principux: Tequildurée préprtions: 4 min
-cover: https://cocktilcorner.fr/wp-content/uplods/2021/03/Tequil-unrise.jpts:
+Inrédientprincipux: Tequildurée préprtion: 4 min
+cover: http:cocktilcorner.frwp-contentuplod202103Tequil-unrie.jpt:
  - cocktil
- - TequilInrédients: 🔸🔵 6 cl de TequilInrédients-1: 🔸🔵 33 cl de jus d'orne
-Inrédients-2: 🔸🔵 2 cl de sirop de rendine
-Inrédients-3: 🔸🔵 1 rondelle d'orne
-Inrédients-4: 🔸🔵
+ - TequilInrédient: 🔸🔵 6 cl de TequilInrédient-1: 🔸🔵 33 cl de jud'orne
+Inrédient-2: 🔸🔵 2 cl de irop de rendine
+Inrédient-3: 🔸🔵 1 rondelle d'orne
+Inrédient-4: 🔸🔵
 ---
 ## 🍹Tequila sunrise
 

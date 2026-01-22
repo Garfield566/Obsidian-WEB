@@ -1,10 +1,10 @@
 ---
 brnd: Blncpin
-Pys d'Oriine: uisse "
-sticker: .
-notes: .
+Pyd'Oriine: uie "
+ticker: .
+note: .
 creted: "1735"
-cover: https://1000loos.net/wp-content/uplods/2018/10/ood-wtch-brnd.jped: no
+cover: http:1000loo.netwp-contentuplod201810ood-wtch-brnd.jped: no
 mme de prix: 2k-200k
 ---
 

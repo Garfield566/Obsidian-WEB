@@ -1,9 +1,9 @@
 ---
 exclrw-pluin: rw
-ts:
+t:
  - "exclrw"
 cour: "philo"
-ime: "https://i.f1.fr/medi/cms/ori/2021/06/26/d67f258dd46b4c1deb05fecb55cfff5295bce5229d63f4562b344edb559b.pn
+ime: "http:i.f1.frmedicmori20210626d67f258dd46b4c1deb05fecb55cfff5295bce5229d63f4562b344edb559b.pn
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

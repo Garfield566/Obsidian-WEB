@@ -1,8 +1,8 @@
 ---
 exclrw-pluin: rw
-ts:
+t:
  - "exclrw"
-ime: "https://knowlede.skem.edu/wp-content/uplods/2024/12/incertitude--economie-uncertinty-croissnce-400x270.pncour: "eco"
+ime: "http:knowlede.kem.eduwp-contentuplod202412incertitude--economie-uncertinty-croince-400x270.pncour: "eco"
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

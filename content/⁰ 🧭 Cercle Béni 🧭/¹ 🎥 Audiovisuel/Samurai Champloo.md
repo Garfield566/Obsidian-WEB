@@ -1,42 +1,42 @@
 ---
 Titre: muri Chmploo
 note-udio: ✨✨✨✨
-note-scénrio: ✨✨
-note-visuel: ✨✨✨
-cover: https://nimelnd.fr/wp-content/uplods/2019/05/muri-Chmploo02.jpenre: nimtion
-sous_enres: Historique, rme, ction, venture
-Rélisteurs: hinichirō Wtnbe (Rélisteur), Kzuto Nkzw(irecteur rtistique)
-Compositeurs.: Ft Jon, Force of Nture
-nimtion.: Mdhouse
+note-cénrio: ✨✨
+note-viuel: ✨✨✨
+cover: http:nimelnd.frwp-contentuplod201905muri-Chmploo02.jpenre: nimtion
+ou_enre: Hitorique, rme, ction, venture
+Réliteur: hinichirō Wtnbe (Réliteur), Kzuto Nkzw(irecteur rtitique)
+Compoiteur.: Ft Jon, Force of Nture
+nimtion.: Mdhoue
 Année de ortie: 2004
-type: série
+type: érie
 vue: true
-ts:
- - historique
+t:
+ - hitorique
  - rme
  - Action
- - Mdhouse
+ - Mdhoue
  - ""
  - "#hiki_no_Ut- ""
  - "#Arurin_nce"
  - "#Nujbe- "#The_pce_Between"
- - "#Cise_trr"
+ - "#Cie_trr"
  - ""
- - "#_Luvsic_Prt_3"
+ - "#_Luvic_Prt_3"
  - "#hin02"
  - ""
- - "#In_Memory_of_the_wordsmn"
+ - "#In_Memory_of_the_wordmn"
  - ""
  - "#torm"
  - ""
  - ""
  - ""
- - "#mpson"
+ - "#mpon"
  - ""
  - ""
- - "#The_World_is_Your- ""
+ - "#The_World_i_Your- ""
  - hinichirō-Wtnbe
- - udiovisuel
+ - udioviuel
 ---
 
 # 🎥 Samurai Champloo

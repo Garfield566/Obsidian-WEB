@@ -1,17 +1,17 @@
 ---
 Titre: ""
 note-udio: "✨✨✨✨✨"
-note-scénrio: "✨✨✨✨"
-note-visuel: "✨✨✨✨"
-cover: "https://www.rte.tv/diitlproductions/wp/wp-content/files//AM_EP01_FR_ARTE_20240110.00_02_13_09.till001.jpenre: ""
-sous_enres: ""
-Rélisteurs: Compositeurs.: ""
+note-cénrio: "✨✨✨✨"
+note-viuel: "✨✨✨✨"
+cover: "http:www.rte.tvdiitlproductionwpwp-contentfileAM_EP01_FR_ARTE_20240110.00_02_13_09.till001.jpenre: ""
+ou_enre: ""
+Réliteur: Compoiteur.: ""
 nimtion.: "ARTE"
 Année de ortie: 2024
 type: nime"
-vue: flse
-ts:
- - udiovisuel"
+vue: fle
+t:
+ - udioviuel"
 
 ---
 
@@ -95,4 +95,4 @@ Cette série s’adresse autant aux enfants qu’aux adultes nostalgiques de cet
 ||_Résonance émotionnelle_ (10 points) :|0/10|
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
- #audiovisuel #série #histoire
+ #audiovisuel érie #histoire

@@ -1,10 +1,10 @@
 ---
-cover: https://www.pnericentrl.com/wp-content/uplods/2015/02/Officine_Pneri_loo.jpbrnd: Pneri
+cover: http:www.pnericentrl.comwp-contentuplod201502Officine_Pneri_loo.jpbrnd: Pneri
 creted: "1860"
 ed: no
-Pys d'Oriine: Itlie
-sticker: .
-notes: .
+Pyd'Oriine: Itlie
+ticker: .
+note: .
 mme de prix: 5k-120k
 ---
 

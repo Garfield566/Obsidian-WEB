@@ -1,13 +1,9 @@
 ---
-title: Titre de lNote sur luteur: Auteur de lnote (vous)
-dte: te de crétion ou de mise à jour de lnote
-sujet: ujet principl de lnote sur lctéorie: Ctéorie ou domine de l(pr exemple, "Apprentisse utomtique", "Tritement du lne nturel", "Vision pr ordinteur", etc.)
-technoloies: Liste des technoloies ou des outils dbordés dns lnote
-références: Références, rticles, livres ou liens pertinents
-problémtique: Question ou problème lié à lméthodoloie: Méthodoloie, pproche ou méthodes utilisées
-résultts: Résultts ou conclusions
-discussions: iscussions, implictions ou nlyses
-notes_supplémentires: Remrques ou informtions supplémentires
+title: Titre de lNote ur luteur: Auteur de lnote (vou)
+dte: te de crétion ou de mie à jour de lnote
+ujet: ujet principl de lnote ur lctéorie: Ctéorie ou domine de l(pr exemple, "Apprentie utomtique", "Tritement du lne nturel", "Viion pr ordinteur", etc.)
+technoloie: Lite detechnoloieou deoutildbordédnlnote
+référence: Référencerticlelivreou lienpertinentproblémtique: Quetion ou problème lié à lméthodoloie: Méthodoloie, pproche ou méthodeutiliéeréultt: Réulttou concluiondicuion: icuionimplictionou nlyenote_upplémentire: Remrqueou informtionupplémentire
 ---
 
 # **Nom IA**

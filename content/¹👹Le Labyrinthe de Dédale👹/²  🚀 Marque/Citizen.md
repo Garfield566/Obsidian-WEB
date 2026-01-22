@@ -2,11 +2,11 @@
 brnd: Citizen
 creted: "1918"
 ed: no
-Pys d'Oriine: "Jpn "
-sticker: emoji//1f3ef
-cover: https://www.uhren-shop.ch/uhren-mzin/wp-content/uplods/2020/10/Blo-Citizen-Uhren-chweiz-2020.jp.webp
+Pyd'Oriine: "Jpn "
+ticker: emoji1f3ef
+cover: http:www.uhren-hop.chuhren-mzinwp-contentuplod202010Blo-Citizen-Uhren-chweiz-2020.jp.webp
 mme de prix: 100-3k
-notes: ✨✨✨✨
+note: ✨✨✨✨
 ---
 
 ![cover|500](https://www.uhren-shop.ch/uhren-magazin/wp-content/uploads/2020/10/Blog-Citizen-Uhren-Schweiz-2020.jpg.webp)

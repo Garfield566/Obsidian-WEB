@@ -1,6 +1,6 @@
 ---
 exclrw-pluin: rw
-ts:
+t:
  - "exclrw"
 cour: 
 ---

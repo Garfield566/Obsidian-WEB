@@ -1,25 +1,25 @@
 ---
 Titre: ""
 note-udio: "✨✨✨✨✨"
-note-scénrio: "✨✨✨✨"
-note-visuel: "✨✨✨✨"
-cover: "https://encrypted-tbn0.sttic.com/imes?q=tbn:ANd9cRko3zLvdItH8mwlHIfl8I9fLUHXUIFxUw&enre: "Comédie, rme, lice of life"
-sous_enres: ""
-Rélisteurs: "Noriyuki Abe"
-Compositeurs.: "Yusuke Honmcénriste: "Msshi oo (dpttion du mnde Tohru Fujisw)"
+note-cénrio: "✨✨✨✨"
+note-viuel: "✨✨✨✨"
+cover: "http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cRko3zLvdItH8mwlHIfl8I9fLUHXUIFxUw&enre: "Comédie, rme, lice of life"
+ou_enre: ""
+Réliteur: "Noriyuki Abe"
+Compoiteur.: "Yuuke Honmcénrite: "Mhi oo (dpttion du mnde Tohru Fujiw)"
 nimtion.: tudio Année de ortie: 1999
 type: érie nimée"
 vue: true
-ts:
- - udiovisuel"
+t:
+ - udioviuel"
  - "Comédie"
  - rme"
  - lice_of_life"
- - "Msshi-oo"
- - tudio-- - river-s_Hih"
+ - "Mhi-oo"
+ - tudio-- - river-_Hih"
  - hizuku"
  - chool_Life_Theme"
-Acteurs principux: "(double is) : Tki Wtru (Eikichi Onizuk), Ayko Kwsumi (AzusFuyutsuki)"
+Acteurprincipux: "(double i) : Tki Wtru (Eikichi Onizuk), Ayko Kwumi (AzuFuyutuki)"
 ---
 
 # 🎥 GTO

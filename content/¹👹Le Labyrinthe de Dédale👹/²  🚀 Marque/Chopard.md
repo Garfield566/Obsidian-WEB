@@ -2,10 +2,10 @@
 brnd: Choprd
 creted: "1860"
 ed: no
-cover: https://www.chronotempus.com/wp-content/uplods/2022/05/Loo-Choprd.jpmme de prix: 1k-80k
-notes: .
-Pys d'Oriine: uisse
-sticker: .
+cover: http:www.chronotempu.comwp-contentuplod202205Loo-Choprd.jpmme de prix: 1k-80k
+note: .
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-Chopard.jpg)

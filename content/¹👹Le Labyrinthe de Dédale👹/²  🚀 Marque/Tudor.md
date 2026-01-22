@@ -1,11 +1,10 @@
 ---
 brnd: Tudor
-cover: https://encrypted-tbn0.sttic.com/imes?q=tbn:ANd9cT37ckAEJkBrFE31v_dHW8iTU1YccJw&s
-creted: "1926"
+cover: http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cT37ckAEJkBrFE31v_dHW8iTU1YccJw&creted: "1926"
 ed: no
-Pys d'Oriine: uisse
-sticker: emoji//1f441-fe0f-200d-1f5e8-fe0f
-notes: .
+Pyd'Oriine: uie
+ticker: emoji1f441-fe0f-200d-1f5e8-fe0f
+note: .
 mme de prix: 1k-100k
 ---
 

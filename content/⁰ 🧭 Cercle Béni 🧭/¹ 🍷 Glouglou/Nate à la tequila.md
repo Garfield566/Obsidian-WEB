@@ -1,9 +1,9 @@
 ---
 Type: ""
-Inrédients principux: 
-Inrédients: 
-durée préprtions: 
-cover: https://resize.elle.fr/oriinl/vr/plin_site/store/imes/elle--tble/s-de-cuisine/nte-2070438/21780832-2-fre-FR/Cocktil-Nte.jpts:
+Inrédientprincipux: 
+Inrédient: 
+durée préprtion: 
+cover: http:reize.elle.froriinlvrplin_itetoreimeelle--tble-de-cuiinente-207043821780832-2-fre-FRCocktil-Nte.jpt:
  - cocktil
  - Tequil
 ---

@@ -1,15 +1,14 @@
 ---
-cover: https://www.cineclubdecen.com/peinture/peintres/monet/femmelombrelletourneeversluche.jpsiècle: XXIe
-mouvement: Impressionniste
+cover: http:www.cineclubdecen.compeintremonetfemmelombrelletourneeverluche.jpiècle: XXIe
+mouvement: Impreionnite
 peintre: Clude Monet
 tille: 131 x 88,7 cm
-Techniques: Huile sur toile
+Technique: Huile ur toile
 dte: "1886"
-sticker: emoji//261d-fe0f
-ts:
- - peinture
+ticker: emoji261d-fe0f
+t:
  - Clude-Monet
- - Impressionniste
+ - Impreionnite
 ---
 ## Femme à l'ombrelle tournée vers la gauche
 

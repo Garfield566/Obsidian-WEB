@@ -1,6 +1,6 @@
 ---
-dtbse-pluin: bsic
-cover: https://www.ecrnlre.com/content/uplods/2020/08/kjounohny8if6v6bhzfebli13w-128-scled.jp
+dtbe-pluin: bic
+cover: http:www.ecrnlre.comcontentuplod202008kjounohny8if6v6bhzfebli13w-128-cled.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

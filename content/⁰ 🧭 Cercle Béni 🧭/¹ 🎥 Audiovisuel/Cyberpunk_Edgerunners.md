@@ -144,4 +144,4 @@ La série explore les thèmes de la perte, de l’ambition, et du prix à payer 
 ||_Résonance émotionnelle_ (10 points) :|0/10|
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
- #série #animé #audiovisuel 
+ érie é #audiovisuel 

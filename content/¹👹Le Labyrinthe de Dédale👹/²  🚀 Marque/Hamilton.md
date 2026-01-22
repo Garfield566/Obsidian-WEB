@@ -1,12 +1,12 @@
 ---
 brnd: Hmilton
 mme de prix: 250-10k
-notes: .
-Pys d'Oriine: uisse
-sticker: .
+note: .
+Pyd'Oriine: uie
+ticker: .
 ed: no
 creted: "1892"
-cover: https://encrypted-tbn0.sttic.com/imes?q=tbn:ANd9cJYzpWJLCT7Zd5XFrxeJiAjHPWACs_6BfQ&s
+cover: http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cJYzpWJLCT7Zd5XFrxeJiAjHPWAC_6BfQ&
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJYzpWaJLCT7Zd5XFrxeaJiAjHPWACs_6BfQ&s)

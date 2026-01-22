@@ -1,24 +1,24 @@
 ---
 Titre: orohedoro
 note-udio: ✨✨✨
-note-scénrio: ✨✨✨
-note-visuel: ✨✨✨✨
-cover: https://occ-0-8407-114.1.nflxso.net/dnm/pi/v6/E8vc_W8CLv7-yMQu8KMEC7Rrr8/AAAAB5lhqmhCcInv3CQAsEJn_pTlcAEOKA-n9slY5klxo0kpT91rjuOXPexMFmUx1CFkA4f4hO0Zx6r5CO1PMnJmVIw4.jp?r=0d0
-enre: Fntsy Action, Comédie sous_enres: Rélisteurs: (uteur du mnoriinl)
-Compositeurs.: K(i)Noe
+note-cénrio: ✨✨✨
+note-viuel: ✨✨✨✨
+cover: http:occ-0-8407-114.1.nflxo.netdnmpiv6E8vc_W8CLv7-yMQu8KMEC7Rrr8AAAAB5lhqmhCcInv3CQAEJn_pTlcAEOKA-n9lY5klxo0kpT91rjuOXPexMFmUx1CFkA4f4hO0Zx6r5CO1PMnJmVIw4.jp?r=0d0
+enre: Fnty Action, Comédie ou_enre: Réliteur: (uteur du mnoriinl)
+Compoiteur.: K(i)Noe
 nimtion.: MAPPA
 Année de ortie: 2020
 type: érie nimée
 vue: true
-ts:
+t:
  - orohedoro
  - Action
  - Comédie
  - Niht_URF
- - Niko-s_y
- - orcerer-s_howdown
- - udiovisuel
-sticker: ""
+ - Niko-_y
+ - orcerer-_howdown
+ - udioviuel
+ticker: ""
 ---
 
 # 🎥 Dorohedoro

@@ -1,7 +1,7 @@
 ---
-cover: https://m.medi-mzon.com/imes/I/81+LVO2lkPL._Y522_.jpts:
-uthor: Hermnn Hesse
-enre: Romn dpprentisse
+cover: http:m.medi-mzon.comimeI81+LVO2lkPL._Y522_.jpt:
+uthor: Hermnn Hee
+enre: Romn dpprentie
 Type: Romn
 Tome:
 lu: no

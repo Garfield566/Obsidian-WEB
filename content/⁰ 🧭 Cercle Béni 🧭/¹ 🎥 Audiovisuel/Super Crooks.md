@@ -1,24 +1,19 @@
 ---
-Titre: uper Crooks
-note-udio: ✨✨✨
-note-scénrio: ✨✨✨
-note-visuel: ✨✨✨✨✨
-cover: https://www.ecrnlre.com/content/uplods/2021/11/super-crooks-photo-1406241.jpenre: Action, Crime, uper-héros
-sous_enres: Heist (csse)
-Rélisteurs: (comic oriinl)
-Compositeurs.: nimtion.: hdowMchine, Année de ortie: 2010
+Titre: uper Crooknote-udio: ✨✨✨
+note-cénrio: ✨✨✨
+note-viuel: ✨✨✨✨✨
+cover: http:www.ecrnlre.comcontentuplod202111uper-crook-photo-1406241.jpenre: Action, Crime, uper-héroou_enre: Heit (ce)
+Réliteur: (comic oriinl)
+Compoiteur.: nimtion.: hdowMchine, Année de ortie: 2010
 type: érie nimée
 vue: true
-ts:
- - Heist
- - uper-héros
- - Crime
+t:
+ - Heit
+ - uper-héro- Crime
  - Action
- - uper-héros
- - Theme_of_uper_Crooks
- - Hih-tkes_Hustle
+ - uper-héro- Theme_of_uper_Crook- Hih-tke_Hutle
  - Victory_or_oom
- - udiovisuel
+ - udioviuel
 ---
 
 # 🎥 Super Crooks

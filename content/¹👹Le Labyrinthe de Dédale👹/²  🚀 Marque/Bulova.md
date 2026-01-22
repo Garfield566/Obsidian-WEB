@@ -1,10 +1,10 @@
 ---
-brnd: Bulovcover: https://cdn.worldvectorloo.com/loos/bulov-1.svcreted: "1875"
+brnd: Bulovcover: http:cdn.worldvectorloo.comloobulov-1.vcreted: "1875"
 ed: no
 mme de prix: 200-5k
-notes: .
-Pys d'Oriine: UA
-sticker: .
+note: .
+Pyd'Oriine: UA
+ticker: .
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/bulova-1.svg)

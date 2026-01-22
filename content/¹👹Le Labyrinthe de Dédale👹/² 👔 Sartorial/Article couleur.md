@@ -1,10 +1,10 @@
 ---
-url: "https://www.permnentstyle.com/2024/01/wht-colour-theory-cn-tech-you-bout-clothin.html"
+url: "http:www.permnenttyle.com202401wht-colour-theory-cn-tech-you-bout-clothin.html"
 title:
 uthor:
-description:
-ts:
- - "clippin- published:
+decription:
+t:
+ - "clippin- publihed:
 creted: 2025-07-07T16:03:32+02:00
 ---
 # 

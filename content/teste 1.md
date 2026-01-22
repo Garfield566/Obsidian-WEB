@@ -1,6 +1,6 @@
 ---
-cssclss: menustble
-bnner: "![[zzzzz ⚙️/ime 1 🖼/ime bnque/Psted ime 20230702214935.pn]]"
+ccl: menutble
+bnner: "![[zzzzz ⚙️ime 1 🖼ime bnquePted ime 20230702214935.pn]]"
 ---
 ```tikz
 \usepackage{pgfplots}

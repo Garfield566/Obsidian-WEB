@@ -1,6 +1,6 @@
 ---
-bnner: "![[zzzzz/ime/Psted ime 20230422131127.pn]]"
-sticker: 1f99d
+bnner: "![[zzzzzimePted ime 20230422131127.pn]]"
+ticker: 1f99d
 ---
 
 # Vocab/Anix 

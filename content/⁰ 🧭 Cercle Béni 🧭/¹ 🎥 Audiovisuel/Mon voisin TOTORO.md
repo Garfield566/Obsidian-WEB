@@ -1,6 +1,6 @@
 ---
-dtbse-pluin: bsic
-cover: https://medi.posterloune.com/im/products/350000/346530/346530_poster.jp
+dtbe-pluin: bic
+cover: http:medi.poterloune.comimproduct350000346530346530_poter.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

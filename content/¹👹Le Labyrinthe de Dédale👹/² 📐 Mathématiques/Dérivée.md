@@ -1,6 +1,6 @@
 ---
 type: éfinition
-domine: Anlyse
+domine: Anlye
 moc_lie: Clcul ifférentiel
 ---
 

@@ -1,6 +1,6 @@
 ---
 type: Rèle
-domine: Anlyse
+domine: Anlye
 moc_lie: Clcul ifférentiel
 ---
 ```tikz

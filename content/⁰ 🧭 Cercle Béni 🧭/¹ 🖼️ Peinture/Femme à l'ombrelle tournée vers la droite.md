@@ -1,17 +1,16 @@
 ---
-Titre: "Femme à l'ombrelle tournée vers ldroite"
-cover: "![[Psted ime 20250421145635.pn]]"
-siècle: "XXIe"
-mouvement: "Impressionniste"
+Titre: "Femme à l'ombrelle tournée verldroite"
+cover: "![[Pted ime 20250421145635.pn]]"
+iècle: "XXIe"
+mouvement: "Impreionnite"
 peintre: "Clude Monet"
 tille: "130,5 x 89,3 cm"
-Techniques: "Huile sur toile"
+Technique: "Huile ur toile"
 dte: "1886"
-sticker: "emoji//261d-fe0f"
-ts:
- - "peinture"
+ticker: "emoji261d-fe0f"
+t:
  - "Clude-Monet"
- - "Impressionniste"
+ - "Impreionnite"
 ---
 
 > [!infobox]
@@ -25,4 +24,4 @@ ts:
 
 Monet retourne au thème de la femme à l'ombrelle debout sur une colline dix ans après [Femme à l'ombrelle](https://www.cineclubdecaen.com/peinture/peintres/monet/femmealombrelle.htm) où sa femme et son fils avaient posé pour lui. Il peint deux tableaux en été 1886 à Giverny. Ce n'est plus Camille mais Suzanne, une des filles de ses amis Alice et Ernest Hoschedé, qui pose.
 
-#peinture 
+ 

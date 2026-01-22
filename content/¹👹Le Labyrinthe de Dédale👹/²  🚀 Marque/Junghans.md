@@ -1,10 +1,9 @@
 ---
-brnd: Junhns
-creted: "1861"
+brnd: Junhncreted: "1861"
 ed: no
-Pys d'Oriine: Allemne
-notes: .
-cover: https://cdn.worldvectorloo.com/loos/junhns.svmme de prix: 30-2k
+Pyd'Oriine: Allemne
+note: .
+cover: http:cdn.worldvectorloo.comloojunhn.vmme de prix: 30-2k
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/junghans.svg)

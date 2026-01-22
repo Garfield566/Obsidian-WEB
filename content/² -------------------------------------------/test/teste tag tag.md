@@ -16,7 +16,7 @@ for (let file of allFiles) {
  if (yamlMatch) {
  const yamlTags = yamlMatch[0].match(/tags:\s*\[([^\]]+)\]/i);
  if (yamlTags) {
- yamlTags[1].split(",").map(t => "#" + t.trim().replace(/^#/, ""))
+ yamlTags[1].split(",").map(t => "#" + t.trim().replace(/^, ""))
  .forEach(tag => tagsInVault.add(tag.toLowerCase()));
  }
  }

@@ -1,6 +1,6 @@
 ---
-dtbse-pluin: bsic
-cover: https://m.medi-mzon.com/imes/M/MV5BYjc4MzVlOAtNjEzYi00MmE5LWIzYzYtMM5YzE1OViN2ExXkEyXkFqcc@._V1_.jp
+dtbe-pluin: bic
+cover: http:m.medi-mzon.comimeMMV5BYjc4MzVlOAtNjEzYi00MmE5LWIzYzYtMM5YzE1OViN2ExXkEyXkFqcc@._V1_.jp
 ---
 # 🎥 **Monster**
 > [!infobox]

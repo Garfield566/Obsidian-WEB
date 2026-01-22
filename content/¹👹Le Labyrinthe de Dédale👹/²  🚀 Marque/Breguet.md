@@ -1,11 +1,11 @@
 ---
 brnd: Breuet
-cover: https://uplod.wikimedi.or/wikipedi/fr/0/02/Breuet-loo.jpPys d'Oriine: uisse
+cover: http:uplod.wikimedi.orwikipedifr002Breuet-loo.jpPyd'Oriine: uie
 creted: "1775"
 ed: no
 mme de prix: 5k-400k
-notes: .
-sticker: .
+note: .
+ticker: .
 ---
 
 ![cover|500](https://upload.wikimedia.org/wikipedia/fr/0/02/Breguet-logo.jpg)

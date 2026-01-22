@@ -19,7 +19,7 @@ for (let file of files) {
  const fm = frontmatterMatch[0];
  const yamlTagMatch = fm.match(/tags:\s*\[([^\]]+)\]/i);
  if (yamlTagMatch) {
- const tagList = yamlTagMatch[1].split(',').map(t => "#" + t.trim().replace(/^#/, ""));
+ const tagList = yamlTagMatch[1].split(',').map(t => "#" + t.trim().replace(/^, ""));
  tagList.forEach(tag => existingTags.add(tag.toLowerCase()));
  }
  }
@@ -29,29 +29,29 @@ for (let file of files) {
 const keywords = {
  "musique": "",
  "art": "",
- "peinture": "#peinture",
+ "peinture": "",
  "dessin": "",
  "architecture": "",
  "audiovisuel": "#audiovisuel",
- "série": "#série",
- "animé": "#animé",
+ "série": "érie",
+ "animé": "é",
  "idée": "ée",
  "histoire": "#histoire",
  "géographie": "éographie",
- "le jeu de go": "#go",
+ "le jeu de go": "",
  "échec": "#échecs",
  "géopolitique": "éopolitique",
  "math": "#Math",
  "philosophie": "#philosophie",
  "recette": "",
- "personnage": "#personnage",
+ "personnage": "",
  "book": "",
  "ia": "",
  "économie": "#économie",
  "finance": "#finance",
  "sociologie": "",
  "anthropologie": "",
- "psychologie": "#psychologie",
+ "psychologie": "",
  "corps": "",
  "boissons": "",
  "vin": "",

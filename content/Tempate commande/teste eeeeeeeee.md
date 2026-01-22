@@ -24,7 +24,7 @@ for (const file of allFiles) {
  if (yaml) {
  (yaml[1].match(/tags:\s*\[([^\]]+)\]/i) || [,""])[1]
  .split(',')
- .map(t => '#' + t.trim().replace(/^#/, ''))
+ .map(t => '#' + t.trim().replace(/^, ''))
  .filter(t => t.length >= MIN_TAG_LENGTH)
  .forEach(tag => {
  if (!existingTags.includes(tag)) existingTags.push(tag);

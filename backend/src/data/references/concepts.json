@@ -1,0 +1,201 @@
+{
+  "_description": "Concepts théoriques avec leurs auteurs associés",
+  "concepts": {
+    "anomie": {
+      "authors": ["durkheim"],
+      "domain": "sociologie",
+      "tag_with_author": "anomie\\durkheim",
+      "tag_solo": "anomie",
+      "keywords": ["désintégration", "norme", "régulation", "suicide"]
+    },
+    "volonté-de-puissance": {
+      "authors": ["nietzsche"],
+      "domain": "philosophie",
+      "tag_with_author": "volonté-de-puissance\\nietzsche",
+      "tag_solo": "volonté-de-puissance",
+      "keywords": ["affirmation", "vie", "surpassement", "création"]
+    },
+    "impératif-catégorique": {
+      "authors": ["kant"],
+      "domain": "philosophie",
+      "tag_with_author": "impératif-catégorique\\kant",
+      "tag_solo": "impératif-catégorique",
+      "keywords": ["devoir", "morale", "loi", "universalisable"]
+    },
+    "dialectique": {
+      "authors": ["hegel", "marx"],
+      "domain": "philosophie",
+      "tag_with_author": "dialectique\\hegel",
+      "tag_solo": "dialectique",
+      "keywords": ["thèse", "antithèse", "synthèse", "contradiction", "aufhebung"]
+    },
+    "idéalisme": {
+      "authors": ["platon", "hegel", "kant"],
+      "domain": "philosophie",
+      "tag_with_author": "idéalisme\\hegel",
+      "tag_solo": "idéalisme",
+      "keywords": ["idée", "esprit", "conscience", "absolu"]
+    },
+    "matérialisme-historique": {
+      "authors": ["marx"],
+      "domain": "philosophie",
+      "tag_with_author": "matérialisme-historique\\marx",
+      "tag_solo": "matérialisme-historique",
+      "keywords": ["production", "classe", "infrastructure", "superstructure"]
+    },
+    "plus-value": {
+      "authors": ["marx"],
+      "domain": "économie",
+      "tag_with_author": "plus-value\\marx",
+      "tag_solo": "plus-value",
+      "keywords": ["exploitation", "travail", "capital", "profit"]
+    },
+    "cogito": {
+      "authors": ["descartes"],
+      "domain": "philosophie",
+      "tag_with_author": "cogito\\descartes",
+      "tag_solo": "cogito",
+      "keywords": ["je pense", "doute", "certitude", "existence"]
+    },
+    "substance": {
+      "authors": ["aristote", "spinoza", "descartes"],
+      "domain": "philosophie",
+      "tag_with_author": "substance\\aristote",
+      "tag_solo": "substance",
+      "keywords": ["être", "essence", "attribut", "mode"]
+    },
+    "dasein": {
+      "authors": ["heidegger"],
+      "domain": "philosophie",
+      "tag_with_author": "dasein\\heidegger",
+      "tag_solo": "dasein",
+      "keywords": ["être-là", "existence", "authenticité", "souci"]
+    },
+    "habitus": {
+      "authors": ["bourdieu"],
+      "domain": "sociologie",
+      "tag_with_author": "habitus\\bourdieu",
+      "tag_solo": "habitus",
+      "keywords": ["disposition", "pratique", "socialisation", "intériorisation"]
+    },
+    "capital-culturel": {
+      "authors": ["bourdieu"],
+      "domain": "sociologie",
+      "tag_with_author": "capital-culturel\\bourdieu",
+      "tag_solo": "capital-culturel",
+      "keywords": ["éducation", "culture", "distinction", "reproduction"]
+    },
+    "capital-social": {
+      "authors": ["bourdieu"],
+      "domain": "sociologie",
+      "tag_with_author": "capital-social\\bourdieu",
+      "tag_solo": "capital-social",
+      "keywords": ["réseau", "relation", "ressource", "mobilisation"]
+    },
+    "fait-social": {
+      "authors": ["durkheim"],
+      "domain": "sociologie",
+      "tag_with_author": "fait-social\\durkheim",
+      "tag_solo": "fait-social",
+      "keywords": ["contrainte", "extériorité", "généralité", "collectif"]
+    },
+    "conscience-collective": {
+      "authors": ["durkheim"],
+      "domain": "sociologie",
+      "tag_with_author": "conscience-collective\\durkheim",
+      "tag_solo": "conscience-collective",
+      "keywords": ["croyance", "sentiment", "solidarité", "société"]
+    },
+    "idéal-type": {
+      "authors": ["weber"],
+      "domain": "sociologie",
+      "tag_with_author": "idéal-type\\weber",
+      "tag_solo": "idéal-type",
+      "keywords": ["modèle", "construction", "méthode", "compréhension"]
+    },
+    "rationalisation": {
+      "authors": ["weber"],
+      "domain": "sociologie",
+      "tag_with_author": "rationalisation\\weber",
+      "tag_solo": "rationalisation",
+      "keywords": ["calcul", "efficacité", "bureaucratie", "désenchantement"]
+    },
+    "inconscient": {
+      "authors": ["freud", "lacan"],
+      "domain": "psychologie",
+      "tag_with_author": "inconscient\\freud",
+      "tag_solo": "inconscient",
+      "keywords": ["refoulement", "pulsion", "rêve", "symptôme"]
+    },
+    "complexe-d-œdipe": {
+      "authors": ["freud"],
+      "domain": "psychologie",
+      "tag_with_author": "complexe-d-œdipe\\freud",
+      "tag_solo": "complexe-d-œdipe",
+      "keywords": ["père", "mère", "désir", "interdit", "castration"]
+    },
+    "archétype": {
+      "authors": ["jung"],
+      "domain": "psychologie",
+      "tag_with_author": "archétype\\jung",
+      "tag_solo": "archétype",
+      "keywords": ["inconscient collectif", "symbole", "image primordiale", "mythe"]
+    },
+    "main-invisible": {
+      "authors": ["smith"],
+      "domain": "économie",
+      "tag_with_author": "main-invisible\\smith",
+      "tag_solo": "main-invisible",
+      "keywords": ["marché", "intérêt", "autorégulation", "libéralisme"]
+    },
+    "division-du-travail": {
+      "authors": ["smith", "durkheim"],
+      "domain": "économie",
+      "tag_with_author": "division-du-travail\\smith",
+      "tag_solo": "division-du-travail",
+      "keywords": ["spécialisation", "productivité", "solidarité", "organique"]
+    },
+    "avantage-comparatif": {
+      "authors": ["ricardo"],
+      "domain": "économie",
+      "tag_with_author": "avantage-comparatif\\ricardo",
+      "tag_solo": "avantage-comparatif",
+      "keywords": ["commerce", "spécialisation", "échange", "international"]
+    },
+    "contrat-social": {
+      "authors": ["rousseau", "hobbes", "locke"],
+      "domain": "philosophie",
+      "tag_with_author": "contrat-social\\rousseau",
+      "tag_solo": "contrat-social",
+      "keywords": ["état", "souveraineté", "volonté générale", "légitimité"]
+    },
+    "état-de-nature": {
+      "authors": ["hobbes", "rousseau", "locke"],
+      "domain": "philosophie",
+      "tag_with_author": "état-de-nature\\hobbes",
+      "tag_solo": "état-de-nature",
+      "keywords": ["origine", "guerre", "liberté", "égalité naturelle"]
+    },
+    "principe-d-incertitude": {
+      "authors": ["heisenberg"],
+      "domain": "physique",
+      "tag_with_author": "principe-d-incertitude\\heisenberg",
+      "tag_solo": "principe-d-incertitude",
+      "keywords": ["position", "vitesse", "mesure", "quantique"]
+    },
+    "relativité": {
+      "authors": ["einstein"],
+      "domain": "physique",
+      "tag_with_author": "relativité\\einstein",
+      "tag_solo": "relativité",
+      "keywords": ["espace-temps", "gravitation", "lumière", "masse-énergie"]
+    },
+    "entropie": {
+      "authors": ["boltzmann", "clausius"],
+      "domain": "physique",
+      "tag_with_author": "entropie\\boltzmann",
+      "tag_solo": "entropie",
+      "keywords": ["désordre", "irréversibilité", "thermodynamique", "flèche du temps"]
+    }
+  }
+}

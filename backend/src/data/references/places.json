@@ -1,0 +1,106 @@
+{
+  "_description": "Base de lieux géographiques avec hiérarchie",
+  "continents": {
+    "europe": {
+      "name": "Europe",
+      "type": "continent",
+      "tag": "geo\\europe"
+    },
+    "asie": {
+      "name": "Asie",
+      "type": "continent",
+      "tag": "geo\\asie"
+    },
+    "afrique": {
+      "name": "Afrique",
+      "type": "continent",
+      "tag": "geo\\afrique"
+    },
+    "amérique": {
+      "name": "Amérique",
+      "type": "continent",
+      "tag": "geo\\amérique"
+    },
+    "océanie": {
+      "name": "Océanie",
+      "type": "continent",
+      "tag": "geo\\océanie"
+    }
+  },
+  "regions": {
+    "méditerranée": {"parent": "europe", "tag": "geo\\europe\\méditerranée"},
+    "balkans": {"parent": "europe", "tag": "geo\\europe\\balkans"},
+    "scandinavie": {"parent": "europe", "tag": "geo\\europe\\scandinavie"},
+    "maghreb": {"parent": "afrique", "tag": "geo\\afrique\\maghreb"},
+    "moyen-orient": {"parent": "asie", "tag": "geo\\asie\\moyen-orient"},
+    "proche-orient": {"parent": "asie", "tag": "geo\\asie\\proche-orient"},
+    "extrême-orient": {"parent": "asie", "tag": "geo\\asie\\extrême-orient"},
+    "asie-centrale": {"parent": "asie", "tag": "geo\\asie\\asie-centrale"},
+    "asie-du-sud-est": {"parent": "asie", "tag": "geo\\asie\\asie-du-sud-est"}
+  },
+  "countries": {
+    "france": {"parent": "europe", "tag": "geo\\europe\\france"},
+    "allemagne": {"parent": "europe", "tag": "geo\\europe\\allemagne"},
+    "italie": {"parent": "europe", "tag": "geo\\europe\\italie"},
+    "espagne": {"parent": "europe", "tag": "geo\\europe\\espagne"},
+    "portugal": {"parent": "europe", "tag": "geo\\europe\\portugal"},
+    "angleterre": {"parent": "europe", "tag": "geo\\europe\\angleterre"},
+    "royaume-uni": {"parent": "europe", "tag": "geo\\europe\\royaume-uni"},
+    "russie": {"parent": "europe", "tag": "geo\\europe\\russie"},
+    "pologne": {"parent": "europe", "tag": "geo\\europe\\pologne"},
+    "autriche": {"parent": "europe", "tag": "geo\\europe\\autriche"},
+    "suisse": {"parent": "europe", "tag": "geo\\europe\\suisse"},
+    "pays-bas": {"parent": "europe", "tag": "geo\\europe\\pays-bas"},
+    "belgique": {"parent": "europe", "tag": "geo\\europe\\belgique"},
+    "grèce": {"parent": "europe", "tag": "geo\\europe\\grèce"},
+    "turquie": {"parent": "asie", "tag": "geo\\asie\\turquie"},
+    "chine": {"parent": "asie", "tag": "geo\\asie\\chine"},
+    "japon": {"parent": "asie", "tag": "geo\\asie\\japon"},
+    "inde": {"parent": "asie", "tag": "geo\\asie\\inde"},
+    "iran": {"parent": "asie", "tag": "geo\\asie\\iran"},
+    "irak": {"parent": "asie", "tag": "geo\\asie\\irak"},
+    "égypte": {"parent": "afrique", "tag": "geo\\afrique\\égypte"},
+    "maroc": {"parent": "afrique", "tag": "geo\\afrique\\maroc"},
+    "algérie": {"parent": "afrique", "tag": "geo\\afrique\\algérie"},
+    "tunisie": {"parent": "afrique", "tag": "geo\\afrique\\tunisie"},
+    "états-unis": {"parent": "amérique", "tag": "geo\\amérique\\états-unis"},
+    "mexique": {"parent": "amérique", "tag": "geo\\amérique\\mexique"},
+    "brésil": {"parent": "amérique", "tag": "geo\\amérique\\brésil"},
+    "argentine": {"parent": "amérique", "tag": "geo\\amérique\\argentine"}
+  },
+  "cities": {
+    "paris": {"parent": "france", "tag": "geo\\europe\\france\\paris"},
+    "lyon": {"parent": "france", "tag": "geo\\europe\\france\\lyon"},
+    "marseille": {"parent": "france", "tag": "geo\\europe\\france\\marseille"},
+    "berlin": {"parent": "allemagne", "tag": "geo\\europe\\allemagne\\berlin"},
+    "munich": {"parent": "allemagne", "tag": "geo\\europe\\allemagne\\munich"},
+    "rome": {"parent": "italie", "tag": "geo\\europe\\italie\\rome"},
+    "florence": {"parent": "italie", "tag": "geo\\europe\\italie\\florence"},
+    "venise": {"parent": "italie", "tag": "geo\\europe\\italie\\venise"},
+    "milan": {"parent": "italie", "tag": "geo\\europe\\italie\\milan"},
+    "naples": {"parent": "italie", "tag": "geo\\europe\\italie\\naples"},
+    "londres": {"parent": "angleterre", "tag": "geo\\europe\\angleterre\\londres"},
+    "madrid": {"parent": "espagne", "tag": "geo\\europe\\espagne\\madrid"},
+    "barcelone": {"parent": "espagne", "tag": "geo\\europe\\espagne\\barcelone"},
+    "vienne": {"parent": "autriche", "tag": "geo\\europe\\autriche\\vienne"},
+    "moscou": {"parent": "russie", "tag": "geo\\europe\\russie\\moscou"},
+    "saint-pétersbourg": {"parent": "russie", "tag": "geo\\europe\\russie\\saint-pétersbourg"},
+    "athènes": {"parent": "grèce", "tag": "geo\\europe\\grèce\\athènes"},
+    "istanbul": {"parent": "turquie", "tag": "geo\\asie\\turquie\\istanbul"},
+    "pékin": {"parent": "chine", "tag": "geo\\asie\\chine\\pékin"},
+    "tokyo": {"parent": "japon", "tag": "geo\\asie\\japon\\tokyo"},
+    "new-york": {"parent": "états-unis", "tag": "geo\\amérique\\états-unis\\new-york"},
+    "jérusalem": {"parent": "proche-orient", "tag": "geo\\asie\\proche-orient\\jérusalem"},
+    "le-caire": {"parent": "égypte", "tag": "geo\\afrique\\égypte\\le-caire"},
+    "alexandrie": {"parent": "égypte", "tag": "geo\\afrique\\égypte\\alexandrie"}
+  },
+  "historical_cities": {
+    "babylone": {"region": "mésopotamie", "tag": "geo\\asie\\mésopotamie\\babylone"},
+    "carthage": {"region": "afrique-du-nord", "tag": "geo\\afrique\\tunisie\\carthage"},
+    "thèbes": {"region": "égypte", "tag": "geo\\afrique\\égypte\\thèbes"},
+    "memphis": {"region": "égypte", "tag": "geo\\afrique\\égypte\\memphis"},
+    "sparte": {"region": "grèce", "tag": "geo\\europe\\grèce\\sparte"},
+    "corinthe": {"region": "grèce", "tag": "geo\\europe\\grèce\\corinthe"},
+    "pompéi": {"region": "italie", "tag": "geo\\europe\\italie\\pompéi"}
+  }
+}

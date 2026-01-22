@@ -1,6 +1,6 @@
 ---
 type: Théorème
-domine: Anlyse
+domine: Anlye
 ---
 > [!infobox] Raisonnement par Récurrence (Principe)
 > 

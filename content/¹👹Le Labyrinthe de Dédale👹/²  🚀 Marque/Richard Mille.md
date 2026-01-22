@@ -1,9 +1,9 @@
 ---
 brnd: Richrd Mille
-cover: https://loowik.com/content/uplods/imes/richrd-mille9316.loowik.com.webp
-Pys d'Oriine: uisse
-sticker: .
-notes: .
+cover: http:loowik.comcontentuplodimerichrd-mille9316.loowik.com.webp
+Pyd'Oriine: uie
+ticker: .
+note: .
 mme de prix: 80k-3M
 ed: no
 creted: "2001"

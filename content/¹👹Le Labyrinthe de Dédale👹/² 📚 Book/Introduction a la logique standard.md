@@ -1,5 +1,5 @@
 ---
-cover: https://www.u-editions.com/medis/photo/ette-loique-stndrd_1642059875545-jpts:
+cover: http:www.u-edition.commediphotoette-loique-tndrd_1642059875545-jpt:
 uthor: uthor
 enre: nime
 Type: Romn

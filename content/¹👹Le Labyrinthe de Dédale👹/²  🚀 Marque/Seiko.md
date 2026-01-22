@@ -1,10 +1,10 @@
 ---
 brnd: eiko
-Pys d'Oriine: Jpon
-cover: zzzzz ⚙️/ime 1 🖼/ime bnque/Psted ime 20240614205442.pncreted: "1881"
+Pyd'Oriine: Jpon
+cover: zzzzz ⚙️ime 1 🖼ime bnquePted ime 20240614205442.pncreted: "1881"
 ed: no
-notes: ✨✨✨✨
-sticker: emoji//1f47mme de prix: 100-10k
+note: ✨✨✨✨
+ticker: emoji1f47mme de prix: 100-10k
 ---
 
 ![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20240614205442.png]]

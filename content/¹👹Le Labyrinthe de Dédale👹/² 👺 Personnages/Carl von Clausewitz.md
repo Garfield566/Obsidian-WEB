@@ -197,6 +197,6 @@ In military academies, schools, and universities worldwide, Clausewitz's *Vom Kr
 
 Some theorists of [management](https://en.wikipedia.org/wiki/Management "Management") look to Clausewitz - just as some look to [Sun Tzu](https://en.wikipedia.org/wiki/Sun_Tzu "Sun Tzu") - to bolster ideas on the concept of [leadership](https://en.wikipedia.org/wiki/Leadership "Leadership").<sup id="cite_ref-56" class="reference"><a href="https://en.wikipedia.org/wiki/"><span class="cite-bracket">[</span>53<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-57" class="reference"><a href="https://en.wikipedia.org/wiki/"><span class="cite-bracket">[</span>54<span class="cite-bracket">]</span></a></sup>
 
- #russian_empire #psychologie #France #polish #philosophie #XIX 
+ #russian_empire  #France #polish #philosophie #XIX 
 ![](https://auth.wikimedia.org/loginwiki/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1)
 

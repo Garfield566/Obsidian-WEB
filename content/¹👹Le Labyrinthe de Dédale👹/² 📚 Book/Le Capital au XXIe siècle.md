@@ -1,6 +1,6 @@
 ---
-cover: https://m.medi-mzon.com/imes/I/518PkbnwYkL._UF1000,1000_QL80_.jpts:
-uthor: Thoms Piketty
+cover: http:m.medi-mzon.comimeI518PkbnwYkL._UF1000,1000_QL80_.jpt:
+uthor: ThomPiketty
 enre: "Économie "
 Type: Romn
 Tome:

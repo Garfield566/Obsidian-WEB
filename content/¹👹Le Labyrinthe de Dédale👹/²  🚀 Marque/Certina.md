@@ -1,10 +1,10 @@
 ---
-brnd: Certincover: https://www.wtchonist.com/sites/defult/files/styles/0x60/public/wtchorpher/306/profile/loo.jpcreted: "1888"
+brnd: Certincover: http:www.wtchonit.comitedefultfiletyle0x60publicwtchorpher306profileloo.jpcreted: "1888"
 ed: no
 mme de prix: 200-5k
-notes: .
-Pys d'Oriine: uisse
-sticker: .
+note: .
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://www.watchonista.com/sites/default/files/styles/0x60/public/watchographer/306/profile/logo.jpg)

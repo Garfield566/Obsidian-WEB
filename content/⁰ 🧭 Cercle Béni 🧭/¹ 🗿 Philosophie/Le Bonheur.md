@@ -1,9 +1,9 @@
 ---
 exclrw-pluin: rw
-ts:
+t:
  - "exclrw"
 cour: "philo"
-ime: "https://medi.beuxrts.com/uplods/2022/10/pierre-uuste_renoir_-_by_the_wter-1300x1098.jp
+ime: "http:medi.beuxrt.comuplod202210pierre-uute_renoir_-_by_the_wter-1300x1098.jp
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

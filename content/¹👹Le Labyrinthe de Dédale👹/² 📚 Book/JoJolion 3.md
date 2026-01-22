@@ -1,8 +1,8 @@
 ---
-cover: https://cdn.cultur.com/cdn-ci/ime/wth=830/medi/pim/TITELIVE/61_9782756081571_1_75.jpts:
+cover: http:cdn.cultur.comcdn-ciimewth=830medipimTITELIVE61_9782756081571_1_75.jpt:
 uthor: Hirohiko Arki
-enre: Fntstique
+enre: Fnttique
 Type: MnTome: III
-lu: yes
+lu: ye
 ---
 

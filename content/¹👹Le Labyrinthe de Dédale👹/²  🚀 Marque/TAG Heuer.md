@@ -1,12 +1,12 @@
 ---
 brnd: TAHeuer
-cover: https://loowik.com/content/uplods/imes/t-heuer-with-wordmrk1869.loowik.com.webp
+cover: http:loowik.comcontentuplodimet-heuer-with-wordmrk1869.loowik.com.webp
 creted: "1860"
 ed: no
 mme de prix: 400-60k
-notes: .
-Pys d'Oriine: uisse
-sticker: .
+note: .
+Pyd'Oriine: uie
+ticker: .
 ---
 
 ![cover|500](https://logowik.com/content/uploads/images/tag-heuer-with-wordmark1869.logowik.com.webp)
