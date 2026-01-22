@@ -377,16 +377,80 @@ class EntityDetectorV2:
     ) -> list[DetectedEntityV2]:
         """Détecte les disciplines académiques avec sous-domaines.
 
-        Filtres appliqués:
-        1. Minimum d'occurrences (3 si pas dans le titre)
-        2. Cohérence avec le domaine principal de la note
-        3. Pas de sous-domaine si la discipline n'est pas le domaine dominant
+        Stratégie:
+        1. Ajoute le domaine principal du contexte comme discipline (confiance haute)
+        2. Ajoute les domaines secondaires significatifs (confiance moyenne)
+        3. Détecte les mentions explicites de disciplines dans le texte
+
+        Cela permet de suggérer "économie" + "philosophie" pour une note
+        sur Adam Smith même si ces mots n'apparaissent pas souvent.
         """
         entities = []
+        detected_disciplines = set()
 
         disciplines = self.db._disciplines.get("disciplines", {})
 
+        # 1. Ajoute le domaine principal comme discipline (si dans la base)
+        if context.primary_domain and context.primary_domain in disciplines:
+            discipline_info = disciplines[context.primary_domain]
+            tag = discipline_info.get("tag", context.primary_domain)
+
+            # Confiance basée sur le score et la dominance
+            base_confidence = 0.75
+            if context.dominance_ratio >= 3.0:
+                base_confidence = 0.85
+            elif context.dominance_ratio >= 2.0:
+                base_confidence = 0.80
+
+            entities.append(DetectedEntityV2(
+                raw_text=context.primary_domain,
+                entity_type=EntityType.DISCIPLINE,
+                suggested_tag=tag,
+                confidence=base_confidence,
+                occurrences=0,  # Basé sur le contexte, pas les occurrences
+                source="context_primary",
+                in_title=False,
+                metadata={"context_score": context.domain_scores.get(context.primary_domain, 0)}
+            ))
+            detected_disciplines.add(context.primary_domain)
+
+        # 2. Ajoute les domaines secondaires significatifs
+        for secondary in context.secondary_domains:
+            if secondary in disciplines and secondary not in detected_disciplines:
+                discipline_info = disciplines[secondary]
+                tag = discipline_info.get("tag", secondary)
+
+                # Score du domaine secondaire
+                secondary_score = context.domain_scores.get(secondary, 0)
+
+                # Confiance réduite pour les domaines secondaires
+                # mais augmentée si le score est significatif
+                base_confidence = 0.60
+                if secondary_score >= 5:
+                    base_confidence = 0.70
+                elif secondary_score >= 3:
+                    base_confidence = 0.65
+
+                entities.append(DetectedEntityV2(
+                    raw_text=secondary,
+                    entity_type=EntityType.DISCIPLINE,
+                    suggested_tag=tag,
+                    confidence=base_confidence,
+                    occurrences=0,
+                    source="context_secondary",
+                    in_title=False,
+                    metadata={"context_score": secondary_score}
+                ))
+                detected_disciplines.add(secondary)
+
+        # 3. Détecte les mentions explicites (méthode originale)
+        # Skip si déjà détecté par le contexte
+
         for discipline_key, discipline_info in disciplines.items():
+            # Skip si déjà ajouté via le contexte
+            if discipline_key in detected_disciplines:
+                continue
+
             # Cherche la discipline et ses alias
             names_to_check = [discipline_key] + discipline_info.get("aliases", [])
 

@@ -44,18 +44,30 @@ class ContextResolver:
     DOMAIN_INDICATORS = {
         "mathématiques": {
             "keywords": [
-                "théorème", "démonstration", "preuve", "équation", "fonction",
-                "intégrale", "dérivée", "limite", "convergence", "série",
-                "ensemble", "groupe", "anneau", "corps", "espace vectoriel",
-                "matrice", "vecteur", "dimension", "topologie", "métrique",
+                # Termes spécifiquement mathématiques
+                "théorème", "démonstration mathématique", "équation", "fonction mathématique",
+                "intégrale", "dérivée", "limite", "convergence", "série numérique",
+                "ensemble", "espace vectoriel", "matrice", "vecteur",
+                "topologie", "métrique", "algèbre",
+                # Termes retirés car trop ambigus:
+                # - "preuve" (juridique aussi)
+                # - "groupe" (social, militaire aussi)
+                # - "anneau" (bijou aussi)
+                # - "corps" (militaire, physique aussi)
+                # - "dimension" (général)
+                # - "série" (TV aussi)
             ],
             "weight": 1.0,
         },
         "physique": {
             "keywords": [
-                "force", "énergie", "masse", "vitesse", "accélération",
-                "onde", "particule", "quantique", "relativité", "champ",
+                # Termes spécifiquement physiques
+                "énergie cinétique", "énergie potentielle", "masse", "vitesse", "accélération",
+                "onde", "particule", "quantique", "relativité", "champ magnétique",
                 "électromagnétique", "thermodynamique", "entropie", "photon",
+                "gravitation", "newton", "einstein",
+                # "force" retiré car trop ambigu (militaire aussi)
+                # "champ" retiré car trop ambigu (agricole, sociologique)
             ],
             "weight": 1.0,
         },
@@ -70,37 +82,49 @@ class ContextResolver:
         },
         "sociologie": {
             "keywords": [
-                "société", "social", "classe", "groupe", "institution",
-                "norme", "déviance", "anomie", "intégration", "solidarité",
-                "habitus", "capital culturel", "champ", "reproduction",
+                # Termes spécifiquement sociologiques
+                "société", "social", "classe sociale", "institution sociale",
+                "norme sociale", "déviance", "anomie", "intégration sociale", "solidarité",
+                "habitus", "capital culturel", "capital social", "reproduction sociale",
+                "stratification", "mobilité sociale",
+                # "groupe" retiré (trop général)
+                # "champ" retiré (trop ambigu - Bourdieu mais aussi agricole/physique)
             ],
             "weight": 1.0,
         },
         "économie": {
             "keywords": [
-                # Termes spécifiquement économiques (pas génériques)
-                "microéconomie", "macroéconomie", "économiste",
+                # Termes techniques économiques
+                "microéconomie", "macroéconomie", "économiste", "économie politique",
                 "pib", "inflation", "déflation", "récession",
                 "monnaie", "banque centrale", "taux d'intérêt",
                 "chômage", "croissance économique", "politique monétaire",
                 "offre et demande", "élasticité", "utilité marginale",
+                # Concepts économiques classiques (Adam Smith, Ricardo, etc.)
+                "division du travail", "valeur-travail", "libre-échange",
+                "mercantilisme", "avantage absolu", "avantage comparatif",
+                "main invisible", "richesse des nations",
+                "capital", "profit", "rente", "salaire",
+                # Termes modérément spécifiques (avec contexte)
+                "marché", "échange", "commerce",
             ],
-            "weight": 0.9,  # Réduit car termes génériques retirés
+            "weight": 0.8,  # Poids réduit car certains termes semi-génériques
         },
         "histoire": {
             "keywords": [
                 # Termes temporels
-                "siècle", "époque", "période", "règne", "dynastie",
-                "antiquité", "moyen-âge", "renaissance", "moderne",
+                "siècle", "époque", "période historique", "règne", "dynastie",
+                "antiquité", "moyen-âge", "renaissance",
                 # Termes politico-militaires
                 "révolution", "guerre", "traité", "empire", "royaume",
-                "bataille", "campagne", "armée", "légion", "régiment",
+                "bataille", "campagne militaire", "armée", "légion", "régiment",
                 "conquête", "invasion", "siège", "victoire", "défaite",
                 # Termes de pouvoir
                 "roi", "empereur", "napoléon", "monarchie", "république",
                 "colonisation", "décolonisation",
+                # "moderne" retiré car trop général
             ],
-            "weight": 1.0,  # Augmenté car maintenant plus discriminant
+            "weight": 1.0,
         },
         "psychologie": {
             "keywords": [
