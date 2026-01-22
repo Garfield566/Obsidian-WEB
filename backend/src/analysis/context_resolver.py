@@ -70,19 +70,29 @@ class ContextResolver:
         },
         "économie": {
             "keywords": [
-                "marché", "prix", "offre", "demande", "capital",
-                "travail", "production", "valeur", "monnaie", "inflation",
-                "croissance", "pib", "commerce", "échange",
+                # Termes spécifiquement économiques (pas génériques)
+                "microéconomie", "macroéconomie", "économiste",
+                "pib", "inflation", "déflation", "récession",
+                "monnaie", "banque centrale", "taux d'intérêt",
+                "chômage", "croissance économique", "politique monétaire",
+                "offre et demande", "élasticité", "utilité marginale",
             ],
-            "weight": 1.0,
+            "weight": 0.9,  # Réduit car termes génériques retirés
         },
         "histoire": {
             "keywords": [
+                # Termes temporels
                 "siècle", "époque", "période", "règne", "dynastie",
-                "révolution", "guerre", "traité", "empire", "royaume",
                 "antiquité", "moyen-âge", "renaissance", "moderne",
+                # Termes politico-militaires
+                "révolution", "guerre", "traité", "empire", "royaume",
+                "bataille", "campagne", "armée", "légion", "régiment",
+                "conquête", "invasion", "siège", "victoire", "défaite",
+                # Termes de pouvoir
+                "roi", "empereur", "napoléon", "monarchie", "république",
+                "colonisation", "décolonisation",
             ],
-            "weight": 0.8,  # Moins discriminant car présent partout
+            "weight": 1.0,  # Augmenté car maintenant plus discriminant
         },
         "psychologie": {
             "keywords": [

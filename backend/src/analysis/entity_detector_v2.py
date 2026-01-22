@@ -375,7 +375,13 @@ class EntityDetectorV2:
     def _detect_disciplines(
         self, text_lower: str, title_lower: str, context: NoteContext
     ) -> list[DetectedEntityV2]:
-        """Détecte les disciplines académiques avec sous-domaines."""
+        """Détecte les disciplines académiques avec sous-domaines.
+
+        Filtres appliqués:
+        1. Minimum d'occurrences (3 si pas dans le titre)
+        2. Cohérence avec le domaine principal de la note
+        3. Pas de sous-domaine si la discipline n'est pas le domaine dominant
+        """
         entities = []
 
         disciplines = self.db._disciplines.get("disciplines", {})
@@ -385,17 +391,43 @@ class EntityDetectorV2:
             names_to_check = [discipline_key] + discipline_info.get("aliases", [])
 
             for name in names_to_check:
-                if name in text_lower:
-                    count = text_lower.count(name)
-                    in_title = name in title_lower
+                # Utilise une regex pour compter les mots entiers uniquement
+                # Évite de matcher "économie" dans "microéconomie" ou "économique"
+                pattern = re.compile(r'\b' + re.escape(name) + r'\b')
+                matches = pattern.findall(text_lower)
+                count = len(matches)
 
-                    # Filtre si pas assez d'occurrences (sauf si dans le titre)
-                    if not in_title and count < 2:
-                        continue
+                if count == 0:
+                    continue
 
-                    classified = self.classifier.classify(discipline_key, text_lower)
+                in_title = bool(pattern.search(title_lower))
 
-                    # Essaie de résoudre avec un sous-domaine
+                # Filtre 1: Minimum d'occurrences plus strict (sauf si dans le titre)
+                if not in_title and count < 3:
+                    continue
+
+                # Filtre 2: Vérifie la cohérence avec le domaine principal
+                # Si le domaine principal est différent et plus fort, rejette
+                if context.primary_domain and context.primary_domain != discipline_key:
+                    # Si la discipline n'est pas dans les domaines secondaires non plus
+                    if discipline_key not in context.secondary_domains:
+                        # Rejette sauf si dans le titre ou très fréquent
+                        if not in_title and count < 5:
+                            continue
+
+                classified = self.classifier.classify(discipline_key, text_lower)
+
+                # Essaie de résoudre avec un sous-domaine SEULEMENT si:
+                # - La discipline est le domaine principal OU
+                # - La discipline est dans le titre OU
+                # - Occurrences >= 5
+                should_resolve_subdomain = (
+                    context.primary_domain == discipline_key or
+                    in_title or
+                    count >= 5
+                )
+
+                if should_resolve_subdomain:
                     resolution = self.context_resolver.resolve_ambiguity(
                         discipline_key, "discipline", context
                     )
@@ -410,21 +442,25 @@ class EntityDetectorV2:
                             metadata={**classified.metadata, "subdomain": resolution["subdomain"]}
                         )
 
-                    confidence = classified.confidence
-                    if in_title:
-                        confidence = min(0.95, confidence + 0.15)
+                confidence = classified.confidence
+                if in_title:
+                    confidence = min(0.95, confidence + 0.15)
 
-                    entities.append(DetectedEntityV2(
-                        raw_text=discipline_key,
-                        entity_type=EntityType.DISCIPLINE,
-                        suggested_tag=classified.tag,
-                        confidence=confidence,
-                        occurrences=count,
-                        source=classified.source,
-                        in_title=in_title,
-                        metadata=classified.metadata
-                    ))
-                    break  # Une seule détection par discipline
+                # Pénalité si pas le domaine principal
+                if context.primary_domain and context.primary_domain != discipline_key:
+                    confidence = confidence * 0.7  # -30% si pas dominant
+
+                entities.append(DetectedEntityV2(
+                    raw_text=discipline_key,
+                    entity_type=EntityType.DISCIPLINE,
+                    suggested_tag=classified.tag,
+                    confidence=confidence,
+                    occurrences=count,
+                    source=classified.source,
+                    in_title=in_title,
+                    metadata=classified.metadata
+                ))
+                break  # Une seule détection par discipline
 
         return entities
 
