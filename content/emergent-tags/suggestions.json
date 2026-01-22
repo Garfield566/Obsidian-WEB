@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-22T22:51:32.259333",
+  "generated_at": "2026-01-22T23:06:31.715290",
   "vault_hash": "6bd13a53",
   "suggestions": {
     "new_tags": [
@@ -32,12 +32,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-22T22:51:32.259375",
+        "first_detected": "2026-01-22T23:06:31.715325",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_005",
+        "id": "lt_ent_007",
         "name": "entité\\empire-romain",
         "confidence": 0.91,
         "notes": [
@@ -62,12 +62,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-22T22:51:32.259380",
+        "first_detected": "2026-01-22T23:06:31.715330",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_004",
+        "id": "lt_ent_006",
         "name": "geo\\europe\\suisse",
         "confidence": 0.85,
         "notes": [
@@ -88,32 +88,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-22T22:51:32.259384",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_007",
-        "name": "économie\\microéconomie",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/David Ricardo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/John Maynard Keynes.md"
-        ],
-        "reasoning": {
-          "summary": "Discipline détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "discipline",
-            "raw_text": "économie",
-            "total_occurrences": 19,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-22T22:51:32.259388",
+        "first_detected": "2026-01-22T23:06:31.715333",
         "source": "reference_db",
         "alternatives": []
       },
@@ -138,7 +113,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-22T22:51:32.259391",
+        "first_detected": "2026-01-22T23:06:31.715335",
         "source": "reference_db",
         "alternatives": []
       },
@@ -164,12 +139,44 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-22T22:51:32.259395",
+        "first_detected": "2026-01-22T23:06:31.715338",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_003",
+        "name": "économie",
+        "confidence": 0.79,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Cartier.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md"
+        ],
+        "reasoning": {
+          "summary": "Discipline détecté(e) dans 32 notes",
+          "details": {
+            "entity_type": "discipline",
+            "raw_text": "économie",
+            "total_occurrences": 0,
+            "notes_count": 32,
+            "in_reference_db": false,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-22T23:06:31.715341",
+        "source": "context_secondary",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_008",
         "name": "I-fin",
         "confidence": 0.79,
         "notes": [
@@ -190,7 +197,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-22T22:51:32.259399",
+        "first_detected": "2026-01-22T23:06:31.715343",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -201,7 +208,7 @@
         ]
       },
       {
-        "id": "lt_ent_003",
+        "id": "lt_ent_004",
         "name": "X-fin",
         "confidence": 0.77,
         "notes": [
@@ -223,8 +230,36 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-22T22:51:32.259405",
+        "first_detected": "2026-01-22T23:06:31.715348",
         "source": "pattern_date",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_005",
+        "name": "mathématiques",
+        "confidence": 0.74,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Tangente.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Cosinus.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Dérivée.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Exponentielle.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/David Ricardo.md"
+        ],
+        "reasoning": {
+          "summary": "Discipline détecté(e) dans 6 notes",
+          "details": {
+            "entity_type": "discipline",
+            "raw_text": "mathématiques",
+            "total_occurrences": 0,
+            "notes_count": 6,
+            "in_reference_db": false,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-22T23:06:31.715352",
+        "source": "context_primary",
         "alternatives": []
       }
     ],
@@ -412,8 +447,8 @@
       ],
       "suggested_tags": [
         "livre",
-        "note-livre",
-        "note-The_Wealth_of_Nations"
+        "note-The_Wealth_of_Nations",
+        "note-livre"
       ]
     },
     {
@@ -438,9 +473,9 @@
         "**monster**"
       ],
       "suggested_tags": [
+        "Crime-Mystery",
         "Kuniaki-Haishima",
-        "Madhouse",
-        "Crime-Mystery"
+        "Madhouse"
       ]
     },
     {
@@ -469,11 +504,11 @@
     "analyzed_notes": 150,
     "total_tags": 72,
     "active_tags": 72,
-    "latent_tags": 8,
+    "latent_tags": 9,
     "health_score": 0.9,
     "feedback_impact": {
       "decisions_integrated": 1000,
-      "acceptance_rate": "43%"
+      "acceptance_rate": "38%"
     }
   }
 }
