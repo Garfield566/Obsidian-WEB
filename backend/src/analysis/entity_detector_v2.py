@@ -335,40 +335,80 @@ class EntityDetectorV2:
     def _detect_political_entities(
         self, text_lower: str, title_lower: str
     ) -> list[DetectedEntityV2]:
-        """Détecte les entités politiques (empires, royaumes, etc.)."""
+        """Détecte les entités politiques (empires, royaumes, etc.).
+
+        Utilise:
+        - Les noms directs de l'entité (ex: "second empire")
+        - Les termes associés (ex: "napoléon iii" -> second-empire-français)
+        """
         entities = []
+        detected_entities = set()  # Évite les doublons
 
         for category in ["empires", "kingdoms", "republics", "ancient_states"]:
             political_entities = self.db._political_entities.get(category, {})
 
             for entity_key, entity_info in political_entities.items():
+                if entity_key in detected_entities:
+                    continue
+
                 # Cherche tous les noms possibles
                 names_to_check = [entity_key] + entity_info.get("names", [])
+                # Ajoute aussi les termes associés (ex: "napoléon iii" pour second empire)
+                related_terms = entity_info.get("related", [])
+
+                # 1. Détection par nom direct
+                direct_match = False
+                direct_count = 0
+                in_title = False
 
                 for name in names_to_check:
                     if name.lower() in text_lower:
-                        count = text_lower.count(name.lower())
-                        in_title = name.lower() in title_lower
+                        direct_match = True
+                        direct_count = max(direct_count, text_lower.count(name.lower()))
+                        if name.lower() in title_lower:
+                            in_title = True
 
-                        classified = self.classifier.classify(entity_key, text_lower)
+                # 2. Détection par termes associés (confiance légèrement réduite)
+                related_match = False
+                related_count = 0
 
-                        confidence = classified.confidence
+                for term in related_terms:
+                    if term.lower() in text_lower:
+                        related_match = True
+                        related_count += text_lower.count(term.lower())
+
+                # Décide si on ajoute l'entité
+                if direct_match or (related_match and related_count >= 2):
+                    classified = self.classifier.classify(entity_key, text_lower)
+
+                    confidence = classified.confidence
+
+                    # Bonus pour match direct
+                    if direct_match:
                         if in_title:
                             confidence = min(0.95, confidence + 0.15)
-                        if count >= 2:
+                        if direct_count >= 2:
                             confidence = min(0.95, confidence + 0.05)
+                    else:
+                        # Match par termes associés: confiance réduite sauf si nombreux
+                        confidence = confidence * 0.85
+                        if related_count >= 3:
+                            confidence = min(0.90, confidence + 0.10)
 
-                        entities.append(DetectedEntityV2(
-                            raw_text=name,
-                            entity_type=EntityType.POLITICAL_ENTITY,
-                            suggested_tag=classified.tag,
-                            confidence=confidence,
-                            occurrences=count,
-                            source="reference_db",
-                            in_title=in_title,
-                            metadata=classified.metadata
-                        ))
-                        break  # Une seule détection par entité
+                    total_count = direct_count + related_count
+                    source = "reference_db" if direct_match else "reference_related"
+
+                    entities.append(DetectedEntityV2(
+                        raw_text=names_to_check[0] if direct_match else related_terms[0],
+                        entity_type=EntityType.POLITICAL_ENTITY,
+                        suggested_tag=classified.tag,
+                        confidence=confidence,
+                        occurrences=total_count,
+                        source=source,
+                        in_title=in_title,
+                        metadata={**classified.metadata, "related_terms_found": related_count > 0}
+                    ))
+                    detected_entities.add(entity_key)
 
         return entities
 

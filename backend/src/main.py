@@ -366,7 +366,7 @@ class TagGeneratorV2:
     """
 
     # Seuils
-    MIN_ENTITY_NOTES = 3  # Nombre min de notes pour une suggestion d'entité
+    MIN_ENTITY_NOTES = 2  # Nombre min de notes pour une suggestion d'entité (réduit de 3 à 2)
     MIN_CONFIDENCE_ENTITY = 0.60
 
     # Noms à exclure des suggestions (faux positifs connus)

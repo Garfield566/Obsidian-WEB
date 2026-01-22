@@ -37,11 +37,19 @@
       "tag": "entité\\empire-britannique",
       "type": "empire"
     },
-    "empire-français": {
-      "names": ["empire français", "premier empire", "second empire"],
-      "era": {"start": "1804", "end": "1870"},
-      "tag": "entité\\empire-français",
-      "type": "empire"
+    "premier-empire": {
+      "names": ["premier empire", "empire napoléonien"],
+      "era": {"start": "1804", "end": "1815"},
+      "tag": "entité\\premier-empire",
+      "type": "empire",
+      "related": ["napoléon", "napoléon ier", "napoléon 1er", "napoléon bonaparte"]
+    },
+    "second-empire-français": {
+      "names": ["second empire", "second empire français"],
+      "era": {"start": "1852", "end": "1870"},
+      "tag": "entité\\second-empire-français",
+      "type": "empire",
+      "related": ["napoléon iii", "napoléon 3", "louis-napoléon", "expédition du mexique"]
     },
     "empire-allemand": {
       "names": ["empire allemand", "reich", "deuxième reich"],
