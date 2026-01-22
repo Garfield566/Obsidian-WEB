@@ -5,11 +5,17 @@ Ce module analyse le contexte d'une note pour:
 2. Trouver les auteurs associés aux concepts
 3. Identifier le domaine principal de la note
 4. Enrichir les tags avec des informations contextuelles
+
+Améliorations V2:
+- Pondération par zone (titre, en-têtes, corps)
+- Détection de contextes bibliographiques (réduit le poids)
+- Ratio de dominance pour valider le domaine principal
+- Comptage par mots entiers uniquement
 """
 
 import re
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional
 from functools import lru_cache
 
@@ -27,6 +33,8 @@ class NoteContext:
     time_period: Optional[str]          # Période temporelle dominante
     keywords: list[str]                 # Mots-clés importants
     confidence: float                   # Confiance dans l'analyse
+    domain_scores: dict = field(default_factory=dict)  # Scores détaillés par domaine
+    dominance_ratio: float = 0.0        # Ratio de dominance du domaine principal
 
 
 class ContextResolver:
@@ -120,6 +128,21 @@ class ContextResolver:
         },
     }
 
+    # Seuils de configuration
+    MIN_DOMINANCE_RATIO = 1.5       # Le domaine principal doit avoir 1.5x le score du second
+    MIN_DOMAIN_SCORE = 2            # Score minimum pour considérer un domaine
+    BIBLIOGRAPHIC_WEIGHT = 0.2      # Poids réduit pour les zones bibliographiques
+    TITLE_WEIGHT = 3.0              # Poids multiplié pour le titre
+    HEADER_WEIGHT = 2.0             # Poids multiplié pour les en-têtes
+    BODY_WEIGHT = 1.0               # Poids normal pour le corps
+
+    # Patterns pour détecter les zones bibliographiques
+    BIBLIOGRAPHIC_PATTERNS = [
+        r'(?:^|\n)\s*(?:source|sources|références|bibliographie|citation)\s*[:\n]',
+        r'(?:^|\n)\s*>\s*\[!(?:note|quote|cite)',  # Callouts Obsidian
+        r'\[\[.*?\]\]',  # Liens wiki (souvent des références)
+    ]
+
     def __init__(self, reference_db: Optional[ReferenceDatabase] = None):
         self.db = reference_db or ReferenceDatabase()
         self._compile_patterns()
@@ -135,8 +158,22 @@ class ContextResolver:
         # Pattern pour les années
         self.year_pattern = re.compile(r'\b(1[0-9]{3}|20[0-2][0-9])\b')
 
+        # Pattern pour les en-têtes markdown
+        self.header_pattern = re.compile(r'^#{1,6}\s+(.+)$', re.MULTILINE)
+
+        # Patterns pour zones bibliographiques
+        self.biblio_patterns = [
+            re.compile(p, re.IGNORECASE | re.MULTILINE)
+            for p in self.BIBLIOGRAPHIC_PATTERNS
+        ]
+
+        # Pattern pour détecter les titres de livres (entre guillemets ou italique)
+        self.book_title_pattern = re.compile(
+            r'[«"\'](.*?)[»"\']|_([^_]+)_|\*([^\*]+)\*'
+        )
+
     def analyze(self, title: str, content: str, existing_tags: list[str] = None) -> NoteContext:
-        """Analyse le contexte d'une note.
+        """Analyse le contexte d'une note avec pondération par zone.
 
         Args:
             title: Titre de la note
@@ -147,34 +184,56 @@ class ContextResolver:
             NoteContext avec les informations analysées
         """
         existing_tags = existing_tags or []
-        full_text = f"{title}\n{content}".lower()
 
-        # 1. Détecte le domaine principal
-        domain_scores = self._score_domains(full_text)
+        # 1. Segmente le texte en zones avec différents poids
+        zones = self._segment_text(title, content)
+
+        # 2. Calcule les scores de domaine avec pondération par zone
+        domain_scores = self._score_domains_weighted(zones)
+
+        # 3. Détermine le domaine principal avec vérification de dominance
         primary_domain = None
         secondary_domains = []
+        dominance_ratio = 0.0
 
         if domain_scores:
             sorted_domains = sorted(domain_scores.items(), key=lambda x: x[1], reverse=True)
-            if sorted_domains[0][1] > 0:
-                primary_domain = sorted_domains[0][0]
-                secondary_domains = [d for d, s in sorted_domains[1:4] if s > 0]
 
-        # 2. Détecte les personnes mentionnées
+            # Vérifie que le score est suffisant
+            if sorted_domains[0][1] >= self.MIN_DOMAIN_SCORE:
+                # Calcule le ratio de dominance
+                if len(sorted_domains) > 1 and sorted_domains[1][1] > 0:
+                    dominance_ratio = sorted_domains[0][1] / sorted_domains[1][1]
+                else:
+                    dominance_ratio = float('inf')  # Domaine unique
+
+                # Accepte le domaine seulement s'il domine suffisamment
+                if dominance_ratio >= self.MIN_DOMINANCE_RATIO:
+                    primary_domain = sorted_domains[0][0]
+                    secondary_domains = [
+                        d for d, s in sorted_domains[1:4]
+                        if s >= self.MIN_DOMAIN_SCORE
+                    ]
+
+        # 4. Analyse complémentaire sur le texte complet
+        full_text = f"{title}\n{content}".lower()
+
+        # 5. Détecte les personnes mentionnées
         mentioned_persons = self._find_mentioned_persons(full_text)
 
-        # 3. Détecte les lieux mentionnés
+        # 6. Détecte les lieux mentionnés
         mentioned_places = self._find_mentioned_places(full_text)
 
-        # 4. Détecte la période temporelle
+        # 7. Détecte la période temporelle
         time_period = self._detect_time_period(full_text)
 
-        # 5. Extrait les mots-clés importants
+        # 8. Extrait les mots-clés importants
         keywords = self._extract_keywords(full_text, primary_domain)
 
-        # 6. Calcule la confiance
+        # 9. Calcule la confiance
         confidence = self._calculate_confidence(
-            primary_domain, domain_scores, mentioned_persons, existing_tags
+            primary_domain, domain_scores, mentioned_persons, existing_tags,
+            dominance_ratio
         )
 
         return NoteContext(
@@ -185,10 +244,77 @@ class ContextResolver:
             time_period=time_period,
             keywords=keywords,
             confidence=confidence,
+            domain_scores=domain_scores,
+            dominance_ratio=dominance_ratio,
         )
 
+    def _segment_text(self, title: str, content: str) -> list[tuple[str, float]]:
+        """Segmente le texte en zones avec leurs poids.
+
+        Returns:
+            Liste de tuples (texte, poids)
+        """
+        zones = []
+
+        # Zone titre (poids fort)
+        zones.append((title.lower(), self.TITLE_WEIGHT))
+
+        # Détecte les zones bibliographiques dans le contenu
+        content_lower = content.lower()
+        biblio_zones = set()
+
+        for pattern in self.biblio_patterns:
+            for match in pattern.finditer(content_lower):
+                # Marque les 500 caractères suivant un marqueur bibliographique
+                start = match.start()
+                end = min(start + 500, len(content_lower))
+                biblio_zones.update(range(start, end))
+
+        # Détecte les titres de livres (zones à poids réduit)
+        for match in self.book_title_pattern.finditer(content_lower):
+            biblio_zones.update(range(match.start(), match.end()))
+
+        # Détecte les en-têtes
+        headers = []
+        for match in self.header_pattern.finditer(content):
+            headers.append(match.group(1).lower())
+
+        # Ajoute les en-têtes avec poids fort (sauf si bibliographiques)
+        for header in headers:
+            is_biblio = any(
+                bib in header for bib in
+                ['source', 'référence', 'bibliographie', 'citation', 'musique', 'image']
+            )
+            weight = self.BIBLIOGRAPHIC_WEIGHT if is_biblio else self.HEADER_WEIGHT
+            zones.append((header, weight))
+
+        # Segmente le corps en morceaux et applique les poids
+        # Divise en paragraphes
+        paragraphs = content_lower.split('\n\n')
+
+        for para in paragraphs:
+            if not para.strip():
+                continue
+
+            # Vérifie si le paragraphe est dans une zone bibliographique
+            # (simplifié: cherche des indicateurs)
+            is_biblio = any(
+                indicator in para for indicator in
+                ['source:', 'sources:', 'référence', 'bibliographie',
+                 '> [!note]', '> [!quote]', '---']
+            )
+
+            weight = self.BIBLIOGRAPHIC_WEIGHT if is_biblio else self.BODY_WEIGHT
+            zones.append((para, weight))
+
+        return zones
+
     def _score_domains(self, text: str) -> dict[str, float]:
-        """Calcule un score pour chaque domaine basé sur les mots-clés."""
+        """Calcule un score pour chaque domaine basé sur les mots-clés.
+
+        Version simple pour compatibilité. Utiliser _score_domains_weighted
+        pour une analyse plus précise.
+        """
         scores = {}
 
         for domain, config in self.DOMAIN_INDICATORS.items():
@@ -199,6 +325,41 @@ class ContextResolver:
             if count > 0:
                 # Score = nombre de mots-clés trouvés * poids
                 scores[domain] = count * weight
+
+        return scores
+
+    def _score_domains_weighted(self, zones: list[tuple[str, float]]) -> dict[str, float]:
+        """Calcule un score pour chaque domaine avec pondération par zone.
+
+        Args:
+            zones: Liste de tuples (texte, poids)
+
+        Returns:
+            Dict {domaine: score_pondéré}
+        """
+        scores = {}
+
+        for domain, config in self.DOMAIN_INDICATORS.items():
+            keywords = config["keywords"]
+            domain_weight = config["weight"]
+            domain_score = 0.0
+
+            for zone_text, zone_weight in zones:
+                zone_matches = 0
+
+                for kw in keywords:
+                    # Utilise une regex pour les mots entiers uniquement
+                    # Évite de matcher "économie" dans "économique"
+                    pattern = re.compile(r'\b' + re.escape(kw) + r'\b')
+                    matches = pattern.findall(zone_text)
+                    zone_matches += len(matches)
+
+                if zone_matches > 0:
+                    # Score = matches * poids_zone * poids_domaine
+                    domain_score += zone_matches * zone_weight * domain_weight
+
+            if domain_score > 0:
+                scores[domain] = domain_score
 
         return scores
 
@@ -285,27 +446,47 @@ class ContextResolver:
         domain_scores: dict,
         mentioned_persons: list[str],
         existing_tags: list[str],
+        dominance_ratio: float = 0.0,
     ) -> float:
-        """Calcule la confiance dans l'analyse du contexte."""
-        confidence = 0.5  # Base
+        """Calcule la confiance dans l'analyse du contexte.
 
-        # Bonus si un domaine clair est identifié
+        Facteurs pris en compte:
+        - Score absolu du domaine principal
+        - Ratio de dominance (clarté de la classification)
+        - Personnes mentionnées
+        - Confirmation par les tags existants
+        """
+        confidence = 0.4  # Base légèrement réduite
+
+        # Bonus si un domaine clair est identifié avec dominance
         if primary_domain and domain_scores:
             top_score = max(domain_scores.values())
-            if top_score >= 5:
-                confidence += 0.2
+
+            # Bonus basé sur le score absolu
+            if top_score >= 10:
+                confidence += 0.20
+            elif top_score >= 5:
+                confidence += 0.15
             elif top_score >= 3:
-                confidence += 0.1
+                confidence += 0.10
+
+            # Bonus basé sur le ratio de dominance
+            if dominance_ratio >= 3.0:
+                confidence += 0.15  # Très clair
+            elif dominance_ratio >= 2.0:
+                confidence += 0.10  # Clair
+            elif dominance_ratio >= 1.5:
+                confidence += 0.05  # Assez clair
 
         # Bonus si des personnes sont mentionnées
         if mentioned_persons:
-            confidence += min(0.15, len(mentioned_persons) * 0.05)
+            confidence += min(0.10, len(mentioned_persons) * 0.03)
 
         # Bonus si des tags existants confirment le domaine
         if existing_tags and primary_domain:
             for tag in existing_tags:
                 if primary_domain.lower() in tag.lower():
-                    confidence += 0.1
+                    confidence += 0.10
                     break
 
         return min(0.95, confidence)
