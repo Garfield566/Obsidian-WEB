@@ -21,6 +21,7 @@ from .analysis.entity_classifier import ReferenceDatabase
 from .clustering.detector_v2 import ClusterDetectorV2
 from .tags import TagHealthAnalyzer, TagGenerator, TagMatcher, FeedbackIntegrator, RedundancyDetector
 from .tags.conventions import TagFamily, classify_tag, suggest_tag_format, get_tag_family_label
+from .tags.emergent_detector import EmergentTagDetector, detect_emergent_tags_in_clusters
 from .database import Repository
 from .output import SuggestionGenerator
 
@@ -417,21 +418,29 @@ class TagGeneratorV2:
     def generate_suggestions(self, max_suggestions: int = 50) -> list[dict]:
         """Génère des suggestions de nouveaux tags.
 
-        Combine suggestions de clusters et d'entités détectées.
+        Combine trois sources de suggestions :
+        1. Clusters sémantiques de notes similaires
+        2. Entités détectées via bases de référence
+        3. Tags émergents détectés par analyse de patterns dans les clusters
         """
         suggestions = []
 
         # Tags rejetés précédemment
         rejected_tags = self.repository.get_rejected_tag_names()
 
-        # 1. Suggestions basées sur les clusters
+        # 1. Suggestions basées sur les clusters (termes centroids)
         cluster_suggestions = self._generate_cluster_suggestions(rejected_tags, max_suggestions)
         suggestions.extend(cluster_suggestions)
 
-        # 2. Suggestions basées sur les entités détectées
+        # 2. Suggestions basées sur les entités détectées (bases de référence)
         if self.notes:
             entity_suggestions = self._generate_entity_suggestions(rejected_tags, max_suggestions)
             suggestions.extend(entity_suggestions)
+
+        # 3. NOUVEAU: Suggestions de tags émergents (patterns dans les clusters)
+        if self.notes and self.clusters:
+            emergent_suggestions = self._generate_emergent_suggestions(rejected_tags, max_suggestions)
+            suggestions.extend(emergent_suggestions)
 
         # Déduplique et trie par confiance
         suggestions = self._deduplicate_suggestions(suggestions)
@@ -604,6 +613,76 @@ class TagGeneratorV2:
                         "notes_count": len(note_paths),
                         "in_reference_db": in_reference_db,
                         "in_title": in_title,
+                    },
+                },
+            })
+
+            if len(suggestions) >= max_suggestions:
+                break
+
+        return suggestions
+
+    def _generate_emergent_suggestions(
+        self, rejected_tags: set, max_suggestions: int
+    ) -> list[dict]:
+        """Génère des suggestions de tags émergents basées sur l'analyse des clusters.
+
+        Cette méthode détecte les concepts récurrents dans les clusters qui ne sont
+        pas encore dans les bases de référence, et propose des tags avec les bonnes
+        conventions.
+        """
+        suggestions = []
+
+        # Crée le dict notes pour le détecteur
+        notes_dict = {n.path: n for n in self.notes}
+
+        # Détecte les tags émergents dans tous les clusters
+        emergent_tags = detect_emergent_tags_in_clusters(
+            self.clusters, notes_dict, self.existing_tags
+        )
+
+        for emergent in emergent_tags:
+            tag = emergent.name
+
+            # Vérifie que le tag n'existe pas et n'a pas été rejeté
+            if tag in self.existing_tags or tag in rejected_tags:
+                continue
+
+            # Vérifie que le tag n'est pas trop générique
+            tag_lower = tag.lower()
+            tag_base = tag_lower.replace("\\", " ").replace("-", " ").strip()
+            if any(excluded in tag_base for excluded in self.EXCLUDED_ENTITY_NAMES):
+                continue
+
+            if "\\" not in tag and tag_lower in self.TOO_GENERIC_WORDS:
+                continue
+
+            # Vérifie similarité avec tags existants
+            is_redundant = False
+            for existing in self.existing_tags:
+                existing_lower = existing.lower()
+                if tag_lower in existing_lower or existing_lower in tag_lower:
+                    is_redundant = True
+                    break
+            if is_redundant:
+                continue
+
+            # Construit la suggestion
+            family_label = get_tag_family_label(emergent.family)
+
+            suggestions.append({
+                "id": f"lt_emg_{len(suggestions):03d}",
+                "name": tag,
+                "confidence": round(emergent.confidence, 2),
+                "notes": emergent.notes[:10],
+                "source": "emergent",
+                "reasoning": {
+                    "summary": emergent.reasoning,
+                    "details": {
+                        "family": emergent.family.value,
+                        "family_label": family_label,
+                        "source_terms": emergent.source_terms,
+                        **emergent.metadata,
                     },
                 },
             })

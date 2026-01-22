@@ -13,6 +13,11 @@ from .conventions import (
     suggest_tag_format,
     get_tag_family_label,
 )
+from .emergent_detector import (
+    EmergentTagDetector,
+    EmergentTagSuggestion,
+    detect_emergent_tags_in_clusters,
+)
 
 __all__ = [
     "TagHealthAnalyzer",
@@ -28,4 +33,8 @@ __all__ = [
     "can_compare_semantically",
     "suggest_tag_format",
     "get_tag_family_label",
+    # Détection émergente
+    "EmergentTagDetector",
+    "EmergentTagSuggestion",
+    "detect_emergent_tags_in_clusters",
 ]
