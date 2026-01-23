@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-23T10:01:41.088035",
+  "generated_at": "2026-01-23T10:05:48.216311",
   "vault_hash": "6caed0b0",
   "suggestions": {
     "new_tags": [
@@ -29,7 +29,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088078",
+        "first_detected": "2026-01-23T10:05:48.216353",
         "source": "emergent"
       },
       {
@@ -60,7 +60,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088083",
+        "first_detected": "2026-01-23T10:05:48.216358",
         "source": "reference_db",
         "alternatives": []
       },
@@ -90,415 +90,70 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088087",
+        "first_detected": "2026-01-23T10:05:48.216362",
         "source": "reference_db",
         "alternatives": []
       },
       {
         "id": "lt_emg_001",
-        "name": "demande",
+        "name": "économie\\prix",
         "confidence": 0.9,
         "notes": [
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'demande' validé: concept générique validé par contexte, concentration thématique (19%), co-occurrence avec 11 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "demande"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (19%)",
-              "co-occurrence avec 11 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.19047619047619047,
-            "cooccurrence": 11,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088090",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_002",
-        "name": "effet",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'effet' validé: concept générique validé par contexte, concentration thématique (24%), co-occurrence avec 10 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "effet"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (24%)",
-              "co-occurrence avec 10 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.23809523809523808,
-            "cooccurrence": 10,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088094",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_003",
-        "name": "marché",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'marché' validé: concept générique validé par contexte, concentration thématique (40%), co-occurrence avec 17 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "marché"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (40%)",
-              "co-occurrence avec 17 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.40476190476190477,
-            "cooccurrence": 17,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088097",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_004",
-        "name": "société",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'société' validé: concept générique validé par contexte, concentration thématique (21%), co-occurrence avec 9 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "société"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (21%)",
-              "co-occurrence avec 9 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.21428571428571427,
-            "cooccurrence": 9,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088100",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_005",
-        "name": "état",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'état' validé: concept générique validé par contexte, concentration thématique (43%), co-occurrence avec 18 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "état"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (43%)",
-              "co-occurrence avec 18 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.42857142857142855,
-            "cooccurrence": 18,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088106",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_006",
-        "name": "nature",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'nature' validé: concept générique validé par contexte, concentration thématique (21%), co-occurrence avec 22 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "nature"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (21%)",
-              "co-occurrence avec 22 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.21428571428571427,
-            "cooccurrence": 22,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088109",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_007",
-        "name": "profit",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'profit' validé: concept générique validé par contexte, concentration thématique (19%), co-occurrence avec 13 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "profit"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (19%)",
-              "co-occurrence avec 13 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.19047619047619047,
-            "cooccurrence": 13,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088112",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_008",
-        "name": "échange",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (6).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md"
         ],
         "reasoning": {
-          "summary": "Terme 'échange' validé: concept générique validé par contexte, concentration thématique (21%), co-occurrence avec 16 entités connues",
+          "summary": "Terme 'prix' validé par scoring contextuel: score 135/30 (score contextuel: 135/30, 10 mots contexte (monnaie, vente, offre...), 1 auteurs (smith), discipline: économie)",
           "details": {
-            "family": "category",
-            "family_label": "Catégorie",
+            "family": "discipline",
+            "family_label": "Discipline",
             "source_terms": [
-              "échange"
+              "prix"
             ],
             "is_valid": true,
             "confidence": 0.9,
             "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (21%)",
-              "co-occurrence avec 16 entités connues"
+              "score contextuel: 135/30",
+              "10 mots contexte (monnaie, vente, offre...)",
+              "1 auteurs (smith)",
+              "discipline: économie"
             ],
             "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.21428571428571427,
-            "cooccurrence": 16,
-            "criteria_met": 2
+            "score_detail": {
+              "total": 135,
+              "seuil": 30,
+              "mots_contexte": 100,
+              "auteurs": 20,
+              "discipline": 15,
+              "mots_found": [
+                "monnaie",
+                "vente",
+                "offre",
+                "échange",
+                "demande",
+                "coût",
+                "valeur",
+                "commerce",
+                "marché",
+                "achat"
+              ],
+              "auteurs_found": [
+                "smith"
+              ]
+            },
+            "suggested_discipline": "économie"
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088115",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_009",
-        "name": "commerce",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'commerce' validé: concept générique validé par contexte, concentration thématique (17%), co-occurrence avec 7 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "commerce"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (17%)",
-              "co-occurrence avec 7 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.16666666666666666,
-            "cooccurrence": 7,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088117",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_010",
-        "name": "monnaie",
-        "confidence": 0.9,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'monnaie' validé: concept générique validé par contexte, concentration thématique (17%), co-occurrence avec 8 entités connues",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "monnaie"
-            ],
-            "is_valid": true,
-            "confidence": 0.9,
-            "reasons": [
-              "concept générique validé par contexte",
-              "concentration thématique (17%)",
-              "co-occurrence avec 8 entités connues"
-            ],
-            "category": "valide_si_contexte",
-            "is_wiki_link": false,
-            "concentration": 0.16666666666666666,
-            "cooccurrence": 8,
-            "criteria_met": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088120",
+        "first_detected": "2026-01-23T10:05:48.216365",
         "source": "emergent"
       },
       {
@@ -523,7 +178,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088122",
+        "first_detected": "2026-01-23T10:05:48.216369",
         "source": "reference_db",
         "alternatives": []
       },
@@ -547,7 +202,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088125",
+        "first_detected": "2026-01-23T10:05:48.216372",
         "source": "reference_db",
         "alternatives": []
       },
@@ -571,7 +226,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088128",
+        "first_detected": "2026-01-23T10:05:48.216376",
         "source": "reference_db",
         "alternatives": []
       },
@@ -595,7 +250,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088131",
+        "first_detected": "2026-01-23T10:05:48.216382",
         "source": "reference_db",
         "alternatives": [
           {
@@ -626,7 +281,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088133",
+        "first_detected": "2026-01-23T10:05:48.216386",
         "source": "reference_db",
         "alternatives": []
       },
@@ -652,7 +307,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088137",
+        "first_detected": "2026-01-23T10:05:48.216389",
         "source": "reference_db",
         "alternatives": []
       },
@@ -676,7 +331,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088139",
+        "first_detected": "2026-01-23T10:05:48.216408",
         "source": "reference_db",
         "alternatives": []
       },
@@ -700,7 +355,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088142",
+        "first_detected": "2026-01-23T10:05:48.216411",
         "source": "reference_db",
         "alternatives": []
       },
@@ -732,7 +387,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088145",
+        "first_detected": "2026-01-23T10:05:48.216414",
         "source": "context_secondary",
         "alternatives": []
       },
@@ -756,7 +411,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088147",
+        "first_detected": "2026-01-23T10:05:48.216417",
         "source": "reference_db",
         "alternatives": []
       },
@@ -782,7 +437,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088150",
+        "first_detected": "2026-01-23T10:05:48.216420",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -812,7 +467,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088153",
+        "first_detected": "2026-01-23T10:05:48.216423",
         "source": "reference_db",
         "alternatives": [
           {
@@ -842,7 +497,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088156",
+        "first_detected": "2026-01-23T10:05:48.216425",
         "source": "reference_db",
         "alternatives": [
           {
@@ -875,7 +530,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088158",
+        "first_detected": "2026-01-23T10:05:48.216428",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -899,7 +554,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088161",
+        "first_detected": "2026-01-23T10:05:48.216431",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -929,7 +584,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088164",
+        "first_detected": "2026-01-23T10:05:48.216434",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -963,7 +618,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088166",
+        "first_detected": "2026-01-23T10:05:48.216437",
         "source": "context_primary",
         "alternatives": []
       },
@@ -987,7 +642,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088169",
+        "first_detected": "2026-01-23T10:05:48.216439",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -1011,9 +666,97 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:01:41.088172",
+        "first_detected": "2026-01-23T10:05:48.216443",
         "source": "pattern_year",
         "alternatives": []
+      },
+      {
+        "id": "lt_emg_002",
+        "name": "physique\\matière",
+        "confidence": 0.72,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'matière' validé par scoring contextuel: score 45/30 (score contextuel: 45/30, 3 mots contexte (masse, particule, état...), discipline: physique)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "matière"
+            ],
+            "is_valid": true,
+            "confidence": 0.725,
+            "reasons": [
+              "score contextuel: 45/30",
+              "3 mots contexte (masse, particule, état...)",
+              "discipline: physique"
+            ],
+            "category": "valide_si_contexte",
+            "score_detail": {
+              "total": 45,
+              "seuil": 30,
+              "mots_contexte": 30,
+              "auteurs": 0,
+              "discipline": 15,
+              "mots_found": [
+                "masse",
+                "particule",
+                "état"
+              ],
+              "auteurs_found": []
+            },
+            "suggested_discipline": "physique"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T10:05:48.216446",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_003",
+        "name": "physique\\mécanique\\force",
+        "confidence": 0.68,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4) 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'force' validé par scoring contextuel: score 35/30 (score contextuel: 35/30, 2 mots contexte (inertie, masse...), discipline: physique\\mécanique)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "force"
+            ],
+            "is_valid": true,
+            "confidence": 0.675,
+            "reasons": [
+              "score contextuel: 35/30",
+              "2 mots contexte (inertie, masse...)",
+              "discipline: physique\\mécanique"
+            ],
+            "category": "valide_si_contexte",
+            "score_detail": {
+              "total": 35,
+              "seuil": 30,
+              "mots_contexte": 20,
+              "auteurs": 0,
+              "discipline": 15,
+              "mots_found": [
+                "inertie",
+                "masse"
+              ],
+              "auteurs_found": []
+            },
+            "suggested_discipline": "physique\\mécanique"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T10:05:48.216448",
+        "source": "emergent"
       }
     ],
     "tag_assignments": [
@@ -1199,9 +942,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "note-livre",
         "note-The_Wealth_of_Nations",
-        "livre"
+        "livre",
+        "note-livre"
       ]
     },
     {
@@ -1226,9 +969,9 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Madhouse",
         "Kuniaki-Haishima",
-        "Crime-Mystery"
+        "Crime-Mystery",
+        "Madhouse"
       ]
     },
     {
@@ -1257,11 +1000,11 @@
     "analyzed_notes": 150,
     "total_tags": 72,
     "active_tags": 72,
-    "latent_tags": 32,
+    "latent_tags": 25,
     "health_score": 0.9,
     "feedback_impact": {
       "decisions_integrated": 1000,
-      "acceptance_rate": "43%"
+      "acceptance_rate": "38%"
     }
   }
 }
