@@ -1,0 +1,244 @@
+{
+  "_description": "Mots ultra-spécifiques qui identifient une sous-discipline sans ambiguïté. Un mot n'apparaît qu'une seule fois.",
+
+  "mathématiques\\analyse": [
+    "intégrale",
+    "dérivée",
+    "primitive",
+    "série-entière",
+    "convergence-uniforme",
+    "suite-de-cauchy",
+    "epsilon-delta",
+    "développement-limité",
+    "théorème-fondamental-analyse"
+  ],
+
+  "mathématiques\\algèbre": [
+    "morphisme",
+    "isomorphisme",
+    "endomorphisme",
+    "automorphisme",
+    "groupe-cyclique",
+    "groupe-abélien",
+    "anneau",
+    "corps-commutatif",
+    "idéal",
+    "quotient",
+    "noyau",
+    "image",
+    "sous-groupe-distingué"
+  ],
+
+  "mathématiques\\géométrie": [
+    "hypoténuse",
+    "médiane",
+    "bissectrice",
+    "cercle-circonscrit",
+    "isocèle",
+    "équilatéral",
+    "parallélogramme",
+    "homothétie"
+  ],
+
+  "mathématiques\\trigonométrie": [
+    "sinus",
+    "cosinus",
+    "tangente",
+    "cotangente",
+    "arcsin",
+    "arccos",
+    "arctan"
+  ],
+
+  "mathématiques\\probabilités": [
+    "espérance",
+    "variance",
+    "écart-type",
+    "loi-normale",
+    "loi-binomiale",
+    "variable-aléatoire"
+  ],
+
+  "mathématiques\\topologie": [
+    "ouvert",
+    "fermé",
+    "compact",
+    "connexe",
+    "homéomorphisme",
+    "espace-métrique",
+    "espace-topologique"
+  ],
+
+  "économie\\microéconomie": [
+    "utilité-marginale",
+    "élasticité-prix",
+    "surplus-consommateur",
+    "courbe-indifférence",
+    "équilibre-partiel"
+  ],
+
+  "économie\\macroéconomie": [
+    "pib",
+    "multiplicateur-keynésien",
+    "propension-à-consommer",
+    "demande-agrégée",
+    "offre-agrégée",
+    "courbe-is-lm"
+  ],
+
+  "économie\\marxisme": [
+    "plus-value",
+    "fétichisme-marchandise",
+    "valeur-d-échange",
+    "valeur-d-usage",
+    "mode-de-production",
+    "rapports-de-production",
+    "forces-productives",
+    "aliénation-travail"
+  ],
+
+  "philosophie\\existentialisme": [
+    "être-pour-soi",
+    "être-en-soi",
+    "mauvaise-foi",
+    "néantisation",
+    "angoisse-existentielle",
+    "projet",
+    "facticité"
+  ],
+
+  "philosophie\\phénoménologie": [
+    "intentionnalité",
+    "noèse",
+    "noème",
+    "époché",
+    "réduction-phénoménologique",
+    "lebenswelt",
+    "monde-vécu"
+  ],
+
+  "philosophie\\kantisme": [
+    "impératif-catégorique",
+    "chose-en-soi",
+    "noumène",
+    "phénomène",
+    "jugement-synthétique-a-priori",
+    "critique-raison-pure",
+    "transcendantal"
+  ],
+
+  "sociologie\\durkheim": [
+    "fait-social",
+    "conscience-collective",
+    "solidarité-mécanique",
+    "solidarité-organique",
+    "anomie",
+    "représentations-collectives"
+  ],
+
+  "sociologie\\bourdieu": [
+    "habitus",
+    "capital-culturel",
+    "capital-symbolique",
+    "champ",
+    "distinction",
+    "reproduction-sociale",
+    "violence-symbolique"
+  ],
+
+  "sociologie\\weber": [
+    "idéal-type",
+    "rationalisation",
+    "désenchantement-monde",
+    "éthique-protestante",
+    "domination-légale-rationnelle",
+    "domination-traditionnelle",
+    "domination-charismatique"
+  ],
+
+  "physique\\mécanique-quantique": [
+    "fonction-d-onde",
+    "principe-incertitude",
+    "superposition-quantique",
+    "intrication",
+    "décohérence",
+    "opérateur-hamiltonien",
+    "équation-schrödinger"
+  ],
+
+  "physique\\relativité": [
+    "espace-temps",
+    "dilatation-temps",
+    "contraction-longueurs",
+    "invariant-relativiste",
+    "tenseur-énergie-impulsion",
+    "courbure-espace-temps"
+  ],
+
+  "physique\\thermodynamique": [
+    "entropie",
+    "enthalpie",
+    "énergie-libre",
+    "équilibre-thermodynamique",
+    "cycle-carnot",
+    "second-principe"
+  ],
+
+  "biologie\\génétique": [
+    "allèle",
+    "génotype",
+    "phénotype",
+    "dominance",
+    "récessivité",
+    "crossing-over",
+    "méiose"
+  ],
+
+  "biologie\\évolution": [
+    "sélection-naturelle",
+    "dérive-génétique",
+    "spéciation",
+    "fitness",
+    "adaptation",
+    "pression-sélective"
+  ],
+
+  "psychanalyse\\freud": [
+    "complexe-oedipe",
+    "refoulement",
+    "inconscient",
+    "ça",
+    "surmoi",
+    "moi",
+    "pulsion-de-mort",
+    "principe-plaisir",
+    "principe-réalité"
+  ],
+
+  "psychanalyse\\lacan": [
+    "stade-miroir",
+    "nom-du-père",
+    "signifiant",
+    "grand-autre",
+    "objet-petit-a",
+    "réel-symbolique-imaginaire"
+  ],
+
+  "linguistique\\saussure": [
+    "signifiant",
+    "signifié",
+    "arbitraire-du-signe",
+    "langue-parole",
+    "synchronie",
+    "diachronie",
+    "valeur-linguistique"
+  ],
+
+  "linguistique\\chomsky": [
+    "grammaire-générative",
+    "structure-profonde",
+    "structure-surface",
+    "compétence-performance",
+    "grammaire-universelle"
+  ]
+}

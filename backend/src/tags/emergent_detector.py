@@ -184,6 +184,88 @@ class EmergentTagDetector:
             print(f"Warning: Could not load context_words.json: {e}")
             self.VALIDE_SI_CONTEXTE = {}
 
+        # Charge aussi les mots ultra-spécifiques pour la détection de sous-disciplines
+        self._load_specific_words()
+
+    def _load_specific_words(self):
+        """Charge les mots ultra-spécifiques qui identifient une sous-discipline.
+
+        Un mot ultra-spécifique n'appartient qu'à une seule sous-discipline,
+        sa présence suffit à affiner la discipline principale.
+        """
+        self.SPECIFIC_WORDS = {}  # {mot: sous-discipline}
+
+        data_dir = Path(__file__).parent.parent / "data" / "references"
+        specific_file = data_dir / "specific_words.json"
+
+        if not specific_file.exists():
+            return
+
+        try:
+            with open(specific_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            for subdiscipline, words in data.items():
+                # Ignore les clés commençant par _ (métadonnées)
+                if subdiscipline.startswith("_"):
+                    continue
+
+                # Normalise la sous-discipline (remplace \\\\ par \\)
+                subdiscipline_norm = subdiscipline.replace("\\\\", "\\")
+
+                for word in words:
+                    word_lower = word.lower()
+                    self.SPECIFIC_WORDS[word_lower] = subdiscipline_norm
+
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Warning: Could not load specific_words.json: {e}")
+            self.SPECIFIC_WORDS = {}
+
+    def _detect_subdiscipline(self, text: str, base_discipline: str = None) -> str | None:
+        """Détecte une sous-discipline à partir de mots ultra-spécifiques.
+
+        Args:
+            text: Le texte à analyser (combinaison des notes)
+            base_discipline: La discipline principale détectée (optionnel)
+
+        Returns:
+            La sous-discipline détectée ou None si aucun mot spécifique trouvé
+        """
+        if not self.SPECIFIC_WORDS:
+            return None
+
+        text_lower = text.lower()
+
+        # Compte les mots spécifiques trouvés par sous-discipline
+        subdiscipline_counts = Counter()
+
+        for word, subdiscipline in self.SPECIFIC_WORDS.items():
+            # Vérifie si le mot est présent dans le texte
+            # Utilise une recherche de mot entier pour éviter les faux positifs
+            pattern = rf'\b{re.escape(word)}\b'
+            if re.search(pattern, text_lower):
+                subdiscipline_counts[subdiscipline] += 1
+
+        if not subdiscipline_counts:
+            return None
+
+        # Prend la sous-discipline avec le plus de mots trouvés
+        best_subdiscipline, count = subdiscipline_counts.most_common(1)[0]
+
+        # Si une discipline de base est fournie, vérifie la cohérence
+        if base_discipline:
+            base_main = base_discipline.split("\\")[0].lower()
+            best_main = best_subdiscipline.split("\\")[0].lower()
+            if base_main != best_main:
+                # Incohérence : la sous-discipline ne correspond pas à la discipline principale
+                # Cherche une sous-discipline compatible
+                for subdiscipline, _ in subdiscipline_counts.most_common():
+                    if subdiscipline.split("\\")[0].lower() == base_main:
+                        return subdiscipline
+                return None
+
+        return best_subdiscipline
+
     def detect_emergent_tags(
         self,
         cluster_notes: list,
@@ -444,6 +526,15 @@ class EmergentTagDetector:
         else:
             confidence = 0.0
 
+        # Affinage de la sous-discipline via mots ultra-spécifiques
+        final_discipline = discipline
+        detected_subdiscipline = None
+        if is_valid and discipline:
+            detected_subdiscipline = self._detect_subdiscipline(combined_text, discipline)
+            if detected_subdiscipline:
+                final_discipline = detected_subdiscipline
+                reasons.append(f"sous-discipline affinée: {detected_subdiscipline}")
+
         return {
             "is_valid": is_valid,
             "confidence": confidence,
@@ -457,8 +548,9 @@ class EmergentTagDetector:
                 "discipline": score_discipline,
                 "mots_found": mots_found,
                 "auteurs_found": auteurs_found,
+                "detected_subdiscipline": detected_subdiscipline,
             },
-            "suggested_discipline": discipline if is_valid else None,
+            "suggested_discipline": final_discipline if is_valid else None,
         }
 
     def _validate_unknown_term(
