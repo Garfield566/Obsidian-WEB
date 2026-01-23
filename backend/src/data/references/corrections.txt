@@ -1,0 +1,54 @@
+# ============================================================================
+# CORRECTIONS DE VOCABULAIRE
+# ============================================================================
+# Ce fichier s'enrichit au fil des erreurs corrigées.
+# Chaque ligne = une correction. Le système apprend de vos retours.
+#
+# SYNTAXE :
+#
+# 1. AJOUT DE VOCABULAIRE (mot manquant pour une discipline)
+#    +vocab: MOT -> DISCIPLINE
+#    Exemple: +vocab: matrice -> mathématiques
+#
+# 2. MOT ULTRA-SPÉCIFIQUE (pointe toujours vers une sous-discipline)
+#    +spécifique: MOT -> SOUS-DISCIPLINE
+#    Exemple: +spécifique: déterminant -> mathématiques\algèbre
+#
+# 3. EXCLUSION CONTEXTUELLE (mot à ignorer si contexte présent)
+#    -exclusion: MOT | CONTEXTE1, CONTEXTE2, ...
+#    Exemple: -exclusion: limite | vitesse, automobile, route
+#
+# 4. MOT À TOUJOURS IGNORER (ajout aux stop words)
+#    -stop: MOT
+#    Exemple: -stop: procurer
+#
+# 5. MOT TOUJOURS VALIDE (ajout à la whitelist)
+#    +valide: MOT
+#    Exemple: +valide: heidegger
+#
+# Les lignes vides et les lignes commençant par # sont ignorées.
+# ============================================================================
+
+# === EXEMPLES DE CORRECTIONS (à supprimer ou adapter) ===
+
+# Mots qui manquaient pour détecter une discipline
+# +vocab: matrice -> mathématiques
+# +vocab: entropie -> physique
+
+# Mots ultra-spécifiques
+# +spécifique: déterminant -> mathématiques\algèbre
+# +spécifique: hamiltonien -> physique\mécanique-quantique
+
+# Exclusions contextuelles (faux positifs récurrents)
+# -exclusion: limite | vitesse, automobile, route, frontière
+# -exclusion: fonction | excel, logiciel, ordinateur, bouton
+# -exclusion: capital | capitale, ville, urbain
+
+# Mots à toujours ignorer
+# -stop: procurer
+# -stop: beaucoup
+
+# Mots toujours valides (noms propres oubliés, etc.)
+# +valide: heidegger
+# +valide: merleau-ponty
+

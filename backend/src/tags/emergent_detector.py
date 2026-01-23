@@ -148,6 +148,101 @@ class EmergentTagDetector:
         # Charge les mots "valise" avec leur contexte depuis context_words.json
         self._load_context_words()
 
+        # Charge les corrections utilisateur (enrichissement progressif)
+        self._load_user_corrections()
+
+    def _load_user_corrections(self):
+        """Charge les corrections utilisateur depuis corrections.txt.
+
+        Ce fichier s'enrichit progressivement avec les retours utilisateur.
+        Types de corrections supportés :
+        - +vocab: MOT -> DISCIPLINE (ajout vocabulaire)
+        - +spécifique: MOT -> SOUS-DISCIPLINE (mot ultra-spécifique)
+        - -exclusion: MOT | CONTEXTE1, CONTEXTE2 (exclusion contextuelle)
+        - -stop: MOT (ajout aux stop words)
+        - +valide: MOT (ajout à la whitelist)
+        """
+        self.CONTEXTUAL_EXCLUSIONS = {}  # {mot: [contextes à éviter]}
+        self.USER_VOCABULARY = {}  # {mot: discipline}
+
+        data_dir = Path(__file__).parent.parent / "data" / "references"
+        corrections_file = data_dir / "corrections.txt"
+
+        if not corrections_file.exists():
+            return
+
+        try:
+            with open(corrections_file, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+
+                    # Ignore les lignes vides et les commentaires
+                    if not line or line.startswith("#"):
+                        continue
+
+                    # +vocab: MOT -> DISCIPLINE
+                    if line.startswith("+vocab:"):
+                        parts = line[7:].split("->")
+                        if len(parts) == 2:
+                            word = parts[0].strip().lower()
+                            discipline = parts[1].strip().lower()
+                            self.USER_VOCABULARY[word] = discipline
+                            # Ajoute aussi à TOUJOURS_VALIDE si pas déjà présent
+                            if word not in self.STOP_WORDS:
+                                self.TOUJOURS_VALIDE.add(word)
+
+                    # +spécifique: MOT -> SOUS-DISCIPLINE
+                    elif line.startswith("+spécifique:"):
+                        parts = line[12:].split("->")
+                        if len(parts) == 2:
+                            word = parts[0].strip().lower()
+                            subdiscipline = parts[1].strip()
+                            self.SPECIFIC_WORDS[word] = subdiscipline
+
+                    # -exclusion: MOT | CONTEXTE1, CONTEXTE2
+                    elif line.startswith("-exclusion:"):
+                        parts = line[11:].split("|")
+                        if len(parts) == 2:
+                            word = parts[0].strip().lower()
+                            contexts = [c.strip().lower() for c in parts[1].split(",")]
+                            self.CONTEXTUAL_EXCLUSIONS[word] = contexts
+
+                    # -stop: MOT
+                    elif line.startswith("-stop:"):
+                        word = line[6:].strip().lower()
+                        self.STOP_WORDS.add(word)
+                        # Retire de TOUJOURS_VALIDE si présent
+                        self.TOUJOURS_VALIDE.discard(word)
+
+                    # +valide: MOT
+                    elif line.startswith("+valide:"):
+                        word = line[8:].strip().lower()
+                        self.TOUJOURS_VALIDE.add(word)
+                        # Retire des STOP_WORDS si présent
+                        self.STOP_WORDS.discard(word)
+
+        except IOError as e:
+            print(f"Warning: Could not load corrections.txt: {e}")
+
+    def _is_contextually_excluded(self, term: str, text: str) -> bool:
+        """Vérifie si un terme doit être exclu à cause du contexte.
+
+        Retourne True si le terme a une exclusion contextuelle et que
+        le contexte d'exclusion est présent dans le texte.
+        """
+        term_lower = term.lower()
+        if term_lower not in self.CONTEXTUAL_EXCLUSIONS:
+            return False
+
+        text_lower = text.lower()
+        exclusion_contexts = self.CONTEXTUAL_EXCLUSIONS[term_lower]
+
+        for context_word in exclusion_contexts:
+            if context_word in text_lower:
+                return True
+
+        return False
+
     def _load_context_words(self):
         """Charge les mots valise avec leur contexte depuis context_words.json."""
         self.VALIDE_SI_CONTEXTE = {}
@@ -413,6 +508,18 @@ class EmergentTagDetector:
                 "confidence": 0.0,
                 "reasons": ["stop word"],
                 "category": "rejected",
+            }
+
+        # 0.5. EXCLUSION CONTEXTUELLE : vérifie si le contexte invalide le terme
+        combined_text = " ".join(
+            f"{note.title} {note.content}" for note in all_notes
+        )
+        if self._is_contextually_excluded(term_lower, combined_text):
+            return {
+                "is_valid": False,
+                "confidence": 0.0,
+                "reasons": ["exclusion contextuelle (sens courant détecté)"],
+                "category": "excluded_by_context",
             }
 
         # 1. TOUJOURS_VALIDE : accepté immédiatement (noms propres, entités)
