@@ -133,6 +133,16 @@ class EmergentTagDetector:
         # Mots de citation/formatage
         "source", "sources", "citation", "citations", "référence", "références",
         "idées", "idée", "concept", "concepts",
+        # Mots économiques/sociaux trop génériques
+        "récompense", "recompense", "travail", "valeur", "prix", "profit",
+        "salaire", "capital", "richesse", "production", "consommation",
+        "société", "societe", "nation", "nations", "peuple", "peuples",
+        "état", "etat", "gouvernement", "politique", "économie", "economie",
+        "commerce", "échange", "echange", "marché", "marche",
+        "intérêt", "interet", "avantage", "bénéfice", "benefice",
+        "nature", "naturel", "naturelle", "raison", "cause", "effet",
+        "ordre", "système", "systeme", "principe", "principes",
+        "partie", "parties", "classe", "classes", "espèce", "espece",
     }
 
     # Termes indiquant un contexte spécifique
