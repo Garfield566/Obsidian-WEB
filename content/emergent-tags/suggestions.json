@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-23T09:06:10.977423",
+  "generated_at": "2026-01-23T09:42:21.796184",
   "vault_hash": "6caed0b0",
   "suggestions": {
     "new_tags": [
@@ -32,7 +32,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977463",
+        "first_detected": "2026-01-23T09:42:21.796223",
         "source": "reference_db",
         "alternatives": []
       },
@@ -62,7 +62,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977468",
+        "first_detected": "2026-01-23T09:42:21.796228",
         "source": "reference_db",
         "alternatives": []
       },
@@ -88,398 +88,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977471",
+        "first_detected": "2026-01-23T09:42:21.796231",
         "source": "reference_db",
         "alternatives": []
       },
       {
         "id": "lt_emg_000",
-        "name": "Conséquent",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'conséquent' présent dans 7 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "conséquent"
-            ],
-            "frequency": 7,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977475",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_001",
-        "name": "Nécessairement",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'nécessairement' présent dans 7 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "nécessairement"
-            ],
-            "frequency": 7,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977478",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_002",
-        "name": "Proportion",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'proportion' présent dans 14 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "proportion"
-            ],
-            "frequency": 14,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977481",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_003",
-        "name": "Ouvriers",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'ouvriers' présent dans 14 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "ouvriers"
-            ],
-            "frequency": 14,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977484",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_004",
-        "name": "Toujours",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'toujours' présent dans 17 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "toujours"
-            ],
-            "frequency": 17,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977490",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_005",
-        "name": "Nécessaire",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'nécessaire' présent dans 7 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "nécessaire"
-            ],
-            "frequency": 7,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977494",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_006",
-        "name": "Produire",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'produire' présent dans 6 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "produire"
-            ],
-            "frequency": 6,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977497",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_007",
-        "name": "Marchandise",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'marchandise' présent dans 12 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "marchandise"
-            ],
-            "frequency": 12,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977500",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_008",
-        "name": "Différents",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'différents' présent dans 10 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "différents"
-            ],
-            "frequency": 10,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977503",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_009",
-        "name": "Cependant",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'cependant' présent dans 14 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "cependant"
-            ],
-            "frequency": 14,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977506",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_010",
-        "name": "Important",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'important' présent dans 38 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "important"
-            ],
-            "frequency": 38,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977509",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_011",
-        "name": "Intéresse",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'intéresse' présent dans 37 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "intéresse"
-            ],
-            "frequency": 37,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977512",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_012",
         "name": "Chap-Viii",
         "confidence": 0.85,
         "notes": [
@@ -506,665 +120,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977515",
+        "first_detected": "2026-01-23T09:42:21.796234",
         "source": "emergent"
       },
       {
-        "id": "lt_emg_013",
-        "name": "Peu-Près",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'peu près' présent dans 5 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "peu près"
-            ],
-            "frequency": 5,
-            "context": "politique",
-            "word_count": 2
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977518",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_014",
-        "name": "Industrie",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'industrie' présent dans 9 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "industrie"
-            ],
-            "frequency": 9,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977521",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_015",
-        "name": "Peut-Être",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'peut-être' présent dans 11 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "peut-être"
-            ],
-            "frequency": 11,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977523",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_016",
-        "name": "Capitaux",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'capitaux' présent dans 10 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "capitaux"
-            ],
-            "frequency": 10,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977526",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_017",
-        "name": "Est-À-Dire",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'est-à-dire' présent dans 9 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "est-à-dire"
-            ],
-            "frequency": 9,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977529",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_018",
-        "name": "Beaucoup",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'beaucoup' présent dans 14 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "beaucoup"
-            ],
-            "frequency": 14,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977531",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_019",
-        "name": "Procurer",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'procurer' présent dans 9 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "procurer"
-            ],
-            "frequency": 9,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977534",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_020",
-        "name": "Quantité",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'quantité' présent dans 18 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "quantité"
-            ],
-            "frequency": 18,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977537",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_021",
-        "name": "Ordinaire",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'ordinaire' présent dans 8 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "ordinaire"
-            ],
-            "frequency": 8,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977540",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_022",
-        "name": "Différentes",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'différentes' présent dans 13 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "différentes"
-            ],
-            "frequency": 13,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977542",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_023",
-        "name": "Pourrait",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'pourrait' présent dans 8 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "pourrait"
-            ],
-            "frequency": 8,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977545",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_024",
-        "name": "Différence",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'différence' présent dans 8 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "différence"
-            ],
-            "frequency": 8,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977548",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_025",
-        "name": "Au-Dessus",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'au-dessus' présent dans 6 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "au-dessus"
-            ],
-            "frequency": 6,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977551",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_026",
-        "name": "Précisément",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'précisément' présent dans 6 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "précisément"
-            ],
-            "frequency": 6,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977554",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_027",
-        "name": "Division",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'division' présent dans 8 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "division"
-            ],
-            "frequency": 8,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977556",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_028",
-        "name": "Quantités",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'quantités' présent dans 6 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "quantités"
-            ],
-            "frequency": 6,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977559",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_029",
-        "name": "Marchandises",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'marchandises' présent dans 16 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "marchandises"
-            ],
-            "frequency": 16,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977562",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_030",
-        "name": "Pourtant",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'pourtant' présent dans 6 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "pourtant"
-            ],
-            "frequency": 6,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977564",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_031",
-        "name": "Nécessaires",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'nécessaires' présent dans 6 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "nécessaires"
-            ],
-            "frequency": 6,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977567",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_032",
-        "name": "Échanger",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'échanger' présent dans 6 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "échanger"
-            ],
-            "frequency": 6,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977570",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_033",
-        "name": "Au-Dessous",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'au-dessous' présent dans 6 notes du cluster",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "au-dessous"
-            ],
-            "frequency": 6,
-            "context": "politique",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977573",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_034",
+        "id": "lt_emg_001",
         "name": "Chap-Vii",
         "confidence": 0.85,
         "notes": [
@@ -1193,400 +153,1419 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977575",
+        "first_detected": "2026-01-23T09:42:21.796237",
         "source": "emergent"
       },
       {
-        "id": "lt_emg_035",
-        "name": "Importance",
+        "id": "lt_emg_002",
+        "name": "kenzo-tenma",
         "confidence": 0.85,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md"
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
         ],
         "reasoning": {
-          "summary": "Terme 'importance' présent dans 6 notes du cluster",
+          "summary": "Terme 'kenzo tenma' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "kenzo tenma"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796240",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_003",
+        "name": "jeune-neurochirurgien",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'jeune neurochirurgien' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "jeune neurochirurgien"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796243",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_004",
+        "name": "eva-heinman",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'eva heinman' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "eva heinman"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796249",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_005",
+        "name": "préfère-soigner",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'préfère soigner' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "préfère soigner"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796252",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_006",
+        "name": "ont-été",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'ont été' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "ont été"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796255",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_007",
+        "name": "été-assassinés",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'été assassinés' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "été assassinés"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796258",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_008",
+        "name": "assassinés-sauvagement",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'assassinés sauvagement' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "assassinés sauvagement"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796260",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_009",
+        "name": "maire-meurt",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'maire meurt' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "maire meurt"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796263",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_010",
+        "name": "neuf-ans",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'neuf ans' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "neuf ans"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796265",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_011",
+        "name": "été-commis",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'été commis' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "été commis"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796268",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_012",
+        "name": "avait-sauvé",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'avait sauvé' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "avait sauvé"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796270",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_013",
+        "name": "inspecteur-rünge",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'inspecteur rünge' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "inspecteur rünge"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796272",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_014",
+        "name": "confiance-prend",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'confiance prend' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "confiance prend"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796274",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_015",
+        "name": "poursuit-tenma",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'poursuit tenma' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "poursuit tenma"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796277",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_016",
+        "name": "ce-dernier-poursuit",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'ce-dernier poursuit' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "ce-dernier poursuit"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796279",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_017",
+        "name": "poursuit-johann",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'poursuit johann' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "poursuit johann"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796281",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_018",
+        "name": "ancien-patient",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'ancien patient' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "ancien patient"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796283",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_019",
+        "name": "critères-audio",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'critères audio' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "critères audio"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796286",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_020",
+        "name": "bande-sonore",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'bande sonore' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "bande sonore"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796288",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_021",
+        "name": "conception-sonore",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'conception sonore' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "conception sonore"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796290",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_022",
+        "name": "effets-sonores",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'effets sonores' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "effets sonores"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796292",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_023",
+        "name": "ambiance-auditive",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'ambiance auditive' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "ambiance auditive"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796295",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_024",
+        "name": "cohérence-interne",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'cohérence interne' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "cohérence interne"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796297",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_025",
+        "name": "direction-artistique",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'direction artistique' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "direction artistique"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796299",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_026",
+        "name": "designs-innovants",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'designs innovants' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "designs innovants"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796302",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_027",
+        "name": "critères-scénario",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'critères scénario' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "critères scénario"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796304",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_028",
+        "name": "structure-narrative",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'structure narrative' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "structure narrative"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796306",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_029",
+        "name": "spectateur-comprend",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'spectateur comprend' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "spectateur comprend"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796308",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_030",
+        "name": "narratifs-originaux",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'narratifs originaux' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "narratifs originaux"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796311",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_031",
+        "name": "thèmes-abordés",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'thèmes abordés' présent dans 12 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "thèmes abordés"
+            ],
+            "frequency": 12,
+            "context": "philosophie",
+            "word_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796313",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_032",
+        "name": "ont-été-assassinés",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'ont été assassinés' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "ont été assassinés"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 3
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796315",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_033",
+        "name": "été-assassinés-sauvagement",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'été assassinés sauvagement' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "été assassinés sauvagement"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 3
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796318",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_034",
+        "name": "ce-dernier-poursuit-johann",
+        "confidence": 0.85,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'ce-dernier poursuit johann' présent dans 11 notes du cluster",
+          "details": {
+            "family": "concept_author",
+            "family_label": "Concept/Auteur",
+            "source_terms": [
+              "ce-dernier poursuit johann"
+            ],
+            "frequency": 11,
+            "context": "philosophie",
+            "word_count": 3
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796320",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_ent_000",
+        "name": "geo\\asie\\chine",
+        "confidence": 0.84,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
+        ],
+        "reasoning": {
+          "summary": "Lieu géographique détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "place",
+            "raw_text": "chine",
+            "total_occurrences": 21,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796322",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_016",
+        "name": "entité\\second-empire-français",
+        "confidence": 0.84,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "second-empire-français",
+            "total_occurrences": 21,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796325",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_019",
+        "name": "monet",
+        "confidence": 0.84,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle tournée vers la droite.md"
+        ],
+        "reasoning": {
+          "summary": "Personne détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "person",
+            "raw_text": "Claude Monet",
+            "total_occurrences": 35,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796327",
+        "source": "reference_db",
+        "alternatives": [
+          {
+            "name": "Claude-Monet",
+            "reason": "Format conventionnel pour Nom de personne",
+            "is_convention": true
+          }
+        ]
+      },
+      {
+        "id": "lt_ent_002",
+        "name": "entité\\empire-ottoman",
+        "confidence": 0.82,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "empire-ottoman",
+            "total_occurrences": 8,
+            "notes_count": 3,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796330",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_003",
+        "name": "entité\\empire-britannique",
+        "confidence": 0.81,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 4 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "empire-britannique",
+            "total_occurrences": 4,
+            "notes_count": 4,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796332",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_012",
+        "name": "geo\\asie\\inde",
+        "confidence": 0.81,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Hermann Heinrich Gossen.md"
+        ],
+        "reasoning": {
+          "summary": "Lieu géographique détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "place",
+            "raw_text": "inde",
+            "total_occurrences": 9,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796334",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_013",
+        "name": "entité\\carthage",
+        "confidence": 0.81,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "carthage",
+            "total_occurrences": 9,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-23T09:42:21.796337",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_emg_035",
+        "name": "Demande-Effective",
+        "confidence": 0.8,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md"
+        ],
+        "reasoning": {
+          "summary": "Terme 'demande effective' présent dans 4 notes du cluster",
           "details": {
             "family": "category",
             "family_label": "Catégorie",
             "source_terms": [
-              "importance"
+              "demande effective"
             ],
-            "frequency": 6,
+            "frequency": 4,
             "context": "politique",
-            "word_count": 1
+            "word_count": 2
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977578",
+        "first_detected": "2026-01-23T09:42:21.796339",
         "source": "emergent"
       },
       {
-        "id": "lt_emg_036",
-        "name": "key-facts",
-        "confidence": 0.85,
+        "id": "lt_ent_004",
+        "name": "économie",
+        "confidence": 0.79,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Cartier.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md"
         ],
         "reasoning": {
-          "summary": "Terme 'key-facts' présent dans 12 notes du cluster",
+          "summary": "Discipline détecté(e) dans 32 notes",
           "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "key-facts"
-            ],
-            "frequency": 12,
-            "context": "philosophie",
-            "word_count": 1
+            "entity_type": "discipline",
+            "raw_text": "économie",
+            "total_occurrences": 0,
+            "notes_count": 32,
+            "in_reference_db": false,
+            "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977581",
-        "source": "emergent"
+        "first_detected": "2026-01-23T09:42:21.796341",
+        "source": "context_secondary",
+        "alternatives": []
       },
       {
-        "id": "lt_emg_037",
-        "name": "created-by",
-        "confidence": 0.85,
+        "id": "lt_ent_008",
+        "name": "substance\\aristote",
+        "confidence": 0.79,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md"
         ],
         "reasoning": {
-          "summary": "Terme 'created-by' présent dans 12 notes du cluster",
+          "summary": "Concept théorique détecté(e) dans 2 notes",
           "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "created-by"
-            ],
-            "frequency": 12,
-            "context": "philosophie",
-            "word_count": 1
+            "entity_type": "concept",
+            "raw_text": "substance",
+            "total_occurrences": 4,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977584",
-        "source": "emergent"
+        "first_detected": "2026-01-23T09:42:21.796343",
+        "source": "reference_db",
+        "alternatives": []
       },
       {
-        "id": "lt_emg_038",
-        "name": "produced-by",
-        "confidence": 0.85,
+        "id": "lt_ent_011",
+        "name": "I-fin",
+        "confidence": 0.79,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
         ],
         "reasoning": {
-          "summary": "Terme 'produced-by' présent dans 12 notes du cluster",
+          "summary": "Date/Siècle détecté(e) dans 4 notes",
           "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "produced-by"
-            ],
-            "frequency": 12,
-            "context": "philosophie",
-            "word_count": 1
+            "entity_type": "date",
+            "raw_text": "I",
+            "total_occurrences": 4,
+            "notes_count": 4,
+            "in_reference_db": false,
+            "in_title": true
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977587",
-        "source": "emergent"
+        "first_detected": "2026-01-23T09:42:21.796346",
+        "source": "pattern_date",
+        "alternatives": [
+          {
+            "name": "I",
+            "reason": "Format conventionnel pour Date/Siècle",
+            "is_convention": true
+          }
+        ]
       },
       {
-        "id": "lt_emg_039",
-        "name": "nippon-tv",
-        "confidence": 0.85,
+        "id": "lt_ent_017",
+        "name": "hayek",
+        "confidence": 0.79,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Robert Heilbroner.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/John Maynard Keynes.md"
         ],
         "reasoning": {
-          "summary": "Terme 'nippon-tv' présent dans 11 notes du cluster",
+          "summary": "Personne détecté(e) dans 2 notes",
           "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "nippon-tv"
-            ],
-            "frequency": 11,
-            "context": "philosophie",
-            "word_count": 1
+            "entity_type": "person",
+            "raw_text": "Friedrich Hayek",
+            "total_occurrences": 4,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977589",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_040",
-        "name": "directors",
-        "confidence": 0.85,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'directors' présent dans 12 notes du cluster",
-          "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "directors"
-            ],
-            "frequency": 12,
-            "context": "philosophie",
-            "word_count": 1
+        "first_detected": "2026-01-23T09:42:21.796348",
+        "source": "reference_db",
+        "alternatives": [
+          {
+            "name": "Friedrich-Hayek",
+            "reason": "Format conventionnel pour Nom de personne",
+            "is_convention": true
           }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977592",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_041",
-        "name": "tatsuhiko-urahata",
-        "confidence": 0.85,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'tatsuhiko-urahata' présent dans 11 notes du cluster",
-          "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "tatsuhiko-urahata"
-            ],
-            "frequency": 11,
-            "context": "philosophie",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977594",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_042",
-        "name": "composers",
-        "confidence": 0.85,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'composers' présent dans 11 notes du cluster",
-          "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "composers"
-            ],
-            "frequency": 11,
-            "context": "philosophie",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977597",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_043",
-        "name": "european-setting",
-        "confidence": 0.85,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'european-setting' présent dans 11 notes du cluster",
-          "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "european-setting"
-            ],
-            "frequency": 11,
-            "context": "philosophie",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977599",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_044",
-        "name": "redemption",
-        "confidence": 0.85,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'redemption' présent dans 11 notes du cluster",
-          "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "redemption"
-            ],
-            "frequency": 11,
-            "context": "philosophie",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977601",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_045",
-        "name": "episodes",
-        "confidence": 0.85,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'episodes' présent dans 11 notes du cluster",
-          "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "episodes"
-            ],
-            "frequency": 11,
-            "context": "philosophie",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977604",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_046",
-        "name": "-minutes-per-episode",
-        "confidence": 0.85,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
-        ],
-        "reasoning": {
-          "summary": "Terme '-minutes-per-episode' présent dans 11 notes du cluster",
-          "details": {
-            "family": "concept_author",
-            "family_label": "Concept/Auteur",
-            "source_terms": [
-              "-minutes-per-episode"
-            ],
-            "frequency": 11,
-            "context": "philosophie",
-            "word_count": 1
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-23T09:06:10.977606",
-        "source": "emergent"
+        ]
       }
     ],
     "tag_assignments": [
@@ -1772,9 +1751,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "note-The_Wealth_of_Nations",
         "note-livre",
-        "livre"
+        "livre",
+        "note-The_Wealth_of_Nations"
       ]
     },
     {
@@ -1799,9 +1778,9 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Kuniaki-Haishima",
+        "Madhouse",
         "Crime-Mystery",
-        "Madhouse"
+        "Kuniaki-Haishima"
       ]
     },
     {
@@ -1834,7 +1813,7 @@
     "health_score": 0.9,
     "feedback_impact": {
       "decisions_integrated": 1000,
-      "acceptance_rate": "38%"
+      "acceptance_rate": "23%"
     }
   }
 }
