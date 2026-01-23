@@ -1,18 +1,20 @@
 """Détection de tags émergents basée sur l'analyse des clusters.
 
-APPROCHE INTELLIGENTE (whitelist + heuristiques) :
+APPROCHE INTELLIGENTE (whitelist + heuristiques + scoring contextuel) :
 - N'accepte QUE les termes qui matchent une base connue OU qui ont des
   indicateurs forts de pertinence
-- Utilise 4 critères de validation :
-  1. Match dans une whitelist connue (disciplines, auteurs, lieux, etc.)
-  2. Concentration thématique (le terme est concentré dans certaines notes)
-  3. Co-occurrence avec entités connues (personnes, lieux, dates)
-  4. Présence comme lien wiki [[terme]] dans le vault
+- Deux classes de termes :
+  1. TOUJOURS_VALIDE : Noms propres (personnes, lieux, entités) → acceptés immédiatement
+  2. VALIDE_SI_CONTEXTE : Mots "valise" qui nécessitent un contexte fort
+     - Scoring : mots_contexte(×10) + auteurs(×20) + discipline_tag(×15)
+     - Validation si score >= seuil_minimum défini pour chaque mot
 """
 
+import json
 import re
 from collections import Counter
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Optional
 
 from .conventions import (
@@ -75,31 +77,10 @@ class EmergentTagDetector:
     TOUJOURS_VALIDE = set()
 
     # CLASSE 2 : VALIDE_SI_CONTEXTE
-    # Mots génériques qui peuvent être pertinents avec un contexte fort
-    # (co-occurrence avec entités, présence en lien wiki, concentration thématique)
-    VALIDE_SI_CONTEXTE = {
-        # Concepts économiques
-        "prix", "valeur", "travail", "capital", "profit", "salaire",
-        "marché", "commerce", "échange", "production", "consommation",
-        "richesse", "monnaie", "intérêt", "rente", "offre", "demande",
-        # Concepts philosophiques
-        "raison", "vérité", "liberté", "nature", "essence", "existence",
-        "conscience", "volonté", "morale", "éthique", "vertu", "justice",
-        "bien", "mal", "beau", "sublime", "idée", "concept",
-        # Concepts politiques
-        "pouvoir", "état", "nation", "peuple", "souveraineté", "droit",
-        "loi", "constitution", "république", "démocratie", "monarchie",
-        "révolution", "réforme", "ordre", "anarchie",
-        # Concepts sociologiques
-        "société", "classe", "structure", "fonction", "institution",
-        "norme", "déviance", "solidarité", "conflit", "domination",
-        # Concepts scientifiques
-        "théorie", "hypothèse", "expérience", "observation", "méthode",
-        "cause", "effet", "loi", "principe", "système",
-        # Concepts historiques
-        "guerre", "paix", "traité", "alliance", "empire", "royaume",
-        "dynastie", "règne", "conquête", "colonisation",
-    }
+    # Mots "valise" qui peuvent être pertinents avec un contexte fort
+    # Chargés depuis context_words.json avec scoring :
+    # score = mots_contexte(×10) + auteurs(×20) + discipline_tag(×15)
+    VALIDE_SI_CONTEXTE = {}  # dict {mot: {discipline, mots_contexte, auteurs, seuil_minimum}}
 
     # Patterns de détection structurés
     PATTERNS = {
@@ -142,10 +123,10 @@ class EmergentTagDetector:
         self._build_whitelist()
 
     def _build_whitelist(self):
-        """Construit TOUJOURS_VALIDE à partir des bases de référence.
+        """Construit TOUJOURS_VALIDE et VALIDE_SI_CONTEXTE.
 
-        Ces termes sont des noms propres ou des entités spécifiques
-        qui sont toujours pertinents comme tags.
+        TOUJOURS_VALIDE : noms propres, entités spécifiques → acceptés immédiatement
+        VALIDE_SI_CONTEXTE : mots "valise" avec scoring contextuel
         """
         self.TOUJOURS_VALIDE = set()
 
@@ -163,6 +144,45 @@ class EmergentTagDetector:
 
         # Siècles romains
         self.TOUJOURS_VALIDE.update(r.lower() for r in ROMAN_NUMERALS)
+
+        # Charge les mots "valise" avec leur contexte depuis context_words.json
+        self._load_context_words()
+
+    def _load_context_words(self):
+        """Charge les mots valise avec leur contexte depuis context_words.json."""
+        self.VALIDE_SI_CONTEXTE = {}
+
+        # Chemin vers le fichier de référence
+        data_dir = Path(__file__).parent.parent / "data" / "references"
+        context_file = data_dir / "context_words.json"
+
+        if not context_file.exists():
+            # Fallback: mots par défaut sans scoring
+            default_words = {
+                "prix", "valeur", "travail", "capital", "liberté", "raison",
+                "conscience", "existence", "pouvoir", "société", "classe",
+            }
+            self.VALIDE_SI_CONTEXTE = {w: {"seuil_minimum": 30} for w in default_words}
+            return
+
+        try:
+            with open(context_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            for word, config in data.items():
+                # Ignore les clés commençant par _ (métadonnées)
+                if word.startswith("_"):
+                    continue
+
+                self.VALIDE_SI_CONTEXTE[word.lower()] = {
+                    "discipline": config.get("discipline", ""),
+                    "mots_contexte": [m.lower() for m in config.get("mots_contexte", [])],
+                    "auteurs": [a.lower() for a in config.get("auteurs", [])],
+                    "seuil_minimum": config.get("seuil_minimum", 30),
+                }
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Warning: Could not load context_words.json: {e}")
+            self.VALIDE_SI_CONTEXTE = {}
 
     def detect_emergent_tags(
         self,
@@ -295,7 +315,9 @@ class EmergentTagDetector:
         Logique :
         1. Si dans STOP_WORDS → REJETÉ
         2. Si dans TOUJOURS_VALIDE → ACCEPTÉ immédiatement
-        3. Si dans VALIDE_SI_CONTEXTE → vérifie les heuristiques de contexte
+        3. Si dans VALIDE_SI_CONTEXTE → SCORING CONTEXTUEL
+           score = mots_contexte(×10) + auteurs(×20) + discipline_tag(×15)
+           ACCEPTÉ si score >= seuil_minimum
         4. Sinon (mot inconnu) → vérifie les heuristiques strictes
         """
         term_lower = term.lower()
@@ -323,12 +345,139 @@ class EmergentTagDetector:
                 "category": "toujours_valide",
             }
 
-        # 2. VALIDE_SI_CONTEXTE : accepté seulement avec contexte fort
-        is_context_dependent = term_lower in self.VALIDE_SI_CONTEXTE
+        # 2. VALIDE_SI_CONTEXTE : scoring contextuel
+        if term_lower in self.VALIDE_SI_CONTEXTE:
+            scoring_result = self._calculate_context_score(
+                term_lower, all_notes, known_entities
+            )
+            return scoring_result
 
-        # Calcul des heuristiques de contexte
+        # 3. MOT INCONNU (pas dans les deux classes) : heuristiques strictes
+        return self._validate_unknown_term(
+            term_lower, term_notes, all_notes, known_entities, wiki_links
+        )
+
+    def _calculate_context_score(
+        self,
+        term: str,
+        all_notes: list,
+        known_entities: set[str],
+    ) -> dict:
+        """Calcule le score contextuel pour un mot valise.
+
+        Scoring :
+        - mots_contexte trouvés × 10 points
+        - auteurs trouvés × 20 points
+        - discipline_tag présent × 15 points
+
+        Le terme est validé si score >= seuil_minimum
+        """
+        config = self.VALIDE_SI_CONTEXTE.get(term, {})
+        if not config:
+            return {
+                "is_valid": False,
+                "confidence": 0.0,
+                "reasons": ["mot valise sans configuration"],
+                "category": "valide_si_contexte",
+            }
+
+        mots_contexte = set(config.get("mots_contexte", []))
+        auteurs = set(config.get("auteurs", []))
+        discipline = config.get("discipline", "")
+        seuil_minimum = config.get("seuil_minimum", 30)
+
+        # Combine tout le texte des notes pour l'analyse
+        combined_text = " ".join(
+            f"{note.title} {note.content}".lower() for note in all_notes
+        )
+
+        # Compte les mots de contexte trouvés
+        mots_found = []
+        for mot in mots_contexte:
+            if mot in combined_text:
+                mots_found.append(mot)
+        score_mots = len(mots_found) * 10
+
+        # Compte les auteurs trouvés
+        auteurs_found = []
+        for auteur in auteurs:
+            if auteur in combined_text:
+                auteurs_found.append(auteur)
+        score_auteurs = len(auteurs_found) * 20
+
+        # Vérifie si la discipline est présente
+        score_discipline = 0
+        discipline_found = False
+        if discipline:
+            # Extrait le tag de discipline principal (avant le \\)
+            discipline_parts = discipline.replace("\\\\", "\\").split("\\")
+            for part in discipline_parts:
+                if part.lower() in combined_text:
+                    discipline_found = True
+                    score_discipline = 15
+                    break
+
+        # Score total
+        total_score = score_mots + score_auteurs + score_discipline
+
+        # Construction du résultat
+        reasons = []
+        if mots_found:
+            reasons.append(f"{len(mots_found)} mots contexte ({', '.join(mots_found[:3])}...)")
+        if auteurs_found:
+            reasons.append(f"{len(auteurs_found)} auteurs ({', '.join(auteurs_found[:2])})")
+        if discipline_found:
+            reasons.append(f"discipline: {discipline}")
+
+        is_valid = total_score >= seuil_minimum
+
+        if is_valid:
+            reasons.insert(0, f"score contextuel: {total_score}/{seuil_minimum}")
+        else:
+            reasons.insert(0, f"score insuffisant: {total_score}/{seuil_minimum}")
+
+        # Confiance proportionnelle au dépassement du seuil
+        if is_valid:
+            # Plus le score dépasse le seuil, plus on est confiant
+            overflow_ratio = total_score / seuil_minimum
+            confidence = min(0.90, 0.65 + (overflow_ratio - 1) * 0.15)
+        else:
+            confidence = 0.0
+
+        return {
+            "is_valid": is_valid,
+            "confidence": confidence,
+            "reasons": reasons,
+            "category": "valide_si_contexte",
+            "score_detail": {
+                "total": total_score,
+                "seuil": seuil_minimum,
+                "mots_contexte": score_mots,
+                "auteurs": score_auteurs,
+                "discipline": score_discipline,
+                "mots_found": mots_found,
+                "auteurs_found": auteurs_found,
+            },
+            "suggested_discipline": discipline if is_valid else None,
+        }
+
+    def _validate_unknown_term(
+        self,
+        term: str,
+        term_notes: list[str],
+        all_notes: list,
+        known_entities: set[str],
+        wiki_links: set[str],
+    ) -> dict:
+        """Valide un terme inconnu (ni TOUJOURS_VALIDE ni VALIDE_SI_CONTEXTE).
+
+        Critères stricts : wiki_link obligatoire + concentration + co-occurrence
+        """
+        reasons = []
+        confidence_bonus = 0.0
+
         # A. WIKI LINK : terme est un lien [[terme]] existant ?
-        is_wiki_link = term_lower in wiki_links or term_lower in self._wiki_links_normalized
+        is_wiki_link = term in wiki_links or term in self._wiki_links_normalized
         if is_wiki_link:
             reasons.append("existe comme lien wiki [[...]]")
             confidence_bonus += 0.25
@@ -344,7 +493,7 @@ class EmergentTagDetector:
         cooccurring_entities = 0
         for note in all_notes:
             note_text = f"{note.title} {note.content}".lower()
-            if term_lower in note_text:
+            if term in note_text:
                 for entity in known_entities:
                     if entity in note_text:
                         cooccurring_entities += 1
@@ -355,22 +504,13 @@ class EmergentTagDetector:
             reasons.append(f"co-occurrence avec {cooccurring_entities} entités connues")
             confidence_bonus += 0.20
 
-        # Décision selon la catégorie
+        # MOT INCONNU : besoin de critères très forts
+        # (wiki_link obligatoire + au moins 1 autre critère)
         criteria_met = sum([is_wiki_link, is_concentrated, has_cooccurrence])
+        is_valid = is_wiki_link and criteria_met >= 2 and len(term_notes) >= 3
 
-        if is_context_dependent:
-            # VALIDE_SI_CONTEXTE : besoin d'au moins 2 critères de contexte
-            is_valid = criteria_met >= 2
-            if is_valid:
-                reasons.insert(0, "concept générique validé par contexte")
-            category = "valide_si_contexte"
-        else:
-            # MOT INCONNU : besoin de critères très forts
-            # (wiki_link obligatoire + au moins 1 autre critère)
-            is_valid = is_wiki_link and criteria_met >= 2 and len(term_notes) >= 3
-            if is_valid:
-                reasons.insert(0, "terme nouveau validé par contexte fort")
-            category = "inconnu"
+        if is_valid:
+            reasons.insert(0, "terme nouveau validé par contexte fort")
 
         # Calcul de la confiance
         base_confidence = 0.45 + confidence_bonus
@@ -381,7 +521,7 @@ class EmergentTagDetector:
             "is_valid": is_valid,
             "confidence": confidence if is_valid else 0.0,
             "reasons": reasons,
-            "category": category,
+            "category": "inconnu",
             "is_wiki_link": is_wiki_link,
             "concentration": concentration,
             "cooccurrence": cooccurring_entities,
@@ -459,7 +599,15 @@ class EmergentTagDetector:
 
         # Détermine la famille et formate le tag
         family = self._infer_family(term)
-        tag_name = self._format_tag(term, family)
+
+        # Utilise la discipline suggérée par le scoring contextuel si disponible
+        suggested_discipline = validation.get("suggested_discipline")
+        if suggested_discipline and validation.get("category") == "valide_si_contexte":
+            # Formate le tag avec la discipline : discipline\terme
+            tag_name = f"{suggested_discipline.replace(chr(92)*2, chr(92))}\\{self._normalize_for_tag(term)}"
+            family = TagFamily.DISCIPLINE
+        else:
+            tag_name = self._format_tag(term, family)
 
         if not tag_name:
             return None
@@ -470,13 +618,24 @@ class EmergentTagDetector:
 
         reasons_text = ", ".join(validation["reasons"]) if validation["reasons"] else "heuristiques multiples"
 
+        # Ajoute le détail du score si disponible
+        score_detail = validation.get("score_detail")
+        if score_detail:
+            reasoning = (
+                f"Terme '{term}' validé par scoring contextuel: "
+                f"score {score_detail['total']}/{score_detail['seuil']} "
+                f"({reasons_text})"
+            )
+        else:
+            reasoning = f"Terme '{term}' validé: {reasons_text}"
+
         return EmergentTagSuggestion(
             name=tag_name,
             family=family,
             confidence=validation["confidence"],
             notes=term_notes,
             source_terms=[term],
-            reasoning=f"Terme '{term}' validé: {reasons_text}",
+            reasoning=reasoning,
             metadata=validation,
         )
 
