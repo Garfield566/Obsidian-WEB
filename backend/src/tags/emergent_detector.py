@@ -35,7 +35,12 @@ class EmergentTagSuggestion:
 
 
 class EmergentTagDetector:
-    """Détecte les tags émergents avec approche whitelist + heuristiques."""
+    """Détecte les tags émergents avec approche whitelist + heuristiques.
+
+    Deux classes de termes :
+    1. TOUJOURS_VALIDE : Noms propres (personnes, lieux, entités) → acceptés immédiatement
+    2. VALIDE_SI_CONTEXTE : Mots génériques qui deviennent pertinents avec contexte
+    """
 
     # Seuils de configuration
     MIN_NOTES_FOR_SUGGESTION = 2        # Nombre minimum de notes pour suggérer un tag
@@ -43,19 +48,57 @@ class EmergentTagDetector:
     MIN_CONCENTRATION = 0.4             # Concentration minimale dans un domaine (40%)
     MIN_COOCCURRENCE = 2                # Nombre min d'entités connues co-occurrentes
 
-    # Stop words MINIMAUX (juste articles, pronoms, prépositions)
-    BASIC_STOP_WORDS = {
+    # Stop words MINIMAUX (juste articles, pronoms, prépositions - JAMAIS acceptés)
+    STOP_WORDS = {
         # Articles
         "le", "la", "les", "un", "une", "des", "du", "de", "d",
         # Pronoms
         "il", "elle", "ils", "elles", "on", "nous", "vous", "je", "tu",
-        "qui", "que", "quoi", "dont", "où",
+        "qui", "que", "quoi", "dont", "où", "ce", "cette", "ces",
+        "mon", "ma", "mes", "ton", "ta", "tes", "son", "sa", "ses",
+        "notre", "nos", "votre", "vos", "leur", "leurs",
         # Prépositions/conjonctions
-        "et", "ou", "en", "au", "aux", "à", "ce", "cette", "ces",
+        "et", "ou", "en", "au", "aux", "à", "si", "ne", "pas",
         "avec", "sans", "sous", "sur", "dans", "par", "pour", "contre",
-        "entre", "vers", "chez", "mais", "donc", "car",
+        "entre", "vers", "chez", "mais", "donc", "car", "puis", "alors",
         # Mots techniques web
         "https", "http", "www", "html", "css", "class", "span", "div",
+        "margin", "padding", "width", "height", "style", "font",
+        # Adverbes ultra-courants
+        "très", "bien", "mal", "plus", "moins", "aussi", "encore",
+        "toujours", "jamais", "souvent", "peu", "beaucoup", "trop",
+    }
+
+    # CLASSE 1 : TOUJOURS_VALIDE
+    # Noms propres, entités spécifiques → acceptés immédiatement
+    # (construit dynamiquement à partir des bases de référence)
+    TOUJOURS_VALIDE = set()
+
+    # CLASSE 2 : VALIDE_SI_CONTEXTE
+    # Mots génériques qui peuvent être pertinents avec un contexte fort
+    # (co-occurrence avec entités, présence en lien wiki, concentration thématique)
+    VALIDE_SI_CONTEXTE = {
+        # Concepts économiques
+        "prix", "valeur", "travail", "capital", "profit", "salaire",
+        "marché", "commerce", "échange", "production", "consommation",
+        "richesse", "monnaie", "intérêt", "rente", "offre", "demande",
+        # Concepts philosophiques
+        "raison", "vérité", "liberté", "nature", "essence", "existence",
+        "conscience", "volonté", "morale", "éthique", "vertu", "justice",
+        "bien", "mal", "beau", "sublime", "idée", "concept",
+        # Concepts politiques
+        "pouvoir", "état", "nation", "peuple", "souveraineté", "droit",
+        "loi", "constitution", "république", "démocratie", "monarchie",
+        "révolution", "réforme", "ordre", "anarchie",
+        # Concepts sociologiques
+        "société", "classe", "structure", "fonction", "institution",
+        "norme", "déviance", "solidarité", "conflit", "domination",
+        # Concepts scientifiques
+        "théorie", "hypothèse", "expérience", "observation", "méthode",
+        "cause", "effet", "loi", "principe", "système",
+        # Concepts historiques
+        "guerre", "paix", "traité", "alliance", "empire", "royaume",
+        "dynastie", "règne", "conquête", "colonisation",
     }
 
     # Patterns de détection structurés
@@ -79,9 +122,6 @@ class EmergentTagDetector:
         ),
     }
 
-    # Whitelist : termes connus qui sont toujours acceptés
-    WHITELIST = set()
-
     def __init__(self, existing_tags: set[str] = None, wiki_links: set[str] = None):
         """Initialise le détecteur.
 
@@ -102,23 +142,27 @@ class EmergentTagDetector:
         self._build_whitelist()
 
     def _build_whitelist(self):
-        """Construit la whitelist à partir des bases de référence."""
-        self.WHITELIST = set()
+        """Construit TOUJOURS_VALIDE à partir des bases de référence.
 
-        # Disciplines académiques
-        self.WHITELIST.update(d.lower() for d in KNOWN_DISCIPLINES)
+        Ces termes sont des noms propres ou des entités spécifiques
+        qui sont toujours pertinents comme tags.
+        """
+        self.TOUJOURS_VALIDE = set()
 
-        # Auteurs/philosophes connus
-        self.WHITELIST.update(a.lower() for a in KNOWN_AUTHORS)
+        # Auteurs/philosophes connus (noms propres)
+        self.TOUJOURS_VALIDE.update(a.lower() for a in KNOWN_AUTHORS)
 
-        # Mathématiciens
-        self.WHITELIST.update(m.lower() for m in KNOWN_MATHEMATICIANS)
+        # Mathématiciens (noms propres)
+        self.TOUJOURS_VALIDE.update(m.lower() for m in KNOWN_MATHEMATICIANS)
 
-        # Mouvements artistiques
-        self.WHITELIST.update(m.lower() for m in KNOWN_ART_MOVEMENTS)
+        # Disciplines académiques (termes spécifiques)
+        self.TOUJOURS_VALIDE.update(d.lower() for d in KNOWN_DISCIPLINES)
+
+        # Mouvements artistiques (termes spécifiques)
+        self.TOUJOURS_VALIDE.update(m.lower() for m in KNOWN_ART_MOVEMENTS)
 
         # Siècles romains
-        self.WHITELIST.update(r.lower() for r in ROMAN_NUMERALS)
+        self.TOUJOURS_VALIDE.update(r.lower() for r in ROMAN_NUMERALS)
 
     def detect_emergent_tags(
         self,
@@ -222,14 +266,14 @@ class EmergentTagDetector:
             words = re.findall(r'\b[a-zàâäéèêëïîôùûüç]{4,}\b', text)
 
             for word in words:
-                if word in self.BASIC_STOP_WORDS:
+                if word in self.STOP_WORDS:
                     continue
                 if word not in term_to_notes:
                     term_to_notes[word] = set()
                 term_to_notes[word].add(note.path)
 
             # Extrait aussi les bigrammes (noms composés)
-            words_list = [w for w in words if w not in self.BASIC_STOP_WORDS]
+            words_list = [w for w in words if w not in self.STOP_WORDS]
             for i in range(len(words_list) - 1):
                 bigram = f"{words_list[i]} {words_list[i+1]}"
                 if bigram not in term_to_notes:
@@ -246,39 +290,57 @@ class EmergentTagDetector:
         known_entities: set[str],
         wiki_links: set[str],
     ) -> dict:
-        """Valide un terme avec les 4 heuristiques.
+        """Valide un terme selon sa classe (TOUJOURS_VALIDE ou VALIDE_SI_CONTEXTE).
 
-        Retourne un dict avec:
-        - is_valid: bool
-        - confidence: float
-        - reasons: list[str]
+        Logique :
+        1. Si dans STOP_WORDS → REJETÉ
+        2. Si dans TOUJOURS_VALIDE → ACCEPTÉ immédiatement
+        3. Si dans VALIDE_SI_CONTEXTE → vérifie les heuristiques de contexte
+        4. Sinon (mot inconnu) → vérifie les heuristiques strictes
         """
         term_lower = term.lower()
         reasons = []
         confidence_bonus = 0.0
 
-        # 1. WHITELIST : terme dans une base connue ?
-        in_whitelist = term_lower in self.WHITELIST
-        if in_whitelist:
-            reasons.append("terme dans base de référence connue")
-            confidence_bonus += 0.25
+        # 0. STOP WORDS : toujours rejeté
+        if term_lower in self.STOP_WORDS:
+            return {
+                "is_valid": False,
+                "confidence": 0.0,
+                "reasons": ["stop word"],
+                "category": "rejected",
+            }
 
-        # 2. WIKI LINK : terme est un lien [[terme]] existant ?
+        # 1. TOUJOURS_VALIDE : accepté immédiatement (noms propres, entités)
+        is_always_valid = term_lower in self.TOUJOURS_VALIDE
+        if is_always_valid:
+            reasons.append("terme toujours valide (nom propre/entité)")
+            confidence_bonus += 0.30
+            return {
+                "is_valid": True,
+                "confidence": min(0.95, 0.70 + confidence_bonus),
+                "reasons": reasons,
+                "category": "toujours_valide",
+            }
+
+        # 2. VALIDE_SI_CONTEXTE : accepté seulement avec contexte fort
+        is_context_dependent = term_lower in self.VALIDE_SI_CONTEXTE
+
+        # Calcul des heuristiques de contexte
+        # A. WIKI LINK : terme est un lien [[terme]] existant ?
         is_wiki_link = term_lower in wiki_links or term_lower in self._wiki_links_normalized
         if is_wiki_link:
             reasons.append("existe comme lien wiki [[...]]")
-            confidence_bonus += 0.20
+            confidence_bonus += 0.25
 
-        # 3. CONCENTRATION : terme concentré dans certaines notes vs dispersé ?
+        # B. CONCENTRATION : terme concentré dans certaines notes vs dispersé ?
         concentration = len(term_notes) / len(all_notes) if all_notes else 0
-        # Un bon terme est présent dans plusieurs notes mais pas TOUTES
-        # (s'il est partout, c'est probablement un mot creux)
-        is_concentrated = 0.1 < concentration < 0.8
+        is_concentrated = 0.15 < concentration < 0.7
         if is_concentrated and len(term_notes) >= 2:
             reasons.append(f"concentration thématique ({concentration:.0%})")
             confidence_bonus += 0.15
 
-        # 4. CO-OCCURRENCE : terme apparaît avec des entités connues ?
+        # C. CO-OCCURRENCE : terme apparaît avec des entités connues ?
         cooccurring_entities = 0
         for note in all_notes:
             note_text = f"{note.title} {note.content}".lower()
@@ -291,32 +353,39 @@ class EmergentTagDetector:
         has_cooccurrence = cooccurring_entities >= self.MIN_COOCCURRENCE
         if has_cooccurrence:
             reasons.append(f"co-occurrence avec {cooccurring_entities} entités connues")
-            confidence_bonus += 0.15
+            confidence_bonus += 0.20
 
-        # Décision finale
-        # Accepté si : whitelist OU (wiki_link ET concentration) OU (2+ critères)
-        criteria_met = sum([in_whitelist, is_wiki_link, is_concentrated, has_cooccurrence])
+        # Décision selon la catégorie
+        criteria_met = sum([is_wiki_link, is_concentrated, has_cooccurrence])
 
-        is_valid = (
-            in_whitelist or
-            (is_wiki_link and is_concentrated) or
-            (criteria_met >= 2 and len(term_notes) >= 3)
-        )
+        if is_context_dependent:
+            # VALIDE_SI_CONTEXTE : besoin d'au moins 2 critères de contexte
+            is_valid = criteria_met >= 2
+            if is_valid:
+                reasons.insert(0, "concept générique validé par contexte")
+            category = "valide_si_contexte"
+        else:
+            # MOT INCONNU : besoin de critères très forts
+            # (wiki_link obligatoire + au moins 1 autre critère)
+            is_valid = is_wiki_link and criteria_met >= 2 and len(term_notes) >= 3
+            if is_valid:
+                reasons.insert(0, "terme nouveau validé par contexte fort")
+            category = "inconnu"
 
         # Calcul de la confiance
-        base_confidence = 0.50 + confidence_bonus
-        # Bonus pour le nombre de notes
-        notes_bonus = min(0.15, len(term_notes) * 0.02)
-        confidence = min(0.95, base_confidence + notes_bonus)
+        base_confidence = 0.45 + confidence_bonus
+        notes_bonus = min(0.10, len(term_notes) * 0.015)
+        confidence = min(0.90, base_confidence + notes_bonus)
 
         return {
             "is_valid": is_valid,
-            "confidence": confidence,
+            "confidence": confidence if is_valid else 0.0,
             "reasons": reasons,
-            "in_whitelist": in_whitelist,
+            "category": category,
             "is_wiki_link": is_wiki_link,
             "concentration": concentration,
             "cooccurrence": cooccurring_entities,
+            "criteria_met": criteria_met,
         }
 
     def _detect_patterns(self, text: str, notes: list) -> list[EmergentTagSuggestion]:
