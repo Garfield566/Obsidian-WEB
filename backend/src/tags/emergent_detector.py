@@ -143,6 +143,34 @@ class EmergentTagDetector:
         "nature", "naturel", "naturelle", "raison", "cause", "effet",
         "ordre", "système", "systeme", "principe", "principes",
         "partie", "parties", "classe", "classes", "espèce", "espece",
+        # Adverbes et mots de quantité
+        "beaucoup", "peu", "trop", "assez", "encore", "déjà", "deja",
+        "toujours", "jamais", "souvent", "parfois", "rarement",
+        "seulement", "notamment", "également", "egalement", "simplement",
+        "vraiment", "certainement", "probablement", "évidemment",
+        # Verbes courants (infinitifs et conjugués)
+        "procurer", "obtenir", "acquérir", "acquerir", "produire",
+        "créer", "creer", "développer", "developper", "utiliser",
+        "employer", "considérer", "considerer", "représenter", "representer",
+        "constituer", "former", "composer", "comprendre", "contenir",
+        "posséder", "posseder", "appartenir", "dépendre", "dependre",
+        "résulter", "resulter", "provenir", "découler", "suivre",
+        "précéder", "preceder", "accompagner", "entraîner", "entrainer",
+        "causer", "provoquer", "produire", "générer", "generer",
+        "augmenter", "diminuer", "réduire", "reduire", "accroître",
+        "maintenir", "conserver", "préserver", "protéger", "défendre",
+        "attaquer", "combattre", "lutter", "résister", "opposer",
+        "soutenir", "appuyer", "aider", "favoriser", "encourager",
+        "empêcher", "interdire", "limiter", "restreindre", "contrôler",
+        # Adjectifs courants
+        "différent", "different", "semblable", "similaire", "identique",
+        "particulier", "spécial", "special", "général", "general",
+        "commun", "ordinaire", "habituel", "normal", "naturel",
+        "important", "considérable", "considerable", "significatif",
+        "principal", "essentiel", "fondamental", "nécessaire", "necessaire",
+        "possible", "impossible", "probable", "certain", "sûr",
+        "vrai", "faux", "juste", "exact", "précis", "correct",
+        "propre", "seul", "unique", "divers", "nombreux", "multiple",
     }
 
     # Termes indiquant un contexte spécifique
@@ -459,17 +487,35 @@ class EmergentTagDetector:
         if len(ngram) < 4:
             return None
 
-        # Pour les unigrammes, exige des critères plus stricts
+        # Vérifie d'abord si c'est dans les stop words
+        if ngram.lower() in self.STOP_WORDS:
+            return None
+
+        # Pour les unigrammes, critères TRÈS stricts
         word_count = len(ngram.split())
         if word_count == 1:
-            # Unigramme: doit être un nom propre (commence par majuscule)
-            # ou un concept spécifique long
-            if len(ngram) < 8 and not ngram[0].isupper():
+            # Un unigramme ne peut être un tag QUE si:
+            # 1. C'est un nom propre (commence par majuscule)
+            # 2. ET ce n'est pas un mot générique/verbe/adjectif courant
+
+            # Doit commencer par majuscule (nom propre)
+            if not ngram[0].isupper():
                 return None
-            # Ignore les verbes/adjectifs courants
-            if ngram.endswith(('ment', 'tion', 'sion', 'ique', 'able', 'ible')):
-                if frequency < 6:  # Seuil plus élevé pour ces suffixes
-                    return None
+
+            # Ignore les suffixes de verbes/adjectifs/adverbes français
+            suffixes_to_ignore = (
+                'ment', 'tion', 'sion', 'ique', 'able', 'ible', 'eur', 'eux',
+                'ant', 'ent', 'oir', 'aire', 'ure', 'age', 'isme', 'iste',
+                'er', 'ir', 'oir', 're',  # infinitifs
+            )
+            if ngram.lower().endswith(suffixes_to_ignore):
+                return None
+
+            # Le mot doit ressembler à un nom propre de lieu/personne
+            # (généralement pas de suffixes grammaticaux français)
+            ngram_lower = ngram.lower()
+            if any(ngram_lower.endswith(s) for s in ['é', 'ée', 'és', 'ées', 'if', 'ive']):
+                return None
 
         # Ignore si déjà un tag existant
         if self._normalize(ngram) in self._existing_tags_normalized:
