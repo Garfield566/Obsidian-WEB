@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-23T10:05:48.216311",
+  "generated_at": "2026-01-23T10:30:35.626037",
   "vault_hash": "6caed0b0",
   "suggestions": {
     "new_tags": [
@@ -9,8 +9,8 @@
         "name": "droit",
         "confidence": 0.95,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
         ],
         "reasoning": {
           "summary": "Terme 'droit' validé: terme toujours valide (nom propre/entité)",
@@ -29,7 +29,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216353",
+        "first_detected": "2026-01-23T10:30:35.626087",
         "source": "emergent"
       },
       {
@@ -60,7 +60,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216358",
+        "first_detected": "2026-01-23T10:30:35.626092",
         "source": "reference_db",
         "alternatives": []
       },
@@ -90,7 +90,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216362",
+        "first_detected": "2026-01-23T10:30:35.626097",
         "source": "reference_db",
         "alternatives": []
       },
@@ -99,19 +99,19 @@
         "name": "économie\\prix",
         "confidence": 0.9,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md"
         ],
         "reasoning": {
-          "summary": "Terme 'prix' validé par scoring contextuel: score 135/30 (score contextuel: 135/30, 10 mots contexte (monnaie, vente, offre...), 1 auteurs (smith), discipline: économie)",
+          "summary": "Terme 'prix' validé par scoring contextuel: score 135/30 (score contextuel: 135/30, 10 mots contexte (commerce, offre, achat...), 1 auteurs (smith), discipline: économie)",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
@@ -122,7 +122,7 @@
             "confidence": 0.9,
             "reasons": [
               "score contextuel: 135/30",
-              "10 mots contexte (monnaie, vente, offre...)",
+              "10 mots contexte (commerce, offre, achat...)",
               "1 auteurs (smith)",
               "discipline: économie"
             ],
@@ -134,26 +134,27 @@
               "auteurs": 20,
               "discipline": 15,
               "mots_found": [
-                "monnaie",
-                "vente",
-                "offre",
-                "échange",
-                "demande",
-                "coût",
-                "valeur",
                 "commerce",
+                "offre",
+                "achat",
+                "monnaie",
+                "valeur",
+                "échange",
                 "marché",
-                "achat"
+                "vente",
+                "coût",
+                "demande"
               ],
               "auteurs_found": [
                 "smith"
-              ]
+              ],
+              "detected_subdiscipline": null
             },
             "suggested_discipline": "économie"
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216365",
+        "first_detected": "2026-01-23T10:30:35.626100",
         "source": "emergent"
       },
       {
@@ -178,7 +179,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216369",
+        "first_detected": "2026-01-23T10:30:35.626104",
         "source": "reference_db",
         "alternatives": []
       },
@@ -202,7 +203,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216372",
+        "first_detected": "2026-01-23T10:30:35.626107",
         "source": "reference_db",
         "alternatives": []
       },
@@ -226,7 +227,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216376",
+        "first_detected": "2026-01-23T10:30:35.626111",
         "source": "reference_db",
         "alternatives": []
       },
@@ -250,7 +251,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216382",
+        "first_detected": "2026-01-23T10:30:35.626118",
         "source": "reference_db",
         "alternatives": [
           {
@@ -281,7 +282,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216386",
+        "first_detected": "2026-01-23T10:30:35.626121",
         "source": "reference_db",
         "alternatives": []
       },
@@ -307,7 +308,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216389",
+        "first_detected": "2026-01-23T10:30:35.626125",
         "source": "reference_db",
         "alternatives": []
       },
@@ -331,7 +332,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216408",
+        "first_detected": "2026-01-23T10:30:35.626129",
         "source": "reference_db",
         "alternatives": []
       },
@@ -355,7 +356,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216411",
+        "first_detected": "2026-01-23T10:30:35.626132",
         "source": "reference_db",
         "alternatives": []
       },
@@ -387,7 +388,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216414",
+        "first_detected": "2026-01-23T10:30:35.626135",
         "source": "context_secondary",
         "alternatives": []
       },
@@ -411,7 +412,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216417",
+        "first_detected": "2026-01-23T10:30:35.626138",
         "source": "reference_db",
         "alternatives": []
       },
@@ -437,7 +438,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216420",
+        "first_detected": "2026-01-23T10:30:35.626141",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -467,7 +468,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216423",
+        "first_detected": "2026-01-23T10:30:35.626144",
         "source": "reference_db",
         "alternatives": [
           {
@@ -497,7 +498,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216425",
+        "first_detected": "2026-01-23T10:30:35.626147",
         "source": "reference_db",
         "alternatives": [
           {
@@ -530,7 +531,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216428",
+        "first_detected": "2026-01-23T10:30:35.626150",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -554,7 +555,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216431",
+        "first_detected": "2026-01-23T10:30:35.626154",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -584,7 +585,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216434",
+        "first_detected": "2026-01-23T10:30:35.626157",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -618,7 +619,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216437",
+        "first_detected": "2026-01-23T10:30:35.626159",
         "source": "context_primary",
         "alternatives": []
       },
@@ -642,7 +643,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216439",
+        "first_detected": "2026-01-23T10:30:35.626162",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -666,7 +667,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216443",
+        "first_detected": "2026-01-23T10:30:35.626165",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -675,11 +676,11 @@
         "name": "physique\\matière",
         "confidence": 0.72,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md"
         ],
         "reasoning": {
-          "summary": "Terme 'matière' validé par scoring contextuel: score 45/30 (score contextuel: 45/30, 3 mots contexte (masse, particule, état...), discipline: physique)",
+          "summary": "Terme 'matière' validé par scoring contextuel: score 45/30 (score contextuel: 45/30, 3 mots contexte (masse, état, particule...), discipline: physique)",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
@@ -690,7 +691,7 @@
             "confidence": 0.725,
             "reasons": [
               "score contextuel: 45/30",
-              "3 mots contexte (masse, particule, état...)",
+              "3 mots contexte (masse, état, particule...)",
               "discipline: physique"
             ],
             "category": "valide_si_contexte",
@@ -702,16 +703,17 @@
               "discipline": 15,
               "mots_found": [
                 "masse",
-                "particule",
-                "état"
+                "état",
+                "particule"
               ],
-              "auteurs_found": []
+              "auteurs_found": [],
+              "detected_subdiscipline": null
             },
             "suggested_discipline": "physique"
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216446",
+        "first_detected": "2026-01-23T10:30:35.626167",
         "source": "emergent"
       },
       {
@@ -719,12 +721,12 @@
         "name": "physique\\mécanique\\force",
         "confidence": 0.68,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4) 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md"
         ],
         "reasoning": {
-          "summary": "Terme 'force' validé par scoring contextuel: score 35/30 (score contextuel: 35/30, 2 mots contexte (inertie, masse...), discipline: physique\\mécanique)",
+          "summary": "Terme 'force' validé par scoring contextuel: score 35/30 (score contextuel: 35/30, 2 mots contexte (masse, inertie...), discipline: physique\\mécanique)",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
@@ -735,7 +737,7 @@
             "confidence": 0.675,
             "reasons": [
               "score contextuel: 35/30",
-              "2 mots contexte (inertie, masse...)",
+              "2 mots contexte (masse, inertie...)",
               "discipline: physique\\mécanique"
             ],
             "category": "valide_si_contexte",
@@ -746,16 +748,17 @@
               "auteurs": 0,
               "discipline": 15,
               "mots_found": [
-                "inertie",
-                "masse"
+                "masse",
+                "inertie"
               ],
-              "auteurs_found": []
+              "auteurs_found": [],
+              "detected_subdiscipline": null
             },
             "suggested_discipline": "physique\\mécanique"
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:05:48.216448",
+        "first_detected": "2026-01-23T10:30:35.626171",
         "source": "emergent"
       }
     ],
@@ -942,9 +945,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "note-The_Wealth_of_Nations",
         "livre",
-        "note-livre"
+        "note-livre",
+        "note-The_Wealth_of_Nations"
       ]
     },
     {
@@ -970,8 +973,8 @@
       ],
       "suggested_tags": [
         "Kuniaki-Haishima",
-        "Crime-Mystery",
-        "Madhouse"
+        "Madhouse",
+        "Crime-Mystery"
       ]
     },
     {
