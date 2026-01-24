@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-23T10:35:06.534207",
-  "vault_hash": "6caed0b0",
+  "generated_at": "2026-01-24T03:25:24.178266",
+  "vault_hash": "5b2180a0",
   "suggestions": {
     "new_tags": [
       {
@@ -9,8 +9,8 @@
         "name": "droit",
         "confidence": 0.95,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
         ],
         "reasoning": {
           "summary": "Terme 'droit' validé: terme toujours valide (nom propre/entité)",
@@ -29,7 +29,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534246",
+        "first_detected": "2026-01-24T03:25:24.178327",
         "source": "emergent"
       },
       {
@@ -60,7 +60,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534250",
+        "first_detected": "2026-01-24T03:25:24.178332",
         "source": "reference_db",
         "alternatives": []
       },
@@ -90,7 +90,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534254",
+        "first_detected": "2026-01-24T03:25:24.178337",
         "source": "reference_db",
         "alternatives": []
       },
@@ -99,19 +99,19 @@
         "name": "économie\\prix",
         "confidence": 0.9,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md"
         ],
         "reasoning": {
-          "summary": "Terme 'prix' validé par scoring contextuel: score 135/30 (score contextuel: 135/30, 10 mots contexte (offre, coût, valeur...), 1 auteurs (smith), discipline: économie)",
+          "summary": "Terme 'prix' validé par scoring contextuel: score 135/30 (score contextuel: 135/30, 10 mots contexte (marché, vente, achat...), 1 auteurs (smith), discipline: économie)",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
@@ -122,7 +122,7 @@
             "confidence": 0.9,
             "reasons": [
               "score contextuel: 135/30",
-              "10 mots contexte (offre, coût, valeur...)",
+              "10 mots contexte (marché, vente, achat...)",
               "1 auteurs (smith)",
               "discipline: économie"
             ],
@@ -134,16 +134,16 @@
               "auteurs": 20,
               "discipline": 15,
               "mots_found": [
-                "offre",
-                "coût",
-                "valeur",
-                "commerce",
-                "vente",
-                "demande",
                 "marché",
+                "vente",
                 "achat",
+                "demande",
+                "coût",
                 "échange",
-                "monnaie"
+                "commerce",
+                "valeur",
+                "monnaie",
+                "offre"
               ],
               "auteurs_found": [
                 "smith"
@@ -154,7 +154,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534258",
+        "first_detected": "2026-01-24T03:25:24.178341",
         "source": "emergent"
       },
       {
@@ -179,7 +179,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534261",
+        "first_detected": "2026-01-24T03:25:24.178344",
         "source": "reference_db",
         "alternatives": []
       },
@@ -203,7 +203,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534264",
+        "first_detected": "2026-01-24T03:25:24.178348",
         "source": "reference_db",
         "alternatives": []
       },
@@ -227,7 +227,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534267",
+        "first_detected": "2026-01-24T03:25:24.178351",
         "source": "reference_db",
         "alternatives": []
       },
@@ -251,7 +251,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534273",
+        "first_detected": "2026-01-24T03:25:24.178358",
         "source": "reference_db",
         "alternatives": [
           {
@@ -282,7 +282,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534277",
+        "first_detected": "2026-01-24T03:25:24.178362",
         "source": "reference_db",
         "alternatives": []
       },
@@ -308,7 +308,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534279",
+        "first_detected": "2026-01-24T03:25:24.178365",
         "source": "reference_db",
         "alternatives": []
       },
@@ -332,7 +332,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534282",
+        "first_detected": "2026-01-24T03:25:24.178369",
         "source": "reference_db",
         "alternatives": []
       },
@@ -356,7 +356,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534285",
+        "first_detected": "2026-01-24T03:25:24.178372",
         "source": "reference_db",
         "alternatives": []
       },
@@ -388,7 +388,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534287",
+        "first_detected": "2026-01-24T03:25:24.178375",
         "source": "context_secondary",
         "alternatives": []
       },
@@ -412,7 +412,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534290",
+        "first_detected": "2026-01-24T03:25:24.178378",
         "source": "reference_db",
         "alternatives": []
       },
@@ -438,7 +438,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534293",
+        "first_detected": "2026-01-24T03:25:24.178381",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -468,7 +468,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534295",
+        "first_detected": "2026-01-24T03:25:24.178384",
         "source": "reference_db",
         "alternatives": [
           {
@@ -498,7 +498,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534298",
+        "first_detected": "2026-01-24T03:25:24.178387",
         "source": "reference_db",
         "alternatives": [
           {
@@ -531,7 +531,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534300",
+        "first_detected": "2026-01-24T03:25:24.178391",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -555,7 +555,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534303",
+        "first_detected": "2026-01-24T03:25:24.178394",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -585,7 +585,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534305",
+        "first_detected": "2026-01-24T03:25:24.178396",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -619,7 +619,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534308",
+        "first_detected": "2026-01-24T03:25:24.178399",
         "source": "context_primary",
         "alternatives": []
       },
@@ -643,7 +643,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534310",
+        "first_detected": "2026-01-24T03:25:24.178402",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -667,7 +667,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534312",
+        "first_detected": "2026-01-24T03:25:24.178405",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -680,7 +680,7 @@
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md"
         ],
         "reasoning": {
-          "summary": "Terme 'matière' validé par scoring contextuel: score 45/30 (score contextuel: 45/30, 3 mots contexte (état, masse, particule...), discipline: physique)",
+          "summary": "Terme 'matière' validé par scoring contextuel: score 45/30 (score contextuel: 45/30, 3 mots contexte (masse, état, particule...), discipline: physique)",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
@@ -691,7 +691,7 @@
             "confidence": 0.725,
             "reasons": [
               "score contextuel: 45/30",
-              "3 mots contexte (état, masse, particule...)",
+              "3 mots contexte (masse, état, particule...)",
               "discipline: physique"
             ],
             "category": "valide_si_contexte",
@@ -702,8 +702,8 @@
               "auteurs": 0,
               "discipline": 15,
               "mots_found": [
-                "état",
                 "masse",
+                "état",
                 "particule"
               ],
               "auteurs_found": [],
@@ -713,7 +713,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534315",
+        "first_detected": "2026-01-24T03:25:24.178408",
         "source": "emergent"
       },
       {
@@ -721,8 +721,8 @@
         "name": "physique\\mécanique\\force",
         "confidence": 0.68,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4) 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md"
         ],
         "reasoning": {
@@ -758,7 +758,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-23T10:35:06.534318",
+        "first_detected": "2026-01-24T03:25:24.178411",
         "source": "emergent"
       }
     ],
@@ -945,8 +945,8 @@
         "vii,"
       ],
       "suggested_tags": [
-        "livre",
         "note-The_Wealth_of_Nations",
+        "livre",
         "note-livre"
       ]
     },
@@ -972,9 +972,9 @@
         "**monster**"
       ],
       "suggested_tags": [
+        "Crime-Mystery",
         "Kuniaki-Haishima",
-        "Madhouse",
-        "Crime-Mystery"
+        "Madhouse"
       ]
     },
     {
