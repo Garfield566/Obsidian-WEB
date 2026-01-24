@@ -111,8 +111,25 @@ class SuggestionGenerator:
         """Sauvegarde les suggestions dans un fichier JSON."""
         output = self.generate(vault_hash)
 
+        # Convertir en dict et nettoyer les types non-JSON (set → list)
+        output_dict = self._make_json_serializable(asdict(output))
+
         with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(asdict(output), f, indent=2, ensure_ascii=False)
+            json.dump(output_dict, f, indent=2, ensure_ascii=False)
+
+    def _make_json_serializable(self, obj):
+        """Convertit récursivement les types non-JSON (set, etc.) en types JSON."""
+        if isinstance(obj, dict):
+            return {k: self._make_json_serializable(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [self._make_json_serializable(item) for item in obj]
+        elif isinstance(obj, set):
+            return list(obj)
+        elif isinstance(obj, (int, float, str, bool, type(None))):
+            return obj
+        else:
+            # Fallback: convertir en string
+            return str(obj)
 
     def _format_new_tag(self, tag) -> dict:
         """Formate une suggestion de nouveau tag.
