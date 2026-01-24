@@ -21,6 +21,7 @@ class SuggestionsOutput:
     suggestions: dict = None
     clusters: list = None
     stats: dict = None
+    vocabulary_actions: list = None  # Raccourcis vocabulaire Wiktionnaire
 
     def __post_init__(self):
         if self.suggestions is None:
@@ -34,6 +35,8 @@ class SuggestionsOutput:
             self.clusters = []
         if self.stats is None:
             self.stats = {}
+        if self.vocabulary_actions is None:
+            self.vocabulary_actions = []
 
 
 class SuggestionGenerator:
@@ -98,6 +101,9 @@ class SuggestionGenerator:
 
         # Statistiques
         output.stats = self._generate_stats()
+
+        # Actions vocabulaire Wiktionnaire
+        output.vocabulary_actions = self._generate_vocabulary_actions()
 
         return output
 
@@ -254,3 +260,52 @@ class SuggestionGenerator:
         # Hash basé sur le nombre de notes et tags
         content = f"{self.total_notes}_{self.total_tags}_{datetime.now().date()}"
         return hashlib.md5(content.encode()).hexdigest()[:8]
+
+    def _generate_vocabulary_actions(self) -> list[dict]:
+        """Génère les actions disponibles pour le vocabulaire Wiktionnaire.
+
+        Ces actions sont affichées dans le panneau de suggestions du plugin
+        pour permettre à l'utilisateur de gérer le vocabulaire de domaine.
+        """
+        return [
+            {
+                "id": "vocab_browse",
+                "name": "Navigateur Vocabulaire",
+                "description": "Explorer les catégories Wiktionnaire et ajouter du vocabulaire",
+                "command": "browse_vocabulary",
+                "icon": "book-open",
+                "type": "interactive",
+            },
+            {
+                "id": "vocab_refresh_all",
+                "name": "Rafraîchir tout le vocabulaire",
+                "description": "Met à jour le vocabulaire de tous les domaines configurés",
+                "command": "refresh_vocabulary",
+                "icon": "refresh-cw",
+                "type": "batch",
+            },
+            {
+                "id": "vocab_refresh_domain",
+                "name": "Rafraîchir un domaine",
+                "description": "Met à jour le vocabulaire d'un domaine spécifique",
+                "command": "refresh_vocabulary",
+                "icon": "folder-sync",
+                "type": "domain_select",
+                "domains": self._get_available_domains(),
+            },
+        ]
+
+    def _get_available_domains(self) -> list[str]:
+        """Retourne la liste des domaines disponibles pour le rafraîchissement."""
+        try:
+            from ..wikidata_extractor.config import DOMAIN_CONFIG
+            return list(DOMAIN_CONFIG.keys())
+        except ImportError:
+            # Fallback si la config n'est pas disponible
+            return [
+                "mathématiques",
+                "physique",
+                "chimie",
+                "biologie",
+                "informatique",
+            ]

@@ -1,199 +1,343 @@
 {
-  "_description": "Mots valise validés uniquement si contexte fort. Score = mots_contexte(×10) + auteurs(×20) + discipline_tag(×15)",
+  "_description": "Vocabulaire avec validation croisée par domaine",
+  "_niveaux": {
+    "VSC": "Valide Si Contexte - vocabulaire technique spécifique. Validé si: 1 autre VSC même domaine OU 4 VSCA même domaine",
+    "VSCA": "Valide Si Contexte Appuyé - vocabulaire courant/ambigu. Validé si: 3 autres mots même domaine DONT 1 VSC minimum"
+  },
 
   "triangle": {
-    "discipline": "mathématiques\\géométrie",
-    "mots_contexte": ["géométrie", "angle", "pythagore", "côté", "hypoténuse", "rectangle", "isocèle", "équilatéral", "sommet", "médiane", "hauteur", "bissectrice"],
-    "auteurs": ["euclide", "pythagore", "thalès"],
-    "seuil_minimum": 30
+    "domaine": "mathématiques\\géométrie",
+    "niveau": "VSC",
+    "mots_lies": ["angle", "pythagore", "côté", "hypoténuse", "géométrie", "sommet", "médiane"]
   },
 
-  "prix": {
-    "discipline": "économie",
-    "mots_contexte": ["marché", "offre", "demande", "coût", "monnaie", "inflation", "valeur", "échange", "commerce", "achat", "vente"],
-    "auteurs": ["ricardo", "smith", "marx", "keynes", "walras", "marshall", "samuelson"],
-    "seuil_minimum": 30
+  "angle": {
+    "domaine": "mathématiques\\géométrie",
+    "niveau": "VSC",
+    "mots_lies": ["triangle", "degré", "radian", "géométrie", "perpendiculaire", "parallèle"]
   },
 
-  "valeur": {
-    "discipline": "économie",
-    "mots_contexte": ["travail", "prix", "échange", "marchandise", "capital", "plus-value", "utilité", "rareté"],
-    "auteurs": ["marx", "ricardo", "smith", "jevons", "menger", "walras"],
-    "seuil_minimum": 30
-  },
-
-  "travail": {
-    "discipline": "économie",
-    "mots_contexte": ["salaire", "capital", "production", "ouvrier", "prolétariat", "division", "manufacture"],
-    "auteurs": ["marx", "smith", "ricardo", "taylor", "ford"],
-    "seuil_minimum": 30
-  },
-
-  "capital": {
-    "discipline": "économie",
-    "mots_contexte": ["travail", "profit", "investissement", "accumulation", "bourgeoisie", "production"],
-    "auteurs": ["marx", "smith", "ricardo", "keynes", "piketty"],
-    "seuil_minimum": 30
-  },
-
-  "liberté": {
-    "discipline": "philosophie",
-    "mots_contexte": ["volonté", "déterminisme", "libre-arbitre", "autonomie", "contrainte", "nécessité", "choix"],
-    "auteurs": ["kant", "sartre", "spinoza", "hegel", "rousseau", "locke", "mill"],
-    "seuil_minimum": 30
-  },
-
-  "raison": {
-    "discipline": "philosophie",
-    "mots_contexte": ["entendement", "logique", "rationalité", "critique", "connaissance", "jugement", "a priori"],
-    "auteurs": ["kant", "descartes", "hegel", "leibniz", "spinoza", "platon", "aristote"],
-    "seuil_minimum": 30
-  },
-
-  "conscience": {
-    "discipline": "philosophie",
-    "mots_contexte": ["intentionnalité", "phénoménologie", "cogito", "sujet", "perception", "réflexion"],
-    "auteurs": ["husserl", "sartre", "heidegger", "descartes", "hegel", "freud"],
-    "seuil_minimum": 30
-  },
-
-  "existence": {
-    "discipline": "philosophie",
-    "mots_contexte": ["essence", "être", "néant", "angoisse", "authenticité", "dasein", "phénoménologie"],
-    "auteurs": ["sartre", "heidegger", "kierkegaard", "camus", "jaspers"],
-    "seuil_minimum": 30
-  },
-
-  "pouvoir": {
-    "discipline": "philosophie\\politique",
-    "mots_contexte": ["domination", "autorité", "souveraineté", "état", "gouvernement", "légitimité"],
-    "auteurs": ["foucault", "weber", "hobbes", "machiavel", "arendt", "bourdieu"],
-    "seuil_minimum": 30
-  },
-
-  "société": {
-    "discipline": "sociologie",
-    "mots_contexte": ["classe", "institution", "norme", "structure", "individu", "collectif", "solidarité"],
-    "auteurs": ["durkheim", "weber", "marx", "bourdieu", "parsons", "tönnies"],
-    "seuil_minimum": 30
-  },
-
-  "classe": {
-    "discipline": "sociologie",
-    "mots_contexte": ["bourgeoisie", "prolétariat", "capital", "domination", "reproduction", "habitus"],
-    "auteurs": ["marx", "bourdieu", "weber", "goldthorpe"],
-    "seuil_minimum": 30
-  },
-
-  "anomie": {
-    "discipline": "sociologie",
-    "mots_contexte": ["norme", "déviance", "suicide", "régulation", "intégration", "solidarité"],
-    "auteurs": ["durkheim", "merton"],
-    "seuil_minimum": 20
+  "pythagore": {
+    "domaine": "mathématiques\\géométrie",
+    "niveau": "VSC",
+    "mots_lies": ["triangle", "hypoténuse", "théorème", "carré"]
   },
 
   "fonction": {
-    "discipline": "mathématiques\\analyse",
-    "mots_contexte": ["variable", "dérivée", "intégrale", "limite", "continuité", "graphe", "domaine", "image"],
-    "auteurs": ["euler", "cauchy", "weierstrass", "riemann", "leibniz"],
-    "seuil_minimum": 30
+    "domaine": "mathématiques\\analyse",
+    "niveau": "VSCA",
+    "mots_lies": ["variable", "dérivée", "intégrale", "limite", "continuité", "graphe"]
   },
 
   "intégrale": {
-    "discipline": "mathématiques\\analyse",
-    "mots_contexte": ["primitive", "aire", "somme", "riemann", "lebesgue", "convergence", "mesure"],
-    "auteurs": ["riemann", "lebesgue", "newton", "leibniz", "cauchy"],
-    "seuil_minimum": 30
+    "domaine": "mathématiques\\analyse",
+    "niveau": "VSC",
+    "mots_lies": ["primitive", "aire", "riemann", "lebesgue", "convergence", "fonction", "dérivée"]
+  },
+
+  "dérivée": {
+    "domaine": "mathématiques\\analyse",
+    "niveau": "VSC",
+    "mots_lies": ["fonction", "limite", "tangente", "taux", "variation", "différentielle"]
   },
 
   "limite": {
-    "discipline": "mathématiques\\analyse",
-    "mots_contexte": ["convergence", "suite", "epsilon", "delta", "continuité", "infini"],
-    "auteurs": ["cauchy", "weierstrass", "bolzano"],
-    "seuil_minimum": 30
+    "domaine": "mathématiques\\analyse",
+    "niveau": "VSCA",
+    "mots_lies": ["convergence", "suite", "epsilon", "continuité", "fonction", "infini"]
+  },
+
+  "convergence": {
+    "domaine": "mathématiques\\analyse",
+    "niveau": "VSC",
+    "mots_lies": ["suite", "série", "limite", "critère", "rayon"]
   },
 
   "groupe": {
-    "discipline": "mathématiques\\algèbre",
-    "mots_contexte": ["opération", "élément neutre", "inverse", "symétrie", "permutation", "morphisme", "sous-groupe"],
-    "auteurs": ["galois", "abel", "cayley", "lagrange", "sylow"],
-    "seuil_minimum": 30
+    "domaine": "mathématiques\\algèbre",
+    "niveau": "VSC",
+    "mots_lies": ["opération", "neutre", "inverse", "symétrie", "morphisme", "sous-groupe", "galois"]
+  },
+
+  "matrice": {
+    "domaine": "mathématiques\\algèbre-linéaire",
+    "niveau": "VSC",
+    "mots_lies": ["déterminant", "vecteur", "inverse", "transposée", "rang", "valeur propre"]
+  },
+
+  "déterminant": {
+    "domaine": "mathématiques\\algèbre-linéaire",
+    "niveau": "VSC",
+    "mots_lies": ["matrice", "inverse", "système", "linéaire", "rang"]
   },
 
   "espace": {
-    "discipline": "mathématiques\\topologie",
-    "mots_contexte": ["topologie", "métrique", "dimension", "vecteur", "norme", "ouvert", "compact", "connexe"],
-    "auteurs": ["hilbert", "banach", "hausdorff", "riemann", "euclide"],
-    "seuil_minimum": 30
+    "domaine": "mathématiques\\topologie",
+    "niveau": "VSCA",
+    "mots_lies": ["topologie", "métrique", "dimension", "vecteur", "norme", "ouvert", "compact"]
+  },
+
+  "prix": {
+    "domaine": "économie",
+    "niveau": "VSCA",
+    "mots_lies": ["marché", "offre", "demande", "coût", "monnaie", "valeur", "échange"]
+  },
+
+  "valeur": {
+    "domaine": "économie",
+    "niveau": "VSCA",
+    "mots_lies": ["travail", "prix", "échange", "marchandise", "capital", "utilité"]
+  },
+
+  "travail": {
+    "domaine": "économie",
+    "niveau": "VSCA",
+    "mots_lies": ["salaire", "capital", "production", "ouvrier", "division", "manufacture"]
+  },
+
+  "capital": {
+    "domaine": "économie",
+    "niveau": "VSCA",
+    "mots_lies": ["travail", "profit", "investissement", "accumulation", "production"]
+  },
+
+  "monnaie": {
+    "domaine": "économie",
+    "niveau": "VSCA",
+    "mots_lies": ["prix", "échange", "or", "argent", "cuivre", "valeur", "banque"]
+  },
+
+  "inflation": {
+    "domaine": "économie",
+    "niveau": "VSC",
+    "mots_lies": ["prix", "monnaie", "déflation", "banque centrale", "taux"]
+  },
+
+  "sesterce": {
+    "domaine": "numismatique\\rome",
+    "niveau": "VSC",
+    "mots_lies": ["as", "denarius", "romains", "cuivre", "argent", "monnaie"]
+  },
+
+  "as": {
+    "domaine": "numismatique\\rome",
+    "niveau": "VSC",
+    "mots_lies": ["sesterce", "denarius", "romains", "cuivre", "monnaie"]
+  },
+
+  "denarius": {
+    "domaine": "numismatique\\rome",
+    "niveau": "VSC",
+    "mots_lies": ["sesterce", "as", "romains", "argent", "monnaie"]
+  },
+
+  "liberté": {
+    "domaine": "philosophie",
+    "niveau": "VSCA",
+    "mots_lies": ["volonté", "déterminisme", "libre-arbitre", "autonomie", "contrainte", "choix"]
+  },
+
+  "raison": {
+    "domaine": "philosophie",
+    "niveau": "VSCA",
+    "mots_lies": ["entendement", "logique", "rationalité", "critique", "connaissance", "jugement"]
+  },
+
+  "conscience": {
+    "domaine": "philosophie",
+    "niveau": "VSCA",
+    "mots_lies": ["intentionnalité", "phénoménologie", "cogito", "sujet", "perception"]
+  },
+
+  "existence": {
+    "domaine": "philosophie\\existentialisme",
+    "niveau": "VSC",
+    "mots_lies": ["essence", "être", "néant", "angoisse", "authenticité", "dasein"]
+  },
+
+  "cogito": {
+    "domaine": "philosophie",
+    "niveau": "VSC",
+    "mots_lies": ["descartes", "conscience", "pensée", "doute", "certitude"]
+  },
+
+  "impératif catégorique": {
+    "domaine": "philosophie\\éthique",
+    "niveau": "VSC",
+    "mots_lies": ["kant", "morale", "devoir", "universalité", "maxime"]
+  },
+
+  "pouvoir": {
+    "domaine": "philosophie\\politique",
+    "niveau": "VSCA",
+    "mots_lies": ["domination", "autorité", "souveraineté", "état", "gouvernement"]
+  },
+
+  "société": {
+    "domaine": "sociologie",
+    "niveau": "VSCA",
+    "mots_lies": ["classe", "institution", "norme", "structure", "individu", "collectif"]
+  },
+
+  "classe": {
+    "domaine": "sociologie",
+    "niveau": "VSCA",
+    "mots_lies": ["bourgeoisie", "prolétariat", "capital", "domination", "habitus"]
+  },
+
+  "anomie": {
+    "domaine": "sociologie",
+    "niveau": "VSC",
+    "mots_lies": ["norme", "déviance", "suicide", "régulation", "durkheim", "solidarité"]
+  },
+
+  "habitus": {
+    "domaine": "sociologie",
+    "niveau": "VSC",
+    "mots_lies": ["bourdieu", "classe", "champ", "capital", "reproduction"]
   },
 
   "révolution": {
-    "discipline": "histoire",
-    "mots_contexte": ["révolte", "insurrection", "renversement", "régime", "monarchie", "république", "peuple"],
-    "auteurs": ["tocqueville", "furet", "soboul", "mathiez", "marx"],
-    "seuil_minimum": 30
+    "domaine": "histoire",
+    "niveau": "VSCA",
+    "mots_lies": ["révolte", "insurrection", "renversement", "régime", "monarchie", "république"]
   },
 
   "guerre": {
-    "discipline": "histoire",
-    "mots_contexte": ["bataille", "armée", "stratégie", "conflit", "traité", "paix", "alliance", "militaire"],
-    "auteurs": ["clausewitz", "sun tzu", "thucydide"],
-    "seuil_minimum": 30
+    "domaine": "histoire",
+    "niveau": "VSCA",
+    "mots_lies": ["bataille", "armée", "stratégie", "conflit", "traité", "paix", "alliance"]
   },
 
   "empire": {
-    "discipline": "histoire",
-    "mots_contexte": ["empereur", "conquête", "province", "colonie", "expansion", "territoire", "dynastie"],
-    "auteurs": [],
-    "seuil_minimum": 30
+    "domaine": "histoire",
+    "niveau": "VSCA",
+    "mots_lies": ["empereur", "conquête", "province", "colonie", "expansion", "territoire"]
+  },
+
+  "romains": {
+    "domaine": "histoire\\rome",
+    "niveau": "VSC",
+    "mots_lies": ["rome", "république", "empire", "sénat", "consul", "légion"]
+  },
+
+  "sénat": {
+    "domaine": "histoire\\rome",
+    "niveau": "VSC",
+    "mots_lies": ["romains", "république", "consul", "patricien", "plébéien"]
+  },
+
+  "consul": {
+    "domaine": "histoire\\rome",
+    "niveau": "VSC",
+    "mots_lies": ["romains", "république", "sénat", "magistrat", "imperium"]
+  },
+
+  "légion": {
+    "domaine": "histoire\\rome",
+    "niveau": "VSC",
+    "mots_lies": ["romains", "armée", "centurion", "cohorte", "militaire"]
+  },
+
+  "carthage": {
+    "domaine": "histoire\\carthage",
+    "niveau": "VSC",
+    "mots_lies": ["hannibal", "punique", "phénicien", "méditerranée", "rome"]
+  },
+
+  "hannibal": {
+    "domaine": "histoire\\carthage",
+    "niveau": "VSC",
+    "mots_lies": ["carthage", "punique", "alpes", "éléphants", "rome", "scipion"]
+  },
+
+  "punique": {
+    "domaine": "histoire\\carthage",
+    "niveau": "VSCA",
+    "mots_lies": ["carthage", "hannibal", "rome", "guerre", "méditerranée"]
   },
 
   "matière": {
-    "discipline": "physique",
-    "mots_contexte": ["atome", "molécule", "particule", "masse", "énergie", "état", "solide", "liquide", "gaz"],
-    "auteurs": ["bohr", "rutherford", "dalton", "lavoisier"],
-    "seuil_minimum": 30
+    "domaine": "physique",
+    "niveau": "VSCA",
+    "mots_lies": ["atome", "molécule", "particule", "masse", "énergie", "état"]
   },
 
   "énergie": {
-    "discipline": "physique",
-    "mots_contexte": ["travail", "force", "masse", "cinétique", "potentielle", "conservation", "chaleur"],
-    "auteurs": ["einstein", "joule", "helmholtz", "carnot"],
-    "seuil_minimum": 30
+    "domaine": "physique",
+    "niveau": "VSCA",
+    "mots_lies": ["travail", "force", "masse", "cinétique", "potentielle", "conservation"]
   },
 
   "force": {
-    "discipline": "physique\\mécanique",
-    "mots_contexte": ["masse", "accélération", "newton", "gravitation", "mouvement", "inertie", "vecteur"],
-    "auteurs": ["newton", "galileo", "euler", "lagrange"],
-    "seuil_minimum": 30
+    "domaine": "physique\\mécanique",
+    "niveau": "VSCA",
+    "mots_lies": ["masse", "accélération", "newton", "gravitation", "mouvement", "inertie"]
+  },
+
+  "gravitation": {
+    "domaine": "physique\\mécanique",
+    "niveau": "VSC",
+    "mots_lies": ["newton", "masse", "attraction", "planète", "orbite", "kepler"]
+  },
+
+  "quantique": {
+    "domaine": "physique\\mécanique-quantique",
+    "niveau": "VSC",
+    "mots_lies": ["onde", "particule", "heisenberg", "schrödinger", "superposition", "planck"]
   },
 
   "sélection": {
-    "discipline": "biologie\\évolution",
-    "mots_contexte": ["naturelle", "espèce", "adaptation", "variation", "hérédité", "survie", "reproduction"],
-    "auteurs": ["darwin", "wallace", "mendel", "fisher", "gould"],
-    "seuil_minimum": 30
+    "domaine": "biologie\\évolution",
+    "niveau": "VSCA",
+    "mots_lies": ["naturelle", "espèce", "adaptation", "variation", "darwin", "survie"]
+  },
+
+  "darwin": {
+    "domaine": "biologie\\évolution",
+    "niveau": "VSC",
+    "mots_lies": ["sélection", "espèce", "évolution", "origine", "variation", "adaptation"]
   },
 
   "cellule": {
-    "discipline": "biologie",
-    "mots_contexte": ["membrane", "noyau", "cytoplasme", "organite", "division", "mitose", "méiose"],
-    "auteurs": ["schwann", "schleiden", "virchow"],
-    "seuil_minimum": 30
+    "domaine": "biologie",
+    "niveau": "VSC",
+    "mots_lies": ["membrane", "noyau", "cytoplasme", "organite", "division", "mitose"]
+  },
+
+  "adn": {
+    "domaine": "biologie\\génétique",
+    "niveau": "VSC",
+    "mots_lies": ["gène", "chromosome", "hérédité", "nucléotide", "génome", "mutation"]
   },
 
   "inconscient": {
-    "discipline": "psychologie\\psychanalyse",
-    "mots_contexte": ["refoulement", "pulsion", "rêve", "complexe", "ça", "moi", "surmoi", "libido"],
-    "auteurs": ["freud", "jung", "lacan", "klein"],
-    "seuil_minimum": 30
+    "domaine": "psychologie\\psychanalyse",
+    "niveau": "VSC",
+    "mots_lies": ["refoulement", "pulsion", "rêve", "freud", "ça", "moi", "surmoi"]
+  },
+
+  "refoulement": {
+    "domaine": "psychologie\\psychanalyse",
+    "niveau": "VSC",
+    "mots_lies": ["inconscient", "freud", "pulsion", "défense", "névrose"]
   },
 
   "structure": {
-    "discipline": "linguistique",
-    "mots_contexte": ["langue", "signe", "signifiant", "signifié", "système", "paradigme", "syntagme"],
-    "auteurs": ["saussure", "lévi-strauss", "jakobson", "chomsky"],
-    "seuil_minimum": 30
+    "domaine": "linguistique",
+    "niveau": "VSCA",
+    "mots_lies": ["langue", "signe", "signifiant", "signifié", "système", "paradigme"]
+  },
+
+  "signifiant": {
+    "domaine": "linguistique",
+    "niveau": "VSC",
+    "mots_lies": ["signifié", "signe", "saussure", "langue", "arbitraire"]
+  },
+
+  "signifié": {
+    "domaine": "linguistique",
+    "niveau": "VSC",
+    "mots_lies": ["signifiant", "signe", "saussure", "concept", "sens"]
   }
 }

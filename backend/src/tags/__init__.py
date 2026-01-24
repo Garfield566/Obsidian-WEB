@@ -18,6 +18,10 @@ from .emergent_detector import (
     EmergentTagSuggestion,
     detect_emergent_tags_in_clusters,
 )
+from .vocabulary import (
+    browse_vocabulary,
+    refresh_vocabulary,
+)
 
 __all__ = [
     "TagHealthAnalyzer",
@@ -37,4 +41,7 @@ __all__ = [
     "EmergentTagDetector",
     "EmergentTagSuggestion",
     "detect_emergent_tags_in_clusters",
+    # Vocabulaire Wiktionnaire
+    "browse_vocabulary",
+    "refresh_vocabulary",
 ]

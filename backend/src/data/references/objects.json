@@ -1,0 +1,224 @@
+{
+  "_description": "Objets spécifiques - tags plats (1-4 mots de vocabulaire)",
+  "_regles": {
+    "validation": "Au moins 1 mot déclencheur présent dans la note",
+    "condition": "Le domaine parent doit être validé par la cascade hiérarchique",
+    "resultat": "Tag plat (pas de sous-niveau hiérarchique)"
+  },
+
+  "intégrale-de-riemann": {
+    "mots_declencheurs": ["riemann", "partition", "somme de darboux", "somme de riemann"],
+    "seuil": 1,
+    "domaine_parent": "mathématiques\\analyse\\calcul-intégral"
+  },
+
+  "intégrale-de-lebesgue": {
+    "mots_declencheurs": ["lebesgue", "mesure", "ensemble mesurable", "sigma-algèbre"],
+    "seuil": 1,
+    "domaine_parent": "mathématiques\\analyse\\calcul-intégral"
+  },
+
+  "théorème-de-pythagore": {
+    "mots_declencheurs": ["pythagore", "hypoténuse", "triangle rectangle"],
+    "seuil": 1,
+    "domaine_parent": "mathématiques\\géométrie"
+  },
+
+  "théorème-de-thalès": {
+    "mots_declencheurs": ["thalès", "parallèle", "proportionnel", "sécante"],
+    "seuil": 1,
+    "domaine_parent": "mathématiques\\géométrie"
+  },
+
+  "équation-de-schrödinger": {
+    "mots_declencheurs": ["schrödinger", "fonction d'onde", "hamiltonien", "psi"],
+    "seuil": 1,
+    "domaine_parent": "physique\\mécanique-quantique"
+  },
+
+  "principe-d-incertitude": {
+    "mots_declencheurs": ["heisenberg", "incertitude", "position", "impulsion", "commutateur"],
+    "seuil": 1,
+    "domaine_parent": "physique\\mécanique-quantique"
+  },
+
+  "lois-de-newton": {
+    "mots_declencheurs": ["newton", "inertie", "action-réaction", "f=ma"],
+    "seuil": 1,
+    "domaine_parent": "physique\\mécanique-classique"
+  },
+
+  "lois-de-kepler": {
+    "mots_declencheurs": ["kepler", "ellipse", "aires", "période"],
+    "seuil": 1,
+    "domaine_parent": "physique\\mécanique-classique\\mécanique-céleste"
+  },
+
+  "équations-de-maxwell": {
+    "mots_declencheurs": ["maxwell", "divergence", "rotationnel", "flux"],
+    "seuil": 1,
+    "domaine_parent": "physique\\électromagnétisme"
+  },
+
+  "sélection-naturelle": {
+    "mots_declencheurs": ["darwin", "sélection", "adaptation", "fitness", "survie"],
+    "seuil": 1,
+    "domaine_parent": "biologie\\évolution"
+  },
+
+  "double-hélice": {
+    "mots_declencheurs": ["adn", "watson", "crick", "hélice", "base azotée"],
+    "seuil": 1,
+    "domaine_parent": "biologie\\génétique"
+  },
+
+  "lois-de-mendel": {
+    "mots_declencheurs": ["mendel", "dominance", "ségrégation", "assortiment"],
+    "seuil": 1,
+    "domaine_parent": "biologie\\génétique\\génétique-mendélienne"
+  },
+
+  "complexe-d-oedipe": {
+    "mots_declencheurs": ["oedipe", "père", "mère", "freud", "castration"],
+    "seuil": 1,
+    "domaine_parent": "psychologie\\psychanalyse\\psychanalyse-freudienne"
+  },
+
+  "stade-du-miroir": {
+    "mots_declencheurs": ["lacan", "miroir", "identification", "imaginaire"],
+    "seuil": 1,
+    "domaine_parent": "psychologie\\psychanalyse\\psychanalyse-lacanienne"
+  },
+
+  "cogito-ergo-sum": {
+    "mots_declencheurs": ["cogito", "descartes", "doute", "certitude", "je pense"],
+    "seuil": 1,
+    "domaine_parent": "philosophie\\rationalisme"
+  },
+
+  "impératif-catégorique": {
+    "mots_declencheurs": ["kant", "impératif", "catégorique", "maxime", "universalité"],
+    "seuil": 1,
+    "domaine_parent": "philosophie\\éthique"
+  },
+
+  "contrat-social": {
+    "mots_declencheurs": ["rousseau", "contrat", "volonté générale", "état de nature"],
+    "seuil": 1,
+    "domaine_parent": "philosophie\\philosophie-politique"
+  },
+
+  "léviathan": {
+    "mots_declencheurs": ["hobbes", "léviathan", "état de nature", "guerre de tous"],
+    "seuil": 1,
+    "domaine_parent": "philosophie\\philosophie-politique"
+  },
+
+  "allégorie-de-la-caverne": {
+    "mots_declencheurs": ["platon", "caverne", "ombres", "prisonniers", "soleil"],
+    "seuil": 1,
+    "domaine_parent": "philosophie"
+  },
+
+  "bataille-de-cannes": {
+    "mots_declencheurs": ["cannes", "hannibal", "encerclement", "varron"],
+    "seuil": 1,
+    "domaine_parent": "histoire\\histoire-carthaginoise\\guerres-puniques"
+  },
+
+  "bataille-de-zama": {
+    "mots_declencheurs": ["zama", "scipion", "hannibal", "cavalerie numide"],
+    "seuil": 1,
+    "domaine_parent": "histoire\\histoire-carthaginoise\\guerres-puniques"
+  },
+
+  "guerre-des-gaules": {
+    "mots_declencheurs": ["césar", "gaule", "vercingétorix", "alésia"],
+    "seuil": 1,
+    "domaine_parent": "histoire\\histoire-romaine\\république-romaine"
+  },
+
+  "ides-de-mars": {
+    "mots_declencheurs": ["ides", "mars", "césar", "brutus", "assassinat"],
+    "seuil": 1,
+    "domaine_parent": "histoire\\histoire-romaine\\république-romaine"
+  },
+
+  "chute-de-rome": {
+    "mots_declencheurs": ["chute", "476", "romulus augustule", "odoacre"],
+    "seuil": 1,
+    "domaine_parent": "histoire\\histoire-romaine\\empire-romain"
+  },
+
+  "guerres-médiques": {
+    "mots_declencheurs": ["marathon", "salamine", "thermopyles", "xerxès", "darius"],
+    "seuil": 1,
+    "domaine_parent": "histoire\\histoire-grecque"
+  },
+
+  "guerre-du-péloponnèse": {
+    "mots_declencheurs": ["péloponnèse", "athènes", "sparte", "thucydide", "périclès"],
+    "seuil": 1,
+    "domaine_parent": "histoire\\histoire-grecque"
+  },
+
+  "aureus": {
+    "mots_declencheurs": ["aureus", "or", "empereur", "solidus"],
+    "seuil": 1,
+    "domaine_parent": "économie\\numismatique\\numismatique-romaine"
+  },
+
+  "denier-républicain": {
+    "mots_declencheurs": ["denarius", "république", "roma", "bigatus"],
+    "seuil": 1,
+    "domaine_parent": "économie\\numismatique\\numismatique-romaine"
+  },
+
+  "tétradrachme-athénien": {
+    "mots_declencheurs": ["tétradrachme", "chouette", "athéna", "athènes"],
+    "seuil": 1,
+    "domaine_parent": "économie\\numismatique\\numismatique-grecque"
+  },
+
+  "capital-symbolique": {
+    "mots_declencheurs": ["bourdieu", "capital", "symbolique", "distinction"],
+    "seuil": 1,
+    "domaine_parent": "sociologie\\sociologie-critique"
+  },
+
+  "habitus": {
+    "mots_declencheurs": ["habitus", "bourdieu", "disposition", "incorporation"],
+    "seuil": 1,
+    "domaine_parent": "sociologie\\sociologie-critique"
+  },
+
+  "suicide-anomique": {
+    "mots_declencheurs": ["durkheim", "suicide", "anomie", "régulation"],
+    "seuil": 1,
+    "domaine_parent": "sociologie\\sociologie-durkheimienne"
+  },
+
+  "cours-de-linguistique-générale": {
+    "mots_declencheurs": ["saussure", "cours", "linguistique", "générale"],
+    "seuil": 1,
+    "domaine_parent": "linguistique\\linguistique-structurale"
+  },
+
+  "grammaire-universelle": {
+    "mots_declencheurs": ["chomsky", "universelle", "grammaire", "innée"],
+    "seuil": 1,
+    "domaine_parent": "linguistique\\grammaire-générative"
+  },
+
+  "entropie": {
+    "mots_declencheurs": ["entropie", "désordre", "boltzmann", "irréversible"],
+    "seuil": 1,
+    "domaine_parent": "physique\\thermodynamique"
+  },
+
+  "machine-de-carnot": {
+    "mots_declencheurs": ["carnot", "cycle", "rendement", "réversible"],
+    "seuil": 1,
+    "domaine_parent": "physique\\thermodynamique"
+  }
+}

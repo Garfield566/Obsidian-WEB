@@ -1,0 +1,1126 @@
+{
+  "_description": "Structure hiérarchique des domaines avec vocabulaire par niveau",
+  "_regles": {
+    "heritage": "Un niveau enfant hérite du vocabulaire de tous ses parents",
+    "consommation": "Un mot utilisé pour valider un niveau ne peut pas être réutilisé pour le niveau suivant",
+    "seuils": {
+      "racine": {
+        "VSC": 1,
+        "VSCA": 3
+      },
+      "niveau_1": {
+        "VSC": 1,
+        "VSCA": 4
+      },
+      "niveau_2": {
+        "VSC": 2,
+        "VSCA": 5
+      },
+      "niveau_3_plus": {
+        "VSC": 2,
+        "VSCA": 6
+      }
+    },
+    "minimum_sous_notion": "4-5 mots uniques pour valider une sous-notion, sinon devient objet"
+  },
+  "mathématiques": {
+    "vocabulaire": {
+      "VSC": [
+        "théorème",
+        "démonstration",
+        "axiome",
+        "lemme",
+        "corollaire",
+        "conjecture"
+      ],
+      "VSCA": [
+        "équation",
+        "formule",
+        "calcul",
+        "nombre",
+        "variable",
+        "expression",
+        "ensemble"
+      ]
+    },
+    "sous_notions": {
+      "géométrie": {
+        "vocabulaire": {
+          "VSC": [
+            "triangle",
+            "angle",
+            "pythagore",
+            "cercle",
+            "polygone",
+            "aire",
+            "périmètre"
+          ],
+          "VSCA": [
+            "côté",
+            "sommet",
+            "médiane",
+            "hauteur",
+            "diagonale",
+            "surface",
+            "figure"
+          ]
+        },
+        "sous_notions": {
+          "trigonométrie": {
+            "vocabulaire": {
+              "VSC": [
+                "sinus",
+                "cosinus",
+                "tangente",
+                "radian"
+              ],
+              "VSCA": [
+                "degré",
+                "arc",
+                "cercle trigonométrique"
+              ]
+            }
+          },
+          "géométrie-euclidienne": {
+            "vocabulaire": {
+              "VSC": [
+                "euclide",
+                "parallèle",
+                "perpendiculaire",
+                "congruent"
+              ],
+              "VSCA": [
+                "droite",
+                "plan",
+                "point",
+                "segment"
+              ]
+            }
+          }
+        }
+      },
+      "analyse": {
+        "vocabulaire": {
+          "VSC": [
+            "intégrale",
+            "dérivée",
+            "convergence",
+            "continuité",
+            "différentielle"
+          ],
+          "VSCA": [
+            "fonction",
+            "limite",
+            "suite",
+            "série",
+            "graphe",
+            "courbe"
+          ]
+        },
+        "sous_notions": {
+          "calcul-différentiel": {
+            "vocabulaire": {
+              "VSC": [
+                "gradient",
+                "jacobien",
+                "hessien",
+                "taylor"
+              ],
+              "VSCA": [
+                "tangente",
+                "taux",
+                "variation",
+                "pente"
+              ]
+            }
+          },
+          "calcul-intégral": {
+            "vocabulaire": {
+              "VSC": [
+                "riemann",
+                "lebesgue",
+                "primitive",
+                "mesure"
+              ],
+              "VSCA": [
+                "aire",
+                "volume",
+                "somme",
+                "partition"
+              ]
+            }
+          }
+        }
+      },
+      "algèbre": {
+        "vocabulaire": {
+          "VSC": [
+            "groupe",
+            "anneau",
+            "corps",
+            "morphisme",
+            "isomorphisme"
+          ],
+          "VSCA": [
+            "opération",
+            "neutre",
+            "inverse",
+            "structure",
+            "loi"
+          ]
+        },
+        "sous_notions": {
+          "algèbre-linéaire": {
+            "vocabulaire": {
+              "VSC": [
+                "matrice",
+                "déterminant",
+                "valeur propre",
+                "vecteur propre",
+                "diagonalisation"
+              ],
+              "VSCA": [
+                "vecteur",
+                "espace vectoriel",
+                "base",
+                "dimension",
+                "rang",
+                "noyau"
+              ]
+            }
+          },
+          "théorie-des-groupes": {
+            "vocabulaire": {
+              "VSC": [
+                "galois",
+                "symétrique",
+                "cyclique",
+                "abélien"
+              ],
+              "VSCA": [
+                "sous-groupe",
+                "quotient",
+                "conjugaison",
+                "ordre"
+              ]
+            }
+          }
+        }
+      },
+      "topologie": {
+        "vocabulaire": {
+          "VSC": [
+            "compact",
+            "connexe",
+            "homéomorphisme",
+            "hausdorff"
+          ],
+          "VSCA": [
+            "ouvert",
+            "fermé",
+            "voisinage",
+            "métrique",
+            "norme",
+            "espace"
+          ]
+        }
+      }
+    }
+  },
+  "économie": {
+    "vocabulaire": {
+      "VSC": [
+        "inflation",
+        "déflation",
+        "PIB",
+        "macro-économie",
+        "micro-économie"
+      ],
+      "VSCA": [
+        "prix",
+        "valeur",
+        "marché",
+        "offre",
+        "demande",
+        "échange",
+        "coût"
+      ]
+    },
+    "sous_notions": {
+      "économie-politique": {
+        "vocabulaire": {
+          "VSC": [
+            "plus-value",
+            "accumulation",
+            "exploitation",
+            "aliénation"
+          ],
+          "VSCA": [
+            "travail",
+            "capital",
+            "salaire",
+            "profit",
+            "production",
+            "marchandise"
+          ]
+        }
+      },
+      "économie-monétaire": {
+        "vocabulaire": {
+          "VSC": [
+            "banque centrale",
+            "politique monétaire",
+            "taux directeur",
+            "masse monétaire"
+          ],
+          "VSCA": [
+            "monnaie",
+            "crédit",
+            "taux",
+            "intérêt",
+            "banque",
+            "liquidité"
+          ]
+        }
+      },
+      "numismatique": {
+        "vocabulaire": {
+          "VSC": [
+            "avers",
+            "revers",
+            "frappe",
+            "atelier",
+            "exergue",
+            "légende"
+          ],
+          "VSCA": [
+            "pièce",
+            "médaille",
+            "effigie",
+            "métal",
+            "alliage",
+            "collection"
+          ]
+        },
+        "sous_notions": {
+          "numismatique-romaine": {
+            "vocabulaire": {
+              "VSC": [
+                "sesterce",
+                "as",
+                "denarius",
+                "aureus",
+                "antoninien"
+              ],
+              "VSCA": [
+                "bronze",
+                "cuivre",
+                "argent",
+                "or",
+                "empereur",
+                "province"
+              ]
+            }
+          },
+          "numismatique-grecque": {
+            "vocabulaire": {
+              "VSC": [
+                "drachme",
+                "obole",
+                "statère",
+                "tétradrachme"
+              ],
+              "VSCA": [
+                "cité",
+                "athènes",
+                "polis",
+                "chouette"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "philosophie": {
+    "vocabulaire": {
+      "VSC": [
+        "métaphysique",
+        "ontologie",
+        "épistémologie",
+        "dialectique"
+      ],
+      "VSCA": [
+        "raison",
+        "conscience",
+        "liberté",
+        "vérité",
+        "être",
+        "pensée",
+        "connaissance"
+      ]
+    },
+    "sous_notions": {
+      "éthique": {
+        "vocabulaire": {
+          "VSC": [
+            "impératif catégorique",
+            "déontologie",
+            "conséquentialisme",
+            "vertu"
+          ],
+          "VSCA": [
+            "morale",
+            "devoir",
+            "bien",
+            "mal",
+            "justice",
+            "valeur"
+          ]
+        },
+        "sous_notions": {
+          "utilitarisme": {
+            "vocabulaire": {
+              "VSC": [
+                "bentham",
+                "mill",
+                "felicific calculus"
+              ],
+              "VSCA": [
+                "utilité",
+                "bonheur",
+                "plaisir",
+                "douleur",
+                "conséquences"
+              ]
+            }
+          }
+        }
+      },
+      "existentialisme": {
+        "vocabulaire": {
+          "VSC": [
+            "dasein",
+            "authenticité",
+            "néant",
+            "angoisse",
+            "mauvaise foi"
+          ],
+          "VSCA": [
+            "existence",
+            "essence",
+            "projet",
+            "choix",
+            "absurde",
+            "liberté"
+          ]
+        }
+      },
+      "philosophie-politique": {
+        "vocabulaire": {
+          "VSC": [
+            "contrat social",
+            "léviathan",
+            "souveraineté",
+            "état de nature"
+          ],
+          "VSCA": [
+            "pouvoir",
+            "état",
+            "gouvernement",
+            "autorité",
+            "domination",
+            "droit"
+          ]
+        }
+      },
+      "phénoménologie": {
+        "vocabulaire": {
+          "VSC": [
+            "intentionnalité",
+            "epoché",
+            "réduction",
+            "noème",
+            "noèse"
+          ],
+          "VSCA": [
+            "conscience",
+            "perception",
+            "vécu",
+            "phénomène",
+            "apparaître"
+          ]
+        }
+      },
+      "rationalisme": {
+        "vocabulaire": {
+          "VSC": [
+            "cogito",
+            "substance",
+            "innéisme",
+            "claire et distincte"
+          ],
+          "VSCA": [
+            "doute",
+            "certitude",
+            "idée",
+            "entendement",
+            "déduction"
+          ]
+        }
+      },
+      "stoïcisme": {
+        "vocabulaire": {
+          "VSC": [
+            "accord",
+            "antique",
+            "athènes",
+            "aurèle",
+            "bréhier",
+            "cicéron",
+            "cléanthe",
+            "dialectique",
+            "divisions",
+            "hellénistique",
+            "hellénistiques",
+            "incorporel",
+            "incorporels",
+            "marc",
+            "matière",
+            "mêmes",
+            "perception",
+            "posidonios",
+            "professeurs",
+            "propres",
+            "qualifié",
+            "sagesse",
+            "science",
+            "sedley",
+            "simples",
+            "stoïcisme",
+            "substrat",
+            "système",
+            "tant",
+            "éléments"
+          ],
+          "VSCA": [
+            "choses",
+            "code",
+            "corps",
+            "diogène",
+            "logique",
+            "paris",
+            "parties",
+            "philosophie",
+            "philosophique",
+            "physique",
+            "proposition",
+            "sage",
+            "stoïcienne",
+            "stoïciens",
+            "éthique"
+          ]
+        },
+        "sous_notions": {}
+      }
+    }
+  },
+  "sociologie": {
+    "vocabulaire": {
+      "VSC": [
+        "fait social",
+        "holisme",
+        "individualisme méthodologique"
+      ],
+      "VSCA": [
+        "société",
+        "institution",
+        "norme",
+        "groupe",
+        "individu",
+        "collectif"
+      ]
+    },
+    "sous_notions": {
+      "sociologie-critique": {
+        "vocabulaire": {
+          "VSC": [
+            "habitus",
+            "champ",
+            "capital symbolique",
+            "violence symbolique",
+            "reproduction"
+          ],
+          "VSCA": [
+            "classe",
+            "domination",
+            "distinction",
+            "légitimité",
+            "pouvoir"
+          ]
+        }
+      },
+      "sociologie-durkheimienne": {
+        "vocabulaire": {
+          "VSC": [
+            "anomie",
+            "solidarité mécanique",
+            "solidarité organique",
+            "conscience collective"
+          ],
+          "VSCA": [
+            "suicide",
+            "division",
+            "intégration",
+            "régulation",
+            "sacré"
+          ]
+        }
+      }
+    }
+  },
+  "histoire": {
+    "vocabulaire": {
+      "VSC": [
+        "historiographie",
+        "source primaire",
+        "anachronisme"
+      ],
+      "VSCA": [
+        "révolution",
+        "guerre",
+        "empire",
+        "royaume",
+        "dynastie",
+        "époque",
+        "siècle"
+      ]
+    },
+    "sous_notions": {
+      "histoire-romaine": {
+        "vocabulaire": {
+          "VSC": [
+            "sénat",
+            "consul",
+            "tribun",
+            "dictateur",
+            "imperium",
+            "pax romana"
+          ],
+          "VSCA": [
+            "légion",
+            "province",
+            "citoyen",
+            "patricien",
+            "plébéien",
+            "république"
+          ]
+        },
+        "sous_notions": {
+          "république-romaine": {
+            "vocabulaire": {
+              "VSC": [
+                "comices",
+                "censeur",
+                "questeur",
+                "préteur"
+              ],
+              "VSCA": [
+                "magistrat",
+                "élection",
+                "cursus honorum",
+                "veto"
+              ]
+            }
+          },
+          "empire-romain": {
+            "vocabulaire": {
+              "VSC": [
+                "principat",
+                "dominat",
+                "augustéen",
+                "antonins"
+              ],
+              "VSCA": [
+                "empereur",
+                "succession",
+                "dynastie",
+                "frontière",
+                "limes"
+              ]
+            }
+          }
+        }
+      },
+      "histoire-carthaginoise": {
+        "vocabulaire": {
+          "VSC": [
+            "suffète",
+            "tophet",
+            "baal",
+            "tanit"
+          ],
+          "VSCA": [
+            "punique",
+            "phénicien",
+            "méditerranée",
+            "comptoir",
+            "commerce"
+          ]
+        },
+        "sous_notions": {
+          "guerres-puniques": {
+            "vocabulaire": {
+              "VSC": [
+                "hannibal",
+                "scipion",
+                "zama",
+                "cannes",
+                "sagonte"
+              ],
+              "VSCA": [
+                "éléphants",
+                "alpes",
+                "mercenaire",
+                "siège",
+                "traité"
+              ]
+            }
+          }
+        }
+      },
+      "histoire-grecque": {
+        "vocabulaire": {
+          "VSC": [
+            "polis",
+            "agora",
+            "ecclésia",
+            "stratège",
+            "hoplite"
+          ],
+          "VSCA": [
+            "cité",
+            "démocratie",
+            "tyrannie",
+            "oligarchie",
+            "colonie"
+          ]
+        },
+        "sous_notions": {
+          "athènes": {
+            "vocabulaire": {
+              "VSC": [
+                "périclès",
+                "solon",
+                "clisthène",
+                "aréopage",
+                "boulè"
+              ],
+              "VSCA": [
+                "acropole",
+                "parthénon",
+                "ostracisme",
+                "métèque",
+                "esclave"
+              ]
+            }
+          },
+          "sparte": {
+            "vocabulaire": {
+              "VSC": [
+                "éphore",
+                "gérousia",
+                "agogè",
+                "cryptie"
+              ],
+              "VSCA": [
+                "hilote",
+                "périèque",
+                "égaux",
+                "guerrier",
+                "discipline"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "physique": {
+    "vocabulaire": {
+      "VSC": [
+        "loi",
+        "constante",
+        "conservation",
+        "symétrie"
+      ],
+      "VSCA": [
+        "énergie",
+        "matière",
+        "force",
+        "masse",
+        "mouvement",
+        "temps",
+        "espace"
+      ]
+    },
+    "sous_notions": {
+      "mécanique-classique": {
+        "vocabulaire": {
+          "VSC": [
+            "newton",
+            "lagrangien",
+            "hamiltonien",
+            "principe de moindre action"
+          ],
+          "VSCA": [
+            "accélération",
+            "vitesse",
+            "inertie",
+            "gravitation",
+            "orbite"
+          ]
+        },
+        "sous_notions": {
+          "mécanique-céleste": {
+            "vocabulaire": {
+              "VSC": [
+                "kepler",
+                "trois corps",
+                "perturbation",
+                "précession"
+              ],
+              "VSCA": [
+                "planète",
+                "satellite",
+                "ellipse",
+                "périhélie",
+                "aphélie"
+              ]
+            }
+          }
+        }
+      },
+      "mécanique-quantique": {
+        "vocabulaire": {
+          "VSC": [
+            "heisenberg",
+            "schrödinger",
+            "superposition",
+            "intrication",
+            "planck"
+          ],
+          "VSCA": [
+            "quantique",
+            "onde",
+            "particule",
+            "probabilité",
+            "mesure",
+            "observateur"
+          ]
+        },
+        "sous_notions": {
+          "physique-des-particules": {
+            "vocabulaire": {
+              "VSC": [
+                "boson",
+                "fermion",
+                "quark",
+                "lepton",
+                "higgs"
+              ],
+              "VSCA": [
+                "électron",
+                "proton",
+                "neutron",
+                "photon",
+                "collisionneur"
+              ]
+            }
+          }
+        }
+      },
+      "thermodynamique": {
+        "vocabulaire": {
+          "VSC": [
+            "entropie",
+            "enthalpie",
+            "carnot",
+            "boltzmann"
+          ],
+          "VSCA": [
+            "chaleur",
+            "température",
+            "pression",
+            "équilibre",
+            "réversible"
+          ]
+        }
+      },
+      "électromagnétisme": {
+        "vocabulaire": {
+          "VSC": [
+            "maxwell",
+            "faraday",
+            "ampère",
+            "lorentz"
+          ],
+          "VSCA": [
+            "champ",
+            "courant",
+            "tension",
+            "magnétique",
+            "électrique",
+            "onde"
+          ]
+        }
+      }
+    }
+  },
+  "biologie": {
+    "vocabulaire": {
+      "VSC": [
+        "cellule",
+        "organisme",
+        "métabolisme",
+        "homéostasie"
+      ],
+      "VSCA": [
+        "vie",
+        "vivant",
+        "espèce",
+        "reproduction",
+        "croissance",
+        "nutrition"
+      ]
+    },
+    "sous_notions": {
+      "évolution": {
+        "vocabulaire": {
+          "VSC": [
+            "darwin",
+            "sélection naturelle",
+            "spéciation",
+            "phylogénie",
+            "cladistique"
+          ],
+          "VSCA": [
+            "adaptation",
+            "variation",
+            "hérédité",
+            "ancêtre",
+            "descendance",
+            "mutation"
+          ]
+        }
+      },
+      "génétique": {
+        "vocabulaire": {
+          "VSC": [
+            "adn",
+            "arn",
+            "chromosome",
+            "allèle",
+            "génome",
+            "transcription"
+          ],
+          "VSCA": [
+            "gène",
+            "hérédité",
+            "mutation",
+            "expression",
+            "code",
+            "protéine"
+          ]
+        },
+        "sous_notions": {
+          "génétique-mendélienne": {
+            "vocabulaire": {
+              "VSC": [
+                "mendel",
+                "dominance",
+                "récessif",
+                "hybride"
+              ],
+              "VSCA": [
+                "croisement",
+                "caractère",
+                "phénotype",
+                "génotype",
+                "ratio"
+              ]
+            }
+          }
+        }
+      },
+      "biologie-cellulaire": {
+        "vocabulaire": {
+          "VSC": [
+            "mitose",
+            "méiose",
+            "mitochondrie",
+            "réticulum",
+            "golgi"
+          ],
+          "VSCA": [
+            "membrane",
+            "noyau",
+            "cytoplasme",
+            "organite",
+            "division"
+          ]
+        }
+      }
+    }
+  },
+  "psychologie": {
+    "vocabulaire": {
+      "VSC": [
+        "cognition",
+        "comportement",
+        "stimulus",
+        "réponse"
+      ],
+      "VSCA": [
+        "esprit",
+        "mental",
+        "perception",
+        "mémoire",
+        "apprentissage",
+        "émotion"
+      ]
+    },
+    "sous_notions": {
+      "psychanalyse": {
+        "vocabulaire": {
+          "VSC": [
+            "inconscient",
+            "refoulement",
+            "transfert",
+            "complexe",
+            "pulsion"
+          ],
+          "VSCA": [
+            "rêve",
+            "névrose",
+            "traumatisme",
+            "désir",
+            "symptôme"
+          ]
+        },
+        "sous_notions": {
+          "psychanalyse-freudienne": {
+            "vocabulaire": {
+              "VSC": [
+                "freud",
+                "ça",
+                "moi",
+                "surmoi",
+                "libido",
+                "oedipe"
+              ],
+              "VSCA": [
+                "sexualité",
+                "enfance",
+                "stade",
+                "défense",
+                "angoisse"
+              ]
+            }
+          },
+          "psychanalyse-lacanienne": {
+            "vocabulaire": {
+              "VSC": [
+                "lacan",
+                "signifiant",
+                "réel",
+                "symbolique",
+                "imaginaire"
+              ],
+              "VSCA": [
+                "langage",
+                "sujet",
+                "désir",
+                "manque",
+                "jouissance"
+              ]
+            }
+          }
+        }
+      },
+      "psychologie-cognitive": {
+        "vocabulaire": {
+          "VSC": [
+            "schéma",
+            "encodage",
+            "récupération",
+            "attention sélective"
+          ],
+          "VSCA": [
+            "traitement",
+            "information",
+            "représentation",
+            "processus"
+          ]
+        }
+      }
+    }
+  },
+  "linguistique": {
+    "vocabulaire": {
+      "VSC": [
+        "phonème",
+        "morphème",
+        "syntaxe",
+        "sémantique",
+        "pragmatique"
+      ],
+      "VSCA": [
+        "langue",
+        "langage",
+        "signe",
+        "mot",
+        "phrase",
+        "sens",
+        "structure"
+      ]
+    },
+    "sous_notions": {
+      "linguistique-structurale": {
+        "vocabulaire": {
+          "VSC": [
+            "saussure",
+            "signifiant",
+            "signifié",
+            "arbitraire",
+            "diachronie",
+            "synchronie"
+          ],
+          "VSCA": [
+            "système",
+            "valeur",
+            "opposition",
+            "paradigme",
+            "syntagme"
+          ]
+        }
+      },
+      "grammaire-générative": {
+        "vocabulaire": {
+          "VSC": [
+            "chomsky",
+            "compétence",
+            "performance",
+            "grammaire universelle"
+          ],
+          "VSCA": [
+            "transformation",
+            "règle",
+            "génération",
+            "structure profonde"
+          ]
+        }
+      }
+    }
+  }
+}
