@@ -11,7 +11,7 @@ Architecture :
 2. RÈGLE DE COMPTAGE vs CONSOMMATION (CRUCIAL) :
    - COMPTAGE : Les mots de TOUS les niveaux (parents + propre + descendants)
      comptent pour valider un niveau.
-     Ex: "intégrale" (défini dans mathématiques\\analyse\\calcul-intégral)
+     Ex: "intégrale" (défini dans mathématiques\analyse\calcul-intégral)
      compte pour valider "mathématiques" (racine).
 
    - CONSOMMATION : SEULS les mots dont le domaine EXACT correspond au niveau
@@ -1221,7 +1221,7 @@ class EmergentTagDetector:
 
         FORMAT DES TAGS :
         - Objet (1-4 mots) → Tag PLAT : #calcul-intégral
-        - Sous-notion (5+ mots) → Tag HIÉRARCHIQUE : #mathématiques\\analyse\\calcul-intégral
+        - Sous-notion (5+ mots) → Tag HIÉRARCHIQUE : #mathématiques\analyse\calcul-intégral
 
         Un objet est validé si :
         1. Son domaine parent est dans les chemins validés
@@ -1521,7 +1521,7 @@ class EmergentTagDetector:
         DISTINCTION TAG PLAT vs HIÉRARCHIQUE :
 
         1. Sous-notion (5+ mots, validée par cascade) → Tag HIÉRARCHIQUE
-           #mathématiques\\analyse\\calcul-intégral
+           #mathématiques\analyse\calcul-intégral
            Le tag reflète la position complète dans la hiérarchie.
 
         2. Objet (1-4 mots, détecté par déclencheurs) → Tag PLAT
