@@ -100,7 +100,11 @@ class EntityDetectorV2:
         text_lower = text.lower()
         title_lower = note.title.lower()
 
-        # 3. Détecte les entités brutes
+        # 3. Extrait les domaines validés des tags de la note
+        # Ces domaines servent à désambiguïser les lieux (geo vs entité)
+        validated_domains = self._extract_validated_domains(note.tags, context)
+
+        # 4. Détecte les entités brutes
         raw_entities = []
 
         # Détection des dates (siècles et années)
@@ -112,8 +116,14 @@ class EntityDetectorV2:
         # Détection des concepts théoriques
         raw_entities.extend(self._detect_concepts(text_lower, title_lower, context))
 
-        # Détection des lieux
-        raw_entities.extend(self._detect_places(text_lower, title_lower, len(text)))
+        # Détection des lieux (avec domaines validés pour désambiguïsation)
+        raw_entities.extend(self._detect_places(text_lower, title_lower, len(text), validated_domains))
+
+        # Détection des lieux ambigus avec les DEUX classifications possibles
+        # Utile quand la note mélange contexte moderne et historique
+        raw_entities.extend(self._detect_ambiguous_places_both(
+            text_lower, title_lower, len(text), validated_domains
+        ))
 
         # Détection des entités politiques
         raw_entities.extend(self._detect_political_entities(text_lower, title_lower))
@@ -146,6 +156,64 @@ class EntityDetectorV2:
             Dict {path: NoteEntitiesV2}
         """
         return {note.path: self.detect_entities(note) for note in notes}
+
+    def _extract_validated_domains(
+        self, tags: list[str], context: NoteContext
+    ) -> set[str]:
+        """Extrait les domaines validés des tags et du contexte de la note.
+
+        Les domaines validés servent à désambiguïser les lieux:
+        - Si la note a des tags histoire-grecque → Athènes = entité\\athènes-antique
+        - Si pas de contexte historique → Athènes = geo\\europe\\grèce\\athènes
+
+        Args:
+            tags: Liste des tags de la note
+            context: Contexte analysé de la note
+
+        Returns:
+            Ensemble de domaines validés (normalisés en minuscules)
+        """
+        validated = set()
+
+        # 1. Extrait les domaines des tags existants
+        for tag in tags:
+            tag_lower = tag.lower().strip()
+
+            # Tag avec préfixe hiérarchique (ex: "histoire\\histoire-romaine")
+            if "\\" in tag_lower:
+                parts = tag_lower.split("\\")
+                # Ajoute toutes les parties et combinaisons
+                for i, part in enumerate(parts):
+                    validated.add(part)
+                    # Ajoute aussi les sous-chemins (ex: "histoire-romaine")
+                    if i > 0:
+                        validated.add("\\".join(parts[:i+1]))
+            else:
+                validated.add(tag_lower)
+
+        # 2. Ajoute le domaine principal du contexte
+        if context.primary_domain:
+            validated.add(context.primary_domain.lower())
+
+        # 3. Ajoute les domaines secondaires du contexte
+        for domain in context.secondary_domains:
+            validated.add(domain.lower())
+
+        # 4. Ajoute les indices de période historique
+        # Si la note parle de périodes anciennes, c'est un contexte historique
+        historical_period_keywords = {
+            "antiquité", "antique", "ancien", "classique",
+            "hellénistique", "hellenistique", "médiéval", "medieval",
+            "renaissance", "av. j.-c.", "av j-c",
+        }
+
+        for domain in context.domain_scores.keys():
+            domain_lower = domain.lower()
+            if any(kw in domain_lower for kw in historical_period_keywords):
+                validated.add(domain_lower)
+                validated.add("antiquité")  # Ajoute aussi le tag générique
+
+        return validated
 
     def _detect_dates(self, text: str, title_lower: str) -> list[DetectedEntityV2]:
         """Détecte les siècles et années."""
@@ -285,13 +353,28 @@ class EntityDetectorV2:
         return entities
 
     def _detect_places(
-        self, text_lower: str, title_lower: str, text_length: int
+        self, text_lower: str, title_lower: str, text_length: int,
+        validated_domains: set[str] = None
     ) -> list[DetectedEntityV2]:
-        """Détecte les lieux géographiques avec filtrage anti-faux-positifs."""
+        """Détecte les lieux géographiques avec filtrage anti-faux-positifs.
+
+        Pour les lieux ambigus (ex: Athènes, Rome, Sparte), le choix entre
+        geo\ et entité\ dépend des domaines validés de la note.
+
+        Args:
+            text_lower: Texte de la note en minuscules
+            title_lower: Titre de la note en minuscules
+            text_length: Longueur du texte
+            validated_domains: Domaines validés de la note (optionnel)
+
+        Returns:
+            Liste d'entités détectées
+        """
         entities = []
+        validated_domains = validated_domains or set()
 
         # Parcourt toutes les catégories de lieux
-        for category in ["continents", "regions", "countries", "cities"]:
+        for category in ["continents", "regions", "countries", "cities", "historical_cities"]:
             places = self.db._places.get(category, {})
 
             for place_key, place_info in places.items():
@@ -308,7 +391,14 @@ class EntityDetectorV2:
                         if density < self.MIN_DENSITY_FOR_PLACE:
                             continue
 
-                    classified = self.classifier.classify(place_key, text_lower)
+                    # Vérifie si c'est un lieu ambigu
+                    if self.classifier.is_ambiguous_place(place_key):
+                        # Utilise les domaines validés pour choisir
+                        classified = self.classifier.classify_with_domains(
+                            place_key, validated_domains, text_lower
+                        )
+                    else:
+                        classified = self.classifier.classify(place_key, text_lower)
 
                     # Ajuste la confiance
                     confidence = classified.confidence
@@ -321,7 +411,7 @@ class EntityDetectorV2:
 
                     entities.append(DetectedEntityV2(
                         raw_text=place_key,
-                        entity_type=EntityType.PLACE,
+                        entity_type=classified.entity_type,
                         suggested_tag=classified.tag,
                         confidence=confidence,
                         occurrences=count,
@@ -329,6 +419,81 @@ class EntityDetectorV2:
                         in_title=in_title,
                         metadata=classified.metadata
                     ))
+
+        return entities
+
+    def _detect_ambiguous_places_both(
+        self, text_lower: str, title_lower: str, text_length: int,
+        validated_domains: set[str]
+    ) -> list[DetectedEntityV2]:
+        """Détecte les lieux ambigus et retourne les DEUX classifications.
+
+        Pour les lieux comme Athènes, Rome, Sparte qui peuvent être:
+        - geo\\... (lieu géographique actuel)
+        - entité\\... (entité historique)
+
+        Cette méthode ajoute la classification ALTERNATIVE à celle déjà
+        détectée par _detect_places. Utile quand:
+        - La note mélange contexte moderne et historique
+        - On veut proposer les deux options à l'utilisateur
+
+        La classification alternative a une confiance légèrement réduite.
+        """
+        entities = []
+
+        # Récupère les lieux ambigus de la config
+        ambiguous_places = self.classifier.AMBIGUOUS_PLACES
+
+        for place_key, place_info in ambiguous_places.items():
+            if place_key in text_lower:
+                count = text_lower.count(place_key)
+                in_title = place_key in title_lower
+
+                # Filtre anti-faux-positifs (même logique que _detect_places)
+                density = count / text_length if text_length > 0 else 0
+
+                if not in_title:
+                    if count < self.MIN_OCCURRENCES_FOR_PLACE:
+                        continue
+                    if density < self.MIN_DENSITY_FOR_PLACE:
+                        continue
+
+                # Détermine la classification préférée
+                preferred = self.classifier.get_preferred_classification(
+                    place_key, validated_domains
+                )
+
+                # Ajoute la classification ALTERNATIVE (non préférée)
+                if preferred == "entity":
+                    # La classification préférée est entité, donc on ajoute geo
+                    alternative_tag = place_info["geo_tag"]
+                    alternative_type = EntityType.PLACE
+                else:
+                    # La classification préférée est geo, donc on ajoute entité
+                    alternative_tag = place_info["entity_tag"]
+                    alternative_type = EntityType.POLITICAL_ENTITY
+
+                # Confiance réduite pour l'alternative (pas le contexte principal)
+                confidence = 0.65  # Base réduite
+                if in_title:
+                    confidence = min(0.80, confidence + 0.10)
+                if count >= 3:
+                    confidence = min(0.80, confidence + 0.05)
+
+                entities.append(DetectedEntityV2(
+                    raw_text=place_key,
+                    entity_type=alternative_type,
+                    suggested_tag=alternative_tag,
+                    confidence=confidence,
+                    occurrences=count,
+                    source="ambiguous_alternative",
+                    in_title=in_title,
+                    metadata={
+                        "is_alternative": True,
+                        "preferred_classification": preferred,
+                        "historical_domains": list(place_info["historical_domains"]),
+                    }
+                ))
 
         return entities
 

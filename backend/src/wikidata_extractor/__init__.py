@@ -10,6 +10,7 @@ from .sparql_client import WikidataSPARQLClient
 from .extractor import VocabularyExtractor
 from .classifier import VocabularyClassifier
 from .formatter import VocabularyFormatter
+from .places_extractor import PlacesExtractor
 
 __all__ = [
     "DOMAIN_CONFIG",
@@ -18,4 +19,5 @@ __all__ = [
     "VocabularyExtractor",
     "VocabularyClassifier",
     "VocabularyFormatter",
+    "PlacesExtractor",
 ]

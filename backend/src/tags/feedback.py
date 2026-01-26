@@ -10,16 +10,33 @@ from ..database.repository import Repository
 
 @dataclass
 class FeedbackDecision:
-    """Une décision de l'utilisateur."""
+    """Une décision de l'utilisateur.
+
+    Types de décisions supportés:
+    - new_tag_accepted / new_tag_rejected: Nouveau tag proposé
+    - tag_assignment_accepted / tag_assignment_rejected: Attribution de tag existant
+    - tag_modified / tag_kept / tag_deleted / tag_archived: Gestion de tags
+
+    Nouveaux types pour enrichissement des références:
+    - place_reference_set: Nom de référence défini pour un lieu (avec aliases)
+    - person_added: Personne ajoutée avec ses alias
+    - vocabulary_added: Vocabulaire ajouté à un domaine
+    - other_name_added: Autre nom (marque, oeuvre, etc.) ajouté
+    """
 
     id: str
     timestamp: datetime
-    type: str  # new_tag_accepted, new_tag_rejected, tag_assignment_accepted, etc.
+    type: str
     suggestion_id: Optional[str]
     original_name: Optional[str]
     final_name: Optional[str]
     reason: Optional[str]
     user_feedback: Optional[str]
+    # Nouveaux champs pour les enrichissements de référence
+    aliases: Optional[list[str]] = None
+    domain: Optional[str] = None
+    category: Optional[str] = None
+    metadata: Optional[dict] = None
 
 
 @dataclass
@@ -61,6 +78,11 @@ class FeedbackIntegrator:
                 final_name=d.get("final_name"),
                 reason=d.get("reason"),
                 user_feedback=d.get("user_feedback"),
+                # Nouveaux champs
+                aliases=d.get("aliases"),
+                domain=d.get("domain"),
+                category=d.get("category"),
+                metadata=d.get("metadata"),
             ))
 
         return decisions
@@ -100,6 +122,15 @@ class FeedbackIntegrator:
                 self._handle_tag_deleted(decision)
             elif decision.type == "tag_archived":
                 self._handle_tag_archived(decision)
+            # Nouveaux types pour enrichissement des bases de référence
+            elif decision.type == "place_reference_set":
+                self._handle_place_reference_set(decision)
+            elif decision.type == "person_added":
+                self._handle_person_added(decision)
+            elif decision.type == "vocabulary_added":
+                self._handle_vocabulary_added(decision)
+            elif decision.type == "other_name_added":
+                self._handle_other_name_added(decision)
 
             integrated += 1
 
@@ -182,6 +213,91 @@ class FeedbackIntegrator:
 
         # Marque le tag comme archive
         self.repository.upsert_tag(name=tag_name, status="archived")
+
+    def _handle_place_reference_set(self, decision: FeedbackDecision) -> None:
+        """Traite la définition d'un nom de référence pour un lieu.
+
+        Met à jour places.json et places_aliases.json avec le nom de référence
+        et ses alias (ex: Saint-Pétersbourg avec aliases Leningrad, Petrograd).
+        """
+        reference_name = decision.final_name
+        aliases = decision.aliases or []
+
+        if not reference_name:
+            return
+
+        # Enregistre l'enrichissement dans la base
+        self.repository.record_reference_enrichment(
+            enrichment_type="place",
+            reference_name=reference_name,
+            aliases=aliases,
+            metadata=decision.metadata,
+        )
+
+    def _handle_person_added(self, decision: FeedbackDecision) -> None:
+        """Traite l'ajout d'une personne avec ses alias.
+
+        Met à jour persons.json avec la nouvelle personne et ses variantes de nom.
+        """
+        reference_name = decision.final_name
+        aliases = decision.aliases or []
+        category = decision.category  # ex: "philosophes", "mathematiciens"
+        metadata = decision.metadata or {}
+
+        if not reference_name:
+            return
+
+        # Enregistre l'enrichissement dans la base
+        self.repository.record_reference_enrichment(
+            enrichment_type="person",
+            reference_name=reference_name,
+            aliases=aliases,
+            category=category,
+            metadata=metadata,
+        )
+
+    def _handle_vocabulary_added(self, decision: FeedbackDecision) -> None:
+        """Traite l'ajout de vocabulaire à un domaine.
+
+        Met à jour hierarchy.json ou domain_vocabulary.json avec le nouveau terme.
+        """
+        term = decision.final_name
+        domain = decision.domain  # ex: "mathématiques\\analyse"
+        vocab_type = decision.category  # "VSC" ou "VSCA"
+
+        if not term or not domain:
+            return
+
+        # Enregistre l'enrichissement dans la base
+        self.repository.record_reference_enrichment(
+            enrichment_type="vocabulary",
+            reference_name=term,
+            domain=domain,
+            category=vocab_type,
+            metadata=decision.metadata,
+        )
+
+    def _handle_other_name_added(self, decision: FeedbackDecision) -> None:
+        """Traite l'ajout d'un autre nom (marque, oeuvre, studio, etc.).
+
+        Met à jour other_names.json avec la nouvelle entité.
+        """
+        reference_name = decision.final_name
+        aliases = decision.aliases or []
+        category = decision.category  # ex: "marques", "oeuvres", "studios"
+        metadata = decision.metadata or {}
+
+        if not reference_name:
+            return
+
+        # Enregistre l'enrichissement dans la base
+        self.repository.record_reference_enrichment(
+            enrichment_type="other_name",
+            reference_name=reference_name,
+            aliases=aliases,
+            category=category,
+            metadata=metadata,
+        )
 
     def get_feedback_stats(self) -> FeedbackStats:
         """Calcule les statistiques de feedback."""

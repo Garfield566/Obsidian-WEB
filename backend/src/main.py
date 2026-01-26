@@ -842,6 +842,9 @@ class TagGeneratorV2:
 class TagMatcherV2:
     """Matcher de tags adapté pour SimilarityEngineV2."""
 
+    # Connecteurs à ignorer dans les noms de personnes
+    PERSON_NAME_CONNECTORS = {"de", "du", "von", "van", "di", "da", "le", "la", "i", "ii", "iii", "iv", "v"}
+
     def __init__(
         self,
         notes_dict: dict,
@@ -896,6 +899,20 @@ class TagMatcherV2:
                 if len(sources) < 2 and len(high_score_sources) < 1:
                     continue
 
+                # NOUVEAU: Vérifie si le tag est un nom propre (personne, lieu, entité, studio, etc.)
+                # et s'il apparaît dans la note
+                tag_info = classify_tag(tag)
+
+                # Tags avec famille explicite (personne, geo, entité, aire)
+                if tag_info.family in (TagFamily.PERSON, TagFamily.GEO, TagFamily.ENTITY, TagFamily.AREA):
+                    if not self._note_mentions_entity(note, tag):
+                        continue  # Skip - entité non mentionnée dans la note
+
+                # Tags qui ressemblent à des noms propres (mot unique capitalisé, probable studio/marque)
+                elif self._is_likely_proper_noun(tag):
+                    if not self._note_mentions_entity(note, tag):
+                        continue  # Skip - nom propre non mentionné dans la note
+
                 # Verifie si suggestion existe deja
                 if self.repository.suggestion_exists(tag, path):
                     continue
@@ -929,6 +946,127 @@ class TagMatcherV2:
         # Trie par confiance
         suggestions.sort(key=lambda x: x["confidence"], reverse=True)
         return suggestions[:max_suggestions]
+
+    def _is_likely_proper_noun(self, tag: str) -> bool:
+        """Détecte si un tag ressemble à un nom propre (studio, marque, lieu, etc.).
+
+        Heuristiques utilisées:
+        - Mot unique avec majuscule initiale (ex: Madhouse, Netflix, Sony)
+        - Pas un mot de genre/concept courant
+        - Pas un tag conceptuel évident
+        """
+        # Ignore les tags avec préfixes hiérarchiques (déjà traités par TagFamily)
+        if "\\" in tag or "/" in tag:
+            return False
+
+        # Ignore les tags avec tirets multiples (probablement des concepts)
+        parts = tag.split("-")
+        if len(parts) > 2:
+            return False
+
+        # Mots de genres et concepts courants (en anglais et français)
+        genre_keywords = {
+            # Genres anglais
+            "Crime", "Mystery", "Drama", "Thriller", "Action", "Comedy",
+            "Horror", "Romance", "Fantasy", "Adventure", "Animation",
+            "Documentary", "Musical", "Western", "War", "Sport", "Sci",
+            "Fi", "Noir", "Epic", "Psychological", "Medical", "Legal",
+            "Political", "Historical", "Supernatural", "Slice", "Life",
+            "Mecha", "Isekai", "Shounen", "Shoujo", "Seinen", "Josei",
+            # Genres français
+            "Histoire", "Science", "Art", "Musique", "Film", "Serie",
+            "Livre", "Note", "Concept", "Methode", "Projet", "Drame",
+            "Comedie", "Horreur", "Aventure", "Documentaire",
+            # Types de contenu
+            "Found", "Footage", "Mockumentary", "Anthology"
+        }
+
+        # Pour un mot unique
+        if len(parts) == 1:
+            word = parts[0]
+            # Mot unique capitalisé = probable nom propre
+            if word and word[0].isupper() and len(word) > 2:
+                if word not in genre_keywords:
+                    return True
+
+        # Deux mots avec majuscules (ex: Studio-Ghibli)
+        # SAUF si l'un des mots est un genre (ex: Crime-Mystery, Medical-Drama)
+        elif len(parts) == 2:
+            if all(p and p[0].isupper() for p in parts):
+                # Si l'un des mots est un genre, c'est un tag de genre composé
+                if any(p in genre_keywords for p in parts):
+                    return False
+                return True
+
+        return False
+
+    def _note_mentions_entity(self, note, entity_tag: str) -> bool:
+        """Vérifie si une note mentionne une entité (personne, lieu, studio, marque, etc.).
+
+        Pour les tags représentant des noms propres, on vérifie si le nom apparaît
+        dans le contenu de la note. Cela évite de suggérer des entités basées
+        uniquement sur la similarité structurelle.
+
+        IMPORTANT: On exclut le frontmatter YAML de la recherche car les noms
+        apparaissant uniquement dans les tags ne comptent pas comme "cité dans la note".
+        """
+        # Extrait les parties du nom
+        name_parts = entity_tag.split("-")
+
+        # Construit des variations du nom pour la recherche
+        search_terms = []
+
+        # Parties significatives (pas les connecteurs comme "de", "von", etc.)
+        significant_parts = [p for p in name_parts if p.lower() not in self.PERSON_NAME_CONNECTORS]
+
+        if significant_parts:
+            # Cherche les parties principales
+            search_terms.extend(significant_parts)
+
+            # Cherche le nom complet (avec espaces)
+            full_name = " ".join(name_parts)
+            search_terms.append(full_name)
+
+        # Pour les mots uniques, ajoute aussi le tag tel quel
+        if len(name_parts) == 1:
+            search_terms.append(entity_tag)
+
+        if not search_terms:
+            return False
+
+        # Texte à rechercher (titre + contenu)
+        # On exclut le frontmatter YAML pour ne pas trouver les noms qui sont dans les tags
+        content = note.content
+
+        # Si le contenu contient du frontmatter YAML (parsing mal fait), on l'enlève
+        content = self._strip_frontmatter(content)
+
+        text_to_search = f"{note.title} {content}".lower()
+
+        # Vérifie si au moins une partie significative du nom est mentionnée
+        for term in search_terms:
+            if term.lower() in text_to_search:
+                return True
+
+        return False
+
+    def _strip_frontmatter(self, content: str) -> str:
+        """Enlève le frontmatter YAML du contenu s'il est présent.
+
+        Gère les cas où le frontmatter n'a pas été correctement parsé
+        (ex: hashtags et lignes vides avant le frontmatter).
+        """
+        import re
+
+        # Pattern pour le frontmatter YAML (entre --- et ---)
+        # Peut être précédé de n'importe quoi (hashtags, lignes vides, etc.)
+        # On cherche la première occurrence de --- suivi de contenu YAML puis ---
+        frontmatter_pattern = r'^.*?---\n.*?\n---[ \t]*\n?'
+
+        # Enlève le frontmatter s'il existe
+        cleaned = re.sub(frontmatter_pattern, '', content, count=1, flags=re.DOTALL)
+
+        return cleaned
 
 
 if __name__ == "__main__":

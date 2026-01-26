@@ -14,6 +14,7 @@ from .models import (
     LatentTagNote,
     TagSuggestion,
     Decision,
+    ReferenceEnrichment,
     Cluster,
     ClusterNote,
     init_db,
@@ -308,6 +309,64 @@ class Repository:
         if decision_type:
             query = query.filter(Decision.type == decision_type)
         return query.order_by(Decision.timestamp.desc()).limit(limit).all()
+
+    # ===== Reference Enrichments =====
+
+    def record_reference_enrichment(
+        self,
+        enrichment_type: str,
+        reference_name: str,
+        aliases: Optional[list[str]] = None,
+        domain: Optional[str] = None,
+        category: Optional[str] = None,
+        metadata: Optional[dict] = None,
+    ) -> ReferenceEnrichment:
+        """Enregistre un enrichissement de base de référence.
+
+        Args:
+            enrichment_type: Type d'enrichissement (place, person, vocabulary, other_name)
+            reference_name: Nom de référence
+            aliases: Liste des alias
+            domain: Domaine (pour vocabulary)
+            category: Catégorie (VSC/VSCA pour vocab, catégorie pour persons, etc.)
+            metadata: Métadonnées additionnelles
+
+        Returns:
+            L'enrichissement créé
+        """
+        enrichment = ReferenceEnrichment(
+            enrichment_type=enrichment_type,
+            reference_name=reference_name,
+            aliases=json.dumps(aliases, ensure_ascii=False) if aliases else None,
+            domain=domain,
+            category=category,
+            metadata_json=json.dumps(metadata, cls=NumpyEncoder, ensure_ascii=False) if metadata else None,
+            status="pending",
+        )
+        self.session.add(enrichment)
+        self.session.commit()
+        return enrichment
+
+    def get_pending_enrichments(
+        self, enrichment_type: Optional[str] = None
+    ) -> list[ReferenceEnrichment]:
+        """Récupère les enrichissements en attente d'application."""
+        query = self.session.query(ReferenceEnrichment).filter(
+            ReferenceEnrichment.status == "pending"
+        )
+        if enrichment_type:
+            query = query.filter(ReferenceEnrichment.enrichment_type == enrichment_type)
+        return query.order_by(ReferenceEnrichment.created_at.asc()).all()
+
+    def mark_enrichment_applied(self, enrichment_id: int) -> None:
+        """Marque un enrichissement comme appliqué."""
+        enrichment = self.session.query(ReferenceEnrichment).filter(
+            ReferenceEnrichment.id == enrichment_id
+        ).first()
+        if enrichment:
+            enrichment.status = "applied"
+            enrichment.applied_at = datetime.now()
+            self.session.commit()
 
     def get_rejected_tag_names(self) -> set[str]:
         """Récupère les noms de tags qui ont été rejetés."""

@@ -150,6 +150,35 @@ class Decision(Base):
     __table_args__ = (Index("idx_decision_type", "type"),)
 
 
+class ReferenceEnrichment(Base):
+    """Enrichissements des bases de référence par l'utilisateur.
+
+    Stocke les modifications apportées par l'utilisateur pour:
+    - place: Noms de référence pour les lieux avec leurs alias
+    - person: Personnes ajoutées avec leurs alias
+    - vocabulary: Vocabulaire ajouté à un domaine
+    - other_name: Autres noms (marques, oeuvres, etc.)
+    """
+
+    __tablename__ = "reference_enrichments"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    enrichment_type = Column(String, nullable=False)  # place, person, vocabulary, other_name
+    reference_name = Column(String, nullable=False)   # Nom de référence
+    aliases = Column(Text, nullable=True)             # JSON liste des alias
+    domain = Column(String, nullable=True)            # Domaine (pour vocabulary)
+    category = Column(String, nullable=True)          # Catégorie (VSC/VSCA, philosophes, marques, etc.)
+    metadata_json = Column(Text, nullable=True)       # Métadonnées additionnelles (JSON)
+    status = Column(String, default="pending")        # pending, applied, rejected
+    created_at = Column(DateTime, default=func.now())
+    applied_at = Column(DateTime, nullable=True)
+
+    __table_args__ = (
+        Index("idx_enrichment_type", "enrichment_type"),
+        Index("idx_enrichment_status", "status"),
+    )
+
+
 class Cluster(Base):
     """Clusters détectés de notes similaires."""
 

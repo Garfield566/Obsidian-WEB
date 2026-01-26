@@ -26,7 +26,16 @@ class EntityType(Enum):
     CONCEPT = "concept"
     ART_MOVEMENT = "art_movement"
     DATE = "date"
+    OTHER_NAME = "other_name"  # Marques, studios, oeuvres, etc.
     UNKNOWN = "unknown"
+
+
+class OtherNameCategory(Enum):
+    """Sous-catégories pour OTHER_NAME."""
+    MARQUE = "marque"
+    STUDIO = "studio"
+    OEUVRE = "oeuvre"
+    GROUPE = "groupe"
 
 
 @dataclass
@@ -57,6 +66,7 @@ class ReferenceDatabase:
         self._disciplines: dict = {}
         self._concepts: dict = {}
         self._art_movements: dict = {}
+        self._other_names: dict = {}
 
         self._load_databases()
 
@@ -69,6 +79,7 @@ class ReferenceDatabase:
         self._disciplines = self._load_json("disciplines.json")
         self._concepts = self._load_json("concepts.json")
         self._art_movements = self._load_json("art_movements.json")
+        self._other_names = self._load_json("other_names.json")
 
     def _load_json(self, filename: str) -> dict:
         """Charge un fichier JSON."""
@@ -226,15 +237,246 @@ class ReferenceDatabase:
 
         return None
 
+    @lru_cache(maxsize=500)
+    def lookup_other_name(self, name: str) -> Optional[dict]:
+        """Recherche un nom propre autre (marque, studio, oeuvre, etc.) dans la base.
+
+        Args:
+            name: Nom à rechercher
+
+        Returns:
+            Dict avec info sur l'entité trouvée, ou None
+        """
+        name_lower = name.lower().strip()
+
+        # Catégories à chercher dans other_names.json
+        categories = ["marques", "studios", "oeuvres", "groupes_musicaux"]
+
+        for category in categories:
+            items = self._other_names.get(category, {})
+            if isinstance(items, dict) and items.get("_description"):
+                # Skip les champs de description
+                items = {k: v for k, v in items.items() if not k.startswith("_")}
+
+            for key, info in items.items():
+                if not isinstance(info, dict):
+                    continue
+
+                # Match sur la clé
+                if key == name_lower:
+                    return {"key": key, "category": category, **info}
+
+                # Match sur les alias
+                for alias in info.get("aliases", []):
+                    if alias.lower() == name_lower:
+                        return {"key": key, "category": category, **info}
+
+        return None
+
+    def get_all_other_names(self) -> dict[str, list[str]]:
+        """Retourne tous les noms autres avec leurs alias.
+
+        Returns:
+            Dict {category: [(name, tag), ...]}
+        """
+        result = {}
+        categories = ["marques", "studios", "oeuvres", "groupes_musicaux"]
+
+        for category in categories:
+            result[category] = []
+            items = self._other_names.get(category, {})
+
+            for key, info in items.items():
+                if not isinstance(info, dict) or key.startswith("_"):
+                    continue
+
+                tag = info.get("tag", f"{category}\\{key}")
+                result[category].append((key, tag))
+
+                # Ajoute aussi les alias
+                for alias in info.get("aliases", []):
+                    result[category].append((alias.lower(), tag))
+
+        return result
+
+
+class OtherNameClassifier:
+    """Classificateur spécialisé pour les noms autres (marques, studios, oeuvres, etc.).
+
+    Système de tags:
+    - marque\\apple
+    - studio\\ghibli
+    - oeuvre\\star-wars
+    - groupe\\beatles
+    - institution\\mit
+    """
+
+    # Mapping catégorie JSON -> préfixe tag
+    CATEGORY_TO_PREFIX = {
+        "marques": "marque",
+        "studios": "studio",
+        "oeuvres": "oeuvre",
+        "groupes_musicaux": "groupe",
+    }
+
+    def __init__(self, reference_db: Optional[ReferenceDatabase] = None):
+        self.db = reference_db or ReferenceDatabase()
+
+    def classify(self, raw_text: str, context: str = "") -> Optional[ClassifiedEntity]:
+        """Classifie un terme comme 'autre nom' s'il correspond.
+
+        Args:
+            raw_text: Texte brut à classifier
+            context: Contexte optionnel
+
+        Returns:
+            ClassifiedEntity si trouvé dans other_names.json, None sinon
+        """
+        result = self.db.lookup_other_name(raw_text)
+
+        if result is None:
+            return None
+
+        category = result.get("category", "")
+        prefix = self.CATEGORY_TO_PREFIX.get(category, category.rstrip("s"))
+
+        # Utilise le tag pré-défini ou génère un tag
+        tag = result.get("tag", f"{prefix}\\{result['key']}")
+
+        return ClassifiedEntity(
+            raw_text=raw_text,
+            entity_type=EntityType.OTHER_NAME,
+            tag=tag,
+            confidence=0.88,
+            source="reference_db",
+            metadata={
+                "category": category,
+                "prefix": prefix,
+                "domain": result.get("domain", ""),
+                "type": result.get("type", ""),
+                "wikidata_types": result.get("wikidata_types", []),
+            }
+        )
+
+    def get_prefix_for_category(self, category: str) -> str:
+        """Retourne le préfixe de tag pour une catégorie.
+
+        Args:
+            category: Catégorie (ex: "marques", "studios")
+
+        Returns:
+            Préfixe (ex: "marque", "studio")
+        """
+        return self.CATEGORY_TO_PREFIX.get(category, category.rstrip("s"))
+
+    def format_tag(self, name: str, category: str) -> str:
+        """Formate un tag pour un nom autre.
+
+        Args:
+            name: Nom de l'entité
+            category: Catégorie
+
+        Returns:
+            Tag formaté (ex: "marque\\apple")
+        """
+        prefix = self.get_prefix_for_category(category)
+        clean_name = name.lower().strip().replace(" ", "-")
+        return f"{prefix}\\{clean_name}"
+
 
 class EntityClassifier:
-    """Classifie les entités détectées et génère les tags appropriés."""
+    """Classifie les entités détectées et génère les tags appropriés.
+
+    Utilise les bases de référence et le classificateur OtherName pour
+    classifier les entités en 4 catégories principales:
+    - vocabulaire: concepts, théorèmes → domaine\\sous-domaine
+    - lieu: villes, pays → geo\\... ou entité\\...
+    - personne: êtres humains → prénom-nom
+    - autre_nom: marques, studios, oeuvres → marque\\..., studio\\..., etc.
+    """
 
     # Pattern pour les siècles
     CENTURY_PATTERN = re.compile(
         r'\b(XXI|XX|XIX|XVIII|XVII|XVI|XV|XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I)(?:e|ème)?\s*(?:siècle)?\b',
         re.IGNORECASE
     )
+
+    # Lieux ambigus: peuvent être à la fois des lieux géographiques actuels
+    # ET des entités historiques. Le choix dépend du contexte de la note.
+    # Format: nom_normalisé -> (geo_tag, entity_tag, historical_domains)
+    AMBIGUOUS_PLACES = {
+        "athènes": {
+            "geo_tag": "geo\\europe\\grèce\\athènes",
+            "entity_tag": "entité\\athènes-antique",
+            "historical_domains": {"histoire-grecque", "histoire\\histoire-grecque", "antiquité"},
+        },
+        "rome": {
+            "geo_tag": "geo\\europe\\italie\\rome",
+            "entity_tag": "entité\\empire-romain",
+            "historical_domains": {"histoire-romaine", "histoire\\histoire-romaine", "antiquité"},
+        },
+        "sparte": {
+            "geo_tag": "geo\\europe\\grèce\\sparte",
+            "entity_tag": "entité\\sparte",
+            "historical_domains": {"histoire-grecque", "histoire\\histoire-grecque", "antiquité"},
+        },
+        "carthage": {
+            "geo_tag": "geo\\afrique\\tunisie\\carthage",
+            "entity_tag": "entité\\carthage",
+            "historical_domains": {"histoire-carthaginoise", "guerres-puniques", "antiquité"},
+        },
+        "alexandrie": {
+            "geo_tag": "geo\\afrique\\égypte\\alexandrie",
+            "entity_tag": "entité\\alexandrie-antique",
+            "historical_domains": {"histoire-grecque", "histoire-égyptienne", "antiquité"},
+        },
+        "jérusalem": {
+            "geo_tag": "geo\\asie\\proche-orient\\jérusalem",
+            "entity_tag": "entité\\jérusalem",
+            "historical_domains": {"histoire-biblique", "croisades", "antiquité"},
+        },
+        "babylone": {
+            "geo_tag": "geo\\asie\\mésopotamie\\babylone",
+            "entity_tag": "entité\\babylone",
+            "historical_domains": {"histoire-mésopotamienne", "antiquité"},
+        },
+        "corinthe": {
+            "geo_tag": "geo\\europe\\grèce\\corinthe",
+            "entity_tag": "entité\\corinthe-antique",
+            "historical_domains": {"histoire-grecque", "antiquité"},
+        },
+        "thèbes": {
+            "geo_tag": "geo\\afrique\\égypte\\thèbes",
+            "entity_tag": "entité\\thèbes-égyptienne",
+            "historical_domains": {"histoire-égyptienne", "antiquité"},
+        },
+        "constantinople": {
+            "geo_tag": "geo\\asie\\turquie\\istanbul",
+            "entity_tag": "entité\\empire-byzantin",
+            "historical_domains": {"histoire-byzantine", "empire-byzantin"},
+        },
+        "byzance": {
+            "geo_tag": "geo\\asie\\turquie\\istanbul",
+            "entity_tag": "entité\\empire-byzantin",
+            "historical_domains": {"histoire-byzantine", "empire-byzantin"},
+        },
+    }
+
+    # Domaines qui déclenchent la préférence pour entité\ au lieu de geo\
+    HISTORICAL_DOMAINS = {
+        # Histoire grecque
+        "histoire-grecque", "histoire\\histoire-grecque",
+        "histoire-grecque\\athènes", "histoire-grecque\\sparte",
+        # Histoire romaine
+        "histoire-romaine", "histoire\\histoire-romaine",
+        "histoire-romaine\\république-romaine", "histoire-romaine\\empire-romain",
+        # Autres civilisations anciennes
+        "histoire-carthaginoise", "guerres-puniques",
+        "histoire-égyptienne", "histoire-mésopotamienne",
+        "histoire-byzantine", "empire-byzantin",
+        # Termes généraux
+        "antiquité", "antique", "ancien",
+    }
 
     # Pattern pour les années
     YEAR_PATTERN = re.compile(r'\b(1[0-9]{3}|20[0-2][0-9])\b')
@@ -253,6 +495,7 @@ class EntityClassifier:
 
     def __init__(self, reference_db: Optional[ReferenceDatabase] = None):
         self.db = reference_db or ReferenceDatabase()
+        self.other_name_classifier = OtherNameClassifier(self.db)
 
     def classify(self, raw_text: str, context: str = "") -> ClassifiedEntity:
         """Classifie une entité et retourne le tag approprié.
@@ -304,6 +547,11 @@ class EntityClassifier:
         if place:
             return self._format_place(raw_text, place)
 
+        # Autres noms (marques, studios, oeuvres, etc.)
+        other_name = self.other_name_classifier.classify(raw_text, context)
+        if other_name:
+            return other_name
+
         # 3. Fallback : retourne comme inconnu
         return ClassifiedEntity(
             raw_text=raw_text,
@@ -312,6 +560,173 @@ class EntityClassifier:
             confidence=0.3,
             source="fallback"
         )
+
+    def classify_with_domains(
+        self, raw_text: str, validated_domains: set[str], context: str = ""
+    ) -> ClassifiedEntity:
+        """Classifie une entité en tenant compte des domaines validés de la note.
+
+        Pour les lieux ambigus (ex: Athènes), le choix entre geo\ et entité\
+        dépend des domaines validés de la note.
+
+        Args:
+            raw_text: Texte brut de l'entité détectée
+            validated_domains: Domaines validés par le cascade validation (VSC/VCSA)
+            context: Contexte autour de l'entité
+
+        Returns:
+            ClassifiedEntity avec le tag approprié au contexte
+        """
+        text_lower = raw_text.lower().strip()
+
+        # Vérifie si c'est un lieu ambigu
+        if text_lower in self.AMBIGUOUS_PLACES:
+            ambiguous_info = self.AMBIGUOUS_PLACES[text_lower]
+
+            # Vérifie si un des domaines validés est historique
+            has_historical_domain = bool(
+                validated_domains & ambiguous_info["historical_domains"]
+            )
+
+            # Vérifie aussi si le contexte textuel contient des indices historiques
+            context_lower = context.lower()
+            historical_keywords = {
+                "antique", "ancien", "antiquité", "classique",
+                "hellenistique", "hellénistique", "antique",
+                "av. j.-c.", "av j-c", "avant jésus-christ",
+                "ive siècle", "ve siècle", "vie siècle",
+                "cité-état", "cité grecque", "démocratie athénienne",
+            }
+            has_historical_context = any(kw in context_lower for kw in historical_keywords)
+
+            if has_historical_domain or has_historical_context:
+                # Retourne le tag entité\
+                return ClassifiedEntity(
+                    raw_text=raw_text,
+                    entity_type=EntityType.POLITICAL_ENTITY,
+                    tag=ambiguous_info["entity_tag"],
+                    confidence=0.88,
+                    source="reference_db",
+                    metadata={
+                        "disambiguation": "historical_context",
+                        "validated_domains": list(validated_domains & ambiguous_info["historical_domains"]),
+                        "alternative_tag": ambiguous_info["geo_tag"],
+                    }
+                )
+            else:
+                # Retourne le tag geo\ (par défaut)
+                return ClassifiedEntity(
+                    raw_text=raw_text,
+                    entity_type=EntityType.PLACE,
+                    tag=ambiguous_info["geo_tag"],
+                    confidence=0.85,
+                    source="reference_db",
+                    metadata={
+                        "disambiguation": "modern_context",
+                        "alternative_tag": ambiguous_info["entity_tag"],
+                    }
+                )
+
+        # Pour les entités non-ambiguës, utilise la classification standard
+        return self.classify(raw_text, context)
+
+    def classify_all_possible(
+        self, raw_text: str, context: str = ""
+    ) -> list[ClassifiedEntity]:
+        """Retourne TOUTES les classifications possibles pour une entité ambiguë.
+
+        Pour les lieux comme "Athènes", retourne à la fois:
+        - geo\\europe\\grèce\\athènes
+        - entité\\athènes-antique
+
+        Utile quand on veut laisser l'utilisateur choisir.
+
+        Args:
+            raw_text: Texte brut de l'entité
+            context: Contexte optionnel
+
+        Returns:
+            Liste de ClassifiedEntity (peut contenir 1 ou 2+ éléments)
+        """
+        text_lower = raw_text.lower().strip()
+        results = []
+
+        # Vérifie si c'est un lieu ambigu
+        if text_lower in self.AMBIGUOUS_PLACES:
+            ambiguous_info = self.AMBIGUOUS_PLACES[text_lower]
+
+            # Ajoute la version geo\
+            results.append(ClassifiedEntity(
+                raw_text=raw_text,
+                entity_type=EntityType.PLACE,
+                tag=ambiguous_info["geo_tag"],
+                confidence=0.85,
+                source="reference_db",
+                metadata={
+                    "is_ambiguous": True,
+                    "category": "modern_geography",
+                }
+            ))
+
+            # Ajoute la version entité\
+            results.append(ClassifiedEntity(
+                raw_text=raw_text,
+                entity_type=EntityType.POLITICAL_ENTITY,
+                tag=ambiguous_info["entity_tag"],
+                confidence=0.85,
+                source="reference_db",
+                metadata={
+                    "is_ambiguous": True,
+                    "category": "historical_entity",
+                    "historical_domains": list(ambiguous_info["historical_domains"]),
+                }
+            ))
+
+            return results
+
+        # Pour les entités non-ambiguës, retourne une seule classification
+        single_result = self.classify(raw_text, context)
+        return [single_result]
+
+    def is_ambiguous_place(self, raw_text: str) -> bool:
+        """Vérifie si un nom de lieu est ambigu (geo vs entité).
+
+        Args:
+            raw_text: Nom du lieu
+
+        Returns:
+            True si le lieu peut être classifié comme geo OU entité
+        """
+        return raw_text.lower().strip() in self.AMBIGUOUS_PLACES
+
+    def get_preferred_classification(
+        self, raw_text: str, validated_domains: set[str]
+    ) -> str:
+        """Retourne la classification préférée pour un lieu ambigu.
+
+        Args:
+            raw_text: Nom du lieu
+            validated_domains: Domaines validés de la note
+
+        Returns:
+            "entity" si contexte historique, "geo" sinon
+        """
+        text_lower = raw_text.lower().strip()
+
+        if text_lower not in self.AMBIGUOUS_PLACES:
+            return "geo"  # Défaut pour lieux non-ambigus
+
+        ambiguous_info = self.AMBIGUOUS_PLACES[text_lower]
+
+        # Si la note valide pour des domaines historiques liés à ce lieu
+        if validated_domains & ambiguous_info["historical_domains"]:
+            return "entity"
+
+        # Si la note valide pour n'importe quel domaine historique général
+        if validated_domains & self.HISTORICAL_DOMAINS:
+            return "entity"
+
+        return "geo"
 
     def _classify_as_date(self, raw_text: str, context: str) -> Optional[ClassifiedEntity]:
         """Classifie comme date si c'est un siècle ou une année."""
