@@ -9,3 +9,21 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Test files
+backend/src/output/test_*.json
+backend/src/tags/test_*.py
+nul
+
+# Temp directories
+backend/backend/
+backend/data/

@@ -35,6 +35,9 @@ _category_cache: dict[str, str | None] = {}
 # Chemin vers le fichier de vocabulaire
 DOMAIN_VOCABULARY_FILE = Path(__file__).parent / "domain_vocabulary.json"
 
+# Chemin vers les termes spécialisés
+SPECIALIZED_TERMS_FILE = Path(__file__).parent.parent / "data" / "references" / "specialized_terms.json"
+
 
 @dataclass
 class WiktionaryResult:
@@ -594,18 +597,129 @@ def extract_from_wikipedia(domain: str, verbose: bool = True) -> tuple[list[str]
         return None
 
 
+def load_specialized_terms() -> dict:
+    """Charge les termes spécialisés depuis specialized_terms.json.
+
+    Returns:
+        Dictionnaire des termes spécialisés
+    """
+    if not SPECIALIZED_TERMS_FILE.exists():
+        return {}
+
+    try:
+        with open(SPECIALIZED_TERMS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # Filtrer les métadonnées
+        return {k: v for k, v in data.items() if not k.startswith("_")}
+    except (json.JSONDecodeError, IOError) as e:
+        logger.warning(f"Could not load specialized_terms.json: {e}")
+        return {}
+
+
+def get_specialized_vocabulary_for_domain(domain: str) -> tuple[list[str], list[str]]:
+    """Extrait le vocabulaire des termes spécialisés pour un domaine donné.
+
+    Les synonymes des éléments mandatory sont ajoutés comme VSC (concepts clés).
+    Les synonymes des éléments contextual sont ajoutés comme VSCA (auxiliaires).
+
+    Args:
+        domain: Chemin du domaine (ex: "sociologie\\sociologie-durkheimienne")
+
+    Returns:
+        Tuple (vsc_from_specialized, vsca_from_specialized)
+    """
+    specialized_terms = load_specialized_terms()
+
+    if not specialized_terms:
+        return [], []
+
+    vsc_words = set()
+    vsca_words = set()
+
+    domain_normalized = domain.lower().replace("\\\\", "\\")
+
+    for term_name, term_data in specialized_terms.items():
+        term_domain = term_data.get("domaine_parent", "").lower().replace("\\\\", "\\")
+
+        # Vérifie si le terme appartient à ce domaine ou un sous-domaine
+        if not term_domain:
+            continue
+
+        # Match exact ou relation parent/enfant
+        domains_match = (
+            term_domain == domain_normalized or
+            term_domain.startswith(domain_normalized + "\\") or
+            domain_normalized.startswith(term_domain + "\\")
+        )
+
+        if not domains_match:
+            continue
+
+        logger.info(f"Found specialized term '{term_name}' for domain '{domain}'")
+
+        definition = term_data.get("definition", {})
+
+        # Les synonymes mandatory deviennent VSC
+        for elem in definition.get("mandatory", []):
+            for syn in elem.get("synonyms", []):
+                if len(syn) > 2:  # Ignorer les mots très courts
+                    vsc_words.add(syn.lower())
+
+        # Les synonymes contextual deviennent VSCA
+        for elem in definition.get("contextual", []):
+            for syn in elem.get("synonyms", []):
+                if len(syn) > 2:
+                    vsca_words.add(syn.lower())
+
+        # Les termes exacts sont aussi des VSC importants
+        for exact in term_data.get("exact_terms", []):
+            if len(exact) > 2:
+                vsc_words.add(exact.lower())
+
+    # Retirer les VSC des VSCA (éviter doublons)
+    vsca_words = vsca_words - vsc_words
+
+    return list(vsc_words), list(vsca_words)
+
+
 def save_to_vocabulary_file(domain: str, vsc: list[str], vsca: list[str]):
-    """Sauvegarde le vocabulaire extrait dans domain_vocabulary.json ET hierarchy.json."""
+    """Sauvegarde le vocabulaire extrait dans domain_vocabulary.json ET hierarchy.json.
+
+    Intègre automatiquement les synonymes des termes spécialisés associés au domaine."""
     existing = {}
     if DOMAIN_VOCABULARY_FILE.exists():
         with open(DOMAIN_VOCABULARY_FILE, "r", encoding="utf-8") as f:
             existing = json.load(f)
 
+    # Récupérer le vocabulaire des termes spécialisés pour ce domaine
+    spec_vsc, spec_vsca = get_specialized_vocabulary_for_domain(domain)
+
+    if spec_vsc or spec_vsca:
+        logger.info(f"Adding {len(spec_vsc)} VSC and {len(spec_vsca)} VSCA from specialized terms for '{domain}'")
+
+    # Fusionner le vocabulaire Wiktionnaire avec les termes spécialisés
+    # Les termes spécialisés sont prioritaires (ajoutés en premier)
+    merged_vsc = list(dict.fromkeys(spec_vsc + vsc))  # Préserve l'ordre, déduplique
+    merged_vsca = list(dict.fromkeys(spec_vsca + vsca))
+
+    # Retirer de VSCA ce qui est déjà dans VSC
+    merged_vsca = [w for w in merged_vsca if w not in merged_vsc]
+
     # Ajouter/mettre à jour le domaine
     existing[domain] = {
-        "VSC": vsc[:30],  # Limiter à 30 termes VSC
-        "VSCA": vsca[:15],  # Limiter à 15 termes VSCA
+        "VSC": merged_vsc[:30],  # Limiter à 30 termes VSC
+        "VSCA": merged_vsca[:15],  # Limiter à 15 termes VSCA
     }
+
+    # Log des sources
+    if spec_vsc or spec_vsca:
+        existing[domain]["_sources"] = {
+            "wiktionary_vsc": len(vsc),
+            "wiktionary_vsca": len(vsca),
+            "specialized_vsc": len(spec_vsc),
+            "specialized_vsca": len(spec_vsca),
+        }
 
     # S'assurer que les métadonnées sont présentes
     if "_description" not in existing:
@@ -624,7 +738,8 @@ def save_to_vocabulary_file(domain: str, vsc: list[str], vsca: list[str]):
     logger.info(f"Saved vocabulary to {DOMAIN_VOCABULARY_FILE}")
 
     # Synchroniser avec hierarchy.json pour l'analyse
-    sync_vocabulary_to_hierarchy(domain, vsc[:30], vsca[:15])
+    # Utiliser le vocabulaire fusionné (Wiktionnaire + termes spécialisés)
+    sync_vocabulary_to_hierarchy(domain, merged_vsc[:30], merged_vsca[:15])
 
 
 def sync_vocabulary_to_hierarchy(domain: str, vsc: list[str], vsca: list[str]):

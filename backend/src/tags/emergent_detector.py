@@ -105,6 +105,7 @@ class EmergentTagDetector:
 
     # OBJETS spécifiques (tags plats)
     OBJECTS = {}  # Chargé depuis objects.json
+    SPECIALIZED_TERMS = {}  # Chargé depuis specialized_terms.json
 
     # SEUILS ADAPTATIFS par profondeur de la hiérarchie
     # Chaque niveau a plusieurs OPTIONS de validation (une seule doit être satisfaite)
@@ -229,6 +230,9 @@ class EmergentTagDetector:
 
         # Charge les objets (tags plats)
         self._load_objects()
+
+        # Charge les termes spécialisés (validation par définition)
+        self._load_specialized_terms()
 
         # Charge les corrections utilisateur (enrichissement progressif)
         self._load_user_corrections()
@@ -525,6 +529,176 @@ class EmergentTagDetector:
 
         except (json.JSONDecodeError, IOError) as e:
             print(f"Warning: Could not load objects.json: {e}")
+
+    def _load_specialized_terms(self):
+        """Charge les termes spécialisés avec validation par définition.
+
+        Format specialized_terms.json :
+        {
+          "suicide-anomique": {
+            "type": "specialized",
+            "exact_terms": ["suicide anomique", "anomie suicidaire"],
+            "definition": {
+              "mandatory": [
+                {"name": "suicide", "synonyms": ["suicide", "se suicider", ...]},
+                {"name": "norme", "synonyms": ["norme", "règle", ...]}
+              ],
+              "contextual": [
+                {"name": "dérèglement", "synonyms": ["dérèglement", "crise", ...]},
+                ...
+              ]
+            },
+            "threshold": 0.90,
+            "domaine_parent": "sociologie\\sociologie-durkheimienne"
+          }
+        }
+
+        Logique de validation :
+        1. Si un terme exact est présent dans le texte → tag validé directement
+        2. Sinon, calcul du score = éléments_validés / total_éléments
+           - Un élément est validé si au moins un de ses synonymes est trouvé
+           - Tous les éléments mandatory doivent être validés
+           - Score >= threshold (0.90 par défaut) pour valider le tag
+        """
+        self.SPECIALIZED_TERMS = {}
+
+        data_dir = Path(__file__).parent.parent / "data" / "references"
+        specialized_file = data_dir / "specialized_terms.json"
+
+        if not specialized_file.exists():
+            # Fichier optionnel, pas d'avertissement
+            return
+
+        try:
+            with open(specialized_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            for term_name, term_data in data.items():
+                if term_name.startswith("_"):
+                    continue
+
+                # Normalise les synonymes en minuscules
+                mandatory = []
+                for elem in term_data.get("definition", {}).get("mandatory", []):
+                    mandatory.append({
+                        "name": elem.get("name", ""),
+                        "synonyms": [s.lower() for s in elem.get("synonyms", [])]
+                    })
+
+                contextual = []
+                for elem in term_data.get("definition", {}).get("contextual", []):
+                    contextual.append({
+                        "name": elem.get("name", ""),
+                        "synonyms": [s.lower() for s in elem.get("synonyms", [])]
+                    })
+
+                self.SPECIALIZED_TERMS[term_name] = {
+                    "exact_terms": [t.lower() for t in term_data.get("exact_terms", [])],
+                    "definition": {
+                        "mandatory": mandatory,
+                        "contextual": contextual
+                    },
+                    "threshold": term_data.get("threshold", 0.90),
+                    "domaine_parent": term_data.get("domaine_parent", ""),
+                }
+
+            if self.SPECIALIZED_TERMS:
+                print(f"Loaded {len(self.SPECIALIZED_TERMS)} specialized terms")
+
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Warning: Could not load specialized_terms.json: {e}")
+
+    def _validate_specialized_term(self, term_name: str, text_lower: str) -> dict | None:
+        """Valide un terme spécialisé basé sur sa définition.
+
+        Args:
+            term_name: Nom du terme spécialisé
+            text_lower: Texte de la note en minuscules
+
+        Returns:
+            dict avec {is_valid, confidence, reason, matched_elements} ou None si non trouvé
+        """
+        if term_name not in self.SPECIALIZED_TERMS:
+            return None
+
+        term = self.SPECIALIZED_TERMS[term_name]
+
+        # 1. Vérifier si un terme exact est présent
+        for exact in term["exact_terms"]:
+            if exact in text_lower:
+                return {
+                    "is_valid": True,
+                    "confidence": 0.95,
+                    "reason": f"Terme exact trouvé: '{exact}'",
+                    "matched_elements": [],
+                    "exact_match": True
+                }
+
+        # 2. Validation par définition
+        definition = term["definition"]
+        threshold = term["threshold"]
+
+        mandatory = definition.get("mandatory", [])
+        contextual = definition.get("contextual", [])
+        all_elements = mandatory + contextual
+        total_elements = len(all_elements)
+
+        if total_elements == 0:
+            return None
+
+        # Compter les éléments validés
+        mandatory_matched = []
+        contextual_matched = []
+
+        for elem in mandatory:
+            matched_synonym = None
+            for synonym in elem["synonyms"]:
+                if synonym in text_lower:
+                    matched_synonym = synonym
+                    break
+            if matched_synonym:
+                mandatory_matched.append({"name": elem["name"], "matched": matched_synonym})
+
+        for elem in contextual:
+            matched_synonym = None
+            for synonym in elem["synonyms"]:
+                if synonym in text_lower:
+                    matched_synonym = synonym
+                    break
+            if matched_synonym:
+                contextual_matched.append({"name": elem["name"], "matched": matched_synonym})
+
+        # Tous les éléments mandatory doivent être présents
+        if len(mandatory_matched) < len(mandatory):
+            missing = [e["name"] for e in mandatory if e["name"] not in [m["name"] for m in mandatory_matched]]
+            return {
+                "is_valid": False,
+                "confidence": 0,
+                "reason": f"Éléments obligatoires manquants: {', '.join(missing)}",
+                "matched_elements": mandatory_matched + contextual_matched,
+                "exact_match": False
+            }
+
+        # Calculer le score
+        total_matched = len(mandatory_matched) + len(contextual_matched)
+        score = total_matched / total_elements
+
+        if score >= threshold:
+            return {
+                "is_valid": True,
+                "confidence": min(0.85, 0.70 + score * 0.15),  # Confiance entre 0.70 et 0.85
+                "reason": f"Définition validée: {total_matched}/{total_elements} éléments ({score:.0%})",
+                "matched_elements": mandatory_matched + contextual_matched,
+                "exact_match": False
+            }
+        else:
+            return {
+                "is_valid": False,
+                "confidence": score * 0.5,  # Score partiel
+                "reason": f"Seuil non atteint: {total_matched}/{total_elements} ({score:.0%} < {threshold:.0%})",
+                "matched_elements": mandatory_matched + contextual_matched,
+                "exact_match": False
+            }
 
     def _get_threshold_options(self, depth: int) -> list[dict]:
         """Retourne les options de validation pour une profondeur donnée.
@@ -973,15 +1147,24 @@ class EmergentTagDetector:
             cascade_result = self._validate_cascade(combined_text, term_lower)
 
             if cascade_result["is_valid"]:
-                # Vérifie aussi les objets associés
+                validated_paths = cascade_result.get("validated_paths", [])
+
+                # Vérifie les objets associés (tags plats avec mots déclencheurs)
                 validated_objects = self._validate_objects(
                     combined_text,
-                    cascade_result.get("validated_paths", [])
+                    validated_paths
+                )
+
+                # Vérifie les termes spécialisés (validation par définition)
+                validated_specialized = self._validate_specialized_terms_for_note(
+                    combined_text,
+                    validated_paths
                 )
 
                 return {
                     **cascade_result,
                     "validated_objects": validated_objects,
+                    "validated_specialized_terms": validated_specialized,
                     "category": "cascade",
                 }
 
@@ -1330,6 +1513,80 @@ class EmergentTagDetector:
 
         return validated_objects
 
+    def _validate_specialized_terms_for_note(
+        self,
+        text: str,
+        validated_paths: list
+    ) -> list[dict]:
+        """Valide les termes spécialisés pour une note.
+
+        Args:
+            text: Texte complet de la note
+            validated_paths: Chemins validés par la cascade (pour vérifier domaine parent)
+
+        Returns:
+            Liste de termes spécialisés validés avec leurs métadonnées
+        """
+        text_lower = text.lower()
+        validated = []
+
+        if not self.SPECIALIZED_TERMS:
+            return validated
+
+        # Extrait les chemins validés avec confiance
+        valid_path_confidence = {}
+        for path_info in validated_paths:
+            if isinstance(path_info, dict):
+                path = path_info["path"]
+                confidence = path_info.get("confidence", 0.5)
+            else:
+                path = path_info
+                confidence = 0.5
+            parts = path.split("\\")
+            for i in range(len(parts)):
+                p = "\\".join(parts[:i+1])
+                valid_path_confidence[p] = max(valid_path_confidence.get(p, 0), confidence)
+
+        valid_path_set = set(valid_path_confidence.keys())
+
+        for term_name, term_data in self.SPECIALIZED_TERMS.items():
+            domaine_parent = term_data.get("domaine_parent", "")
+
+            # Vérifie que le domaine parent est validé
+            parent_validated = False
+            parent_confidence = 0.0
+            for valid_path in valid_path_set:
+                if domaine_parent.startswith(valid_path) or valid_path.startswith(domaine_parent):
+                    parent_validated = True
+                    parent_confidence = max(parent_confidence, valid_path_confidence.get(valid_path, 0))
+
+            if not parent_validated:
+                continue
+
+            # Seuil de confiance pour le domaine parent
+            min_parent_confidence = 0.85
+            max_confidence_path = max(valid_path_confidence.values()) if valid_path_confidence else 0
+            is_primary_domain = parent_confidence >= max_confidence_path - 0.05
+
+            if parent_confidence < min_parent_confidence and not is_primary_domain:
+                continue
+
+            # Valide le terme spécialisé
+            result = self._validate_specialized_term(term_name, text_lower)
+
+            if result and result["is_valid"]:
+                validated.append({
+                    "name": term_name,
+                    "confidence": result["confidence"],
+                    "domaine_parent": domaine_parent,
+                    "exact_match": result.get("exact_match", False),
+                    "matched_elements": result.get("matched_elements", []),
+                    "tag_type": "specialized",
+                    "reasons": [result["reason"]],
+                })
+
+        return validated
+
     def _domains_match(self, domain1: str, domain2: str) -> bool:
         """Vérifie si deux domaines correspondent (exact ou relation parent/enfant).
 
@@ -1621,6 +1878,39 @@ class EmergentTagDetector:
                             "domaine_parent": obj["domaine_parent"],
                             "total_word_count": obj.get("total_word_count", 0),
                             "can_promote": obj.get("total_word_count", 0) >= 5,
+                        },
+                    ))
+
+            # TAGS TERMES SPÉCIALISÉS (validation par définition)
+            # Format : #nom-terme (tag plat avec validation sémantique)
+            validated_specialized = validation.get("validated_specialized_terms", [])
+            for spec in validated_specialized:
+                spec_tag = spec["name"]
+                if self._normalize(spec_tag) not in self._existing_tags_normalized:
+                    # Construit le reasoning
+                    if spec.get("exact_match"):
+                        spec_reasoning = f"Terme spécialisé '{spec_tag}' validé par terme exact"
+                    else:
+                        matched = spec.get("matched_elements", [])
+                        matched_names = [e["name"] for e in matched[:5]]
+                        spec_reasoning = (
+                            f"Terme spécialisé '{spec_tag}' validé par définition - "
+                            f"éléments: {', '.join(matched_names)}"
+                            f"{'...' if len(matched) > 5 else ''}"
+                        )
+
+                    suggestions.append(EmergentTagSuggestion(
+                        name=spec_tag,
+                        family=TagFamily.CATEGORY,
+                        confidence=spec["confidence"],
+                        notes=term_notes,
+                        source_terms=[e.get("matched", e["name"]) for e in spec.get("matched_elements", [])[:3]],
+                        reasoning=spec_reasoning,
+                        metadata={
+                            "tag_type": "specialized",
+                            "domaine_parent": spec["domaine_parent"],
+                            "exact_match": spec.get("exact_match", False),
+                            "matched_elements": spec.get("matched_elements", []),
                         },
                     ))
 

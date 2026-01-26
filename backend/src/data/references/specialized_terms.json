@@ -1,0 +1,9 @@
+{
+  "_description": "Termes specialises - validation par definition (seuil 90%)",
+  "_regles": {
+    "validation": "Terme exact present OU 90% des elements de definition valides",
+    "elements": "Chaque element est valide si au moins un de ses synonymes est trouve",
+    "mandatory": "Tous les elements 'mandatory' doivent etre valides",
+    "threshold": "Score = elements_valides / total_elements >= seuil (0.90 par defaut)"
+  }
+}

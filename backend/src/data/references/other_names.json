@@ -1,0 +1,532 @@
+{
+  "_description": "Base de noms propres autres (marques, studios, oeuvres, etc.)",
+  "_format": "Chaque catégorie utilise un préfixe spécifique: marque\\nom, studio\\nom, oeuvre\\nom",
+
+  "marques": {
+    "apple": {
+      "tag": "marque\\apple",
+      "aliases": ["apple inc", "apple computer"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "technologie"
+    },
+    "google": {
+      "tag": "marque\\google",
+      "aliases": ["alphabet", "google inc"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "technologie"
+    },
+    "microsoft": {
+      "tag": "marque\\microsoft",
+      "aliases": ["microsoft corporation"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "technologie"
+    },
+    "amazon": {
+      "tag": "marque\\amazon",
+      "aliases": ["amazon.com"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "technologie"
+    },
+    "meta": {
+      "tag": "marque\\meta",
+      "aliases": ["facebook", "meta platforms"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "technologie"
+    },
+    "netflix": {
+      "tag": "marque\\netflix",
+      "aliases": [],
+      "wikidata_types": ["Q4830453"],
+      "domain": "divertissement"
+    },
+    "disney": {
+      "tag": "marque\\disney",
+      "aliases": ["walt disney", "the walt disney company"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "divertissement"
+    },
+    "sony": {
+      "tag": "marque\\sony",
+      "aliases": ["sony corporation"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "technologie"
+    },
+    "nintendo": {
+      "tag": "marque\\nintendo",
+      "aliases": [],
+      "wikidata_types": ["Q4830453"],
+      "domain": "jeux-vidéo"
+    },
+    "cartier": {
+      "tag": "marque\\cartier",
+      "aliases": [],
+      "wikidata_types": ["Q4830453"],
+      "domain": "luxe"
+    },
+    "louis-vuitton": {
+      "tag": "marque\\louis-vuitton",
+      "aliases": ["vuitton", "lv"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "luxe"
+    },
+    "chanel": {
+      "tag": "marque\\chanel",
+      "aliases": ["coco chanel"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "luxe"
+    },
+    "tesla": {
+      "tag": "marque\\tesla",
+      "aliases": ["tesla motors", "tesla inc"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "automobile"
+    },
+    "coca-cola": {
+      "tag": "marque\\coca-cola",
+      "aliases": ["coca", "coke"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "alimentation"
+    },
+    "nike": {
+      "tag": "marque\\nike",
+      "aliases": ["nike inc"],
+      "wikidata_types": ["Q4830453"],
+      "domain": "sport"
+    },
+    "adidas": {
+      "tag": "marque\\adidas",
+      "aliases": [],
+      "wikidata_types": ["Q4830453"],
+      "domain": "sport"
+    },
+    "mit": {
+      "tag": "marque\\mit",
+      "aliases": ["massachusetts institute of technology"],
+      "wikidata_types": ["Q2385804"],
+      "domain": "éducation"
+    },
+    "harvard": {
+      "tag": "marque\\harvard",
+      "aliases": ["harvard university"],
+      "wikidata_types": ["Q2385804"],
+      "domain": "éducation"
+    },
+    "oxford": {
+      "tag": "marque\\oxford",
+      "aliases": ["oxford university", "university of oxford"],
+      "wikidata_types": ["Q2385804"],
+      "domain": "éducation"
+    },
+    "cambridge": {
+      "tag": "marque\\cambridge",
+      "aliases": ["cambridge university", "university of cambridge"],
+      "wikidata_types": ["Q2385804"],
+      "domain": "éducation"
+    },
+    "sorbonne": {
+      "tag": "marque\\sorbonne",
+      "aliases": ["université de paris"],
+      "wikidata_types": ["Q2385804"],
+      "domain": "éducation"
+    },
+    "ens": {
+      "tag": "marque\\ens",
+      "aliases": ["école normale supérieure"],
+      "wikidata_types": ["Q2385804"],
+      "domain": "éducation"
+    },
+    "polytechnique": {
+      "tag": "marque\\polytechnique",
+      "aliases": ["école polytechnique", "x"],
+      "wikidata_types": ["Q2385804"],
+      "domain": "éducation"
+    },
+    "cnrs": {
+      "tag": "marque\\cnrs",
+      "aliases": ["centre national de la recherche scientifique"],
+      "wikidata_types": ["Q43229"],
+      "domain": "recherche"
+    },
+    "nasa": {
+      "tag": "marque\\nasa",
+      "aliases": [],
+      "wikidata_types": ["Q43229"],
+      "domain": "recherche"
+    },
+    "cern": {
+      "tag": "marque\\cern",
+      "aliases": [],
+      "wikidata_types": ["Q43229"],
+      "domain": "recherche"
+    },
+    "onu": {
+      "tag": "marque\\onu",
+      "aliases": ["nations unies", "un", "united nations"],
+      "wikidata_types": ["Q43229"],
+      "domain": "organisation"
+    },
+    "unesco": {
+      "tag": "marque\\unesco",
+      "aliases": [],
+      "wikidata_types": ["Q43229"],
+      "domain": "organisation"
+    }
+  },
+
+  "studios": {
+    "_description": "Studios d'animation, de cinéma, de jeux vidéo",
+
+    "ghibli": {
+      "tag": "studio\\ghibli",
+      "aliases": ["studio ghibli", "ghibli studio"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "madhouse": {
+      "tag": "studio\\madhouse",
+      "aliases": ["madhouse inc"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "kyoto-animation": {
+      "tag": "studio\\kyoto-animation",
+      "aliases": ["kyoani", "kyoto ani"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "bones": {
+      "tag": "studio\\bones",
+      "aliases": ["studio bones"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "mappa": {
+      "tag": "studio\\mappa",
+      "aliases": [],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "wit-studio": {
+      "tag": "studio\\wit-studio",
+      "aliases": ["wit"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "ufotable": {
+      "tag": "studio\\ufotable",
+      "aliases": [],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "sunrise": {
+      "tag": "studio\\sunrise",
+      "aliases": ["studio sunrise"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "toei-animation": {
+      "tag": "studio\\toei-animation",
+      "aliases": ["toei"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "pixar": {
+      "tag": "studio\\pixar",
+      "aliases": ["pixar animation studios"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "dreamworks": {
+      "tag": "studio\\dreamworks",
+      "aliases": ["dreamworks animation"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "illumination": {
+      "tag": "studio\\illumination",
+      "aliases": ["illumination entertainment"],
+      "wikidata_types": ["Q43229"],
+      "domain": "animation"
+    },
+    "warner-bros": {
+      "tag": "studio\\warner-bros",
+      "aliases": ["warner", "warner brothers"],
+      "wikidata_types": ["Q43229"],
+      "domain": "cinéma"
+    },
+    "universal": {
+      "tag": "studio\\universal",
+      "aliases": ["universal pictures", "universal studios"],
+      "wikidata_types": ["Q43229"],
+      "domain": "cinéma"
+    },
+    "paramount": {
+      "tag": "studio\\paramount",
+      "aliases": ["paramount pictures"],
+      "wikidata_types": ["Q43229"],
+      "domain": "cinéma"
+    },
+    "mgm": {
+      "tag": "studio\\mgm",
+      "aliases": ["metro-goldwyn-mayer"],
+      "wikidata_types": ["Q43229"],
+      "domain": "cinéma"
+    },
+    "a24": {
+      "tag": "studio\\a24",
+      "aliases": [],
+      "wikidata_types": ["Q43229"],
+      "domain": "cinéma"
+    },
+    "naughty-dog": {
+      "tag": "studio\\naughty-dog",
+      "aliases": [],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    },
+    "rockstar-games": {
+      "tag": "studio\\rockstar-games",
+      "aliases": ["rockstar"],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    },
+    "fromsoftware": {
+      "tag": "studio\\fromsoftware",
+      "aliases": ["from software"],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    },
+    "cd-projekt": {
+      "tag": "studio\\cd-projekt",
+      "aliases": ["cd projekt red", "cdpr"],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    },
+    "bethesda": {
+      "tag": "studio\\bethesda",
+      "aliases": ["bethesda game studios", "bethesda softworks"],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    },
+    "ubisoft": {
+      "tag": "studio\\ubisoft",
+      "aliases": [],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    },
+    "electronic-arts": {
+      "tag": "studio\\electronic-arts",
+      "aliases": ["ea", "ea games"],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    },
+    "blizzard": {
+      "tag": "studio\\blizzard",
+      "aliases": ["blizzard entertainment"],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    },
+    "valve": {
+      "tag": "studio\\valve",
+      "aliases": ["valve corporation"],
+      "wikidata_types": ["Q43229"],
+      "domain": "jeux-vidéo"
+    }
+  },
+
+  "oeuvres": {
+    "_description": "Oeuvres célèbres (films, livres, séries, jeux) - uniquement les plus connues",
+
+    "star-wars": {
+      "tag": "oeuvre\\star-wars",
+      "aliases": ["la guerre des étoiles"],
+      "wikidata_types": ["Q167037"],
+      "type": "franchise"
+    },
+    "star-trek": {
+      "tag": "oeuvre\\star-trek",
+      "aliases": [],
+      "wikidata_types": ["Q167037"],
+      "type": "franchise"
+    },
+    "lord-of-the-rings": {
+      "tag": "oeuvre\\lord-of-the-rings",
+      "aliases": ["seigneur des anneaux", "lotr"],
+      "wikidata_types": ["Q7725634", "Q11424"],
+      "type": "franchise"
+    },
+    "harry-potter": {
+      "tag": "oeuvre\\harry-potter",
+      "aliases": [],
+      "wikidata_types": ["Q167037"],
+      "type": "franchise"
+    },
+    "game-of-thrones": {
+      "tag": "oeuvre\\game-of-thrones",
+      "aliases": ["got", "trône de fer"],
+      "wikidata_types": ["Q5398426"],
+      "type": "série"
+    },
+    "marvel": {
+      "tag": "oeuvre\\marvel",
+      "aliases": ["marvel cinematic universe", "mcu"],
+      "wikidata_types": ["Q167037"],
+      "type": "franchise"
+    },
+    "matrix": {
+      "tag": "oeuvre\\matrix",
+      "aliases": ["the matrix"],
+      "wikidata_types": ["Q11424"],
+      "type": "film"
+    },
+    "blade-runner": {
+      "tag": "oeuvre\\blade-runner",
+      "aliases": [],
+      "wikidata_types": ["Q11424"],
+      "type": "film"
+    },
+    "attack-on-titan": {
+      "tag": "oeuvre\\attack-on-titan",
+      "aliases": ["shingeki no kyojin", "l'attaque des titans"],
+      "wikidata_types": ["Q5398426"],
+      "type": "manga"
+    },
+    "one-piece": {
+      "tag": "oeuvre\\one-piece",
+      "aliases": [],
+      "wikidata_types": ["Q7725634"],
+      "type": "manga"
+    },
+    "naruto": {
+      "tag": "oeuvre\\naruto",
+      "aliases": [],
+      "wikidata_types": ["Q7725634"],
+      "type": "manga"
+    },
+    "death-note": {
+      "tag": "oeuvre\\death-note",
+      "aliases": [],
+      "wikidata_types": ["Q7725634"],
+      "type": "manga"
+    },
+    "evangelion": {
+      "tag": "oeuvre\\evangelion",
+      "aliases": ["neon genesis evangelion", "nge"],
+      "wikidata_types": ["Q5398426"],
+      "type": "anime"
+    },
+    "spirited-away": {
+      "tag": "oeuvre\\spirited-away",
+      "aliases": ["voyage de chihiro", "chihiro"],
+      "wikidata_types": ["Q11424"],
+      "type": "film"
+    },
+    "your-name": {
+      "tag": "oeuvre\\your-name",
+      "aliases": ["kimi no na wa"],
+      "wikidata_types": ["Q11424"],
+      "type": "film"
+    },
+    "zelda": {
+      "tag": "oeuvre\\zelda",
+      "aliases": ["legend of zelda", "the legend of zelda"],
+      "wikidata_types": ["Q167037"],
+      "type": "jeu-vidéo"
+    },
+    "final-fantasy": {
+      "tag": "oeuvre\\final-fantasy",
+      "aliases": ["ff"],
+      "wikidata_types": ["Q167037"],
+      "type": "jeu-vidéo"
+    },
+    "dark-souls": {
+      "tag": "oeuvre\\dark-souls",
+      "aliases": [],
+      "wikidata_types": ["Q167037"],
+      "type": "jeu-vidéo"
+    },
+    "the-witcher": {
+      "tag": "oeuvre\\the-witcher",
+      "aliases": ["witcher", "sorceleur"],
+      "wikidata_types": ["Q167037"],
+      "type": "franchise"
+    },
+    "dune": {
+      "tag": "oeuvre\\dune",
+      "aliases": [],
+      "wikidata_types": ["Q7725634", "Q11424"],
+      "type": "franchise"
+    },
+    "fondation": {
+      "tag": "oeuvre\\fondation",
+      "aliases": ["foundation"],
+      "wikidata_types": ["Q7725634"],
+      "type": "roman"
+    },
+    "1984": {
+      "tag": "oeuvre\\1984",
+      "aliases": ["nineteen eighty-four"],
+      "wikidata_types": ["Q7725634"],
+      "type": "roman"
+    },
+    "brave-new-world": {
+      "tag": "oeuvre\\brave-new-world",
+      "aliases": ["meilleur des mondes"],
+      "wikidata_types": ["Q7725634"],
+      "type": "roman"
+    }
+  },
+
+  "groupes_musicaux": {
+    "_description": "Groupes et artistes musicaux célèbres",
+
+    "beatles": {
+      "tag": "groupe\\beatles",
+      "aliases": ["the beatles"],
+      "wikidata_types": ["Q482994"],
+      "domain": "rock"
+    },
+    "pink-floyd": {
+      "tag": "groupe\\pink-floyd",
+      "aliases": [],
+      "wikidata_types": ["Q482994"],
+      "domain": "rock"
+    },
+    "led-zeppelin": {
+      "tag": "groupe\\led-zeppelin",
+      "aliases": [],
+      "wikidata_types": ["Q482994"],
+      "domain": "rock"
+    },
+    "queen": {
+      "tag": "groupe\\queen",
+      "aliases": [],
+      "wikidata_types": ["Q482994"],
+      "domain": "rock"
+    },
+    "radiohead": {
+      "tag": "groupe\\radiohead",
+      "aliases": [],
+      "wikidata_types": ["Q482994"],
+      "domain": "rock"
+    },
+    "nirvana": {
+      "tag": "groupe\\nirvana",
+      "aliases": [],
+      "wikidata_types": ["Q482994"],
+      "domain": "rock"
+    },
+    "metallica": {
+      "tag": "groupe\\metallica",
+      "aliases": [],
+      "wikidata_types": ["Q482994"],
+      "domain": "metal"
+    },
+    "daft-punk": {
+      "tag": "groupe\\daft-punk",
+      "aliases": [],
+      "wikidata_types": ["Q482994"],
+      "domain": "électronique"
+    }
+  }
+}
