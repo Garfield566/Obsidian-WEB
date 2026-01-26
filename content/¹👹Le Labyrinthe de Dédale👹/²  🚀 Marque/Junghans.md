@@ -1,10 +1,6 @@
 ---
-brand: 
-Junhncreted: "1861"
-ed: no
-Pyd'Oriine: Allemne
-note: .
-cover: ""
+title: "Junghans"
+tags: []
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/junghans.svg)

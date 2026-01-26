@@ -1,25 +1,6 @@
 ---
-Titre: ""
-note-udio: "✨✨✨✨✨"
-note-cénrio: "✨✨✨✨"
-note-viuel: "✨✨✨✨"
-cover: ""
-ou_enre: ""
-Réliteur: "Noriyuki Abe"
-Compoiteur.: "Yuuke Honmcénrite: "Mhi oo (dpttion du mnde Tohru Fujiw)"
-nimtion.: tudio Année de ortie: 1999
-type: érie nimée"
-vue: true
-tags:
- - udioviuel"
- - "Comédie"
- - rme"
- - lice_of_life"
- - "Mhi-oo"
- - tudio-- - river-_Hih"
- - hizuku"
- - chool_Life_Theme"
-Acteurprincipux: "(double i) : Tki Wtru (Eikichi Onizuk), Ayko Kwumi (AzuFuyutuki)"
+title: "Great Teacher Onizuka"
+tags: []
 ---
 
 # 🎥 GTO

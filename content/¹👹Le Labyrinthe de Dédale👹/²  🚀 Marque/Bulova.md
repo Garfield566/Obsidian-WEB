@@ -1,10 +1,6 @@
 ---
-brnd: ""
-ed: no
-mme de prix: 200-5k
-note: .
-Pyd'Oriine: UA
-ticker: .
+title: "Bulova"
+tags: []
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/bulova-1.svg)

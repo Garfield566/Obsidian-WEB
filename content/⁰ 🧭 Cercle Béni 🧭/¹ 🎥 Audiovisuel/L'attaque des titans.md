@@ -1,23 +1,6 @@
 ---
-Titre: L'Attque denote-udio: ✨✨✨✨
-note-cénrio: ✨✨✨✨✨
-note-viuel: ✨✨✨
-cover: ""
-genre: 
-ou_enre: cience-Fiction, Réliteur: Hjime Iym(Auteur du mn), Teturō Arki (Réliteur deion1-3)
-Compoiteur.: Hiroyuki wno
-nimtion.: Wit tudio (ion 1-3), MAPPA (ion 4)
-Année de ortie: 2020
-type: érie
-vue: true
-tags:
- - MAPPA
- - Wit-tudio
- - Hiroyuki-wno
- - Action
- - rme
- - Fnttique
- - udioviuel
+title: "L'attaque des titans"
+tags: []
 ---
 
 # 🎥 *L'Attaque des Titans

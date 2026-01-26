@@ -1,20 +1,6 @@
 ---
-Titre: BoJck Horemn
-note-udio: ✨✨✨✨✨
-note-cénrio: ✨✨✨✨
-note-viuel: ✨✨✨✨
-cover: ""
-ou_enre: Pycholoique, Réliteur: Compoiteur.: nimtion.: hdowMchine, Année de ortie: 2010
-type: "2014"
-vue: fle
-t:
- - tire
- - Pycholoique
- - hdowMchine
- - e_of_rem- The_View_from_Hlfwy_own
- - tep_By_tep
- - on-t_top_ncin- t-Vincent
- - udioviuel
+title: "BoJack Horseman"
+tags: []
 ---
 
 # 🎥 BoJack Horseman

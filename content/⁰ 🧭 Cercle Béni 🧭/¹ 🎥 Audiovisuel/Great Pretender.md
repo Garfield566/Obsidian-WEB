@@ -1,24 +1,6 @@
 ---
-Titre: BoJck Horemn
-note-udio: ✨✨✨✨✨
-note-cénrio: ✨✨✨
-note-viuel: ✨✨✨✨✨
-cover: ""
-ou_enre: Pycholoique
-Réliteur: Compoiteur.: Yutk-Ymdnimtion.: Wit-tudio
-Année de ortie: 2020
-type: érie nimée
-vue: true
-t:
- - Comédie
- - Crime
- - Heit
- - Pycholoique
- - Yutk-Ymd- Wit-tudio
- - inpore_ky
- - now_of_London
- - cm_Artitry
- - udioviuel
+title: "Great Pretender"
+tags: []
 ---
 
 # 🎥 **Great Pretender**

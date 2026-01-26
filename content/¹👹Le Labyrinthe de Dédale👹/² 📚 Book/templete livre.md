@@ -1,33 +1,6 @@
-> [!infobox]
-> # 📚 [Titre du Livre]
-> ###### [Auteur]
-> ![[[Couverture du livre.png]|300]]
->
-> ###### Détails Clés
-> | Catégorie | Information |
-> | :--- | :--- |
-> **Auteur(s)** | [[Nom de l'Auteur]] |
-> **Année de Publication** | [Année] |
-> **Genre Principal** | [Ex: Roman, Essai, Poésie, Science-Fiction, Polar] |
-> **Mouvement littéraire** | [Ex: Réalisme, Postmodernisme, Absurde, Baroque] |
-> **Langue Originale** | [Langue] |
-> **Nombre de Pages** | [Chiffre] |
->
-> [Courte phrase ou citation résumant l'œuvre et son impact.]
-
 ---
-
-## 💡 Thèmes et Idées Centrales
-
-### 📝 Résumé de l'intrigue (ou Thèse pour un Essai)
-> [!abstract]
-> [Résumé concis de l'histoire (ou de l'argumentation principale de l'essai), en insistant sur le conflit ou la question centrale.]
-
-### 📌 Thèmes Majeurs
-* **Thème 1 :** [Ex: La quête d'identité, la critique sociale, la fatalité, l'amour interdit.]
-* **Thème 2 :** [Ex: Le rôle de la mémoire, l'influence de la technologie, la nature humaine.]
-* **Motivation de l'Auteur :** [Quel message l'auteur cherchait-il à transmettre ?]
-
+title: "templete livre"
+tags: []
 ---
 
 ## ✍️ Structure et Style

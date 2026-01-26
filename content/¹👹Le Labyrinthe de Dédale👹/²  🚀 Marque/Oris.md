@@ -1,11 +1,6 @@
 ---
-brnd: ""
-created: "1904"
-ed: no
-mme de prix: 400-10k
-note: .
-Pyd'Oriine: uie
-ticker: .
+title: "Oris"
+tags: []
 ---
 
 ![cover|500](https://i0.wp.com/magmontres.fr/wp-content/uploads/2014/12/Oris-110-ans.jpg?resize=650%2C325)

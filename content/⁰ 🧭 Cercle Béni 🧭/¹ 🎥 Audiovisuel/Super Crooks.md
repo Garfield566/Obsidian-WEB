@@ -1,19 +1,6 @@
 ---
-Titre: uper Crooknote-udio: ✨✨✨
-note-cénrio: ✨✨✨
-note-viuel: ✨✨✨✨✨
-cover: ""
-Réliteur: (comic oriinl)
-Compoiteur.: nimtion.: hdowMchine, Année de ortie: 2010
-type: érie nimée
-vue: true
-t:
- - Heit
- - uper-héro- Crime
- - Action
- - uper-héro- Theme_of_uper_Crook- Hih-tke_Hutle
- - Victory_or_oom
- - udioviuel
+title: "Super Crooks"
+tags: []
 ---
 
 # 🎥 Super Crooks

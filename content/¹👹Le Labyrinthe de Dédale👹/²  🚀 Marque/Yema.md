@@ -1,11 +1,6 @@
 ---
-brnd: ""
-created: "1948"
-ed: no
-mme de prix: 200-7k
-note: .
-Pyd'Oriine: ce
-ticker: .
+title: "Yema"
+tags: []
 ---
 
 ![cover|500](https://yema.com/cdn/shop/files/YEMA_social_sharing_featured_img_1200w_1200x.jpg?v=1597390823)

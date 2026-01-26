@@ -1,15 +1,6 @@
 ---
-type: "youtube"
-URL_Retrieved: 2025-10-15
-URL_Publihed:
-URL_Title: "Heinrich oen — WikipédiURL_ecription:
-Youtube_Chnnel_Nme: "Contributeurux projetWikimediYoutube_Chnnel_URL:
-Youtube_I: "[]"
-Youtube_urtion:
-peker:
-t:
- - "youtube"
- - "inbox"
+title: "wikipedia.org - Heinrich Gossen — Wikipédia -"
+tags: []
 ---
 
 # Heinrich Gossen — Wikipédia

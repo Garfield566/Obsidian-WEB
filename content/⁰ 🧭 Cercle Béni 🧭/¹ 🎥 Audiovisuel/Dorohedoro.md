@@ -1,24 +1,6 @@
 ---
-Titre: orohedoro
-note-udio: ✨✨✨
-note-cénrio: ✨✨✨
-note-viuel: ✨✨✨✨
-cover: ""
-genre: Fnty Action, Comédie ou_genre: Réliteur: (uteur du mnoriinl)
-Compoiteur.: K(i)Noe
-nimtion.: MAPPA
-Année de ortie: 2020
-type: érie nimée
-vue: true
-tags:
- - orohedoro
- - Action
- - Comédie
- - Niht_URF
- - Niko-_y
- - orcerer-_howdown
- - udioviuel
-ticker: ""
+title: "Dorohedoro"
+tags: []
 ---
 
 # 🎥 Dorohedoro

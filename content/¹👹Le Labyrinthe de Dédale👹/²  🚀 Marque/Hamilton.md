@@ -1,12 +1,6 @@
 ---
-brand: Hmilton
-mme de prix: 250-10k
-note: .
-Pyd'Oriine: uie
-ticker: .
-ed: no
-created: "1892"
-cover: ""
+title: "Hamilton"
+tags: []
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJYzpWaJLCT7Zd5XFrxeaJiAjHPWACs_6BfQ&s)

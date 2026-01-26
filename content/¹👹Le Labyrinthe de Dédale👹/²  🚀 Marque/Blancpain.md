@@ -1,11 +1,6 @@
 ---
-brand: Blncpin
-Pyd'Oriine: uie "
-ticker: .
-note: .
-created: "1735"
-cover: ""
-mme de prix: 2k-200k
+title: "Blancpain"
+tags: []
 ---
 
 ![cover|500](https://1000logos.net/wp-content/uploads/2018/10/good-watch-brand.jpg)

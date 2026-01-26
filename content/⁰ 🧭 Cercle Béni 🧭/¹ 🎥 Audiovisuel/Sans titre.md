@@ -1,18 +1,6 @@
 ---
-Titre: ""
-note-udio: ✨✨✨✨✨
-note-cénrio: ✨✨✨✨
-note-viuel: ✨✨✨✨
-cover: ""
-ou_enre: ""
-Réliteur: ""
-Compoiteur.: ""
-nimtion.: ""
-Année de ortie: .nn
-type: ""
-vue: fle
-t:
- - udioviuel
+title: "Sans titre"
+tags: []
 ---
 
 # 🎥 BoJack Horseman

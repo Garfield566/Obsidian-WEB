@@ -1,11 +1,6 @@
 ---
-brand: Breuet
-cover: ""
-created: "1775"
-ed: no
-mme de prix: 5k-400k
-note: .
-ticker: .
+title: "Breguet"
+tags: []
 ---
 
 ![cover|500](https://upload.wikimedia.org/wikipedia/fr/0/02/Breguet-logo.jpg)

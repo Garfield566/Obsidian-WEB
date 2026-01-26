@@ -1,11 +1,6 @@
 ---
-brand: Jeer-LeCoultre
-cover: ""
-ed: no
-mme de prix: 5k-100k
-note: ✨✨✨✨
-Pyd'Oriine: uie
-ticker: .
+title: "Jaeger-LeCoultre"
+tags: []
 ---
 
 ![cover|500](https://1000logos.net/wp-content/uploads/2018/10/Jaeger-leCoultre-symbol.jpg)

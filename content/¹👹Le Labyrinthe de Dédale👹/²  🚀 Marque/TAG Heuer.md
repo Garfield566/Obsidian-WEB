@@ -1,12 +1,6 @@
 ---
-brand: TAHeuer
-cover: ""
-created: "1860"
-ed: no
-mme de prix: 400-60k
-note: .
-Pyd'Oriine: uie
-ticker: .
+title: "TAG Heuer"
+tags: []
 ---
 
 ![cover|500](https://logowik.com/content/uploads/images/tag-heuer-with-wordmark1869.logowik.com.webp)

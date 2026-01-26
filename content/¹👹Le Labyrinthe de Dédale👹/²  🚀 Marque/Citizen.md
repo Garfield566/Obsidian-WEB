@@ -1,12 +1,6 @@
 ---
-brand: Citizen
-created: "1918"
-ed: no
-Pyd'Oriine: "Jpn "
-ticker: emoji1f3ef
-cover: ""
-mme de prix: 100-3k
-note: ✨✨✨✨
+title: "Citizen"
+tags: []
 ---
 
 ![cover|500](https://www.uhren-shop.ch/uhren-magazin/wp-content/uploads/2020/10/Blog-Citizen-Uhren-Schweiz-2020.jpg.webp)

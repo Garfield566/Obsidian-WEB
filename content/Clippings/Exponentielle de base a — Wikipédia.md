@@ -1,13 +1,6 @@
 ---
 title: "Exponentielle de base a — Wikipédia"
-source: "https://fr.wikipedia.org/wiki/Exponentielle_de_base_a"
-author:
-  - "[[Contributeurs aux projets Wikimédia]]"
-published: 2011-02-16
-created: 2026-01-13
-description: ""
-tags:
-  - "clipping"
+tags: []
 ---
  
 Fonction exponentielle de base _a_

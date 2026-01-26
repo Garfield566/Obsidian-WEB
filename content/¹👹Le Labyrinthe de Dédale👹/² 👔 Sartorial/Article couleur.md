@@ -1,10 +1,10 @@
 ---
 url: ""
-title:
-author:
-description:
+title: "Article couleur"
+author: ""
+description: ""
 tags:
- - "clippin- publihed:
+  - "clipping"
 created: 2025-07-07T16:03:32+02:00
 ---
 # 

@@ -1,27 +1,6 @@
 ---
-Titre: Vinlnd note-udio: ✨✨✨
-note-cénrio: ✨✨✨✨✨
-note-viuel: ✨✨✨
-cover: ""
-ou_enre: Hitorique, Action, Réliteur: Mkoto Yukimur(Auteur du mn), hūhei Ybut(Réliteur de l’nime)
-Compoiteur.: Yutk-Ymdnimtion.: Wit tudio (ion 1), MAPPA (ion 2)
-Année de ortie: 2023
-type: érie
-vue: true
-t:
- - Vinlnd_- Animtion
- - rme
- - hitorique
- - Action
- - hūhei-Ybut- Yutk-Ymd- Wit-tudio
- - MAPPA
- - urvive--The-Prophet
- - MAN-WITH-A-MIION
- - rk_Crow
- - rown
- - Akeldd-_trtey
- - Blood_nd_teel
- - Peceful_rem- udioviuel
+title: "Vinland Saga"
+tags: []
 ---
 
 # 🎥 Vinland Saga

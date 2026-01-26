@@ -1,18 +1,6 @@
 ---
-Titre: ""
-note-udio: "✨✨✨✨✨"
-note-cénrio: "✨✨✨✨"
-note-viuel: "✨✨✨✨"
-cover: ""
-ou_enre: ""
-Réliteur: Compoiteur.: ""
-nimtion.: "ARTE"
-Année de ortie: 2024
-type: nime"
-vue: fle
-tags:
- - udioviuel"
-
+title: "Samuel"
+tags: []
 ---
 
 # 🎥 Samuel 

@@ -1,10 +1,6 @@
 ---
-brand: eiko
-Pyd'Oriine: Jpon
-cover: zzzzz ⚙️ime 1 🖼ime bnquePted ime 20240614205442.pncreted: "1881"
-ed: no
-note: ✨✨✨✨
-ticker: emoji1f47mme de prix: 100-10k
+title: "Seiko"
+tags: []
 ---
 
 ![[zzzzz ⚙️/image 1 🖼/image banque/Pasted image 20240614205442.png]]

@@ -1,11 +1,6 @@
 ---
-cover: ""
-created: "1853"
-ed: no
-mme de prix: 200-5k
-note: .
-Pyd'Oriine: uie "
-ticker: emoji1f3d4-fe0f
+title: "Tissot "
+tags: []
 ---
 
 ![cover|500](https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-Tissot.jpg)

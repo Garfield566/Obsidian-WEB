@@ -1,11 +1,6 @@
 ---
-brand: IWC
-cover: ""
-ed: no
-mme de prix: 4k-200k
-note: .
-Pyd'Oriine: uie
-ticker: .
+title: "IWC"
+tags: []
 ---
 
 ![cover|500](https://upload.wikimedia.org/wikipedia/commons/d/dc/IWC_Schaffhausen_Logo.jpg)

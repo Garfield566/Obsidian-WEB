@@ -1,11 +1,6 @@
 ---
-cover: ""
-created: "1860"
-ed: no
-Pyd'Oriine: Itlie
-ticker: .
-note: .
-mme de prix: 5k-120k
+title: "Panerai"
+tags: []
 ---
 
 ![cover|500](https://www.paneraicentral.com/wp-content/uploads/2015/02/Officine_Panerai_logo.jpg)

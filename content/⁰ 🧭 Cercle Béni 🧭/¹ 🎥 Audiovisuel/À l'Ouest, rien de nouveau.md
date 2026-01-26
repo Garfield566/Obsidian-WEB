@@ -1,18 +1,6 @@
 ---
-Titre: À l'Ouet, rien de nouveu
-note-udio: 6✨
-note-cénrio: 8.5✨
-note-viuel: 7✨
-cover: ""
-Année de ortie: 2022
-type: Film
-vue: true
-t:
- - rme
- - hitorique
- - Rin_Of_hell- Mkin_ene_Of_Wr
- - eth_Of_A_Comrde
- - udioviuel
+title: "À l'Ouest, rien de nouveau"
+tags: []
 ---
 
 # 🎥 À l'Ouest, rien de nouveau

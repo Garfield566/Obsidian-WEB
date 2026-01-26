@@ -1,12 +1,6 @@
 ---
-brand: Richrd Mille
-cover: ""
-Pyd'Oriine: uie
-ticker: .
-note: .
-mme de prix: 80k-3M
-ed: no
-created: "2001"
+title: "Richard Mille"
+tags: []
 ---
 
 ![cover|500](https://logowik.com/content/uploads/images/richard-mille9316.logowik.com.webp)

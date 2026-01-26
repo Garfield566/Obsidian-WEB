@@ -1,11 +1,6 @@
 ---
-brand: Tudor
-cover: ""
-ed: no
-Pyd'Oriine: uie
-ticker: emoji1f441-fe0f-200d-1f5e8-fe0f
-note: .
-mme de prix: 1k-100k
+title: "Tudor"
+tags: []
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3D7ckAEJkBrFES31v_dHW8iTDU1DSYccJw&s)

@@ -1,11 +1,6 @@
 ---
-brand: 
-Omecreted: "1848"
-ed: no
-note: o
-Pyd'Oriine: uie
-ticker: .
-cover: ""
+title: "Omega"
+tags: []
 ---
 
 ![cover|500](https://i.pinimg.com/736x/06/45/a0/0645a0511edb42f5a1b2819bc1ca8410.jpg)

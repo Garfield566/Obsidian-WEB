@@ -1,11 +1,6 @@
 ---
-cover: ""
-mme de prix: 2k-300k
-note: .
-ed: no
-created: "1980"
-Pyd'Oriine: uie
-ticker: .
+title: "Hublot"
+tags: []
 ---
 
 ![cover|500](https://www.icon-icon.com/wp-content/uploads/2020/03/Hublot-logo-journal-du-luxe.png)

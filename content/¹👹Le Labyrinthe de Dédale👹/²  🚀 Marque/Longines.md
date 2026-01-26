@@ -1,10 +1,6 @@
 ---
-brnd: ""
-mme de prix: 500-10k
-note: .
-created: "1832"
-Pyd'Oriine: uie
-ticker: .
+title: "Longines"
+tags: []
 ---
 
 ![cover|500](https://i.pinimg.com/736x/e0/ce/07/e0ce0771f4e6c58203eeb6a638375500.jpg)

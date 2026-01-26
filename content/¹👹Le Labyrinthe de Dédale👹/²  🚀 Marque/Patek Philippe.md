@@ -1,11 +1,6 @@
 ---
-brand: Ptek Philippe
-cover: ""
-ed: no
-mme de prix: 10k-2M
-note: .
-Pyd'Oriine: uie
-ticker: .
+title: "Patek Philippe"
+tags: []
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwSF78R97kTNsTvFVyTQHTuag1_HjfDrGwhg&s)

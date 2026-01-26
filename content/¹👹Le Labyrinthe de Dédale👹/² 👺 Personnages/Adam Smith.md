@@ -1,14 +1,15 @@
 ---
-url: https://en.wikipedia.org/wiki/title: Adam Smith - Wikipedia
+url: "https://en.wikipedia.org/wiki/Adam_Smith"
+title: "Adam Smith - Wikipedia"
 tags:
- - clippings
- - wikipedia
+  - clippings
+  - wikipedia
 published: 2001-09-10T16:42:46+02:00
-modified:
+modified: ""
 created: 2025-05-01
 cover: Pasted image 20250501172944.png
 category: Economics
-date: (1723-1790)
+date: "(1723-1790)"
 nationalité: Irish
 siècle: XVIII
 sous_category: liberalism

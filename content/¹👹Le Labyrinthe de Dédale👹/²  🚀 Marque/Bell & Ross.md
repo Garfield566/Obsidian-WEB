@@ -1,10 +1,6 @@
 ---
-brnd: ""
-ed: no
-mme de prix: 2k-100k
-note: .
-Pyd'Oriine: ce
-ticker: .
+title: "Bell & Ross"
+tags: []
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/bell-ross.svg)

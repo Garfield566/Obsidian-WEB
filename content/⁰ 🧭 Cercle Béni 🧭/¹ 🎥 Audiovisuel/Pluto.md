@@ -1,20 +1,6 @@
 ---
-Titre: note-udio: ✨✨✨✨✨
-note-cénrio: ✨✨✨✨✨
-note-viuel: ✨✨✨
-cover: ""
-genre: Animtion, cience-fiction, ou_genre: cience-Fiction, Réliteur: "Omu Tezuk(Œuvre oriinle : Atro Boy), Noki Urw& Tkhi Nki (Adpttion)"
-Compoiteur.: Yuo-Knno
-nimtion.: Année de ortie: 2023
-type: érie
-vue: true
-tags:
- - Animtion
- - cience-fiction
- - Noki-Urw- _Min_Theme
- - Artificil_oul
- - Yuo-Knno
- - udioviuel
+title: "Pluto"
+tags: []
 ---
 
 # 🎥 Pluto

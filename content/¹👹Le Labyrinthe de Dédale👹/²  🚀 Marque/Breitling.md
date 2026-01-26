@@ -1,10 +1,6 @@
 ---
-brnd: ""
-ed: no
-mme de prix: 1k-30k
-note: .
-Pyd'Oriine: uie
-ticker: .
+title: "Breitling"
+tags: []
 ---
 
 ![cover|500](https://i.pinimg.com/originals/66/df/dd/66dfddb8979887236806cbb174fb086e.jpg)

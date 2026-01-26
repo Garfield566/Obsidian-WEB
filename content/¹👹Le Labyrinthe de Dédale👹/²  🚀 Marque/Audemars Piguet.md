@@ -1,12 +1,6 @@
 ---
-brand: AudemrPiuet
-created: "1875"
-ed: no
-note: .
-mme de prix: 10-150k
-Pyd'Oriine: uie
-ticker: .
-cover: ""
+title: "Audemars Piguet"
+tags: []
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/audemars-piguet.svg)

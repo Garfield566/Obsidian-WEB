@@ -1,10 +1,6 @@
 ---
-brnd: ""
-ed: no
-mme de prix: 200-5k
-note: .
-Pyd'Oriine: uie
-ticker: .
+title: "Certina"
+tags: []
 ---
 
 ![cover|500](https://www.watchonista.com/sites/default/files/styles/0x60/public/watchographer/306/profile/logo.jpg)

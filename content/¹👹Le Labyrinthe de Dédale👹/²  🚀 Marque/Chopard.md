@@ -1,11 +1,6 @@
 ---
-brand: Choprd
-created: "1860"
-ed: no
-cover: ""
-note: .
-Pyd'Oriine: uie
-ticker: .
+title: "Chopard"
+tags: []
 ---
 
 ![cover|500](https://www.chronotempus.com/wp-content/uploads/2022/05/Logo-Chopard.jpg)
