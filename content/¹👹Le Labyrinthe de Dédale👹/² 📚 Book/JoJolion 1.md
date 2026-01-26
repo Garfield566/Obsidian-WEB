@@ -1,8 +1,9 @@
 ---
-cover: http:m.medi-mzon.comimeI917HRk8vyL.jpt:
-uthor: Hirohiko Arki
-enre: Fnttique
-Type: MnTome: I
+cover: ""
+author: Hirohiko Arki
+genre: Fnttique
+Type: Mn
+Tome: I
 lu: ye
 ---
 

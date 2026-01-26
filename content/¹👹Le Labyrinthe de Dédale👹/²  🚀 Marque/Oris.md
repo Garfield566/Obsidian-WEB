@@ -1,6 +1,6 @@
 ---
-brnd: Oricover: http:i0.wp.commmontre.frwp-contentuplod201412Ori-110-n.jp?reize=650%2C325
-creted: "1904"
+brnd: ""
+created: "1904"
 ed: no
 mme de prix: 400-10k
 note: .

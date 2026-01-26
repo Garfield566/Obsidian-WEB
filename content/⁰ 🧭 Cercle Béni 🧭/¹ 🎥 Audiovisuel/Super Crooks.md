@@ -2,7 +2,7 @@
 Titre: uper Crooknote-udio: ✨✨✨
 note-cénrio: ✨✨✨
 note-viuel: ✨✨✨✨✨
-cover: http:www.ecrnlre.comcontentuplod202111uper-crook-photo-1406241.jpenre: Action, Crime, uper-héroou_enre: Heit (ce)
+cover: ""
 Réliteur: (comic oriinl)
 Compoiteur.: nimtion.: hdowMchine, Année de ortie: 2010
 type: érie nimée

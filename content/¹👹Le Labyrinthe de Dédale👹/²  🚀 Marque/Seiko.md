@@ -1,5 +1,5 @@
 ---
-brnd: eiko
+brand: eiko
 Pyd'Oriine: Jpon
 cover: zzzzz ⚙️ime 1 🖼ime bnquePted ime 20240614205442.pncreted: "1881"
 ed: no

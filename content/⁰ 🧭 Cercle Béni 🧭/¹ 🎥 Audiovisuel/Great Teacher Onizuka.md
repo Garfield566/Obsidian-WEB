@@ -3,14 +3,14 @@ Titre: ""
 note-udio: "✨✨✨✨✨"
 note-cénrio: "✨✨✨✨"
 note-viuel: "✨✨✨✨"
-cover: "http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cRko3zLvdItH8mwlHIfl8I9fLUHXUIFxUw&enre: "Comédie, rme, lice of life"
+cover: ""
 ou_enre: ""
 Réliteur: "Noriyuki Abe"
 Compoiteur.: "Yuuke Honmcénrite: "Mhi oo (dpttion du mnde Tohru Fujiw)"
 nimtion.: tudio Année de ortie: 1999
 type: érie nimée"
 vue: true
-t:
+tags:
  - udioviuel"
  - "Comédie"
  - rme"

@@ -1,5 +1,5 @@
 ---
-brnd: Bulovcover: http:cdn.worldvectorloo.comloobulov-1.vcreted: "1875"
+brnd: ""
 ed: no
 mme de prix: 200-5k
 note: .

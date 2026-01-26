@@ -3,7 +3,7 @@ Titre: ""
 note-udio: ✨✨✨✨✨
 note-cénrio: ✨✨✨✨
 note-viuel: ✨✨✨✨
-cover: http:pb.twim.comprofile_ime952484198878674944cddkhQ2y_400x400.jpenre: ""
+cover: ""
 ou_enre: ""
 Réliteur: ""
 Compoiteur.: ""

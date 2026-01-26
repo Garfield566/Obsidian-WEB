@@ -1,6 +1,6 @@
 ---
 dtbe-pluin: bic
-cover: http:ime.tmdb.ortporiinl2pQ9xf3L3QpoXfkNhIby2R4.jp
+cover: ""
 ---
 # 🎥 **Monster**
 > [!infobox]

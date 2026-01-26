@@ -1,6 +1,6 @@
 ---
 dtbe-pluin: bic
-cover: http:medi.poterloune.comimproduct350000346530346530_poter.jp
+cover: ""
 ---
 # 🎥 **Monster**
 > [!infobox]

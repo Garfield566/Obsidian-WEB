@@ -1,10 +1,10 @@
 ---
-brnd: Citizen
-creted: "1918"
+brand: Citizen
+created: "1918"
 ed: no
 Pyd'Oriine: "Jpn "
 ticker: emoji1f3ef
-cover: http:www.uhren-hop.chuhren-mzinwp-contentuplod202010Blo-Citizen-Uhren-chweiz-2020.jp.webp
+cover: ""
 mme de prix: 100-3k
 note: ✨✨✨✨
 ---

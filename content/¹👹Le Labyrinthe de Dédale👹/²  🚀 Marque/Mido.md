@@ -1,6 +1,6 @@
 ---
-brnd: Mo
-cover: http:uplod-l.webflow.com5880c2457f92b892427b1ee588752c86b107d0160018d5_mo-wtche-new.pncreted: "1918"
+brand: Mo
+cover: ""
 ed: no
 Pyd'Oriine: uie
 ticker: .

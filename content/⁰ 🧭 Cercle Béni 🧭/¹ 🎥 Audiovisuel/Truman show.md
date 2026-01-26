@@ -1,22 +1,6 @@
 ---
-Titre: ""
-note-audio: ✨✨✨✨✨
-note-scénario: ✨✨✨✨
-note-visuel: ✨✨✨✨
-cover: https://i2.wp.com/www.iletaitunefoislecinema.com/wp-content/uploads/2018/06/truman-show-e1532978013389.jpg?fit=1018%2C486&ssl=1
-genre: Drame, Comédie satirique, Science-fiction
-sous_genres: ""
-Réalisateurs: "Peter Weir Scénariste : Andrew Niccol"
-Compositeurs.: Burkhard Dallwitz, avec contributions de Philip lass
-animation.: Paramount
-Année de Sortie: 1998
-type: film
-vue: true
-tags:
- - audiovisuel
-
- - Drame
-
+title: "Truman show"
+tags: []
 ---
 
 # 🎥 the Truman show

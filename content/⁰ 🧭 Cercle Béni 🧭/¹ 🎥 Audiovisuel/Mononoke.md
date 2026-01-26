@@ -1,23 +1,6 @@
 ---
-Titre: Mononoke
-note-audio: 93✨ / 100
-note-scénario: 92 ✨ / 100
-note-visuel: 93 ✨ / 100
-cover: https://api.manga-clic.com/media/anime/mononoke/affiche-anime-mononoke-2007_9hfHVnv.webp
-genre: Animation, Mystère, Horreur, Psychologique
-sous_genres: Japon féodal
-Réalisateurs: Kenji Nakamura
-Compositeurs.: Yasuharu Takanashi
-animation.: Toei Animation
-Année de Sortie: 2007
-type: Série animée
-vue: true
-tags:
- - Mystère
- - Horreur
- - Psychologique
-
- - audiovisuel
+title: "Mononoke"
+tags: []
 ---
 
 # 🎥 Mononoke

@@ -1,15 +1,6 @@
 ---
-Titre: "1"
-cover: http:cdn.meditheque.epmoo.frlink3c9iqqwd1bo864n97i8.jpiècle: "1"
-mouvement: "1"
-peintre: "*hhhhhh*"
-tille: "1"
-Technique: "1"
-dte: "1"
-ticker: emoji261d-fe0f
-t:
-rtit: "1"
-dtbe-pluin: "1"
+title: "Sans titre"
+tags: []
 ---
 ## Femme à l'ombrelle
 

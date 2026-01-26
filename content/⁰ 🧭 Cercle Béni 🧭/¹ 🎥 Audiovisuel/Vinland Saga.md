@@ -2,7 +2,7 @@
 Titre: Vinlnd note-udio: ✨✨✨
 note-cénrio: ✨✨✨✨✨
 note-viuel: ✨✨✨
-cover: http:m.medi-mzon.comimepv-tret-ime52dd8113f4708049920b99d37446f587fc7e30f5d21c6766520bccb03804._X1080_FMjp_.jpenre: Animtion, rme
+cover: ""
 ou_enre: Hitorique, Action, Réliteur: Mkoto Yukimur(Auteur du mn), hūhei Ybut(Réliteur de l’nime)
 Compoiteur.: Yutk-Ymdnimtion.: Wit tudio (ion 1), MAPPA (ion 2)
 Année de ortie: 2023

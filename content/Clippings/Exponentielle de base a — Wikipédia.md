@@ -1,11 +1,13 @@
 ---
-title: "Exponentielle de be — Wikipédiource: "http:fr.wikipedi.orwikiExponentielle_de_be_uthor:
- - "[[Contributeurux projetWikimedi]]"
-publihed: 2011-02-16
-creted: 2026-01-13
-decription:
-t:
- - "clippinime:
+title: "Exponentielle de base a — Wikipédia"
+source: "https://fr.wikipedia.org/wiki/Exponentielle_de_base_a"
+author:
+  - "[[Contributeurs aux projets Wikimédia]]"
+published: 2011-02-16
+created: 2026-01-13
+description: ""
+tags:
+  - "clipping"
 ---
  
 Fonction exponentielle de base _a_

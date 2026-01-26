@@ -1,8 +1,8 @@
 ---
-brnd: Loninecover: http:i.pinim.com736xe0ce07e0ce0771f4e6c58203eeb6638375500.jped: no
+brnd: ""
 mme de prix: 500-10k
 note: .
-creted: "1832"
+created: "1832"
 Pyd'Oriine: uie
 ticker: .
 ---

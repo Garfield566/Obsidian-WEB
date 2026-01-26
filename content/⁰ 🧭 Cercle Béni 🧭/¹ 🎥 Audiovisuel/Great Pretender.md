@@ -3,7 +3,7 @@ Titre: BoJck Horemn
 note-udio: ✨✨✨✨✨
 note-cénrio: ✨✨✨
 note-viuel: ✨✨✨✨✨
-cover: http:www.lteve.frwp-contentuplod202009ret-Pretender-e1599286893351.jpenre: Comédie, Crime, Heit (ce)
+cover: ""
 ou_enre: Pycholoique
 Réliteur: Compoiteur.: Yutk-Ymdnimtion.: Wit-tudio
 Année de ortie: 2020

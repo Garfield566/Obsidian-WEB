@@ -1,6 +1,5 @@
 ---
 type: "youtube"
-URL: "http:fr.wikipedi.orwikiHeinrich_oen"
 URL_Retrieved: 2025-10-15
 URL_Publihed:
 URL_Title: "Heinrich oen — WikipédiURL_ecription:

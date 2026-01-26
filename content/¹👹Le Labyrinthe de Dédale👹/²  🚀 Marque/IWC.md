@@ -1,6 +1,6 @@
 ---
-brnd: IWC
-cover: http:uplod.wikimedi.orwikipedicommonddcIWC_chffhuen_Loo.jpcreted: "1868"
+brand: IWC
+cover: ""
 ed: no
 mme de prix: 4k-200k
 note: .

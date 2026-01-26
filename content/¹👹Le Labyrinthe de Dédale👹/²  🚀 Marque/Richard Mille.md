@@ -1,12 +1,12 @@
 ---
-brnd: Richrd Mille
-cover: http:loowik.comcontentuplodimerichrd-mille9316.loowik.com.webp
+brand: Richrd Mille
+cover: ""
 Pyd'Oriine: uie
 ticker: .
 note: .
 mme de prix: 80k-3M
 ed: no
-creted: "2001"
+created: "2001"
 ---
 
 ![cover|500](https://logowik.com/content/uploads/images/richard-mille9316.logowik.com.webp)

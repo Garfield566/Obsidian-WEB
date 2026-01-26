@@ -1,11 +1,6 @@
 ---
-Type: ""
-Inrédientprincipux: 
-Inrédient: 
-durée préprtion: 
-cover: http:reize.elle.froriinlvrplin_itetoreimeelle--tble-de-cuiinente-207043821780832-2-fre-FRCocktil-Nte.jpt:
- - cocktil
- - Tequil
+title: "Nate à la tequila"
+tags: []
 ---
 ## 🍹 Nate à la tequila
 

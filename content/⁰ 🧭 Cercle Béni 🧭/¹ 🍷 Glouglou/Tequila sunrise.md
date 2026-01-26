@@ -1,12 +1,6 @@
 ---
-Type: cocktil
-Inrédientprincipux: Tequildurée préprtion: 4 min
-cover: http:cocktilcorner.frwp-contentuplod202103Tequil-unrie.jpt:
- - cocktil
- - TequilInrédient: 🔸🔵 6 cl de TequilInrédient-1: 🔸🔵 33 cl de jud'orne
-Inrédient-2: 🔸🔵 2 cl de irop de rendine
-Inrédient-3: 🔸🔵 1 rondelle d'orne
-Inrédient-4: 🔸🔵
+title: "Tequila sunrise"
+tags: []
 ---
 ## 🍹Tequila sunrise
 

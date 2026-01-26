@@ -1,8 +1,8 @@
 ---
 exclrw-pluin: "pred"
-t:
+tags:
  - "exclrw"
-ime: "http:l-philoophie.comwp-contentuplod201205euene-delcroix-l-libert%C3%A9-unt-le-peuple.jpcour: "philo"
+ime: ""
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

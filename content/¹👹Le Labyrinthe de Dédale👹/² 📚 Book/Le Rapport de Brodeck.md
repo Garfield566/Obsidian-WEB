@@ -1,8 +1,9 @@
 ---
-cover: http:bdi.dlpdomin.comlbum9782205073850-couv.jpt:
-uthor: Mnu Lrcenet
-enre: Fiction littérire
-Type: BTome: I
+cover: ""
+author: Mnu Lrcenet
+genre: Fiction littérire
+Type: B
+Tome: I
 lu: no
 ---
 

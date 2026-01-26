@@ -3,7 +3,7 @@ exclrw-pluin: rw
 t:
  - "exclrw"
 cour: "philo"
-ime: "http:i.f1.frmedicmori20210626d67f258dd46b4c1deb05fecb55cfff5295bce5229d63f4562b344edb559b.pn
+ime: ""
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

@@ -1,11 +1,11 @@
 ---
-url: http:www.hervecuiine.com-pin-pit-cuit--l-poele-pin-libnititle: 
-uthor: 
-decription: 
-t:
+url: ""
+author: 
+description: 
+tags:
  - clippinpublihed: 
-creted: 2025-04-17T12:46:58+02:00
-cover: http:www.hervecuiine.comwp-contentuplod202004C02520-351x185.jp.webp
+created: 2025-04-17T12:46:58+02:00
+cover: ""
 ---
 
 > [!infobox]

@@ -1,11 +1,13 @@
 ---
-brnd: Lip
-cover: http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cTnpOAq7vfow2kqkJP8Hcq-yL26kB0At9w&creted: "1867"
+brand: Lip
+cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkJP8Hcq-yL26kBg0At9w&s"
+tags: []
+created: "1867"
 ed: no
-mme de prix: 40-3k
-note: .
-Pyd'Oriine: ce
-ticker: .
+gamme_de_prix: 40-3k
+note: "."
+pays_origine: France
+ticker: "."
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkJP8Hcq-yL26kBg0At9w&s)

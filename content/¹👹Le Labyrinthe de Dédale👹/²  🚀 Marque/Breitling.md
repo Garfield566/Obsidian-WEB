@@ -1,5 +1,5 @@
 ---
-brnd: Breitlincover: http:i.pinim.comoriinl66dfdd66dfddb8979887236806cbb174fb086e.jpcreted: "1884"
+brnd: ""
 ed: no
 mme de prix: 1k-30k
 note: .

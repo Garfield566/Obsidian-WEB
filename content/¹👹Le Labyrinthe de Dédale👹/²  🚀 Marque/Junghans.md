@@ -1,9 +1,10 @@
 ---
-brnd: Junhncreted: "1861"
+brand: 
+Junhncreted: "1861"
 ed: no
 Pyd'Oriine: Allemne
 note: .
-cover: http:cdn.worldvectorloo.comloojunhn.vmme de prix: 30-2k
+cover: ""
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/junghans.svg)

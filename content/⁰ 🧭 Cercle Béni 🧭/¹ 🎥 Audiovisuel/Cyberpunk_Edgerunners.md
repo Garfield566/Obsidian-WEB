@@ -1,26 +1,6 @@
 ---
-Titre: "Cyberpunk: Edgerunners"
-note-audio: ✨✨✨✨✨
-note-scénario: ✨✨✨✨✨
-note-visuel: ✨✨✨
-cover: https://sm.ign.com/ign_fr/photo/default/cyberpunk-edgerunners-season1-episode2-00-21-37-03-166188263_63pw.jpg
-genre: Science-fiction, Action, Drame
-sous_genres: Thriller
-Réalisateurs: basé sur l'univers de CD-Projekt-Red
-Compositeurs.: Akira-Yamaoka
-animation.: Studio-Trigger
-Année de Sortie: 2020
-type: Série animée
-vue: false
-tags:
-
- - Science-fiction
- - Action
- - Drame
-
- - Thriller
-
- - audiovisuel
+title: "Cyberpunk_Edgerunners"
+tags: []
 ---
 
 # 🎥 Cyberpunk: Edgerunners

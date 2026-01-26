@@ -1,7 +1,7 @@
 ---
-brnd: TAHeuer
-cover: http:loowik.comcontentuplodimet-heuer-with-wordmrk1869.loowik.com.webp
-creted: "1860"
+brand: TAHeuer
+cover: ""
+created: "1860"
 ed: no
 mme de prix: 400-60k
 note: .

@@ -2,15 +2,15 @@
 Titre: L'Attque denote-udio: ✨✨✨✨
 note-cénrio: ✨✨✨✨✨
 note-viuel: ✨✨✨
-cover: http:im.20mn.fr9kr78x0K52zl4AvQzhPw1444x920_nime-ttque-titn-vit-ctuellement-ion-finle-wknim-lor-mn-doit-terminer-ui-2021
-enre: 
+cover: ""
+genre: 
 ou_enre: cience-Fiction, Réliteur: Hjime Iym(Auteur du mn), Teturō Arki (Réliteur deion1-3)
 Compoiteur.: Hiroyuki wno
 nimtion.: Wit tudio (ion 1-3), MAPPA (ion 4)
 Année de ortie: 2020
 type: érie
 vue: true
-t:
+tags:
  - MAPPA
  - Wit-tudio
  - Hiroyuki-wno

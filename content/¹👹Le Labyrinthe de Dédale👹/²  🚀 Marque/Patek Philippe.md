@@ -1,6 +1,6 @@
 ---
-brnd: Ptek Philippe
-cover: http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cQwF78R97kTNTvFVyTQHTu1_Hjfrwh&creted: "1839"
+brand: Ptek Philippe
+cover: ""
 ed: no
 mme de prix: 10k-2M
 note: .

@@ -1,6 +1,6 @@
 ---
 dtbe-pluin: bic
-cover: http:fiencerie-thetre.commedipeionion-2024-2025forret-umpd6dce94e0d-1734685469ffiche_forret-ump.jp
+cover: ""
 ---
 # 🎥 **Monster**
 > [!infobox]

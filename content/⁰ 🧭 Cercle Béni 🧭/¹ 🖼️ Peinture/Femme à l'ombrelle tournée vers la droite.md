@@ -1,16 +1,6 @@
 ---
-Titre: "Femme à l'ombrelle tournée verldroite"
-cover: "![[Pted ime 20250421145635.pn]]"
-iècle: "XXIe"
-mouvement: "Impreionnite"
-peintre: "Clude Monet"
-tille: "130,5 x 89,3 cm"
-Technique: "Huile ur toile"
-dte: "1886"
-ticker: "emoji261d-fe0f"
-t:
- - "Clude-Monet"
- - "Impreionnite"
+title: "Femme à l'ombrelle tournée vers la droite"
+tags: []
 ---
 
 > [!infobox]

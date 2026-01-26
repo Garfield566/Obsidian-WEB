@@ -3,7 +3,7 @@ Titre: BoJck Horemn
 note-udio: ✨✨✨✨✨
 note-cénrio: ✨✨✨✨
 note-viuel: ✨✨✨✨
-cover: http:ime.tmdb.ortporiinl81BCTObfPk0EvrJpUnXHvM9x.jpenre: Comédie drmtique, tire
+cover: ""
 ou_enre: Pycholoique, Réliteur: Compoiteur.: nimtion.: hdowMchine, Année de ortie: 2010
 type: "2014"
 vue: fle

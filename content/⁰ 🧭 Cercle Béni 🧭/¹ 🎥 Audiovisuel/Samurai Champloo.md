@@ -1,42 +1,6 @@
 ---
-Titre: muri Chmploo
-note-udio: ✨✨✨✨
-note-cénrio: ✨✨
-note-viuel: ✨✨✨
-cover: http:nimelnd.frwp-contentuplod201905muri-Chmploo02.jpenre: nimtion
-ou_enre: Hitorique, rme, ction, venture
-Réliteur: hinichirō Wtnbe (Réliteur), Kzuto Nkzw(irecteur rtitique)
-Compoiteur.: Ft Jon, Force of Nture
-nimtion.: Mdhoue
-Année de ortie: 2004
-type: érie
-vue: true
-t:
- - hitorique
- - rme
- - Action
- - Mdhoue
- - ""
- - "#hiki_no_Ut- ""
- - "#Arurin_nce"
- - "#Nujbe- "#The_pce_Between"
- - "#Cie_trr"
- - ""
- - "#_Luvic_Prt_3"
- - "#hin02"
- - ""
- - "#In_Memory_of_the_wordmn"
- - ""
- - "#torm"
- - ""
- - ""
- - ""
- - "#mpon"
- - ""
- - ""
- - "#The_World_i_Your- ""
- - hinichirō-Wtnbe
- - udioviuel
+title: "Samurai Champloo"
+tags: []
 ---
 
 # 🎥 Samurai Champloo

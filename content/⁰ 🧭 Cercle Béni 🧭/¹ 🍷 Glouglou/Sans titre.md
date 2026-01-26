@@ -1,9 +1,6 @@
 ---
-Type: ""
-Inrédientprincipux: 
-Inrédient: 
-durée préprtion: 
-cover: http:1000loo.netwp-contentuplod201810ood-wtch-brnd.jpt:
+title: "Sans titre"
+tags: []
 ---
 ## 🍹 Nom
 

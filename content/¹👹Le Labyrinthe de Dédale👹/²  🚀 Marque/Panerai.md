@@ -1,6 +1,6 @@
 ---
-cover: http:www.pnericentrl.comwp-contentuplod201502Officine_Pneri_loo.jpbrnd: Pneri
-creted: "1860"
+cover: ""
+created: "1860"
 ed: no
 Pyd'Oriine: Itlie
 ticker: .

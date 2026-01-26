@@ -1,9 +1,8 @@
 ---
 title: "Qund lFRANCE ttquit lCHINE : lede l'opium."
 chnnel: "Btillede ce"
-publihed: 2025-02-27
-url: "http:www.youtube.comwtch?v=iinLtpkzHI"
-thumbnilUrl: "http:i.ytim.comviiinLtpkzHImxredefult.jp
+published: 2025-02-27
+url: ""
 ---
 ## Quand la FRANCE attaquait la CHINE : les guerres de l'opium.
 

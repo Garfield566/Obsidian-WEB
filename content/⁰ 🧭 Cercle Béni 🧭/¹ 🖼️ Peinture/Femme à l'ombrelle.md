@@ -1,15 +1,6 @@
 ---
-Titre: Femme à l'ombrelle
-cover: http:www.cineclubdecen.compeintremonetfemmelombrelle.jptille: 100 x 81 cm
-mouvement: Impreionnite
-dte: "1875"
-rtit: Clude Monet
-iècle: XXIe
-Technique: Huile ur toile
-t:
- - Clude-Monet
- - Impreionnite
-peintre: Clude Monet
+title: "Femme à l'ombrelle"
+tags: []
 ---
 
 ![cover|500](https://www.cineclubdecaen.com/peinture/peintres/monet/femmealombrelleh450.jpg)

@@ -3,7 +3,7 @@ Titre: À l'Ouet, rien de nouveu
 note-udio: 6✨
 note-cénrio: 8.5✨
 note-viuel: 7✨
-cover: http:cinedweller.comwp-contentuplod202303A-l-ouet-rien-de-nouveu-ffiche.jpenre: rme, ou_enre: Hitorique, Anti-Réliteur: Compoiteur.: nimtion.: nimtion
+cover: ""
 Année de ortie: 2022
 type: Film
 vue: true

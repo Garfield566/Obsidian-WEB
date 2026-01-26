@@ -1,7 +1,7 @@
 ---
-brnd: Breuet
-cover: http:uplod.wikimedi.orwikipedifr002Breuet-loo.jpPyd'Oriine: uie
-creted: "1775"
+brand: Breuet
+cover: ""
+created: "1775"
 ed: no
 mme de prix: 5k-400k
 note: .

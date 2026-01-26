@@ -1,24 +1,6 @@
 ---
-Titre: Arcane
-cover: https://media.licdn.com/dms/image/v2/D4E12AQEKdQ9CLUBYHw/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1732013971064?e=2147483647&v=beta&t=VsRcklXlC0HtDlFvyNt2Vbx80lmsZUyCPxvL4oBPCk4
-note-audio: 10✨
-note-scénario: 9.5✨
-note-visuel: 8.5✨
-genre: animation
-sous_genres: Fantasy, Science-fiction, Drame
-Réalisateurs: Christopher Nolan
-Compositeurs.: Alex Seaver, Alexander Temple, Andrew Kierszenbaum, Kelci Hahn, Ray Chen
-animation.: Fortiche
-Année de Sortie: 2024
-type: série
-vue: true
-tags:
-
- - Sting
-
- - Animation
- - audiovisuel
-sticker: emoji//1fac0
+title: "Arcane"
+tags: []
 ---
 
 # 🎥 Arcane

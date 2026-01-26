@@ -1,12 +1,12 @@
 ---
-brnd: Hmilton
+brand: Hmilton
 mme de prix: 250-10k
 note: .
 Pyd'Oriine: uie
 ticker: .
 ed: no
-creted: "1892"
-cover: http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cJYzpWJLCT7Zd5XFrxeJiAjHPWAC_6BfQ&
+created: "1892"
+cover: ""
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJYzpWaJLCT7Zd5XFrxeaJiAjHPWACs_6BfQ&s)

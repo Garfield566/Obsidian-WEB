@@ -1,8 +1,8 @@
 ---
-brnd: Choprd
-creted: "1860"
+brand: Choprd
+created: "1860"
 ed: no
-cover: http:www.chronotempu.comwp-contentuplod202205Loo-Choprd.jpmme de prix: 1k-80k
+cover: ""
 note: .
 Pyd'Oriine: uie
 ticker: .

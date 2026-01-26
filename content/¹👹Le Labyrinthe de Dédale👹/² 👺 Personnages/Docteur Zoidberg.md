@@ -1,9 +1,6 @@
 ---
-cover: "http:pb.twim.comprofile_ime952484198878674944cddkhQ2y_400x400.jpiècle: "XXXe"
-dte: ""
-cteory: "Économie"
-ou_cteory: "0"
-ntionlité: "0"
+title: "Docteur Zoidberg"
+tags: []
 ---
 # Docteur Zoidberg
 

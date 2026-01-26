@@ -1,5 +1,5 @@
 ---
-brnd: Bell & Rocover: http:cdn.worldvectorloo.comloobell-ro.vcreted: "1992"
+brnd: ""
 ed: no
 mme de prix: 2k-100k
 note: .

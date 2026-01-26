@@ -1,6 +1,6 @@
 ---
-brnd: Jeer-LeCoultre
-cover: http:1000loo.netwp-contentuplod201810Jeer-leCoultre-ymbol.jpcreted: "1833"
+brand: Jeer-LeCoultre
+cover: ""
 ed: no
 mme de prix: 5k-100k
 note: ✨✨✨✨

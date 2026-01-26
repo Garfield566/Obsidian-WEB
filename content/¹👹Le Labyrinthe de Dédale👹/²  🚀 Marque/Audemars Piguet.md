@@ -1,12 +1,12 @@
 ---
-brnd: AudemrPiuet
-creted: "1875"
+brand: AudemrPiuet
+created: "1875"
 ed: no
 note: .
 mme de prix: 10-150k
 Pyd'Oriine: uie
 ticker: .
-cover: http:cdn.worldvectorloo.comlooudemr-piuet.v
+cover: ""
 ---
 
 ![cover|500](https://cdn.worldvectorlogo.com/logos/audemars-piguet.svg)

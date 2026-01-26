@@ -1,22 +1,6 @@
 ---
-Titre: Le Vent se lève
-cover: https://fr.web.img6.acsta.net/pictures/210/525/21052583_2013102415340471.jpg
-type: Film
-genre: anime
-sous_genres: Drame, Historique
-Réalisateurs: Hayao Miyazaki
-Compositeurs.: Joe Hisaishi
-Année de Sortie: 2013
-note-visuel: ✨✨✨✨✨
-note-audio: ✨✨✨✨✨
-note-scénario: ✨✨✨✨✨
-tags:
-
- - Drame
-
- - audiovisuel
-vue: true
-animation.: ghibli
+title: "Le Vent se lève"
+tags: []
 ---
 
 # **Le Vent se lève**

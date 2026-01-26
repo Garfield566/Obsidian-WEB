@@ -1,6 +1,6 @@
 ---
-brnd: Rolex
-cover: http:www.thewtchcompny.commeditm_blopo76485pot_7_6485.jpcreted: "1905"
+brand: Rolex
+cover: ""
 ed: no
 mme de prix: 3k-50k
 note: .

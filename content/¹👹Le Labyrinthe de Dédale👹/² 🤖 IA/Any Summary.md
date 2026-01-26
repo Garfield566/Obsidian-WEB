@@ -1,12 +1,6 @@
 ---
-title: Any ummry
-uteur:
- - Auteur de lnote (vou)
-cover: http:topi.tooletimtoolnyummry.webp
-dte: te de crétion ou de mie à jour de lnote
-ujet: ujet principl de lnote ur lctéorie: Fit deRéumez
-technoloie: Lite detechnoloieou deoutildbordédnlnote
-référence: Référencerticlelivreou lienpertinentproblémtique: Quetion ou problème lié à lméthodoloie: Méthodoloie, pproche ou méthodeutiliéeréultt: Réulttou concluiondicuion: icuionimplictionou nlyenote_upplémentire: Remrqueou informtionupplémentire
+title: Any Summary
+tags: []
 ---
 
 # **Any Summary**

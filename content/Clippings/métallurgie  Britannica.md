@@ -1,11 +1,12 @@
 ---
-title: "métllurie | Britnnicource: "http:www.britnnic.comprintrticle377665"
-uthor:
-publihed:
-creted: 2025-05-13
-decription: "Explore the fct-checked online encyclopedifrom EncyclopediBritnnicwith hundredof thoundof objective rticleorphieveond imefrom expert."
-t:
- - "clippin
+title: "métallurgie | Britannica"
+source: "https://www.britannica.com/print/article/377665"
+author: ""
+published: ""
+created: 2025-05-13
+description: "Explore the fact-checked online encyclopedia from Encyclopedia Britannica with hundreds of thousands of objective articles, biographies and images from experts."
+tags:
+  - "clipping"
 ---
 ## métallurgie
 

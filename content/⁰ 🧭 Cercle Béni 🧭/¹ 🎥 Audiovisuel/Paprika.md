@@ -1,6 +1,6 @@
 ---
 dtbe-pluin: bic
-cover: http:www.ecrnlre.comcontentuplod202008kjounohny8if6v6bhzfebli13w-128-cled.jp
+cover: ""
 ---
 # 🎥 **Monster**
 > [!infobox]

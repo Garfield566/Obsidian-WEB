@@ -1,6 +1,6 @@
 ---
-brnd: Tudor
-cover: http:encrypted-tbn0.ttic.comime?q=tbn:ANd9cT37ckAEJkBrFE31v_dHW8iTU1YccJw&creted: "1926"
+brand: Tudor
+cover: ""
 ed: no
 Pyd'Oriine: uie
 ticker: emoji1f441-fe0f-200d-1f5e8-fe0f

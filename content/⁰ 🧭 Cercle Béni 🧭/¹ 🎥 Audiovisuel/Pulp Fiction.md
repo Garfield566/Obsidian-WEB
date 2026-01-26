@@ -1,26 +1,6 @@
 ---
-Titre: ""
-note-audio: "✨✨✨✨✨"
-note-scénario: "✨✨✨✨"
-note-visuel: "✨✨✨✨"
-cover: "https://static.posters.cz/image/1300/affiches-et-posters/pulp-fiction-guns-i137395.jpg"
-genre: Drame, Thriller"
-sous_genres: ""
-Réalisateurs: "Quentin Tarantino"
-Compositeurs.: "Bande-son orchestrée par Quentin Tarantino (musiques non originales)"
-animation.: "Miramax Films"
-Année de Sortie: 1994
-type: "film"
-vue: false
-tags:
- - "audiovisuel"
-
- - irl_You-ll_Be_a_Woman_Soon"
-
- - "Drame"
- - "Thriller"
-
-Scénariste: "Quentin Tarantino, Roger Avary"
+title: "Pulp Fiction"
+tags: []
 ---
 
 # 🎥 Pulp Fiction

@@ -1,22 +1,6 @@
 ---
-Titre: Cowboy Bebop
-note-audio: ✨✨✨✨✨
-note-scénario: ✨✨
-note-visuel: ✨✨✨✨
-cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9cQnxHDU85i_npD1k0NeyiQT_bD1MEOf_a4Wpg&s
-genre: Animation, Science-fiction, Action
-sous_genres: Space Opera, Drame, Aventure
-Réalisateurs: Shinichirō Watanabe (Réalisateur), Keiko Nobumoto (Scénariste)
-Compositeurs.: Yoko-Kanno
-animation.: Sunrise
-Année de Sortie: 1998
-type: série
-vue: true
-tags:
-
- - Shinichirō-Watanabe
-
- - audiovisuel
+title: "Cowboy Bebop"
+tags: []
 ---
 
 # 🎥Cowboy Bebop

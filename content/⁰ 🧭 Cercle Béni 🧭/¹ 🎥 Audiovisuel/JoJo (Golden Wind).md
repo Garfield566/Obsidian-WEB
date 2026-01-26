@@ -1,28 +1,6 @@
 ---
-Titre: JoJo (olden Wind)
-note-audio: ✨✨✨✨
-note-scénario: ✨✨✨
-note-visuel: ✨✨✨✨
-cover: https://images5.alphacoders.com/108/thumb-1920-1081459.jpg
-genre: Animation, Action, Aventure
-sous_genres: " Fantastique, Drame"
-Réalisateurs: Hirohiko Araki (Auteur du manga), Naokatsu Tsuda (Réalisateur de l’anime)
-Compositeurs.: Yugo-Kanno
-animation.: " David Production"
-Année de Sortie: 2019
-type: série
-vue: true
-tags:
- - Animation
- - Action
- - Aventure
- - Fantastique
-
- - Drame
-
- - Yugo-Kanno
-
- - audiovisuel
+title: "JoJo (Golden Wind)"
+tags: []
 ---
 
 # 🎥 Golden Wind

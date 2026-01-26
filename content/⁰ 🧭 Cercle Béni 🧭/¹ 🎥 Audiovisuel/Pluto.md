@@ -2,13 +2,13 @@
 Titre: note-udio: ✨✨✨✨✨
 note-cénrio: ✨✨✨✨✨
 note-viuel: ✨✨✨
-cover: http:occ-0-8407-1723.1.nflxo.netdnmpiv66AYY37jfdO6hpXcMjf9Yu5cnmO0AAAABLPqLtp1iCrTTRY35j5e32rEXwWFAIJfJfzAvkrAXyV065jqQqhzOjNWkuCH0lzWWhltOkI8MOmo-9V1fBXMNi.jp?r=c7
-enre: Animtion, cience-fiction, ou_enre: cience-Fiction, Réliteur: "Omu Tezuk(Œuvre oriinle : Atro Boy), Noki Urw& Tkhi Nki (Adpttion)"
+cover: ""
+genre: Animtion, cience-fiction, ou_genre: cience-Fiction, Réliteur: "Omu Tezuk(Œuvre oriinle : Atro Boy), Noki Urw& Tkhi Nki (Adpttion)"
 Compoiteur.: Yuo-Knno
 nimtion.: Année de ortie: 2023
 type: érie
 vue: true
-t:
+tags:
  - Animtion
  - cience-fiction
  - Noki-Urw- _Min_Theme

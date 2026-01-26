@@ -1,19 +1,6 @@
-Absolument ! Voici une série de questions pour mieux cerner vos besoins et vous proposer un code sur mesure pour générer **exactement** les graphiques que vous souhaitez :
-
 ---
-
-### 1. **Types de graphiques**
-
-Quels types de graphiques souhaitez-vous générer principalement ?
-
-- [x] Fonctions mathématiques (ex: f(x)=x2f(x) = x^2f(x)=x2, sin⁡(x)\sin(x)sin(x), exe^xex)
-- [x] Cercles trigonométriques (avec angles, projections, etc.)
-- [x] Géométrie (triangles, carrés, angles, théorèmes)
-- [x] Vecteurs ou diagrammes (ex: cubes, flèches, matrices)
-- [x] Circuits électriques (résistances, sources, etc.)
-- [x] Graphes 3D (surfaces, courbes paramétriques)
-- [ ] Autres (précisez) : ________
-
+title: "Sans titre"
+tags: []
 ---
 
 ### 2. **Personnalisation des fonctions**

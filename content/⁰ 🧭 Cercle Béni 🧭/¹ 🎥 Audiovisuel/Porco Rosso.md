@@ -1,6 +1,6 @@
 ---
 dtbe-pluin: bic
-cover: http:m.medi-mzon.comimeI81coh9IMUrL._AC_UF894,1000_QL80_.jp
+cover: ""
 ---
 # 🎥 **Monster**
 > [!infobox]

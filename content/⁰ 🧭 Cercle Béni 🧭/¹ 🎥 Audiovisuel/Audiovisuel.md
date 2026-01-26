@@ -1,6 +1,6 @@
 ---
 dtbe-pluin: bic
-cover: http:www.mcommune.infowp-contentuplod201802cine_enfnt.jp
+cover: ""
 ---
 # 🎥 **Monster**
 > [!infobox]

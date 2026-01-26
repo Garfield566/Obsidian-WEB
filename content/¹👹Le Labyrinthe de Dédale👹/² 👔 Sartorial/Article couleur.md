@@ -1,11 +1,11 @@
 ---
-url: "http:www.permnenttyle.com202401wht-colour-theory-cn-tech-you-bout-clothin.html"
+url: ""
 title:
-uthor:
-decription:
-t:
+author:
+description:
+tags:
  - "clippin- publihed:
-creted: 2025-07-07T16:03:32+02:00
+created: 2025-07-07T16:03:32+02:00
 ---
 # 
 By Untitled

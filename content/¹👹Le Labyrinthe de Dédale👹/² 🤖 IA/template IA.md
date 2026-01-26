@@ -1,9 +1,6 @@
 ---
-title: Titre de lNote ur luteur: Auteur de lnote (vou)
-dte: te de crétion ou de mie à jour de lnote
-ujet: ujet principl de lnote ur lctéorie: Ctéorie ou domine de l(pr exemple, "Apprentie utomtique", "Tritement du lne nturel", "Viion pr ordinteur", etc.)
-technoloie: Lite detechnoloieou deoutildbordédnlnote
-référence: Référencerticlelivreou lienpertinentproblémtique: Quetion ou problème lié à lméthodoloie: Méthodoloie, pproche ou méthodeutiliéeréultt: Réulttou concluiondicuion: icuionimplictionou nlyenote_upplémentire: Remrqueou informtionupplémentire
+title: "template IA"
+tags: []
 ---
 
 # **Nom IA**

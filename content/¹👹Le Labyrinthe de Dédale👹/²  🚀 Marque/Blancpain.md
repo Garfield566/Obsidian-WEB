@@ -1,10 +1,10 @@
 ---
-brnd: Blncpin
+brand: Blncpin
 Pyd'Oriine: uie "
 ticker: .
 note: .
-creted: "1735"
-cover: http:1000loo.netwp-contentuplod201810ood-wtch-brnd.jped: no
+created: "1735"
+cover: ""
 mme de prix: 2k-200k
 ---
 

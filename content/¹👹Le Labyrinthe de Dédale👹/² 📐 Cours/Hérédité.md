@@ -2,7 +2,7 @@
 exclrw-pluin: rw
 t:
  - "exclrw"
-ime: "http:i.etyttic.com9874746ril4f466f3566381019il_fullxfull.3566381019_7mft.jpcour: 
+ime: ""
 ---
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 

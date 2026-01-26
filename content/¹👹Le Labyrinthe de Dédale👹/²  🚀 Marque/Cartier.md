@@ -1,12 +1,12 @@
 ---
-brnd: Crtier
-creted: "1847"
+brand: Crtier
+created: "1847"
 ed: no
 note: .
 mme de prix: 3k-300k
 ticker: .
 Pyd'Oriine: ce
-cover: http:www.wtchonit.comitedefultfilewtchorpher290profile2000px-crtier_loo.v_.jp
+cover: ""
 ---
 
 ![cover|500](https://www.watchonista.com/sites/default/files/watchographer/290/profile/2000px-cartier_logo.svg_.jpg)

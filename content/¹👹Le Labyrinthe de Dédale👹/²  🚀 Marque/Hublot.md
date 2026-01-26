@@ -1,9 +1,9 @@
 ---
-cover: http:www.icon-icon.comwp-contentuplod202003Hublot-loo-journl-du-luxe.pnbrnd: Hublot
+cover: ""
 mme de prix: 2k-300k
 note: .
 ed: no
-creted: "1980"
+created: "1980"
 Pyd'Oriine: uie
 ticker: .
 ---

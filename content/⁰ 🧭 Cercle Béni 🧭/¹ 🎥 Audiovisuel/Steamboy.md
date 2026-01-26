@@ -1,6 +1,6 @@
 ---
 dtbe-pluin: bic
-cover: http:fr.web.im2.ct.netmedinmedi1835375918388012.jp
+cover: ""
 ---
 # 🎥 **Monster**
 > [!infobox]
