@@ -38,7 +38,7 @@ David Ricardo est principalement associé à l'**économie classique**, une éco
 
 - "Chaque nation a un intérêt à se spécialiser dans la production des biens qu'elle peut produire avec le plus grand avantage comparatif."
 - "La rente de la terre est le produit de la différence entre la productivité des différentes parcelles de terre."
-
+il sort d'un petit trou
 ## **Liens**
 
 - [Présentation de David Ricardo sur Wikipédia](https://fr.wikipedia.org/wiki/David_Ricardo)
