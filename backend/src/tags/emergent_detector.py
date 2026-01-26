@@ -1224,7 +1224,7 @@ class EmergentTagDetector:
         - Sous-notion (5+ mots) → Tag HIÉRARCHIQUE : #mathématiques\analyse\calcul-intégral
 
         Un objet est validé si :
-        1. Son domaine parent est dans les chemins validés
+        1. Son domaine parent est dans les chemins validés AVEC UNE CONFIANCE SUFFISANTE
         2. Au moins 1 mot déclencheur est présent (seuil défini par objet)
 
         Args:
@@ -1237,27 +1237,49 @@ class EmergentTagDetector:
         text_lower = text.lower()
         validated_objects = []
 
-        # Extrait les chemins validés
-        valid_path_set = set()
+        # Extrait les chemins validés AVEC leur confiance
+        valid_path_confidence = {}
         for path_info in validated_paths:
-            path = path_info["path"] if isinstance(path_info, dict) else path_info
+            if isinstance(path_info, dict):
+                path = path_info["path"]
+                confidence = path_info.get("confidence", 0.5)
+            else:
+                path = path_info
+                confidence = 0.5
             # Ajoute le chemin et tous ses parents
             parts = path.split("\\")
             for i in range(len(parts)):
-                valid_path_set.add("\\".join(parts[:i+1]))
+                p = "\\".join(parts[:i+1])
+                # Garde la confiance max si déjà présent
+                valid_path_confidence[p] = max(valid_path_confidence.get(p, 0), confidence)
+
+        valid_path_set = set(valid_path_confidence.keys())
 
         for obj_name, obj_data in self.OBJECTS.items():
             domaine_parent = obj_data.get("domaine_parent", "")
 
-            # Vérifie que le domaine parent est validé
+            # Vérifie que le domaine parent est validé AVEC une confiance suffisante
             parent_validated = False
+            parent_confidence = 0.0
             for valid_path in valid_path_set:
                 if domaine_parent.startswith(valid_path) or valid_path.startswith(domaine_parent):
                     parent_validated = True
-                    break
+                    parent_confidence = max(parent_confidence, valid_path_confidence.get(valid_path, 0))
 
             if not parent_validated:
                 continue
+
+            # Seuil de confiance minimum pour le domaine parent
+            # Les objets ne sont validés que si le domaine parent a une confiance >= 0.85
+            # OU si le domaine parent est le domaine PRINCIPAL (confiance la plus haute)
+            min_parent_confidence = 0.85
+            max_confidence_path = max(valid_path_confidence.values()) if valid_path_confidence else 0
+
+            # Exception : si c'est le domaine principal, on accepte
+            is_primary_domain = parent_confidence >= max_confidence_path - 0.05
+
+            if parent_confidence < min_parent_confidence and not is_primary_domain:
+                continue  # Domaine parent pas assez confiant, on skip cet objet
 
             # Collecte TOUS les mots de l'objet :
             # 1. Mots déclencheurs (obligatoires)
