@@ -1,4 +1,29 @@
 {
   "version": "1.0",
-  "decisions": []
+  "decisions": [
+    {
+      "id": "dec_1769271256475_366rafnm7",
+      "timestamp": "2026-01-24T16:14:16.475Z",
+      "type": "tag_assignment_accepted",
+      "suggestion_id": "ta_001",
+      "original_name": "Medical-Drama",
+      "final_name": "Medical-Drama"
+    },
+    {
+      "id": "dec_1769271337674_1g96r28s2",
+      "timestamp": "2026-01-24T16:15:37.674Z",
+      "type": "tag_assignment_accepted",
+      "suggestion_id": "ta_003",
+      "original_name": "Psychological-Thriller",
+      "final_name": "Psychological-Thriller"
+    },
+    {
+      "id": "dec_1769271360799_m3ggfz7cl",
+      "timestamp": "2026-01-24T16:16:00.799Z",
+      "type": "tag_assignment_rejected",
+      "suggestion_id": "ta_004",
+      "original_name": "note-The_Wealth_of_Nations",
+      "reason": "user_rejected"
+    }
+  ]
 }
