@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-26T03:57:06.439782",
+  "generated_at": "2026-01-26T11:53:32.677754",
   "vault_hash": "2e9f4300",
   "suggestions": {
     "new_tags": [
@@ -29,7 +29,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439821",
+        "first_detected": "2026-01-26T11:53:32.677792",
         "source": "emergent"
       },
       {
@@ -60,7 +60,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439827",
+        "first_detected": "2026-01-26T11:53:32.677798",
         "source": "reference_db",
         "alternatives": []
       },
@@ -90,7 +90,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439830",
+        "first_detected": "2026-01-26T11:53:32.677802",
         "source": "reference_db",
         "alternatives": []
       },
@@ -104,7 +104,7 @@
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md"
         ],
         "reasoning": {
-          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): voisinage, ensemble, degré, point, somme...",
+          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): point, primitive, opération, valeur propre, degré...",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
@@ -115,8 +115,8 @@
             "confidence": 0.8500000000000001,
             "reasons": [
               "Validé à profondeur 0: 4 VSC (seuil: 2)",
-              "Mots comptés: voisinage, ensemble, degré, point, somme...",
-              "Mots consommés: nombre, ensemble, variable"
+              "Mots comptés: point, primitive, opération, valeur propre, degré...",
+              "Mots consommés: nombre, variable, ensemble"
             ],
             "category": "cascade",
             "validated_paths": [
@@ -125,25 +125,25 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "voisinage",
-                  "ensemble",
-                  "degré",
-                  "somme",
-                  "suite",
-                  "inverse",
-                  "taux",
-                  "mesure",
-                  "rang",
-                  "fonction",
-                  "nombre",
-                  "point",
-                  "côté",
                   "valeur propre",
+                  "corps",
+                  "voisinage",
+                  "fonction",
+                  "variable",
+                  "taux",
+                  "somme",
+                  "inverse",
+                  "suite",
+                  "nombre",
+                  "côté",
+                  "point",
                   "primitive",
                   "opération",
-                  "variable",
-                  "corps",
-                  "loi"
+                  "degré",
+                  "loi",
+                  "rang",
+                  "mesure",
+                  "ensemble"
                 ],
                 "is_subnotion": false
               },
@@ -152,30 +152,30 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "as",
-                  "argent",
-                  "échange",
-                  "monnaie",
-                  "capital",
-                  "prix",
-                  "taux",
-                  "intérêt",
-                  "pièce",
-                  "marché",
-                  "salaire",
-                  "cuivre",
-                  "métal",
-                  "or",
                   "travail",
+                  "monnaie",
+                  "production",
+                  "pièce",
+                  "offre",
+                  "taux",
+                  "demande",
+                  "salaire",
                   "sesterce",
+                  "as",
+                  "capital",
+                  "marché",
                   "atelier",
                   "profit",
-                  "demande",
-                  "production",
-                  "accumulation",
+                  "échange",
+                  "argent",
                   "marchandise",
-                  "offre",
-                  "valeur"
+                  "prix",
+                  "or",
+                  "valeur",
+                  "accumulation",
+                  "cuivre",
+                  "intérêt",
+                  "métal"
                 ],
                 "is_subnotion": true
               },
@@ -184,33 +184,33 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "vérité",
-                  "projet",
-                  "sagesse",
-                  "absurde",
-                  "existence",
-                  "utilité",
                   "mêmes",
-                  "liberté",
-                  "bonheur",
-                  "raison",
-                  "doute",
-                  "proposition",
-                  "propres",
-                  "bien",
+                  "absurde",
                   "parties",
-                  "simples",
-                  "tant",
-                  "être",
-                  "mal",
-                  "autorité",
-                  "matière",
-                  "choses",
-                  "droit",
-                  "physique",
-                  "pouvoir",
+                  "existence",
                   "corps",
+                  "raison",
+                  "bonheur",
                   "état",
+                  "simples",
+                  "liberté",
+                  "choses",
+                  "mal",
+                  "droit",
+                  "projet",
+                  "doute",
+                  "matière",
+                  "autorité",
+                  "bien",
+                  "utilité",
+                  "vérité",
+                  "propres",
+                  "physique",
+                  "sagesse",
+                  "être",
+                  "pouvoir",
+                  "tant",
+                  "proposition",
                   "valeur"
                 ],
                 "is_subnotion": false
@@ -220,19 +220,19 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "royaume",
-                  "siècle",
-                  "tyrannie",
-                  "époque",
-                  "empire",
-                  "commerce",
-                  "punique",
-                  "égaux",
-                  "révolution",
                   "esclave",
-                  "guerre",
+                  "égaux",
+                  "tyrannie",
+                  "siècle",
+                  "empire",
+                  "révolution",
+                  "siège",
+                  "époque",
                   "république",
-                  "siège"
+                  "royaume",
+                  "punique",
+                  "commerce",
+                  "guerre"
                 ],
                 "is_subnotion": true
               },
@@ -241,16 +241,16 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "force",
-                  "champ",
-                  "mesure",
                   "constante",
-                  "temps",
-                  "loi",
-                  "probabilité",
+                  "champ",
                   "inertie",
                   "masse",
-                  "matière"
+                  "matière",
+                  "probabilité",
+                  "temps",
+                  "mesure",
+                  "loi",
+                  "force"
                 ],
                 "is_subnotion": true
               },
@@ -259,16 +259,16 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "sujet",
                   "manque",
-                  "apprentissage",
-                  "réel",
-                  "symptôme",
                   "réponse",
                   "moi",
+                  "esprit",
+                  "réel",
+                  "sujet",
+                  "apprentissage",
                   "langage",
-                  "ça",
-                  "esprit"
+                  "symptôme",
+                  "ça"
                 ],
                 "is_subnotion": false
               },
@@ -277,15 +277,15 @@
                 "depth": 0,
                 "confidence": 0.8300000000000001,
                 "words_used": [
-                  "classe",
-                  "régulation",
-                  "division",
+                  "institution",
+                  "pouvoir",
                   "société",
                   "champ",
-                  "pouvoir",
-                  "individu",
-                  "institution",
-                  "distinction"
+                  "distinction",
+                  "division",
+                  "classe",
+                  "régulation",
+                  "individu"
                 ],
                 "is_subnotion": false
               },
@@ -294,14 +294,14 @@
                 "depth": 0,
                 "confidence": 0.81,
                 "words_used": [
-                  "génération",
-                  "règle",
-                  "mot",
-                  "langage",
-                  "sens",
+                  "transformation",
                   "valeur",
+                  "règle",
+                  "langage",
+                  "mot",
                   "signe",
-                  "transformation"
+                  "génération",
+                  "sens"
                 ],
                 "is_subnotion": false
               },
@@ -310,10 +310,10 @@
                 "depth": 0,
                 "confidence": 0.73,
                 "words_used": [
-                  "espèce",
-                  "division",
                   "croissance",
-                  "vie"
+                  "vie",
+                  "espèce",
+                  "division"
                 ],
                 "is_subnotion": false
               }
@@ -541,7 +541,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439834",
+        "first_detected": "2026-01-26T11:53:32.677805",
         "source": "emergent"
       },
       {
@@ -566,7 +566,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439837",
+        "first_detected": "2026-01-26T11:53:32.677807",
         "source": "reference_db",
         "alternatives": []
       },
@@ -590,7 +590,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439841",
+        "first_detected": "2026-01-26T11:53:32.677810",
         "source": "reference_db",
         "alternatives": []
       },
@@ -614,7 +614,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439844",
+        "first_detected": "2026-01-26T11:53:32.677813",
         "source": "reference_db",
         "alternatives": []
       },
@@ -638,7 +638,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439851",
+        "first_detected": "2026-01-26T11:53:32.677819",
         "source": "reference_db",
         "alternatives": [
           {
@@ -669,7 +669,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439855",
+        "first_detected": "2026-01-26T11:53:32.677823",
         "source": "reference_db",
         "alternatives": []
       },
@@ -695,7 +695,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439858",
+        "first_detected": "2026-01-26T11:53:32.677826",
         "source": "reference_db",
         "alternatives": []
       },
@@ -719,7 +719,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439861",
+        "first_detected": "2026-01-26T11:53:32.677829",
         "source": "reference_db",
         "alternatives": []
       },
@@ -743,7 +743,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439864",
+        "first_detected": "2026-01-26T11:53:32.677832",
         "source": "reference_db",
         "alternatives": []
       },
@@ -772,7 +772,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439867",
+        "first_detected": "2026-01-26T11:53:32.677834",
         "source": "emergent"
       },
       {
@@ -803,7 +803,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439870",
+        "first_detected": "2026-01-26T11:53:32.677837",
         "source": "context_secondary",
         "alternatives": []
       },
@@ -827,7 +827,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439873",
+        "first_detected": "2026-01-26T11:53:32.677839",
         "source": "reference_db",
         "alternatives": []
       },
@@ -853,7 +853,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439876",
+        "first_detected": "2026-01-26T11:53:32.677842",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -883,7 +883,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439879",
+        "first_detected": "2026-01-26T11:53:32.677844",
         "source": "reference_db",
         "alternatives": [
           {
@@ -913,7 +913,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439882",
+        "first_detected": "2026-01-26T11:53:32.677847",
         "source": "reference_db",
         "alternatives": [
           {
@@ -946,7 +946,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439884",
+        "first_detected": "2026-01-26T11:53:32.677850",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -970,7 +970,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439887",
+        "first_detected": "2026-01-26T11:53:32.677852",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1000,7 +1000,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439890",
+        "first_detected": "2026-01-26T11:53:32.677855",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1034,7 +1034,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439893",
+        "first_detected": "2026-01-26T11:53:32.677857",
         "source": "emergent"
       },
       {
@@ -1061,7 +1061,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439895",
+        "first_detected": "2026-01-26T11:53:32.677860",
         "source": "emergent"
       },
       {
@@ -1088,7 +1088,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439899",
+        "first_detected": "2026-01-26T11:53:32.677862",
         "source": "emergent"
       },
       {
@@ -1115,7 +1115,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439901",
+        "first_detected": "2026-01-26T11:53:32.677864",
         "source": "emergent"
       },
       {
@@ -1138,7 +1138,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439904",
+        "first_detected": "2026-01-26T11:53:32.677867",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -1162,7 +1162,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-26T03:57:06.439907",
+        "first_detected": "2026-01-26T11:53:32.677869",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -1350,9 +1350,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "livre",
         "note-The_Wealth_of_Nations",
-        "note-livre"
+        "note-livre",
+        "livre"
       ]
     },
     {
@@ -1378,8 +1378,8 @@
       ],
       "suggested_tags": [
         "Crime-Mystery",
-        "Madhouse",
-        "Kuniaki-Haishima"
+        "Kuniaki-Haishima",
+        "Madhouse"
       ]
     },
     {
