@@ -5,5 +5,43 @@
     "elements": "Chaque element est valide si au moins un de ses synonymes est trouve",
     "mandatory": "Tous les elements 'mandatory' doivent etre valides",
     "threshold": "Score = elements_valides / total_elements >= seuil (0.90 par defaut)"
+  },
+  "caca": {
+    "type": "specialized",
+    "exact_terms": [
+      "caca"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "sort",
+          "synonyms": [
+            "sort"
+          ]
+        },
+        {
+          "name": "d'un",
+          "synonyms": [
+            "d'un"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        },
+        {
+          "name": "trou",
+          "synonyms": [
+            "trou"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "sort d'un petit trou"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie"
   }
 }
