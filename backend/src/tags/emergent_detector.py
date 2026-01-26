@@ -646,19 +646,90 @@ class EmergentTagDetector:
         if total_elements == 0:
             return None
 
-        # Compter les éléments validés
-        mandatory_matched = []
-        contextual_matched = []
+        # 2.1 Vérifier d'abord si la définition brute est présente (phrase complète)
+        raw_definition = definition.get("raw_definition", "")
+        if raw_definition and raw_definition.lower() in text_lower:
+            # Phrase exacte trouvée - haute confiance
+            matched_elements = [{"name": elem["name"], "matched": elem["name"]} for elem in mandatory]
+            return {
+                "is_valid": True,
+                "confidence": 0.90,  # Confiance élevée pour phrase exacte
+                "reason": f"Définition exacte trouvée: '{raw_definition}'",
+                "matched_elements": matched_elements,
+                "exact_match": False,
+                "phrase_match": True
+            }
 
+        # 2.2 Vérifier si les éléments mandatory sont CONSÉCUTIFS dans le texte
+        # Les mots doivent apparaître dans l'ordre et à proximité (max 30 chars entre chaque)
+        MAX_GAP = 30  # Espacement max entre éléments consécutifs
+
+        # Trouver toutes les positions de chaque élément mandatory
+        mandatory_positions = []
         for elem in mandatory:
-            matched_synonym = None
+            positions_for_elem = []
             for synonym in elem["synonyms"]:
-                if synonym in text_lower:
-                    matched_synonym = synonym
-                    break
-            if matched_synonym:
-                mandatory_matched.append({"name": elem["name"], "matched": matched_synonym})
+                start = 0
+                while True:
+                    pos = text_lower.find(synonym, start)
+                    if pos == -1:
+                        break
+                    positions_for_elem.append({
+                        "pos": pos,
+                        "end": pos + len(synonym),
+                        "name": elem["name"],
+                        "matched": synonym
+                    })
+                    start = pos + 1
+            if not positions_for_elem:
+                # Élément mandatory non trouvé du tout
+                return {
+                    "is_valid": False,
+                    "confidence": 0,
+                    "reason": f"Élément obligatoire manquant: {elem['name']}",
+                    "matched_elements": [],
+                    "exact_match": False
+                }
+            mandatory_positions.append(positions_for_elem)
 
+        # Chercher une séquence consécutive des éléments mandatory
+        def find_consecutive_sequence(positions_list, idx=0, last_end=-1):
+            """Recherche récursive d'une séquence consécutive."""
+            if idx >= len(positions_list):
+                return []  # Tous les éléments trouvés en séquence
+
+            for pos_info in positions_list[idx]:
+                if last_end == -1:
+                    # Premier élément
+                    result = find_consecutive_sequence(positions_list, idx + 1, pos_info["end"])
+                    if result is not None:
+                        return [pos_info] + result
+                else:
+                    # Vérifier que cet élément suit le précédent
+                    gap = pos_info["pos"] - last_end
+                    if 0 <= gap <= MAX_GAP:
+                        result = find_consecutive_sequence(positions_list, idx + 1, pos_info["end"])
+                        if result is not None:
+                            return [pos_info] + result
+            return None
+
+        consecutive_match = find_consecutive_sequence(mandatory_positions)
+
+        if consecutive_match is None:
+            # Éléments présents mais pas consécutifs
+            return {
+                "is_valid": False,
+                "confidence": 0,
+                "reason": f"Éléments trouvés mais pas consécutifs (max {MAX_GAP} chars entre chaque)",
+                "matched_elements": [],
+                "exact_match": False
+            }
+
+        # Éléments trouvés en séquence consécutive
+        mandatory_matched = [{"name": m["name"], "matched": m["matched"]} for m in consecutive_match]
+
+        # Compter les éléments contextuels (pas besoin d'être consécutifs)
+        contextual_matched = []
         for elem in contextual:
             matched_synonym = None
             for synonym in elem["synonyms"]:
@@ -668,17 +739,6 @@ class EmergentTagDetector:
             if matched_synonym:
                 contextual_matched.append({"name": elem["name"], "matched": matched_synonym})
 
-        # Tous les éléments mandatory doivent être présents
-        if len(mandatory_matched) < len(mandatory):
-            missing = [e["name"] for e in mandatory if e["name"] not in [m["name"] for m in mandatory_matched]]
-            return {
-                "is_valid": False,
-                "confidence": 0,
-                "reason": f"Éléments obligatoires manquants: {', '.join(missing)}",
-                "matched_elements": mandatory_matched + contextual_matched,
-                "exact_match": False
-            }
-
         # Calculer le score
         total_matched = len(mandatory_matched) + len(contextual_matched)
         score = total_matched / total_elements
@@ -687,7 +747,7 @@ class EmergentTagDetector:
             return {
                 "is_valid": True,
                 "confidence": min(0.85, 0.70 + score * 0.15),  # Confiance entre 0.70 et 0.85
-                "reason": f"Définition validée: {total_matched}/{total_elements} éléments ({score:.0%})",
+                "reason": f"Définition validée (séquence consécutive): {total_matched}/{total_elements} éléments ({score:.0%})",
                 "matched_elements": mandatory_matched + contextual_matched,
                 "exact_match": False
             }
