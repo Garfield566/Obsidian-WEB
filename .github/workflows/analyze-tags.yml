@@ -99,8 +99,22 @@ jobs:
               echo "No changes to commit"
             else
               git commit -m "🏷️ Update tag suggestions [skip ci]"
-              git push
-              echo "✅ Changes pushed successfully"
+
+              # Pull avec rebase pour gérer les changements concurrents
+              echo "Pulling latest changes..."
+              git pull --rebase origin main || true
+
+              # Retry push avec gestion d'erreur
+              for i in 1 2 3; do
+                if git push; then
+                  echo "✅ Changes pushed successfully"
+                  break
+                else
+                  echo "Push failed, retrying ($i/3)..."
+                  git pull --rebase origin main || true
+                  sleep 2
+                fi
+              done
             fi
           else
             echo "❌ suggestions.json NOT found!"
