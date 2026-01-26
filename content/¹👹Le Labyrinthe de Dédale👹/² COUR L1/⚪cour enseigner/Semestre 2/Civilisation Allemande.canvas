@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"1b32091e915fb96e","type":"group","x":-320,"y":-460,"width":760,"height":664,"label":"S 1"},
+		{"id":"f75bad1dd901c118","type":"text","text":" \n\n| population        | **83,6 millions**        |\n| ----------------- | ------------------------ |\n| Plus grand ville  | Berlin                   |\n| BCE               | francfort                |\n| Läder             | 16                       |\n| migran origine    | Turquie, Pologne, Russie |\n| Défense militaire | 184 K actif              |\n","x":-260,"y":-340,"width":277,"height":300},
+		{"id":"8c2adb7efb3507a1","type":"text","text":"### 16 Läder \n\n|     |     |\n| --- | --- |\n|     |     |\n","x":120,"y":-181,"width":254,"height":212}
+	],
+	"edges":[
+		{"id":"f724a1bddf696854","fromNode":"f75bad1dd901c118","fromSide":"right","toNode":"8c2adb7efb3507a1","toSide":"top"}
+	]
+}
