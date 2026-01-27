@@ -629,29 +629,41 @@ class EmergentTagDetector:
             return None
 
         term = self.SPECIALIZED_TERMS[term_name]
-
-        # 1. Vérifier si un terme exact est présent
-        for exact in term["exact_terms"]:
-            if exact in text_lower:
-                return {
-                    "is_valid": True,
-                    "confidence": 0.95,
-                    "reason": f"Terme exact trouvé: '{exact}'",
-                    "matched_elements": [],
-                    "exact_match": True
-                }
-
-        # 2. Validation par définition
         definition = term["definition"]
-        threshold = term["threshold"]
-
         mandatory = definition.get("mandatory", [])
         contextual = definition.get("contextual", [])
         all_elements = mandatory + contextual
         total_elements = len(all_elements)
 
+        # 1. Vérifier si le terme exact est présent (requis comme pré-condition)
+        exact_found = False
+        for exact in term["exact_terms"]:
+            if exact in text_lower:
+                exact_found = True
+                break
+
+        # Si le terme exact n'est pas présent, pas la peine de continuer
+        if not exact_found:
+            return {
+                "is_valid": False,
+                "confidence": 0,
+                "reason": f"Terme exact '{term_name}' non trouvé dans le texte",
+                "matched_elements": [],
+                "exact_match": False
+            }
+
+        # 2. Si pas de définition, le terme exact suffit
         if total_elements == 0:
-            return None
+            return {
+                "is_valid": True,
+                "confidence": 0.95,
+                "reason": f"Terme exact trouvé: '{term_name}' (pas de définition requise)",
+                "matched_elements": [],
+                "exact_match": True
+            }
+
+        # 3. Validation par définition (OBLIGATOIRE si définition existe)
+        threshold = term["threshold"]
 
         # 2.1 Vérifier d'abord si la définition brute est présente (phrase complète)
         raw_definition = definition.get("raw_definition", "")
