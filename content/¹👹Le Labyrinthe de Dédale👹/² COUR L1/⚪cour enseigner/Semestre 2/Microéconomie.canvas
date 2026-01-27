@@ -38,9 +38,13 @@
 		{"id":"5f4e9a11460b0243","x":-745,"y":2240,"width":444,"height":213,"color":"#b18bea","type":"text","text":"### Elasticité en un point :"},
 		{"id":"3e13cdc03076af9c","x":-1600,"y":2900,"width":250,"height":97,"type":"text","text":"intervention niveau de prix: \n- prix-plancher\n- prix-plafond"},
 		{"id":"e6ec6b70f8855344","x":-1300,"y":2967,"width":250,"height":60,"color":"4","type":"text","text":"les effait de cela "},
-		{"id":"23d2af4c016c531a","x":-1619,"y":3122,"width":419,"height":198,"color":"6","type":"text","text":"Les effets diffèrent selon le type de taxe :\n- \n"}
+		{"id":"23d2af4c016c531a","x":-1619,"y":3122,"width":419,"height":198,"color":"6","type":"text","text":"Les effets diffèrent selon le type de taxe :\n- \n"},
+		{"id":"8f5703dc65f00b6c","x":-1680,"y":3420,"width":373,"height":158,"type":"text","text":"Incidence fiscale : principe général "},
+		{"id":"b21c92c8515f4f31","x":-1280,"y":3469,"width":250,"height":60,"color":"6","type":"text","text":"Incidence fiscale/ différent en fonction de l'élasticité\n"}
 	],
 	"edges":[
-		{"id":"252aa1f0ec8c8a25","fromNode":"3e13cdc03076af9c","fromSide":"right","toNode":"e6ec6b70f8855344","toSide":"left"}
+		{"id":"252aa1f0ec8c8a25","fromNode":"3e13cdc03076af9c","fromSide":"right","toNode":"e6ec6b70f8855344","toSide":"left"},
+		{"id":"d6550f258af64be6","fromNode":"23d2af4c016c531a","fromSide":"bottom","toNode":"8f5703dc65f00b6c","toSide":"top"},
+		{"id":"ed0b22ab86f39af6","fromNode":"8f5703dc65f00b6c","fromSide":"right","toNode":"b21c92c8515f4f31","toSide":"left"}
 	]
 }
