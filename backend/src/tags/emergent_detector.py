@@ -635,34 +635,35 @@ class EmergentTagDetector:
         all_elements = mandatory + contextual
         total_elements = len(all_elements)
 
-        # 1. Vérifier si le terme exact est présent (requis comme pré-condition)
+        # 1. Vérifier si le terme exact est présent
         exact_found = False
+        matched_exact = None
         for exact in term["exact_terms"]:
             if exact in text_lower:
                 exact_found = True
+                matched_exact = exact
                 break
-
-        # Si le terme exact n'est pas présent, pas la peine de continuer
-        if not exact_found:
-            return {
-                "is_valid": False,
-                "confidence": 0,
-                "reason": f"Terme exact '{term_name}' non trouvé dans le texte",
-                "matched_elements": [],
-                "exact_match": False
-            }
 
         # 2. Si pas de définition, le terme exact suffit
         if total_elements == 0:
-            return {
-                "is_valid": True,
-                "confidence": 0.95,
-                "reason": f"Terme exact trouvé: '{term_name}' (pas de définition requise)",
-                "matched_elements": [],
-                "exact_match": True
-            }
+            if exact_found:
+                return {
+                    "is_valid": True,
+                    "confidence": 0.95,
+                    "reason": f"Terme exact trouvé: '{matched_exact}' (pas de définition requise)",
+                    "matched_elements": [],
+                    "exact_match": True
+                }
+            else:
+                return {
+                    "is_valid": False,
+                    "confidence": 0,
+                    "reason": f"Terme exact '{term_name}' non trouvé et pas de définition",
+                    "matched_elements": [],
+                    "exact_match": False
+                }
 
-        # 3. Validation par définition (OBLIGATOIRE si définition existe)
+        # 3. Validation par définition (terme exact OU définition valide)
         threshold = term["threshold"]
 
         # 2.1 Vérifier d'abord si la définition brute est présente (phrase complète)
