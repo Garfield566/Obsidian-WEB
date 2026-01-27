@@ -36,7 +36,10 @@
 		{"id":"1fadb2e66c16ae20","x":-558,"y":1792,"width":160,"height":50,"type":"text","text":"peut ou très elastique"},
 		{"id":"50fe179b7f92fad6","x":-648,"y":1920,"width":250,"height":60,"type":"text","text":"Substitution Productive"},
 		{"id":"5f4e9a11460b0243","x":-745,"y":2240,"width":444,"height":213,"color":"#b18bea","type":"text","text":"### Elasticité en un point :"},
-		{"id":"3e13cdc03076af9c","x":-1443,"y":3003,"width":250,"height":60,"type":"text","text":"intervention niveau de prix: \n- prix-plancher"}
+		{"id":"3e13cdc03076af9c","x":-1600,"y":2900,"width":250,"height":97,"type":"text","text":"intervention niveau de prix: \n- prix-plancher\n- prix-plafond"},
+		{"id":"e6ec6b70f8855344","x":-1300,"y":2967,"width":250,"height":60,"color":"4","type":"text","text":"les effait de cela "}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"252aa1f0ec8c8a25","fromNode":"3e13cdc03076af9c","fromSide":"right","toNode":"e6ec6b70f8855344","toSide":"left"}
+	]
 }
