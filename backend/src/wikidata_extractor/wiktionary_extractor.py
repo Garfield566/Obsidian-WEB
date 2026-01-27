@@ -45,48 +45,75 @@ CONCEPTS_FILE = Path(__file__).parent.parent / "data" / "references" / "concepts
 # CLASSIFICATION CONCEPT vs VOCABULAIRE
 # =============================================================================
 
-# Indicateurs de CONCEPT (dynamique - processus, mécanisme, phénomène)
-CONCEPT_INDICATORS = [
-    # Mots-clés de processus
-    "processus", "mécanisme", "phénomène", "dynamique", "cycle",
-    # Actions/transformations
-    "transformation", "évolution", "dérèglement", "séparation", "division",
-    "destruction", "formation", "régulation", "accumulation", "dissolution",
-    "développement", "croissance", "déclin", "mutation", "adaptation",
-    # Cause/effet
-    "causé par", "résulte de", "entraîne", "provoque", "conduit à", "aboutit à",
-    "dû à", "produit par", "génère", "induit",
-    # Verbes d'état dynamique
-    "se produit", "se développe", "évolue", "augmente", "diminue",
-    "se transforme", "se forme", "se dégrade", "s'accumule",
-    # Suffixes de processus (dans le terme lui-même)
-    "tion", "sion", "ment", "age", "ure",
+# Suffixes d'ADJECTIFS → toujours VOCABULAIRE
+ADJECTIVE_SUFFIXES = [
+    "ique", "ique", "if", "ive", "el", "elle", "al", "ale", "aux",
+    "aire", "eur", "euse", "ien", "ienne", "ain", "aine",
+    "able", "ible", "ant", "ante", "é", "ée",
+]
+
+# Début de définition typique d'ADJECTIF → VOCABULAIRE
+ADJECTIVE_DEFINITION_STARTS = [
+    "qui ", "qui est ", "qui a ", "qui ne ", "qui se ",
+    "relatif à", "relative à", "propre à",
+    "se dit de", "se rapporte à",
+    "qualifie", "caractérise",
+]
+
+# Indicateurs FORTS de CONCEPT (le terme décrit un processus/phénomène)
+# Ces mots doivent apparaître en début de définition ou décrire le terme lui-même
+CONCEPT_STRONG_INDICATORS = [
+    # Début de définition typique de concept
+    "action de", "fait de", "processus de", "phénomène de",
+    "ensemble des transformations", "mécanisme par lequel",
+    "passage de", "transition de",
+    # Le terme EST un processus
+    "processus", "mécanisme", "phénomène", "dynamique",
+    "théorie selon laquelle", "doctrine",
+]
+
+# Indicateurs FAIBLES de CONCEPT (présence dans la définition)
+CONCEPT_WEAK_INDICATORS = [
+    "transformation", "évolution", "dérèglement",
+    "destruction", "formation", "régulation",
+    "développement", "croissance", "déclin",
+    # Cause/effet explicite
+    "causé par", "résulte de", "entraîne", "provoque",
+    "conduit à", "aboutit à", "dû à", "génère",
 ]
 
 # Indicateurs de VOCABULAIRE (statique - objet, entité, structure)
 VOCABULARY_INDICATORS = [
-    # Définitions statiques
+    # Définitions d'objets
     "est un", "est une", "désigne", "signifie", "représente",
-    "se dit de", "qualifie", "caractérise",
     # Objets/entités
-    "objet", "élément", "entité", "unité", "composant", "partie",
-    "chose", "item", "pièce",
+    "objet", "élément", "entité", "unité", "composant",
+    "substance", "matière", "composé",
     # Lieux/structures
-    "lieu", "endroit", "place", "structure", "organisation", "système",
+    "lieu", "endroit", "structure", "organisation",
     "institution", "établissement",
     # Instruments/outils
-    "instrument", "outil", "appareil", "dispositif", "machine",
+    "instrument", "outil", "appareil", "dispositif",
     # Mesures/quantités
-    "mesure", "quantité", "valeur", "montant", "taux", "niveau",
+    "mesure", "quantité", "valeur", "montant",
     "unité de", "grandeur",
-    # Personnes/rôles (statiques)
-    "personne qui", "celui qui", "celle qui", "individu",
+    # Personnes
+    "personne qui", "celui qui", "celle qui", "spécialiste",
 ]
 
-# Suffixes typiques des concepts (processus)
+# Suffixes typiques des CONCEPTS (processus) - appliqués au TERME seulement
 CONCEPT_SUFFIXES = [
-    "ation", "ition", "tion", "sion", "ement", "issement",
-    "age", "ure", "ose", "yse", "genèse", "lyse",
+    "ation", "ition", "isation", "ification",  # transformation, évolution
+    "ement", "issement",  # développement
+    "ose", "yse", "lyse",  # apoptose, analyse
+    "genèse", "génèse",  # biogenèse
+    "isme",  # capitalisme, darwinisme (doctrines/théories)
+]
+
+# Mots-clés dans le TERME qui indiquent un concept
+CONCEPT_TERM_KEYWORDS = [
+    "effet", "loi", "théorie", "principe", "syndrome", "cycle",
+    "crise", "équilibre", "paradoxe",
 ]
 
 
@@ -108,45 +135,86 @@ def is_concept(term: str, definition: str) -> tuple[bool, str]:
     if not definition:
         return False, "pas de définition"
 
-    term_lower = term.lower()
-    def_lower = definition.lower()
+    term_lower = term.lower().strip()
+    def_lower = definition.lower().strip()
 
     # Score de classification
     concept_score = 0
     vocab_score = 0
     reasons = []
 
-    # 1. Vérifier les suffixes du terme (fort indicateur)
-    for suffix in CONCEPT_SUFFIXES:
-        if term_lower.endswith(suffix):
-            concept_score += 3
-            reasons.append(f"suffixe -{suffix}")
+    # ==========================================================================
+    # RÈGLE 1: ADJECTIFS → VOCABULAIRE (priorité haute)
+    # ==========================================================================
+
+    # 1a. Suffixe d'adjectif sur le terme
+    for suffix in ADJECTIVE_SUFFIXES:
+        if term_lower.endswith(suffix) and len(term_lower) > len(suffix) + 2:
+            vocab_score += 5
+            reasons.append(f"adjectif (-{suffix})")
             break
 
-    # 2. Chercher les indicateurs de concept dans la définition
-    for indicator in CONCEPT_INDICATORS:
-        if indicator in def_lower:
-            concept_score += 2
-            if len(reasons) < 3:
-                reasons.append(f"'{indicator}'")
+    # 1b. Définition commence comme un adjectif
+    for start in ADJECTIVE_DEFINITION_STARTS:
+        if def_lower.startswith(start):
+            vocab_score += 4
+            if "adjectif" not in str(reasons):
+                reasons.append(f"def. adjectif ('{start[:10]}...')")
+            break
 
-    # 3. Chercher les indicateurs de vocabulaire dans la définition
+    # ==========================================================================
+    # RÈGLE 2: SUFFIXES DE PROCESSUS SUR LE TERME → CONCEPT
+    # ==========================================================================
+    for suffix in CONCEPT_SUFFIXES:
+        if term_lower.endswith(suffix):
+            concept_score += 4
+            reasons.append(f"suffixe processus (-{suffix})")
+            break
+
+    # ==========================================================================
+    # RÈGLE 3: INDICATEURS FORTS DANS LA DÉFINITION → CONCEPT
+    # ==========================================================================
+    for indicator in CONCEPT_STRONG_INDICATORS:
+        if indicator in def_lower:
+            concept_score += 3
+            if len(reasons) < 4:
+                reasons.append(f"'{indicator}'")
+            break  # Un seul indicateur fort suffit
+
+    # ==========================================================================
+    # RÈGLE 4: INDICATEURS FAIBLES (bonus mineur)
+    # ==========================================================================
+    weak_count = 0
+    for indicator in CONCEPT_WEAK_INDICATORS:
+        if indicator in def_lower:
+            weak_count += 1
+    if weak_count >= 2:
+        concept_score += 2
+        reasons.append(f"{weak_count} indicateurs faibles")
+
+    # ==========================================================================
+    # RÈGLE 5: MOTS-CLÉS DANS LE TERME → CONCEPT
+    # ==========================================================================
+    for keyword in CONCEPT_TERM_KEYWORDS:
+        if keyword in term_lower:
+            concept_score += 3
+            reasons.append(f"mot-clé: {keyword}")
+            break
+
+    # ==========================================================================
+    # RÈGLE 6: INDICATEURS DE VOCABULAIRE
+    # ==========================================================================
     for indicator in VOCABULARY_INDICATORS:
         if indicator in def_lower:
             vocab_score += 2
-            if len(reasons) < 3 and concept_score == 0:
+            if len(reasons) < 4 and concept_score == 0:
                 reasons.append(f"statique: '{indicator}'")
 
-    # 4. Bonus: termes composés avec mots d'action
-    action_words = ["effet", "loi", "théorie", "principe", "syndrome", "cycle"]
-    for word in action_words:
-        if word in term_lower:
-            concept_score += 2
-            reasons.append(f"mot-clé: {word}")
-            break
-
-    # Décision
-    is_concept_result = concept_score > vocab_score and concept_score >= 2
+    # ==========================================================================
+    # DÉCISION FINALE
+    # ==========================================================================
+    # Un concept doit avoir un score significativement supérieur
+    is_concept_result = concept_score > vocab_score + 2 and concept_score >= 3
 
     reason = ", ".join(reasons[:3]) if reasons else "analyse générale"
     return is_concept_result, reason
