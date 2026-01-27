@@ -38,6 +38,136 @@ DOMAIN_VOCABULARY_FILE = Path(__file__).parent / "domain_vocabulary.json"
 # Chemin vers les termes spécialisés
 SPECIALIZED_TERMS_FILE = Path(__file__).parent.parent / "data" / "references" / "specialized_terms.json"
 
+# Chemin vers les concepts
+CONCEPTS_FILE = Path(__file__).parent.parent / "data" / "references" / "concepts.json"
+
+# =============================================================================
+# CLASSIFICATION CONCEPT vs VOCABULAIRE
+# =============================================================================
+
+# Indicateurs de CONCEPT (dynamique - processus, mécanisme, phénomène)
+CONCEPT_INDICATORS = [
+    # Mots-clés de processus
+    "processus", "mécanisme", "phénomène", "dynamique", "cycle",
+    # Actions/transformations
+    "transformation", "évolution", "dérèglement", "séparation", "division",
+    "destruction", "formation", "régulation", "accumulation", "dissolution",
+    "développement", "croissance", "déclin", "mutation", "adaptation",
+    # Cause/effet
+    "causé par", "résulte de", "entraîne", "provoque", "conduit à", "aboutit à",
+    "dû à", "produit par", "génère", "induit",
+    # Verbes d'état dynamique
+    "se produit", "se développe", "évolue", "augmente", "diminue",
+    "se transforme", "se forme", "se dégrade", "s'accumule",
+    # Suffixes de processus (dans le terme lui-même)
+    "tion", "sion", "ment", "age", "ure",
+]
+
+# Indicateurs de VOCABULAIRE (statique - objet, entité, structure)
+VOCABULARY_INDICATORS = [
+    # Définitions statiques
+    "est un", "est une", "désigne", "signifie", "représente",
+    "se dit de", "qualifie", "caractérise",
+    # Objets/entités
+    "objet", "élément", "entité", "unité", "composant", "partie",
+    "chose", "item", "pièce",
+    # Lieux/structures
+    "lieu", "endroit", "place", "structure", "organisation", "système",
+    "institution", "établissement",
+    # Instruments/outils
+    "instrument", "outil", "appareil", "dispositif", "machine",
+    # Mesures/quantités
+    "mesure", "quantité", "valeur", "montant", "taux", "niveau",
+    "unité de", "grandeur",
+    # Personnes/rôles (statiques)
+    "personne qui", "celui qui", "celle qui", "individu",
+]
+
+# Suffixes typiques des concepts (processus)
+CONCEPT_SUFFIXES = [
+    "ation", "ition", "tion", "sion", "ement", "issement",
+    "age", "ure", "ose", "yse", "genèse", "lyse",
+]
+
+
+def is_concept(term: str, definition: str) -> tuple[bool, str]:
+    """
+    Détermine si un terme est un Concept (dynamique) ou du Vocabulaire (statique).
+
+    Critère principal: "Ce mot décrit-il quelque chose qui SE PASSE ?"
+    - Oui → Concept (processus, mécanisme, phénomène, théorie)
+    - Non → Vocabulaire (objet, entité, structure)
+
+    Args:
+        term: Le terme à classifier
+        definition: La définition du terme
+
+    Returns:
+        Tuple (is_concept: bool, reason: str)
+    """
+    if not definition:
+        return False, "pas de définition"
+
+    term_lower = term.lower()
+    def_lower = definition.lower()
+
+    # Score de classification
+    concept_score = 0
+    vocab_score = 0
+    reasons = []
+
+    # 1. Vérifier les suffixes du terme (fort indicateur)
+    for suffix in CONCEPT_SUFFIXES:
+        if term_lower.endswith(suffix):
+            concept_score += 3
+            reasons.append(f"suffixe -{suffix}")
+            break
+
+    # 2. Chercher les indicateurs de concept dans la définition
+    for indicator in CONCEPT_INDICATORS:
+        if indicator in def_lower:
+            concept_score += 2
+            if len(reasons) < 3:
+                reasons.append(f"'{indicator}'")
+
+    # 3. Chercher les indicateurs de vocabulaire dans la définition
+    for indicator in VOCABULARY_INDICATORS:
+        if indicator in def_lower:
+            vocab_score += 2
+            if len(reasons) < 3 and concept_score == 0:
+                reasons.append(f"statique: '{indicator}'")
+
+    # 4. Bonus: termes composés avec mots d'action
+    action_words = ["effet", "loi", "théorie", "principe", "syndrome", "cycle"]
+    for word in action_words:
+        if word in term_lower:
+            concept_score += 2
+            reasons.append(f"mot-clé: {word}")
+            break
+
+    # Décision
+    is_concept_result = concept_score > vocab_score and concept_score >= 2
+
+    reason = ", ".join(reasons[:3]) if reasons else "analyse générale"
+    return is_concept_result, reason
+
+
+def classify_term(term: str, definition: str) -> dict:
+    """
+    Classifie un terme et retourne sa catégorie avec métadonnées.
+
+    Returns:
+        Dict avec 'type' ('concept' ou 'vocabulary'), 'confidence', 'reason'
+    """
+    is_concept_result, reason = is_concept(term, definition)
+
+    return {
+        "type": "concept" if is_concept_result else "vocabulary",
+        "reason": reason,
+        "term": term,
+        "definition": definition[:200] if definition else "",
+    }
+
 
 @dataclass
 class WiktionaryResult:
@@ -1332,6 +1462,113 @@ def extract_specialized_terms_for_domain(
         print(f"\nTerminé: {success_count}/{len(terms)} termes avec définition")
 
     return specialized_terms
+
+
+def extract_and_classify_terms(
+    domain: str,
+    max_terms: int = 50,
+    verbose: bool = True
+) -> dict:
+    """
+    Extrait et classifie les termes en CONCEPTS vs VOCABULAIRE.
+
+    Le critère: "Ce mot décrit-il quelque chose qui SE PASSE ?"
+    - Oui → Concept (processus, mécanisme, phénomène)
+    - Non → Vocabulaire (objet, entité, structure)
+
+    Args:
+        domain: Chemin du domaine
+        max_terms: Nombre maximum de termes
+        verbose: Afficher la progression
+
+    Returns:
+        Dict avec 'concepts', 'vocabulary', 'stats'
+    """
+    if verbose:
+        print(f"\n=== Extraction et classification pour '{domain}' ===")
+
+    # Extraire les termes du domaine via Wiktionary
+    with WiktionaryExtractor() as extractor:
+        result = extractor.extract_domain(domain)
+
+        if not result.success:
+            if verbose:
+                print(f"Erreur: {result.error}")
+            return {"concepts": {}, "vocabulary": {}, "stats": {}}
+
+        terms = result.terms[:max_terms]
+        if verbose:
+            print(f"Trouvé {len(result.terms)} termes, traitement de {len(terms)}...")
+
+    concepts = {}
+    vocabulary = {}
+    stats = {"total": 0, "with_definition": 0, "concepts": 0, "vocabulary": 0}
+
+    for i, term in enumerate(terms):
+        if verbose and (i + 1) % 10 == 0:
+            print(f"  Progression: {i + 1}/{len(terms)}")
+
+        stats["total"] += 1
+
+        # Récupérer la définition
+        data = fetch_wiktionary_definition(term)
+        if not data:
+            time.sleep(0.3)
+            continue
+
+        definition = data.get("raw_definition", "")
+        if not definition:
+            time.sleep(0.3)
+            continue
+
+        stats["with_definition"] += 1
+
+        # Classifier le terme
+        is_concept_result, reason = is_concept(term, definition)
+
+        term_data = {
+            "term": term,
+            "definition": definition,
+            "domaine": domain.split("\\")[0],
+            "reason": reason,
+        }
+
+        if is_concept_result:
+            # Ajouter les éléments obligatoires pour les concepts
+            elements = definition_to_mandatory_elements(definition)
+            term_data["elements_obligatoires"] = elements
+            concepts[term] = term_data
+            stats["concepts"] += 1
+        else:
+            vocabulary[term] = term_data
+            stats["vocabulary"] += 1
+
+        time.sleep(0.3)
+
+    if verbose:
+        print(f"\n=== Résultats ===")
+        print(f"  Total analysé: {stats['total']}")
+        print(f"  Avec définition: {stats['with_definition']}")
+        print(f"  CONCEPTS: {stats['concepts']} (processus, mécanismes, phénomènes)")
+        print(f"  VOCABULAIRE: {stats['vocabulary']} (objets, entités, structures)")
+
+        if concepts:
+            print(f"\n--- Exemples de CONCEPTS ---")
+            for term, data in list(concepts.items())[:5]:
+                print(f"  {term}: {data['definition'][:60]}...")
+                print(f"    -> Raison: {data['reason']}")
+
+        if vocabulary:
+            print(f"\n--- Exemples de VOCABULAIRE ---")
+            for term, data in list(vocabulary.items())[:5]:
+                print(f"  {term}: {data['definition'][:60]}...")
+                print(f"    -> Raison: {data['reason']}")
+
+    return {
+        "concepts": concepts,
+        "vocabulary": vocabulary,
+        "stats": stats
+    }
 
 
 def save_specialized_terms(new_terms: dict, merge: bool = True):
