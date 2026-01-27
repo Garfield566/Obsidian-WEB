@@ -205,12 +205,18 @@ def analyze_vault(
         existing_tags.update(note.tags)
     existing_tags = list(existing_tags)
 
+    # Calcule l'usage de chaque tag en UNE SEULE passe sur les notes (O(n) au lieu de O(n*m))
+    tag_usage = {tag: 0 for tag in existing_tags}
+    for note in notes:
+        for tag in note.tags:
+            if tag in tag_usage:
+                tag_usage[tag] += 1
+
     if verbose:
         print(f"\n6. {len(existing_tags)} tags existants trouvés")
 
     # Met à jour les tags dans la DB (par batch pour performance)
-    for tag in existing_tags:
-        usage = sum(1 for n in notes if tag in n.tags)
+    for tag, usage in tag_usage.items():
         repository.upsert_tag(name=tag, usage_count=usage)
 
     # 7. Analyse de santé des tags (optimisée)
@@ -271,10 +277,7 @@ def analyze_vault(
     if verbose:
         print("\n10. Détection des tags redondants...")
 
-    # Calcule l'usage de chaque tag
-    tag_usage = {}
-    for tag in existing_tags:
-        tag_usage[tag] = sum(1 for n in notes if tag in n.tags)
+    # Réutilise tag_usage déjà calculé à l'étape 6 (suppression de la boucle O(n²) redondante)
 
     redundancy_detector = RedundancyDetector(
         embedder=embedder,

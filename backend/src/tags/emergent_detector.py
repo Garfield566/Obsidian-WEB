@@ -38,6 +38,7 @@ import json
 import re
 from collections import Counter
 from dataclasses import dataclass, field
+from functools import lru_cache
 from pathlib import Path
 from typing import Optional
 
@@ -200,6 +201,12 @@ class EmergentTagDetector:
 
         # Construit la whitelist à partir des bases connues
         self._build_whitelist()
+
+        # === CACHES POUR PERFORMANCE ===
+        # Cache pour le vocabulaire par domaine (évite recalculs O(n))
+        self._vocab_cache: dict[str, dict] = {}
+        # Cache pour les patterns regex compilés (évite recompilation)
+        self._compiled_patterns: dict[str, re.Pattern] = {}
 
     def _build_whitelist(self):
         """Construit TOUJOURS_VALIDE et charge la hiérarchie.
@@ -907,12 +914,18 @@ class EmergentTagDetector:
         2. Vocabulaire propre du niveau
         3. Vocabulaire des descendants (comptent pour validation)
 
+        OPTIMISATION: Utilise un cache pour éviter les recalculs répétés.
+
         Args:
             path: Chemin complet du domaine
 
         Returns:
             Dict {"VSC": set(), "VSCA": set()} avec tout le vocabulaire
         """
+        # === CACHE: Évite les recalculs pour le même path ===
+        if path in self._vocab_cache:
+            return self._vocab_cache[path]
+
         all_vocab = {"VSC": set(), "VSCA": set()}
 
         # 1. Vocabulaire des parents
@@ -939,10 +952,26 @@ class EmergentTagDetector:
         all_vocab["VSC"].update(desc_vocab["VSC"])
         all_vocab["VSCA"].update(desc_vocab["VSCA"])
 
+        # Stocke dans le cache
+        self._vocab_cache[path] = all_vocab
+
         return all_vocab
+
+    def _get_compiled_pattern(self, word: str) -> re.Pattern:
+        """Retourne un pattern regex compilé pour un mot (avec cache).
+
+        OPTIMISATION: Compile le pattern une seule fois et le stocke.
+        """
+        if word not in self._compiled_patterns:
+            self._compiled_patterns[word] = re.compile(
+                rf'\b{re.escape(word)}\b', re.IGNORECASE
+            )
+        return self._compiled_patterns[word]
 
     def _find_words_in_text(self, text: str, vocabulary: dict) -> dict:
         """Trouve les mots du vocabulaire présents dans le texte.
+
+        OPTIMISATION: Utilise des patterns regex pré-compilés.
 
         Args:
             text: Texte à analyser (déjà en minuscules)
@@ -955,9 +984,9 @@ class EmergentTagDetector:
 
         for niveau in ["VSC", "VSCA"]:
             for word in vocabulary.get(niveau, set()):
-                # Recherche de mot entier
-                pattern = rf'\b{re.escape(word)}\b'
-                if re.search(pattern, text, re.IGNORECASE):
+                # Utilise le pattern compilé en cache
+                pattern = self._get_compiled_pattern(word)
+                if pattern.search(text):
                     found[niveau].add(word)
 
         return found
