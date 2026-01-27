@@ -679,14 +679,12 @@ class EmergentTagDetector:
                 "phrase_match": True
             }
 
-        # 2.2 Validation flexible : 80% des éléments mandatory suffisent
-        # Bonus de confiance si les éléments sont consécutifs
-        ELEMENT_THRESHOLD = 0.80  # 80% des éléments mandatory requis
-        MAX_GAP = 10  # Espacement max entre éléments consécutifs (pour bonus)
+        # 2.2 Validation STRICTE : éléments mandatory doivent être CONSÉCUTIFS
+        # Les mots dispersés ne suffisent PAS (évite faux positifs avec mots communs)
+        MAX_GAP = 10  # Espacement max entre éléments consécutifs
 
         # Trouver toutes les positions de chaque élément mandatory
         mandatory_positions = []
-        mandatory_found = []
         mandatory_missing = []
 
         for elem in mandatory:
@@ -707,16 +705,54 @@ class EmergentTagDetector:
 
             if positions_for_elem:
                 mandatory_positions.append(positions_for_elem)
-                mandatory_found.append({"name": elem["name"], "matched": positions_for_elem[0]["matched"]})
             else:
                 mandatory_missing.append(elem["name"])
 
-        # Calculer le pourcentage d'éléments mandatory trouvés
-        total_mandatory = len(mandatory)
-        found_mandatory = len(mandatory_found)
-        mandatory_ratio = found_mandatory / total_mandatory if total_mandatory > 0 else 0
+        # Si des éléments mandatory manquent complètement → invalide
+        if mandatory_missing:
+            return {
+                "is_valid": False,
+                "confidence": 0,
+                "reason": f"Éléments obligatoires manquants: {mandatory_missing}",
+                "matched_elements": [],
+                "exact_match": False
+            }
 
-        # Compter les éléments contextuels (pas besoin d'être consécutifs)
+        # Chercher une séquence CONSÉCUTIVE des éléments mandatory (OBLIGATOIRE)
+        def find_consecutive_sequence(positions_list, idx=0, last_end=-1):
+            """Recherche récursive d'une séquence consécutive."""
+            if idx >= len(positions_list):
+                return []  # Tous les éléments trouvés en séquence
+
+            for pos_info in positions_list[idx]:
+                if last_end == -1:
+                    result = find_consecutive_sequence(positions_list, idx + 1, pos_info["end"])
+                    if result is not None:
+                        return [pos_info] + result
+                else:
+                    gap = pos_info["pos"] - last_end
+                    if 0 <= gap <= MAX_GAP:
+                        result = find_consecutive_sequence(positions_list, idx + 1, pos_info["end"])
+                        if result is not None:
+                            return [pos_info] + result
+            return None
+
+        consecutive_match = find_consecutive_sequence(mandatory_positions)
+
+        if consecutive_match is None:
+            # Éléments présents mais PAS consécutifs → INVALIDE
+            return {
+                "is_valid": False,
+                "confidence": 0,
+                "reason": f"Éléments trouvés mais pas consécutifs (max {MAX_GAP} chars entre chaque requis)",
+                "matched_elements": [],
+                "exact_match": False
+            }
+
+        # Éléments trouvés en séquence consécutive → VALIDE
+        mandatory_matched = [{"name": m["name"], "matched": m["matched"]} for m in consecutive_match]
+
+        # Compter les éléments contextuels (bonus, pas obligatoires)
         contextual_matched = []
         for elem in contextual:
             matched_synonym = None
@@ -727,56 +763,16 @@ class EmergentTagDetector:
             if matched_synonym:
                 contextual_matched.append({"name": elem["name"], "matched": matched_synonym})
 
-        # Vérifier si on a assez d'éléments mandatory (>= 80%)
-        if mandatory_ratio < ELEMENT_THRESHOLD:
-            return {
-                "is_valid": False,
-                "confidence": mandatory_ratio * 0.5,
-                "reason": f"Éléments mandatory insuffisants: {found_mandatory}/{total_mandatory} ({mandatory_ratio:.0%} < {ELEMENT_THRESHOLD:.0%}). Manquants: {mandatory_missing}",
-                "matched_elements": mandatory_found + contextual_matched,
-                "exact_match": False
-            }
-
-        # Chercher une séquence consécutive (optionnel, pour bonus de confiance)
-        is_consecutive = False
-        if len(mandatory_positions) >= 2:
-            def find_consecutive_sequence(positions_list, idx=0, last_end=-1):
-                """Recherche récursive d'une séquence consécutive."""
-                if idx >= len(positions_list):
-                    return []  # Tous les éléments trouvés en séquence
-
-                for pos_info in positions_list[idx]:
-                    if last_end == -1:
-                        result = find_consecutive_sequence(positions_list, idx + 1, pos_info["end"])
-                        if result is not None:
-                            return [pos_info] + result
-                    else:
-                        gap = pos_info["pos"] - last_end
-                        if 0 <= gap <= MAX_GAP:
-                            result = find_consecutive_sequence(positions_list, idx + 1, pos_info["end"])
-                            if result is not None:
-                                return [pos_info] + result
-                return None
-
-            consecutive_match = find_consecutive_sequence(mandatory_positions)
-            is_consecutive = consecutive_match is not None
-
         # Calculer le score final
-        total_matched = found_mandatory + len(contextual_matched)
+        total_matched = len(mandatory_matched) + len(contextual_matched)
         score = total_matched / total_elements
 
-        # Calcul de confiance : base sur le ratio + bonus si consécutif
-        base_confidence = 0.65 + mandatory_ratio * 0.15  # 0.65-0.80
-        consecutive_bonus = 0.10 if is_consecutive else 0
-        final_confidence = min(0.90, base_confidence + consecutive_bonus)
-
         if score >= threshold:
-            reason_suffix = " (séquence consécutive)" if is_consecutive else " (éléments dispersés)"
             return {
                 "is_valid": True,
-                "confidence": final_confidence,
-                "reason": f"Définition validée{reason_suffix}: {total_matched}/{total_elements} éléments ({score:.0%})",
-                "matched_elements": mandatory_found + contextual_matched,
+                "confidence": min(0.85, 0.70 + score * 0.15),
+                "reason": f"Définition validée (séquence consécutive): {total_matched}/{total_elements} éléments ({score:.0%})",
+                "matched_elements": mandatory_matched + contextual_matched,
                 "exact_match": False
             }
         else:
@@ -784,7 +780,7 @@ class EmergentTagDetector:
                 "is_valid": False,
                 "confidence": score * 0.5,
                 "reason": f"Seuil non atteint: {total_matched}/{total_elements} ({score:.0%} < {threshold:.0%})",
-                "matched_elements": mandatory_found + contextual_matched,
+                "matched_elements": mandatory_matched + contextual_matched,
                 "exact_match": False
             }
 
