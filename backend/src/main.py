@@ -445,6 +445,12 @@ class TagGeneratorV2:
             emergent_suggestions = self._generate_emergent_suggestions(rejected_tags, max_suggestions)
             suggestions.extend(emergent_suggestions)
 
+        # 4. NOUVEAU: Détection des termes spécialisés sur TOUTES les notes
+        # Important: les termes spécialisés peuvent être dans des notes isolées (hors clusters)
+        if self.notes:
+            specialized_suggestions = self._detect_specialized_terms_all_notes(rejected_tags, max_suggestions)
+            suggestions.extend(specialized_suggestions)
+
         # Déduplique et trie par confiance
         suggestions = self._deduplicate_suggestions(suggestions)
         suggestions.sort(key=lambda x: x["confidence"], reverse=True)
@@ -692,6 +698,94 @@ class TagGeneratorV2:
 
             if len(suggestions) >= max_suggestions:
                 break
+
+        return suggestions
+
+    def _detect_specialized_terms_all_notes(
+        self, rejected_tags: set, max_suggestions: int
+    ) -> list[dict]:
+        """Détecte les termes spécialisés sur TOUTES les notes individuellement.
+
+        Cette méthode est cruciale car les termes spécialisés peuvent apparaître
+        dans des notes isolées qui ne font pas partie de clusters.
+        """
+        suggestions = []
+
+        if not self.notes:
+            return suggestions
+
+        # Crée le détecteur avec les tags existants
+        detector = EmergentTagDetector(existing_tags=list(self.existing_tags))
+
+        # Vérifie s'il y a des termes spécialisés à détecter
+        if not detector.SPECIALIZED_TERMS:
+            return suggestions
+
+        # Pour chaque note, vérifie les termes spécialisés
+        for note in self.notes:
+            text = f"{note.title} {note.content}"
+            text_lower = text.lower()
+
+            # Validation cascade pour cette note
+            cascade_result = detector._validate_cascade(text_lower)
+
+            if not cascade_result.get("is_valid"):
+                continue
+
+            validated_paths = cascade_result.get("validated_paths", [])
+
+            # Vérifie les termes spécialisés pour cette note
+            validated_specialized = detector._validate_specialized_terms_for_note(
+                text, validated_paths
+            )
+
+            for spec in validated_specialized:
+                spec_tag = spec["name"]
+
+                # Vérifie que le tag n'existe pas et n'a pas été rejeté
+                if spec_tag in self.existing_tags or spec_tag in rejected_tags:
+                    continue
+
+                # Vérifie si déjà dans les suggestions
+                if any(s["name"] == spec_tag for s in suggestions):
+                    # Ajoute la note à la suggestion existante
+                    for s in suggestions:
+                        if s["name"] == spec_tag and note.path not in s["notes"]:
+                            s["notes"].append(note.path)
+                    continue
+
+                # Construit le reasoning
+                if spec.get("exact_match"):
+                    spec_reasoning = f"Terme spécialisé '{spec_tag}' validé par terme exact"
+                else:
+                    matched = spec.get("matched_elements", [])
+                    matched_names = [e["name"] for e in matched[:5]]
+                    spec_reasoning = (
+                        f"Terme spécialisé '{spec_tag}' validé par définition - "
+                        f"éléments: {', '.join(matched_names)}"
+                    )
+
+                suggestions.append({
+                    "id": f"lt_spec_{len(suggestions):03d}",
+                    "name": spec_tag,
+                    "confidence": round(spec["confidence"], 2),
+                    "notes": [note.path],
+                    "source": "specialized_term",
+                    "reasoning": {
+                        "summary": spec_reasoning,
+                        "details": {
+                            "family": "category",
+                            "family_label": "Terme spécialisé",
+                            "tag_type": "specialized",
+                            "domaine_parent": spec.get("domaine_parent", ""),
+                            "exact_match": spec.get("exact_match", False),
+                            "matched_elements": spec.get("matched_elements", []),
+                        },
+                    },
+                })
+
+                if len(suggestions) >= max_suggestions:
+                    return suggestions
 
         return suggestions
 
