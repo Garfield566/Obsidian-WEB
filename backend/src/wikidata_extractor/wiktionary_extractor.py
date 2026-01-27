@@ -1087,12 +1087,38 @@ def parse_wiktionary_extract(term: str, extract: str) -> dict:
     Returns:
         Dict avec 'raw_definition' et structure parsée
     """
+    import unicodedata
+
+    def normalize(s: str) -> str:
+        """Normalise une chaîne (supprime accents) pour comparaison."""
+        return ''.join(
+            c for c in unicodedata.normalize('NFD', s.lower())
+            if unicodedata.category(c) != 'Mn'
+        )
+
     lines = extract.split("\n")
     definitions = []
 
     in_french_section = False
-    in_nom_section = False
+    in_definition_section = False
     found_term_line = False
+
+    term_normalized = normalize(term)
+
+    # Types grammaticaux supportés
+    grammar_sections = [
+        "=== Nom commun ===",
+        "=== Adjectif ===",
+        "=== Verbe ===",
+        "=== Suffixe ===",
+        "=== Préfixe ===",
+        "=== Locution ===",
+        "=== Locution nominale ===",
+        "=== Locution verbale ===",
+        "=== Locution adjectivale ===",
+        "=== Nom propre ===",
+        "=== Adverbe ===",
+    ]
 
     for line in lines:
         line_stripped = line.strip()
@@ -1107,41 +1133,52 @@ def parse_wiktionary_extract(term: str, extract: str) -> dict:
             if "français" not in line_stripped.lower():
                 break
 
-        # Détecter la section "Nom commun" ou "Adjectif" ou "Verbe"
-        if in_french_section and "=== Nom commun ===" in line:
-            in_nom_section = True
-            continue
-        if in_french_section and "=== Adjectif ===" in line:
-            in_nom_section = True
-            continue
-        if in_french_section and "=== Verbe ===" in line:
-            in_nom_section = True
-            continue
+        # Détecter les sections de définition (tous types grammaticaux)
+        if in_french_section:
+            for section in grammar_sections:
+                if section in line:
+                    in_definition_section = True
+                    found_term_line = False  # Reset pour chaque section
+                    break
 
-        # Sortir de la section nom si on trouve une autre sous-section
-        if in_nom_section and line_stripped.startswith("=== "):
-            in_nom_section = False
-            continue
+        # Sortir de la section si on trouve une autre sous-section non grammaticale
+        if in_definition_section and line_stripped.startswith("=== "):
+            if not any(s in line for s in grammar_sections):
+                in_definition_section = False
+                continue
 
-        # Chercher la ligne avec le terme et sa prononciation
-        if in_nom_section and term.lower() in line_stripped.lower() and "\\":
-            found_term_line = True
-            continue
+        # Chercher la ligne avec le terme et sa prononciation (contient \)
+        if in_definition_section and not found_term_line:
+            line_normalized = normalize(line_stripped)
+            if term_normalized in line_normalized and "\\" in line_stripped:
+                found_term_line = True
+                continue
 
         # Capturer les définitions après la ligne du terme
-        if in_nom_section and found_term_line and line_stripped:
-            # Ignorer les lignes de métadonnées
-            if line_stripped.startswith("(") and line_stripped.endswith(")"):
-                continue
+        if in_definition_section and found_term_line and line_stripped:
+            # Les définitions commencent souvent par (Domaine) puis le texte
+            # Ex: "(Biologie) Qui ne contient pas de bactérie."
 
             # Nettoyer la ligne
             clean_line = line_stripped
-            clean_line = re.sub(r'\([^)]*\)', '', clean_line)  # Retirer parenthèses
-            clean_line = re.sub(r'\[[^\]]*\]', '', clean_line)  # Retirer crochets
+
+            # Extraire le domaine si présent et garder la définition
+            if clean_line.startswith("(") and ")" in clean_line:
+                # Garder tout après le premier )
+                idx = clean_line.index(")")
+                definition_part = clean_line[idx+1:].strip()
+                if definition_part:
+                    clean_line = definition_part
+                else:
+                    # La ligne ne contient que le domaine, continuer
+                    continue
+
+            # Retirer les références et crochets
+            clean_line = re.sub(r'\[[^\]]*\]', '', clean_line)
             clean_line = clean_line.strip()
 
             # Garder les lignes significatives (définitions)
-            if len(clean_line) > 15 and not clean_line.startswith("Synonyme"):
+            if len(clean_line) > 10 and not clean_line.startswith("Synonyme"):
                 definitions.append(clean_line)
 
                 # Max 3 définitions
@@ -1154,6 +1191,7 @@ def parse_wiktionary_extract(term: str, extract: str) -> dict:
     return {
         "raw_definition": raw_definition,
         "all_definitions": definitions[:3],
+        "definitions": definitions[:3],  # Alias pour compatibilité
     }
 
 
