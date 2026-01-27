@@ -1024,6 +1024,313 @@ def refresh_domain_vocabulary(
     return stats
 
 
+# =============================================================================
+# EXTRACTION DES DÉFINITIONS (Termes Spécialisés)
+# =============================================================================
+
+import re
+
+
+def fetch_wiktionary_definition(term: str, timeout: int = 30) -> dict | None:
+    """
+    Récupère la définition d'un terme depuis Wiktionary.
+
+    Args:
+        term: Le terme à rechercher
+        timeout: Timeout en secondes
+
+    Returns:
+        Dict avec 'definition', 'examples' ou None si non trouvé
+    """
+    params = {
+        "action": "query",
+        "titles": term,
+        "prop": "extracts",
+        "explaintext": True,
+        "format": "json",
+    }
+
+    try:
+        response = requests.get(
+            WIKTIONARY_API_URL,
+            params=params,
+            headers={"User-Agent": USER_AGENT},
+            timeout=timeout
+        )
+        response.raise_for_status()
+        data = response.json()
+
+        pages = data.get("query", {}).get("pages", {})
+        for page_id, page_data in pages.items():
+            if page_id == "-1":
+                return None  # Page non trouvée
+
+            extract = page_data.get("extract", "")
+            if extract:
+                # Parser la définition
+                return parse_wiktionary_extract(term, extract)
+
+    except Exception as e:
+        logger.warning(f"Erreur récupération définition '{term}': {e}")
+
+    return None
+
+
+def parse_wiktionary_extract(term: str, extract: str) -> dict:
+    """
+    Parse l'extrait Wiktionary pour extraire la définition.
+
+    Args:
+        term: Le terme
+        extract: Le texte extrait de Wiktionary
+
+    Returns:
+        Dict avec 'raw_definition' et structure parsée
+    """
+    lines = extract.split("\n")
+    definitions = []
+
+    in_french_section = False
+    in_nom_section = False
+    found_term_line = False
+
+    for line in lines:
+        line_stripped = line.strip()
+
+        # Détecter la section française
+        if "== Français ==" in line or "== français ==" in line.lower():
+            in_french_section = True
+            continue
+
+        # Détecter la fin de la section française (autre langue)
+        if in_french_section and line_stripped.startswith("== ") and "==" in line_stripped[3:]:
+            if "français" not in line_stripped.lower():
+                break
+
+        # Détecter la section "Nom commun" ou "Adjectif" ou "Verbe"
+        if in_french_section and "=== Nom commun ===" in line:
+            in_nom_section = True
+            continue
+        if in_french_section and "=== Adjectif ===" in line:
+            in_nom_section = True
+            continue
+        if in_french_section and "=== Verbe ===" in line:
+            in_nom_section = True
+            continue
+
+        # Sortir de la section nom si on trouve une autre sous-section
+        if in_nom_section and line_stripped.startswith("=== "):
+            in_nom_section = False
+            continue
+
+        # Chercher la ligne avec le terme et sa prononciation
+        if in_nom_section and term.lower() in line_stripped.lower() and "\\":
+            found_term_line = True
+            continue
+
+        # Capturer les définitions après la ligne du terme
+        if in_nom_section and found_term_line and line_stripped:
+            # Ignorer les lignes de métadonnées
+            if line_stripped.startswith("(") and line_stripped.endswith(")"):
+                continue
+
+            # Nettoyer la ligne
+            clean_line = line_stripped
+            clean_line = re.sub(r'\([^)]*\)', '', clean_line)  # Retirer parenthèses
+            clean_line = re.sub(r'\[[^\]]*\]', '', clean_line)  # Retirer crochets
+            clean_line = clean_line.strip()
+
+            # Garder les lignes significatives (définitions)
+            if len(clean_line) > 15 and not clean_line.startswith("Synonyme"):
+                definitions.append(clean_line)
+
+                # Max 3 définitions
+                if len(definitions) >= 3:
+                    break
+
+    # Prendre la première définition significative
+    raw_definition = definitions[0] if definitions else ""
+
+    return {
+        "raw_definition": raw_definition,
+        "all_definitions": definitions[:3],
+    }
+
+
+def definition_to_mandatory_elements(definition: str) -> list[dict]:
+    """
+    Convertit une définition en éléments mandatory pour specialized_terms.
+
+    Extrait les mots clés significatifs de la définition.
+
+    Args:
+        definition: La définition brute
+
+    Returns:
+        Liste d'éléments mandatory avec synonymes
+    """
+    # Mots à ignorer (stop words)
+    stop_words = {
+        'le', 'la', 'les', 'un', 'une', 'des', 'du', 'de', 'au', 'aux',
+        'et', 'ou', 'mais', 'donc', 'car', 'ni', 'que', 'qui', 'quoi',
+        'dont', 'où', 'ce', 'cette', 'ces', 'avec', 'sans', 'pour', 'par',
+        'sur', 'sous', 'dans', 'entre', 'vers', 'est', 'sont', 'être',
+        'avoir', 'fait', 'peut', 'son', 'sa', 'ses', 'il', 'elle', 'on',
+        'se', 'en', 'ne', 'pas', 'plus', 'très', 'bien', 'tout', 'tous',
+        'd\'un', 'd\'une', 'qu\'un', 'qu\'une', 'c\'est', "l'", "d'",
+    }
+
+    # Nettoyer et tokeniser
+    definition_clean = definition.lower()
+    definition_clean = re.sub(r'[^\w\s\'-]', ' ', definition_clean)
+    words = definition_clean.split()
+
+    # Filtrer les mots significatifs
+    significant_words = []
+    for word in words:
+        word = word.strip("'-")
+        if word and len(word) > 2 and word not in stop_words:
+            significant_words.append(word)
+
+    # Créer les éléments mandatory (max 5 mots clés)
+    mandatory = []
+    for word in significant_words[:5]:
+        mandatory.append({
+            "name": word,
+            "synonyms": [word]  # Le mot lui-même comme synonyme de base
+        })
+
+    return mandatory
+
+
+def extract_specialized_term(term: str, domain: str) -> dict | None:
+    """
+    Extrait un terme spécialisé complet avec sa définition.
+
+    Args:
+        term: Le terme à extraire
+        domain: Le domaine parent (ex: "biologie")
+
+    Returns:
+        Structure complète pour specialized_terms.json ou None
+    """
+    # Récupérer la définition
+    definition_data = fetch_wiktionary_definition(term)
+
+    if not definition_data or not definition_data.get("raw_definition"):
+        return None
+
+    raw_def = definition_data["raw_definition"]
+
+    # Convertir en structure mandatory
+    mandatory = definition_to_mandatory_elements(raw_def)
+
+    if not mandatory:
+        return None
+
+    return {
+        "type": "specialized",
+        "exact_terms": [term],
+        "definition": {
+            "mandatory": mandatory,
+            "contextual": [],
+            "raw_definition": raw_def
+        },
+        "threshold": 0.9,
+        "domaine_parent": domain
+    }
+
+
+def extract_specialized_terms_for_domain(
+    domain: str,
+    max_terms: int = 50,
+    verbose: bool = True
+) -> dict:
+    """
+    Extrait tous les termes spécialisés avec définitions pour un domaine.
+
+    Args:
+        domain: Chemin du domaine (ex: "biologie", "mathématiques\\analyse")
+        max_terms: Nombre maximum de termes à extraire
+        verbose: Afficher la progression
+
+    Returns:
+        Dictionnaire des termes spécialisés
+    """
+    if verbose:
+        print(f"\n=== Extraction des termes spécialisés pour '{domain}' ===")
+
+    # Extraire les termes du domaine via Wiktionary
+    with WiktionaryExtractor() as extractor:
+        result = extractor.extract_domain(domain)
+
+        if not result.success:
+            if verbose:
+                print(f"Erreur: {result.error}")
+            return {}
+
+        terms = result.terms[:max_terms]
+        if verbose:
+            print(f"Trouvé {len(result.terms)} termes, traitement de {len(terms)}...")
+
+    specialized_terms = {}
+    success_count = 0
+
+    for i, term in enumerate(terms):
+        if verbose and (i + 1) % 10 == 0:
+            print(f"  Progression: {i + 1}/{len(terms)} ({success_count} avec définition)")
+
+        # Extraire le terme spécialisé
+        term_data = extract_specialized_term(term, domain.split("\\")[0])
+
+        if term_data:
+            specialized_terms[term] = term_data
+            success_count += 1
+
+        # Respecter le rate limit
+        time.sleep(0.3)
+
+    if verbose:
+        print(f"\nTerminé: {success_count}/{len(terms)} termes avec définition")
+
+    return specialized_terms
+
+
+def save_specialized_terms(new_terms: dict, merge: bool = True):
+    """
+    Sauvegarde les termes spécialisés extraits.
+
+    Args:
+        new_terms: Nouveaux termes à sauvegarder
+        merge: Si True, fusionne avec les termes existants
+    """
+    existing = {}
+
+    if merge and SPECIALIZED_TERMS_FILE.exists():
+        try:
+            with open(SPECIALIZED_TERMS_FILE, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+        except Exception as e:
+            logger.warning(f"Could not load existing terms: {e}")
+
+    # Préserver les métadonnées
+    metadata = {k: v for k, v in existing.items() if k.startswith("_")}
+    terms = {k: v for k, v in existing.items() if not k.startswith("_")}
+
+    # Fusionner les nouveaux termes
+    terms.update(new_terms)
+
+    # Reconstituer avec métadonnées en premier
+    output = metadata.copy()
+    output.update(terms)
+
+    # Sauvegarder
+    with open(SPECIALIZED_TERMS_FILE, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    logger.info(f"Saved {len(new_terms)} new specialized terms to {SPECIALIZED_TERMS_FILE}")
+
+
 def main():
     """Point d'entrée principal."""
     parser = argparse.ArgumentParser(
@@ -1080,6 +1387,19 @@ def main():
     )
 
     parser.add_argument(
+        "--specialized",
+        action="store_true",
+        help="Extract specialized terms with definitions (saves to specialized_terms.json)"
+    )
+
+    parser.add_argument(
+        "--max-terms",
+        type=int,
+        default=50,
+        help="Maximum number of terms to extract with --specialized (default: 50)"
+    )
+
+    parser.add_argument(
         "--verbose", "-v",
         action="store_true",
         help="Enable verbose logging"
@@ -1124,6 +1444,31 @@ def main():
 
             if not subcats:
                 print("  (no sub-categories found)")
+        return
+
+    # Extract specialized terms with definitions
+    if args.specialized and args.domain:
+        print(f"\n=== Extraction des termes spécialisés pour '{args.domain}' ===")
+        specialized = extract_specialized_terms_for_domain(
+            args.domain,
+            max_terms=args.max_terms,
+            verbose=True
+        )
+
+        if specialized:
+            print(f"\nExemple de terme extrait:")
+            first_term = list(specialized.keys())[0]
+            print(f"  {first_term}:")
+            print(f"    Définition: {specialized[first_term]['definition']['raw_definition'][:100]}...")
+            print(f"    Éléments: {[e['name'] for e in specialized[first_term]['definition']['mandatory']]}")
+
+            if args.save:
+                save_specialized_terms(specialized, merge=True)
+                print(f"\nSauvegardé {len(specialized)} termes dans specialized_terms.json")
+            else:
+                print(f"\nUtilisez --save pour sauvegarder les {len(specialized)} termes")
+        else:
+            print("Aucun terme avec définition trouvé")
         return
 
     # Auto-discover mode
