@@ -734,10 +734,22 @@ class TagGeneratorV2:
 
             validated_paths = cascade_result.get("validated_paths", [])
 
+            # DEBUG: Log pour note piège
+            if "info box.md" in note.path and "info box 1" not in note.path:
+                print(f"DEBUG note piège '{note.path}':")
+                print(f"  validated_paths: {[p.get('path') if isinstance(p, dict) else p for p in validated_paths]}")
+
             # Vérifie les termes spécialisés pour cette note
             validated_specialized = detector._validate_specialized_terms_for_note(
                 text, validated_paths
             )
+
+            # DEBUG: Log si caca est validé pour note piège
+            if "info box.md" in note.path and "info box 1" not in note.path:
+                if validated_specialized:
+                    print(f"  validated_specialized: {[s['name'] for s in validated_specialized]}")
+                else:
+                    print(f"  validated_specialized: [] (vide - correct!)")
 
             for spec in validated_specialized:
                 spec_tag = spec["name"]

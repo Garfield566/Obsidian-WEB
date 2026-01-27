@@ -1688,15 +1688,7 @@ class EmergentTagDetector:
 
             # OPTIMISATION: Skip rapide si racine non validée
             domaine_root = domaine_parent.split("\\")[0] if domaine_parent else ""
-            # DEBUG
-            if term_name == "caca":
-                print(f"DEBUG _validate_specialized_terms_for_note:")
-                print(f"  valid_roots={valid_roots}")
-                print(f"  domaine_root='{domaine_root}'")
-                print(f"  domaine_root in valid_roots: {domaine_root in valid_roots}")
             if domaine_root and domaine_root not in valid_roots:
-                if term_name == "caca":
-                    print(f"  -> SKIP (racine non validée)")
                 continue
 
             # Vérifie que le domaine parent est validé
