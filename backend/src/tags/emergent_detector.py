@@ -1585,7 +1585,8 @@ class EmergentTagDetector:
                 continue
 
             # Seuil de confiance minimum pour le domaine parent
-            min_parent_confidence = 0.85
+            # Réduit à 0.70 pour permettre aux domaines validés par VSCA d'activer leurs objets
+            min_parent_confidence = 0.70
 
             # Exception : si c'est le domaine principal, on accepte
             is_primary_domain = parent_confidence >= max_confidence_path - 0.05
@@ -1708,7 +1709,9 @@ class EmergentTagDetector:
                 continue
 
             # Seuil de confiance pour le domaine parent
-            min_parent_confidence = 0.85
+            # Réduit à 0.70 pour permettre aux domaines validés par VSCA d'activer leurs termes
+            # (4 VSCA = 0.65 + 0.12 = 0.77 confiance)
+            min_parent_confidence = 0.70
             is_primary_domain = parent_confidence >= max_confidence_path - 0.05
 
             if parent_confidence < min_parent_confidence and not is_primary_domain:
