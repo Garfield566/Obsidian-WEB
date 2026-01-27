@@ -668,8 +668,8 @@ class EmergentTagDetector:
             }
 
         # 2.2 Vérifier si les éléments mandatory sont CONSÉCUTIFS dans le texte
-        # Les mots doivent apparaître dans l'ordre et à proximité (max 30 chars entre chaque)
-        MAX_GAP = 30  # Espacement max entre éléments consécutifs
+        # Les mots doivent apparaître dans l'ordre et à proximité (max 10 chars entre chaque)
+        MAX_GAP = 10  # Espacement max entre éléments consécutifs
 
         # Trouver toutes les positions de chaque élément mandatory
         mandatory_positions = []
@@ -1499,6 +1499,8 @@ class EmergentTagDetector:
         1. Son domaine parent est dans les chemins validés AVEC UNE CONFIANCE SUFFISANTE
         2. Au moins 1 mot déclencheur est présent (seuil défini par objet)
 
+        OPTIMISATION: Utilise des patterns compilés et pré-calcule les racines validées.
+
         Args:
             text: Texte combiné des notes
             validated_paths: Liste des chemins de domaine validés
@@ -1527,25 +1529,40 @@ class EmergentTagDetector:
 
         valid_path_set = set(valid_path_confidence.keys())
 
+        # OPTIMISATION: Pré-calcule la confiance max pour éviter recalculs
+        max_confidence_path = max(valid_path_confidence.values()) if valid_path_confidence else 0
+
+        # OPTIMISATION: Pré-calcule les racines validées pour lookup O(1)
+        valid_roots = {p.split("\\")[0] for p in valid_path_set}
+
         for obj_name, obj_data in self.OBJECTS.items():
             domaine_parent = obj_data.get("domaine_parent", "")
+
+            # OPTIMISATION: Skip rapide si la racine du domaine n'est pas validée
+            domaine_root = domaine_parent.split("\\")[0] if domaine_parent else ""
+            if domaine_root and domaine_root not in valid_roots:
+                continue
 
             # Vérifie que le domaine parent est validé AVEC une confiance suffisante
             parent_validated = False
             parent_confidence = 0.0
-            for valid_path in valid_path_set:
-                if domaine_parent.startswith(valid_path) or valid_path.startswith(domaine_parent):
-                    parent_validated = True
-                    parent_confidence = max(parent_confidence, valid_path_confidence.get(valid_path, 0))
+
+            # OPTIMISATION: Vérifie d'abord le match exact (O(1))
+            if domaine_parent in valid_path_confidence:
+                parent_validated = True
+                parent_confidence = valid_path_confidence[domaine_parent]
+            else:
+                # Sinon vérifie les relations parent/enfant
+                for valid_path in valid_path_set:
+                    if domaine_parent.startswith(valid_path) or valid_path.startswith(domaine_parent):
+                        parent_validated = True
+                        parent_confidence = max(parent_confidence, valid_path_confidence.get(valid_path, 0))
 
             if not parent_validated:
                 continue
 
             # Seuil de confiance minimum pour le domaine parent
-            # Les objets ne sont validés que si le domaine parent a une confiance >= 0.85
-            # OU si le domaine parent est le domaine PRINCIPAL (confiance la plus haute)
             min_parent_confidence = 0.85
-            max_confidence_path = max(valid_path_confidence.values()) if valid_path_confidence else 0
 
             # Exception : si c'est le domaine principal, on accepte
             is_primary_domain = parent_confidence >= max_confidence_path - 0.05
@@ -1554,8 +1571,6 @@ class EmergentTagDetector:
                 continue  # Domaine parent pas assez confiant, on skip cet objet
 
             # Collecte TOUS les mots de l'objet :
-            # 1. Mots déclencheurs (obligatoires)
-            # 2. Vocabulaire additionnel (optionnel, pour enrichissement progressif)
             mots_declencheurs = obj_data.get("mots_declencheurs", [])
             vocabulaire = obj_data.get("vocabulaire", {})
             vocab_vsc = vocabulaire.get("VSC", [])
@@ -1563,18 +1578,18 @@ class EmergentTagDetector:
 
             seuil = obj_data.get("seuil", 1)  # Par défaut 1 mot déclencheur suffit
 
-            # Trouve les mots déclencheurs présents
+            # OPTIMISATION: Utilise les patterns compilés en cache
             found_triggers = []
             for mot in mots_declencheurs:
-                pattern = rf'\b{re.escape(mot)}\b'
-                if re.search(pattern, text_lower, re.IGNORECASE):
+                pattern = self._get_compiled_pattern(mot)
+                if pattern.search(text_lower):
                     found_triggers.append(mot)
 
-            # Trouve les mots de vocabulaire présents (pour info)
+            # OPTIMISATION: Utilise les patterns compilés en cache
             found_vocab = []
             for mot in vocab_vsc + vocab_vsca:
-                pattern = rf'\b{re.escape(mot)}\b'
-                if re.search(pattern, text_lower, re.IGNORECASE):
+                pattern = self._get_compiled_pattern(mot)
+                if pattern.search(text_lower):
                     found_vocab.append(mot)
 
             if len(found_triggers) >= seuil:
@@ -1609,6 +1624,8 @@ class EmergentTagDetector:
     ) -> list[dict]:
         """Valide les termes spécialisés pour une note.
 
+        OPTIMISATION: Pré-calcul des racines validées et lookup O(1).
+
         Args:
             text: Texte complet de la note
             validated_paths: Chemins validés par la cascade (pour vérifier domaine parent)
@@ -1638,23 +1655,37 @@ class EmergentTagDetector:
 
         valid_path_set = set(valid_path_confidence.keys())
 
+        # OPTIMISATION: Pré-calcule les valeurs communes
+        max_confidence_path = max(valid_path_confidence.values()) if valid_path_confidence else 0
+        valid_roots = {p.split("\\")[0] for p in valid_path_set}
+
         for term_name, term_data in self.SPECIALIZED_TERMS.items():
             domaine_parent = term_data.get("domaine_parent", "")
+
+            # OPTIMISATION: Skip rapide si racine non validée
+            domaine_root = domaine_parent.split("\\")[0] if domaine_parent else ""
+            if domaine_root and domaine_root not in valid_roots:
+                continue
 
             # Vérifie que le domaine parent est validé
             parent_validated = False
             parent_confidence = 0.0
-            for valid_path in valid_path_set:
-                if domaine_parent.startswith(valid_path) or valid_path.startswith(domaine_parent):
-                    parent_validated = True
-                    parent_confidence = max(parent_confidence, valid_path_confidence.get(valid_path, 0))
+
+            # OPTIMISATION: Vérifie d'abord le match exact (O(1))
+            if domaine_parent in valid_path_confidence:
+                parent_validated = True
+                parent_confidence = valid_path_confidence[domaine_parent]
+            else:
+                for valid_path in valid_path_set:
+                    if domaine_parent.startswith(valid_path) or valid_path.startswith(domaine_parent):
+                        parent_validated = True
+                        parent_confidence = max(parent_confidence, valid_path_confidence.get(valid_path, 0))
 
             if not parent_validated:
                 continue
 
             # Seuil de confiance pour le domaine parent
             min_parent_confidence = 0.85
-            max_confidence_path = max(valid_path_confidence.values()) if valid_path_confidence else 0
             is_primary_domain = parent_confidence >= max_confidence_path - 0.05
 
             if parent_confidence < min_parent_confidence and not is_primary_domain:
