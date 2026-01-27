@@ -620,8 +620,14 @@ def load_specialized_terms() -> dict:
 def get_specialized_vocabulary_for_domain(domain: str) -> tuple[list[str], list[str]]:
     """Extrait le vocabulaire des termes spécialisés pour un domaine donné.
 
-    Les synonymes des éléments mandatory sont ajoutés comme VSC (concepts clés).
-    Les synonymes des éléments contextual sont ajoutés comme VSCA (auxiliaires).
+    IMPORTANT: Seuls les TERMES EXACTS sont ajoutés au vocabulaire du domaine.
+    Les mots de la définition (mandatory/contextual) ne doivent PAS devenir
+    du vocabulaire de domaine - ils servent uniquement à valider le terme spécialisé.
+
+    RÈGLE FONDAMENTALE:
+    - Un terme spécialisé a une définition qui le décrit
+    - Les mots de cette définition NE SONT PAS du vocabulaire du domaine
+    - Seul le terme lui-même (exact_terms) peut être ajouté au vocabulaire
 
     Args:
         domain: Chemin du domaine (ex: "sociologie\\sociologie-durkheimienne")
@@ -658,21 +664,16 @@ def get_specialized_vocabulary_for_domain(domain: str) -> tuple[list[str], list[
 
         logger.info(f"Found specialized term '{term_name}' for domain '{domain}'")
 
-        definition = term_data.get("definition", {})
+        # CORRECTION: On n'ajoute PAS les mots de définition (mandatory/contextual)
+        # au vocabulaire du domaine. Ces mots servent uniquement à valider
+        # le terme spécialisé, pas à valider le domaine lui-même.
+        #
+        # Exemple: Le terme "caca" a la définition "sort d'un petit trou"
+        # Les mots "sort", "d'un", "petit", "trou" ne sont PAS du vocabulaire
+        # de biologie - ils servent juste à détecter quand on parle de "caca".
 
-        # Les synonymes mandatory deviennent VSC
-        for elem in definition.get("mandatory", []):
-            for syn in elem.get("synonyms", []):
-                if len(syn) > 2:  # Ignorer les mots très courts
-                    vsc_words.add(syn.lower())
-
-        # Les synonymes contextual deviennent VSCA
-        for elem in definition.get("contextual", []):
-            for syn in elem.get("synonyms", []):
-                if len(syn) > 2:
-                    vsca_words.add(syn.lower())
-
-        # Les termes exacts sont aussi des VSC importants
+        # Seuls les termes exacts sont ajoutés comme VSC
+        # (le terme spécialisé lui-même EST un terme du domaine)
         for exact in term_data.get("exact_terms", []):
             if len(exact) > 2:
                 vsc_words.add(exact.lower())
