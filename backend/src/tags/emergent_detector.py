@@ -709,12 +709,17 @@ class EmergentTagDetector:
             else:
                 mandatory_missing.append(elem["name"])
 
-        # Si des éléments mandatory manquent complètement → invalide
-        if mandatory_missing:
+        # Vérifier si on a au moins 80% des éléments mandatory
+        ELEMENT_THRESHOLD = 0.80
+        total_mandatory = len(mandatory)
+        found_count = len(mandatory_positions)
+        element_ratio = found_count / total_mandatory if total_mandatory > 0 else 0
+
+        if element_ratio < ELEMENT_THRESHOLD:
             return {
                 "is_valid": False,
                 "confidence": 0,
-                "reason": f"Éléments obligatoires manquants: {mandatory_missing}",
+                "reason": f"Éléments insuffisants: {found_count}/{total_mandatory} ({element_ratio:.0%} < {ELEMENT_THRESHOLD:.0%}). Manquants: {mandatory_missing}",
                 "matched_elements": [],
                 "exact_match": False
             }
