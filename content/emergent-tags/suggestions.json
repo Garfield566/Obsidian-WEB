@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-27T09:10:47.260432",
-  "vault_hash": "b6c835c9",
+  "generated_at": "2026-01-27T09:29:22.229026",
+  "vault_hash": "1cf68310",
   "suggestions": {
     "new_tags": [
       {
@@ -9,8 +9,8 @@
         "name": "droit",
         "confidence": 0.95,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
         ],
         "reasoning": {
           "summary": "Terme 'droit' validé: terme toujours valide (nom propre/entité)",
@@ -29,14 +29,16 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260481",
+        "first_detected": "2026-01-27T09:29:22.229064",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_003",
+        "id": "lt_ent_000",
         "name": "entité\\états-unis",
         "confidence": 0.93,
         "notes": [
+          "info box 1.md",
+          "info box.md",
           "YouTube Notes/Timestamps 2.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Hamilton.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Tudor.md",
@@ -44,28 +46,26 @@
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Rolex.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Jaeger-LeCoultre.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Patek Philippe.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (3).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 37 notes",
+          "summary": "Entité politique détecté(e) dans 39 notes",
           "details": {
             "entity_type": "political_entity",
             "raw_text": "états-unis",
-            "total_occurrences": 80,
-            "notes_count": 37,
+            "total_occurrences": 83,
+            "notes_count": 39,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260486",
+        "first_detected": "2026-01-27T09:29:22.229068",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_011",
+        "id": "lt_ent_015",
         "name": "geo\\europe\\suisse",
         "confidence": 0.93,
         "notes": [
@@ -92,12 +92,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260491",
+        "first_detected": "2026-01-27T09:29:22.229072",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_015",
+        "id": "lt_ent_019",
         "name": "entité\\empire-romain",
         "confidence": 0.93,
         "notes": [
@@ -124,12 +124,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260495",
+        "first_detected": "2026-01-27T09:29:22.229075",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_013",
+        "id": "lt_ent_017",
         "name": "jung",
         "confidence": 0.86,
         "notes": [
@@ -148,7 +148,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260498",
+        "first_detected": "2026-01-27T09:29:22.229078",
         "source": "reference_db",
         "alternatives": [
           {
@@ -159,7 +159,7 @@
         ]
       },
       {
-        "id": "lt_ent_029",
+        "id": "lt_ent_030",
         "name": "monet",
         "confidence": 0.86,
         "notes": [
@@ -180,7 +180,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260501",
+        "first_detected": "2026-01-27T09:29:22.229080",
         "source": "reference_db",
         "alternatives": [
           {
@@ -191,7 +191,7 @@
         ]
       },
       {
-        "id": "lt_ent_001",
+        "id": "lt_ent_008",
         "name": "geo\\asie\\chine",
         "confidence": 0.85,
         "notes": [
@@ -211,7 +211,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260504",
+        "first_detected": "2026-01-27T09:29:22.229083",
         "source": "reference_db",
         "alternatives": []
       },
@@ -220,12 +220,12 @@
         "name": "mathématiques",
         "confidence": 0.85,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
         ],
         "reasoning": {
-          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): opération, variable, taux, inverse, suite...",
+          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): mesure, nombre, variable, inverse, degré...",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
@@ -236,8 +236,8 @@
             "confidence": 0.8500000000000001,
             "reasons": [
               "Validé à profondeur 0: 4 VSC (seuil: 2)",
-              "Mots comptés: opération, variable, taux, inverse, suite...",
-              "Mots consommés: nombre, variable, ensemble"
+              "Mots comptés: mesure, nombre, variable, inverse, degré...",
+              "Mots consommés: ensemble, nombre, variable"
             ],
             "category": "cascade",
             "validated_paths": [
@@ -246,25 +246,25 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "opération",
-                  "suite",
-                  "côté",
-                  "voisinage",
-                  "somme",
-                  "primitive",
-                  "corps",
-                  "valeur propre",
                   "mesure",
-                  "fonction",
-                  "degré",
-                  "point",
-                  "taux",
-                  "variable",
                   "inverse",
+                  "degré",
+                  "somme",
+                  "voisinage",
+                  "corps",
+                  "opération",
                   "ensemble",
-                  "rang",
+                  "côté",
                   "nombre",
-                  "loi"
+                  "variable",
+                  "loi",
+                  "fonction",
+                  "valeur propre",
+                  "point",
+                  "suite",
+                  "taux",
+                  "primitive",
+                  "rang"
                 ],
                 "is_subnotion": false
               },
@@ -273,30 +273,30 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "travail",
-                  "cuivre",
+                  "sesterce",
+                  "valeur",
+                  "marché",
+                  "accumulation",
                   "as",
-                  "profit",
-                  "or",
+                  "production",
                   "monnaie",
-                  "salaire",
                   "métal",
                   "offre",
+                  "profit",
+                  "salaire",
                   "intérêt",
-                  "atelier",
-                  "capital",
-                  "marchandise",
-                  "demande",
-                  "valeur",
-                  "argent",
                   "prix",
-                  "accumulation",
-                  "taux",
+                  "demande",
+                  "atelier",
                   "échange",
-                  "production",
+                  "marchandise",
+                  "or",
+                  "capital",
+                  "argent",
                   "pièce",
-                  "sesterce",
-                  "marché"
+                  "travail",
+                  "taux",
+                  "cuivre"
                 ],
                 "is_subnotion": true
               },
@@ -305,34 +305,34 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "droit",
-                  "bonheur",
-                  "vérité",
-                  "utilité",
                   "parties",
-                  "corps",
-                  "existence",
-                  "sagesse",
-                  "mêmes",
-                  "physique",
-                  "propres",
-                  "matière",
-                  "valeur",
-                  "absurde",
-                  "raison",
-                  "doute",
-                  "projet",
-                  "bien",
-                  "proposition",
                   "tant",
-                  "autorité",
-                  "simples",
-                  "liberté",
-                  "pouvoir",
+                  "choses",
+                  "valeur",
+                  "utilité",
                   "état",
-                  "mal",
+                  "autorité",
+                  "mêmes",
+                  "existence",
+                  "projet",
+                  "bonheur",
+                  "matière",
+                  "proposition",
+                  "corps",
+                  "pouvoir",
+                  "absurde",
+                  "bien",
+                  "droit",
+                  "simples",
                   "être",
-                  "choses"
+                  "propres",
+                  "vérité",
+                  "liberté",
+                  "doute",
+                  "raison",
+                  "mal",
+                  "sagesse",
+                  "physique"
                 ],
                 "is_subnotion": false
               },
@@ -342,18 +342,18 @@
                 "confidence": 0.8500000000000001,
                 "words_used": [
                   "esclave",
-                  "guerre",
-                  "royaume",
-                  "empire",
                   "punique",
-                  "époque",
-                  "révolution",
-                  "tyrannie",
                   "siège",
-                  "commerce",
-                  "république",
+                  "époque",
+                  "siècle",
+                  "révolution",
+                  "empire",
+                  "royaume",
+                  "guerre",
                   "égaux",
-                  "siècle"
+                  "tyrannie",
+                  "république",
+                  "commerce"
                 ],
                 "is_subnotion": true
               },
@@ -362,16 +362,16 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "champ",
-                  "inertie",
-                  "probabilité",
+                  "temps",
+                  "matière",
                   "mesure",
                   "constante",
+                  "inertie",
                   "masse",
-                  "matière",
-                  "temps",
-                  "force",
-                  "loi"
+                  "loi",
+                  "champ",
+                  "probabilité",
+                  "force"
                 ],
                 "is_subnotion": true
               },
@@ -380,26 +380,26 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "sort",
-                  "circulation",
-                  "classe",
-                  "pied",
-                  "décomposition",
-                  "eau",
-                  "corps",
-                  "d'un",
-                  "mort",
-                  "mourir",
-                  "petit",
                   "trou",
-                  "vie",
-                  "achète",
-                  "croissance",
-                  "espèce",
                   "division",
-                  "règle",
+                  "eau",
+                  "croissance",
+                  "petit",
+                  "circulation",
+                  "d'un",
+                  "corps",
+                  "libre",
+                  "mourir",
                   "bras",
-                  "libre"
+                  "achète",
+                  "classe",
+                  "décomposition",
+                  "vie",
+                  "espèce",
+                  "pied",
+                  "règle",
+                  "mort",
+                  "sort"
                 ],
                 "is_subnotion": true
               },
@@ -408,14 +408,14 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "réel",
-                  "symptôme",
-                  "réponse",
-                  "moi",
                   "apprentissage",
-                  "esprit",
+                  "réponse",
                   "sujet",
                   "ça",
+                  "symptôme",
+                  "réel",
+                  "moi",
+                  "esprit",
                   "langage",
                   "manque"
                 ],
@@ -426,15 +426,15 @@
                 "depth": 0,
                 "confidence": 0.8300000000000001,
                 "words_used": [
-                  "champ",
+                  "individu",
+                  "pouvoir",
                   "division",
-                  "société",
                   "régulation",
                   "distinction",
-                  "pouvoir",
+                  "société",
                   "institution",
                   "classe",
-                  "individu"
+                  "champ"
                 ],
                 "is_subnotion": false
               },
@@ -443,14 +443,14 @@
                 "depth": 0,
                 "confidence": 0.81,
                 "words_used": [
+                  "transformation",
+                  "valeur",
+                  "génération",
+                  "sens",
                   "signe",
                   "règle",
-                  "sens",
-                  "transformation",
-                  "génération",
-                  "valeur",
-                  "mot",
-                  "langage"
+                  "langage",
+                  "mot"
                 ],
                 "is_subnotion": false
               }
@@ -658,46 +658,70 @@
                 ]
               }
             ],
-            "validated_specialized_terms": [
-              {
-                "name": "caca",
-                "confidence": 0.8,
-                "domaine_parent": "biologie",
-                "exact_match": false,
-                "matched_elements": [
-                  {
-                    "name": "sort",
-                    "matched": "sort"
-                  },
-                  {
-                    "name": "d'un",
-                    "matched": "d'un"
-                  },
-                  {
-                    "name": "petit",
-                    "matched": "petit"
-                  },
-                  {
-                    "name": "trou",
-                    "matched": "trou"
-                  }
-                ],
-                "tag_type": "specialized",
-                "reasons": [
-                  "Définition validée (éléments dispersés): 4/4 éléments (100%)"
-                ]
-              }
-            ],
+            "validated_specialized_terms": [],
             "tag_type": "subnotion",
             "tag_format": "hierarchical"
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260511",
+        "first_detected": "2026-01-27T09:29:22.229089",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_002",
+        "id": "lt_ent_001",
+        "name": "entité\\empire-perse",
+        "confidence": 0.84,
+        "notes": [
+          "info box 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/métallurgie  Britannica.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "empire-perse",
+            "total_occurrences": 12,
+            "notes_count": 3,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-27T09:29:22.229092",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_003",
+        "name": "entité\\empire-britannique",
+        "confidence": 0.84,
+        "notes": [
+          "info box.md",
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 6 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "empire-britannique",
+            "total_occurrences": 6,
+            "notes_count": 6,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-27T09:29:22.229095",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_009",
         "name": "geo\\asie\\japon",
         "confidence": 0.84,
         "notes": [
@@ -716,12 +740,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260515",
+        "first_detected": "2026-01-27T09:29:22.229098",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_023",
+        "id": "lt_ent_027",
         "name": "entité\\second-empire-français",
         "confidence": 0.84,
         "notes": [
@@ -740,39 +764,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260518",
+        "first_detected": "2026-01-27T09:29:22.229100",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_005",
-        "name": "entité\\empire-britannique",
-        "confidence": 0.83,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 5 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-britannique",
-            "total_occurrences": 5,
-            "notes_count": 5,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260521",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_004",
+        "id": "lt_ent_010",
         "name": "entité\\empire-ottoman",
         "confidence": 0.82,
         "notes": [
@@ -792,12 +789,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260524",
+        "first_detected": "2026-01-27T09:29:22.229103",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_012",
+        "id": "lt_ent_016",
         "name": "mouvement\\renaissance",
         "confidence": 0.82,
         "notes": [
@@ -816,36 +813,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260527",
+        "first_detected": "2026-01-27T09:29:22.229106",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_030",
-        "name": "entité\\empire-perse",
-        "confidence": 0.82,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/métallurgie  Britannica.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-perse",
-            "total_occurrences": 11,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260530",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_014",
+        "id": "lt_ent_018",
         "name": "substance\\aristote",
         "confidence": 0.81,
         "notes": [
@@ -865,12 +838,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260532",
+        "first_detected": "2026-01-27T09:29:22.229108",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_018",
+        "id": "lt_ent_022",
         "name": "geo\\asie\\inde",
         "confidence": 0.81,
         "notes": [
@@ -889,12 +862,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260535",
+        "first_detected": "2026-01-27T09:29:22.229111",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_019",
+        "id": "lt_ent_023",
         "name": "entité\\carthage",
         "confidence": 0.81,
         "notes": [
@@ -913,12 +886,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260538",
+        "first_detected": "2026-01-27T09:29:22.229114",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_000",
+        "id": "lt_ent_007",
         "name": "entité\\empire-austro-hongrois",
         "confidence": 0.8,
         "notes": [
@@ -937,12 +910,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260541",
+        "first_detected": "2026-01-27T09:29:22.229117",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_021",
+        "id": "lt_ent_025",
         "name": "hume",
         "confidence": 0.8,
         "notes": [
@@ -962,7 +935,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260544",
+        "first_detected": "2026-01-27T09:29:22.229119",
         "source": "reference_db",
         "alternatives": [
           {
@@ -974,58 +947,12 @@
       },
       {
         "id": "lt_emg_002",
-        "name": "caca",
-        "confidence": 0.8,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'caca' validé par définition - éléments: sort, d'un, petit, trou",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "sort",
-              "d'un",
-              "petit"
-            ],
-            "tag_type": "specialized",
-            "domaine_parent": "biologie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "sort",
-                "matched": "sort"
-              },
-              {
-                "name": "d'un",
-                "matched": "d'un"
-              },
-              {
-                "name": "petit",
-                "matched": "petit"
-              },
-              {
-                "name": "trou",
-                "matched": "trou"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260547",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_emg_003",
         "name": "cogito-ergo-sum",
         "confidence": 0.8,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
         ],
         "reasoning": {
           "summary": "Objet 'cogito-ergo-sum' (tag plat) validé - déclencheurs: doute, je pense",
@@ -1043,14 +970,41 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260550",
+        "first_detected": "2026-01-27T09:29:22.229122",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_007",
+        "id": "lt_ent_002",
+        "name": "avantage-comparatif\\ricardo",
+        "confidence": 0.79,
+        "notes": [
+          "info box.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/David Ricardo.md"
+        ],
+        "reasoning": {
+          "summary": "Concept théorique détecté(e) dans 4 notes",
+          "details": {
+            "entity_type": "concept",
+            "raw_text": "avantage-comparatif",
+            "total_occurrences": 10,
+            "notes_count": 4,
+            "in_reference_db": false,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-27T09:29:22.229124",
+        "source": "context_resolved",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_004",
         "name": "économie",
         "confidence": 0.79,
         "notes": [
+          "info box.md",
           "YouTube Notes/Timestamps 2.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Bulova.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Cartier.md",
@@ -1059,27 +1013,26 @@
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md"
         ],
         "reasoning": {
-          "summary": "Discipline détecté(e) dans 36 notes",
+          "summary": "Discipline détecté(e) dans 37 notes",
           "details": {
             "entity_type": "discipline",
             "raw_text": "économie",
             "total_occurrences": 0,
-            "notes_count": 36,
+            "notes_count": 37,
             "in_reference_db": false,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260553",
-        "source": "context_secondary",
+        "first_detected": "2026-01-27T09:29:22.229126",
+        "source": "context_primary",
         "alternatives": []
       },
       {
-        "id": "lt_ent_017",
+        "id": "lt_ent_021",
         "name": "I-fin",
         "confidence": 0.79,
         "notes": [
@@ -1100,7 +1053,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260557",
+        "first_detected": "2026-01-27T09:29:22.229129",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1111,7 +1064,7 @@
         ]
       },
       {
-        "id": "lt_ent_024",
+        "id": "lt_ent_028",
         "name": "hayek",
         "confidence": 0.79,
         "notes": [
@@ -1130,7 +1083,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260560",
+        "first_detected": "2026-01-27T09:29:22.229131",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1139,6 +1092,33 @@
             "is_convention": true
           }
         ]
+      },
+      {
+        "id": "lt_ent_005",
+        "name": "XVIII\\1723",
+        "confidence": 0.78,
+        "notes": [
+          "info box.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Tempate commande/info box.md"
+        ],
+        "reasoning": {
+          "summary": "Date/Siècle détecté(e) dans 5 notes",
+          "details": {
+            "entity_type": "date",
+            "raw_text": "1723",
+            "total_occurrences": 11,
+            "notes_count": 5,
+            "in_reference_db": false,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-27T09:29:22.229134",
+        "source": "pattern_year",
+        "alternatives": []
       },
       {
         "id": "lt_ent_031",
@@ -1160,12 +1140,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260563",
+        "first_detected": "2026-01-27T09:29:22.229136",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_011",
         "name": "entité\\urss",
         "confidence": 0.77,
         "notes": [
@@ -1184,37 +1164,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260566",
+        "first_detected": "2026-01-27T09:29:22.229139",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_025",
-        "name": "avantage-comparatif\\ricardo",
-        "confidence": 0.77,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/David Ricardo.md"
-        ],
-        "reasoning": {
-          "summary": "Concept théorique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "concept",
-            "raw_text": "avantage-comparatif",
-            "total_occurrences": 7,
-            "notes_count": 3,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260569",
-        "source": "context_resolved",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_008",
+        "id": "lt_ent_012",
         "name": "entité\\premier-empire",
         "confidence": 0.76,
         "notes": [
@@ -1233,12 +1188,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260572",
+        "first_detected": "2026-01-27T09:29:22.229141",
         "source": "reference_related",
         "alternatives": []
       },
       {
-        "id": "lt_ent_022",
+        "id": "lt_ent_026",
         "name": "mouvement\\pop-art",
         "confidence": 0.76,
         "notes": [
@@ -1257,38 +1212,38 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260574",
+        "first_detected": "2026-01-27T09:29:22.229144",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_026",
-        "name": "XVIII\\1723",
-        "confidence": 0.76,
+        "id": "lt_ent_006",
+        "name": "XVIII\\1790",
+        "confidence": 0.75,
         "notes": [
+          "info box.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
           "Tempate commande/info box.md"
         ],
         "reasoning": {
           "summary": "Date/Siècle détecté(e) dans 4 notes",
           "details": {
             "entity_type": "date",
-            "raw_text": "1723",
-            "total_occurrences": 9,
+            "raw_text": "1790",
+            "total_occurrences": 8,
             "notes_count": 4,
             "in_reference_db": false,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260577",
+        "first_detected": "2026-01-27T09:29:22.229146",
         "source": "pattern_year",
         "alternatives": []
       },
       {
-        "id": "lt_ent_009",
+        "id": "lt_ent_013",
         "name": "X-fin",
         "confidence": 0.75,
         "notes": [
@@ -1309,12 +1264,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260580",
+        "first_detected": "2026-01-27T09:29:22.229149",
         "source": "pattern_date",
         "alternatives": []
       },
       {
-        "id": "lt_ent_016",
+        "id": "lt_ent_020",
         "name": "IV-fin",
         "confidence": 0.75,
         "notes": [
@@ -1333,7 +1288,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260583",
+        "first_detected": "2026-01-27T09:29:22.229151",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1344,7 +1299,7 @@
         ]
       },
       {
-        "id": "lt_ent_020",
+        "id": "lt_ent_024",
         "name": "V-fin",
         "confidence": 0.75,
         "notes": [
@@ -1363,7 +1318,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260585",
+        "first_detected": "2026-01-27T09:29:22.229153",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1374,13 +1329,13 @@
         ]
       },
       {
-        "id": "lt_emg_004",
+        "id": "lt_emg_003",
         "name": "principe-d-incertitude",
         "confidence": 0.75,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
         ],
         "reasoning": {
           "summary": "Objet 'principe-d-incertitude' (tag plat) validé - déclencheurs: incertitude",
@@ -1397,17 +1352,17 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260588",
+        "first_detected": "2026-01-27T09:29:22.229156",
         "source": "emergent"
       },
       {
-        "id": "lt_emg_005",
+        "id": "lt_emg_004",
         "name": "aureus",
         "confidence": 0.75,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
         ],
         "reasoning": {
           "summary": "Objet 'aureus' (tag plat) validé - déclencheurs: or",
@@ -1424,17 +1379,17 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260591",
+        "first_detected": "2026-01-27T09:29:22.229158",
         "source": "emergent"
       },
       {
-        "id": "lt_emg_006",
+        "id": "lt_emg_005",
         "name": "habitus",
         "confidence": 0.75,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
         ],
         "reasoning": {
           "summary": "Objet 'habitus' (tag plat) validé - déclencheurs: disposition",
@@ -1451,36 +1406,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260594",
+        "first_detected": "2026-01-27T09:29:22.229161",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_027",
-        "name": "XVIII\\1790",
-        "confidence": 0.73,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "Tempate commande/info box.md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "1790",
-            "total_occurrences": 6,
-            "notes_count": 3,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260597",
-        "source": "pattern_year",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_028",
+        "id": "lt_ent_029",
         "name": "XVIII\\1793",
         "confidence": 0.72,
         "notes": [
@@ -1499,7 +1429,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T09:10:47.260600",
+        "first_detected": "2026-01-27T09:29:22.229163",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -1655,12 +1585,601 @@
     ],
     "health_alerts": [
       {
+        "tag": "Chez_les_chiens",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.861024",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Comportement",
+          "Mammif",
+          "exclrw"
+        ]
+      },
+      {
+        "tag": "Comportement",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.865031",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Mammif",
+          "exclrw",
+          "Chez_les_chiens"
+        ]
+      },
+      {
+        "tag": "Mammif",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.894019",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Comportement",
+          "exclrw",
+          "Chez_les_chiens"
+        ]
+      },
+      {
+        "tag": "Mode_de_vie_et_reproduction",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.784408",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "cite_note-cherin2013-16",
+          "cite_note-sansalone2015-15"
+        ]
+      },
+      {
+        "tag": "cite_note-12",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.779070",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-7",
+          "cite_note-8",
+          "cite_note-6"
+        ]
+      },
+      {
+        "tag": "cite_note-18",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.795092",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-19",
+          "cite_note-22",
+          "cite_note-20"
+        ]
+      },
+      {
+        "tag": "cite_note-19",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.854207",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-18",
+          "cite_note-22",
+          "cite_note-26"
+        ]
+      },
+      {
+        "tag": "cite_note-20",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.892716",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-19",
+          "cite_note-18",
+          "cite_note-22"
+        ]
+      },
+      {
+        "tag": "cite_note-22",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.873029",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-28",
+          "cite_note-26",
+          "cite_note-24"
+        ]
+      },
+      {
+        "tag": "cite_note-23",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.812103",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-30",
+          "cite_note-27",
+          "cite_note-28"
+        ]
+      },
+      {
+        "tag": "cite_note-24",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.800323",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-26",
+          "cite_note-22",
+          "cite_note-28"
+        ]
+      },
+      {
+        "tag": "cite_note-26",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.789878",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-27",
+          "cite_note-28",
+          "cite_note-22"
+        ]
+      },
+      {
+        "tag": "cite_note-27",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.797740",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-28",
+          "cite_note-26",
+          "cite_note-30"
+        ]
+      },
+      {
+        "tag": "cite_note-28",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.787223",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-27",
+          "cite_note-26",
+          "cite_note-22"
+        ]
+      },
+      {
+        "tag": "cite_note-30",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.771113",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-27",
+          "cite_note-28",
+          "cite_note-23"
+        ]
+      },
+      {
+        "tag": "cite_note-6",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.884922",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-5",
+          "cite_note-7",
+          "cite_note-4"
+        ]
+      },
+      {
+        "tag": "cite_note-7",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.834089",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-8",
+          "cite_note-12",
+          "cite_note-6"
+        ]
+      },
+      {
+        "tag": "cite_note-8",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.769749",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-7",
+          "cite_note-12",
+          "cite_note-6"
+        ]
+      },
+      {
+        "tag": "cite_note-Asa-25",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.813472",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-miklosi2015-29",
+          "cite_note-cherin2013-16",
+          "cite_note-wroe2005-17"
+        ]
+      },
+      {
+        "tag": "cite_note-Ewer1973-11",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.765081",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Mivart-9",
+          "cite_note-tedford2009-1",
+          "cite_note-sansalone2015-15"
+        ]
+      },
+      {
+        "tag": "cite_note-Mivart-9",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.785879",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Ewer1973-11",
+          "cite_note-tedford2009-1",
+          "cite_note-Nowak2005-10"
+        ]
+      },
+      {
+        "tag": "cite_note-Nowak2005-10",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.821530",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Ewer1973-11",
+          "cite_note-Mivart-9",
+          "cite_note-miklosi2015-29"
+        ]
+      },
+      {
+        "tag": "cite_note-WangTedford200874-14",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.835388",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-WangTedford200897",
+          "cite_note-cherin2013-16",
+          "cite_note-sansalone2015-15"
+        ]
+      },
+      {
+        "tag": "cite_note-WangTedford200897",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.866342",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-WangTedford200874-14",
+          "cite_note-tedford2009-1",
+          "cite_note-wroe2005-17"
+        ]
+      },
+      {
+        "tag": "cite_note-cherin2013-16",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.858196",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-wroe2005-17",
+          "cite_note-sansalone2015-15",
+          "cite_note-miklosi2015-29"
+        ]
+      },
+      {
+        "tag": "cite_note-heptner1998-4",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.804195",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-cherin2013-16",
+          "cite_note-tedford2009-1",
+          "cite_note-wroe2005-17"
+        ]
+      },
+      {
+        "tag": "cite_note-miklosi2015-29",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.886194",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-cherin2013-16",
+          "cite_note-Ewer1973-11",
+          "cite_note-wroe2005-17"
+        ]
+      },
+      {
+        "tag": "cite_note-ref_auto_1-21",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.859636",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Ewer1973-11",
+          "cite_note-miklosi2015-29",
+          "cite_note-Asa-25"
+        ]
+      },
+      {
+        "tag": "cite_note-sansalone2015-15",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.828097",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-wroe2005-17",
+          "cite_note-cherin2013-16",
+          "cite_note-Ewer1973-11"
+        ]
+      },
+      {
+        "tag": "cite_note-tedford2009-1",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.841996",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Ewer1973-11",
+          "cite_note-Mivart-9",
+          "cite_note-cherin2013-16"
+        ]
+      },
+      {
+        "tag": "cite_note-wroe2005-17",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-27T09:23:49.850166",
+          "days_inactive": 0,
+          "notes_using": [
+            "info box 1.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-cherin2013-16",
+          "cite_note-sansalone2015-15",
+          "cite_note-Ewer1973-11"
+        ]
+      },
+      {
         "tag": "Division_of_Labor",
         "issue": "low_usage",
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T09:05:15.160013",
+          "last_used": "2026-01-27T09:23:49.839379",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1669,8 +2188,8 @@
         "recommendation": "review",
         "alternative_tags": [
           "Fonction/Exponentielle",
-          "smith/argent_conditions_valeur_",
-          "XX"
+          "Mode_de_vie_et_reproduction",
+          "Chez_les_chiens"
         ]
       },
       {
@@ -1679,7 +2198,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T09:05:15.162698",
+          "last_used": "2026-01-27T09:23:49.875777",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1689,7 +2208,7 @@
         "alternative_tags": [
           "finance",
           "Laissez_Faire",
-          "The_Wealth_of_Nations"
+          "cite_note-Mivart-9"
         ]
       },
       {
@@ -1698,7 +2217,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T09:05:15.141855",
+          "last_used": "2026-01-27T09:23:49.880992",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1708,7 +2227,7 @@
         "alternative_tags": [
           "Laissez_Faire",
           "livre",
-          "note-livre"
+          "Chez_les_chiens"
         ]
       },
       {
@@ -1717,7 +2236,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T09:05:15.154378",
+          "last_used": "2026-01-27T09:23:49.824222",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1725,9 +2244,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
-          "exclrw",
-          "livre",
-          "L"
+          "Chez_les_chiens",
+          "Comportement",
+          "Mammif"
         ]
       },
       {
@@ -1736,7 +2255,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T09:05:15.205772",
+          "last_used": "2026-01-27T09:23:49.796322",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon.md"
@@ -1744,9 +2263,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
-          "exclrw",
-          "L",
-          "livre"
+          "Comportement",
+          "Mammif",
+          "exclrw"
         ]
       },
       {
@@ -1755,7 +2274,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T09:05:15.196153",
+          "last_used": "2026-01-27T09:23:49.773842",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
@@ -1769,7 +2288,23 @@
         ]
       }
     ],
-    "redundant_tags": []
+    "redundant_tags": [
+      {
+        "id": "rg_5087",
+        "tags": [
+          "exclrw",
+          "Comportement",
+          "Mammif"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "exclrw": 2,
+          "Comportement": 1,
+          "Mammif": 1
+        },
+        "recommended": "exclrw"
+      }
+    ]
   },
   "clusters": [
     {
@@ -1828,8 +2363,8 @@
         "vii,"
       ],
       "suggested_tags": [
-        "note-livre",
         "livre",
+        "note-livre",
         "note-The_Wealth_of_Nations"
       ]
     },
@@ -1854,19 +2389,19 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Medical-Drama",
         "Kuniaki-Haishima",
-        "Naoki-Urasawa"
+        "Psychological-Thriller",
+        "Masayuki-Kojima"
       ]
     }
   ],
   "stats": {
-    "total_notes": 215,
-    "analyzed_notes": 215,
-    "total_tags": 69,
-    "active_tags": 69,
-    "latent_tags": 38,
-    "health_score": 0.93,
+    "total_notes": 217,
+    "analyzed_notes": 217,
+    "total_tags": 100,
+    "active_tags": 100,
+    "latent_tags": 37,
+    "health_score": 0.79,
     "feedback_impact": {
       "decisions_integrated": 1000,
       "acceptance_rate": "40%"
