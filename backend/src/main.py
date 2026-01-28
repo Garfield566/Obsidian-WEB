@@ -775,15 +775,37 @@ class TagGeneratorV2:
         notes_needing_extraction = [n for n in self.notes if n.path in paths_needing_extraction]
 
         if notes_needing_extraction:
-            print(f"   📊 Extraction vocabulaire: {len(notes_needing_extraction)} notes sans données")
+            print(f"   📊 Extraction données brutes: {len(notes_needing_extraction)} notes")
+            # Réutilise le détecteur d'entités existant
+            entity_detector = self.entity_detector
+
             for i, note in enumerate(notes_needing_extraction):
                 text = f"{note.title} {note.content}"
                 text_lower = text.lower()
+
+                # 1. Extraction VSC/VSCA
                 extracted_vocab = detector.extract_all_vocabulary_from_text(text_lower)
+
+                # 2. Extraction des entités (personnes, lieux, dates, concepts)
+                note_entities = entity_detector.detect_entities(note)
+                entities_by_type: dict[str, list[str]] = {}
+                for entity in note_entities.entities:
+                    etype = entity.entity_type.value
+                    if etype not in entities_by_type:
+                        entities_by_type[etype] = []
+                    if entity.raw_text not in entities_by_type[etype]:
+                        entities_by_type[etype].append(entity.raw_text)
+
+                # 3. Extraction des keywords (mots significatifs > 5 chars, hors stopwords)
+                keywords = self._extract_keywords(text_lower)
+
+                # Stocke toutes les données brutes
                 self.repository.update_extracted_data(
                     note.path,
                     vsc=extracted_vocab["vsc"],
                     vsca=extracted_vocab["vsca"],
+                    entities=entities_by_type,
+                    keywords=keywords,
                 )
                 if (i + 1) % 50 == 0:
                     print(f"      Extraction: {i+1}/{len(notes_needing_extraction)}")
@@ -900,6 +922,49 @@ class TagGeneratorV2:
                     return suggestions
 
         return suggestions
+
+    def _extract_keywords(self, text: str, min_length: int = 5, max_keywords: int = 50) -> list[str]:
+        """Extrait les mots-clés significatifs du texte.
+
+        Args:
+            text: Texte en minuscules
+            min_length: Longueur minimum des mots
+            max_keywords: Nombre maximum de keywords
+
+        Returns:
+            Liste de mots-clés uniques
+        """
+        import re
+        from collections import Counter
+
+        # Stopwords français courants
+        STOPWORDS = {
+            "le", "la", "les", "un", "une", "des", "de", "du", "au", "aux",
+            "ce", "cette", "ces", "mon", "ton", "son", "notre", "votre", "leur",
+            "qui", "que", "quoi", "dont", "où", "quand", "comment", "pourquoi",
+            "et", "ou", "mais", "donc", "car", "ni", "or", "soit",
+            "je", "tu", "il", "elle", "nous", "vous", "ils", "elles", "on",
+            "être", "avoir", "faire", "dire", "aller", "voir", "pouvoir", "vouloir",
+            "dans", "pour", "avec", "sans", "sur", "sous", "entre", "vers", "chez",
+            "par", "plus", "moins", "très", "bien", "mal", "peu", "trop", "aussi",
+            "comme", "ainsi", "alors", "encore", "toujours", "jamais", "déjà",
+            "tout", "tous", "toute", "toutes", "autre", "autres", "même", "mêmes",
+            "après", "avant", "pendant", "depuis", "jusqu", "selon", "contre",
+            "cela", "ceci", "celui", "celle", "ceux", "celles",
+            "fait", "sont", "était", "avoir", "être", "peut", "doit", "faut",
+        }
+
+        # Extrait les mots (lettres uniquement, avec accents)
+        words = re.findall(r'\b[a-zàâäéèêëïîôùûüç]{' + str(min_length) + r',}\b', text)
+
+        # Filtre les stopwords
+        words = [w for w in words if w not in STOPWORDS]
+
+        # Compte les occurrences
+        word_counts = Counter(words)
+
+        # Retourne les plus fréquents
+        return [word for word, _ in word_counts.most_common(max_keywords)]
 
     def _get_family_label(self, family: TagFamily) -> str:
         """Retourne un label lisible pour une famille de tags (V1 legacy)."""
