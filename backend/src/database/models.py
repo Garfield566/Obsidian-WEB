@@ -324,9 +324,51 @@ class ClusterNote(Base):
     cluster = relationship("Cluster", back_populates="notes")
 
 
+def _run_migrations(engine) -> None:
+    """Exécute les migrations pour ajouter les colonnes manquantes."""
+    from sqlalchemy import inspect, text
+
+    inspector = inspect(engine)
+
+    # Vérifie si la table notes existe
+    if "notes" not in inspector.get_table_names():
+        return  # La table sera créée par create_all
+
+    # Récupère les colonnes existantes
+    existing_columns = {col["name"] for col in inspector.get_columns("notes")}
+
+    # Colonnes à ajouter si manquantes (migration v1: cache de validation)
+    migration_v1_columns = [
+        ("validated_paths_json", "TEXT"),
+        ("specialized_terms_json", "TEXT"),
+        ("validation_hash", "VARCHAR"),
+    ]
+
+    # Colonnes à ajouter si manquantes (migration v2: extraction de données brutes)
+    migration_v2_columns = [
+        ("extracted_vsc_json", "TEXT"),
+        ("extracted_vsca_json", "TEXT"),
+        ("extracted_entities_json", "TEXT"),
+        ("extracted_keywords_json", "TEXT"),
+    ]
+
+    all_migrations = migration_v1_columns + migration_v2_columns
+
+    with engine.connect() as conn:
+        for col_name, col_type in all_migrations:
+            if col_name not in existing_columns:
+                print(f"   Migration: ajout colonne {col_name}...")
+                conn.execute(text(f"ALTER TABLE notes ADD COLUMN {col_name} {col_type}"))
+        conn.commit()
+
+
 def init_db(db_path: str) -> Session:
     """Initialise la base de données et retourne une session."""
     engine = create_engine(f"sqlite:///{db_path}", echo=False)
+
+    # Exécute les migrations avant create_all
+    _run_migrations(engine)
+
     Base.metadata.create_all(engine)
     from sqlalchemy.orm import sessionmaker
 
