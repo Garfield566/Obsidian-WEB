@@ -55,6 +55,7 @@ class Repository:
         embedding: Optional[np.ndarray] = None,
         note_type: Optional[str] = None,
         tags: Optional[list[str]] = None,
+        invalidate_validation_cache: bool = False,
     ) -> Note:
         """Crée ou met à jour une note."""
         note = self.session.query(Note).filter(Note.path == path).first()
@@ -63,6 +64,11 @@ class Repository:
             note = Note(path=path, title=title, content_hash=content_hash)
             self.session.add(note)
         else:
+            # Invalide le cache de validation si le contenu a changé
+            if note.content_hash != content_hash or invalidate_validation_cache:
+                note.validated_paths_json = None
+                note.specialized_terms_json = None
+                note.validation_hash = None
             note.title = title
             note.content_hash = content_hash
 
@@ -102,6 +108,53 @@ class Repository:
         )
         self.session.commit()
         return deleted
+
+    def update_validation_cache(
+        self,
+        path: str,
+        validated_paths: list[str],
+        specialized_terms: list[str],
+        validation_hash: str,
+    ) -> Optional[Note]:
+        """Met à jour le cache de validation d'une note."""
+        note = self.get_note(path)
+        if note:
+            note.set_validation_cache(validated_paths, specialized_terms, validation_hash)
+            self.session.commit()
+        return note
+
+    def get_notes_needing_validation(
+        self,
+        all_paths: list[str],
+        expected_hash: str,
+    ) -> tuple[list[str], dict[str, tuple[list[str], list[str]]]]:
+        """Identifie les notes qui nécessitent une validation.
+
+        Args:
+            all_paths: Liste de tous les chemins de notes actuels
+            expected_hash: Hash de config attendu pour invalider les caches obsolètes
+
+        Returns:
+            Tuple de:
+            - Liste des chemins nécessitant une validation
+            - Dict des caches valides {path: (validated_paths, specialized_terms)}
+        """
+        needs_validation = []
+        cached_results = {}
+
+        for path in all_paths:
+            note = self.get_note(path)
+            if note is None:
+                # Note nouvelle, pas encore en DB
+                needs_validation.append(path)
+            else:
+                cache = note.get_validation_cache(expected_hash)
+                if cache is not None:
+                    cached_results[path] = cache
+                else:
+                    needs_validation.append(path)
+
+        return needs_validation, cached_results
 
     # ===== Tags =====
 

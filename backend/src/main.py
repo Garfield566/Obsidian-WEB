@@ -10,6 +10,8 @@ if sys.platform == 'win32':
 
 from pathlib import Path
 from typing import Optional
+import hashlib
+import json as json_module
 import click
 import time
 
@@ -701,6 +703,20 @@ class TagGeneratorV2:
 
         return suggestions
 
+    def _compute_validation_hash(self, detector: EmergentTagDetector) -> str:
+        """Calcule un hash pour invalider le cache quand la config change."""
+        # Hash basé sur:
+        # 1. Les termes spécialisés (si le fichier change, le cache est invalidé)
+        # 2. Version du code de validation (incrémenter si la logique change)
+        VALIDATION_VERSION = "v1.0"
+
+        terms_str = json_module.dumps(
+            sorted(detector.SPECIALIZED_TERMS.keys()),
+            ensure_ascii=False,
+        )
+        combined = f"{VALIDATION_VERSION}:{terms_str}"
+        return hashlib.md5(combined.encode()).hexdigest()[:16]
+
     def _detect_specialized_terms_all_notes(
         self, rejected_tags: set, max_suggestions: int
     ) -> list[dict]:
@@ -708,6 +724,8 @@ class TagGeneratorV2:
 
         Cette méthode est cruciale car les termes spécialisés peuvent apparaître
         dans des notes isolées qui ne font pas partie de clusters.
+
+        OPTIMISATION: Utilise un cache pour ne recalculer que les notes modifiées.
         """
         suggestions = []
 
@@ -721,35 +739,77 @@ class TagGeneratorV2:
         if not detector.SPECIALIZED_TERMS:
             return suggestions
 
+        # Calcule le hash de validation pour le cache
+        validation_hash = self._compute_validation_hash(detector)
+
+        # Identifie les notes nécessitant une validation (non cachées ou modifiées)
+        all_paths = [note.path for note in self.notes]
+        needs_validation, cached_results = self.repository.get_notes_needing_validation(
+            all_paths, validation_hash
+        )
+
+        # Stats pour le debug
+        total_notes = len(self.notes)
+        cached_count = len(cached_results)
+        compute_count = len(needs_validation)
+
+        if cached_count > 0:
+            print(f"   📦 Cache: {cached_count}/{total_notes} notes réutilisées, {compute_count} à calculer")
+
         # Pour chaque note, vérifie les termes spécialisés
         for note in self.notes:
-            text = f"{note.title} {note.content}"
-            text_lower = text.lower()
+            # Vérifie si on a un cache valide
+            if note.path in cached_results:
+                validated_paths_names, specialized_names = cached_results[note.path]
+                # Reconstruit les données depuis le cache
+                validated_paths = [{"path": p} for p in validated_paths_names]
+                validated_specialized = [
+                    {"name": name, "confidence": 0.85, "exact_match": True}
+                    for name in specialized_names
+                ]
+            else:
+                # Calcul complet pour cette note
+                text = f"{note.title} {note.content}"
+                text_lower = text.lower()
 
-            # Validation cascade pour cette note
-            cascade_result = detector._validate_cascade(text_lower)
+                # Validation cascade pour cette note
+                cascade_result = detector._validate_cascade(text_lower)
 
-            if not cascade_result.get("is_valid"):
-                continue
+                if not cascade_result.get("is_valid"):
+                    # Sauvegarde le cache vide pour cette note
+                    self.repository.update_validation_cache(
+                        note.path, [], [], validation_hash
+                    )
+                    continue
 
-            validated_paths = cascade_result.get("validated_paths", [])
+                validated_paths = cascade_result.get("validated_paths", [])
 
-            # DEBUG: Log pour note piège
-            if "info box.md" in note.path and "info box 1" not in note.path:
-                print(f"DEBUG note piège '{note.path}':")
-                print(f"  validated_paths: {[p.get('path') if isinstance(p, dict) else p for p in validated_paths]}")
+                # DEBUG: Log pour note piège
+                if "info box.md" in note.path and "info box 1" not in note.path:
+                    print(f"DEBUG note piège '{note.path}':")
+                    print(f"  validated_paths: {[p.get('path') if isinstance(p, dict) else p for p in validated_paths]}")
 
-            # Vérifie les termes spécialisés pour cette note
-            validated_specialized = detector._validate_specialized_terms_for_note(
-                text, validated_paths
-            )
+                # Vérifie les termes spécialisés pour cette note
+                validated_specialized = detector._validate_specialized_terms_for_note(
+                    text, validated_paths
+                )
 
-            # DEBUG: Log si caca est validé pour note piège
-            if "info box.md" in note.path and "info box 1" not in note.path:
-                if validated_specialized:
-                    print(f"  validated_specialized: {[s['name'] for s in validated_specialized]}")
-                else:
-                    print(f"  validated_specialized: [] (vide - correct!)")
+                # DEBUG: Log si caca est validé pour note piège
+                if "info box.md" in note.path and "info box 1" not in note.path:
+                    if validated_specialized:
+                        print(f"  validated_specialized: {[s['name'] for s in validated_specialized]}")
+                    else:
+                        print(f"  validated_specialized: [] (vide - correct!)")
+
+                # Sauvegarde le cache pour cette note
+                validated_paths_names = [
+                    p.get("path") if isinstance(p, dict) else p
+                    for p in validated_paths
+                ]
+                specialized_names = [s["name"] for s in validated_specialized]
+                self.repository.update_validation_cache(
+                    note.path, validated_paths_names, specialized_names, validation_hash
+                )
 
             for spec in validated_specialized:
                 spec_tag = spec["name"]

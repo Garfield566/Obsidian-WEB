@@ -36,6 +36,11 @@ class Note(Base):
     tags_json = Column(Text, nullable=True)  # Tags JSON pour backup
     updated_at = Column(DateTime, default=func.now(), onupdate=func.now())
 
+    # Cache pour validation en cascade (système incrémental)
+    validated_paths_json = Column(Text, nullable=True)  # JSON: liste des chemins validés
+    specialized_terms_json = Column(Text, nullable=True)  # JSON: termes spécialisés détectés
+    validation_hash = Column(String, nullable=True)  # Hash pour invalider le cache si config change
+
     __table_args__ = (Index("idx_notes_content_hash", "content_hash"),)
 
     def set_embedding(self, vector: np.ndarray) -> None:
@@ -47,6 +52,37 @@ class Note(Base):
         if self.embedding:
             return pickle.loads(self.embedding)
         return None
+
+    def set_validation_cache(
+        self,
+        validated_paths: list[str],
+        specialized_terms: list[str],
+        validation_hash: str,
+    ) -> None:
+        """Stocke le cache de validation en cascade."""
+        import json
+        self.validated_paths_json = json.dumps(validated_paths)
+        self.specialized_terms_json = json.dumps(specialized_terms)
+        self.validation_hash = validation_hash
+
+    def get_validation_cache(self, expected_hash: str) -> Optional[tuple[list[str], list[str]]]:
+        """Récupère le cache de validation si valide.
+
+        Returns:
+            Tuple (validated_paths, specialized_terms) si cache valide, None sinon.
+        """
+        import json
+        # Cache invalide si hash différent (config a changé)
+        if self.validation_hash != expected_hash:
+            return None
+        if self.validated_paths_json is None or self.specialized_terms_json is None:
+            return None
+        try:
+            validated_paths = json.loads(self.validated_paths_json)
+            specialized_terms = json.loads(self.specialized_terms_json)
+            return (validated_paths, specialized_terms)
+        except (json.JSONDecodeError, TypeError):
+            return None
 
 
 class Tag(Base):
