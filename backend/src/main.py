@@ -767,11 +767,12 @@ class TagGeneratorV2:
         else:
             print(f"   📦 Cache: vide, {compute_count} notes à calculer")
 
-        # ÉTAPE PRÉALABLE: Extraction des données brutes pour les notes manquantes
-        # Ceci garantit que toutes les notes ont leurs données VSC/VSCA extraites
-        # Utilise une seule requête DB pour identifier les notes sans extraction
+        # ÉTAPE PRÉALABLE: Extraction des données brutes pour les notes qui en ont besoin
+        # Cas 1: Notes sans données d'extraction (nouvelles notes)
+        # Cas 2: Notes dans needs_validation (modifiées, donc données potentiellement obsolètes)
         paths_without_extraction = self.repository.get_paths_without_extraction()
-        notes_needing_extraction = [n for n in self.notes if n.path in paths_without_extraction]
+        paths_needing_extraction = paths_without_extraction | needs_validation
+        notes_needing_extraction = [n for n in self.notes if n.path in paths_needing_extraction]
 
         if notes_needing_extraction:
             print(f"   📊 Extraction vocabulaire: {len(notes_needing_extraction)} notes sans données")
@@ -804,19 +805,12 @@ class TagGeneratorV2:
                 # Note: L'extraction de vocabulaire se fait uniquement pour les notes
                 # non cachées (nouvelles ou modifiées) - pas besoin de vérifier ici
             else:
-                # Calcul complet pour cette note
+                # Calcul complet pour cette note (non cachée = nouvelle ou modifiée)
                 text = f"{note.title} {note.content}"
                 text_lower = text.lower()
 
-                # NOUVEAU: Extrait TOUT le vocabulaire (pour stockage brut)
-                extracted_vocab = detector.extract_all_vocabulary_from_text(text_lower)
-
-                # Stocke les données brutes extraites
-                self.repository.update_extracted_data(
-                    note.path,
-                    vsc=extracted_vocab["vsc"],
-                    vsca=extracted_vocab["vsca"],
-                )
+                # Note: L'extraction VSC/VSCA a déjà été faite à l'étape préalable
+                # Les données sont stockées en DB et réutilisables pour futures analyses
 
                 # Validation cascade pour cette note
                 cascade_result = detector._validate_cascade(text_lower)
