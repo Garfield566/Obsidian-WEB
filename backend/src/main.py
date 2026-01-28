@@ -760,11 +760,9 @@ class TagGeneratorV2:
 
         # ÉTAPE PRÉALABLE: Extraction des données brutes pour les notes manquantes
         # Ceci garantit que toutes les notes ont leurs données VSC/VSCA extraites
-        notes_needing_extraction = []
-        for note in self.notes:
-            db_note = self.repository.get_note(note.path)
-            if db_note and not db_note.extracted_vsc_json:
-                notes_needing_extraction.append(note)
+        # Utilise une seule requête DB pour identifier les notes sans extraction
+        paths_without_extraction = self.repository.get_paths_without_extraction()
+        notes_needing_extraction = [n for n in self.notes if n.path in paths_without_extraction]
 
         if notes_needing_extraction:
             print(f"   📊 Extraction vocabulaire: {len(notes_needing_extraction)} notes sans données")

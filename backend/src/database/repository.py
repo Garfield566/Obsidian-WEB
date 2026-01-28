@@ -92,6 +92,15 @@ class Repository:
         """Récupère toutes les notes."""
         return self.session.query(Note).all()
 
+    def get_paths_without_extraction(self) -> set[str]:
+        """Retourne les chemins des notes sans données d'extraction VSC."""
+        notes = (
+            self.session.query(Note.path)
+            .filter(Note.extracted_vsc_json.is_(None))
+            .all()
+        )
+        return {n.path for n in notes}
+
     def note_changed(self, path: str, content_hash: str) -> bool:
         """Vérifie si une note a changé."""
         note = self.get_note(path)
