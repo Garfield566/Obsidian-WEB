@@ -428,30 +428,39 @@ class TagGeneratorV2:
         2. Entités détectées via bases de référence
         3. Tags émergents détectés par analyse de patterns dans les clusters
         """
+        import time as _time
         suggestions = []
 
         # Tags rejetés précédemment
         rejected_tags = self.repository.get_rejected_tag_names()
 
         # 1. Suggestions basées sur les clusters (termes centroids)
+        _t0 = _time.time()
         cluster_suggestions = self._generate_cluster_suggestions(rejected_tags, max_suggestions)
         suggestions.extend(cluster_suggestions)
+        print(f"      8.1 Clusters: {len(cluster_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
 
         # 2. Suggestions basées sur les entités détectées (bases de référence)
         if self.notes:
+            _t0 = _time.time()
             entity_suggestions = self._generate_entity_suggestions(rejected_tags, max_suggestions)
             suggestions.extend(entity_suggestions)
+            print(f"      8.2 Entités: {len(entity_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
 
         # 3. NOUVEAU: Suggestions de tags émergents (patterns dans les clusters)
         if self.notes and self.clusters:
+            _t0 = _time.time()
             emergent_suggestions = self._generate_emergent_suggestions(rejected_tags, max_suggestions)
             suggestions.extend(emergent_suggestions)
+            print(f"      8.3 Émergents: {len(emergent_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
 
         # 4. NOUVEAU: Détection des termes spécialisés sur TOUTES les notes
         # Important: les termes spécialisés peuvent être dans des notes isolées (hors clusters)
         if self.notes:
+            _t0 = _time.time()
             specialized_suggestions = self._detect_specialized_terms_all_notes(rejected_tags, max_suggestions)
             suggestions.extend(specialized_suggestions)
+            print(f"      8.4 Spécialisés: {len(specialized_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
 
         # Déduplique et trie par confiance
         suggestions = self._deduplicate_suggestions(suggestions)
@@ -778,6 +787,8 @@ class TagGeneratorV2:
                 if (i + 1) % 50 == 0:
                     print(f"      Extraction: {i+1}/{len(notes_needing_extraction)}")
             print(f"   ✓ Extraction terminée")
+        else:
+            print(f"   📊 Extraction vocabulaire: {total_notes}/{total_notes} notes ont déjà leurs données")
 
         # Pour chaque note, vérifie les termes spécialisés
         for note in self.notes:
