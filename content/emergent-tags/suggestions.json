@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-27T19:52:23.224551",
-  "vault_hash": "82c57ded",
+  "generated_at": "2026-01-28T03:49:30.692181",
+  "vault_hash": "be5100c6",
   "suggestions": {
     "new_tags": [
       {
@@ -9,8 +9,8 @@
         "name": "droit",
         "confidence": 0.95,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
         ],
         "reasoning": {
           "summary": "Terme 'droit' validé: terme toujours valide (nom propre/entité)",
@@ -29,7 +29,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224586",
+        "first_detected": "2026-01-28T03:49:30.692219",
         "source": "emergent"
       },
       {
@@ -60,7 +60,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224591",
+        "first_detected": "2026-01-28T03:49:30.692223",
         "source": "reference_db",
         "alternatives": []
       },
@@ -92,7 +92,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224594",
+        "first_detected": "2026-01-28T03:49:30.692227",
         "source": "reference_db",
         "alternatives": []
       },
@@ -124,7 +124,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224597",
+        "first_detected": "2026-01-28T03:49:30.692230",
         "source": "reference_db",
         "alternatives": []
       },
@@ -148,7 +148,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224600",
+        "first_detected": "2026-01-28T03:49:30.692233",
         "source": "reference_db",
         "alternatives": [
           {
@@ -180,7 +180,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224603",
+        "first_detected": "2026-01-28T03:49:30.692237",
         "source": "reference_db",
         "alternatives": [
           {
@@ -212,7 +212,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224605",
+        "first_detected": "2026-01-28T03:49:30.692240",
         "source": "reference_db",
         "alternatives": []
       },
@@ -237,7 +237,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224624",
+        "first_detected": "2026-01-28T03:49:30.692246",
         "source": "reference_db",
         "alternatives": []
       },
@@ -246,13 +246,13 @@
         "name": "mathématiques",
         "confidence": 0.85,
         "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
-          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): mesure, rang, fonction, variable, taux...",
+          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): mesure, suite, loi, valeur propre, degré...",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
@@ -263,8 +263,8 @@
             "confidence": 0.8500000000000001,
             "reasons": [
               "Validé à profondeur 0: 4 VSC (seuil: 2)",
-              "Mots comptés: mesure, rang, fonction, variable, taux...",
-              "Mots consommés: ensemble, variable, nombre"
+              "Mots comptés: mesure, suite, loi, valeur propre, degré...",
+              "Mots consommés: nombre, variable, ensemble"
             ],
             "category": "cascade",
             "validated_paths": [
@@ -273,25 +273,25 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "variable",
+                  "loi",
+                  "valeur propre",
+                  "degré",
+                  "ensemble",
                   "opération",
+                  "côté",
+                  "somme",
+                  "variable",
                   "nombre",
+                  "mesure",
+                  "suite",
                   "primitive",
+                  "fonction",
                   "point",
                   "inverse",
-                  "somme",
-                  "suite",
-                  "mesure",
-                  "rang",
-                  "fonction",
-                  "taux",
-                  "ensemble",
                   "voisinage",
-                  "corps",
-                  "degré",
-                  "valeur propre",
-                  "côté",
-                  "loi"
+                  "taux",
+                  "rang",
+                  "corps"
                 ],
                 "is_subnotion": false
               },
@@ -300,30 +300,30 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "profit",
+                  "salaire",
                   "as",
-                  "accumulation",
-                  "offre",
-                  "travail",
-                  "monnaie",
-                  "production",
-                  "marchandise",
-                  "argent",
-                  "cuivre",
                   "prix",
-                  "métal",
-                  "valeur",
+                  "accumulation",
                   "intérêt",
+                  "offre",
+                  "production",
+                  "échange",
                   "marché",
+                  "valeur",
+                  "monnaie",
+                  "travail",
+                  "demande",
+                  "marchandise",
+                  "or",
+                  "capital",
+                  "sesterce",
+                  "argent",
                   "pièce",
                   "taux",
-                  "sesterce",
-                  "échange",
-                  "capital",
-                  "demande",
-                  "atelier",
-                  "or",
-                  "salaire"
+                  "cuivre",
+                  "profit",
+                  "métal",
+                  "atelier"
                 ],
                 "is_subnotion": true
               },
@@ -332,34 +332,34 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "physique",
-                  "raison",
-                  "sagesse",
-                  "absurde",
-                  "doute",
-                  "choses",
-                  "liberté",
-                  "vérité",
-                  "existence",
-                  "matière",
-                  "mal",
-                  "autorité",
-                  "proposition",
-                  "tant",
-                  "valeur",
-                  "être",
-                  "simples",
-                  "mêmes",
-                  "état",
-                  "bonheur",
-                  "propres",
-                  "bien",
                   "utilité",
-                  "corps",
+                  "autorité",
+                  "mal",
+                  "propres",
+                  "proposition",
+                  "choses",
+                  "tant",
+                  "existence",
+                  "droit",
+                  "valeur",
+                  "matière",
+                  "absurde",
+                  "liberté",
+                  "doute",
+                  "physique",
+                  "bonheur",
+                  "bien",
                   "pouvoir",
-                  "parties",
                   "projet",
-                  "droit"
+                  "simples",
+                  "parties",
+                  "mêmes",
+                  "raison",
+                  "vérité",
+                  "état",
+                  "être",
+                  "sagesse",
+                  "corps"
                 ],
                 "is_subnotion": false
               },
@@ -368,19 +368,19 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "royaume",
+                  "guerre",
                   "esclave",
-                  "révolution",
-                  "siècle",
+                  "punique",
+                  "empire",
+                  "royaume",
                   "république",
                   "commerce",
                   "siège",
-                  "punique",
-                  "guerre",
+                  "tyrannie",
                   "époque",
-                  "empire",
                   "égaux",
-                  "tyrannie"
+                  "révolution",
+                  "siècle"
                 ],
                 "is_subnotion": true
               },
@@ -390,15 +390,15 @@
                 "confidence": 0.8500000000000001,
                 "words_used": [
                   "mesure",
-                  "matière",
-                  "probabilité",
-                  "force",
-                  "temps",
+                  "masse",
                   "champ",
                   "loi",
-                  "inertie",
-                  "masse",
-                  "constante"
+                  "temps",
+                  "probabilité",
+                  "matière",
+                  "constante",
+                  "force",
+                  "inertie"
                 ],
                 "is_subnotion": true
               },
@@ -407,24 +407,24 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "mort",
-                  "bras",
-                  "décomposition",
-                  "libre",
                   "division",
-                  "achète",
-                  "circulation",
                   "mourir",
-                  "espèces",
-                  "corps",
-                  "pied",
-                  "croissance",
                   "vie",
-                  "espèce",
-                  "règle",
+                  "espèces",
+                  "circulation",
+                  "achète",
+                  "libre",
                   "eau",
                   "classe",
-                  "population"
+                  "bras",
+                  "mort",
+                  "règle",
+                  "pied",
+                  "croissance",
+                  "décomposition",
+                  "espèce",
+                  "population",
+                  "corps"
                 ],
                 "is_subnotion": false
               },
@@ -433,16 +433,16 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "esprit",
-                  "langage",
                   "réel",
+                  "langage",
                   "réponse",
+                  "symptôme",
                   "manque",
-                  "ça",
-                  "sujet",
-                  "apprentissage",
                   "moi",
-                  "symptôme"
+                  "ça",
+                  "esprit",
+                  "apprentissage",
+                  "sujet"
                 ],
                 "is_subnotion": false
               },
@@ -451,15 +451,15 @@
                 "depth": 0,
                 "confidence": 0.8300000000000001,
                 "words_used": [
+                  "individu",
                   "société",
+                  "champ",
                   "division",
                   "institution",
-                  "pouvoir",
-                  "champ",
-                  "régulation",
-                  "individu",
                   "classe",
-                  "distinction"
+                  "pouvoir",
+                  "distinction",
+                  "régulation"
                 ],
                 "is_subnotion": false
               },
@@ -469,13 +469,13 @@
                 "confidence": 0.81,
                 "words_used": [
                   "langage",
-                  "signe",
-                  "valeur",
-                  "mot",
-                  "règle",
-                  "transformation",
                   "sens",
-                  "génération"
+                  "transformation",
+                  "valeur",
+                  "règle",
+                  "mot",
+                  "génération",
+                  "signe"
                 ],
                 "is_subnotion": false
               }
@@ -689,7 +689,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224628",
+        "first_detected": "2026-01-28T03:49:30.692250",
         "source": "emergent"
       },
       {
@@ -729,7 +729,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224631",
+        "first_detected": "2026-01-28T03:49:30.692254",
         "source": "specialized_term"
       },
       {
@@ -756,7 +756,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224634",
+        "first_detected": "2026-01-28T03:49:30.692256",
         "source": "reference_db",
         "alternatives": []
       },
@@ -780,7 +780,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224636",
+        "first_detected": "2026-01-28T03:49:30.692259",
         "source": "reference_db",
         "alternatives": []
       },
@@ -804,7 +804,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224639",
+        "first_detected": "2026-01-28T03:49:30.692262",
         "source": "reference_db",
         "alternatives": []
       },
@@ -829,7 +829,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224642",
+        "first_detected": "2026-01-28T03:49:30.692264",
         "source": "reference_db",
         "alternatives": []
       },
@@ -853,7 +853,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224644",
+        "first_detected": "2026-01-28T03:49:30.692267",
         "source": "reference_db",
         "alternatives": []
       },
@@ -878,7 +878,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224646",
+        "first_detected": "2026-01-28T03:49:30.692269",
         "source": "reference_db",
         "alternatives": []
       },
@@ -902,7 +902,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224648",
+        "first_detected": "2026-01-28T03:49:30.692272",
         "source": "reference_db",
         "alternatives": []
       },
@@ -926,7 +926,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224651",
+        "first_detected": "2026-01-28T03:49:30.692275",
         "source": "reference_db",
         "alternatives": []
       },
@@ -950,7 +950,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224653",
+        "first_detected": "2026-01-28T03:49:30.692277",
         "source": "reference_db",
         "alternatives": []
       },
@@ -975,7 +975,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224655",
+        "first_detected": "2026-01-28T03:49:30.692280",
         "source": "reference_db",
         "alternatives": [
           {
@@ -990,10 +990,10 @@
         "name": "cogito-ergo-sum",
         "confidence": 0.8,
         "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
           "summary": "Objet 'cogito-ergo-sum' (tag plat) validé - déclencheurs: doute, je pense",
@@ -1011,7 +1011,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224657",
+        "first_detected": "2026-01-28T03:49:30.692283",
         "source": "emergent"
       },
       {
@@ -1036,7 +1036,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224660",
+        "first_detected": "2026-01-28T03:49:30.692285",
         "source": "context_resolved",
         "alternatives": []
       },
@@ -1068,7 +1068,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224662",
+        "first_detected": "2026-01-28T03:49:30.692288",
         "source": "context_primary",
         "alternatives": []
       },
@@ -1094,7 +1094,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224664",
+        "first_detected": "2026-01-28T03:49:30.692291",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1124,7 +1124,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224666",
+        "first_detected": "2026-01-28T03:49:30.692293",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1157,7 +1157,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224669",
+        "first_detected": "2026-01-28T03:49:30.692296",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -1181,7 +1181,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224671",
+        "first_detected": "2026-01-28T03:49:30.692299",
         "source": "reference_db",
         "alternatives": []
       },
@@ -1205,7 +1205,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224673",
+        "first_detected": "2026-01-28T03:49:30.692301",
         "source": "reference_db",
         "alternatives": []
       },
@@ -1229,7 +1229,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224675",
+        "first_detected": "2026-01-28T03:49:30.692304",
         "source": "reference_related",
         "alternatives": []
       },
@@ -1253,7 +1253,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224678",
+        "first_detected": "2026-01-28T03:49:30.692306",
         "source": "reference_db",
         "alternatives": []
       },
@@ -1279,7 +1279,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224680",
+        "first_detected": "2026-01-28T03:49:30.692308",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -1305,7 +1305,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224682",
+        "first_detected": "2026-01-28T03:49:30.692311",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -1329,7 +1329,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224684",
+        "first_detected": "2026-01-28T03:49:30.692314",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1359,7 +1359,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224686",
+        "first_detected": "2026-01-28T03:49:30.692316",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1374,10 +1374,10 @@
         "name": "principe-d-incertitude",
         "confidence": 0.75,
         "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
           "summary": "Objet 'principe-d-incertitude' (tag plat) validé - déclencheurs: incertitude",
@@ -1394,7 +1394,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224688",
+        "first_detected": "2026-01-28T03:49:30.692319",
         "source": "emergent"
       },
       {
@@ -1402,10 +1402,10 @@
         "name": "aureus",
         "confidence": 0.75,
         "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
           "summary": "Objet 'aureus' (tag plat) validé - déclencheurs: or",
@@ -1422,7 +1422,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224690",
+        "first_detected": "2026-01-28T03:49:30.692321",
         "source": "emergent"
       },
       {
@@ -1430,10 +1430,10 @@
         "name": "habitus",
         "confidence": 0.75,
         "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
           "summary": "Objet 'habitus' (tag plat) validé - déclencheurs: disposition",
@@ -1450,7 +1450,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224692",
+        "first_detected": "2026-01-28T03:49:30.692324",
         "source": "emergent"
       },
       {
@@ -1473,7 +1473,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-27T19:52:23.224694",
+        "first_detected": "2026-01-28T03:49:30.692326",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -1634,7 +1634,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T19:46:00.541322",
+          "last_used": "2026-01-28T03:43:09.025366",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1653,7 +1653,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T19:46:00.456470",
+          "last_used": "2026-01-28T03:43:08.951702",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1672,7 +1672,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T19:46:00.449636",
+          "last_used": "2026-01-28T03:43:08.959312",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1691,7 +1691,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T19:46:00.558941",
+          "last_used": "2026-01-28T03:43:08.866025",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1710,7 +1710,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T19:46:00.484720",
+          "last_used": "2026-01-28T03:43:08.884252",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1729,7 +1729,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T19:46:00.540017",
+          "last_used": "2026-01-28T03:43:08.851307",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1748,7 +1748,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T19:46:00.472029",
+          "last_used": "2026-01-28T03:43:08.886127",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon.md"
@@ -1767,7 +1767,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-27T19:46:00.505777",
+          "last_used": "2026-01-28T03:43:08.915839",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
@@ -1783,17 +1783,17 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_6183",
+        "id": "rg_0060",
         "tags": [
-          "vocabulaire",
           "Comportement",
+          "vocabulaire",
           "Mammif",
           "exclrw"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "vocabulaire": 1,
           "Comportement": 2,
+          "vocabulaire": 1,
           "Mammif": 2,
           "exclrw": 2
         },
@@ -1858,9 +1858,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "note-The_Wealth_of_Nations",
+        "note-livre",
         "livre",
-        "note-livre"
+        "note-The_Wealth_of_Nations"
       ]
     },
     {
@@ -1886,7 +1886,7 @@
       "suggested_tags": [
         "Masayuki-Kojima",
         "Crime-Mystery",
-        "Psychological-Thriller"
+        "Kuniaki-Haishima"
       ]
     }
   ],
