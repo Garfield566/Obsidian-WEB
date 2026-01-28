@@ -1542,10 +1542,11 @@ class EmergentTagDetector:
         # Parcourt tous les domaines de la hiérarchie
         def scan_domain(domain_name: str, domain_data: dict, path: str):
             """Scanne récursivement un domaine et ses sous-notions."""
-            # Vocabulaire de ce domaine
+            # Vocabulaire de ce domaine (peut être dans "vocabulaire" ou directement)
+            vocab_data = domain_data.get("vocabulaire", domain_data)
             vocab = {
-                "VSC": set(domain_data.get("VSC", [])),
-                "VSCA": set(domain_data.get("VSCA", [])),
+                "VSC": set(vocab_data.get("VSC", [])),
+                "VSCA": set(vocab_data.get("VSCA", [])),
             }
 
             # Trouve les mots présents dans le texte
