@@ -758,6 +758,29 @@ class TagGeneratorV2:
         else:
             print(f"   📦 Cache: vide, {compute_count} notes à calculer")
 
+        # ÉTAPE PRÉALABLE: Extraction des données brutes pour les notes manquantes
+        # Ceci garantit que toutes les notes ont leurs données VSC/VSCA extraites
+        notes_needing_extraction = []
+        for note in self.notes:
+            db_note = self.repository.get_note(note.path)
+            if db_note and not db_note.extracted_vsc_json:
+                notes_needing_extraction.append(note)
+
+        if notes_needing_extraction:
+            print(f"   📊 Extraction vocabulaire: {len(notes_needing_extraction)} notes sans données")
+            for i, note in enumerate(notes_needing_extraction):
+                text = f"{note.title} {note.content}"
+                text_lower = text.lower()
+                extracted_vocab = detector.extract_all_vocabulary_from_text(text_lower)
+                self.repository.update_extracted_data(
+                    note.path,
+                    vsc=extracted_vocab["vsc"],
+                    vsca=extracted_vocab["vsca"],
+                )
+                if (i + 1) % 50 == 0:
+                    print(f"      Extraction: {i+1}/{len(notes_needing_extraction)}")
+            print(f"   ✓ Extraction terminée")
+
         # Pour chaque note, vérifie les termes spécialisés
         for note in self.notes:
             # Vérifie si on a un cache valide
