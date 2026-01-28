@@ -1511,6 +1511,79 @@ class EmergentTagDetector:
 
         return result
 
+    def extract_all_vocabulary_from_text(self, text: str) -> dict:
+        """Extrait TOUT le vocabulaire trouvé dans le texte (pas juste validé).
+
+        Cette méthode scanne le texte pour TOUS les mots VSC/VSCA de la hiérarchie,
+        indépendamment de la validation des domaines. Utile pour:
+        - Stocker les données brutes pour futures analyses
+        - Trouver des liens quand de nouvelles notes sont ajoutées
+        - Statistiques sur le vault
+
+        Args:
+            text: Texte à analyser
+
+        Returns:
+            Dict structuré:
+            {
+                "vsc": {domain: [words], ...},
+                "vsca": {domain: [words], ...},
+                "all_vsc": [words],  # Liste plate de tous les VSC
+                "all_vsca": [words],  # Liste plate de tous les VSCA
+                "word_count": int,  # Nombre total de mots trouvés
+            }
+        """
+        text_lower = text.lower()
+        vsc_by_domain = {}
+        vsca_by_domain = {}
+        all_vsc = set()
+        all_vsca = set()
+
+        # Parcourt tous les domaines de la hiérarchie
+        def scan_domain(domain_name: str, domain_data: dict, path: str):
+            """Scanne récursivement un domaine et ses sous-notions."""
+            # Vocabulaire de ce domaine
+            vocab = {
+                "VSC": set(domain_data.get("VSC", [])),
+                "VSCA": set(domain_data.get("VSCA", [])),
+            }
+
+            # Trouve les mots présents dans le texte
+            found = self._find_words_in_text(text_lower, vocab)
+
+            if found["VSC"]:
+                if path not in vsc_by_domain:
+                    vsc_by_domain[path] = []
+                vsc_by_domain[path].extend(found["VSC"])
+                all_vsc.update(found["VSC"])
+
+            if found["VSCA"]:
+                if path not in vsca_by_domain:
+                    vsca_by_domain[path] = []
+                vsca_by_domain[path].extend(found["VSCA"])
+                all_vsca.update(found["VSCA"])
+
+            # Scanne récursivement les sous-notions
+            for child_name, child_data in domain_data.get("sous_notions", {}).items():
+                if child_name.startswith("_"):
+                    continue
+                child_path = f"{path}\\{child_name}"
+                scan_domain(child_name, child_data, child_path)
+
+        # Parcourt tous les domaines racine
+        for domain_name, domain_data in self.HIERARCHY.items():
+            if domain_name.startswith("_"):
+                continue
+            scan_domain(domain_name, domain_data, domain_name)
+
+        return {
+            "vsc": vsc_by_domain,
+            "vsca": vsca_by_domain,
+            "all_vsc": list(all_vsc),
+            "all_vsca": list(all_vsca),
+            "word_count": len(all_vsc) + len(all_vsca),
+        }
+
     def _validate_objects(self, text: str, validated_paths: list) -> list[dict]:
         """Valide les objets (tags PLATS) basés sur les mots déclencheurs.
 

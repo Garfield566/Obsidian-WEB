@@ -156,6 +156,95 @@ class Repository:
 
         return needs_validation, cached_results
 
+    def update_extracted_data(
+        self,
+        path: str,
+        vsc: Optional[dict[str, list[str]]] = None,
+        vsca: Optional[dict[str, list[str]]] = None,
+        entities: Optional[dict[str, list[str]]] = None,
+        keywords: Optional[list[str]] = None,
+    ) -> Optional[Note]:
+        """Met à jour les données brutes extraites d'une note.
+
+        Args:
+            path: Chemin de la note
+            vsc: Mots VSC par domaine
+            vsca: Mots VSCA par domaine
+            entities: Entités par type
+            keywords: Mots-clés potentiels
+        """
+        note = self.get_note(path)
+        if note:
+            note.set_extracted_data(vsc, vsca, entities, keywords)
+            self.session.commit()
+        return note
+
+    def find_notes_with_entity(self, entity_type: str, entity_name: str) -> list[Note]:
+        """Trouve toutes les notes mentionnant une entité spécifique.
+
+        Args:
+            entity_type: Type d'entité (person, place, date, etc.)
+            entity_name: Nom de l'entité à chercher
+
+        Returns:
+            Liste des notes contenant cette entité
+        """
+        # Utilise LIKE pour chercher dans le JSON (simple mais efficace pour SQLite)
+        pattern = f'%"{entity_name}"%'
+        return (
+            self.session.query(Note)
+            .filter(Note.extracted_entities_json.like(pattern))
+            .all()
+        )
+
+    def find_notes_with_vsc_word(self, word: str) -> list[Note]:
+        """Trouve toutes les notes contenant un mot VSC spécifique."""
+        pattern = f'%"{word}"%'
+        return (
+            self.session.query(Note)
+            .filter(Note.extracted_vsc_json.like(pattern))
+            .all()
+        )
+
+    def get_vocabulary_stats(self) -> dict:
+        """Retourne des statistiques sur le vocabulaire extrait du vault.
+
+        Returns:
+            Dict avec:
+            - total_vsc_words: nombre total de mots VSC uniques
+            - total_vsca_words: nombre total de mots VSCA uniques
+            - top_domains: domaines les plus représentés
+            - notes_with_extraction: nombre de notes avec données extraites
+        """
+        notes = self.get_all_notes()
+        all_vsc = set()
+        all_vsca = set()
+        domain_counts = {}
+        notes_with_data = 0
+
+        for note in notes:
+            data = note.get_extracted_data()
+            if data["vsc"] or data["vsca"]:
+                notes_with_data += 1
+
+            for domain, words in data["vsc"].items():
+                all_vsc.update(words)
+                domain_counts[domain] = domain_counts.get(domain, 0) + len(words)
+
+            for domain, words in data["vsca"].items():
+                all_vsca.update(words)
+
+        # Top 10 domaines
+        top_domains = sorted(domain_counts.items(), key=lambda x: x[1], reverse=True)[:10]
+
+        return {
+            "total_vsc_words": len(all_vsc),
+            "total_vsca_words": len(all_vsca),
+            "top_domains": top_domains,
+            "notes_with_extraction": notes_with_data,
+            "total_notes": len(notes),
+        }
+
     # ===== Tags =====
 
     def upsert_tag(

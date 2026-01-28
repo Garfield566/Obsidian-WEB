@@ -774,6 +774,16 @@ class TagGeneratorV2:
                 text = f"{note.title} {note.content}"
                 text_lower = text.lower()
 
+                # NOUVEAU: Extrait TOUT le vocabulaire (pour stockage brut)
+                extracted_vocab = detector.extract_all_vocabulary_from_text(text_lower)
+
+                # Stocke les données brutes extraites
+                self.repository.update_extracted_data(
+                    note.path,
+                    vsc=extracted_vocab["vsc"],
+                    vsca=extracted_vocab["vsca"],
+                )
+
                 # Validation cascade pour cette note
                 cascade_result = detector._validate_cascade(text_lower)
 
