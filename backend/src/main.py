@@ -133,11 +133,11 @@ def analyze_vault(
         print("⚠️  Aucune note trouvée. Arrêt.")
         return {"status": "empty", "notes": 0}
 
-    # Nettoie les notes supprimées de la DB
+    # Nettoie les notes supprimées de la DB (et leur cache)
     current_paths = [n.path for n in notes]
     deleted = repository.delete_notes_not_in(current_paths)
-    if verbose and deleted > 0:
-        print(f"   🗑️  {deleted} notes supprimées de la DB")
+    if deleted > 0:
+        print(f"   🗑️  {deleted} notes supprimées (DB + cache)")
 
     # 2. Intègre le feedback si disponible
     feedback_stats = None
@@ -754,7 +754,9 @@ class TagGeneratorV2:
         compute_count = len(needs_validation)
 
         if cached_count > 0:
-            print(f"   📦 Cache: {cached_count}/{total_notes} notes réutilisées, {compute_count} à calculer")
+            print(f"   📦 Cache: {cached_count}/{total_notes} réutilisées, {compute_count} à recalculer")
+        else:
+            print(f"   📦 Cache: vide, {compute_count} notes à calculer")
 
         # Pour chaque note, vérifie les termes spécialisés
         for note in self.notes:
