@@ -769,19 +769,8 @@ class TagGeneratorV2:
                     {"name": name, "confidence": 0.85, "exact_match": True}
                     for name in specialized_names
                 ]
-
-                # Vérifie si les données brutes d'extraction existent
-                db_note = self.repository.get_note(note.path)
-                if db_note and not db_note.extracted_vsc_json:
-                    # Extraction manquante, on l'exécute
-                    text = f"{note.title} {note.content}"
-                    text_lower = text.lower()
-                    extracted_vocab = detector.extract_all_vocabulary_from_text(text_lower)
-                    self.repository.update_extracted_data(
-                        note.path,
-                        vsc=extracted_vocab["vsc"],
-                        vsca=extracted_vocab["vsca"],
-                    )
+                # Note: L'extraction de vocabulaire se fait uniquement pour les notes
+                # non cachées (nouvelles ou modifiées) - pas besoin de vérifier ici
             else:
                 # Calcul complet pour cette note
                 text = f"{note.title} {note.content}"
