@@ -41,6 +41,12 @@ class Note(Base):
     specialized_terms_json = Column(Text, nullable=True)  # JSON: termes spécialisés détectés
     validation_hash = Column(String, nullable=True)  # Hash pour invalider le cache si config change
 
+    # Données brutes extraites (exploitables pour futures analyses)
+    extracted_vsc_json = Column(Text, nullable=True)  # JSON: mots VSC trouvés {domain: [words]}
+    extracted_vsca_json = Column(Text, nullable=True)  # JSON: mots VSCA trouvés {domain: [words]}
+    extracted_entities_json = Column(Text, nullable=True)  # JSON: entités {type: [names]}
+    extracted_keywords_json = Column(Text, nullable=True)  # JSON: mots-clés/concepts potentiels
+
     __table_args__ = (Index("idx_notes_content_hash", "content_hash"),)
 
     def set_embedding(self, vector: np.ndarray) -> None:
@@ -83,6 +89,70 @@ class Note(Base):
             return (validated_paths, specialized_terms)
         except (json.JSONDecodeError, TypeError):
             return None
+
+    def set_extracted_data(
+        self,
+        vsc: Optional[dict[str, list[str]]] = None,
+        vsca: Optional[dict[str, list[str]]] = None,
+        entities: Optional[dict[str, list[str]]] = None,
+        keywords: Optional[list[str]] = None,
+    ) -> None:
+        """Stocke les données brutes extraites de la note.
+
+        Args:
+            vsc: Mots VSC par domaine {domain: [words]}
+            vsca: Mots VSCA par domaine {domain: [words]}
+            entities: Entités par type {person: [], place: [], date: []}
+            keywords: Liste de mots-clés/concepts potentiels
+        """
+        import json
+        if vsc is not None:
+            self.extracted_vsc_json = json.dumps(vsc, ensure_ascii=False)
+        if vsca is not None:
+            self.extracted_vsca_json = json.dumps(vsca, ensure_ascii=False)
+        if entities is not None:
+            self.extracted_entities_json = json.dumps(entities, ensure_ascii=False)
+        if keywords is not None:
+            self.extracted_keywords_json = json.dumps(keywords, ensure_ascii=False)
+
+    def get_extracted_data(self) -> dict:
+        """Récupère toutes les données brutes extraites.
+
+        Returns:
+            Dict avec vsc, vsca, entities, keywords (ou listes/dicts vides si non définis)
+        """
+        import json
+        result = {
+            "vsc": {},
+            "vsca": {},
+            "entities": {},
+            "keywords": [],
+        }
+        try:
+            if self.extracted_vsc_json:
+                result["vsc"] = json.loads(self.extracted_vsc_json)
+            if self.extracted_vsca_json:
+                result["vsca"] = json.loads(self.extracted_vsca_json)
+            if self.extracted_entities_json:
+                result["entities"] = json.loads(self.extracted_entities_json)
+            if self.extracted_keywords_json:
+                result["keywords"] = json.loads(self.extracted_keywords_json)
+        except (json.JSONDecodeError, TypeError):
+            pass
+        return result
+
+    def get_all_vsc_words(self) -> set[str]:
+        """Retourne tous les mots VSC trouvés (tous domaines confondus)."""
+        data = self.get_extracted_data()
+        all_words = set()
+        for words in data["vsc"].values():
+            all_words.update(words)
+        return all_words
+
+    def get_all_entities_of_type(self, entity_type: str) -> list[str]:
+        """Retourne toutes les entités d'un type donné (person, place, date, etc.)."""
+        data = self.get_extracted_data()
+        return data["entities"].get(entity_type, [])
 
 
 class Tag(Base):
