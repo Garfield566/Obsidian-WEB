@@ -63,12 +63,21 @@ jobs:
 
       - name: Run analysis
         run: |
+          set -eux
+          echo "=== Checking paths ==="
+          ls -la ./content/ | head -5 || echo "content/ not found"
+          ls -la backend/data/ || echo "backend/data/ not found"
+          ls -la content/emergent-tags/ || echo "emergent-tags/ not found"
+          echo "=== Running analysis ==="
           python -m backend.src.main \
             --vault-path ./content \
             --output content/emergent-tags/suggestions.json \
             --db-path backend/data/tags.db \
             --decisions content/emergent-tags/decisions.json \
-            --verbose
+            --verbose 2>&1 || {
+              echo "=== Analysis failed with exit code $? ==="
+              exit 1
+            }
         env:
           PYTHONPATH: ${{ github.workspace }}
           HF_HOME: ~/.cache/huggingface
