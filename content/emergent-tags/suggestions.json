@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-29T17:18:48.237998",
+  "generated_at": "2026-01-29T17:22:36.061017",
   "vault_hash": "3d7d165f",
   "suggestions": {
     "new_tags": [
@@ -29,7 +29,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238035",
+        "first_detected": "2026-01-29T17:22:36.061068",
         "source": "emergent"
       },
       {
@@ -60,7 +60,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238040",
+        "first_detected": "2026-01-29T17:22:36.061074",
         "source": "reference_db",
         "alternatives": []
       },
@@ -92,7 +92,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238044",
+        "first_detected": "2026-01-29T17:22:36.061079",
         "source": "reference_db",
         "alternatives": []
       },
@@ -124,7 +124,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238047",
+        "first_detected": "2026-01-29T17:22:36.061082",
         "source": "reference_db",
         "alternatives": []
       },
@@ -148,7 +148,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238050",
+        "first_detected": "2026-01-29T17:22:36.061086",
         "source": "reference_db",
         "alternatives": [
           {
@@ -180,7 +180,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238053",
+        "first_detected": "2026-01-29T17:22:36.061089",
         "source": "reference_db",
         "alternatives": [
           {
@@ -212,7 +212,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238056",
+        "first_detected": "2026-01-29T17:22:36.061093",
         "source": "reference_db",
         "alternatives": []
       },
@@ -237,7 +237,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238062",
+        "first_detected": "2026-01-29T17:22:36.061099",
         "source": "reference_db",
         "alternatives": []
       },
@@ -282,6 +282,10 @@
                   "suite",
                   "côté",
                   "opération",
+                  "somme",
+                  "nombre",
+                  "loi",
+                  "fonction",
                   "mesure",
                   "inverse",
                   "rang",
@@ -290,14 +294,10 @@
                   "valeur propre",
                   "degré",
                   "variable",
+                  "taux",
                   "voisinage",
                   "corps",
-                  "ensemble",
-                  "somme",
-                  "nombre",
-                  "loi",
-                  "fonction",
-                  "taux"
+                  "ensemble"
                 ],
                 "is_subnotion": false
               },
@@ -306,28 +306,28 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "atelier",
-                  "métal",
-                  "intérêt",
-                  "prix",
-                  "or",
-                  "échange",
-                  "as",
-                  "travail",
-                  "profit",
-                  "sesterce",
-                  "marché",
-                  "pièce",
-                  "offre",
                   "valeur",
                   "salaire",
                   "marchandise",
                   "production",
+                  "atelier",
+                  "métal",
                   "argent",
+                  "intérêt",
                   "capital",
+                  "prix",
+                  "or",
+                  "échange",
+                  "as",
                   "cuivre",
+                  "offre",
+                  "travail",
                   "demande",
+                  "profit",
+                  "sesterce",
+                  "marché",
                   "monnaie",
+                  "pièce",
                   "taux",
                   "accumulation"
                 ],
@@ -338,34 +338,34 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
+                  "valeur",
+                  "simples",
                   "état",
                   "droit",
                   "proposition",
-                  "physique",
-                  "existence",
-                  "matière",
-                  "vérité",
-                  "mal",
-                  "sagesse",
-                  "propres",
-                  "tant",
-                  "corps",
-                  "projet",
-                  "valeur",
-                  "simples",
                   "mêmes",
+                  "physique",
                   "bonheur",
+                  "existence",
                   "raison",
                   "pouvoir",
                   "absurde",
                   "choses",
                   "utilité",
+                  "matière",
                   "autorité",
+                  "vérité",
                   "doute",
+                  "mal",
                   "bien",
                   "parties",
+                  "sagesse",
+                  "propres",
                   "être",
-                  "liberté"
+                  "tant",
+                  "liberté",
+                  "corps",
+                  "projet"
                 ],
                 "is_subnotion": false
               },
@@ -413,23 +413,23 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "décomposition",
-                  "eau",
                   "circulation",
                   "bras",
                   "classe",
+                  "espèce",
+                  "division",
+                  "espèces",
+                  "croissance",
+                  "décomposition",
+                  "eau",
                   "vie",
                   "mort",
-                  "division",
-                  "espèce",
-                  "espèces",
-                  "corps",
                   "pied",
                   "libre",
                   "règle",
-                  "croissance",
-                  "population",
                   "achète",
+                  "population",
+                  "corps",
                   "mourir"
                 ],
                 "is_subnotion": false
@@ -440,13 +440,13 @@
                 "confidence": 0.8500000000000001,
                 "words_used": [
                   "réel",
-                  "langage",
                   "apprentissage",
                   "moi",
                   "esprit",
                   "sujet",
                   "ça",
                   "manque",
+                  "langage",
                   "réponse",
                   "symptôme"
                 ],
@@ -695,7 +695,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238066",
+        "first_detected": "2026-01-29T17:22:36.061104",
         "source": "emergent"
       },
       {
@@ -718,7 +718,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238069",
+        "first_detected": "2026-01-29T17:22:36.061108",
         "source": "specialized_term"
       },
       {
@@ -745,7 +745,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238072",
+        "first_detected": "2026-01-29T17:22:36.061112",
         "source": "reference_db",
         "alternatives": []
       },
@@ -769,7 +769,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238074",
+        "first_detected": "2026-01-29T17:22:36.061115",
         "source": "reference_db",
         "alternatives": []
       },
@@ -793,7 +793,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238077",
+        "first_detected": "2026-01-29T17:22:36.061118",
         "source": "reference_db",
         "alternatives": []
       },
@@ -818,7 +818,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238080",
+        "first_detected": "2026-01-29T17:22:36.061121",
         "source": "reference_db",
         "alternatives": []
       },
@@ -842,7 +842,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238083",
+        "first_detected": "2026-01-29T17:22:36.061124",
         "source": "reference_db",
         "alternatives": []
       },
@@ -867,7 +867,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238085",
+        "first_detected": "2026-01-29T17:22:36.061127",
         "source": "reference_db",
         "alternatives": []
       },
@@ -891,7 +891,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238088",
+        "first_detected": "2026-01-29T17:22:36.061130",
         "source": "reference_db",
         "alternatives": []
       },
@@ -915,7 +915,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238090",
+        "first_detected": "2026-01-29T17:22:36.061133",
         "source": "reference_db",
         "alternatives": []
       },
@@ -939,7 +939,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238093",
+        "first_detected": "2026-01-29T17:22:36.061136",
         "source": "reference_db",
         "alternatives": []
       },
@@ -964,7 +964,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238096",
+        "first_detected": "2026-01-29T17:22:36.061139",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1006,7 +1006,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238098",
+        "first_detected": "2026-01-29T17:22:36.061142",
         "source": "emergent"
       },
       {
@@ -1031,7 +1031,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238101",
+        "first_detected": "2026-01-29T17:22:36.061145",
         "source": "context_resolved",
         "alternatives": []
       },
@@ -1063,7 +1063,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238103",
+        "first_detected": "2026-01-29T17:22:36.061148",
         "source": "context_primary",
         "alternatives": []
       },
@@ -1089,7 +1089,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238106",
+        "first_detected": "2026-01-29T17:22:36.061151",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1119,7 +1119,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238109",
+        "first_detected": "2026-01-29T17:22:36.061154",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1152,7 +1152,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238112",
+        "first_detected": "2026-01-29T17:22:36.061157",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -1176,7 +1176,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238114",
+        "first_detected": "2026-01-29T17:22:36.061160",
         "source": "reference_db",
         "alternatives": []
       },
@@ -1200,7 +1200,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238116",
+        "first_detected": "2026-01-29T17:22:36.061163",
         "source": "reference_db",
         "alternatives": []
       },
@@ -1224,7 +1224,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238119",
+        "first_detected": "2026-01-29T17:22:36.061166",
         "source": "reference_related",
         "alternatives": []
       },
@@ -1248,7 +1248,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238121",
+        "first_detected": "2026-01-29T17:22:36.061169",
         "source": "reference_db",
         "alternatives": []
       },
@@ -1274,7 +1274,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238124",
+        "first_detected": "2026-01-29T17:22:36.061172",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -1300,7 +1300,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238126",
+        "first_detected": "2026-01-29T17:22:36.061175",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -1324,7 +1324,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238129",
+        "first_detected": "2026-01-29T17:22:36.061178",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1354,7 +1354,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238131",
+        "first_detected": "2026-01-29T17:22:36.061181",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1395,7 +1395,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238134",
+        "first_detected": "2026-01-29T17:22:36.061185",
         "source": "emergent"
       },
       {
@@ -1429,7 +1429,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238136",
+        "first_detected": "2026-01-29T17:22:36.061187",
         "source": "emergent"
       },
       {
@@ -1463,7 +1463,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238138",
+        "first_detected": "2026-01-29T17:22:36.061190",
         "source": "emergent"
       },
       {
@@ -1486,7 +1486,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T17:18:48.238141",
+        "first_detected": "2026-01-29T17:22:36.061193",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -1647,7 +1647,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T17:13:34.001502",
+          "last_used": "2026-01-29T17:22:27.700982",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1666,7 +1666,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T17:13:34.033610",
+          "last_used": "2026-01-29T17:22:27.697651",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1685,7 +1685,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T17:13:33.926182",
+          "last_used": "2026-01-29T17:22:27.656353",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1704,7 +1704,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T17:13:33.994984",
+          "last_used": "2026-01-29T17:22:27.740378",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1723,7 +1723,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T17:13:33.975586",
+          "last_used": "2026-01-29T17:22:27.652247",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1742,7 +1742,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T17:13:33.947555",
+          "last_used": "2026-01-29T17:22:27.648056",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1761,7 +1761,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T17:13:34.015243",
+          "last_used": "2026-01-29T17:22:27.809058",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon.md"
@@ -1780,7 +1780,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T17:13:34.018953",
+          "last_used": "2026-01-29T17:22:27.776983",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
@@ -1796,19 +1796,19 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_4938",
+        "id": "rg_3311",
         "tags": [
           "exclrw",
           "Mammif",
-          "Comportement",
-          "vocabulaire"
+          "vocabulaire",
+          "Comportement"
         ],
         "similarity": 1.0,
         "usage_counts": {
           "exclrw": 2,
           "Mammif": 2,
-          "Comportement": 2,
-          "vocabulaire": 1
+          "vocabulaire": 1,
+          "Comportement": 2
         },
         "recommended": "exclrw"
       }
@@ -1872,8 +1872,8 @@
       ],
       "suggested_tags": [
         "livre",
-        "note-livre",
-        "note-The_Wealth_of_Nations"
+        "note-The_Wealth_of_Nations",
+        "note-livre"
       ]
     },
     {
@@ -1897,9 +1897,9 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Medical-Drama",
         "Crime-Mystery",
-        "Naoki-Urasawa"
+        "Masayuki-Kojima",
+        "Madhouse"
       ]
     }
   ],
