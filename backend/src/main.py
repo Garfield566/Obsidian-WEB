@@ -780,7 +780,9 @@ class TagGeneratorV2:
             entity_detector = self.entity_detector
 
             for i, note in enumerate(notes_needing_extraction):
-                text = f"{note.title} {note.content}"
+                # Accès défensif à content (peut être absent dans certains cas)
+                note_content = getattr(note, 'content', '') or ''
+                text = f"{note.title} {note_content}"
                 text_lower = text.lower()
 
                 # 1. Extraction VSC/VSCA

@@ -88,21 +88,26 @@ class EntityDetectorV2:
         Returns:
             NoteEntitiesV2 avec les entités détectées et le contexte
         """
+        # Accès défensif aux attributs de la note
+        note_content = getattr(note, 'content', '') or ''
+        note_title = getattr(note, 'title', '') or ''
+        note_tags = getattr(note, 'tags', []) or []
+
         # 1. Analyse le contexte de la note
         context = self.context_resolver.analyze(
-            note.title,
-            note.content,
-            note.tags
+            note_title,
+            note_content,
+            note_tags
         )
 
         # 2. Prépare le texte
-        text = f"{note.title}\n{note.content}"
+        text = f"{note_title}\n{note_content}"
         text_lower = text.lower()
-        title_lower = note.title.lower()
+        title_lower = note_title.lower()
 
         # 3. Extrait les domaines validés des tags de la note
         # Ces domaines servent à désambiguïser les lieux (geo vs entité)
-        validated_domains = self._extract_validated_domains(note.tags, context)
+        validated_domains = self._extract_validated_domains(note_tags, context)
 
         # 4. Détecte les entités brutes
         raw_entities = []
