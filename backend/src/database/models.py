@@ -340,6 +340,85 @@ class ClusterNote(Base):
     cluster = relationship("Cluster", back_populates="notes")
 
 
+class ClusterValidationCache(Base):
+    """Cache des résultats de validation de clusters pour 8.3 Émergents.
+
+    Permet d'éviter de recalculer la validation si le cluster n'a pas changé.
+    La clé est un hash basé sur les paths des notes et leurs content_hash.
+    """
+
+    __tablename__ = "cluster_validation_cache"
+
+    cluster_hash = Column(String, primary_key=True)  # Hash de la composition du cluster
+    suggestions_json = Column(Text, nullable=True)  # JSON des EmergentTagSuggestion sérialisées
+    created_at = Column(DateTime, default=func.now())
+
+    @staticmethod
+    def compute_cluster_hash(note_paths: list[str], content_hashes: dict[str, str]) -> str:
+        """Calcule un hash unique pour un cluster basé sur sa composition.
+
+        Args:
+            note_paths: Liste des paths des notes dans le cluster
+            content_hashes: Dict {path: content_hash} pour chaque note
+
+        Returns:
+            Hash hexadécimal représentant cette combinaison exacte de notes
+        """
+        import hashlib
+        # Trie les paths pour avoir un ordre déterministe
+        sorted_paths = sorted(note_paths)
+        # Combine path + content_hash pour chaque note
+        components = []
+        for path in sorted_paths:
+            content_hash = content_hashes.get(path, "")
+            components.append(f"{path}:{content_hash}")
+        combined = "|".join(components)
+        return hashlib.sha256(combined.encode()).hexdigest()[:16]
+
+    def set_suggestions(self, suggestions: list) -> None:
+        """Sérialise et stocke les suggestions."""
+        import json
+
+        def convert_sets(obj):
+            """Convertit récursivement les sets en listes pour JSON."""
+            if isinstance(obj, set):
+                return list(obj)
+            elif isinstance(obj, dict):
+                return {k: convert_sets(v) for k, v in obj.items()}
+            elif isinstance(obj, list):
+                return [convert_sets(item) for item in obj]
+            return obj
+
+        # Sérialise les EmergentTagSuggestion en dicts
+        data = []
+        for s in suggestions:
+            metadata = convert_sets(getattr(s, "metadata", {}))
+            data.append({
+                "name": s.name,
+                "family": s.family.value if hasattr(s.family, 'value') else str(s.family),
+                "confidence": s.confidence,
+                "notes": list(s.notes) if isinstance(s.notes, set) else s.notes,
+                "source_terms": list(s.source_terms) if isinstance(s.source_terms, set) else s.source_terms,
+                "reasoning": s.reasoning,
+                "metadata": metadata,
+            })
+        self.suggestions_json = json.dumps(data, ensure_ascii=False)
+
+    def get_suggestions(self) -> list:
+        """Désérialise et retourne les suggestions.
+
+        Returns:
+            Liste de dicts avec les données des suggestions
+        """
+        import json
+        if not self.suggestions_json:
+            return []
+        try:
+            return json.loads(self.suggestions_json)
+        except (json.JSONDecodeError, TypeError):
+            return []
+
+
 def _run_migrations(engine) -> None:
     """Exécute les migrations pour ajouter les colonnes manquantes."""
     from sqlalchemy import inspect, text

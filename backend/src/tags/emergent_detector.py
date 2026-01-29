@@ -1110,8 +1110,13 @@ class EmergentTagDetector:
         known_entities = self._extract_known_entities(cluster_notes)
 
         # 1. Détecte les patterns structurés
-        combined_text = self._combine_notes_content(cluster_notes)
-        pattern_suggestions = self._detect_patterns(combined_text, cluster_notes)
+        combined_text_patterns = self._combine_notes_content(cluster_notes)
+        pattern_suggestions = self._detect_patterns(combined_text_patterns, cluster_notes)
+
+        # Pré-calcule combined_text pour _validate_term (même format que l'original)
+        combined_text = " ".join(
+            f"{note.title} {note.content}" for note in cluster_notes
+        )
         suggestions.extend(pattern_suggestions)
 
         # 2. Extrait et valide les termes candidats
@@ -1124,7 +1129,8 @@ class EmergentTagDetector:
             # Valide le terme avec les heuristiques
             validation = self._validate_term(
                 term, term_notes, cluster_notes,
-                known_entities, cluster_wiki_links
+                known_entities, cluster_wiki_links,
+                combined_text
             )
 
             if validation["is_valid"]:
@@ -1255,6 +1261,7 @@ class EmergentTagDetector:
         all_notes: list,
         known_entities: set[str],
         wiki_links: set[str],
+        combined_text: str = None,
     ) -> dict:
         """Valide un terme selon sa classe (TOUJOURS_VALIDE ou VALIDE_SI_CONTEXTE).
 
@@ -1280,9 +1287,11 @@ class EmergentTagDetector:
             }
 
         # 0.5. EXCLUSION CONTEXTUELLE : vérifie si le contexte invalide le terme
-        combined_text = " ".join(
-            f"{note.title} {note.content}" for note in all_notes
-        )
+        # Utilise le combined_text pré-calculé, ou le calcule si non fourni
+        if combined_text is None:
+            combined_text = " ".join(
+                f"{note.title} {note.content}" for note in all_notes
+            )
         if self._is_contextually_excluded(term_lower, combined_text):
             return {
                 "is_valid": False,
@@ -2287,6 +2296,8 @@ def detect_emergent_tags_in_clusters(
     existing_tags: set[str],
     wiki_links: set[str] = None,
     extracted_cache: dict[str, dict] = None,
+    repository=None,
+    content_hashes: dict[str, str] = None,
 ) -> list[EmergentTagSuggestion]:
     """Détecte les tags émergents dans tous les clusters.
 
@@ -2296,12 +2307,20 @@ def detect_emergent_tags_in_clusters(
         existing_tags: Tags existants
         wiki_links: Liens wiki existants dans le vault
         extracted_cache: Cache des données extraites {path: {wiki_links, entities, terms}}
+        repository: Repository pour accéder au cache de validation (optionnel)
+        content_hashes: Dict {path: content_hash} pour calculer le hash des clusters
 
     Returns:
         Liste de toutes les suggestions de tags émergents
     """
+    from ..database.models import ClusterValidationCache
+
     detector = EmergentTagDetector(existing_tags, wiki_links, extracted_cache=extracted_cache)
     all_suggestions = []
+
+    # Statistiques de cache
+    cache_hits = 0
+    cache_misses = 0
 
     for cluster in clusters:
         cluster_notes = [
@@ -2313,12 +2332,50 @@ def detect_emergent_tags_in_clusters(
         if len(cluster_notes) < 2:
             continue
 
+        # Calcule le hash du cluster pour le cache
+        cluster_hash = None
+        if repository and content_hashes:
+            cluster_paths = [n.path for n in cluster_notes]
+            cluster_hash = ClusterValidationCache.compute_cluster_hash(
+                cluster_paths, content_hashes
+            )
+
+            # Vérifie le cache
+            cached = repository.get_cluster_validation_cache(cluster_hash)
+            if cached is not None:
+                # Reconstruit les EmergentTagSuggestion depuis le cache
+                for data in cached:
+                    suggestion = EmergentTagSuggestion(
+                        name=data["name"],
+                        family=TagFamily(data["family"]) if data.get("family") else TagFamily.CONCEPT,
+                        confidence=data["confidence"],
+                        notes=data.get("notes", []),
+                        source_terms=data.get("source_terms", []),
+                        reasoning=data.get("reasoning", ""),
+                        metadata=data.get("metadata", {}),
+                    )
+                    all_suggestions.append(suggestion)
+                cache_hits += 1
+                continue
+
+        # Cache miss - calcule les suggestions
         suggestions = detector.detect_emergent_tags(
             cluster_notes,
             cluster_terms=getattr(cluster, 'centroid_terms', []),
         )
 
+        # Stocke dans le cache si disponible
+        if repository and cluster_hash:
+            repository.set_cluster_validation_cache(cluster_hash, suggestions)
+
         all_suggestions.extend(suggestions)
+        cache_misses += 1
+
+    # Log des stats de cache
+    if repository:
+        total = cache_hits + cache_misses
+        if total > 0:
+            print(f"   📦 Cache clusters: {cache_hits}/{total} réutilisés, {cache_misses} recalculés")
 
     # Déduplique globalement
     seen = {}

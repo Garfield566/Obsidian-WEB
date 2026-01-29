@@ -17,6 +17,7 @@ from .models import (
     ReferenceEnrichment,
     Cluster,
     ClusterNote,
+    ClusterValidationCache,
     init_db,
 )
 
@@ -630,6 +631,67 @@ class Repository:
         """Supprime tous les clusters existants."""
         deleted = self.session.query(ClusterNote).delete()
         deleted += self.session.query(Cluster).delete()
+        self.session.commit()
+        return deleted
+
+    # ===== Cluster Validation Cache =====
+
+    def get_cluster_validation_cache(self, cluster_hash: str) -> Optional[list[dict]]:
+        """Récupère les suggestions cachées pour un cluster.
+
+        Args:
+            cluster_hash: Hash unique du cluster (basé sur paths + content_hashes)
+
+        Returns:
+            Liste de dicts avec les suggestions si cache valide, None sinon
+        """
+        cached = (
+            self.session.query(ClusterValidationCache)
+            .filter(ClusterValidationCache.cluster_hash == cluster_hash)
+            .first()
+        )
+        if cached:
+            return cached.get_suggestions()
+        return None
+
+    def set_cluster_validation_cache(
+        self,
+        cluster_hash: str,
+        suggestions: list,
+    ) -> None:
+        """Stocke les suggestions pour un cluster dans le cache.
+
+        Args:
+            cluster_hash: Hash unique du cluster
+            suggestions: Liste d'EmergentTagSuggestion à cacher
+        """
+        # Supprime l'ancien cache si existe
+        self.session.query(ClusterValidationCache).filter(
+            ClusterValidationCache.cluster_hash == cluster_hash
+        ).delete()
+
+        # Crée le nouveau cache
+        cache_entry = ClusterValidationCache(cluster_hash=cluster_hash)
+        cache_entry.set_suggestions(suggestions)
+        self.session.add(cache_entry)
+        self.session.commit()
+
+    def get_content_hashes(self) -> dict[str, str]:
+        """Récupère tous les content_hash des notes.
+
+        Returns:
+            Dict {path: content_hash}
+        """
+        notes = self.session.query(Note.path, Note.content_hash).all()
+        return {n.path: n.content_hash for n in notes}
+
+    def clear_cluster_validation_cache(self) -> int:
+        """Supprime tout le cache de validation de clusters.
+
+        Returns:
+            Nombre d'entrées supprimées
+        """
+        deleted = self.session.query(ClusterValidationCache).delete()
         self.session.commit()
         return deleted
 

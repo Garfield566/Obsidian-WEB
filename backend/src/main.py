@@ -434,6 +434,10 @@ class TagGeneratorV2:
         # Tags rejetés précédemment
         rejected_tags = self.repository.get_rejected_tag_names()
 
+        # PRÉ-EXTRACTION: S'assure que wiki_links et terms sont extraits pour toutes les notes
+        # (nécessaire pour que le cache fonctionne pour l'étape Émergents)
+        self._ensure_extracted_data()
+
         # 1. Suggestions basées sur les clusters (termes centroids)
         _t0 = _time.time()
         cluster_suggestions = self._generate_cluster_suggestions(rejected_tags, max_suggestions)
@@ -659,10 +663,15 @@ class TagGeneratorV2:
         # Charge le cache des données extraites depuis la DB
         extracted_cache = self._load_extracted_cache()
 
+        # Récupère les content_hashes pour le cache des clusters
+        content_hashes = self.repository.get_content_hashes()
+
         # Détecte les tags émergents dans tous les clusters
         emergent_tags = detect_emergent_tags_in_clusters(
             self.clusters, notes_dict, self.existing_tags,
-            extracted_cache=extracted_cache
+            extracted_cache=extracted_cache,
+            repository=self.repository,
+            content_hashes=content_hashes,
         )
 
         for emergent in emergent_tags:
@@ -716,6 +725,51 @@ class TagGeneratorV2:
 
         return suggestions
 
+    def _ensure_extracted_data(self) -> None:
+        """S'assure que toutes les notes ont wiki_links et terms extraits.
+
+        Cette méthode est appelée au début de generate_suggestions pour que
+        le cache soit complet avant l'étape Émergents.
+        """
+        import time as _time
+        _t0 = _time.time()
+
+        # Récupère les notes sans extraction complète
+        paths_needing = self.repository.get_paths_without_extraction()
+
+        if not paths_needing:
+            return  # Toutes les notes ont déjà les données
+
+        # Filtre pour ne garder que les notes actuelles
+        notes_needing = [n for n in self.notes if n.path in paths_needing]
+
+        if not notes_needing:
+            return
+
+        print(f"   📊 Pré-extraction wiki_links/terms: {len(notes_needing)} notes")
+
+        for i, note in enumerate(notes_needing):
+            note_content = getattr(note, 'content', '') or ''
+            text_lower = f"{note.title} {note_content}".lower()
+
+            # Extraction wiki_links
+            wiki_links = self._extract_wiki_links(note_content)
+
+            # Extraction terms
+            terms = self._extract_term_candidates(text_lower)
+
+            # Mise à jour (ne touche pas aux autres champs)
+            self.repository.update_extracted_data(
+                note.path,
+                wiki_links=wiki_links,
+                terms=terms,
+            )
+
+            if (i + 1) % 50 == 0:
+                print(f"      Pré-extraction: {i+1}/{len(notes_needing)}")
+
+        print(f"   ✓ Pré-extraction terminée ({_time.time() - _t0:.1f}s)")
+
     def _load_extracted_cache(self) -> dict[str, dict]:
         """Charge les données extraites depuis la DB pour le cache.
 
@@ -726,9 +780,9 @@ class TagGeneratorV2:
         all_db_notes = self.repository.get_all_notes()
 
         for db_note in all_db_notes:
-            extracted = db_note.get_extracted_data()
-            # Ne cache que les notes qui ont des données extraites
-            if extracted.get("wiki_links") or extracted.get("terms") or extracted.get("entities"):
+            # Vérifie si la note a des données extraites (colonne non NULL)
+            if db_note.extracted_terms_json is not None:
+                extracted = db_note.get_extracted_data()
                 cache[db_note.path] = {
                     "wiki_links": set(extracted.get("wiki_links", [])),
                     "entities": extracted.get("entities", {}),

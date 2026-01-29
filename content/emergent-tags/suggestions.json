@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-29T13:10:14.235109",
+  "generated_at": "2026-01-29T12:13:42.144945",
   "vault_hash": "3d7d165f",
   "suggestions": {
     "new_tags": [
@@ -9,8 +9,8 @@
         "name": "droit",
         "confidence": 0.95,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
         ],
         "reasoning": {
           "summary": "Terme 'droit' validé: terme toujours valide (nom propre/entité)",
@@ -29,7 +29,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235178",
+        "first_detected": "2026-01-29T12:13:42.145015",
         "source": "emergent"
       },
       {
@@ -37,16 +37,16 @@
         "name": "entité\\états-unis",
         "confidence": 0.93,
         "notes": [
-          "info box 1 1.md",
           "info box 1.md",
-          "info box.md",
           "Termes Specialises par Domaine.md",
-          "Clippings/métallurgie  Britannica.md",
+          "info box 1 1.md",
+          "info box.md",
           "YouTube Notes/Timestamps 2.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Cyberpunk_Edgerunners.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le Bonheur.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le travail.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Hamilton.md"
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Hamilton.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Tudor.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Yema.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Rolex.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Jaeger-LeCoultre.md"
         ],
         "reasoning": {
           "summary": "Entité politique détecté(e) dans 41 notes",
@@ -60,57 +60,25 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235193",
+        "first_detected": "2026-01-29T12:13:42.145022",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_008",
-        "name": "entité\\empire-romain",
-        "confidence": 0.93,
-        "notes": [
-          "Clippings/métallurgie  Britannica.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 10 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-romain",
-            "total_occurrences": 73,
-            "notes_count": 10,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235203",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_020",
+        "id": "lt_ent_015",
         "name": "geo\\europe\\suisse",
         "confidence": 0.93,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Audemars Piguet.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Blancpain.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Certina.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Chopard.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Hamilton.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Hublot.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Omega.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Blancpain.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Zenith.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Tudor.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Certina.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Rolex.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/IWC.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Jaeger-LeCoultre.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Mido.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Omega.md"
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Tissot .md"
         ],
         "reasoning": {
           "summary": "Lieu géographique détecté(e) dans 16 notes",
@@ -124,7 +92,39 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235213",
+        "first_detected": "2026-01-29T12:13:42.145028",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_019",
+        "name": "entité\\empire-romain",
+        "confidence": 0.93,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle.md",
+          "Clippings/métallurgie  Britannica.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 10 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "empire-romain",
+            "total_occurrences": 73,
+            "notes_count": 10,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-29T12:13:42.145034",
         "source": "reference_db",
         "alternatives": []
       },
@@ -133,8 +133,8 @@
         "name": "jung",
         "confidence": 0.86,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Pulp Fiction.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Junghans.md"
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Junghans.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Pulp Fiction.md"
         ],
         "reasoning": {
           "summary": "Personne détecté(e) dans 2 notes",
@@ -148,7 +148,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235221",
+        "first_detected": "2026-01-29T12:13:42.145040",
         "source": "reference_db",
         "alternatives": [
           {
@@ -159,14 +159,14 @@
         ]
       },
       {
-        "id": "lt_ent_018",
+        "id": "lt_ent_030",
         "name": "monet",
         "confidence": 0.86,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle tournée vers la droite.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle tournée vers la gauche.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
           "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle tournée vers la droite.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle tournée vers la gauche.md"
         ],
         "reasoning": {
           "summary": "Personne détecté(e) dans 4 notes",
@@ -180,7 +180,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235228",
+        "first_detected": "2026-01-29T12:13:42.145047",
         "source": "reference_db",
         "alternatives": [
           {
@@ -195,10 +195,10 @@
         "name": "entité\\empire-perse",
         "confidence": 0.85,
         "notes": [
-          "info box 1 1.md",
           "info box 1.md",
-          "Clippings/métallurgie  Britannica.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+          "info box 1 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/métallurgie  Britannica.md"
         ],
         "reasoning": {
           "summary": "Entité politique détecté(e) dans 4 notes",
@@ -212,7 +212,32 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235237",
+        "first_detected": "2026-01-29T12:13:42.145054",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_008",
+        "name": "geo\\asie\\chine",
+        "confidence": 0.85,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "YouTube Notes/Timestamps 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
+        ],
+        "reasoning": {
+          "summary": "Lieu géographique détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "place",
+            "raw_text": "chine",
+            "total_occurrences": 28,
+            "notes_count": 3,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-29T12:13:42.145062",
         "source": "reference_db",
         "alternatives": []
       },
@@ -221,29 +246,25 @@
         "name": "mathématiques",
         "confidence": 0.85,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
-          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): loi, variable, opération, fonction, valeur propre...",
+          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): corps, ensemble, taux, loi, mesure...",
           "details": {
             "family": "discipline",
             "family_label": "Discipline",
             "source_terms": [
-              "division"
+              "population"
             ],
             "is_valid": true,
             "confidence": 0.8500000000000001,
             "reasons": [
               "Validé à profondeur 0: 4 VSC (seuil: 2)",
-              "Mots comptés: loi, variable, opération, fonction, valeur propre...",
-              "Mots consommés: nombre, ensemble, variable"
+              "Mots comptés: corps, ensemble, taux, loi, mesure...",
+              "Mots consommés: variable, ensemble, nombre"
             ],
             "category": "cascade",
             "validated_paths": [
@@ -252,25 +273,25 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
+                  "corps",
                   "loi",
+                  "suite",
+                  "voisinage",
+                  "nombre",
+                  "fonction",
+                  "somme",
+                  "primitive",
+                  "côté",
+                  "ensemble",
+                  "taux",
+                  "mesure",
                   "opération",
+                  "degré",
+                  "variable",
+                  "rang",
                   "valeur propre",
                   "inverse",
-                  "primitive",
-                  "taux",
-                  "voisinage",
-                  "point",
-                  "côté",
-                  "rang",
-                  "corps",
-                  "variable",
-                  "fonction",
-                  "ensemble",
-                  "nombre",
-                  "suite",
-                  "somme",
-                  "degré",
-                  "mesure"
+                  "point"
                 ],
                 "is_subnotion": false
               },
@@ -279,30 +300,30 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "métal",
-                  "or",
-                  "accumulation",
-                  "production",
-                  "demande",
-                  "sesterce",
-                  "capital",
-                  "marchandise",
-                  "argent",
-                  "taux",
-                  "pièce",
-                  "marché",
-                  "valeur",
-                  "as",
-                  "atelier",
-                  "monnaie",
-                  "offre",
-                  "travail",
                   "prix",
-                  "salaire",
-                  "cuivre",
                   "échange",
                   "profit",
-                  "intérêt"
+                  "capital",
+                  "métal",
+                  "sesterce",
+                  "production",
+                  "intérêt",
+                  "marchandise",
+                  "cuivre",
+                  "or",
+                  "offre",
+                  "valeur",
+                  "travail",
+                  "salaire",
+                  "pièce",
+                  "taux",
+                  "demande",
+                  "argent",
+                  "monnaie",
+                  "accumulation",
+                  "atelier",
+                  "as",
+                  "marché"
                 ],
                 "is_subnotion": true
               },
@@ -311,34 +332,34 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "physique",
-                  "être",
-                  "doute",
-                  "simples",
-                  "raison",
-                  "bien",
-                  "bonheur",
-                  "existence",
-                  "parties",
-                  "vérité",
-                  "utilité",
-                  "matière",
-                  "mêmes",
-                  "sagesse",
-                  "corps",
-                  "tant",
-                  "absurde",
-                  "choses",
-                  "valeur",
-                  "mal",
-                  "liberté",
-                  "projet",
                   "autorité",
-                  "propres",
-                  "pouvoir",
-                  "droit",
+                  "projet",
+                  "corps",
+                  "vérité",
                   "proposition",
-                  "état"
+                  "simples",
+                  "pouvoir",
+                  "absurde",
+                  "sagesse",
+                  "physique",
+                  "mêmes",
+                  "existence",
+                  "matière",
+                  "valeur",
+                  "utilité",
+                  "choses",
+                  "raison",
+                  "propres",
+                  "tant",
+                  "être",
+                  "bien",
+                  "droit",
+                  "parties",
+                  "doute",
+                  "bonheur",
+                  "état",
+                  "liberté",
+                  "mal"
                 ],
                 "is_subnotion": false
               },
@@ -347,19 +368,19 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "royaume",
-                  "esclave",
-                  "république",
-                  "punique",
-                  "commerce",
-                  "époque",
-                  "siècle",
-                  "empire",
                   "tyrannie",
-                  "égaux",
-                  "guerre",
                   "siège",
-                  "révolution"
+                  "punique",
+                  "époque",
+                  "égaux",
+                  "république",
+                  "siècle",
+                  "royaume",
+                  "révolution",
+                  "empire",
+                  "esclave",
+                  "guerre",
+                  "commerce"
                 ],
                 "is_subnotion": true
               },
@@ -368,16 +389,16 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "champ",
-                  "loi",
-                  "constante",
-                  "masse",
-                  "matière",
-                  "probabilité",
-                  "force",
                   "temps",
+                  "loi",
                   "mesure",
-                  "inertie"
+                  "constante",
+                  "matière",
+                  "force",
+                  "champ",
+                  "inertie",
+                  "masse",
+                  "probabilité"
                 ],
                 "is_subnotion": true
               },
@@ -386,24 +407,24 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "espèce",
-                  "décomposition",
+                  "corps",
                   "eau",
                   "espèces",
-                  "libre",
-                  "pied",
-                  "corps",
-                  "croissance",
-                  "achète",
-                  "vie",
-                  "règle",
-                  "mourir",
+                  "décomposition",
+                  "population",
                   "mort",
-                  "division",
+                  "croissance",
+                  "vie",
+                  "achète",
                   "bras",
-                  "classe",
                   "circulation",
-                  "population"
+                  "libre",
+                  "classe",
+                  "espèce",
+                  "mourir",
+                  "pied",
+                  "règle",
+                  "division"
                 ],
                 "is_subnotion": false
               },
@@ -412,16 +433,16 @@
                 "depth": 0,
                 "confidence": 0.8500000000000001,
                 "words_used": [
-                  "réel",
-                  "esprit",
-                  "ça",
                   "symptôme",
                   "réponse",
-                  "moi",
-                  "apprentissage",
-                  "langage",
+                  "esprit",
                   "manque",
-                  "sujet"
+                  "langage",
+                  "sujet",
+                  "moi",
+                  "ça",
+                  "réel",
+                  "apprentissage"
                 ],
                 "is_subnotion": false
               },
@@ -430,15 +451,15 @@
                 "depth": 0,
                 "confidence": 0.8300000000000001,
                 "words_used": [
-                  "champ",
-                  "distinction",
-                  "individu",
-                  "société",
                   "pouvoir",
                   "régulation",
+                  "société",
+                  "champ",
+                  "individu",
+                  "distinction",
                   "institution",
-                  "division",
-                  "classe"
+                  "classe",
+                  "division"
                 ],
                 "is_subnotion": false
               },
@@ -447,14 +468,14 @@
                 "depth": 0,
                 "confidence": 0.81,
                 "words_used": [
-                  "transformation",
-                  "génération",
-                  "valeur",
-                  "règle",
                   "mot",
-                  "signe",
                   "langage",
-                  "sens"
+                  "transformation",
+                  "valeur",
+                  "sens",
+                  "génération",
+                  "signe",
+                  "règle"
                 ],
                 "is_subnotion": false
               }
@@ -668,41 +689,16 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235245",
+        "first_detected": "2026-01-29T12:13:42.145069",
         "source": "emergent"
-      },
-      {
-        "id": "lt_ent_009",
-        "name": "geo\\asie\\chine",
-        "confidence": 0.85,
-        "notes": [
-          "YouTube Notes/Timestamps 1.md",
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
-        ],
-        "reasoning": {
-          "summary": "Lieu géographique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "place",
-            "raw_text": "chine",
-            "total_occurrences": 28,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235250",
-        "source": "reference_db",
-        "alternatives": []
       },
       {
         "id": "lt_spec_000",
         "name": "caca",
         "confidence": 0.85,
         "notes": [
-          "info box 1 1.md",
-          "info box 1.md"
+          "info box 1.md",
+          "info box 1 1.md"
         ],
         "reasoning": {
           "summary": "Terme spécialisé 'caca' validé par terme exact",
@@ -716,7 +712,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235254",
+        "first_detected": "2026-01-29T12:13:42.145077",
         "source": "specialized_term"
       },
       {
@@ -726,10 +722,10 @@
         "notes": [
           "info box.md",
           "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md"
         ],
         "reasoning": {
           "summary": "Entité politique détecté(e) dans 6 notes",
@@ -743,12 +739,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235258",
+        "first_detected": "2026-01-29T12:13:42.145081",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_011",
+        "id": "lt_ent_009",
         "name": "geo\\asie\\japon",
         "confidence": 0.84,
         "notes": [
@@ -767,12 +763,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235263",
+        "first_detected": "2026-01-29T12:13:42.145084",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_022",
+        "id": "lt_ent_027",
         "name": "entité\\second-empire-français",
         "confidence": 0.84,
         "notes": [
@@ -791,12 +787,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235268",
+        "first_detected": "2026-01-29T12:13:42.145087",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_012",
+        "id": "lt_ent_010",
         "name": "entité\\empire-ottoman",
         "confidence": 0.82,
         "notes": [
@@ -816,12 +812,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235272",
+        "first_detected": "2026-01-29T12:13:42.145090",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_021",
+        "id": "lt_ent_016",
         "name": "mouvement\\renaissance",
         "confidence": 0.82,
         "notes": [
@@ -840,18 +836,18 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235276",
+        "first_detected": "2026-01-29T12:13:42.145094",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_023",
+        "id": "lt_ent_018",
         "name": "substance\\aristote",
         "confidence": 0.81,
         "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md"
         ],
         "reasoning": {
           "summary": "Concept théorique détecté(e) dans 3 notes",
@@ -865,17 +861,17 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235281",
+        "first_detected": "2026-01-29T12:13:42.145097",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_026",
+        "id": "lt_ent_022",
         "name": "geo\\asie\\inde",
         "confidence": 0.81,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Hermann Heinrich Gossen.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Hermann Heinrich Gossen.md"
         ],
         "reasoning": {
           "summary": "Lieu géographique détecté(e) dans 2 notes",
@@ -889,17 +885,17 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235285",
+        "first_detected": "2026-01-29T12:13:42.145100",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_028",
+        "id": "lt_ent_023",
         "name": "entité\\carthage",
         "confidence": 0.81,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
         ],
         "reasoning": {
           "summary": "Entité politique détecté(e) dans 2 notes",
@@ -913,12 +909,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235289",
+        "first_detected": "2026-01-29T12:13:42.145103",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_014",
+        "id": "lt_ent_007",
         "name": "entité\\empire-austro-hongrois",
         "confidence": 0.8,
         "notes": [
@@ -937,18 +933,18 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235293",
+        "first_detected": "2026-01-29T12:13:42.145106",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_015",
+        "id": "lt_ent_025",
         "name": "hume",
         "confidence": 0.8,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹  🍖 Recette/Drawing 2024-12-19 20.45.02.excalidraw.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md"
+          "⁰ 🧭 Cercle Béni 🧭/¹  🍖 Recette/Drawing 2024-12-19 20.45.02.excalidraw.md"
         ],
         "reasoning": {
           "summary": "Personne détecté(e) dans 3 notes",
@@ -962,7 +958,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235298",
+        "first_detected": "2026-01-29T12:13:42.145109",
         "source": "reference_db",
         "alternatives": [
           {
@@ -977,14 +973,10 @@
         "name": "cogito-ergo-sum",
         "confidence": 0.8,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
           "summary": "Objet 'cogito-ergo-sum' (tag plat) validé - déclencheurs: doute, je pense",
@@ -1002,7 +994,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235302",
+        "first_detected": "2026-01-29T12:13:42.145112",
         "source": "emergent"
       },
       {
@@ -1011,9 +1003,9 @@
         "confidence": 0.79,
         "notes": [
           "info box.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/David Ricardo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/David Ricardo.md"
         ],
         "reasoning": {
           "summary": "Concept théorique détecté(e) dans 4 notes",
@@ -1027,7 +1019,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235306",
+        "first_detected": "2026-01-29T12:13:42.145115",
         "source": "context_resolved",
         "alternatives": []
       },
@@ -1041,11 +1033,11 @@
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Bulova.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Cartier.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Longines.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/David Ricardo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/John Maynard Keynes.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md"
         ],
         "reasoning": {
           "summary": "Discipline détecté(e) dans 37 notes",
@@ -1059,25 +1051,25 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235311",
+        "first_detected": "2026-01-29T12:13:42.145118",
         "source": "context_primary",
         "alternatives": []
       },
       {
-        "id": "lt_ent_024",
+        "id": "lt_ent_021",
         "name": "I-fin",
         "confidence": 0.79,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
         ],
         "reasoning": {
           "summary": "Date/Siècle détecté(e) dans 4 notes",
           "details": {
             "entity_type": "date",
-            "raw_text": "i",
+            "raw_text": "I",
             "total_occurrences": 4,
             "notes_count": 4,
             "in_reference_db": false,
@@ -1085,7 +1077,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235315",
+        "first_detected": "2026-01-29T12:13:42.145122",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1096,12 +1088,12 @@
         ]
       },
       {
-        "id": "lt_ent_027",
+        "id": "lt_ent_028",
         "name": "hayek",
         "confidence": 0.79,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/John Maynard Keynes.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Robert Heilbroner.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Robert Heilbroner.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/John Maynard Keynes.md"
         ],
         "reasoning": {
           "summary": "Personne détecté(e) dans 2 notes",
@@ -1115,7 +1107,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235319",
+        "first_detected": "2026-01-29T12:13:42.145125",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1131,10 +1123,10 @@
         "confidence": 0.78,
         "notes": [
           "info box.md",
-          "Tempate commande/info box.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Tempate commande/info box.md"
         ],
         "reasoning": {
           "summary": "Date/Siècle détecté(e) dans 5 notes",
@@ -1148,17 +1140,17 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235324",
+        "first_detected": "2026-01-29T12:13:42.145128",
         "source": "pattern_year",
         "alternatives": []
       },
       {
-        "id": "lt_ent_019",
+        "id": "lt_ent_031",
         "name": "aristote",
         "confidence": 0.78,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le travail.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/PDF théorie de la valeur (Ricardo)/histoire-pensee-economique.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/PDF théorie de la valeur (Ricardo)/histoire-pensee-economique.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le travail.md"
         ],
         "reasoning": {
           "summary": "Personne détecté(e) dans 2 notes",
@@ -1172,12 +1164,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235328",
+        "first_detected": "2026-01-29T12:13:42.145131",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_013",
+        "id": "lt_ent_011",
         "name": "entité\\urss",
         "confidence": 0.77,
         "notes": [
@@ -1196,12 +1188,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235332",
+        "first_detected": "2026-01-29T12:13:42.145134",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_010",
+        "id": "lt_ent_012",
         "name": "entité\\premier-empire",
         "confidence": 0.76,
         "notes": [
@@ -1220,17 +1212,17 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235339",
+        "first_detected": "2026-01-29T12:13:42.145137",
         "source": "reference_related",
         "alternatives": []
       },
       {
-        "id": "lt_ent_016",
+        "id": "lt_ent_026",
         "name": "mouvement\\pop-art",
         "confidence": 0.76,
         "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
         ],
         "reasoning": {
           "summary": "Mouvement artistique détecté(e) dans 2 notes",
@@ -1244,7 +1236,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235350",
+        "first_detected": "2026-01-29T12:13:42.145140",
         "source": "reference_db",
         "alternatives": []
       },
@@ -1254,9 +1246,9 @@
         "confidence": 0.75,
         "notes": [
           "info box.md",
-          "Tempate commande/info box.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md"
+          "Tempate commande/info box.md"
         ],
         "reasoning": {
           "summary": "Date/Siècle détecté(e) dans 4 notes",
@@ -1270,49 +1262,19 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235361",
+        "first_detected": "2026-01-29T12:13:42.145143",
         "source": "pattern_year",
         "alternatives": []
       },
       {
-        "id": "lt_ent_029",
-        "name": "V-fin",
-        "confidence": 0.75,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "V",
-            "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": false,
-            "in_title": true
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235371",
-        "source": "pattern_date",
-        "alternatives": [
-          {
-            "name": "V",
-            "reason": "Format conventionnel pour Date/Siècle",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_030",
+        "id": "lt_ent_013",
         "name": "X-fin",
         "confidence": 0.75,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Dérivée.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Tangente.md",
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Cosinus.md",
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Logarithme.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Tangente.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Dérivée.md"
         ],
         "reasoning": {
           "summary": "Date/Siècle détecté(e) dans 4 notes",
@@ -1326,17 +1288,17 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235376",
+        "first_detected": "2026-01-29T12:13:42.145145",
         "source": "pattern_date",
         "alternatives": []
       },
       {
-        "id": "lt_ent_031",
+        "id": "lt_ent_020",
         "name": "IV-fin",
         "confidence": 0.75,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md"
         ],
         "reasoning": {
           "summary": "Date/Siècle détecté(e) dans 2 notes",
@@ -1350,7 +1312,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235381",
+        "first_detected": "2026-01-29T12:13:42.145148",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1361,18 +1323,44 @@
         ]
       },
       {
+        "id": "lt_ent_024",
+        "name": "V-fin",
+        "confidence": 0.75,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+        ],
+        "reasoning": {
+          "summary": "Date/Siècle détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "date",
+            "raw_text": "V",
+            "total_occurrences": 2,
+            "notes_count": 2,
+            "in_reference_db": false,
+            "in_title": true
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-29T12:13:42.145150",
+        "source": "pattern_date",
+        "alternatives": [
+          {
+            "name": "V",
+            "reason": "Format conventionnel pour Date/Siècle",
+            "is_convention": true
+          }
+        ]
+      },
+      {
         "id": "lt_emg_003",
         "name": "principe-d-incertitude",
         "confidence": 0.75,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
           "summary": "Objet 'principe-d-incertitude' (tag plat) validé - déclencheurs: incertitude",
@@ -1389,7 +1377,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235385",
+        "first_detected": "2026-01-29T12:13:42.145154",
         "source": "emergent"
       },
       {
@@ -1397,14 +1385,10 @@
         "name": "aureus",
         "confidence": 0.75,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
           "summary": "Objet 'aureus' (tag plat) validé - déclencheurs: or",
@@ -1421,7 +1405,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235390",
+        "first_detected": "2026-01-29T12:13:42.145156",
         "source": "emergent"
       },
       {
@@ -1429,14 +1413,10 @@
         "name": "habitus",
         "confidence": 0.75,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
         ],
         "reasoning": {
           "summary": "Objet 'habitus' (tag plat) validé - déclencheurs: disposition",
@@ -1453,11 +1433,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235394",
+        "first_detected": "2026-01-29T12:13:42.145159",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_025",
+        "id": "lt_ent_029",
         "name": "XVIII\\1793",
         "confidence": 0.72,
         "notes": [
@@ -1476,28 +1456,154 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-29T13:10:14.235398",
+        "first_detected": "2026-01-29T12:13:42.145161",
         "source": "pattern_year",
         "alternatives": []
       }
     ],
     "tag_assignments": [
       {
-        "id": "ta_000",
+        "id": "ta_002",
+        "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Dorohedoro.md",
+        "tag": "audiovisuel",
+        "confidence": 0.618810954093933,
+        "reasoning": {
+          "summary": "2 notes similaires ont ce tag",
+          "details": {
+            "matching_notes": [
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
+                "similarity": 0.6430280447006226
+              },
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md",
+                "similarity": 0.5535746812820435
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ta_006",
         "note": "Tempate commande/livre note.md",
         "tag": "note-The_Wealth_of_Nations",
-        "confidence": 0.617830988963445,
+        "confidence": 0.617831051548322,
         "reasoning": {
           "summary": "2 notes similaires ont ce tag",
           "details": {
             "matching_notes": [
               {
                 "path": "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md",
-                "similarity": 0.6428835948308308
+                "similarity": 0.6428836663564046
               },
               {
                 "path": "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-                "similarity": 0.5509192307790121
+                "similarity": 0.5509193380673726
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ta_003",
+        "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/BoJack Horseman.md",
+        "tag": "audiovisuel",
+        "confidence": 0.6035065191984176,
+        "reasoning": {
+          "summary": "2 notes similaires ont ce tag",
+          "details": {
+            "matching_notes": [
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
+                "similarity": 0.59576336145401
+              },
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md",
+                "similarity": 0.5571124076843261
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ta_001",
+        "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Teacher Onizuka.md",
+        "tag": "audiovisuel",
+        "confidence": 0.6031645929813385,
+        "reasoning": {
+          "summary": "2 notes similaires ont ce tag",
+          "details": {
+            "matching_notes": [
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
+                "similarity": 0.5905885219573974
+              },
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md",
+                "similarity": 0.5613103151321411
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ta_005",
+        "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samurai Champloo.md",
+        "tag": "audiovisuel",
+        "confidence": 0.6023394989967346,
+        "reasoning": {
+          "summary": "2 notes similaires ont ce tag",
+          "details": {
+            "matching_notes": [
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
+                "similarity": 0.5942581415176391
+              },
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md",
+                "similarity": 0.5552832841873169
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ta_004",
+        "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Pluto.md",
+        "tag": "audiovisuel",
+        "confidence": 0.5995330929756164,
+        "reasoning": {
+          "summary": "2 notes similaires ont ce tag",
+          "details": {
+            "matching_notes": [
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
+                "similarity": 0.5898941874504089
+              },
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md",
+                "similarity": 0.5516289353370666
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ta_000",
+        "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Complots.md",
+        "tag": "Wit-Studio",
+        "confidence": 0.5995034652948379,
+        "reasoning": {
+          "summary": "2 notes similaires ont ce tag",
+          "details": {
+            "matching_notes": [
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md",
+                "similarity": 0.5862838625907898
+              },
+              {
+                "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
+                "similarity": 0.5551546096801757
               }
             ]
           }
@@ -1511,7 +1617,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.494388",
+          "last_used": "2026-01-29T12:07:58.390447",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1521,7 +1627,7 @@
         "alternative_tags": [
           "note-livre",
           "livre",
-          "cite_note-tedford2009-1"
+          "L"
         ]
       },
       {
@@ -1530,7 +1636,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.244900",
+          "last_used": "2026-01-29T12:07:58.401708",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1538,66 +1644,104 @@
         },
         "recommendation": "review",
         "alternative_tags": [
-          "reference",
+          "Comportement",
+          "Mammif",
+          "exclrw"
+        ]
+      },
+      {
+        "tag": "Division_of_Labor",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-29T12:07:58.455918",
+          "days_inactive": 0,
+          "notes_using": [
+            "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Fonction/Exponentielle",
+          "Mode_de_vie_et_reproduction",
+          "Chez_les_chiens"
+        ]
+      },
+      {
+        "tag": "Free_Market",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-29T12:07:58.472189",
+          "days_inactive": 0,
+          "notes_using": [
+            "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "finance",
+          "Laissez_Faire",
+          "cite_note-Mivart-9"
+        ]
+      },
+      {
+        "tag": "Invisible_Hand",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-29T12:07:58.389285",
+          "days_inactive": 0,
+          "notes_using": [
+            "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Laissez_Faire",
           "livre",
-          "note-livre"
+          "Chez_les_chiens"
         ]
       },
       {
-        "tag": "Japanese_Modernization",
+        "tag": "Laissez_Faire",
         "issue": "low_usage",
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.673158",
+          "last_used": "2026-01-29T12:07:58.400490",
           "days_inactive": 0,
           "notes_using": [
-            "YouTube Notes/Timestamps 2.md"
+            "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
           ]
         },
         "recommendation": "review",
         "alternative_tags": [
-          "Meiji-Era",
-          "Masayuki-Kojima",
-          "Yutaka-Yamada"
+          "Chez_les_chiens",
+          "Comportement",
+          "Mammif"
         ]
       },
       {
-        "tag": "Meiji-Era",
+        "tag": "Sting",
         "issue": "low_usage",
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.294795",
+          "last_used": "2026-01-29T12:07:58.391655",
           "days_inactive": 0,
           "notes_using": [
-            "YouTube Notes/Timestamps 2.md"
+            "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon.md"
           ]
         },
         "recommendation": "review",
         "alternative_tags": [
-          "Yutaka-Yamada",
-          "Japanese_Modernization",
-          "Kuniaki-Haishima"
-        ]
-      },
-      {
-        "tag": "Russo-Japanese-War",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.230255",
-          "days_inactive": 0,
-          "notes_using": [
-            "YouTube Notes/Timestamps 2.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "russian_empire",
-          "Japanese_Modernization",
-          "Meiji-Era"
+          "Comportement",
+          "Mammif",
+          "exclrw"
         ]
       },
       {
@@ -1606,7 +1750,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.504535",
+          "last_used": "2026-01-29T12:07:58.386634",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
@@ -1618,178 +1762,65 @@
           "livre",
           "L"
         ]
-      },
-      {
-        "tag": "Sting",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.636042",
-          "days_inactive": 0,
-          "notes_using": [
-            "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "Mammif",
-          "L",
-          "livre"
-        ]
-      },
-      {
-        "tag": "Division_of_Labor",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.509250",
-          "days_inactive": 0,
-          "notes_using": [
-            "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "Fonction/Exponentielle",
-          "smith/argent_conditions_valeur_",
-          "XX"
-        ]
-      },
-      {
-        "tag": "Free_Market",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.557349",
-          "days_inactive": 0,
-          "notes_using": [
-            "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "finance",
-          "The_Wealth_of_Nations",
-          "note-The_Wealth_of_Nations"
-        ]
-      },
-      {
-        "tag": "Invisible_Hand",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.234588",
-          "days_inactive": 0,
-          "notes_using": [
-            "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "livre",
-          "note-livre",
-          "Sting"
-        ]
-      },
-      {
-        "tag": "Laissez_Faire",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.374652",
-          "days_inactive": 0,
-          "notes_using": [
-            "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "livre",
-          "L",
-          "exclrw"
-        ]
-      },
-      {
-        "tag": "medium",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-01-29T12:58:42.473193",
-          "days_inactive": 0,
-          "notes_using": [
-            "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "livre",
-          "Wit-Studio",
-          "L"
-        ]
       }
     ],
     "redundant_tags": []
   },
   "clusters": [
     {
-      "id": "cl_002",
+      "id": "cl_000",
       "name": "Cluster",
       "notes": [
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (3).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (6).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
         "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (3).md",
         "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
         "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4) 1.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (5).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (7).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (3).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (4).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (3).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap III/note chap III, Livre I.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (3).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (4).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (5).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VII/note chap VII, Livre I (2).md",
         "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4).md",
-        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I.md"
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (2).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (4) 1.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (6).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (3).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I.md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (6).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md",
+        "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note chap I, Livre I.md"
       ],
       "coherence": 0.72,
       "centroid_terms": [
         "note",
         "chap",
         "livre",
-        "iii,"
+        "viii,",
+        "vii,"
       ],
       "suggested_tags": [
         "note-The_Wealth_of_Nations",
@@ -1798,19 +1829,19 @@
       ]
     },
     {
-      "id": "cl_000",
+      "id": "cl_001",
       "name": "Cluster",
       "notes": [
+        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
         "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Audiovisuel.md",
         "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Devilman crybaby.md",
-        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
-        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
-        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
         "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Monster.md",
+        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mon voisin TOTORO.md",
+        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
+        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
+        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux.md",
         "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Paprika.md",
         "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md",
-        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Primal.md",
-        "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Shika non Ou.md",
         "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Steamboy.md"
       ],
       "coherence": 1.0,
@@ -1818,29 +1849,9 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Medical-Drama",
-        "Masayuki-Kojima",
-        "Naoki-Urasawa"
-      ]
-    },
-    {
-      "id": "cl_001",
-      "name": "Cluster",
-      "notes": [
-        "¹👹Le Labyrinthe de Dédale👹/² 👨‍👦 Anthropologie/👨‍👦 Anthropologie.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 👨‍👩‍👧 Sociologie/👥 Sociologie.md",
-        "¹👹Le Labyrinthe de Dédale👹/² 👨🏻 Psychologie/👤 Psychologie.md"
-      ],
-      "coherence": 0.79,
-      "centroid_terms": [
-        "anthropologie",
-        "sociologie",
-        "![[zzzzz",
-        "⚙️/image",
-        "🖼/image"
-      ],
-      "suggested_tags": [
-        "topfadewide"
+        "Naoki-Urasawa",
+        "Psychological-Thriller",
+        "Madhouse"
       ]
     }
   ],
