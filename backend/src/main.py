@@ -787,14 +787,18 @@ class TagGeneratorV2:
                 extracted_vocab = detector.extract_all_vocabulary_from_text(text_lower)
 
                 # 2. Extraction des entités (personnes, lieux, dates, concepts)
-                note_entities = entity_detector.detect_entities(note)
                 entities_by_type: dict[str, list[str]] = {}
-                for entity in note_entities.entities:
-                    etype = entity.entity_type.value
-                    if etype not in entities_by_type:
-                        entities_by_type[etype] = []
-                    if entity.raw_text not in entities_by_type[etype]:
-                        entities_by_type[etype].append(entity.raw_text)
+                try:
+                    note_entities = entity_detector.detect_entities(note)
+                    for entity in note_entities.entities:
+                        etype = entity.entity_type.value
+                        if etype not in entities_by_type:
+                            entities_by_type[etype] = []
+                        if entity.raw_text not in entities_by_type[etype]:
+                            entities_by_type[etype].append(entity.raw_text)
+                except (AttributeError, Exception) as e:
+                    # Fallback si detect_entities échoue
+                    pass
 
                 # 3. Extraction des keywords (mots significatifs > 5 chars, hors stopwords)
                 keywords = self._extract_keywords(text_lower)
