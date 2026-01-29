@@ -137,13 +137,24 @@ def analyze_vault(
     notes_with_hash = [(n.path, n.content_hash) for n in notes]
     new_notes, modified_notes, unchanged_notes = repository.detect_note_changes(notes_with_hash)
 
+    # Affiche un résumé des changements détectés
+    changes_summary = []
     if new_notes:
-        print(f"   ✨ {len(new_notes)} nouvelles notes:")
+        changes_summary.append(f"{len(new_notes)} nouvelles")
+    if modified_notes:
+        changes_summary.append(f"{len(modified_notes)} modifiées")
+    if changes_summary:
+        print(f"   📊 Changements: {', '.join(changes_summary)}")
+    else:
+        print(f"   📊 Aucune modification détectée ({len(unchanged_notes)} notes inchangées)")
+
+    if new_notes:
+        print(f"   ✨ Nouvelles notes:")
         for path in new_notes:
             print(f"      + {path}")
 
     if modified_notes:
-        print(f"   📝 {len(modified_notes)} notes modifiées:")
+        print(f"   📝 Notes modifiées:")
         for path in modified_notes:
             print(f"      ~ {path}")
 
