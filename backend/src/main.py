@@ -771,7 +771,7 @@ class TagGeneratorV2:
         # Cas 1: Notes sans données d'extraction (nouvelles notes)
         # Cas 2: Notes dans needs_validation (modifiées, donc données potentiellement obsolètes)
         paths_without_extraction = self.repository.get_paths_without_extraction()
-        paths_needing_extraction = paths_without_extraction | needs_validation
+        paths_needing_extraction = paths_without_extraction | set(needs_validation)
         notes_needing_extraction = [n for n in self.notes if n.path in paths_needing_extraction]
 
         if notes_needing_extraction:
