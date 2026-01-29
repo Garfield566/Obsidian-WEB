@@ -133,11 +133,27 @@ def analyze_vault(
         print("⚠️  Aucune note trouvée. Arrêt.")
         return {"status": "empty", "notes": 0}
 
+    # Détecte les changements de notes (nouvelles, modifiées, inchangées)
+    notes_with_hash = [(n.path, n.content_hash) for n in notes]
+    new_notes, modified_notes, unchanged_notes = repository.detect_note_changes(notes_with_hash)
+
+    if new_notes:
+        print(f"   ✨ {len(new_notes)} nouvelles notes:")
+        for path in new_notes:
+            print(f"      + {path}")
+
+    if modified_notes:
+        print(f"   📝 {len(modified_notes)} notes modifiées:")
+        for path in modified_notes:
+            print(f"      ~ {path}")
+
     # Nettoie les notes supprimées de la DB (et leur cache)
     current_paths = [n.path for n in notes]
-    deleted = repository.delete_notes_not_in(current_paths)
-    if deleted > 0:
-        print(f"   🗑️  {deleted} notes supprimées (DB + cache)")
+    deleted_count, deleted_paths = repository.delete_notes_not_in(current_paths)
+    if deleted_count > 0:
+        print(f"   🗑️  {deleted_count} notes supprimées (DB + cache):")
+        for path in deleted_paths:
+            print(f"      - {path}")
 
     # 2. Intègre le feedback si disponible
     feedback_stats = None

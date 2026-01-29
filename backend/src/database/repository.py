@@ -120,15 +120,59 @@ class Repository:
             return True
         return note.content_hash != content_hash
 
-    def delete_notes_not_in(self, paths: list[str]) -> int:
-        """Supprime les notes qui ne sont plus dans le vault."""
-        deleted = (
+    def detect_note_changes(
+        self, notes: list[tuple[str, str]]
+    ) -> tuple[list[str], list[str], list[str]]:
+        """Détecte les notes nouvelles, modifiées et inchangées.
+
+        Args:
+            notes: Liste de tuples (path, content_hash) des notes parsées
+
+        Returns:
+            Tuple de:
+            - Liste des chemins des notes nouvelles
+            - Liste des chemins des notes modifiées
+            - Liste des chemins des notes inchangées
+        """
+        new_notes = []
+        modified_notes = []
+        unchanged_notes = []
+
+        # Récupère tous les content_hash en une seule requête
+        db_hashes = self.get_content_hashes()
+
+        for path, content_hash in notes:
+            if path not in db_hashes:
+                new_notes.append(path)
+            elif db_hashes[path] != content_hash:
+                modified_notes.append(path)
+            else:
+                unchanged_notes.append(path)
+
+        return new_notes, modified_notes, unchanged_notes
+
+    def delete_notes_not_in(self, paths: list[str]) -> tuple[int, list[str]]:
+        """Supprime les notes qui ne sont plus dans le vault.
+
+        Returns:
+            Tuple (nombre de notes supprimées, liste des chemins supprimés)
+        """
+        # Récupère d'abord les chemins des notes à supprimer
+        notes_to_delete = (
+            self.session.query(Note.path)
+            .filter(~Note.path.in_(paths))
+            .all()
+        )
+        deleted_paths = [n.path for n in notes_to_delete]
+
+        # Supprime les notes
+        deleted_count = (
             self.session.query(Note)
             .filter(~Note.path.in_(paths))
             .delete(synchronize_session="fetch")
         )
         self.session.commit()
-        return deleted
+        return deleted_count, deleted_paths
 
     def update_validation_cache(
         self,
