@@ -46,6 +46,8 @@ class Note(Base):
     extracted_vsca_json = Column(Text, nullable=True)  # JSON: mots VSCA trouvés {domain: [words]}
     extracted_entities_json = Column(Text, nullable=True)  # JSON: entités {type: [names]}
     extracted_keywords_json = Column(Text, nullable=True)  # JSON: mots-clés/concepts potentiels
+    extracted_wiki_links_json = Column(Text, nullable=True)  # JSON: liens wiki [[...]] trouvés
+    extracted_terms_json = Column(Text, nullable=True)  # JSON: termes candidats pour tags émergents
 
     __table_args__ = (Index("idx_notes_content_hash", "content_hash"),)
 
@@ -96,6 +98,8 @@ class Note(Base):
         vsca: Optional[dict[str, list[str]]] = None,
         entities: Optional[dict[str, list[str]]] = None,
         keywords: Optional[list[str]] = None,
+        wiki_links: Optional[list[str]] = None,
+        terms: Optional[list[str]] = None,
     ) -> None:
         """Stocke les données brutes extraites de la note.
 
@@ -104,12 +108,18 @@ class Note(Base):
             vsca: Mots VSCA par domaine {domain: [words]}
             entities: Entités par type {person: [], place: [], date: []}
             keywords: Liste de mots-clés/concepts potentiels
+            wiki_links: Liste des liens wiki [[...]] trouvés
+            terms: Liste des termes candidats pour tags émergents
         """
         import json
         if vsc is not None:
             self.extracted_vsc_json = json.dumps(vsc, ensure_ascii=False)
         if vsca is not None:
             self.extracted_vsca_json = json.dumps(vsca, ensure_ascii=False)
+        if wiki_links is not None:
+            self.extracted_wiki_links_json = json.dumps(wiki_links, ensure_ascii=False)
+        if terms is not None:
+            self.extracted_terms_json = json.dumps(terms, ensure_ascii=False)
         if entities is not None:
             self.extracted_entities_json = json.dumps(entities, ensure_ascii=False)
         if keywords is not None:
@@ -119,7 +129,7 @@ class Note(Base):
         """Récupère toutes les données brutes extraites.
 
         Returns:
-            Dict avec vsc, vsca, entities, keywords (ou listes/dicts vides si non définis)
+            Dict avec vsc, vsca, entities, keywords, wiki_links, terms
         """
         import json
         result = {
@@ -127,6 +137,8 @@ class Note(Base):
             "vsca": {},
             "entities": {},
             "keywords": [],
+            "wiki_links": [],
+            "terms": [],
         }
         try:
             if self.extracted_vsc_json:
@@ -137,6 +149,10 @@ class Note(Base):
                 result["entities"] = json.loads(self.extracted_entities_json)
             if self.extracted_keywords_json:
                 result["keywords"] = json.loads(self.extracted_keywords_json)
+            if self.extracted_wiki_links_json:
+                result["wiki_links"] = json.loads(self.extracted_wiki_links_json)
+            if self.extracted_terms_json:
+                result["terms"] = json.loads(self.extracted_terms_json)
         except (json.JSONDecodeError, TypeError):
             pass
         return result
@@ -352,7 +368,13 @@ def _run_migrations(engine) -> None:
         ("extracted_keywords_json", "TEXT"),
     ]
 
-    all_migrations = migration_v1_columns + migration_v2_columns
+    # Colonnes à ajouter si manquantes (migration v3: cache émergents)
+    migration_v3_columns = [
+        ("extracted_wiki_links_json", "TEXT"),
+        ("extracted_terms_json", "TEXT"),
+    ]
+
+    all_migrations = migration_v1_columns + migration_v2_columns + migration_v3_columns
 
     with engine.connect() as conn:
         for col_name, col_type in all_migrations:

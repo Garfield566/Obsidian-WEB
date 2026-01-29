@@ -656,9 +656,13 @@ class TagGeneratorV2:
         # Crée le dict notes pour le détecteur
         notes_dict = {n.path: n for n in self.notes}
 
+        # Charge le cache des données extraites depuis la DB
+        extracted_cache = self._load_extracted_cache()
+
         # Détecte les tags émergents dans tous les clusters
         emergent_tags = detect_emergent_tags_in_clusters(
-            self.clusters, notes_dict, self.existing_tags
+            self.clusters, notes_dict, self.existing_tags,
+            extracted_cache=extracted_cache
         )
 
         for emergent in emergent_tags:
@@ -711,6 +715,27 @@ class TagGeneratorV2:
                 break
 
         return suggestions
+
+    def _load_extracted_cache(self) -> dict[str, dict]:
+        """Charge les données extraites depuis la DB pour le cache.
+
+        Returns:
+            Dict {path: {"wiki_links": [...], "entities": {...}, "terms": [...]}}
+        """
+        cache = {}
+        all_db_notes = self.repository.get_all_notes()
+
+        for db_note in all_db_notes:
+            extracted = db_note.get_extracted_data()
+            # Ne cache que les notes qui ont des données extraites
+            if extracted.get("wiki_links") or extracted.get("terms") or extracted.get("entities"):
+                cache[db_note.path] = {
+                    "wiki_links": set(extracted.get("wiki_links", [])),
+                    "entities": extracted.get("entities", {}),
+                    "terms": set(extracted.get("terms", [])),
+                }
+
+        return cache
 
     def _compute_validation_hash(self, detector: EmergentTagDetector) -> str:
         """Calcule un hash pour invalider le cache quand la config change."""
@@ -805,6 +830,12 @@ class TagGeneratorV2:
                 # 3. Extraction des keywords (mots significatifs > 5 chars, hors stopwords)
                 keywords = self._extract_keywords(text_lower)
 
+                # 4. Extraction des liens wiki [[...]]
+                wiki_links = self._extract_wiki_links(note_content)
+
+                # 5. Extraction des termes candidats (pour tags émergents)
+                terms = self._extract_term_candidates(text_lower)
+
                 # Stocke toutes les données brutes
                 self.repository.update_extracted_data(
                     note.path,
@@ -812,6 +843,8 @@ class TagGeneratorV2:
                     vsca=extracted_vocab["vsca"],
                     entities=entities_by_type,
                     keywords=keywords,
+                    wiki_links=wiki_links,
+                    terms=terms,
                 )
                 if (i + 1) % 50 == 0:
                     print(f"      Extraction: {i+1}/{len(notes_needing_extraction)}")
@@ -972,6 +1005,61 @@ class TagGeneratorV2:
 
         # Retourne les plus fréquents
         return [word for word, _ in word_counts.most_common(max_keywords)]
+
+    def _extract_wiki_links(self, content: str) -> list[str]:
+        """Extrait les liens wiki [[...]] du contenu.
+
+        Args:
+            content: Contenu de la note
+
+        Returns:
+            Liste des liens wiki (en minuscules)
+        """
+        import re
+        pattern = re.compile(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]')
+        matches = pattern.findall(content)
+        return list(set(m.lower() for m in matches))
+
+    def _extract_term_candidates(self, text: str) -> list[str]:
+        """Extrait les termes candidats pour tags émergents.
+
+        Args:
+            text: Texte en minuscules
+
+        Returns:
+            Liste des termes candidats (mots significatifs + bigrammes)
+        """
+        import re
+
+        # Stopwords français courants (même liste que _extract_keywords)
+        STOPWORDS = {
+            "le", "la", "les", "un", "une", "des", "de", "du", "au", "aux",
+            "ce", "cette", "ces", "mon", "ton", "son", "notre", "votre", "leur",
+            "qui", "que", "quoi", "dont", "où", "quand", "comment", "pourquoi",
+            "et", "ou", "mais", "donc", "car", "ni", "or", "soit",
+            "je", "tu", "il", "elle", "nous", "vous", "ils", "elles", "on",
+            "être", "avoir", "faire", "dire", "aller", "voir", "pouvoir", "vouloir",
+            "dans", "pour", "avec", "sans", "sur", "sous", "entre", "vers", "chez",
+            "par", "plus", "moins", "très", "bien", "mal", "peu", "trop", "aussi",
+            "comme", "ainsi", "alors", "encore", "toujours", "jamais", "déjà",
+            "tout", "tous", "toute", "toutes", "autre", "autres", "même", "mêmes",
+            "après", "avant", "pendant", "depuis", "jusqu", "selon", "contre",
+            "cela", "ceci", "celui", "celle", "ceux", "celles",
+            "fait", "sont", "était", "avoir", "être", "peut", "doit", "faut",
+        }
+
+        # Extrait les mots significatifs (min 4 caractères)
+        words = re.findall(r'\b[a-zàâäéèêëïîôùûüç]{4,}\b', text)
+        words = [w for w in words if w not in STOPWORDS]
+
+        terms = set(words)
+
+        # Ajoute les bigrammes (noms composés)
+        for i in range(len(words) - 1):
+            bigram = f"{words[i]} {words[i+1]}"
+            terms.add(bigram)
+
+        return list(terms)
 
     def _get_family_label(self, family: TagFamily) -> str:
         """Retourne un label lisible pour une famille de tags (V1 legacy)."""

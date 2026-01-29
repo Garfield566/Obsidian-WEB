@@ -172,6 +172,8 @@ class Repository:
         vsca: Optional[dict[str, list[str]]] = None,
         entities: Optional[dict[str, list[str]]] = None,
         keywords: Optional[list[str]] = None,
+        wiki_links: Optional[list[str]] = None,
+        terms: Optional[list[str]] = None,
     ) -> Optional[Note]:
         """Met à jour les données brutes extraites d'une note.
 
@@ -181,10 +183,12 @@ class Repository:
             vsca: Mots VSCA par domaine
             entities: Entités par type
             keywords: Mots-clés potentiels
+            wiki_links: Liens wiki [[...]] trouvés
+            terms: Termes candidats pour tags émergents
         """
         note = self.get_note(path)
         if note:
-            note.set_extracted_data(vsc, vsca, entities, keywords)
+            note.set_extracted_data(vsc, vsca, entities, keywords, wiki_links, terms)
             self.session.commit()
         return note
 

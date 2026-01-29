@@ -183,15 +183,22 @@ class EmergentTagDetector:
         "royal", "royale", "national", "nationale", "colonial", "coloniale",
     }
 
-    def __init__(self, existing_tags: set[str] = None, wiki_links: set[str] = None):
+    def __init__(
+        self,
+        existing_tags: set[str] = None,
+        wiki_links: set[str] = None,
+        extracted_cache: dict[str, dict] = None,
+    ):
         """Initialise le détecteur.
 
         Args:
             existing_tags: Tags déjà existants (pour éviter les doublons)
             wiki_links: Liens wiki [[...]] existants dans le vault
+            extracted_cache: Cache des données extraites {path: {wiki_links, entities, terms}}
         """
         self.existing_tags = existing_tags or set()
         self.wiki_links = wiki_links or set()
+        self.extracted_cache = extracted_cache or {}
         self._existing_tags_normalized = {
             self._normalize(t) for t in self.existing_tags
         }
@@ -1132,22 +1139,50 @@ class EmergentTagDetector:
         return suggestions
 
     def _extract_wiki_links(self, notes: list) -> set[str]:
-        """Extrait tous les liens wiki [[...]] des notes."""
+        """Extrait tous les liens wiki [[...]] des notes.
+
+        Utilise le cache si disponible, sinon parse le contenu.
+        """
         links = set()
-        pattern = re.compile(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]')
 
         for note in notes:
-            matches = pattern.findall(note.content)
+            # Utilise le cache si disponible
+            if note.path in self.extracted_cache:
+                cached = self.extracted_cache[note.path]
+                if "wiki_links" in cached:
+                    links.update(cached["wiki_links"])
+                    continue
+
+            # Fallback: parse le contenu
+            pattern = re.compile(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]')
+            content = getattr(note, 'content', '') or ''
+            matches = pattern.findall(content)
             links.update(m.lower() for m in matches)
 
         return links
 
     def _extract_known_entities(self, notes: list) -> set[str]:
-        """Extrait les entités connues (noms propres, dates, lieux) des notes."""
+        """Extrait les entités connues (noms propres, dates, lieux) des notes.
+
+        Utilise le cache si disponible, sinon parse le contenu.
+        """
         entities = set()
 
         for note in notes:
-            text = f"{note.title} {note.content}"
+            # Utilise le cache si disponible
+            if note.path in self.extracted_cache:
+                cached = self.extracted_cache[note.path]
+                if "entities" in cached:
+                    cached_entities = cached["entities"]
+                    # Aplatit toutes les entités de tous les types
+                    for entity_list in cached_entities.values():
+                        entities.update(e.lower() for e in entity_list)
+                    continue
+
+            # Fallback: parse le contenu
+            content = getattr(note, 'content', '') or ''
+            title = getattr(note, 'title', '') or ''
+            text = f"{title} {content}"
 
             # Noms propres (Prénom Nom)
             person_matches = self.PATTERNS["person_pattern"].findall(text)
@@ -1170,12 +1205,28 @@ class EmergentTagDetector:
     def _extract_term_candidates(self, notes: list) -> dict[str, list[str]]:
         """Extrait les termes candidats et leurs notes associées.
 
+        Utilise le cache si disponible, sinon parse le contenu.
         Retourne {terme: [note_paths]}
         """
         term_to_notes: dict[str, set[str]] = {}
 
         for note in notes:
-            text = f"{note.title} {note.content}".lower()
+            # Utilise le cache si disponible
+            if note.path in self.extracted_cache:
+                cached = self.extracted_cache[note.path]
+                if "terms" in cached and cached["terms"]:
+                    for term in cached["terms"]:
+                        if term in self.STOP_WORDS:
+                            continue
+                        if term not in term_to_notes:
+                            term_to_notes[term] = set()
+                        term_to_notes[term].add(note.path)
+                    continue
+
+            # Fallback: parse le contenu
+            content = getattr(note, 'content', '') or ''
+            title = getattr(note, 'title', '') or ''
+            text = f"{title} {content}".lower()
 
             # Extrait les mots significatifs (min 4 caractères)
             words = re.findall(r'\b[a-zàâäéèêëïîôùûüç]{4,}\b', text)
@@ -2211,7 +2262,12 @@ class EmergentTagDetector:
 
     def _combine_notes_content(self, notes: list) -> str:
         """Combine le contenu de plusieurs notes."""
-        return "\n".join(f"{n.title}\n{n.content}" for n in notes)
+        parts = []
+        for n in notes:
+            title = getattr(n, 'title', '') or ''
+            content = getattr(n, 'content', '') or ''
+            parts.append(f"{title}\n{content}")
+        return "\n".join(parts)
 
     def _normalize(self, text: str) -> str:
         """Normalise un texte pour la comparaison."""
@@ -2230,6 +2286,7 @@ def detect_emergent_tags_in_clusters(
     notes_dict: dict,
     existing_tags: set[str],
     wiki_links: set[str] = None,
+    extracted_cache: dict[str, dict] = None,
 ) -> list[EmergentTagSuggestion]:
     """Détecte les tags émergents dans tous les clusters.
 
@@ -2238,11 +2295,12 @@ def detect_emergent_tags_in_clusters(
         notes_dict: Dict {path: ParsedNote}
         existing_tags: Tags existants
         wiki_links: Liens wiki existants dans le vault
+        extracted_cache: Cache des données extraites {path: {wiki_links, entities, terms}}
 
     Returns:
         Liste de toutes les suggestions de tags émergents
     """
-    detector = EmergentTagDetector(existing_tags, wiki_links)
+    detector = EmergentTagDetector(existing_tags, wiki_links, extracted_cache=extracted_cache)
     all_suggestions = []
 
     for cluster in clusters:
