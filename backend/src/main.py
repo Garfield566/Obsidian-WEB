@@ -834,7 +834,8 @@ class TagGeneratorV2:
                 # non cachées (nouvelles ou modifiées) - pas besoin de vérifier ici
             else:
                 # Calcul complet pour cette note (non cachée = nouvelle ou modifiée)
-                text = f"{note.title} {note.content}"
+                note_content = getattr(note, 'content', '') or ''
+                text = f"{note.title} {note_content}"
                 text_lower = text.lower()
 
                 # Note: L'extraction VSC/VSCA a déjà été faite à l'étape préalable
@@ -1316,12 +1317,13 @@ class TagMatcherV2:
 
         # Texte à rechercher (titre + contenu)
         # On exclut le frontmatter YAML pour ne pas trouver les noms qui sont dans les tags
-        content = note.content
+        content = getattr(note, 'content', '') or ''
 
         # Si le contenu contient du frontmatter YAML (parsing mal fait), on l'enlève
         content = self._strip_frontmatter(content)
 
-        text_to_search = f"{note.title} {content}".lower()
+        note_title = getattr(note, 'title', '') or ''
+        text_to_search = f"{note_title} {content}".lower()
 
         # Vérifie si au moins une partie significative du nom est mentionnée
         for term in search_terms:
