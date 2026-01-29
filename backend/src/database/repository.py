@@ -93,10 +93,21 @@ class Repository:
         return self.session.query(Note).all()
 
     def get_paths_without_extraction(self) -> set[str]:
-        """Retourne les chemins des notes sans données d'extraction VSC."""
+        """Retourne les chemins des notes sans données d'extraction complètes.
+
+        Inclut les notes sans VSC, wiki_links ou terms (pour migration v3).
+        """
+        from sqlalchemy import or_
+
         notes = (
             self.session.query(Note.path)
-            .filter(Note.extracted_vsc_json.is_(None))
+            .filter(
+                or_(
+                    Note.extracted_vsc_json.is_(None),
+                    Note.extracted_wiki_links_json.is_(None),
+                    Note.extracted_terms_json.is_(None),
+                )
+            )
             .all()
         )
         return {n.path for n in notes}
