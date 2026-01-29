@@ -1,6 +1,11 @@
 {
 	"nodes":[
-		{"id":"4e56a271ae44edf3","x":-129,"y":-247,"width":250,"height":60,"type":"text","text":"Méthode de Gauss \"matrice\""}
+		{"id":"4e56a271ae44edf3","x":-129,"y":-247,"width":250,"height":60,"type":"text","text":"Méthode de Gauss \"matrice\""},
+		{"id":"55278ab979a6283b","x":-460,"y":-120,"width":250,"height":192,"type":"text","text":"$$\n\\begin{pmatrix}  \\\\\n1&1&1&6\\\\  \\\\\n2&3&1&10\\\\  \\\\\n1&4&3&15\\\\ \\end{pmatrix}\n$$"},
+		{"id":"82a0cada3b3e1487","x":160,"y":-126,"width":250,"height":198,"type":"text","text":"$$\n\\begin{pmatrix}  \\\\\n1&1&1&6\\\\  \\\\\n0&1&-1&-2\\\\  \\\\\n0&0&5&15\\\\ \\end{pmatrix}\n$$"},
+		{"id":"168af3d9601228ed","x":-160,"y":-160,"width":250,"height":133,"color":"6","type":"text","text":"Le but de la méthode de Gauss est de simplifier un système par c'est règle d'égalité.   "}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"190ffb9a59783854","fromNode":"55278ab979a6283b","fromSide":"right","toNode":"82a0cada3b3e1487","toSide":"left"}
+	]
 }
