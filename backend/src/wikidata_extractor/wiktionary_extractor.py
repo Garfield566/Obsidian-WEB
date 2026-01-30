@@ -882,43 +882,167 @@ def get_specialized_vocabulary_for_domain(domain: str) -> tuple[list[str], list[
     return list(vsc_words), list(vsca_words)
 
 
+def get_specialized_terms_by_subdomain() -> dict[str, list[dict]]:
+    """Retourne les termes spécialisés groupés par leur domaine_exact.
+
+    Cette fonction extrait les termes spécialisés et les organise par
+    sous-domaine d'attribution pour permettre leur utilisation dans
+    la validation cascade.
+
+    Returns:
+        Dict {domaine_exact: [{"term": nom, "weight": poids, "definition": def}]}
+    """
+    specialized_terms = load_specialized_terms()
+
+    if not specialized_terms:
+        return {}
+
+    terms_by_domain = {}
+
+    for term_name, term_data in specialized_terms.items():
+        # Utiliser domaine_exact, sinon fallback sur domaine_parent
+        domaine_exact = term_data.get("domaine_exact", term_data.get("domaine_parent", ""))
+
+        if not domaine_exact:
+            continue
+
+        # Normaliser le chemin
+        domaine_exact = domaine_exact.lower().replace("\\\\", "\\")
+
+        if domaine_exact not in terms_by_domain:
+            terms_by_domain[domaine_exact] = []
+
+        # Construire les infos du terme
+        term_info = {
+            "term": term_name,
+            "exact_terms": term_data.get("exact_terms", [term_name]),
+            "weight": term_data.get("validation_weight", 1.0),
+            "definition": term_data.get("definition", {}).get("raw_definition", ""),
+            "threshold": term_data.get("threshold", 0.9),
+        }
+
+        terms_by_domain[domaine_exact].append(term_info)
+
+    return terms_by_domain
+
+
+def sync_specialized_terms_to_hierarchy():
+    """Synchronise les termes spécialisés vers hierarchy.json.
+
+    Ajoute les termes spécialisés comme données attachées à leur
+    sous-domaine exact dans la hiérarchie.
+    """
+    hierarchy_file = Path(__file__).parent.parent / "data" / "references" / "hierarchy.json"
+
+    if not hierarchy_file.exists():
+        logger.warning(f"hierarchy.json not found at {hierarchy_file}")
+        return
+
+    try:
+        with open(hierarchy_file, "r", encoding="utf-8") as f:
+            hierarchy = json.load(f)
+    except (json.JSONDecodeError, IOError) as e:
+        logger.error(f"Could not load hierarchy.json: {e}")
+        return
+
+    # Récupérer les termes spécialisés par sous-domaine
+    terms_by_domain = get_specialized_terms_by_subdomain()
+
+    if not terms_by_domain:
+        logger.info("No specialized terms to sync")
+        return
+
+    modified = False
+
+    for domain_path, terms in terms_by_domain.items():
+        # Parcourir le chemin du domaine dans la hiérarchie
+        parts = domain_path.split("\\")
+        current_node = hierarchy
+
+        found = True
+        for i, part in enumerate(parts):
+            if part.startswith("_"):
+                continue
+
+            if part not in current_node:
+                logger.debug(f"Domain '{domain_path}' not found in hierarchy at '{part}'")
+                found = False
+                break
+
+            if i == len(parts) - 1:
+                # Dernier niveau - ajouter les termes spécialisés
+                if "termes_specialises" not in current_node[part]:
+                    current_node[part]["termes_specialises"] = []
+
+                # Ajouter sans doublons
+                existing_terms = {t["term"] for t in current_node[part]["termes_specialises"]}
+                for term_info in terms:
+                    if term_info["term"] not in existing_terms:
+                        current_node[part]["termes_specialises"].append({
+                            "term": term_info["term"],
+                            "weight": term_info["weight"],
+                            "definition": term_info["definition"][:100] if term_info["definition"] else "",
+                        })
+                        modified = True
+                        logger.info(f"Added specialized term '{term_info['term']}' to '{domain_path}'")
+            else:
+                # Naviguer vers le niveau suivant
+                if "sous_notions" not in current_node[part]:
+                    current_node[part]["sous_notions"] = {}
+                current_node = current_node[part]["sous_notions"]
+
+    if modified:
+        try:
+            with open(hierarchy_file, "w", encoding="utf-8") as f:
+                json.dump(hierarchy, f, ensure_ascii=False, indent=2)
+            logger.info("Synced specialized terms to hierarchy.json")
+        except IOError as e:
+            logger.error(f"Could not save hierarchy.json: {e}")
+
+
 def save_to_vocabulary_file(domain: str, vsc: list[str], vsca: list[str]):
     """Sauvegarde le vocabulaire extrait dans domain_vocabulary.json ET hierarchy.json.
 
-    Intègre automatiquement les synonymes des termes spécialisés associés au domaine."""
+    NOTE: Les termes spécialisés ne sont PAS fusionnés avec le vocabulaire wiki.
+    Ils sont stockés séparément dans specialized_terms.json avec leur domaine_exact."""
     existing = {}
     if DOMAIN_VOCABULARY_FILE.exists():
         with open(DOMAIN_VOCABULARY_FILE, "r", encoding="utf-8") as f:
             existing = json.load(f)
 
-    # Récupérer le vocabulaire des termes spécialisés pour ce domaine
-    spec_vsc, spec_vsca = get_specialized_vocabulary_for_domain(domain)
+    # Charger les termes spécialisés pour les EXCLURE du vocabulaire wiki
+    specialized_exact_terms = set()
+    specialized_terms = load_specialized_terms()
+    for term_name, term_data in specialized_terms.items():
+        for exact in term_data.get("exact_terms", []):
+            specialized_exact_terms.add(exact.lower())
 
-    if spec_vsc or spec_vsca:
-        logger.info(f"Adding {len(spec_vsc)} VSC and {len(spec_vsca)} VSCA from specialized terms for '{domain}'")
+    # Filtrer les termes spécialisés du vocabulaire wiki (ils sont gérés séparément)
+    filtered_vsc = [w for w in vsc if w.lower() not in specialized_exact_terms]
+    filtered_vsca = [w for w in vsca if w.lower() not in specialized_exact_terms]
 
-    # Fusionner le vocabulaire Wiktionnaire avec les termes spécialisés
-    # Les termes spécialisés sont prioritaires (ajoutés en premier)
-    merged_vsc = list(dict.fromkeys(spec_vsc + vsc))  # Préserve l'ordre, déduplique
-    merged_vsca = list(dict.fromkeys(spec_vsca + vsca))
+    # Dédupliquer (même mot = une seule fois par domaine)
+    seen_vsc = set()
+    dedup_vsc = []
+    for w in filtered_vsc:
+        w_lower = w.lower()
+        if w_lower not in seen_vsc:
+            seen_vsc.add(w_lower)
+            dedup_vsc.append(w)
 
-    # Retirer de VSCA ce qui est déjà dans VSC
-    merged_vsca = [w for w in merged_vsca if w not in merged_vsc]
+    seen_vsca = set()
+    dedup_vsca = []
+    for w in filtered_vsca:
+        w_lower = w.lower()
+        if w_lower not in seen_vsca and w_lower not in seen_vsc:
+            seen_vsca.add(w_lower)
+            dedup_vsca.append(w)
 
     # Ajouter/mettre à jour le domaine
     existing[domain] = {
-        "VSC": merged_vsc[:30],  # Limiter à 30 termes VSC
-        "VSCA": merged_vsca[:15],  # Limiter à 15 termes VSCA
+        "VSC": dedup_vsc[:30],  # Limiter à 30 termes VSC
+        "VSCA": dedup_vsca[:15],  # Limiter à 15 termes VSCA
     }
-
-    # Log des sources
-    if spec_vsc or spec_vsca:
-        existing[domain]["_sources"] = {
-            "wiktionary_vsc": len(vsc),
-            "wiktionary_vsca": len(vsca),
-            "specialized_vsc": len(spec_vsc),
-            "specialized_vsca": len(spec_vsca),
-        }
 
     # S'assurer que les métadonnées sont présentes
     if "_description" not in existing:
@@ -937,8 +1061,11 @@ def save_to_vocabulary_file(domain: str, vsc: list[str], vsca: list[str]):
     logger.info(f"Saved vocabulary to {DOMAIN_VOCABULARY_FILE}")
 
     # Synchroniser avec hierarchy.json pour l'analyse
-    # Utiliser le vocabulaire fusionné (Wiktionnaire + termes spécialisés)
-    sync_vocabulary_to_hierarchy(domain, merged_vsc[:30], merged_vsca[:15])
+    # Utiliser le vocabulaire filtré et dédupliqué (sans termes spécialisés)
+    sync_vocabulary_to_hierarchy(domain, dedup_vsc[:30], dedup_vsca[:15])
+
+    # Synchroniser aussi les termes spécialisés vers leur sous-domaine
+    sync_specialized_terms_to_hierarchy()
 
 
 def sync_vocabulary_to_hierarchy(domain: str, vsc: list[str], vsca: list[str]):
