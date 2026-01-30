@@ -4,7 +4,31 @@
     "validation": "Terme exact present OU 90% des elements de definition valides",
     "elements": "Chaque element est valide si au moins un de ses synonymes est trouve",
     "mandatory": "Tous les elements 'mandatory' doivent etre valides",
-    "threshold": "Score = elements_valides / total_elements >= seuil (0.90 par defaut)"
+    "threshold": "Score = elements_valides / total_elements >= seuil (0.90 par defaut)",
+    "domaine_parent": "Domaine racine requis pour activer la detection du terme",
+    "domaine_exact": "Chemin exact du sous-domaine que ce terme aide a valider",
+    "validation_weight": "Poids du terme pour la validation (defaut: 1.0 = equivalent a 1 VSC)"
+  },
+  "_exemple": {
+    "_comment": "Exemple de structure pour un vrai terme specialise",
+    "massification-scolaire": {
+      "type": "specialized",
+      "exact_terms": ["massification scolaire", "massification-scolaire"],
+      "definition": {
+        "mandatory": [
+          {"name": "augmentation", "synonyms": ["augmentation", "croissance", "expansion"]},
+          {"name": "eleves", "synonyms": ["élèves", "étudiants", "scolarisation"]}
+        ],
+        "contextual": [
+          {"name": "democratisation", "synonyms": ["démocratisation", "accès"]}
+        ],
+        "raw_definition": "augmentation massive du nombre d'élèves dans le système éducatif"
+      },
+      "threshold": 0.9,
+      "domaine_parent": "sociologie",
+      "domaine_exact": "sociologie\\éducation",
+      "validation_weight": 1.0
+    }
   },
   "caca": {
     "type": "specialized",
@@ -13,35 +37,17 @@
     ],
     "definition": {
       "mandatory": [
-        {
-          "name": "sort",
-          "synonyms": [
-            "sort"
-          ]
-        },
-        {
-          "name": "d'un",
-          "synonyms": [
-            "d'un"
-          ]
-        },
-        {
-          "name": "petit",
-          "synonyms": [
-            "petit"
-          ]
-        },
-        {
-          "name": "trou",
-          "synonyms": [
-            "trou"
-          ]
-        }
+        {"name": "sort", "synonyms": ["sort"]},
+        {"name": "d'un", "synonyms": ["d'un"]},
+        {"name": "petit", "synonyms": ["petit"]},
+        {"name": "trou", "synonyms": ["trou"]}
       ],
       "contextual": [],
       "raw_definition": "sort d'un petit trou"
     },
     "threshold": 0.9,
-    "domaine_parent": "biologie"
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\physiologie",
+    "validation_weight": 1.0
   }
 }

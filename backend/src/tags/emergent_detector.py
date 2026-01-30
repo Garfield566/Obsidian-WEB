@@ -610,10 +610,13 @@ class EmergentTagDetector:
                     "exact_terms": [t.lower() for t in term_data.get("exact_terms", [])],
                     "definition": {
                         "mandatory": mandatory,
-                        "contextual": contextual
+                        "contextual": contextual,
+                        "raw_definition": term_data.get("definition", {}).get("raw_definition", ""),
                     },
                     "threshold": term_data.get("threshold", 0.90),
                     "domaine_parent": term_data.get("domaine_parent", ""),
+                    "domaine_exact": term_data.get("domaine_exact", term_data.get("domaine_parent", "")),
+                    "validation_weight": term_data.get("validation_weight", 1.0),
                 }
 
             if self.SPECIALIZED_TERMS:
@@ -621,6 +624,44 @@ class EmergentTagDetector:
 
         except (json.JSONDecodeError, IOError) as e:
             print(f"Warning: Could not load specialized_terms.json: {e}")
+
+    def _detect_specialized_terms_in_text(self, text_lower: str) -> dict[str, list[dict]]:
+        """Détecte les termes spécialisés présents dans le texte.
+
+        Cette méthode scanne le texte pour trouver les termes spécialisés
+        SANS vérifier la validation du domaine parent. Elle retourne les termes
+        trouvés groupés par leur domaine_exact pour utilisation dans la cascade.
+
+        Args:
+            text_lower: Texte en minuscules à analyser
+
+        Returns:
+            Dict {domaine_exact: [{"term": name, "weight": float, "confidence": float}]}
+        """
+        if not self.SPECIALIZED_TERMS:
+            return {}
+
+        found_by_domain = {}
+
+        for term_name, term_data in self.SPECIALIZED_TERMS.items():
+            # Valide le terme (présence exacte OU définition)
+            result = self._validate_specialized_term(term_name, text_lower)
+
+            if result and result["is_valid"]:
+                domaine_exact = term_data.get("domaine_exact", term_data.get("domaine_parent", ""))
+                weight = term_data.get("validation_weight", 1.0)
+
+                if domaine_exact not in found_by_domain:
+                    found_by_domain[domaine_exact] = []
+
+                found_by_domain[domaine_exact].append({
+                    "term": term_name,
+                    "weight": weight,
+                    "confidence": result["confidence"],
+                    "exact_match": result.get("exact_match", False),
+                })
+
+        return found_by_domain
 
     def _validate_specialized_term(self, term_name: str, text_lower: str) -> dict | None:
         """Valide un terme spécialisé basé sur sa définition.
@@ -1387,6 +1428,10 @@ class EmergentTagDetector:
         text_lower = text.lower()
         results = []
 
+        # NOUVEAU: Détecte les termes spécialisés pour support de validation
+        # Ces termes aident à valider leurs sous-domaines exacts
+        specialized_support = self._detect_specialized_terms_in_text(text_lower)
+
         # Parcourt tous les domaines racine
         for domain_name, domain_data in self.HIERARCHY.items():
             if domain_name.startswith("_"):
@@ -1398,7 +1443,8 @@ class EmergentTagDetector:
                 text_lower,
                 consumed_words=set(),
                 depth=0,
-                parent_path=""
+                parent_path="",
+                specialized_support=specialized_support,
             )
 
             if cascade_result["is_valid"]:
@@ -1447,6 +1493,7 @@ class EmergentTagDetector:
         consumed_words: set,
         depth: int,
         parent_path: str,
+        specialized_support: dict = None,
     ) -> dict:
         """Valide récursivement un domaine et ses sous-notions.
 
@@ -1457,6 +1504,10 @@ class EmergentTagDetector:
         - Les mots hérités des niveaux enfants comptent mais ne sont PAS consommés
           (ils seront consommés à leur propre niveau)
 
+        NOUVEAU - Support specialized terms :
+        - Les termes spécialisés trouvés pour ce domaine exact comptent comme VSC
+        - Permet de valider des sous-domaines profonds avec peu de vocabulaire
+
         Args:
             domain_name: Nom du domaine courant
             domain_data: Données du domaine (vocabulaire, sous_notions)
@@ -1464,10 +1515,13 @@ class EmergentTagDetector:
             consumed_words: Mots déjà utilisés par les niveaux parents
             depth: Profondeur actuelle dans la hiérarchie
             parent_path: Chemin du parent
+            specialized_support: Dict {domaine_exact: [terms]} des termes spécialisés trouvés
 
         Returns:
             Dict avec résultat de validation pour ce niveau et ses enfants
         """
+        if specialized_support is None:
+            specialized_support = {}
         current_path = f"{parent_path}\\{domain_name}" if parent_path else domain_name
 
         # Récupère TOUT le vocabulaire pertinent pour ce domaine
@@ -1480,9 +1534,25 @@ class EmergentTagDetector:
         available_vsc = found_words["VSC"] - consumed_words
         available_vsca = found_words["VSCA"] - consumed_words
 
+        # NOUVEAU: Calcule le support des termes spécialisés pour ce chemin
+        # Un terme spécialisé compte comme VSC équivalent s'il correspond à ce domaine
+        # ou un de ses descendants
+        specialized_vsc_equivalent = 0.0
+        specialized_terms_used = []
+
+        for domain_exact, terms in specialized_support.items():
+            # Le terme aide si son domaine_exact correspond au chemin actuel
+            # ou commence par le chemin actuel (est un descendant)
+            if domain_exact == current_path or domain_exact.startswith(current_path + "\\"):
+                for term_info in terms:
+                    specialized_vsc_equivalent += term_info["weight"]
+                    specialized_terms_used.append(term_info["term"])
+
         # Vérifie si le niveau est validé selon les options de seuil
+        # Les termes spécialisés comptent comme VSC supplémentaires
+        effective_vsc_count = len(available_vsc) + specialized_vsc_equivalent
         is_valid, validation_reason = self._is_level_valid(
-            len(available_vsc),
+            effective_vsc_count,
             len(available_vsca),
             depth
         )
@@ -1495,6 +1565,7 @@ class EmergentTagDetector:
                 "confidence": 0.0,
                 "reasons": [f"Seuils non atteints: {validation_reason}"],
                 "words_used": set(),
+                "specialized_terms": specialized_terms_used,
             }
 
         # RÈGLE CRUCIALE : Séparer les mots à consommer vs hérités
@@ -1528,10 +1599,16 @@ class EmergentTagDetector:
             f"Mots consommés: {', '.join(list(words_consumed_here)[:3])}{'...' if len(words_consumed_here) > 3 else ''}" if words_consumed_here else "Aucun mot consommé (héritage)"
         ]
 
+        # Ajoute les termes spécialisés aux raisons si présents
+        if specialized_terms_used:
+            reasons.append(f"Termes spécialisés: {', '.join(specialized_terms_used)}")
+
         # Calcul de confiance basé sur la profondeur et le support
         base_confidence = 0.65 + depth * 0.05
         support_bonus = min(0.20, len(words_counted) * 0.02)
-        confidence = min(0.95, base_confidence + support_bonus)
+        # Bonus pour termes spécialisés
+        specialized_bonus = min(0.10, specialized_vsc_equivalent * 0.05)
+        confidence = min(0.95, base_confidence + support_bonus + specialized_bonus)
 
         result = {
             "is_valid": True,
@@ -1542,6 +1619,7 @@ class EmergentTagDetector:
             "words_used": words_counted,  # Pour compatibilité
             "words_consumed": words_consumed_here,  # Nouveau: mots effectivement consommés
             "is_subnotion": is_subnotion,
+            "specialized_terms": specialized_terms_used,
         }
 
         # Tente de descendre dans les sous-notions
@@ -1559,6 +1637,7 @@ class EmergentTagDetector:
                 new_consumed,
                 depth + 1,
                 current_path,
+                specialized_support=specialized_support,
             )
 
             if child_result["is_valid"]:
