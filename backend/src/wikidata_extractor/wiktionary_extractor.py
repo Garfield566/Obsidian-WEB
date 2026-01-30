@@ -1566,13 +1566,15 @@ def definition_to_mandatory_elements(definition: str) -> list[dict]:
     return mandatory
 
 
-def extract_specialized_term(term: str, domain: str) -> dict | None:
+def extract_specialized_term(term: str, domain_parent: str, domain_exact: str = None) -> dict | None:
     """
     Extrait un terme spécialisé complet avec sa définition.
 
     Args:
         term: Le terme à extraire
-        domain: Le domaine parent (ex: "biologie")
+        domain_parent: Le domaine racine (ex: "biologie")
+        domain_exact: Le sous-domaine exact (ex: "biologie\\physiologie")
+                      Si None, utilise domain_parent
 
     Returns:
         Structure complète pour specialized_terms.json ou None
@@ -1600,7 +1602,9 @@ def extract_specialized_term(term: str, domain: str) -> dict | None:
             "raw_definition": raw_def
         },
         "threshold": 0.9,
-        "domaine_parent": domain
+        "domaine_parent": domain_parent,
+        "domaine_exact": domain_exact or domain_parent,
+        "validation_weight": 1.0
     }
 
 
@@ -1636,6 +1640,10 @@ def extract_specialized_terms_for_domain(
         if verbose:
             print(f"Trouvé {len(result.terms)} termes, traitement de {len(terms)}...")
 
+    # Déterminer domaine_parent (racine) et domaine_exact
+    domain_parent = domain.split("\\")[0]
+    domain_exact = domain
+
     specialized_terms = {}
     success_count = 0
 
@@ -1643,8 +1651,8 @@ def extract_specialized_terms_for_domain(
         if verbose and (i + 1) % 10 == 0:
             print(f"  Progression: {i + 1}/{len(terms)} ({success_count} avec définition)")
 
-        # Extraire le terme spécialisé
-        term_data = extract_specialized_term(term, domain.split("\\")[0])
+        # Extraire le terme spécialisé avec domaine_exact
+        term_data = extract_specialized_term(term, domain_parent, domain_exact)
 
         if term_data:
             specialized_terms[term] = term_data
@@ -1657,6 +1665,120 @@ def extract_specialized_terms_for_domain(
         print(f"\nTerminé: {success_count}/{len(terms)} termes avec définition")
 
     return specialized_terms
+
+
+def extract_specialized_terms_global(
+    root_domain: str,
+    max_depth: int = 2,
+    max_terms_per_domain: int = 30,
+    verbose: bool = True
+) -> dict:
+    """
+    Extraction GLOBALE des termes spécialisés pour un domaine racine.
+
+    Explore tous les sous-domaines automatiquement et extrait les termes
+    spécialisés de chacun, en conservant leur attribution exacte (domaine_exact).
+
+    Args:
+        root_domain: Domaine racine (ex: "biologie", "philosophie")
+        max_depth: Profondeur max d'exploration des sous-domaines
+        max_terms_per_domain: Nombre max de termes par sous-domaine
+        verbose: Afficher la progression
+
+    Returns:
+        Dict avec:
+        - 'terms': {term_name: term_data} - tous les termes extraits
+        - 'by_subdomain': {domain_exact: [term_names]} - groupés par sous-domaine
+        - 'stats': statistiques d'extraction
+    """
+    if verbose:
+        print(f"\n{'='*60}")
+        print(f"EXTRACTION GLOBALE: {root_domain}")
+        print(f"{'='*60}")
+
+    all_terms = {}
+    by_subdomain = {}
+    stats = {
+        "root_domain": root_domain,
+        "subdomains_explored": 0,
+        "total_terms": 0,
+        "terms_with_definition": 0,
+    }
+
+    with WiktionaryExtractor() as extractor:
+        # Découvrir tous les sous-domaines
+        if verbose:
+            print(f"\nDecouverte des sous-domaines (profondeur={max_depth})...")
+
+        results = extractor.auto_discover_and_extract(root_domain, max_depth=max_depth)
+
+        if not results:
+            if verbose:
+                print(f"Aucun sous-domaine trouve pour '{root_domain}'")
+            return {"terms": {}, "by_subdomain": {}, "stats": stats}
+
+        stats["subdomains_explored"] = len(results)
+        if verbose:
+            print(f"Trouve {len(results)} domaines/sous-domaines")
+
+        # Pour chaque sous-domaine, extraire les termes spécialisés
+        for domain_path, wiki_result in results.items():
+            if not wiki_result.success:
+                continue
+
+            if verbose:
+                print(f"\n--- {domain_path} ({len(wiki_result.terms)} termes wiki) ---")
+
+            # Limiter le nombre de termes par sous-domaine
+            terms_to_process = wiki_result.terms[:max_terms_per_domain]
+            stats["total_terms"] += len(terms_to_process)
+
+            domain_terms = []
+            for i, term in enumerate(terms_to_process):
+                if verbose and (i + 1) % 10 == 0:
+                    print(f"  {i + 1}/{len(terms_to_process)}...")
+
+                # Éviter les doublons globaux
+                if term in all_terms:
+                    continue
+
+                # Extraire avec domaine_exact = sous-domaine actuel
+                term_data = extract_specialized_term(
+                    term,
+                    domain_parent=root_domain,
+                    domain_exact=domain_path
+                )
+
+                if term_data:
+                    all_terms[term] = term_data
+                    domain_terms.append(term)
+                    stats["terms_with_definition"] += 1
+
+                # Respecter le rate limit
+                time.sleep(0.3)
+
+            if domain_terms:
+                by_subdomain[domain_path] = domain_terms
+                if verbose:
+                    print(f"  -> {len(domain_terms)} termes specialises extraits")
+
+    if verbose:
+        print(f"\n{'='*60}")
+        print(f"RESULTATS EXTRACTION GLOBALE")
+        print(f"{'='*60}")
+        print(f"Domaine racine: {root_domain}")
+        print(f"Sous-domaines explores: {stats['subdomains_explored']}")
+        print(f"Termes analyses: {stats['total_terms']}")
+        print(f"Termes specialises: {stats['terms_with_definition']}")
+        print(f"\nRepartition par sous-domaine:")
+        for subdomain, terms in by_subdomain.items():
+            print(f"  {subdomain}: {len(terms)} termes")
+
+    return {
+        "terms": all_terms,
+        "by_subdomain": by_subdomain,
+        "stats": stats
+    }
 
 
 def extract_and_classify_terms(
@@ -1863,10 +1985,23 @@ def main():
     )
 
     parser.add_argument(
+        "--global-specialized",
+        action="store_true",
+        help="GLOBAL extraction: explore all subdomains and extract specialized terms with domaine_exact"
+    )
+
+    parser.add_argument(
         "--max-terms",
         type=int,
         default=50,
         help="Maximum number of terms to extract with --specialized (default: 50)"
+    )
+
+    parser.add_argument(
+        "--max-terms-per-domain",
+        type=int,
+        default=30,
+        help="Maximum terms per subdomain with --global-specialized (default: 30)"
     )
 
     parser.add_argument(
@@ -1939,6 +2074,34 @@ def main():
                 print(f"\nUtilisez --save pour sauvegarder les {len(specialized)} termes")
         else:
             print("Aucun terme avec définition trouvé")
+        return
+
+    # GLOBAL specialized extraction - explore all subdomains
+    if args.global_specialized and args.domain:
+        result = extract_specialized_terms_global(
+            root_domain=args.domain,
+            max_depth=args.depth,
+            max_terms_per_domain=args.max_terms_per_domain,
+            verbose=True
+        )
+
+        if result["terms"]:
+            print(f"\n--- Exemple de termes extraits ---")
+            for term_name, term_data in list(result["terms"].items())[:3]:
+                print(f"  {term_name}:")
+                print(f"    domaine_exact: {term_data['domaine_exact']}")
+                print(f"    definition: {term_data['definition']['raw_definition'][:80]}...")
+
+            if args.save:
+                save_specialized_terms(result["terms"], merge=True)
+                print(f"\nSauvegarde {len(result['terms'])} termes dans specialized_terms.json")
+                # Synchroniser vers hierarchy.json
+                sync_specialized_terms_to_hierarchy()
+                print("Synchronise vers hierarchy.json")
+            else:
+                print(f"\nUtilisez --save pour sauvegarder les {len(result['terms'])} termes")
+        else:
+            print("Aucun terme specialise extrait")
         return
 
     # Auto-discover mode
