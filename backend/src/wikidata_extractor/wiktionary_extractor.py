@@ -41,6 +41,9 @@ SPECIALIZED_TERMS_FILE = Path(__file__).parent.parent / "data" / "references" / 
 # Chemin vers les concepts
 CONCEPTS_FILE = Path(__file__).parent.parent / "data" / "references" / "concepts.json"
 
+# Chemin vers la configuration des domaines transversaux
+TRANSVERSAL_CONFIG_FILE = Path(__file__).parent.parent / "data" / "references" / "transversal_config.json"
+
 # =============================================================================
 # CLASSIFICATION CONCEPT vs VOCABULAIRE
 # =============================================================================
@@ -998,6 +1001,263 @@ def sync_specialized_terms_to_hierarchy():
             logger.info("Synced specialized terms to hierarchy.json")
         except IOError as e:
             logger.error(f"Could not save hierarchy.json: {e}")
+
+
+# =============================================================================
+# DÉTECTION AUTOMATIQUE DES DOMAINES TRANSVERSAUX
+# =============================================================================
+
+def load_transversal_config() -> dict:
+    """Charge la configuration pour la détection des domaines transversaux."""
+    if not TRANSVERSAL_CONFIG_FILE.exists():
+        logger.warning(f"Transversal config not found at {TRANSVERSAL_CONFIG_FILE}")
+        return {
+            "_regles": {
+                "chevauchement_vocabulaire_min": 0.5,
+                "nombre_parents_min": 2,
+                "termes_min_pour_analyse": 10
+            },
+            "seuils_par_type": {"default": {"chevauchement": 0.5}},
+            "domaines_forces_transversaux": {}
+        }
+
+    try:
+        with open(TRANSVERSAL_CONFIG_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, IOError) as e:
+        logger.error(f"Could not load transversal config: {e}")
+        return {
+            "_regles": {
+                "chevauchement_vocabulaire_min": 0.5,
+                "nombre_parents_min": 2,
+                "termes_min_pour_analyse": 10
+            },
+            "seuils_par_type": {"default": {"chevauchement": 0.5}},
+            "domaines_forces_transversaux": {}
+        }
+
+
+def calculate_vocabulary_overlap(
+    domain_vocabularies: dict[str, dict[str, list[str]]]
+) -> dict[str, dict[str, float]]:
+    """
+    Calcule le chevauchement de vocabulaire entre tous les domaines.
+
+    Args:
+        domain_vocabularies: {domain: {"VSC": [...], "VSCA": [...]}}
+
+    Returns:
+        {domain_A: {domain_B: overlap_percentage, domain_C: overlap_percentage}}
+        où overlap_percentage = termes_communs / total_termes_domain_A
+    """
+    overlap_matrix = {}
+
+    for domain_a, vocab_a in domain_vocabularies.items():
+        if domain_a.startswith("_"):
+            continue
+
+        all_terms_a = set(w.lower() for w in vocab_a.get("VSC", []) + vocab_a.get("VSCA", []))
+
+        if len(all_terms_a) == 0:
+            continue
+
+        overlap_matrix[domain_a] = {}
+
+        for domain_b, vocab_b in domain_vocabularies.items():
+            if domain_b.startswith("_") or domain_a == domain_b:
+                continue
+
+            all_terms_b = set(w.lower() for w in vocab_b.get("VSC", []) + vocab_b.get("VSCA", []))
+
+            if len(all_terms_b) == 0:
+                continue
+
+            # Termes communs
+            common_terms = all_terms_a & all_terms_b
+
+            # Pourcentage de chevauchement par rapport à domain_a
+            overlap_pct = len(common_terms) / len(all_terms_a) if len(all_terms_a) > 0 else 0
+
+            overlap_matrix[domain_a][domain_b] = overlap_pct
+
+    return overlap_matrix
+
+
+def detect_transversal_domains(
+    domain_vocabularies: dict[str, dict[str, list[str]]],
+    verbose: bool = True
+) -> dict[str, list[str]]:
+    """
+    Détecte automatiquement les domaines transversaux basé sur le chevauchement de vocabulaire.
+
+    Args:
+        domain_vocabularies: Vocabulaire de chaque domaine racine
+        verbose: Afficher les détails de détection
+
+    Returns:
+        {domain_transversal: [related_domains]}
+    """
+    config = load_transversal_config()
+    regles = config["_regles"]
+
+    min_overlap = regles["chevauchement_vocabulaire_min"]
+    min_parents = regles["nombre_parents_min"]
+    min_terms = regles["termes_min_pour_analyse"]
+
+    # Calcul de la matrice de chevauchement
+    overlap_matrix = calculate_vocabulary_overlap(domain_vocabularies)
+
+    transversal_candidates = {}
+
+    for domain, overlaps in overlap_matrix.items():
+        # Vérifier le nombre de termes
+        vocab = domain_vocabularies.get(domain, {})
+        total_terms = len(vocab.get("VSC", [])) + len(vocab.get("VSCA", []))
+
+        if total_terms < min_terms:
+            continue
+
+        # Trouver les domaines avec chevauchement significatif
+        related = []
+        for other_domain, overlap_pct in overlaps.items():
+            if overlap_pct >= min_overlap:
+                related.append(other_domain)
+
+        # Si le domaine a >=2 parents avec chevauchement significatif
+        if len(related) >= min_parents:
+            transversal_candidates[domain] = related
+
+            if verbose:
+                print(f"\nDomaine transversal détecté: {domain}")
+                print(f"  Related: {', '.join(related)}")
+                for rel in related:
+                    overlap = overlaps.get(rel, 0)
+                    print(f"    - {rel}: {overlap*100:.1f}% de chevauchement")
+
+    # Ajouter les domaines forcés de la config
+    forced = config.get("domaines_forces_transversaux", {})
+    for domain, info in forced.items():
+        if "related" in info:
+            transversal_candidates[domain] = info["related"]
+            if verbose:
+                print(f"\nDomaine transversal forcé: {domain}")
+                print(f"  Related: {', '.join(info['related'])}")
+                print(f"  Raison: {info.get('raison', 'N/A')}")
+
+    return transversal_candidates
+
+
+def create_transversal_domain_in_hierarchy(
+    domain_name: str,
+    related_domains: list[str],
+    vocabulaire: dict[str, list[str]] = None
+) -> bool:
+    """
+    Crée ou met à jour un domaine transversal dans hierarchy.json.
+
+    Args:
+        domain_name: Nom du domaine transversal
+        related_domains: Liste des domaines liés
+        vocabulaire: Vocabulaire du domaine (VSC, VSCA)
+
+    Returns:
+        True si succès, False sinon
+    """
+    hierarchy_file = Path(__file__).parent.parent / "data" / "references" / "hierarchy.json"
+
+    if not hierarchy_file.exists():
+        logger.error(f"hierarchy.json not found at {hierarchy_file}")
+        return False
+
+    try:
+        with open(hierarchy_file, "r", encoding="utf-8") as f:
+            hierarchy = json.load(f)
+    except (json.JSONDecodeError, IOError) as e:
+        logger.error(f"Could not load hierarchy.json: {e}")
+        return False
+
+    # Si le domaine existe déjà et n'a PAS de champ 'related', le transformer
+    if domain_name in hierarchy:
+        existing = hierarchy[domain_name]
+
+        # Si déjà transversal, juste mettre à jour related
+        if "related" in existing:
+            existing["related"] = related_domains
+            logger.info(f"Updated transversal domain '{domain_name}' with related: {related_domains}")
+        else:
+            # Transformer en domaine transversal
+            existing["related"] = related_domains
+            logger.info(f"Converted '{domain_name}' to transversal domain with related: {related_domains}")
+    else:
+        # Créer nouveau domaine transversal
+        hierarchy[domain_name] = {
+            "related": related_domains,
+            "vocabulaire": vocabulaire or {"VSC": [], "VSCA": []}
+        }
+        logger.info(f"Created new transversal domain '{domain_name}' with related: {related_domains}")
+
+    # Sauvegarder
+    try:
+        with open(hierarchy_file, "w", encoding="utf-8") as f:
+            json.dump(hierarchy, f, ensure_ascii=False, indent=2)
+        return True
+    except IOError as e:
+        logger.error(f"Could not save hierarchy.json: {e}")
+        return False
+
+
+def analyze_and_create_transversal_domains(verbose: bool = True) -> dict[str, list[str]]:
+    """
+    Analyse le vocabulaire extrait et crée automatiquement les domaines transversaux.
+
+    Cette fonction:
+    1. Charge domain_vocabulary.json
+    2. Calcule le chevauchement de vocabulaire
+    3. Détecte les domaines transversaux
+    4. Met à jour hierarchy.json
+
+    Returns:
+        {domain_transversal: [related_domains]}
+    """
+    if not DOMAIN_VOCABULARY_FILE.exists():
+        logger.warning("domain_vocabulary.json not found - cannot analyze")
+        return {}
+
+    try:
+        with open(DOMAIN_VOCABULARY_FILE, "r", encoding="utf-8") as f:
+            domain_vocabularies = json.load(f)
+    except (json.JSONDecodeError, IOError) as e:
+        logger.error(f"Could not load domain_vocabulary.json: {e}")
+        return {}
+
+    if verbose:
+        print(f"\n{'='*60}")
+        print(f"ANALYSE DES DOMAINES TRANSVERSAUX")
+        print(f"{'='*60}")
+
+    # Détecter les domaines transversaux
+    transversal_domains = detect_transversal_domains(domain_vocabularies, verbose=verbose)
+
+    if not transversal_domains:
+        if verbose:
+            print("\nAucun domaine transversal détecté")
+        return {}
+
+    # Créer/mettre à jour dans hierarchy.json
+    if verbose:
+        print(f"\n{'='*60}")
+        print(f"CRÉATION DANS HIERARCHY.JSON")
+        print(f"{'='*60}")
+
+    for domain, related in transversal_domains.items():
+        vocab = domain_vocabularies.get(domain, {"VSC": [], "VSCA": []})
+        success = create_transversal_domain_in_hierarchy(domain, related, vocab)
+
+        if verbose:
+            status = "✓" if success else "✗"
+            print(f"{status} {domain} -> {', '.join(related)}")
+
+    return transversal_domains
 
 
 def save_to_vocabulary_file(domain: str, vsc: list[str], vsca: list[str]):
@@ -2005,6 +2265,12 @@ def main():
     )
 
     parser.add_argument(
+        "--analyze-transversal",
+        action="store_true",
+        help="Analyze domain_vocabulary.json and auto-detect/create transversal domains in hierarchy.json"
+    )
+
+    parser.add_argument(
         "--verbose", "-v",
         action="store_true",
         help="Enable verbose logging"
@@ -2049,6 +2315,20 @@ def main():
 
             if not subcats:
                 print("  (no sub-categories found)")
+        return
+
+    # Analyze and create transversal domains
+    if args.analyze_transversal:
+        transversal_domains = analyze_and_create_transversal_domains(verbose=True)
+
+        if transversal_domains:
+            print(f"\n{'='*60}")
+            print(f"RÉSUMÉ: {len(transversal_domains)} domaine(s) transversal(aux)")
+            print(f"{'='*60}")
+            for domain, related in transversal_domains.items():
+                print(f"  {domain} -> {', '.join(related)}")
+        else:
+            print("\nAucun domaine transversal détecté ou créé")
         return
 
     # Extract specialized terms with definitions

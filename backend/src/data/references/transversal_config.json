@@ -1,0 +1,29 @@
+{
+  "_description": "Configuration pour la détection automatique des domaines transversaux",
+  "_regles": {
+    "chevauchement_vocabulaire_min": 0.5,
+    "nombre_parents_min": 2,
+    "termes_min_pour_analyse": 10,
+    "description": "Un domaine devient transversal si >=50% de son vocabulaire est partagé avec 2+ domaines parents"
+  },
+  "seuils_par_type": {
+    "sciences": {
+      "chevauchement": 0.6,
+      "description": "Sciences nécessitent 60% de chevauchement (plus strict)"
+    },
+    "arts": {
+      "chevauchement": 0.4,
+      "description": "Arts acceptent 40% de chevauchement (plus flexible)"
+    },
+    "default": {
+      "chevauchement": 0.5,
+      "description": "Seuil par défaut 50%"
+    }
+  },
+  "domaines_forces_transversaux": {
+    "geopolitics": {
+      "related": ["geography", "history", "economics", "law"],
+      "raison": "Défini manuellement - domaine intrinsèquement multi-disciplinaire"
+    }
+  }
+}
