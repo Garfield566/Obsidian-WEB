@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"c1726d3bd8e646c4","x":1720,"y":800,"width":4960,"height":1920,"color":"#38f0a0","type":"group","label":"Géographie"},
-		{"id":"ed8ad3d1c66c5cc7","x":3184,"y":967,"width":3296,"height":1393,"color":"#ab653f","type":"group","label":"représentation / monument"},
+		{"id":"ed8ad3d1c66c5cc7","x":3184,"y":967,"width":3296,"height":1513,"color":"#ab653f","type":"group","label":"représentation / monument"},
 		{"id":"d20c05f77185fb1c","x":-800,"y":1200,"width":2114,"height":1580,"color":"#d9a1e8","type":"group","label":"Industie"},
 		{"id":"1fe15c006e8d738e","x":1600,"y":-480,"width":1960,"height":1036,"color":"#cec236","type":"group","label":"Histoire"},
 		{"id":"29f9cb083f5cc47c","x":-280,"y":-800,"width":1400,"height":1024,"color":"#2e39d6","type":"group","label":"Politique"},
@@ -22,9 +22,13 @@
 		{"id":"37931197b2056ad7","x":4527,"y":1351,"width":306,"height":169,"color":"4","type":"text","text":"### The White House\n\n- 1800\n- lieu de résidence du président des USA"},
 		{"id":"285b196522c91995","x":3360,"y":1640,"width":300,"height":400,"type":"file","file":"z_Assets/Unsorted/Pasted image 20260130143049.png"},
 		{"id":"de6f31bc6340f2fb","x":3226,"y":2080,"width":568,"height":118,"color":"#99c030","type":"text","text":"### Le Washington Monument :\n\nObélisque, omage à au premier président (général contre les anglais)"},
-		{"id":"02f67fd783a14d6e","x":5080,"y":1045,"width":919,"height":613,"type":"file","file":"z_Assets/Unsorted/Pasted image 20260130143147.png"},
 		{"id":"c11a1e560d3dfc1f","x":4063,"y":1560,"width":302,"height":400,"type":"file","file":"z_Assets/Unsorted/Pasted image 20260130143615.png"},
-		{"id":"e131311f49c31c0d","x":4063,"y":2000,"width":355,"height":228,"color":"2","type":"text","text":"### Statue de la Liberty :\nOffert par la France, pour célébré centime anniversaire indépendance \n- Lieu / New york city, Liberty Island\n- 1886 "}
+		{"id":"e131311f49c31c0d","x":4063,"y":2000,"width":355,"height":228,"color":"2","type":"text","text":"### Statue de la Liberty :\nOffert par la France, pour célébré centime anniversaire indépendance \n- Lieu / New york city, Liberty Island\n- 1886 "},
+		{"id":"f43540c8544075fe","x":4560,"y":2082,"width":376,"height":130,"color":"#4e618d","type":"text","text":"### The Lincoln Memorial :\nSont Rôle dans la guerre de sécession"},
+		{"id":"96acbacc7151d1f1","x":4560,"y":1715,"width":360,"height":325,"type":"file","file":"z_Assets/Unsorted/Pasted image 20260130144641.png"},
+		{"id":"02f67fd783a14d6e","x":5160,"y":1000,"width":919,"height":613,"type":"file","file":"z_Assets/Unsorted/Pasted image 20260130143147.png"},
+		{"id":"368f7f7e2dcfd39b","x":5160,"y":2114,"width":440,"height":206,"color":"3","type":"text","text":"### Mount Rushmore\n- Début 1927/ Fin 1941\n\nIl s'agit de gauche à droite de **George Washington (1732-1799), Thomas Jefferson (1743-1826), Theodore Roosevelt (1858-1919) et Abraham Lincoln (1809-1865)**."},
+		{"id":"e168ce5aa3901692","x":5158,"y":1808,"width":400,"height":272,"type":"file","file":"z_Assets/Unsorted/Pasted image 20260130144900.png"}
 	],
 	"edges":[
 		{"id":"a7f5c24398a243fb","fromNode":"cb19b53d134e7b7a","fromSide":"right","toNode":"259d88d3691a0e39","toSide":"top"},
