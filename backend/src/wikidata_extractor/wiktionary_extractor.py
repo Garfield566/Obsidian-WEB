@@ -467,7 +467,7 @@ class WiktionaryExtractor:
 
     def _extract_from_category(self, domain_path: str, category: str) -> WiktionaryResult:
         """Extrait le vocabulaire d'une catégorie spécifique."""
-        terms = self.get_category_members(category, limit=500)
+        terms = self.get_category_members(category, limit=10000)
 
         filtered_terms = []
         for term in terms:
