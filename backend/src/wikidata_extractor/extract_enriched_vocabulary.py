@@ -91,43 +91,53 @@ def extract_hierarchy_with_terms(
     start_time = time.time()
 
     # Initialiser
-    results = {}
+    raw_results = {}
 
     # Extraire racine
     root_result = extractor._extract_from_category(domain_name, category)
+    raw_results[domain_name] = root_result
 
-    # Limiter si nécessaire
-    terms = root_result.terms
-    if limit_per_domain > 0 and len(terms) > limit_per_domain:
-        terms = terms[:limit_per_domain]
-
-    results[domain_name] = {
-        "terms": terms,
-        "total": len(terms),
-        "category": category
-    }
-
-    print(f"  {domain_name}: {len(terms)} termes")
+    print(f"  {domain_name}: {root_result.total_in_category} termes")
 
     # Explorer sous-catégories
     print(f"\n[2/3] Exploration des sous-catégories...")
     extractor._explore_subcategories(
         parent_domain=domain_name,
         parent_category=category,
-        results={},  # On va utiliser notre propre structure
+        results=raw_results,  # Passer le vrai dictionnaire pour récupérer les sous-domaines
         current_depth=1,
         max_depth=max_depth
     )
 
-    # Récupérer les sous-domaines depuis l'exploration
-    # Note: Pour l'instant on extrait juste le domaine racine
-    # TODO: Améliorer pour récupérer les sous-domaines
-
     elapsed = time.time() - start_time
 
     print(f"\n[3/3] Extraction terminée en {elapsed:.1f}s")
-    print(f"  Total domaines: {len(results)}")
-    print(f"  Total termes: {sum(r['total'] for r in results.values())}")
+    print(f"  Total domaines: {len(raw_results)}")
+
+    # Afficher la hiérarchie découverte
+    print(f"\nHiérarchie découverte:")
+    for domain_path in sorted(raw_results.keys()):
+        wikt_result = raw_results[domain_path]
+        depth = domain_path.count("\\")
+        indent = "  " * depth
+        domain_display = domain_path.split("\\")[-1] if "\\" in domain_path else domain_path
+        print(f"  {indent}+- {domain_display} ({wikt_result.total_in_category} termes)")
+
+    # Convertir en structure compatible et limiter si nécessaire
+    results = {}
+    for domain_path, wikt_result in raw_results.items():
+        terms = wikt_result.terms
+        if limit_per_domain > 0 and len(terms) > limit_per_domain:
+            terms = terms[:limit_per_domain]
+
+        results[domain_path] = {
+            "terms": terms,
+            "total": len(terms),
+            "category": getattr(wikt_result, 'category', '')
+        }
+
+    total_terms = sum(r['total'] for r in results.values())
+    print(f"  Total termes (après limite): {total_terms}")
 
     return results
 
