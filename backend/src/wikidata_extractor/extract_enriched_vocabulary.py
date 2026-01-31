@@ -9,6 +9,12 @@ SOURCES:
 - Wikipedia → confidence 0.8
 - Wiktionary → confidence 0.6
 
+NOUVEAUTÉ: Détection automatique des termes TRANSVERSAUX
+- Termes qui apparaissent dans plusieurs domaines/sous-domaines
+- Marquage "transversal: true"
+- Liste complète des domaines d'apparition
+- Choix du domaine principal (le plus spécifique)
+
 RÉSULTAT:
 - hierarchy.json avec vocabulaire enrichi
 - domain_vocabulary.json avec métadonnées complètes
@@ -33,6 +39,11 @@ from wiktionary_extractor import (
     extract_specialized_term_multisource,
     DOMAIN_VOCABULARY_FILE,
     SPECIALIZED_TERMS_FILE
+)
+
+from detect_transversal_terms import (
+    enrich_with_transversal_info,
+    detect_transversal_terms
 )
 
 # Domaines disponibles
@@ -345,7 +356,37 @@ def extract_and_enrich_vocabulary(
             }
         }
 
-    return enriched_vocabulary
+    # PHASE 3: Enrichissement avec info de transversalité
+    print(f"\n{'=' * 80}")
+    print(f"PHASE 3: DÉTECTION TERMES TRANSVERSAUX")
+    print("=" * 80)
+
+    # Détecter les termes transversaux
+    detection = detect_transversal_terms(enriched_vocabulary)
+    stats = detection["stats"]
+
+    print(f"\nStatistiques transversalité:")
+    print(f"  Total termes uniques: {stats['total_unique_terms']}")
+    print(f"  Termes transversaux: {stats['transversal_count']} ({stats['transversal_percentage']:.1f}%)")
+    print(f"  Termes à domaine unique: {stats['single_domain_count']}")
+
+    # Afficher exemples de termes transversaux
+    if stats['transversal_count'] > 0:
+        transversal_terms = detection["transversal_terms"]
+        print(f"\nExemples de termes transversaux (top 3):")
+        for i, (term, info) in enumerate(list(transversal_terms.items())[:3], 1):
+            print(f"  {i}. '{term}' -> {info['count']} domaines")
+
+    # Enrichir avec info de transversalité (Option B)
+    print(f"\n[INFO] Enrichissement avec métadonnées de transversalité...")
+    enriched_with_transversal = enrich_with_transversal_info(
+        enriched_vocabulary,
+        strategy="most_specific"
+    )
+
+    print(f"[OK] Termes enrichis avec info transverse")
+
+    return enriched_with_transversal
 
 
 def save_enriched_vocabulary(enriched_vocab: dict, output_file: Path):
