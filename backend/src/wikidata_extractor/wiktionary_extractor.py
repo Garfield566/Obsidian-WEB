@@ -1566,14 +1566,19 @@ def extract_specialized_term_multisource(
                 source_type = source.get("type", "")
                 priority = source.get("priority", 99)
 
+                logger.debug(f"Checking academic source: {source.get('name')} (type={source_type}, priority={priority})")
+
                 # Pour l'instant, on implémente uniquement arXiv (API gratuite)
                 if "arxiv" in source_name and source_type == "api":
+                    logger.debug(f"Trying arXiv for term '{term}' in domain '{domain_path}'")
                     arxiv_data = fetch_arxiv_definition(term, domain_path)
                     if arxiv_data:
                         definition_data = arxiv_data
                         sources_used.append(f"academic_priority_{priority}")
                         logger.info(f"Found definition in arXiv for '{term}'")
                         break  # Source académique trouvée, on arrête
+                    else:
+                        logger.debug(f"No arXiv definition found for '{term}'")
 
                 # TODO: Implémenter d'autres sources académiques (scraping IEEE, ACM, etc.)
                 # Pour l'instant, on continue avec les autres sources
