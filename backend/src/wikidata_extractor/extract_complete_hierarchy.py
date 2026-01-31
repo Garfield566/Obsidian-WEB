@@ -90,29 +90,44 @@ def extract_vocabulary_hierarchy(
 
     extractor = WiktionaryExtractor()
 
-    print(f"\n[1/3] Découverte de la hiérarchie...")
+    print(f"\n[1/4] Découverte de la hiérarchie...")
     print(f"  Catégorie racine: {category}")
     print(f"  Profondeur max: {max_depth}")
 
     start_time = time.time()
 
-    # Extraction avec découverte automatique des sous-domaines
-    results = extractor.auto_discover_and_extract(
-        root_domain=domain_name,
+    # Initialiser les résultats
+    results = {}
+
+    # [2/4] Extraire le domaine racine
+    print(f"\n[2/4] Extraction du domaine racine...")
+    root_result = extractor._extract_from_category(domain_name, category)
+    results[domain_name] = root_result
+    print(f"  {domain_name}: {root_result.total_in_category} termes")
+
+    # [3/4] Explorer les sous-catégories récursivement
+    print(f"\n[3/4] Exploration des sous-catégories...")
+    extractor._explore_subcategories(
+        parent_domain=domain_name,
+        parent_category=category,
+        results=results,
+        current_depth=1,
         max_depth=max_depth
     )
 
     elapsed = time.time() - start_time
 
-    print(f"\n[2/3] Extraction terminée en {elapsed:.1f}s")
+    print(f"\n[4/4] Extraction terminée en {elapsed:.1f}s")
     print(f"  Domaines trouvés: {len(results)}")
 
     # Affiche la hiérarchie découverte
-    print(f"\n[3/3] Hiérarchie découverte:")
-    for domain_path, result in results.items():
+    print(f"\nHiérarchie découverte:")
+    for domain_path in sorted(results.keys()):
+        result = results[domain_path]
         depth = domain_path.count("\\")
         indent = "  " * depth
-        print(f"  {indent}└─ {domain_path.split('\\')[-1]} ({result.total_in_category} termes)")
+        domain_display = domain_path.split("\\")[-1] if "\\" in domain_path else domain_path
+        print(f"  {indent}+- {domain_display} ({result.total_in_category} termes)")
 
     return results
 
