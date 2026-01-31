@@ -551,12 +551,27 @@ class WiktionaryExtractor:
 
     def _is_valid_term(self, term: str) -> bool:
         """Vérifie si un terme est valide (pas une page spéciale)."""
+        import re
+
         # Exclure les pages de catégorie, modèles, etc.
         if ":" in term:
             return False
         # Exclure les termes trop courts
         if len(term) < 2:
             return False
+
+        # NOUVEAU: Filtrer notations techniques invalides
+        # Pattern: lettre + chiffre(s) + / + chiffre(s)
+        # Exemples: a5/1, a5/2, rc4/128, etc.
+        invalid_notation = re.match(r'^[a-z]\d+/\d+$', term.lower())
+        if invalid_notation:
+            return False
+
+        # NOUVEAU: Filtrer codes techniques courts
+        # Pattern: 2-3 lettres + chiffres uniquement (ex: md5, sha1, rc4)
+        if len(term) <= 5 and re.match(r'^[a-z]{2,3}\d+$', term.lower()):
+            return False
+
         # Exclure les termes qui commencent par une majuscule (noms propres)
         # Sauf si c'est un acronyme en majuscules
         if term[0].isupper() and not term.isupper():
@@ -1602,9 +1617,19 @@ def extract_specialized_term_multisource(
         return None
 
     raw_def = definition_data["raw_definition"]
+
+    # NOUVEAU: Seuil minimum de longueur globale
+    if len(raw_def.strip()) < 50:
+        return None
+
+    # NOUVEAU: Rejeter définitions placeholder
+    if _is_placeholder_definition(raw_def):
+        return None
+
     mandatory = definition_to_mandatory_elements(raw_def)
 
-    if not mandatory:
+    # NOUVEAU: Minimum 3 mots significatifs (au lieu de juste "pas vide")
+    if not mandatory or len(mandatory) < 3:
         return None
 
     # Calculer le score de confiance
@@ -2277,6 +2302,40 @@ def parse_wiktionary_extract(term: str, extract: str) -> dict:
     }
 
 
+def _is_placeholder_definition(raw_definition: str) -> bool:
+    """
+    Détecte les définitions non-informatives (amorces, placeholders).
+
+    Args:
+        raw_definition: La définition brute
+
+    Returns:
+        True si la définition est un placeholder non-informatif
+    """
+    placeholder_patterns = [
+        "peut désigner",
+        "peut faire référence",
+        "peut se référer",
+        "peut signifier",
+        "terme peut",
+        "mot peut",
+        "expression peut",
+        "le terme",
+        "faire référence",
+    ]
+
+    # Normaliser
+    normalized = raw_definition.lower().strip()
+
+    # Définition très courte = placeholder probable
+    if len(normalized) < 50:
+        for pattern in placeholder_patterns:
+            if pattern in normalized:
+                return True
+
+    return False
+
+
 def definition_to_mandatory_elements(definition: str) -> list[dict]:
     """
     Convertit une définition en éléments mandatory pour specialized_terms.
@@ -2298,6 +2357,10 @@ def definition_to_mandatory_elements(definition: str) -> list[dict]:
         'avoir', 'fait', 'peut', 'son', 'sa', 'ses', 'il', 'elle', 'on',
         'se', 'en', 'ne', 'pas', 'plus', 'très', 'bien', 'tout', 'tous',
         'd\'un', 'd\'une', 'qu\'un', 'qu\'une', 'c\'est', "l'", "d'",
+        # NOUVEAUX: Mots d'introduction non-informatifs
+        'désigner', 'référence', 'référer', 'terme', 'mot',
+        'signifier', 'définir', 'sens', 'notion', 'concept',
+        'suivant', 'suivante', 'plusieurs', 'divers', 'diverses',
     }
 
     # Nettoyer et tokeniser
