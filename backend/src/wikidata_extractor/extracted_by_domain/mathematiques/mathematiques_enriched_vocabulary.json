@@ -564,6 +564,114 @@
         "transversal": false
       },
       {
+        "term": "aleph",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Variante de alef, א, première lettre de l’alphabet hébreu.",
+        "definition_mandatory": [
+          {
+            "name": "variante",
+            "synonyms": [
+              "variante"
+            ]
+          },
+          {
+            "name": "alef",
+            "synonyms": [
+              "alef"
+            ]
+          },
+          {
+            "name": "première",
+            "synonyms": [
+              "première"
+            ]
+          },
+          {
+            "name": "lettre",
+            "synonyms": [
+              "lettre"
+            ]
+          },
+          {
+            "name": "alphabet",
+            "synonyms": [
+              "alphabet"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
+        "term": "aleph-zéro",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
+        "term": "algèbre",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Branche des mathématiques qui étudie les structures algébriques, hors des notions de limite (rattachée à l’analyse) et de représentation graphique (concernant la géométrie).",
+        "definition_mandatory": [
+          {
+            "name": "branche",
+            "synonyms": [
+              "branche"
+            ]
+          },
+          {
+            "name": "mathématiques",
+            "synonyms": [
+              "mathématiques"
+            ]
+          },
+          {
+            "name": "étudie",
+            "synonyms": [
+              "étudie"
+            ]
+          },
+          {
+            "name": "structures",
+            "synonyms": [
+              "structures"
+            ]
+          },
+          {
+            "name": "algébriques",
+            "synonyms": [
+              "algébriques"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
+        "term": "algèbre relationnelle",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
         "term": "algébrique",
         "sources": [
           "wiktionary"
@@ -619,44 +727,66 @@
         "transversal": false
       },
       {
+        "term": "algorithme",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Suite finie et non ambigüe d’opérations ou d’instructions permettant de résoudre un problème ou d’obtenir un résultat.",
+        "definition_mandatory": [
+          {
+            "name": "suite",
+            "synonyms": [
+              "suite"
+            ]
+          },
+          {
+            "name": "finie",
+            "synonyms": [
+              "finie"
+            ]
+          },
+          {
+            "name": "non",
+            "synonyms": [
+              "non"
+            ]
+          },
+          {
+            "name": "ambigüe",
+            "synonyms": [
+              "ambigüe"
+            ]
+          },
+          {
+            "name": "opérations",
+            "synonyms": [
+              "opérations"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
+        "term": "algorithmique",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
         "term": "aliquante",
         "sources": [
           "wiktionary"
         ],
         "confidence": 0.6,
-        "definition": "(Vieilli) Qualifie des fractions d’un tout qui multipliées ne sont pas exactement contenues dans un tout.",
-        "definition_mandatory": [
-          {
-            "name": "vieilli",
-            "synonyms": [
-              "vieilli"
-            ]
-          },
-          {
-            "name": "qualifie",
-            "synonyms": [
-              "qualifie"
-            ]
-          },
-          {
-            "name": "fractions",
-            "synonyms": [
-              "fractions"
-            ]
-          },
-          {
-            "name": "multipliées",
-            "synonyms": [
-              "multipliées"
-            ]
-          },
-          {
-            "name": "exactement",
-            "synonyms": [
-              "exactement"
-            ]
-          }
-        ],
+        "definition": "",
         "domaine_parent": "mathematiques",
         "domaine_exact": "mathematiques",
         "transversal": false
@@ -705,44 +835,37 @@
         "transversal": false
       },
       {
+        "term": "alternativité",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "État de ce qui est alternatif.",
+        "definition_mandatory": [
+          {
+            "name": "état",
+            "synonyms": [
+              "état"
+            ]
+          },
+          {
+            "name": "alternatif",
+            "synonyms": [
+              "alternatif"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
         "term": "ambigène",
         "sources": [
           "wiktionary"
         ],
         "confidence": 0.6,
-        "definition": "Qualifie une hyperbole qui a une de ses branches infinies inscrite, et l’autre circonscrite à son asymptote.",
-        "definition_mandatory": [
-          {
-            "name": "qualifie",
-            "synonyms": [
-              "qualifie"
-            ]
-          },
-          {
-            "name": "hyperbole",
-            "synonyms": [
-              "hyperbole"
-            ]
-          },
-          {
-            "name": "branches",
-            "synonyms": [
-              "branches"
-            ]
-          },
-          {
-            "name": "infinies",
-            "synonyms": [
-              "infinies"
-            ]
-          },
-          {
-            "name": "inscrite",
-            "synonyms": [
-              "inscrite"
-            ]
-          }
-        ],
+        "definition": "",
         "domaine_parent": "mathematiques",
         "domaine_exact": "mathematiques",
         "transversal": false
@@ -857,6 +980,36 @@
         "domaine_parent": "mathematiques",
         "domaine_exact": "mathematiques",
         "transversal": false
+      },
+      {
+        "term": "analyse",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Résolution d’un tout en ses parties.",
+        "definition_mandatory": [
+          {
+            "name": "résolution",
+            "synonyms": [
+              "résolution"
+            ]
+          },
+          {
+            "name": "parties",
+            "synonyms": [
+              "parties"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": true,
+        "domaines_apparition": [
+          "mathematiques",
+          "mathematiques\\analyse"
+        ],
+        "domaine_principal": "mathematiques\\analyse"
       },
       {
         "term": "anguiné",
@@ -994,6 +1147,80 @@
         "domaine_principal": "mathematiques\\algèbre\\algèbre linéaire"
       },
       {
+        "term": "anse",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Partie saillante, souvent de forme annulaire, servant à saisir ou à porter certains récipients ou objets.",
+        "definition_mandatory": [
+          {
+            "name": "partie",
+            "synonyms": [
+              "partie"
+            ]
+          },
+          {
+            "name": "saillante",
+            "synonyms": [
+              "saillante"
+            ]
+          },
+          {
+            "name": "souvent",
+            "synonyms": [
+              "souvent"
+            ]
+          },
+          {
+            "name": "forme",
+            "synonyms": [
+              "forme"
+            ]
+          },
+          {
+            "name": "annulaire",
+            "synonyms": [
+              "annulaire"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
+        "term": "antécédent",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Qui précède dans l’ordre du temps.",
+        "definition_mandatory": [
+          {
+            "name": "précède",
+            "synonyms": [
+              "précède"
+            ]
+          },
+          {
+            "name": "ordre",
+            "synonyms": [
+              "ordre"
+            ]
+          },
+          {
+            "name": "temps",
+            "synonyms": [
+              "temps"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
         "term": "antichrone",
         "sources": [
           "wiktionary"
@@ -1111,44 +1338,55 @@
         "transversal": false
       },
       {
+        "term": "antilogarithme",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "(Vieilli) Antécédent d'un nombre par la fonction logarithme.",
+        "definition_mandatory": [
+          {
+            "name": "vieilli",
+            "synonyms": [
+              "vieilli"
+            ]
+          },
+          {
+            "name": "antécédent",
+            "synonyms": [
+              "antécédent"
+            ]
+          },
+          {
+            "name": "nombre",
+            "synonyms": [
+              "nombre"
+            ]
+          },
+          {
+            "name": "fonction",
+            "synonyms": [
+              "fonction"
+            ]
+          },
+          {
+            "name": "logarithme",
+            "synonyms": [
+              "logarithme"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
         "term": "antisimilitude",
         "sources": [
           "wiktionary"
         ],
         "confidence": 0.6,
-        "definition": "Transformation géométrique qui conserve les rapports des longueurs tout en inversant l'orientation d'une figure. Elle est caractérisée par l'alternance des angles orientés.",
-        "definition_mandatory": [
-          {
-            "name": "transformation",
-            "synonyms": [
-              "transformation"
-            ]
-          },
-          {
-            "name": "géométrique",
-            "synonyms": [
-              "géométrique"
-            ]
-          },
-          {
-            "name": "conserve",
-            "synonyms": [
-              "conserve"
-            ]
-          },
-          {
-            "name": "rapports",
-            "synonyms": [
-              "rapports"
-            ]
-          },
-          {
-            "name": "longueurs",
-            "synonyms": [
-              "longueurs"
-            ]
-          }
-        ],
+        "definition": "",
         "domaine_parent": "mathematiques",
         "domaine_exact": "mathematiques",
         "transversal": true,
@@ -1202,6 +1440,49 @@
         "transversal": false
       },
       {
+        "term": "apeiron",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Infini, en tant que concept émergeant dans l’antiquité grecque.",
+        "definition_mandatory": [
+          {
+            "name": "infini",
+            "synonyms": [
+              "infini"
+            ]
+          },
+          {
+            "name": "tant",
+            "synonyms": [
+              "tant"
+            ]
+          },
+          {
+            "name": "concept",
+            "synonyms": [
+              "concept"
+            ]
+          },
+          {
+            "name": "émergeant",
+            "synonyms": [
+              "émergeant"
+            ]
+          },
+          {
+            "name": "antiquité",
+            "synonyms": [
+              "antiquité"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
         "term": "apériodique",
         "sources": [
           "wiktionary"
@@ -1227,26 +1508,37 @@
         "transversal": false
       },
       {
+        "term": "apex",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Extrémité d’un organe.",
+        "definition_mandatory": [
+          {
+            "name": "extrémité",
+            "synonyms": [
+              "extrémité"
+            ]
+          },
+          {
+            "name": "organe",
+            "synonyms": [
+              "organe"
+            ]
+          }
+        ],
+        "domaine_parent": "mathematiques",
+        "domaine_exact": "mathematiques",
+        "transversal": false
+      },
+      {
         "term": "apocalyptique",
         "sources": [
           "wiktionary"
         ],
         "confidence": 0.6,
-        "definition": "Relatif à l’Apocalypse.",
-        "definition_mandatory": [
-          {
-            "name": "relatif",
-            "synonyms": [
-              "relatif"
-            ]
-          },
-          {
-            "name": "apocalypse",
-            "synonyms": [
-              "apocalypse"
-            ]
-          }
-        ],
+        "definition": "",
         "domaine_parent": "mathematiques",
         "domaine_exact": "mathematiques",
         "transversal": false
@@ -9025,105 +9317,13 @@
         "transversal": false
       },
       {
-        "term": "aleph",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "Cette page contient les pages d'homonymie de Aleph, Aleph et L'Aleph.\nAleph ou alef qui s’écrit (א) en hébreu et (أ)  en arabe, est la première lettre de l'alphabet hébreu et de l'alphabet arabe.",
-        "definition_mandatory": [
-          {
-            "name": "page",
-            "synonyms": [
-              "page"
-            ]
-          },
-          {
-            "name": "contient",
-            "synonyms": [
-              "contient"
-            ]
-          },
-          {
-            "name": "pages",
-            "synonyms": [
-              "pages"
-            ]
-          },
-          {
-            "name": "d'homonymie",
-            "synonyms": [
-              "d'homonymie"
-            ]
-          },
-          {
-            "name": "aleph",
-            "synonyms": [
-              "aleph"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
         "term": "aleph-un",
         "sources": [
-          "wikipedia"
+          "wiktionary"
         ],
-        "confidence": 0.8,
-        "definition": "En théorie des ensembles, les alephs sont les cardinaux des ensembles bien ordonnés infinis, et  ℵ₁ (lire Aleph-un) est le plus petit d'entre eux qui ne soit pas dénombrable, c'est-à-dire le plus petit qui soit strictement supérieur à  ℵ₀, cardinal de l'ensemble des entiers naturels ; ℵ₁ est aussi le cardinal de l'ensemble des ordinaux dénombrables (dit autrement, le cardinal associé à l'ordinal de Hartogs de l'ensemble des entiers naturels).\nPar définition, il n'existe aucun ensemble dont le ca...",
+        "confidence": 0.6,
+        "definition": "Cardinal de l’ensemble des nombres ordinaux dénombrables.",
         "definition_mandatory": [
-          {
-            "name": "théorie",
-            "synonyms": [
-              "théorie"
-            ]
-          },
-          {
-            "name": "ensembles",
-            "synonyms": [
-              "ensembles"
-            ]
-          },
-          {
-            "name": "alephs",
-            "synonyms": [
-              "alephs"
-            ]
-          },
-          {
-            "name": "cardinaux",
-            "synonyms": [
-              "cardinaux"
-            ]
-          },
-          {
-            "name": "ensembles",
-            "synonyms": [
-              "ensembles"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "aleph-zéro",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "En mathématiques, le cardinal de l'ensemble des entiers naturels, et donc, par équipotence, le cardinal de n'importe quel ensemble infini dénombrable, est noté \n  \n    \n      \n        \n          ℵ\n          \n            0\n          \n        \n      \n    \n    {\\displaystyle \\aleph _{0}}\n  \n et se lit aleph-zéro. C'est, par définition, le premier dans la suite indexée par les ordinaux des alephs, une suite d'ordinaux définie par Georg Cantor pour représenter tous les cardinaux infinis.",
-        "definition_mandatory": [
-          {
-            "name": "mathématiques",
-            "synonyms": [
-              "mathématiques"
-            ]
-          },
           {
             "name": "cardinal",
             "synonyms": [
@@ -9131,236 +9331,27 @@
             ]
           },
           {
-            "name": "l'ensemble",
+            "name": "ensemble",
             "synonyms": [
-              "l'ensemble"
+              "ensemble"
             ]
           },
           {
-            "name": "entiers",
+            "name": "nombres",
             "synonyms": [
-              "entiers"
+              "nombres"
             ]
           },
           {
-            "name": "naturels",
+            "name": "ordinaux",
             "synonyms": [
-              "naturels"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "algèbre",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "L'algèbre (de l’arabe : الجبر, al-jabr) est une branche des mathématiques qui permet d'exprimer les propriétés des opérations et le traitement des équations et aboutit à l'étude des structures algébriques. Selon l’époque et le niveau d’études considérés, elle peut être décrite comme :\n\nune arithmétique généralisée, étendant à différents objets ou grandeurs les opérations usuelles sur les nombres ;\nla théorie des équations et des polynômes ;\ndepuis le début du XXe siècle, l’étude des structures a...",
-        "definition_mandatory": [
-          {
-            "name": "l'algèbre",
-            "synonyms": [
-              "l'algèbre"
+              "ordinaux"
             ]
           },
           {
-            "name": "arabe",
+            "name": "dénombrables",
             "synonyms": [
-              "arabe"
-            ]
-          },
-          {
-            "name": "الجبر",
-            "synonyms": [
-              "الجبر"
-            ]
-          },
-          {
-            "name": "al-jabr",
-            "synonyms": [
-              "al-jabr"
-            ]
-          },
-          {
-            "name": "branche",
-            "synonyms": [
-              "branche"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "algèbre relationnelle",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "En informatique, plus précisément en théorie des bases de données relationnelles, l'algèbre relationnelle est un langage de requêtes, inventé en 1970 par Edgar Frank Codd, directeur de recherche du centre IBM de San José.\nIl s'agit de la théorie sous-jacente aux langages de requête des SGBD, comme SQL. Le théorème de Codd dit que l'algèbre relationnelle est équivalente au calcul relationnel, c'est-à-dire la logique du premier ordre, mais sans les symboles de fonction.",
-        "definition_mandatory": [
-          {
-            "name": "informatique",
-            "synonyms": [
-              "informatique"
-            ]
-          },
-          {
-            "name": "précisément",
-            "synonyms": [
-              "précisément"
-            ]
-          },
-          {
-            "name": "théorie",
-            "synonyms": [
-              "théorie"
-            ]
-          },
-          {
-            "name": "bases",
-            "synonyms": [
-              "bases"
-            ]
-          },
-          {
-            "name": "données",
-            "synonyms": [
-              "données"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "algorithme",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "Un algorithme est une suite finie et non ambiguë d'instructions et d’opérations permettant de résoudre une classe de problèmes.\nLe domaine qui étudie les algorithmes est appelé l'algorithmique.",
-        "definition_mandatory": [
-          {
-            "name": "algorithme",
-            "synonyms": [
-              "algorithme"
-            ]
-          },
-          {
-            "name": "suite",
-            "synonyms": [
-              "suite"
-            ]
-          },
-          {
-            "name": "finie",
-            "synonyms": [
-              "finie"
-            ]
-          },
-          {
-            "name": "non",
-            "synonyms": [
-              "non"
-            ]
-          },
-          {
-            "name": "ambiguë",
-            "synonyms": [
-              "ambiguë"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "algorithmique",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "L'algorithmique est l'étude et la production de règles et techniques qui sont impliquées dans la définition et la conception d'algorithmes, c'est-à-dire de processus systématiques de résolution d'un problème permettant de décrire précisément des étapes pour résoudre un problème algorithmique.",
-        "definition_mandatory": [
-          {
-            "name": "l'algorithmique",
-            "synonyms": [
-              "l'algorithmique"
-            ]
-          },
-          {
-            "name": "l'étude",
-            "synonyms": [
-              "l'étude"
-            ]
-          },
-          {
-            "name": "production",
-            "synonyms": [
-              "production"
-            ]
-          },
-          {
-            "name": "règles",
-            "synonyms": [
-              "règles"
-            ]
-          },
-          {
-            "name": "techniques",
-            "synonyms": [
-              "techniques"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "alternativité",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "En mathématiques, plus particulièrement en algèbre générale, la propriété d'alternativité peut concerner les lois de composition internes, spécialement la multiplication de certaines algèbres. C'est une propriété moins forte que l'associativité et, pour les algèbres, plus forte que l'associativité des puissances.",
-        "definition_mandatory": [
-          {
-            "name": "mathématiques",
-            "synonyms": [
-              "mathématiques"
-            ]
-          },
-          {
-            "name": "particulièrement",
-            "synonyms": [
-              "particulièrement"
-            ]
-          },
-          {
-            "name": "algèbre",
-            "synonyms": [
-              "algèbre"
-            ]
-          },
-          {
-            "name": "générale",
-            "synonyms": [
-              "générale"
-            ]
-          },
-          {
-            "name": "propriété",
-            "synonyms": [
-              "propriété"
+              "dénombrables"
             ]
           }
         ],
@@ -9412,73 +9403,13 @@
         "transversal": false
       },
       {
-        "term": "analyse",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "Le mot analyse est employé dans différentes matières. Ces différentes significations ne partagent pas seulement le même nom, mais sont véritablement des applications particulières d'un concept commun.",
-        "definition_mandatory": [
-          {
-            "name": "mot",
-            "synonyms": [
-              "mot"
-            ]
-          },
-          {
-            "name": "analyse",
-            "synonyms": [
-              "analyse"
-            ]
-          },
-          {
-            "name": "employé",
-            "synonyms": [
-              "employé"
-            ]
-          },
-          {
-            "name": "différentes",
-            "synonyms": [
-              "différentes"
-            ]
-          },
-          {
-            "name": "matières",
-            "synonyms": [
-              "matières"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": true,
-        "domaines_apparition": [
-          "mathematiques",
-          "mathematiques\\analyse"
-        ],
-        "domaine_principal": "mathematiques\\analyse"
-      },
-      {
         "term": "analyse algébrique",
         "sources": [
-          "wikipedia"
+          "wiktionary"
         ],
-        "confidence": 0.8,
-        "definition": "L'analyse algébrique est un domaine des mathématiques qui traite des systèmes d'équations aux dérivées partielles linéaires en utilisant la théorie des préfaisceaux et l'analyse complexe pour étudier les propriétés et les généralisations de fonctions telles que les hyperfonctions et les microfonctions.\nCette branche des mathématiques est fondée sur les idées d'Alexandre Grothendieck, puis développée par Mikio Satō, Masaki Kashiwara et, pour ce qui concerne les systèmes d'équations différentielle...",
+        "confidence": 0.6,
+        "definition": "Domaine des mathématiques qui traite des systèmes d’équations aux dérivées partielles linéaires en utilisant la théorie des préfaisceaux et l’analyse complexe.",
         "definition_mandatory": [
-          {
-            "name": "l'analyse",
-            "synonyms": [
-              "l'analyse"
-            ]
-          },
-          {
-            "name": "algébrique",
-            "synonyms": [
-              "algébrique"
-            ]
-          },
           {
             "name": "domaine",
             "synonyms": [
@@ -9495,6 +9426,18 @@
             "name": "traite",
             "synonyms": [
               "traite"
+            ]
+          },
+          {
+            "name": "systèmes",
+            "synonyms": [
+              "systèmes"
+            ]
+          },
+          {
+            "name": "équations",
+            "synonyms": [
+              "équations"
             ]
           }
         ],
@@ -9546,92 +9489,6 @@
         "transversal": false
       },
       {
-        "term": "anse",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "Anse est un nom commun ou un nom propre.\nAnse peut désigner :\n\nanse, poignée pour porter des objets ;\n\nanse, petite baie ;\nanse, odonyme français, nom donné à une voie de circulation en forme d'anse ;\nanse, terme mathématique utilisé en topologie ;\nanse de Henle, en médecine, partie du rein ;\nanse cervicale, en médecine, nerf du cou ;\nanse d'inoculation ou boucle de frottis, instrument utilisé en microbiologie.",
-        "definition_mandatory": [
-          {
-            "name": "anse",
-            "synonyms": [
-              "anse"
-            ]
-          },
-          {
-            "name": "nom",
-            "synonyms": [
-              "nom"
-            ]
-          },
-          {
-            "name": "commun",
-            "synonyms": [
-              "commun"
-            ]
-          },
-          {
-            "name": "nom",
-            "synonyms": [
-              "nom"
-            ]
-          },
-          {
-            "name": "propre",
-            "synonyms": [
-              "propre"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "antécédent",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "Antécédent peut désigner :\n\nantécédent, en grammaire, un segment de texte représenté ou repris par un autre segment ;\nantécédent, en logique, la première moitié d'une proposition hypothétique ;\nantécédent, en mathématiques, voir définition dans l'article dédié ;\nantécédent, en médecine, les évènements du passé concernant la santé d'une personne ;\nantécédent (en), en droit des brevets, tout ce qui est connu ou divulgué et qui pourrait être pertinent pour la revendication d'un brevet.",
-        "definition_mandatory": [
-          {
-            "name": "antécédent",
-            "synonyms": [
-              "antécédent"
-            ]
-          },
-          {
-            "name": "désigner",
-            "synonyms": [
-              "désigner"
-            ]
-          },
-          {
-            "name": "antécédent",
-            "synonyms": [
-              "antécédent"
-            ]
-          },
-          {
-            "name": "grammaire",
-            "synonyms": [
-              "grammaire"
-            ]
-          },
-          {
-            "name": "segment",
-            "synonyms": [
-              "segment"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
         "term": "anti-horaire",
         "sources": [
           "wiktionary"
@@ -9667,135 +9524,6 @@
             "name": "inverse",
             "synonyms": [
               "inverse"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "antilogarithme",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "En mathématiques, on appelle parfois antilogarithme d'un nombre y celui qui l'a pour logarithme. On emploie surtout ce terme pour le logarithme décimal.",
-        "definition_mandatory": [
-          {
-            "name": "mathématiques",
-            "synonyms": [
-              "mathématiques"
-            ]
-          },
-          {
-            "name": "appelle",
-            "synonyms": [
-              "appelle"
-            ]
-          },
-          {
-            "name": "parfois",
-            "synonyms": [
-              "parfois"
-            ]
-          },
-          {
-            "name": "antilogarithme",
-            "synonyms": [
-              "antilogarithme"
-            ]
-          },
-          {
-            "name": "nombre",
-            "synonyms": [
-              "nombre"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "apeiron",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "L'apeiron (en grec ancien : ἄπειρον / apeiron, « illimité ») est un concept philosophique présenté la première fois par Anaximandre au VIe siècle av. J.-C. (voir La Parole d'Anaximandre) pour désigner ce principe originel que recherchaient les tenants de l'école milésienne.",
-        "definition_mandatory": [
-          {
-            "name": "l'apeiron",
-            "synonyms": [
-              "l'apeiron"
-            ]
-          },
-          {
-            "name": "grec",
-            "synonyms": [
-              "grec"
-            ]
-          },
-          {
-            "name": "ancien",
-            "synonyms": [
-              "ancien"
-            ]
-          },
-          {
-            "name": "ἄπειρον",
-            "synonyms": [
-              "ἄπειρον"
-            ]
-          },
-          {
-            "name": "apeiron",
-            "synonyms": [
-              "apeiron"
-            ]
-          }
-        ],
-        "domaine_parent": "mathematiques",
-        "domaine_exact": "mathematiques",
-        "transversal": false
-      },
-      {
-        "term": "apex",
-        "sources": [
-          "wikipedia"
-        ],
-        "confidence": 0.8,
-        "definition": "APEX est un acronyme. Le nom commun apex (pluriel invariable), à l'origine un mot latin (pluriel apices), signifie « sommet » ou « pointe ».",
-        "definition_mandatory": [
-          {
-            "name": "apex",
-            "synonyms": [
-              "apex"
-            ]
-          },
-          {
-            "name": "acronyme",
-            "synonyms": [
-              "acronyme"
-            ]
-          },
-          {
-            "name": "nom",
-            "synonyms": [
-              "nom"
-            ]
-          },
-          {
-            "name": "commun",
-            "synonyms": [
-              "commun"
-            ]
-          },
-          {
-            "name": "apex",
-            "synonyms": [
-              "apex"
             ]
           }
         ],
@@ -19068,13 +18796,13 @@
     ],
     "stats": {
       "total_terms": 500,
-      "enriched_count": 470,
-      "vsc_count": 256,
-      "vsca_count": 244,
+      "enriched_count": 463,
+      "vsc_count": 269,
+      "vsca_count": 231,
       "academic_count": 0,
-      "wikipedia_count": 223,
-      "wiktionary_count": 30,
-      "elapsed_seconds": 554.5425093173981
+      "wikipedia_count": 208,
+      "wiktionary_count": 37,
+      "elapsed_seconds": 471.2750599384308
     }
   },
   "mathematiques\\algèbre": {
@@ -22800,7 +22528,7 @@
       "academic_count": 0,
       "wikipedia_count": 48,
       "wiktionary_count": 1,
-      "elapsed_seconds": 93.40796494483948
+      "elapsed_seconds": 80.78740692138672
     }
   },
   "mathematiques\\algèbre\\algèbre linéaire": {
@@ -25074,7 +24802,7 @@
       "academic_count": 0,
       "wikipedia_count": 33,
       "wiktionary_count": 4,
-      "elapsed_seconds": 53.265676736831665
+      "elapsed_seconds": 47.227033376693726
     }
   },
   "mathematiques\\analyse": {
@@ -28728,7 +28456,7 @@
       "academic_count": 0,
       "wikipedia_count": 45,
       "wiktionary_count": 11,
-      "elapsed_seconds": 101.15337252616882
+      "elapsed_seconds": 88.16129755973816
     }
   },
   "mathematiques\\arithmétique": {
@@ -31072,7 +30800,7 @@
       "academic_count": 0,
       "wikipedia_count": 26,
       "wiktionary_count": 5,
-      "elapsed_seconds": 69.03660130500793
+      "elapsed_seconds": 56.362473249435425
     }
   },
   "mathematiques\\arithmétique\\théorie des nombres": {
@@ -31354,7 +31082,7 @@
       "academic_count": 0,
       "wikipedia_count": 3,
       "wiktionary_count": 3,
-      "elapsed_seconds": 7.525740146636963
+      "elapsed_seconds": 7.603472948074341
     }
   },
   "mathematiques\\cryptologie": {
@@ -31539,7 +31267,7 @@
       "academic_count": 0,
       "wikipedia_count": 3,
       "wiktionary_count": 0,
-      "elapsed_seconds": 2.859492301940918
+      "elapsed_seconds": 2.934908151626587
     }
   },
   "mathematiques\\cryptologie\\cryptanalyse": {
@@ -31953,7 +31681,7 @@
       "academic_count": 0,
       "wikipedia_count": 6,
       "wiktionary_count": 0,
-      "elapsed_seconds": 8.258939504623413
+      "elapsed_seconds": 8.124994277954102
     }
   },
   "mathematiques\\cryptologie\\cryptographie": {
@@ -34868,7 +34596,7 @@
       "academic_count": 0,
       "wikipedia_count": 35,
       "wiktionary_count": 14,
-      "elapsed_seconds": 94.92217659950256
+      "elapsed_seconds": 80.66593289375305
     }
   },
   "mathematiques\\géométrie": {
@@ -54769,7 +54497,7 @@
       "academic_count": 0,
       "wikipedia_count": 236,
       "wiktionary_count": 12,
-      "elapsed_seconds": 542.2466509342194
+      "elapsed_seconds": 449.3521800041199
     }
   },
   "mathematiques\\histoire des maths": {
@@ -55009,7 +54737,7 @@
       "academic_count": 0,
       "wikipedia_count": 2,
       "wiktionary_count": 0,
-      "elapsed_seconds": 4.8358845710754395
+      "elapsed_seconds": 4.611668586730957
     }
   },
   "mathematiques\\optimisation": {
@@ -55240,7 +54968,7 @@
       "academic_count": 0,
       "wikipedia_count": 4,
       "wiktionary_count": 0,
-      "elapsed_seconds": 3.6018192768096924
+      "elapsed_seconds": 3.46638560295105
     }
   },
   "mathematiques\\probabilités": {
@@ -56923,7 +56651,7 @@
       "academic_count": 0,
       "wikipedia_count": 20,
       "wiktionary_count": 6,
-      "elapsed_seconds": 49.150068044662476
+      "elapsed_seconds": 41.07457208633423
     }
   },
   "mathematiques\\probabilités\\théorie de l’information": {
@@ -57008,7 +56736,7 @@
       "academic_count": 0,
       "wikipedia_count": 1,
       "wiktionary_count": 1,
-      "elapsed_seconds": 1.8344063758850098
+      "elapsed_seconds": 1.9249906539916992
     }
   },
   "mathematiques\\statistiques": {
@@ -65449,7 +65177,7 @@
       "academic_count": 0,
       "wikipedia_count": 86,
       "wiktionary_count": 13,
-      "elapsed_seconds": 247.4454004764557
+      "elapsed_seconds": 204.24562621116638
     }
   },
   "mathematiques\\statistiques\\géostatistique": {
@@ -65558,7 +65286,7 @@
       "academic_count": 0,
       "wikipedia_count": 1,
       "wiktionary_count": 0,
-      "elapsed_seconds": 3.035334348678589
+      "elapsed_seconds": 2.889834403991699
     }
   },
   "mathematiques\\statistiques\\théorie de l’information": {
@@ -65643,7 +65371,7 @@
       "academic_count": 0,
       "wikipedia_count": 1,
       "wiktionary_count": 1,
-      "elapsed_seconds": 1.8186640739440918
+      "elapsed_seconds": 1.7435886859893799
     }
   },
   "mathematiques\\théorie de l’information": {
@@ -65728,7 +65456,7 @@
       "academic_count": 0,
       "wikipedia_count": 1,
       "wiktionary_count": 1,
-      "elapsed_seconds": 1.8272602558135986
+      "elapsed_seconds": 1.7201178073883057
     }
   },
   "mathematiques\\théorie des catégories": {
@@ -65786,7 +65514,7 @@
       "academic_count": 0,
       "wikipedia_count": 0,
       "wiktionary_count": 0,
-      "elapsed_seconds": 1.2163169384002686
+      "elapsed_seconds": 1.1619017124176025
     }
   },
   "mathematiques\\théorie des graphes": {
@@ -71542,7 +71270,7 @@
       "academic_count": 0,
       "wikipedia_count": 60,
       "wiktionary_count": 13,
-      "elapsed_seconds": 168.6655888557434
+      "elapsed_seconds": 142.13231563568115
     }
   },
   "mathematiques\\topologie": {
@@ -76223,7 +75951,7 @@
       "academic_count": 0,
       "wikipedia_count": 41,
       "wiktionary_count": 23,
-      "elapsed_seconds": 154.07591342926025
+      "elapsed_seconds": 132.16603660583496
     }
   },
   "mathematiques\\topologie\\théorie des nœuds": {
@@ -76293,7 +76021,7 @@
       "academic_count": 0,
       "wikipedia_count": 1,
       "wiktionary_count": 1,
-      "elapsed_seconds": 1.723442554473877
+      "elapsed_seconds": 1.7375357151031494
     }
   }
 }
