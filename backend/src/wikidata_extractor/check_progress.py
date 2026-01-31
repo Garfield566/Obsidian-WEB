@@ -18,7 +18,7 @@ def draw_bar(current, total, length=40):
         filled = int(length * current / total)
 
     bar = '#' * filled + '-' * (length - filled)
-    return f"[{bar}] {percent:.1f}% ({current}/{total})"
+    return f"[{bar}] {percent:.2f}% ({current}/{total})"
 
 def format_time(seconds):
     """Formate le temps."""

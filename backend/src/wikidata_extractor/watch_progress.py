@@ -20,7 +20,7 @@ def draw_bar(current, total, length=40):
         filled = int(length * current / total)
 
     bar = '#' * filled + '-' * (length - filled)
-    return f"[{bar}] {percent:.1f}% ({current}/{total})"
+    return f"[{bar}] {percent:.2f}% ({current}/{total})"
 
 def format_time(seconds):
     """Formate le temps."""
@@ -112,24 +112,32 @@ def watch_progress(domain="mathematiques", refresh_seconds=10):
                 except:
                     pass
 
+            # Calculer le total
+            total_count = vocab_count + specialized_count
+            total_estimated = estimated + estimated_specialized
+
             # Construire l'affichage complet
             status_text = f"[{datetime.now().strftime('%H:%M:%S')}] Temps: {format_time(elapsed):>8} | "
 
+            # Total global
+            if total_count > 0:
+                rate_total = total_count / elapsed if elapsed > 0 else 0
+                eta_total = (total_estimated - total_count) / rate_total if rate_total > 0 else 0
+                status_text += f"TOTAL: {draw_bar(total_count, total_estimated, 30)} {total_count}/{total_estimated} ({rate_total:.1f}/s ETA:{format_time(eta_total):>6}) | "
+            else:
+                status_text += f"TOTAL: [En attente...] | "
+
             # Vocabulaire
             if vocab_count > 0:
-                rate = vocab_count / elapsed if elapsed > 0 else 0
-                eta = (estimated - vocab_count) / rate if rate > 0 else 0
-                status_text += f"Vocab: {draw_bar(vocab_count, estimated, 25)} {vocab_count}/{estimated} ({rate:.1f}/s ETA:{format_time(eta):>6}) | "
+                status_text += f"V:{vocab_count}/{estimated} | "
             else:
-                status_text += f"Vocab: [En attente...] | "
+                status_text += f"V:-- | "
 
             # Spécialisés
             if specialized_count > 0:
-                rate_spec = specialized_count / elapsed if elapsed > 0 else 0
-                eta_spec = (estimated_specialized - specialized_count) / rate_spec if rate_spec > 0 else 0
-                status_text += f"Spec: {draw_bar(specialized_count, estimated_specialized, 25)} {specialized_count}/{estimated_specialized} ({rate_spec:.1f}/s ETA:{format_time(eta_spec):>6})"
+                status_text += f"S:{specialized_count}/{estimated_specialized}"
             else:
-                status_text += f"Spec: [En attente...]"
+                status_text += f"S:--"
 
             # Afficher sur la même ligne (écrase la ligne précédente)
             print(f"\r{status_text}", end='', flush=True)
