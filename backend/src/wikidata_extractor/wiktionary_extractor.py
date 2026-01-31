@@ -1539,6 +1539,33 @@ def calculate_confidence_score(sources_used: list[str]) -> float:
     return final_score
 
 
+def _validate_term_quality(term: str) -> bool:
+    """
+    Valide qu'un terme n'est pas une notation technique invalide.
+
+    Args:
+        term: Le terme à valider
+
+    Returns:
+        True si le terme est valide
+    """
+    import re
+
+    # Filtrer notations techniques invalides
+    # Pattern: lettre + chiffre(s) + / + chiffre(s)
+    # Exemples: a5/1, a5/2, rc4/128, etc.
+    invalid_notation = re.match(r'^[a-z]\d+/\d+$', term.lower())
+    if invalid_notation:
+        return False
+
+    # Filtrer codes techniques courts
+    # Pattern: 2-3 lettres + chiffres uniquement (ex: md5, sha1, rc4)
+    if len(term) <= 5 and re.match(r'^[a-z]{2,3}\d+$', term.lower()):
+        return False
+
+    return True
+
+
 def extract_specialized_term_multisource(
     term: str,
     domain_parent: str,
@@ -1564,6 +1591,10 @@ def extract_specialized_term_multisource(
     Returns:
         Structure complète pour specialized_terms.json avec champ "sources" et "confidence"
     """
+    # NOUVEAU: Valider le terme avant de continuer
+    if not _validate_term_quality(term):
+        return None
+
     domain_path = domain_exact or domain_parent
     sources_used = []
     definition_data = None
@@ -2312,20 +2343,27 @@ def _is_placeholder_definition(raw_definition: str) -> bool:
     Returns:
         True si la définition est un placeholder non-informatif
     """
+    import unicodedata
+
     placeholder_patterns = [
-        "peut désigner",
-        "peut faire référence",
-        "peut se référer",
+        "peut designer",  # désigner sans accent
+        "peut faire reference",  # référence sans accent
+        "peut se referer",  # référer sans accent
         "peut signifier",
         "terme peut",
         "mot peut",
         "expression peut",
         "le terme",
-        "faire référence",
+        "faire reference",  # référence sans accent
     ]
 
-    # Normaliser
+    # Normaliser (lowercase + supprimer les accents)
     normalized = raw_definition.lower().strip()
+    # Supprimer les accents pour uniformiser la détection
+    normalized = ''.join(
+        c for c in unicodedata.normalize('NFD', normalized)
+        if unicodedata.category(c) != 'Mn'
+    )
 
     # Définition très courte = placeholder probable
     if len(normalized) < 50:
