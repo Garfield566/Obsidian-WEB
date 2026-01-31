@@ -1627,6 +1627,136 @@ def extract_specialized_term_multisource(
     }
 
 
+def extract_category_with_multisource(
+    category: str,
+    domain_parent: str = None,
+    domain_exact: str = None,
+    enrich_with_academic: bool = True,  # PAR DÉFAUT: toujours enrichi
+    limit: int = 500
+) -> dict:
+    """
+    Extrait les termes d'une catégorie Wiktionary avec détection automatique du domaine.
+
+    **SYSTÈME HYBRIDE** combinant:
+    - Détection automatique du domaine depuis le nom de catégorie (comme avant)
+    - Enrichissement avec sources académiques PAR DÉFAUT (meilleure qualité)
+
+    Modes d'utilisation:
+
+    1. MODE ENRICHI (auto-detection + academic) - PAR DÉFAUT:
+        extract_category_with_multisource("Lexique en français de la biologie")
+        → Détecte automatiquement domain="biologie"
+        → Enrichit avec sources académiques (arXiv, Wikipedia)
+
+    2. MODE RAPIDE (auto-detection, sans enrichissement):
+        extract_category_with_multisource(
+            "Lexique en français de la biologie",
+            enrich_with_academic=False  # Désactive l'enrichissement
+        )
+        → Détecte automatiquement domain="biologie"
+        → Wiktionary uniquement (rapide mais confidence 0.6)
+
+    3. MODE PRÉCIS (domaine manuel + hierarchie):
+        extract_category_with_multisource(
+            "Lexique en français de l'algèbre",
+            domain_parent="mathematics",
+            domain_exact="mathematics\\algebra"
+        )
+        → Utilise les domaines fournis pour hiérarchie précise
+        → Enrichi par défaut avec sources académiques
+
+    Args:
+        category: Nom de la catégorie Wiktionary (ex: "Lexique en français de la biologie")
+        domain_parent: Domaine parent (optionnel, auto-détecté si non fourni)
+        domain_exact: Chemin hiérarchique complet (optionnel)
+        enrich_with_academic: Si True (DÉFAUT), enrichit avec sources académiques
+        limit: Nombre max de termes à extraire
+
+    Returns:
+        {
+            "category": "Lexique en français de la biologie",
+            "domain_parent": "biologie",  # Auto-détecté ou fourni
+            "domain_exact": "biologie",   # Auto-détecté ou fourni
+            "terms_count": 150,
+            "terms": [
+                {
+                    "term": "mitochondrie",
+                    "sources": ["wiktionary"],
+                    "confidence": 0.6,
+                    "definition": {...}  # Si enrichi
+                },
+                ...
+            ],
+            "extraction_mode": "fast" | "enriched"
+        }
+    """
+    extractor = WiktionaryExtractor()
+
+    # 1. Détection automatique du domaine depuis la catégorie (si non fourni)
+    if not domain_parent:
+        detected_domain = extractor._extract_domain_from_category(category)
+        if not detected_domain:
+            raise ValueError(
+                f"Impossible de détecter automatiquement le domaine depuis '{category}'. "
+                f"Fournissez domain_parent manuellement."
+            )
+        domain_parent = detected_domain
+        logger.info(f"Domain auto-détecté depuis catégorie: '{domain_parent}'")
+
+    # Si domain_exact non fourni, utiliser domain_parent
+    if not domain_exact:
+        domain_exact = domain_parent
+
+    # 2. Extraire les termes de la catégorie
+    logger.info(f"Extraction des termes depuis Catégorie:{category} (limit={limit})")
+    terms = extractor.get_category_members(category, limit=limit)
+    logger.info(f"Trouvé {len(terms)} termes dans la catégorie")
+
+    # 3. Mode rapide (Wiktionary uniquement) ou enrichi (multi-sources)
+    extraction_mode = "enriched" if enrich_with_academic else "fast"
+    results = []
+
+    for i, term in enumerate(terms, 1):
+        if i % 10 == 0:
+            logger.info(f"Traitement: {i}/{len(terms)} termes...")
+
+        if enrich_with_academic:
+            # Mode enrichi: Utiliser l'extraction multi-sources
+            result = extract_specialized_term_multisource(
+                term=term,
+                domain_parent=domain_parent,
+                domain_exact=domain_exact,
+                use_academic=True
+            )
+            if result:
+                results.append({
+                    "term": term,
+                    "sources": result.get("sources", []),
+                    "confidence": result.get("confidence", 0.6),
+                    "definition": result.get("definition"),
+                    "domaine_parent": result.get("domaine_parent"),
+                    "domaine_exact": result.get("domaine_exact")
+                })
+        else:
+            # Mode rapide: Juste le terme avec métadonnées de base
+            results.append({
+                "term": term,
+                "sources": ["wiktionary"],
+                "confidence": 0.6,  # Wiktionary seul
+                "domaine_parent": domain_parent,
+                "domaine_exact": domain_exact
+            })
+
+    return {
+        "category": category,
+        "domain_parent": domain_parent,
+        "domain_exact": domain_exact,
+        "terms_count": len(results),
+        "terms": results,
+        "extraction_mode": extraction_mode
+    }
+
+
 def save_to_vocabulary_file(domain: str, vsc: list[str], vsca: list[str]):
     """Sauvegarde le vocabulaire extrait dans domain_vocabulary.json ET hierarchy.json.
 
