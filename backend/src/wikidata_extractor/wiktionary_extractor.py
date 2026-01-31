@@ -1326,6 +1326,108 @@ def resolve_sources_for_domain(domain_path: str) -> list[dict]:
     return sources
 
 
+def fetch_arxiv_definition(term: str, domain_path: str, max_results: int = 5) -> dict | None:
+    """
+    Extrait une définition depuis arXiv en recherchant le terme dans les abstracts.
+
+    Args:
+        term: Le terme à rechercher
+        domain_path: Chemin du domaine (ex: "mathematics\\algebra") pour filtrer les catégories
+        max_results: Nombre max de résultats à analyser
+
+    Returns:
+        {"raw_definition": "...", "source": "arxiv", "priority": 1} ou None
+    """
+    try:
+        # Mapping domaine -> catégories arXiv
+        arxiv_categories = {
+            "mathematics": "math",
+            "mathématiques": "math",
+            "algebra": "math.RA",
+            "geometry": "math.DG",
+            "géométrie": "math.DG",
+            "analysis": "math.CA",
+            "analyse": "math.CA",
+            "statistics": "math.ST",
+            "statistiques": "math.ST",
+            "topology": "math.GT",
+            "topologie": "math.GT",
+            "number-theory": "math.NT",
+            "théorie des nombres": "math.NT",
+            "computer-engineering": "cs",
+            "informatique": "cs",
+            "physics": "physics",
+            "physique": "physics"
+        }
+
+        # Déterminer la catégorie arXiv appropriée
+        parts = domain_path.split("\\")
+        category = None
+
+        for part in reversed(parts):
+            if part in arxiv_categories:
+                category = arxiv_categories[part]
+                break
+
+        if not category:
+            return None
+
+        # Recherche arXiv
+        api_url = "http://export.arxiv.org/api/query"
+
+        # Rechercher le terme dans le titre et l'abstract
+        search_query = f'all:"{term}" AND cat:{category}'
+
+        params = {
+            "search_query": search_query,
+            "start": 0,
+            "max_results": max_results,
+            "sortBy": "relevance",
+            "sortOrder": "descending"
+        }
+
+        response = requests.get(api_url, params=params, headers={"User-Agent": USER_AGENT}, timeout=15)
+        response.raise_for_status()
+
+        # Parser le XML
+        import xml.etree.ElementTree as ET
+        root = ET.fromstring(response.content)
+
+        # Namespace arXiv
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+
+        entries = root.findall("atom:entry", ns)
+
+        if not entries:
+            return None
+
+        # Analyser le premier résultat pertinent
+        for entry in entries:
+            title_elem = entry.find("atom:title", ns)
+            summary_elem = entry.find("atom:summary", ns)
+
+            if title_elem is not None and summary_elem is not None:
+                title = title_elem.text.strip().replace("\n", " ")
+                summary = summary_elem.text.strip().replace("\n", " ")
+
+                # Vérifier que le terme apparaît bien dans le contenu
+                if term.lower() in title.lower() or term.lower() in summary.lower():
+                    # Construire une définition à partir du titre et du début du résumé
+                    definition = f"{title}. {summary[:400]}..."
+
+                    return {
+                        "raw_definition": definition,
+                        "source": "arxiv",
+                        "priority": 1  # arXiv est une source académique prioritaire
+                    }
+
+        return None
+
+    except Exception as e:
+        logger.debug(f"arXiv fetch failed for '{term}': {e}")
+        return None
+
+
 def fetch_wikipedia_definition(term: str, max_chars: int = 500) -> dict | None:
     """
     Extrait la définition d'un terme depuis Wikipedia (API).
@@ -1455,12 +1557,26 @@ def extract_specialized_term_multisource(
     if use_academic:
         academic_sources = resolve_sources_for_domain(domain_path)
 
-        # Pour l'instant, on log juste la disponibilité
-        # L'implémentation du scraping académique viendra plus tard
         if academic_sources:
             logger.info(f"Academic sources available for '{domain_path}': {len(academic_sources)} source(s)")
-            # TODO: Implémenter extraction depuis sources académiques
-            # Pour l'instant, on continue avec Wikipedia/Wiktionary
+
+            # Essayer chaque source académique par ordre de priorité
+            for source in academic_sources:
+                source_name = source.get("name", "").lower()
+                source_type = source.get("type", "")
+                priority = source.get("priority", 99)
+
+                # Pour l'instant, on implémente uniquement arXiv (API gratuite)
+                if "arxiv" in source_name and source_type == "api":
+                    arxiv_data = fetch_arxiv_definition(term, domain_path)
+                    if arxiv_data:
+                        definition_data = arxiv_data
+                        sources_used.append(f"academic_priority_{priority}")
+                        logger.info(f"Found definition in arXiv for '{term}'")
+                        break  # Source académique trouvée, on arrête
+
+                # TODO: Implémenter d'autres sources académiques (scraping IEEE, ACM, etc.)
+                # Pour l'instant, on continue avec les autres sources
 
     # 2. Essayer Wikipedia
     if not definition_data:
