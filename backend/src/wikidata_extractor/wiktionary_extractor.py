@@ -44,6 +44,9 @@ CONCEPTS_FILE = Path(__file__).parent.parent / "data" / "references" / "concepts
 # Chemin vers la configuration des domaines transversaux
 TRANSVERSAL_CONFIG_FILE = Path(__file__).parent.parent / "data" / "references" / "transversal_config.json"
 
+# Chemin vers les sources académiques
+ACADEMIC_SOURCES_FILE = Path(__file__).parent.parent / "data" / "references" / "academic_sources.json"
+
 # =============================================================================
 # CLASSIFICATION CONCEPT vs VOCABULAIRE
 # =============================================================================
@@ -1260,6 +1263,249 @@ def analyze_and_create_transversal_domains(verbose: bool = True) -> dict[str, li
     return transversal_domains
 
 
+# =============================================================================
+# EXTRACTION MULTI-SOURCES AVEC PRIORITÉ
+# =============================================================================
+
+def load_academic_sources() -> dict:
+    """Charge la configuration des sources académiques."""
+    if not ACADEMIC_SOURCES_FILE.exists():
+        logger.warning(f"Academic sources config not found at {ACADEMIC_SOURCES_FILE}")
+        return {}
+
+    try:
+        with open(ACADEMIC_SOURCES_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, IOError) as e:
+        logger.error(f"Could not load academic sources: {e}")
+        return {}
+
+
+def resolve_sources_for_domain(domain_path: str) -> list[dict]:
+    """
+    Résout les sources académiques pour un domaine donné.
+
+    Priorité: Sources spécialisées du sous-domaine > Sources globales du domaine parent
+
+    Args:
+        domain_path: Chemin du domaine (ex: "mathematics\\algebra", "engineering\\civil-engineering")
+
+    Returns:
+        Liste de sources triées par priorité (priorité 1 = max)
+        [{"name": "...", "url": "...", "type": "api|scraping", "priority": 1}, ...]
+    """
+    academic_config = load_academic_sources()
+
+    if not academic_config:
+        return []
+
+    parts = domain_path.split("\\")
+    root_domain = parts[0]
+    subdomain = parts[-1] if len(parts) > 1 else None
+
+    sources = []
+
+    # 1. Chercher d'abord les sources spécifiques au sous-domaine (priorité MAX)
+    if subdomain and root_domain in academic_config:
+        domain_config = academic_config[root_domain]
+
+        if "sous_notions" in domain_config and subdomain in domain_config["sous_notions"]:
+            sub_config = domain_config["sous_notions"][subdomain]
+            if "sources" in sub_config:
+                sources.extend(sub_config["sources"])
+
+    # 2. Ajouter les sources globales du domaine parent
+    if root_domain in academic_config:
+        domain_config = academic_config[root_domain]
+        if "_global_sources" in domain_config:
+            sources.extend(domain_config["_global_sources"])
+
+    # Trier par priorité (1 = max, 3 = min)
+    sources.sort(key=lambda s: s.get("priority", 99))
+
+    return sources
+
+
+def fetch_wikipedia_definition(term: str, max_chars: int = 500) -> dict | None:
+    """
+    Extrait la définition d'un terme depuis Wikipedia (API).
+
+    Args:
+        term: Le terme à rechercher
+        max_chars: Nombre max de caractères à extraire
+
+    Returns:
+        {"raw_definition": "...", "source": "wikipedia"} ou None
+    """
+    try:
+        # API Wikipedia pour extraire le texte d'introduction
+        api_url = "https://fr.wikipedia.org/w/api.php"
+
+        params = {
+            "action": "query",
+            "format": "json",
+            "titles": term,
+            "prop": "extracts",
+            "exintro": True,  # Seulement l'introduction
+            "explaintext": True,  # Texte brut sans HTML
+            "exsentences": 2,  # Premières 2 phrases
+        }
+
+        response = requests.get(api_url, params=params, headers={"User-Agent": USER_AGENT}, timeout=10)
+        response.raise_for_status()
+
+        data = response.json()
+
+        pages = data.get("query", {}).get("pages", {})
+
+        for page_id, page_data in pages.items():
+            if page_id == "-1":  # Page non trouvée
+                continue
+
+            extract = page_data.get("extract", "").strip()
+
+            if extract and len(extract) > 20:  # Définition valide
+                # Limiter la taille
+                if len(extract) > max_chars:
+                    extract = extract[:max_chars] + "..."
+
+                return {
+                    "raw_definition": extract,
+                    "source": "wikipedia"
+                }
+
+        return None
+
+    except (requests.RequestException, KeyError) as e:
+        logger.debug(f"Wikipedia fetch failed for '{term}': {e}")
+        return None
+
+
+def calculate_confidence_score(sources_used: list[str]) -> float:
+    """
+    Calcule le score de confiance basé sur les sources ayant fourni une définition.
+
+    Args:
+        sources_used: Liste des sources ayant fourni une définition
+                      Ex: ["academic_priority_1", "wikipedia", "wiktionary"]
+
+    Returns:
+        Score de confiance entre 0.6 et 1.0
+
+    Scoring:
+        - Academic source (priorité 1): 1.0
+        - Academic source (priorité 2): 0.9
+        - Academic source (priorité 3): 0.85
+        - Wikipedia: 0.8
+        - Wiktionary seul: 0.6
+        - Combinaison de sources: max(scores) + 0.05 par source additionnelle
+    """
+    if not sources_used:
+        return 0.5
+
+    base_scores = {
+        "academic_priority_1": 1.0,
+        "academic_priority_2": 0.9,
+        "academic_priority_3": 0.85,
+        "wikipedia": 0.8,
+        "wiktionary": 0.6,
+    }
+
+    scores = [base_scores.get(src, 0.5) for src in sources_used]
+    base_score = max(scores) if scores else 0.5
+
+    # Bonus pour multi-sources (max +0.1)
+    source_bonus = min(0.1, (len(sources_used) - 1) * 0.05)
+
+    final_score = min(1.0, base_score + source_bonus)
+
+    return final_score
+
+
+def extract_specialized_term_multisource(
+    term: str,
+    domain_parent: str,
+    domain_exact: str = None,
+    use_academic: bool = True
+) -> dict | None:
+    """
+    Extrait un terme spécialisé avec support multi-sources.
+
+    Stratégie d'extraction:
+    1. Tente d'abord les sources académiques (si disponibles et use_academic=True)
+    2. Puis Wikipedia
+    3. Finalement Wiktionary (fallback actuel)
+
+    Le score de confiance reflète la qualité des sources.
+
+    Args:
+        term: Le terme à extraire
+        domain_parent: Le domaine racine
+        domain_exact: Le sous-domaine exact
+        use_academic: Utiliser les sources académiques (si disponibles)
+
+    Returns:
+        Structure complète pour specialized_terms.json avec champ "sources" et "confidence"
+    """
+    domain_path = domain_exact or domain_parent
+    sources_used = []
+    definition_data = None
+
+    # 1. Essayer les sources académiques (si activées)
+    if use_academic:
+        academic_sources = resolve_sources_for_domain(domain_path)
+
+        # Pour l'instant, on log juste la disponibilité
+        # L'implémentation du scraping académique viendra plus tard
+        if academic_sources:
+            logger.info(f"Academic sources available for '{domain_path}': {len(academic_sources)} source(s)")
+            # TODO: Implémenter extraction depuis sources académiques
+            # Pour l'instant, on continue avec Wikipedia/Wiktionary
+
+    # 2. Essayer Wikipedia
+    if not definition_data:
+        wikipedia_data = fetch_wikipedia_definition(term)
+        if wikipedia_data:
+            definition_data = wikipedia_data
+            sources_used.append("wikipedia")
+
+    # 3. Fallback sur Wiktionary (méthode actuelle)
+    if not definition_data:
+        wiktionary_data = fetch_wiktionary_definition(term)
+        if wiktionary_data:
+            definition_data = wiktionary_data
+            sources_used.append("wiktionary")
+
+    # Si aucune source n'a fourni de définition
+    if not definition_data or not definition_data.get("raw_definition"):
+        return None
+
+    raw_def = definition_data["raw_definition"]
+    mandatory = definition_to_mandatory_elements(raw_def)
+
+    if not mandatory:
+        return None
+
+    # Calculer le score de confiance
+    confidence = calculate_confidence_score(sources_used)
+
+    return {
+        "type": "specialized",
+        "exact_terms": [term],
+        "definition": {
+            "mandatory": mandatory,
+            "contextual": [],
+            "raw_definition": raw_def
+        },
+        "threshold": 0.9,
+        "domaine_parent": domain_parent,
+        "domaine_exact": domain_exact or domain_parent,
+        "validation_weight": confidence,  # Score de confiance utilisé comme poids
+        "sources": sources_used,  # Traçabilité des sources
+        "confidence": confidence
+    }
+
+
 def save_to_vocabulary_file(domain: str, vsc: list[str], vsca: list[str]):
     """Sauvegarde le vocabulaire extrait dans domain_vocabulary.json ET hierarchy.json.
 
@@ -1826,7 +2072,7 @@ def definition_to_mandatory_elements(definition: str) -> list[dict]:
     return mandatory
 
 
-def extract_specialized_term(term: str, domain_parent: str, domain_exact: str = None) -> dict | None:
+def extract_specialized_term(term: str, domain_parent: str, domain_exact: str = None, use_multisource: bool = True) -> dict | None:
     """
     Extrait un terme spécialisé complet avec sa définition.
 
@@ -1835,11 +2081,17 @@ def extract_specialized_term(term: str, domain_parent: str, domain_exact: str = 
         domain_parent: Le domaine racine (ex: "biologie")
         domain_exact: Le sous-domaine exact (ex: "biologie\\physiologie")
                       Si None, utilise domain_parent
+        use_multisource: Si True, utilise l'extraction multi-sources (Wikipedia + Wiktionary + académique)
+                         Si False, utilise seulement Wiktionary (ancien comportement)
 
     Returns:
         Structure complète pour specialized_terms.json ou None
     """
-    # Récupérer la définition
+    # Utiliser l'extraction multi-sources par défaut
+    if use_multisource:
+        return extract_specialized_term_multisource(term, domain_parent, domain_exact, use_academic=True)
+
+    # Ancien comportement (Wiktionary uniquement)
     definition_data = fetch_wiktionary_definition(term)
 
     if not definition_data or not definition_data.get("raw_definition"):
@@ -1864,14 +2116,17 @@ def extract_specialized_term(term: str, domain_parent: str, domain_exact: str = 
         "threshold": 0.9,
         "domaine_parent": domain_parent,
         "domaine_exact": domain_exact or domain_parent,
-        "validation_weight": 1.0
+        "validation_weight": 1.0,
+        "sources": ["wiktionary"],
+        "confidence": 0.6
     }
 
 
 def extract_specialized_terms_for_domain(
     domain: str,
     max_terms: int = 50,
-    verbose: bool = True
+    verbose: bool = True,
+    use_multisource: bool = True
 ) -> dict:
     """
     Extrait tous les termes spécialisés avec définitions pour un domaine.
@@ -1880,6 +2135,7 @@ def extract_specialized_terms_for_domain(
         domain: Chemin du domaine (ex: "biologie", "mathématiques\\analyse")
         max_terms: Nombre maximum de termes à extraire
         verbose: Afficher la progression
+        use_multisource: Utiliser l'extraction multi-sources (Wikipedia + Wiktionary + académique)
 
     Returns:
         Dictionnaire des termes spécialisés
@@ -1912,7 +2168,7 @@ def extract_specialized_terms_for_domain(
             print(f"  Progression: {i + 1}/{len(terms)} ({success_count} avec définition)")
 
         # Extraire le terme spécialisé avec domaine_exact
-        term_data = extract_specialized_term(term, domain_parent, domain_exact)
+        term_data = extract_specialized_term(term, domain_parent, domain_exact, use_multisource=use_multisource)
 
         if term_data:
             specialized_terms[term] = term_data
@@ -1931,7 +2187,8 @@ def extract_specialized_terms_global(
     root_domain: str,
     max_depth: int = 2,
     max_terms_per_domain: int = 30,
-    verbose: bool = True
+    verbose: bool = True,
+    use_multisource: bool = True
 ) -> dict:
     """
     Extraction GLOBALE des termes spécialisés pour un domaine racine.
@@ -1944,6 +2201,7 @@ def extract_specialized_terms_global(
         max_depth: Profondeur max d'exploration des sous-domaines
         max_terms_per_domain: Nombre max de termes par sous-domaine
         verbose: Afficher la progression
+        use_multisource: Utiliser l'extraction multi-sources (Wikipedia + Wiktionary + académique)
 
     Returns:
         Dict avec:
@@ -2006,7 +2264,8 @@ def extract_specialized_terms_global(
                 term_data = extract_specialized_term(
                     term,
                     domain_parent=root_domain,
-                    domain_exact=domain_path
+                    domain_exact=domain_path,
+                    use_multisource=use_multisource
                 )
 
                 if term_data:
@@ -2265,6 +2524,19 @@ def main():
     )
 
     parser.add_argument(
+        "--multisource",
+        action="store_true",
+        default=True,
+        help="Use multi-source extraction (Wikipedia + Wiktionary + academic sources). Default: True"
+    )
+
+    parser.add_argument(
+        "--wiktionary-only",
+        action="store_true",
+        help="Use only Wiktionary (disable multi-source extraction)"
+    )
+
+    parser.add_argument(
         "--analyze-transversal",
         action="store_true",
         help="Analyze domain_vocabulary.json and auto-detect/create transversal domains in hierarchy.json"
@@ -2333,11 +2605,20 @@ def main():
 
     # Extract specialized terms with definitions
     if args.specialized and args.domain:
+        # Déterminer si on utilise multi-sources
+        use_multisource = not args.wiktionary_only
+
         print(f"\n=== Extraction des termes spécialisés pour '{args.domain}' ===")
+        if use_multisource:
+            print("Mode: Multi-sources (Wikipedia + Wiktionary + sources académiques)")
+        else:
+            print("Mode: Wiktionary uniquement")
+
         specialized = extract_specialized_terms_for_domain(
             args.domain,
             max_terms=args.max_terms,
-            verbose=True
+            verbose=True,
+            use_multisource=use_multisource
         )
 
         if specialized:
@@ -2358,11 +2639,20 @@ def main():
 
     # GLOBAL specialized extraction - explore all subdomains
     if args.global_specialized and args.domain:
+        # Déterminer si on utilise multi-sources
+        use_multisource = not args.wiktionary_only
+
+        if use_multisource:
+            print("Mode: Multi-sources (Wikipedia + Wiktionary + sources académiques)")
+        else:
+            print("Mode: Wiktionary uniquement")
+
         result = extract_specialized_terms_global(
             root_domain=args.domain,
             max_depth=args.depth,
             max_terms_per_domain=args.max_terms_per_domain,
-            verbose=True
+            verbose=True,
+            use_multisource=use_multisource
         )
 
         if result["terms"]:

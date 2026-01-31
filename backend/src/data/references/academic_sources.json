@@ -1,0 +1,638 @@
+{
+  "_description": "Sources académiques pour extraction termes spécialisés - priorité aux sources les plus précises",
+  "_regles": {
+    "priorite": "Plus la source est spécialisée pour le sous-domaine, plus elle est prioritaire (1 = max, 3 = min)",
+    "fallback": "Si aucune source spécialisée, utiliser sources globales du domaine parent",
+    "scoring": "Source académique spécialisée (1.0) > Wikipedia (0.8) > Wiktionary (0.6)"
+  },
+
+  "engineering": {
+    "_global_sources": [
+      {
+        "name": "Engineering Toolbox",
+        "url": "https://www.engineeringtoolbox.com/",
+        "type": "scraping",
+        "priority": 3,
+        "description": "Glossaire technique multi-ingénierie"
+      }
+    ],
+    "sous_notions": {
+      "civil-engineering": {
+        "sources": [
+          {
+            "name": "ASCE Library",
+            "url": "https://ascelibrary.org/",
+            "type": "scraping",
+            "priority": 1,
+            "target": "glossaires techniques, standards"
+          },
+          {
+            "name": "ICE Virtual Library",
+            "url": "https://www.icevirtuallibrary.com/",
+            "type": "scraping",
+            "priority": 1,
+            "target": "définitions techniques"
+          }
+        ]
+      },
+      "mechanical-engineering": {
+        "sources": [
+          {
+            "name": "ASME Digital Collection",
+            "url": "https://asmedigitalcollection.asme.org/",
+            "type": "scraping",
+            "priority": 1,
+            "target": "terminologie mécanique"
+          },
+          {
+            "name": "Engineering Toolbox - Mechanical",
+            "url": "https://www.engineeringtoolbox.com/mechanical-engineering-t_1.html",
+            "type": "scraping",
+            "priority": 2
+          }
+        ]
+      },
+      "electrical-engineering": {
+        "sources": [
+          {
+            "name": "IEEE Xplore",
+            "url": "https://ieeexplore.ieee.org/",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1,
+            "target": "standards IEEE, définitions"
+          },
+          {
+            "name": "Electrical Engineering Portal",
+            "url": "https://electrical-engineering-portal.com/resources/knowledge/glossary",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "computer-engineering": {
+        "sources": [
+          {
+            "name": "ACM Digital Library",
+            "url": "https://dl.acm.org/",
+            "type": "scraping",
+            "priority": 1,
+            "target": "terminologie informatique"
+          },
+          {
+            "name": "IEEE Computer Society",
+            "url": "https://www.computer.org/",
+            "type": "scraping",
+            "priority": 1
+          },
+          {
+            "name": "arXiv CS",
+            "url": "https://arxiv.org/archive/cs",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 2
+          }
+        ]
+      }
+    }
+  },
+
+  "mathematics": {
+    "_global_sources": [
+      {
+        "name": "MathWorld",
+        "url": "https://mathworld.wolfram.com/",
+        "type": "scraping",
+        "priority": 3,
+        "description": "Encyclopédie mathématique générale"
+      }
+    ],
+    "sous_notions": {
+      "algebra": {
+        "sources": [
+          {
+            "name": "arXiv Math.RA (Rings and Algebras)",
+            "url": "https://arxiv.org/archive/math.RA",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          },
+          {
+            "name": "MathWorld Algebra",
+            "url": "https://mathworld.wolfram.com/topics/Algebra.html",
+            "type": "scraping",
+            "priority": 2
+          }
+        ]
+      },
+      "geometry": {
+        "sources": [
+          {
+            "name": "arXiv Math.DG (Differential Geometry)",
+            "url": "https://arxiv.org/archive/math.DG",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          },
+          {
+            "name": "MathWorld Geometry",
+            "url": "https://mathworld.wolfram.com/topics/Geometry.html",
+            "type": "scraping",
+            "priority": 2
+          }
+        ]
+      },
+      "analysis": {
+        "sources": [
+          {
+            "name": "arXiv Math.CA (Classical Analysis)",
+            "url": "https://arxiv.org/archive/math.CA",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          },
+          {
+            "name": "arXiv Math.FA (Functional Analysis)",
+            "url": "https://arxiv.org/archive/math.FA",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          }
+        ]
+      },
+      "statistics": {
+        "sources": [
+          {
+            "name": "arXiv Math.ST (Statistics Theory)",
+            "url": "https://arxiv.org/archive/math.ST",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          },
+          {
+            "name": "NIST Engineering Statistics Handbook",
+            "url": "https://www.itl.nist.gov/div898/handbook/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "topology": {
+        "sources": [
+          {
+            "name": "arXiv Math.GT (Geometric Topology)",
+            "url": "https://arxiv.org/archive/math.GT",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          },
+          {
+            "name": "arXiv Math.AT (Algebraic Topology)",
+            "url": "https://arxiv.org/archive/math.AT",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          }
+        ]
+      },
+      "number-theory": {
+        "sources": [
+          {
+            "name": "arXiv Math.NT (Number Theory)",
+            "url": "https://arxiv.org/archive/math.NT",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "economics": {
+    "_global_sources": [
+      {
+        "name": "EconPapers",
+        "url": "https://econpapers.repec.org/",
+        "type": "scraping",
+        "priority": 3
+      }
+    ],
+    "sous_notions": {
+      "macroeconomics": {
+        "sources": [
+          {
+            "name": "Federal Reserve Economic Data",
+            "url": "https://fred.stlouisfed.org/",
+            "type": "api",
+            "api_key_required": false,
+            "priority": 1
+          },
+          {
+            "name": "IMF Glossary",
+            "url": "https://www.imf.org/external/np/exr/glossary/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "microeconomics": {
+        "sources": [
+          {
+            "name": "NBER Working Papers",
+            "url": "https://www.nber.org/papers",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "econometrics": {
+        "sources": [
+          {
+            "name": "Journal of Econometrics",
+            "url": "https://www.sciencedirect.com/journal/journal-of-econometrics",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "finance": {
+        "sources": [
+          {
+            "name": "Investopedia",
+            "url": "https://www.investopedia.com/financial-term-dictionary-4769738",
+            "type": "scraping",
+            "priority": 2
+          },
+          {
+            "name": "World Bank Finance Glossary",
+            "url": "https://www.worldbank.org/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "physics": {
+    "_global_sources": [
+      {
+        "name": "arXiv Physics",
+        "url": "https://arxiv.org/archive/physics",
+        "type": "api",
+        "api_key_required": false,
+        "priority": 2
+      },
+      {
+        "name": "APS Physics Glossary",
+        "url": "https://www.aps.org/",
+        "type": "scraping",
+        "priority": 2
+      }
+    ]
+  },
+
+  "chemistry": {
+    "_global_sources": [
+      {
+        "name": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/",
+        "type": "api",
+        "api_key_required": false,
+        "priority": 1,
+        "description": "Base de données chimique NCBI"
+      },
+      {
+        "name": "IUPAC Gold Book",
+        "url": "https://goldbook.iupac.org/",
+        "type": "scraping",
+        "priority": 1,
+        "description": "Terminologie chimique officielle"
+      }
+    ]
+  },
+
+  "biology": {
+    "_global_sources": [
+      {
+        "name": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "type": "api",
+        "api_key_required": false,
+        "priority": 1
+      },
+      {
+        "name": "NCBI MeSH",
+        "url": "https://www.ncbi.nlm.nih.gov/mesh/",
+        "type": "api",
+        "api_key_required": false,
+        "priority": 1,
+        "description": "Vocabulaire médical contrôlé"
+      }
+    ]
+  },
+
+  "literature": {
+    "_global_sources": [
+      {
+        "name": "Oxford Reference Literature",
+        "url": "https://www.oxfordreference.com/",
+        "type": "scraping",
+        "priority": 2,
+        "description": "Dictionnaire littéraire"
+      },
+      {
+        "name": "Literary Terms Dictionary",
+        "url": "https://literaryterms.net/",
+        "type": "scraping",
+        "priority": 2
+      }
+    ],
+    "sous_notions": {
+      "poetry": {
+        "sources": [
+          {
+            "name": "Poetry Foundation Glossary",
+            "url": "https://www.poetryfoundation.org/learn/glossary-terms",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "theater": {
+        "sources": [
+          {
+            "name": "TheatreCrafts Glossary",
+            "url": "https://www.theatrecrafts.com/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "criticism": {
+        "sources": [
+          {
+            "name": "Critical Theory Glossary",
+            "url": "https://criticaltheory.web.unc.edu/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "visual-arts": {
+    "_global_sources": [
+      {
+        "name": "Tate Art Terms",
+        "url": "https://www.tate.org.uk/art/art-terms",
+        "type": "scraping",
+        "priority": 2
+      }
+    ],
+    "sous_notions": {
+      "painting": {
+        "sources": [
+          {
+            "name": "Art & Architecture Thesaurus (Getty)",
+            "url": "https://www.getty.edu/research/tools/vocabularies/aat/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "architecture": {
+        "sources": [
+          {
+            "name": "ArchDaily Glossary",
+            "url": "https://www.archdaily.com/",
+            "type": "scraping",
+            "priority": 1
+          },
+          {
+            "name": "SAH Archipedia",
+            "url": "https://sah-archipedia.org/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "photography": {
+        "sources": [
+          {
+            "name": "Photography Glossary",
+            "url": "https://www.adobe.com/creativecloud/photography/discover/photography-terms.html",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "audiovisual-arts": {
+    "sous_notions": {
+      "cinema": {
+        "sources": [
+          {
+            "name": "Film Glossary (AFI)",
+            "url": "https://www.afi.com/",
+            "type": "scraping",
+            "priority": 1
+          },
+          {
+            "name": "Filmmaker IQ",
+            "url": "https://filmmakeriq.com/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "music": {
+        "sources": [
+          {
+            "name": "Grove Music Online",
+            "url": "https://www.oxfordmusiconline.com/",
+            "type": "scraping",
+            "priority": 1
+          },
+          {
+            "name": "Dolmetsch Music Theory",
+            "url": "https://www.dolmetsch.com/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "religion": {
+    "_global_sources": [
+      {
+        "name": "Religious Studies Project Glossary",
+        "url": "https://www.religiousstudiesproject.com/",
+        "type": "scraping",
+        "priority": 2
+      }
+    ],
+    "sous_notions": {
+      "christianity": {
+        "sources": [
+          {
+            "name": "Catholic Encyclopedia",
+            "url": "https://www.newadvent.org/cathen/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "islam": {
+        "sources": [
+          {
+            "name": "Islamic Encyclopedia",
+            "url": "https://www.oxford-islamic-studies.com/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "judaism": {
+        "sources": [
+          {
+            "name": "Jewish Encyclopedia",
+            "url": "https://www.jewishencyclopedia.com/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "philosophy": {
+    "_global_sources": [
+      {
+        "name": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/",
+        "type": "scraping",
+        "priority": 1,
+        "description": "Source académique de référence"
+      },
+      {
+        "name": "Internet Encyclopedia of Philosophy",
+        "url": "https://iep.utm.edu/",
+        "type": "scraping",
+        "priority": 1
+      }
+    ]
+  },
+
+  "law": {
+    "_global_sources": [
+      {
+        "name": "Cornell Legal Information Institute",
+        "url": "https://www.law.cornell.edu/wex",
+        "type": "scraping",
+        "priority": 1
+      },
+      {
+        "name": "Black's Law Dictionary",
+        "url": "https://thelawdictionary.org/",
+        "type": "scraping",
+        "priority": 1
+      }
+    ]
+  },
+
+  "history": {
+    "_global_sources": [
+      {
+        "name": "History Glossary (HistoryNet)",
+        "url": "https://www.historynet.com/",
+        "type": "scraping",
+        "priority": 2
+      }
+    ]
+  },
+
+  "geography": {
+    "_global_sources": [
+      {
+        "name": "USGS Geographic Names",
+        "url": "https://www.usgs.gov/",
+        "type": "api",
+        "api_key_required": false,
+        "priority": 2
+      },
+      {
+        "name": "National Geographic Glossary",
+        "url": "https://www.nationalgeographic.org/",
+        "type": "scraping",
+        "priority": 2
+      }
+    ]
+  },
+
+  "languages": {
+    "sous_notions": {
+      "linguistics": {
+        "sources": [
+          {
+            "name": "SIL Glossary of Linguistic Terms",
+            "url": "https://glossary.sil.org/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "phonetics": {
+        "sources": [
+          {
+            "name": "IPA Chart & Terminology",
+            "url": "https://www.internationalphoneticassociation.org/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "human-sciences": {
+    "sous_notions": {
+      "sociology": {
+        "sources": [
+          {
+            "name": "ASA Sociology Resources",
+            "url": "https://www.asanet.org/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "anthropology": {
+        "sources": [
+          {
+            "name": "AAA Anthropology Glossary",
+            "url": "https://www.americananthro.org/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      },
+      "psychology": {
+        "sources": [
+          {
+            "name": "APA Dictionary of Psychology",
+            "url": "https://dictionary.apa.org/",
+            "type": "scraping",
+            "priority": 1
+          }
+        ]
+      }
+    }
+  }
+}

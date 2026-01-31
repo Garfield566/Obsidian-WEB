@@ -13,14 +13,37 @@
     "_comment": "Exemple de structure pour un vrai terme specialise",
     "massification-scolaire": {
       "type": "specialized",
-      "exact_terms": ["massification scolaire", "massification-scolaire"],
+      "exact_terms": [
+        "massification scolaire",
+        "massification-scolaire"
+      ],
       "definition": {
         "mandatory": [
-          {"name": "augmentation", "synonyms": ["augmentation", "croissance", "expansion"]},
-          {"name": "eleves", "synonyms": ["élèves", "étudiants", "scolarisation"]}
+          {
+            "name": "augmentation",
+            "synonyms": [
+              "augmentation",
+              "croissance",
+              "expansion"
+            ]
+          },
+          {
+            "name": "eleves",
+            "synonyms": [
+              "élèves",
+              "étudiants",
+              "scolarisation"
+            ]
+          }
         ],
         "contextual": [
-          {"name": "democratisation", "synonyms": ["démocratisation", "accès"]}
+          {
+            "name": "democratisation",
+            "synonyms": [
+              "démocratisation",
+              "accès"
+            ]
+          }
         ],
         "raw_definition": "augmentation massive du nombre d'élèves dans le système éducatif"
       },
@@ -37,10 +60,30 @@
     ],
     "definition": {
       "mandatory": [
-        {"name": "sort", "synonyms": ["sort"]},
-        {"name": "d'un", "synonyms": ["d'un"]},
-        {"name": "petit", "synonyms": ["petit"]},
-        {"name": "trou", "synonyms": ["trou"]}
+        {
+          "name": "sort",
+          "synonyms": [
+            "sort"
+          ]
+        },
+        {
+          "name": "d'un",
+          "synonyms": [
+            "d'un"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        },
+        {
+          "name": "trou",
+          "synonyms": [
+            "trou"
+          ]
+        }
       ],
       "contextual": [],
       "raw_definition": "sort d'un petit trou"
@@ -49,5 +92,231 @@
     "domaine_parent": "biologie",
     "domaine_exact": "biologie",
     "validation_weight": 1.0
+  },
+  "mathématiques": {
+    "type": "specialized",
+    "exact_terms": [
+      "mathématiques"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mathématiques",
+          "synonyms": [
+            "mathématiques"
+          ]
+        },
+        {
+          "name": "mathématique",
+          "synonyms": [
+            "mathématique"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "connaissances",
+          "synonyms": [
+            "connaissances"
+          ]
+        },
+        {
+          "name": "abstraites",
+          "synonyms": [
+            "abstraites"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les mathématiques (ou la mathématique) sont un ensemble de connaissances abstraites résultant de raisonnements logiques appliqués à des objets divers tels que les ensembles mathématiques, les nombres, les formes, les structures, les transformations, etc. ; ainsi qu'aux relations et opérations mathématiques qui existent entre ces objets."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "mathématiques",
+    "domaine_exact": "mathématiques",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "à base dénombrable": {
+    "type": "specialized",
+    "exact_terms": [
+      "à base dénombrable"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "espace",
+          "synonyms": [
+            "espace"
+          ]
+        },
+        {
+          "name": "vectoriel",
+          "synonyms": [
+            "vectoriel"
+          ]
+        },
+        {
+          "name": "admet",
+          "synonyms": [
+            "admet"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "génératrice",
+          "synonyms": [
+            "génératrice"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pour un espace vectoriel, qui admet une famille génératrice dénombrable (et donc une base dénombrable)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "mathématiques",
+    "domaine_exact": "mathématiques",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "a posteriori": {
+    "type": "specialized",
+    "exact_terms": [
+      "a posteriori"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "déterminé",
+          "synonyms": [
+            "déterminé"
+          ]
+        },
+        {
+          "name": "posteriori",
+          "synonyms": [
+            "posteriori"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Qui est déterminé a posteriori."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "philosophie",
+    "domaine_exact": "philosophie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "abaliété": {
+    "type": "specialized",
+    "exact_terms": [
+      "abaliété"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "qualité",
+          "synonyms": [
+            "qualité"
+          ]
+        },
+        {
+          "name": "l'existence",
+          "synonyms": [
+            "l'existence"
+          ]
+        },
+        {
+          "name": "dépend",
+          "synonyms": [
+            "dépend"
+          ]
+        },
+        {
+          "name": "autre",
+          "synonyms": [
+            "autre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Qualité d'un être dont l'existence dépend d'un autre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "philosophie",
+    "domaine_exact": "philosophie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "abaque": {
+    "type": "specialized",
+    "exact_terms": [
+      "abaque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "abaque",
+          "synonyms": [
+            "abaque"
+          ]
+        },
+        {
+          "name": "désigner",
+          "synonyms": [
+            "désigner"
+          ]
+        },
+        {
+          "name": "abaque",
+          "synonyms": [
+            "abaque"
+          ]
+        },
+        {
+          "name": "instrument",
+          "synonyms": [
+            "instrument"
+          ]
+        },
+        {
+          "name": "calcul",
+          "synonyms": [
+            "calcul"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Abaque peut désigner :\n\nabaque, un instrument de calcul à l'aide de cailloux ou de jetons ;\nabaque, un graphique permettant de simplifier des calculs ;\nabaque de Smith ;\nabaque de Greninger ;\nabaque, la partie supérieure d'une colonne en architecture."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "philosophie",
+    "domaine_exact": "philosophie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
