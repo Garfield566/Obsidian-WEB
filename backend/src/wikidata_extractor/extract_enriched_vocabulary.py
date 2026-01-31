@@ -319,14 +319,16 @@ def extract_and_enrich_vocabulary(
         wiktionary_count = len(terms) - enriched_count
 
         print(f"\n    Résultats:")
-        print(f"      Enrichis: {enriched_count}/{len(terms)} ({enriched_count/len(terms)*100:.0f}%)")
+        enriched_pct = (enriched_count/len(terms)*100) if len(terms) > 0 else 0
+        print(f"      Enrichis: {enriched_count}/{len(terms)} ({enriched_pct:.0f}%)")
         print(f"      VSC: {len(VSC_enriched)} termes")
         print(f"      VSCA: {len(VSCA_enriched)} termes")
         print(f"      Sources:")
         print(f"        - Academic: {academic_count}")
         print(f"        - Wikipedia: {wikipedia_count}")
         print(f"        - Wiktionary seul: {wiktionary_count}")
-        print(f"      Temps: {elapsed/60:.1f} min ({elapsed/len(terms):.2f}s/terme)")
+        avg_time = (elapsed/len(terms)) if len(terms) > 0 else 0
+        print(f"      Temps: {elapsed/60:.1f} min ({avg_time:.2f}s/terme)")
 
         enriched_vocabulary[domain_path] = {
             "VSC": VSC_enriched,
