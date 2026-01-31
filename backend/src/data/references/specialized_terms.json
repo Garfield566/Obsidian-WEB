@@ -318,5 +318,2127 @@
       "wikipedia"
     ],
     "confidence": 0.8
+  },
+  "-troche": {
+    "type": "specialized",
+    "exact_terms": [
+      "-troche"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "suffixe",
+          "synonyms": [
+            "suffixe"
+          ]
+        },
+        {
+          "name": "servant",
+          "synonyms": [
+            "servant"
+          ]
+        },
+        {
+          "name": "former",
+          "synonyms": [
+            "former"
+          ]
+        },
+        {
+          "name": "noms",
+          "synonyms": [
+            "noms"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Suffixe servant à former des noms désignant des couronnes ou bandes de cils (ou de cellules ciliées) chez les larves de certains organismes aquatiques, notamment les lophotrochozoaires (annélides, mollusques, phoronidiens)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "454": {
+    "type": "specialized",
+    "exact_terms": [
+      "454"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'année",
+          "synonyms": [
+            "l'année"
+          ]
+        },
+        {
+          "name": "454",
+          "synonyms": [
+            "454"
+          ]
+        },
+        {
+          "name": "année",
+          "synonyms": [
+            "année"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "commence",
+          "synonyms": [
+            "commence"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'année 454 est une année commune qui commence un vendredi."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ovule": {
+    "type": "specialized",
+    "exact_terms": [
+      "ovule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ovule",
+          "synonyms": [
+            "ovule"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "sexuelle",
+          "synonyms": [
+            "sexuelle"
+          ]
+        },
+        {
+          "name": "gamète",
+          "synonyms": [
+            "gamète"
+          ]
+        },
+        {
+          "name": "produite",
+          "synonyms": [
+            "produite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un ovule est une cellule sexuelle (un gamète) produite par les femelles des animaux. Il semble probable que la reproduction sexuée soit apparue sous la forme d’une reproduction isogame (forme de fécondation impliquant des gamètes possédant la même morphologie)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abiogenèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "abiogenèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'abiogenèse",
+          "synonyms": [
+            "l'abiogenèse"
+          ]
+        },
+        {
+          "name": "l'apparition",
+          "synonyms": [
+            "l'apparition"
+          ]
+        },
+        {
+          "name": "vie",
+          "synonyms": [
+            "vie"
+          ]
+        },
+        {
+          "name": "partir",
+          "synonyms": [
+            "partir"
+          ]
+        },
+        {
+          "name": "matière",
+          "synonyms": [
+            "matière"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'abiogenèse est l'apparition de la vie à partir de matière inanimée. Dans sa conception moderne, il s'agit de l'apparition de micro-organismes primitifs, certainement disparus aujourd'hui, à partir de matière organique préexistante et d'origine abiotique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\astrobiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "astrobiologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "astrobiologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exobiologie",
+          "synonyms": [
+            "exobiologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Exobiologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\astrobiologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "biochimie": {
+    "type": "specialized",
+    "exact_terms": [
+      "biochimie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biochimie",
+          "synonyms": [
+            "biochimie"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "réactions",
+          "synonyms": [
+            "réactions"
+          ]
+        },
+        {
+          "name": "chimiques",
+          "synonyms": [
+            "chimiques"
+          ]
+        },
+        {
+          "name": "déroulent",
+          "synonyms": [
+            "déroulent"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La biochimie est l'étude des réactions chimiques qui se déroulent au sein des êtres vivants, et notamment dans les cellules. La complexité des processus chimiques biologiques est contrôlée à travers la signalisation cellulaire et les transferts d'énergie au cours du métabolisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "2,2’-iminodi(éthylamine)": {
+    "type": "specialized",
+    "exact_terms": [
+      "2,2’-iminodi(éthylamine)"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exemple",
+          "synonyms": [
+            "exemple"
+          ]
+        },
+        {
+          "name": "utilisation",
+          "synonyms": [
+            "utilisation"
+          ]
+        },
+        {
+          "name": "manquant",
+          "synonyms": [
+            "manquant"
+          ]
+        },
+        {
+          "name": "ajouter",
+          "synonyms": [
+            "ajouter"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Exemple d’utilisation manquant. (Ajouter)"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "annotation fonctionnelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "annotation fonctionnelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "opération",
+          "synonyms": [
+            "opération"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "assigner",
+          "synonyms": [
+            "assigner"
+          ]
+        },
+        {
+          "name": "fonctions",
+          "synonyms": [
+            "fonctions"
+          ]
+        },
+        {
+          "name": "biologiques",
+          "synonyms": [
+            "biologiques"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Opération qui consiste à assigner des fonctions biologiques aux séquences du génome identifiées lors de l’annotation structurale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\bioinformatique",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "annotation structurale": {
+    "type": "specialized",
+    "exact_terms": [
+      "annotation structurale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "opération",
+          "synonyms": [
+            "opération"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "analysant",
+          "synonyms": [
+            "analysant"
+          ]
+        },
+        {
+          "name": "séquence",
+          "synonyms": [
+            "séquence"
+          ]
+        },
+        {
+          "name": "génome",
+          "synonyms": [
+            "génome"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Opération qui consiste, en analysant la séquence d’un génome, à identifier et à localiser les séquences remarquables de celui-ci."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\bioinformatique",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "bioapatite": {
+    "type": "specialized",
+    "exact_terms": [
+      "bioapatite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "apatite",
+          "synonyms": [
+            "apatite"
+          ]
+        },
+        {
+          "name": "origine",
+          "synonyms": [
+            "origine"
+          ]
+        },
+        {
+          "name": "biologique",
+          "synonyms": [
+            "biologique"
+          ]
+        },
+        {
+          "name": "principalement",
+          "synonyms": [
+            "principalement"
+          ]
+        },
+        {
+          "name": "hydroxyapatite",
+          "synonyms": [
+            "hydroxyapatite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Apatite d’origine biologique, principalement l’hydroxyapatite, constituant minéral majeur des os, des dents et de certaines coquilles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biominéralogie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "biominéralisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "biominéralisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biominéralisation",
+          "synonyms": [
+            "biominéralisation"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "phénomènes",
+          "synonyms": [
+            "phénomènes"
+          ]
+        },
+        {
+          "name": "physico-chimiques",
+          "synonyms": [
+            "physico-chimiques"
+          ]
+        },
+        {
+          "name": "moléculaires",
+          "synonyms": [
+            "moléculaires"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La biominéralisation est l'ensemble des phénomènes physico-chimiques, moléculaires et cellulaires conduisant à la précipitation de minéraux inorganiques par des organismes vivants, aussi bien des procaryotes que des eucaryotes. La production de structures minéralisées par ces organismes remplit plusieurs fonctions qui représentent un avantage évolutif."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biominéralogie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ab initio": {
+    "type": "specialized",
+    "exact_terms": [
+      "ab initio"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "locution",
+          "synonyms": [
+            "locution"
+          ]
+        },
+        {
+          "name": "latine",
+          "synonyms": [
+            "latine"
+          ]
+        },
+        {
+          "name": "initio",
+          "synonyms": [
+            "initio"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "depuis",
+          "synonyms": [
+            "depuis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La locution latine ab initio signifie depuis le début/commencement et est utilisée dans plusieurs contextes :\n\nen littérature : racontée depuis le début en opposition à in medias res (signifiant commencer au milieu de l'histoire).\ncomme terme légal : fait référence à quelque chose étant partie du problème depuis le début ou depuis l'instant de l'acte, plus que lorsque la cour l'a déclaré comme tel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biophysique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "bioénergétique": {
+    "type": "specialized",
+    "exact_terms": [
+      "bioénergétique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "bioénergétique",
+          "synonyms": [
+            "bioénergétique"
+          ]
+        },
+        {
+          "name": "branche",
+          "synonyms": [
+            "branche"
+          ]
+        },
+        {
+          "name": "biochimie",
+          "synonyms": [
+            "biochimie"
+          ]
+        },
+        {
+          "name": "analyse",
+          "synonyms": [
+            "analyse"
+          ]
+        },
+        {
+          "name": "flux",
+          "synonyms": [
+            "flux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La bioénergétique est une branche de la biochimie qui analyse les flux d'énergie dans les systèmes vivants. Constituant un champ de recherche biologique très actif et multidisciplinaire, la bioénergétique étudie les processus cellulaires, comme la respiration ou la photosynthèse, qui permettent de stocker, sous forme d’un excès de molécules d'ATP, l’énergie chimique nécessaire pour de nombreuses réactions biologiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biophysique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "biologie cellulaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "biologie cellulaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "cellulaire",
+          "synonyms": [
+            "cellulaire"
+          ]
+        },
+        {
+          "name": "anciennement",
+          "synonyms": [
+            "anciennement"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "cytologie",
+          "synonyms": [
+            "cytologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La biologie cellulaire (anciennement appelée cytologie) est une discipline scientifique qui étudie les cellules, du point de vue structural et fonctionnel, et les utilise pour des applications en biotechnologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "adressage des protéines": {
+    "type": "specialized",
+    "exact_terms": [
+      "adressage des protéines"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "localisation",
+          "synonyms": [
+            "localisation"
+          ]
+        },
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "essentielle",
+          "synonyms": [
+            "essentielle"
+          ]
+        },
+        {
+          "name": "bon",
+          "synonyms": [
+            "bon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans une cellule, la localisation d'une protéine est essentielle à son bon fonctionnement. Or le lieu de production d'une protéine est souvent différent de son lieu d'action."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "conchyliologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "conchyliologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "conchyliologie",
+          "synonyms": [
+            "conchyliologie"
+          ]
+        },
+        {
+          "name": "kiljɔlɔʒi",
+          "synonyms": [
+            "kiljɔlɔʒi"
+          ]
+        },
+        {
+          "name": "branche",
+          "synonyms": [
+            "branche"
+          ]
+        },
+        {
+          "name": "l'histoire",
+          "synonyms": [
+            "l'histoire"
+          ]
+        },
+        {
+          "name": "naturelle",
+          "synonyms": [
+            "naturelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La conchyliologie [kɔ̃kiljɔlɔʒi] est la branche de l'histoire naturelle consacrée à l'étude des mollusques à coquille, y compris les limaces, qui ont perdu leur coquille au cours de l'évolution.\nLe préfixe du mot est dérivé du latin concha (qui signifie coquillage mais aussi récipient en forme de coquillage) lui-même dérivé du grec konkhê (désignant toutes sortes d'objets ayant une analogie de forme)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\conchyliologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "astracologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "astracologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "extrêmement",
+          "synonyms": [
+            "extrêmement"
+          ]
+        },
+        {
+          "name": "rare",
+          "synonyms": [
+            "rare"
+          ]
+        },
+        {
+          "name": "science",
+          "synonyms": [
+            "science"
+          ]
+        },
+        {
+          "name": "étudie",
+          "synonyms": [
+            "étudie"
+          ]
+        },
+        {
+          "name": "coquilles",
+          "synonyms": [
+            "coquilles"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "(Extrêmement rare) Science qui étudie les coquilles et les carapaces des animaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\conchyliologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "amphimixie": {
+    "type": "specialized",
+    "exact_terms": [
+      "amphimixie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "fécondation",
+          "synonyms": [
+            "fécondation"
+          ]
+        },
+        {
+          "name": "déroulant",
+          "synonyms": [
+            "déroulant"
+          ]
+        },
+        {
+          "name": "lors",
+          "synonyms": [
+            "lors"
+          ]
+        },
+        {
+          "name": "première",
+          "synonyms": [
+            "première"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Processus de fécondation se déroulant lors de la première division embryonnaire. Ce phénomène est caractérisé par la réunion de deux cellules mâle et femelle se mélangeant sur la plaque métaphasique sans par ailleurs fusionner."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\embryologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "ampoule tubaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "ampoule tubaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'ampoule",
+          "synonyms": [
+            "l'ampoule"
+          ]
+        },
+        {
+          "name": "tubaire",
+          "synonyms": [
+            "tubaire"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        },
+        {
+          "name": "trompe",
+          "synonyms": [
+            "trompe"
+          ]
+        },
+        {
+          "name": "fallope",
+          "synonyms": [
+            "fallope"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'ampoule tubaire est une partie de la trompe de Fallope, dans le système reproducteur féminin des mammifères."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\embryologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "adaptation": {
+    "type": "specialized",
+    "exact_terms": [
+      "adaptation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "appelle",
+          "synonyms": [
+            "appelle"
+          ]
+        },
+        {
+          "name": "adaptation",
+          "synonyms": [
+            "adaptation"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "modification",
+          "synonyms": [
+            "modification"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "On appelle adaptation le processus de modification d'un objet, d'un organisme vivant ou d'une organisation humaine de façon à rester fonctionnel dans de nouvelles conditions, ainsi que le résultat de ce processus."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie évolutive",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "allopatrie": {
+    "type": "specialized",
+    "exact_terms": [
+      "allopatrie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "situation",
+          "synonyms": [
+            "situation"
+          ]
+        },
+        {
+          "name": "plusieurs",
+          "synonyms": [
+            "plusieurs"
+          ]
+        },
+        {
+          "name": "populations",
+          "synonyms": [
+            "populations"
+          ]
+        },
+        {
+          "name": "vivent",
+          "synonyms": [
+            "vivent"
+          ]
+        },
+        {
+          "name": "zones",
+          "synonyms": [
+            "zones"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Situation où plusieurs populations vivent dans des zones géographiques séparées, empêchant les échanges génétiques entre elles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie évolutive",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "biologie du développement": {
+    "type": "specialized",
+    "exact_terms": [
+      "biologie du développement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "développement",
+          "synonyms": [
+            "développement"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "lesquels",
+          "synonyms": [
+            "lesquels"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La biologie du développement est l'étude des processus par lesquels les organismes croissent et se développent. Elle étudie en particulier le contrôle génétique de la croissance cellulaire, de la différenciation cellulaire et de la morphogenèse."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "croissance": {
+    "type": "specialized",
+    "exact_terms": [
+      "croissance"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        },
+        {
+          "name": "vivant",
+          "synonyms": [
+            "vivant"
+          ]
+        },
+        {
+          "name": "croît",
+          "synonyms": [
+            "croît"
+          ]
+        },
+        {
+          "name": "augmente",
+          "synonyms": [
+            "augmente"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Processus par lequel un être vivant croît, augmente en taille, en masse ou en complexité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "abasique": {
+    "type": "specialized",
+    "exact_terms": [
+      "abasique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "incapable",
+          "synonyms": [
+            "incapable"
+          ]
+        },
+        {
+          "name": "marcher",
+          "synonyms": [
+            "marcher"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Qui est incapable de marcher."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "acide désoxyribonucléique": {
+    "type": "specialized",
+    "exact_terms": [
+      "acide désoxyribonucléique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'acide",
+          "synonyms": [
+            "l'acide"
+          ]
+        },
+        {
+          "name": "désoxyribonucléique",
+          "synonyms": [
+            "désoxyribonucléique"
+          ]
+        },
+        {
+          "name": "adn",
+          "synonyms": [
+            "adn"
+          ]
+        },
+        {
+          "name": "macromolécule",
+          "synonyms": [
+            "macromolécule"
+          ]
+        },
+        {
+          "name": "biologique",
+          "synonyms": [
+            "biologique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'acide désoxyribonucléique, ou ADN, est une macromolécule biologique présente dans presque toutes les cellules ainsi que chez de nombreux virus. L'ADN contient toute l'information génétique, appelée génome, permettant le développement, le fonctionnement et la reproduction des êtres vivants."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "acido-alcoolo-résistance": {
+    "type": "specialized",
+    "exact_terms": [
+      "acido-alcoolo-résistance"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "résistance",
+          "synonyms": [
+            "résistance"
+          ]
+        },
+        {
+          "name": "fois",
+          "synonyms": [
+            "fois"
+          ]
+        },
+        {
+          "name": "action",
+          "synonyms": [
+            "action"
+          ]
+        },
+        {
+          "name": "acides",
+          "synonyms": [
+            "acides"
+          ]
+        },
+        {
+          "name": "forts",
+          "synonyms": [
+            "forts"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Résistance à la fois à l’action des acides forts et à l’action de l’alcool, pour une bactérie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "acido-alcoolo-résistant": {
+    "type": "specialized",
+    "exact_terms": [
+      "acido-alcoolo-résistant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dit",
+          "synonyms": [
+            "dit"
+          ]
+        },
+        {
+          "name": "bactéries",
+          "synonyms": [
+            "bactéries"
+          ]
+        },
+        {
+          "name": "décolorant",
+          "synonyms": [
+            "décolorant"
+          ]
+        },
+        {
+          "name": "action",
+          "synonyms": [
+            "action"
+          ]
+        },
+        {
+          "name": "acides",
+          "synonyms": [
+            "acides"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Se dit de bactéries ne se décolorant ni sous l’action des acides forts, ni sous l’action de l’alcool."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "hydrobiologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "hydrobiologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'hydrobiologie",
+          "synonyms": [
+            "l'hydrobiologie"
+          ]
+        },
+        {
+          "name": "science",
+          "synonyms": [
+            "science"
+          ]
+        },
+        {
+          "name": "vie",
+          "synonyms": [
+            "vie"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "vitaux",
+          "synonyms": [
+            "vitaux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'hydrobiologie est la science de la vie et des processus vitaux de l'eau. Une grande partie de l'hydrobiologie moderne peut être considérée comme une sous-discipline de l'écologie, mais le domaine de l'hydrobiologie comprend la taxonomie, la biologie économique, la biologie industrielle, la morphologie, la physiologie, etc."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\hydrobiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "algueraie": {
+    "type": "specialized",
+    "exact_terms": [
+      "algueraie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "formation",
+          "synonyms": [
+            "formation"
+          ]
+        },
+        {
+          "name": "d'algues",
+          "synonyms": [
+            "d'algues"
+          ]
+        },
+        {
+          "name": "vivantes",
+          "synonyms": [
+            "vivantes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Formation d'algues vivantes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\hydrobiologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "atoll": {
+    "type": "specialized",
+    "exact_terms": [
+      "atoll"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "atoll",
+          "synonyms": [
+            "atoll"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "d'île",
+          "synonyms": [
+            "d'île"
+          ]
+        },
+        {
+          "name": "corallienne",
+          "synonyms": [
+            "corallienne"
+          ]
+        },
+        {
+          "name": "basse",
+          "synonyms": [
+            "basse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un atoll est un type d'île corallienne basse des océans tropicaux. Les atolls se composent d'un récif corallien, d'un ou plusieurs îlots appelés motu formés par accumulation de sable à l'arrière de ce récif, et entourant une dépression centrale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie marine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "barrière récifale": {
+    "type": "specialized",
+    "exact_terms": [
+      "barrière récifale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "récif",
+          "synonyms": [
+            "récif"
+          ]
+        },
+        {
+          "name": "corallien",
+          "synonyms": [
+            "corallien"
+          ]
+        },
+        {
+          "name": "séparé",
+          "synonyms": [
+            "séparé"
+          ]
+        },
+        {
+          "name": "rivage",
+          "synonyms": [
+            "rivage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Type de récif corallien séparé du rivage par un lagon plus ou moins profond."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie marine",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "acidophile": {
+    "type": "specialized",
+    "exact_terms": [
+      "acidophile"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "qualificatif",
+          "synonyms": [
+            "qualificatif"
+          ]
+        },
+        {
+          "name": "acidophile",
+          "synonyms": [
+            "acidophile"
+          ]
+        },
+        {
+          "name": "confondre",
+          "synonyms": [
+            "confondre"
+          ]
+        },
+        {
+          "name": "acidiphile",
+          "synonyms": [
+            "acidiphile"
+          ]
+        },
+        {
+          "name": "voir",
+          "synonyms": [
+            "voir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le qualificatif acidophile (ne pas confondre avec acidiphile, voir ci-dessous) s'applique à des organismes ne pouvant survivre et se multiplier que dans des environnements acides (pH faible) ou très acides. Plusieurs d'entre eux se dégradent dans un pH supérieur à 4."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\microbiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "aéroplancton": {
+    "type": "specialized",
+    "exact_terms": [
+      "aéroplancton"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "organismes",
+          "synonyms": [
+            "organismes"
+          ]
+        },
+        {
+          "name": "microscopiques",
+          "synonyms": [
+            "microscopiques"
+          ]
+        },
+        {
+          "name": "vivants",
+          "synonyms": [
+            "vivants"
+          ]
+        },
+        {
+          "name": "bactéries",
+          "synonyms": [
+            "bactéries"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ensemble des organismes microscopiques vivants (bactéries, virus, spores de champignons, pollen, microalgues, etc.) en suspension dans l’air."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\microbiologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "décès": {
+    "type": "specialized",
+    "exact_terms": [
+      "décès"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "naturelle",
+          "synonyms": [
+            "naturelle"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mort naturelle d’une personne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "mort": {
+    "type": "specialized",
+    "exact_terms": [
+      "mort"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "l'état",
+          "synonyms": [
+            "l'état"
+          ]
+        },
+        {
+          "name": "irréversible",
+          "synonyms": [
+            "irréversible"
+          ]
+        },
+        {
+          "name": "organisme",
+          "synonyms": [
+            "organisme"
+          ]
+        },
+        {
+          "name": "biologique",
+          "synonyms": [
+            "biologique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mort est l'état irréversible d'un organisme biologique ayant cessé de vivre. Cet état se caractérise par une rupture définitive dans la cohérence des processus vitaux (nutrition, respiration…) de l'organisme considéré."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "acervule": {
+    "type": "specialized",
+    "exact_terms": [
+      "acervule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "concrétion",
+          "synonyms": [
+            "concrétion"
+          ]
+        },
+        {
+          "name": "muriforme",
+          "synonyms": [
+            "muriforme"
+          ]
+        },
+        {
+          "name": "microscopique",
+          "synonyms": [
+            "microscopique"
+          ]
+        },
+        {
+          "name": "faite",
+          "synonyms": [
+            "faite"
+          ]
+        },
+        {
+          "name": "couches",
+          "synonyms": [
+            "couches"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Concrétion muriforme, microscopique faite de couches concentriques de phosphate de calcium ou de magnésium, que l'on rencontre dans l'épiphyse."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "acicole": {
+    "type": "specialized",
+    "exact_terms": [
+      "acicole"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pousse",
+          "synonyms": [
+            "pousse"
+          ]
+        },
+        {
+          "name": "milieu",
+          "synonyms": [
+            "milieu"
+          ]
+        },
+        {
+          "name": "aiguilles",
+          "synonyms": [
+            "aiguilles"
+          ]
+        },
+        {
+          "name": "conifères",
+          "synonyms": [
+            "conifères"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Qui pousse au milieu ou sur des aiguilles de conifères."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "amibiase": {
+    "type": "specialized",
+    "exact_terms": [
+      "amibiase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "infection",
+          "synonyms": [
+            "infection"
+          ]
+        },
+        {
+          "name": "parasitaire",
+          "synonyms": [
+            "parasitaire"
+          ]
+        },
+        {
+          "name": "tropicale",
+          "synonyms": [
+            "tropicale"
+          ]
+        },
+        {
+          "name": "due",
+          "synonyms": [
+            "due"
+          ]
+        },
+        {
+          "name": "entamoba",
+          "synonyms": [
+            "entamoba"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Infection parasitaire tropicale, due à Entamoba histolytica."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\parasitologie",
+    "validation_weight": 0.6,
+    "sources": [
+      "wiktionary"
+    ],
+    "confidence": 0.6
+  },
+  "anisakiase": {
+    "type": "specialized",
+    "exact_terms": [
+      "anisakiase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'anisakiase",
+          "synonyms": [
+            "l'anisakiase"
+          ]
+        },
+        {
+          "name": "anisakidose",
+          "synonyms": [
+            "anisakidose"
+          ]
+        },
+        {
+          "name": "parasitose",
+          "synonyms": [
+            "parasitose"
+          ]
+        },
+        {
+          "name": "cosmopolite",
+          "synonyms": [
+            "cosmopolite"
+          ]
+        },
+        {
+          "name": "observée",
+          "synonyms": [
+            "observée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'anisakiase ou anisakidose est une parasitose cosmopolite, observée surtout au Japon (après consommation de sushi et de sashimi), en Scandinavie (foies de cabillaud), aux Pays-Bas (harengs conservés ou Maatjes) et le long de la côte Pacifique de l'Amérique du Sud (ceviches).  \nAnisakis est un genre de nématodes parasites, qui au cours de leur vie passent par des poissons et des mammifères marins."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\parasitologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "accouchement": {
+    "type": "specialized",
+    "exact_terms": [
+      "accouchement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'accouchement",
+          "synonyms": [
+            "l'accouchement"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "mettre",
+          "synonyms": [
+            "mettre"
+          ]
+        },
+        {
+          "name": "enfant",
+          "synonyms": [
+            "enfant"
+          ]
+        },
+        {
+          "name": "monde",
+          "synonyms": [
+            "monde"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'accouchement est l'action de mettre un enfant au monde. Il existe deux types d'accouchements : l'accouchement par voie basse et l'accouchement par césarienne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\reproduction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "accouplement": {
+    "type": "specialized",
+    "exact_terms": [
+      "accouplement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "accouplement",
+          "synonyms": [
+            "accouplement"
+          ]
+        },
+        {
+          "name": "désigner",
+          "synonyms": [
+            "désigner"
+          ]
+        },
+        {
+          "name": "accouplement",
+          "synonyms": [
+            "accouplement"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "l'acte",
+          "synonyms": [
+            "l'acte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Accouplement peut désigner :\n\naccouplement, en biologie, l'acte sexuel lié à la procréation ;\naccouplement, en mécanique, un dispositif de liaison entre deux arbres ;\naccouplement, un dispositif permettant de faire jouer simultanément les touches de plusieurs claviers d'un orgue en n'en touchant qu'un seul ;\naccouplement, entre deux rames de chemin de fer ou deux morceaux de rame ;\naccouplement ou couplage, en mathématiques, une application bilinéaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\reproduction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "cellule végétale": {
+    "type": "specialized",
+    "exact_terms": [
+      "cellule végétale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "végétales",
+          "synonyms": [
+            "végétales"
+          ]
+        },
+        {
+          "name": "unités",
+          "synonyms": [
+            "unités"
+          ]
+        },
+        {
+          "name": "élémentaires",
+          "synonyms": [
+            "élémentaires"
+          ]
+        },
+        {
+          "name": "nombreuses",
+          "synonyms": [
+            "nombreuses"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les cellules végétales sont les unités élémentaires, très nombreuses, constituant les organismes végétaux. Elles sont les cellules présentes dans les plantes vertes, eucaryotes photosynthétiques du règne Plantae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie végétale",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "chloroplaste": {
+    "type": "specialized",
+    "exact_terms": [
+      "chloroplaste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chloroplastes",
+          "synonyms": [
+            "chloroplastes"
+          ]
+        },
+        {
+          "name": "organites",
+          "synonyms": [
+            "organites"
+          ]
+        },
+        {
+          "name": "présents",
+          "synonyms": [
+            "présents"
+          ]
+        },
+        {
+          "name": "cytoplasme",
+          "synonyms": [
+            "cytoplasme"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les chloroplastes sont des organites présents dans le cytoplasme des cellules eucaryotes photosynthétiques (plantes, algues). Ils sont sensibles aux expositions des différentes ondes du spectre lumineux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie végétale",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "bien-être animal": {
+    "type": "specialized",
+    "exact_terms": [
+      "bien-être animal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "bien-être",
+          "synonyms": [
+            "bien-être"
+          ]
+        },
+        {
+          "name": "animal",
+          "synonyms": [
+            "animal"
+          ]
+        },
+        {
+          "name": "problématique",
+          "synonyms": [
+            "problématique"
+          ]
+        },
+        {
+          "name": "concernant",
+          "synonyms": [
+            "concernant"
+          ]
+        },
+        {
+          "name": "l'amélioration",
+          "synonyms": [
+            "l'amélioration"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le bien-être animal est une problématique concernant l'amélioration de la condition animale en ce qu'elle est dégradée par l'utilisation et l'exploitation des animaux ; et la base de divers efforts tendant à ce que toute souffrance animale soit autant que possible évitée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\zootechnie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
