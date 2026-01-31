@@ -126,6 +126,9 @@ def extract_domain_complete(
     specialized_terms = {}
     enriched_count = 0
 
+    # Fichier de sortie pour sauvegardes périodiques
+    specialized_file = domain_dir / f"{domain_name}_specialized_terms.json"
+
     for i, term in enumerate(sorted(all_terms), 1):
         if i % 50 == 0:
             elapsed = time.time() - specialized_start
@@ -161,10 +164,14 @@ def extract_domain_complete(
             specialized_terms[term] = result
             enriched_count += 1
 
+        # Sauvegarder périodiquement tous les 10 termes pour le monitoring
+        if i % 10 == 0:
+            with open(specialized_file, 'w', encoding='utf-8') as f:
+                json.dump(specialized_terms, f, ensure_ascii=False, indent=2)
+
     specialized_elapsed = time.time() - specialized_start
 
-    # Sauvegarder termes spécialisés
-    specialized_file = domain_dir / f"{domain_name}_specialized_terms.json"
+    # Sauvegarder termes spécialisés (sauvegarde finale)
     with open(specialized_file, 'w', encoding='utf-8') as f:
         json.dump(specialized_terms, f, ensure_ascii=False, indent=2)
 
