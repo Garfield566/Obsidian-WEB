@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-31T13:21:50.852520",
-  "vault_hash": "7c8d5283",
+  "generated_at": "2026-01-31T15:12:56.563042",
+  "vault_hash": "eca4314e",
   "suggestions": {
     "new_tags": [
       {
@@ -29,11 +29,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852556",
+        "first_detected": "2026-01-31T15:12:56.563080",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_000",
+        "id": "lt_ent_001",
         "name": "entité\\états-unis",
         "confidence": 0.93,
         "notes": [
@@ -60,12 +60,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852561",
+        "first_detected": "2026-01-31T15:12:56.563085",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_002",
+        "id": "lt_ent_003",
         "name": "entité\\empire-romain",
         "confidence": 0.93,
         "notes": [
@@ -92,7 +92,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852565",
+        "first_detected": "2026-01-31T15:12:56.563089",
         "source": "reference_db",
         "alternatives": []
       },
@@ -124,12 +124,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852568",
+        "first_detected": "2026-01-31T15:12:56.563092",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_007",
         "name": "entité\\empire-britannique",
         "confidence": 0.86,
         "notes": [
@@ -153,7 +153,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852571",
+        "first_detected": "2026-01-31T15:12:56.563096",
         "source": "reference_db",
         "alternatives": []
       },
@@ -177,7 +177,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852574",
+        "first_detected": "2026-01-31T15:12:56.563099",
         "source": "reference_db",
         "alternatives": [
           {
@@ -209,7 +209,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852577",
+        "first_detected": "2026-01-31T15:12:56.563102",
         "source": "reference_db",
         "alternatives": [
           {
@@ -218,82 +218,6 @@
             "is_convention": true
           }
         ]
-      },
-      {
-        "id": "lt_ent_001",
-        "name": "entité\\empire-perse",
-        "confidence": 0.85,
-        "notes": [
-          "info box 1.md",
-          "info box 1 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/métallurgie  Britannica.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 4 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-perse",
-            "total_occurrences": 13,
-            "notes_count": 4,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852583",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_005",
-        "name": "mouvement\\renaissance",
-        "confidence": 0.85,
-        "notes": [
-          "caroro.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Longines.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
-        ],
-        "reasoning": {
-          "summary": "Mouvement artistique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "art_movement",
-            "raw_text": "renaissance",
-            "total_occurrences": 32,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852587",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_013",
-        "name": "geo\\asie\\chine",
-        "confidence": 0.85,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "YouTube Notes/Timestamps 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
-        ],
-        "reasoning": {
-          "summary": "Lieu géographique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "place",
-            "raw_text": "chine",
-            "total_occurrences": 28,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852590",
-        "source": "reference_db",
-        "alternatives": []
       },
       {
         "id": "lt_emg_001",
@@ -749,11 +673,87 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852593",
+        "first_detected": "2026-01-31T15:12:56.563108",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_003",
+        "id": "lt_ent_002",
+        "name": "entité\\empire-perse",
+        "confidence": 0.85,
+        "notes": [
+          "info box 1.md",
+          "info box 1 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/métallurgie  Britannica.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 4 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "empire-perse",
+            "total_occurrences": 13,
+            "notes_count": 4,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-31T15:12:56.563112",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_006",
+        "name": "mouvement\\renaissance",
+        "confidence": 0.85,
+        "notes": [
+          "caroro.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Longines.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+        ],
+        "reasoning": {
+          "summary": "Mouvement artistique détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "art_movement",
+            "raw_text": "renaissance",
+            "total_occurrences": 32,
+            "notes_count": 3,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-31T15:12:56.563116",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_014",
+        "name": "geo\\asie\\chine",
+        "confidence": 0.85,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "YouTube Notes/Timestamps 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
+        ],
+        "reasoning": {
+          "summary": "Lieu géographique détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "place",
+            "raw_text": "chine",
+            "total_occurrences": 28,
+            "notes_count": 3,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-01-31T15:12:56.563119",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_004",
         "name": "entité\\empire-byzantin",
         "confidence": 0.84,
         "notes": [
@@ -772,12 +772,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852596",
+        "first_detected": "2026-01-31T15:12:56.563122",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_004",
+        "id": "lt_ent_005",
         "name": "entité\\carthage",
         "confidence": 0.84,
         "notes": [
@@ -797,12 +797,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852598",
+        "first_detected": "2026-01-31T15:12:56.563124",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_014",
+        "id": "lt_ent_015",
         "name": "geo\\asie\\japon",
         "confidence": 0.84,
         "notes": [
@@ -821,7 +821,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852601",
+        "first_detected": "2026-01-31T15:12:56.563127",
         "source": "reference_db",
         "alternatives": []
       },
@@ -845,12 +845,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852603",
+        "first_detected": "2026-01-31T15:12:56.563130",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_015",
+        "id": "lt_ent_016",
         "name": "entité\\empire-ottoman",
         "confidence": 0.82,
         "notes": [
@@ -870,7 +870,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852606",
+        "first_detected": "2026-01-31T15:12:56.563133",
         "source": "reference_db",
         "alternatives": []
       },
@@ -895,7 +895,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852609",
+        "first_detected": "2026-01-31T15:12:56.563136",
         "source": "reference_db",
         "alternatives": []
       },
@@ -919,12 +919,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852611",
+        "first_detected": "2026-01-31T15:12:56.563138",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_012",
+        "id": "lt_ent_013",
         "name": "entité\\empire-austro-hongrois",
         "confidence": 0.8,
         "notes": [
@@ -943,7 +943,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852614",
+        "first_detected": "2026-01-31T15:12:56.563141",
         "source": "reference_db",
         "alternatives": []
       },
@@ -968,7 +968,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852616",
+        "first_detected": "2026-01-31T15:12:56.563144",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1010,11 +1010,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852619",
+        "first_detected": "2026-01-31T15:12:56.563146",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_008",
+        "id": "lt_ent_009",
         "name": "économie",
         "confidence": 0.79,
         "notes": [
@@ -1041,12 +1041,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852622",
+        "first_detected": "2026-01-31T15:12:56.563149",
         "source": "context_secondary",
         "alternatives": []
       },
       {
-        "id": "lt_ent_009",
+        "id": "lt_ent_010",
         "name": "avantage-comparatif\\ricardo",
         "confidence": 0.79,
         "notes": [
@@ -1067,7 +1067,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852624",
+        "first_detected": "2026-01-31T15:12:56.563152",
         "source": "context_resolved",
         "alternatives": []
       },
@@ -1093,7 +1093,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852627",
+        "first_detected": "2026-01-31T15:12:56.563154",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1123,7 +1123,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852629",
+        "first_detected": "2026-01-31T15:12:56.563157",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1134,7 +1134,7 @@
         ]
       },
       {
-        "id": "lt_ent_010",
+        "id": "lt_ent_011",
         "name": "XVIII\\1723",
         "confidence": 0.78,
         "notes": [
@@ -1156,7 +1156,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852632",
+        "first_detected": "2026-01-31T15:12:56.563160",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -1180,12 +1180,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852635",
+        "first_detected": "2026-01-31T15:12:56.563163",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_007",
+        "id": "lt_ent_008",
         "name": "X-fin",
         "confidence": 0.77,
         "notes": [
@@ -1207,12 +1207,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852637",
+        "first_detected": "2026-01-31T15:12:56.563166",
         "source": "pattern_date",
         "alternatives": []
       },
       {
-        "id": "lt_ent_016",
+        "id": "lt_ent_017",
         "name": "entité\\urss",
         "confidence": 0.77,
         "notes": [
@@ -1231,12 +1231,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852640",
+        "first_detected": "2026-01-31T15:12:56.563168",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_017",
+        "id": "lt_ent_018",
         "name": "entité\\premier-empire",
         "confidence": 0.76,
         "notes": [
@@ -1255,7 +1255,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852642",
+        "first_detected": "2026-01-31T15:12:56.563171",
         "source": "reference_related",
         "alternatives": []
       },
@@ -1279,12 +1279,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852645",
+        "first_detected": "2026-01-31T15:12:56.563174",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_011",
+        "id": "lt_ent_012",
         "name": "XVIII\\1790",
         "confidence": 0.75,
         "notes": [
@@ -1305,7 +1305,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852648",
+        "first_detected": "2026-01-31T15:12:56.563176",
         "source": "pattern_year",
         "alternatives": []
       },
@@ -1329,7 +1329,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852650",
+        "first_detected": "2026-01-31T15:12:56.563179",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1359,7 +1359,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852653",
+        "first_detected": "2026-01-31T15:12:56.563181",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1400,7 +1400,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852656",
+        "first_detected": "2026-01-31T15:12:56.563184",
         "source": "emergent"
       },
       {
@@ -1434,7 +1434,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852658",
+        "first_detected": "2026-01-31T15:12:56.563187",
         "source": "emergent"
       },
       {
@@ -1468,7 +1468,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852661",
+        "first_detected": "2026-01-31T15:12:56.563189",
         "source": "emergent"
       },
       {
@@ -1491,7 +1491,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-01-31T13:21:50.852663",
+        "first_detected": "2026-01-31T15:12:56.563192",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -1647,12 +1647,88 @@
     ],
     "health_alerts": [
       {
+        "tag": "extraction",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-31T15:12:47.568166",
+          "days_inactive": 0,
+          "notes_using": [
+            "Extraction_Mathematiques_Verification.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "L",
+          "livre",
+          "clipping"
+        ]
+      },
+      {
+        "tag": "mathematiques",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-31T15:12:47.531963",
+          "days_inactive": 0,
+          "notes_using": [
+            "Extraction_Mathematiques_Verification.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Fonction/Exponentielle",
+          "XX",
+          "XIX"
+        ]
+      },
+      {
+        "tag": "verification",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-31T15:12:47.586726",
+          "days_inactive": 0,
+          "notes_using": [
+            "Extraction_Mathematiques_Verification.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "note-livre",
+          "L",
+          "livre"
+        ]
+      },
+      {
+        "tag": "wikidata",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-01-31T15:12:47.420585",
+          "days_inactive": 0,
+          "notes_using": [
+            "Extraction_Mathematiques_Verification.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "wikipedia",
+          "livre",
+          "histoire"
+        ]
+      },
+      {
         "tag": "reference",
         "issue": "low_usage",
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.235209",
+          "last_used": "2026-01-31T15:12:47.536272",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1662,7 +1738,7 @@
         "alternative_tags": [
           "note-livre",
           "livre",
-          "cite_note-Jean_Favier199913-14"
+          "L"
         ]
       },
       {
@@ -1671,7 +1747,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.204545",
+          "last_used": "2026-01-31T15:12:47.557844",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1690,7 +1766,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.141797",
+          "last_used": "2026-01-31T15:12:47.588464",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1709,7 +1785,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.152415",
+          "last_used": "2026-01-31T15:12:47.447447",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1728,7 +1804,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.148923",
+          "last_used": "2026-01-31T15:12:47.422928",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1747,7 +1823,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.216635",
+          "last_used": "2026-01-31T15:12:47.462455",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1766,7 +1842,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.159622",
+          "last_used": "2026-01-31T15:12:47.563638",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1774,9 +1850,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
-          "cite_note-Jean_Favier199934-15",
-          "cite_note-Jean_Favier199938-16",
-          "cite_note-Jean_Favier199940-46-17"
+          "cite_note-12",
+          "cite_note-26",
+          "cite_note-7"
         ]
       },
       {
@@ -1785,7 +1861,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.290019",
+          "last_used": "2026-01-31T15:12:47.576956",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1793,9 +1869,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
-          "cite_note-Jean_Favier199938-16",
-          "cite_note-Jean_Favier199913-14",
-          "cite_note-Jean_Favier199940-46-17"
+          "cite_note-12",
+          "cite_note-26",
+          "cite_note-23"
         ]
       },
       {
@@ -1804,7 +1880,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.254316",
+          "last_used": "2026-01-31T15:12:47.454765",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1812,9 +1888,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
-          "cite_note-Jean_Favier199934-15",
-          "cite_note-Jean_Favier199913-14",
-          "cite_note-Jean_Favier199940-46-17"
+          "cite_note-26",
+          "cite_note-23",
+          "cite_note-12"
         ]
       },
       {
@@ -1823,7 +1899,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.185019",
+          "last_used": "2026-01-31T15:12:47.597760",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1831,9 +1907,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
-          "cite_note-Jean_Favier199938-16",
-          "cite_note-Jean_Favier199934-15",
-          "cite_note-Jean_Favier199913-14"
+          "cite_note-26",
+          "cite_note-19",
+          "cite_note-22"
         ]
       },
       {
@@ -1842,7 +1918,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.174443",
+          "last_used": "2026-01-31T15:12:47.530312",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1850,9 +1926,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
-          "cite_note-Jean_Favier199938-16",
-          "cite_note-Jean_Favier199934-15",
-          "cite_note-Jean_Favier199940-46-17"
+          "cite_note-12",
+          "cite_note-9",
+          "cite_note-19"
         ]
       },
       {
@@ -1861,7 +1937,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.136804",
+          "last_used": "2026-01-31T15:12:47.602530",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1880,7 +1956,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.135243",
+          "last_used": "2026-01-31T15:12:47.545004",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1890,7 +1966,7 @@
         "alternative_tags": [
           "Fonction/Exponentielle",
           "Mode_de_vie_et_reproduction",
-          "Chez_les_chiens"
+          "mathematiques"
         ]
       },
       {
@@ -1899,7 +1975,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.267873",
+          "last_used": "2026-01-31T15:12:47.486955",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1918,7 +1994,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.251065",
+          "last_used": "2026-01-31T15:12:47.445861",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1937,7 +2013,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.206082",
+          "last_used": "2026-01-31T15:12:47.458582",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1956,7 +2032,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.197973",
+          "last_used": "2026-01-31T15:12:47.483947",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon.md"
@@ -1975,7 +2051,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-01-31T13:21:42.155918",
+          "last_used": "2026-01-31T15:12:47.575330",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
@@ -1991,21 +2067,21 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_7921",
+        "id": "rg_1678",
         "tags": [
+          "exclrw",
           "Mammif",
-          "vocabulaire",
           "Comportement",
-          "exclrw"
+          "vocabulaire"
         ],
         "similarity": 1.0,
         "usage_counts": {
+          "exclrw": 2,
           "Mammif": 2,
-          "vocabulaire": 1,
           "Comportement": 2,
-          "exclrw": 2
+          "vocabulaire": 1
         },
-        "recommended": "Mammif"
+        "recommended": "exclrw"
       }
     ]
   },
@@ -2066,9 +2142,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "note-The_Wealth_of_Nations",
         "note-livre",
-        "livre"
+        "livre",
+        "note-The_Wealth_of_Nations"
       ]
     },
     {
@@ -2092,19 +2168,19 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Masayuki-Kojima",
-        "Medical-Drama",
-        "Kuniaki-Haishima"
+        "Naoki-Urasawa",
+        "Psychological-Thriller",
+        "Medical-Drama"
       ]
     }
   ],
   "stats": {
-    "total_notes": 220,
-    "analyzed_notes": 220,
-    "total_tags": 112,
-    "active_tags": 112,
+    "total_notes": 221,
+    "analyzed_notes": 221,
+    "total_tags": 116,
+    "active_tags": 116,
     "latent_tags": 38,
-    "health_score": 0.9
+    "health_score": 0.89
   },
   "vocabulary_actions": [
     {
