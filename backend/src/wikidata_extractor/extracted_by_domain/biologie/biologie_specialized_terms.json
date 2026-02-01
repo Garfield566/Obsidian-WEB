@@ -271658,5 +271658,5449 @@
       "wikipedia"
     ],
     "confidence": 0.8
+  },
+  "toxine": {
+    "type": "specialized",
+    "exact_terms": [
+      "toxine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "toxine",
+          "synonyms": [
+            "toxine"
+          ]
+        },
+        {
+          "name": "substance",
+          "synonyms": [
+            "substance"
+          ]
+        },
+        {
+          "name": "chimique",
+          "synonyms": [
+            "chimique"
+          ]
+        },
+        {
+          "name": "organique",
+          "synonyms": [
+            "organique"
+          ]
+        },
+        {
+          "name": "c'est-à-dire",
+          "synonyms": [
+            "c'est-à-dire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une toxine est une substance chimique organique, c'est-à-dire produite par un être vivant, et toxique. Les toxines peuvent causer des effets allant des irritations ou symptômes légers à des conséquences plus graves, pouvant notamment entraîner la mort, même à des doses extrêmement faibles comme c'est le cas avec la toxine botulique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "toxoplasmose": {
+    "type": "specialized",
+    "exact_terms": [
+      "toxoplasmose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "toxoplasmose",
+          "synonyms": [
+            "toxoplasmose"
+          ]
+        },
+        {
+          "name": "infection",
+          "synonyms": [
+            "infection"
+          ]
+        },
+        {
+          "name": "parasitaire",
+          "synonyms": [
+            "parasitaire"
+          ]
+        },
+        {
+          "name": "l'agent",
+          "synonyms": [
+            "l'agent"
+          ]
+        },
+        {
+          "name": "protozoaire",
+          "synonyms": [
+            "protozoaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La toxoplasmose est une infection parasitaire dont l'agent est le protozoaire Toxoplasma gondii. Le parasite infecte le plus souvent des animaux à sang chaud, y compris l’être humain, mais son hôte définitif est un félidé (dont le chat fait partie)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "toxémie": {
+    "type": "specialized",
+    "exact_terms": [
+      "toxémie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "toxémie",
+          "synonyms": [
+            "toxémie"
+          ]
+        },
+        {
+          "name": "synonyme",
+          "synonyms": [
+            "synonyme"
+          ]
+        },
+        {
+          "name": "d'intoxication",
+          "synonyms": [
+            "d'intoxication"
+          ]
+        },
+        {
+          "name": "sang",
+          "synonyms": [
+            "sang"
+          ]
+        },
+        {
+          "name": "présence",
+          "synonyms": [
+            "présence"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La toxémie peut signifier :\n\nun synonyme d'intoxication du sang\nla présence dans la circulation sanguine de bactéries ou de toxines bactériennes en quantités suffisantes pour menacer sérieusement la santé.\nLa toxémie gravidique est un synonyme de la pré-éclampsie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trabécule": {
+    "type": "specialized",
+    "exact_terms": [
+      "trabécule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trabécule",
+          "synonyms": [
+            "trabécule"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "petite",
+          "synonyms": [
+            "petite"
+          ]
+        },
+        {
+          "name": "poutre",
+          "synonyms": [
+            "poutre"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une trabécule (du latin « petite poutre ») est un petit élément tissulaire, souvent microscopique, se présentant sous la forme d'une poutre, d'un support ou d'une tige, qui soutient ou ancre une structure d'éléments au sein d'un corps ou d'un organe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trabéculum": {
+    "type": "specialized",
+    "exact_terms": [
+      "trabéculum"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trabéculum",
+          "synonyms": [
+            "trabéculum"
+          ]
+        },
+        {
+          "name": "tissu",
+          "synonyms": [
+            "tissu"
+          ]
+        },
+        {
+          "name": "fibres",
+          "synonyms": [
+            "fibres"
+          ]
+        },
+        {
+          "name": "collagènes",
+          "synonyms": [
+            "collagènes"
+          ]
+        },
+        {
+          "name": "situé",
+          "synonyms": [
+            "situé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le trabéculum est un tissu de fibres collagènes situé dans l’angle irido-cornéen. Il assure la filtration de l’humeur aqueuse en dehors de l'œil vers le canal de Schlemm."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trachée": {
+    "type": "specialized",
+    "exact_terms": [
+      "trachée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "trachée",
+          "synonyms": [
+            "trachée"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "τραχύς",
+          "synonyms": [
+            "τραχύς"
+          ]
+        },
+        {
+          "name": "trakhús",
+          "synonyms": [
+            "trakhús"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En anatomie, la trachée (du grec τραχύς / trakhús, au féminin τραχεῖα / trakheīa, « rude, raboteuse ») est un conduit constitué de tissu fibreux et cartilagineux reliant le larynx en haut aux bronches principales gauche et droite en bas. Appartenant à l'appareil respiratoire, elle permet de conduire l'air entre ces structures."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tractographie": {
+    "type": "specialized",
+    "exact_terms": [
+      "tractographie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "neurosciences",
+          "synonyms": [
+            "neurosciences"
+          ]
+        },
+        {
+          "name": "tractographie",
+          "synonyms": [
+            "tractographie"
+          ]
+        },
+        {
+          "name": "méthode",
+          "synonyms": [
+            "méthode"
+          ]
+        },
+        {
+          "name": "utilisée",
+          "synonyms": [
+            "utilisée"
+          ]
+        },
+        {
+          "name": "mettre",
+          "synonyms": [
+            "mettre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En neurosciences, la tractographie est une méthode utilisée pour mettre en évidence les voies neuronales. \nElle utilise une technique spéciale d’IRM avec une technique particulière du  tenseur de diffusion."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tractus": {
+    "type": "specialized",
+    "exact_terms": [
+      "tractus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tractus",
+          "synonyms": [
+            "tractus"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "histologie",
+          "synonyms": [
+            "histologie"
+          ]
+        },
+        {
+          "name": "physiologie",
+          "synonyms": [
+            "physiologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Tractus est un mot latin qui peut désigner :\n\nen anatomie, histologie ou en physiologie,  un faisceau de fibres formant un réseau. On parle par exemple de tractus digestif ou tractus gastro-intestinal, de tractus génital, et de tractus optique (en)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "traduction": {
+    "type": "specialized",
+    "exact_terms": [
+      "traduction"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "traduction",
+          "synonyms": [
+            "traduction"
+          ]
+        },
+        {
+          "name": "acception",
+          "synonyms": [
+            "acception"
+          ]
+        },
+        {
+          "name": "principale",
+          "synonyms": [
+            "principale"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "passer",
+          "synonyms": [
+            "passer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La traduction (dans son acception principale) est le fait de faire passer un texte d'une langue (« langue source », ou « langue de départ ») dans une autre langue (« langue cible », ou « langue d'arrivée »). Elle met en relation au moins deux langues et deux cultures, et parfois deux époques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tragus": {
+    "type": "specialized",
+    "exact_terms": [
+      "tragus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "tragus",
+          "synonyms": [
+            "tragus"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "pouvant",
+          "synonyms": [
+            "pouvant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En français, Tragus est un nom pouvant avoir plusieurs sens."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "traitement": {
+    "type": "specialized",
+    "exact_terms": [
+      "traitement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "général",
+          "synonyms": [
+            "général"
+          ]
+        },
+        {
+          "name": "traitement",
+          "synonyms": [
+            "traitement"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "traiter",
+          "synonyms": [
+            "traiter"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En général, un traitement désigne l'action de traiter. Un traitement peut désigner :\n\nen général, une manière d'agir, de se comporter."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transcriptase inverse": {
+    "type": "specialized",
+    "exact_terms": [
+      "transcriptase inverse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transcriptase",
+          "synonyms": [
+            "transcriptase"
+          ]
+        },
+        {
+          "name": "inverse",
+          "synonyms": [
+            "inverse"
+          ]
+        },
+        {
+          "name": "rétrotranscriptase",
+          "synonyms": [
+            "rétrotranscriptase"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "reverse",
+          "synonyms": [
+            "reverse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La transcriptase inverse ou rétrotranscriptase (en anglais reverse transcriptase ou encore RT) est une enzyme utilisée par les rétrovirus et les rétrotransposons qui transcrivent l'information génétique des virus ou rétrotransposons de l'ARN en ADN, qui peut s'intégrer dans le génome de l'hôte. Les eucaryotes à ADN linéaire utilisent la télomérase, une variante de la transcriptase inverse, avec le modèle d'ARN contenu dans l'enzyme elle-même."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\biologie moléculaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transcriptome": {
+    "type": "specialized",
+    "exact_terms": [
+      "transcriptome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transcriptome",
+          "synonyms": [
+            "transcriptome"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "arn",
+          "synonyms": [
+            "arn"
+          ]
+        },
+        {
+          "name": "issus",
+          "synonyms": [
+            "issus"
+          ]
+        },
+        {
+          "name": "transcription",
+          "synonyms": [
+            "transcription"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le transcriptome est l'ensemble des ARN issus de la transcription du génome. L'analyse transcriptomique peut caractériser le transcriptome d'un tissu particulier, d'un type cellulaire, ou comparer les transcriptomes entre différentes conditions expérimentales."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transcriptomique": {
+    "type": "specialized",
+    "exact_terms": [
+      "transcriptomique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transcriptomique",
+          "synonyms": [
+            "transcriptomique"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "arn",
+          "synonyms": [
+            "arn"
+          ]
+        },
+        {
+          "name": "produits",
+          "synonyms": [
+            "produits"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La transcriptomique est l'étude de l'ensemble des ARN produits lors du processus de transcription d'un génome, c'est-à-dire lors de la production passage de la molécule d'ADN à celle d'ARN.  Les ARN peuvent être codant ou non codant. Un transcriptome capture un instantané dans le temps de l'ensemble des transcrits présents dans une cellule."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transdifférenciation": {
+    "type": "specialized",
+    "exact_terms": [
+      "transdifférenciation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transdifférenciation",
+          "synonyms": [
+            "transdifférenciation"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "somatiques",
+          "synonyms": [
+            "somatiques"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La transdifférenciation est le processus par lequel des cellules somatiques matures sont transformées en d'autres sans passer par une phase pluripotente ou par une cellule progénitrice (en). La transdifférenciation est un processus comparable à celui de la différenciation de cellule, donc qui requiert une combinaison de plusieurs gènes sélecteurs et homéotiques qui permettent de déterminer le patron de développement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transferrine": {
+    "type": "specialized",
+    "exact_terms": [
+      "transferrine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transferrine",
+          "synonyms": [
+            "transferrine"
+          ]
+        },
+        {
+          "name": "sidérophiline",
+          "synonyms": [
+            "sidérophiline"
+          ]
+        },
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "sérique",
+          "synonyms": [
+            "sérique"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La transferrine ou sidérophiline est une protéine sérique de type bêtaglobuline, de poids moléculaire 77 kDa, synthétisée par le foie; elle est constituée d'une seule chaîne polypeptidique porteuses de 3 sites de captation du fer, à raison de 2 atomes de fer par molécule de transferrine. \nLa fonction de la transferrine est le transport du fer de l'intestin vers les réserves hépatiques et vers les réticulocytes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transfert de protéines": {
+    "type": "specialized",
+    "exact_terms": [
+      "transfert de protéines"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transfert",
+          "synonyms": [
+            "transfert"
+          ]
+        },
+        {
+          "name": "protéines",
+          "synonyms": [
+            "protéines"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "western",
+          "synonyms": [
+            "western"
+          ]
+        },
+        {
+          "name": "blot",
+          "synonyms": [
+            "blot"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le transfert de protéines, en anglais western blot (également appelé buvardage de western ou encore technique des immuno-empreintes), est une méthode de biologie moléculaire permettant la détection et l'identification de protéines spécifiques dans un échantillon biologique (sérum ou autre extrait ou homogénat tissulaire) à l'aide d'anticorps dirigés contre ces protéines que l'on souhaite détecter. Le western blot permet ainsi de visualiser des protéines particulières dans un mélange complexe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transformisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "transformisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transformisme",
+          "synonyms": [
+            "transformisme"
+          ]
+        },
+        {
+          "name": "concepts",
+          "synonyms": [
+            "concepts"
+          ]
+        },
+        {
+          "name": "transformisme",
+          "synonyms": [
+            "transformisme"
+          ]
+        },
+        {
+          "name": "art",
+          "synonyms": [
+            "art"
+          ]
+        },
+        {
+          "name": "scénique",
+          "synonyms": [
+            "scénique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme de transformisme fait référence à plusieurs concepts :\n\nTransformisme, art scénique consistant à la personnification de rôles féminins par des interprètes masculins ;\nTransformisme, technique scénique de changement rapide de costume ;\nTransformisme, théorie scientifique appelée aussi « transmutation des espèces » ;\nTransformisme, pratique politique consistant à réaliser des coalitions à l'intérieur d'un parlement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transféminicide": {
+    "type": "specialized",
+    "exact_terms": [
+      "transféminicide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transféminicide",
+          "synonyms": [
+            "transféminicide"
+          ]
+        },
+        {
+          "name": "transfémicide",
+          "synonyms": [
+            "transfémicide"
+          ]
+        },
+        {
+          "name": "travesticide",
+          "synonyms": [
+            "travesticide"
+          ]
+        },
+        {
+          "name": "défini",
+          "synonyms": [
+            "défini"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le transféminicide, transfémicide ou travesticide est défini comme le meurtre d'une femme trans ou d'une personne travestie en raison de son genre, manifestation finale et la plus visible d'une chaîne de violence structurelle qui répond à un système économique, politique, social et culturel basé sur la division binaire exclusive entre les genres. La version espagnole du terme est largement utilisée en Amérique latine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transgène": {
+    "type": "specialized",
+    "exact_terms": [
+      "transgène"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transgène",
+          "synonyms": [
+            "transgène"
+          ]
+        },
+        {
+          "name": "séquence",
+          "synonyms": [
+            "séquence"
+          ]
+        },
+        {
+          "name": "isolée",
+          "synonyms": [
+            "isolée"
+          ]
+        },
+        {
+          "name": "gène",
+          "synonyms": [
+            "gène"
+          ]
+        },
+        {
+          "name": "transférée",
+          "synonyms": [
+            "transférée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un transgène est la séquence isolée d'un gène, transférée d'un organisme à un autre, lors de la mise en œuvre de la transgenèse. Cette modification peut altérer le comportement génétique de l'organisme (p."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transgénèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "transgénèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transgenèse",
+          "synonyms": [
+            "transgenèse"
+          ]
+        },
+        {
+          "name": "transgénèse",
+          "synonyms": [
+            "transgénèse"
+          ]
+        },
+        {
+          "name": "d'incorporer",
+          "synonyms": [
+            "d'incorporer"
+          ]
+        },
+        {
+          "name": "gènes",
+          "synonyms": [
+            "gènes"
+          ]
+        },
+        {
+          "name": "génome",
+          "synonyms": [
+            "génome"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La transgenèse, ou transgénèse est le fait d'incorporer un ou plusieurs gènes dans le génome d'un organisme vivant. Ce transgène pourra être exprimé dans l'organisme transformé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transition": {
+    "type": "specialized",
+    "exact_terms": [
+      "transition"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transition",
+          "synonyms": [
+            "transition"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "transitio",
+          "synonyms": [
+            "transitio"
+          ]
+        },
+        {
+          "name": "passage",
+          "synonyms": [
+            "passage"
+          ]
+        },
+        {
+          "name": "transition",
+          "synonyms": [
+            "transition"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La transition (du latin transitio : passage, transition) désigne l'action ou la manière de passer d’un état à un autre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "translocation": {
+    "type": "specialized",
+    "exact_terms": [
+      "translocation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "translocation",
+          "synonyms": [
+            "translocation"
+          ]
+        },
+        {
+          "name": "génétique",
+          "synonyms": [
+            "génétique"
+          ]
+        },
+        {
+          "name": "translocation",
+          "synonyms": [
+            "translocation"
+          ]
+        },
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "caractérisée",
+          "synonyms": [
+            "caractérisée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot translocation peut désigner :\n\nEn génétique, la translocation est une mutation caractérisée par l'échange réciproque de matériel chromosomique entre des chromosomes non homologues.\nEn botanique, la translocation est le processus de transfert de substances depuis les feuilles vers les autres organes de la plante."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "translocon": {
+    "type": "specialized",
+    "exact_terms": [
+      "translocon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "translocon",
+          "synonyms": [
+            "translocon"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "complexe",
+          "synonyms": [
+            "complexe"
+          ]
+        },
+        {
+          "name": "translocation",
+          "synonyms": [
+            "translocation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le translocon, aussi appelé complexe de translocation, est un complexe de protéines responsable de la translocation de polypeptides au travers des membranes biologiques.\nChez les eucaryotes, le terme translocon désigne en général le complexe qui transporte les polypeptides naissants porteurs d'une séquence signal  depuis le cytosol vers l'intérieur (cisterna ou lumière) du réticulum endoplasmique (RE)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transpiration": {
+    "type": "specialized",
+    "exact_terms": [
+      "transpiration"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        },
+        {
+          "name": "transpiration",
+          "synonyms": [
+            "transpiration"
+          ]
+        },
+        {
+          "name": "production",
+          "synonyms": [
+            "production"
+          ]
+        },
+        {
+          "name": "l'évacuation",
+          "synonyms": [
+            "l'évacuation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Chez les mammifères, la transpiration est la production et l'évacuation de la sueur.\nChez l'Homme, la transpiration liée au stress est la sudation provoquée par des stimuli émotionnels tels que l'anxiété, le plaisir, l'anticipation ou la peur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie végétale",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transplant": {
+    "type": "specialized",
+    "exact_terms": [
+      "transplant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transplant",
+          "synonyms": [
+            "transplant"
+          ]
+        },
+        {
+          "name": "lieu",
+          "synonyms": [
+            "lieu"
+          ]
+        },
+        {
+          "name": "création",
+          "synonyms": [
+            "création"
+          ]
+        },
+        {
+          "name": "compétences",
+          "synonyms": [
+            "compétences"
+          ]
+        },
+        {
+          "name": "spécialisé",
+          "synonyms": [
+            "spécialisé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Transplant est un lieu de création et de compétences spécialisé dans le design et situé à Dale, sur la commune de Fjaler en Norvège.\nLe bâtiment, dessiné par Attila Eris, de l'atelier Renzo Piano, et construit en 2007, donne sur le fjord Dalsfjord."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transplantation": {
+    "type": "specialized",
+    "exact_terms": [
+      "transplantation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transplantation",
+          "synonyms": [
+            "transplantation"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        },
+        {
+          "name": "synonyme",
+          "synonyms": [
+            "synonyme"
+          ]
+        },
+        {
+          "name": "domaine",
+          "synonyms": [
+            "domaine"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La notion de transplantation est généralement synonyme, dans le domaine de la médecine, de celle de greffe.\nOn parle ainsi de:\n\nTransplantation rénale\nTransplantation hépatique\nTransplantation de moelle\nTransplantation cardiaque \nTransplantation pulmonaire\nOn peut aussi parler de transplantation pour le déplacement d'autres organismes:\n\nRepiquage ou transplantation de végétaux\nTransplantation corallienne\nLe mot « transplantation » peut également désigner :\n\nTransplantation (Tell-Tale) est le tit..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transport": {
+    "type": "specialized",
+    "exact_terms": [
+      "transport"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transport",
+          "synonyms": [
+            "transport"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "déplacement",
+          "synonyms": [
+            "déplacement"
+          ]
+        },
+        {
+          "name": "biens",
+          "synonyms": [
+            "biens"
+          ]
+        },
+        {
+          "name": "matériels",
+          "synonyms": [
+            "matériels"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le transport est le processus de déplacement des biens matériels, des personnes ou des animaux, sur un trajet déterminé.\nLes transports sont un secteur de l'économie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transport sanitaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "transport sanitaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transport",
+          "synonyms": [
+            "transport"
+          ]
+        },
+        {
+          "name": "sanitaire",
+          "synonyms": [
+            "sanitaire"
+          ]
+        },
+        {
+          "name": "transport",
+          "synonyms": [
+            "transport"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "malade",
+          "synonyms": [
+            "malade"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un transport sanitaire est tout transport d’une personne malade, blessée ou parturiente, pour des raisons de soins ou de diagnostic sur prescription médicale ou en cas d’urgence médicale, effectué à l’aide de moyens de transports terrestres, aériens ou maritimes, spécialement adaptés à cet effet."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transposase": {
+    "type": "specialized",
+    "exact_terms": [
+      "transposase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transposase",
+          "synonyms": [
+            "transposase"
+          ]
+        },
+        {
+          "name": "nucléotidyltransférase",
+          "synonyms": [
+            "nucléotidyltransférase"
+          ]
+        },
+        {
+          "name": "catalyse",
+          "synonyms": [
+            "catalyse"
+          ]
+        },
+        {
+          "name": "déplacement",
+          "synonyms": [
+            "déplacement"
+          ]
+        },
+        {
+          "name": "élément",
+          "synonyms": [
+            "élément"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une transposase est une nucléotidyltransférase qui catalyse le déplacement d'un élément transposable (transposon) d'un endroit à un autre du génome. Cette enzyme se lie à une extrémité du transposon, clive la liaison entre celui-ci et le reste du génome, et réalise la suture de cet élément transposable à un autre endroit du génome."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transposition": {
+    "type": "specialized",
+    "exact_terms": [
+      "transposition"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "façon",
+          "synonyms": [
+            "façon"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "appelle",
+          "synonyms": [
+            "appelle"
+          ]
+        },
+        {
+          "name": "transposition",
+          "synonyms": [
+            "transposition"
+          ]
+        },
+        {
+          "name": "reproduction",
+          "synonyms": [
+            "reproduction"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "De façon générale, on appelle transposition la reproduction d'une situation ou d'une condition dans un autre contexte sous une autre forme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transsubstantiation": {
+    "type": "specialized",
+    "exact_terms": [
+      "transsubstantiation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transsubstantiation",
+          "synonyms": [
+            "transsubstantiation"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "transsubstantiatio",
+          "synonyms": [
+            "transsubstantiatio"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La transsubstantiation (en latin : transsubstantiatio, en grec ancien : μετουσίωσις / metousiosis) est un phénomène surnaturel, qui est la conversion d'une substance en une autre. Le terme désigne, pour la majorité des chrétiens (les catholiques et les orthodoxes), la conversion du pain et du vin en corps et sang du Christ lors de l'Eucharistie par les paroles de la consécration et l'action du Saint-Esprit."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transversal": {
+    "type": "specialized",
+    "exact_terms": [
+      "transversal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transversal",
+          "synonyms": [
+            "transversal"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "substantif",
+          "synonyms": [
+            "substantif"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Transversal(e) est un adjectif ou un substantif utilisé notamment en sciences (mathématiques, physique, anatomie,…). Il s'oppose au mot longitudinal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "transversion": {
+    "type": "specialized",
+    "exact_terms": [
+      "transversion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "transversion",
+          "synonyms": [
+            "transversion"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "moléculaire",
+          "synonyms": [
+            "moléculaire"
+          ]
+        },
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "ponctuelle",
+          "synonyms": [
+            "ponctuelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La transversion, en biologie moléculaire, fait référence à une mutation ponctuelle de l'ADN dans laquelle une purine (à deux anneaux) (A ou G) est remplacée par une pyrimidine (à un anneau) (T ou C), ou vice versa. Une transversion peut être spontanée ou être provoquée par des rayonnements ionisants ou des agents alkylants."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trapèze": {
+    "type": "specialized",
+    "exact_terms": [
+      "trapèze"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trapèze",
+          "synonyms": [
+            "trapèze"
+          ]
+        },
+        {
+          "name": "quadrilatère",
+          "synonyms": [
+            "quadrilatère"
+          ]
+        },
+        {
+          "name": "possédant",
+          "synonyms": [
+            "possédant"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "côtés",
+          "synonyms": [
+            "côtés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un trapèze est un quadrilatère possédant deux côtés opposés parallèles. Ces deux côtés parallèles sont appelés bases."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trauma": {
+    "type": "specialized",
+    "exact_terms": [
+      "trauma"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trauma",
+          "synonyms": [
+            "trauma"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "τραυμα",
+          "synonyms": [
+            "τραυμα"
+          ]
+        },
+        {
+          "name": "blessure",
+          "synonyms": [
+            "blessure"
+          ]
+        },
+        {
+          "name": "blessure",
+          "synonyms": [
+            "blessure"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un trauma (du grec τραυμα = « blessure ») est une blessure physique ou psychique infligée à l'organisme, ou à la lésion locale qui en résulte. Le traumatisme renvoie quant à lui aux conséquences locales ou générales du trauma."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "traumatologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "traumatologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "traumatologie",
+          "synonyms": [
+            "traumatologie"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "médicale",
+          "synonyms": [
+            "médicale"
+          ]
+        },
+        {
+          "name": "traumatismes",
+          "synonyms": [
+            "traumatismes"
+          ]
+        },
+        {
+          "name": "physiques",
+          "synonyms": [
+            "physiques"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La traumatologie est l'étude médicale des traumatismes physiques, c'est-à-dire des atteintes à la santé résultant d'une action extérieure violente et soudaine"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "travail": {
+    "type": "specialized",
+    "exact_terms": [
+      "travail"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "général",
+          "synonyms": [
+            "général"
+          ]
+        },
+        {
+          "name": "travail",
+          "synonyms": [
+            "travail"
+          ]
+        },
+        {
+          "name": "activité",
+          "synonyms": [
+            "activité"
+          ]
+        },
+        {
+          "name": "humaine",
+          "synonyms": [
+            "humaine"
+          ]
+        },
+        {
+          "name": "vise",
+          "synonyms": [
+            "vise"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans un sens très général, le travail est une activité humaine qui vise intentionnellement à transformer le monde physique. Au sens économique usuel, le travail ou activité professionnelle est l'activité humaine qui permet la production de biens et de services."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "travailleur du sexe": {
+    "type": "specialized",
+    "exact_terms": [
+      "travailleur du sexe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "travailleur",
+          "synonyms": [
+            "travailleur"
+          ]
+        },
+        {
+          "name": "sexe",
+          "synonyms": [
+            "sexe"
+          ]
+        },
+        {
+          "name": "féminin",
+          "synonyms": [
+            "féminin"
+          ]
+        },
+        {
+          "name": "travailleuse",
+          "synonyms": [
+            "travailleuse"
+          ]
+        },
+        {
+          "name": "sexe",
+          "synonyms": [
+            "sexe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Travailleur du sexe – au féminin, travailleuse du sexe –, abrégé en TdS ou TS, parfois appelé professionnel du sexe (en anglais : sex worker), est une expression générique utilisée à l'échelle internationale pour désigner les métiers ou pratiques qui mettent en scène une prestation sexuelle qui, dans la majorité des cas, est un service rendu en échange d'une compensation monétaire.\nCette expression peut être utilisée comme un euphémisme pour prostitué."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trempage": {
+    "type": "specialized",
+    "exact_terms": [
+      "trempage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trempage",
+          "synonyms": [
+            "trempage"
+          ]
+        },
+        {
+          "name": "procédé",
+          "synonyms": [
+            "procédé"
+          ]
+        },
+        {
+          "name": "consistant",
+          "synonyms": [
+            "consistant"
+          ]
+        },
+        {
+          "name": "tremper",
+          "synonyms": [
+            "tremper"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le trempage est un procédé consistant à tremper un objet dans un liquide, généralement aqueux. On l'utilise pour :\n\nla mise en forme de matériaux (moulage par trempage) ;\nl'enduction d'une pièce (enduction par trempage) ;\nla préservation du bois (trempage du bois) ;\nle trempage d'aliments est pratiqué avant la consommation alimentaire de certains produits ;\nle trempage de préparations alimentaires dans une boisson est aussi une pratique de dégustation gastronomique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triage": {
+    "type": "specialized",
+    "exact_terms": [
+      "triage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triage",
+          "synonyms": [
+            "triage"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "gare",
+          "synonyms": [
+            "gare"
+          ]
+        },
+        {
+          "name": "triage",
+          "synonyms": [
+            "triage"
+          ]
+        },
+        {
+          "name": "triage",
+          "synonyms": [
+            "triage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Triage peut faire référence à :\n\nune gare de triage ;\nle triage médical, une procédure d'évaluation de l'état d'une victime en situation de guerre ou de nombreuses victimes ;\nTriage, un film de Danis Tanovic, sorti en 2010 ;\nle droit de triage, une procédure juridique d'ancien régime (à ne pas confondre avec le cantonnement) ;\nle triage dans les charbonnages est l'action, réalisée en surface, par laquelle la houille est débarrassée de ses impuretés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triangle rose": {
+    "type": "specialized",
+    "exact_terms": [
+      "triangle rose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triangle",
+          "synonyms": [
+            "triangle"
+          ]
+        },
+        {
+          "name": "rose",
+          "synonyms": [
+            "rose"
+          ]
+        },
+        {
+          "name": "allemand",
+          "synonyms": [
+            "allemand"
+          ]
+        },
+        {
+          "name": "rosa",
+          "synonyms": [
+            "rosa"
+          ]
+        },
+        {
+          "name": "winkel",
+          "synonyms": [
+            "winkel"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le triangle rose (en allemand : Rosa Winkel) était dans l'univers concentrationnaire nazi le symbole utilisé pour « marquer » les homosexuels masculins, ainsi que par extension, les hommes bisexuels et les femmes trans, considérés comme « homosexuels » par les nazis. \nPouvant être de taille supérieure aux autres triangles marquant d'autres catégories de détenus, ce symbole de persécution, de discrimination, a été repris par la communauté homosexuelle comme symbole identitaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tribadisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "tribadisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tribadisme",
+          "synonyms": [
+            "tribadisme"
+          ]
+        },
+        {
+          "name": "pratique",
+          "synonyms": [
+            "pratique"
+          ]
+        },
+        {
+          "name": "sexuelle",
+          "synonyms": [
+            "sexuelle"
+          ]
+        },
+        {
+          "name": "femmes",
+          "synonyms": [
+            "femmes"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tribadisme est une pratique sexuelle entre femmes qui consiste à se frotter mutuellement la vulve, le clitoris, ou d'autres parties du corps afin d'obtenir, par le frottement, du plaisir, voire l'orgasme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trichinose": {
+    "type": "specialized",
+    "exact_terms": [
+      "trichinose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trichinose",
+          "synonyms": [
+            "trichinose"
+          ]
+        },
+        {
+          "name": "trichinellose",
+          "synonyms": [
+            "trichinellose"
+          ]
+        },
+        {
+          "name": "parasitose",
+          "synonyms": [
+            "parasitose"
+          ]
+        },
+        {
+          "name": "tissulaire",
+          "synonyms": [
+            "tissulaire"
+          ]
+        },
+        {
+          "name": "cosmopolite",
+          "synonyms": [
+            "cosmopolite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trichinose ou trichinellose est une parasitose tissulaire, cosmopolite, survenant chez l'homme et de nombreux mammifères. Elle est considérée comme « maladie re-émergente à potentiel épidémique »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trichogramme": {
+    "type": "specialized",
+    "exact_terms": [
+      "trichogramme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trichogrammes",
+          "synonyms": [
+            "trichogrammes"
+          ]
+        },
+        {
+          "name": "micro-hyménoptères",
+          "synonyms": [
+            "micro-hyménoptères"
+          ]
+        },
+        {
+          "name": "chalcidiens",
+          "synonyms": [
+            "chalcidiens"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "trichogrammatidae",
+          "synonyms": [
+            "trichogrammatidae"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les trichogrammes sont des micro-hyménoptères chalcidiens de la famille des Trichogrammatidae.\nOn en connaît actuellement environ 200 espèces, la grande majorité du genre Trichogramma."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trichome": {
+    "type": "specialized",
+    "exact_terms": [
+      "trichome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trichome",
+          "synonyms": [
+            "trichome"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        },
+        {
+          "name": "croissance",
+          "synonyms": [
+            "croissance"
+          ]
+        },
+        {
+          "name": "poils",
+          "synonyms": [
+            "poils"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un trichome (du grec signifiant « croissance de poils ») peut signifier :\n\nEn botanique, un trichome désigne de fines excroissances ou appendices de plantes ou de protistes.\nEn zoologie, un trichome désigne les soies modifiées de certains insectes myrmécophiles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triglycéride": {
+    "type": "specialized",
+    "exact_terms": [
+      "triglycéride"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triglycérides",
+          "synonyms": [
+            "triglycérides"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelés",
+          "synonyms": [
+            "appelés"
+          ]
+        },
+        {
+          "name": "triacylglycérols",
+          "synonyms": [
+            "triacylglycérols"
+          ]
+        },
+        {
+          "name": "triacylglycérides",
+          "synonyms": [
+            "triacylglycérides"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les triglycérides (aussi appelés triacylglycérols, triacylglycérides, TG ou TAG) sont des glycérides dans lesquels les trois groupes hydroxyle du glycérol sont estérifiés par des acides gras. Ils sont les constituants principaux des graisses animales, de l'huile végétale et des produits laitiers."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triholoside": {
+    "type": "specialized",
+    "exact_terms": [
+      "triholoside"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triholoside",
+          "synonyms": [
+            "triholoside"
+          ]
+        },
+        {
+          "name": "trisaccharide",
+          "synonyms": [
+            "trisaccharide"
+          ]
+        },
+        {
+          "name": "oligoside",
+          "synonyms": [
+            "oligoside"
+          ]
+        },
+        {
+          "name": "composé",
+          "synonyms": [
+            "composé"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un triholoside ou trisaccharide est un oligoside composé de trois unités d'ose de nature identique ou différente : glucose, fructose, galactose, fucose, maltose, saccharose ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triiodothyronine": {
+    "type": "specialized",
+    "exact_terms": [
+      "triiodothyronine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triiodothyronine",
+          "synonyms": [
+            "triiodothyronine"
+          ]
+        },
+        {
+          "name": "hormone",
+          "synonyms": [
+            "hormone"
+          ]
+        },
+        {
+          "name": "thyroïdienne",
+          "synonyms": [
+            "thyroïdienne"
+          ]
+        },
+        {
+          "name": "issue",
+          "synonyms": [
+            "issue"
+          ]
+        },
+        {
+          "name": "désiodation",
+          "synonyms": [
+            "désiodation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La triiodothyronine ou T3 est une hormone thyroïdienne issue de la désiodation de la thyroxine. Cette hormone affecte pratiquement tous les processus physiologiques de l'organisme, y compris la croissance biologique, le développement du corps, le métabolisme, la température corporelle et le rythme cardiaque."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trio": {
+    "type": "specialized",
+    "exact_terms": [
+      "trio"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trio",
+          "synonyms": [
+            "trio"
+          ]
+        },
+        {
+          "name": "repris",
+          "synonyms": [
+            "repris"
+          ]
+        },
+        {
+          "name": "l'italien",
+          "synonyms": [
+            "l'italien"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "groupe",
+          "synonyms": [
+            "groupe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un trio (mot repris de l'italien) désigne un groupe de trois éléments, souvent de trois personnes. En musique, un trio, intermédiaire entre le duo et le quatuor, désigne : \n\nun ensemble de trois chanteurs ou instrumentistes,\nune écriture musicale à trois parties solistes, avec ou sans accompagnement,\nune œuvre de musique de chambre pour trois musiciens de genre et de forme très variés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triolisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "triolisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triolisme",
+          "synonyms": [
+            "triolisme"
+          ]
+        },
+        {
+          "name": "plan",
+          "synonyms": [
+            "plan"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le triolisme ou plan à trois (parfois appelé « amour à trois », ou même encore « trip à trois » au Québec) est une pratique particulière de la sexualité de groupe impliquant trois partenaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trioléine": {
+    "type": "specialized",
+    "exact_terms": [
+      "trioléine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'oléine",
+          "synonyms": [
+            "l'oléine"
+          ]
+        },
+        {
+          "name": "trioléine",
+          "synonyms": [
+            "trioléine"
+          ]
+        },
+        {
+          "name": "triglycéride",
+          "synonyms": [
+            "triglycéride"
+          ]
+        },
+        {
+          "name": "naturellement",
+          "synonyms": [
+            "naturellement"
+          ]
+        },
+        {
+          "name": "présent",
+          "synonyms": [
+            "présent"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'oléine ou trioléine est un triglycéride naturellement présent dans les huiles et les matières grasses solides végétales. Sa densité est de d = 0,89 et sa formule brute est : C57H104O6\nIl s'agit du triester de l'acide oléique avec le glycérol (propan-1,2,3-triol)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triongulin": {
+    "type": "specialized",
+    "exact_terms": [
+      "triongulin"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triongulin",
+          "synonyms": [
+            "triongulin"
+          ]
+        },
+        {
+          "name": "larve",
+          "synonyms": [
+            "larve"
+          ]
+        },
+        {
+          "name": "coléoptères",
+          "synonyms": [
+            "coléoptères"
+          ]
+        },
+        {
+          "name": "comportement",
+          "synonyms": [
+            "comportement"
+          ]
+        },
+        {
+          "name": "cleptoparasite",
+          "synonyms": [
+            "cleptoparasite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le triongulin est une larve de coléoptères au comportement cleptoparasite ou prédateur. Il s'agit d'une larve de premier stade très mobile et souvent grégaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triose": {
+    "type": "specialized",
+    "exact_terms": [
+      "triose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triose",
+          "synonyms": [
+            "triose"
+          ]
+        },
+        {
+          "name": "ose",
+          "synonyms": [
+            "ose"
+          ]
+        },
+        {
+          "name": "monosaccharide",
+          "synonyms": [
+            "monosaccharide"
+          ]
+        },
+        {
+          "name": "contenant",
+          "synonyms": [
+            "contenant"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un triose est un ose (monosaccharide) contenant trois atomes de carbone. Ils ont la même formule brute C3H6O3."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tripeptide": {
+    "type": "specialized",
+    "exact_terms": [
+      "tripeptide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tripeptide",
+          "synonyms": [
+            "tripeptide"
+          ]
+        },
+        {
+          "name": "molécule",
+          "synonyms": [
+            "molécule"
+          ]
+        },
+        {
+          "name": "constituée",
+          "synonyms": [
+            "constituée"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        },
+        {
+          "name": "résidus",
+          "synonyms": [
+            "résidus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un tripeptide est une molécule constituée de trois résidus d'acide aminé liés par une liaison peptidique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triploblastique": {
+    "type": "specialized",
+    "exact_terms": [
+      "triploblastique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "métazoaires",
+          "synonyms": [
+            "métazoaires"
+          ]
+        },
+        {
+          "name": "triploblastiques",
+          "synonyms": [
+            "triploblastiques"
+          ]
+        },
+        {
+          "name": "animaux",
+          "synonyms": [
+            "animaux"
+          ]
+        },
+        {
+          "name": "l'embryon",
+          "synonyms": [
+            "l'embryon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Chez les métazoaires, les triploblastiques sont des animaux dont l'embryon s'organise en trois feuillets embryonnaires au cours de la gastrulation. Ces trois feuillets sont l'ectoderme, l'endoderme et, particularité des triploblastiques, le mésoderme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trismus": {
+    "type": "specialized",
+    "exact_terms": [
+      "trismus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trismus",
+          "synonyms": [
+            "trismus"
+          ]
+        },
+        {
+          "name": "contraction",
+          "synonyms": [
+            "contraction"
+          ]
+        },
+        {
+          "name": "constante",
+          "synonyms": [
+            "constante"
+          ]
+        },
+        {
+          "name": "involontaire",
+          "synonyms": [
+            "involontaire"
+          ]
+        },
+        {
+          "name": "muscles",
+          "synonyms": [
+            "muscles"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Trismus est la contraction constante et involontaire des muscles des mâchoires.\nTrismus est le nom d'un type de voilier de croisière hauturière ."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trisomie": {
+    "type": "specialized",
+    "exact_terms": [
+      "trisomie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trisomie",
+          "synonyms": [
+            "trisomie"
+          ]
+        },
+        {
+          "name": "anomalie",
+          "synonyms": [
+            "anomalie"
+          ]
+        },
+        {
+          "name": "chromosomique",
+          "synonyms": [
+            "chromosomique"
+          ]
+        },
+        {
+          "name": "cas",
+          "synonyms": [
+            "cas"
+          ]
+        },
+        {
+          "name": "particulier",
+          "synonyms": [
+            "particulier"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trisomie est une anomalie chromosomique. \nC'est un cas particulier d’aneuploïdie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trisomie 13": {
+    "type": "specialized",
+    "exact_terms": [
+      "trisomie 13"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trisomie",
+          "synonyms": [
+            "trisomie"
+          ]
+        },
+        {
+          "name": "résulte",
+          "synonyms": [
+            "résulte"
+          ]
+        },
+        {
+          "name": "présence",
+          "synonyms": [
+            "présence"
+          ]
+        },
+        {
+          "name": "chromosome",
+          "synonyms": [
+            "chromosome"
+          ]
+        },
+        {
+          "name": "supplémentaire",
+          "synonyms": [
+            "supplémentaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trisomie 13 résulte de la présence d’un chromosome 13 supplémentaire. La formule chromosomique des patients est donc de 47 chromosomes au lieu de 46."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trisomie 18": {
+    "type": "specialized",
+    "exact_terms": [
+      "trisomie 18"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "edwards",
+          "synonyms": [
+            "edwards"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "trisomie",
+          "synonyms": [
+            "trisomie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le syndrome d’Edwards, aussi appelé trisomie 18, est une anomalie chromosomique congénitale provoquée par la présence d'un chromosome surnuméraire pour la 18e paire. Ce syndrome malformatif entraîne la plupart du temps une mort précoce."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trisomie 21": {
+    "type": "specialized",
+    "exact_terms": [
+      "trisomie 21"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trisomie",
+          "synonyms": [
+            "trisomie"
+          ]
+        },
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "down",
+          "synonyms": [
+            "down"
+          ]
+        },
+        {
+          "name": "anomalie",
+          "synonyms": [
+            "anomalie"
+          ]
+        },
+        {
+          "name": "chromosomique",
+          "synonyms": [
+            "chromosomique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trisomie 21 (ou syndrome de Down) est une anomalie chromosomique congénitale provoquée par la présence d'un chromosome surnuméraire pour la 21e paire. Ses signes cliniques sont très nets, un retard cognitif est observé, associé à des modifications morphologiques particulières."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trochanter": {
+    "type": "specialized",
+    "exact_terms": [
+      "trochanter"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trochanters",
+          "synonyms": [
+            "trochanters"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les trochanters sont, chez les mammifères, deux à trois saillies osseuses de l’épiphyse proximale du fémur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "troglobie": {
+    "type": "specialized",
+    "exact_terms": [
+      "troglobie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "qualificatif",
+          "synonyms": [
+            "qualificatif"
+          ]
+        },
+        {
+          "name": "troglobie",
+          "synonyms": [
+            "troglobie"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "biospéologie",
+          "synonyms": [
+            "biospéologie"
+          ]
+        },
+        {
+          "name": "biospéléologie",
+          "synonyms": [
+            "biospéléologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le qualificatif troglobie désigne en biospéologie (ou biospéléologie) un type d'animal cavernicole inféodé au milieu souterrain, c'est-à-dire ne pouvant pas survivre ailleurs que dans le milieu souterrain. Il peut s'agir d'organismes aquatiques ou vivant hors de l'eau, ou supportant des immersions temporaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "troglophile": {
+    "type": "specialized",
+    "exact_terms": [
+      "troglophile"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "troglophile",
+          "synonyms": [
+            "troglophile"
+          ]
+        },
+        {
+          "name": "réservé",
+          "synonyms": [
+            "réservé"
+          ]
+        },
+        {
+          "name": "biospéologie",
+          "synonyms": [
+            "biospéologie"
+          ]
+        },
+        {
+          "name": "biospéléologie",
+          "synonyms": [
+            "biospéléologie"
+          ]
+        },
+        {
+          "name": "certains",
+          "synonyms": [
+            "certains"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme troglophile est réservé en biospéologie (ou biospéléologie) pour désigner certains animaux dont la présence est très fréquente dans le milieu souterrain, mais qui n'y passent pas toute leur vie. On utilise plus souvent le terme espèce cavernicole pour parler des espèces troglophiles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trogloxène": {
+    "type": "specialized",
+    "exact_terms": [
+      "trogloxène"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trogloxène",
+          "synonyms": [
+            "trogloxène"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "biospéologie",
+          "synonyms": [
+            "biospéologie"
+          ]
+        },
+        {
+          "name": "biospéléologie",
+          "synonyms": [
+            "biospéléologie"
+          ]
+        },
+        {
+          "name": "animaux",
+          "synonyms": [
+            "animaux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme trogloxène est un terme employé en biospéologie (ou biospéléologie) pour désigner les animaux qui ne font que visiter, volontairement ou non, le milieu souterrain et cela généralement non loin de la zone d'entrée.\nCes animaux ne présentent pas d'adaptation anatomique ou physiologique particulière à l'environnement cavernicole comme les troglobies et ne vivent pas « en continu » dans le milieu souterrain comme les troglophiles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trompe": {
+    "type": "specialized",
+    "exact_terms": [
+      "trompe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trompe",
+          "synonyms": [
+            "trompe"
+          ]
+        },
+        {
+          "name": "possède",
+          "synonyms": [
+            "possède"
+          ]
+        },
+        {
+          "name": "significations",
+          "synonyms": [
+            "significations"
+          ]
+        },
+        {
+          "name": "architecture",
+          "synonyms": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "trompe",
+          "synonyms": [
+            "trompe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot trompe possède plusieurs significations.\n\nEn architecture :\nUne trompe est une section de voûte tronquée formant une saillie en porte-à-faux dans le vide, supportant la poussée verticale d'un élément de construction placé en encorbellement formé d'un appareillage de pierre formant une coquille en forme de quart de rond ou d’un arc de cercle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trompette": {
+    "type": "specialized",
+    "exact_terms": [
+      "trompette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trompette",
+          "synonyms": [
+            "trompette"
+          ]
+        },
+        {
+          "name": "instrument",
+          "synonyms": [
+            "instrument"
+          ]
+        },
+        {
+          "name": "musique",
+          "synonyms": [
+            "musique"
+          ]
+        },
+        {
+          "name": "vent",
+          "synonyms": [
+            "vent"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trompette est un instrument de musique à vent de la famille des cuivres clairs. Elle est fabriquée dans un tube de 1,50 m de long comme le cornet."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\conchyliologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tronc": {
+    "type": "specialized",
+    "exact_terms": [
+      "tronc"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tronc",
+          "synonyms": [
+            "tronc"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Tronc est un nom commun et un nom propre français qui peut faire référence à :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tronc brachiocéphalique": {
+    "type": "specialized",
+    "exact_terms": [
+      "tronc brachiocéphalique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tronc",
+          "synonyms": [
+            "tronc"
+          ]
+        },
+        {
+          "name": "brachiocéphalique",
+          "synonyms": [
+            "brachiocéphalique"
+          ]
+        },
+        {
+          "name": "tronc",
+          "synonyms": [
+            "tronc"
+          ]
+        },
+        {
+          "name": "artériel",
+          "synonyms": [
+            "artériel"
+          ]
+        },
+        {
+          "name": "brachiocéphalique",
+          "synonyms": [
+            "brachiocéphalique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tronc brachiocéphalique (ou tronc artériel brachiocéphalique)  est le premier des troncs supraaortiques issus de l'arc de l'aorte."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tronc cérébral": {
+    "type": "specialized",
+    "exact_terms": [
+      "tronc cérébral"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tronc",
+          "synonyms": [
+            "tronc"
+          ]
+        },
+        {
+          "name": "cérébral",
+          "synonyms": [
+            "cérébral"
+          ]
+        },
+        {
+          "name": "appartient",
+          "synonyms": [
+            "appartient"
+          ]
+        },
+        {
+          "name": "système",
+          "synonyms": [
+            "système"
+          ]
+        },
+        {
+          "name": "nerveux",
+          "synonyms": [
+            "nerveux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tronc cérébral appartient au système nerveux central, et plus particulièrement à l'encéphale. Il est situé dans la fosse crânienne postérieure, sous le cerveau et en avant du cervelet."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trophallaxie": {
+    "type": "specialized",
+    "exact_terms": [
+      "trophallaxie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trophallaxie",
+          "synonyms": [
+            "trophallaxie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "τροφή",
+          "synonyms": [
+            "τροφή"
+          ]
+        },
+        {
+          "name": "trophế",
+          "synonyms": [
+            "trophế"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trophallaxie (du grec ancien : τροφή / trophế, « nourriture », et ἄλλαξις / állaxis, « échange ») est un mode de transfert de nourriture utilisé par certains insectes hyménoptères."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trophectoderme": {
+    "type": "specialized",
+    "exact_terms": [
+      "trophectoderme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trophectoderme",
+          "synonyms": [
+            "trophectoderme"
+          ]
+        },
+        {
+          "name": "couche",
+          "synonyms": [
+            "couche"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "externes",
+          "synonyms": [
+            "externes"
+          ]
+        },
+        {
+          "name": "morula",
+          "synonyms": [
+            "morula"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le trophectoderme est une couche de cellules externes de la morula puis du blastocyste.\nLors de la première semaine du développement embryonnaire, l'embryon progresse de l'ampoule tubaire vers la cavité utérine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\embryologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trophoblaste": {
+    "type": "specialized",
+    "exact_terms": [
+      "trophoblaste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trophoblaste",
+          "synonyms": [
+            "trophoblaste"
+          ]
+        },
+        {
+          "name": "correspond",
+          "synonyms": [
+            "correspond"
+          ]
+        },
+        {
+          "name": "couche",
+          "synonyms": [
+            "couche"
+          ]
+        },
+        {
+          "name": "cellulaire",
+          "synonyms": [
+            "cellulaire"
+          ]
+        },
+        {
+          "name": "continue",
+          "synonyms": [
+            "continue"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le trophoblaste correspond à la couche cellulaire continue formée de fibroblastes qui limite l'œuf, devenu blastocyste au 6e jour après la fécondation. Il fournit des nutriments à l'embryon."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\embryologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tropisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "tropisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tropisme",
+          "synonyms": [
+            "tropisme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "τρόπος",
+          "synonyms": [
+            "τρόπος"
+          ]
+        },
+        {
+          "name": "trópos",
+          "synonyms": [
+            "trópos"
+          ]
+        },
+        {
+          "name": "direction",
+          "synonyms": [
+            "direction"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un tropisme (du grec τρόπος / trópos, « direction ») est la tendance d'un organisme (notamment une plante) à croître régulièrement dans une certaine direction, par exemple vers la lumière."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "troque": {
+    "type": "specialized",
+    "exact_terms": [
+      "troque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "troque",
+          "synonyms": [
+            "troque"
+          ]
+        },
+        {
+          "name": "troque",
+          "synonyms": [
+            "troque"
+          ]
+        },
+        {
+          "name": "mollusque",
+          "synonyms": [
+            "mollusque"
+          ]
+        },
+        {
+          "name": "troque",
+          "synonyms": [
+            "troque"
+          ]
+        },
+        {
+          "name": "privilège",
+          "synonyms": [
+            "privilège"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme troque peut désigner :\n\nla Troque, un mollusque ;\nla troque, un privilège fiscal de l’Ancien Régime."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trouble": {
+    "type": "specialized",
+    "exact_terms": [
+      "trouble"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "existe",
+          "synonyms": [
+            "existe"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot trouble existe également en anglais (trouble) et peut signifier :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trouble dysphorique prémenstruel": {
+    "type": "specialized",
+    "exact_terms": [
+      "trouble dysphorique prémenstruel"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "dysphorique",
+          "synonyms": [
+            "dysphorique"
+          ]
+        },
+        {
+          "name": "prémenstruel",
+          "synonyms": [
+            "prémenstruel"
+          ]
+        },
+        {
+          "name": "tdpm",
+          "synonyms": [
+            "tdpm"
+          ]
+        },
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le trouble dysphorique prémenstruel (TDPM) est un syndrome caractérisé par des symptômes émotionnels, cognitifs et physiques qui provoquent une détresse ou une altération importante chez les femmes pendant la phase lutéale du cycle menstruel. Les symptômes surviennent pendant la phase lutéale (entre l'ovulation et les règles), s'améliorent quelques jours après le début des règles et sont minimes ou absents dans la semaine qui suit les règles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trouble obsessionnel compulsif": {
+    "type": "specialized",
+    "exact_terms": [
+      "trouble obsessionnel compulsif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "obsessionnel",
+          "synonyms": [
+            "obsessionnel"
+          ]
+        },
+        {
+          "name": "compulsif",
+          "synonyms": [
+            "compulsif"
+          ]
+        },
+        {
+          "name": "abrégé",
+          "synonyms": [
+            "abrégé"
+          ]
+        },
+        {
+          "name": "l'acronyme",
+          "synonyms": [
+            "l'acronyme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le trouble obsessionnel compulsif (abrégé en l'acronyme TOC) est un trouble psychique caractérisé par l'apparition répétée de pensées intrusives — les obsessions — produisant de l'inconfort, de l'inquiétude, de la peur ; et/ou de comportements répétés et ritualisés — les compulsions — pouvant avoir l'effet de diminuer l'anxiété ou de soulager une tension. Les obsessions et les compulsions sont souvent associées (mais pas toujours) et sont généralement reconnues comme irrationnelles par les perso..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trousse": {
+    "type": "specialized",
+    "exact_terms": [
+      "trousse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trousse",
+          "synonyms": [
+            "trousse"
+          ]
+        },
+        {
+          "name": "façon",
+          "synonyms": [
+            "façon"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        },
+        {
+          "name": "servant",
+          "synonyms": [
+            "servant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot trousse peut désigner de façon générale un objet servant à ranger des objets :\n\ntrousse à crayons ;\ntrousse à outils ;\ntrousse de couture ;\ntrousse de cuvelage ;\ntrousse de danseur, coquille de protection portée sous le collant de danse ;\ntrousse de secours ;\ntrousse de toilette.\nEn construction et en bâtiment, une trousse était une corde de moyenne grosseur dont on se servait pour élever des fardeaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trypanosomiase africaine": {
+    "type": "specialized",
+    "exact_terms": [
+      "trypanosomiase africaine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trypanosomiase",
+          "synonyms": [
+            "trypanosomiase"
+          ]
+        },
+        {
+          "name": "africaine",
+          "synonyms": [
+            "africaine"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "provoquée",
+          "synonyms": [
+            "provoquée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trypanosomiase africaine désigne une maladie provoquée par un Trypanosoma brucei.\n\nChez l'humain, elle provoque la maladie du sommeil, ou trypanosomiase humaine africaine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trypsine": {
+    "type": "specialized",
+    "exact_terms": [
+      "trypsine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trypsine",
+          "synonyms": [
+            "trypsine"
+          ]
+        },
+        {
+          "name": "peptidase",
+          "synonyms": [
+            "peptidase"
+          ]
+        },
+        {
+          "name": "suc",
+          "synonyms": [
+            "suc"
+          ]
+        },
+        {
+          "name": "pancréatique",
+          "synonyms": [
+            "pancréatique"
+          ]
+        },
+        {
+          "name": "participant",
+          "synonyms": [
+            "participant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trypsine (EC 3.4.21.4) est une peptidase du suc pancréatique participant à la digestion des protéines. Il s'agit d'une protéase à sérine qui hydrolyse les liaisons peptidiques situées côté C d'un résidu  de lysine ou d'arginine, qui sont des acides aminés basiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tryptophane": {
+    "type": "specialized",
+    "exact_terms": [
+      "tryptophane"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tryptophane",
+          "synonyms": [
+            "tryptophane"
+          ]
+        },
+        {
+          "name": "abréviations",
+          "synonyms": [
+            "abréviations"
+          ]
+        },
+        {
+          "name": "iupac-iubmb",
+          "synonyms": [
+            "iupac-iubmb"
+          ]
+        },
+        {
+          "name": "trp",
+          "synonyms": [
+            "trp"
+          ]
+        },
+        {
+          "name": "acide",
+          "synonyms": [
+            "acide"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tryptophane (abréviations IUPAC-IUBMB : Trp et W) est un acide α-aminé dont l'énantiomère L est l'un des 22 acides aminés protéinogènes et l'un des 9 acides aminés essentiels pour l'humain. Il est encodé sur les ARN messagers par le codon UGG. C'est l'acide aminé protéinogène le plus rare composant uniquement 1,3 % des acides aminés totaux des vertébrés et 1,1% de ceux des protéines."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tréponématose": {
+    "type": "specialized",
+    "exact_terms": [
+      "tréponématose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tréponématose",
+          "synonyms": [
+            "tréponématose"
+          ]
+        },
+        {
+          "name": "tréponémose",
+          "synonyms": [
+            "tréponémose"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "maladies",
+          "synonyms": [
+            "maladies"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La tréponématose, ou tréponémose, est un terme désignant un ensemble de maladies provoquées par les tréponèmes, genre de bactéries appartenant à la famille des spirochètes. \nOn distingue, selon l'agent pathogène, différents types de tréponématoses :\n\nLa syphilis vénérienne, causée par Treponema pallidum pallidum ou « tréponème pâle », infection sexuellement transmissible entraînant un chancre au point d'inoculation et des lésions cutanées."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trétinoïne": {
+    "type": "specialized",
+    "exact_terms": [
+      "trétinoïne"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trétinoïne",
+          "synonyms": [
+            "trétinoïne"
+          ]
+        },
+        {
+          "name": "c20h28o2",
+          "synonyms": [
+            "c20h28o2"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "acide",
+          "synonyms": [
+            "acide"
+          ]
+        },
+        {
+          "name": "vitamine",
+          "synonyms": [
+            "vitamine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La trétinoïne (C20H28O2) est la forme acide de la vitamine A, également appelée acide tout-trans rétinoïque (en anglais, all-trans retinoic acid ou ATRA), qui est présente dans la nature.\nLa trétinoïne est utilisée depuis les années 1980 dans les troubles dermatologiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tsa": {
+    "type": "specialized",
+    "exact_terms": [
+      "tsa"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tsa",
+          "synonyms": [
+            "tsa"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "dza",
+          "synonyms": [
+            "dza"
+          ]
+        },
+        {
+          "name": "arménien",
+          "synonyms": [
+            "arménien"
+          ]
+        },
+        {
+          "name": "ts'a",
+          "synonyms": [
+            "ts'a"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Tsa (également ça et dza), ծա en arménien ([ts'a] ou [dza]), est la 14e lettre de l'alphabet arménien."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tube": {
+    "type": "specialized",
+    "exact_terms": [
+      "tube"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tube",
+          "synonyms": [
+            "tube"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        },
+        {
+          "name": "creux",
+          "synonyms": [
+            "creux"
+          ]
+        },
+        {
+          "name": "haut",
+          "synonyms": [
+            "haut"
+          ]
+        },
+        {
+          "name": "large",
+          "synonyms": [
+            "large"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un tube est un objet creux plus haut que large, généralement de forme cylindrique, et souvent à section circulaire. Dans l'industrie, on distingue le tube (feuille d'acier ou de cuivre roulée et soudée, ou sans soudure, extrudé ou forgé) du tuyau (moulé)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tube auditif": {
+    "type": "specialized",
+    "exact_terms": [
+      "tube auditif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tube",
+          "synonyms": [
+            "tube"
+          ]
+        },
+        {
+          "name": "auditif",
+          "synonyms": [
+            "auditif"
+          ]
+        },
+        {
+          "name": "trompe",
+          "synonyms": [
+            "trompe"
+          ]
+        },
+        {
+          "name": "d'eustache",
+          "synonyms": [
+            "d'eustache"
+          ]
+        },
+        {
+          "name": "trompe",
+          "synonyms": [
+            "trompe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tube auditif (ou trompe d'Eustache ou trompe auditive) est un conduit osseux et fibrocartilagineux reliant la paroi antérieure de l'oreille moyenne au rhinopharynx, c'est-à-dire l'arrière-nez. Elle a été décrite pour la première fois en 1543 par le médecin italien Bartolomeo Eustachi qui en fait une description exacte et en détermine le fonctionnement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tube neural": {
+    "type": "specialized",
+    "exact_terms": [
+      "tube neural"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tube",
+          "synonyms": [
+            "tube"
+          ]
+        },
+        {
+          "name": "neural",
+          "synonyms": [
+            "neural"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "système",
+          "synonyms": [
+            "système"
+          ]
+        },
+        {
+          "name": "nerveux",
+          "synonyms": [
+            "nerveux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tube neural désigne le système nerveux primitif des embryons des chordés. Il se forme lors de l'étape de neurulation, entre les 18 et 25ème jour du développement embryonnaire humain."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\embryologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tube pollinique": {
+    "type": "specialized",
+    "exact_terms": [
+      "tube pollinique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tube",
+          "synonyms": [
+            "tube"
+          ]
+        },
+        {
+          "name": "pollinique",
+          "synonyms": [
+            "pollinique"
+          ]
+        },
+        {
+          "name": "tube",
+          "synonyms": [
+            "tube"
+          ]
+        },
+        {
+          "name": "émis",
+          "synonyms": [
+            "émis"
+          ]
+        },
+        {
+          "name": "grain",
+          "synonyms": [
+            "grain"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tube pollinique est un tube émis par un grain de pollen après germination qui lui permet de conduire les gamètes mâles jusqu'à l'ovule. On parle de siphonogamie : l'eau n'est plus nécessaire pour la fécondation (interne)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie évolutive",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tube séminifère": {
+    "type": "specialized",
+    "exact_terms": [
+      "tube séminifère"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tubes",
+          "synonyms": [
+            "tubes"
+          ]
+        },
+        {
+          "name": "séminifères",
+          "synonyms": [
+            "séminifères"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "semen-ferre",
+          "synonyms": [
+            "semen-ferre"
+          ]
+        },
+        {
+          "name": "porte",
+          "synonyms": [
+            "porte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les tubes séminifères (du latin : semen-ferre : « qui porte la semence ») sont le siège de la formation des spermatozoïdes (spermatogenèse) dans les testicules. Chaque testicule est composé de 200 à 300 lobules testiculaires séparés par une cloison conjonctive et chaque lobule comprend 1 à 4 tubes séminifères, il y a donc environ 500 tubes séminifères par testicule."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tubercule": {
+    "type": "specialized",
+    "exact_terms": [
+      "tubercule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "botanique",
+          "synonyms": [
+            "botanique"
+          ]
+        },
+        {
+          "name": "tubercule",
+          "synonyms": [
+            "tubercule"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "tuberculum",
+          "synonyms": [
+            "tuberculum"
+          ]
+        },
+        {
+          "name": "petite",
+          "synonyms": [
+            "petite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En botanique, un tubercule (du latin tuberculum, une petite bosse) est une tige ou une racine qui résulte soit de la tubérisation d'entre-nœuds soit de la tubérisation de l'extrémité d'une tige. Cet organe de réserve assure la survie des plantes pendant la saison d'hiver ou en période de sécheresse, et souvent leur multiplication par voie végétative."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tubercule mentonnier": {
+    "type": "specialized",
+    "exact_terms": [
+      "tubercule mentonnier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tubercule",
+          "synonyms": [
+            "tubercule"
+          ]
+        },
+        {
+          "name": "mentonnier",
+          "synonyms": [
+            "mentonnier"
+          ]
+        },
+        {
+          "name": "petite",
+          "synonyms": [
+            "petite"
+          ]
+        },
+        {
+          "name": "saillie",
+          "synonyms": [
+            "saillie"
+          ]
+        },
+        {
+          "name": "osseuse",
+          "synonyms": [
+            "osseuse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tubercule mentonnier est une petite saillie osseuse du mandibule qui prolonge de chaque côté la protubérance mentonnière.\nLes deux tubercules mentonniers et la protubérance mentonnière médiale sont appelés collectivement le trigone mentonnier."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tubercule pharyngien": {
+    "type": "specialized",
+    "exact_terms": [
+      "tubercule pharyngien"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tubercule",
+          "synonyms": [
+            "tubercule"
+          ]
+        },
+        {
+          "name": "pharyngien",
+          "synonyms": [
+            "pharyngien"
+          ]
+        },
+        {
+          "name": "relief",
+          "synonyms": [
+            "relief"
+          ]
+        },
+        {
+          "name": "osseux",
+          "synonyms": [
+            "osseux"
+          ]
+        },
+        {
+          "name": "situé",
+          "synonyms": [
+            "situé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tubercule pharyngien est un relief osseux situé sur la face externe de la partie basilaire de l'os occipital à environ 1 cm en avant du foramen magnum.\nC'est le point d'attache du muscle constricteur supérieur du pharynx par l’intermédiaire du raphé pharyngien."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tuberculine": {
+    "type": "specialized",
+    "exact_terms": [
+      "tuberculine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tuberculine",
+          "synonyms": [
+            "tuberculine"
+          ]
+        },
+        {
+          "name": "extrait",
+          "synonyms": [
+            "extrait"
+          ]
+        },
+        {
+          "name": "glycérine",
+          "synonyms": [
+            "glycérine"
+          ]
+        },
+        {
+          "name": "bacille",
+          "synonyms": [
+            "bacille"
+          ]
+        },
+        {
+          "name": "tuberculeux",
+          "synonyms": [
+            "tuberculeux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La tuberculine est un extrait à la glycérine du bacille tuberculeux. Le dérivé protéique purifié (PPD) de tuberculine est un précipité de molécules non spécifiques à l'espèce, obtenu à partir de filtrats de cultures concentrées stérilisées."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tubule": {
+    "type": "specialized",
+    "exact_terms": [
+      "tubule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "tubule",
+          "synonyms": [
+            "tubule"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie, un tubule est un terme générique désignant un petit tube ou une structure similaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tueur": {
+    "type": "specialized",
+    "exact_terms": [
+      "tueur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tueur",
+          "synonyms": [
+            "tueur"
+          ]
+        },
+        {
+          "name": "tueuse",
+          "synonyms": [
+            "tueuse"
+          ]
+        },
+        {
+          "name": "tueurs",
+          "synonyms": [
+            "tueurs"
+          ]
+        },
+        {
+          "name": "peuvent",
+          "synonyms": [
+            "peuvent"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Tueur, tueuse ou Tueurs peuvent faire référence à :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tui": {
+    "type": "specialized",
+    "exact_terms": [
+      "tui"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tui",
+          "synonyms": [
+            "tui"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "tui",
+          "synonyms": [
+            "tui"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Tui est un nom commun :\n\nTui est le nom vernaculaire d'un oiseau de Nouvelle-Zélande : le Prosthemadera novaeseelandiae.\nTui est un nom propre ou toponyme :\n\nTui ou Tuy (orthographe anglophone), une province de la région des Hauts-Bassins au Burkina Faso."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tulou": {
+    "type": "specialized",
+    "exact_terms": [
+      "tulou"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tulou",
+          "synonyms": [
+            "tulou"
+          ]
+        },
+        {
+          "name": "chinois",
+          "synonyms": [
+            "chinois"
+          ]
+        },
+        {
+          "name": "simplifié",
+          "synonyms": [
+            "simplifié"
+          ]
+        },
+        {
+          "name": "chinois",
+          "synonyms": [
+            "chinois"
+          ]
+        },
+        {
+          "name": "traditionnel",
+          "synonyms": [
+            "traditionnel"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un tulou (chinois simplifié : 土楼 ; chinois traditionnel : 土樓 ; pinyin : tǔlóu ; litt. « bâtiment de terre ») est une forme traditionnelle de résidence communautaire des populations hakka que l'on trouve dans la province du Fujian, dans le Sud de la Chine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\habitat",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tuméfaction": {
+    "type": "specialized",
+    "exact_terms": [
+      "tuméfaction"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tuméfaction",
+          "synonyms": [
+            "tuméfaction"
+          ]
+        },
+        {
+          "name": "augmentation",
+          "synonyms": [
+            "augmentation"
+          ]
+        },
+        {
+          "name": "volume",
+          "synonyms": [
+            "volume"
+          ]
+        },
+        {
+          "name": "gonflement",
+          "synonyms": [
+            "gonflement"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une tuméfaction est une augmentation de volume ou un gonflement d'une partie du corps sans préjuger de son siège exact et de sa nature."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tungose": {
+    "type": "specialized",
+    "exact_terms": [
+      "tungose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tungose",
+          "synonyms": [
+            "tungose"
+          ]
+        },
+        {
+          "name": "sarcopsyllose",
+          "synonyms": [
+            "sarcopsyllose"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "peau",
+          "synonyms": [
+            "peau"
+          ]
+        },
+        {
+          "name": "parasitaire",
+          "synonyms": [
+            "parasitaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La tungose ou sarcopsyllose est une maladie de la peau parasitaire causée par la puce-chique (Tunga penetrans). Elle est fréquente en milieu tropical et surtout à Madagascar."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\parasitologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tunicine": {
+    "type": "specialized",
+    "exact_terms": [
+      "tunicine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tunicine",
+          "synonyms": [
+            "tunicine"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "cellulose",
+          "synonyms": [
+            "cellulose"
+          ]
+        },
+        {
+          "name": "fabriquée",
+          "synonyms": [
+            "fabriquée"
+          ]
+        },
+        {
+          "name": "animaux",
+          "synonyms": [
+            "animaux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La tunicine est une forme de cellulose fabriquée par des animaux marins, les tuniciers, et qui est le composant majoritaire de leur couverture acellulaire externe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tunique": {
+    "type": "specialized",
+    "exact_terms": [
+      "tunique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tunique",
+          "synonyms": [
+            "tunique"
+          ]
+        },
+        {
+          "name": "vêtement",
+          "synonyms": [
+            "vêtement"
+          ]
+        },
+        {
+          "name": "ample",
+          "synonyms": [
+            "ample"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "couvre",
+          "synonyms": [
+            "couvre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une tunique est un vêtement ample en forme de T qui couvre le buste, les épaules et le dos. Elle s'enfile par la tête grâce à une large encolure parfois boutonnée ou élastique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tunique vaginale": {
+    "type": "specialized",
+    "exact_terms": [
+      "tunique vaginale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tunique",
+          "synonyms": [
+            "tunique"
+          ]
+        },
+        {
+          "name": "vaginale",
+          "synonyms": [
+            "vaginale"
+          ]
+        },
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        },
+        {
+          "name": "séreuse",
+          "synonyms": [
+            "séreuse"
+          ]
+        },
+        {
+          "name": "enveloppe",
+          "synonyms": [
+            "enveloppe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La tunique vaginale est la membrane séreuse qui enveloppe les testicules. Elle est issue du péritoine pendant le développement embryonnaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "turbe": {
+    "type": "specialized",
+    "exact_terms": [
+      "turbe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "turbe",
+          "synonyms": [
+            "turbe"
+          ]
+        },
+        {
+          "name": "turbé",
+          "synonyms": [
+            "turbé"
+          ]
+        },
+        {
+          "name": "tourba",
+          "synonyms": [
+            "tourba"
+          ]
+        },
+        {
+          "name": "tourbet",
+          "synonyms": [
+            "tourbet"
+          ]
+        },
+        {
+          "name": "turc",
+          "synonyms": [
+            "turc"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Turbe, turbé, tourba ou tourbet, en turc : türbe signifie « tombeau ». Ce terme, apparenté à l'arabe تُرْبَة (turba « sol / terre »), peut désigner un mausolée ou, le plus souvent, un complexe funéraire, ou encore une concession dans un cimetière, dans les pays de l'Empire ottoman."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "turc": {
+    "type": "specialized",
+    "exact_terms": [
+      "turc"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "turc",
+          "synonyms": [
+            "turc"
+          ]
+        },
+        {
+          "name": "endonyme",
+          "synonyms": [
+            "endonyme"
+          ]
+        },
+        {
+          "name": "türkçe",
+          "synonyms": [
+            "türkçe"
+          ]
+        },
+        {
+          "name": "türk",
+          "synonyms": [
+            "türk"
+          ]
+        },
+        {
+          "name": "dili",
+          "synonyms": [
+            "dili"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le turc (endonyme : Türkçe ou Türk dili) est une langue parlée principalement en Turquie et à Chypre. Elle appartient à la famille des langues turciques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "turlute": {
+    "type": "specialized",
+    "exact_terms": [
+      "turlute"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "turlute",
+          "synonyms": [
+            "turlute"
+          ]
+        },
+        {
+          "name": "turlutage",
+          "synonyms": [
+            "turlutage"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "d'expression",
+          "synonyms": [
+            "d'expression"
+          ]
+        },
+        {
+          "name": "musicale",
+          "synonyms": [
+            "musicale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Turlute (ou turlutage) : forme d'expression musicale folklorique québécoise composée d'onomatopées,\nLa Turlute des années dures, film de Richard Boutet sorti en 1983."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\cris d’animaux",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "turlutte": {
+    "type": "specialized",
+    "exact_terms": [
+      "turlutte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "turlutte",
+          "synonyms": [
+            "turlutte"
+          ]
+        },
+        {
+          "name": "équipement",
+          "synonyms": [
+            "équipement"
+          ]
+        },
+        {
+          "name": "pêche",
+          "synonyms": [
+            "pêche"
+          ]
+        },
+        {
+          "name": "composé",
+          "synonyms": [
+            "composé"
+          ]
+        },
+        {
+          "name": "leurre",
+          "synonyms": [
+            "leurre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Turlutte : équipement de pêche composé d'un leurre et d'une couronne d'hameçons,\nTurlutte (argot) : fellation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "turricule": {
+    "type": "specialized",
+    "exact_terms": [
+      "turricule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "turricule",
+          "synonyms": [
+            "turricule"
+          ]
+        },
+        {
+          "name": "petite",
+          "synonyms": [
+            "petite"
+          ]
+        },
+        {
+          "name": "tour",
+          "synonyms": [
+            "tour"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "turris",
+          "synonyms": [
+            "turris"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un turricule (« petite tour », du latin turris, « tour » et du suffixe diminutif -culus), parfois appelé tortillon, est le rejet des vers de terre anéciques ou des vers arénicoles marins visibles à la surface du sol (par opposition à d'autres déjections déposées sur les parois des galeries). Ces « biostructures » témoignent notamment de l'importance de la bioturbation verticale dans le substrat (saisonnière en climat froid et tempéré)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tuyau": {
+    "type": "specialized",
+    "exact_terms": [
+      "tuyau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tuyau",
+          "synonyms": [
+            "tuyau"
+          ]
+        },
+        {
+          "name": "élément",
+          "synonyms": [
+            "élément"
+          ]
+        },
+        {
+          "name": "section",
+          "synonyms": [
+            "section"
+          ]
+        },
+        {
+          "name": "circulaire",
+          "synonyms": [
+            "circulaire"
+          ]
+        },
+        {
+          "name": "destiné",
+          "synonyms": [
+            "destiné"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un tuyau est un élément de section circulaire destiné à l'écoulement d'un fluide, liquide, ou gaz ou d'un solide  pulvérulent, au transport de l'énergie de pression (air comprimé, vapeur, huile hydromécanique, etc.), à l'échange de l'énergie au travers de la paroi (échangeur thermique, radiateur). Il peut être rigide ou souple (flexible)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
