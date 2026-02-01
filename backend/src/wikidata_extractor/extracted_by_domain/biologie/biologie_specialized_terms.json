@@ -150210,5 +150210,6755 @@
       "wikipedia"
     ],
     "confidence": 0.8
+  },
+  "labre": {
+    "type": "specialized",
+    "exact_terms": [
+      "labre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "labre",
+          "synonyms": [
+            "labre"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Labre est un nom commun ou un nom propre qui peut désigner :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "labyrinthe": {
+    "type": "specialized",
+    "exact_terms": [
+      "labyrinthe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "labyrinthe",
+          "synonyms": [
+            "labyrinthe"
+          ]
+        },
+        {
+          "name": "λαϐύρινθος",
+          "synonyms": [
+            "λαϐύρινθος"
+          ]
+        },
+        {
+          "name": "labúrinthos",
+          "synonyms": [
+            "labúrinthos"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un labyrinthe (λαϐύρινθος / labúrinthos en grec ancien, labyrinthus en latin) est un tracé sinueux, muni ou non d'embranchements, d'impasses et de fausses pistes, destiné à égarer ou à ralentir celui qui cherche à s'y déplacer. Ce motif, apparu dès la Préhistoire, se retrouve dans de nombreuses civilisations sous des formes diverses."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lactame": {
+    "type": "specialized",
+    "exact_terms": [
+      "lactame"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lactames",
+          "synonyms": [
+            "lactames"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "composés",
+          "synonyms": [
+            "composés"
+          ]
+        },
+        {
+          "name": "organiques",
+          "synonyms": [
+            "organiques"
+          ]
+        },
+        {
+          "name": "ils",
+          "synonyms": [
+            "ils"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les lactames sont une famille de composés organiques. Ils sont caractérisés par une fonction amide incluse dans un cycle carboné."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lactation": {
+    "type": "specialized",
+    "exact_terms": [
+      "lactation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lactation",
+          "synonyms": [
+            "lactation"
+          ]
+        },
+        {
+          "name": "fonction",
+          "synonyms": [
+            "fonction"
+          ]
+        },
+        {
+          "name": "physiologique",
+          "synonyms": [
+            "physiologique"
+          ]
+        },
+        {
+          "name": "femelles",
+          "synonyms": [
+            "femelles"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lactation est une fonction physiologique des femelles de mammifères, y compris les femmes. Les mammifères se caractérisent par l'existence de glandes mammaires qui assurent la sécrétion et l'excrétion du lait."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lactatémie": {
+    "type": "specialized",
+    "exact_terms": [
+      "lactatémie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lactatémie",
+          "synonyms": [
+            "lactatémie"
+          ]
+        },
+        {
+          "name": "taux",
+          "synonyms": [
+            "taux"
+          ]
+        },
+        {
+          "name": "lactate",
+          "synonyms": [
+            "lactate"
+          ]
+        },
+        {
+          "name": "sang",
+          "synonyms": [
+            "sang"
+          ]
+        },
+        {
+          "name": "mmol",
+          "synonyms": [
+            "mmol"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lactatémie est le taux de lactate dans le sang (mmol/ L). Elle se mesure par prélèvement de goutte de sang à l'oreille, ou à l'index."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lactobacille": {
+    "type": "specialized",
+    "exact_terms": [
+      "lactobacille"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lactobacille",
+          "synonyms": [
+            "lactobacille"
+          ]
+        },
+        {
+          "name": "lactobacillus",
+          "synonyms": [
+            "lactobacillus"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "bactéries",
+          "synonyms": [
+            "bactéries"
+          ]
+        },
+        {
+          "name": "gram",
+          "synonyms": [
+            "gram"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le Lactobacille (Lactobacillus) est un genre de bactéries à gram positif, de la famille des Lactobacillaceae.\nLes lactobacilles sont des bactéries lactiques :\n\ngram-positives ;\nimmobiles, non flagellés, non sporogènes ;\nsoit homofermentaires, produisant à partir du glucose plus de 85 % d'acide lactique, soit hétérofermentaires et produisant du CO2, de l'acide lactique, de l'éthanol (ou de l'acide acétique) en quantités équimolaires ;\naérotolérantes ou anaérobies ;\ncatalase (certains ont une pseu..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lactogénèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "lactogénèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lactogénèse",
+          "synonyms": [
+            "lactogénèse"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "différenciation",
+          "synonyms": [
+            "différenciation"
+          ]
+        },
+        {
+          "name": "cellulaire",
+          "synonyms": [
+            "cellulaire"
+          ]
+        },
+        {
+          "name": "mis",
+          "synonyms": [
+            "mis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lactogénèse est un processus de différenciation cellulaire mis en place pendant la grossesse aboutissant à la production de lait par la glande mammaire.\nLe premier morphème lacto- vient du latin lac, lactis qui signifie « lait »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lactone": {
+    "type": "specialized",
+    "exact_terms": [
+      "lactone"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lactones",
+          "synonyms": [
+            "lactones"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "composés",
+          "synonyms": [
+            "composés"
+          ]
+        },
+        {
+          "name": "organiques",
+          "synonyms": [
+            "organiques"
+          ]
+        },
+        {
+          "name": "contiennent",
+          "synonyms": [
+            "contiennent"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les lactones sont une famille de composés organiques qui contiennent une fonction ester dans un cycle.\nElles composent nombre de composés organiques, et entrent dans de nombreuses bases et compositions utilisées par l'industrie de l'aromatisation (20 000 kg utilisés en 1987 sous forme d'additifs)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lactose": {
+    "type": "specialized",
+    "exact_terms": [
+      "lactose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lactose",
+          "synonyms": [
+            "lactose"
+          ]
+        },
+        {
+          "name": "glucide",
+          "synonyms": [
+            "glucide"
+          ]
+        },
+        {
+          "name": "présent",
+          "synonyms": [
+            "présent"
+          ]
+        },
+        {
+          "name": "lait",
+          "synonyms": [
+            "lait"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lactose est un glucide présent dans le lait des mammifères (de 10 à 80 g/L) y compris chez les humains, dont il tire son nom (étymologiquement sucre de lait) ; il est présent dans le lait de vache et de brebis (45-50 g/L), en moindre quantité dans le lait de chèvre (40-45 g/L) mais bien plus dans le lait maternel humain (65-70 g/L), un des plus riches qui soient en lactose."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ladre": {
+    "type": "specialized",
+    "exact_terms": [
+      "ladre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ladre",
+          "synonyms": [
+            "ladre"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ladre est un nom propre et un nom commun ou un adjectif."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lagophtalmie": {
+    "type": "specialized",
+    "exact_terms": [
+      "lagophtalmie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lagophtalme",
+          "synonyms": [
+            "lagophtalme"
+          ]
+        },
+        {
+          "name": "tiré",
+          "synonyms": [
+            "tiré"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "λαγώς",
+          "synonyms": [
+            "λαγώς"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lagophtalme (tiré du grec ancien λαγώς / lagốs, « lièvre » et ὀφθαλμός / ophthalmós, « œil »  d'où « œil de lièvre ») est une insuffisance de fermeture palpébrale, un symptôme de l'ophtalmologie et de la neurologie, qui provoque la fermeture incomplète de la paupière , plus rarement des deux yeux. L'incapacité de fermer complètement la paupière peut varier en gravité selon la cause."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "laitance": {
+    "type": "specialized",
+    "exact_terms": [
+      "laitance"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "laitance",
+          "synonyms": [
+            "laitance"
+          ]
+        },
+        {
+          "name": "sperme",
+          "synonyms": [
+            "sperme"
+          ]
+        },
+        {
+          "name": "sécrété",
+          "synonyms": [
+            "sécrété"
+          ]
+        },
+        {
+          "name": "glandes",
+          "synonyms": [
+            "glandes"
+          ]
+        },
+        {
+          "name": "génitales",
+          "synonyms": [
+            "génitales"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La laitance est le sperme sécrété par les glandes génitales des poissons mâles durant la période du frai, recouvrant les œufs d'une sorte de poche blanche et molle (évoquant le lait, d'où le nom de laitance) pour ainsi les fertiliser. La laitance est ainsi comparable au caviar, c’est-à-dire les ovules des poissons femelles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\ichtyologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lamarckisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "lamarckisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lamarckisme",
+          "synonyms": [
+            "lamarckisme"
+          ]
+        },
+        {
+          "name": "aujourd'hui",
+          "synonyms": [
+            "aujourd'hui"
+          ]
+        },
+        {
+          "name": "quasiment",
+          "synonyms": [
+            "quasiment"
+          ]
+        },
+        {
+          "name": "synonyme",
+          "synonyms": [
+            "synonyme"
+          ]
+        },
+        {
+          "name": "théorie",
+          "synonyms": [
+            "théorie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lamarckisme est aujourd'hui quasiment synonyme de la théorie transformiste de la transmission des caractères acquis, en référence à un aspect de la théorie de l'évolution du vivant due à Jean-Baptiste de Lamarck, bien que la réduction de cette théorie à ce seul aspect soit très largement discutable."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lambda": {
+    "type": "specialized",
+    "exact_terms": [
+      "lambda"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lambda",
+          "synonyms": [
+            "lambda"
+          ]
+        },
+        {
+          "name": "capitale",
+          "synonyms": [
+            "capitale"
+          ]
+        },
+        {
+          "name": "minuscule",
+          "synonyms": [
+            "minuscule"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "λάμδα",
+          "synonyms": [
+            "λάμδα"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lambda (capitale Λ, minuscule λ ; en grec Λάμδα Lámda [ˈlamða]) est la onzième lettre de l'alphabet grec, précédée par kappa et suivie par mu. Dérivée de la lettre lamed  de l'alphabet phénicien, elle est l'ancêtre des lettres L et lambda de l'alphabet latin, de la lettre Л de l'alphabet cyrillique et de la lettre Ⲗ de l’alphabet copte."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\éthologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lame": {
+    "type": "specialized",
+    "exact_terms": [
+      "lame"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "manière",
+          "synonyms": [
+            "manière"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "lame",
+          "synonyms": [
+            "lame"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "bande",
+          "synonyms": [
+            "bande"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "D'une manière générale, le mot lame désigne une bande mince de divers matériaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lame criblée": {
+    "type": "specialized",
+    "exact_terms": [
+      "lame criblée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lame",
+          "synonyms": [
+            "lame"
+          ]
+        },
+        {
+          "name": "criblée",
+          "synonyms": [
+            "criblée"
+          ]
+        },
+        {
+          "name": "lame",
+          "synonyms": [
+            "lame"
+          ]
+        },
+        {
+          "name": "criblée",
+          "synonyms": [
+            "criblée"
+          ]
+        },
+        {
+          "name": "l'ethmoïde",
+          "synonyms": [
+            "l'ethmoïde"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lame criblée peut désigner :\n\nLa lame criblée de l'ethmoïde, lame osseuse qui livre passage aux filets du nerf olfactif.\nLa lame criblée de la sclère, lame conjonctive de la sclère qui donne passage au nerf optique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lame criblée de la sclère": {
+    "type": "specialized",
+    "exact_terms": [
+      "lame criblée de la sclère"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lame",
+          "synonyms": [
+            "lame"
+          ]
+        },
+        {
+          "name": "criblée",
+          "synonyms": [
+            "criblée"
+          ]
+        },
+        {
+          "name": "sclère",
+          "synonyms": [
+            "sclère"
+          ]
+        },
+        {
+          "name": "lame",
+          "synonyms": [
+            "lame"
+          ]
+        },
+        {
+          "name": "criblée",
+          "synonyms": [
+            "criblée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lame criblée de la sclère (ou lame criblée de l’œil) est un ensemble de cloisons conjonctives internes de la sclère auquel se mêlent des fibres de la choroïde.\nElle s'insère dans la paroi du canal scléral."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lamellipode": {
+    "type": "specialized",
+    "exact_terms": [
+      "lamellipode"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lamellipode",
+          "synonyms": [
+            "lamellipode"
+          ]
+        },
+        {
+          "name": "large",
+          "synonyms": [
+            "large"
+          ]
+        },
+        {
+          "name": "extension",
+          "synonyms": [
+            "extension"
+          ]
+        },
+        {
+          "name": "membranaire",
+          "synonyms": [
+            "membranaire"
+          ]
+        },
+        {
+          "name": "faite",
+          "synonyms": [
+            "faite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lamellipode  est une large extension membranaire faite de filament d’actine que la cellule utilise pour explorer son environnement à la recherche de matrice extracellulaire. Le lamellipode est une structure saillante de migration riche en actine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "laminaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "laminaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "laminaire",
+          "synonyms": [
+            "laminaire"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        },
+        {
+          "name": "algues",
+          "synonyms": [
+            "algues"
+          ]
+        },
+        {
+          "name": "formant",
+          "synonyms": [
+            "formant"
+          ]
+        },
+        {
+          "name": "longs",
+          "synonyms": [
+            "longs"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une laminaire est terme désignant des algues formant de longs rubans du genre Laminaria, de la famille Laminariaceae ou encore de l'ensemble de l'ordre des Laminariales.\nUn écoulement laminaire est un écoulement régulier d'un fluide, où toutes les couches suivent des trajectoires parallèles, diminuant ainsi les résistances."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lamine": {
+    "type": "specialized",
+    "exact_terms": [
+      "lamine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lamine",
+          "synonyms": [
+            "lamine"
+          ]
+        },
+        {
+          "name": "lamine",
+          "synonyms": [
+            "lamine"
+          ]
+        },
+        {
+          "name": "section",
+          "synonyms": [
+            "section"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "belge",
+          "synonyms": [
+            "belge"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lamine peut désigner :\n\nLamine, section de la commune belge de Remicourt ;\nLa lamine, une protéine.\nEn géologie, la lamine est une subdivision millimétrique au sein d'une couche de sédiments due, par exemple, à un changement de la taille des grains ou de leur composition."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "laminine": {
+    "type": "specialized",
+    "exact_terms": [
+      "laminine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "laminines",
+          "synonyms": [
+            "laminines"
+          ]
+        },
+        {
+          "name": "constituants",
+          "synonyms": [
+            "constituants"
+          ]
+        },
+        {
+          "name": "protéiques",
+          "synonyms": [
+            "protéiques"
+          ]
+        },
+        {
+          "name": "majeurs",
+          "synonyms": [
+            "majeurs"
+          ]
+        },
+        {
+          "name": "lame",
+          "synonyms": [
+            "lame"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les laminines sont les constituants protéiques majeurs de la lame basale, en dehors du collagène. La laminine a été isolée pour la première fois à partir de sarcomes murins d’EHS2 au milieu du XXe siècle par le Timpl et Rupert (Allemagne)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lampas": {
+    "type": "specialized",
+    "exact_terms": [
+      "lampas"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lampas",
+          "synonyms": [
+            "lampas"
+          ]
+        },
+        {
+          "name": "étoffe",
+          "synonyms": [
+            "étoffe"
+          ]
+        },
+        {
+          "name": "assemblant",
+          "synonyms": [
+            "assemblant"
+          ]
+        },
+        {
+          "name": "fils",
+          "synonyms": [
+            "fils"
+          ]
+        },
+        {
+          "name": "soie",
+          "synonyms": [
+            "soie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lampas est une étoffe assemblant des fils de soie, et souvent d'or et d'argent, dont les motifs sont en relief.\nD'origine contestée, ce nom pourrait venir de laba, labba, « morceau d'étoffe », en francique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lancette": {
+    "type": "specialized",
+    "exact_terms": [
+      "lancette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lancette",
+          "synonyms": [
+            "lancette"
+          ]
+        },
+        {
+          "name": "architecture",
+          "synonyms": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "lancette",
+          "synonyms": [
+            "lancette"
+          ]
+        },
+        {
+          "name": "ogive",
+          "synonyms": [
+            "ogive"
+          ]
+        },
+        {
+          "name": "style",
+          "synonyms": [
+            "style"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une lancette peut être :\n\nen architecture, une lancette est une ogive de style gothique de forme très allongée.\nen médecine et plus particulièrement en chirurgie, une lancette est un instrument médical."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\ornithologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lancéolé": {
+    "type": "specialized",
+    "exact_terms": [
+      "lancéolé"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lancéolé",
+          "synonyms": [
+            "lancéolé"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "ayant",
+          "synonyms": [
+            "ayant"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "lance",
+          "synonyms": [
+            "lance"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lancéolé signifie « ayant la forme d'une lance ». Le mot est utilisé en architecture, et pour désigner des plantes ou des animaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "langue": {
+    "type": "specialized",
+    "exact_terms": [
+      "langue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "système",
+          "synonyms": [
+            "système"
+          ]
+        },
+        {
+          "name": "évolutif",
+          "synonyms": [
+            "évolutif"
+          ]
+        },
+        {
+          "name": "signes",
+          "synonyms": [
+            "signes"
+          ]
+        },
+        {
+          "name": "linguistiques",
+          "synonyms": [
+            "linguistiques"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une langue est un système évolutif de signes linguistiques, vocaux, graphiques et/ou gestuels, qui permet la communication entre les individus.\nSelon le linguiste André Martinet, « une langue est un instrument de communication selon lequel l'expérience humaine s'analyse, différemment dans chaque communauté, en unités douées d'un contenu sémantique et d'une expression phonique, les monèmes ; cette expression s'articule à son tour en unités distinctives et successives, les phonèmes, en nombre déte..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "langue bleue": {
+    "type": "specialized",
+    "exact_terms": [
+      "langue bleue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "bleue",
+          "synonyms": [
+            "bleue"
+          ]
+        },
+        {
+          "name": "autre",
+          "synonyms": [
+            "autre"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "la « maladie de la langue bleue », autre nom de la fièvre catarrhale du mouton ;\nle bolak, langue créée par Léon Bollack au tournant des XIXe et XXe siècles, dite « langue bleue » par référence à la couleur du ciel comme symbole de l'unité et de la concorde humaine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "langue de bois": {
+    "type": "specialized",
+    "exact_terms": [
+      "langue de bois"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'expression",
+          "synonyms": [
+            "l'expression"
+          ]
+        },
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "bois",
+          "synonyms": [
+            "bois"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "cliché",
+          "synonyms": [
+            "cliché"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'expression « langue de bois » désigne un cliché rhétorique péjoratif, visant à disqualifier un discours adverse en affirmant que son argumentation est tissée de formules stéréotypées.\nDes auteurs ont tenté de préciser le sens de l'expression, attestée en France au milieu du XXe siècle, pour caractériser le discours officiel des dirigeants de l'Union soviétique et utilisée depuis pour critiquer toute espèce de discours politique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "langue de serpent": {
+    "type": "specialized",
+    "exact_terms": [
+      "langue de serpent"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "serpent",
+          "synonyms": [
+            "serpent"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "serpent",
+          "synonyms": [
+            "serpent"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme langue de serpent peut faire référence à :\n\nla langue de serpent, une amulette du Moyen Âge ;\nune langue bifide, une forme particulière de la langue ;\nLangue de Serpent, surnom du personnage de Gríma du Seigneur des anneaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "langue géographique": {
+    "type": "specialized",
+    "exact_terms": [
+      "langue géographique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "géographique",
+          "synonyms": [
+            "géographique"
+          ]
+        },
+        {
+          "name": "monde",
+          "synonyms": [
+            "monde"
+          ]
+        },
+        {
+          "name": "médical",
+          "synonyms": [
+            "médical"
+          ]
+        },
+        {
+          "name": "glossite",
+          "synonyms": [
+            "glossite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La langue géographique (ou pour le monde médical : glossite exfoliatrice marginée ou glossite migratoire bénigne) se caractérise par des lésions de la surface de la langue présentant plus ou moins un aspect de carte de géographie, avec des aires dépapillées roses entourées d'une bordure blanchâtre légèrement surélevée. \nC'est une maladie auto-immune encore très mal comprise, rare à peu fréquente, pouvant être d'origine génétique, habituellement bénigne mais pouvant se compliquer par des fissurat..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lap dance": {
+    "type": "specialized",
+    "exact_terms": [
+      "lap dance"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lap",
+          "synonyms": [
+            "lap"
+          ]
+        },
+        {
+          "name": "dance",
+          "synonyms": [
+            "dance"
+          ]
+        },
+        {
+          "name": "qu'on",
+          "synonyms": [
+            "qu'on"
+          ]
+        },
+        {
+          "name": "traduire",
+          "synonyms": [
+            "traduire"
+          ]
+        },
+        {
+          "name": "danse",
+          "synonyms": [
+            "danse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lap dance, qu'on peut traduire par « danse dans le giron », ou danse-contact au Canada francophone, est une forme particulière de danse érotique offerte dans certains strip clubs (ou boîtes de nuit) dans lesquels une personne est assise et une autre danse en contact avec elle ou à proximité.\nSelon la juridiction locale et le niveau de tolérance de la communauté, le lap dance peut prendre des formes diverses."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lapidation": {
+    "type": "specialized",
+    "exact_terms": [
+      "lapidation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lapidation",
+          "synonyms": [
+            "lapidation"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "d'exécution",
+          "synonyms": [
+            "d'exécution"
+          ]
+        },
+        {
+          "name": "laquelle",
+          "synonyms": [
+            "laquelle"
+          ]
+        },
+        {
+          "name": "groupe",
+          "synonyms": [
+            "groupe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lapidation est une forme d'exécution dans laquelle un groupe d'individus lance des pierres sur une personne jusqu'à ce que cette dernière décède d'un traumatisme contondant. Elle a été attestée comme une forme de punition pour de graves méfaits depuis l'Antiquité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "larmes de crocodile": {
+    "type": "specialized",
+    "exact_terms": [
+      "larmes de crocodile"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'expression",
+          "synonyms": [
+            "l'expression"
+          ]
+        },
+        {
+          "name": "larmes",
+          "synonyms": [
+            "larmes"
+          ]
+        },
+        {
+          "name": "crocodile",
+          "synonyms": [
+            "crocodile"
+          ]
+        },
+        {
+          "name": "formule",
+          "synonyms": [
+            "formule"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'expression larmes de crocodile est une formule désignant une manifestation émotionnelle fausse non-sincère ou hypocrite, afin de tromper.\nElle proviendrait de l'ancienne croyance selon laquelle les crocodiles pleuraient lorsqu'ils mangeaient leurs proies."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "larmier": {
+    "type": "specialized",
+    "exact_terms": [
+      "larmier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "larmier",
+          "synonyms": [
+            "larmier"
+          ]
+        },
+        {
+          "name": "élément",
+          "synonyms": [
+            "élément"
+          ]
+        },
+        {
+          "name": "d'architecture",
+          "synonyms": [
+            "d'architecture"
+          ]
+        },
+        {
+          "name": "larmier",
+          "synonyms": [
+            "larmier"
+          ]
+        },
+        {
+          "name": "coin",
+          "synonyms": [
+            "coin"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le larmier  est un élément d'architecture\nLe larmier est le coin de l'œil le plus proche du nez, où coulent les larmes.\nLe larmier est une glande située au coin interne de l'œil des cervidés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "larva migrans": {
+    "type": "specialized",
+    "exact_terms": [
+      "larva migrans"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "larva",
+          "synonyms": [
+            "larva"
+          ]
+        },
+        {
+          "name": "migrans",
+          "synonyms": [
+            "migrans"
+          ]
+        },
+        {
+          "name": "cutanée",
+          "synonyms": [
+            "cutanée"
+          ]
+        },
+        {
+          "name": "lmc",
+          "synonyms": [
+            "lmc"
+          ]
+        },
+        {
+          "name": "affection",
+          "synonyms": [
+            "affection"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La larva migrans cutanée (LMC) est une affection dermatologique due à la pénétration dans la peau de larves d'un parasite, l'ankylostome du chien ou du chat. Le larva migrans porte également les noms de larbish, creeping disease, dermatite vermineuse rampante, pseudomyiase rampante, ou ver chien."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\parasitologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "laryngoscope": {
+    "type": "specialized",
+    "exact_terms": [
+      "laryngoscope"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "laryngoscope",
+          "synonyms": [
+            "laryngoscope"
+          ]
+        },
+        {
+          "name": "instrument",
+          "synonyms": [
+            "instrument"
+          ]
+        },
+        {
+          "name": "médical",
+          "synonyms": [
+            "médical"
+          ]
+        },
+        {
+          "name": "servant",
+          "synonyms": [
+            "servant"
+          ]
+        },
+        {
+          "name": "principalement",
+          "synonyms": [
+            "principalement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le laryngoscope est un instrument médical servant principalement à l'intubation trachéale en permettant de visualiser la glotte. Il est composé de deux parties :\n\nUne lame qui sert à dégager la langue, le palais mou et l'épiglotte."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "laryngoscopie": {
+    "type": "specialized",
+    "exact_terms": [
+      "laryngoscopie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "laryngoscopie",
+          "synonyms": [
+            "laryngoscopie"
+          ]
+        },
+        {
+          "name": "l'acte",
+          "synonyms": [
+            "l'acte"
+          ]
+        },
+        {
+          "name": "d'insérer",
+          "synonyms": [
+            "d'insérer"
+          ]
+        },
+        {
+          "name": "laryngoscope",
+          "synonyms": [
+            "laryngoscope"
+          ]
+        },
+        {
+          "name": "bouche",
+          "synonyms": [
+            "bouche"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La laryngoscopie est l'acte d'insérer un laryngoscope dans la bouche d'un patient. Elle vise le plus souvent l'intubation endotrachéale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "larynx": {
+    "type": "specialized",
+    "exact_terms": [
+      "larynx"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "larynx",
+          "synonyms": [
+            "larynx"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "λάρυγξ",
+          "synonyms": [
+            "λάρυγξ"
+          ]
+        },
+        {
+          "name": "lárynx",
+          "synonyms": [
+            "lárynx"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le larynx (du grec ancien λάρυγξ (lárynx), gosier) est un organe cartilagineux complexe de l'appareil respiratoire situé au niveau de la gorge. Il est situé antérieurement au carrefour aéro-digestif que constitue le pharynx."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lasso": {
+    "type": "specialized",
+    "exact_terms": [
+      "lasso"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lasso",
+          "synonyms": [
+            "lasso"
+          ]
+        },
+        {
+          "name": "lasso",
+          "synonyms": [
+            "lasso"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        },
+        {
+          "name": "arme",
+          "synonyms": [
+            "arme"
+          ]
+        },
+        {
+          "name": "corde",
+          "synonyms": [
+            "corde"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lasso peut désigner :\n\nle lasso comme une arme est une corde avec une boucle coulissante ;\nle lasso (prononcé wȝ), est le caractère bilitère en hiéroglyphe égyptien :  ;\nLasso, une commune du Burkina Faso ;\nle lasso est un langage orienté objet de première génération ;\nLasso est un jeu vidéo créé par SNK ;\nle Lasso est un herbicide anciennement commercialisé par Monsanto. Il contient un principe actif : l'alachlore qui est le 2-chloro-2',6'-diethyl-N-(methoxymethyl)-acetanilide ;\nen statistiques..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "latence": {
+    "type": "specialized",
+    "exact_terms": [
+      "latence"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "latence",
+          "synonyms": [
+            "latence"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "latens",
+          "synonyms": [
+            "latens"
+          ]
+        },
+        {
+          "name": "caché",
+          "synonyms": [
+            "caché"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La latence (du latin latens, caché) désigne la qualité d'une propriété dissimulée et amenée à apparaître ultérieurement.  Dans diverses circonstances, il s'agit également de temps de latence ou période de latence pour désigner le délai entre une action et le déclenchement d'une réaction, à savoir un retardement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lathyrisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "lathyrisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lathyrisme",
+          "synonyms": [
+            "lathyrisme"
+          ]
+        },
+        {
+          "name": "intoxication",
+          "synonyms": [
+            "intoxication"
+          ]
+        },
+        {
+          "name": "provoquée",
+          "synonyms": [
+            "provoquée"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "l'homme",
+          "synonyms": [
+            "l'homme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lathyrisme est une intoxication provoquée chez l'homme et chez les animaux d'élevage, par l'ingestion de plantes du genre Lathyrus, notamment de l'espèce Lathyrus sativus (gesse commune ou pois carré, grass pea en anglais, khesari dhal, ou encore almorta en espagnol) et dans un degré moindre les espèces Lathyrus cicera, Lathyrus ochrus et Lathyrus clymenum.\nLe lathyrisme présente deux formes  que l'on peut rencontrer chez l'homme comme chez les animaux : le neurolathyrisme, maladie neurologiq..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "latéral": {
+    "type": "specialized",
+    "exact_terms": [
+      "latéral"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'adjectif",
+          "synonyms": [
+            "l'adjectif"
+          ]
+        },
+        {
+          "name": "latéral",
+          "synonyms": [
+            "latéral"
+          ]
+        },
+        {
+          "name": "associé",
+          "synonyms": [
+            "associé"
+          ]
+        },
+        {
+          "name": "côté",
+          "synonyms": [
+            "côté"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'adjectif latéral, associé au terme côté, peut être utilisé comme nom :\n\nun latéral droit pour désigner un ailier évoluant sur la droite d'un terrain de sport ;\nune latérale pour désigner une consonne latérale.\nSelon le nombre de côtés impliqués, on définit les termes unilatéral, bilatéral, multilatéral…\nLatéral a formé le mot Latéralité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "latéralité": {
+    "type": "specialized",
+    "exact_terms": [
+      "latéralité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "humaine",
+          "synonyms": [
+            "humaine"
+          ]
+        },
+        {
+          "name": "animale",
+          "synonyms": [
+            "animale"
+          ]
+        },
+        {
+          "name": "latéralité",
+          "synonyms": [
+            "latéralité"
+          ]
+        },
+        {
+          "name": "latéralisation",
+          "synonyms": [
+            "latéralisation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie humaine et animale, la latéralité (ou latéralisation) est l'importance du sens gauche-droit du corps dans la position ou le fonctionnement de certains organes ou membres. Par exemple, chez l'être humain normal, le cœur est latéralisé à gauche."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lavage": {
+    "type": "specialized",
+    "exact_terms": [
+      "lavage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lavage",
+          "synonyms": [
+            "lavage"
+          ]
+        },
+        {
+          "name": "nettoyage",
+          "synonyms": [
+            "nettoyage"
+          ]
+        },
+        {
+          "name": "l'eau",
+          "synonyms": [
+            "l'eau"
+          ]
+        },
+        {
+          "name": "pure",
+          "synonyms": [
+            "pure"
+          ]
+        },
+        {
+          "name": "savonneuse",
+          "synonyms": [
+            "savonneuse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un lavage est un nettoyage à l'eau, pure ou savonneuse ou de lessive, ou avec tout autre liquide."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lavage gastrique": {
+    "type": "specialized",
+    "exact_terms": [
+      "lavage gastrique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lavage",
+          "synonyms": [
+            "lavage"
+          ]
+        },
+        {
+          "name": "gastrique",
+          "synonyms": [
+            "gastrique"
+          ]
+        },
+        {
+          "name": "traitement",
+          "synonyms": [
+            "traitement"
+          ]
+        },
+        {
+          "name": "médical",
+          "synonyms": [
+            "médical"
+          ]
+        },
+        {
+          "name": "consistant",
+          "synonyms": [
+            "consistant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lavage gastrique est un traitement médical consistant à vider l'estomac de son contenu et permettant notamment d'évacuer les toxiques ingérées avant leur résorption digestive. Le lavage de l'estomac est l'une des principales méthodes d'épuration digestive utilisée lors des intoxications aiguës, tout comme les vomissements provoqués, l'adsorption des toxiques par le charbon activé ou l'accélération du transit intestinal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lave-vaisselle": {
+    "type": "specialized",
+    "exact_terms": [
+      "lave-vaisselle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lave-vaisselle",
+          "synonyms": [
+            "lave-vaisselle"
+          ]
+        },
+        {
+          "name": "machine",
+          "synonyms": [
+            "machine"
+          ]
+        },
+        {
+          "name": "laver",
+          "synonyms": [
+            "laver"
+          ]
+        },
+        {
+          "name": "vaisselle",
+          "synonyms": [
+            "vaisselle"
+          ]
+        },
+        {
+          "name": "appareil",
+          "synonyms": [
+            "appareil"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un lave-vaisselle ou une machine à laver la vaisselle est un appareil électroménager conçu pour laver la vaisselle en remplaçant le plus possible la tâche ménagère dite de « faire la vaisselle »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine\\hygiène",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lavement": {
+    "type": "specialized",
+    "exact_terms": [
+      "lavement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lavement",
+          "synonyms": [
+            "lavement"
+          ]
+        },
+        {
+          "name": "acte",
+          "synonyms": [
+            "acte"
+          ]
+        },
+        {
+          "name": "médical",
+          "synonyms": [
+            "médical"
+          ]
+        },
+        {
+          "name": "côlon",
+          "synonyms": [
+            "côlon"
+          ]
+        },
+        {
+          "name": "synonyme",
+          "synonyms": [
+            "synonyme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lavement, acte médical :\ndu côlon : synonyme courant de lavage de l'intestin.\ndans le domaine auriculaire : peut servir à enlever l'excédent de cérumen et éventuellement un corps étranger avec l'aide d'une poire dite de lavement, voir : seringue\ndans le domaine contraceptif féminin, voir : douche vaginale, qui est un moyen peu efficace de contraception."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "laxatif": {
+    "type": "specialized",
+    "exact_terms": [
+      "laxatif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "laxatif",
+          "synonyms": [
+            "laxatif"
+          ]
+        },
+        {
+          "name": "produit",
+          "synonyms": [
+            "produit"
+          ]
+        },
+        {
+          "name": "accélérant",
+          "synonyms": [
+            "accélérant"
+          ]
+        },
+        {
+          "name": "transit",
+          "synonyms": [
+            "transit"
+          ]
+        },
+        {
+          "name": "intestinal",
+          "synonyms": [
+            "intestinal"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un laxatif est un produit accélérant le transit intestinal, ramollissant les selles. On utilise les laxatifs pour combattre la constipation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "laxe": {
+    "type": "specialized",
+    "exact_terms": [
+      "laxe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "laxe",
+          "synonyms": [
+            "laxe"
+          ]
+        },
+        {
+          "name": "toponyme",
+          "synonyms": [
+            "toponyme"
+          ]
+        },
+        {
+          "name": "officiel",
+          "synonyms": [
+            "officiel"
+          ]
+        },
+        {
+          "name": "espagne",
+          "synonyms": [
+            "espagne"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Laxe (toponyme officiel en Espagne) est une commune de la province de La Corogne située dans le nord ouest de l'Espagne, faisant partie de la communauté autonome de Galice."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lectine": {
+    "type": "specialized",
+    "exact_terms": [
+      "lectine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lectines",
+          "synonyms": [
+            "lectines"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "glycoprotéines",
+          "synonyms": [
+            "glycoprotéines"
+          ]
+        },
+        {
+          "name": "particularité",
+          "synonyms": [
+            "particularité"
+          ]
+        },
+        {
+          "name": "réside",
+          "synonyms": [
+            "réside"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les lectines sont un type de glycoprotéines dont la particularité réside dans leur capacité à se lier spécifiquement et de manière réversible à certains types de glucides. On les retrouve dans tous les types d'organismes vivants et interviennent dans divers processus biologiques, notamment dans la reconnaissance cellulaire (par exemple lors de réponses immunitaires ou d'infections), la modulation des réponses immunitaires, le trafic intracellulaire, l'adhésion et la signalisation cellulaire, ain..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leishmania": {
+    "type": "specialized",
+    "exact_terms": [
+      "leishmania"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "leishmania",
+          "synonyms": [
+            "leishmania"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "protozoaire",
+          "synonyms": [
+            "protozoaire"
+          ]
+        },
+        {
+          "name": "proche",
+          "synonyms": [
+            "proche"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "synonyms": [
+            "trypanosomes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Leishmania est un genre de Protozoaire proche des trypanosomes. C'est un parasite des mammifères transmis par la piqure de phlébotomes et responsable d'une maladie, la leishmaniose."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leishmaniose": {
+    "type": "specialized",
+    "exact_terms": [
+      "leishmaniose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "leishmaniose",
+          "synonyms": [
+            "leishmaniose"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "chronique",
+          "synonyms": [
+            "chronique"
+          ]
+        },
+        {
+          "name": "due",
+          "synonyms": [
+            "due"
+          ]
+        },
+        {
+          "name": "l'infection",
+          "synonyms": [
+            "l'infection"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La leishmaniose est une maladie chronique due à l'infection par un protozoaire du genre Leishmania. C'est une maladie vectorielle transmise par la piqûre de phlébotomes, comprenant les insectes du genre Lutzomyia aux Amériques et du genre Phlebotomus en Europe, en Asie et en Afrique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\parasitologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lek": {
+    "type": "specialized",
+    "exact_terms": [
+      "lek"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lek",
+          "synonyms": [
+            "lek"
+          ]
+        },
+        {
+          "name": "code",
+          "synonyms": [
+            "code"
+          ]
+        },
+        {
+          "name": "aérodrome",
+          "synonyms": [
+            "aérodrome"
+          ]
+        },
+        {
+          "name": "tata",
+          "synonyms": [
+            "tata"
+          ]
+        },
+        {
+          "name": "guinée",
+          "synonyms": [
+            "guinée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "LEK est un code qui peut signifier :\n\nAérodrome de Tata en Guinée, selon la liste des codes AITA des aéroports.\nLEK est un sigle qui peut signifier :\n\nL.E.K. Consulting, un cabinet de conseil en stratégie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\ichtyologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lemnisque": {
+    "type": "specialized",
+    "exact_terms": [
+      "lemnisque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "masculin",
+          "synonyms": [
+            "masculin"
+          ]
+        },
+        {
+          "name": "lemnisque",
+          "synonyms": [
+            "lemnisque"
+          ]
+        },
+        {
+          "name": "vient",
+          "synonyms": [
+            "vient"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le nom masculin lemnisque, qui vient du grec λημνίσκος (lêmnískos) qui signifie bandelette ou ruban, peut désigner :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lenticelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "lenticelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lenticelle",
+          "synonyms": [
+            "lenticelle"
+          ]
+        },
+        {
+          "name": "dérivé",
+          "synonyms": [
+            "dérivé"
+          ]
+        },
+        {
+          "name": "savant",
+          "synonyms": [
+            "savant"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "lens",
+          "synonyms": [
+            "lens"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une lenticelle (dérivé savant du latin lens, lentis, « lentille », en référence au relief de forme lenticulaire créé par cette structure) est une sorte de pore ou de canal traversant la masse du liège dans l'écorce des racines et des tiges lignifiées des arbres, mettant le suber en communication avec l'atmosphère et formant des aspérités, parfois colorées. On en trouve aussi parfois à la surface de certains fruits, on parle alors de « rugosité »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lentigo": {
+    "type": "specialized",
+    "exact_terms": [
+      "lentigo"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lentigo",
+          "synonyms": [
+            "lentigo"
+          ]
+        },
+        {
+          "name": "lentigine",
+          "synonyms": [
+            "lentigine"
+          ]
+        },
+        {
+          "name": "taches",
+          "synonyms": [
+            "taches"
+          ]
+        },
+        {
+          "name": "vieillesse",
+          "synonyms": [
+            "vieillesse"
+          ]
+        },
+        {
+          "name": "lentigo",
+          "synonyms": [
+            "lentigo"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lentigo (ou lentigine ou taches de vieillesse, lentigo sénile, lentigo solaris) est une macule hyperpigmentée, plane ou légèrement surélevée qui peut siéger n'importe où sur la peau exposée au soleil et plus rarement ailleurs, voire sur les ongles ou les muqueuses (labiales, buccales, conjonctivales, vulvaires, vaginales ou péniennes), avec cependant une préférence pour les zones photo-exposées.\nCes lésions sont souvent de petite taille (1  à   5 mm), mais peuvent mesurer jusqu'à 3 cm pour ce..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leptosome": {
+    "type": "specialized",
+    "exact_terms": [
+      "leptosome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "leptosome",
+          "synonyms": [
+            "leptosome"
+          ]
+        },
+        {
+          "name": "morphotypologie",
+          "synonyms": [
+            "morphotypologie"
+          ]
+        },
+        {
+          "name": "définie",
+          "synonyms": [
+            "définie"
+          ]
+        },
+        {
+          "name": "ernst",
+          "synonyms": [
+            "ernst"
+          ]
+        },
+        {
+          "name": "kretschmer",
+          "synonyms": [
+            "kretschmer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le leptosome est une morphotypologie définie par Ernst Kretschmer dans son œuvre biotypologique, opposé au pycnique, court et large, et caractéristique d'une personne plutôt longiligne. La description de ce type somatique fait plus de place au « coup d'œil » qu'aux mensurations anthropométriques, plus tard chères à Sheldon."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lessivage": {
+    "type": "specialized",
+    "exact_terms": [
+      "lessivage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lessivage",
+          "synonyms": [
+            "lessivage"
+          ]
+        },
+        {
+          "name": "l'opération",
+          "synonyms": [
+            "l'opération"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "passer",
+          "synonyms": [
+            "passer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lessivage est l'opération qui consiste à faire passer à plusieurs reprises un liquide sur un corps solide, dans le but d'en éliminer certains de ses constituants solubles. \nEn pédologie, le lessivage des constituants du sol (particules argileuses, limoneuses) désigne le processus d'entraînement, par l'eau d'infiltration ou par l'eau souterraine, de ces constituants insolubles, ce qui conduit à la formation d'horizons lessivés appauvris en ces substances qui enrichissent d'autres horizons, gén..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine\\hygiène",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leucaphérèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "leucaphérèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "leucaphérèse",
+          "synonyms": [
+            "leucaphérèse"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "prélever",
+          "synonyms": [
+            "prélever"
+          ]
+        },
+        {
+          "name": "aphérèse",
+          "synonyms": [
+            "aphérèse"
+          ]
+        },
+        {
+          "name": "leucocytes",
+          "synonyms": [
+            "leucocytes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La leucaphérèse consiste à prélever, par aphérèse, les leucocytes (globules blancs) dans le sang d'une personne. Elle peut être utilisée chez le patient comme chez le donneur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leucisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "leucisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "leucisme",
+          "synonyms": [
+            "leucisme"
+          ]
+        },
+        {
+          "name": "leucistisme",
+          "synonyms": [
+            "leucistisme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "λευκός",
+          "synonyms": [
+            "λευκός"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le leucisme ou leucistisme, du grec ancien λευκός / leukós (« blanc »), est un ensemble de phénotypes caractérisés par la couleur blanche des téguments (épiderme et poils,  cheveux, écailles, plumes...), sur toute la surface ou par zones (aspect pie, bicolore, etc.). Cette défaillance est due à une absence ou à une dégénérescence des cellules pigmentaires, au moment de leur différenciation ou de la migration des pigments dans la peau ou les poils."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leucite": {
+    "type": "specialized",
+    "exact_terms": [
+      "leucite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "leucite",
+          "synonyms": [
+            "leucite"
+          ]
+        },
+        {
+          "name": "minéral",
+          "synonyms": [
+            "minéral"
+          ]
+        },
+        {
+          "name": "appartenant",
+          "synonyms": [
+            "appartenant"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "tectosilicates",
+          "synonyms": [
+            "tectosilicates"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La leucite est un minéral appartenant à la famille des tectosilicates et en particulier au groupe des feldspathoïdes. Sa formule est KAlSi2O6."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leucocyte": {
+    "type": "specialized",
+    "exact_terms": [
+      "leucocyte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "leucocytes",
+          "synonyms": [
+            "leucocytes"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "leukos",
+          "synonyms": [
+            "leukos"
+          ]
+        },
+        {
+          "name": "blanc",
+          "synonyms": [
+            "blanc"
+          ]
+        },
+        {
+          "name": "kutos",
+          "synonyms": [
+            "kutos"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les leucocytes (du grec leukos : blanc et kutos : cellule) ou globules blancs sont des cellules produites dans la moelle osseuse et présentes dans le sang, la lymphe, les organes lymphoïdes (ganglions, rate, amygdale et végétations adénoïdes et plaques de Peyer) et de nombreux tissus conjonctifs de l'organisme. Il en existe trois types principaux : les polynucléaires (ou granulocytes), les lymphocytes et les monocytes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leucoplaste": {
+    "type": "specialized",
+    "exact_terms": [
+      "leucoplaste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "leucoplastes",
+          "synonyms": [
+            "leucoplastes"
+          ]
+        },
+        {
+          "name": "représentent",
+          "synonyms": [
+            "représentent"
+          ]
+        },
+        {
+          "name": "catégorie",
+          "synonyms": [
+            "catégorie"
+          ]
+        },
+        {
+          "name": "plastes",
+          "synonyms": [
+            "plastes"
+          ]
+        },
+        {
+          "name": "organites",
+          "synonyms": [
+            "organites"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les leucoplastes représentent une catégorie de plastes, organites spécifiques des cellules végétales. Contrairement à d'autres plastes tels que les chloroplastes ou les chromoplastes, ils ne sont pas pigmentés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "leucostase": {
+    "type": "specialized",
+    "exact_terms": [
+      "leucostase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "leucostase",
+          "synonyms": [
+            "leucostase"
+          ]
+        },
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "leucostatique",
+          "synonyms": [
+            "leucostatique"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le syndrome de leucostase, ou syndrome leucostatique, désigne l'accumulation anormale de globules blancs dans les vaisseaux capillaires sanguins. Cet amas y bloque la circulation par la formation de thrombi blancs (caillots)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "levure": {
+    "type": "specialized",
+    "exact_terms": [
+      "levure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "levure",
+          "synonyms": [
+            "levure"
+          ]
+        },
+        {
+          "name": "champignon",
+          "synonyms": [
+            "champignon"
+          ]
+        },
+        {
+          "name": "unicellulaire",
+          "synonyms": [
+            "unicellulaire"
+          ]
+        },
+        {
+          "name": "apte",
+          "synonyms": [
+            "apte"
+          ]
+        },
+        {
+          "name": "provoquer",
+          "synonyms": [
+            "provoquer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une levure est un champignon unicellulaire apte à provoquer la fermentation des matières organiques animales ou végétales. Les levures sont employées pour la fabrication du vin, de la bière, des alcools industriels, des pâtes levées, des antibiotiques et d'exhausteurs de goût (les extraits de levure peuvent servir comme agents de sapidité)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\microbiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "levurose": {
+    "type": "specialized",
+    "exact_terms": [
+      "levurose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "levurose",
+          "synonyms": [
+            "levurose"
+          ]
+        },
+        {
+          "name": "affection",
+          "synonyms": [
+            "affection"
+          ]
+        },
+        {
+          "name": "parasitaire",
+          "synonyms": [
+            "parasitaire"
+          ]
+        },
+        {
+          "name": "causée",
+          "synonyms": [
+            "causée"
+          ]
+        },
+        {
+          "name": "champignon",
+          "synonyms": [
+            "champignon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une levurose est une affection parasitaire causée par un champignon microscopique (micromycète) de type levure. Elle constitue donc un type de mycose et entre dans le champ de la mycologie médicale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liaison génétique": {
+    "type": "specialized",
+    "exact_terms": [
+      "liaison génétique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "liaison",
+          "synonyms": [
+            "liaison"
+          ]
+        },
+        {
+          "name": "génétique",
+          "synonyms": [
+            "génétique"
+          ]
+        },
+        {
+          "name": "genetic",
+          "synonyms": [
+            "genetic"
+          ]
+        },
+        {
+          "name": "linkage",
+          "synonyms": [
+            "linkage"
+          ]
+        },
+        {
+          "name": "valeurs",
+          "synonyms": [
+            "valeurs"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La liaison génétique (ou genetic linkage) est le fait que les valeurs de deux gènes différents ont tendance à être transmis ensemble d'un individu à sa descendance. Cela se produit s'ils sont situés sur le même chromosome et proches l'un de l'autre ; en termes techniques, si leurs locus, les secteurs de l'ADN où leurs allèles se trouvent, sont voisins."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liaison peptidique": {
+    "type": "specialized",
+    "exact_terms": [
+      "liaison peptidique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "liaison",
+          "synonyms": [
+            "liaison"
+          ]
+        },
+        {
+          "name": "peptidique",
+          "synonyms": [
+            "peptidique"
+          ]
+        },
+        {
+          "name": "liaison",
+          "synonyms": [
+            "liaison"
+          ]
+        },
+        {
+          "name": "covalente",
+          "synonyms": [
+            "covalente"
+          ]
+        },
+        {
+          "name": "s'établit",
+          "synonyms": [
+            "s'établit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une liaison peptidique est une liaison covalente qui s'établit entre la fonction carboxyle portée par le carbone α d'un acide aminé et la fonction amine portée par le carbone α de l'acide aminé suivant dans la chaîne peptidique. La liaison peptidique correspond à une fonction amide dans le cas particulier de certaines molécules biologiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lialis": {
+    "type": "specialized",
+    "exact_terms": [
+      "lialis"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lialis",
+          "synonyms": [
+            "lialis"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "geckos",
+          "synonyms": [
+            "geckos"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "pygopodidae",
+          "synonyms": [
+            "pygopodidae"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lialis est un genre de geckos de la famille des Pygopodidae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "libido": {
+    "type": "specialized",
+    "exact_terms": [
+      "libido"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "libido",
+          "synonyms": [
+            "libido"
+          ]
+        },
+        {
+          "name": "génitif",
+          "synonyms": [
+            "génitif"
+          ]
+        },
+        {
+          "name": "libidinis",
+          "synonyms": [
+            "libidinis"
+          ]
+        },
+        {
+          "name": "repris",
+          "synonyms": [
+            "repris"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme latin libido (au génitif libidinis), repris tel quel en français par l'intermédiaire de la langue savante, signifie littéralement « désir, volupté »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "libération des voies aériennes": {
+    "type": "specialized",
+    "exact_terms": [
+      "libération des voies aériennes"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "voies",
+          "synonyms": [
+            "voies"
+          ]
+        },
+        {
+          "name": "aériennes",
+          "synonyms": [
+            "aériennes"
+          ]
+        },
+        {
+          "name": "peuvent",
+          "synonyms": [
+            "peuvent"
+          ]
+        },
+        {
+          "name": "obstruées",
+          "synonyms": [
+            "obstruées"
+          ]
+        },
+        {
+          "name": "accidentellement",
+          "synonyms": [
+            "accidentellement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les voies aériennes peuvent être obstruées accidentellement, gênant ou empêchant le passage de l'air. Il faut alors libérer le passage de l'air, « assurer la perméabilité des voies aériennes supérieures », pour permettre la ventilation spontanée ou la ventilation artificielle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liche": {
+    "type": "specialized",
+    "exact_terms": [
+      "liche"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "liche",
+          "synonyms": [
+            "liche"
+          ]
+        },
+        {
+          "name": "sorcier",
+          "synonyms": [
+            "sorcier"
+          ]
+        },
+        {
+          "name": "mort-vivant",
+          "synonyms": [
+            "mort-vivant"
+          ]
+        },
+        {
+          "name": "littérature",
+          "synonyms": [
+            "littérature"
+          ]
+        },
+        {
+          "name": "univers",
+          "synonyms": [
+            "univers"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La liche est un sorcier mort-vivant dans la littérature et les univers fantastiques.\nLe Roi Liche est un personnage de la série de jeux vidéo Warcraft."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligament": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligament"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligament",
+          "synonyms": [
+            "ligament"
+          ]
+        },
+        {
+          "name": "bande",
+          "synonyms": [
+            "bande"
+          ]
+        },
+        {
+          "name": "tissu",
+          "synonyms": [
+            "tissu"
+          ]
+        },
+        {
+          "name": "conjonctif",
+          "synonyms": [
+            "conjonctif"
+          ]
+        },
+        {
+          "name": "fibreux",
+          "synonyms": [
+            "fibreux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un ligament est une bande de tissu conjonctif fibreux très solide qui relie deux organes entre eux.\nLorsque ces organes sont des os constituant une articulation c'est un ligament articulaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligament alvéolo-dentaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligament alvéolo-dentaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligament",
+          "synonyms": [
+            "ligament"
+          ]
+        },
+        {
+          "name": "alvéolo-dentaire",
+          "synonyms": [
+            "alvéolo-dentaire"
+          ]
+        },
+        {
+          "name": "desmodonte",
+          "synonyms": [
+            "desmodonte"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le ligament alvéolo-dentaire ou desmodonte, aussi appelé ligament desmodontal ou ligament parodontal, est un tissu conjonctif dense entourant la racine des dents et situé entre le cément et la corticale alvéolaire interne de l'os alvéolaire. Le desmodonte peut faire plus précisément référence à l'espace anatomique compris entre le cément et l'os alvéolaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligament inguinal": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligament inguinal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligament",
+          "synonyms": [
+            "ligament"
+          ]
+        },
+        {
+          "name": "inguinal",
+          "synonyms": [
+            "inguinal"
+          ]
+        },
+        {
+          "name": "arc",
+          "synonyms": [
+            "arc"
+          ]
+        },
+        {
+          "name": "inguinal",
+          "synonyms": [
+            "inguinal"
+          ]
+        },
+        {
+          "name": "arcade",
+          "synonyms": [
+            "arcade"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le ligament inguinal (ou arc inguinal ou arcade inguinale ou arcade crurale ou arcade fémorale ou ligament de Fallope ou ligament de Poupart ou ligament de Vésale) en anatomie humaine est un ligament du canal inguinal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligament vestibulaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligament vestibulaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligament",
+          "synonyms": [
+            "ligament"
+          ]
+        },
+        {
+          "name": "vestibulaire",
+          "synonyms": [
+            "vestibulaire"
+          ]
+        },
+        {
+          "name": "ligament",
+          "synonyms": [
+            "ligament"
+          ]
+        },
+        {
+          "name": "thyro-aryténoïdien",
+          "synonyms": [
+            "thyro-aryténoïdien"
+          ]
+        },
+        {
+          "name": "supérieur",
+          "synonyms": [
+            "supérieur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La ligament vestibulaire (ou ligament thyro-aryténoïdien supérieur ou ligament de la corde vocale supérieure ou ligament ventriculaire) est un ligament intrinsèque pair du larynx formé par l'épaississement du bord inférieur de la membrane quadrangulaire. Il relie l'angle rentrant du cartilage thyroïde à la fossette triangulaire du cartilage aryténoïde."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligament vocal": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligament vocal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligament",
+          "synonyms": [
+            "ligament"
+          ]
+        },
+        {
+          "name": "vocal",
+          "synonyms": [
+            "vocal"
+          ]
+        },
+        {
+          "name": "ligament",
+          "synonyms": [
+            "ligament"
+          ]
+        },
+        {
+          "name": "thyro-aryténoïdien",
+          "synonyms": [
+            "thyro-aryténoïdien"
+          ]
+        },
+        {
+          "name": "inférieur",
+          "synonyms": [
+            "inférieur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La ligament vocal (ou ligament thyro-aryténoïdien inférieur) est un ligament intrinsèque pair du larynx formé par l'épaississement du bord supérieur du cône élastique. Il relie l'angle rentrant du cartilage thyroïde au processus vocal du cartilage aryténoïde."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligand": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligand"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligand",
+          "synonyms": [
+            "ligand"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "ligandum",
+          "synonyms": [
+            "ligandum"
+          ]
+        },
+        {
+          "name": "liant",
+          "synonyms": [
+            "liant"
+          ]
+        },
+        {
+          "name": "scientifique",
+          "synonyms": [
+            "scientifique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ligand (du latin ligandum, liant) est un terme scientifique utilisé pour caractériser certains types d'interactions. \n\nEn chimie : Ligand (chimie)\nligand pontant, qui se connecte à deux atomes ou plus."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligature": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligature"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligature",
+          "synonyms": [
+            "ligature"
+          ]
+        },
+        {
+          "name": "typographie",
+          "synonyms": [
+            "typographie"
+          ]
+        },
+        {
+          "name": "fusion",
+          "synonyms": [
+            "fusion"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "caractères",
+          "synonyms": [
+            "caractères"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ligature, en typographie, fusion de deux caractères – les graphèmes « æ » et « œ » par exemple ;\nLigature, en notation musicale, signe consistant à grouper plusieurs notes en les reliant entre elles par un seul trait ;\nLigature, en organologie, élément de certains instruments à anches tels que la clarinette ou le saxophone ;\nLigature, en médecine, lien permettant de panser une plaie ;\nLigature de bouche, en thanatopraxie, lien permettant de maintenir la bouche d’un défunt fermée ;\nLigature tiran..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligne latérale": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligne latérale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligne",
+          "synonyms": [
+            "ligne"
+          ]
+        },
+        {
+          "name": "latérale",
+          "synonyms": [
+            "latérale"
+          ]
+        },
+        {
+          "name": "organe",
+          "synonyms": [
+            "organe"
+          ]
+        },
+        {
+          "name": "mécanosensoriel",
+          "synonyms": [
+            "mécanosensoriel"
+          ]
+        },
+        {
+          "name": "présent",
+          "synonyms": [
+            "présent"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La ligne latérale est un organe mécanosensoriel présent chez les poissons et chez certains anoures. \nElle jouerait un rôle plus important chez les poissons vivant dans l'obscurité, les eaux turbides ou chez les espèces cavernicoles (qui sont parfois aveugles ou du moins dont le sens de la vue a régressé)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligne nuchale": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligne nuchale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lignes",
+          "synonyms": [
+            "lignes"
+          ]
+        },
+        {
+          "name": "nuchales",
+          "synonyms": [
+            "nuchales"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        },
+        {
+          "name": "lignes",
+          "synonyms": [
+            "lignes"
+          ]
+        },
+        {
+          "name": "courbes",
+          "synonyms": [
+            "courbes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les lignes nuchales sont trois lignes courbes sur la surface externe de l'écaille de l'os occipital.\n\nLa ligne nuchale suprême ou ligne courbe occipitale suprême, souvent légèrement marquée, où s'attache  l'aponévrose épicrânienne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligninase": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligninase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ligninase",
+          "synonyms": [
+            "ligninase"
+          ]
+        },
+        {
+          "name": "oxydoréductase",
+          "synonyms": [
+            "oxydoréductase"
+          ]
+        },
+        {
+          "name": "fongique",
+          "synonyms": [
+            "fongique"
+          ]
+        },
+        {
+          "name": "extracellulaire",
+          "synonyms": [
+            "extracellulaire"
+          ]
+        },
+        {
+          "name": "catalyse",
+          "synonyms": [
+            "catalyse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une ligninase est une oxydoréductase fongique extracellulaire qui catalyse la dégradation de la lignine par oxydation. La lignine est un polymère constituant une fraction importante de la paroi cellulaire des plantes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lignocellulose": {
+    "type": "specialized",
+    "exact_terms": [
+      "lignocellulose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lignocellulose",
+          "synonyms": [
+            "lignocellulose"
+          ]
+        },
+        {
+          "name": "composée",
+          "synonyms": [
+            "composée"
+          ]
+        },
+        {
+          "name": "lignine",
+          "synonyms": [
+            "lignine"
+          ]
+        },
+        {
+          "name": "hémicellulose",
+          "synonyms": [
+            "hémicellulose"
+          ]
+        },
+        {
+          "name": "cellulose",
+          "synonyms": [
+            "cellulose"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lignocellulose est composée de lignine, d’hémicellulose et de cellulose en proportions variables. Elle est très présente dans la paroi des cellules des végétaux, du bois et de la paille."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lignée": {
+    "type": "specialized",
+    "exact_terms": [
+      "lignée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lignée",
+          "synonyms": [
+            "lignée"
+          ]
+        },
+        {
+          "name": "lignée",
+          "synonyms": [
+            "lignée"
+          ]
+        },
+        {
+          "name": "familiale",
+          "synonyms": [
+            "familiale"
+          ]
+        },
+        {
+          "name": "correspond",
+          "synonyms": [
+            "correspond"
+          ]
+        },
+        {
+          "name": "individus",
+          "synonyms": [
+            "individus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une lignée peut désigner :\n\nune lignée familiale correspond aux individus descendant d'un individu donné (ex. : branche d'une même famille) ;\nune lignée pure est une lignée obtenue par croisement consanguin ;\nune lignée taxonomique correspond à la même notion étendue au taxon, c'est-à-dire à l'ensemble des taxons dérivant d'un taxon donné (ex : ordres et classes d'un même embranchement) ;\nla lignée d'un produit mercatique est la chronologie d'objets techniques répondant à un besoin et conçus sur..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lignée cellulaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "lignée cellulaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'expression",
+          "synonyms": [
+            "l'expression"
+          ]
+        },
+        {
+          "name": "lignée",
+          "synonyms": [
+            "lignée"
+          ]
+        },
+        {
+          "name": "cellulaire",
+          "synonyms": [
+            "cellulaire"
+          ]
+        },
+        {
+          "name": "lignée",
+          "synonyms": [
+            "lignée"
+          ]
+        },
+        {
+          "name": "cellulaire",
+          "synonyms": [
+            "cellulaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'expression lignée cellulaire peut désigner :\n\nlignée cellulaire, une population homogène de cellules, stables après des mitoses successives, et ayant en théorie une capacité illimitée de division ;\nlignée cellulaire, un concept qui définit l’historique d’une cellule par la succession de division mitotique à partir de sa cellule souche embryonnaire jusqu’à l’organe final."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ligule": {
+    "type": "specialized",
+    "exact_terms": [
+      "ligule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "botanique",
+          "synonyms": [
+            "botanique"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "poaceae",
+          "synonyms": [
+            "poaceae"
+          ]
+        },
+        {
+          "name": "graminées",
+          "synonyms": [
+            "graminées"
+          ]
+        },
+        {
+          "name": "cyperaceae",
+          "synonyms": [
+            "cyperaceae"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En botanique : \n\nchez les Poaceae (graminées), Cyperaceae et  Juncaceae, la ligule est une languette membraneuse située à la jonction de la gaine foliaire et du limbe des feuilles ;\nchez les Asteraceae (composées), on appelle  ligule  la languette formée par la corolle des fleurons dont les cinq pétales allongés sont soudés et déjetés vers l'extérieur du capitule.\nchez les Selaginellaceae et Isoetaceae, la ligule est une excroissance minuscule, en forme d'écaille, située à la base de la face sup..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "limage": {
+    "type": "specialized",
+    "exact_terms": [
+      "limage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "limage",
+          "synonyms": [
+            "limage"
+          ]
+        },
+        {
+          "name": "usinage",
+          "synonyms": [
+            "usinage"
+          ]
+        },
+        {
+          "name": "pièce",
+          "synonyms": [
+            "pièce"
+          ]
+        },
+        {
+          "name": "aide",
+          "synonyms": [
+            "aide"
+          ]
+        },
+        {
+          "name": "lime",
+          "synonyms": [
+            "lime"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le limage est l’usinage d’une pièce à l’aide d’une lime. Ce travail, généralement manuel peut être aussi mécanique, exécuté par un ajusteur, un serrurier ou toutes autres personnes professionnelles ou non."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "limicole": {
+    "type": "specialized",
+    "exact_terms": [
+      "limicole"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "oiseaux",
+          "synonyms": [
+            "oiseaux"
+          ]
+        },
+        {
+          "name": "désignés",
+          "synonyms": [
+            "désignés"
+          ]
+        },
+        {
+          "name": "limicoles",
+          "synonyms": [
+            "limicoles"
+          ]
+        },
+        {
+          "name": "petits",
+          "synonyms": [
+            "petits"
+          ]
+        },
+        {
+          "name": "échassiers",
+          "synonyms": [
+            "échassiers"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les oiseaux désignés par le terme de limicoles sont de petits échassiers de l'ordre des Charadriiformes, plus précisément du sous-ordre des Charadrii."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "limites planétaires": {
+    "type": "specialized",
+    "exact_terms": [
+      "limites planétaires"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "limites",
+          "synonyms": [
+            "limites"
+          ]
+        },
+        {
+          "name": "planétaires",
+          "synonyms": [
+            "planétaires"
+          ]
+        },
+        {
+          "name": "seuils",
+          "synonyms": [
+            "seuils"
+          ]
+        },
+        {
+          "name": "l'humanité",
+          "synonyms": [
+            "l'humanité"
+          ]
+        },
+        {
+          "name": "devrait",
+          "synonyms": [
+            "devrait"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les limites planétaires sont les seuils que l'humanité ne devrait pas dépasser pour ne pas compromettre les conditions favorables dans lesquelles elle a pu se développer et pour pouvoir durablement vivre dans un écosystème sûr, c’est-à-dire en évitant les modifications brutales et difficilement prévisibles de l'environnement planétaire.\nCe concept a été proposé par une équipe internationale de vingt-six chercheurs et publié en 2009."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lingam": {
+    "type": "specialized",
+    "exact_terms": [
+      "lingam"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lingam",
+          "synonyms": [
+            "lingam"
+          ]
+        },
+        {
+          "name": "linga",
+          "synonyms": [
+            "linga"
+          ]
+        },
+        {
+          "name": "sanskrit",
+          "synonyms": [
+            "sanskrit"
+          ]
+        },
+        {
+          "name": "liṅgaṃ",
+          "synonyms": [
+            "liṅgaṃ"
+          ]
+        },
+        {
+          "name": "signe",
+          "synonyms": [
+            "signe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lingam ou linga (en sanskrit लिङ्गं, liṅgaṃ (« signe »)) est un objet  dans lequel  Shiva est présent ; quand on l'y invoque, il est conçu comme un pratika (symbole de dévotion). Il est dressé, souvent d'apparence phallique, représentation classique, dite aniconique, de Shiva en tant que Brahman (« Absolu, Âme universelle »)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lingula": {
+    "type": "specialized",
+    "exact_terms": [
+      "lingula"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lingula",
+          "synonyms": [
+            "lingula"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        },
+        {
+          "name": "petite",
+          "synonyms": [
+            "petite"
+          ]
+        },
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lingula est un mot latin signifiant petite langue et peut signifier :\n\nEn anatomie, une lingula est une extension anatomique en forme de langue\nLa lingula est l'un des segments du poumon gauche, ayant l'allure d'une langue.\nLa lingula de la mandibule une crête osseuse de la mandibule."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lingula de la mandibule": {
+    "type": "specialized",
+    "exact_terms": [
+      "lingula de la mandibule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lingula",
+          "synonyms": [
+            "lingula"
+          ]
+        },
+        {
+          "name": "mandibule",
+          "synonyms": [
+            "mandibule"
+          ]
+        },
+        {
+          "name": "l'épine",
+          "synonyms": [
+            "l'épine"
+          ]
+        },
+        {
+          "name": "spix",
+          "synonyms": [
+            "spix"
+          ]
+        },
+        {
+          "name": "crête",
+          "synonyms": [
+            "crête"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lingula de la mandibule ou l'épine de Spix est une crête osseuse proéminente sur le côté médian de la branche de la mandibule qui limite en avant le foramen mandibulaire.\nC'est le point d'insertion du ligament sphéno-mandibulaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liniment": {
+    "type": "specialized",
+    "exact_terms": [
+      "liniment"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "liniment",
+          "synonyms": [
+            "liniment"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "pharmaceutique",
+          "synonyms": [
+            "pharmaceutique"
+          ]
+        },
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "moins",
+          "synonyms": [
+            "moins"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un liniment est une forme pharmaceutique liquide, plus ou moins épaisse, utilisée uniquement en usage externe par application sur la peau (voie cutanée), en particulier sous forme de cataplasme. Ce sont des « médicaments de composition, de consistance et à excipients variables destinés à être utilisés en friction »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "linkage": {
+    "type": "specialized",
+    "exact_terms": [
+      "linkage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "linkage",
+          "synonyms": [
+            "linkage"
+          ]
+        },
+        {
+          "name": "album",
+          "synonyms": [
+            "album"
+          ]
+        },
+        {
+          "name": "mami",
+          "synonyms": [
+            "mami"
+          ]
+        },
+        {
+          "name": "kawada",
+          "synonyms": [
+            "kawada"
+          ]
+        },
+        {
+          "name": "sorti",
+          "synonyms": [
+            "sorti"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Linkage est le 3e album de Mami Kawada, sorti sous le label Geneon Entertainment le 24 mars 2010 au Japon."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lipase": {
+    "type": "specialized",
+    "exact_terms": [
+      "lipase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lipases",
+          "synonyms": [
+            "lipases"
+          ]
+        },
+        {
+          "name": "enzymes",
+          "synonyms": [
+            "enzymes"
+          ]
+        },
+        {
+          "name": "hydrosolubles",
+          "synonyms": [
+            "hydrosolubles"
+          ]
+        },
+        {
+          "name": "capables",
+          "synonyms": [
+            "capables"
+          ]
+        },
+        {
+          "name": "d'effectuer",
+          "synonyms": [
+            "d'effectuer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les lipases sont des enzymes hydrosolubles capables d'effectuer l'hydrolyse de fonctions esters et sont spécialisées dans la transformation de lipides (triglycéride, diglycérides, monoglycérides) en glycérol et en acides gras (lipolyse). À ce titre, elles constituent une sous-classe des estérases."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lipide": {
+    "type": "specialized",
+    "exact_terms": [
+      "lipide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lipides",
+          "synonyms": [
+            "lipides"
+          ]
+        },
+        {
+          "name": "constituent",
+          "synonyms": [
+            "constituent"
+          ]
+        },
+        {
+          "name": "matière",
+          "synonyms": [
+            "matière"
+          ]
+        },
+        {
+          "name": "grasse",
+          "synonyms": [
+            "grasse"
+          ]
+        },
+        {
+          "name": "êtres",
+          "synonyms": [
+            "êtres"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les lipides constituent la matière grasse des êtres vivants. Ce sont des molécules hydrophobes ou amphiphiles — molécules hydrophobes possédant un domaine hydrophile — très diversifiées, comprenant entre autres les graisses, les cires, les stérols, les vitamines liposolubles, les mono-, di- et triglycérides, ou encore les phospholipides."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lipodystrophie": {
+    "type": "specialized",
+    "exact_terms": [
+      "lipodystrophie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lipodystrophie",
+          "synonyms": [
+            "lipodystrophie"
+          ]
+        },
+        {
+          "name": "anomalie",
+          "synonyms": [
+            "anomalie"
+          ]
+        },
+        {
+          "name": "répartition",
+          "synonyms": [
+            "répartition"
+          ]
+        },
+        {
+          "name": "tissu",
+          "synonyms": [
+            "tissu"
+          ]
+        },
+        {
+          "name": "adipeux",
+          "synonyms": [
+            "adipeux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lipodystrophie est une anomalie de la répartition du tissu adipeux. Il peut être présent en quantité insuffisante (lipoatrophie) ou au contraire en excès (lipohypertrophie) ou mal réparti."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lipogenèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "lipogenèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lipogenèse",
+          "synonyms": [
+            "lipogenèse"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "biochimiques",
+          "synonyms": [
+            "biochimiques"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lipogenèse désigne l'ensemble des processus biochimiques permettant la synthèse des lipides en général et des acides gras en particulier. \nC'est une phase de synthèse dans le processus de réserve énergétique des adipocytes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lipolyse": {
+    "type": "specialized",
+    "exact_terms": [
+      "lipolyse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lipolyse",
+          "synonyms": [
+            "lipolyse"
+          ]
+        },
+        {
+          "name": "dégradation",
+          "synonyms": [
+            "dégradation"
+          ]
+        },
+        {
+          "name": "lipides",
+          "synonyms": [
+            "lipides"
+          ]
+        },
+        {
+          "name": "conduit",
+          "synonyms": [
+            "conduit"
+          ]
+        },
+        {
+          "name": "libération",
+          "synonyms": [
+            "libération"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lipolyse est la dégradation des lipides qui conduit à la libération des acides gras estérifiant du glycérol par hydrolyse des glycérides (triglycérides, diglycérides et monoglycérides)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lipophobie": {
+    "type": "specialized",
+    "exact_terms": [
+      "lipophobie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lipophobie",
+          "synonyms": [
+            "lipophobie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "λιποφοβία",
+          "synonyms": [
+            "λιποφοβία"
+          ]
+        },
+        {
+          "name": "λίπος",
+          "synonyms": [
+            "λίπος"
+          ]
+        },
+        {
+          "name": "lipos",
+          "synonyms": [
+            "lipos"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lipophobie (du grec λιποφοβία du λίπος lipos \"gras\" et φόβος phobos \"peur\"), est une propriété chimique des composés chimiques qui signifie \"rejet des graisses\", littéralement \"peur des graisses\". Les composés lipophobes sont ceux qui ne sont pas solubles dans les lipides ou autres solvants non polaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lipoprotéine": {
+    "type": "specialized",
+    "exact_terms": [
+      "lipoprotéine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "vertébrés",
+          "synonyms": [
+            "vertébrés"
+          ]
+        },
+        {
+          "name": "lipoprotéines",
+          "synonyms": [
+            "lipoprotéines"
+          ]
+        },
+        {
+          "name": "grands",
+          "synonyms": [
+            "grands"
+          ]
+        },
+        {
+          "name": "complexes",
+          "synonyms": [
+            "complexes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Chez les vertébrés, les lipoprotéines sont de grands complexes de protéines et de lipides, hydrosolubles par fonction, qui transportent massivement les lipides dans tout l’organisme. La coque externe est une monocouche de phospholipides contenant du cholestérol libre et une ou plusieurs molécules protéiques appelées apolipoprotéines (par exemple apo-A, Apo-B, etc.) ; la partie centrale contient des triglycérides, des esters de cholestérol et de petites quantités d’autres substances hydrophobes, ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liquide": {
+    "type": "specialized",
+    "exact_terms": [
+      "liquide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "phase",
+          "synonyms": [
+            "phase"
+          ]
+        },
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "état",
+          "synonyms": [
+            "état"
+          ]
+        },
+        {
+          "name": "matière",
+          "synonyms": [
+            "matière"
+          ]
+        },
+        {
+          "name": "ainsi",
+          "synonyms": [
+            "ainsi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La phase liquide est un état de la matière ainsi qu'une forme de fluide. Ses molécules sont faiblement liées, ce qui rend le liquide parfaitement déformable, au contraire de l'état solide qui nécessite davantage d'énergie pour se déformer ; à l'inverse du gaz, les molécules sont tout de même liées et ne peuvent pas s'éloigner beaucoup les unes des autres, ce qui fait que la matière liquide a une cohésion que ne possède pas le gaz mais, comme dans les solides, les molécules sont très proches les ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liquide amniotique": {
+    "type": "specialized",
+    "exact_terms": [
+      "liquide amniotique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "amniotique",
+          "synonyms": [
+            "amniotique"
+          ]
+        },
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "biologique",
+          "synonyms": [
+            "biologique"
+          ]
+        },
+        {
+          "name": "contenu",
+          "synonyms": [
+            "contenu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le liquide amniotique est un liquide biologique contenu dans le sac amniotique et dans lequel baigne l'embryon (puis le fœtus chez les mammifères)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\reproduction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liquide lacrymal": {
+    "type": "specialized",
+    "exact_terms": [
+      "liquide lacrymal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "lacrymal",
+          "synonyms": [
+            "lacrymal"
+          ]
+        },
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "physiologique",
+          "synonyms": [
+            "physiologique"
+          ]
+        },
+        {
+          "name": "aqueux",
+          "synonyms": [
+            "aqueux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le liquide lacrymal est un liquide physiologique aqueux et salé qui s'écoule à la surface externe de la cornée et de la conjonctive de l'œil. Lorsque l'écoulement se fait en dehors de l'œil, il forme des larmes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liquide synovial": {
+    "type": "specialized",
+    "exact_terms": [
+      "liquide synovial"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "synovial",
+          "synonyms": [
+            "synovial"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "ovum",
+          "synonyms": [
+            "ovum"
+          ]
+        },
+        {
+          "name": "œuf",
+          "synonyms": [
+            "œuf"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le liquide synovial (du latin : ovum, « œuf »), ou synovie ou liquide articulaire, est un liquide biologique se trouvant dans la cavité articulaire d'une jointure synoviale. Il est produit par la membrane synoviale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "listeria": {
+    "type": "specialized",
+    "exact_terms": [
+      "listeria"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "listeria",
+          "synonyms": [
+            "listeria"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "bactérien",
+          "synonyms": [
+            "bactérien"
+          ]
+        },
+        {
+          "name": "bacilles",
+          "synonyms": [
+            "bacilles"
+          ]
+        },
+        {
+          "name": "gram",
+          "synonyms": [
+            "gram"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Listeria est un genre bactérien de bacilles à Gram positif de la famille des Listeriaceae dont il est le genre type. On y trouve en particulier l'espèce pathogène Listeria monocytogenes responsable de la listériose, infection sévère transmise le plus souvent par voie alimentaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "listériose": {
+    "type": "specialized",
+    "exact_terms": [
+      "listériose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "listériose",
+          "synonyms": [
+            "listériose"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "bactérienne",
+          "synonyms": [
+            "bactérienne"
+          ]
+        },
+        {
+          "name": "affecte",
+          "synonyms": [
+            "affecte"
+          ]
+        },
+        {
+          "name": "nombreuses",
+          "synonyms": [
+            "nombreuses"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La listériose est une maladie bactérienne qui affecte de nombreuses espèces animales et qui est causée par la Listeria monocytogenes. \nLa transmission de cette maladie se fait essentiellement par l'alimentation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lit de mort": {
+    "type": "specialized",
+    "exact_terms": [
+      "lit de mort"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lit",
+          "synonyms": [
+            "lit"
+          ]
+        },
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "l'endroit",
+          "synonyms": [
+            "l'endroit"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "meurt",
+          "synonyms": [
+            "meurt"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un lit de mort est l'endroit où une personne meurt. Ce n'est pas forcément un lit ou tout autre forme de couchage, mais tout simplement l'endroit où la mort se produit."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lit à ossements": {
+    "type": "specialized",
+    "exact_terms": [
+      "lit à ossements"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lit",
+          "synonyms": [
+            "lit"
+          ]
+        },
+        {
+          "name": "ossements",
+          "synonyms": [
+            "ossements"
+          ]
+        },
+        {
+          "name": "couche",
+          "synonyms": [
+            "couche"
+          ]
+        },
+        {
+          "name": "ossements",
+          "synonyms": [
+            "ossements"
+          ]
+        },
+        {
+          "name": "dépôt",
+          "synonyms": [
+            "dépôt"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un lit à ossements, couche à ossements ou dépôt d'ossements (parfois aussi nommé par le terme équivalent en anglais, un bone bed) désigne n'importe quelle strate ou dépôt géologique contenant des os, peu importe la sorte. Ces dépôts sont inévitablement de nature sédimentaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lithiase": {
+    "type": "specialized",
+    "exact_terms": [
+      "lithiase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lithiase",
+          "synonyms": [
+            "lithiase"
+          ]
+        },
+        {
+          "name": "autrefois",
+          "synonyms": [
+            "autrefois"
+          ]
+        },
+        {
+          "name": "lithiasie",
+          "synonyms": [
+            "lithiasie"
+          ]
+        },
+        {
+          "name": "médical",
+          "synonyms": [
+            "médical"
+          ]
+        },
+        {
+          "name": "gréco-romain",
+          "synonyms": [
+            "gréco-romain"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une lithiase ou autrefois lithiasie (terme médical gréco-romain lithiasis, de la racine grecque λίθος/lithos : pierre) est une maladie caractérisée au stade ultime par l'apparition, dans un conduit de l'organisme, d'une concrétion solide appelée calcul, obstruant ledit conduit. On distingue :\n\nla lithiase biliaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lithiase biliaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "lithiase biliaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lithiase",
+          "synonyms": [
+            "lithiase"
+          ]
+        },
+        {
+          "name": "biliaire",
+          "synonyms": [
+            "biliaire"
+          ]
+        },
+        {
+          "name": "cholélithiase",
+          "synonyms": [
+            "cholélithiase"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "caractérisée",
+          "synonyms": [
+            "caractérisée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lithiase biliaire, ou cholélithiase, est une maladie caractérisée par la présence de calculs biliaires, corps cristallins formés par accrétion ou concrétion de composants normaux ou anormaux de la bile dans la vésicule ou les voies biliaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lithiase salivaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "lithiase salivaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lithiase",
+          "synonyms": [
+            "lithiase"
+          ]
+        },
+        {
+          "name": "salivaire",
+          "synonyms": [
+            "salivaire"
+          ]
+        },
+        {
+          "name": "sialolithiase",
+          "synonyms": [
+            "sialolithiase"
+          ]
+        },
+        {
+          "name": "formation",
+          "synonyms": [
+            "formation"
+          ]
+        },
+        {
+          "name": "migration",
+          "synonyms": [
+            "migration"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une lithiase salivaire ou sialolithiase est la formation et migration de concrétions calciques dans les voies excrétrices de la salive. Pathologie très fréquente à partir de 5 ans sans étiologie connue."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lithiase urinaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "lithiase urinaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lithiase",
+          "synonyms": [
+            "lithiase"
+          ]
+        },
+        {
+          "name": "urinaire",
+          "synonyms": [
+            "urinaire"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "lithos",
+          "synonyms": [
+            "lithos"
+          ]
+        },
+        {
+          "name": "pierre",
+          "synonyms": [
+            "pierre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lithiase urinaire (du grec lithos, pierre) est une maladie caractérisée par la formation de calculs (du latin calculus, caillou), c’est-à-dire d’accrétions cristallines qui se forment, à partir de minéraux dissous dans l'urine, dans les voies urinaires : cavités rénales (calices et bassinet), uretères et vessie.\nLa taille des calculs varie d'un grain de sable à celle d'une balle de golf."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "livedo": {
+    "type": "specialized",
+    "exact_terms": [
+      "livedo"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "livedo",
+          "synonyms": [
+            "livedo"
+          ]
+        },
+        {
+          "name": "manifestation",
+          "synonyms": [
+            "manifestation"
+          ]
+        },
+        {
+          "name": "cutanée",
+          "synonyms": [
+            "cutanée"
+          ]
+        },
+        {
+          "name": "aiguë",
+          "synonyms": [
+            "aiguë"
+          ]
+        },
+        {
+          "name": "chronique",
+          "synonyms": [
+            "chronique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le livedo est une manifestation cutanée aiguë ou chronique siégeant principalement aux membres. La peau apparaît violacée et marbrée, on parle parfois de marbrure."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "livrée": {
+    "type": "specialized",
+    "exact_terms": [
+      "livrée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "livrée",
+          "synonyms": [
+            "livrée"
+          ]
+        },
+        {
+          "name": "livrée",
+          "synonyms": [
+            "livrée"
+          ]
+        },
+        {
+          "name": "uniforme",
+          "synonyms": [
+            "uniforme"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "couleurs",
+          "synonyms": [
+            "couleurs"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme livrée peut désigner :\n\nla livrée (uniforme), ensemble des couleurs uniformes que doivent porter le personnel ou les officiers d'une puissance politique ou d'une famille pour marquer leur appartenance ;\ndeux espèces de papillons de la famille des Lasiocampidae :\nla Livrée des arbres (Malacosoma neustria),\nla Livrée des prés (Malacosoma castrense) ;\nla livrée cardinalice, palais élevé pour y accueillir un cardinal et sa suite ;\nla livrée est la manière dont le pelotari met la balle en je..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "loase": {
+    "type": "specialized",
+    "exact_terms": [
+      "loase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "filariose",
+          "synonyms": [
+            "filariose"
+          ]
+        },
+        {
+          "name": "loa",
+          "synonyms": [
+            "loa"
+          ]
+        },
+        {
+          "name": "loa",
+          "synonyms": [
+            "loa"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La filariose à loa  loa  (également appelée loase et ver africain de l’œil ) est une maladie de la peau et de l’œil provoquée par un ver nématode, la filaire loa loa.\nLes humains contractent cette maladie à la suite de la piqûre d'un taon, également connu sous le nom de « mouche à mangue »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lobectomie": {
+    "type": "specialized",
+    "exact_terms": [
+      "lobectomie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lobectomie",
+          "synonyms": [
+            "lobectomie"
+          ]
+        },
+        {
+          "name": "médical",
+          "synonyms": [
+            "médical"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        },
+        {
+          "name": "l'ablation",
+          "synonyms": [
+            "l'ablation"
+          ]
+        },
+        {
+          "name": "voie",
+          "synonyms": [
+            "voie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une lobectomie est un terme médical désignant l'ablation par voie chirurgicale d’un lobe d’organe comme le poumon, le foie, le cerveau, la glande thyroïde. Les indications de ces opérations sont le plus souvent liées à des cancers, des kystes ou tumeurs bénignes ou plus rarement des maladies infectieuses (en particulier pour les indications pulmonaires ou hépatiques)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lobotomie": {
+    "type": "specialized",
+    "exact_terms": [
+      "lobotomie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lobotomie",
+          "synonyms": [
+            "lobotomie"
+          ]
+        },
+        {
+          "name": "opération",
+          "synonyms": [
+            "opération"
+          ]
+        },
+        {
+          "name": "chirurgicale",
+          "synonyms": [
+            "chirurgicale"
+          ]
+        },
+        {
+          "name": "cerveau",
+          "synonyms": [
+            "cerveau"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lobotomie est une opération chirurgicale du cerveau qui consiste à sectionner ou à altérer la substance blanche d’un lobe cérébral. Elle est désormais interdite dans de nombreux pays et n'est plus considérée comme une bonne pratique dans la médecine actuelle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "local": {
+    "type": "specialized",
+    "exact_terms": [
+      "local"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "local",
+          "synonyms": [
+            "local"
+          ]
+        },
+        {
+          "name": "significations",
+          "synonyms": [
+            "significations"
+          ]
+        },
+        {
+          "name": "localité",
+          "synonyms": [
+            "localité"
+          ]
+        },
+        {
+          "name": "agglomération",
+          "synonyms": [
+            "agglomération"
+          ]
+        },
+        {
+          "name": "habitée",
+          "synonyms": [
+            "habitée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot local peut avoir plusieurs significations :\n\nUne localité est une agglomération habitée de taille indéterminée.\nUne pièce ou une partie d'un bâtiment à destination déterminée (commercial, administratif, etc.)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "localiser": {
+    "type": "specialized",
+    "exact_terms": [
+      "localiser"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "localiser",
+          "synonyms": [
+            "localiser"
+          ]
+        },
+        {
+          "name": "application",
+          "synonyms": [
+            "application"
+          ]
+        },
+        {
+          "name": "service",
+          "synonyms": [
+            "service"
+          ]
+        },
+        {
+          "name": "fournis",
+          "synonyms": [
+            "fournis"
+          ]
+        },
+        {
+          "name": "apple",
+          "synonyms": [
+            "apple"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Localiser est une application et un service fournis par Apple qui permet aux utilisateurs de localiser leurs appareils iOS, iPadOS, macOS, watchOS et AirPods, cette fonctionnalité était auparavant présente dans l'app « Localiser mon iPhone ». Cette app permet également de partager sa localisation GPS avec d'autres appareils Apple, une fonctionnalité précédemment offerte par l'app « Localiser mes amis »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "localité type": {
+    "type": "specialized",
+    "exact_terms": [
+      "localité type"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "paléontologie",
+          "synonyms": [
+            "paléontologie"
+          ]
+        },
+        {
+          "name": "localité",
+          "synonyms": [
+            "localité"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "l'endroit",
+          "synonyms": [
+            "l'endroit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie et en paléontologie, la localité type est l'endroit où a été trouvé le spécimen de référence (appelé type) d'une nouvelle espèce.\nLa localité type est publiée dans la description originale de l'espèce animale ou végétale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "locataire": {
+    "type": "specialized",
+    "exact_terms": [
+      "locataire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "locataire",
+          "synonyms": [
+            "locataire"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "loue",
+          "synonyms": [
+            "loue"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        },
+        {
+          "name": "appartement",
+          "synonyms": [
+            "appartement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un locataire est la personne qui loue un bien, généralement un appartement, à son propriétaire. Pour cet aspect, voir l’article location."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "locus": {
+    "type": "specialized",
+    "exact_terms": [
+      "locus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "génétique",
+          "synonyms": [
+            "génétique"
+          ]
+        },
+        {
+          "name": "locus",
+          "synonyms": [
+            "locus"
+          ]
+        },
+        {
+          "name": "pluriel",
+          "synonyms": [
+            "pluriel"
+          ]
+        },
+        {
+          "name": "loci",
+          "synonyms": [
+            "loci"
+          ]
+        },
+        {
+          "name": "locus",
+          "synonyms": [
+            "locus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En génétique, un locus (pluriel « loci » ou « locus ») est une position fixe (d'un gène ou d'un marqueur génétique) sur un chromosome. Chaque chromosome porte de nombreux gènes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "locus cœruleus": {
+    "type": "specialized",
+    "exact_terms": [
+      "locus cœruleus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "locus",
+          "synonyms": [
+            "locus"
+          ]
+        },
+        {
+          "name": "cœruleus",
+          "synonyms": [
+            "cœruleus"
+          ]
+        },
+        {
+          "name": "locus",
+          "synonyms": [
+            "locus"
+          ]
+        },
+        {
+          "name": "cæruleus",
+          "synonyms": [
+            "cæruleus"
+          ]
+        },
+        {
+          "name": "locus",
+          "synonyms": [
+            "locus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le locus cœruleus, « locus cæruleus », « locus ceruleus » ou LC (« la tache bleue », en latin) est un noyau sous-cortical de l'encéphale, situé dans le tronc cérébral. Il a beaucoup de relations avec l'amygdale mais aussi avec le noyau sensitif du nerf trijumeau et les noyaux limbiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lolicon": {
+    "type": "specialized",
+    "exact_terms": [
+      "lolicon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "culture",
+          "synonyms": [
+            "culture"
+          ]
+        },
+        {
+          "name": "japonaise",
+          "synonyms": [
+            "japonaise"
+          ]
+        },
+        {
+          "name": "lolicon",
+          "synonyms": [
+            "lolicon"
+          ]
+        },
+        {
+          "name": "ロリコン",
+          "synonyms": [
+            "ロリコン"
+          ]
+        },
+        {
+          "name": "rorikon",
+          "synonyms": [
+            "rorikon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans la culture japonaise, Lolicon (ロリコン, Rorikon), parfois ⁣⁣romanisé⁣⁣, « Rorikon » ou « Lolikon » est un sous-genre fictionnel qui se concentre sur l’apparence juvénile de leurs personnages féminins, particulièrement en les érotisant ou en les sexualisant. Le terme est un mot-valise reprenant la contraction de « Lolita Complex »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lophiodon": {
+    "type": "specialized",
+    "exact_terms": [
+      "lophiodon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lophiodon",
+          "synonyms": [
+            "lophiodon"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "éteint",
+          "synonyms": [
+            "éteint"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        },
+        {
+          "name": "herbivores",
+          "synonyms": [
+            "herbivores"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lophiodon est un genre éteint de mammifères herbivores, proche de nos actuels tapirs. Il appartient à la famille des Lophiodontidae et à la sous-famille des Lophiodontinae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lophophore": {
+    "type": "specialized",
+    "exact_terms": [
+      "lophophore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lophophore",
+          "synonyms": [
+            "lophophore"
+          ]
+        },
+        {
+          "name": "lophophore",
+          "synonyms": [
+            "lophophore"
+          ]
+        },
+        {
+          "name": "organe",
+          "synonyms": [
+            "organe"
+          ]
+        },
+        {
+          "name": "caractère",
+          "synonyms": [
+            "caractère"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme lophophore peut désigner :\n\nle lophophore, un organe, caractère commun des Lophophorés qui regroupe les brachiopodes, les ectoproctes et les phoronides ;\nLophophorus un genre d'oiseaux ;\nLophophora  un genre de la famille botanique des Cactaceae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "loral": {
+    "type": "specialized",
+    "exact_terms": [
+      "loral"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "loral",
+          "synonyms": [
+            "loral"
+          ]
+        },
+        {
+          "name": "corporation",
+          "synonyms": [
+            "corporation"
+          ]
+        },
+        {
+          "name": "société",
+          "synonyms": [
+            "société"
+          ]
+        },
+        {
+          "name": "américaine",
+          "synonyms": [
+            "américaine"
+          ]
+        },
+        {
+          "name": "space",
+          "synonyms": [
+            "space"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Loral Corporation, une société américaine.\nSpace Systems/Loral, un constructeur de satellites artificiels américain."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\herpétologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lordose": {
+    "type": "specialized",
+    "exact_terms": [
+      "lordose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lordose",
+          "synonyms": [
+            "lordose"
+          ]
+        },
+        {
+          "name": "correspond",
+          "synonyms": [
+            "correspond"
+          ]
+        },
+        {
+          "name": "courbure",
+          "synonyms": [
+            "courbure"
+          ]
+        },
+        {
+          "name": "colonne",
+          "synonyms": [
+            "colonne"
+          ]
+        },
+        {
+          "name": "vertébrale",
+          "synonyms": [
+            "vertébrale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lordose correspond à une courbure de la colonne vertébrale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lore": {
+    "type": "specialized",
+    "exact_terms": [
+      "lore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lore",
+          "synonyms": [
+            "lore"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "lorum",
+          "synonyms": [
+            "lorum"
+          ]
+        },
+        {
+          "name": "lanière",
+          "synonyms": [
+            "lanière"
+          ]
+        },
+        {
+          "name": "lore",
+          "synonyms": [
+            "lore"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lore (du latin lorum, « lanière ») peut être :\n\nle lore, partie entre les yeux et le bec chez les oiseaux, ou les yeux et les narines chez les squamates ;\nun prénom féminin germanique diminutif d'Éléonore ou basque signifiant « fleur » ;\nLore, personnage de Star Trek ;\nLore, un film australo-allemand de Cate Shortland (2012) ;\nle lore, emprunt à l'anglais signifiant « folklore », « tradition orale », « diégèse », est à l’origine désigné pour représenter l'histoire et les traditions autour d’un u..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lorica": {
+    "type": "specialized",
+    "exact_terms": [
+      "lorica"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lorica",
+          "synonyms": [
+            "lorica"
+          ]
+        },
+        {
+          "name": "était",
+          "synonyms": [
+            "était"
+          ]
+        },
+        {
+          "name": "armure",
+          "synonyms": [
+            "armure"
+          ]
+        },
+        {
+          "name": "romaine",
+          "synonyms": [
+            "romaine"
+          ]
+        },
+        {
+          "name": "voir",
+          "synonyms": [
+            "voir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lorica était une armure romaine, voir :\nLorica hamata\nLorica squamata\nLorica plumata\nLorica segmentata\nLorica (en), prière de protection (cuirasse)  des moines\nLa lorica, ou plastron, est aussi un cantique attribué à Saint Gildas.\nPrière de saint Patrick\nEn biologie :\nLe Litoria lorica est un papillon."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lotion": {
+    "type": "specialized",
+    "exact_terms": [
+      "lotion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lotion",
+          "synonyms": [
+            "lotion"
+          ]
+        },
+        {
+          "name": "préparation",
+          "synonyms": [
+            "préparation"
+          ]
+        },
+        {
+          "name": "soin",
+          "synonyms": [
+            "soin"
+          ]
+        },
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "suspension",
+          "synonyms": [
+            "suspension"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une lotion est une préparation de soin liquide (suspension aqueuse) que l'on applique sur la peau (voie cutanée) ou les cheveux pour soigner ou entretenir notamment l'épiderme aux endroits irrités ou rasés. On l'applique parfois avec de l'ouate."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "loupe": {
+    "type": "specialized",
+    "exact_terms": [
+      "loupe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "loupe",
+          "synonyms": [
+            "loupe"
+          ]
+        },
+        {
+          "name": "instrument",
+          "synonyms": [
+            "instrument"
+          ]
+        },
+        {
+          "name": "d'optique",
+          "synonyms": [
+            "d'optique"
+          ]
+        },
+        {
+          "name": "subjectif",
+          "synonyms": [
+            "subjectif"
+          ]
+        },
+        {
+          "name": "constitué",
+          "synonyms": [
+            "constitué"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une loupe est un instrument d'optique subjectif constitué d'une lentille convexe permettant d'obtenir d'un objet une image agrandie. La loupe est la forme la plus simple du microscope optique, qui, lui, est constitué de plusieurs lentilles : l'objectif et l'oculaire et d'un système d'éclairage élaboré complété d'un condenseur de lumière rendant le fond uni sans image parasite, et qui répond à la définition de système dioptrique centré."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lourd": {
+    "type": "specialized",
+    "exact_terms": [
+      "lourd"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lourd",
+          "synonyms": [
+            "lourd"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "ayant",
+          "synonyms": [
+            "ayant"
+          ]
+        },
+        {
+          "name": "acceptions",
+          "synonyms": [
+            "acceptions"
+          ]
+        },
+        {
+          "name": "première",
+          "synonyms": [
+            "première"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lourd peut désigner :\n\nun adjectif ayant plusieurs acceptions ; la première, subjective, fait référence à une masse importante. Exemples :\nun poids lourd est un véhicule routier de plus de 3,5 tonnes,\nen boxe, la catégorie  poids lourds est la catégorie des boxeurs pesant plus de 90,7 kg,\ndans le langage courant, une personne peut être qualifiée de lourde lorsqu'elle est ennuyante ou dérangeante,\nde nos jours, « lourd » peut signifier « dur » ou signifier la gravité d'une situation ;\nLourd, une ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "loutre géante": {
+    "type": "specialized",
+    "exact_terms": [
+      "loutre géante"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "loutre",
+          "synonyms": [
+            "loutre"
+          ]
+        },
+        {
+          "name": "géante",
+          "synonyms": [
+            "géante"
+          ]
+        },
+        {
+          "name": "loutre",
+          "synonyms": [
+            "loutre"
+          ]
+        },
+        {
+          "name": "géante",
+          "synonyms": [
+            "géante"
+          ]
+        },
+        {
+          "name": "brésil",
+          "synonyms": [
+            "brésil"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La Loutre géante, Loutre géante du Brésil ou Loutre géante sud-américaine (Pteronura brasiliensis) est un mammifère carnivore d'Amérique du Sud. C'est le plus grand représentant de la famille des Mustelidae, et l'unique représentant du genre Pteronura."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "louvat": {
+    "type": "specialized",
+    "exact_terms": [
+      "louvat"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "louvat",
+          "synonyms": [
+            "louvat"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "louvat",
+          "synonyms": [
+            "louvat"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        },
+        {
+          "name": "loup",
+          "synonyms": [
+            "loup"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Louvat peut faire référence à :\n\nun louvat, petit du loup ;\nl'impasse Louvat, voie française ;\nla villa Louvat, voie française ;\nGaspard Adrien Bonnet du Louvat de Champollon (1737-1810), général français."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
