@@ -13,8 +13,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from extract_by_domain import extract_domain_complete
 from domains_config_complete import DOMAINS_BY_CATEGORY
 
-# IMPORTANT: Répertoire de sortie sur disque externe F:\
-OUTPUT_DIR_EXTERNAL = Path("F:/extraction_quartz/extracted_by_domain")
+# IMPORTANT: Répertoire de sortie sur disque externe E:\
+OUTPUT_DIR_EXTERNAL = Path("E:/extraction_quartz/extracted_by_domain")
 
 # Configuration des domaines pour PC2
 PC2_DOMAINS = {

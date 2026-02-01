@@ -1,0 +1,117 @@
+================================================================================
+COMMANDES EXACTES POUR PC2 - DISQUE EXTERNE E:\
+COPIER-COLLER DIRECT
+================================================================================
+
+ÉTAPE 1 : PRÉPARATION SUR PC1 (Avant de débrancher le disque)
+================================================================================
+
+Créer la structure sur le disque externe (qui sera E:\ sur PC2) :
+
+mkdir E:\extraction_quartz
+mkdir E:\extraction_quartz\wikidata_extractor
+
+Copier tous les fichiers vers le disque :
+
+xcopy /E /I "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\*" "E:\extraction_quartz\wikidata_extractor\"
+
+
+ÉTAPE 2 : SUR PC2 - INSTALLATION (Une seule fois)
+================================================================================
+
+cd /d E:\extraction_quartz\wikidata_extractor
+
+pip install -r requirements.txt
+
+
+ÉTAPE 3 : SUR PC2 - LANCER L'EXTRACTION
+================================================================================
+
+OPTION A - Avec le fichier batch (RECOMMANDÉ) :
+
+Double-cliquer sur :
+E:\extraction_quartz\wikidata_extractor\lancer_extraction_pc2.bat
+
+
+OPTION B - En ligne de commande :
+
+cd /d E:\extraction_quartz\wikidata_extractor
+
+python extract_pc2_external.py
+
+Confirmer quand demandé : o
+
+
+ÉTAPE 4 : SUR PC2 - MONITORING TEMPS RÉEL (Optionnel - 2ème terminal)
+================================================================================
+
+cd /d E:\extraction_quartz\wikidata_extractor
+
+python watch_pc2_external.py
+
+
+ÉTAPE 5 : APRÈS EXTRACTION - COPIER VERS PC1
+================================================================================
+
+Débrancher E:\ de PC2, rebrancher sur PC1
+
+Sur PC1, dans le terminal :
+
+xcopy /E /I /Y "E:\extraction_quartz\extracted_by_domain\*" "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\"
+
+
+ÉTAPE 6 : FUSION FINALE SUR PC1
+================================================================================
+
+cd "C:\Users\robin tual\quartz\backend\src\wikidata_extractor"
+
+python extract_by_domain.py --merge-only
+
+
+================================================================================
+RÉSUMÉ ULTRA-RAPIDE
+================================================================================
+
+SUR PC1 (Préparation) :
+  xcopy /E /I "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\*" "E:\extraction_quartz\wikidata_extractor\"
+
+SUR PC2 (Installation) :
+  cd /d E:\extraction_quartz\wikidata_extractor
+  pip install -r requirements.txt
+
+SUR PC2 (Lancement) :
+  Double-cliquer : E:\extraction_quartz\wikidata_extractor\lancer_extraction_pc2.bat
+  OU taper : python extract_pc2_external.py
+
+SUR PC1 (Après extraction) :
+  xcopy /E /I /Y "E:\extraction_quartz\extracted_by_domain\*" "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\"
+  cd "C:\Users\robin tual\quartz\backend\src\wikidata_extractor"
+  python extract_by_domain.py --merge-only
+
+
+================================================================================
+STRUCTURE FINALE SUR E:\
+================================================================================
+
+E:\extraction_quartz\
+├── wikidata_extractor\              [CODE - vous copiez ici]
+│   ├── extract_pc2_external.py
+│   ├── lancer_extraction_pc2.bat    ⭐ Double-cliquer ici !
+│   ├── watch_pc2_external.py
+│   ├── extract_by_domain.py
+│   ├── domains_config_complete.py
+│   ├── wiktionary_extractor.py
+│   ├── wikipedia_extractor.py
+│   ├── arxiv_scraper.py
+│   └── requirements.txt
+│
+└── extracted_by_domain\             [DONNÉES - créé automatiquement]
+    ├── peinture\
+    ├── cinema\
+    ├── musique\
+    └── ... (21 domaines)
+
+
+================================================================================
+FIN
+================================================================================

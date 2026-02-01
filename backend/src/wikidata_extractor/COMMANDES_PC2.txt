@@ -1,0 +1,60 @@
+================================================================================
+COMMANDES EXACTES POUR PC2 - COPIER-COLLER DIRECT
+================================================================================
+
+ÉTAPE 1 : ALLER DANS LE RÉPERTOIRE
+================================================================================
+
+cd /d F:\extraction_quartz\wikidata_extractor
+
+
+ÉTAPE 2 : INSTALLER LES DÉPENDANCES (UNE SEULE FOIS)
+================================================================================
+
+pip install -r requirements.txt
+
+
+ÉTAPE 3 : LANCER L'EXTRACTION
+================================================================================
+
+python extract_pc2_external.py
+
+
+ÉTAPE 4 : MONITORING EN TEMPS RÉEL (OPTIONNEL - DANS UN 2ème TERMINAL)
+================================================================================
+
+cd /d F:\extraction_quartz\wikidata_extractor
+
+python watch_pc2_external.py
+
+
+================================================================================
+OU UTILISER LE FICHIER BATCH (PLUS SIMPLE)
+================================================================================
+
+Double-cliquer sur :
+
+F:\extraction_quartz\wikidata_extractor\lancer_extraction_pc2.bat
+
+
+================================================================================
+APRÈS L'EXTRACTION - COPIER VERS PC1
+================================================================================
+
+Sur PC1, dans le terminal :
+
+xcopy /E /I /Y "F:\extraction_quartz\extracted_by_domain\*" "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\"
+
+
+================================================================================
+FUSION FINALE SUR PC1
+================================================================================
+
+cd "C:\Users\robin tual\quartz\backend\src\wikidata_extractor"
+
+python extract_by_domain.py --merge-only
+
+
+================================================================================
+FIN
+================================================================================
