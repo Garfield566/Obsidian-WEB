@@ -210624,5 +210624,6849 @@
       "wikipedia"
     ],
     "confidence": 0.8
+  },
+  "plancton": {
+    "type": "specialized",
+    "exact_terms": [
+      "plancton"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        },
+        {
+          "name": "victor",
+          "synonyms": [
+            "victor"
+          ]
+        },
+        {
+          "name": "hensen",
+          "synonyms": [
+            "hensen"
+          ]
+        },
+        {
+          "name": "1887",
+          "synonyms": [
+            "1887"
+          ]
+        },
+        {
+          "name": "plancton",
+          "synonyms": [
+            "plancton"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Selon Victor Hensen (1887), le plancton (du grec ancien πλανκτός / planktós, « errant, instable ») est un groupe polyphylétique d'organismes généralement unicellulaires vivant dans les eaux douces, saumâtres et salées, le plus souvent en suspension et apparemment passivement : gamètes, larves, animaux inaptes à lutter contre le courant (petits crustacés planctoniques, siphonophores et méduses), végétaux et algues microscopiques. Les organismes planctoniques sont donc définis à partir de leur nic..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie marine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "planctonivore": {
+    "type": "specialized",
+    "exact_terms": [
+      "planctonivore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "planctonivore",
+          "synonyms": [
+            "planctonivore"
+          ]
+        },
+        {
+          "name": "planctotrophe",
+          "synonyms": [
+            "planctotrophe"
+          ]
+        },
+        {
+          "name": "planctonophage",
+          "synonyms": [
+            "planctonophage"
+          ]
+        },
+        {
+          "name": "animal",
+          "synonyms": [
+            "animal"
+          ]
+        },
+        {
+          "name": "nourrissant",
+          "synonyms": [
+            "nourrissant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un planctonivore, planctotrophe ou planctonophage est un animal se nourrissant de plancton. Sont planctonivores divers poissons (le Requin baleine, le requin pèlerin, la raie manta) et certains mammifères marins tels la baleine bleue."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\hydrobiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "planogamie": {
+    "type": "specialized",
+    "exact_terms": [
+      "planogamie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "botanique",
+          "synonyms": [
+            "botanique"
+          ]
+        },
+        {
+          "name": "planogamie",
+          "synonyms": [
+            "planogamie"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "fécondation",
+          "synonyms": [
+            "fécondation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En botanique, la planogamie désigne une forme de fécondation où les gamètes mâles et femelles sont flagellés et mobiles. La planogamie peut être isogame comme chez les Chlamydomonas ou anisogame comme dans le cas de l’Ulva lactuca."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plante": {
+    "type": "specialized",
+    "exact_terms": [
+      "plante"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plantes",
+          "synonyms": [
+            "plantes"
+          ]
+        },
+        {
+          "name": "plantae",
+          "synonyms": [
+            "plantae"
+          ]
+        },
+        {
+          "name": "organismes",
+          "synonyms": [
+            "organismes"
+          ]
+        },
+        {
+          "name": "photosynthétiques",
+          "synonyms": [
+            "photosynthétiques"
+          ]
+        },
+        {
+          "name": "autotrophes",
+          "synonyms": [
+            "autotrophes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les plantes (Plantae) sont des organismes photosynthétiques et autotrophes, caractérisés par des cellules végétales. Elles forment l'un des règnes des Eukaryota, regroupant notamment les plantes terrestres (Embryophytes), les algues vertes et les algues rouges (voir l'arbre phylogénétique plus bas)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plante médicinale": {
+    "type": "specialized",
+    "exact_terms": [
+      "plante médicinale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plante",
+          "synonyms": [
+            "plante"
+          ]
+        },
+        {
+          "name": "médicinale",
+          "synonyms": [
+            "médicinale"
+          ]
+        },
+        {
+          "name": "plante",
+          "synonyms": [
+            "plante"
+          ]
+        },
+        {
+          "name": "utilisée",
+          "synonyms": [
+            "utilisée"
+          ]
+        },
+        {
+          "name": "propriétés",
+          "synonyms": [
+            "propriétés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une plante médicinale est une plante utilisée pour ses propriétés particulières bénéfiques pour la santé humaine, voire animale.\nD'abord appelées « simples » à partir du Moyen Âge en médecine médiévale, elles correspondent aujourd'hui à des produits issus de la phytothérapie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie\\pharmacologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "planula": {
+    "type": "specialized",
+    "exact_terms": [
+      "planula"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "planula",
+          "synonyms": [
+            "planula"
+          ]
+        },
+        {
+          "name": "planaire",
+          "synonyms": [
+            "planaire"
+          ]
+        },
+        {
+          "name": "larve",
+          "synonyms": [
+            "larve"
+          ]
+        },
+        {
+          "name": "ciliée",
+          "synonyms": [
+            "ciliée"
+          ]
+        },
+        {
+          "name": "aplatie",
+          "synonyms": [
+            "aplatie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La planula, ou planaire, est la larve ciliée, aplatie, à symétrie radiale et nageant librement, qui résulte de la fécondation d'un gamète femelle par un gamète mâle chez diverses variétés de cnidaires Scyphozoa et Hydrozoa, mais aussi qui se génère directement à partir d'un polype chez les Anthozoa.\nLa locomotion de la planula est assurée par des cils microscopiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "planum temporale": {
+    "type": "specialized",
+    "exact_terms": [
+      "planum temporale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "planum",
+          "synonyms": [
+            "planum"
+          ]
+        },
+        {
+          "name": "temporale",
+          "synonyms": [
+            "temporale"
+          ]
+        },
+        {
+          "name": "gyrus",
+          "synonyms": [
+            "gyrus"
+          ]
+        },
+        {
+          "name": "lobe",
+          "synonyms": [
+            "lobe"
+          ]
+        },
+        {
+          "name": "temporal",
+          "synonyms": [
+            "temporal"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le planum temporale (PT) est un gyrus du lobe temporal du cortex cérébral. Il est situé sur la face supérieure du gyrus temporal supérieur, à l'intérieur de la scissure de Sylvius,  postérieurement au gyrus de Heschl et en s'enfonçant dans le cerveau jusqu'à l'insula."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "planète super-habitable": {
+    "type": "specialized",
+    "exact_terms": [
+      "planète super-habitable"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "planète",
+          "synonyms": [
+            "planète"
+          ]
+        },
+        {
+          "name": "super-habitable",
+          "synonyms": [
+            "super-habitable"
+          ]
+        },
+        {
+          "name": "superhabitable",
+          "synonyms": [
+            "superhabitable"
+          ]
+        },
+        {
+          "name": "globalement",
+          "synonyms": [
+            "globalement"
+          ]
+        },
+        {
+          "name": "monde",
+          "synonyms": [
+            "monde"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une planète super-habitable ou superhabitable ou, plus globalement, un monde super-habitable, est une planète ou une lune qui présente des conditions plus appropriées pour l'émergence et l'évolution de la vie que la Terre. Cette classe d'objets demeure actuellement hypothétique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\astrobiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plaque": {
+    "type": "specialized",
+    "exact_terms": [
+      "plaque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plaque",
+          "synonyms": [
+            "plaque"
+          ]
+        },
+        {
+          "name": "différentes",
+          "synonyms": [
+            "différentes"
+          ]
+        },
+        {
+          "name": "significations",
+          "synonyms": [
+            "significations"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "plaque",
+          "synonyms": [
+            "plaque"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme plaque peut avoir différentes significations :\n\nen biologie :\nune plaque 96 puits est un outil utilisé en biologie moléculaire ;\nune plaque équatoriale est formée par le rassemblement des chromosomes condensés à l'équateur de la cellule ;\nune plaque virale (ou plage virale)  est une « zone » différentiée apparaissant au sein d'une culture virale\nen médecine :\nla plaque motrice désigne l'endroit où s'effectue la jonction neuromusculaire ;\nla sclérose en plaques est une maladie neurologiq..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plaque motrice": {
+    "type": "specialized",
+    "exact_terms": [
+      "plaque motrice"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plaque",
+          "synonyms": [
+            "plaque"
+          ]
+        },
+        {
+          "name": "motrice",
+          "synonyms": [
+            "motrice"
+          ]
+        },
+        {
+          "name": "zone",
+          "synonyms": [
+            "zone"
+          ]
+        },
+        {
+          "name": "spécialisée",
+          "synonyms": [
+            "spécialisée"
+          ]
+        },
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La plaque motrice est une zone spécialisée de la membrane des cellules musculaires squelettiques comprenant des récepteurs cholinergiques . Elle fait partie de la jonction neuromusculaire et permet la réception de l’acétylcholine, neurotransmetteur libéré par le motoneurone dans la fente synaptique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasma": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasma"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasma",
+          "synonyms": [
+            "plasma"
+          ]
+        },
+        {
+          "name": "vient",
+          "synonyms": [
+            "vient"
+          ]
+        },
+        {
+          "name": "usages",
+          "synonyms": [
+            "usages"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "plasma",
+          "synonyms": [
+            "plasma"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme plasma vient, dans tous ses usages, du latin plasma, « créature [l'homme formé du limon de la terre] », emprunté au grec πλάσμα / plásma « ouvrage façonné, modelé, figure »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasma sanguin": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasma sanguin"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasma",
+          "synonyms": [
+            "plasma"
+          ]
+        },
+        {
+          "name": "sanguin",
+          "synonyms": [
+            "sanguin"
+          ]
+        },
+        {
+          "name": "composant",
+          "synonyms": [
+            "composant"
+          ]
+        },
+        {
+          "name": "liquide",
+          "synonyms": [
+            "liquide"
+          ]
+        },
+        {
+          "name": "sang",
+          "synonyms": [
+            "sang"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le plasma sanguin est le composant liquide du sang, dans lequel les cellules sanguines sont en suspension. Il constitue 55 % du volume total du sang."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasmaphérèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasmaphérèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasmaphérèse",
+          "synonyms": [
+            "plasmaphérèse"
+          ]
+        },
+        {
+          "name": "prélèvement",
+          "synonyms": [
+            "prélèvement"
+          ]
+        },
+        {
+          "name": "plasma",
+          "synonyms": [
+            "plasma"
+          ]
+        },
+        {
+          "name": "sanguin",
+          "synonyms": [
+            "sanguin"
+          ]
+        },
+        {
+          "name": "plasma",
+          "synonyms": [
+            "plasma"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La plasmaphérèse est le prélèvement du plasma sanguin. Le plasma prélevé chez le donneur de sang est utilisé pour le traitement de diverses maladies ."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasmide": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasmide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microbiologie",
+          "synonyms": [
+            "microbiologie"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "moléculaire",
+          "synonyms": [
+            "moléculaire"
+          ]
+        },
+        {
+          "name": "plasmide",
+          "synonyms": [
+            "plasmide"
+          ]
+        },
+        {
+          "name": "molécule",
+          "synonyms": [
+            "molécule"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En microbiologie et en biologie moléculaire, un plasmide est une molécule d'ADN distincte de l'ADN chromosomique, capable de réplication autonome et non essentielle à la survie de la cellule. Les plasmides sont bicaténaires (constitués de deux brins complémentaires) et généralement circulaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasmine": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasmine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasmine",
+          "synonyms": [
+            "plasmine"
+          ]
+        },
+        {
+          "name": "peptidase",
+          "synonyms": [
+            "peptidase"
+          ]
+        },
+        {
+          "name": "catalyse",
+          "synonyms": [
+            "catalyse"
+          ]
+        },
+        {
+          "name": "l'hydrolyse",
+          "synonyms": [
+            "l'hydrolyse"
+          ]
+        },
+        {
+          "name": "liaisons",
+          "synonyms": [
+            "liaisons"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La plasmine est une peptidase qui catalyse l'hydrolyse des liaisons peptidiques situées préférentiellement après un résidu de lysine ou un résidu d'arginine. Elle possède à cet égard une plus grande sélectivité que la trypsine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasmocyte": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasmocyte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasmocytes",
+          "synonyms": [
+            "plasmocytes"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "terminales",
+          "synonyms": [
+            "terminales"
+          ]
+        },
+        {
+          "name": "effectrices",
+          "synonyms": [
+            "effectrices"
+          ]
+        },
+        {
+          "name": "responsables",
+          "synonyms": [
+            "responsables"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les plasmocytes sont des cellules terminales effectrices responsables de la production d’anticorps circulants, qui assurent la protection contre les agents pathogènes envahissants .\nLe plasmocyte regroupe deux types de  cellule productrice d'anticorps : le plasmoctyte à courte durée de vie (plamoblaste à courte durée de vie dans la littérature scientifique en langue anglaise) et le plasmocyte à longue durée de vie ."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasmode": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasmode"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasmode",
+          "synonyms": [
+            "plasmode"
+          ]
+        },
+        {
+          "name": "plasmodium",
+          "synonyms": [
+            "plasmodium"
+          ]
+        },
+        {
+          "name": "thalle",
+          "synonyms": [
+            "thalle"
+          ]
+        },
+        {
+          "name": "plasmodial",
+          "synonyms": [
+            "plasmodial"
+          ]
+        },
+        {
+          "name": "masse",
+          "synonyms": [
+            "masse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un plasmode, plasmodium ou thalle plasmodial, est une masse de cytoplasme molle, déformable, sans paroi squelettique, dans laquelle le noyau s'est divisé un grand nombre de fois sans qu'il y ait eu de cloisonnement par des membranes plasmiques.\nDans un plasmode, chaque noyau et le cytoplasme qui l'entoure constituent une énergide."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasmodesme": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasmodesme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasmodesme",
+          "synonyms": [
+            "plasmodesme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "πλάσμα",
+          "synonyms": [
+            "πλάσμα"
+          ]
+        },
+        {
+          "name": "plásma",
+          "synonyms": [
+            "plásma"
+          ]
+        },
+        {
+          "name": "chose",
+          "synonyms": [
+            "chose"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un plasmodesme (du grec πλάσμα / plásma, « chose façonnée », et δεσμός / desmos, « lien ») est un canal traversant la paroi cellulaire des plantes, constituant la voie de passage de l'eau, des solutés, des phytohormones et des virus phytopathogènes qui se répandent à travers la plante. Ces connexions cytoplasmiques entre cellules végétales ont été décrites par le botaniste autrichien Eduard Tangl (de) à la fin du XIXe siècle, et dénommées Plasmodesmos quelques années plus tard par le botaniste a..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasmodium": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasmodium"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasmodium",
+          "synonyms": [
+            "plasmodium"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "protozoaires",
+          "synonyms": [
+            "protozoaires"
+          ]
+        },
+        {
+          "name": "organismes",
+          "synonyms": [
+            "organismes"
+          ]
+        },
+        {
+          "name": "unicellulaires",
+          "synonyms": [
+            "unicellulaires"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Plasmodium est un genre de protozoaires — des organismes unicellulaires — parasites, dont cinq espèces causent le paludisme chez l'être humain."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasmogamie": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasmogamie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasmogamie",
+          "synonyms": [
+            "plasmogamie"
+          ]
+        },
+        {
+          "name": "plasma",
+          "synonyms": [
+            "plasma"
+          ]
+        },
+        {
+          "name": "gamos",
+          "synonyms": [
+            "gamos"
+          ]
+        },
+        {
+          "name": "mariage",
+          "synonyms": [
+            "mariage"
+          ]
+        },
+        {
+          "name": "étape",
+          "synonyms": [
+            "étape"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La plasmogamie (de plasma et gamos, mariage) est une étape de la reproduction sexuée des champignons, dans laquelle le cytoplasme de deux cellules mères (généralement du mycélium) fusionne sans fusion de noyaux, rapprochant ainsi deux noyaux haploïdes dans la même cellule. Cet état est suivi par la caryogamie, où les deux noyaux fusionnent puis subissent une méiose pour produire des spores."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plaste": {
+    "type": "specialized",
+    "exact_terms": [
+      "plaste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plaste",
+          "synonyms": [
+            "plaste"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "plastide",
+          "synonyms": [
+            "plastide"
+          ]
+        },
+        {
+          "name": "organite",
+          "synonyms": [
+            "organite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le plaste, appelé aussi plastide, est un organite présent dans les cellules des eucaryotes chlorophylliens (algues et plantes). Un plaste possède une enveloppe composée d'une ou plusieurs membranes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plasticité phénotypique": {
+    "type": "specialized",
+    "exact_terms": [
+      "plasticité phénotypique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plasticité",
+          "synonyms": [
+            "plasticité"
+          ]
+        },
+        {
+          "name": "phénotypique",
+          "synonyms": [
+            "phénotypique"
+          ]
+        },
+        {
+          "name": "capacité",
+          "synonyms": [
+            "capacité"
+          ]
+        },
+        {
+          "name": "organisme",
+          "synonyms": [
+            "organisme"
+          ]
+        },
+        {
+          "name": "exprimer",
+          "synonyms": [
+            "exprimer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La plasticité phénotypique « est la capacité d'un organisme à exprimer différents phénotypes » en fonction de son environnement.\nChez les plantes comme chez les animaux, les gènes reflètent qui nous sommes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie évolutive",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plastron": {
+    "type": "specialized",
+    "exact_terms": [
+      "plastron"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plastron",
+          "synonyms": [
+            "plastron"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        },
+        {
+          "name": "plastron",
+          "synonyms": [
+            "plastron"
+          ]
+        },
+        {
+          "name": "pièce",
+          "synonyms": [
+            "pièce"
+          ]
+        },
+        {
+          "name": "d'armure",
+          "synonyms": [
+            "d'armure"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Plastron fait notamment référence à :\n\nLe plastron, une pièce d'armure qui protège la poitrine.\nLe plastron, un élément du système de protection utilisé en taekwondo."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plateau": {
+    "type": "specialized",
+    "exact_terms": [
+      "plateau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "manière",
+          "synonyms": [
+            "manière"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "plateau",
+          "synonyms": [
+            "plateau"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "D'une manière générale, un plateau désigne un objet présentant une face plane."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\habitat",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plateau technique": {
+    "type": "specialized",
+    "exact_terms": [
+      "plateau technique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plateau",
+          "synonyms": [
+            "plateau"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "plateau",
+          "synonyms": [
+            "plateau"
+          ]
+        },
+        {
+          "name": "médico-technique",
+          "synonyms": [
+            "médico-technique"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un plateau technique ou plateau médico-technique est un ensemble de lieux et d'équipements qui permettent de réaliser, généralement à l'hôpital, des actes curatifs ou diagnostiques. \nLes progrès des techniques et technologies médicales conduisent globalement à une montée en puissance des plateaux techniques, les établissements de santé cherchant à se doter de plateaux techniques complets ou en pointe sur certains domaines."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pleur": {
+    "type": "specialized",
+    "exact_terms": [
+      "pleur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pleur",
+          "synonyms": [
+            "pleur"
+          ]
+        },
+        {
+          "name": "état",
+          "synonyms": [
+            "état"
+          ]
+        },
+        {
+          "name": "manifesté",
+          "synonyms": [
+            "manifesté"
+          ]
+        },
+        {
+          "name": "larmes",
+          "synonyms": [
+            "larmes"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le pleur est un état manifesté par des larmes chez les humains. Les pleurs sont généralement provoqués par une émotion forte ou par une agression extérieure."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\cris d’animaux",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pleure": {
+    "type": "specialized",
+    "exact_terms": [
+      "pleure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pleure",
+          "synonyms": [
+            "pleure"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "française",
+          "synonyms": [
+            "française"
+          ]
+        },
+        {
+          "name": "située",
+          "synonyms": [
+            "située"
+          ]
+        },
+        {
+          "name": "département",
+          "synonyms": [
+            "département"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pleure est une commune française située dans le département du Jura, dans la région culturelle et historique de Franche-Comté et la région administrative Bourgogne-Franche-Comté."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pleurodonte": {
+    "type": "specialized",
+    "exact_terms": [
+      "pleurodonte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pleurodonte",
+          "synonyms": [
+            "pleurodonte"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "denture",
+          "synonyms": [
+            "denture"
+          ]
+        },
+        {
+          "name": "dents",
+          "synonyms": [
+            "dents"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pleurodonte peut faire référence à:\n\nun type de denture où les dents se soudent latéralement contre le bord interne des mâchoires ;\nPleurodonte (d) Fischer von Waldheim, 1807 :  un genre d'escargots de la famille des Pleurodontidae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pleuron": {
+    "type": "specialized",
+    "exact_terms": [
+      "pleuron"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pleuron",
+          "synonyms": [
+            "pleuron"
+          ]
+        },
+        {
+          "name": "cité",
+          "synonyms": [
+            "cité"
+          ]
+        },
+        {
+          "name": "grèce",
+          "synonyms": [
+            "grèce"
+          ]
+        },
+        {
+          "name": "antique",
+          "synonyms": [
+            "antique"
+          ]
+        },
+        {
+          "name": "étolie",
+          "synonyms": [
+            "étolie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pleuron est une cité de Grèce antique en Étolie.\nPleuron est un héros de la mythologie grecque, éponyme de la ville."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pleurésie": {
+    "type": "specialized",
+    "exact_terms": [
+      "pleurésie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pleurésie",
+          "synonyms": [
+            "pleurésie"
+          ]
+        },
+        {
+          "name": "inflammation",
+          "synonyms": [
+            "inflammation"
+          ]
+        },
+        {
+          "name": "aiguë",
+          "synonyms": [
+            "aiguë"
+          ]
+        },
+        {
+          "name": "chronique",
+          "synonyms": [
+            "chronique"
+          ]
+        },
+        {
+          "name": "membranes",
+          "synonyms": [
+            "membranes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pleurésie est une inflammation aiguë ou chronique des membranes qui entourent le poumon et la cavité thoracique (la plèvre), avec ou sans épanchement. Les symptômes en sont notamment une douleur sourde liée à la friction entre les membranes de la plèvre qui ne glissent plus normalement, laquelle s'accentue en cas de toux, de fièvre, de difficultés respiratoires, etc."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plexus brachial": {
+    "type": "specialized",
+    "exact_terms": [
+      "plexus brachial"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plexus",
+          "synonyms": [
+            "plexus"
+          ]
+        },
+        {
+          "name": "brachial",
+          "synonyms": [
+            "brachial"
+          ]
+        },
+        {
+          "name": "réseau",
+          "synonyms": [
+            "réseau"
+          ]
+        },
+        {
+          "name": "plexus",
+          "synonyms": [
+            "plexus"
+          ]
+        },
+        {
+          "name": "nerveux",
+          "synonyms": [
+            "nerveux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le plexus brachial est un réseau ou plexus nerveux situé à la base du cou et dans la partie postérieure de la région axillaire. Sa principale fonction est l'innervation somatique et autonome des membres supérieurs (bras)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plexus cœliaque": {
+    "type": "specialized",
+    "exact_terms": [
+      "plexus cœliaque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plexus",
+          "synonyms": [
+            "plexus"
+          ]
+        },
+        {
+          "name": "cœliaque",
+          "synonyms": [
+            "cœliaque"
+          ]
+        },
+        {
+          "name": "anciennement",
+          "synonyms": [
+            "anciennement"
+          ]
+        },
+        {
+          "name": "plexus",
+          "synonyms": [
+            "plexus"
+          ]
+        },
+        {
+          "name": "solaire",
+          "synonyms": [
+            "solaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le plexus cœliaque (anciennement plexus solaire par référence à la forme rayonnée du soleil) est un plexus nerveux situé dans l'abdomen autour de l'origine du tronc cœliaque et de l'artère mésentérique supérieure. Il comporte notamment trois paires de ganglions : cœliaques (anciennement semi-lunaires), mésentériques supérieurs et aortico-rénaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plexus nerveux": {
+    "type": "specialized",
+    "exact_terms": [
+      "plexus nerveux"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "règne",
+          "synonyms": [
+            "règne"
+          ]
+        },
+        {
+          "name": "animal",
+          "synonyms": [
+            "animal"
+          ]
+        },
+        {
+          "name": "plexus",
+          "synonyms": [
+            "plexus"
+          ]
+        },
+        {
+          "name": "nerveux",
+          "synonyms": [
+            "nerveux"
+          ]
+        },
+        {
+          "name": "réseaux",
+          "synonyms": [
+            "réseaux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le règne animal, les plexus nerveux sont des réseaux de fibres nerveuses pouvant présenter ou non une anastomose. On retrouve ce type de structure dans le système nerveux des cnidaires et des vers plats."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pliohippus": {
+    "type": "specialized",
+    "exact_terms": [
+      "pliohippus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pliohippus",
+          "synonyms": [
+            "pliohippus"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "équidé",
+          "synonyms": [
+            "équidé"
+          ]
+        },
+        {
+          "name": "fossile",
+          "synonyms": [
+            "fossile"
+          ]
+        },
+        {
+          "name": "miocène",
+          "synonyms": [
+            "miocène"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pliohippus est un genre d’équidé fossile du Miocène présent en Amérique du Nord, ancêtre fossile du cheval du Pliocène, il avait des doigts latéraux très réduits.\nIl apparut il y a 12 millions d'années en Amérique du Nord et disparut il y a environ 5 millions d'années."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ploïdie": {
+    "type": "specialized",
+    "exact_terms": [
+      "ploïdie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ploïdie",
+          "synonyms": [
+            "ploïdie"
+          ]
+        },
+        {
+          "name": "nombre",
+          "synonyms": [
+            "nombre"
+          ]
+        },
+        {
+          "name": "d'exemplaires",
+          "synonyms": [
+            "d'exemplaires"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "donnée",
+          "synonyms": [
+            "donnée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La ploïdie est le nombre d'exemplaires, dans une cellule donnée ou dans les cellules d'un organisme, de jeux complets des chromosomes du génome de ce type d'organisme. On désigne par n le nombre de chromosomes d'un seul jeu complet :\n\nune cellule est haploïde si elle possède un jeu complet, soit n chromosomes ;\nelle est diploïde si elle possède deux jeux, donc 2 n chromosomes, organisés en n paires ;\nelle est polyploïde si elle possède au moins trois jeux : triploïde (3 n chromosomes), tétraploï..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plug anal": {
+    "type": "specialized",
+    "exact_terms": [
+      "plug anal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plug",
+          "synonyms": [
+            "plug"
+          ]
+        },
+        {
+          "name": "anal",
+          "synonyms": [
+            "anal"
+          ]
+        },
+        {
+          "name": "l'anglais",
+          "synonyms": [
+            "l'anglais"
+          ]
+        },
+        {
+          "name": "plug",
+          "synonyms": [
+            "plug"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un plug anal (de l'anglais plug, signifiant bouchon mâle, fiche), est un jouet sexuel de forme conique destiné à être introduit dans l'anus, afin de provoquer une excitation sexuelle. Il permet aussi d'élargir l'anus pour préparer à la sodomie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plumage éclipse": {
+    "type": "specialized",
+    "exact_terms": [
+      "plumage éclipse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plumage",
+          "synonyms": [
+            "plumage"
+          ]
+        },
+        {
+          "name": "éclipse",
+          "synonyms": [
+            "éclipse"
+          ]
+        },
+        {
+          "name": "plumage",
+          "synonyms": [
+            "plumage"
+          ]
+        },
+        {
+          "name": "d'éclipse",
+          "synonyms": [
+            "d'éclipse"
+          ]
+        },
+        {
+          "name": "phase",
+          "synonyms": [
+            "phase"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le plumage éclipse, plumage d'éclipse ou phase d'éclipse  est le plumage que présentent les oiseaux mâles en dehors de la période de reproduction."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plume": {
+    "type": "specialized",
+    "exact_terms": [
+      "plume"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plume",
+          "synonyms": [
+            "plume"
+          ]
+        },
+        {
+          "name": "élément",
+          "synonyms": [
+            "élément"
+          ]
+        },
+        {
+          "name": "caractéristique",
+          "synonyms": [
+            "caractéristique"
+          ]
+        },
+        {
+          "name": "classe",
+          "synonyms": [
+            "classe"
+          ]
+        },
+        {
+          "name": "oiseaux",
+          "synonyms": [
+            "oiseaux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La plume, élément caractéristique de la classe des oiseaux, est une production tégumentaire complexe constituée de β-kératine. Comme les poils, les écailles, les ongles, les griffes ou les sabots, les plumes sont des phanères."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\ornithologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plume sétiforme": {
+    "type": "specialized",
+    "exact_terms": [
+      "plume sétiforme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "vibrisses",
+          "synonyms": [
+            "vibrisses"
+          ]
+        },
+        {
+          "name": "plumes",
+          "synonyms": [
+            "plumes"
+          ]
+        },
+        {
+          "name": "sétiformes",
+          "synonyms": [
+            "sétiformes"
+          ]
+        },
+        {
+          "name": "plumes",
+          "synonyms": [
+            "plumes"
+          ]
+        },
+        {
+          "name": "tectrices",
+          "synonyms": [
+            "tectrices"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les vibrisses ou plumes sétiformes sont des plumes tectrices modifiées très fines disposées le plus souvent sur le front et les commissures des yeux et au coin du bec, leur majeure partie (distale) étant dépourvue de barbes et réduite au rachis.\nComme les filoplumes, elles sont des récepteurs sensoriels chez les oiseaux comme les poils le sont pour les mammifères."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plumeau": {
+    "type": "specialized",
+    "exact_terms": [
+      "plumeau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plumeau",
+          "synonyms": [
+            "plumeau"
+          ]
+        },
+        {
+          "name": "instrument",
+          "synonyms": [
+            "instrument"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "nettoyage",
+          "synonyms": [
+            "nettoyage"
+          ]
+        },
+        {
+          "name": "constitué",
+          "synonyms": [
+            "constitué"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un plumeau est un instrument utilisé pour le nettoyage. Il est constitué d'une poignée et d'un bout composé de plumes naturelles ou artificielles qui forme la partie nettoyante en contact avec la surface."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine\\hygiène",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plumule": {
+    "type": "specialized",
+    "exact_terms": [
+      "plumule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "plumule",
+          "synonyms": [
+            "plumule"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "plumula",
+          "synonyms": [
+            "plumula"
+          ]
+        },
+        {
+          "name": "même",
+          "synonyms": [
+            "même"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot « plumule », du latin plumula (même sens), désigne originellement une petite plume. On l'emploie en biologie dans deux contextes différents :\n\nen botanique, la plumule d'un germe est le précurseur de la tige et des deux premières feuilles ;\nen ornithologie, les plumules sont de très petites plumes sur les tarses des oiseaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\ornithologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pluripotence": {
+    "type": "specialized",
+    "exact_terms": [
+      "pluripotence"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pluripotence",
+          "synonyms": [
+            "pluripotence"
+          ]
+        },
+        {
+          "name": "faculté",
+          "synonyms": [
+            "faculté"
+          ]
+        },
+        {
+          "name": "certaines",
+          "synonyms": [
+            "certaines"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "différencier",
+          "synonyms": [
+            "différencier"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pluripotence est la faculté de certaines cellules à se différencier en cellules d'un des trois feuillets embryonnaires (ectoderme, mésoderme et endoderme), ou cellules germinales.\n\nCeci les différencie des cellules souches unipotentes, multipotentes, et totipotentes (qui peuvent se différencier en tout type de cellule spécialisée)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pluteus": {
+    "type": "specialized",
+    "exact_terms": [
+      "pluteus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pluteus",
+          "synonyms": [
+            "pluteus"
+          ]
+        },
+        {
+          "name": "pluteus",
+          "synonyms": [
+            "pluteus"
+          ]
+        },
+        {
+          "name": "larve",
+          "synonyms": [
+            "larve"
+          ]
+        },
+        {
+          "name": "d'échinidé",
+          "synonyms": [
+            "d'échinidé"
+          ]
+        },
+        {
+          "name": "pluteus",
+          "synonyms": [
+            "pluteus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pluteus peut désigner:\n\nPluteus, une larve d'échinidé ;\nPluteus un genre de champignon de la famille des Pluteaceae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "plèvre": {
+    "type": "specialized",
+    "exact_terms": [
+      "plèvre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "plèvre",
+          "synonyms": [
+            "plèvre"
+          ]
+        },
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        },
+        {
+          "name": "séreuse",
+          "synonyms": [
+            "séreuse"
+          ]
+        },
+        {
+          "name": "délimitant",
+          "synonyms": [
+            "délimitant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En anatomie, la plèvre est une membrane séreuse délimitant un espace virtuel (c'est-à-dire vide dans les situations normales) situé entre les poumons en dedans et la cage thoracique en dehors."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pléiotropie": {
+    "type": "specialized",
+    "exact_terms": [
+      "pléiotropie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pléiotropie",
+          "synonyms": [
+            "pléiotropie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "pleion",
+          "synonyms": [
+            "pleion"
+          ]
+        },
+        {
+          "name": "πλείων",
+          "synonyms": [
+            "πλείων"
+          ]
+        },
+        {
+          "name": "tropê",
+          "synonyms": [
+            "tropê"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pléiotropie, du grec pleion (πλείων, « plus »), et tropê (τροπή, « changement ») qualifie un gène ou une protéine qui détermine plusieurs caractères phénotypiques.\nPar conséquent, le phénotype induit par une mutation de ce gène n'est pas le reflet de l'effet sur une seule et unique fonction induite par ce gène, mais la combinaison des effets sur plusieurs de ces caractères."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pléon": {
+    "type": "specialized",
+    "exact_terms": [
+      "pléon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pléon",
+          "synonyms": [
+            "pléon"
+          ]
+        },
+        {
+          "name": "abdomen",
+          "synonyms": [
+            "abdomen"
+          ]
+        },
+        {
+          "name": "tagme",
+          "synonyms": [
+            "tagme"
+          ]
+        },
+        {
+          "name": "postérieur",
+          "synonyms": [
+            "postérieur"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le pléon (ou abdomen) est le tagme postérieur chez les crustacés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pléopode": {
+    "type": "specialized",
+    "exact_terms": [
+      "pléopode"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pléopodes",
+          "synonyms": [
+            "pléopodes"
+          ]
+        },
+        {
+          "name": "appendices",
+          "synonyms": [
+            "appendices"
+          ]
+        },
+        {
+          "name": "locomoteurs",
+          "synonyms": [
+            "locomoteurs"
+          ]
+        },
+        {
+          "name": "portés",
+          "synonyms": [
+            "portés"
+          ]
+        },
+        {
+          "name": "pléon",
+          "synonyms": [
+            "pléon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les pléopodes sont des appendices locomoteurs portés par le pléon (abdomen) de certains crustacés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pléthysmographie": {
+    "type": "specialized",
+    "exact_terms": [
+      "pléthysmographie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pléthysmographie",
+          "synonyms": [
+            "pléthysmographie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "plethysmo",
+          "synonyms": [
+            "plethysmo"
+          ]
+        },
+        {
+          "name": "augmentation",
+          "synonyms": [
+            "augmentation"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pléthysmographie (du grec plethysmo, « augmentation») est un ensemble de méthodes servant à mesurer des volumes. En médecine, elle est principalement utilisée en cardiologie et en pneumologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pneuma": {
+    "type": "specialized",
+    "exact_terms": [
+      "pneuma"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pneuma",
+          "synonyms": [
+            "pneuma"
+          ]
+        },
+        {
+          "name": "πνεῦμα",
+          "synonyms": [
+            "πνεῦμα"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "souffle",
+          "synonyms": [
+            "souffle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pneuma (πνεῦμα) est un mot du grec ancien pour « souffle », et dans un contexte religieux, pour « esprit » ou « âme ». Ce terme a différentes significations pour les écrivains spécialisés dans le domaine médical ainsi que les philosophes de l'antiquité classique, notamment en ce qui concerne la physiologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pneumatisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "pneumatisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pneumatisation",
+          "synonyms": [
+            "pneumatisation"
+          ]
+        },
+        {
+          "name": "formation",
+          "synonyms": [
+            "formation"
+          ]
+        },
+        {
+          "name": "d'alvéoles",
+          "synonyms": [
+            "d'alvéoles"
+          ]
+        },
+        {
+          "name": "cavités",
+          "synonyms": [
+            "cavités"
+          ]
+        },
+        {
+          "name": "remplies",
+          "synonyms": [
+            "remplies"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pneumatisation est la formation d'alvéoles ou de cavités remplies d'air dans un tissu, notamment dans les os pneumatiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pneumatologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "pneumatologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pneumatologie",
+          "synonyms": [
+            "pneumatologie"
+          ]
+        },
+        {
+          "name": "philosophie",
+          "synonyms": [
+            "philosophie"
+          ]
+        },
+        {
+          "name": "branche",
+          "synonyms": [
+            "branche"
+          ]
+        },
+        {
+          "name": "métaphysique",
+          "synonyms": [
+            "métaphysique"
+          ]
+        },
+        {
+          "name": "classique",
+          "synonyms": [
+            "classique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pneumatologie, en philosophie, est une branche de la métaphysique classique de Malebranche (1638-1715) qui se propose d'étudier l'esprit et les choses spirituelles ; ce que l'on appelle aujourd'hui la philosophie de l'esprit.\nPneumatologie est le terme choisi par Jeremy Bentham (1748-1832), dans l'extrait \"Essai sur la nomenclature et la classification des principales branches d’Art et Science\" constitué par George Bentham, écrit page 83 : \"Le nom de pneumatologie que j'ai donné à l'autre bra..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pneumatophore": {
+    "type": "specialized",
+    "exact_terms": [
+      "pneumatophore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pneumatophore",
+          "synonyms": [
+            "pneumatophore"
+          ]
+        },
+        {
+          "name": "préfixe",
+          "synonyms": [
+            "préfixe"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "pneumat",
+          "synonyms": [
+            "pneumat"
+          ]
+        },
+        {
+          "name": "πνεῠμᾰτ",
+          "synonyms": [
+            "πνεῠμᾰτ"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pneumatophore (du préfixe grec pneumat- πνεῠμᾰτ-, qui signifie « respiration » et du suffixe grec -phore φορός, qui signifie « porter ») est l'organe d'une plante ou d'un animal aquatique spécialisé pour une interaction avec l'atmosphère.\n\nEn botanique une excroissance aérienne des racines de certains arbres ayant pour fonction les échanges gazeux quand ils sont impossibles pour les racines dans les zones humides."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pneumocéphale": {
+    "type": "specialized",
+    "exact_terms": [
+      "pneumocéphale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pneumocéphale",
+          "synonyms": [
+            "pneumocéphale"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "pneumocéphalie",
+          "synonyms": [
+            "pneumocéphalie"
+          ]
+        },
+        {
+          "name": "pneumencéphalie",
+          "synonyms": [
+            "pneumencéphalie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le pneumocéphale, appelé aussi pneumocéphalie ou pneumencéphalie, correspond à la présence de gaz dans ou autour de l'encéphale à la suite d'une brèche ostéo-méningée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pneumologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "pneumologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "pneumologie",
+          "synonyms": [
+            "pneumologie"
+          ]
+        },
+        {
+          "name": "branche",
+          "synonyms": [
+            "branche"
+          ]
+        },
+        {
+          "name": "s'occupe",
+          "synonyms": [
+            "s'occupe"
+          ]
+        },
+        {
+          "name": "maladies",
+          "synonyms": [
+            "maladies"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En médecine, la pneumologie est la branche qui s'occupe de maladies des poumons et du tractus respiratoire. Elle est, en général, considérée comme une branche de la médecine interne, bien qu'elle soit très proche des soins intensifs lorsqu'il s'agit de patients qui nécessitent une ventilation mécanique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pneumopathie": {
+    "type": "specialized",
+    "exact_terms": [
+      "pneumopathie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pneumopathie",
+          "synonyms": [
+            "pneumopathie"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "parenchyme",
+          "synonyms": [
+            "parenchyme"
+          ]
+        },
+        {
+          "name": "pulmonaire",
+          "synonyms": [
+            "pulmonaire"
+          ]
+        },
+        {
+          "name": "étymologiquement",
+          "synonyms": [
+            "étymologiquement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une pneumopathie est une maladie du parenchyme pulmonaire. Étymologiquement, il s'agit d'une maladie (-pathie) des poumons (pneumo-)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pneumothorax": {
+    "type": "specialized",
+    "exact_terms": [
+      "pneumothorax"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pneumothorax",
+          "synonyms": [
+            "pneumothorax"
+          ]
+        },
+        {
+          "name": "affection",
+          "synonyms": [
+            "affection"
+          ]
+        },
+        {
+          "name": "plèvre",
+          "synonyms": [
+            "plèvre"
+          ]
+        },
+        {
+          "name": "laquelle",
+          "synonyms": [
+            "laquelle"
+          ]
+        },
+        {
+          "name": "communication",
+          "synonyms": [
+            "communication"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pneumothorax est une affection de la plèvre, dans laquelle une communication s'étant ouverte entre l'espace pleural (entre les deux feuillets de la plèvre) et l’atmosphère, le poumon s’est affaissé, avec des conséquences respiratoires et hémodynamiques susceptibles d'être mortelles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poche des eaux": {
+    "type": "specialized",
+    "exact_terms": [
+      "poche des eaux"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "obstétrique",
+          "synonyms": [
+            "obstétrique"
+          ]
+        },
+        {
+          "name": "poche",
+          "synonyms": [
+            "poche"
+          ]
+        },
+        {
+          "name": "eaux",
+          "synonyms": [
+            "eaux"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En obstétrique, le terme poche des eaux désigne la partie des membranes ovulaires (amnios et chorion) qui contient le liquide amniotique dans lequel baigne l'embryon puis le fœtus jusqu'à l'accouchement. La poche des eaux est directement accessible au toucher vaginal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pocheteau": {
+    "type": "specialized",
+    "exact_terms": [
+      "pocheteau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pocheteau",
+          "synonyms": [
+            "pocheteau"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "espèces",
+          "synonyms": [
+            "espèces"
+          ]
+        },
+        {
+          "name": "raies",
+          "synonyms": [
+            "raies"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme Pocheteau désigne plusieurs espèces de raies."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pod": {
+    "type": "specialized",
+    "exact_terms": [
+      "pod"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pod",
+          "synonyms": [
+            "pod"
+          ]
+        },
+        {
+          "name": "originellement",
+          "synonyms": [
+            "originellement"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot pod est originellement un nom anglais signifiant « gousse, cosse ». POD est un sigle ou un code."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "podétion": {
+    "type": "specialized",
+    "exact_terms": [
+      "podétion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "podétion",
+          "synonyms": [
+            "podétion"
+          ]
+        },
+        {
+          "name": "thalle",
+          "synonyms": [
+            "thalle"
+          ]
+        },
+        {
+          "name": "secondaire",
+          "synonyms": [
+            "secondaire"
+          ]
+        },
+        {
+          "name": "vertical",
+          "synonyms": [
+            "vertical"
+          ]
+        },
+        {
+          "name": "lichens",
+          "synonyms": [
+            "lichens"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un podétion est le thalle secondaire vertical des lichens du genre Cladonia. Il s’agit d’une tige creuse s’élevant à partir du thalle primaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pogrom": {
+    "type": "specialized",
+    "exact_terms": [
+      "pogrom"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pogrom",
+          "synonyms": [
+            "pogrom"
+          ]
+        },
+        {
+          "name": "pogrome",
+          "synonyms": [
+            "pogrome"
+          ]
+        },
+        {
+          "name": "d'origine",
+          "synonyms": [
+            "d'origine"
+          ]
+        },
+        {
+          "name": "russe",
+          "synonyms": [
+            "russe"
+          ]
+        },
+        {
+          "name": "погро",
+          "synonyms": [
+            "погро"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pogrom ou pogrome (d'origine russe : погро́м, signifiant « destruction, pillage ») est une attaque incluant une dimension raciste ou xénophobe, et accompagnée de pillages et de massacres, initialement contre les Juifs en Russie, perpétrées le plus souvent par des communautés sociales, politiques ou religieuses, et sans réaction des autorités ou avec leur assentiment, entre 1881 et 1921. Le premier incident à avoir été appelé « pogrom » serait l'émeute anti-juive d'Odessa en Ukraine en 1821."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poignet": {
+    "type": "specialized",
+    "exact_terms": [
+      "poignet"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poignet",
+          "synonyms": [
+            "poignet"
+          ]
+        },
+        {
+          "name": "région",
+          "synonyms": [
+            "région"
+          ]
+        },
+        {
+          "name": "membre",
+          "synonyms": [
+            "membre"
+          ]
+        },
+        {
+          "name": "supérieur",
+          "synonyms": [
+            "supérieur"
+          ]
+        },
+        {
+          "name": "située",
+          "synonyms": [
+            "située"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le poignet est une région du membre supérieur située entre la main et l'avant-bras, et contenant le carpe.\nÉlément-clé pour le fonctionnement de la main, il permet les mouvements (c'est-à-dire les changements de place et d’orientation) de la main par rapport à l’avant-bras, transmet les forces appliquées de la main à l’avant-bras, permet d'adapter la capacité de flexion-extension maximale des doigts et de la préhension."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poil": {
+    "type": "specialized",
+    "exact_terms": [
+      "poil"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poil",
+          "synonyms": [
+            "poil"
+          ]
+        },
+        {
+          "name": "fois",
+          "synonyms": [
+            "fois"
+          ]
+        },
+        {
+          "name": "production",
+          "synonyms": [
+            "production"
+          ]
+        },
+        {
+          "name": "filiforme",
+          "synonyms": [
+            "filiforme"
+          ]
+        },
+        {
+          "name": "l'épiderme",
+          "synonyms": [
+            "l'épiderme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le poil est à la fois une production filiforme de l'épiderme et l'un des plus petits organes, couvrant partiellement ou intégralement la surface de nombreux êtres vivants végétaux et animaux. Parmi les vertébrés, les poils sont caractéristiques des mammifères, tout en étant présents aussi bien chez les arthropodes (ex : mygales) que chez les annélides (ex : polychètes)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poing": {
+    "type": "specialized",
+    "exact_terms": [
+      "poing"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poing",
+          "synonyms": [
+            "poing"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        },
+        {
+          "name": "poing",
+          "synonyms": [
+            "poing"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot poing désigne notamment :\n\nle poing, mot désignant la main avec les doigts refermés chez l'humain (voir coup de poing, poing levé) ;\nPoing, commune de Bavière en Allemagne ;\nPoing!, single gabber composé en 1992 par Rotterdam Termination Source ;\nle poing, hiéroglyphe égyptien."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "point aveugle": {
+    "type": "specialized",
+    "exact_terms": [
+      "point aveugle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "point",
+          "synonyms": [
+            "point"
+          ]
+        },
+        {
+          "name": "aveugle",
+          "synonyms": [
+            "aveugle"
+          ]
+        },
+        {
+          "name": "tache",
+          "synonyms": [
+            "tache"
+          ]
+        },
+        {
+          "name": "aveugle",
+          "synonyms": [
+            "aveugle"
+          ]
+        },
+        {
+          "name": "tache",
+          "synonyms": [
+            "tache"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le point aveugle, la tache aveugle, la tache de Mariotte, la papille optique ou le disque optique est la partie de la rétine où s'insère le nerf optique qui relaye les influx nerveux de la couche plexiforme interne jusqu'au cortex cérébral, ainsi que les vaisseaux sanguins arrivant à l'œil et quittant l'œil. Il s'agit donc d'une petite portion de la rétine dépourvue de photorécepteurs et ainsi complètement aveugle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "point de compression": {
+    "type": "specialized",
+    "exact_terms": [
+      "point de compression"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "points",
+          "synonyms": [
+            "points"
+          ]
+        },
+        {
+          "name": "compression",
+          "synonyms": [
+            "compression"
+          ]
+        },
+        {
+          "name": "techniques",
+          "synonyms": [
+            "techniques"
+          ]
+        },
+        {
+          "name": "d'arrêt",
+          "synonyms": [
+            "d'arrêt"
+          ]
+        },
+        {
+          "name": "hémorragies",
+          "synonyms": [
+            "hémorragies"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les points de compression sont des techniques d'arrêt des hémorragies (saignements abondants) à distance. Ils consistent à comprimer l'artère amenant le sang à la blessure ou la zone atteinte, contre un os, arrêtant ainsi le flux sanguin et donc (théoriquement) le saignement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "point du mari": {
+    "type": "specialized",
+    "exact_terms": [
+      "point du mari"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "point",
+          "synonyms": [
+            "point"
+          ]
+        },
+        {
+          "name": "mari",
+          "synonyms": [
+            "mari"
+          ]
+        },
+        {
+          "name": "mutilation",
+          "synonyms": [
+            "mutilation"
+          ]
+        },
+        {
+          "name": "génitale",
+          "synonyms": [
+            "génitale"
+          ]
+        },
+        {
+          "name": "pratiquée",
+          "synonyms": [
+            "pratiquée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le point du mari est une mutilation génitale qui est pratiquée à l'insu des femmes après leur accouchement avec épisiotomie, consistant en un point de suture supplémentaire sur le périnée, afin de resserrer le diamètre d'entrée du vagin et d'augmenter ainsi le plaisir sexuel du mari lors de rapports sexuels vaginaux. \nIl est évoqué sur des forums par des femmes après leur accouchement, ainsi que par des sages-femmes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poison": {
+    "type": "specialized",
+    "exact_terms": [
+      "poison"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poisons",
+          "synonyms": [
+            "poisons"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "substances",
+          "synonyms": [
+            "substances"
+          ]
+        },
+        {
+          "name": "provoquent",
+          "synonyms": [
+            "provoquent"
+          ]
+        },
+        {
+          "name": "blessures",
+          "synonyms": [
+            "blessures"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les poisons sont, en biologie, des substances qui provoquent des blessures, des maladies ou la mort d'organismes par une réaction chimique, à l'échelle moléculaire. Cette définition exclut les agents physiques, même de petite taille (un caillot, une bulle d'air dans le sang, un courant électrique, une radiation, etc.)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poisson-ange": {
+    "type": "specialized",
+    "exact_terms": [
+      "poisson-ange"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "zoologie",
+          "synonyms": [
+            "zoologie"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "vernaculaire",
+          "synonyms": [
+            "vernaculaire"
+          ]
+        },
+        {
+          "name": "poisson-ange",
+          "synonyms": [
+            "poisson-ange"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En zoologie, le nom vernaculaire Poisson-ange désigne plusieurs espèces de poissons, pour la plupart marins."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poitrine": {
+    "type": "specialized",
+    "exact_terms": [
+      "poitrine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poitrine",
+          "synonyms": [
+            "poitrine"
+          ]
+        },
+        {
+          "name": "poitrine",
+          "synonyms": [
+            "poitrine"
+          ]
+        },
+        {
+          "name": "thorax",
+          "synonyms": [
+            "thorax"
+          ]
+        },
+        {
+          "name": "corps",
+          "synonyms": [
+            "corps"
+          ]
+        },
+        {
+          "name": "humain",
+          "synonyms": [
+            "humain"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme poitrine peut désigner :\n\nla poitrine, le thorax du corps humain ;\nla poitrine, les seins d'une femme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pollakiurie": {
+    "type": "specialized",
+    "exact_terms": [
+      "pollakiurie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "appelle",
+          "synonyms": [
+            "appelle"
+          ]
+        },
+        {
+          "name": "pollakiurie",
+          "synonyms": [
+            "pollakiurie"
+          ]
+        },
+        {
+          "name": "fréquence",
+          "synonyms": [
+            "fréquence"
+          ]
+        },
+        {
+          "name": "excessive",
+          "synonyms": [
+            "excessive"
+          ]
+        },
+        {
+          "name": "mictions",
+          "synonyms": [
+            "mictions"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "On appelle pollakiurie une fréquence excessive des mictions. Le mot est dérivé du grec ancien πολλάκις (\"souvent\") et de -urie (\"urine\")."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pollen": {
+    "type": "specialized",
+    "exact_terms": [
+      "pollen"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pollen",
+          "synonyms": [
+            "pollen"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "πάλη",
+          "synonyms": [
+            "πάλη"
+          ]
+        },
+        {
+          "name": "palê",
+          "synonyms": [
+            "palê"
+          ]
+        },
+        {
+          "name": "farine",
+          "synonyms": [
+            "farine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le pollen (du grec πάλη / palê, « farine, poussière ») constitue, chez les plantes à graines, l'élément mobile mâle produit par la fleur : ce sont des grains minuscules (20  à   55 μm de diamètre en général), de forme plus ou moins ovoïde, initialement contenus dans l'anthère à l'extrémité des étamines.\nLe grain de pollen est le gamétophyte mâle, il produit et contient les gamètes mâles haploïdes (n), et permet leur déplacement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\reproduction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pollinisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "pollinisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pollinisation",
+          "synonyms": [
+            "pollinisation"
+          ]
+        },
+        {
+          "name": "correspond",
+          "synonyms": [
+            "correspond"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "angiospermes",
+          "synonyms": [
+            "angiospermes"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pollinisation correspond, chez les angiospermes et chez les gymnospermes, au transport du pollen des organes de reproduction mâle (étamines) vers le (ou les) organes de reproduction femelle (pistil) pour permettre la reproduction sexuée. La pollinisation est une étape préalable à la fécondation dans le cycle de vie de ces plantes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie évolutive",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pollution": {
+    "type": "specialized",
+    "exact_terms": [
+      "pollution"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pollution",
+          "synonyms": [
+            "pollution"
+          ]
+        },
+        {
+          "name": "destruction",
+          "synonyms": [
+            "destruction"
+          ]
+        },
+        {
+          "name": "dégradation",
+          "synonyms": [
+            "dégradation"
+          ]
+        },
+        {
+          "name": "écosystème",
+          "synonyms": [
+            "écosystème"
+          ]
+        },
+        {
+          "name": "biosphère",
+          "synonyms": [
+            "biosphère"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pollution est la destruction ou dégradation d'un écosystème ou de la biosphère par l'introduction, généralement humaine, d'entités (physiques, chimiques ou biologiques), ou de radiations altérant le fonctionnement de cet écosystème. La pollution a des effets importants sur la santé et la biosphère, comme en témoigne l'exposition aux polluants et le réchauffement climatique qui transforme le climat de la Terre et son écosystème, en entraînant l'apparition de maladies inconnues jusqu'alors dans..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyadénylation": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyadénylation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyadénylation",
+          "synonyms": [
+            "polyadénylation"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "l'addition",
+          "synonyms": [
+            "l'addition"
+          ]
+        },
+        {
+          "name": "queue",
+          "synonyms": [
+            "queue"
+          ]
+        },
+        {
+          "name": "poly",
+          "synonyms": [
+            "poly"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polyadénylation consiste en l'addition d'une queue poly(A), une succession de nombreux ribonucléotides de type Adénosine (A) à l'extrémité 3' des ARNm. Chez les eucaryotes, cette étape s'effectue dans le noyau, lors de sa maturation (synthèse co-post transcriptionnelle) alors qu'il n'a pas encore subi l'épissage."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyallélisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyallélisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyallélie",
+          "synonyms": [
+            "polyallélie"
+          ]
+        },
+        {
+          "name": "état",
+          "synonyms": [
+            "état"
+          ]
+        },
+        {
+          "name": "polyallélisme",
+          "synonyms": [
+            "polyallélisme"
+          ]
+        },
+        {
+          "name": "phénomène",
+          "synonyms": [
+            "phénomène"
+          ]
+        },
+        {
+          "name": "caractérise",
+          "synonyms": [
+            "caractérise"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polyallélie (état) ou le polyallélisme (phénomène) caractérise le fait qu’un gène comporte plus de deux allèles, ceux-ci étant reconnus comme tels[Quoi ?] s’ils se retrouvent à plus de 1 % dans une population donnée. On parle aussi de multiallélisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polycaprolactone": {
+    "type": "specialized",
+    "exact_terms": [
+      "polycaprolactone"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polycaprolactone",
+          "synonyms": [
+            "polycaprolactone"
+          ]
+        },
+        {
+          "name": "pcl",
+          "synonyms": [
+            "pcl"
+          ]
+        },
+        {
+          "name": "polyester",
+          "synonyms": [
+            "polyester"
+          ]
+        },
+        {
+          "name": "biodégradable",
+          "synonyms": [
+            "biodégradable"
+          ]
+        },
+        {
+          "name": "comportant",
+          "synonyms": [
+            "comportant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polycaprolactone (PCL) est un polyester biodégradable comportant une faible température de fusion d'environ 60 °C et une température de transition vitreuse d'environ −60 °C."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polychlorodibenzo-p-dioxine": {
+    "type": "specialized",
+    "exact_terms": [
+      "polychlorodibenzo-p-dioxine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polychlorodibenzo-p-dioxines",
+          "synonyms": [
+            "polychlorodibenzo-p-dioxines"
+          ]
+        },
+        {
+          "name": "pcdd",
+          "synonyms": [
+            "pcdd"
+          ]
+        },
+        {
+          "name": "composés",
+          "synonyms": [
+            "composés"
+          ]
+        },
+        {
+          "name": "aromatiques",
+          "synonyms": [
+            "aromatiques"
+          ]
+        },
+        {
+          "name": "tricycliques",
+          "synonyms": [
+            "tricycliques"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les polychlorodibenzo-p-dioxines ou PCDD sont des composés aromatiques tricycliques chlorés. Elles sont plus généralement appelées dioxines, bien que cette appellation désigne une famille bien plus large de molécules, cf."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyconsommation": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyconsommation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyconsommation",
+          "synonyms": [
+            "polyconsommation"
+          ]
+        },
+        {
+          "name": "mode",
+          "synonyms": [
+            "mode"
+          ]
+        },
+        {
+          "name": "consommation",
+          "synonyms": [
+            "consommation"
+          ]
+        },
+        {
+          "name": "substances",
+          "synonyms": [
+            "substances"
+          ]
+        },
+        {
+          "name": "psychotropes",
+          "synonyms": [
+            "psychotropes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polyconsommation est un mode de consommation de substances psychotropes, légales ou non, qui consiste à associer différents substances souvent afin d'en renforcer ou modifier les effets. Cette consommation ne relève pas d'un cadre médical."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie\\pharmacologie\\addictologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polydipsie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polydipsie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polydipsie",
+          "synonyms": [
+            "polydipsie"
+          ]
+        },
+        {
+          "name": "symptôme",
+          "synonyms": [
+            "symptôme"
+          ]
+        },
+        {
+          "name": "rencontré",
+          "synonyms": [
+            "rencontré"
+          ]
+        },
+        {
+          "name": "souvent",
+          "synonyms": [
+            "souvent"
+          ]
+        },
+        {
+          "name": "endocrinologie",
+          "synonyms": [
+            "endocrinologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polydipsie est un symptôme rencontré le plus souvent en endocrinologie et caractérisé par une soif excessive avec augmentation de l'absorption de liquide, causée par la polyurie dans le cas du diabète, qu'il soit de type insipide (par diminution de la sécrétion de l'ADH) ou sucré (augmentation de l'osmolarité due à l'augmentation de la concentration en glucose), ou dans certains cas de diabète sucré, par un dérèglement du centre hypothalamique de la soif[réf. nécessaire]."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polygynandrie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polygynandrie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polygynandrie",
+          "synonyms": [
+            "polygynandrie"
+          ]
+        },
+        {
+          "name": "stratégie",
+          "synonyms": [
+            "stratégie"
+          ]
+        },
+        {
+          "name": "reproduction",
+          "synonyms": [
+            "reproduction"
+          ]
+        },
+        {
+          "name": "produit",
+          "synonyms": [
+            "produit"
+          ]
+        },
+        {
+          "name": "lorsque",
+          "synonyms": [
+            "lorsque"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polygynandrie est une stratégie de reproduction qui se produit lorsque deux ou plusieurs mâles ont une relation sexuelle exclusive avec deux ou plusieurs femelles. Il n’est pas nécessaire que le nombre des mâles et celui des femelles soient égaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polygynie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polygynie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polygynie",
+          "synonyms": [
+            "polygynie"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "système",
+          "synonyms": [
+            "système"
+          ]
+        },
+        {
+          "name": "d'accouplement",
+          "synonyms": [
+            "d'accouplement"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polygynie désigne le système d'accouplement par lequel le mâle d'une espèce animale s'accouple avec plusieurs femelles.\nChez l'humain, la polygynie est une forme de mariage où l'homme épouse plusieurs femmes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polymère": {
+    "type": "specialized",
+    "exact_terms": [
+      "polymère"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polymères",
+          "synonyms": [
+            "polymères"
+          ]
+        },
+        {
+          "name": "étymologie",
+          "synonyms": [
+            "étymologie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "polus",
+          "synonyms": [
+            "polus"
+          ]
+        },
+        {
+          "name": "meros",
+          "synonyms": [
+            "meros"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les polymères  (étymologie : du grec polus, plusieurs, et meros, partie) constituent une classe de matériaux. D'un point de vue chimique, un polymère est une substance composée de macromolécules et issue de molécules de faible masse moléculaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyménorrhée": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyménorrhée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyménorrhée",
+          "synonyms": [
+            "polyménorrhée"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "l'augmentation",
+          "synonyms": [
+            "l'augmentation"
+          ]
+        },
+        {
+          "name": "fréquence",
+          "synonyms": [
+            "fréquence"
+          ]
+        },
+        {
+          "name": "règles",
+          "synonyms": [
+            "règles"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polyménorrhée désigne l'augmentation de la fréquence des règles, survenant à intervalles trop fréquents (moins de 24 jours). Elle traduit donc un cycle menstruel raccourci."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polymérase": {
+    "type": "specialized",
+    "exact_terms": [
+      "polymérase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polymérases",
+          "synonyms": [
+            "polymérases"
+          ]
+        },
+        {
+          "name": "enzymes",
+          "synonyms": [
+            "enzymes"
+          ]
+        },
+        {
+          "name": "ont",
+          "synonyms": [
+            "ont"
+          ]
+        },
+        {
+          "name": "rôle",
+          "synonyms": [
+            "rôle"
+          ]
+        },
+        {
+          "name": "synthèse",
+          "synonyms": [
+            "synthèse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les polymérases sont des enzymes qui ont pour rôle la synthèse d'un brin de polynucléotides (ADN ou ARN), le plus souvent en utilisant un brin complémentaire comme matrice et des nucléotides triphosphate (NTP ou dNTP) comme monomères. Les polymérases synthétisent le nouveau brin dans le sens 5’ vers 3’, en formant une nouvelle liaison phosphodiester entre le 3'-OH du brin allongé et le 5'-phosphate du nucléotide triphosphate ajouté."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyneuropathie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyneuropathie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyneuropathie",
+          "synonyms": [
+            "polyneuropathie"
+          ]
+        },
+        {
+          "name": "parlait",
+          "synonyms": [
+            "parlait"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "autrefois",
+          "synonyms": [
+            "autrefois"
+          ]
+        },
+        {
+          "name": "polynévrite",
+          "synonyms": [
+            "polynévrite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme polyneuropathie (on parlait aussi autrefois de « polynévrite ») est couramment confondu avec deux autres termes.\nLe premier est « neuropathie périphérique »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polynucléotide": {
+    "type": "specialized",
+    "exact_terms": [
+      "polynucléotide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polynucléotide",
+          "synonyms": [
+            "polynucléotide"
+          ]
+        },
+        {
+          "name": "polymère",
+          "synonyms": [
+            "polymère"
+          ]
+        },
+        {
+          "name": "constitué",
+          "synonyms": [
+            "constitué"
+          ]
+        },
+        {
+          "name": "d'au",
+          "synonyms": [
+            "d'au"
+          ]
+        },
+        {
+          "name": "moins",
+          "synonyms": [
+            "moins"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un polynucléotide est un polymère constitué d'au moins treize monomères de nucléotides liés par covalence en formant une chaîne. Les acides nucléiques tels que l'acide ribonucléique (ARN) et l'acide désoxyribonucléique (ADN) sont des polynucléotides."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polynucléotide kinase": {
+    "type": "specialized",
+    "exact_terms": [
+      "polynucléotide kinase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polynucléotide",
+          "synonyms": [
+            "polynucléotide"
+          ]
+        },
+        {
+          "name": "kinase",
+          "synonyms": [
+            "kinase"
+          ]
+        },
+        {
+          "name": "polynucléotide",
+          "synonyms": [
+            "polynucléotide"
+          ]
+        },
+        {
+          "name": "5'-hydroxyl-kinase",
+          "synonyms": [
+            "5'-hydroxyl-kinase"
+          ]
+        },
+        {
+          "name": "enzyme",
+          "synonyms": [
+            "enzyme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polynucléotide kinase, ou polynucléotide 5'-hydroxyl-kinase, est une enzyme utilisée en biologie moléculaire pour transférer un groupement phosphate γ provenant d'une molécule ATP sur l'extrémité 5'-OH d'une molécule polynucléotidique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polynésie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polynésie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polynésie",
+          "synonyms": [
+            "polynésie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "πολύς",
+          "synonyms": [
+            "πολύς"
+          ]
+        },
+        {
+          "name": "polús",
+          "synonyms": [
+            "polús"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La Polynésie (du grec ancien : πολύς / polús et νῆσος / nễsos, « îles multiples »), une des trois régions traditionnelles de l'Océanie selon Dumont d'Urville, est un large groupement d'îles situées dans l'océan Pacifique, principalement dans sa partie sud. Ce regroupement historique est contesté par les géographes et les océanistes depuis les années 1970, mais demeure néanmoins largement utilisé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polype": {
+    "type": "specialized",
+    "exact_terms": [
+      "polype"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polype",
+          "synonyms": [
+            "polype"
+          ]
+        },
+        {
+          "name": "provient",
+          "synonyms": [
+            "provient"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "πολύπους",
+          "synonyms": [
+            "πολύπους"
+          ]
+        },
+        {
+          "name": "polúpous",
+          "synonyms": [
+            "polúpous"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot polype provient du grec πολύπους / polúpous (« qui a plusieurs pieds »)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polypeptide": {
+    "type": "specialized",
+    "exact_terms": [
+      "polypeptide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polypeptide",
+          "synonyms": [
+            "polypeptide"
+          ]
+        },
+        {
+          "name": "chaîne",
+          "synonyms": [
+            "chaîne"
+          ]
+        },
+        {
+          "name": "d'acides",
+          "synonyms": [
+            "d'acides"
+          ]
+        },
+        {
+          "name": "aminés",
+          "synonyms": [
+            "aminés"
+          ]
+        },
+        {
+          "name": "reliés",
+          "synonyms": [
+            "reliés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un polypeptide est une chaîne d'acides aminés reliés par des liaisons peptidiques. On parle de polypeptide lorsque la chaîne contient entre 10 et 100 acides aminés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyphagie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyphagie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyphagie",
+          "synonyms": [
+            "polyphagie"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "polyphagie",
+          "synonyms": [
+            "polyphagie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polyphagie peut avoir deux sens en français :  \n\nEn médecine, la polyphagie, du grec ancien polyphagía (« trop manger »), est un désordre alimentaire qui se traduit par une faim excessive,\nEn zoologie, la polyphagie, du grec ancien polús (nombreux) et phágos (« mangeur »), est un régime alimentaire normal chez les espèces qui mangent plusieurs types d'aliments, notamment les omnivores."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyphénol": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyphénol"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyphénols",
+          "synonyms": [
+            "polyphénols"
+          ]
+        },
+        {
+          "name": "constituent",
+          "synonyms": [
+            "constituent"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "molécules",
+          "synonyms": [
+            "molécules"
+          ]
+        },
+        {
+          "name": "organiques",
+          "synonyms": [
+            "organiques"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les polyphénols constituent une famille de molécules organiques largement présente dans le règne végétal. Ils sont caractérisés, comme l’indique le nom, par la présence d'au moins deux groupes phénoliques associés en structures plus ou moins complexes, généralement de haut poids moléculaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyploïdie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyploïdie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "biologique",
+          "synonyms": [
+            "biologique"
+          ]
+        },
+        {
+          "name": "polyploïde",
+          "synonyms": [
+            "polyploïde"
+          ]
+        },
+        {
+          "name": "lorsqu'elle",
+          "synonyms": [
+            "lorsqu'elle"
+          ]
+        },
+        {
+          "name": "contient",
+          "synonyms": [
+            "contient"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une cellule biologique est polyploïde lorsqu'elle contient trois exemplaires (3n) de chaque chromosome (triploïde), quatre exemplaires (4n) de chaque chromosome (tétraploïde), ou davantage. Le concept complète ceux d'haploïde (un seul exemplaire, 1n) et de diploïde (deux exemplaires, 2n)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polypnée": {
+    "type": "specialized",
+    "exact_terms": [
+      "polypnée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polypnée",
+          "synonyms": [
+            "polypnée"
+          ]
+        },
+        {
+          "name": "augmentation",
+          "synonyms": [
+            "augmentation"
+          ]
+        },
+        {
+          "name": "fréquence",
+          "synonyms": [
+            "fréquence"
+          ]
+        },
+        {
+          "name": "respiratoire",
+          "synonyms": [
+            "respiratoire"
+          ]
+        },
+        {
+          "name": "diminution",
+          "synonyms": [
+            "diminution"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une polypnée est une augmentation de la fréquence respiratoire, avec diminution du volume courant. La ventilation est rapide et superficielle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polypose": {
+    "type": "specialized",
+    "exact_terms": [
+      "polypose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polypose",
+          "synonyms": [
+            "polypose"
+          ]
+        },
+        {
+          "name": "naso-sinusienne",
+          "synonyms": [
+            "naso-sinusienne"
+          ]
+        },
+        {
+          "name": "pns",
+          "synonyms": [
+            "pns"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "affectant",
+          "synonyms": [
+            "affectant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polypose naso-sinusienne (PNS) est une maladie affectant les sinus. Une endoscopie ou un examen clinique du nez (rhinoscopie) montre le plus souvent des polypes bilatéraux et congestionnés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyradiculonévrite": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyradiculonévrite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyradiculonévrite",
+          "synonyms": [
+            "polyradiculonévrite"
+          ]
+        },
+        {
+          "name": "s'appliquer",
+          "synonyms": [
+            "s'appliquer"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "types",
+          "synonyms": [
+            "types"
+          ]
+        },
+        {
+          "name": "d'affections",
+          "synonyms": [
+            "d'affections"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme de polyradiculonévrite peut s'appliquer à deux types d'affections dysimmunes du système nerveux périphérique :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polysaccharide": {
+    "type": "specialized",
+    "exact_terms": [
+      "polysaccharide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polysaccharides",
+          "synonyms": [
+            "polysaccharides"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "appelés",
+          "synonyms": [
+            "appelés"
+          ]
+        },
+        {
+          "name": "glycanes",
+          "synonyms": [
+            "glycanes"
+          ]
+        },
+        {
+          "name": "polyosides",
+          "synonyms": [
+            "polyosides"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les polysaccharides (parfois appelés glycanes, polyosides, polyholosides ou glucides complexes) sont des polymères de la famille des glucides constitués de plusieurs oses liés entre eux par des liaisons osidiques.\nLes polyosides les plus répandus et connus dans le règne végétal sont la cellulose et l’amidon, tous deux polymères du glucose."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyscope": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyscope"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyscope",
+          "synonyms": [
+            "polyscope"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "journal",
+          "synonyms": [
+            "journal"
+          ]
+        },
+        {
+          "name": "polyscope",
+          "synonyms": [
+            "polyscope"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Polyscope est le nom commun du journal Le Polyscope"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polysexualité": {
+    "type": "specialized",
+    "exact_terms": [
+      "polysexualité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polysexualité",
+          "synonyms": [
+            "polysexualité"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "l'attirance",
+          "synonyms": [
+            "l'attirance"
+          ]
+        },
+        {
+          "name": "multiples",
+          "synonyms": [
+            "multiples"
+          ]
+        },
+        {
+          "name": "genres",
+          "synonyms": [
+            "genres"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polysexualité désigne l'attirance pour de multiples genres ou sexes. \nLe terme est « utilisé par les personnes qui considèrent que le terme « bisexuel » matérialise la dichotomie des genres qui souligne la distinction entre hétérosexualité et homosexualité, impliquant que la bisexualité n'est rien de plus qu'une combinaison hybride de ces dichotomies de genre et de sexe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polysome": {
+    "type": "specialized",
+    "exact_terms": [
+      "polysome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polysome",
+          "synonyms": [
+            "polysome"
+          ]
+        },
+        {
+          "name": "polyribosome",
+          "synonyms": [
+            "polyribosome"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "ribosomes",
+          "synonyms": [
+            "ribosomes"
+          ]
+        },
+        {
+          "name": "reliés",
+          "synonyms": [
+            "reliés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un polysome ou polyribosome est un ensemble de ribosomes reliés entre eux par un ARN messager. Cet ensemble a l'aspect  d'un collier de perles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyspermie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyspermie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "appelle",
+          "synonyms": [
+            "appelle"
+          ]
+        },
+        {
+          "name": "polyspermie",
+          "synonyms": [
+            "polyspermie"
+          ]
+        },
+        {
+          "name": "fertilisation",
+          "synonyms": [
+            "fertilisation"
+          ]
+        },
+        {
+          "name": "ovule",
+          "synonyms": [
+            "ovule"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie on appelle polyspermie la fertilisation d'un ovule par plus d'un spermatozoïde. Les organismes diploïdes contiennent normalement deux copies de chaque chromosome, une de chaque parent."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polythérapie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polythérapie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polythérapie",
+          "synonyms": [
+            "polythérapie"
+          ]
+        },
+        {
+          "name": "traitement",
+          "synonyms": [
+            "traitement"
+          ]
+        },
+        {
+          "name": "médicamenteux",
+          "synonyms": [
+            "médicamenteux"
+          ]
+        },
+        {
+          "name": "comprenant",
+          "synonyms": [
+            "comprenant"
+          ]
+        },
+        {
+          "name": "médicaments",
+          "synonyms": [
+            "médicaments"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une polythérapie est un traitement médicamenteux comprenant plusieurs médicaments différents. Ce terme est souvent utilisé pour parler des traitements du SIDA[réf."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polytomie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polytomie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polytomie",
+          "synonyms": [
+            "polytomie"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "section",
+          "synonyms": [
+            "section"
+          ]
+        },
+        {
+          "name": "d'arbre",
+          "synonyms": [
+            "d'arbre"
+          ]
+        },
+        {
+          "name": "phylogénétique",
+          "synonyms": [
+            "phylogénétique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une polytomie est, en biologie, une section d'arbre phylogénétique ne comprenant pas uniquement des ramifications dichotomiques, et donc présentant des embranchements semblant apparaître simultanément. Une polytomie présente donc un problème analytique, mais qui peut être généralement résolu avec un logiciel permettant d'avoir un réseau phylogénétique plus flexible comme SplitsTree, qui peut représenter certaines polytomies comme des réseaux médians."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie évolutive\\systématique\\phylogénie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polytraumatisé": {
+    "type": "specialized",
+    "exact_terms": [
+      "polytraumatisé"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "d'urgence",
+          "synonyms": [
+            "d'urgence"
+          ]
+        },
+        {
+          "name": "polytraumatisé",
+          "synonyms": [
+            "polytraumatisé"
+          ]
+        },
+        {
+          "name": "victime",
+          "synonyms": [
+            "victime"
+          ]
+        },
+        {
+          "name": "ayant",
+          "synonyms": [
+            "ayant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En médecine d'urgence, un polytraumatisé est une victime ayant subi plusieurs traumatismes (plaie, fracture, brûlure...) dont au moins un met en danger les fonctions vitales (ventilation pulmonaire, circulation sanguine, système nerveux). Il ne faut pas confondre ce concept avec celui de polyblessé et de polyfracturé, qui sont des victimes dont les fonctions vitales ne sont pas en danger de manière immédiate."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyurie": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyurie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "polyurie",
+          "synonyms": [
+            "polyurie"
+          ]
+        },
+        {
+          "name": "symptôme",
+          "synonyms": [
+            "symptôme"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "caractérisée",
+          "synonyms": [
+            "caractérisée"
+          ]
+        },
+        {
+          "name": "urines",
+          "synonyms": [
+            "urines"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La polyurie est un symptôme ou une maladie caractérisée par des urines abondantes, fréquemment rencontrée dans le cas du diabète insipide et du diabète sucré.\nOn parle généralement de polyurie quand le débit urinaire est supérieur ou égal à 3 litres par jour chez l'adulte, alors que chez un individu sain, la diurèse est comprise entre 0,8 et 1,5 litre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "polyxène": {
+    "type": "specialized",
+    "exact_terms": [
+      "polyxène"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mythologie",
+          "synonyms": [
+            "mythologie"
+          ]
+        },
+        {
+          "name": "grecque",
+          "synonyms": [
+            "grecque"
+          ]
+        },
+        {
+          "name": "polyxène",
+          "synonyms": [
+            "polyxène"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans la mythologie grecque, Polyxène (en grec ancien Πολυξένη / Polyxénê, « qui reçoit beaucoup d'hôtes, très hospitalière »), est une princesse troyenne. Fille de Priam, roi de Troie et d'Hécube, elle est la sœur cadette de Cassandre, d'Hector, de Déiphobe et de Pâris."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pomadasys": {
+    "type": "specialized",
+    "exact_terms": [
+      "pomadasys"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pomadasys",
+          "synonyms": [
+            "pomadasys"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "poissons",
+          "synonyms": [
+            "poissons"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "haemulidae",
+          "synonyms": [
+            "haemulidae"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pomadasys est un genre de poissons de la famille des Haemulidae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pompe volumétrique": {
+    "type": "specialized",
+    "exact_terms": [
+      "pompe volumétrique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pompe",
+          "synonyms": [
+            "pompe"
+          ]
+        },
+        {
+          "name": "volumétrique",
+          "synonyms": [
+            "volumétrique"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "pompe",
+          "synonyms": [
+            "pompe"
+          ]
+        },
+        {
+          "name": "laquelle",
+          "synonyms": [
+            "laquelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une pompe volumétrique est un type de pompe dans laquelle le mouvement du fluide est créé car un volume de fluide isolé est forcé à se déplacer jusqu’à l’orifice de sortie. Dans la plupart des pompes volumétriques, le fluide est également comprimé avant son refoulement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pompe à insuline": {
+    "type": "specialized",
+    "exact_terms": [
+      "pompe à insuline"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pompe",
+          "synonyms": [
+            "pompe"
+          ]
+        },
+        {
+          "name": "insuline",
+          "synonyms": [
+            "insuline"
+          ]
+        },
+        {
+          "name": "instrument",
+          "synonyms": [
+            "instrument"
+          ]
+        },
+        {
+          "name": "médical",
+          "synonyms": [
+            "médical"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une pompe à insuline est un instrument médical utilisé par les diabétiques pour s'administrer de l'insuline.\nC'est un dispositif artificiel de délivrance d'insuline à débit variable, car programmable."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pompe à protons": {
+    "type": "specialized",
+    "exact_terms": [
+      "pompe à protons"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pompe",
+          "synonyms": [
+            "pompe"
+          ]
+        },
+        {
+          "name": "protons",
+          "synonyms": [
+            "protons"
+          ]
+        },
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "transmembranaire",
+          "synonyms": [
+            "transmembranaire"
+          ]
+        },
+        {
+          "name": "précisément",
+          "synonyms": [
+            "précisément"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une pompe à protons est une protéine transmembranaire, et plus précisément un transporteur membranaire actif, qui déplace les ions H+ contre leur gradient de concentration en utilisant de l'énergie. Dit autrement, une pompe à proton est un catalyseur de la réaction chimique suivante :\n\nH+ (d'une côté de la membrane) + energie ↔ H+ (de l'autre côté de la membrane).[réf."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pompier": {
+    "type": "specialized",
+    "exact_terms": [
+      "pompier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pompier",
+          "synonyms": [
+            "pompier"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "vocation",
+          "synonyms": [
+            "vocation"
+          ]
+        },
+        {
+          "name": "principale",
+          "synonyms": [
+            "principale"
+          ]
+        },
+        {
+          "name": "combattre",
+          "synonyms": [
+            "combattre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pompier est une personne qui a pour vocation principale de combattre le feu, mais qui est aussi apte à offrir une gamme de secours de diverses natures (inondations, accidents, sauvetages, secours et assistance à personnes, etc.). Sa mission principale est de secourir les personnes, protéger les biens et l'environnement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pont disulfure": {
+    "type": "specialized",
+    "exact_terms": [
+      "pont disulfure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pont",
+          "synonyms": [
+            "pont"
+          ]
+        },
+        {
+          "name": "disulfure",
+          "synonyms": [
+            "disulfure"
+          ]
+        },
+        {
+          "name": "liaison",
+          "synonyms": [
+            "liaison"
+          ]
+        },
+        {
+          "name": "s-s",
+          "synonyms": [
+            "s-s"
+          ]
+        },
+        {
+          "name": "liaison",
+          "synonyms": [
+            "liaison"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pont disulfure (liaison S-S) est une liaison covalente qui se forme par oxydation dans les protéines, de manière post-traductionnelle ou par des agents oxydants mis en œuvre par l'homme. Cette liaison se forme entre les atomes de soufre des fonctions thiol de deux cystéines dans une séquence peptidique (ou protéine) (voir la figure ci-dessous où les groupes R représentent le reste de l'acide aminé)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pontage": {
+    "type": "specialized",
+    "exact_terms": [
+      "pontage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pontage",
+          "synonyms": [
+            "pontage"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "chirurgicale",
+          "synonyms": [
+            "chirurgicale"
+          ]
+        },
+        {
+          "name": "datant",
+          "synonyms": [
+            "datant"
+          ]
+        },
+        {
+          "name": "années",
+          "synonyms": [
+            "années"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le pontage est une technique chirurgicale datant des années 1960 permettant de contourner les régions sténosées (ou rétrécies) des artères. Le pont est le résultat du pontage."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pontique": {
+    "type": "specialized",
+    "exact_terms": [
+      "pontique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pontique",
+          "synonyms": [
+            "pontique"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        },
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "rapporte",
+          "synonyms": [
+            "rapporte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "« Pontique » est un adjectif désignant :\n\nen anatomie, ce qui se rapporte à la zone du tronc cérébral appelée le pont ;\nen sciences de la terre et de la vie, ce qui a trait à la mer Noire (l'ancien Pont Euxin), plus particulièrement :\nen océanographie, une mer pontique est stratifiée, avec une couche euphotique et oxygénée en surface contrastant avec des eaux profondes euxiniques et anoxiques ;\nen climatologie, le climat pontique est une variante transitionnelle du climat tempéré, avec des carac..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pooler": {
+    "type": "specialized",
+    "exact_terms": [
+      "pooler"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pooler",
+          "synonyms": [
+            "pooler"
+          ]
+        },
+        {
+          "name": "ville",
+          "synonyms": [
+            "ville"
+          ]
+        },
+        {
+          "name": "comté",
+          "synonyms": [
+            "comté"
+          ]
+        },
+        {
+          "name": "chatham",
+          "synonyms": [
+            "chatham"
+          ]
+        },
+        {
+          "name": "géorgie",
+          "synonyms": [
+            "géorgie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pooler est une ville du comté de Chatham en Géorgie, aux États-Unis."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poplité": {
+    "type": "specialized",
+    "exact_terms": [
+      "poplité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poplité",
+          "synonyms": [
+            "poplité"
+          ]
+        },
+        {
+          "name": "dérivé",
+          "synonyms": [
+            "dérivé"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "poples",
+          "synonyms": [
+            "poples"
+          ]
+        },
+        {
+          "name": "jarret",
+          "synonyms": [
+            "jarret"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Poplité (dérivé du latin poples, « jarret ») est un adjectif désignant un rapport avec la partie postérieure du genou.\n\nL’artère poplitée ;\nLa fosse poplitée (ou creux poplité) ;\nLe muscle poplité ;\nLa veine poplitée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "population": {
+    "type": "specialized",
+    "exact_terms": [
+      "population"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "population",
+          "synonyms": [
+            "population"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "d'individus",
+          "synonyms": [
+            "d'individus"
+          ]
+        },
+        {
+          "name": "d'éléments",
+          "synonyms": [
+            "d'éléments"
+          ]
+        },
+        {
+          "name": "partageant",
+          "synonyms": [
+            "partageant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une population est un ensemble d'individus ou d'éléments partageant une ou plusieurs caractéristiques qui servent à les regrouper. On parle ainsi de population humaine, statistique, biologique, civile, voire tout simplement de « gens »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porajmos": {
+    "type": "specialized",
+    "exact_terms": [
+      "porajmos"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porajmos",
+          "synonyms": [
+            "porajmos"
+          ]
+        },
+        {
+          "name": "porrajmos",
+          "synonyms": [
+            "porrajmos"
+          ]
+        },
+        {
+          "name": "littéralement",
+          "synonyms": [
+            "littéralement"
+          ]
+        },
+        {
+          "name": "dévorer",
+          "synonyms": [
+            "dévorer"
+          ]
+        },
+        {
+          "name": "romani",
+          "synonyms": [
+            "romani"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le Porajmos, Porrajmos (littéralement « dévorer » en romani), Samudaripen ou génocide tsigane est l'entreprise de persécutions et d'extermination des ethnies roms (ou sinté, manouches, gitans, kalderash, etc.) et Yéniches appelés « Tsiganes » (Zigeuner en allemand), nomades, sédentaires ou semi-sédentaires pendant la Seconde Guerre mondiale, en Allemagne nazie, dans les territoires qu'elle occupe et chez ses alliés.\nLes estimations de plusieurs historiens varient entre 200 000 et 500 000 victime..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pore": {
+    "type": "specialized",
+    "exact_terms": [
+      "pore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pore",
+          "synonyms": [
+            "pore"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "cavité",
+          "synonyms": [
+            "cavité"
+          ]
+        },
+        {
+          "name": "anfractuosité",
+          "synonyms": [
+            "anfractuosité"
+          ]
+        },
+        {
+          "name": "solide",
+          "synonyms": [
+            "solide"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pore désigne une cavité ou anfractuosité dans un solide, un orifice débouchant sur une surface, un canal traversant une paroi. Les pores sont nombreux et de petite tailles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porion": {
+    "type": "specialized",
+    "exact_terms": [
+      "porion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monde",
+          "synonyms": [
+            "monde"
+          ]
+        },
+        {
+          "name": "minier",
+          "synonyms": [
+            "minier"
+          ]
+        },
+        {
+          "name": "porion",
+          "synonyms": [
+            "porion"
+          ]
+        },
+        {
+          "name": "l'appellation",
+          "synonyms": [
+            "l'appellation"
+          ]
+        },
+        {
+          "name": "familière",
+          "synonyms": [
+            "familière"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le monde minier, porion est l'appellation familière du maître mineur, ou contremaître.\nLe Parc d'aventures scientifiques et sociales, musée installé sur le carreau de l'ancien charbonnage de Frameries dans la région du Borinage à Frameries près de Mons en Belgique, donne comme étymologie du mot porion : « faire le poireau »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pornochanchada": {
+    "type": "specialized",
+    "exact_terms": [
+      "pornochanchada"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pornochanchada",
+          "synonyms": [
+            "pornochanchada"
+          ]
+        },
+        {
+          "name": "poʁnoʃɐʃadɐ",
+          "synonyms": [
+            "poʁnoʃɐʃadɐ"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "donné",
+          "synonyms": [
+            "donné"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pornochanchada ([poʁnoʃɐʃadɐ]) est le nom donné à un genre de films de sexploitation produits au Brésil.\nLes pornochanchadas sont des comédies érotiques à petit budget très en vogue dans les années 1970 et au début des années 1980 et sont une combinaison de comédie et de pornographie soft."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pornogrind": {
+    "type": "specialized",
+    "exact_terms": [
+      "pornogrind"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pornogrind",
+          "synonyms": [
+            "pornogrind"
+          ]
+        },
+        {
+          "name": "porno",
+          "synonyms": [
+            "porno"
+          ]
+        },
+        {
+          "name": "grind",
+          "synonyms": [
+            "grind"
+          ]
+        },
+        {
+          "name": "porno-grind",
+          "synonyms": [
+            "porno-grind"
+          ]
+        },
+        {
+          "name": "porn",
+          "synonyms": [
+            "porn"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le pornogrind (porno grind, porno-grind ou porn grind) est un sous-genre musical du grindcore et du death metal dont les paroles se centrent sur la sexualité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porphobilinogène synthase": {
+    "type": "specialized",
+    "exact_terms": [
+      "porphobilinogène synthase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porphobilinogène",
+          "synonyms": [
+            "porphobilinogène"
+          ]
+        },
+        {
+          "name": "synthase",
+          "synonyms": [
+            "synthase"
+          ]
+        },
+        {
+          "name": "lyase",
+          "synonyms": [
+            "lyase"
+          ]
+        },
+        {
+          "name": "catalyse",
+          "synonyms": [
+            "catalyse"
+          ]
+        },
+        {
+          "name": "réaction",
+          "synonyms": [
+            "réaction"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La porphobilinogène synthase est une lyase qui catalyse la réaction :\n\n2 δ-aminolévulinate  \n  \n    \n      \n        ⇌\n      \n    \n    {\\displaystyle \\rightleftharpoons }\n  \n  porphobilinogène + 2 H2O.\nCette enzyme intervient à la deuxième étape de la biosynthèse de la porphyrine, et catalyse la première des réactions communes à la biosynthèse de tous les tétrapyrroles biologiques, qu'il s'agisse des hèmes, des chlorophylles et de la vitamine B12."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porphyrie": {
+    "type": "specialized",
+    "exact_terms": [
+      "porphyrie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porphyrie",
+          "synonyms": [
+            "porphyrie"
+          ]
+        },
+        {
+          "name": "affection",
+          "synonyms": [
+            "affection"
+          ]
+        },
+        {
+          "name": "caractérisée",
+          "synonyms": [
+            "caractérisée"
+          ]
+        },
+        {
+          "name": "présence",
+          "synonyms": [
+            "présence"
+          ]
+        },
+        {
+          "name": "l'organisme",
+          "synonyms": [
+            "l'organisme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La porphyrie est une affection caractérisée par la présence, dans l'organisme, de quantités massives de molécules de porphyrine, précurseur de l'hème (partie non protéique de l'hémoglobine). Elle est provoquée par un trouble du métabolisme des dérivés pyrroliques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porphyrine": {
+    "type": "specialized",
+    "exact_terms": [
+      "porphyrine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porphyrines",
+          "synonyms": [
+            "porphyrines"
+          ]
+        },
+        {
+          "name": "molécules",
+          "synonyms": [
+            "molécules"
+          ]
+        },
+        {
+          "name": "structures",
+          "synonyms": [
+            "structures"
+          ]
+        },
+        {
+          "name": "cycliques",
+          "synonyms": [
+            "cycliques"
+          ]
+        },
+        {
+          "name": "impliquées",
+          "synonyms": [
+            "impliquées"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les porphyrines sont des molécules à structures cycliques impliquées dans le transport du dioxygène et pouvant jouer le rôle de cofacteur lié (groupement prosthétique) à certaines enzymes. Elles entrent dans la composition de l’hémoglobine, dans le globule rouge (où l'on parle alors de Porphyrine érythrocytaire) et tiennent donc une place importante dans le métabolisme respiratoire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porphyrinurie": {
+    "type": "specialized",
+    "exact_terms": [
+      "porphyrinurie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porphyrinurie",
+          "synonyms": [
+            "porphyrinurie"
+          ]
+        },
+        {
+          "name": "l'excrétion",
+          "synonyms": [
+            "l'excrétion"
+          ]
+        },
+        {
+          "name": "pathologique",
+          "synonyms": [
+            "pathologique"
+          ]
+        },
+        {
+          "name": "porphyrines",
+          "synonyms": [
+            "porphyrines"
+          ]
+        },
+        {
+          "name": "urines",
+          "synonyms": [
+            "urines"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La porphyrinurie est l'excrétion pathologique de porphyrines dans les urines. Chez un sujet sain on peut trouver une concentration de porphyrines totales qui varie de 8 µg à 149 µg par 24 heures pour un homme et de 3 µg à 78 µg par 24 heures pour une femme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "portage": {
+    "type": "specialized",
+    "exact_terms": [
+      "portage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "portage",
+          "synonyms": [
+            "portage"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "porter",
+          "synonyms": [
+            "porter"
+          ]
+        },
+        {
+          "name": "quelque",
+          "synonyms": [
+            "quelque"
+          ]
+        },
+        {
+          "name": "chose",
+          "synonyms": [
+            "chose"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le portage est l'action de porter quelque chose. L'action est effectuée par un porteur ou bien un portefaix, un portageur dans certains contextes de langue, d'époque et d'usages."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porte": {
+    "type": "specialized",
+    "exact_terms": [
+      "porte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porte",
+          "synonyms": [
+            "porte"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Porte est un nom commun et un nom propre.\nIl désigne d'abord une ouverture dans un mur ou une paroi, puis par extension un objet que l'on peut ouvrir ou fermer pour rentrer ou sortir d'une pièce."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porte-coton": {
+    "type": "specialized",
+    "exact_terms": [
+      "porte-coton"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porte-coton",
+          "synonyms": [
+            "porte-coton"
+          ]
+        },
+        {
+          "name": "était",
+          "synonyms": [
+            "était"
+          ]
+        },
+        {
+          "name": "charge",
+          "synonyms": [
+            "charge"
+          ]
+        },
+        {
+          "name": "consistant",
+          "synonyms": [
+            "consistant"
+          ]
+        },
+        {
+          "name": "assister",
+          "synonyms": [
+            "assister"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le porte-coton était une charge consistant à assister le roi lors de la satisfaction de ses besoins naturels ; il est employé au service des latrines."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porte-savon": {
+    "type": "specialized",
+    "exact_terms": [
+      "porte-savon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porte-savon",
+          "synonyms": [
+            "porte-savon"
+          ]
+        },
+        {
+          "name": "accessoire",
+          "synonyms": [
+            "accessoire"
+          ]
+        },
+        {
+          "name": "destiné",
+          "synonyms": [
+            "destiné"
+          ]
+        },
+        {
+          "name": "supporter",
+          "synonyms": [
+            "supporter"
+          ]
+        },
+        {
+          "name": "savon",
+          "synonyms": [
+            "savon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un porte-savon est un accessoire destiné à supporter un savon en bloc (pain, cube, formes ovalisées...). Le porte-savon est pourvu d'un système d’égouttage, qui évite au savon de fondre trop rapidement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine\\hygiène",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porteur": {
+    "type": "specialized",
+    "exact_terms": [
+      "porteur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "porteur",
+          "synonyms": [
+            "porteur"
+          ]
+        },
+        {
+          "name": "correspondre",
+          "synonyms": [
+            "correspondre"
+          ]
+        },
+        {
+          "name": "porteur",
+          "synonyms": [
+            "porteur"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "porte",
+          "synonyms": [
+            "porte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Porteur peut correspondre à :\n\nporteur, personne qui porte quelque chose, voir aussi « portage » ;\nun nom alternatif du peuple Dakelh et de sa langue ;\nun poids lourd de plus de 3,5 tonnes non attelé ;\nl'organisme hôte d'un parasite ou d'un organisme pathogène, par opposition au vecteur, celui qui les transmet ;\nporteur, un jouet enfant à roulettes proche du trotteur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "portée": {
+    "type": "specialized",
+    "exact_terms": [
+      "portée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        },
+        {
+          "name": "contexte",
+          "synonyms": [
+            "contexte"
+          ]
+        },
+        {
+          "name": "portée",
+          "synonyms": [
+            "portée"
+          ]
+        },
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "portée",
+          "synonyms": [
+            "portée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Selon le contexte, le mot portée peut avoir plusieurs sens :\n\nEn anatomie, la portée (en) désigne la longueur totale du bras.\nEn architecture, la portée est la longueur libre d’une pierre, d’une pièce de bois, etc."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "positif": {
+    "type": "specialized",
+    "exact_terms": [
+      "positif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "électricité",
+          "synonyms": [
+            "électricité"
+          ]
+        },
+        {
+          "name": "électronique",
+          "synonyms": [
+            "électronique"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        },
+        {
+          "name": "positif",
+          "synonyms": [
+            "positif"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En électricité ou en électronique, on désigne comme positif (par convention depuis Georg Christoph Lichtenberg) la partie d'un circuit, d'un conducteur, d'un connecteur raccordé à la partie chargé par un excès d'électron d'une source de courant continu.\nEn mathématiques, un nombre positif d'un ensemble de nombres ordonné est un nombre qui est supérieur ou égal à zéro."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "position": {
+    "type": "specialized",
+    "exact_terms": [
+      "position"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "page",
+          "synonyms": [
+            "page"
+          ]
+        },
+        {
+          "name": "contient",
+          "synonyms": [
+            "contient"
+          ]
+        },
+        {
+          "name": "pages",
+          "synonyms": [
+            "pages"
+          ]
+        },
+        {
+          "name": "d'homonymie",
+          "synonyms": [
+            "d'homonymie"
+          ]
+        },
+        {
+          "name": "position",
+          "synonyms": [
+            "position"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Cette page contient les pages d'homonymie de Position et Positions.\nPosition peut désigner :\n\nposition, en héraldique, l'endroit où se trouve régulièrement une figure héraldique ;\nposition, au hockey sur glace, le rôle d'un joueur ;\nposition, au football américain, le rôle d'un joueur ;\nposition, au football canadien, le rôle d'un joueur ;\nposition, au basket-ball, le rôle d'un joueur ;\nposition, au poker, l'endroit où le joueur est assis autour de la table, par rapport au donneur ;\nposition, en..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "position du bateau ivre": {
+    "type": "specialized",
+    "exact_terms": [
+      "position du bateau ivre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "position",
+          "synonyms": [
+            "position"
+          ]
+        },
+        {
+          "name": "bateau",
+          "synonyms": [
+            "bateau"
+          ]
+        },
+        {
+          "name": "ivre",
+          "synonyms": [
+            "ivre"
+          ]
+        },
+        {
+          "name": "position",
+          "synonyms": [
+            "position"
+          ]
+        },
+        {
+          "name": "sexuelle",
+          "synonyms": [
+            "sexuelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La position du bateau ivre est une position sexuelle proche de la position du missionnaire. Dans un rapport hétérosexuel, l’homme s’agenouille au bord du lit face à sa partenaire qui est couchée sur le dos."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "posologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "posologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "posologie",
+          "synonyms": [
+            "posologie"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "modalités",
+          "synonyms": [
+            "modalités"
+          ]
+        },
+        {
+          "name": "d'administration",
+          "synonyms": [
+            "d'administration"
+          ]
+        },
+        {
+          "name": "médicaments",
+          "synonyms": [
+            "médicaments"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La posologie est l'étude des modalités d'administration des médicaments, mais recouvre également l'ensemble des modalités d'administration de la prise d'un médicament."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie\\pharmacologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
