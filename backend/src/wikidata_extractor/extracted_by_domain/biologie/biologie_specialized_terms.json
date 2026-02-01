@@ -1,0 +1,802 @@
+{
+  "33": {
+    "type": "specialized",
+    "exact_terms": [
+      "33"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'année",
+          "synonyms": [
+            "l'année"
+          ]
+        },
+        {
+          "name": "année",
+          "synonyms": [
+            "année"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "commence",
+          "synonyms": [
+            "commence"
+          ]
+        },
+        {
+          "name": "jeudi",
+          "synonyms": [
+            "jeudi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'année 33 est une année commune qui commence un jeudi."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "454": {
+    "type": "specialized",
+    "exact_terms": [
+      "454"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'année",
+          "synonyms": [
+            "l'année"
+          ]
+        },
+        {
+          "name": "454",
+          "synonyms": [
+            "454"
+          ]
+        },
+        {
+          "name": "année",
+          "synonyms": [
+            "année"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "commence",
+          "synonyms": [
+            "commence"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'année 454 est une année commune qui commence un vendredi."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ab initio": {
+    "type": "specialized",
+    "exact_terms": [
+      "ab initio"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "locution",
+          "synonyms": [
+            "locution"
+          ]
+        },
+        {
+          "name": "latine",
+          "synonyms": [
+            "latine"
+          ]
+        },
+        {
+          "name": "initio",
+          "synonyms": [
+            "initio"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "depuis",
+          "synonyms": [
+            "depuis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La locution latine ab initio signifie depuis le début/commencement et est utilisée dans plusieurs contextes :\n\nen littérature : racontée depuis le début en opposition à in medias res (signifiant commencer au milieu de l'histoire).\ncomme terme légal : fait référence à quelque chose étant partie du problème depuis le début ou depuis l'instant de l'acte, plus que lorsque la cour l'a déclaré comme tel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biophysique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abaisse-langue": {
+    "type": "specialized",
+    "exact_terms": [
+      "abaisse-langue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "abaisse-langue",
+          "synonyms": [
+            "abaisse-langue"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "spatule",
+          "synonyms": [
+            "spatule"
+          ]
+        },
+        {
+          "name": "instrument",
+          "synonyms": [
+            "instrument"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un abaisse-langue (parfois appelé spatule) est un instrument utilisé en médecine,en bois ou en métal, pour abaisser la langue afin de permettre l'examen de la bouche et de la gorge."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abajoue": {
+    "type": "specialized",
+    "exact_terms": [
+      "abajoue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "abajoues",
+          "synonyms": [
+            "abajoues"
+          ]
+        },
+        {
+          "name": "poches",
+          "synonyms": [
+            "poches"
+          ]
+        },
+        {
+          "name": "situées",
+          "synonyms": [
+            "situées"
+          ]
+        },
+        {
+          "name": "part",
+          "synonyms": [
+            "part"
+          ]
+        },
+        {
+          "name": "d'autre",
+          "synonyms": [
+            "d'autre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les abajoues sont des poches situées de part et d'autre de la tête de certains mammifères, entre la joue et la mâchoire, comme chez l'ornithorynque, certains rongeurs et la plupart des singes de l'Ancien monde. Elles servent le plus souvent à stocker momentanément de la nourriture avant de pouvoir la consommer ou la transporter dans une réserve."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abasie": {
+    "type": "specialized",
+    "exact_terms": [
+      "abasie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'abasie",
+          "synonyms": [
+            "l'abasie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "βάσις",
+          "synonyms": [
+            "βάσις"
+          ]
+        },
+        {
+          "name": "basis",
+          "synonyms": [
+            "basis"
+          ]
+        },
+        {
+          "name": "stabilité",
+          "synonyms": [
+            "stabilité"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'abasie (du grec : a-, sans, et βάσις — basis —, stabilité) est un symptôme décrit en neurologie et en psychiatrie. Elle consiste en l'impossibilité de marcher, à la suite d'une coordination impossible des muscles impliqués dans la marche."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abcès": {
+    "type": "specialized",
+    "exact_terms": [
+      "abcès"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "abcès",
+          "synonyms": [
+            "abcès"
+          ]
+        },
+        {
+          "name": "accumulation",
+          "synonyms": [
+            "accumulation"
+          ]
+        },
+        {
+          "name": "locale",
+          "synonyms": [
+            "locale"
+          ]
+        },
+        {
+          "name": "pus",
+          "synonyms": [
+            "pus"
+          ]
+        },
+        {
+          "name": "après",
+          "synonyms": [
+            "après"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un abcès est une accumulation locale de pus après nécrose dans une cavité néoformée. Un abcès superficiel peut présenter des symptômes comme rougeurs, douleurs et chaleurs (composantes de l'inflammation), c'est alors un abcès chaud."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abdomen": {
+    "type": "specialized",
+    "exact_terms": [
+      "abdomen"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'abdomen",
+          "synonyms": [
+            "l'abdomen"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "même",
+          "synonyms": [
+            "même"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        },
+        {
+          "name": "corps",
+          "synonyms": [
+            "corps"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'abdomen (du latin, de même sens) est une partie du corps humain ou du corps d'un animal. Chez l'être humain, il est également appelé ventre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abdominoplastie": {
+    "type": "specialized",
+    "exact_terms": [
+      "abdominoplastie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'abdominoplastie",
+          "synonyms": [
+            "l'abdominoplastie"
+          ]
+        },
+        {
+          "name": "chirurgie",
+          "synonyms": [
+            "chirurgie"
+          ]
+        },
+        {
+          "name": "l'abdomen",
+          "synonyms": [
+            "l'abdomen"
+          ]
+        },
+        {
+          "name": "visée",
+          "synonyms": [
+            "visée"
+          ]
+        },
+        {
+          "name": "esthétique",
+          "synonyms": [
+            "esthétique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'abdominoplastie est la chirurgie de l'abdomen à visée esthétique ou fonctionnelle (cure d'éventration). Cette opération chirurgicale permet de diminuer le relâchement de tissu de l'abdomen au patient, redrapant sa peau, et rendant son abdomen plus serré et plus plat."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "aberration": {
+    "type": "specialized",
+    "exact_terms": [
+      "aberration"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "aberration",
+          "synonyms": [
+            "aberration"
+          ]
+        },
+        {
+          "name": "absurdité",
+          "synonyms": [
+            "absurdité"
+          ]
+        },
+        {
+          "name": "erreur",
+          "synonyms": [
+            "erreur"
+          ]
+        },
+        {
+          "name": "particulièrement",
+          "synonyms": [
+            "particulièrement"
+          ]
+        },
+        {
+          "name": "contraire",
+          "synonyms": [
+            "contraire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une aberration est une absurdité, une erreur particulièrement contraire au sens commun.\nAberration peut aussi désigner :\n\naberration, en optique et en astronomie, un défaut d'un système optique qui se répercute sur la qualité de l'image ;\naberration géométrique ;\nThéorie des aberrations nodales\naberration chromatique ;\naberration de la lumière, en astronomie, une aberration provoquée par l'aberration relativiste ;\nAberration, un film néo-zélandais réalisé par Tim Boxell en 1997."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abiogenèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "abiogenèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'abiogenèse",
+          "synonyms": [
+            "l'abiogenèse"
+          ]
+        },
+        {
+          "name": "l'apparition",
+          "synonyms": [
+            "l'apparition"
+          ]
+        },
+        {
+          "name": "vie",
+          "synonyms": [
+            "vie"
+          ]
+        },
+        {
+          "name": "partir",
+          "synonyms": [
+            "partir"
+          ]
+        },
+        {
+          "name": "matière",
+          "synonyms": [
+            "matière"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'abiogenèse est l'apparition de la vie à partir de matière inanimée. Dans sa conception moderne, il s'agit de l'apparition de micro-organismes primitifs, certainement disparus aujourd'hui, à partir de matière organique préexistante et d'origine abiotique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\astrobiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "abiratérone": {
+    "type": "specialized",
+    "exact_terms": [
+      "abiratérone"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'acétate",
+          "synonyms": [
+            "l'acétate"
+          ]
+        },
+        {
+          "name": "d'abiratérone",
+          "synonyms": [
+            "d'abiratérone"
+          ]
+        },
+        {
+          "name": "commercialisée",
+          "synonyms": [
+            "commercialisée"
+          ]
+        },
+        {
+          "name": "france",
+          "synonyms": [
+            "france"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'acétate d'abiratérone (commercialisée en France sous le nom de Zytiga par le laboratoire Janssen) est un inhibiteur sélectif de la biosynthèse des androgènes indiqué dans le traitement du cancer métastatique de la prostate résistant à la castration (CPRCm). Il est administré de façon continue par voie orale en une seule prise par jour, à distance des repas, à la dose de 1 000 mg par jour soit quatre comprimés, en association avec des corticoïdes, la prednisone ou la prednisolone, à la dose de ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie\\pharmacologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ablactation": {
+    "type": "specialized",
+    "exact_terms": [
+      "ablactation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'ablactation",
+          "synonyms": [
+            "l'ablactation"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "arrêt",
+          "synonyms": [
+            "arrêt"
+          ]
+        },
+        {
+          "name": "lactation",
+          "synonyms": [
+            "lactation"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'ablactation désigne l’arrêt de la lactation chez la femme, soit immédiatement après l’accouchement (post-partum), soit plus tard lors du sevrage de l’enfant.\nCe terme recouvre deux situations :\n\nL’inhibition de la lactation dans les jours suivant l’accouchement, en l’absence de mise au sein ou en cas de contre-indication médicale à l’allaitement maternel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ablution": {
+    "type": "specialized",
+    "exact_terms": [
+      "ablution"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ablution",
+          "synonyms": [
+            "ablution"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "ablutio",
+          "synonyms": [
+            "ablutio"
+          ]
+        },
+        {
+          "name": "lave",
+          "synonyms": [
+            "lave"
+          ]
+        },
+        {
+          "name": "lavement",
+          "synonyms": [
+            "lavement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une ablution (latin ablutio, je me lave ; lavement) est une purification rituelle de certaines parties du corps avant certains actes religieux. L'eau est un symbole de purification présent dans de nombreuses grandes religions :\n\ndans le judaïsme, le mikvé est un bain rituel utilisé pour l'ablution nécessaire aux rites de pureté ;\ndans le christianisme, l'eau est utilisée pour le baptême, acte de foi devant une assemblée en reconnaissant Jésus-Christ comme Sauveur et Seigneur de sa vie (immersion..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine\\hygiène",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ablépharie": {
+    "type": "specialized",
+    "exact_terms": [
+      "ablépharie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ablépharie",
+          "synonyms": [
+            "ablépharie"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "congénitale",
+          "synonyms": [
+            "congénitale"
+          ]
+        },
+        {
+          "name": "d'origine",
+          "synonyms": [
+            "d'origine"
+          ]
+        },
+        {
+          "name": "génétique",
+          "synonyms": [
+            "génétique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’ablépharie est une maladie congénitale, d'origine génétique, caractérisée par l'absence de paupières.\nSon nom vient du mot \"blepharo\" (paupière), associé au \"a\" privatif."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "aboiement": {
+    "type": "specialized",
+    "exact_terms": [
+      "aboiement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'aboiement",
+          "synonyms": [
+            "l'aboiement"
+          ]
+        },
+        {
+          "name": "vocalisation",
+          "synonyms": [
+            "vocalisation"
+          ]
+        },
+        {
+          "name": "émise",
+          "synonyms": [
+            "émise"
+          ]
+        },
+        {
+          "name": "chiens",
+          "synonyms": [
+            "chiens"
+          ]
+        },
+        {
+          "name": "moindre",
+          "synonyms": [
+            "moindre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'aboiement est une vocalisation émise par les chiens et, dans une moindre mesure, par les loups et d'autres canidés. La transcription en onomatopée est fréquemment ouaf ouaf en français."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\cris d’animaux",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}
