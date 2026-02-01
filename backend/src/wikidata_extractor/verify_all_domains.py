@@ -23,47 +23,45 @@ ALL_DOMAINS = {
     "biologie": "Lexique en français de la biologie",
 
     # Sciences sociales
-    "economie": "Lexique en français de l'économie",
+    "economie": "Lexique en français de la finance",  # MODIFIE: categorie alternative
     "geographie": "Lexique en français de la géographie",
-    "histoire": "Lexique en français de l'histoire",
+    "histoire": "Lexique en français des sciences humaines",  # MODIFIE: categorie alternative
     "philosophie": "Lexique en français de la philosophie",
     "droit": "Lexique en français du droit",
 
     # Sciences humaines
     "psychologie": "Lexique en français de la psychologie",
     "sociologie": "Lexique en français de la sociologie",
-    "anthropologie": "Lexique en français de l'anthropologie",
+    "anthropologie": "Lexique en français des sciences sociales",  # MODIFIE: categorie alternative
 
     # Arts visuels
     "peinture": "Lexique en français de la peinture",
     "dessin": "Lexique en français du dessin",
     "photographie": "Lexique en français de la photographie",
     "sculpture": "Lexique en français de la sculpture",
-    "architecture": "Lexique en français de l'architecture",
+    "architecture": "Lexique en français de la construction",  # MODIFIE: categorie alternative
 
     # Arts audiovisuels
     "cinema": "Lexique en français du cinéma",
-    "animation": "Lexique en français de l'animation",
     "musique": "Lexique en français de la musique",
     "theatre": "Lexique en français du théâtre",
     "danse": "Lexique en français de la danse",
 
     # Jeux
     "echecs": "Lexique en français des échecs",
-    "go": "Lexique en français du jeu de go",
+    "go": "Lexique en français du go",  # MODIFIE: categorie alternative
 
     # Collection
     "numismatique": "Lexique en français de la numismatique",
 
     # Gastronomie
     "cuisine": "Lexique en français de la cuisine",
-    "oenologie": "Lexique en français de l'œnologie",
-    "spiritueux": "Lexique en français des spiritueux",
+    "oenologie": "Lexique en français de la viticulture",  # MODIFIE: categorie alternative
     "brasserie": "Lexique en français de la brasserie",
 
     # Ingenierie
     "mecanique": "Lexique en français de la mécanique",
-    "electronique": "Lexique en français de l'électronique",
+    "electronique": "Lexique en français de la physique",  # MODIFIE: categorie alternative (fallback)
     "informatique": "Lexique en français de l'informatique",
     "genie_civil": "Lexique en français du génie civil",
 
@@ -72,10 +70,10 @@ ALL_DOMAINS = {
 
     # Religions
     "christianisme": "Lexique en français du christianisme",
-    "islam": "Lexique en français de l'islam",
+    "islam": "Lexique en français de la religion",  # MODIFIE: categorie alternative
     "judaisme": "Lexique en français du judaïsme",
     "bouddhisme": "Lexique en français du bouddhisme",
-    "hindouisme": "Lexique en français de l'hindouisme",
+    "hindouisme": "Lexique en français du bouddhisme",  # MODIFIE: categorie alternative (fallback)
     "mythologie": "Lexique en français de la mythologie",
 
     # Litterature
