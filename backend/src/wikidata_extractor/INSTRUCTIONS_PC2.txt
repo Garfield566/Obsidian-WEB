@@ -1,0 +1,199 @@
+================================================================================
+INSTRUCTIONS COMPLÈTES POUR PC2 - EXTRACTION SUR DISQUE EXTERNE F:\
+================================================================================
+
+ÉTAPE 1 : PRÉPARATION DU DISQUE EXTERNE F:\
+================================================================================
+
+1. Brancher le disque externe sur PC1 (PC actuel)
+
+2. Créer la structure de dossiers sur F:\
+
+   Ouvrir l'Explorateur Windows, aller sur F:\, créer :
+
+   F:\extraction_quartz\
+   F:\extraction_quartz\wikidata_extractor\
+
+
+ÉTAPE 2 : COPIER LES FICHIERS SUR F:\
+================================================================================
+
+3. Copier TOUS ces fichiers depuis :
+   C:\Users\robin tual\quartz\backend\src\wikidata_extractor\
+
+   Vers :
+   F:\extraction_quartz\wikidata_extractor\
+
+   Fichiers à copier :
+   ✓ extract_pc2_external.py         [NOUVEAU - extraction PC2]
+   ✓ lancer_extraction_pc2.bat        [NOUVEAU - script lancement]
+   ✓ extract_by_domain.py             [nécessaire]
+   ✓ domains_config_complete.py       [nécessaire]
+   ✓ wiktionary_extractor.py          [nécessaire]
+   ✓ wikipedia_extractor.py           [nécessaire]
+   ✓ arxiv_scraper.py                 [nécessaire]
+   ✓ requirements.txt                 [dépendances Python]
+
+
+ÉTAPE 3 : DÉBRANCHER F:\ ET BRANCHER SUR PC2
+================================================================================
+
+4. Éjecter en toute sécurité le disque F:\ de PC1
+
+5. Brancher le disque F:\ sur PC2
+
+
+ÉTAPE 4 : SUR PC2 - INSTALLATION DES DÉPENDANCES
+================================================================================
+
+6. Ouvrir le terminal (cmd ou PowerShell) sur PC2
+
+7. Taper ces commandes exactement :
+
+   cd /d F:\extraction_quartz\wikidata_extractor
+
+   pip install -r requirements.txt
+
+   (Attendre que l'installation se termine)
+
+
+ÉTAPE 5 : SUR PC2 - LANCER L'EXTRACTION
+================================================================================
+
+8. OPTION A - Avec le fichier batch (recommandé) :
+
+   Double-cliquer sur :
+   F:\extraction_quartz\wikidata_extractor\lancer_extraction_pc2.bat
+
+
+   OPTION B - En ligne de commande :
+
+   Ouvrir le terminal, puis taper :
+
+   cd /d F:\extraction_quartz\wikidata_extractor
+
+   python extract_pc2_external.py
+
+
+9. Confirmer le lancement quand demandé :
+
+   Lancer l'extraction PC2? (o/n): o
+
+
+ÉTAPE 6 : ATTENDRE LA FIN (~1.5-2 JOURS)
+================================================================================
+
+10. L'extraction va durer environ 32-52 heures
+
+11. Vous verrez la progression :
+
+    PC2 - PROGRESSION: [##########------] 25.0%
+    Domaine 5/21: CINEMA
+    Categorie: Arts Audiovisuels
+    Temps total ecoule: 10h23min
+
+
+12. À la fin, vous verrez :
+
+    [OK] EXTRACTION PC2 TERMINEE!
+
+
+ÉTAPE 7 : TRANSFÉRER LES RÉSULTATS VERS PC1
+================================================================================
+
+13. Éjecter le disque F:\ de PC2
+
+14. Rebrancher F:\ sur PC1
+
+15. Sur PC1, ouvrir le terminal et taper :
+
+    xcopy /E /I /Y "F:\extraction_quartz\extracted_by_domain\*" "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\"
+
+
+ÉTAPE 8 : FUSION FINALE SUR PC1
+================================================================================
+
+16. Sur PC1, dans le terminal :
+
+    cd "C:\Users\robin tual\quartz\backend\src\wikidata_extractor"
+
+    python extract_by_domain.py --merge-only
+
+
+17. Vérifier les fichiers fusionnés finaux :
+
+    C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\
+    ├── enriched_vocabulary_complete.json
+    ├── specialized_terms_complete.json
+    └── extraction_stats_complete.json
+
+
+================================================================================
+RÉSUMÉ DES COMMANDES POUR PC2
+================================================================================
+
+# Installation (une seule fois)
+cd /d F:\extraction_quartz\wikidata_extractor
+pip install -r requirements.txt
+
+# Lancement extraction
+python extract_pc2_external.py
+
+# Ou double-cliquer sur :
+lancer_extraction_pc2.bat
+
+
+================================================================================
+FICHIERS GÉNÉRÉS SUR F:\
+================================================================================
+
+F:\extraction_quartz\
+├── wikidata_extractor\              [CODE]
+│   ├── extract_pc2_external.py
+│   ├── lancer_extraction_pc2.bat
+│   ├── extract_by_domain.py
+│   ├── domains_config_complete.py
+│   ├── wiktionary_extractor.py
+│   ├── wikipedia_extractor.py
+│   ├── arxiv_scraper.py
+│   └── requirements.txt
+│
+└── extracted_by_domain\             [DONNÉES EXTRAITES]
+    ├── peinture\
+    ├── cinema\
+    ├── musique\
+    ├── ... (21 domaines au total)
+    └── [À transférer vers PC1 à la fin]
+
+
+================================================================================
+DÉPANNAGE
+================================================================================
+
+PROBLÈME : "pip: command not found"
+SOLUTION : Installer Python sur PC2 d'abord
+           https://www.python.org/downloads/
+
+PROBLÈME : "F:\ n'est pas reconnu"
+SOLUTION : Vérifier que le disque externe est bien branché
+           et qu'il apparaît comme F:\ dans l'Explorateur
+
+PROBLÈME : "ModuleNotFoundError"
+SOLUTION : Réexécuter : pip install -r requirements.txt
+
+PROBLÈME : Extraction interrompue
+SOLUTION : Relancer le script - il reprendra automatiquement
+           (domaines déjà extraits seront détectés [SKIP])
+
+
+================================================================================
+CONTACT & SUPPORT
+================================================================================
+
+Pour toute question, vérifier :
+- Guide_Extraction_2_PCs.md (documentation complète)
+- Les logs affichés dans le terminal
+
+================================================================================
+FIN DES INSTRUCTIONS
+================================================================================
