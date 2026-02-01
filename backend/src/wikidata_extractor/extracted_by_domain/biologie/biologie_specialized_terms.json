@@ -164148,5 +164148,6155 @@
       "wikipedia"
     ],
     "confidence": 0.8
+  },
+  "membrane": {
+    "type": "specialized",
+    "exact_terms": [
+      "membrane"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        },
+        {
+          "name": "provient",
+          "synonyms": [
+            "provient"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "membrana",
+          "synonyms": [
+            "membrana"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot membrane provient du latin membrana signifiant « peau qui recouvre les membres »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "membrane nictitante": {
+    "type": "specialized",
+    "exact_terms": [
+      "membrane nictitante"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        },
+        {
+          "name": "nictitante",
+          "synonyms": [
+            "nictitante"
+          ]
+        },
+        {
+          "name": "paupière",
+          "synonyms": [
+            "paupière"
+          ]
+        },
+        {
+          "name": "supplémentaire",
+          "synonyms": [
+            "supplémentaire"
+          ]
+        },
+        {
+          "name": "transparente",
+          "synonyms": [
+            "transparente"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La membrane nictitante est une paupière supplémentaire transparente ou translucide que possèdent certains animaux qui recouvre l'œil afin de le protéger et l'humidifier tout en permettant une certaine visibilité.\nDe nombreux oiseaux et reptiles, ainsi que certains batraciens et poissons (notamment les requins) possèdent une membrane nictitante pleinement fonctionnelle alors que de nombreux mammifères ne possèdent qu'un vestige de cette membrane et des muscles associés dans le coin de l'œil (nota..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "membrane plasmique": {
+    "type": "specialized",
+    "exact_terms": [
+      "membrane plasmique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        },
+        {
+          "name": "plasmique",
+          "synonyms": [
+            "plasmique"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La membrane plasmique, également appelée membrane cellulaire, membrane cytoplasmique, voire plasmalemme, est une membrane biologique séparant l'intérieur d'une cellule, appelé cytoplasme, de son environnement extérieur, c'est-à-dire du milieu extracellulaire. Cette membrane joue un rôle biologique fondamental en isolant la cellule de son environnement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "membrane synoviale": {
+    "type": "specialized",
+    "exact_terms": [
+      "membrane synoviale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        },
+        {
+          "name": "synoviale",
+          "synonyms": [
+            "synoviale"
+          ]
+        },
+        {
+          "name": "synoviale",
+          "synonyms": [
+            "synoviale"
+          ]
+        },
+        {
+          "name": "membrane",
+          "synonyms": [
+            "membrane"
+          ]
+        },
+        {
+          "name": "séreuse",
+          "synonyms": [
+            "séreuse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La membrane synoviale (ou synoviale) est la membrane séreuse qui tapisse la face interne de la capsule articulaire d'une jointure synoviale.\nElle s'insère sur le pourtour des surfaces articulaires cartilagineuses de l'articulation et limite la cavité articulaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "membre chiridien": {
+    "type": "specialized",
+    "exact_terms": [
+      "membre chiridien"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "membres",
+          "synonyms": [
+            "membres"
+          ]
+        },
+        {
+          "name": "chiridiens",
+          "synonyms": [
+            "chiridiens"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "χείρ",
+          "synonyms": [
+            "χείρ"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les membres chiridiens (du grec ancien χείρ (kheir) : « main ») sont les appendices locomoteurs articulés et munis de doigts des tétrapodes, dérivant probablement de deux paires des nageoires de leurs ancêtres sarcoptérygiens ichtyens. Cette innovation anatomique apparue au Dévonien (passage de la nageoire des sarcoptérygyens tétrapodomorphes au membre chiridien des tétrapodes) permet aux premiers tétrapodes aquatiques de nager et marcher sur le fond d'eaux avant de permettre la mise en place de..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "membre fantôme": {
+    "type": "specialized",
+    "exact_terms": [
+      "membre fantôme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "membre",
+          "synonyms": [
+            "membre"
+          ]
+        },
+        {
+          "name": "fantôme",
+          "synonyms": [
+            "fantôme"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "sensation",
+          "synonyms": [
+            "sensation"
+          ]
+        },
+        {
+          "name": "membre",
+          "synonyms": [
+            "membre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme membre fantôme désigne la sensation qu'un membre (même un organe, comme l'appendice) amputé ou manquant est toujours relié au corps et interagit bien avec d'autres parties du corps. Deux amputés de guerre sur trois rapportent cette sensation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "menstruation": {
+    "type": "specialized",
+    "exact_terms": [
+      "menstruation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "menstruation",
+          "synonyms": [
+            "menstruation"
+          ]
+        },
+        {
+          "name": "couramment",
+          "synonyms": [
+            "couramment"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "règles",
+          "synonyms": [
+            "règles"
+          ]
+        },
+        {
+          "name": "l'écoulement",
+          "synonyms": [
+            "l'écoulement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La menstruation, couramment appelée les règles, est l'écoulement périodique et temporaire par le vagin d'un mélange composé de sang, de sécrétions vaginales, et de cellules de la paroi utérine  concernant l'être humain et les primates supérieures. Ce mélange est appelé le  liquide menstruel  La menstruation est le résultat de l'absence de nidation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mental": {
+    "type": "specialized",
+    "exact_terms": [
+      "mental"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mental",
+          "synonyms": [
+            "mental"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "renvoyant",
+          "synonyms": [
+            "renvoyant"
+          ]
+        },
+        {
+          "name": "substantif",
+          "synonyms": [
+            "substantif"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mental est un adjectif et un nom renvoyant au substantif mentalité, entre autres."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "menton": {
+    "type": "specialized",
+    "exact_terms": [
+      "menton"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "menton",
+          "synonyms": [
+            "menton"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "mentum",
+          "synonyms": [
+            "mentum"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le nom commun menton, du latin mentum via le bas latin mento (même sens), désigne originellement la partie inférieure de la face située au-dessous de la lèvre inférieure, saillante chez Homo sapiens. Par analogie, on l'utilise aussi pour certains animaux (bouc et divers oiseaux)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mercenaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "mercenaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mercenaire",
+          "synonyms": [
+            "mercenaire"
+          ]
+        },
+        {
+          "name": "combattant",
+          "synonyms": [
+            "combattant"
+          ]
+        },
+        {
+          "name": "métier",
+          "synonyms": [
+            "métier"
+          ]
+        },
+        {
+          "name": "étranger",
+          "synonyms": [
+            "étranger"
+          ]
+        },
+        {
+          "name": "parties",
+          "synonyms": [
+            "parties"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mercenaire est un combattant de métier, étranger aux parties en conflit, « spécialement recruté dans le pays ou à l'étranger » et qui « prend une part directe aux hostilités ». Il a un « avantage personnel » à participer à ce conflit, qui est une rémunération « nettement supérieure à celle » de ses homologues de l'armée régulière."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mercure": {
+    "type": "specialized",
+    "exact_terms": [
+      "mercure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        },
+        {
+          "name": "mercure",
+          "synonyms": [
+            "mercure"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "mercurius",
+          "synonyms": [
+            "mercurius"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le nom propre Mercure (du latin Mercurius, le dieu ou la planète) et, par antonomase, le nom commun mercure, prennent différentes significations selon le contexte."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "merde": {
+    "type": "specialized",
+    "exact_terms": [
+      "merde"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "merde",
+          "synonyms": [
+            "merde"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "moderne",
+          "synonyms": [
+            "moderne"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        },
+        {
+          "name": "vulgairement",
+          "synonyms": [
+            "vulgairement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Merde est un mot de français moderne désignant vulgairement les matières fécales. Il sert de juron, sous la forme d'une interjection, dans le langage familier."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "meurtre": {
+    "type": "specialized",
+    "exact_terms": [
+      "meurtre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "meurtre",
+          "synonyms": [
+            "meurtre"
+          ]
+        },
+        {
+          "name": "homicide",
+          "synonyms": [
+            "homicide"
+          ]
+        },
+        {
+          "name": "commis",
+          "synonyms": [
+            "commis"
+          ]
+        },
+        {
+          "name": "volontairement",
+          "synonyms": [
+            "volontairement"
+          ]
+        },
+        {
+          "name": "auteur",
+          "synonyms": [
+            "auteur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un meurtre est un homicide commis volontairement par son auteur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "meurtre au premier degré": {
+    "type": "specialized",
+    "exact_terms": [
+      "meurtre au premier degré"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "pénal",
+          "synonyms": [
+            "pénal"
+          ]
+        },
+        {
+          "name": "pays",
+          "synonyms": [
+            "pays"
+          ]
+        },
+        {
+          "name": "common",
+          "synonyms": [
+            "common"
+          ]
+        },
+        {
+          "name": "law",
+          "synonyms": [
+            "law"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le droit pénal des pays de common law, un meurtre au premier degré est un meurtre commis avec préméditation et de propos délibéré. Cette classification du meurtre par degrés de gravité est notamment utilisée aux États-Unis et au Canada."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "meurtrière": {
+    "type": "specialized",
+    "exact_terms": [
+      "meurtrière"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "meurtrière",
+          "synonyms": [
+            "meurtrière"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "meurtrier",
+          "synonyms": [
+            "meurtrier"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une meurtrière (de l’adjectif « meurtrier ») est un terme générique qui désigne une ouverture pratiquée dans une muraille pour permettre l'observation. Cette embrasure, typique de l'architecture militaire médiévale, contribuait au développement de la défense active."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miaou": {
+    "type": "specialized",
+    "exact_terms": [
+      "miaou"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miaou",
+          "synonyms": [
+            "miaou"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "miaou",
+          "synonyms": [
+            "miaou"
+          ]
+        },
+        {
+          "name": "onomatopée",
+          "synonyms": [
+            "onomatopée"
+          ]
+        },
+        {
+          "name": "miaulement",
+          "synonyms": [
+            "miaulement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme « miaou » peut faire référence à :\n\n« miaou », onomatopée du miaulement ;\nMiaou (ja), groupe de musique japonais ;\nMiaou !, film néerlandais de 2001 ;\nMagot miaou,  court métrage d'animation américain de 1948 ;\nLe Prince Miiaou (née en 1984), auteur-compositrice-interprète française."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miaulement": {
+    "type": "specialized",
+    "exact_terms": [
+      "miaulement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miaulement",
+          "synonyms": [
+            "miaulement"
+          ]
+        },
+        {
+          "name": "vocalisation",
+          "synonyms": [
+            "vocalisation"
+          ]
+        },
+        {
+          "name": "émise",
+          "synonyms": [
+            "émise"
+          ]
+        },
+        {
+          "name": "félins",
+          "synonyms": [
+            "félins"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le miaulement est une vocalisation émise par les félins et notamment les félinés. La transcription en onomatopée est miaou en français, et est similaire dans de nombreuses langues européennes et en mandarin."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\cris d’animaux",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micro-organisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "micro-organisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "micro-organisme",
+          "synonyms": [
+            "micro-organisme"
+          ]
+        },
+        {
+          "name": "microorganisme",
+          "synonyms": [
+            "microorganisme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "μικρός",
+          "synonyms": [
+            "μικρός"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un micro-organisme ou microorganisme (du grec ancien μικρός / mikrós, « petit » et de ὄργανον / órganon, « organe ») ou microbe (du grec μικρός / mikrós, « petit » et βίος / bíos, « vie ») est un organisme unicellulaire qui ne peut être observé individuellement qu'à l'aide d'un microscope. Dans leur ensemble, les microorganismes représentent la  majeure partie du monde vivant."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micro-éveil": {
+    "type": "specialized",
+    "exact_terms": [
+      "micro-éveil"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "micro-réveil",
+          "synonyms": [
+            "micro-réveil"
+          ]
+        },
+        {
+          "name": "micro-éveil",
+          "synonyms": [
+            "micro-éveil"
+          ]
+        },
+        {
+          "name": "induit",
+          "synonyms": [
+            "induit"
+          ]
+        },
+        {
+          "name": "augmentation",
+          "synonyms": [
+            "augmentation"
+          ]
+        },
+        {
+          "name": "effort",
+          "synonyms": [
+            "effort"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un micro-réveil ou micro-éveil est induit par l’augmentation de l’effort respiratoire et non par la diminution de la saturation en oxygène. Il n'existe pas de consensus sur la durée les définissant, le seuil le plus courant étant supérieur à 3 secondes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microangiopathie": {
+    "type": "specialized",
+    "exact_terms": [
+      "microangiopathie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microangiopathie",
+          "synonyms": [
+            "microangiopathie"
+          ]
+        },
+        {
+          "name": "angiopathie",
+          "synonyms": [
+            "angiopathie"
+          ]
+        },
+        {
+          "name": "atteint",
+          "synonyms": [
+            "atteint"
+          ]
+        },
+        {
+          "name": "vaisseaux",
+          "synonyms": [
+            "vaisseaux"
+          ]
+        },
+        {
+          "name": "sanguins",
+          "synonyms": [
+            "sanguins"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La microangiopathie est une angiopathie qui atteint des vaisseaux sanguins de petits calibres.\nElle peut se situer au niveau de l'œil (voir rétinopathie diabétique), du cerveau, du rein (néphropathie) ou des nerfs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microbiome": {
+    "type": "specialized",
+    "exact_terms": [
+      "microbiome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microbiome",
+          "synonyms": [
+            "microbiome"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "micro",
+          "synonyms": [
+            "micro"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        },
+        {
+          "name": "bios",
+          "synonyms": [
+            "bios"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le microbiome (du grec micro, « petit », et bios, « vie ») est l'« aire biotique » (aire de vie correspondant à une niche écologique) du microbiote, le mot microbiote désignant ici les espèces autrefois regroupées sous le terme « microflore », c'est-à-dire celles qui prédominent ou sont durablement adaptées à la surface et à l'intérieur d'un organisme vivant.\nCe terme est introduit en 2001 par le généticien et microbiologiste américain Joshua Lederberg pour intégrer la notion d'une communauté éc..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microbiote": {
+    "type": "specialized",
+    "exact_terms": [
+      "microbiote"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microbiote",
+          "synonyms": [
+            "microbiote"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "micro-organismes",
+          "synonyms": [
+            "micro-organismes"
+          ]
+        },
+        {
+          "name": "bactéries",
+          "synonyms": [
+            "bactéries"
+          ]
+        },
+        {
+          "name": "microchampignons",
+          "synonyms": [
+            "microchampignons"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le microbiote est l'ensemble des micro-organismes — bactéries, microchampignons, protistes — vivant (certains y ajoutent les virus) dans un environnement spécifique (appelé microbiome) chez un hôte (animal : zoobiote ; végétal : phytobiote ; sol : microbiote tellurique ; air : aérobiote) ou une matière (d'origine animale ou végétale). Ces micro-organismes peuvent être présents sans impact sur leur hôte (commensalisme) ou entrer en interaction étroite avec lui (mutualisme, parasitisme non létal)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microchimérisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "microchimérisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microchimérisme",
+          "synonyms": [
+            "microchimérisme"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "présence",
+          "synonyms": [
+            "présence"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "individu",
+          "synonyms": [
+            "individu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le microchimérisme désigne la présence chez un individu (femme généralement) d'un petit nombre de cellules issues d'un autre individu et donc génétiquement distinctes. Des mères portent ainsi fréquemment des cellules biologiquement active provenant d'un ou plusieurs de leurs enfants biologiques, transmises à travers le placenta quand le bébé était en développement dans l’utérus."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microchirurgie": {
+    "type": "specialized",
+    "exact_terms": [
+      "microchirurgie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microchirurgie",
+          "synonyms": [
+            "microchirurgie"
+          ]
+        },
+        {
+          "name": "branche",
+          "synonyms": [
+            "branche"
+          ]
+        },
+        {
+          "name": "chirurgie",
+          "synonyms": [
+            "chirurgie"
+          ]
+        },
+        {
+          "name": "nécessite",
+          "synonyms": [
+            "nécessite"
+          ]
+        },
+        {
+          "name": "microscope",
+          "synonyms": [
+            "microscope"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La microchirurgie est une branche de la chirurgie qui nécessite un microscope opératoire pour effectuer des interventions de précision. Les microscopes permettent de grossir en moyenne 40 fois le champ de vision."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microcirculation": {
+    "type": "specialized",
+    "exact_terms": [
+      "microcirculation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microcirculation",
+          "synonyms": [
+            "microcirculation"
+          ]
+        },
+        {
+          "name": "système",
+          "synonyms": [
+            "système"
+          ]
+        },
+        {
+          "name": "circulation",
+          "synonyms": [
+            "circulation"
+          ]
+        },
+        {
+          "name": "sanguine",
+          "synonyms": [
+            "sanguine"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La microcirculation, dans le système de circulation sanguine générale, désigne le sous-ensemble du système circulatoire où s'effectuent les échanges gazeux et liquidiens extracellulaires. Elle s'effectue dans un réseau dont les éléments ont des dimensions et diamètres le plus souvent micrométrique à nanométrique (réseaux sanguin et lymphatique)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microcosme": {
+    "type": "specialized",
+    "exact_terms": [
+      "microcosme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microcosme",
+          "synonyms": [
+            "microcosme"
+          ]
+        },
+        {
+          "name": "abrégé",
+          "synonyms": [
+            "abrégé"
+          ]
+        },
+        {
+          "name": "image",
+          "synonyms": [
+            "image"
+          ]
+        },
+        {
+          "name": "réduite",
+          "synonyms": [
+            "réduite"
+          ]
+        },
+        {
+          "name": "monde",
+          "synonyms": [
+            "monde"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le microcosme est un abrégé, une image réduite du monde ou de la société. Le terme est notamment utilisé de manière sociologique pour définir un groupe représentatif de son milieu social[réf."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microcytose": {
+    "type": "specialized",
+    "exact_terms": [
+      "microcytose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microcytose",
+          "synonyms": [
+            "microcytose"
+          ]
+        },
+        {
+          "name": "d'avoir",
+          "synonyms": [
+            "d'avoir"
+          ]
+        },
+        {
+          "name": "microcytes",
+          "synonyms": [
+            "microcytes"
+          ]
+        },
+        {
+          "name": "c'est-à-dire",
+          "synonyms": [
+            "c'est-à-dire"
+          ]
+        },
+        {
+          "name": "érythrocytes",
+          "synonyms": [
+            "érythrocytes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une microcytose est le fait d'avoir des microcytes, c'est-à-dire des érythrocytes ou globules rouges de plus petite taille que la normale : volume globulaire moyen abaissé, inférieur à 80 fl - femtolitres. \nCertaines anémies sont microcytaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microcéphalie": {
+    "type": "specialized",
+    "exact_terms": [
+      "microcéphalie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microcéphalie",
+          "synonyms": [
+            "microcéphalie"
+          ]
+        },
+        {
+          "name": "concerne",
+          "synonyms": [
+            "concerne"
+          ]
+        },
+        {
+          "name": "toutes",
+          "synonyms": [
+            "toutes"
+          ]
+        },
+        {
+          "name": "formes",
+          "synonyms": [
+            "formes"
+          ]
+        },
+        {
+          "name": "croissance",
+          "synonyms": [
+            "croissance"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La microcéphalie concerne toutes les formes de croissance anormalement faible de la boîte crânienne et du cerveau. Elle se manifeste par des mesures crâniennes : périmètre et diamètre de la tête, inférieurs à la normale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microdon": {
+    "type": "specialized",
+    "exact_terms": [
+      "microdon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microdon",
+          "synonyms": [
+            "microdon"
+          ]
+        },
+        {
+          "name": "microdon",
+          "synonyms": [
+            "microdon"
+          ]
+        },
+        {
+          "name": "microdon",
+          "synonyms": [
+            "microdon"
+          ]
+        },
+        {
+          "name": "micro-don",
+          "synonyms": [
+            "micro-don"
+          ]
+        },
+        {
+          "name": "don",
+          "synonyms": [
+            "don"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme microdon ou Microdon fait référence à :\n\nUn microdon ou micro-don est un don de très faible montant.\nLa société microDON ou MicroDON est une entreprise solidaire d'utilité sociale (ESUS)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microdosage": {
+    "type": "specialized",
+    "exact_terms": [
+      "microdosage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microdosage",
+          "synonyms": [
+            "microdosage"
+          ]
+        },
+        {
+          "name": "micro-dosage",
+          "synonyms": [
+            "micro-dosage"
+          ]
+        },
+        {
+          "name": "l'usage",
+          "synonyms": [
+            "l'usage"
+          ]
+        },
+        {
+          "name": "doses",
+          "synonyms": [
+            "doses"
+          ]
+        },
+        {
+          "name": "substances",
+          "synonyms": [
+            "substances"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le microdosage, ou micro-dosage, est l'usage de doses de substances inférieures à leur seuil thérapeutique afin d'évaluer leurs effets chez l'homme. Cette approche permet de recueillir des données préliminaires sur la sécurité, la pharmacocinétique et les bénéfices thérapeutiques potentiels, sans provoquer de réponses physiologiques notables."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie\\pharmacologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microglie": {
+    "type": "specialized",
+    "exact_terms": [
+      "microglie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microglie",
+          "synonyms": [
+            "microglie"
+          ]
+        },
+        {
+          "name": "microgliocytes",
+          "synonyms": [
+            "microgliocytes"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "hortega",
+          "synonyms": [
+            "hortega"
+          ]
+        },
+        {
+          "name": "population",
+          "synonyms": [
+            "population"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La microglie (microgliocytes ou cellules de Hortega) est une population de cellules gliales — des macrophages que l'on retrouve dans le système nerveux central (cerveau, moelle épinière et rétine) — et qui en forme la principale défense immunitaire active grâce à ses capacités phagocytaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microinjection": {
+    "type": "specialized",
+    "exact_terms": [
+      "microinjection"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microinjection",
+          "synonyms": [
+            "microinjection"
+          ]
+        },
+        {
+          "name": "l'introduction",
+          "synonyms": [
+            "l'introduction"
+          ]
+        },
+        {
+          "name": "petites",
+          "synonyms": [
+            "petites"
+          ]
+        },
+        {
+          "name": "quantités",
+          "synonyms": [
+            "quantités"
+          ]
+        },
+        {
+          "name": "matériel",
+          "synonyms": [
+            "matériel"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La microinjection est l'introduction de petites quantités d’un matériel généralement liquide (ADN, ARN, enzymes, agents cytotoxiques) dans un tissu biologique défini ou dans une cellule au moyen d’une aiguille fine et microscopique.\nCette technique est employée dans le domaine du génie génétique, pour incorporer directement dans un organisme du matériel héréditaire préparé à l'extérieur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micromammifère": {
+    "type": "specialized",
+    "exact_terms": [
+      "micromammifère"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "micromammifères",
+          "synonyms": [
+            "micromammifères"
+          ]
+        },
+        {
+          "name": "petits",
+          "synonyms": [
+            "petits"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        },
+        {
+          "name": "carnivores",
+          "synonyms": [
+            "carnivores"
+          ]
+        },
+        {
+          "name": "rongeurs",
+          "synonyms": [
+            "rongeurs"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les micromammifères sont de petits mammifères (carnivores, rongeurs, insectivores, etc.) regroupés dans cette catégorie particulière en raison de leur petite taille."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micromycète": {
+    "type": "specialized",
+    "exact_terms": [
+      "micromycète"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "groupe",
+          "synonyms": [
+            "groupe"
+          ]
+        },
+        {
+          "name": "micromycètes",
+          "synonyms": [
+            "micromycètes"
+          ]
+        },
+        {
+          "name": "microchampignons",
+          "synonyms": [
+            "microchampignons"
+          ]
+        },
+        {
+          "name": "microfungi",
+          "synonyms": [
+            "microfungi"
+          ]
+        },
+        {
+          "name": "rassemble",
+          "synonyms": [
+            "rassemble"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le groupe des micromycètes, microchampignons ou microfungi rassemble des champignons de très petite taille, voire microscopiques. \nC'est une catégorie artificielle, qui est susceptible d'évoluer, où l'on a rangé des organismes tels que la rouille, mais aussi le mildiou (qui n'est pas en fait un champignon)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micronème": {
+    "type": "specialized",
+    "exact_terms": [
+      "micronème"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "micronèmes",
+          "synonyms": [
+            "micronèmes"
+          ]
+        },
+        {
+          "name": "organites",
+          "synonyms": [
+            "organites"
+          ]
+        },
+        {
+          "name": "constitutifs",
+          "synonyms": [
+            "constitutifs"
+          ]
+        },
+        {
+          "name": "certains",
+          "synonyms": [
+            "certains"
+          ]
+        },
+        {
+          "name": "protozoaires",
+          "synonyms": [
+            "protozoaires"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les micronèmes sont des organites constitutifs de certains protozoaires. On en retrouve dans la forme merozoïte de Plasmodium falciparum."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microphtalmie": {
+    "type": "specialized",
+    "exact_terms": [
+      "microphtalmie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microphtalmie",
+          "synonyms": [
+            "microphtalmie"
+          ]
+        },
+        {
+          "name": "réduction",
+          "synonyms": [
+            "réduction"
+          ]
+        },
+        {
+          "name": "dimensions",
+          "synonyms": [
+            "dimensions"
+          ]
+        },
+        {
+          "name": "globe",
+          "synonyms": [
+            "globe"
+          ]
+        },
+        {
+          "name": "oculaire",
+          "synonyms": [
+            "oculaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La microphtalmie est la réduction des dimensions du globe oculaire dans ses différents diamètres, due à une anomalie congénitale. Il s'agit d'une malformation congénitale rare, estimée, en France, entre une naissance sur 10 000 et une sur 100 000 pour les cas extrêmes, qui peut être unilatérale ou bilatérale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microphylle": {
+    "type": "specialized",
+    "exact_terms": [
+      "microphylle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microphylle",
+          "synonyms": [
+            "microphylle"
+          ]
+        },
+        {
+          "name": "dit",
+          "synonyms": [
+            "dit"
+          ]
+        },
+        {
+          "name": "feuilles",
+          "synonyms": [
+            "feuilles"
+          ]
+        },
+        {
+          "name": "archaïques",
+          "synonyms": [
+            "archaïques"
+          ]
+        },
+        {
+          "name": "nécessairement",
+          "synonyms": [
+            "nécessairement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Microphylle se dit de :\n\nfeuilles archaïques, pas nécessairement petites, qui comportent un seul faisceau conducteur (faisceau vasculaire correspondant à la nervure centrale non divisée). Elles sont surtout présentes chez les lycophytes et les sphénophytes, faisant partie des ptéridophytes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micropsie": {
+    "type": "specialized",
+    "exact_terms": [
+      "micropsie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "micropsie",
+          "synonyms": [
+            "micropsie"
+          ]
+        },
+        {
+          "name": "affection",
+          "synonyms": [
+            "affection"
+          ]
+        },
+        {
+          "name": "perception",
+          "synonyms": [
+            "perception"
+          ]
+        },
+        {
+          "name": "visuelle",
+          "synonyms": [
+            "visuelle"
+          ]
+        },
+        {
+          "name": "humaine",
+          "synonyms": [
+            "humaine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La micropsie est une affection de la perception visuelle humaine dans laquelle des objets sont perçus plus petits qu'ils ne le sont en réalité.\nLa micropsie peut être causée soit par une distorsion optique de l'image à partir de l'œil (à cause de lunettes ou autres types de verre) ou par une dysfonction neurologique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micropyle": {
+    "type": "specialized",
+    "exact_terms": [
+      "micropyle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "micropyle",
+          "synonyms": [
+            "micropyle"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "micros",
+          "synonyms": [
+            "micros"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        },
+        {
+          "name": "pulè",
+          "synonyms": [
+            "pulè"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le micropyle (du grec micros, très petit et pulè, ouverture) est le très petit orifice de certains éléments reproducteurs femelles. Le terme est employé dans plusieurs domaines :\n\nChez les poissons, les amphibiens et les insectes ovipares, c'est une ouverture dans la membrane cellulaire des ovules, orifice de pénétration du spermatozoïde et point de convergence du faisceau des chromosomes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microsatellite": {
+    "type": "specialized",
+    "exact_terms": [
+      "microsatellite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "astronautique",
+          "synonyms": [
+            "astronautique"
+          ]
+        },
+        {
+          "name": "microsatellite",
+          "synonyms": [
+            "microsatellite"
+          ]
+        },
+        {
+          "name": "satellite",
+          "synonyms": [
+            "satellite"
+          ]
+        },
+        {
+          "name": "artificiel",
+          "synonyms": [
+            "artificiel"
+          ]
+        },
+        {
+          "name": "moins",
+          "synonyms": [
+            "moins"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En astronautique, un microsatellite est un satellite artificiel de moins de 200 kg.\nEn biologie, un microsatellite est une séquence d'ADN particulière, caractérisée par la répétition d'un motif de dinucléotides ou de trinucléotides."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microsome": {
+    "type": "specialized",
+    "exact_terms": [
+      "microsome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microsome",
+          "synonyms": [
+            "microsome"
+          ]
+        },
+        {
+          "name": "fraction",
+          "synonyms": [
+            "fraction"
+          ]
+        },
+        {
+          "name": "réticulum",
+          "synonyms": [
+            "réticulum"
+          ]
+        },
+        {
+          "name": "endoplasmique",
+          "synonyms": [
+            "endoplasmique"
+          ]
+        },
+        {
+          "name": "obtenue",
+          "synonyms": [
+            "obtenue"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un microsome est une fraction du réticulum endoplasmique obtenue par ultracentrifugation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microspore": {
+    "type": "specialized",
+    "exact_terms": [
+      "microspore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microspore",
+          "synonyms": [
+            "microspore"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "haploïde",
+          "synonyms": [
+            "haploïde"
+          ]
+        },
+        {
+          "name": "issue",
+          "synonyms": [
+            "issue"
+          ]
+        },
+        {
+          "name": "méiose",
+          "synonyms": [
+            "méiose"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une microspore est une cellule haploïde issue de la méiose qui donne un gamétophyte mâle.\nChez les végétaux, quatre microspores haploïdes (n) sont issues de la méiose d'une cellule mère diploïde (2n), le microsporocyte."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microstomie": {
+    "type": "specialized",
+    "exact_terms": [
+      "microstomie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microstomie",
+          "synonyms": [
+            "microstomie"
+          ]
+        },
+        {
+          "name": "petitesse",
+          "synonyms": [
+            "petitesse"
+          ]
+        },
+        {
+          "name": "anormale",
+          "synonyms": [
+            "anormale"
+          ]
+        },
+        {
+          "name": "congénitale",
+          "synonyms": [
+            "congénitale"
+          ]
+        },
+        {
+          "name": "bouche",
+          "synonyms": [
+            "bouche"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La microstomie est la petitesse anormale et congénitale de la bouche. Cette anomalie est un symptôme de certains syndromes craniofaciaux tel que le syndrome de Freeman-Sheldon et Dysplasie de Sensenbrenner."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microtome": {
+    "type": "specialized",
+    "exact_terms": [
+      "microtome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microtome",
+          "synonyms": [
+            "microtome"
+          ]
+        },
+        {
+          "name": "appareil",
+          "synonyms": [
+            "appareil"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "coupe",
+          "synonyms": [
+            "coupe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un microtome est un appareil utilisé pour l'étude par coupe histologique des cellules."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microtraumatisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "microtraumatisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microtraumatisme",
+          "synonyms": [
+            "microtraumatisme"
+          ]
+        },
+        {
+          "name": "traumatisme",
+          "synonyms": [
+            "traumatisme"
+          ]
+        },
+        {
+          "name": "petite",
+          "synonyms": [
+            "petite"
+          ]
+        },
+        {
+          "name": "intensité",
+          "synonyms": [
+            "intensité"
+          ]
+        },
+        {
+          "name": "long",
+          "synonyms": [
+            "long"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un microtraumatisme est un traumatisme de très petite intensité mais qui à long terme peut être néfaste pour la santé. Il est particulièrement étudié dans les cas des claviers d'ordinateur par la répétition de la frappe au bout des doigts, et dans les cas de maladies professionnelles en fin de carrière, mais aussi dans le domaine du sport."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microtubule": {
+    "type": "specialized",
+    "exact_terms": [
+      "microtubule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microtubules",
+          "synonyms": [
+            "microtubules"
+          ]
+        },
+        {
+          "name": "fibres",
+          "synonyms": [
+            "fibres"
+          ]
+        },
+        {
+          "name": "constitutives",
+          "synonyms": [
+            "constitutives"
+          ]
+        },
+        {
+          "name": "cytosquelette",
+          "synonyms": [
+            "cytosquelette"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les microtubules (MT) sont des fibres constitutives du cytosquelette des cellules eucaryotes, au même titre que les microfilaments d'actine et les filaments intermédiaires. Ils sont moins importants, pondéralement, chez les métaphytes (plantes) que chez les métazoaire (animaux)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "microvillosité": {
+    "type": "specialized",
+    "exact_terms": [
+      "microvillosité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "microvillosités",
+          "synonyms": [
+            "microvillosités"
+          ]
+        },
+        {
+          "name": "fins",
+          "synonyms": [
+            "fins"
+          ]
+        },
+        {
+          "name": "prolongements",
+          "synonyms": [
+            "prolongements"
+          ]
+        },
+        {
+          "name": "cellulaires",
+          "synonyms": [
+            "cellulaires"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les microvillosités sont de fins prolongements cellulaires de forme cylindrique d'environ 1 à 2 micromètres de longueur et localisées sur des cellules épithéliales. Elles se situent au pôle apical de la cellule (extrémité cellulaire vers le milieu extérieur, s'oppose au pôle basal), et servent à absorber des substances."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miction": {
+    "type": "specialized",
+    "exact_terms": [
+      "miction"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miction",
+          "synonyms": [
+            "miction"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "mingere",
+          "synonyms": [
+            "mingere"
+          ]
+        },
+        {
+          "name": "uriner",
+          "synonyms": [
+            "uriner"
+          ]
+        },
+        {
+          "name": "soit",
+          "synonyms": [
+            "soit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La miction (du latin mingere, « uriner »), soit l'action d'uriner, est l'élimination d'urine par la vidange de la vessie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "midazolam": {
+    "type": "specialized",
+    "exact_terms": [
+      "midazolam"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "midazolam",
+          "synonyms": [
+            "midazolam"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "connu",
+          "synonyms": [
+            "connu"
+          ]
+        },
+        {
+          "name": "france",
+          "synonyms": [
+            "france"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le midazolam (parfois connu en France sous le nom commercial Hypnovel, et aux États-Unis sous le nom Versed) est une molécule de la famille des benzodiazépines. Ses puissantes propriétés anxiolytiques, amnésiantes, hypnotiques, anticonvulsivantes, sédatives et myorelaxantes, associées à un délai et une durée d'action courts, en font un adjuvant particulièrement utile en anesthésie et en réanimation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mieux vaut prévenir que guérir": {
+    "type": "specialized",
+    "exact_terms": [
+      "mieux vaut prévenir que guérir"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mieux",
+          "synonyms": [
+            "mieux"
+          ]
+        },
+        {
+          "name": "vaut",
+          "synonyms": [
+            "vaut"
+          ]
+        },
+        {
+          "name": "prévenir",
+          "synonyms": [
+            "prévenir"
+          ]
+        },
+        {
+          "name": "guérir",
+          "synonyms": [
+            "guérir"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mieux vaut prévenir que guérir peut faire référence à :\n\nun proverbe français ;\nun titre d'épisode de la série Desperate Housewives."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mignon": {
+    "type": "specialized",
+    "exact_terms": [
+      "mignon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mignon",
+          "synonyms": [
+            "mignon"
+          ]
+        },
+        {
+          "name": "caractérise",
+          "synonyms": [
+            "caractérise"
+          ]
+        },
+        {
+          "name": "menu",
+          "synonyms": [
+            "menu"
+          ]
+        },
+        {
+          "name": "délicat",
+          "synonyms": [
+            "délicat"
+          ]
+        },
+        {
+          "name": "doux",
+          "synonyms": [
+            "doux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mignon caractérise ce qui est menu, délicat et doux aux formes souvent grosses et trapues ou bien enfantines. Le mignon est un type spécifique de beau (catégorie esthétique), proche du joli."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "milieu": {
+    "type": "specialized",
+    "exact_terms": [
+      "milieu"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "milieu",
+          "synonyms": [
+            "milieu"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "général",
+          "synonyms": [
+            "général"
+          ]
+        },
+        {
+          "name": "lieu",
+          "synonyms": [
+            "lieu"
+          ]
+        },
+        {
+          "name": "temps",
+          "synonyms": [
+            "temps"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot milieu désigne en général :\n\nun lieu, un temps, un objet ou un concept situé à égale distance des extrémités ou de la périphérie ;\nou bien une substance ou des conditions qui environnent les objets ou les êtres vivants auxquels on s'intéresse.\nMilieu est aussi un nom propre, généralement issu de l'une des deux acceptions ci-dessus."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "milieu de culture": {
+    "type": "specialized",
+    "exact_terms": [
+      "milieu de culture"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "milieu",
+          "synonyms": [
+            "milieu"
+          ]
+        },
+        {
+          "name": "culture",
+          "synonyms": [
+            "culture"
+          ]
+        },
+        {
+          "name": "support",
+          "synonyms": [
+            "support"
+          ]
+        },
+        {
+          "name": "permet",
+          "synonyms": [
+            "permet"
+          ]
+        },
+        {
+          "name": "culture",
+          "synonyms": [
+            "culture"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un milieu de culture est un support qui permet la culture de cellules, de bactéries, de levures, de moisissures afin de permettre leur étude. En principe, les cellules trouvent dans ce milieu les composants indispensables pour leur multiplication en grand nombre, rapidement, mais aussi parfois des éléments qui permettront de privilégier un genre bactérien ou une famille."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "milieu extracellulaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "milieu extracellulaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "milieu",
+          "synonyms": [
+            "milieu"
+          ]
+        },
+        {
+          "name": "extracellulaire",
+          "synonyms": [
+            "extracellulaire"
+          ]
+        },
+        {
+          "name": "correspond",
+          "synonyms": [
+            "correspond"
+          ]
+        },
+        {
+          "name": "l'extérieur",
+          "synonyms": [
+            "l'extérieur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie, le milieu extracellulaire correspond à l'extérieur de la cellule. L'extérieur peut correspondre à l'environnement en général pour une bactérie du sol, l'intestin pour une entérobactérie, l'espace entre les cellules pour les cellules faisant partie d'un tissu."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "milieu extérieur": {
+    "type": "specialized",
+    "exact_terms": [
+      "milieu extérieur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "milieu",
+          "synonyms": [
+            "milieu"
+          ]
+        },
+        {
+          "name": "extérieur",
+          "synonyms": [
+            "extérieur"
+          ]
+        },
+        {
+          "name": "l'environnement",
+          "synonyms": [
+            "l'environnement"
+          ]
+        },
+        {
+          "name": "corps",
+          "synonyms": [
+            "corps"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie, le milieu extérieur est l'environnement d'un corps ou d'un organisme considéré comme un système ; selon les cas, différents types d'interaction se produisent entre l'organisme et le milieu ou ses variations : transferts de matière comme la respiration ; adaptations internes comme le sommeil ; déplacements ; expansion ou rétraction, etc."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\histologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "milieu interstellaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "milieu interstellaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "astronomie",
+          "synonyms": [
+            "astronomie"
+          ]
+        },
+        {
+          "name": "milieu",
+          "synonyms": [
+            "milieu"
+          ]
+        },
+        {
+          "name": "interstellaire",
+          "synonyms": [
+            "interstellaire"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "interstellar",
+          "synonyms": [
+            "interstellar"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En astronomie, le milieu interstellaire (en anglais, interstellar medium ou ISM) est la matière qui, dans une galaxie, remplit l'espace entre les étoiles et se fond dans le milieu intergalactique environnant. Il est un mélange de gaz (ionisés, atomiques et moléculaires), de rayons cosmiques et de poussières."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\astrobiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mille-fleurs": {
+    "type": "specialized",
+    "exact_terms": [
+      "mille-fleurs"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mille-fleurs",
+          "synonyms": [
+            "mille-fleurs"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "orthographié",
+          "synonyms": [
+            "orthographié"
+          ]
+        },
+        {
+          "name": "millefleurs",
+          "synonyms": [
+            "millefleurs"
+          ]
+        },
+        {
+          "name": "style",
+          "synonyms": [
+            "style"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mille-fleurs, parfois orthographié millefleurs, est un style artistique caractérisé par un fond fait d'une multitude de petites plantes et fleurs. Il s'agit d'un motif extrêmement populaire dans l'art et l'artisanat du Moyen Âge en Europe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mimétisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "mimétisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mimétisme",
+          "synonyms": [
+            "mimétisme"
+          ]
+        },
+        {
+          "name": "revient",
+          "synonyms": [
+            "revient"
+          ]
+        },
+        {
+          "name": "stratégie",
+          "synonyms": [
+            "stratégie"
+          ]
+        },
+        {
+          "name": "adaptative",
+          "synonyms": [
+            "adaptative"
+          ]
+        },
+        {
+          "name": "imitation",
+          "synonyms": [
+            "imitation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mimétisme revient à une stratégie adaptative par imitation. Du fait de cette ressemblance l’espèce échappe à d'éventuels prédateurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "minerve": {
+    "type": "specialized",
+    "exact_terms": [
+      "minerve"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "minerve",
+          "synonyms": [
+            "minerve"
+          ]
+        },
+        {
+          "name": "originellement",
+          "synonyms": [
+            "originellement"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "déesse",
+          "synonyms": [
+            "déesse"
+          ]
+        },
+        {
+          "name": "romaine",
+          "synonyms": [
+            "romaine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Minerve est originellement le nom d'une déesse romaine. On retrouve ce nom (nom propre ou nom commun) dans divers contextes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "minisatellite": {
+    "type": "specialized",
+    "exact_terms": [
+      "minisatellite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "minisatellites",
+          "synonyms": [
+            "minisatellites"
+          ]
+        },
+        {
+          "name": "séquences",
+          "synonyms": [
+            "séquences"
+          ]
+        },
+        {
+          "name": "génome",
+          "synonyms": [
+            "génome"
+          ]
+        },
+        {
+          "name": "répétées",
+          "synonyms": [
+            "répétées"
+          ]
+        },
+        {
+          "name": "tandem",
+          "synonyms": [
+            "tandem"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les minisatellites sont des séquences du génome répétées en tandem dont la taille du motif unitaire est comprise entre 10 et 60 nucléotides. Elles sont présentes chez toutes les espèces et sont particulièrement étudiées chez l'homme et les bactéries."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "minitel rose": {
+    "type": "specialized",
+    "exact_terms": [
+      "minitel rose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'expression",
+          "synonyms": [
+            "l'expression"
+          ]
+        },
+        {
+          "name": "minitel",
+          "synonyms": [
+            "minitel"
+          ]
+        },
+        {
+          "name": "rose",
+          "synonyms": [
+            "rose"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "services",
+          "synonyms": [
+            "services"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'expression Minitel rose désigne tous les services de messageries roses développées pour le Minitel.\nQuelques entrepreneurs ont fait fortune dans ce secteur comme le PDG de Free, Xavier Niel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "minéral": {
+    "type": "specialized",
+    "exact_terms": [
+      "minéral"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "minéral",
+          "synonyms": [
+            "minéral"
+          ]
+        },
+        {
+          "name": "essentiellement",
+          "synonyms": [
+            "essentiellement"
+          ]
+        },
+        {
+          "name": "substance",
+          "synonyms": [
+            "substance"
+          ]
+        },
+        {
+          "name": "chimique",
+          "synonyms": [
+            "chimique"
+          ]
+        },
+        {
+          "name": "cristalline",
+          "synonyms": [
+            "cristalline"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un minéral est essentiellement une substance chimique cristalline formée par un processus géologique, mais cette définition comporte quelques exceptions. Il peut être décrit, dans la très grande majorité des cas, comme une matière cristallisée caractérisée par sa composition chimique et l'agencement de ses atomes selon une périodicité et une symétrie précises qui se reflètent dans le système cristallin et le groupe d'espace du minéral."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "minéralocorticoïde": {
+    "type": "specialized",
+    "exact_terms": [
+      "minéralocorticoïde"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "minéralocorticoïdes",
+          "synonyms": [
+            "minéralocorticoïdes"
+          ]
+        },
+        {
+          "name": "classe",
+          "synonyms": [
+            "classe"
+          ]
+        },
+        {
+          "name": "stéroïdes",
+          "synonyms": [
+            "stéroïdes"
+          ]
+        },
+        {
+          "name": "caractérisés",
+          "synonyms": [
+            "caractérisés"
+          ]
+        },
+        {
+          "name": "leur",
+          "synonyms": [
+            "leur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les minéralocorticoïdes sont une classe de stéroïdes caractérisés par leur similarité avec l'aldostérone et leur influence sur le métabolisme hydrosodique. Leurs actions passent par leur liaison à un récepteur nucléaire spécifique, le récepteur des minéralocorticoïdes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miopithecus": {
+    "type": "specialized",
+    "exact_terms": [
+      "miopithecus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miopithecus",
+          "synonyms": [
+            "miopithecus"
+          ]
+        },
+        {
+          "name": "miopithèque",
+          "synonyms": [
+            "miopithèque"
+          ]
+        },
+        {
+          "name": "talapoin",
+          "synonyms": [
+            "talapoin"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "primates",
+          "synonyms": [
+            "primates"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Miopithecus, le Miopithèque ou Talapoin, est un genre de primates africains de la famille des Cercopithecidae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mire": {
+    "type": "specialized",
+    "exact_terms": [
+      "mire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mires",
+          "synonyms": [
+            "mires"
+          ]
+        },
+        {
+          "name": "optique",
+          "synonyms": [
+            "optique"
+          ]
+        },
+        {
+          "name": "permettent",
+          "synonyms": [
+            "permettent"
+          ]
+        },
+        {
+          "name": "quantifier",
+          "synonyms": [
+            "quantifier"
+          ]
+        },
+        {
+          "name": "aberrations",
+          "synonyms": [
+            "aberrations"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les mires en optique permettent de quantifier des aberrations :\n\nmire de vignettage ;\nmire de Siemens ;\nmire de définition.\nEn télévision, on utilise des mires pour régler les téléviseurs ou combler l'absence de programmes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miroir": {
+    "type": "specialized",
+    "exact_terms": [
+      "miroir"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miroir",
+          "synonyms": [
+            "miroir"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        },
+        {
+          "name": "possédant",
+          "synonyms": [
+            "possédant"
+          ]
+        },
+        {
+          "name": "surface",
+          "synonyms": [
+            "surface"
+          ]
+        },
+        {
+          "name": "suffisamment",
+          "synonyms": [
+            "suffisamment"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un miroir est un objet possédant une surface suffisamment polie pour qu'une image s'y forme par réflexion et qui est conçu à cet effet. C'est souvent une couche métallique fine, qui, pour être protégée, est placée sous une plaque de verre pour les miroirs domestiques (les miroirs utilisés dans les instruments d'optiques comportent la face métallique au-dessus, le verre n'étant qu'un support de qualité mécanique stable)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miserere": {
+    "type": "specialized",
+    "exact_terms": [
+      "miserere"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miserere",
+          "synonyms": [
+            "miserere"
+          ]
+        },
+        {
+          "name": "aie",
+          "synonyms": [
+            "aie"
+          ]
+        },
+        {
+          "name": "pitié",
+          "synonyms": [
+            "pitié"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Miserere (« aie pitié », en latin) est le nom commun donné au Psaume 50, dont le premier vers de la traduction latine (l'incipit) est :\n\n (traduction : « Ô Dieu ! aie pitié de moi, dans ta grande miséricorde »)\nIl s'agit d'un psaume d'affliction, long de vingt-et-un versets."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "misophonie": {
+    "type": "specialized",
+    "exact_terms": [
+      "misophonie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "misophonie",
+          "synonyms": [
+            "misophonie"
+          ]
+        },
+        {
+          "name": "étymologiquement",
+          "synonyms": [
+            "étymologiquement"
+          ]
+        },
+        {
+          "name": "aversion",
+          "synonyms": [
+            "aversion"
+          ]
+        },
+        {
+          "name": "certains",
+          "synonyms": [
+            "certains"
+          ]
+        },
+        {
+          "name": "sons",
+          "synonyms": [
+            "sons"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La misophonie (étymologiquement « aversion à certains sons ») est une forme particulière d'intolérance au son , caractérisée par une réaction émotionnelle intense telle que l'irritation, le dégoût, la colère, le stress ou même la haine, déclenchée par un son spécifique dans un contexte donné. Les sources sonores susceptibles de déclencher cette réaction négative sont souvent d'origine humaine, comme les bruits de mastication ou les ronflements du conjoint, et peuvent même être de faible intensit..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miséricorde": {
+    "type": "specialized",
+    "exact_terms": [
+      "miséricorde"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miséricorde",
+          "synonyms": [
+            "miséricorde"
+          ]
+        },
+        {
+          "name": "l'un",
+          "synonyms": [
+            "l'un"
+          ]
+        },
+        {
+          "name": "attributs",
+          "synonyms": [
+            "attributs"
+          ]
+        },
+        {
+          "name": "dieu",
+          "synonyms": [
+            "dieu"
+          ]
+        },
+        {
+          "name": "religions",
+          "synonyms": [
+            "religions"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La miséricorde est l'un des attributs de Dieu dans les religions abrahamiques. Les fidèles de ces trois monothéismes ont le devoir de s'en inspirer dans leurs actions envers autrui, notamment par la pratique du pardon et de la charité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mithridate": {
+    "type": "specialized",
+    "exact_terms": [
+      "mithridate"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "mithridate",
+          "synonyms": [
+            "mithridate"
+          ]
+        },
+        {
+          "name": "mithradate",
+          "synonyms": [
+            "mithradate"
+          ]
+        },
+        {
+          "name": "dérive",
+          "synonyms": [
+            "dérive"
+          ]
+        },
+        {
+          "name": "dieu-soleil",
+          "synonyms": [
+            "dieu-soleil"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le nom Mithridate, ou Mithradate, dérive du dieu-soleil Mithra de la mythologie persane et de la racine indo-européenne da, « donner » — c’est-à-dire « donné par Mithra ». Ce nom a été porté par un grand nombre de rois, soldats et hommes d’État d’Asie Mineure."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie\\pharmacologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mitochondrie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mitochondrie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mitochondrie",
+          "synonyms": [
+            "mitochondrie"
+          ]
+        },
+        {
+          "name": "organite",
+          "synonyms": [
+            "organite"
+          ]
+        },
+        {
+          "name": "présent",
+          "synonyms": [
+            "présent"
+          ]
+        },
+        {
+          "name": "plupart",
+          "synonyms": [
+            "plupart"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une mitochondrie  est un organite présent dans la plupart des cellules d'eucaryotes (dont les animaux, les plantes et les champignons). Les mitochondries possèdent une structure à double membrane et utilisent la respiration aérobie pour produire de l'adénosine triphosphate (ATP), utilisée dans toute la cellule comme source d'énergie chimique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mitophagie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mitophagie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mitophagie",
+          "synonyms": [
+            "mitophagie"
+          ]
+        },
+        {
+          "name": "dégradation",
+          "synonyms": [
+            "dégradation"
+          ]
+        },
+        {
+          "name": "sélective",
+          "synonyms": [
+            "sélective"
+          ]
+        },
+        {
+          "name": "mitochondries",
+          "synonyms": [
+            "mitochondries"
+          ]
+        },
+        {
+          "name": "l'autophagie",
+          "synonyms": [
+            "l'autophagie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mitophagie est la dégradation sélective des mitochondries par l'autophagie. Ce processus intervient notamment sur les mitochondries défectueuses à la suite de dommages ou de stress."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mitose": {
+    "type": "specialized",
+    "exact_terms": [
+      "mitose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mitose",
+          "synonyms": [
+            "mitose"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "mitos",
+          "synonyms": [
+            "mitos"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "filament",
+          "synonyms": [
+            "filament"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mitose, du grec mitos qui signifie « filament » (référence à l'aspect des chromosomes en microscopie), est la division cellulaire des eucaryotes par laquelle une cellule mère se transforme en deux cellules filles qui lui sont génétiquement identiques.\nLes mécanismes de la mitose sont très semblables chez la plupart des eucaryotes, avec seulement quelques variations mineures."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mixotrophie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mixotrophie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mixotrophie",
+          "synonyms": [
+            "mixotrophie"
+          ]
+        },
+        {
+          "name": "mode",
+          "synonyms": [
+            "mode"
+          ]
+        },
+        {
+          "name": "trophique",
+          "synonyms": [
+            "trophique"
+          ]
+        },
+        {
+          "name": "d'organismes",
+          "synonyms": [
+            "d'organismes"
+          ]
+        },
+        {
+          "name": "vivants",
+          "synonyms": [
+            "vivants"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mixotrophie est le mode trophique d'organismes vivants capables de se nourrir par autotrophie (via la photosynthèse) aussi bien que par hétérotrophie (aux dépens de constituants organiques préexistants), consécutivement ou simultanément. Ces organismes sont dits mixotrophes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mnémothérapie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mnémothérapie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mnémothérapie",
+          "synonyms": [
+            "mnémothérapie"
+          ]
+        },
+        {
+          "name": "approche",
+          "synonyms": [
+            "approche"
+          ]
+        },
+        {
+          "name": "thérapeutique",
+          "synonyms": [
+            "thérapeutique"
+          ]
+        },
+        {
+          "name": "symptômes",
+          "synonyms": [
+            "symptômes"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mnémothérapie est une approche thérapeutique des symptômes de la maladie d'Alzheimer qui affirme « éveiller et faire s'épanouir de façon reproductible la reviviscence des mémoires rétrogrades par stimulation sensorielle indicée ». Cette approche se situe dans le domaine des pratiques non conventionnelles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "modalité": {
+    "type": "specialized",
+    "exact_terms": [
+      "modalité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "modalité",
+          "synonyms": [
+            "modalité"
+          ]
+        },
+        {
+          "name": "significations",
+          "synonyms": [
+            "significations"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "modalité",
+          "synonyms": [
+            "modalité"
+          ]
+        },
+        {
+          "name": "évènement",
+          "synonyms": [
+            "évènement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot modalité peut avoir plusieurs significations : \n\nEn droit, la modalité est un évènement qui modifie la naissance ou l'exigibilité d'une obligation. Les deux modalités sont le terme et la condition."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "moelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "moelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moelle",
+          "synonyms": [
+            "moelle"
+          ]
+        },
+        {
+          "name": "mwal",
+          "synonyms": [
+            "mwal"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "medulla",
+          "synonyms": [
+            "medulla"
+          ]
+        },
+        {
+          "name": "même",
+          "synonyms": [
+            "même"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme moelle ([mwal], du latin medulla, même sens) peut désigner :\n\nMoelle osseuse, substance située à l'intérieur de nombreux os et permettant la formation des cellules du sang ;\nMoelle spinale ou moelle épinière, organe du système nerveux central contenu dans le canal vertébral ;\nMoelle allongée, partie inférieure du tronc cérébral, dans le crâne et faisant aussi partie du système nerveux central ;\nMoelle, un tissu végétal situé dans la tige des plantes vasculaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "moelle osseuse": {
+    "type": "specialized",
+    "exact_terms": [
+      "moelle osseuse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moelle",
+          "synonyms": [
+            "moelle"
+          ]
+        },
+        {
+          "name": "osseuse",
+          "synonyms": [
+            "osseuse"
+          ]
+        },
+        {
+          "name": "tissu",
+          "synonyms": [
+            "tissu"
+          ]
+        },
+        {
+          "name": "situé",
+          "synonyms": [
+            "situé"
+          ]
+        },
+        {
+          "name": "centre",
+          "synonyms": [
+            "centre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La moelle osseuse est un tissu situé au centre des os. Elle existe sous deux formes : la moelle osseuse rouge, où les cellules du sang sont produites (l'hématopoïèse), et la moelle osseuse jaune, surtout composée de graisse."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "moisissure": {
+    "type": "specialized",
+    "exact_terms": [
+      "moisissure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moisissures",
+          "synonyms": [
+            "moisissures"
+          ]
+        },
+        {
+          "name": "organismes",
+          "synonyms": [
+            "organismes"
+          ]
+        },
+        {
+          "name": "microscopiques",
+          "synonyms": [
+            "microscopiques"
+          ]
+        },
+        {
+          "name": "relevant",
+          "synonyms": [
+            "relevant"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les moisissures sont des organismes microscopiques relevant de deux règnes différents : Fungi et Chromista. Unicellulaires ou pluricellulaires, elles ont en commun d'intervenir dans la fermentation et la décomposition des matières organiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "molaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "molaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "molaire",
+          "synonyms": [
+            "molaire"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "lien",
+          "synonyms": [
+            "lien"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Molaire peut être un nom commun ou un adjectif, mais sans lien sémantique ni étymologique entre les deux formes.\n\nEn anatomie et odontologie, les molaires sont la quatrième sorte de dents chez les mammifères ; elles servent à broyer."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mollet": {
+    "type": "specialized",
+    "exact_terms": [
+      "mollet"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "humaine",
+          "synonyms": [
+            "humaine"
+          ]
+        },
+        {
+          "name": "mollet",
+          "synonyms": [
+            "mollet"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En anatomie humaine, le mollet désigne un ensemble de muscles situés entre le jarret (ou creux poplité) et le tendon d'Achille. Sa longueur et donc celle du tendon d'Achille sont variables selon le profil génétique de l'individu."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "molluscivore": {
+    "type": "specialized",
+    "exact_terms": [
+      "molluscivore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "molluscivore",
+          "synonyms": [
+            "molluscivore"
+          ]
+        },
+        {
+          "name": "malacophage",
+          "synonyms": [
+            "malacophage"
+          ]
+        },
+        {
+          "name": "animal",
+          "synonyms": [
+            "animal"
+          ]
+        },
+        {
+          "name": "carnivore",
+          "synonyms": [
+            "carnivore"
+          ]
+        },
+        {
+          "name": "éventuellement",
+          "synonyms": [
+            "éventuellement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un molluscivore ou malacophage est un animal carnivore (éventuellement saprophage) qui se nourrit surtout de mollusques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monade": {
+    "type": "specialized",
+    "exact_terms": [
+      "monade"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monade",
+          "synonyms": [
+            "monade"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "μονάς",
+          "synonyms": [
+            "μονάς"
+          ]
+        },
+        {
+          "name": "vient",
+          "synonyms": [
+            "vient"
+          ]
+        },
+        {
+          "name": "μόνος",
+          "synonyms": [
+            "μόνος"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une monade (du grec μονάς , qui vient du mot μόνος, « unique ») est une structure complexe et fermée. \n\nEn philosophie, le concept de monade a été notamment utilisé par Gottfried Wilhelm Leibniz."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mongul": {
+    "type": "specialized",
+    "exact_terms": [
+      "mongul"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mongul",
+          "synonyms": [
+            "mongul"
+          ]
+        },
+        {
+          "name": "personnage",
+          "synonyms": [
+            "personnage"
+          ]
+        },
+        {
+          "name": "comics",
+          "synonyms": [
+            "comics"
+          ]
+        },
+        {
+          "name": "ennemi",
+          "synonyms": [
+            "ennemi"
+          ]
+        },
+        {
+          "name": "superman",
+          "synonyms": [
+            "superman"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mongul est un personnage de DC Comics et un ennemi de Superman. Créé par Len Wein & Jim Starlin dans DC Comics Presents #27 en novembre 1980."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monitoring": {
+    "type": "specialized",
+    "exact_terms": [
+      "monitoring"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monitoring",
+          "synonyms": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "l'anglicisme",
+          "synonyms": [
+            "l'anglicisme"
+          ]
+        },
+        {
+          "name": "surveillance",
+          "synonyms": [
+            "surveillance"
+          ]
+        },
+        {
+          "name": "définit",
+          "synonyms": [
+            "définit"
+          ]
+        },
+        {
+          "name": "mesure",
+          "synonyms": [
+            "mesure"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le monitoring est l'anglicisme du terme surveillance et définit la mesure d'une activité (humaine, économique, électrique, d'un organe, etc.).\n\nEn médecine, le monitoring ou le monitorage (en), désigne la surveillance de patients à l’aide d’appareils (appelés moniteurs) fonctionnant de manière automatique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monnier": {
+    "type": "specialized",
+    "exact_terms": [
+      "monnier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monnier",
+          "synonyms": [
+            "monnier"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        },
+        {
+          "name": "porté",
+          "synonyms": [
+            "porté"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Monnier est un nom de famille  notamment porté par :\n\nAdrienne Monnier (1892-1955), éditrice et écrivain française ;\nAlain Monnier (1954-), écrivain français ;\nAlbert Monnier (1829-1900), biographe et auteur français de vaudeville ;\nAndré Monnier (1926-2023), sauteur à ski français ;\nBlanche Monnier (1849-1913), femme séquestrée ;\nClaude Monnier (1938-2016), journaliste suisse ;\nCécile Monnier (1866-1956), médium française ;\nClaire-Lise Monnier (1894-1978), peintre suisse ;\nÉlie Monnier (en), ti..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\ornithologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monoamine": {
+    "type": "specialized",
+    "exact_terms": [
+      "monoamine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monoamines",
+          "synonyms": [
+            "monoamines"
+          ]
+        },
+        {
+          "name": "neurotransmetteurs",
+          "synonyms": [
+            "neurotransmetteurs"
+          ]
+        },
+        {
+          "name": "dérivés",
+          "synonyms": [
+            "dérivés"
+          ]
+        },
+        {
+          "name": "d'acides",
+          "synonyms": [
+            "d'acides"
+          ]
+        },
+        {
+          "name": "aminés",
+          "synonyms": [
+            "aminés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les monoamines sont des neurotransmetteurs dérivés d'acides aminés, comportant un groupement éthylamine (amine NH2 lié par un pont C2H5) lié à un noyau aromatique. On distingue notamment les catécholamines et les tryptamines (dont la sérotonine) respectivement dérivés de la tyrosine et du tryptophane."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monocyte": {
+    "type": "specialized",
+    "exact_terms": [
+      "monocyte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monocytes",
+          "synonyms": [
+            "monocytes"
+          ]
+        },
+        {
+          "name": "globules",
+          "synonyms": [
+            "globules"
+          ]
+        },
+        {
+          "name": "blancs",
+          "synonyms": [
+            "blancs"
+          ]
+        },
+        {
+          "name": "présents",
+          "synonyms": [
+            "présents"
+          ]
+        },
+        {
+          "name": "sang",
+          "synonyms": [
+            "sang"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les monocytes sont des globules blancs présents dans le sang. Depuis 1968, à la suite des recherches du chercheur Ralph van Furth la croyance était que tous les macrophages tissulaires venaient d'un apport constant de monocytes sanguins."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monogamie": {
+    "type": "specialized",
+    "exact_terms": [
+      "monogamie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anthropologie",
+          "synonyms": [
+            "anthropologie"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "sociologie",
+          "synonyms": [
+            "sociologie"
+          ]
+        },
+        {
+          "name": "monogamie",
+          "synonyms": [
+            "monogamie"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En anthropologie, en droit et en sociologie, la monogamie désigne un régime juridique qui autorise un unique contrat de mariage concomitant, ce qui se distingue notamment des régimes qui autorisent la polygamie. L’étymologie du terme se raccorde pleinement à cette perspective puisqu’il vient du grec monos, un seul, et gamos, mariage."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monogastrique": {
+    "type": "specialized",
+    "exact_terms": [
+      "monogastrique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monogastrique",
+          "synonyms": [
+            "monogastrique"
+          ]
+        },
+        {
+          "name": "animal",
+          "synonyms": [
+            "animal"
+          ]
+        },
+        {
+          "name": "caractérisant",
+          "synonyms": [
+            "caractérisant"
+          ]
+        },
+        {
+          "name": "estomac",
+          "synonyms": [
+            "estomac"
+          ]
+        },
+        {
+          "name": "simple",
+          "synonyms": [
+            "simple"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un monogastrique est un animal se caractérisant par son estomac simple, composé d'une seule poche gastrique, par opposition à un ruminant, qui est un animal polygastrique, pourvu d'un estomac complexe à quatre poches. Parmi les animaux domestiques monogastriques figurent notamment des omnivores tels que le porc et les volailles, des carnivores tels que le chien (parfois considéré comme omnivore) et le chat, et des herbivores tels que le cheval et le lapin."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monoglycéride": {
+    "type": "specialized",
+    "exact_terms": [
+      "monoglycéride"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monoglycéride",
+          "synonyms": [
+            "monoglycéride"
+          ]
+        },
+        {
+          "name": "monoacylglycérol",
+          "synonyms": [
+            "monoacylglycérol"
+          ]
+        },
+        {
+          "name": "mag",
+          "synonyms": [
+            "mag"
+          ]
+        },
+        {
+          "name": "glycéride",
+          "synonyms": [
+            "glycéride"
+          ]
+        },
+        {
+          "name": "formé",
+          "synonyms": [
+            "formé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un monoglycéride, ou monoacylglycérol (MAG), est un glycéride formé d'un résidu d'acide gras combiné à un résidu de glycérol par une liaison ester. On peut les classer en deux groupes, les 1-monoacylglycérols et les 2-monoacylglycérols selon que le groupe acyle est en position 1 ou 2 du résidu glycérol — voir images ci-contre, où R représente le groupe acyle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monogyne": {
+    "type": "specialized",
+    "exact_terms": [
+      "monogyne"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monogyne",
+          "synonyms": [
+            "monogyne"
+          ]
+        },
+        {
+          "name": "qualificatif",
+          "synonyms": [
+            "qualificatif"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "colonie",
+          "synonyms": [
+            "colonie"
+          ]
+        },
+        {
+          "name": "d'animaux",
+          "synonyms": [
+            "d'animaux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme monogyne est un qualificatif qui désigne une colonie d'animaux sociaux (abeilles, guêpes, fourmis, termites, rats-taupes nus) où n'existe qu'une seule femelle reproductrice, appelée reine. \nLe terme « monogyne » provient des mots grecs μόνος (mónos) « seul » et  γυνή (gunḗ) « femme »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monomorphisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "monomorphisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cadre",
+          "synonyms": [
+            "cadre"
+          ]
+        },
+        {
+          "name": "l'algèbre",
+          "synonyms": [
+            "l'algèbre"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "l'algèbre",
+          "synonyms": [
+            "l'algèbre"
+          ]
+        },
+        {
+          "name": "universelle",
+          "synonyms": [
+            "universelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le cadre de l'algèbre générale ou de l'algèbre universelle, un monomorphisme est simplement un morphisme injectif.\nDans le cadre plus général de la théorie des catégories, un monomorphisme est un morphisme simplifiable à gauche, c'est-à-dire un morphisme \n  \n    \n      \n        f\n        :\n        X\n        →\n        Y\n      \n    \n    {\\displaystyle f\\colon X\\to Y}\n  \n tel que pour tout \n  \n    \n      \n        Z\n      \n    \n    {\\displaystyle Z}\n  \n,\n\n  \n    \n      \n        ∀\n        \n     ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monophtalmie": {
+    "type": "specialized",
+    "exact_terms": [
+      "monophtalmie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monophtalmie",
+          "synonyms": [
+            "monophtalmie"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "voir",
+          "synonyms": [
+            "voir"
+          ]
+        },
+        {
+          "name": "œil",
+          "synonyms": [
+            "œil"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La monophtalmie désigne en médecine le fait de ne voir que d'un œil. Les êtres vivants touchés par la monophtalmie sont couramment appelés borgnes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monophylie": {
+    "type": "specialized",
+    "exact_terms": [
+      "monophylie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monophylie",
+          "synonyms": [
+            "monophylie"
+          ]
+        },
+        {
+          "name": "rarement",
+          "synonyms": [
+            "rarement"
+          ]
+        },
+        {
+          "name": "l'holophylie",
+          "synonyms": [
+            "l'holophylie"
+          ]
+        },
+        {
+          "name": "encore",
+          "synonyms": [
+            "encore"
+          ]
+        },
+        {
+          "name": "monophylie",
+          "synonyms": [
+            "monophylie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La monophylie (ou plus rarement l'holophylie ou encore la monophylie stricte), du grec μόνος / mónos, « seul » et φῦλον / phūlon, « tribu, genre, espèce », est la caractéristique d'un groupe qui contient l'espèce souche dont descendent tous ses membres. Un groupe monophylétique est appelé aussi un clade."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monosexualité": {
+    "type": "specialized",
+    "exact_terms": [
+      "monosexualité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monosexualité",
+          "synonyms": [
+            "monosexualité"
+          ]
+        },
+        {
+          "name": "ressentir",
+          "synonyms": [
+            "ressentir"
+          ]
+        },
+        {
+          "name": "attirance",
+          "synonyms": [
+            "attirance"
+          ]
+        },
+        {
+          "name": "physique",
+          "synonyms": [
+            "physique"
+          ]
+        },
+        {
+          "name": "sexuelle",
+          "synonyms": [
+            "sexuelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La monosexualité est le fait de ressentir une attirance physique, sexuelle ou romantique envers des personnes d'un seul sexe ou genre. Ainsi, la monosexualité inclut l'hétérosexualité (l'attirance exclusive envers les personnes du sexe ou du genre opposé) et l'homosexualité (l'attirance exclusive envers les personnes de même sexe ou genre), et s'oppose à la bisexualité (l'attirance pour plus d'un genre), la pansexualité (l'attirance envers des personnes de n'importe quel genre) et l'asexualité (..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monosomie": {
+    "type": "specialized",
+    "exact_terms": [
+      "monosomie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monosomie",
+          "synonyms": [
+            "monosomie"
+          ]
+        },
+        {
+          "name": "cas",
+          "synonyms": [
+            "cas"
+          ]
+        },
+        {
+          "name": "particulier",
+          "synonyms": [
+            "particulier"
+          ]
+        },
+        {
+          "name": "d'aneuploïdie",
+          "synonyms": [
+            "d'aneuploïdie"
+          ]
+        },
+        {
+          "name": "caryotype",
+          "synonyms": [
+            "caryotype"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La monosomie est un cas particulier d'aneuploïdie. Le caryotype d'une cellule montre le nombre normal de chromosomes pour l'espèce moins un."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monotype": {
+    "type": "specialized",
+    "exact_terms": [
+      "monotype"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monotype",
+          "synonyms": [
+            "monotype"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "voilier",
+          "synonyms": [
+            "voilier"
+          ]
+        },
+        {
+          "name": "compétition",
+          "synonyms": [
+            "compétition"
+          ]
+        },
+        {
+          "name": "monotype",
+          "synonyms": [
+            "monotype"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un monotype est un type de voilier de compétition.\nUn monotype est une technique de l'estampe;\nLa Monotype était une machine, créée par Tolbert Lanston (en), permettant de produire des lignes justifiées en caractères mobiles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monstre": {
+    "type": "specialized",
+    "exact_terms": [
+      "monstre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monstre",
+          "synonyms": [
+            "monstre"
+          ]
+        },
+        {
+          "name": "individu",
+          "synonyms": [
+            "individu"
+          ]
+        },
+        {
+          "name": "créature",
+          "synonyms": [
+            "créature"
+          ]
+        },
+        {
+          "name": "l'apparence",
+          "synonyms": [
+            "l'apparence"
+          ]
+        },
+        {
+          "name": "voire",
+          "synonyms": [
+            "voire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un monstre est un individu ou une créature dont l'apparence, voire le comportement, surprend par son écart avec les normes d'une société. Le monstre est, au sens large, perçu comme inspirant la peur, le dégoût, l'empathie ou le mépris."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "moquette": {
+    "type": "specialized",
+    "exact_terms": [
+      "moquette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moquette",
+          "synonyms": [
+            "moquette"
+          ]
+        },
+        {
+          "name": "tapis",
+          "synonyms": [
+            "tapis"
+          ]
+        },
+        {
+          "name": "mur",
+          "synonyms": [
+            "mur"
+          ]
+        },
+        {
+          "name": "mur",
+          "synonyms": [
+            "mur"
+          ]
+        },
+        {
+          "name": "tapis-plain",
+          "synonyms": [
+            "tapis-plain"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La moquette, tapis mur à mur (qc) ou tapis-plain (be) est un revêtement de sol textile composé d’un tissu en laine, coton, soie ou fibre synthétique recouvrant généralement toute la surface d’une pièce.\nEn 1650 on la nommait « moucade » ou « mocade » mot d'origine inconnue qui a évolué en moquette."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "morphe": {
+    "type": "specialized",
+    "exact_terms": [
+      "morphe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "morphe",
+          "synonyms": [
+            "morphe"
+          ]
+        },
+        {
+          "name": "étymologie",
+          "synonyms": [
+            "étymologie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "morpha",
+          "synonyms": [
+            "morpha"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Morphe a pour étymologie le mot grec morpha qui signifie forme, il est utilisé dans différents domaines scientifiques :\n\nEn biologie, les morphes désignent des regroupements phénotypiques qu'ont les individus d'une espèce :\nEn fonction de facteurs variés, plusieurs phénotypes sont possibles chez certaines espèces au sein d'une même population, notamment à la fin de leur développement : ce polymorphisme est appelé plus spécialement polyphénisme. C'est le cas de la truite Salmo trutta dont les ind..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "morphogenèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "morphogenèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "morphogenèse",
+          "synonyms": [
+            "morphogenèse"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "lois",
+          "synonyms": [
+            "lois"
+          ]
+        },
+        {
+          "name": "déterminent",
+          "synonyms": [
+            "déterminent"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La morphogenèse est l'ensemble des lois qui déterminent la forme, la structure des tissus, des organes et des organismes. Par extension, on parle aussi de morphogenèse dans d'autres domaines comme celui de la formation de villes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\embryologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "morphogène": {
+    "type": "specialized",
+    "exact_terms": [
+      "morphogène"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "morphogène",
+          "synonyms": [
+            "morphogène"
+          ]
+        },
+        {
+          "name": "molécule",
+          "synonyms": [
+            "molécule"
+          ]
+        },
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "lipide",
+          "synonyms": [
+            "lipide"
+          ]
+        },
+        {
+          "name": "spécifie",
+          "synonyms": [
+            "spécifie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un morphogène est une molécule (protéine ou lipide) qui spécifie différents types cellulaires ou différentes régions d'un organisme selon sa concentration. Les morphogènes jouent un rôle essentiel au cours du développement embryonnaire pour donner une information de position aux cellules et former des axes de polarité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "morphométrie": {
+    "type": "specialized",
+    "exact_terms": [
+      "morphométrie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "morphométrie",
+          "synonyms": [
+            "morphométrie"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "l'analyse",
+          "synonyms": [
+            "l'analyse"
+          ]
+        },
+        {
+          "name": "géométrie",
+          "synonyms": [
+            "géométrie"
+          ]
+        },
+        {
+          "name": "d'objets",
+          "synonyms": [
+            "d'objets"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La morphométrie est l'étude et l'analyse de la géométrie d'objets ou d'organes. C'est la partie de la biométrie qui s'intéresse aux formes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "morphoplasme": {
+    "type": "specialized",
+    "exact_terms": [
+      "morphoplasme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "morphoplasme",
+          "synonyms": [
+            "morphoplasme"
+          ]
+        },
+        {
+          "name": "constitue",
+          "synonyms": [
+            "constitue"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "organites",
+          "synonyms": [
+            "organites"
+          ]
+        },
+        {
+          "name": "cellulaires",
+          "synonyms": [
+            "cellulaires"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le morphoplasme constitue l'ensemble des organites cellulaires.\nAvec le hyaloplasme (formé du cytosol et du cytosquelette), ils forment ensemble le cytoplasme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mort": {
+    "type": "specialized",
+    "exact_terms": [
+      "mort"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "l'état",
+          "synonyms": [
+            "l'état"
+          ]
+        },
+        {
+          "name": "irréversible",
+          "synonyms": [
+            "irréversible"
+          ]
+        },
+        {
+          "name": "organisme",
+          "synonyms": [
+            "organisme"
+          ]
+        },
+        {
+          "name": "biologique",
+          "synonyms": [
+            "biologique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mort est l'état irréversible d'un organisme biologique ayant cessé de vivre. Cet état se caractérise par une rupture définitive dans la cohérence des processus vitaux (nutrition, respiration…) de l'organisme considéré."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mort civile": {
+    "type": "specialized",
+    "exact_terms": [
+      "mort civile"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "civile",
+          "synonyms": [
+            "civile"
+          ]
+        },
+        {
+          "name": "cessation",
+          "synonyms": [
+            "cessation"
+          ]
+        },
+        {
+          "name": "toute",
+          "synonyms": [
+            "toute"
+          ]
+        },
+        {
+          "name": "participation",
+          "synonyms": [
+            "participation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mort civile est la « cessation de toute participation aux droits civils ». Elle consiste en l'extinction légalement prononcée, pour une personne de sa personnalité juridique, ce qui emporte une privation générale des droits."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mort cérébrale": {
+    "type": "specialized",
+    "exact_terms": [
+      "mort cérébrale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "cérébrale",
+          "synonyms": [
+            "cérébrale"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "coma",
+          "synonyms": [
+            "coma"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mort cérébrale (appelée également coma dépassé ou coma de type IV) est définie comme l'état d'absence totale et définitive d'activité cérébrale chez un patient, y compris les fonctions involontaires nécessaires à la vie (les systèmes végétatifs contrôlant le rythme cardiaque ou la respiration).\nCela diffère d'un état végétatif permanent, où le patient est vivant et conserve ses fonctions autonomiques bien qu'incapable d'interagir avec son environnement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mort par ventilateur": {
+    "type": "specialized",
+    "exact_terms": [
+      "mort par ventilateur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "ventilateur",
+          "synonyms": [
+            "ventilateur"
+          ]
+        },
+        {
+          "name": "croyance",
+          "synonyms": [
+            "croyance"
+          ]
+        },
+        {
+          "name": "répandue",
+          "synonyms": [
+            "répandue"
+          ]
+        },
+        {
+          "name": "corée",
+          "synonyms": [
+            "corée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mort par ventilateur est une croyance répandue en Corée du Sud qu'un ventilateur électrique en fonctionnement dans une chambre close peut entraîner la mort de celui qui y dort. \nLes ventilateurs vendus en Corée sont équipés d'une minuterie, évitant ainsi aux ventilateurs de fonctionner toute la nuit."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mort subite": {
+    "type": "specialized",
+    "exact_terms": [
+      "mort subite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "subite",
+          "synonyms": [
+            "subite"
+          ]
+        },
+        {
+          "name": "décès",
+          "synonyms": [
+            "décès"
+          ]
+        },
+        {
+          "name": "brutal",
+          "synonyms": [
+            "brutal"
+          ]
+        },
+        {
+          "name": "cause",
+          "synonyms": [
+            "cause"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mort subite est le décès brutal, sans cause accidentelle, d'une personne, en particulier :\nMort subite du nourrisson ;\nMort subite de l'adulte ;\nMort subite du sportif.\nLa mort subite est une règle de sport accordant la victoire à la prochaine équipe marquant un but ;\nLa Mort subite est une marque belge de gueuze ;\nLa Brasserie Mort Subite, ancienne brasserie De Keersmaeker fondée en 1686 à Kobbeghem, Asse, qui actuellement brasse la bière du même nom ;\nÀ la mort subite est un café bruxellois..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mort subite du nourrisson": {
+    "type": "specialized",
+    "exact_terms": [
+      "mort subite du nourrisson"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "subite",
+          "synonyms": [
+            "subite"
+          ]
+        },
+        {
+          "name": "nourrisson",
+          "synonyms": [
+            "nourrisson"
+          ]
+        },
+        {
+          "name": "msn",
+          "synonyms": [
+            "msn"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le syndrome de mort subite du nourrisson (MSN) est la mort soudaine du jeune enfant, âgé d'un mois à un an et apparemment en bonne santé, lors de son sommeil. Le syndrome est aussi connu sous son acronyme anglais SIDS (sudden infant death syndrome)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mort-vivant": {
+    "type": "specialized",
+    "exact_terms": [
+      "mort-vivant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mort-vivant",
+          "synonyms": [
+            "mort-vivant"
+          ]
+        },
+        {
+          "name": "culture",
+          "synonyms": [
+            "culture"
+          ]
+        },
+        {
+          "name": "populaire",
+          "synonyms": [
+            "populaire"
+          ]
+        },
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "continue",
+          "synonyms": [
+            "continue"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mort-vivant est, dans la culture populaire, un être mort mais qui continue à s'animer, que ce soit sous l'effet de sa propre volonté ou non. Deux grandes catégories de morts-vivants sont distinguées : les cadavres réanimés et les esprits de personnes mortes qui se manifestent."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mortalité infantile": {
+    "type": "specialized",
+    "exact_terms": [
+      "mortalité infantile"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mortalité",
+          "synonyms": [
+            "mortalité"
+          ]
+        },
+        {
+          "name": "infantile",
+          "synonyms": [
+            "infantile"
+          ]
+        },
+        {
+          "name": "statistique",
+          "synonyms": [
+            "statistique"
+          ]
+        },
+        {
+          "name": "calculée",
+          "synonyms": [
+            "calculée"
+          ]
+        },
+        {
+          "name": "faisant",
+          "synonyms": [
+            "faisant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mortalité infantile est une statistique calculée en faisant le rapport entre le nombre d'enfants morts avant l'âge d’un an sur le nombre total d’enfants nés vivants. Cette statistique est exprimée pour 1 000 naissances (‰)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mortification": {
+    "type": "specialized",
+    "exact_terms": [
+      "mortification"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mortification",
+          "synonyms": [
+            "mortification"
+          ]
+        },
+        {
+          "name": "pratique",
+          "synonyms": [
+            "pratique"
+          ]
+        },
+        {
+          "name": "d'ascèse",
+          "synonyms": [
+            "d'ascèse"
+          ]
+        },
+        {
+          "name": "religieuse",
+          "synonyms": [
+            "religieuse"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mortification est une pratique d'ascèse religieuse qui consiste à s'imposer une souffrance, en général physique, dans un but expiatoire et pour progresser dans le domaine spirituel.\nL'expression « mortification corporelle » s'emploie habituellement dans le contexte de la religion catholique où cette pratique a été abondamment thématisée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mortinatalité": {
+    "type": "specialized",
+    "exact_terms": [
+      "mortinatalité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mortinatalité",
+          "synonyms": [
+            "mortinatalité"
+          ]
+        },
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        },
+        {
+          "name": "fœtale",
+          "synonyms": [
+            "fœtale"
+          ]
+        },
+        {
+          "name": "utero",
+          "synonyms": [
+            "utero"
+          ]
+        },
+        {
+          "name": "mfiu",
+          "synonyms": [
+            "mfiu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mortinatalité, ou mort fœtale in utero (MFIU), est l'expulsion d'un fœtus mort après 22 semaines de gestation. Lorsque le fœtus est mort ou expulsé avant 22 semaines de gestation, il ne s'agit pas d'une mortinaissance, mais d'un avortement ou d'une fausse couche au sens épidémiologique et non pas médical."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "morula": {
+    "type": "specialized",
+    "exact_terms": [
+      "morula"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "morula",
+          "synonyms": [
+            "morula"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "dérivé",
+          "synonyms": [
+            "dérivé"
+          ]
+        },
+        {
+          "name": "fruit",
+          "synonyms": [
+            "fruit"
+          ]
+        },
+        {
+          "name": "mûre",
+          "synonyms": [
+            "mûre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Morula (nom dérivé du fruit « mûre » par analogie d'apparence) est le nom donné à l'embryon à un stade très précoce de développement (embryogenèse).\nUn embryon, ou blastomère,  est appelé morula lorsqu'il dénombre au moins 16-32 cellules, et ne comporte pas de cavité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "morvandelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "morvandelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "morvandelle",
+          "synonyms": [
+            "morvandelle"
+          ]
+        },
+        {
+          "name": "morvandelle",
+          "synonyms": [
+            "morvandelle"
+          ]
+        },
+        {
+          "name": "habitante",
+          "synonyms": [
+            "habitante"
+          ]
+        },
+        {
+          "name": "morvan",
+          "synonyms": [
+            "morvan"
+          ]
+        },
+        {
+          "name": "région",
+          "synonyms": [
+            "région"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Morvandelle peut désigner :\n\nune Morvandelle est une habitante du Morvan, région culturelle française ;\nmorvandelle, race bovine endémique du Morvan aujourd'hui éteinte ;\nLa Morvandelle, association morvandelle à Paris ;\nLa Morvandelle, chanson de Maurice Bouchor."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "morve": {
+    "type": "specialized",
+    "exact_terms": [
+      "morve"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "morve",
+          "synonyms": [
+            "morve"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "infectieuse",
+          "synonyms": [
+            "infectieuse"
+          ]
+        },
+        {
+          "name": "grave",
+          "synonyms": [
+            "grave"
+          ]
+        },
+        {
+          "name": "d'origine",
+          "synonyms": [
+            "d'origine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La morve est une maladie infectieuse grave d'origine bactérienne qui touche principalement les équidés. Elle peut aussi être contractée de façon naturelle par d'autres mammifères comme les chèvres, chiens et chats, et se transmettre à l'espèce humaine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mosaïque": {
+    "type": "specialized",
+    "exact_terms": [
+      "mosaïque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mosaïque",
+          "synonyms": [
+            "mosaïque"
+          ]
+        },
+        {
+          "name": "art",
+          "synonyms": [
+            "art"
+          ]
+        },
+        {
+          "name": "décoratif",
+          "synonyms": [
+            "décoratif"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        },
+        {
+          "name": "utilise",
+          "synonyms": [
+            "utilise"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mosaïque est un art décoratif dans lequel on utilise des fragments de pierre (marbre, granito), de pierres colorées, d'émail, de verre, ou encore de céramique, assemblés à l'aide de mastic ou d'enduit, pour former des motifs ou des figures. Quel que soit le matériau utilisé, ces fragments sont appelés des tesselles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "moteur": {
+    "type": "specialized",
+    "exact_terms": [
+      "moteur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moteur",
+          "synonyms": [
+            "moteur"
+          ]
+        },
+        {
+          "name": "machine",
+          "synonyms": [
+            "machine"
+          ]
+        },
+        {
+          "name": "dispositif",
+          "synonyms": [
+            "dispositif"
+          ]
+        },
+        {
+          "name": "conçu",
+          "synonyms": [
+            "conçu"
+          ]
+        },
+        {
+          "name": "convertir",
+          "synonyms": [
+            "convertir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un moteur est une machine ou un dispositif conçu pour convertir une forme d'énergie en énergie mécanique. Divers types de moteurs se distinguent selon leur source d'énergie et leur utilisation, par exemple :\n\nmoteur thermique : utilise l'énergie provenant de la combustion de carburants (essence, diesel, gaz naturel) pour produire un mouvement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "motoneurone": {
+    "type": "specialized",
+    "exact_terms": [
+      "motoneurone"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "motoneurones",
+          "synonyms": [
+            "motoneurones"
+          ]
+        },
+        {
+          "name": "constituent",
+          "synonyms": [
+            "constituent"
+          ]
+        },
+        {
+          "name": "voie",
+          "synonyms": [
+            "voie"
+          ]
+        },
+        {
+          "name": "sortie",
+          "synonyms": [
+            "sortie"
+          ]
+        },
+        {
+          "name": "système",
+          "synonyms": [
+            "système"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les motoneurones constituent la voie de sortie du système nerveux central ou la voie finale de tout acte moteur. Les corps cellulaires des motoneurones sont situés soit dans le tronc cérébral, soit dans la corne ventrale de la substance grise de la moelle épinière."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mouche": {
+    "type": "specialized",
+    "exact_terms": [
+      "mouche"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mouche",
+          "synonyms": [
+            "mouche"
+          ]
+        },
+        {
+          "name": "muʃ",
+          "synonyms": [
+            "muʃ"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "vernaculaire",
+          "synonyms": [
+            "vernaculaire"
+          ]
+        },
+        {
+          "name": "ambigu",
+          "synonyms": [
+            "ambigu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mouche (/muʃ/) est un nom vernaculaire ambigu en français qui désigne généralement des insectes de petite taille de l'ordre des diptères et en particulier du sous-ordre des brachycères. Il provient du mot latin musca, qui désigne de nos jours principalement un genre (Musca) comprenant la mouche domestique (Musca domestica)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "moue": {
+    "type": "specialized",
+    "exact_terms": [
+      "moue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moue",
+          "synonyms": [
+            "moue"
+          ]
+        },
+        {
+          "name": "grimace",
+          "synonyms": [
+            "grimace"
+          ]
+        },
+        {
+          "name": "faite",
+          "synonyms": [
+            "faite"
+          ]
+        },
+        {
+          "name": "rapprochant",
+          "synonyms": [
+            "rapprochant"
+          ]
+        },
+        {
+          "name": "allongeant",
+          "synonyms": [
+            "allongeant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La moue est une grimace faite en rapprochant et en allongeant les lèvres. Montrée de manière ostensible, elle manifeste notamment la déception, le dépit, la dérision, l'ennui, le mécontentement, le mépris ou encore le scepticisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
