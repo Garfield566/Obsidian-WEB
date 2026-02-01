@@ -217468,5 +217468,5355 @@
       "wikipedia"
     ],
     "confidence": 0.8
+  },
+  "post-partum": {
+    "type": "specialized",
+    "exact_terms": [
+      "post-partum"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "période",
+          "synonyms": [
+            "période"
+          ]
+        },
+        {
+          "name": "post-partum",
+          "synonyms": [
+            "post-partum"
+          ]
+        },
+        {
+          "name": "puerpéralité",
+          "synonyms": [
+            "puerpéralité"
+          ]
+        },
+        {
+          "name": "suite",
+          "synonyms": [
+            "suite"
+          ]
+        },
+        {
+          "name": "couches",
+          "synonyms": [
+            "couches"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La période du post-partum (ou puerpéralité ou suite de couches) s'étend de la fin de l'accouchement jusqu'au retour de couches, c’est-à-dire les premières règles après la grossesse. C'est une période de nouveaux bouleversements d'abord physiques avec la perte brutale des repères physiologiques et anatomiques liés à la grossesse."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\reproduction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "posthume": {
+    "type": "specialized",
+    "exact_terms": [
+      "posthume"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "posthume",
+          "synonyms": [
+            "posthume"
+          ]
+        },
+        {
+          "name": "dit",
+          "synonyms": [
+            "dit"
+          ]
+        },
+        {
+          "name": "produit",
+          "synonyms": [
+            "produit"
+          ]
+        },
+        {
+          "name": "après",
+          "synonyms": [
+            "après"
+          ]
+        },
+        {
+          "name": "mort",
+          "synonyms": [
+            "mort"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Posthume, se dit de ce qui se produit après la mort d’une personne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "potamon": {
+    "type": "specialized",
+    "exact_terms": [
+      "potamon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "potamon",
+          "synonyms": [
+            "potamon"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ποτάμων",
+          "synonyms": [
+            "ποτάμων"
+          ]
+        },
+        {
+          "name": "ἀλεξανδρεύς",
+          "synonyms": [
+            "ἀλεξανδρεύς"
+          ]
+        },
+        {
+          "name": "philosophe",
+          "synonyms": [
+            "philosophe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Potamon, en grec Ποτάμων ὁ Ἀλεξανδρεύς, est un philosophe d’Alexandrie. Il aurait vécu sous Auguste selon la Souda, au IIIe siècle de notre ère selon d’autres."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "potence": {
+    "type": "specialized",
+    "exact_terms": [
+      "potence"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "potence",
+          "synonyms": [
+            "potence"
+          ]
+        },
+        {
+          "name": "potence",
+          "synonyms": [
+            "potence"
+          ]
+        },
+        {
+          "name": "structure",
+          "synonyms": [
+            "structure"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        },
+        {
+          "name": "bois",
+          "synonyms": [
+            "bois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot potence peut désigner :\n\nune potence, une structure, généralement en bois, utilisée pour les exécutions par pendaison. Cet instrument est également dénommé gibet ;\nUne potence, un assemblage de pièces de bois ou de métal formant une équerre, en L renversé, pour soutenir ou suspendre quelque chose."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "potion": {
+    "type": "specialized",
+    "exact_terms": [
+      "potion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "potion",
+          "synonyms": [
+            "potion"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "potio",
+          "synonyms": [
+            "potio"
+          ]
+        },
+        {
+          "name": "boisson",
+          "synonyms": [
+            "boisson"
+          ]
+        },
+        {
+          "name": "breuvage",
+          "synonyms": [
+            "breuvage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une potion (du latin potio, boisson, breuvage) est une préparation liquide destinée à être bue, variante des philtres, élixir (alchimie), et élixir (pharmacie), aux effets entre autres médicamenteux, stupéfiant, psychotrope, toxique, magique, ou envoûtant..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poudre à éternuer": {
+    "type": "specialized",
+    "exact_terms": [
+      "poudre à éternuer"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poudre",
+          "synonyms": [
+            "poudre"
+          ]
+        },
+        {
+          "name": "éternuer",
+          "synonyms": [
+            "éternuer"
+          ]
+        },
+        {
+          "name": "produit",
+          "synonyms": [
+            "produit"
+          ]
+        },
+        {
+          "name": "irritant",
+          "synonyms": [
+            "irritant"
+          ]
+        },
+        {
+          "name": "muqueuses",
+          "synonyms": [
+            "muqueuses"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La poudre à éternuer est un produit irritant les muqueuses nasales conçu pour diffuser rapidement dans l'air ambiant et provoquer l'éternuement des personnes qui le respirent, habituellement pour leur faire une farce.\nLes alcaloïdes des poudres à éternuer contenant du Vératre blanc (Veratrum album) ont été liées à des cas d'empoisonnement, avec notamment des dyspepsies, évanouissements, bradycardies et hypotensions."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pouilleux": {
+    "type": "specialized",
+    "exact_terms": [
+      "pouilleux"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pouilleux",
+          "synonyms": [
+            "pouilleux"
+          ]
+        },
+        {
+          "name": "vieux",
+          "synonyms": [
+            "vieux"
+          ]
+        },
+        {
+          "name": "garçon",
+          "synonyms": [
+            "garçon"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le pouilleux ou vieux garçon (appelé parfois mistigri, le pissous, le puant, Pierre noir ou le valet noir) est un jeu qui nécessite 51 cartes, c'est-à-dire les 52 cartes traditionnelles moins la carte du valet de trèfle. Ce jeu se pratique de 2 à 8 joueurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine\\hygiène",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poule pondeuse": {
+    "type": "specialized",
+    "exact_terms": [
+      "poule pondeuse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poule",
+          "synonyms": [
+            "poule"
+          ]
+        },
+        {
+          "name": "pondeuse",
+          "synonyms": [
+            "pondeuse"
+          ]
+        },
+        {
+          "name": "femelle",
+          "synonyms": [
+            "femelle"
+          ]
+        },
+        {
+          "name": "gallus",
+          "synonyms": [
+            "gallus"
+          ]
+        },
+        {
+          "name": "gallus",
+          "synonyms": [
+            "gallus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une poule pondeuse est une femelle Gallus gallus domesticus élevée dans le but de produire des œufs utilisés dans l'alimentation humaine. L'élevage de poules pondeuses peut s'effectuer de façon familiale ou fermière, semi-industrielle ou industrielle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poumon": {
+    "type": "specialized",
+    "exact_terms": [
+      "poumon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "poumon",
+          "synonyms": [
+            "poumon"
+          ]
+        },
+        {
+          "name": "organe",
+          "synonyms": [
+            "organe"
+          ]
+        },
+        {
+          "name": "intrathoracique",
+          "synonyms": [
+            "intrathoracique"
+          ]
+        },
+        {
+          "name": "pair",
+          "synonyms": [
+            "pair"
+          ]
+        },
+        {
+          "name": "l'appareil",
+          "synonyms": [
+            "l'appareil"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le poumon est un organe intrathoracique pair de l'appareil respiratoire, permettant l'échange des gaz vitaux, notamment l'oxygène et le dioxyde de carbone. L'oxygène est nécessaire au métabolisme de l'organisme, et le dioxyde de carbone doit être évacué."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pourette": {
+    "type": "specialized",
+    "exact_terms": [
+      "pourette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pourette",
+          "synonyms": [
+            "pourette"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        },
+        {
+          "name": "différents",
+          "synonyms": [
+            "différents"
+          ]
+        },
+        {
+          "name": "cultivars",
+          "synonyms": [
+            "cultivars"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pourette est le nom générique de différents cultivars naturels de châtaignier européen originaires d'Ardèche qui bien que portant le même nom ne sont pas apparentés :\n\nPourette de Thueyts : Petite châtaigne (10-12 g) mûre à mi-saison. Pointue, presque comme une aguyane mais pas aussi plate sur sa face avec un hile petit de 20 à 22 millimètres à peine sur 12 à 13 millimètres."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pourpre": {
+    "type": "specialized",
+    "exact_terms": [
+      "pourpre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pourpre",
+          "synonyms": [
+            "pourpre"
+          ]
+        },
+        {
+          "name": "teinture",
+          "synonyms": [
+            "teinture"
+          ]
+        },
+        {
+          "name": "rouge",
+          "synonyms": [
+            "rouge"
+          ]
+        },
+        {
+          "name": "violacée",
+          "synonyms": [
+            "violacée"
+          ]
+        },
+        {
+          "name": "d'origine",
+          "synonyms": [
+            "d'origine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pourpre est une teinture rouge violacée d'origine animale déjà en usage chez les Phéniciens et les Égéens. C'est un des éléments culturels majeurs de l'Antiquité méditerranéenne, signe d'honneur et de pouvoir que perpétue jusqu'à nos jours le vêtement des cardinaux de l'Église catholique et de prélats de l'Église anglicane."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pourri": {
+    "type": "specialized",
+    "exact_terms": [
+      "pourri"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pourri",
+          "synonyms": [
+            "pourri"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        },
+        {
+          "name": "signification",
+          "synonyms": [
+            "signification"
+          ]
+        },
+        {
+          "name": "variable",
+          "synonyms": [
+            "variable"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot pourri est employé dans plusieurs domaines avec une signification variable."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pousse-seringue": {
+    "type": "specialized",
+    "exact_terms": [
+      "pousse-seringue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pousse-seringue",
+          "synonyms": [
+            "pousse-seringue"
+          ]
+        },
+        {
+          "name": "seringue",
+          "synonyms": [
+            "seringue"
+          ]
+        },
+        {
+          "name": "autopulsée",
+          "synonyms": [
+            "autopulsée"
+          ]
+        },
+        {
+          "name": "sap",
+          "synonyms": [
+            "sap"
+          ]
+        },
+        {
+          "name": "encore",
+          "synonyms": [
+            "encore"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pousse-seringue ou seringue autopulsée (SAP) ou encore pousse-seringue électrique (PSE) est un dispositif médical utilisé pour administrer de faibles quantités de fluide (avec ou sans médicament) à un patient via une pompe à perfusion et une seringue allant de 1 cc jusqu'à un volume de 100 cc. On le retrouve également en chimie ou en recherche biomédicale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poussée": {
+    "type": "specialized",
+    "exact_terms": [
+      "poussée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "aérodynamique",
+          "synonyms": [
+            "aérodynamique"
+          ]
+        },
+        {
+          "name": "poussée",
+          "synonyms": [
+            "poussée"
+          ]
+        },
+        {
+          "name": "force",
+          "synonyms": [
+            "force"
+          ]
+        },
+        {
+          "name": "exercée",
+          "synonyms": [
+            "exercée"
+          ]
+        },
+        {
+          "name": "l'accélération",
+          "synonyms": [
+            "l'accélération"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En aérodynamique, la poussée est la force exercée par l'accélération de gaz (souvent de l'air ou des gaz résultant d'une combustion) grâce à un moteur à réaction, dans le sens inverse de l'avancement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "poïkilotherme": {
+    "type": "specialized",
+    "exact_terms": [
+      "poïkilotherme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "animaux",
+          "synonyms": [
+            "animaux"
+          ]
+        },
+        {
+          "name": "poïkilothermes",
+          "synonyms": [
+            "poïkilothermes"
+          ]
+        },
+        {
+          "name": "dits",
+          "synonyms": [
+            "dits"
+          ]
+        },
+        {
+          "name": "sang",
+          "synonyms": [
+            "sang"
+          ]
+        },
+        {
+          "name": "froid",
+          "synonyms": [
+            "froid"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les animaux poïkilothermes, dits à « sang froid » ou encore pœcilothermes, sont des animaux ayant une température corporelle qui varie avec celle de leur milieu.\nPar cette caractéristique, ils diffèrent et s'opposent aux homéothermes qui ont une température interne relativement stable."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prandial": {
+    "type": "specialized",
+    "exact_terms": [
+      "prandial"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prandial",
+          "synonyms": [
+            "prandial"
+          ]
+        },
+        {
+          "name": "rapporte",
+          "synonyms": [
+            "rapporte"
+          ]
+        },
+        {
+          "name": "repas",
+          "synonyms": [
+            "repas"
+          ]
+        },
+        {
+          "name": "postprandial",
+          "synonyms": [
+            "postprandial"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Prandial se rapporte à un repas. Postprandial signifie après un repas alors que préprandial est avant un repas."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "preferendum": {
+    "type": "specialized",
+    "exact_terms": [
+      "preferendum"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "preferendum",
+          "synonyms": [
+            "preferendum"
+          ]
+        },
+        {
+          "name": "compte",
+          "synonyms": [
+            "compte"
+          ]
+        },
+        {
+          "name": "borda",
+          "synonyms": [
+            "borda"
+          ]
+        },
+        {
+          "name": "modifié",
+          "synonyms": [
+            "modifié"
+          ]
+        },
+        {
+          "name": "mode",
+          "synonyms": [
+            "mode"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le preferendum, ou « compte de Borda modifié », est un mode de scrutin à un tour qui favorise l'option qui sera admise par le maximum de participants."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prenant": {
+    "type": "specialized",
+    "exact_terms": [
+      "prenant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prenant",
+          "synonyms": [
+            "prenant"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        },
+        {
+          "name": "porté",
+          "synonyms": [
+            "porté"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Prenant est un nom de famille  notamment porté par :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prescription": {
+    "type": "specialized",
+    "exact_terms": [
+      "prescription"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "prescription",
+          "synonyms": [
+            "prescription"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "règles",
+          "synonyms": [
+            "règles"
+          ]
+        },
+        {
+          "name": "conseils",
+          "synonyms": [
+            "conseils"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "en droit : la prescription\nEnsemble de règles et de conseils formalisé par écrit réglementant officiellement une activité, généralement professionnelle.\nMode d'acquisition ou d'extinction d'un droit par l'écoulement d'un certain laps de temps et sous les conditions déterminées par la loi."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prescrire": {
+    "type": "specialized",
+    "exact_terms": [
+      "prescrire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prescrire",
+          "synonyms": [
+            "prescrire"
+          ]
+        },
+        {
+          "name": "médecin",
+          "synonyms": [
+            "médecin"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "conseiller",
+          "synonyms": [
+            "conseiller"
+          ]
+        },
+        {
+          "name": "patient",
+          "synonyms": [
+            "patient"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Prescrire peut désigner :\n\npour un médecin, l'action de conseiller à un patient un traitement particulier. Voir prescription ;\nPrescrire, une revue médicale française."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pression artérielle": {
+    "type": "specialized",
+    "exact_terms": [
+      "pression artérielle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pression",
+          "synonyms": [
+            "pression"
+          ]
+        },
+        {
+          "name": "artérielle",
+          "synonyms": [
+            "artérielle"
+          ]
+        },
+        {
+          "name": "pression",
+          "synonyms": [
+            "pression"
+          ]
+        },
+        {
+          "name": "artérielle",
+          "synonyms": [
+            "artérielle"
+          ]
+        },
+        {
+          "name": "systémique",
+          "synonyms": [
+            "systémique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pression artérielle, ou pression artérielle systémique, correspond à la pression sanguine dans les artères de la circulation systémique (circulation principale). On parle aussi de tension artérielle (ou simplement de tension en raccourci) car cette pression est aussi la force exercée par le sang sur la paroi des artères, ce qui les tend."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pression de sélection": {
+    "type": "specialized",
+    "exact_terms": [
+      "pression de sélection"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "théorie",
+          "synonyms": [
+            "théorie"
+          ]
+        },
+        {
+          "name": "l'évolution",
+          "synonyms": [
+            "l'évolution"
+          ]
+        },
+        {
+          "name": "pression",
+          "synonyms": [
+            "pression"
+          ]
+        },
+        {
+          "name": "sélection",
+          "synonyms": [
+            "sélection"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans la théorie de l'évolution, le concept de pression de sélection désigne un phénomène qui se traduit par une évolution des espèces vivantes soumises à certaines contraintes environnementales. De façon imagée, on peut voir ces contraintes environnementales comme une force qui « pousse » l'espèce à se transformer dans une direction donnée, d'où le terme de pression."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie évolutive",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "priape": {
+    "type": "specialized",
+    "exact_terms": [
+      "priape"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mythologie",
+          "synonyms": [
+            "mythologie"
+          ]
+        },
+        {
+          "name": "grecque",
+          "synonyms": [
+            "grecque"
+          ]
+        },
+        {
+          "name": "priape",
+          "synonyms": [
+            "priape"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans la mythologie grecque, Priape (en grec ancien Πρίαπος / Príapos) est un dieu de la fertilité, ithyphallique, protecteur des jardins et des troupeaux. Son équivalent dans la mythologie romaine se nomme Mutunus Tutunus, bien qu'il soit souvent cité sous le nom Priape."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "priapisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "priapisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "priapisme",
+          "synonyms": [
+            "priapisme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "πριαπισμός",
+          "synonyms": [
+            "πριαπισμός"
+          ]
+        },
+        {
+          "name": "érection",
+          "synonyms": [
+            "érection"
+          ]
+        },
+        {
+          "name": "situation",
+          "synonyms": [
+            "situation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le priapisme (du grec πριαπισμός, « érection ») est une situation douloureuse et dangereuse dans laquelle le pénis après l'érection ne retrouve pas sa flaccidité normale au bout de quatre heures, même en l'absence de toute stimulation physique ou psychologique.\nTout priapisme perdurant plus de quatre heures est une urgence médicale absolue, impliquant une évaluation d'urgence par un médecin qualifié pour notamment identifier le sous-type de priapisme (ischémique ou non)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "primatologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "primatologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "primatologie",
+          "synonyms": [
+            "primatologie"
+          ]
+        },
+        {
+          "name": "discipline",
+          "synonyms": [
+            "discipline"
+          ]
+        },
+        {
+          "name": "étudie",
+          "synonyms": [
+            "étudie"
+          ]
+        },
+        {
+          "name": "espèces",
+          "synonyms": [
+            "espèces"
+          ]
+        },
+        {
+          "name": "l'ordre",
+          "synonyms": [
+            "l'ordre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La primatologie est la discipline qui étudie les espèces de l'ordre des Primates, c'est-à-dire les mammifères communément appelés singes, lémuriens, tarsiers, loris, ainsi que l'espèce humaine et ses ancêtres proches."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\mammalogie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "primipare": {
+    "type": "specialized",
+    "exact_terms": [
+      "primipare"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "femme",
+          "synonyms": [
+            "femme"
+          ]
+        },
+        {
+          "name": "primigeste",
+          "synonyms": [
+            "primigeste"
+          ]
+        },
+        {
+          "name": "lorsque",
+          "synonyms": [
+            "lorsque"
+          ]
+        },
+        {
+          "name": "première",
+          "synonyms": [
+            "première"
+          ]
+        },
+        {
+          "name": "grossesse",
+          "synonyms": [
+            "grossesse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une femme est primigeste lorsque sa première grossesse est en cours et primipare lorsqu'elle accouche pour la première fois. \nCes termes sont également employés pour les autres femelles de mammifères (brebis, génisses, juments…)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "primordium": {
+    "type": "specialized",
+    "exact_terms": [
+      "primordium"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "primordium",
+          "synonyms": [
+            "primordium"
+          ]
+        },
+        {
+          "name": "pluriel",
+          "synonyms": [
+            "pluriel"
+          ]
+        },
+        {
+          "name": "primordia",
+          "synonyms": [
+            "primordia"
+          ]
+        },
+        {
+          "name": "ébauche",
+          "synonyms": [
+            "ébauche"
+          ]
+        },
+        {
+          "name": "d'organe",
+          "synonyms": [
+            "d'organe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un primordium (au pluriel primordia) est une ébauche d'organe d'une plante ou d'un champignon (mycota).\nLe développement d'un primordium aboutit à la formation de l'organe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "primum non nocere": {
+    "type": "specialized",
+    "exact_terms": [
+      "primum non nocere"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "primum",
+          "synonyms": [
+            "primum"
+          ]
+        },
+        {
+          "name": "non",
+          "synonyms": [
+            "non"
+          ]
+        },
+        {
+          "name": "nocere",
+          "synonyms": [
+            "nocere"
+          ]
+        },
+        {
+          "name": "locution",
+          "synonyms": [
+            "locution"
+          ]
+        },
+        {
+          "name": "latine",
+          "synonyms": [
+            "latine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Primum non nocere est une locution latine qui signifie : « en premier, ne pas nuire » ou « d'abord, ne pas faire de mal ». C'est le premier principe de prudence ou phronesis  appris aux étudiants en médecine, médecine dentaire, médecine vétérinaire, science maïeutique, science infirmière et pharmacie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "princeps": {
+    "type": "specialized",
+    "exact_terms": [
+      "princeps"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "princeps",
+          "synonyms": [
+            "princeps"
+          ]
+        },
+        {
+          "name": "vient",
+          "synonyms": [
+            "vient"
+          ]
+        },
+        {
+          "name": "princeps",
+          "synonyms": [
+            "princeps"
+          ]
+        },
+        {
+          "name": "senatus",
+          "synonyms": [
+            "senatus"
+          ]
+        },
+        {
+          "name": "littéralement",
+          "synonyms": [
+            "littéralement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Princeps, vient du terme princeps senatus (littéralement « premier du Sénat »), est un titre porté par les empereurs romains sous le principat.\nPrincipes, soldats d’une légion romaine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie\\pharmacologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prise": {
+    "type": "specialized",
+    "exact_terms": [
+      "prise"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prise",
+          "synonyms": [
+            "prise"
+          ]
+        },
+        {
+          "name": "verbe",
+          "synonyms": [
+            "verbe"
+          ]
+        },
+        {
+          "name": "prendre",
+          "synonyms": [
+            "prendre"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot prise (du verbe prendre) est employé dans plusieurs domaines :\n\nen chimie, la prise est la réaction exothermique de solidification du ciment, pendant laquelle il acquiert ses propriétés mécaniques ;\nen économie, la prise au tas est une expression économique anarchiste ;\nen électricité, une prise électrique permet de fournir aux appareils domestiques l'énergie nécessaire pour fonctionner ;\nen électrotechnique, une prise de transformateur permet de contrôler la tension au primaire ou au sec..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "probénécide": {
+    "type": "specialized",
+    "exact_terms": [
+      "probénécide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "probénécide",
+          "synonyms": [
+            "probénécide"
+          ]
+        },
+        {
+          "name": "uricosurique",
+          "synonyms": [
+            "uricosurique"
+          ]
+        },
+        {
+          "name": "c'est-à-dire",
+          "synonyms": [
+            "c'est-à-dire"
+          ]
+        },
+        {
+          "name": "qu'il",
+          "synonyms": [
+            "qu'il"
+          ]
+        },
+        {
+          "name": "permet",
+          "synonyms": [
+            "permet"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le probénécide est un uricosurique, c'est-à-dire qu'il permet d'abaisser la concentration de l'acide urique dans le sang, augmentant son élimination urinaire. Et donc, il est employé dans le traitement de l'hyperuricémie et de la goutte."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "processivité": {
+    "type": "specialized",
+    "exact_terms": [
+      "processivité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "moléculaire",
+          "synonyms": [
+            "moléculaire"
+          ]
+        },
+        {
+          "name": "biochimie",
+          "synonyms": [
+            "biochimie"
+          ]
+        },
+        {
+          "name": "processivité",
+          "synonyms": [
+            "processivité"
+          ]
+        },
+        {
+          "name": "capacité",
+          "synonyms": [
+            "capacité"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie moléculaire et en biochimie, la processivité  est la capacité d'une enzyme à catalyser des réactions successives sur une même molécule, sans la relâcher. Ceci s'applique en particulier aux polymérases, qui réitèrent des allongements d'un substrat en associant successivement des monomères ; ainsi, plus la processivité est élevée, plus la longueur des polymères produits en une fois est importante."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "processus": {
+    "type": "specialized",
+    "exact_terms": [
+      "processus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "vient",
+          "synonyms": [
+            "vient"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "pro",
+          "synonyms": [
+            "pro"
+          ]
+        },
+        {
+          "name": "l'avant",
+          "synonyms": [
+            "l'avant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot processus vient du latin pro (au sens de « vers l'avant »)  et de cessus, cedere (« aller, marcher ») ce qui signifie donc aller vers l'avant, avancer. Ce mot est également à l'origine du mot procédure qui désigne plutôt la méthode d'organisation, la stratégie du changement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "processus coracoïde": {
+    "type": "specialized",
+    "exact_terms": [
+      "processus coracoïde"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "coracoïde",
+          "synonyms": [
+            "coracoïde"
+          ]
+        },
+        {
+          "name": "apophyse",
+          "synonyms": [
+            "apophyse"
+          ]
+        },
+        {
+          "name": "coracoïde",
+          "synonyms": [
+            "coracoïde"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le processus coracoïde (ou apophyse coracoïde) (du grec κόραξ, κόρακος / korax, korakos, « corbeau ») est une excroissance osseuse en forme de crochet située sur la face supérieure du col de la scapula."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "processus frontal du maxillaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "processus frontal du maxillaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "frontal",
+          "synonyms": [
+            "frontal"
+          ]
+        },
+        {
+          "name": "maxillaire",
+          "synonyms": [
+            "maxillaire"
+          ]
+        },
+        {
+          "name": "branche",
+          "synonyms": [
+            "branche"
+          ]
+        },
+        {
+          "name": "montante",
+          "synonyms": [
+            "montante"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le processus frontal du maxillaire (ou branche montante du maxillaire ou apophyse frontale du maxillaire ou apophyse montante du maxillaire) est une plaque osseuse qui se projette vers le haut, vers l'intérieur et vers l'arrière de l'os maxillaire, contribuant à la limite latérale du nez."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "processus jugulaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "processus jugulaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "jugulaire",
+          "synonyms": [
+            "jugulaire"
+          ]
+        },
+        {
+          "name": "apophyse",
+          "synonyms": [
+            "apophyse"
+          ]
+        },
+        {
+          "name": "jugulaire",
+          "synonyms": [
+            "jugulaire"
+          ]
+        },
+        {
+          "name": "saillie",
+          "synonyms": [
+            "saillie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le processus jugulaire (ou apophyse jugulaire) est une saillie osseuse située sur le bord latéral de la partie latérale de l'os occipital latéralement à la moitié postérieure du condyle occipital.\nIl est creusé à l'avant par l'incisure jugulaire de l'occipital, qui forme le bord postérieur du foramen jugulaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "processus ptérygoïde": {
+    "type": "specialized",
+    "exact_terms": [
+      "processus ptérygoïde"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "ptérygoïdes",
+          "synonyms": [
+            "ptérygoïdes"
+          ]
+        },
+        {
+          "name": "apophyses",
+          "synonyms": [
+            "apophyses"
+          ]
+        },
+        {
+          "name": "ptérygoïdes",
+          "synonyms": [
+            "ptérygoïdes"
+          ]
+        },
+        {
+          "name": "l'os",
+          "synonyms": [
+            "l'os"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les processus ptérygoïdes (ou apophyses ptérygoïdes) de l'os sphénoïde (du grec ptéryx, ptérygos, \"aile\"), sont deux prolongements osseux symétriques se détachant vers le bas et verticalement de la face inférieure du corps du sphénoïde à son union avec les grandes ailes de l'os sphénoïde."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "processus zygomatique": {
+    "type": "specialized",
+    "exact_terms": [
+      "processus zygomatique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "zygomatiques",
+          "synonyms": [
+            "zygomatiques"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les processus zygomatiques sont les trois processus des trois os du crâne qui s'articulent avec l'os zygomatique :\n\nLe processus zygomatique de l'os frontal,\nLe processus zygomatique du maxillaire,\nLe processus zygomatique de l'os temporal.\nLe terme zygomatique dérive du grec Ζυγόμα, zygoma, signifiant \"joug\"."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "procruste": {
+    "type": "specialized",
+    "exact_terms": [
+      "procruste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "procrustes",
+          "synonyms": [
+            "procrustes"
+          ]
+        },
+        {
+          "name": "procrustes",
+          "synonyms": [
+            "procrustes"
+          ]
+        },
+        {
+          "name": "forment",
+          "synonyms": [
+            "forment"
+          ]
+        },
+        {
+          "name": "sous-genre",
+          "synonyms": [
+            "sous-genre"
+          ]
+        },
+        {
+          "name": "d'insectes",
+          "synonyms": [
+            "d'insectes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les procrustes (Procrustes) forment un sous-genre d'insectes coléoptères du genre Carabus ; on peut en trouver dans toute l'Europe. Ce sont des prédateurs qui se nourrissent d'autres coléoptères et larves (dont chenilles), limaces, escargots et fruits mûrs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "procréation médicalement assistée": {
+    "type": "specialized",
+    "exact_terms": [
+      "procréation médicalement assistée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "procréation",
+          "synonyms": [
+            "procréation"
+          ]
+        },
+        {
+          "name": "médicalement",
+          "synonyms": [
+            "médicalement"
+          ]
+        },
+        {
+          "name": "assistée",
+          "synonyms": [
+            "assistée"
+          ]
+        },
+        {
+          "name": "pma",
+          "synonyms": [
+            "pma"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La procréation médicalement assistée (PMA), aussi appelée assistance médicale à la procréation (AMP), est un ensemble de pratiques cliniques, biologiques et sociologiques où la médecine intervient dans la procréation. Ces techniques sont utilisées pour aider les couples ou les individus à concevoir un enfant lorsque cela est difficile ou impossible notamment en cas d'infertilité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "proctologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "proctologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "proctologie",
+          "synonyms": [
+            "proctologie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "πρωκτός",
+          "synonyms": [
+            "πρωκτός"
+          ]
+        },
+        {
+          "name": "prōktós",
+          "synonyms": [
+            "prōktós"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La proctologie (du grec ancien πρωκτός / prōktós (« anus ») et λογία / logía (« étude »)) est une spécialité de la gastro-entérologie étudiant les maladies de l'anus et du rectum. Le proctologue est le spécialiste de ce domaine ; il peut être  gastro-entérologue ou chirurgien digestif de formation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "procès": {
+    "type": "specialized",
+    "exact_terms": [
+      "procès"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "procès",
+          "synonyms": [
+            "procès"
+          ]
+        },
+        {
+          "name": "étape",
+          "synonyms": [
+            "étape"
+          ]
+        },
+        {
+          "name": "instance",
+          "synonyms": [
+            "instance"
+          ]
+        },
+        {
+          "name": "justice",
+          "synonyms": [
+            "justice"
+          ]
+        },
+        {
+          "name": "parties",
+          "synonyms": [
+            "parties"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un procès est une étape d'une instance en justice où les parties soumettent leur litige devant le tribunal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prodrogue": {
+    "type": "specialized",
+    "exact_terms": [
+      "prodrogue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prodrogue",
+          "synonyms": [
+            "prodrogue"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "promédicament",
+          "synonyms": [
+            "promédicament"
+          ]
+        },
+        {
+          "name": "substance",
+          "synonyms": [
+            "substance"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une prodrogue (également appelée promédicament) est une substance pharmacologique (un médicament) qui est administrée sous une forme inactive (ou beaucoup moins active que son métabolite). Une fois administrée, la prodrogue est métabolisée in vivo en un métabolite actif."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie\\pharmacologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "production": {
+    "type": "specialized",
+    "exact_terms": [
+      "production"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "production",
+          "synonyms": [
+            "production"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "sujet",
+          "synonyms": [
+            "sujet"
+          ]
+        },
+        {
+          "name": "transforme",
+          "synonyms": [
+            "transforme"
+          ]
+        },
+        {
+          "name": "matière",
+          "synonyms": [
+            "matière"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La production est l'action d'un sujet qui transforme une matière première pour créer un nouvel objet. Cette activité prend place dans la société comme dans la nature et est donc étudiée sous l'angle économique et sociologique, comme biologique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "produit de contraste": {
+    "type": "specialized",
+    "exact_terms": [
+      "produit de contraste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "imagerie",
+          "synonyms": [
+            "imagerie"
+          ]
+        },
+        {
+          "name": "médicale",
+          "synonyms": [
+            "médicale"
+          ]
+        },
+        {
+          "name": "produit",
+          "synonyms": [
+            "produit"
+          ]
+        },
+        {
+          "name": "agent",
+          "synonyms": [
+            "agent"
+          ]
+        },
+        {
+          "name": "contraste",
+          "synonyms": [
+            "contraste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En imagerie médicale, un produit (ou agent) de contraste est une substance qui augmente artificiellement le contraste permettant de visualiser une structure anatomique (par exemple, un organe) ou pathologique (par exemple, une tumeur) naturellement peu ou pas contrastée, et que l'on aurait donc du mal à distinguer des tissus voisins. \nLe principe de fonctionnement du produit de contraste dépend de la technique d'imagerie utilisée : en radiographie, on exploite la capacité du produit à absorber l..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "proembryon": {
+    "type": "specialized",
+    "exact_terms": [
+      "proembryon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "botanique",
+          "synonyms": [
+            "botanique"
+          ]
+        },
+        {
+          "name": "proembryon",
+          "synonyms": [
+            "proembryon"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "végétales",
+          "synonyms": [
+            "végétales"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En botanique, un proembryon est un ensemble de cellules végétales qui n’a pas encore été différencié en un embryon et un suspenseur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "proenzyme": {
+    "type": "specialized",
+    "exact_terms": [
+      "proenzyme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "proenzyme",
+          "synonyms": [
+            "proenzyme"
+          ]
+        },
+        {
+          "name": "zymogène",
+          "synonyms": [
+            "zymogène"
+          ]
+        },
+        {
+          "name": "précurseur",
+          "synonyms": [
+            "précurseur"
+          ]
+        },
+        {
+          "name": "protéique",
+          "synonyms": [
+            "protéique"
+          ]
+        },
+        {
+          "name": "enzyme",
+          "synonyms": [
+            "enzyme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une proenzyme ou zymogène est un précurseur protéique d'une enzyme, c'est-à-dire un composé protidique inactif, dépourvu d'activité enzymatique, mais qui peut donner après activation une enzyme active.\nL'intérêt pour l'organisme est de pouvoir synthétiser une enzyme et de l'activer plus tard, lorsque les conditions le nécessitent."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "progestatif": {
+    "type": "specialized",
+    "exact_terms": [
+      "progestatif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "progestatif",
+          "synonyms": [
+            "progestatif"
+          ]
+        },
+        {
+          "name": "hormone",
+          "synonyms": [
+            "hormone"
+          ]
+        },
+        {
+          "name": "stéroïdienne",
+          "synonyms": [
+            "stéroïdienne"
+          ]
+        },
+        {
+          "name": "d'action",
+          "synonyms": [
+            "d'action"
+          ]
+        },
+        {
+          "name": "similaire",
+          "synonyms": [
+            "similaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un progestatif est une  hormone stéroïdienne d'action similaire à la progestérone, le seul progestatif naturel.\nPour être considérée comme progestative (progestogène), une molécule doit avoir les effets suivants en expérimentation chez un animal de laboratoire :\n\neffet lutéomimétique (test de Clauberg) : différenciation sécrétoire sur une muqueuse utérine correctement préparée par les œstrogènes ;\neffet progestogène : maintien de la gestation malgré ablation du corps jaune de l'ovaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "progestérone": {
+    "type": "specialized",
+    "exact_terms": [
+      "progestérone"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "progestérone",
+          "synonyms": [
+            "progestérone"
+          ]
+        },
+        {
+          "name": "hormone",
+          "synonyms": [
+            "hormone"
+          ]
+        },
+        {
+          "name": "stéroïdienne",
+          "synonyms": [
+            "stéroïdienne"
+          ]
+        },
+        {
+          "name": "principalement",
+          "synonyms": [
+            "principalement"
+          ]
+        },
+        {
+          "name": "sécrétée",
+          "synonyms": [
+            "sécrétée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La progestérone est une hormone stéroïdienne principalement sécrétée par les cellules du corps jaune des ovaires et le placenta. Elle est impliquée dans la grossesse (progestogène : progestatif, favorise la gestation) et l'embryogenèse de nombreuses espèces de mammifères, ainsi que dans le cycle menstruel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prognathisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "prognathisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prognathisme",
+          "synonyms": [
+            "prognathisme"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "pro",
+          "synonyms": [
+            "pro"
+          ]
+        },
+        {
+          "name": "avant",
+          "synonyms": [
+            "avant"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le prognathisme (du latin pro, « avant » et du grec γνάθος, « mâchoire ») est une configuration faciale selon laquelle une ou les deux mâchoires sont projetées en avant par rapport à la « verticale » allant du front au nez. Lorsqu'une seule des deux machoires est concernée, on parle de prognathisme mandibulaire ou maxillaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "progressif": {
+    "type": "specialized",
+    "exact_terms": [
+      "progressif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "vidéo",
+          "synonyms": [
+            "vidéo"
+          ]
+        },
+        {
+          "name": "mode",
+          "synonyms": [
+            "mode"
+          ]
+        },
+        {
+          "name": "d'affichage",
+          "synonyms": [
+            "d'affichage"
+          ]
+        },
+        {
+          "name": "écran",
+          "synonyms": [
+            "écran"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En vidéo, le mode d'affichage d'un écran est appelé \"balayage progressif\"\nLe rock progressif est un genre de rock.\nLe metal progressif est un genre de heavy metal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "progéniteur": {
+    "type": "specialized",
+    "exact_terms": [
+      "progéniteur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "astronomie",
+          "synonyms": [
+            "astronomie"
+          ]
+        },
+        {
+          "name": "progéniteur",
+          "synonyms": [
+            "progéniteur"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        },
+        {
+          "name": "stade",
+          "synonyms": [
+            "stade"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En astronomie, un progéniteur désigne un objet dans un stade évolutif donné et qui donnera dans le futur un autre type d'objet.\nPar exemple : les étoiles O sont les progéniteurs des étoiles Wolf-Rayet; les étoiles de type solaires sont les progéniteurs des naines blanches."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "proie": {
+    "type": "specialized",
+    "exact_terms": [
+      "proie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "proie",
+          "synonyms": [
+            "proie"
+          ]
+        },
+        {
+          "name": "organisme",
+          "synonyms": [
+            "organisme"
+          ]
+        },
+        {
+          "name": "capturé",
+          "synonyms": [
+            "capturé"
+          ]
+        },
+        {
+          "name": "vivant",
+          "synonyms": [
+            "vivant"
+          ]
+        },
+        {
+          "name": "tué",
+          "synonyms": [
+            "tué"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une proie est un organisme capturé vivant, tué puis consommé par un autre, qualifié de prédateur. La proie (espèce prédatée) est chassée par le prédateur (espèce prédatrice)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prolactine": {
+    "type": "specialized",
+    "exact_terms": [
+      "prolactine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prolactine",
+          "synonyms": [
+            "prolactine"
+          ]
+        },
+        {
+          "name": "hormone",
+          "synonyms": [
+            "hormone"
+          ]
+        },
+        {
+          "name": "peptidique",
+          "synonyms": [
+            "peptidique"
+          ]
+        },
+        {
+          "name": "sécrétée",
+          "synonyms": [
+            "sécrétée"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prolactine est une hormone peptidique sécrétée par les cellules lactotropes de la partie antérieure de l'hypophyse. Ses rôles sont multiples, elle intervient notamment dans la lactation, la reproduction, la croissance, l'immunité et le comportement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prolapsus": {
+    "type": "specialized",
+    "exact_terms": [
+      "prolapsus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prolapsus",
+          "synonyms": [
+            "prolapsus"
+          ]
+        },
+        {
+          "name": "prolapsus",
+          "synonyms": [
+            "prolapsus"
+          ]
+        },
+        {
+          "name": "génital",
+          "synonyms": [
+            "génital"
+          ]
+        },
+        {
+          "name": "prolapsus",
+          "synonyms": [
+            "prolapsus"
+          ]
+        },
+        {
+          "name": "mitral",
+          "synonyms": [
+            "mitral"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Prolapsus peut désigner :\n\nProlapsus génital\nProlapsus mitral\nProlapsus de la glande de Harder\nProlapsus rectal\nProlapsus, genre de rongeurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prolificité": {
+    "type": "specialized",
+    "exact_terms": [
+      "prolificité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prolificité",
+          "synonyms": [
+            "prolificité"
+          ]
+        },
+        {
+          "name": "d'élevage",
+          "synonyms": [
+            "d'élevage"
+          ]
+        },
+        {
+          "name": "correspond",
+          "synonyms": [
+            "correspond"
+          ]
+        },
+        {
+          "name": "progéniture",
+          "synonyms": [
+            "progéniture"
+          ]
+        },
+        {
+          "name": "engendrée",
+          "synonyms": [
+            "engendrée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prolificité est un terme d'élevage qui correspond à la progéniture engendrée par une mère en un an. Cette notion étant primordiale à la rentabilité des troupeaux, de nombreuses recherches scientifiques ont été menées afin d'accroître cette valeur au cours du temps comme l'augmentation des portées par manipulation génétique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prolifération": {
+    "type": "specialized",
+    "exact_terms": [
+      "prolifération"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "démécologie",
+          "synonyms": [
+            "démécologie"
+          ]
+        },
+        {
+          "name": "écologie",
+          "synonyms": [
+            "écologie"
+          ]
+        },
+        {
+          "name": "populations",
+          "synonyms": [
+            "populations"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "populations",
+          "synonyms": [
+            "populations"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En démécologie (écologie des populations) ou en biologie des populations, on parle de prolifération ou de pullulation à propos d'une espèce qui se reproduit abondamment dans un environnement donné. Quand la prolifération est très rapide on parle alors de pullulation (exemples : pullulation de méduses, efflorescence algale, marée verte, pullulation des campagnols...) et lorsque cette prolifération excessive concerne une espèce introduite dans un nouveau milieu, on parle d'invasion et d'espèce inv..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "promandibulie habsbourgeoise": {
+    "type": "specialized",
+    "exact_terms": [
+      "promandibulie habsbourgeoise"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "promandibulie",
+          "synonyms": [
+            "promandibulie"
+          ]
+        },
+        {
+          "name": "habsbourgeoise",
+          "synonyms": [
+            "habsbourgeoise"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "mâchoire",
+          "synonyms": [
+            "mâchoire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La promandibulie habsbourgeoise, aussi appelée mâchoire de Habsbourg ou prognathisme habsbourgeois (ou autrichien), est une malformation héréditaire retrouvée dans la famille de Habsbourg et qui se traduisait par une importante promandibulie inférieure (menton « en galoche »), rendant très difficile la parole et la mastication des aliments.\nCette malformation était due à des mariages consanguins (particulièrement prononcés dans le cas de Charles II d'Espagne, qui souffrait de nombreux autres han..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "promession": {
+    "type": "specialized",
+    "exact_terms": [
+      "promession"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "promession",
+          "synonyms": [
+            "promession"
+          ]
+        },
+        {
+          "name": "cryomation",
+          "synonyms": [
+            "cryomation"
+          ]
+        },
+        {
+          "name": "rite",
+          "synonyms": [
+            "rite"
+          ]
+        },
+        {
+          "name": "funéraire",
+          "synonyms": [
+            "funéraire"
+          ]
+        },
+        {
+          "name": "présenté",
+          "synonyms": [
+            "présenté"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La promession ou cryomation est un rite funéraire présenté comme une alternative à la crémation et à l'inhumation des cadavres humains ou d'animaux de compagnie, consistant en leur congélation à très basse température suivie d'une réduction en poudre. Cette poudre peut ensuite être incorporée au sol, premier temps du recyclage de ses composants."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mort",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "promoteur": {
+    "type": "specialized",
+    "exact_terms": [
+      "promoteur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "promoteur",
+          "synonyms": [
+            "promoteur"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "promoteur",
+          "synonyms": [
+            "promoteur"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "région",
+          "synonyms": [
+            "région"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Promoteur peut faire référence à :\n\nPromoteur, en biologie, région de l'ADN située à proximité d'un gène qui est indispensable à la transcription de l'ADN en ARN ;\nPromoteur, en chimie, composé qui augmente le pouvoir catalytique d'un catalyseur, sans avoir lui-même de pouvoir catalytique intrinsèque ;\nPromoteur, nom donné en Belgique au directeur de thèse ;\nPromoteur immobilier, métier ;\nPromoteur de justice, dans la religion catholique, ou simplement promoteur, est un membre de l'officialité, ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prométaphase": {
+    "type": "specialized",
+    "exact_terms": [
+      "prométaphase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prométaphase",
+          "synonyms": [
+            "prométaphase"
+          ]
+        },
+        {
+          "name": "phase",
+          "synonyms": [
+            "phase"
+          ]
+        },
+        {
+          "name": "déroule",
+          "synonyms": [
+            "déroule"
+          ]
+        },
+        {
+          "name": "après",
+          "synonyms": [
+            "après"
+          ]
+        },
+        {
+          "name": "prophase",
+          "synonyms": [
+            "prophase"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prométaphase est la phase qui se déroule après la prophase et avant la métaphase, de la mitose et de la méiose des cellules eucaryotes. De plus, elle ne se produit pas chez toutes les cellules eucaryotes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pronation": {
+    "type": "specialized",
+    "exact_terms": [
+      "pronation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "membre",
+          "synonyms": [
+            "membre"
+          ]
+        },
+        {
+          "name": "supérieur",
+          "synonyms": [
+            "supérieur"
+          ]
+        },
+        {
+          "name": "pronation",
+          "synonyms": [
+            "pronation"
+          ]
+        },
+        {
+          "name": "lorsque",
+          "synonyms": [
+            "lorsque"
+          ]
+        },
+        {
+          "name": "paumes",
+          "synonyms": [
+            "paumes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le membre supérieur est en pronation lorsque les paumes sont tournées vers l'arrière ou vers le sol et le radius se trouve alors devant l'ulna. La position de référence en anatomie n'est pas cette position de l'avant-bras mais la supination qui correspond aux paumes tournées vers l'avant, le radius étant alors en position latérale et l'ulna en position médiale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prophase": {
+    "type": "specialized",
+    "exact_terms": [
+      "prophase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prophase",
+          "synonyms": [
+            "prophase"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "πρό",
+          "synonyms": [
+            "πρό"
+          ]
+        },
+        {
+          "name": "pró",
+          "synonyms": [
+            "pró"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prophase (du grec ancien πρό, pró : « avant ») est la première phase de la division cellulaire mitotique, comme méiotique chez les êtres vivants eucaryotes. Elle débute par la visualisation des chromosomes condensés (cette condensation de la chromatine en chromosomes se fait dès la phase G2, mais n'est pas discernable en microscopie optique) et se termine peu avant la dissociation de l’enveloppe nucléaire (caractéristique de la prométaphase)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prophylaxie": {
+    "type": "specialized",
+    "exact_terms": [
+      "prophylaxie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prophylaxie",
+          "synonyms": [
+            "prophylaxie"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "mesure",
+          "synonyms": [
+            "mesure"
+          ]
+        },
+        {
+          "name": "prophylactique",
+          "synonyms": [
+            "prophylactique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prophylaxie, appelée aussi mesure prophylactique, désigne le processus actif ou passif ayant pour but de prévenir l'apparition, la propagation ou l'aggravation d'une maladie, par opposition à la thérapie curative, qui vise à la guérir. En défense des cultures, les mesures prophylactiques désignent des méthodes préventives appliquées avant même la mise en place de la culture, protégeant la plante contre une maladie et, par extension, contre tout ennemi."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "proprioception": {
+    "type": "specialized",
+    "exact_terms": [
+      "proprioception"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "proprioception",
+          "synonyms": [
+            "proprioception"
+          ]
+        },
+        {
+          "name": "proprio",
+          "synonyms": [
+            "proprio"
+          ]
+        },
+        {
+          "name": "tiré",
+          "synonyms": [
+            "tiré"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "proprius",
+          "synonyms": [
+            "proprius"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La proprioception (de proprio-, tiré du latin proprius, « propre », et de [ré]ception), ou sensibilité profonde, est la perception, consciente ou non, de la position des différentes parties du corps, qui se fait sans recours à la vision.\nElle fonctionne grâce à près de trente millions de récepteurs sensoriels, appelés propriocepteurs, présents dans les muscles, les articulations, les ligaments, les tendons, la peau, et les fascias."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "propyle": {
+    "type": "specialized",
+    "exact_terms": [
+      "propyle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chimie",
+          "synonyms": [
+            "chimie"
+          ]
+        },
+        {
+          "name": "organique",
+          "synonyms": [
+            "organique"
+          ]
+        },
+        {
+          "name": "groupement",
+          "synonyms": [
+            "groupement"
+          ]
+        },
+        {
+          "name": "propyle",
+          "synonyms": [
+            "propyle"
+          ]
+        },
+        {
+          "name": "groupement",
+          "synonyms": [
+            "groupement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En chimie organique, le groupement propyle est un groupement alkyle à trois atomes de carbone. Le groupement propyle est linéaire, mais d'autres groupements qui ne sont pas linéaires comportent le nom « propyle »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prosencéphale": {
+    "type": "specialized",
+    "exact_terms": [
+      "prosencéphale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "chordés",
+          "synonyms": [
+            "chordés"
+          ]
+        },
+        {
+          "name": "prosencéphale",
+          "synonyms": [
+            "prosencéphale"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        },
+        {
+          "name": "encéphale",
+          "synonyms": [
+            "encéphale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En anatomie des chordés, le prosencéphale fait partie de l’encéphale. Le prosencéphale, le mésencéphale et le rhombencéphale sont trois vésicules qui se développent pendant la neurogenèse du cerveau des vertébrés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prosome": {
+    "type": "specialized",
+    "exact_terms": [
+      "prosome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prosome",
+          "synonyms": [
+            "prosome"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "prosome",
+          "synonyms": [
+            "prosome"
+          ]
+        },
+        {
+          "name": "entomologie",
+          "synonyms": [
+            "entomologie"
+          ]
+        },
+        {
+          "name": "prosome",
+          "synonyms": [
+            "prosome"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Prosome  peut faire référence à :\n\nProsome, en entomologie ;\nProsome, en génétique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\arachnologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prostaglandine": {
+    "type": "specialized",
+    "exact_terms": [
+      "prostaglandine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prostaglandines",
+          "synonyms": [
+            "prostaglandines"
+          ]
+        },
+        {
+          "name": "métabolites",
+          "synonyms": [
+            "métabolites"
+          ]
+        },
+        {
+          "name": "l'acide",
+          "synonyms": [
+            "l'acide"
+          ]
+        },
+        {
+          "name": "arachidonique",
+          "synonyms": [
+            "arachidonique"
+          ]
+        },
+        {
+          "name": "obtenues",
+          "synonyms": [
+            "obtenues"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les prostaglandines sont des métabolites de l'acide arachidonique, obtenues à partir de phospholipides membranaires par action de phospholipases (plusieurs sous-types existants). Molécules liposolubles destinées à la sécrétion dans le milieu extracellulaire, ce sont des Eicosanoides qui jouent des rôles importants dans les organismes vivants."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prostate": {
+    "type": "specialized",
+    "exact_terms": [
+      "prostate"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prostate",
+          "synonyms": [
+            "prostate"
+          ]
+        },
+        {
+          "name": "glande",
+          "synonyms": [
+            "glande"
+          ]
+        },
+        {
+          "name": "exocrine",
+          "synonyms": [
+            "exocrine"
+          ]
+        },
+        {
+          "name": "l'appareil",
+          "synonyms": [
+            "l'appareil"
+          ]
+        },
+        {
+          "name": "génital",
+          "synonyms": [
+            "génital"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prostate est une glande exocrine de l'appareil génital masculin. Sa fonction principale est de sécréter une partie du liquide séminal (20 %), l'un des constituants du sperme, et de le stocker."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prostatectomie": {
+    "type": "specialized",
+    "exact_terms": [
+      "prostatectomie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prostatectomie",
+          "synonyms": [
+            "prostatectomie"
+          ]
+        },
+        {
+          "name": "totale",
+          "synonyms": [
+            "totale"
+          ]
+        },
+        {
+          "name": "prostatectomie",
+          "synonyms": [
+            "prostatectomie"
+          ]
+        },
+        {
+          "name": "radicale",
+          "synonyms": [
+            "radicale"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prostatectomie totale ou prostatectomie radicale consiste en une ablation chirurgicale de la prostate, des vésicules séminales et des ampoules déférentielles. Elle est indiquée dans le traitement du cancer de la prostate localisé ou localement avancé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prostitution": {
+    "type": "specialized",
+    "exact_terms": [
+      "prostitution"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prostitution",
+          "synonyms": [
+            "prostitution"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "prostitutio",
+          "synonyms": [
+            "prostitutio"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "d'échange",
+          "synonyms": [
+            "d'échange"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prostitution (du latin prostitutio) est une forme d'échange économico-sexuel : offre d'une prestation sexuelle contre rémunération. Elle recouvre généralement un espace social hétérogène composé souvent d’individus issus de milieux modestes ou très modestes, parfois marginaux, qui trouvent dans cette activité un moyen d’existence et de subsistance."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prothorax": {
+    "type": "specialized",
+    "exact_terms": [
+      "prothorax"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prothorax",
+          "synonyms": [
+            "prothorax"
+          ]
+        },
+        {
+          "name": "premier",
+          "synonyms": [
+            "premier"
+          ]
+        },
+        {
+          "name": "segment",
+          "synonyms": [
+            "segment"
+          ]
+        },
+        {
+          "name": "thorax",
+          "synonyms": [
+            "thorax"
+          ]
+        },
+        {
+          "name": "l'insecte",
+          "synonyms": [
+            "l'insecte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le prothorax est le premier segment du thorax de l'insecte, situé juste derrière la tête. On l'appelle encore T1 ou dans certains cas corselet."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prothèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "prothèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prothèse",
+          "synonyms": [
+            "prothèse"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "προθεσις",
+          "synonyms": [
+            "προθεσις"
+          ]
+        },
+        {
+          "name": "prothésis",
+          "synonyms": [
+            "prothésis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot prothèse, (du grec ancien : προθεσις, prothésis, « fait de placer avant ») peut être employé dans les contextes suivants :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prothèse dentaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "prothèse dentaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prothèse",
+          "synonyms": [
+            "prothèse"
+          ]
+        },
+        {
+          "name": "dentaire",
+          "synonyms": [
+            "dentaire"
+          ]
+        },
+        {
+          "name": "dispositif",
+          "synonyms": [
+            "dispositif"
+          ]
+        },
+        {
+          "name": "dentaire",
+          "synonyms": [
+            "dentaire"
+          ]
+        },
+        {
+          "name": "remplaçant",
+          "synonyms": [
+            "remplaçant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prothèse dentaire est un dispositif dentaire remplaçant une ou plusieurs dents absentes et, si nécessaire, les structures anatomiques associées.\nLa première prothèse dentaire connue date de 2 600 ans ; c'est une invention étrusque."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protide": {
+    "type": "specialized",
+    "exact_terms": [
+      "protide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protide",
+          "synonyms": [
+            "protide"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "biochimie",
+          "synonyms": [
+            "biochimie"
+          ]
+        },
+        {
+          "name": "surtout",
+          "synonyms": [
+            "surtout"
+          ]
+        },
+        {
+          "name": "nutrition",
+          "synonyms": [
+            "nutrition"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme protide désigne en biochimie, mais surtout en nutrition, l'ensemble des acides aminés des Protéines et des Peptides :\n\noligopeptides ;\ndipeptide\ntripeptide (glutathion, hormone thyréotrope…),\ntétrapeptide,\npentapeptide,\noctapeptide (angiotensine II…),\nnonapeptide (ocytocine…),\ndécapeptide (gonadolibérine, angiotensine I…)\npolypeptides ;\nAcides Aminés\nprotéines."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protistologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "protistologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protistologie",
+          "synonyms": [
+            "protistologie"
+          ]
+        },
+        {
+          "name": "science",
+          "synonyms": [
+            "science"
+          ]
+        },
+        {
+          "name": "étudie",
+          "synonyms": [
+            "étudie"
+          ]
+        },
+        {
+          "name": "protistes",
+          "synonyms": [
+            "protistes"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protistologie est la science qui étudie les protistes. Comme les protistes incluent des groupes très divers d'organismes microscopiques, tels que les champignons microscopiques, les algues unicellulaires et les Protozoaires, la protistologie est une branche, à la fois, de la zoologie, de la phycologie et de la mycologie ; c'est également une branche de la microbiologie (une des disciplines de la biologie)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protonthérapie": {
+    "type": "specialized",
+    "exact_terms": [
+      "protonthérapie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protonthérapie",
+          "synonyms": [
+            "protonthérapie"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "radiothérapie",
+          "synonyms": [
+            "radiothérapie"
+          ]
+        },
+        {
+          "name": "visant",
+          "synonyms": [
+            "visant"
+          ]
+        },
+        {
+          "name": "détruire",
+          "synonyms": [
+            "détruire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protonthérapie est une technique de radiothérapie visant à détruire les cellules cancéreuses en les irradiant avec un faisceau de particules. Contrairement à la radiothérapie « conventionnelle », elle focalise un faisceau de protons sur les lésions."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protoplaste": {
+    "type": "specialized",
+    "exact_terms": [
+      "protoplaste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "large",
+          "synonyms": [
+            "large"
+          ]
+        },
+        {
+          "name": "protoplaste",
+          "synonyms": [
+            "protoplaste"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "bactérienne",
+          "synonyms": [
+            "bactérienne"
+          ]
+        },
+        {
+          "name": "végétale",
+          "synonyms": [
+            "végétale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Au sens large, un protoplaste est une cellule bactérienne, ou végétale, dont la paroi a disparu. Chez les végétaux, une cellule est normalement composée d'une paroi pectocellulosique et d'un protoplaste."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prototrophe": {
+    "type": "specialized",
+    "exact_terms": [
+      "prototrophe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prototrophe",
+          "synonyms": [
+            "prototrophe"
+          ]
+        },
+        {
+          "name": "organisme",
+          "synonyms": [
+            "organisme"
+          ]
+        },
+        {
+          "name": "vivant",
+          "synonyms": [
+            "vivant"
+          ]
+        },
+        {
+          "name": "capable",
+          "synonyms": [
+            "capable"
+          ]
+        },
+        {
+          "name": "proliférer",
+          "synonyms": [
+            "proliférer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un prototrophe est un organisme vivant capable de proliférer dans un milieu de base (milieu minimum) sans nécessiter la présence de facteurs de croissance particuliers. Il synthétise lui-même les substances nécessaires à sa prolifération."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protrusion": {
+    "type": "specialized",
+    "exact_terms": [
+      "protrusion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protrusion",
+          "synonyms": [
+            "protrusion"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "protrosum",
+          "synonyms": [
+            "protrosum"
+          ]
+        },
+        {
+          "name": "poussé",
+          "synonyms": [
+            "poussé"
+          ]
+        },
+        {
+          "name": "avant",
+          "synonyms": [
+            "avant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une protrusion (du latin protrosum, « poussé en avant ») peut référer à :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protubérance mentonnière": {
+    "type": "specialized",
+    "exact_terms": [
+      "protubérance mentonnière"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protubérance",
+          "synonyms": [
+            "protubérance"
+          ]
+        },
+        {
+          "name": "mentonnière",
+          "synonyms": [
+            "mentonnière"
+          ]
+        },
+        {
+          "name": "éminence",
+          "synonyms": [
+            "éminence"
+          ]
+        },
+        {
+          "name": "mentonnière",
+          "synonyms": [
+            "mentonnière"
+          ]
+        },
+        {
+          "name": "saillie",
+          "synonyms": [
+            "saillie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protubérance mentonnière (ou éminence mentonnière) est la saillie médiale triangulaire à base inférieure située sur la face externe du mandibule en bas de la symphyse de la mandibule."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protubérance occipitale externe": {
+    "type": "specialized",
+    "exact_terms": [
+      "protubérance occipitale externe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protubérance",
+          "synonyms": [
+            "protubérance"
+          ]
+        },
+        {
+          "name": "occipitale",
+          "synonyms": [
+            "occipitale"
+          ]
+        },
+        {
+          "name": "externe",
+          "synonyms": [
+            "externe"
+          ]
+        },
+        {
+          "name": "relief",
+          "synonyms": [
+            "relief"
+          ]
+        },
+        {
+          "name": "face",
+          "synonyms": [
+            "face"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protubérance occipitale externe est un relief de la face externe de l'os occipital. Ce relief est médian, impair et palpable sous-cutané."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protubérance occipitale interne": {
+    "type": "specialized",
+    "exact_terms": [
+      "protubérance occipitale interne"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protubérance",
+          "synonyms": [
+            "protubérance"
+          ]
+        },
+        {
+          "name": "occipitale",
+          "synonyms": [
+            "occipitale"
+          ]
+        },
+        {
+          "name": "interne",
+          "synonyms": [
+            "interne"
+          ]
+        },
+        {
+          "name": "relief",
+          "synonyms": [
+            "relief"
+          ]
+        },
+        {
+          "name": "osseux",
+          "synonyms": [
+            "osseux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protubérance occipitale interne est un relief osseux situé sur la face interne de l'écaille de l'os occipital.\nElle se situe à l'intersection des quatre branches de l'éminence cruciforme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéasome": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéasome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéasomes",
+          "synonyms": [
+            "protéasomes"
+          ]
+        },
+        {
+          "name": "complexes",
+          "synonyms": [
+            "complexes"
+          ]
+        },
+        {
+          "name": "enzymatiques",
+          "synonyms": [
+            "enzymatiques"
+          ]
+        },
+        {
+          "name": "multiprotéiques",
+          "synonyms": [
+            "multiprotéiques"
+          ]
+        },
+        {
+          "name": "l'on",
+          "synonyms": [
+            "l'on"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les protéasomes sont des complexes enzymatiques multiprotéiques que l'on retrouve chez les eucaryotes, les archées ainsi que chez quelques bactéries de l'ordre Actinomycetales. Dans les cellules eucaryotes il se trouve dans le cytosol et est associé au réticulum endoplasmique ainsi que dans le noyau."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéine": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéines",
+          "synonyms": [
+            "protéines"
+          ]
+        },
+        {
+          "name": "macromolécules",
+          "synonyms": [
+            "macromolécules"
+          ]
+        },
+        {
+          "name": "biologiques",
+          "synonyms": [
+            "biologiques"
+          ]
+        },
+        {
+          "name": "présentes",
+          "synonyms": [
+            "présentes"
+          ]
+        },
+        {
+          "name": "toutes",
+          "synonyms": [
+            "toutes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les protéines  sont des macromolécules biologiques présentes dans toutes les cellules vivantes. Ce sont des polymères, formés d'une ou de plusieurs chaînes polypeptidiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéine adaptatrice": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéine adaptatrice"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéines",
+          "synonyms": [
+            "protéines"
+          ]
+        },
+        {
+          "name": "adaptatrices",
+          "synonyms": [
+            "adaptatrices"
+          ]
+        },
+        {
+          "name": "constituent",
+          "synonyms": [
+            "constituent"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "protéines",
+          "synonyms": [
+            "protéines"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les protéines adaptatrices constituent une famille de protéines accessoires à l'action d'une protéine principale dans les mécanismes de transduction de signal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéine associée aux microtubules": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéine associée aux microtubules"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéines",
+          "synonyms": [
+            "protéines"
+          ]
+        },
+        {
+          "name": "associées",
+          "synonyms": [
+            "associées"
+          ]
+        },
+        {
+          "name": "microtubules",
+          "synonyms": [
+            "microtubules"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "microtubule-associated",
+          "synonyms": [
+            "microtubule-associated"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les protéines associées aux microtubules (en anglais : microtubule-associated proteins, MAP) sont une famille diversifiée de protéines, souvent phosphorylables. Elles se situent dans la zone péricentriolaire et dans le hyaloplasme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéine chaperon": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéine chaperon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "chaperon",
+          "synonyms": [
+            "chaperon"
+          ]
+        },
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "fonction",
+          "synonyms": [
+            "fonction"
+          ]
+        },
+        {
+          "name": "d'assister",
+          "synonyms": [
+            "d'assister"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une protéine chaperon est une protéine dont la fonction est d'assister d'autres protéines dans leur maturation en évitant la formation d'agrégats via les domaines hydrophobes présents sur leur surface lors de leur repliement tridimensionnel. Beaucoup de protéines chaperons sont des protéines de choc thermique (Heat shock proteins - Hsp), c'est-à-dire des protéines exprimées en réponse à des variations de température ou d'autres types de stress cellulaire, tel que le stress oxydant."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéine fluorescente verte": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéine fluorescente verte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "fluorescente",
+          "synonyms": [
+            "fluorescente"
+          ]
+        },
+        {
+          "name": "verte",
+          "synonyms": [
+            "verte"
+          ]
+        },
+        {
+          "name": "souvent",
+          "synonyms": [
+            "souvent"
+          ]
+        },
+        {
+          "name": "abrégé",
+          "synonyms": [
+            "abrégé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protéine fluorescente verte (souvent abrégé GFP, de l'anglais « Green Fluorescent Protein ») est une protéine ayant la propriété d'émettre une fluorescence de couleur verte. Issue d'une méduse (Aequorea victoria), cette protéine est intrinsèquement fluorescente sous l'action d'une enzyme, l'aequoréine (en), une luciférase qui agit en présence de calcium."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéine tau": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéine tau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "tau",
+          "synonyms": [
+            "tau"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "tubulin-associated",
+          "synonyms": [
+            "tubulin-associated"
+          ]
+        },
+        {
+          "name": "unit",
+          "synonyms": [
+            "unit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protéine tau (en anglais : tubulin-associated unit) est une protéine animale. Elle fait partie de la famille des protéines associées aux microtubules (protéines MAP)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéinorachie": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéinorachie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéinorachie",
+          "synonyms": [
+            "protéinorachie"
+          ]
+        },
+        {
+          "name": "définie",
+          "synonyms": [
+            "définie"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        },
+        {
+          "name": "concentration",
+          "synonyms": [
+            "concentration"
+          ]
+        },
+        {
+          "name": "protéines",
+          "synonyms": [
+            "protéines"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protéinorachie est définie comme la concentration en protéines dans le liquide cérébrospinal. Elle ne doit pas être confondue avec l'albuminorachie qui est la concentration de la seule albumine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéoglycane": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéoglycane"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéoglycane",
+          "synonyms": [
+            "protéoglycane"
+          ]
+        },
+        {
+          "name": "glycoprotéine",
+          "synonyms": [
+            "glycoprotéine"
+          ]
+        },
+        {
+          "name": "combinaison",
+          "synonyms": [
+            "combinaison"
+          ]
+        },
+        {
+          "name": "protéine",
+          "synonyms": [
+            "protéine"
+          ]
+        },
+        {
+          "name": "glycosaminoglycane",
+          "synonyms": [
+            "glycosaminoglycane"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un protéoglycane est une glycoprotéine, combinaison d'une protéine et d'un glycosaminoglycane (GAG). L'association entre les deux types de chaîne s'effectue essentiellement dans l'appareil de Golgi, mais également au niveau du réticulum endoplasmique d'une cellule."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéolyse": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéolyse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biochimie",
+          "synonyms": [
+            "biochimie"
+          ]
+        },
+        {
+          "name": "protéolyse",
+          "synonyms": [
+            "protéolyse"
+          ]
+        },
+        {
+          "name": "segmentation",
+          "synonyms": [
+            "segmentation"
+          ]
+        },
+        {
+          "name": "protéines",
+          "synonyms": [
+            "protéines"
+          ]
+        },
+        {
+          "name": "fragments",
+          "synonyms": [
+            "fragments"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biochimie, la protéolyse est la segmentation des protéines en ses fragments de base (acides aminés) via l'hydrolyse catalysée par des enzymes dits « protéolytiques » (protéases ou hydrolases).\nElle intervient dans la digestion, dans la biodégradation et dans certains mécanismes d'attaque de pathogènes, et inversement de défense immunitaire contre des pathogènes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéome": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéome",
+          "synonyms": [
+            "protéome"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "protéines",
+          "synonyms": [
+            "protéines"
+          ]
+        },
+        {
+          "name": "exprimées",
+          "synonyms": [
+            "exprimées"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le protéome est l'ensemble des protéines exprimées dans une cellule, une partie d'une cellule (membranes, organites)  ou un groupe de cellules (organe, organisme, groupe d'organismes) dans des conditions données et à un moment donné."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéomique": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéomique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "protéomique",
+          "synonyms": [
+            "protéomique"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "science",
+          "synonyms": [
+            "science"
+          ]
+        },
+        {
+          "name": "étudie",
+          "synonyms": [
+            "étudie"
+          ]
+        },
+        {
+          "name": "protéomes",
+          "synonyms": [
+            "protéomes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La protéomique désigne la science qui étudie les protéomes, c'est-à-dire l'ensemble des protéines d'une cellule, d'un organite, d'un tissu, d'un organe ou d'un organisme à un moment donné et sous des conditions données.\nDans la pratique, la protéomique s'attache à identifier de manière globale les protéines extraites d'une culture cellulaire, d'un tissu ou d'un fluide biologique, leur localisation dans les compartiments cellulaires, leurs éventuelles modifications post-traductionnelles ainsi que..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "protéroglyphe": {
+    "type": "specialized",
+    "exact_terms": [
+      "protéroglyphe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "serpent",
+          "synonyms": [
+            "serpent"
+          ]
+        },
+        {
+          "name": "protéroglyphe",
+          "synonyms": [
+            "protéroglyphe"
+          ]
+        },
+        {
+          "name": "serpent",
+          "synonyms": [
+            "serpent"
+          ]
+        },
+        {
+          "name": "possède",
+          "synonyms": [
+            "possède"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un serpent protéroglyphe est un serpent qui possède deux petits crochets fixes (également appelé glyphe), reliés aux glandes à venin, à l'avant du maxillaire. Ces crochets sont toujours dans la même position, que la gueule soit ouverte ou fermée (par opposition aux solénoglyphes)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\herpétologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "proventricule": {
+    "type": "specialized",
+    "exact_terms": [
+      "proventricule"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "proventricule",
+          "synonyms": [
+            "proventricule"
+          ]
+        },
+        {
+          "name": "ventricule",
+          "synonyms": [
+            "ventricule"
+          ]
+        },
+        {
+          "name": "succenturié",
+          "synonyms": [
+            "succenturié"
+          ]
+        },
+        {
+          "name": "structure",
+          "synonyms": [
+            "structure"
+          ]
+        },
+        {
+          "name": "anatomique",
+          "synonyms": [
+            "anatomique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le proventricule, ou ventricule succenturié, est une structure anatomique de l'appareil digestif en forme de poche située avant l'estomac, ou chez l'oiseau dans la partie amont du gésier. Le proventricule existe chez des taxons très différents, mais il n'y a pas d'équivalent du proventricule chez les mammifères et la panse des ruminants serait un autre type de structure."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "provitamine": {
+    "type": "specialized",
+    "exact_terms": [
+      "provitamine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "provitamine",
+          "synonyms": [
+            "provitamine"
+          ]
+        },
+        {
+          "name": "substance",
+          "synonyms": [
+            "substance"
+          ]
+        },
+        {
+          "name": "issue",
+          "synonyms": [
+            "issue"
+          ]
+        },
+        {
+          "name": "l'alimentation",
+          "synonyms": [
+            "l'alimentation"
+          ]
+        },
+        {
+          "name": "pouvant",
+          "synonyms": [
+            "pouvant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une provitamine est une substance issue de l'alimentation pouvant être transformée en vitamine par l'organisme.\nPar exemple, certains caroténoïdes, comme le bêta-carotène, sont des précurseurs de la vitamine A puisqu'ils peuvent être transformés en celle-ci par action enzymatique au sein des organismes animaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "proximal": {
+    "type": "specialized",
+    "exact_terms": [
+      "proximal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "proximal",
+          "synonyms": [
+            "proximal"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "humaine",
+          "synonyms": [
+            "humaine"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot proximal est utilisé en\n\nanatomie humaine, pour désigner une partie du corps proche de la racine d'un membre,\nmathématiques, et plus précisément en analyse numérique, pour qualifier un algorithme particulier, dont le but est de trouver un zéro d'un opérateur monotone maximal ou un autre pour trouver un minimum d'une fonction convexe semi-continue inférieurement propre[pas clair]."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pruine": {
+    "type": "specialized",
+    "exact_terms": [
+      "pruine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pruine",
+          "synonyms": [
+            "pruine"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "pruina",
+          "synonyms": [
+            "pruina"
+          ]
+        },
+        {
+          "name": "givre",
+          "synonyms": [
+            "givre"
+          ]
+        },
+        {
+          "name": "couche",
+          "synonyms": [
+            "couche"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pruine (du latin pruina, givre) est une couche cireuse et légèrement poudreuse qui recouvre la surface d'un organe, végétal ou animal. Celle-ci lui confère un aspect givré ou poussiéreux qui va jusqu'à cacher sa coloration naturelle sous-jacente, et peut être enlevée par simple frottement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prunelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "prunelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prunelle",
+          "synonyms": [
+            "prunelle"
+          ]
+        },
+        {
+          "name": "fruit",
+          "synonyms": [
+            "fruit"
+          ]
+        },
+        {
+          "name": "prunelle",
+          "synonyms": [
+            "prunelle"
+          ]
+        },
+        {
+          "name": "bourgogne",
+          "synonyms": [
+            "bourgogne"
+          ]
+        },
+        {
+          "name": "prunelle",
+          "synonyms": [
+            "prunelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prunelle est un fruit ;\nLa Prunelle de Bourgogne et la Prunelle de Troyes sont des eau-de-vie faite à partir du fruit ;\nLa Prunelle est une série télévisée française de treize épisodes de trente minutes diffusée en 1968 ;\nPrunelle, série de bande dessinée française publiée entre 2010 et 2013 ;\nPrunelle est un personnage de la bande dessinée Gaston Lagaffe ;\nLa prunelle désigne la pupille de l'œil ;\nVictor Prunelle (1777-1853), médecin et homme politique français."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prurigo": {
+    "type": "specialized",
+    "exact_terms": [
+      "prurigo"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prurigo",
+          "synonyms": [
+            "prurigo"
+          ]
+        },
+        {
+          "name": "prurit",
+          "synonyms": [
+            "prurit"
+          ]
+        },
+        {
+          "name": "intense",
+          "synonyms": [
+            "intense"
+          ]
+        },
+        {
+          "name": "peau",
+          "synonyms": [
+            "peau"
+          ]
+        },
+        {
+          "name": "papules",
+          "synonyms": [
+            "papules"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un prurigo est un prurit intense de la peau avec des papules érythèmateuse et vésiculeuses avec lésions de grattage.\nDans le jargon médical, le terme prurigo est très souvent utilisé pour :\n\ndésigner un prurit intense sans cause organique évidente ;\ndésigner des lésions de la peau (lésions de grattage, eczéma...) provoquées par un grattage d'origine psychologique ou autre ; habituellement, c'est une atteinte cutanée ou générale qui provoque le prurit et les lésions de grattage qui en sont la con..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prurit": {
+    "type": "specialized",
+    "exact_terms": [
+      "prurit"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prurit",
+          "synonyms": [
+            "prurit"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "pruritus",
+          "synonyms": [
+            "pruritus"
+          ]
+        },
+        {
+          "name": "symptôme",
+          "synonyms": [
+            "symptôme"
+          ]
+        },
+        {
+          "name": "fréquent",
+          "synonyms": [
+            "fréquent"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le prurit (du latin : pruritus) est un symptôme fréquent (notamment en dermatologie) qui recouvre une sensation de démangeaison de la peau, le plus souvent en rapport avec des lésions dermatologiques (parfois aussi sans cause connue : c'est le prurit « sine materia »).\n\nIl constitue le principal signe fonctionnel en dermatologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prébiotique": {
+    "type": "specialized",
+    "exact_terms": [
+      "prébiotique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prébiotiques",
+          "synonyms": [
+            "prébiotiques"
+          ]
+        },
+        {
+          "name": "substances",
+          "synonyms": [
+            "substances"
+          ]
+        },
+        {
+          "name": "alimentaires",
+          "synonyms": [
+            "alimentaires"
+          ]
+        },
+        {
+          "name": "composées",
+          "synonyms": [
+            "composées"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les prébiotiques sont des substances alimentaires composées généralement de glucides complexes connus sous le vocable d'oligosaccharides et de polysaccharides à courte chaîne, étant définis comme « un substrat qui est utilisé sélectivement par les microorganismes de l'hôte pour conférer des bénéfices sur la santé ». On distingue les prébiotiques  des probiotiques de par leur action sur les micro-organismes, tandis que les probiotiques sont eux-mêmes un ou plusieurs micro-organismes ayant des eff..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "précurseur": {
+    "type": "specialized",
+    "exact_terms": [
+      "précurseur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "précurseur",
+          "synonyms": [
+            "précurseur"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "nombreux",
+          "synonyms": [
+            "nombreux"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        },
+        {
+          "name": "théologie",
+          "synonyms": [
+            "théologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Précurseur est un terme utilisé dans de nombreux domaines :\n\nen théologie, celui qui précède et annonce la venue d'un autre, désigne notamment saint Jean-Baptiste\nen biochimie, un précurseur protéique est un peptide ou une protéine inactive pouvant être rendue active (cas particulier de précurseur chimique).\nen chimie générale, un précurseur est un objet chimique permettant par exemple d'amorcer une réaction pour être ensuite transformé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prédation": {
+    "type": "specialized",
+    "exact_terms": [
+      "prédation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prédation",
+          "synonyms": [
+            "prédation"
+          ]
+        },
+        {
+          "name": "interaction",
+          "synonyms": [
+            "interaction"
+          ]
+        },
+        {
+          "name": "trophique",
+          "synonyms": [
+            "trophique"
+          ]
+        },
+        {
+          "name": "directe",
+          "synonyms": [
+            "directe"
+          ]
+        },
+        {
+          "name": "nature",
+          "synonyms": [
+            "nature"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La prédation est une interaction trophique directe, de nature antagoniste, entre deux organismes, par laquelle une espèce dénommée prédateur, consomme entièrement ou partiellement une ou plusieurs espèces dénommées proies, généralement en les tuant, pour s'en nourrir ou pour alimenter sa progéniture. La définition lato sensu inclut la zoophagie (depuis les micro-organismes procaryotes jusqu'aux grands mammifères (en) superprédateurs, en passant par les hématophages ou les plantes carnivores), la..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
