@@ -170298,5 +170298,6255 @@
       "wikipedia"
     ],
     "confidence": 0.8
+  },
+  "moustache": {
+    "type": "specialized",
+    "exact_terms": [
+      "moustache"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moustache",
+          "synonyms": [
+            "moustache"
+          ]
+        },
+        {
+          "name": "pousse",
+          "synonyms": [
+            "pousse"
+          ]
+        },
+        {
+          "name": "poils",
+          "synonyms": [
+            "poils"
+          ]
+        },
+        {
+          "name": "trouve",
+          "synonyms": [
+            "trouve"
+          ]
+        },
+        {
+          "name": "lèvre",
+          "synonyms": [
+            "lèvre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une moustache est une pousse de poils qui se trouve sur la lèvre supérieure des humains et chez certains animaux, comme des singes (le patas et le tamarin empereur)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mucopolysaccharidose": {
+    "type": "specialized",
+    "exact_terms": [
+      "mucopolysaccharidose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mucopolysaccharidoses",
+          "synonyms": [
+            "mucopolysaccharidoses"
+          ]
+        },
+        {
+          "name": "mps",
+          "synonyms": [
+            "mps"
+          ]
+        },
+        {
+          "name": "maladies",
+          "synonyms": [
+            "maladies"
+          ]
+        },
+        {
+          "name": "génétiques",
+          "synonyms": [
+            "génétiques"
+          ]
+        },
+        {
+          "name": "dégénératives",
+          "synonyms": [
+            "dégénératives"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les mucopolysaccharidoses (MPS) sont des maladies génétiques dégénératives lysosomales liées à un déficit enzymatique qui est responsable de l'accumulation de mucopolysaccharides dans différents tissus.\nCette accumulation se traduit par les symptômes d'une maladie dégénérative qui touche des organes plus ou moins nombreux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mucorales": {
+    "type": "specialized",
+    "exact_terms": [
+      "mucorales"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mucorales",
+          "synonyms": [
+            "mucorales"
+          ]
+        },
+        {
+          "name": "importante",
+          "synonyms": [
+            "importante"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "siphomycètes",
+          "synonyms": [
+            "siphomycètes"
+          ]
+        },
+        {
+          "name": "elles",
+          "synonyms": [
+            "elles"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les Mucorales sont une importante famille de Siphomycètes. Elles sont fréquentes dans les moisissures qui se développent sur les aliments, les fruits, les fumiers, les litières de feuilles mortes et tous milieux riches en substances nutritives."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mucoviscidose": {
+    "type": "specialized",
+    "exact_terms": [
+      "mucoviscidose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "rare",
+          "synonyms": [
+            "rare"
+          ]
+        },
+        {
+          "name": "souvent",
+          "synonyms": [
+            "souvent"
+          ]
+        },
+        {
+          "name": "mortelle",
+          "synonyms": [
+            "mortelle"
+          ]
+        },
+        {
+          "name": "touche",
+          "synonyms": [
+            "touche"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Maladie rare et souvent mortelle qui touche les voies digestives et respiratoires, la mucoviscidose (pour « maladie des mucus visqueux » en français) ou fibrose kystique (en anglais : cystic fibrosis, sous-entendu « du pancréas ») est une maladie génétique, affectant les épithéliums glandulaires de nombreux organes. C'est la maladie génétique létale à transmission autosomique récessive la plus fréquente dans les populations de type europoïde, alors qu'elle est très rare dans les populations afri..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mucus": {
+    "type": "specialized",
+    "exact_terms": [
+      "mucus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mucus",
+          "synonyms": [
+            "mucus"
+          ]
+        },
+        {
+          "name": "différentes",
+          "synonyms": [
+            "différentes"
+          ]
+        },
+        {
+          "name": "sécrétions",
+          "synonyms": [
+            "sécrétions"
+          ]
+        },
+        {
+          "name": "visqueuses",
+          "synonyms": [
+            "visqueuses"
+          ]
+        },
+        {
+          "name": "translucides",
+          "synonyms": [
+            "translucides"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les mucus sont différentes sécrétions visqueuses et translucides, peu ou assez peu solubles dans l'eau, produites par des glandes spécifiques de divers organismes, et chez ceux-ci par divers organes internes (ex. : par les cellules caliciformes de l'estomac) ou muqueuses internes ou par la peau (ex."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "muguet": {
+    "type": "specialized",
+    "exact_terms": [
+      "muguet"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "muguet",
+          "synonyms": [
+            "muguet"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "principalement",
+          "synonyms": [
+            "principalement"
+          ]
+        },
+        {
+          "name": "muguet",
+          "synonyms": [
+            "muguet"
+          ]
+        },
+        {
+          "name": "mai",
+          "synonyms": [
+            "mai"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le muguet désigne principalement le Muguet de mai (Convallaria majalis), mais par analogie ou métonymie, ce mot peut avoir plusieurs autres sens."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mulotage": {
+    "type": "specialized",
+    "exact_terms": [
+      "mulotage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mulotage",
+          "synonyms": [
+            "mulotage"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "chasse",
+          "synonyms": [
+            "chasse"
+          ]
+        },
+        {
+          "name": "utilisée",
+          "synonyms": [
+            "utilisée"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mulotage est une technique de chasse utilisée notamment par les renards.\nElle consiste à sauter pour retomber pattes en avant sur une proie, généralement un rongeur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "multi": {
+    "type": "specialized",
+    "exact_terms": [
+      "multi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "multi",
+          "synonyms": [
+            "multi"
+          ]
+        },
+        {
+          "name": "préfixe",
+          "synonyms": [
+            "préfixe"
+          ]
+        },
+        {
+          "name": "couramment",
+          "synonyms": [
+            "couramment"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "vocabulaires",
+          "synonyms": [
+            "vocabulaires"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Multi- est un préfixe couramment employé dans les vocabulaires techniques :\n\nMulticouche, nanostructures artificielles fabriquées par des techniques de dépôt ;\nMulticopieur, appareil de duplication de puces électroniques ;\nMulticopieur, appareil de reprographie qui regroupe les fonctions de copie et le traitement des documents ;\nMulticulturalisme, coexistence de différentes cultures ou type de politiques ;\nMultijoueur, dans le cadre du jeu vidéo, possibilité donnée à plusieurs personnes de parti..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "multiforme": {
+    "type": "specialized",
+    "exact_terms": [
+      "multiforme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mots",
+          "synonyms": [
+            "mots"
+          ]
+        },
+        {
+          "name": "multiformis",
+          "synonyms": [
+            "multiformis"
+          ]
+        },
+        {
+          "name": "multiforme",
+          "synonyms": [
+            "multiforme"
+          ]
+        },
+        {
+          "name": "originellement",
+          "synonyms": [
+            "originellement"
+          ]
+        },
+        {
+          "name": "déclinaisons",
+          "synonyms": [
+            "déclinaisons"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les mots multiformis et multiforme sont originellement des déclinaisons, notamment le nominatif singulier (masculin ou féminin pour le premier, neutre pour le second), d'un adjectif latin signifiant « varié, changeant, multiforme ».\nLe mot multiforme est aussi, en français et en italien, le singulier (masculin ou féminin) d'un adjectif de même sens."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "muqueuse": {
+    "type": "specialized",
+    "exact_terms": [
+      "muqueuse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "muqueuse",
+          "synonyms": [
+            "muqueuse"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "mucus",
+          "synonyms": [
+            "mucus"
+          ]
+        },
+        {
+          "name": "mince",
+          "synonyms": [
+            "mince"
+          ]
+        },
+        {
+          "name": "couche",
+          "synonyms": [
+            "couche"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une muqueuse (du latin mucus) est une mince couche de tissu constituée d'un épithélium, et de tissu conjonctif sous-jacent qui se nomme chorion. Les muqueuses tapissent les cavités du corps qui sont en continuité avec la peau."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "muraille": {
+    "type": "specialized",
+    "exact_terms": [
+      "muraille"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "muraille",
+          "synonyms": [
+            "muraille"
+          ]
+        },
+        {
+          "name": "mur",
+          "synonyms": [
+            "mur"
+          ]
+        },
+        {
+          "name": "grande",
+          "synonyms": [
+            "grande"
+          ]
+        },
+        {
+          "name": "hauteur",
+          "synonyms": [
+            "hauteur"
+          ]
+        },
+        {
+          "name": "destiné",
+          "synonyms": [
+            "destiné"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une muraille est un mur de grande hauteur destiné à protéger un ensemble de bâtiments par leur enceinte.\nAu Moyen Âge, elles se systématisent pour protéger les cités ou les  châteaux-forts des attaques ennemies."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\habitat",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mural": {
+    "type": "specialized",
+    "exact_terms": [
+      "mural"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mural",
+          "synonyms": [
+            "mural"
+          ]
+        },
+        {
+          "name": "masculin",
+          "synonyms": [
+            "masculin"
+          ]
+        },
+        {
+          "name": "murale",
+          "synonyms": [
+            "murale"
+          ]
+        },
+        {
+          "name": "féminin",
+          "synonyms": [
+            "féminin"
+          ]
+        },
+        {
+          "name": "principalement",
+          "synonyms": [
+            "principalement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot mural (au masculin) ou murale (au féminin) est principalement un adjectif signifiant « relatif aux murs, sur un mur »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "murin": {
+    "type": "specialized",
+    "exact_terms": [
+      "murin"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "murin",
+          "synonyms": [
+            "murin"
+          ]
+        },
+        {
+          "name": "originellement",
+          "synonyms": [
+            "originellement"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "savant",
+          "synonyms": [
+            "savant"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot murin est originellement un adjectif savant signifiant « relatif aux souris ou aux rats ». Il dérive de l'adjectif latin murinus, de même sens."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "murmure vésiculaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "murmure vésiculaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "murmure",
+          "synonyms": [
+            "murmure"
+          ]
+        },
+        {
+          "name": "vésiculaire",
+          "synonyms": [
+            "vésiculaire"
+          ]
+        },
+        {
+          "name": "bruit",
+          "synonyms": [
+            "bruit"
+          ]
+        },
+        {
+          "name": "respiratoire",
+          "synonyms": [
+            "respiratoire"
+          ]
+        },
+        {
+          "name": "perçoit",
+          "synonyms": [
+            "perçoit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le murmure vésiculaire est le bruit respiratoire que l’on perçoit à l’auscultation pulmonaire normale. Il s'agit d'un bruit lisse et sourd qui résulte de turbulences lors du déplacement de l'air dans les alvéoles pulmonaires pendant l'inspiration et l'expiration."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "musc": {
+    "type": "specialized",
+    "exact_terms": [
+      "musc"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "musc",
+          "synonyms": [
+            "musc"
+          ]
+        },
+        {
+          "name": "matière",
+          "synonyms": [
+            "matière"
+          ]
+        },
+        {
+          "name": "première",
+          "synonyms": [
+            "première"
+          ]
+        },
+        {
+          "name": "animale",
+          "synonyms": [
+            "animale"
+          ]
+        },
+        {
+          "name": "odorante",
+          "synonyms": [
+            "odorante"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le musc est une matière première animale odorante, secrétée par la glande prépuciale abdominale des chevrotains porte-musc mâles d’Asie (Sibérie, Chine, Himalaya). Il constitue une matière première animale entrant dans la composition de parfums et de drogues des pharmacopées traditionnelles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "muscle digastrique": {
+    "type": "specialized",
+    "exact_terms": [
+      "muscle digastrique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "muscle",
+          "synonyms": [
+            "muscle"
+          ]
+        },
+        {
+          "name": "digastrique",
+          "synonyms": [
+            "digastrique"
+          ]
+        },
+        {
+          "name": "façon",
+          "synonyms": [
+            "façon"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        },
+        {
+          "name": "muscle",
+          "synonyms": [
+            "muscle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme muscle digastrique peut désigner :\n\nde façon générique un muscle squelettique possédant deux ventres musculaires unis par un tendon intermédiaire,\nen particulier le muscle suprahyodien situé dans le cou : le muscle digastrique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "muscone": {
+    "type": "specialized",
+    "exact_terms": [
+      "muscone"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "muscone",
+          "synonyms": [
+            "muscone"
+          ]
+        },
+        {
+          "name": "3-méthylcyclopentadécanone",
+          "synonyms": [
+            "3-méthylcyclopentadécanone"
+          ]
+        },
+        {
+          "name": "formule",
+          "synonyms": [
+            "formule"
+          ]
+        },
+        {
+          "name": "c16h30o",
+          "synonyms": [
+            "c16h30o"
+          ]
+        },
+        {
+          "name": "possède",
+          "synonyms": [
+            "possède"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La muscone ou 3-méthylcyclopentadécanone, de formule C16H30O, possède une structure similaire à la civettone. Elle a une odeur dite « musquée » ou « muscs blancs », par opposition au musc naturel, dont l'odeur est dite « animale » ou « animalisée »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "musth": {
+    "type": "specialized",
+    "exact_terms": [
+      "musth"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "musth",
+          "synonyms": [
+            "musth"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "must",
+          "synonyms": [
+            "must"
+          ]
+        },
+        {
+          "name": "état",
+          "synonyms": [
+            "état"
+          ]
+        },
+        {
+          "name": "revient",
+          "synonyms": [
+            "revient"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le musth (ou parfois must) est un état qui revient périodiquement chez les éléphants mâles, et qui est caractérisé par une épaisse sécrétion ressemblant à du goudron, la frontaline, qui sort des orifices temporaux. Il se caractérise par des comportements agressifs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutagène": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutagène"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "mutagène",
+          "synonyms": [
+            "mutagène"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "littéralement",
+          "synonyms": [
+            "littéralement"
+          ]
+        },
+        {
+          "name": "origine",
+          "synonyms": [
+            "origine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie, un mutagène (du latin, littéralement origine de changement) est un agent qui change le génome (en général l'ADN) d'un organisme et élève ainsi le nombre de mutations génétiques au-dessus du taux naturel d'arrière-plan.\nLes mutagènes sont en général des composés chimiques ou des radiations."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutagénèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutagénèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mutagénèse",
+          "synonyms": [
+            "mutagénèse"
+          ]
+        },
+        {
+          "name": "mutagenèse",
+          "synonyms": [
+            "mutagenèse"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "d'apparition",
+          "synonyms": [
+            "d'apparition"
+          ]
+        },
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mutagénèse, ou mutagenèse, est le processus d'apparition d'une mutation. Il peut être naturel ou artificiel (par exposition de l'ADN à un « agent mutagène »)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutagénèse dirigée": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutagénèse dirigée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mutagénèse",
+          "synonyms": [
+            "mutagénèse"
+          ]
+        },
+        {
+          "name": "dirigée",
+          "synonyms": [
+            "dirigée"
+          ]
+        },
+        {
+          "name": "l'induction",
+          "synonyms": [
+            "l'induction"
+          ]
+        },
+        {
+          "name": "mutations",
+          "synonyms": [
+            "mutations"
+          ]
+        },
+        {
+          "name": "génome",
+          "synonyms": [
+            "génome"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mutagénèse dirigée est l'induction d'une ou plusieurs mutations dans un génome, de façon précise et volontaire. Cette méthode est employée pour modifier les structures de l'ADN, l'ARN et des protéines."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutant": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mutant",
+          "synonyms": [
+            "mutant"
+          ]
+        },
+        {
+          "name": "organisme",
+          "synonyms": [
+            "organisme"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "présentant",
+          "synonyms": [
+            "présentant"
+          ]
+        },
+        {
+          "name": "caractère",
+          "synonyms": [
+            "caractère"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mutant est un organisme ou une cellule présentant un caractère nouveau dû à une mutation génétique (voir par exemple mutant de drosophile)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutation": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "immobilier",
+          "synonyms": [
+            "immobilier"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "changement",
+          "synonyms": [
+            "changement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mutation peut désigner :\n\nmutation d'un bien immobilier désigne un changement de propriétaire (Transfert de la propriété). Il peut être à titre gratuit ou à titre onéreux ;\nmutation, terme utilisé en génétique pour désigner une modification irréversible de la séquence d'un génome (ADN ou ARN) ;\nmutation, famille de jeux spécifiques à l'orgue qui ont comme particularité de ne pas produire la note jouée, mais une harmonique de la note ;\nmutation, en ressources humaines, le changement d'emploi sans..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie évolutive",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutation non-sens": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutation non-sens"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "génétique",
+          "synonyms": [
+            "génétique"
+          ]
+        },
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "non-sens",
+          "synonyms": [
+            "non-sens"
+          ]
+        },
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "ponctuelle",
+          "synonyms": [
+            "ponctuelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En génétique, une mutation non-sens est une mutation ponctuelle dans laquelle un nucléotide d'un codon est changé, induisant le remplacement d'un codon codant un acide aminé par un codon-stop. La protéine résultante, tronquée et donc incomplète (car la traduction se termine prématurément), est généralement non-fonctionnelle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutation ponctuelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutation ponctuelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "ponctuelle",
+          "synonyms": [
+            "ponctuelle"
+          ]
+        },
+        {
+          "name": "changement",
+          "synonyms": [
+            "changement"
+          ]
+        },
+        {
+          "name": "structure",
+          "synonyms": [
+            "structure"
+          ]
+        },
+        {
+          "name": "gène",
+          "synonyms": [
+            "gène"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une mutation ponctuelle est un changement de la structure du gène, affectant un à plusieurs nucléotides (entre un et dix).\nIl existe quatre types de mutations ponctuelles :\n\nmutation par substitution : remplacement d’un (ou plusieurs) nucléotides par un autre (ou plusieurs autres) ;\nmutation par insertion : ajout d’un ou plusieurs nucléotides ;\nmutation par délétion : perte d'un ou plusieurs nucléotides."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutation silencieuse": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutation silencieuse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "génétique",
+          "synonyms": [
+            "génétique"
+          ]
+        },
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "silencieuse",
+          "synonyms": [
+            "silencieuse"
+          ]
+        },
+        {
+          "name": "mutation",
+          "synonyms": [
+            "mutation"
+          ]
+        },
+        {
+          "name": "même-sens",
+          "synonyms": [
+            "même-sens"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En génétique, une mutation silencieuse (ou mutation même-sens) est une mutation ponctuelle qui ne modifie pas le phénotype de l'individu qui la porte. Cette mutation peut être localisée dans une région non codante (introns ou régions intergéniques) ou dans un exon."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\génétique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mutisme",
+          "synonyms": [
+            "mutisme"
+          ]
+        },
+        {
+          "name": "l'aphasie",
+          "synonyms": [
+            "l'aphasie"
+          ]
+        },
+        {
+          "name": "c'est-à-dire",
+          "synonyms": [
+            "c'est-à-dire"
+          ]
+        },
+        {
+          "name": "l'incapacité",
+          "synonyms": [
+            "l'incapacité"
+          ]
+        },
+        {
+          "name": "physique",
+          "synonyms": [
+            "physique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot mutisme peut désigner :\n\nl'aphasie, c'est-à-dire l'incapacité physique de parler ;\nle fait de rester volontairement muet (silencieux)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mutualisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "mutualisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mutualisme",
+          "synonyms": [
+            "mutualisme"
+          ]
+        },
+        {
+          "name": "premier",
+          "synonyms": [
+            "premier"
+          ]
+        },
+        {
+          "name": "exprime",
+          "synonyms": [
+            "exprime"
+          ]
+        },
+        {
+          "name": "coopération",
+          "synonyms": [
+            "coopération"
+          ]
+        },
+        {
+          "name": "économie",
+          "synonyms": [
+            "économie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mutualisme dans son sens premier exprime la coopération.\n\nEn économie, le mutualisme est un système d'économie sociale qui promeut les sociétés d'assurance mutuelle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myalgie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myalgie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myalgie",
+          "synonyms": [
+            "myalgie"
+          ]
+        },
+        {
+          "name": "douleur",
+          "synonyms": [
+            "douleur"
+          ]
+        },
+        {
+          "name": "musculaire",
+          "synonyms": [
+            "musculaire"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        },
+        {
+          "name": "englobant",
+          "synonyms": [
+            "englobant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une myalgie est une douleur musculaire. C'est le terme générique englobant toutes les douleurs musculaires du corps charnu du muscle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycangium": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycangium"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycangium",
+          "synonyms": [
+            "mycangium"
+          ]
+        },
+        {
+          "name": "pluriel",
+          "synonyms": [
+            "pluriel"
+          ]
+        },
+        {
+          "name": "mycangia",
+          "synonyms": [
+            "mycangia"
+          ]
+        },
+        {
+          "name": "mycangiums",
+          "synonyms": [
+            "mycangiums"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mycangium (pluriel : mycangia ou mycangiums) désigne, en biologie animale, une structure anatomique adaptée au transport de champignons symbiotiques (généralement sous forme de spores). \nC'est le cas chez de nombreux insectes xylophages (Siricidés, scolytes), dont apparemment une grande partie de la nutrition provient de la digestion de champignons ectosymbiotiques se développant dans les fibres du bois."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycobacterium": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycobacterium"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycobacterium",
+          "synonyms": [
+            "mycobacterium"
+          ]
+        },
+        {
+          "name": "mycobactérie",
+          "synonyms": [
+            "mycobactérie"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "bactéries",
+          "synonyms": [
+            "bactéries"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mycobacterium, la Mycobactérie, est un genre de bactéries de la famille des Mycobacteriaceae. Ce sont des bacilles aérobies assez longs et fins, ne formant pas de spores et ne possédant pas de capsule."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycobiote": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycobiote"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycobiote",
+          "synonyms": [
+            "mycobiote"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "champignons",
+          "synonyms": [
+            "champignons"
+          ]
+        },
+        {
+          "name": "présents",
+          "synonyms": [
+            "présents"
+          ]
+        },
+        {
+          "name": "région",
+          "synonyms": [
+            "région"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mycobiote est l'ensemble des champignons présents dans une région géographique particulière ou dans un type d'habitat donné."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\microbiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycohétérotrophie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycohétérotrophie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycohétérotrophie",
+          "synonyms": [
+            "mycohétérotrophie"
+          ]
+        },
+        {
+          "name": "relation",
+          "synonyms": [
+            "relation"
+          ]
+        },
+        {
+          "name": "symbiotique",
+          "synonyms": [
+            "symbiotique"
+          ]
+        },
+        {
+          "name": "parasitaire",
+          "synonyms": [
+            "parasitaire"
+          ]
+        },
+        {
+          "name": "s'établit",
+          "synonyms": [
+            "s'établit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mycohétérotrophie est une relation symbiotique parasitaire qui s'établit entre certains types de plantes non chlorophylliennes, des champignons et des arbres voisins, dans laquelle la plante obtient tout ou partie de ses nutriments en établissant un réseau mycorhizien avec le champignon plutôt que par la photosynthèse. Dans cette relation, le mycohétérotrophe est la plante qui établit la symbiose avec son partenaire et il se caractérise par son obligation d'obtenir du carbone à partir de cham..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycophagie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycophagie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycophagie",
+          "synonyms": [
+            "mycophagie"
+          ]
+        },
+        {
+          "name": "régime",
+          "synonyms": [
+            "régime"
+          ]
+        },
+        {
+          "name": "alimentaire",
+          "synonyms": [
+            "alimentaire"
+          ]
+        },
+        {
+          "name": "base",
+          "synonyms": [
+            "base"
+          ]
+        },
+        {
+          "name": "champignons",
+          "synonyms": [
+            "champignons"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mycophagie est un régime alimentaire à base de champignons ou de spores de champignons. Les animaux sont qualifiés de mycophages, mycétophages ou encore fongivores."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycophycobiose": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycophycobiose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycophycobiose",
+          "synonyms": [
+            "mycophycobiose"
+          ]
+        },
+        {
+          "name": "composé",
+          "synonyms": [
+            "composé"
+          ]
+        },
+        {
+          "name": "myco",
+          "synonyms": [
+            "myco"
+          ]
+        },
+        {
+          "name": "venant",
+          "synonyms": [
+            "venant"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une mycophycobiose (composé de myco-, venant du grec ancien : μύκης, mukês, « champignon »), de phyco-, du grec ancien : φῦκος, (phûkos, « fucus », utilisé pour les algues), et de -biose, du  grec ancien : βιόω (bióô, « passer sa vie ») est un organisme symbiotique formé d'une algue pluricellulaire et d'un champignon ascomycète hébergé à l'intérieur de l'algue (dans le thalle par exemple). L'algue et le champignon impliqués dans cette association sont appelés mycophycobiontes (Mycobionte)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycoremédiation": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycoremédiation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycoremédiation",
+          "synonyms": [
+            "mycoremédiation"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "fongoremédiation",
+          "synonyms": [
+            "fongoremédiation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mycoremédiation (parfois aussi appelée fongoremédiation) est l'ensemble des techniques utilisant une ou plusieurs espèces de champignons pour épurer un milieu (eau, air, sol) ou un substrat de culture d'un ou plusieurs polluants ou éléments chimiques indésirables. C'est une technique initialement promue par Paul Stamets et d'autres mycologues qui préconisent de développer la culture de champignons, et qui considèrent la fungiculture comme une source importante de nourriture et de molécules ut..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycorhize": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycorhize"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycorhize",
+          "synonyms": [
+            "mycorhize"
+          ]
+        },
+        {
+          "name": "composé",
+          "synonyms": [
+            "composé"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "μύκης",
+          "synonyms": [
+            "μύκης"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une mycorhize (composé du grec ancien : μύκης / múkēs, « champignon » et ῥίζα / rhíza, « racine », terme introduit en 1885 par le botaniste Albert Bernhard Frank) est le résultat de l'association symbiotique, appelée mycorhization, entre des champignons et les racines des plantes. La mycorhize est une composante majeure de l'édaphon et de la rhizosphère."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycotoxine": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycotoxine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycotoxines",
+          "synonyms": [
+            "mycotoxines"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "μύκης",
+          "synonyms": [
+            "μύκης"
+          ]
+        },
+        {
+          "name": "champignon",
+          "synonyms": [
+            "champignon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les mycotoxines (du grec ancien μύκης : « champignon » ; et toxine) sont des toxines élaborées par diverses espèces de champignons microscopiques telles que les moisissures (Aspergillus sp., Fusarium sp., Stachybotrys sp., Penicillium sp., etc.)\nCe sont des molécules de faible poids moléculaire (< 1 000 daltons), le plus souvent thermostables en milieu non aqueux. Difficilement dégradables, elles peuvent subsister dans les denrées même après l'élimination des moisissures."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycélium": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycélium"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycélium",
+          "synonyms": [
+            "mycélium"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "langage",
+          "synonyms": [
+            "langage"
+          ]
+        },
+        {
+          "name": "courant",
+          "synonyms": [
+            "courant"
+          ]
+        },
+        {
+          "name": "blanc",
+          "synonyms": [
+            "blanc"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mycélium, appelé dans le langage courant blanc de champignon (référence à la couleur du feutrage que l'on observe par exemple dans la litière forestière), est l'appareil végétatif des champignons ou de certaines bactéries filamenteuses comme les Actinomycètes (Streptomyces, Mycobacterium...). Généralement peu visible, il est composé d'un ensemble de filaments, plus ou moins ramifiés, appelés hyphes, que l'on trouve dans le sol ou le substrat nutritif."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\mycologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mycétome": {
+    "type": "specialized",
+    "exact_terms": [
+      "mycétome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mycétome",
+          "synonyms": [
+            "mycétome"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "pied",
+          "synonyms": [
+            "pied"
+          ]
+        },
+        {
+          "name": "madura",
+          "synonyms": [
+            "madura"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mycétome, aussi appelé pied de Madura, est une « pseudo-tumeur » inflammatoire localisée dans un tissu sous-cutané. Elle résulte d'une infection associant :\n\nun champignon, Madurella mycetomatis (en) (présent sous forme de grains fongiques, de couleur foncée, noirs, bruns ou rouges)\nUne bactérie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mydriase": {
+    "type": "specialized",
+    "exact_terms": [
+      "mydriase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mydriase",
+          "synonyms": [
+            "mydriase"
+          ]
+        },
+        {
+          "name": "augmentation",
+          "synonyms": [
+            "augmentation"
+          ]
+        },
+        {
+          "name": "diamètre",
+          "synonyms": [
+            "diamètre"
+          ]
+        },
+        {
+          "name": "pupille",
+          "synonyms": [
+            "pupille"
+          ]
+        },
+        {
+          "name": "contraction",
+          "synonyms": [
+            "contraction"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mydriase est une augmentation du diamètre de la pupille par contraction du muscle dilatateur de l'iris, dont les fibres sont radiales. C'est l'effet contraire du myosis."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myiase": {
+    "type": "specialized",
+    "exact_terms": [
+      "myiase"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myiases",
+          "synonyms": [
+            "myiases"
+          ]
+        },
+        {
+          "name": "myases",
+          "synonyms": [
+            "myases"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "troubles",
+          "synonyms": [
+            "troubles"
+          ]
+        },
+        {
+          "name": "provoqués",
+          "synonyms": [
+            "provoqués"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les myiases ou myases sont l’ensemble des troubles provoqués par la présence dans un corps animal de larves de diptères parasites. Les familles de diptères concernées sont celles des Calliphoridae, des Oestridae, des Sarcophagidae, des Cuterebridae et des Muscidae."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mylodon": {
+    "type": "specialized",
+    "exact_terms": [
+      "mylodon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mylodon",
+          "synonyms": [
+            "mylodon"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "fossile",
+          "synonyms": [
+            "fossile"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        },
+        {
+          "name": "terrestres",
+          "synonyms": [
+            "terrestres"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mylodon est un genre fossile de mammifères terrestres, apparenté aux paresseux actuels. Il faisait partie du super-ordre des xénarthres (du grec signifiant « articulation étrange »), anciennement appelé l'ordre des édentés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myoblaste": {
+    "type": "specialized",
+    "exact_terms": [
+      "myoblaste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myoblaste",
+          "synonyms": [
+            "myoblaste"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "myo",
+          "synonyms": [
+            "myo"
+          ]
+        },
+        {
+          "name": "muscle",
+          "synonyms": [
+            "muscle"
+          ]
+        },
+        {
+          "name": "blastos",
+          "synonyms": [
+            "blastos"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un myoblaste (du grec myo muscle et blastos germe) est une cellule souche responsable de la formation des muscles squelettiques dans l'embryon ou lors de la réparation des muscles endommagés (myogenèse).  \nCes cellules proviennent de la détermination des cellules somatiques, induite par les facteurs de transcription spécifiques du muscle MyoD et myf5."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myocarde": {
+    "type": "specialized",
+    "exact_terms": [
+      "myocarde"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myocarde",
+          "synonyms": [
+            "myocarde"
+          ]
+        },
+        {
+          "name": "couche",
+          "synonyms": [
+            "couche"
+          ]
+        },
+        {
+          "name": "tissu",
+          "synonyms": [
+            "tissu"
+          ]
+        },
+        {
+          "name": "musculaire",
+          "synonyms": [
+            "musculaire"
+          ]
+        },
+        {
+          "name": "cœur",
+          "synonyms": [
+            "cœur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le myocarde est la couche de tissu musculaire du cœur située entre l'endocarde et l'épicarde."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myocardite": {
+    "type": "specialized",
+    "exact_terms": [
+      "myocardite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myocardite",
+          "synonyms": [
+            "myocardite"
+          ]
+        },
+        {
+          "name": "atteinte",
+          "synonyms": [
+            "atteinte"
+          ]
+        },
+        {
+          "name": "inflammatoire",
+          "synonyms": [
+            "inflammatoire"
+          ]
+        },
+        {
+          "name": "myocarde",
+          "synonyms": [
+            "myocarde"
+          ]
+        },
+        {
+          "name": "causes",
+          "synonyms": [
+            "causes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myocardite est une atteinte inflammatoire du myocarde de causes variées, dans laquelle les artères coronaires sont saines, contrairement à une cause ischémique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myocyte": {
+    "type": "specialized",
+    "exact_terms": [
+      "myocyte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myocytes",
+          "synonyms": [
+            "myocytes"
+          ]
+        },
+        {
+          "name": "fibres",
+          "synonyms": [
+            "fibres"
+          ]
+        },
+        {
+          "name": "musculaires",
+          "synonyms": [
+            "musculaires"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "capables",
+          "synonyms": [
+            "capables"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les myocytes, ou fibres musculaires, sont des cellules capables de contraction.\nOn distingue principalement les myocytes striées des myocytes lisses."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myofibrille": {
+    "type": "specialized",
+    "exact_terms": [
+      "myofibrille"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myofibrille",
+          "synonyms": [
+            "myofibrille"
+          ]
+        },
+        {
+          "name": "chaîne",
+          "synonyms": [
+            "chaîne"
+          ]
+        },
+        {
+          "name": "linéaire",
+          "synonyms": [
+            "linéaire"
+          ]
+        },
+        {
+          "name": "composée",
+          "synonyms": [
+            "composée"
+          ]
+        },
+        {
+          "name": "sarcomères",
+          "synonyms": [
+            "sarcomères"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myofibrille est une chaîne linéaire composée de sarcomères, les unités contractiles du muscle.\nElle a une structure cylindrique contractile formée de filaments, ou sarcomères, qui garnissent les fibres musculaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myogenèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "myogenèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myogenèse",
+          "synonyms": [
+            "myogenèse"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "myo",
+          "synonyms": [
+            "myo"
+          ]
+        },
+        {
+          "name": "muscle",
+          "synonyms": [
+            "muscle"
+          ]
+        },
+        {
+          "name": "genesis",
+          "synonyms": [
+            "genesis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myogenèse (du grec myo « muscle » et genesis « naissance ») est un phénomène biologique qui conduit à la formation des tissus musculaires. Elle a d'abord lieu lors du développement de l'embryon, puis lors de certains phénomènes de réparation (après un dommage musculaire par exemple)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myoglobine": {
+    "type": "specialized",
+    "exact_terms": [
+      "myoglobine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myoglobine",
+          "synonyms": [
+            "myoglobine"
+          ]
+        },
+        {
+          "name": "couramment",
+          "synonyms": [
+            "couramment"
+          ]
+        },
+        {
+          "name": "symbolisée",
+          "synonyms": [
+            "symbolisée"
+          ]
+        },
+        {
+          "name": "métalloprotéine",
+          "synonyms": [
+            "métalloprotéine"
+          ]
+        },
+        {
+          "name": "contenant",
+          "synonyms": [
+            "contenant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myoglobine, couramment symbolisée par Mb, est une métalloprotéine contenant du fer présente dans les muscles des vertébrés, et particulièrement des mammifères. Elle est apparentée structurellement à l'hémoglobine, mais a pour fonction de stocker le dioxygène O2 plutôt que de le transporter."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myoglobinurie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myoglobinurie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myoglobinurie",
+          "synonyms": [
+            "myoglobinurie"
+          ]
+        },
+        {
+          "name": "myoglobinurie",
+          "synonyms": [
+            "myoglobinurie"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "cheval",
+          "synonyms": [
+            "cheval"
+          ]
+        },
+        {
+          "name": "myoglobinurie",
+          "synonyms": [
+            "myoglobinurie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myoglobinurie peut désigner :\n\nla myoglobinurie chez le cheval ;\nla myoglobinurie chez l'être humain."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myographe": {
+    "type": "specialized",
+    "exact_terms": [
+      "myographe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myographe",
+          "synonyms": [
+            "myographe"
+          ]
+        },
+        {
+          "name": "instrument",
+          "synonyms": [
+            "instrument"
+          ]
+        },
+        {
+          "name": "mesure",
+          "synonyms": [
+            "mesure"
+          ]
+        },
+        {
+          "name": "médical",
+          "synonyms": [
+            "médical"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un myographe est instrument de mesure médical utilisé pour enregistrer les contractions musculaires. Il permet de caractériser, en fonction du temps (millisecondes ou secondes), la force développée (en newtons) par une fibre musculaire, un groupe de fibres musculaires, ou un muscle entier."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myokymie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myokymie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myokymie",
+          "synonyms": [
+            "myokymie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "frémissement",
+          "synonyms": [
+            "frémissement"
+          ]
+        },
+        {
+          "name": "involontaire",
+          "synonyms": [
+            "involontaire"
+          ]
+        },
+        {
+          "name": "localisé",
+          "synonyms": [
+            "localisé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myokymie (du grec) est un frémissement involontaire et localisé de quelques fibres musculaires qui n'est pas assez puissant pour activer une articulation. \nCe terme désigne souvent une trémulation involontaire de la basse paupière ou moins souvent la haute, chez les individus normaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myomère": {
+    "type": "specialized",
+    "exact_terms": [
+      "myomère"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myomères",
+          "synonyms": [
+            "myomères"
+          ]
+        },
+        {
+          "name": "ensembles",
+          "synonyms": [
+            "ensembles"
+          ]
+        },
+        {
+          "name": "tissus",
+          "synonyms": [
+            "tissus"
+          ]
+        },
+        {
+          "name": "musculaires",
+          "synonyms": [
+            "musculaires"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les myomères sont des ensembles de tissus musculaires généralement présents chez les chordés.\nEn général, ils ont des formes en « V » ou en « W », d'où leur nom de muscles en chevrons."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myopie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myopie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myopie",
+          "synonyms": [
+            "myopie"
+          ]
+        },
+        {
+          "name": "d'origine",
+          "synonyms": [
+            "d'origine"
+          ]
+        },
+        {
+          "name": "grecque",
+          "synonyms": [
+            "grecque"
+          ]
+        },
+        {
+          "name": "μυωπία",
+          "synonyms": [
+            "μυωπία"
+          ]
+        },
+        {
+          "name": "muōpía",
+          "synonyms": [
+            "muōpía"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une myopie (mot d'origine grecque : μυωπία / muōpía, qui signifie « à courte vue ») est un trouble de la vision dont le symptôme principal pour le sujet est de voir flou au loin. L'image d'un point devient alors une tache plus ou moins diffuse sur la rétine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myosite": {
+    "type": "specialized",
+    "exact_terms": [
+      "myosite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myosite",
+          "synonyms": [
+            "myosite"
+          ]
+        },
+        {
+          "name": "myopathie",
+          "synonyms": [
+            "myopathie"
+          ]
+        },
+        {
+          "name": "acquise",
+          "synonyms": [
+            "acquise"
+          ]
+        },
+        {
+          "name": "inflammatoire",
+          "synonyms": [
+            "inflammatoire"
+          ]
+        },
+        {
+          "name": "groupe",
+          "synonyms": [
+            "groupe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une myosite est une myopathie acquise et inflammatoire. C'est un groupe de maladies rares dégénératives, affectant les muscles squelettiques, et selon les formes la peau, les articulations et les poumons."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myotome": {
+    "type": "specialized",
+    "exact_terms": [
+      "myotome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "myotome",
+          "synonyms": [
+            "myotome"
+          ]
+        },
+        {
+          "name": "regroupe",
+          "synonyms": [
+            "regroupe"
+          ]
+        },
+        {
+          "name": "muscles",
+          "synonyms": [
+            "muscles"
+          ]
+        },
+        {
+          "name": "possédant",
+          "synonyms": [
+            "possédant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En anatomie, le myotome regroupe les muscles ne possédant qu'une seule innervation spinale et leur racine nerveuse. \nDans le développement embryonnaire des vertébrés le myotome fait référence à des parties du somite, liées au développement des muscles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\embryologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myriapodologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myriapodologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myriapodologie",
+          "synonyms": [
+            "myriapodologie"
+          ]
+        },
+        {
+          "name": "science",
+          "synonyms": [
+            "science"
+          ]
+        },
+        {
+          "name": "consacre",
+          "synonyms": [
+            "consacre"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "myriapodes",
+          "synonyms": [
+            "myriapodes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myriapodologie est la science qui se consacre à l'étude des myriapodes (ou mille-pattes)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myristoylation": {
+    "type": "specialized",
+    "exact_terms": [
+      "myristoylation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'association",
+          "synonyms": [
+            "l'association"
+          ]
+        },
+        {
+          "name": "fonction",
+          "synonyms": [
+            "fonction"
+          ]
+        },
+        {
+          "name": "acide",
+          "synonyms": [
+            "acide"
+          ]
+        },
+        {
+          "name": "carboxylique",
+          "synonyms": [
+            "carboxylique"
+          ]
+        },
+        {
+          "name": "cooh",
+          "synonyms": [
+            "cooh"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'association de la fonction acide carboxylique (COOH) d'un acide myristique (acide gras à 14 carbones) et d'un groupement amine forme une liaison amide au niveau N-terminal d'un acide aminé glycine. Elle permet la fixation d'une protéine sur la face intracellulaire de la membrane plasmique d'une cellule."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myrmécochorie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myrmécochorie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myrmécochorie",
+          "synonyms": [
+            "myrmécochorie"
+          ]
+        },
+        {
+          "name": "myrméco",
+          "synonyms": [
+            "myrméco"
+          ]
+        },
+        {
+          "name": "fourmi",
+          "synonyms": [
+            "fourmi"
+          ]
+        },
+        {
+          "name": "chorie",
+          "synonyms": [
+            "chorie"
+          ]
+        },
+        {
+          "name": "mouvoir",
+          "synonyms": [
+            "mouvoir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myrmécochorie (de myrméco-, « fourmi » et -chorie, « se mouvoir ») est une zoochorie plus spécifiquement une endozoochorie correspondant à un mode de dispersion chez les myrmécochores qui sont des plantes du groupe des Angiospermes dont les diaspores sont recherchées et prises activement entre les mandibules des fourmis . Il s'agit d'une relation dite mutualiste entre les plantes et les fourmis qui s'adaptent  ensemble pour en tirer chacun des bénéfices."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myrmécologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myrmécologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myrmécologie",
+          "synonyms": [
+            "myrmécologie"
+          ]
+        },
+        {
+          "name": "science",
+          "synonyms": [
+            "science"
+          ]
+        },
+        {
+          "name": "liée",
+          "synonyms": [
+            "liée"
+          ]
+        },
+        {
+          "name": "l'entomologie",
+          "synonyms": [
+            "l'entomologie"
+          ]
+        },
+        {
+          "name": "spécialisée",
+          "synonyms": [
+            "spécialisée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myrmécologie est une science liée à l'entomologie spécialisée dans l'étude des fourmis.\nLes noms de genres de fourmis sont souvent donnés d'après de célèbres myrmécologues — par exemple, le genre Donisthorpea doit son nom à Horace Donisthorpe, Forelius à Auguste Forel, Janetia à Charles Janet, Wheeleriella à William Morton Wheeler."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myrmécomorphisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "myrmécomorphisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myrmécomorphisme",
+          "synonyms": [
+            "myrmécomorphisme"
+          ]
+        },
+        {
+          "name": "myrmécomorphie",
+          "synonyms": [
+            "myrmécomorphie"
+          ]
+        },
+        {
+          "name": "phénomène",
+          "synonyms": [
+            "phénomène"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        },
+        {
+          "name": "animal",
+          "synonyms": [
+            "animal"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le myrmécomorphisme ou myrmécomorphie est le phénomène par lequel un animal imite une fourmi, que ce soit par des traits morphologiques, comportementaux ou chimiques. Il s'agirait d'une forme de mimétisme batésien ; une espèce inoffensive adopte la forme d'une espèce nocive dans le but de décourager les prédateurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myrmécophilie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myrmécophilie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myrmécophilie",
+          "synonyms": [
+            "myrmécophilie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "μύρμηξ",
+          "synonyms": [
+            "μύρμηξ"
+          ]
+        },
+        {
+          "name": "múrmēx",
+          "synonyms": [
+            "múrmēx"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myrmécophilie (du grec ancien : μύρμηξ / múrmēx, « fourmi » ; φῐλεῖν / phileîn, « aimer ») définit l'aptitude d'animaux ou de végétaux à vivre en association symbiotique externe avec les fourmis.\nL'adjectif myrmécophile s'applique principalement aux insectes qui vivent au sein de la fourmilière, parmi les fourmis."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mythomanie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mythomanie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mythomanie",
+          "synonyms": [
+            "mythomanie"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "pathologique",
+          "synonyms": [
+            "pathologique"
+          ]
+        },
+        {
+          "name": "caractérisé",
+          "synonyms": [
+            "caractérisé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mythomanie désigne un trouble pathologique caractérisé par une tendance au mensonge et la fabulation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mytilisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "mytilisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mytilisme",
+          "synonyms": [
+            "mytilisme"
+          ]
+        },
+        {
+          "name": "intoxication",
+          "synonyms": [
+            "intoxication"
+          ]
+        },
+        {
+          "name": "causée",
+          "synonyms": [
+            "causée"
+          ]
+        },
+        {
+          "name": "l'ingestion",
+          "synonyms": [
+            "l'ingestion"
+          ]
+        },
+        {
+          "name": "moules",
+          "synonyms": [
+            "moules"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mytilisme est une intoxication causée par l'ingestion de moules."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myxomatose": {
+    "type": "specialized",
+    "exact_terms": [
+      "myxomatose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myxomatose",
+          "synonyms": [
+            "myxomatose"
+          ]
+        },
+        {
+          "name": "maladie",
+          "synonyms": [
+            "maladie"
+          ]
+        },
+        {
+          "name": "virale",
+          "synonyms": [
+            "virale"
+          ]
+        },
+        {
+          "name": "lagomorphes",
+          "synonyms": [
+            "lagomorphes"
+          ]
+        },
+        {
+          "name": "due",
+          "synonyms": [
+            "due"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myxomatose est une maladie virale des lagomorphes due à un poxviridé, très souvent mortelle. Elle atteint tout particulièrement les lapins de garenne sauvages et les lapins domestiques, mais ne touche que très rarement les lièvres."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myélite": {
+    "type": "specialized",
+    "exact_terms": [
+      "myélite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myélite",
+          "synonyms": [
+            "myélite"
+          ]
+        },
+        {
+          "name": "inflammation",
+          "synonyms": [
+            "inflammation"
+          ]
+        },
+        {
+          "name": "aiguë",
+          "synonyms": [
+            "aiguë"
+          ]
+        },
+        {
+          "name": "moelle",
+          "synonyms": [
+            "moelle"
+          ]
+        },
+        {
+          "name": "spinale",
+          "synonyms": [
+            "spinale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myélite est une inflammation aiguë de la moelle spinale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myélocyte": {
+    "type": "specialized",
+    "exact_terms": [
+      "myélocyte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myélocytes",
+          "synonyms": [
+            "myélocytes"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        },
+        {
+          "name": "immatures",
+          "synonyms": [
+            "immatures"
+          ]
+        },
+        {
+          "name": "lignée",
+          "synonyms": [
+            "lignée"
+          ]
+        },
+        {
+          "name": "granuleuse",
+          "synonyms": [
+            "granuleuse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les myélocytes sont des cellules immatures de la lignée granuleuse (formant à terme les granulocytes, un type de globule blanc). \nÀ l'état basal, les myélocytes ne sont retrouvés que dans la moelle osseuse, lieu de maturation des granulocytes (aussi appelés polynucléaires)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myélogramme": {
+    "type": "specialized",
+    "exact_terms": [
+      "myélogramme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myélogramme",
+          "synonyms": [
+            "myélogramme"
+          ]
+        },
+        {
+          "name": "examen",
+          "synonyms": [
+            "examen"
+          ]
+        },
+        {
+          "name": "examen",
+          "synonyms": [
+            "examen"
+          ]
+        },
+        {
+          "name": "hématologique",
+          "synonyms": [
+            "hématologique"
+          ]
+        },
+        {
+          "name": "permet",
+          "synonyms": [
+            "permet"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un myélogramme est un examen (examen hématologique) qui permet l'étude de la moelle osseuse après une ponction suivie d'une aspiration. On effectue ensuite un frottis de moelle osseuse à partir du liquide aspiré."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myélographie": {
+    "type": "specialized",
+    "exact_terms": [
+      "myélographie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myélographie",
+          "synonyms": [
+            "myélographie"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "radiographie",
+          "synonyms": [
+            "radiographie"
+          ]
+        },
+        {
+          "name": "utilisant",
+          "synonyms": [
+            "utilisant"
+          ]
+        },
+        {
+          "name": "produit",
+          "synonyms": [
+            "produit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La myélographie est un type de radiographie utilisant un produit de contraste iodé dans le but de détecter des pathologies de la moelle épinière, en prenant compte de l'endroit de la blessure de la moelle épinière, kyste et tumeurs. La procédure consiste en l'injection de produit de contraste entre les vertèbres cervicales et les vertèbres lombaires à l'aide d'une aiguille pour ponction lombaire, suivie par différents clichés radiologiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "myélomère": {
+    "type": "specialized",
+    "exact_terms": [
+      "myélomère"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "myélomère",
+          "synonyms": [
+            "myélomère"
+          ]
+        },
+        {
+          "name": "représente",
+          "synonyms": [
+            "représente"
+          ]
+        },
+        {
+          "name": "segment",
+          "synonyms": [
+            "segment"
+          ]
+        },
+        {
+          "name": "moelle",
+          "synonyms": [
+            "moelle"
+          ]
+        },
+        {
+          "name": "spinale",
+          "synonyms": [
+            "spinale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un myélomère représente un segment de la moelle spinale (ou moelle épinière) à partir duquel se détachent les racines ventrales, motrices et dorsales, sensitives, formant par la suite un nerf spinal mixte au niveau du foramen intervertébral, lequel se divise en un rameau dorsal et un autre ventral se dirigeant vers les organes ou tissus correspondants. Il s'agit d'un centre réflexe segmentaire synonyme d’arc réflexe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mâchoire": {
+    "type": "specialized",
+    "exact_terms": [
+      "mâchoire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mâchoires",
+          "synonyms": [
+            "mâchoires"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "structures",
+          "synonyms": [
+            "structures"
+          ]
+        },
+        {
+          "name": "opposables",
+          "synonyms": [
+            "opposables"
+          ]
+        },
+        {
+          "name": "maxillaire",
+          "synonyms": [
+            "maxillaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les mâchoires sont les deux structures opposables (maxillaire et mandibule) formant la bouche (ou près de l'entrée de la bouche).\nLe terme « mâchoires » est aussi appliqué au sens large aux structures constituant la voûte de la bouche et servant à l’ouvrir et à la fermer."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mâle": {
+    "type": "specialized",
+    "exact_terms": [
+      "mâle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mâle",
+          "synonyms": [
+            "mâle"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "masculus",
+          "synonyms": [
+            "masculus"
+          ]
+        },
+        {
+          "name": "mâle",
+          "synonyms": [
+            "mâle"
+          ]
+        },
+        {
+          "name": "masculin",
+          "synonyms": [
+            "masculin"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mâle (du latin masculus : « mâle, masculin, viril ») est, en biologie, l'organe voire l'individu produisant des gamètes motiles dans le cadre de la reproduction sexuée anisogame. L'organe ou organisme produisant la contrepartie complémentaire, sous forme de gamètes non motiles mais très riches en réserves nutritives, est appelé femelle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mâle alpha": {
+    "type": "specialized",
+    "exact_terms": [
+      "mâle alpha"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "mâle",
+          "synonyms": [
+            "mâle"
+          ]
+        },
+        {
+          "name": "alpha",
+          "synonyms": [
+            "alpha"
+          ]
+        },
+        {
+          "name": "mâle",
+          "synonyms": [
+            "mâle"
+          ]
+        },
+        {
+          "name": "dominant",
+          "synonyms": [
+            "dominant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie, le mâle alpha est le mâle dominant.\nAlpha Dog (Mâle alpha au Québec) est un film de Nick Cassavetes sorti en 2006."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mèche": {
+    "type": "specialized",
+    "exact_terms": [
+      "mèche"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mèche",
+          "synonyms": [
+            "mèche"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "fibres",
+          "synonyms": [
+            "fibres"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot mèche désigne un ensemble de fibres, notamment textiles, ou par analogie d'autres matériaux. Le terme désigne par exemple :\n\nun ensemble de fibres plus ou moins parallèles :\nmèche de cheveux, une mèche rebelle (touffe rétive au coiffage : houppette), une mèche brésilienne (accessoire de parement)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "méat": {
+    "type": "specialized",
+    "exact_terms": [
+      "méat"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "méat",
+          "synonyms": [
+            "méat"
+          ]
+        },
+        {
+          "name": "méat",
+          "synonyms": [
+            "méat"
+          ]
+        },
+        {
+          "name": "botanique",
+          "synonyms": [
+            "botanique"
+          ]
+        },
+        {
+          "name": "méat",
+          "synonyms": [
+            "méat"
+          ]
+        },
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot méat peut désigner :\n\nle méat, en botanique ;\nle méat, en anatomie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mécanorécepteur": {
+    "type": "specialized",
+    "exact_terms": [
+      "mécanorécepteur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mécanorécepteur",
+          "synonyms": [
+            "mécanorécepteur"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        },
+        {
+          "name": "neurones",
+          "synonyms": [
+            "neurones"
+          ]
+        },
+        {
+          "name": "sensoriels",
+          "synonyms": [
+            "sensoriels"
+          ]
+        },
+        {
+          "name": "sensibles",
+          "synonyms": [
+            "sensibles"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mécanorécepteur est un terme générique pour désigner des neurones sensoriels sensibles aux déformations mécaniques. De plus en plus souvent les scientifiques et le corps médical désignent par mécanoception cette sous-catégorie du sens du  toucher, au côté de la thermoception."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "méchage": {
+    "type": "specialized",
+    "exact_terms": [
+      "méchage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "méchage",
+          "synonyms": [
+            "méchage"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "brûler",
+          "synonyms": [
+            "brûler"
+          ]
+        },
+        {
+          "name": "mèche",
+          "synonyms": [
+            "mèche"
+          ]
+        },
+        {
+          "name": "soufre",
+          "synonyms": [
+            "soufre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le méchage est l'action de brûler une mèche de soufre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "méconium": {
+    "type": "specialized",
+    "exact_terms": [
+      "méconium"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "insectes",
+          "synonyms": [
+            "insectes"
+          ]
+        },
+        {
+          "name": "holométaboles",
+          "synonyms": [
+            "holométaboles"
+          ]
+        },
+        {
+          "name": "méconium",
+          "synonyms": [
+            "méconium"
+          ]
+        },
+        {
+          "name": "fluide",
+          "synonyms": [
+            "fluide"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Chez les insectes holométaboles, le méconium est un fluide fécal accumulé lors de la métamorphose, que l'adulte vide après l’émergence de sa nymphe.\nChez les mammifères, le méconium est un excrément accumulé dans les intestins du fœtus des mammifères (dont l'humain) durant sa gestation et constitue les premières selles du nouveau-né, pendant les premiers jours qui suivent la naissance."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\entomologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médecin légiste": {
+    "type": "specialized",
+    "exact_terms": [
+      "médecin légiste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecin",
+          "synonyms": [
+            "médecin"
+          ]
+        },
+        {
+          "name": "légiste",
+          "synonyms": [
+            "légiste"
+          ]
+        },
+        {
+          "name": "médecin",
+          "synonyms": [
+            "médecin"
+          ]
+        },
+        {
+          "name": "pratique",
+          "synonyms": [
+            "pratique"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le médecin légiste est le médecin qui pratique la médecine légale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médecine": {
+    "type": "specialized",
+    "exact_terms": [
+      "médecine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "medicina",
+          "synonyms": [
+            "medicina"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "art",
+          "synonyms": [
+            "art"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La médecine (du latin : medicina, qui signifie « art de guérir, remède, potion »), au sens de pratique (art), est la science témoignant de l'organisation du corps humain (anatomie), de son fonctionnement normal (physiologie), et cherchant à préserver la santé (physique comme mentale) par la prévention (prophylaxie) et le traitement (thérapie) des maladies. La médecine humaine est complémentaire et en synergie avec la médecine vétérinaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médecine générale": {
+    "type": "specialized",
+    "exact_terms": [
+      "médecine générale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "familiale",
+          "synonyms": [
+            "familiale"
+          ]
+        },
+        {
+          "name": "spécialité",
+          "synonyms": [
+            "spécialité"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La médecine générale, ou médecine familiale, est une spécialité médicale prenant en charge le suivi durable, le bien-être et les soins de santé généraux primaires d'une communauté, sans se limiter à des groupes de maladies relevant d'un organe, d'un âge, ou d'un sexe particulier. Le médecin généraliste, aussi appelé médecin omnipraticien ou médecin de famille, est donc souvent consulté pour diagnostiquer les symptômes avant de traiter la maladie ou de référer le patient à un autre médecin spécia..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médecine interne": {
+    "type": "specialized",
+    "exact_terms": [
+      "médecine interne"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "interne",
+          "synonyms": [
+            "interne"
+          ]
+        },
+        {
+          "name": "spécialité",
+          "synonyms": [
+            "spécialité"
+          ]
+        },
+        {
+          "name": "médicale",
+          "synonyms": [
+            "médicale"
+          ]
+        },
+        {
+          "name": "s'intéresse",
+          "synonyms": [
+            "s'intéresse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La médecine interne est une spécialité médicale. Elle s'intéresse au diagnostic et à la prise en charge globale des maladies de l'adulte avec une prédilection pour les maladies systémiques (par exemple le lupus érythémateux disséminé) et les maladies auto-immunes en général."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médecine légale": {
+    "type": "specialized",
+    "exact_terms": [
+      "médecine légale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "légale",
+          "synonyms": [
+            "légale"
+          ]
+        },
+        {
+          "name": "spécialité",
+          "synonyms": [
+            "spécialité"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La médecine légale est une spécialité de la médecine qui consiste à constater et évaluer des lésions de victimes, vivantes et décédées, et aider la justice."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médecine nucléaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "médecine nucléaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "nucléaire",
+          "synonyms": [
+            "nucléaire"
+          ]
+        },
+        {
+          "name": "comprend",
+          "synonyms": [
+            "comprend"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "applications",
+          "synonyms": [
+            "applications"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La médecine nucléaire comprend l'ensemble des applications médicales de la radioactivité en médecine.\nAdministrativement on parle de l'utilisation de sources radioactives non scellées."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médecine spatiale": {
+    "type": "specialized",
+    "exact_terms": [
+      "médecine spatiale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "spatiale",
+          "synonyms": [
+            "spatiale"
+          ]
+        },
+        {
+          "name": "branche",
+          "synonyms": [
+            "branche"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "concernée",
+          "synonyms": [
+            "concernée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La médecine spatiale est une branche de la médecine concernée par la santé de l'homme dans l'espace.\nLes spécialistes de la médecine spatiale s'intéressent aux effets d'un vol sur le corps humain, au même titre que les spécialistes de la médecine aéronautique, mais hors de l’atmosphère deux problèmes supplémentaires se posent : l'impesanteur et le niveau élevé des radiations cosmiques auxquels sont soumis les astronautes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médecine vétérinaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "médecine vétérinaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "vétérinaire",
+          "synonyms": [
+            "vétérinaire"
+          ]
+        },
+        {
+          "name": "l'application",
+          "synonyms": [
+            "l'application"
+          ]
+        },
+        {
+          "name": "principes",
+          "synonyms": [
+            "principes"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La médecine vétérinaire est l'application des principes de la médecine, du diagnostic et de la thérapeutique à tous les animaux : animaux de compagnie, animaux de production et chevaux, principalement, mais aussi nouveaux animaux de compagnie (NAC), animaux des parcs zoologiques, animaux sauvages. La science vétérinaire est notamment vitale pour l'étude et la protection de l'élevage, la santé des troupeaux et le suivi de la propagation d'une maladie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "média": {
+    "type": "specialized",
+    "exact_terms": [
+      "média"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "média",
+          "synonyms": [
+            "média"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "moyen",
+          "synonyms": [
+            "moyen"
+          ]
+        },
+        {
+          "name": "distribution",
+          "synonyms": [
+            "distribution"
+          ]
+        },
+        {
+          "name": "diffusion",
+          "synonyms": [
+            "diffusion"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme média désigne tout moyen de distribution, de diffusion ou de communication interpersonnelle, de masse ou de groupe, d'œuvres, de documents, ou de messages écrits, visuels, sonores ou audiovisuels (comme la radio, la télévision, le cinéma, Internet, la presse, les télécommunications, etc.). Ce terme est souvent utilisé comme l'abréviation du terme anglais mass-media ou médias de masse en français."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médiastin": {
+    "type": "specialized",
+    "exact_terms": [
+      "médiastin"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médiastin",
+          "synonyms": [
+            "médiastin"
+          ]
+        },
+        {
+          "name": "région",
+          "synonyms": [
+            "région"
+          ]
+        },
+        {
+          "name": "cage",
+          "synonyms": [
+            "cage"
+          ]
+        },
+        {
+          "name": "thoracique",
+          "synonyms": [
+            "thoracique"
+          ]
+        },
+        {
+          "name": "située",
+          "synonyms": [
+            "située"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le médiastin est la région de la cage thoracique située entre les deux poumons et contenant le cœur, l'œsophage, la trachée et les deux bronches souches. De gros vaisseaux sanguins et lymphatiques, ainsi que des nerfs, y passent également."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médiastinite": {
+    "type": "specialized",
+    "exact_terms": [
+      "médiastinite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médiastinite",
+          "synonyms": [
+            "médiastinite"
+          ]
+        },
+        {
+          "name": "infection",
+          "synonyms": [
+            "infection"
+          ]
+        },
+        {
+          "name": "rare",
+          "synonyms": [
+            "rare"
+          ]
+        },
+        {
+          "name": "grave",
+          "synonyms": [
+            "grave"
+          ]
+        },
+        {
+          "name": "médiastin",
+          "synonyms": [
+            "médiastin"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une médiastinite est une infection rare et grave du médiastin, qui est l'espace du thorax contenu entre les deux poumons. Elle peut être la complication d'une cellulite de la face ou du cou, par diffusion locale de l'infection, mais aussi la complication d'une sternotomie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médiateur": {
+    "type": "specialized",
+    "exact_terms": [
+      "médiateur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médiateur",
+          "synonyms": [
+            "médiateur"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "facilite",
+          "synonyms": [
+            "facilite"
+          ]
+        },
+        {
+          "name": "accord",
+          "synonyms": [
+            "accord"
+          ]
+        },
+        {
+          "name": "d'autres",
+          "synonyms": [
+            "d'autres"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un médiateur est une personne qui facilite un accord entre d'autres personnes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médioligne": {
+    "type": "specialized",
+    "exact_terms": [
+      "médioligne"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médioligne",
+          "synonyms": [
+            "médioligne"
+          ]
+        },
+        {
+          "name": "d'anatomie",
+          "synonyms": [
+            "d'anatomie"
+          ]
+        },
+        {
+          "name": "désignant",
+          "synonyms": [
+            "désignant"
+          ]
+        },
+        {
+          "name": "morphologies",
+          "synonyms": [
+            "morphologies"
+          ]
+        },
+        {
+          "name": "moyennes",
+          "synonyms": [
+            "moyennes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Médioligne est un terme d'anatomie désignant les morphologies moyennes chez les animaux. Il peut s'agir : \n\nde la morphologie du chat ;\nde la morphologie du cheval."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médulla": {
+    "type": "specialized",
+    "exact_terms": [
+      "médulla"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médulla",
+          "synonyms": [
+            "médulla"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "région",
+          "synonyms": [
+            "région"
+          ]
+        },
+        {
+          "name": "rein",
+          "synonyms": [
+            "rein"
+          ]
+        },
+        {
+          "name": "région",
+          "synonyms": [
+            "région"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme médulla peut faire référence à :\n\nune région du rein ;\nune région du thymus ;\nune région du ganglion lymphatique ;\nla médulla, couche interne d’un poil."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "médullaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "médullaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "médullaire",
+          "synonyms": [
+            "médullaire"
+          ]
+        },
+        {
+          "name": "anatomie",
+          "synonyms": [
+            "anatomie"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "« Médullaire » en anatomie désigne généralement la partie centrale d'un organe, entourée du cortex.\nEn général, l'adjectif médullaire réfère :\n\nà la moelle osseuse :\nen anatomie : le canal médullaire,\nen pathologie :\nune aplasie médullaire,\nune insuffisance médullaire,\nà la moelle spinale : en pathologie :\nune compression médullaire,\nun traumatisme médullaire,\nà d'autres structures anatomiques :\nla strie médullaire, une partie de l'épithalamus."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mégacaryocyte": {
+    "type": "specialized",
+    "exact_terms": [
+      "mégacaryocyte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mégacaryocyte",
+          "synonyms": [
+            "mégacaryocyte"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "géante",
+          "synonyms": [
+            "géante"
+          ]
+        },
+        {
+          "name": "d'environ",
+          "synonyms": [
+            "d'environ"
+          ]
+        },
+        {
+          "name": "100",
+          "synonyms": [
+            "100"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mégacaryocyte est une cellule géante (d'environ 50 à 100 µm de diamètre) de la moelle hématopoïétique responsable de la production des plaquettes sanguines (ou thrombocytes) lorsque son cytoplasme se fragmente en milliers de plaquettes sanguines (thrombopoïèse, en 4 à 5 jours).\nLes plaquettes ont en général un diamètre de 2 à 5 µm."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mégafaune": {
+    "type": "specialized",
+    "exact_terms": [
+      "mégafaune"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mégafaune",
+          "synonyms": [
+            "mégafaune"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "espèces",
+          "synonyms": [
+            "espèces"
+          ]
+        },
+        {
+          "name": "animales",
+          "synonyms": [
+            "animales"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot mégafaune désigne l'ensemble des espèces animales de grande taille, mais répond à différentes acceptions selon le domaine étudié. On définit ainsi arbitrairement l'ensemble des mammifères les plus lourds selon le milieu concerné."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "méiofaune": {
+    "type": "specialized",
+    "exact_terms": [
+      "méiofaune"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "méiofaune",
+          "synonyms": [
+            "méiofaune"
+          ]
+        },
+        {
+          "name": "été",
+          "synonyms": [
+            "été"
+          ]
+        },
+        {
+          "name": "introduit",
+          "synonyms": [
+            "introduit"
+          ]
+        },
+        {
+          "name": "défini",
+          "synonyms": [
+            "défini"
+          ]
+        },
+        {
+          "name": "molly",
+          "synonyms": [
+            "molly"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme méiofaune a été introduit et défini par Molly F. Mare en 1942. Le terme méio dérive du grec “μείων”  qui signifie « plus petit »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "méiose": {
+    "type": "specialized",
+    "exact_terms": [
+      "méiose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "méiose",
+          "synonyms": [
+            "méiose"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "μείωσις",
+          "synonyms": [
+            "μείωσις"
+          ]
+        },
+        {
+          "name": "meiōsis",
+          "synonyms": [
+            "meiōsis"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La méiose (du grec μείωσις, meiōsis, « petit », « amoindrissement », « diminution ») est un processus de double division cellulaire découvert par Édouard Van Beneden (1846-1910) et qui se déroule dans les cellules (diploïdes) de la lignée germinale pour former les gamètes (haploïdes). \nPar le brassage des gènes qu'elle permet, elle joue un rôle essentiel pour la diversité des espèces."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélancolie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélancolie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélancolie",
+          "synonyms": [
+            "mélancolie"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "l'origine",
+          "synonyms": [
+            "l'origine"
+          ]
+        },
+        {
+          "name": "temps",
+          "synonyms": [
+            "temps"
+          ]
+        },
+        {
+          "name": "grèce",
+          "synonyms": [
+            "grèce"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mélancolie désigne à l'origine, au temps de la Grèce antique, un excès de bile noire selon la théorie des humeurs, notamment élaborée par le médecin Hippocrate (460-377 av. J-C)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélangisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélangisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélangisme",
+          "synonyms": [
+            "mélangisme"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "particulière",
+          "synonyms": [
+            "particulière"
+          ]
+        },
+        {
+          "name": "sexualité",
+          "synonyms": [
+            "sexualité"
+          ]
+        },
+        {
+          "name": "groupe",
+          "synonyms": [
+            "groupe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mélangisme est une forme particulière de sexualité de groupe proche de l'échangisme dans laquelle les pratiquants, le plus souvent en couples mais intégrant parfois des célibataires, ont des relations sexuelles multiples au cours d'une même soirée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélanine": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélanine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélanine",
+          "synonyms": [
+            "mélanine"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "nombreux",
+          "synonyms": [
+            "nombreux"
+          ]
+        },
+        {
+          "name": "pigments",
+          "synonyms": [
+            "pigments"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot mélanine est un mot générique qui désigne de nombreux pigments biologiques foncés qui sont notamment responsables de la coloration des téguments dans le règne animal. Chez l'être humain, la couleur de la peau, des cheveux et des yeux dépendent principalement de son type et de sa concentration."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biochimie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélanisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélanisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélanisation",
+          "synonyms": [
+            "mélanisation"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "noircissement",
+          "synonyms": [
+            "noircissement"
+          ]
+        },
+        {
+          "name": "observé",
+          "synonyms": [
+            "observé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mélanisation désigne un processus de noircissement observé en biologie ou pédologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélanisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélanisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélanisme",
+          "synonyms": [
+            "mélanisme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "melas",
+          "synonyms": [
+            "melas"
+          ]
+        },
+        {
+          "name": "noir",
+          "synonyms": [
+            "noir"
+          ]
+        },
+        {
+          "name": "phénotype",
+          "synonyms": [
+            "phénotype"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mélanisme (du grec melas, noir) est un phénotype animal caractérisé par la couleur entièrement noire de la peau, des plumes, des écailles ou des poils. Dans le cas où les parties noires habituellement présentes (taches, stries...) sont distinguables, au moins légèrement, mais anormalement élargies, on parle plutôt de pseudo-mélanisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélanocyte": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélanocyte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélanocyte",
+          "synonyms": [
+            "mélanocyte"
+          ]
+        },
+        {
+          "name": "mélas",
+          "synonyms": [
+            "mélas"
+          ]
+        },
+        {
+          "name": "noir",
+          "synonyms": [
+            "noir"
+          ]
+        },
+        {
+          "name": "kutos",
+          "synonyms": [
+            "kutos"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mélanocyte (de mélas : « noir » et kutos : « cellule ») est une cellule qui pigmente la peau, les poils ou les plumes des vertébrés. Les mélanocytes sont des dérivés de la crête neurale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélanodermie": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélanodermie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélanodermie",
+          "synonyms": [
+            "mélanodermie"
+          ]
+        },
+        {
+          "name": "coloration",
+          "synonyms": [
+            "coloration"
+          ]
+        },
+        {
+          "name": "foncée",
+          "synonyms": [
+            "foncée"
+          ]
+        },
+        {
+          "name": "naturelle",
+          "synonyms": [
+            "naturelle"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mélanodermie peut désigner :\n\nla coloration foncée naturelle chez les populations noires ;\nune hyperpigmentation de la peau due à la mélanine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélanopsine": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélanopsine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélanopsine",
+          "synonyms": [
+            "mélanopsine"
+          ]
+        },
+        {
+          "name": "photopigment",
+          "synonyms": [
+            "photopigment"
+          ]
+        },
+        {
+          "name": "décelé",
+          "synonyms": [
+            "décelé"
+          ]
+        },
+        {
+          "name": "rétine",
+          "synonyms": [
+            "rétine"
+          ]
+        },
+        {
+          "name": "cellules",
+          "synonyms": [
+            "cellules"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mélanopsine, est un photopigment décelé dans la rétine et les cellules ganglionnaires sensibles à la lumière. Elle est impliquée dans le réflexe photomoteur, la régulation du rythme circadien et d'autres réponses non visuelles à la lumière."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mélatonine": {
+    "type": "specialized",
+    "exact_terms": [
+      "mélatonine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mélatonine",
+          "synonyms": [
+            "mélatonine"
+          ]
+        },
+        {
+          "name": "n-acétyl-5-méthoxytryptamine",
+          "synonyms": [
+            "n-acétyl-5-méthoxytryptamine"
+          ]
+        },
+        {
+          "name": "souvent",
+          "synonyms": [
+            "souvent"
+          ]
+        },
+        {
+          "name": "dénommée",
+          "synonyms": [
+            "dénommée"
+          ]
+        },
+        {
+          "name": "hormone",
+          "synonyms": [
+            "hormone"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mélatonine ou N-acétyl-5-méthoxytryptamine, souvent dénommée hormone du sommeil, est la molécule principale de la glande pinéale surtout connue comme étant l'hormone centrale de régulation des rythmes chronobiologiques en étant synthétisée surtout la nuit. Elle régule de nombreuses sécrétions hormonales, chez l'humain et les autres mammifères."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\physiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mémétique": {
+    "type": "specialized",
+    "exact_terms": [
+      "mémétique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mémétique",
+          "synonyms": [
+            "mémétique"
+          ]
+        },
+        {
+          "name": "utilise",
+          "synonyms": [
+            "utilise"
+          ]
+        },
+        {
+          "name": "richard",
+          "synonyms": [
+            "richard"
+          ]
+        },
+        {
+          "name": "dawkins",
+          "synonyms": [
+            "dawkins"
+          ]
+        },
+        {
+          "name": "mème",
+          "synonyms": [
+            "mème"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mémétique utilise le concept, dû à Richard Dawkins, de mème (élément de comportement transmis par imitation) pour étudier les évolutions de la culture dans une approche darwinienne étendue. Un des exemples les plus connus est le parallèle fait entre l'évolution du vivant et celle des langues."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménadione": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménadione"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ménadione",
+          "synonyms": [
+            "ménadione"
+          ]
+        },
+        {
+          "name": "naphtoquinone",
+          "synonyms": [
+            "naphtoquinone"
+          ]
+        },
+        {
+          "name": "d'origine",
+          "synonyms": [
+            "d'origine"
+          ]
+        },
+        {
+          "name": "naturelle",
+          "synonyms": [
+            "naturelle"
+          ]
+        },
+        {
+          "name": "synthétique",
+          "synonyms": [
+            "synthétique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La ménadione est une naphtoquinone d'origine naturelle  ou synthétique analogue à la 1,4-naphtoquinone avec un groupe méthyle en position 2. Elle présente une activité biologique voisine de la vitamine K et est de ce fait appelée parfois vitamine K3, bien qu'il s'agisse plus exactement d'une provitamine K2 en tant que précurseur des ménaquinones."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménage de printemps": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménage de printemps"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ménage",
+          "synonyms": [
+            "ménage"
+          ]
+        },
+        {
+          "name": "printemps",
+          "synonyms": [
+            "printemps"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "nettoyage",
+          "synonyms": [
+            "nettoyage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le ménage de printemps, aussi appelé nettoyage de printemps, grand ménage de printemps ou grand nettoyage de printemps, est la pratique de réaliser un nettoyage complet du logement d'un ménage, par opposition aux tâches ménagères quotidiennes.\nCette activité est généralement réalisée au printemps dans les pays où les hivers sont froids."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine\\hygiène",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménage à trois": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménage à trois"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ménage",
+          "synonyms": [
+            "ménage"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        },
+        {
+          "name": "arrangement",
+          "synonyms": [
+            "arrangement"
+          ]
+        },
+        {
+          "name": "domestique",
+          "synonyms": [
+            "domestique"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un ménage à trois est un arrangement domestique dans lequel trois personnes décident de former un couple à trois, en habitant ou non dans le même logement.\nDans un sens plus moderne, le terme fait référence à toutes relations amoureuses de polyamour, et sexuelles ou non, ou parfois uniquement sexuelles, entre trois personnes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\sexualité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménagerie": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménagerie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ménagerie",
+          "synonyms": [
+            "ménagerie"
+          ]
+        },
+        {
+          "name": "établissement",
+          "synonyms": [
+            "établissement"
+          ]
+        },
+        {
+          "name": "historique",
+          "synonyms": [
+            "historique"
+          ]
+        },
+        {
+          "name": "maintenir",
+          "synonyms": [
+            "maintenir"
+          ]
+        },
+        {
+          "name": "présenter",
+          "synonyms": [
+            "présenter"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une ménagerie est un établissement historique pour maintenir et présenter des animaux sauvages et exotiques, en captivité sous garde humaine, et donc un prédécesseur du jardin zoologique moderne. Le terme a été utilisé à partir du XVIIe siècle en français, à l'origine pour la gestion d'une ferme ou des animaux domestiques, puis plus tard pour désigner principalement une collection animale aristocratique ou royale comme la ménagerie royale de Versailles et la ménagerie du Jardin des plantes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménaquinone": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménaquinone"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ménaquinone",
+          "synonyms": [
+            "ménaquinone"
+          ]
+        },
+        {
+          "name": "vitamine",
+          "synonyms": [
+            "vitamine"
+          ]
+        },
+        {
+          "name": "naphtoquinone",
+          "synonyms": [
+            "naphtoquinone"
+          ]
+        },
+        {
+          "name": "pourvue",
+          "synonyms": [
+            "pourvue"
+          ]
+        },
+        {
+          "name": "chaîne",
+          "synonyms": [
+            "chaîne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une ménaquinone, ou vitamine K2, est une naphtoquinone pourvue d'une chaîne latérale isoprénique de typiquement 4 à 7 unités.\nUne ménaquinone à n unités isoprène est notée MK-n, de sorte que les molécules les plus courantes sont MK-4 (chez les animaux) et MK-7 (chez certaines bactéries)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménatétrénone": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménatétrénone"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ménatétrénone",
+          "synonyms": [
+            "ménatétrénone"
+          ]
+        },
+        {
+          "name": "dci",
+          "synonyms": [
+            "dci"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "connue",
+          "synonyms": [
+            "connue"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La ménatétrénone (DCI), également connue sous le nom de MK-4, est un composé de vitamine K utilisé comme agent hémostatique et comme traitement d'appoint pour la douleur de l'ostéoporose. La ménatétrénone est l'une des neuf formes de vitamine K2."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "méningoencéphalite amibienne primitive": {
+    "type": "specialized",
+    "exact_terms": [
+      "méningoencéphalite amibienne primitive"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "méningoencéphalite",
+          "synonyms": [
+            "méningoencéphalite"
+          ]
+        },
+        {
+          "name": "amibienne",
+          "synonyms": [
+            "amibienne"
+          ]
+        },
+        {
+          "name": "primitive",
+          "synonyms": [
+            "primitive"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "nommée",
+          "synonyms": [
+            "nommée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La méningoencéphalite amibienne primitive, parfois nommée « méningo-encéphalite amibienne aiguë primitive » ou MEAP, est la seule manifestation pathologique décrite chez l'humain et imputable à Naegleria fowleri."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\parasitologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménisque": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménisque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "contexte",
+          "synonyms": [
+            "contexte"
+          ]
+        },
+        {
+          "name": "scientifique",
+          "synonyms": [
+            "scientifique"
+          ]
+        },
+        {
+          "name": "ménisque",
+          "synonyms": [
+            "ménisque"
+          ]
+        },
+        {
+          "name": "différentes",
+          "synonyms": [
+            "différentes"
+          ]
+        },
+        {
+          "name": "significations",
+          "synonyms": [
+            "significations"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le contexte scientifique, ménisque peut avoir différentes significations :\n\nen mécanique des fluides (capillarité), un ménisque est une région courbe de la surface libre d'un liquide qui se forme à proximité d'une surface solide selon sa nature et son orientation ;\nen anatomie, le ménisque est un fibro-cartilage présent au sein de certaines articulations comme celle du genou.\nvoir aussi : Ménisque (maladie professionnelle) ;\nen optique, un ménisque désigne un type de lentille mince dont les..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménopause": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménopause"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ménopause",
+          "synonyms": [
+            "ménopause"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "méno",
+          "synonyms": [
+            "méno"
+          ]
+        },
+        {
+          "name": "menstrues",
+          "synonyms": [
+            "menstrues"
+          ]
+        },
+        {
+          "name": "pause",
+          "synonyms": [
+            "pause"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La ménopause, du grec méno, « menstrues », et pause, « arrêt », appelée aussi âge climatérique, est l'arrêt définitif du cycle ovarien. Lorsqu'elle est liée au vieillissement et non à une maladie, on l'appelle « ménopause naturelle », et lorsqu'elle est liée à une maladie, on parle de « ménopause pathologique »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ménotropine": {
+    "type": "specialized",
+    "exact_terms": [
+      "ménotropine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ménotropine",
+          "synonyms": [
+            "ménotropine"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "gonadotrophine",
+          "synonyms": [
+            "gonadotrophine"
+          ]
+        },
+        {
+          "name": "ménopausique",
+          "synonyms": [
+            "ménopausique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La ménotropine, également appelée gonadotrophine ménopausique humaine, est un médicament utilisé pour l'anovulation fonctionnelle ou dans le cadre de traitements de fertilité tels que la fécondation in vitro. Il peut également être utilisé pour l’hypogonadisme hypogonadotrophique chez les hommes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "méroplancton": {
+    "type": "specialized",
+    "exact_terms": [
+      "méroplancton"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "méroplancton",
+          "synonyms": [
+            "méroplancton"
+          ]
+        },
+        {
+          "name": "représente",
+          "synonyms": [
+            "représente"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        },
+        {
+          "name": "zooplancton",
+          "synonyms": [
+            "zooplancton"
+          ]
+        },
+        {
+          "name": "constitué",
+          "synonyms": [
+            "constitué"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le méroplancton représente une partie du zooplancton.\nIl est constitué par des organismes d'espèces benthiques ou nectoniques qui ne passent qu'une partie de leur existence, habituellement le stade larvaire, dans le plancton, le stade adulte étant alors benthique ou nectonique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\hydrobiologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mérozoïte": {
+    "type": "specialized",
+    "exact_terms": [
+      "mérozoïte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mérozoïte",
+          "synonyms": [
+            "mérozoïte"
+          ]
+        },
+        {
+          "name": "cellule",
+          "synonyms": [
+            "cellule"
+          ]
+        },
+        {
+          "name": "fille",
+          "synonyms": [
+            "fille"
+          ]
+        },
+        {
+          "name": "protozoaire",
+          "synonyms": [
+            "protozoaire"
+          ]
+        },
+        {
+          "name": "parasite",
+          "synonyms": [
+            "parasite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un mérozoïte est une cellule fille d'un protozoaire parasite. Les mérozoïtes sont le résultat de la reproduction asexuée (schizogonie, mérogonie)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mérèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "mérèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mérèse",
+          "synonyms": [
+            "mérèse"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "meresis",
+          "synonyms": [
+            "meresis"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mérèse (appelée parfois meresis en latin) correspond au mode de croissance par multiplication du nombre de cellules (par mitoses successives) chez les végétaux.\nCe phénomène se retrouve principalement au niveau des méristèmes des apex."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie cellulaire",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mésenchyme": {
+    "type": "specialized",
+    "exact_terms": [
+      "mésenchyme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mésenchyme",
+          "synonyms": [
+            "mésenchyme"
+          ]
+        },
+        {
+          "name": "tissu",
+          "synonyms": [
+            "tissu"
+          ]
+        },
+        {
+          "name": "soutien",
+          "synonyms": [
+            "soutien"
+          ]
+        },
+        {
+          "name": "embryonnaire",
+          "synonyms": [
+            "embryonnaire"
+          ]
+        },
+        {
+          "name": "l'origine",
+          "synonyms": [
+            "l'origine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mésenchyme est un tissu de soutien embryonnaire à l'origine de diverses formes de ces tissus chez l'adulte. \nEmbryologiquement, il est souvent dérivé du sclérotome, lui-même dérivant du mésoderme para-axial, mais un tissu ayant une autre origine peut très bien avoir des caractéristiques anatomiques mésenchymateuses, et y être donc assimilé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mésencéphale": {
+    "type": "specialized",
+    "exact_terms": [
+      "mésencéphale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mésencéphale",
+          "synonyms": [
+            "mésencéphale"
+          ]
+        },
+        {
+          "name": "cerveau",
+          "synonyms": [
+            "cerveau"
+          ]
+        },
+        {
+          "name": "moyen",
+          "synonyms": [
+            "moyen"
+          ]
+        },
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "chordés",
+          "synonyms": [
+            "chordés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mésencéphale, ou cerveau moyen, est, chez les chordés, une région du tronc cérébral reliée au cerveau, située entre le pont de Varole (ou protubérance) en bas et le diencéphale en haut. Il comprend, de l’avant vers l'arrière :\n\nles pédoncules cérébraux ou pes pedunculi ou crus cerebri (droite et gauche) ;\nle tegmentum mesencephali ;\nle tectum mesencephali ;\nLa crus cerebri et la substantia nigra constituent les pédoncules cérébraux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie fonctionnelle\\anatomie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mésentère": {
+    "type": "specialized",
+    "exact_terms": [
+      "mésentère"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chez",
+          "synonyms": [
+            "chez"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        },
+        {
+          "name": "mésentère",
+          "synonyms": [
+            "mésentère"
+          ]
+        },
+        {
+          "name": "repli",
+          "synonyms": [
+            "repli"
+          ]
+        },
+        {
+          "name": "péritoine",
+          "synonyms": [
+            "péritoine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Chez les mammifères, le mésentère est un repli du péritoine reliant les anses de l'intestin grêle (le jéjunum et l'iléon) à la paroi postérieure de l'abdomen.\nEn gastronomie, le mésentère de jeune bovin est un abat apprécié sous le nom de « fraise de veau » (le terme fraise ne convient pas pour l'intestin du porc)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\biologie animale\\zoologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "méso": {
+    "type": "specialized",
+    "exact_terms": [
+      "méso"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "méso",
+          "synonyms": [
+            "méso"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "méso",
+          "synonyms": [
+            "méso"
+          ]
+        },
+        {
+          "name": "accolement",
+          "synonyms": [
+            "accolement"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme méso peut désigner:\n\nEn médecine, un méso est un accolement de deux feuillets du péritoine reliant le péritoine pariétal postérieur à un viscère.\nEn stéréochimie, on appelle composé méso (du grec mesos  : milieu), un composé chimique comportant un nombre pair de centres stéréogènes et un plan de symétrie,  avec les centres stéréogènes de configuration absolue opposés deux à deux par rapport au plan et qui est ainsi identique à son image dans un miroir, donc achiral et sans pouvoir rotat..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "biologie",
+    "domaine_exact": "biologie\\médecine",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
