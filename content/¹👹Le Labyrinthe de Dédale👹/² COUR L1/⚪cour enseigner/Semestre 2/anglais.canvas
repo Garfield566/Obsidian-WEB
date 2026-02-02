@@ -1,14 +1,18 @@
 {
 	"nodes":[
+		{"id":"f32adc73bf9adce0","x":-340,"y":100,"width":440,"height":600,"color":"#9291ee","type":"group","label":"Modo"},
 		{"id":"3cced46fc9f788f6","x":-196,"y":-191,"width":250,"height":60,"color":"4","type":"text","text":"## S 2"},
-		{"id":"496a43ef0c8250be","x":-100,"y":-80,"width":108,"height":60,"type":"text","text":"tO / ing"},
-		{"id":"f52435c4cd120fa7","x":-280,"y":60,"width":114,"height":60,"type":"text","text":"I + to go"},
-		{"id":"720c886e46c05c35","x":54,"y":30,"width":266,"height":90,"color":"5","type":"text","text":"ing \" on créer un infinitif \"\nexp : I look forward to seeing "},
-		{"id":"682053baae593261","x":187,"y":160,"width":172,"height":60,"type":"text","text":"to (préposition dans cette exemple)"}
+		{"id":"496a43ef0c8250be","x":-100,"y":-80,"width":108,"height":60,"color":"#ff4747","type":"text","text":"tO / ing"},
+		{"id":"9b53cbe372115d03","x":-289,"y":120,"width":338,"height":114,"color":"#9e94d1","type":"text","text":"Les verbe modo, on ne met rien pas de **to** ni **ing**.  \nexp \"I can hear you\""},
+		{"id":"74ac923d86383145","x":-320,"y":280,"width":400,"height":400,"type":"file","file":"z_Assets/Unsorted/Pasted image 20260202162821.png"},
+		{"id":"f52435c4cd120fa7","x":-600,"y":0,"width":114,"height":60,"color":"3","type":"text","text":"I + to go"},
+		{"id":"720c886e46c05c35","x":187,"y":-15,"width":266,"height":90,"color":"5","type":"text","text":"ing \" on créer un infinitif \"\nexp : I look forward to seeing "},
+		{"id":"682053baae593261","x":317,"y":160,"width":273,"height":240,"type":"text","text":"to (préposition dans cette exemple)\nautre préposition : \n- With\n- by\n- at\n- of\n- to"}
 	],
 	"edges":[
 		{"id":"f88fb91cbddd86bf","fromNode":"496a43ef0c8250be","fromSide":"left","toNode":"f52435c4cd120fa7","toSide":"top"},
 		{"id":"1fe19549e73bf160","fromNode":"496a43ef0c8250be","fromSide":"right","toNode":"720c886e46c05c35","toSide":"top"},
-		{"id":"ab65902d8dd400c8","fromNode":"720c886e46c05c35","fromSide":"bottom","toNode":"682053baae593261","toSide":"top"}
+		{"id":"ab65902d8dd400c8","fromNode":"720c886e46c05c35","fromSide":"bottom","toNode":"682053baae593261","toSide":"top"},
+		{"id":"36a2ec8e03453121","fromNode":"496a43ef0c8250be","fromSide":"bottom","toNode":"9b53cbe372115d03","toSide":"top"}
 	]
 }
