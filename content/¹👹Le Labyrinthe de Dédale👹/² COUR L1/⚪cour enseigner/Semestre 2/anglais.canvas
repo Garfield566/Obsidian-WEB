@@ -1,6 +1,14 @@
 {
 	"nodes":[
-		{"id":"3cced46fc9f788f6","x":-196,"y":-191,"width":250,"height":60,"color":"4","type":"text","text":"## S 2"}
+		{"id":"3cced46fc9f788f6","x":-196,"y":-191,"width":250,"height":60,"color":"4","type":"text","text":"## S 2"},
+		{"id":"496a43ef0c8250be","x":-100,"y":-80,"width":108,"height":60,"type":"text","text":"tO / ing"},
+		{"id":"f52435c4cd120fa7","x":-280,"y":60,"width":114,"height":60,"type":"text","text":"I + to go"},
+		{"id":"720c886e46c05c35","x":54,"y":30,"width":266,"height":90,"color":"5","type":"text","text":"ing \" on créer un infinitif \"\nexp : I look forward to seeing "},
+		{"id":"682053baae593261","x":187,"y":160,"width":172,"height":60,"type":"text","text":"to (préposition dans cette exemple)"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"f88fb91cbddd86bf","fromNode":"496a43ef0c8250be","fromSide":"left","toNode":"f52435c4cd120fa7","toSide":"top"},
+		{"id":"1fe19549e73bf160","fromNode":"496a43ef0c8250be","fromSide":"right","toNode":"720c886e46c05c35","toSide":"top"},
+		{"id":"ab65902d8dd400c8","fromNode":"720c886e46c05c35","fromSide":"bottom","toNode":"682053baae593261","toSide":"top"}
+	]
 }
