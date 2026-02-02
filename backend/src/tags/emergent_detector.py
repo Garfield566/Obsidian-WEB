@@ -587,8 +587,13 @@ class EmergentTagDetector:
             with open(specialized_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
+            print(f"DEBUG: Fichier contient {len(data)} termes")
+            loaded_count = 0
+            skipped_count = 0
+
             for term_name, term_data in data.items():
                 if term_name.startswith("_"):
+                    skipped_count += 1
                     continue
 
                 # Normalise les synonymes en minuscules
@@ -618,7 +623,9 @@ class EmergentTagDetector:
                     "domaine_exact": term_data.get("domaine_exact", term_data.get("domaine_parent", "")),
                     "validation_weight": term_data.get("validation_weight", 1.0),
                 }
+                loaded_count += 1
 
+            print(f"DEBUG: Chargé {loaded_count} termes, ignoré {skipped_count} termes")
             if self.SPECIALIZED_TERMS:
                 print(f"Loaded {len(self.SPECIALIZED_TERMS)} specialized terms")
 
