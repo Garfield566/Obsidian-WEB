@@ -1,6 +1,7 @@
 ---
-title: — Wikipédia"
-source: "https://fr.wikipedia.org/wiki/author:
+title: "Vinification — Wikipédia"
+source: "https://fr.wikipedia.org/wiki/Vinification"
+author:
   - "[[Contributeurs aux projets Wikimedia]]"
 published: 2004-03-06
 created: 2026-02-02
