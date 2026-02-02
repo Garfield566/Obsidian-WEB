@@ -132,16 +132,26 @@ class SimilarityEngineV2:
             print(f"   ⚠️ {len(errors)} notes avec erreurs")
 
         # Construit l'index vectoriel
+        if show_progress:
+            print(f"   Construction de l'index vectoriel...", flush=True)
+
         paths = list(all_embeddings.keys())
         embeddings = np.array([all_embeddings[p] for p in paths])
 
+        if show_progress:
+            print(f"   Ajout de {len(paths)} vecteurs à l'index...", flush=True)
+
         self.vector_index.add_batch(paths, embeddings)
+
+        if show_progress:
+            print(f"   Construction FAISS...", flush=True)
+
         self.vector_index.build()
 
         self._indexed = True
 
         if show_progress:
-            print(f"   Index construit ({len(paths)} vecteurs)")
+            print(f"   ✓ Index construit ({len(paths)} vecteurs)")
 
     def find_neighbors(
         self,

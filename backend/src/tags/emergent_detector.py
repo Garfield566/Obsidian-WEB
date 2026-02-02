@@ -584,10 +584,14 @@ class EmergentTagDetector:
             return
 
         try:
+            print(f"   Chargement specialized_terms.json...", flush=True)
             with open(specialized_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
-            for term_name, term_data in data.items():
+            total_terms = len(data)
+            print(f"   Traitement de {total_terms:,} termes...", flush=True)
+
+            for idx, (term_name, term_data) in enumerate(data.items(), 1):
                 if term_name.startswith("_"):
                     continue
 
@@ -619,8 +623,13 @@ class EmergentTagDetector:
                     "validation_weight": term_data.get("validation_weight", 1.0),
                 }
 
+                # Progress tous les 10%
+                if idx % max(1, total_terms // 10) == 0:
+                    pct = (idx / total_terms) * 100
+                    print(f"   Chargement termes: {pct:.0f}%", flush=True)
+
             if self.SPECIALIZED_TERMS:
-                print(f"Loaded {len(self.SPECIALIZED_TERMS)} specialized terms")
+                print(f"   ✓ Loaded {len(self.SPECIALIZED_TERMS)} specialized terms")
 
         except (json.JSONDecodeError, IOError) as e:
             print(f"Warning: Could not load specialized_terms.json: {e}")
