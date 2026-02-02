@@ -1,0 +1,752 @@
+{
+  "ashkenaz": {
+    "type": "specialized",
+    "exact_terms": [
+      "ashkenaz"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ashkenaz",
+          "synonyms": [
+            "ashkenaz"
+          ]
+        },
+        {
+          "name": "version",
+          "synonyms": [
+            "version"
+          ]
+        },
+        {
+          "name": "king",
+          "synonyms": [
+            "king"
+          ]
+        },
+        {
+          "name": "james",
+          "synonyms": [
+            "james"
+          ]
+        },
+        {
+          "name": "aschkenaz",
+          "synonyms": [
+            "aschkenaz"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ashkenaz (version King James), Aschkenaz (version Louis Segond) ou Askénaz (version Martin), de l'hébreu אַשְכְּנָז ('aškĕnāz), est un patriarche biblique, évoqué dans la Table des peuples (Genèse 10). Il est d'ascendance japhétique (par opposition aux Sémites et aux Hamites) puisqu'il est le fils aîné de Gomère, petit-fils de Japhet et arrière-petit-fils de Noé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gentil": {
+    "type": "specialized",
+    "exact_terms": [
+      "gentil"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "couramment",
+          "synonyms": [
+            "couramment"
+          ]
+        },
+        {
+          "name": "l'adjectif",
+          "synonyms": [
+            "l'adjectif"
+          ]
+        },
+        {
+          "name": "gentil",
+          "synonyms": [
+            "gentil"
+          ]
+        },
+        {
+          "name": "qualifie",
+          "synonyms": [
+            "qualifie"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Couramment, l'adjectif gentil qualifie une personne bienveillante, qui fait preuve de gentillesse.\n\nDans la fiction, un gentil est un personnage qui fait le bien, généralement opposé au méchant."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "goy": {
+    "type": "specialized",
+    "exact_terms": [
+      "goy"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "goy",
+          "synonyms": [
+            "goy"
+          ]
+        },
+        {
+          "name": "goï",
+          "synonyms": [
+            "goï"
+          ]
+        },
+        {
+          "name": "héb",
+          "synonyms": [
+            "héb"
+          ]
+        },
+        {
+          "name": "גוי",
+          "synonyms": [
+            "גוי"
+          ]
+        },
+        {
+          "name": "nation",
+          "synonyms": [
+            "nation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme de goy ou goï (héb. גוי, nation) apparaît dans la Torah afin de désigner une « personne non juive »,Mais ce mot est également utilisé dans la torah pour parler du peuple juif \"goy kadosh\" peuple saint[Où ?]."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gueniza": {
+    "type": "specialized",
+    "exact_terms": [
+      "gueniza"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gueniza",
+          "synonyms": [
+            "gueniza"
+          ]
+        },
+        {
+          "name": "guenizah",
+          "synonyms": [
+            "guenizah"
+          ]
+        },
+        {
+          "name": "héb",
+          "synonyms": [
+            "héb"
+          ]
+        },
+        {
+          "name": "גניזה",
+          "synonyms": [
+            "גניזה"
+          ]
+        },
+        {
+          "name": "endroit",
+          "synonyms": [
+            "endroit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une gueniza ou guenizah (héb. : גניזה « [endroit de mise en] dépôt » ; pluriel guenizot) est la pièce d’une synagogue servant d’entrepôt, principalement pour des ouvrages traitant de sujets religieux rédigés en hébreu, devenus inutilisables, en attendant de les enterrer dans un cimetière, car il est interdit de jeter des documents écrits comportant l’un des sept Noms de Dieu qu’on ne peut effacer, y compris des lettres personnelles et des contrats légaux qui s’ouvrent par une invocation de Dieu."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hazzan": {
+    "type": "specialized",
+    "exact_terms": [
+      "hazzan"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "hazzan",
+          "synonyms": [
+            "hazzan"
+          ]
+        },
+        {
+          "name": "hébreu",
+          "synonyms": [
+            "hébreu"
+          ]
+        },
+        {
+          "name": "superviseur",
+          "synonyms": [
+            "superviseur"
+          ]
+        },
+        {
+          "name": "khazn",
+          "synonyms": [
+            "khazn"
+          ]
+        },
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le hazzan (hébreu : חַזָּן « superviseur », khazn selon la prononciation judéo-allemande, hassan selon la prononciation judéo-espagnole) est une figure du culte juif.\nIl est originellement responsable de la bonne tenue des offices mais son rôle s’élargit vers l’ère des gueonim pour se confondre avec celui de l’officiant de la prière, et devenir l’équivalent du chantre dans la liturgie chrétienne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "houppa": {
+    "type": "specialized",
+    "exact_terms": [
+      "houppa"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "houppa",
+          "synonyms": [
+            "houppa"
+          ]
+        },
+        {
+          "name": "hébreu",
+          "synonyms": [
+            "hébreu"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "orthographié",
+          "synonyms": [
+            "orthographié"
+          ]
+        },
+        {
+          "name": "khouppa",
+          "synonyms": [
+            "khouppa"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une houppa (hébreu : חוּפָּה, également orthographié khouppa, houppah, ou khouppah — pluriel : houppot, hébreu : חוּפּוֹת) est un dais traditionnellement utilisé lors de la cérémonie juive du mariage. Elle se constitue d'un drap, d'une étoffe, parfois d'un châle de prière, étendu ou soutenu par quatre piliers, fixée devant l'arche sainte ou transportée par des assistants à l'endroit où se tiendra la cérémonie et les bénédictions nuptiales."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "josias": {
+    "type": "specialized",
+    "exact_terms": [
+      "josias"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "josias",
+          "synonyms": [
+            "josias"
+          ]
+        },
+        {
+          "name": "hébreu",
+          "synonyms": [
+            "hébreu"
+          ]
+        },
+        {
+          "name": "yoshiyyahou",
+          "synonyms": [
+            "yoshiyyahou"
+          ]
+        },
+        {
+          "name": "fils",
+          "synonyms": [
+            "fils"
+          ]
+        },
+        {
+          "name": "successeur",
+          "synonyms": [
+            "successeur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Josias (hébreu : יֹאשִׁיָּהוּ, Yoshiyyahou), fils et successeur d'Amon, occupe, selon la Bible, le 16e règne de Juda de 640 av. J.-C. à 609 av."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "judaïsme": {
+    "type": "specialized",
+    "exact_terms": [
+      "judaïsme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "judaïsme",
+          "synonyms": [
+            "judaïsme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "ιουδαϊσμός",
+          "synonyms": [
+            "ιουδαϊσμός"
+          ]
+        },
+        {
+          "name": "ioudaïsmós",
+          "synonyms": [
+            "ioudaïsmós"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le judaïsme (du grec ancien Ιουδαϊσμός / ioudaïsmós, en yiddish : יידישקייט yiddishkeit, ladino : ג’ודאיסמו Djudaismo, en allemand : Judentum, hébreu : יהדות yahadout) est variablement défini comme « une forme de vie religieuse dont la caractéristique essentielle est la croyance à un Être suprême, auteur — de quelque manière qu'on conçoive son action — de l'univers qu'il gouverne par sa providence », ou comme « la religion des Juifs, ainsi que la théologie, la loi et les traditions culturelles d..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "karaïsme": {
+    "type": "specialized",
+    "exact_terms": [
+      "karaïsme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "karaïsme",
+          "synonyms": [
+            "karaïsme"
+          ]
+        },
+        {
+          "name": "hébreu",
+          "synonyms": [
+            "hébreu"
+          ]
+        },
+        {
+          "name": "קראות",
+          "synonyms": [
+            "קראות"
+          ]
+        },
+        {
+          "name": "qaraout",
+          "synonyms": [
+            "qaraout"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le karaïsme (en hébreu : קראות qaraout ; peut aussi s'écrire caraïsme, qaraïsme ou charaïsme) est un courant du judaïsme scripturaliste, car fondé sur la seule Miqra, c'est-à-dire la Bible hébraïque et le refus de la Loi orale. Il est donc en opposition au judaïsme rabbinique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lilith": {
+    "type": "specialized",
+    "exact_terms": [
+      "lilith"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lilith",
+          "synonyms": [
+            "lilith"
+          ]
+        },
+        {
+          "name": "hébreu",
+          "synonyms": [
+            "hébreu"
+          ]
+        },
+        {
+          "name": "לילית",
+          "synonyms": [
+            "לילית"
+          ]
+        },
+        {
+          "name": "démon",
+          "synonyms": [
+            "démon"
+          ]
+        },
+        {
+          "name": "féminin",
+          "synonyms": [
+            "féminin"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lilith (en hébreu : לילית) est un démon féminin de la tradition juive, qui transpose une divinité à l'origine mésopotamienne. Dans les légendes juives qui se répandent au Moyen Âge, Lilith est présentée selon l’Alphabet de Ben Sira comme la première femme d'Adam, avant Ève."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "massorète": {
+    "type": "specialized",
+    "exact_terms": [
+      "massorète"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "massorètes",
+          "synonyms": [
+            "massorètes"
+          ]
+        },
+        {
+          "name": "hébreu",
+          "synonyms": [
+            "hébreu"
+          ]
+        },
+        {
+          "name": "בעלי",
+          "synonyms": [
+            "בעלי"
+          ]
+        },
+        {
+          "name": "המסורה",
+          "synonyms": [
+            "המסורה"
+          ]
+        },
+        {
+          "name": "ba'alei",
+          "synonyms": [
+            "ba'alei"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les massorètes (hébreu בעלי המסורה ba'alei hamassora, « maîtres de la tradition ») deviennent les transmetteurs de la Massorah, la tradition de transmission qui se veut fidèle de la forme textuelle de la Bible hébraïque, ainsi que de ses nuances de prononciation et de vocalisation, à partir des époques auxquelles les langues dans lesquelles la Bible a été rédigée étaient devenues des langues mortes depuis longtemps. \nLes massorètes transmettaient ainsi les textes, sous forme de rouleaux ou de co..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mitzvah": {
+    "type": "specialized",
+    "exact_terms": [
+      "mitzvah"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mitzvah",
+          "synonyms": [
+            "mitzvah"
+          ]
+        },
+        {
+          "name": "hébreu",
+          "synonyms": [
+            "hébreu"
+          ]
+        },
+        {
+          "name": "מצווה",
+          "synonyms": [
+            "מצווה"
+          ]
+        },
+        {
+          "name": "pluriel",
+          "synonyms": [
+            "pluriel"
+          ]
+        },
+        {
+          "name": "mitzvot",
+          "synonyms": [
+            "mitzvot"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mitzvah (hébreu : מצווה ; pluriel, mitzvot) signifie prescription (de צוה, tzavah, « commander »). Il s'agit d'une occurrence particulière au judaïsme pour désigner soit les prescriptions ou commandements contenus dans la Torah, dont la tradition rabbinique estime le nombre à 613, soit la Loi juive elle-même."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pentateuque": {
+    "type": "specialized",
+    "exact_terms": [
+      "pentateuque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pentateuque",
+          "synonyms": [
+            "pentateuque"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "cinq",
+          "synonyms": [
+            "cinq"
+          ]
+        },
+        {
+          "name": "premiers",
+          "synonyms": [
+            "premiers"
+          ]
+        },
+        {
+          "name": "livres",
+          "synonyms": [
+            "livres"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le Pentateuque est l'ensemble des cinq premiers livres de la Bible, c'est-à-dire la Genèse, l'Exode, le Lévitique, les Nombres et le Deutéronome. Il s'agit du nom en usage chez les chrétiens, alors que les juifs nomment ces cinq livres la Torah."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "yechiva": {
+    "type": "specialized",
+    "exact_terms": [
+      "yechiva"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "yechiva",
+          "synonyms": [
+            "yechiva"
+          ]
+        },
+        {
+          "name": "yeshivah",
+          "synonyms": [
+            "yeshivah"
+          ]
+        },
+        {
+          "name": "hébreu",
+          "synonyms": [
+            "hébreu"
+          ]
+        },
+        {
+          "name": "ישיבה",
+          "synonyms": [
+            "ישיבה"
+          ]
+        },
+        {
+          "name": "ješiva",
+          "synonyms": [
+            "ješiva"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une yechiva, ou yeshivah (en hébreu : ישיבה, ješiva, ישיבות ješivot au pluriel) est un centre d'étude de la Torah et du Talmud dans le judaïsme. \nL'enseignement y est destiné aux hommes et aux jeunes de plus de treize ans ; il existe une structure équivalente pour les jeunes filles : les séminaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "érouv": {
+    "type": "specialized",
+    "exact_terms": [
+      "érouv"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "érouv",
+          "synonyms": [
+            "érouv"
+          ]
+        },
+        {
+          "name": "ערוב",
+          "synonyms": [
+            "ערוב"
+          ]
+        },
+        {
+          "name": "mélange",
+          "synonyms": [
+            "mélange"
+          ]
+        },
+        {
+          "name": "clôture",
+          "synonyms": [
+            "clôture"
+          ]
+        },
+        {
+          "name": "destinée",
+          "synonyms": [
+            "destinée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un érouv (hé : ערוב, mélange) est une clôture destinée à servir une communauté juive qui vit selon les lois et les règles du Talmud et de la Torah. L’érouv délimite, dans les villes où il y en a, la zone dans laquelle certaines activités normalement interdites (comme l’action de porter) peuvent être réalisées lors des jours de chabbat et de certaines fêtes juives."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "judaisme",
+    "domaine_exact": "judaisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

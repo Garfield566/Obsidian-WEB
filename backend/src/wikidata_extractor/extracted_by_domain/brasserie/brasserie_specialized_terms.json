@@ -1,0 +1,202 @@
+{
+  "drêche": {
+    "type": "specialized",
+    "exact_terms": [
+      "drêche"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "drêches",
+          "synonyms": [
+            "drêches"
+          ]
+        },
+        {
+          "name": "résidus",
+          "synonyms": [
+            "résidus"
+          ]
+        },
+        {
+          "name": "solides",
+          "synonyms": [
+            "solides"
+          ]
+        },
+        {
+          "name": "production",
+          "synonyms": [
+            "production"
+          ]
+        },
+        {
+          "name": "d'alcool",
+          "synonyms": [
+            "d'alcool"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les drêches sont des résidus solides de la production d'alcool à partir de céréales, généralement utilisées pour l'alimentation animale. Elles sont principalement issues des brasseries et des distilleries fabricant des alcools de consommation ou du bioéthanol."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "brasserie",
+    "domaine_exact": "brasserie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "germoir": {
+    "type": "specialized",
+    "exact_terms": [
+      "germoir"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "germoir",
+          "synonyms": [
+            "germoir"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "germoir",
+          "synonyms": [
+            "germoir"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        },
+        {
+          "name": "servant",
+          "synonyms": [
+            "servant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme « germoir » peut faire référence à :\n\nun germoir, objet servant à faire germer des graines ;\nla gare de Germoir, gare belge ;\nle pont de la rue du Germoir, pont belge."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "brasserie",
+    "domaine_exact": "brasserie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lager": {
+    "type": "specialized",
+    "exact_terms": [
+      "lager"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lager",
+          "synonyms": [
+            "lager"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "bières",
+          "synonyms": [
+            "bières"
+          ]
+        },
+        {
+          "name": "fermentation",
+          "synonyms": [
+            "fermentation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot lager est un terme générique qui désigne des bières à fermentation basse. On distingue les lagers en fonction de leur robe : les pale lager, les lagers ambrées et les lagers brunes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "brasserie",
+    "domaine_exact": "brasserie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "touraillage": {
+    "type": "specialized",
+    "exact_terms": [
+      "touraillage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "touraillage",
+          "synonyms": [
+            "touraillage"
+          ]
+        },
+        {
+          "name": "dernière",
+          "synonyms": [
+            "dernière"
+          ]
+        },
+        {
+          "name": "étapes",
+          "synonyms": [
+            "étapes"
+          ]
+        },
+        {
+          "name": "maltage",
+          "synonyms": [
+            "maltage"
+          ]
+        },
+        {
+          "name": "après",
+          "synonyms": [
+            "après"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le touraillage est la dernière des étapes du maltage après le nettoyage, la trempe et la germination. Cette opération consiste à sécher et à donner du goût, par de l'air chaud,  au malt vert provenant de la germination, dans une touraille."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "brasserie",
+    "domaine_exact": "brasserie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

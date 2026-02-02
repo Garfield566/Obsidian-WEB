@@ -1,0 +1,179 @@
+================================================================================
+PHASE 2 - EXTRACTION DES 15 DOMAINES RESTANTS
+================================================================================
+
+ÉTAT ACTUEL : 26/41 domaines terminés (63%)
+RESTANTS : 15 domaines
+
+RÉPARTITION PHASE 2:
+- PC1 : 4 domaines (1/4 de la charge - PC plus lent)
+- PC2 : 11 domaines (3/4 de la charge - PC plus rapide)
+
+
+================================================================================
+ÉTAPE 1 : COPIER LES NOUVEAUX SCRIPTS SUR LE DISQUE
+================================================================================
+
+Sur PC1, copier les scripts Phase 2 :
+
+xcopy /Y "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extract_pc2_phase2.py" "F:\extraction_quartz\wikidata_extractor\"
+
+xcopy /Y "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\lancer_extraction_pc2_phase2.bat" "F:\extraction_quartz\wikidata_extractor\"
+
+
+================================================================================
+ÉTAPE 2 : LANCER L'EXTRACTION SUR PC1
+================================================================================
+
+Sur PC1 :
+
+cd C:\Users\robin tual\quartz\backend\src\wikidata_extractor
+
+python extract_pc1_phase2.py
+
+
+DOMAINES PC1 PHASE 2 (4) :
+✅ geographie (si terminé, sera skip)
+⏳ philosophie
+⏳ droit
+⏳ psychologie
+
+Temps estimé : 6-10 heures
+
+
+================================================================================
+ÉTAPE 3 : LANCER L'EXTRACTION SUR PC2
+================================================================================
+
+Débrancher F:\ de PC1, brancher sur PC2 (devient E:\)
+
+Sur PC2 :
+
+cd /d E:\extraction_quartz\wikidata_extractor
+
+python extract_pc2_phase2.py
+
+
+OU double-cliquer sur :
+
+E:\extraction_quartz\wikidata_extractor\lancer_extraction_pc2_phase2.bat
+
+
+DOMAINES PC2 PHASE 2 (11) :
+⏳ histoire
+⏳ sociologie
+⏳ anthropologie
+⏳ mecanique
+⏳ electronique (avec arXiv)
+⏳ informatique (avec arXiv)
+⏳ genie_civil
+⏳ linguistique
+⏳ echecs
+⏳ go
+⏳ numismatique
+
+Temps estimé : 16-27 heures
+
+
+================================================================================
+ÉTAPE 4 : COPIER LES RÉSULTATS DE PC2 → PC1
+================================================================================
+
+Après que PC2 Phase 2 ait terminé :
+
+Débrancher E:\ de PC2, rebrancher sur PC1 (redevient F:\)
+
+Sur PC1 :
+
+xcopy /E /I /Y "F:\extraction_quartz\extracted_by_domain\*" "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\"
+
+
+================================================================================
+ÉTAPE 5 : FUSION FINALE DE TOUS LES 41 DOMAINES
+================================================================================
+
+Sur PC1, après avoir copié PC2 Phase 2 :
+
+cd "C:\Users\robin tual\quartz\backend\src\wikidata_extractor"
+
+python extract_by_domain.py --merge-only
+
+
+RÉSULTAT :
+✅ enriched_vocabulary_complete.json (41 domaines fusionnés)
+✅ specialized_terms_complete.json (41 domaines fusionnés)
+✅ extraction_stats_complete.json (statistiques complètes)
+
+
+================================================================================
+RÉCAPITULATIF DES DOMAINES
+================================================================================
+
+PHASE 1 - TERMINÉE (26 domaines) :
+
+PC1 (5) :
+  ✅ mathematiques
+  ✅ physique
+  ✅ chimie
+  ✅ biologie
+  ✅ economie
+
+PC2 (21) :
+  ✅ peinture, dessin, photographie, sculpture, architecture
+  ✅ cinema, musique, theatre, danse
+  ✅ cuisine, oenologie, brasserie
+  ✅ christianisme, islam, judaisme, bouddhisme, hindouisme, mythologie
+  ✅ poesie, litterature, rhetorique
+
+PHASE 2 - À FAIRE (15 domaines) :
+
+PC1 (4) :
+  ⏳ geographie
+  ⏳ philosophie
+  ⏳ droit
+  ⏳ psychologie
+
+PC2 (11) :
+  ⏳ histoire, sociologie, anthropologie
+  ⏳ mecanique, electronique, informatique, genie_civil
+  ⏳ linguistique
+  ⏳ echecs, go
+  ⏳ numismatique
+
+
+================================================================================
+TEMPS ESTIMÉ PHASE 2
+================================================================================
+
+PC1 : 6-10 heures
+PC2 : 16-27 heures (en parallèle)
+
+TOTAL PHASE 2 : ~16-27 heures (le temps du plus long)
+
+
+================================================================================
+COMMANDES RAPIDES
+================================================================================
+
+# PC1 Phase 2
+cd C:\Users\robin tual\quartz\backend\src\wikidata_extractor
+python extract_pc1_phase2.py
+
+# Copier scripts Phase 2 sur disque
+xcopy /Y extract_pc2_phase2.py "F:\extraction_quartz\wikidata_extractor\"
+xcopy /Y lancer_extraction_pc2_phase2.bat "F:\extraction_quartz\wikidata_extractor\"
+
+# PC2 Phase 2 (après branchement sur PC2)
+cd /d E:\extraction_quartz\wikidata_extractor
+python extract_pc2_phase2.py
+
+# Copier résultats PC2 → PC1
+xcopy /E /I /Y "F:\extraction_quartz\extracted_by_domain\*" "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\"
+
+# Fusion finale
+python extract_by_domain.py --merge-only
+
+
+================================================================================
+FIN - PHASE 2 PRÊTE ! 🚀
+================================================================================

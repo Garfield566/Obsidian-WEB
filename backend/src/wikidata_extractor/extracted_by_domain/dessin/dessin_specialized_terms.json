@@ -1,0 +1,1002 @@
+{
+  "anaglyphe": {
+    "type": "specialized",
+    "exact_terms": [
+      "anaglyphe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anaglyphe",
+          "synonyms": [
+            "anaglyphe"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "ciselure",
+          "synonyms": [
+            "ciselure"
+          ]
+        },
+        {
+          "name": "relief",
+          "synonyms": [
+            "relief"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un anaglyphe (en grec ancien : « ciselure en relief », « bas-relief », « ouvrage sculpté », composé d’ana, « du bas vers le haut » et de glyphe, « ciselure ») est une image imprimée pour être vue en relief, à l’aide de deux filtres de couleurs différentes (lunettes 3D) disposés devant chacun des yeux de l’observateur. Ce principe est fondé sur la notion de stéréoscopie qui permet à notre cerveau d’utiliser le décalage entre nos deux yeux pour percevoir le relief."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "autoportrait": {
+    "type": "specialized",
+    "exact_terms": [
+      "autoportrait"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "autoportrait",
+          "synonyms": [
+            "autoportrait"
+          ]
+        },
+        {
+          "name": "représentation",
+          "synonyms": [
+            "représentation"
+          ]
+        },
+        {
+          "name": "imagée",
+          "synonyms": [
+            "imagée"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "elle-même",
+          "synonyms": [
+            "elle-même"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un autoportrait est la représentation imagée d'une personne par elle-même : dessin, peinture, gravure, sculpture, écriture et, depuis la seconde moitié du XIXe siècle, photographie.\nBien que la pratique des arts plastiques ait cours depuis les temps les plus reculés, ce n'est qu'en Europe que l'autoportrait est apparu en tant que genre artistique et seulement à partir de la fin du XIVe siècle : d'abord selon le procédé du caméo (insertion du portrait dans des compositions de grands formats) puis..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "calque": {
+    "type": "specialized",
+    "exact_terms": [
+      "calque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "premier",
+          "synonyms": [
+            "premier"
+          ]
+        },
+        {
+          "name": "calque",
+          "synonyms": [
+            "calque"
+          ]
+        },
+        {
+          "name": "l'italien",
+          "synonyms": [
+            "l'italien"
+          ]
+        },
+        {
+          "name": "calco",
+          "synonyms": [
+            "calco"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Au sens premier, le mot calque (de l'italien calco) désigne la reproduction d'un dessin par des tracés suivant les lignes majeures de l'original, souvent à l'aide d'un papier calque laissant voir l'original.\nLe mot est employé dans les domaines suivants :\n\nen linguistique, un calque est un type d'emprunt lexical ;\nen infographie, un calque est une image caractérisée par sa transparente, ce qu'elle porte laissant voir le fond ou un autre calque, contenu lui-même visible, éventuellement, depuis d'..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "compositing": {
+    "type": "specialized",
+    "exact_terms": [
+      "compositing"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "composition",
+          "synonyms": [
+            "composition"
+          ]
+        },
+        {
+          "name": "d'images",
+          "synonyms": [
+            "d'images"
+          ]
+        },
+        {
+          "name": "mixage",
+          "synonyms": [
+            "mixage"
+          ]
+        },
+        {
+          "name": "d'images",
+          "synonyms": [
+            "d'images"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La composition d'images, ou le mixage d'images (en anglais image compositing), est un ensemble de méthodes de fusion ou de combinaison de sources d’images ou d'éléments composites pour en faire un plan unique. Le résultat peut être plus ou moins réaliste et répondre à des besoins artistiques ou commerciaux."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "crayon aquarellable": {
+    "type": "specialized",
+    "exact_terms": [
+      "crayon aquarellable"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "crayon",
+          "synonyms": [
+            "crayon"
+          ]
+        },
+        {
+          "name": "aquarellable",
+          "synonyms": [
+            "aquarellable"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "crayon",
+          "synonyms": [
+            "crayon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le crayon aquarellable, également appelé crayon aquarelle, mine aquarellable ou crayon delayable, est un crayon de couleur dont la trace est soluble dans l'eau.\nSur un papier sec, il s'applique comme un crayon de couleur ordinaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dessin animé": {
+    "type": "specialized",
+    "exact_terms": [
+      "dessin animé"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dessin",
+          "synonyms": [
+            "dessin"
+          ]
+        },
+        {
+          "name": "animé",
+          "synonyms": [
+            "animé"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "film",
+          "synonyms": [
+            "film"
+          ]
+        },
+        {
+          "name": "d'animation",
+          "synonyms": [
+            "d'animation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le dessin animé est un type de film d'animation, dont la durée varie du court métrage ou long métrage. Un dessin animé consiste à communiquer aux spectateurs l'illusion du mouvement de personnages (ou d'objets) en enregistrant image par image une suite de dessins représentant les différentes phases de ce mouvement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "définition": {
+    "type": "specialized",
+    "exact_terms": [
+      "définition"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "définition",
+          "synonyms": [
+            "définition"
+          ]
+        },
+        {
+          "name": "sert",
+          "synonyms": [
+            "sert"
+          ]
+        },
+        {
+          "name": "caractériser",
+          "synonyms": [
+            "caractériser"
+          ]
+        },
+        {
+          "name": "quelque",
+          "synonyms": [
+            "quelque"
+          ]
+        },
+        {
+          "name": "chose",
+          "synonyms": [
+            "chose"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une définition sert à caractériser « quelque chose ». Cette « chose » peut être un objet, un phénomène, un état, un concept abstrait, un mot, une expression ou toute autre chose qui présente un intérêt et qui est un point de discussion."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "eigenface": {
+    "type": "specialized",
+    "exact_terms": [
+      "eigenface"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "eigenfaces",
+          "synonyms": [
+            "eigenfaces"
+          ]
+        },
+        {
+          "name": "l'allemand",
+          "synonyms": [
+            "l'allemand"
+          ]
+        },
+        {
+          "name": "eigen",
+          "synonyms": [
+            "eigen"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les eigenfaces (de l'allemand eigen = propre et anglais face = visage) sont un ensemble de vecteurs propres utilisés dans le domaine de la vision artificielle afin de résoudre le problème de la reconnaissance du visage humain. Le recours à des eigenfaces pour la reconnaissance a été développé par Sirovich et Kirby (1987) et utilisé par Matthew Turk et Alex Pentland pour la classification de visages."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "figurine": {
+    "type": "specialized",
+    "exact_terms": [
+      "figurine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "figurine",
+          "synonyms": [
+            "figurine"
+          ]
+        },
+        {
+          "name": "statue",
+          "synonyms": [
+            "statue"
+          ]
+        },
+        {
+          "name": "petite",
+          "synonyms": [
+            "petite"
+          ]
+        },
+        {
+          "name": "taille",
+          "synonyms": [
+            "taille"
+          ]
+        },
+        {
+          "name": "représentation",
+          "synonyms": [
+            "représentation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une figurine est une statue de petite taille ou une représentation à l'échelle d'un sujet animalier, d'un être humain, d'une divinité ou même d'un personnage de fiction (héros de bande dessinée, personnage de film …)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "jeu": {
+    "type": "specialized",
+    "exact_terms": [
+      "jeu"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "jeu",
+          "synonyms": [
+            "jeu"
+          ]
+        },
+        {
+          "name": "activité",
+          "synonyms": [
+            "activité"
+          ]
+        },
+        {
+          "name": "humaine",
+          "synonyms": [
+            "humaine"
+          ]
+        },
+        {
+          "name": "animale",
+          "synonyms": [
+            "animale"
+          ]
+        },
+        {
+          "name": "pratiquée",
+          "synonyms": [
+            "pratiquée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le jeu est une activité, humaine ou animale, pratiquée pour se divertir.\nExistant principalement chez les mammifères et certains oiseaux, cette activité d'ordre psychique ou bien physique crée une dépense d'énergie décorrélée des intérêts essentiels immédiats autres que le plaisir."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\dessin industriel",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mapping": {
+    "type": "specialized",
+    "exact_terms": [
+      "mapping"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mapping",
+          "synonyms": [
+            "mapping"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "possédant",
+          "synonyms": [
+            "possédant"
+          ]
+        },
+        {
+          "name": "nombreuses",
+          "synonyms": [
+            "nombreuses"
+          ]
+        },
+        {
+          "name": "significations",
+          "synonyms": [
+            "significations"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mapping est un mot anglais possédant de nombreuses significations. En particulier, il peut désigner :\n\nle data mapping, la mise en cohérence entre deux types d'informations distincts ;\nle level design, la conception de niveau de jeu vidéo ;\ndans le cadre du marketing, le mapping (aussi appelé carte perceptuelle ou perceptual mapping), est une technique qui permet de positionner une entreprise ou un produit face à ses concurrents."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miniature": {
+    "type": "specialized",
+    "exact_terms": [
+      "miniature"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miniature",
+          "synonyms": [
+            "miniature"
+          ]
+        },
+        {
+          "name": "issu",
+          "synonyms": [
+            "issu"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "miniatulus",
+          "synonyms": [
+            "miniatulus"
+          ]
+        },
+        {
+          "name": "coloré",
+          "synonyms": [
+            "coloré"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Miniature, issu du latin miniatulus (« coloré au minium »), désigne les enluminures, puis par analogie (finesse des détails peints) a pour sens quelque chose de petites dimensions."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "occlusion": {
+    "type": "specialized",
+    "exact_terms": [
+      "occlusion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "occlusion",
+          "synonyms": [
+            "occlusion"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "gastro-entérologie",
+          "synonyms": [
+            "gastro-entérologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot occlusion est employé dans plusieurs domaines :\n\nen médecine\nen gastro-entérologie, une occlusion intestinale est une manifestation due à l'arrêt du transit intestinal\nen neurologie, une occlusion de l'artère centrale de la rétine est une maladie rare et sévère de la rétine\nen cardiologie, une occlusion vasculaire est un blocage d'un vaisseau sanguin, généralement avec un caillot.\nen dentisterie, l'occlusion dentaire est la manière dont les dents se joignent lorsque la bouche est fermée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pattern": {
+    "type": "specialized",
+    "exact_terms": [
+      "pattern"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pattern",
+          "synonyms": [
+            "pattern"
+          ]
+        },
+        {
+          "name": "anglicisme",
+          "synonyms": [
+            "anglicisme"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "nombreux",
+          "synonyms": [
+            "nombreux"
+          ]
+        },
+        {
+          "name": "jargons",
+          "synonyms": [
+            "jargons"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot « pattern » est un anglicisme utilisé par de nombreux jargons professionnels. Il désigne, selon le contexte, un modèle, une structure, une organisation, un motif ou un type répétitif auquel il peut conférer des propriétés caractéristiques.À l'inverse, certains anti-patrons se retrouvent dans des erreurs, des instabilités ou des failles classiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "photon mapping": {
+    "type": "specialized",
+    "exact_terms": [
+      "photon mapping"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "imagerie",
+          "synonyms": [
+            "imagerie"
+          ]
+        },
+        {
+          "name": "numérique",
+          "synonyms": [
+            "numérique"
+          ]
+        },
+        {
+          "name": "photon",
+          "synonyms": [
+            "photon"
+          ]
+        },
+        {
+          "name": "mapping",
+          "synonyms": [
+            "mapping"
+          ]
+        },
+        {
+          "name": "placage",
+          "synonyms": [
+            "placage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En imagerie numérique, le photon mapping ou placage de photons est un algorithme d'illumination globale fondé sur le lancer de rayon (ray tracing) utilisé pour simuler l'interaction de la lumière avec différents objets de manière réaliste. Plus précisément, il est capable de simuler la réfraction de la lumière à travers une substance transparente, comme l'eau ou le verre, les inter-réflections diffuses entre objets éclairés, et certains effets volumiques produits par des milieux comme le brouill..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pixel art": {
+    "type": "specialized",
+    "exact_terms": [
+      "pixel art"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pixel",
+          "synonyms": [
+            "pixel"
+          ]
+        },
+        {
+          "name": "art",
+          "synonyms": [
+            "art"
+          ]
+        },
+        {
+          "name": "pik",
+          "synonyms": [
+            "pik"
+          ]
+        },
+        {
+          "name": "sɛl",
+          "synonyms": [
+            "sɛl"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le pixel art [pik.sɛl.aʁ(t)], aussi appelé peinture pixel-par-pixel, art du pixel ou art des pixels [aʁ.dy/de.pik.sɛl] au Québec désigne une composition numérique qui utilise une définition d'écran basse et un nombre de couleurs limité (même si cette double limitation n'est rigoureuse qu'historiquement parlant). De fait, le matériau de base du pixel art est la représentation plastique du pixel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "planche à dessin": {
+    "type": "specialized",
+    "exact_terms": [
+      "planche à dessin"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "planche",
+          "synonyms": [
+            "planche"
+          ]
+        },
+        {
+          "name": "dessin",
+          "synonyms": [
+            "dessin"
+          ]
+        },
+        {
+          "name": "planche",
+          "synonyms": [
+            "planche"
+          ]
+        },
+        {
+          "name": "bois",
+          "synonyms": [
+            "bois"
+          ]
+        },
+        {
+          "name": "contreplaqué",
+          "synonyms": [
+            "contreplaqué"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une planche à dessin est une planche de bois ou de contreplaqué de dimensions variables, rigoureusement rectangulaire, sur laquelle on fixe une feuille de papier afin d'y faire un dessin technique ou artistique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "profileur": {
+    "type": "specialized",
+    "exact_terms": [
+      "profileur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "profileur",
+          "synonyms": [
+            "profileur"
+          ]
+        },
+        {
+          "name": "spécialiste",
+          "synonyms": [
+            "spécialiste"
+          ]
+        },
+        {
+          "name": "établit",
+          "synonyms": [
+            "établit"
+          ]
+        },
+        {
+          "name": "profil",
+          "synonyms": [
+            "profil"
+          ]
+        },
+        {
+          "name": "clients",
+          "synonyms": [
+            "clients"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un profileur peut être : \n\nUn spécialiste qui établit le profil des clients ;\nUn spécialiste de la psychologie des criminels ;\nUne personne qui manœuvre une profileuse ;\nUn profileur est un instrument au moyen duquel on dessine sur le papier les profils d’une route ou d’un chemin de fer[réf. nécessaire] ;\nUn profileur en informatique est un logiciel d'analyse des performances et qualités d'un autre logiciel ;\nUne profileuse est une machine destinée à profiler une pièce[réf."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "réflectance": {
+    "type": "specialized",
+    "exact_terms": [
+      "réflectance"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "photométrie",
+          "synonyms": [
+            "photométrie"
+          ]
+        },
+        {
+          "name": "réflectance",
+          "synonyms": [
+            "réflectance"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "nommée",
+          "synonyms": [
+            "nommée"
+          ]
+        },
+        {
+          "name": "facteur",
+          "synonyms": [
+            "facteur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En photométrie, la réflectance, également nommée facteur de réflexion, est la proportion de lumière réfléchie par la surface d'un matériau. Elle est définie comme le rapport entre le flux lumineux réfléchi (\n  \n    \n      \n        \n          ϕ\n          \n            r\n          \n        \n      \n    \n    {\\displaystyle \\phi _{r}}\n  \n) et le flux lumineux incident (\n  \n    \n      \n        \n          ϕ\n          \n            0\n          \n        \n      \n    \n    {\\displaystyle \\phi _{0}}\n  \n) : \n\n ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "vignette": {
+    "type": "specialized",
+    "exact_terms": [
+      "vignette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "vignette",
+          "synonyms": [
+            "vignette"
+          ]
+        },
+        {
+          "name": "comporte",
+          "synonyms": [
+            "comporte"
+          ]
+        },
+        {
+          "name": "trois",
+          "synonyms": [
+            "trois"
+          ]
+        },
+        {
+          "name": "significations",
+          "synonyms": [
+            "significations"
+          ]
+        },
+        {
+          "name": "principales",
+          "synonyms": [
+            "principales"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot vignette comporte trois significations principales :\n1. Dans son premier sens, le plus ancien, il est utilisé pour désigner tout motif ornemental illustrant les pages de textes imprimés, et notamment ceux placés en tête et en fin de chapitres ou parties (voir aussi Cul-de-lampe (typographie))."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "dessin",
+    "domaine_exact": "dessin\\infographie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

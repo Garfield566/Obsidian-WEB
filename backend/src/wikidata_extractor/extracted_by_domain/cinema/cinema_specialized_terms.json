@@ -1,0 +1,3802 @@
+{
+  "acteur": {
+    "type": "specialized",
+    "exact_terms": [
+      "acteur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "acteur",
+          "synonyms": [
+            "acteur"
+          ]
+        },
+        {
+          "name": "comédien",
+          "synonyms": [
+            "comédien"
+          ]
+        },
+        {
+          "name": "artiste",
+          "synonyms": [
+            "artiste"
+          ]
+        },
+        {
+          "name": "prête",
+          "synonyms": [
+            "prête"
+          ]
+        },
+        {
+          "name": "physique",
+          "synonyms": [
+            "physique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un acteur, ou comédien, est un artiste qui prête son physique ou sa voix à un personnage fictif dans une œuvre artistique animée, au cinéma, au théâtre, à la télévision, à la radio ou encore dans un jeu vidéo, conformément à certaines conventions artistiques. Le principal support de l'acteur est le texte mais il peut également se servir du mime, de la danse ou du chant, selon les besoins de son rôle, notamment dans les comédies musicales."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "adaptation cinématographique": {
+    "type": "specialized",
+    "exact_terms": [
+      "adaptation cinématographique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "adaptation",
+          "synonyms": [
+            "adaptation"
+          ]
+        },
+        {
+          "name": "cinématographique",
+          "synonyms": [
+            "cinématographique"
+          ]
+        },
+        {
+          "name": "film",
+          "synonyms": [
+            "film"
+          ]
+        },
+        {
+          "name": "tiré",
+          "synonyms": [
+            "tiré"
+          ]
+        },
+        {
+          "name": "œuvre",
+          "synonyms": [
+            "œuvre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une adaptation cinématographique est un film tiré d'une œuvre existante telle qu'un livre, un roman, une pièce de théâtre, une bande dessinée, un jeu vidéo (ou une série), une série télévisée ou encore un dessin animé.\nUne adaptation peut être fidèle à l'œuvre originale, ou libre, nombre de détails, comme la fin, ou certains événements importants, sont alors modifiés, des personnages ont pu être ajoutés ou retirés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "amorce": {
+    "type": "specialized",
+    "exact_terms": [
+      "amorce"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "informatique",
+          "synonyms": [
+            "informatique"
+          ]
+        },
+        {
+          "name": "l'amorce",
+          "synonyms": [
+            "l'amorce"
+          ]
+        },
+        {
+          "name": "amorçage",
+          "synonyms": [
+            "amorçage"
+          ]
+        },
+        {
+          "name": "boot",
+          "synonyms": [
+            "boot"
+          ]
+        },
+        {
+          "name": "anglicisme",
+          "synonyms": [
+            "anglicisme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En informatique, l'amorce, ou amorçage, ou boot (anglicisme) désigne la procédure de démarrage d'un ordinateur.\nDans le domaine des pistolets, les pistolets à amorces sont munis d'amorces qui sont des petits recharges rondes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "banshee": {
+    "type": "specialized",
+    "exact_terms": [
+      "banshee"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "banshee",
+          "synonyms": [
+            "banshee"
+          ]
+        },
+        {
+          "name": "banshie",
+          "synonyms": [
+            "banshie"
+          ]
+        },
+        {
+          "name": "bean",
+          "synonyms": [
+            "bean"
+          ]
+        },
+        {
+          "name": "créature",
+          "synonyms": [
+            "créature"
+          ]
+        },
+        {
+          "name": "féminine",
+          "synonyms": [
+            "féminine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une banshee, banshie ou bean sí, est une créature féminine surnaturelle de la mythologie celtique irlandaise, considérée comme une magicienne ou une messagère de l'Autre monde (sidh). Elle est comparable à d'autres créatures mythologiques d'Europe (mythologie galloise ou nordique)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "batman": {
+    "type": "specialized",
+    "exact_terms": [
+      "batman"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "bruce",
+          "synonyms": [
+            "bruce"
+          ]
+        },
+        {
+          "name": "wayne",
+          "synonyms": [
+            "wayne"
+          ]
+        },
+        {
+          "name": "alias",
+          "synonyms": [
+            "alias"
+          ]
+        },
+        {
+          "name": "batman",
+          "synonyms": [
+            "batman"
+          ]
+        },
+        {
+          "name": "super-héros",
+          "synonyms": [
+            "super-héros"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Bruce Wayne, alias Batman, est un super-héros de fiction appartenant à l'univers de DC Comics. Créé par le dessinateur Bob Kane et le scénariste Bill Finger, il apparaît pour la première fois dans le comic book Detective Comics no 27 en 1939 — mai 1939 comme date sur la couverture mais la date réelle de parution est le 30 mars 1939 — sous le nom de The Bat-Man."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "berlinale": {
+    "type": "specialized",
+    "exact_terms": [
+      "berlinale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "berlinale",
+          "synonyms": [
+            "berlinale"
+          ]
+        },
+        {
+          "name": "allemand",
+          "synonyms": [
+            "allemand"
+          ]
+        },
+        {
+          "name": "bɛʁliˈnaːlə",
+          "synonyms": [
+            "bɛʁliˈnaːlə"
+          ]
+        },
+        {
+          "name": "écouter",
+          "synonyms": [
+            "écouter"
+          ]
+        },
+        {
+          "name": "fiche",
+          "synonyms": [
+            "fiche"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La Berlinale (en allemand: /bɛʁliˈnaːlə/ ? Écouter [Fiche], Internationale Filmfestspiele Berlin, littéralement le Festival international du film de Berlin) est un festival de cinéma compétitif, créé en 1951."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "biopunk": {
+    "type": "specialized",
+    "exact_terms": [
+      "biopunk"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biopunk",
+          "synonyms": [
+            "biopunk"
+          ]
+        },
+        {
+          "name": "courant",
+          "synonyms": [
+            "courant"
+          ]
+        },
+        {
+          "name": "littéraire",
+          "synonyms": [
+            "littéraire"
+          ]
+        },
+        {
+          "name": "fin",
+          "synonyms": [
+            "fin"
+          ]
+        },
+        {
+          "name": "années",
+          "synonyms": [
+            "années"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le biopunk est un courant littéraire né à la fin des années 1990. C'est un dérivé du cyberpunk, lui-même sous-genre de la science-fiction."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "cadreur": {
+    "type": "specialized",
+    "exact_terms": [
+      "cadreur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cadreur",
+          "synonyms": [
+            "cadreur"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "caméraman",
+          "synonyms": [
+            "caméraman"
+          ]
+        },
+        {
+          "name": "opérateur",
+          "synonyms": [
+            "opérateur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un cadreur, également appelé caméraman  ou opérateur de prise de vues, est aux commandes d'une caméra lors d'une prise de vues pour le cinéma, la télévision et plus largement l'audiovisuel, qu'il s'agisse de films ou de téléfilms, de documentaires ou d'émissions, en direct ou non. Il est responsable du cadrage, contrôlé par le viseur de caméra et le guidon ou les manivelles du trépied, soit sous les indications ou recommandations d'un réalisateur, soit de sa propre initiative."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "caméra-stylo": {
+    "type": "specialized",
+    "exact_terms": [
+      "caméra-stylo"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "caméra-stylo",
+          "synonyms": [
+            "caméra-stylo"
+          ]
+        },
+        {
+          "name": "développé",
+          "synonyms": [
+            "développé"
+          ]
+        },
+        {
+          "name": "réalisateur",
+          "synonyms": [
+            "réalisateur"
+          ]
+        },
+        {
+          "name": "théoricien",
+          "synonyms": [
+            "théoricien"
+          ]
+        },
+        {
+          "name": "cinéma",
+          "synonyms": [
+            "cinéma"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La caméra-stylo est un concept développé par le réalisateur et théoricien du cinéma Alexandre Astruc, exposé pour la première fois dans l'article Naissance d’une nouvelle avant-garde paru dans le magazine L'Écran français le 30 mars 1948."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "capnomancie": {
+    "type": "specialized",
+    "exact_terms": [
+      "capnomancie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "capnomancie",
+          "synonyms": [
+            "capnomancie"
+          ]
+        },
+        {
+          "name": "art",
+          "synonyms": [
+            "art"
+          ]
+        },
+        {
+          "name": "divinatoire",
+          "synonyms": [
+            "divinatoire"
+          ]
+        },
+        {
+          "name": "tombé",
+          "synonyms": [
+            "tombé"
+          ]
+        },
+        {
+          "name": "désuétude",
+          "synonyms": [
+            "désuétude"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La capnomancie est un art divinatoire, tombé en désuétude, qui interprétait les formes et les couleurs d'une fumée pour en déduire des présages."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "centauresse": {
+    "type": "specialized",
+    "exact_terms": [
+      "centauresse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "centauresses",
+          "synonyms": [
+            "centauresses"
+          ]
+        },
+        {
+          "name": "centaurides",
+          "synonyms": [
+            "centaurides"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "κενταυρίδες",
+          "synonyms": [
+            "κενταυρίδες"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les centauresses ou centaurides (grec ancien : κενταυρίδες, kentaurides) sont des centaures femelles.\nLes centauresses apparaissent dans la mythologie grecque comme membres de la tribu des centaures."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "champ chromatique": {
+    "type": "specialized",
+    "exact_terms": [
+      "champ chromatique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "champ",
+          "synonyms": [
+            "champ"
+          ]
+        },
+        {
+          "name": "chromatique",
+          "synonyms": [
+            "chromatique"
+          ]
+        },
+        {
+          "name": "champ",
+          "synonyms": [
+            "champ"
+          ]
+        },
+        {
+          "name": "lexical",
+          "synonyms": [
+            "lexical"
+          ]
+        },
+        {
+          "name": "noms",
+          "synonyms": [
+            "noms"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le champ chromatique est le champ lexical des noms donnés aux couleurs qui permet l'identification par le langage des différentes nuances de ces couleurs. Les adjectifs pâle ou clair ou au contraire sombre ou foncé précisent la luminosité, terne ou grisé ou au contraire vif ou intense, la vivacité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "charlot": {
+    "type": "specialized",
+    "exact_terms": [
+      "charlot"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "charlot",
+          "synonyms": [
+            "charlot"
+          ]
+        },
+        {
+          "name": "personnage",
+          "synonyms": [
+            "personnage"
+          ]
+        },
+        {
+          "name": "fiction",
+          "synonyms": [
+            "fiction"
+          ]
+        },
+        {
+          "name": "vagabond",
+          "synonyms": [
+            "vagabond"
+          ]
+        },
+        {
+          "name": "interprété",
+          "synonyms": [
+            "interprété"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Charlot est un personnage de fiction, un vagabond interprété par l'acteur britannique Charlie Chaplin dans la plupart de ses films, plus précisément une soixantaine de films courts à partir des années 1910. Les films les plus connus dans lesquels il apparaît sont : Les Temps modernes (1936), La Ruée vers l'or (1925) ou encore Le Kid (1921)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "chronochrome": {
+    "type": "specialized",
+    "exact_terms": [
+      "chronochrome"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chronochrome",
+          "synonyms": [
+            "chronochrome"
+          ]
+        },
+        {
+          "name": "procédé",
+          "synonyms": [
+            "procédé"
+          ]
+        },
+        {
+          "name": "cinéma",
+          "synonyms": [
+            "cinéma"
+          ]
+        },
+        {
+          "name": "couleur",
+          "synonyms": [
+            "couleur"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le chronochrome est un procédé de cinéma couleur utilisé par les industries Gaumont, durant les années 1910 particulièrement. Ce procédé de projection se résumait en la projection de trois images en noir et blanc synchroniquement, avec trois filtres : un vert, un bleu et un rouge."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ciné-parc": {
+    "type": "specialized",
+    "exact_terms": [
+      "ciné-parc"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ciné-parc",
+          "synonyms": [
+            "ciné-parc"
+          ]
+        },
+        {
+          "name": "drive-in",
+          "synonyms": [
+            "drive-in"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "cinéma",
+          "synonyms": [
+            "cinéma"
+          ]
+        },
+        {
+          "name": "plein",
+          "synonyms": [
+            "plein"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le ciné-parc (ou drive-in), est une forme de cinéma en plein air accessible en automobile. Le lieu, offrant un grand espace de parking destiné aux voitures, est composé d'un grand écran, d'une cabine de projection, parfois d'un espace de vente de boissons et collations."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "climax": {
+    "type": "specialized",
+    "exact_terms": [
+      "climax"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "climax",
+          "synonyms": [
+            "climax"
+          ]
+        },
+        {
+          "name": "kli",
+          "synonyms": [
+            "kli"
+          ]
+        },
+        {
+          "name": "maks",
+          "synonyms": [
+            "maks"
+          ]
+        },
+        {
+          "name": "point",
+          "synonyms": [
+            "point"
+          ]
+        },
+        {
+          "name": "ultime",
+          "synonyms": [
+            "ultime"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un climax [kli.maks] est un point ultime ou culminant dans une succession ou progression à travers le temps. Ce terme, quasi-synonyme d'acmé ou d'apogée, est particulièrement employé, d'une part en littérature ou autres arts, de l'autre en écologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\scénario",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "colleuse": {
+    "type": "specialized",
+    "exact_terms": [
+      "colleuse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "colleuse",
+          "synonyms": [
+            "colleuse"
+          ]
+        },
+        {
+          "name": "colleuse-monteuse",
+          "synonyms": [
+            "colleuse-monteuse"
+          ]
+        },
+        {
+          "name": "appareil",
+          "synonyms": [
+            "appareil"
+          ]
+        },
+        {
+          "name": "montage",
+          "synonyms": [
+            "montage"
+          ]
+        },
+        {
+          "name": "permettant",
+          "synonyms": [
+            "permettant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La colleuse ou colleuse-monteuse est un appareil de montage permettant de découper puis de recoller des morceaux de pellicule cinématographique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "computronium": {
+    "type": "specialized",
+    "exact_terms": [
+      "computronium"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "computronium",
+          "synonyms": [
+            "computronium"
+          ]
+        },
+        {
+          "name": "matériau",
+          "synonyms": [
+            "matériau"
+          ]
+        },
+        {
+          "name": "hypothétique",
+          "synonyms": [
+            "hypothétique"
+          ]
+        },
+        {
+          "name": "proposé",
+          "synonyms": [
+            "proposé"
+          ]
+        },
+        {
+          "name": "norman",
+          "synonyms": [
+            "norman"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le Computronium est un matériau hypothétique proposé par Norman Margolus et Tommaso Toffoli de l'Institut de Technologie du Massachusetts en 1991. Le computronium désigne la substance la plus élémentaire possible pouvant traiter de l'information et pouvant ainsi être utilisée comme matière programmable."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dakimakura": {
+    "type": "specialized",
+    "exact_terms": [
+      "dakimakura"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dakimakura",
+          "synonyms": [
+            "dakimakura"
+          ]
+        },
+        {
+          "name": "抱き枕",
+          "synonyms": [
+            "抱き枕"
+          ]
+        },
+        {
+          "name": "daku",
+          "synonyms": [
+            "daku"
+          ]
+        },
+        {
+          "name": "étreindre",
+          "synonyms": [
+            "étreindre"
+          ]
+        },
+        {
+          "name": "enlacer",
+          "synonyms": [
+            "enlacer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un dakimakura (抱き枕, de 抱く daku « étreindre, enlacer » et 枕 makura « oreiller, traversin ») est un genre de grand coussin inventé au Japon, large comme un oreiller commun mais long d'environ 1,50 mètre traditionnellement. Avec l'engouement qu'il y a eu autour, il est possible de trouver certains dakimakura plus petits, d'environ 1 mètre pour les plus petits, et jusqu'à 7 mètres pour les plus longs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fiction japonaise",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "double maléfique": {
+    "type": "specialized",
+    "exact_terms": [
+      "double maléfique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "double",
+          "synonyms": [
+            "double"
+          ]
+        },
+        {
+          "name": "maléfique",
+          "synonyms": [
+            "maléfique"
+          ]
+        },
+        {
+          "name": "œuvres",
+          "synonyms": [
+            "œuvres"
+          ]
+        },
+        {
+          "name": "fiction",
+          "synonyms": [
+            "fiction"
+          ]
+        },
+        {
+          "name": "personnage",
+          "synonyms": [
+            "personnage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le double maléfique est, dans les œuvres de fiction, un personnage à l'exact opposé d'un autre, dont  il représente une version négative tout en conservant son apparence physique. Le double maléfique peut être un jumeau (en anglais un evil twin) du personnage dont il est le double."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dracula": {
+    "type": "specialized",
+    "exact_terms": [
+      "dracula"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dracula",
+          "synonyms": [
+            "dracula"
+          ]
+        },
+        {
+          "name": "roman",
+          "synonyms": [
+            "roman"
+          ]
+        },
+        {
+          "name": "épistolaire",
+          "synonyms": [
+            "épistolaire"
+          ]
+        },
+        {
+          "name": "l'écrivain",
+          "synonyms": [
+            "l'écrivain"
+          ]
+        },
+        {
+          "name": "irlandais",
+          "synonyms": [
+            "irlandais"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dracula est un roman épistolaire de l'écrivain irlandais Bram Stoker publié en 1897. C'est l'une des œuvres les plus célèbres de la littérature britannique et nombre de ses protagonistes sont entrés dans la culture populaire en tant que versions archétypales de leurs personnages, par exemple, le comte Dracula pour le vampire par excellence et Abraham Van Helsing pour le chasseur de vampires emblématique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dragonneau": {
+    "type": "specialized",
+    "exact_terms": [
+      "dragonneau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dragonneau",
+          "synonyms": [
+            "dragonneau"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "dragonneau",
+          "synonyms": [
+            "dragonneau"
+          ]
+        },
+        {
+          "name": "petit",
+          "synonyms": [
+            "petit"
+          ]
+        },
+        {
+          "name": "dragon",
+          "synonyms": [
+            "dragon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme « dragonneau » peut faire référence à :\n\nle dragonneau, petit du dragon ;\nNorbert Dragonneau, personnage de la série de films Les Animaux fantastiques ;\nle Filaire de Médine (Dracunculus medinensis), anciennement appelé dragonneau, espèce de nématodes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dramaturgie": {
+    "type": "specialized",
+    "exact_terms": [
+      "dramaturgie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dramaturgie",
+          "synonyms": [
+            "dramaturgie"
+          ]
+        },
+        {
+          "name": "art",
+          "synonyms": [
+            "art"
+          ]
+        },
+        {
+          "name": "transformer",
+          "synonyms": [
+            "transformer"
+          ]
+        },
+        {
+          "name": "histoire",
+          "synonyms": [
+            "histoire"
+          ]
+        },
+        {
+          "name": "vraie",
+          "synonyms": [
+            "vraie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La dramaturgie est l’art de transformer une histoire, vraie ou imaginaire, en un récit construit, comportant un ou des personnages en action. Elle est utilisée en plusieurs domaines comme :\n\nDramaturgie (théâtre), l’art du récit représenté, dans le cadre d’un spectacle vivant."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\scénario",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "druide": {
+    "type": "specialized",
+    "exact_terms": [
+      "druide"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "druide",
+          "synonyms": [
+            "druide"
+          ]
+        },
+        {
+          "name": "membre",
+          "synonyms": [
+            "membre"
+          ]
+        },
+        {
+          "name": "classe",
+          "synonyms": [
+            "classe"
+          ]
+        },
+        {
+          "name": "supérieure",
+          "synonyms": [
+            "supérieure"
+          ]
+        },
+        {
+          "name": "cultures",
+          "synonyms": [
+            "cultures"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le druide est un membre de la classe supérieure dans les cultures celtiques antiques, le druide joue plusieurs rôles d'ordre religieux et politique : ministre du culte, théologien, philosophe, gardien du savoir et de la sagesse, enseignant, historien, juriste, mais aussi conseiller militaire du roi et de la classe guerrière. Il est l’intermédiaire entre les Dieux et les hommes, et correspond à la première fonction de l'idéologie tripartite des Indo-Européens mise en lumière par Georges Dumézil."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dystopie": {
+    "type": "specialized",
+    "exact_terms": [
+      "dystopie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dystopie",
+          "synonyms": [
+            "dystopie"
+          ]
+        },
+        {
+          "name": "récit",
+          "synonyms": [
+            "récit"
+          ]
+        },
+        {
+          "name": "fiction",
+          "synonyms": [
+            "fiction"
+          ]
+        },
+        {
+          "name": "dépeignant",
+          "synonyms": [
+            "dépeignant"
+          ]
+        },
+        {
+          "name": "société",
+          "synonyms": [
+            "société"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une dystopie est un récit de fiction dépeignant une société imaginaire organisée de telle façon qu'il soit impossible de lui échapper et dont les dirigeants peuvent exercer une autorité totale et sans contrainte de séparation des pouvoirs, sur des citoyens qui ne peuvent plus exercer leur libre arbitre.\nUne dystopie peut également être considérée, entre autres, comme une utopie qui vire au cauchemar et conduit donc à une contre-utopie ; l'auteur entend ainsi mettre en garde le lecteur en montran..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "découpage": {
+    "type": "specialized",
+    "exact_terms": [
+      "découpage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "découpage",
+          "synonyms": [
+            "découpage"
+          ]
+        },
+        {
+          "name": "procédé",
+          "synonyms": [
+            "procédé"
+          ]
+        },
+        {
+          "name": "fabrication",
+          "synonyms": [
+            "fabrication"
+          ]
+        },
+        {
+          "name": "pièces",
+          "synonyms": [
+            "pièces"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le découpage est un procédé de fabrication de pièces qui consiste à diviser un sous-produit en plusieurs parties. Différentes techniques permettant le découpage :\n\nLe découpage par cisaillement : sont envisagés, le cisaillage, le poinçonnage, le grignotage..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ecchi": {
+    "type": "specialized",
+    "exact_terms": [
+      "ecchi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ecchi",
+          "synonyms": [
+            "ecchi"
+          ]
+        },
+        {
+          "name": "エッチ",
+          "synonyms": [
+            "エッチ"
+          ]
+        },
+        {
+          "name": "etchi",
+          "synonyms": [
+            "etchi"
+          ]
+        },
+        {
+          "name": "prononce",
+          "synonyms": [
+            "prononce"
+          ]
+        },
+        {
+          "name": "etːt",
+          "synonyms": [
+            "etːt"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ecchi (エッチ, etchi, se prononce /etːt͡ɕɪ/) est un mot japonais signifiant « indécent », « lubrique » ou encore plus souvent « pervers ». Au Japon, le terme est aussi utilisé avec une connotation sexuelle pouvant avoir le sens de « sexuellement inapproprié », « sexe », « érotique » ou « pornographique »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fiction japonaise",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "film culte": {
+    "type": "specialized",
+    "exact_terms": [
+      "film culte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "film",
+          "synonyms": [
+            "film"
+          ]
+        },
+        {
+          "name": "culte",
+          "synonyms": [
+            "culte"
+          ]
+        },
+        {
+          "name": "film",
+          "synonyms": [
+            "film"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        },
+        {
+          "name": "original",
+          "synonyms": [
+            "original"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un film culte est un film, généralement original, réunissant un groupe de fans fortement dévoués. Le terme ne désigne ni un genre au sens propre, ni une qualité esthétique, mais qualifie un film en fonction de la façon particulière dont il est reçu par le public ou une partie du public."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fée des houles": {
+    "type": "specialized",
+    "exact_terms": [
+      "fée des houles"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fées",
+          "synonyms": [
+            "fées"
+          ]
+        },
+        {
+          "name": "houles",
+          "synonyms": [
+            "houles"
+          ]
+        },
+        {
+          "name": "fées",
+          "synonyms": [
+            "fées"
+          ]
+        },
+        {
+          "name": "propres",
+          "synonyms": [
+            "propres"
+          ]
+        },
+        {
+          "name": "côte",
+          "synonyms": [
+            "côte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les fées des houles sont des fées propres à la côte de la Manche qui s'étend de Cancale à Tréveneuc en Haute-Bretagne, aux Îles Anglo-Normandes, et connues par quelques fragments de récits dans le Cotentin. Elles vivraient dans les grottes et cavernes côtières nommées houles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "girafe": {
+    "type": "specialized",
+    "exact_terms": [
+      "girafe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "girafes",
+          "synonyms": [
+            "girafes"
+          ]
+        },
+        {
+          "name": "giraffa",
+          "synonyms": [
+            "giraffa"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "mammifères",
+          "synonyms": [
+            "mammifères"
+          ]
+        },
+        {
+          "name": "artiodactyles",
+          "synonyms": [
+            "artiodactyles"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les girafes (Giraffa) sont un genre de mammifères artiodactyles ruminants, de la famille des Giraffidés. Elles vivent dans les savanes africaines et sont répandues du Tchad jusqu'en Afrique du Sud."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gnoll": {
+    "type": "specialized",
+    "exact_terms": [
+      "gnoll"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gnolls",
+          "synonyms": [
+            "gnolls"
+          ]
+        },
+        {
+          "name": "race",
+          "synonyms": [
+            "race"
+          ]
+        },
+        {
+          "name": "humanoïde",
+          "synonyms": [
+            "humanoïde"
+          ]
+        },
+        {
+          "name": "fictive",
+          "synonyms": [
+            "fictive"
+          ]
+        },
+        {
+          "name": "apparue",
+          "synonyms": [
+            "apparue"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les gnolls sont une race humanoïde fictive, apparue pour la première fois dans le jeu de rôle Donjons et Dragons en 1974. Généralement représentés comme des humanoïdes à tête de hyène, ces monstres sont inspirés de créatures issues des œuvres littéraires de Lord Dunsany et Margaret St."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gore": {
+    "type": "specialized",
+    "exact_terms": [
+      "gore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gore",
+          "synonyms": [
+            "gore"
+          ]
+        },
+        {
+          "name": "anglicisme",
+          "synonyms": [
+            "anglicisme"
+          ]
+        },
+        {
+          "name": "invariable",
+          "synonyms": [
+            "invariable"
+          ]
+        },
+        {
+          "name": "traduisant",
+          "synonyms": [
+            "traduisant"
+          ]
+        },
+        {
+          "name": "contexte",
+          "synonyms": [
+            "contexte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Gore est un anglicisme invariable traduisant un contexte qui suscite l'épouvante de par l'abondance de sang."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hoverboard": {
+    "type": "specialized",
+    "exact_terms": [
+      "hoverboard"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'hoverboard",
+          "synonyms": [
+            "l'hoverboard"
+          ]
+        },
+        {
+          "name": "départ",
+          "synonyms": [
+            "départ"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        },
+        {
+          "name": "fictif",
+          "synonyms": [
+            "fictif"
+          ]
+        },
+        {
+          "name": "anticipation",
+          "synonyms": [
+            "anticipation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'hoverboard est au départ un objet fictif, anticipation futuriste cinématographique d'une trottinette évoluée, dépourvue de roues et permettant de se déplacer en planant de quelques centimètres au-dessus du sol par lévitation ou sustentation électromagnétique. Il apparaît au grand public pour la première fois dans le film Retour vers le futur 2."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "insert": {
+    "type": "specialized",
+    "exact_terms": [
+      "insert"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "insert",
+          "synonyms": [
+            "insert"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "insert",
+          "synonyms": [
+            "insert"
+          ]
+        },
+        {
+          "name": "inser",
+          "synonyms": [
+            "inser"
+          ]
+        },
+        {
+          "name": "clavier",
+          "synonyms": [
+            "clavier"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Insert peut faire référence à :\n\nInsert ou Inser sur un clavier d'ordinateur personnel désigne la touche d'insertion ;\nInsert, un terme désignant une molécule d'ADN bicaténaire et linéaire qui s'insère dans un vecteur ouvert ;\nla commande SQL INSERT ajoute un ou plusieurs tuples dans une table d'une base de données relationnelle ;\nUn insert est un type de cheminée ; ce mot désigne parfois uniquement un élément d'une cheminée permettant de fermer le foyer : on parlera alors d'un insert à bois ;\ne..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ips": {
+    "type": "specialized",
+    "exact_terms": [
+      "ips"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ips",
+          "synonyms": [
+            "ips"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "d'insectes",
+          "synonyms": [
+            "d'insectes"
+          ]
+        },
+        {
+          "name": "l'ordre",
+          "synonyms": [
+            "l'ordre"
+          ]
+        },
+        {
+          "name": "coléoptères",
+          "synonyms": [
+            "coléoptères"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ips est un genre d'insectes de l'ordre des coléoptères, de la famille des Curculionidae et de la sous-famille des Scolytinae. C'est un genre d’insectes xylophages ravageurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "light novel": {
+    "type": "specialized",
+    "exact_terms": [
+      "light novel"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "light",
+          "synonyms": [
+            "light"
+          ]
+        },
+        {
+          "name": "novel",
+          "synonyms": [
+            "novel"
+          ]
+        },
+        {
+          "name": "ライトノベル",
+          "synonyms": [
+            "ライトノベル"
+          ]
+        },
+        {
+          "name": "raito",
+          "synonyms": [
+            "raito"
+          ]
+        },
+        {
+          "name": "noberu",
+          "synonyms": [
+            "noberu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un light novel (ライトノベル, raito noberu, litt. « roman léger » ; par ext."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fiction japonaise",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liotte": {
+    "type": "specialized",
+    "exact_terms": [
+      "liotte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "liotte",
+          "synonyms": [
+            "liotte"
+          ]
+        },
+        {
+          "name": "hameau",
+          "synonyms": [
+            "hameau"
+          ]
+        },
+        {
+          "name": "village",
+          "synonyms": [
+            "village"
+          ]
+        },
+        {
+          "name": "rivage",
+          "synonyms": [
+            "rivage"
+          ]
+        },
+        {
+          "name": "situé",
+          "synonyms": [
+            "situé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Liotte est un hameau du village de Rivage, situé au confluent de l'Ourthe et de l'Amblève, dans la province de Liège, en Belgique. Sur la rive droite de l'Amblève et faisant face à Pont-de-Sçay, le hameau fait administrativement partie (avec Rivage) de la commune de Sprimont (Région wallonne de Belgique)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "loi": {
+    "type": "specialized",
+    "exact_terms": [
+      "loi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "loi",
+          "synonyms": [
+            "loi"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "lex",
+          "synonyms": [
+            "lex"
+          ]
+        },
+        {
+          "name": "legis",
+          "synonyms": [
+            "legis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En droit, la loi (du latin lex, legis, qui signifie loi, acte normatif) est une règle juridique. La notion de loi se définit par rapport au contrat et au traité (qui résultent d'une négociation entre égaux (sur le plan du droit)) mais aussi par rapport à d'autres sources de droit : la tradition (us et coutumes), la jurisprudence, le droit naturel, les lois fondamentales (constitution, « grande charte », etc.), et les règlements et autres actes écrits du pouvoir exécutif."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lutine": {
+    "type": "specialized",
+    "exact_terms": [
+      "lutine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lutine",
+          "synonyms": [
+            "lutine"
+          ]
+        },
+        {
+          "name": "comédie",
+          "synonyms": [
+            "comédie"
+          ]
+        },
+        {
+          "name": "française",
+          "synonyms": [
+            "française"
+          ]
+        },
+        {
+          "name": "réalisée",
+          "synonyms": [
+            "réalisée"
+          ]
+        },
+        {
+          "name": "isabelle",
+          "synonyms": [
+            "isabelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Lutine est une comédie française réalisée par Isabelle Broué, projetée dès 2016 puis sortie en 2018. L'intrigue tourne autour du polyamour, et le style brouille les genres entre documentaire et fiction."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "magicienne": {
+    "type": "specialized",
+    "exact_terms": [
+      "magicienne"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "magicienne",
+          "synonyms": [
+            "magicienne"
+          ]
+        },
+        {
+          "name": "sous-famille",
+          "synonyms": [
+            "sous-famille"
+          ]
+        },
+        {
+          "name": "d'orthoptères",
+          "synonyms": [
+            "d'orthoptères"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "tettigoniidae",
+          "synonyms": [
+            "tettigoniidae"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Magicienne, sous-famille d'orthoptères de la famille des Tettigoniidae ;\nMagicienne, un tableau peint par Dosso Dossi au début du XVIe siècle.\nMagicienne (1778), une frégate française de 1778 à 1781, puis britannique jusqu'en 1810."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mandragore": {
+    "type": "specialized",
+    "exact_terms": [
+      "mandragore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mandragore",
+          "synonyms": [
+            "mandragore"
+          ]
+        },
+        {
+          "name": "mandragore",
+          "synonyms": [
+            "mandragore"
+          ]
+        },
+        {
+          "name": "officinale",
+          "synonyms": [
+            "officinale"
+          ]
+        },
+        {
+          "name": "mandragora",
+          "synonyms": [
+            "mandragora"
+          ]
+        },
+        {
+          "name": "officinarum",
+          "synonyms": [
+            "officinarum"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La Mandragore ou Mandragore officinale (Mandragora officinarum) est une espèce de plantes à fleurs, de la famille des Solanacées. C'est une plante herbacée vivace des pays du pourtour méditerranéen."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "melmac": {
+    "type": "specialized",
+    "exact_terms": [
+      "melmac"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "melmac",
+          "synonyms": [
+            "melmac"
+          ]
+        },
+        {
+          "name": "planète",
+          "synonyms": [
+            "planète"
+          ]
+        },
+        {
+          "name": "fictive",
+          "synonyms": [
+            "fictive"
+          ]
+        },
+        {
+          "name": "série",
+          "synonyms": [
+            "série"
+          ]
+        },
+        {
+          "name": "télévisée",
+          "synonyms": [
+            "télévisée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Melmac est une planète fictive de la série télévisée Alf. Son nom fait référence à une marque de service de table populaire aux États-Unis dans les années 1950."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "merrow": {
+    "type": "specialized",
+    "exact_terms": [
+      "merrow"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "merrow",
+          "synonyms": [
+            "merrow"
+          ]
+        },
+        {
+          "name": "gaélique",
+          "synonyms": [
+            "gaélique"
+          ]
+        },
+        {
+          "name": "moruadh",
+          "synonyms": [
+            "moruadh"
+          ]
+        },
+        {
+          "name": "galloway",
+          "synonyms": [
+            "galloway"
+          ]
+        },
+        {
+          "name": "murrùghach",
+          "synonyms": [
+            "murrùghach"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le merrow (gaélique : moruadh ; galloway : murrùghach) est une créature légendaire présente dans le folklore écossais et irlandais. Le merrow est l'équivalent gaélique de la sirène, et un peuple cousin des nixes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mockbuster": {
+    "type": "specialized",
+    "exact_terms": [
+      "mockbuster"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mockbuster",
+          "synonyms": [
+            "mockbuster"
+          ]
+        },
+        {
+          "name": "construit",
+          "synonyms": [
+            "construit"
+          ]
+        },
+        {
+          "name": "analogie",
+          "synonyms": [
+            "analogie"
+          ]
+        },
+        {
+          "name": "blockbuster",
+          "synonyms": [
+            "blockbuster"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mockbuster, mot construit par analogie avec blockbuster, désigne dans le cinéma une réalisation plus ou moins inspirée d'une œuvre similaire mais à gros budget, en général directement distribué en format vidéo."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "moyen métrage": {
+    "type": "specialized",
+    "exact_terms": [
+      "moyen métrage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moyen",
+          "synonyms": [
+            "moyen"
+          ]
+        },
+        {
+          "name": "métrage",
+          "synonyms": [
+            "métrage"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "écrit",
+          "synonyms": [
+            "écrit"
+          ]
+        },
+        {
+          "name": "moyen-métrage",
+          "synonyms": [
+            "moyen-métrage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme moyen métrage (également écrit moyen-métrage) désigne communément les films dont la durée est comprise entre 30 et 59 minutes. En France, ce terme n'est pas reconnu par le Centre national de la cinématographie (CNC), contrairement au court métrage (dont la durée est censée varier entre 1 et 59 minutes) ou au long métrage (à partir de 60 minutes), qui jouissent d'une définition légale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "multivers": {
+    "type": "specialized",
+    "exact_terms": [
+      "multivers"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "sciences",
+          "synonyms": [
+            "sciences"
+          ]
+        },
+        {
+          "name": "multivers",
+          "synonyms": [
+            "multivers"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "univers",
+          "synonyms": [
+            "univers"
+          ]
+        },
+        {
+          "name": "présents",
+          "synonyms": [
+            "présents"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En sciences, le multivers est l'ensemble des univers présents concurremment, dans le cadre d'une théorie cosmologique donnée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "nain": {
+    "type": "specialized",
+    "exact_terms": [
+      "nain"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "nain",
+          "synonyms": [
+            "nain"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "animal",
+          "synonyms": [
+            "animal"
+          ]
+        },
+        {
+          "name": "végétal",
+          "synonyms": [
+            "végétal"
+          ]
+        },
+        {
+          "name": "atteint",
+          "synonyms": [
+            "atteint"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Nain peut désigner :\n\nune personne, un animal ou végétal atteint de nanisme ;\nun nain, créature légendaire ou de fiction ;\nun nain, créature de la mythologie nordique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "navet": {
+    "type": "specialized",
+    "exact_terms": [
+      "navet"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "navet",
+          "synonyms": [
+            "navet"
+          ]
+        },
+        {
+          "name": "brassica",
+          "synonyms": [
+            "brassica"
+          ]
+        },
+        {
+          "name": "rapa",
+          "synonyms": [
+            "rapa"
+          ]
+        },
+        {
+          "name": "subsp",
+          "synonyms": [
+            "subsp"
+          ]
+        },
+        {
+          "name": "rapa",
+          "synonyms": [
+            "rapa"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le navet, Brassica rapa L. subsp. rapa (du latin napus : chou-navet, rapum : rave, bulbe de racine ; du grec ράπυς / rápus, « rave, navet »), est une sous-espèce de plante herbacée de la famille des Brassicacées, cultivée comme plante potagère ou fourragère pour sa racine charnue allongée ou arrondie, consommée comme légume."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "nekomimi": {
+    "type": "specialized",
+    "exact_terms": [
+      "nekomimi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "nekomimi",
+          "synonyms": [
+            "nekomimi"
+          ]
+        },
+        {
+          "name": "oreilles",
+          "synonyms": [
+            "oreilles"
+          ]
+        },
+        {
+          "name": "chat",
+          "synonyms": [
+            "chat"
+          ]
+        },
+        {
+          "name": "manga",
+          "synonyms": [
+            "manga"
+          ]
+        },
+        {
+          "name": "anime",
+          "synonyms": [
+            "anime"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une nekomimi (猫耳, « oreilles de chat ») est, dans les manga, anime et jeux vidéo, un personnage généralement féminin doté d'oreilles de chat et souvent également d'une queue, voire d'autres attributs félins comme des griffes. Elle peut également être appelée nekomusume ou plus familièrement nekoko (猫娘, « fille-chat »)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fiction japonaise",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ost": {
+    "type": "specialized",
+    "exact_terms": [
+      "ost"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ost",
+          "synonyms": [
+            "ost"
+          ]
+        },
+        {
+          "name": "host",
+          "synonyms": [
+            "host"
+          ]
+        },
+        {
+          "name": "désignait",
+          "synonyms": [
+            "désignait"
+          ]
+        },
+        {
+          "name": "l'armée",
+          "synonyms": [
+            "l'armée"
+          ]
+        },
+        {
+          "name": "campagne",
+          "synonyms": [
+            "campagne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme ost ou host désignait l'armée en campagne à l'époque féodale et le service militaire que les vassaux devaient à leur suzerain au Moyen Âge. Dès le haut Moyen Âge, le service d'ost ou ost s'imposait à tous les hommes libres (« homines liberi »), vassaux, vavasseurs, jusqu'à une partie des vilains."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ouija": {
+    "type": "specialized",
+    "exact_terms": [
+      "ouija"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ouija",
+          "synonyms": [
+            "ouija"
+          ]
+        },
+        {
+          "name": "prononcé",
+          "synonyms": [
+            "prononcé"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "ˈwiː",
+          "synonyms": [
+            "ˈwiː"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le ouija (prononcé : /wi.ʒa/ en français ; en anglais : /ˈwiː.dʒə/ ou /ˈwiː.dʒi/) est une planche censée permettre la communication avec des « esprits », elle fait partie des instruments de psychographie indirecte selon les spirites.\nLe ouija est une planche sur laquelle apparaissent les lettres de l'alphabet latin, les dix chiffres arabes, ainsi que les termes « oui », « non », « bonjour » et « au revoir », censée permettre la communication avec les esprits au moyen d'un accessoire placé sur la..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pantropie": {
+    "type": "specialized",
+    "exact_terms": [
+      "pantropie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pantropie",
+          "synonyms": [
+            "pantropie"
+          ]
+        },
+        {
+          "name": "thème",
+          "synonyms": [
+            "thème"
+          ]
+        },
+        {
+          "name": "issu",
+          "synonyms": [
+            "issu"
+          ]
+        },
+        {
+          "name": "science-fiction",
+          "synonyms": [
+            "science-fiction"
+          ]
+        },
+        {
+          "name": "l'inverse",
+          "synonyms": [
+            "l'inverse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pantropie, thème issu de la science-fiction, est l'inverse de la terraformation. Là où la terraformation se donne pour but de modifier l'environnement d'une planète pour la rendre propice à la vie humaine, la pantropie a pour objectif à travers des modifications génétiques d'adapter l'espèce humaine afin de la rendre capable de survivre et de prospérer dans un environnement hostile pour un humain normal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "passer": {
+    "type": "specialized",
+    "exact_terms": [
+      "passer"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "passer",
+          "synonyms": [
+            "passer"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "passereaux",
+          "synonyms": [
+            "passereaux"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "passeridae",
+          "synonyms": [
+            "passeridae"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Passer est un genre de passereaux de la famille des Passeridae. Il a été créé par le zoologiste français Mathurin Jacques Brisson (1723-1806) en 1760."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pays imaginaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "pays imaginaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pays",
+          "synonyms": [
+            "pays"
+          ]
+        },
+        {
+          "name": "imaginaire",
+          "synonyms": [
+            "imaginaire"
+          ]
+        },
+        {
+          "name": "pays",
+          "synonyms": [
+            "pays"
+          ]
+        },
+        {
+          "name": "l'existence",
+          "synonyms": [
+            "l'existence"
+          ]
+        },
+        {
+          "name": "fictive",
+          "synonyms": [
+            "fictive"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pays imaginaire est un pays dont l'existence est fictive, soit qu'il soit tiré d'un univers de fiction, soit qu'il ait été créé dans un but politique ou scientifique, pour servir de points de comparaison avec des pays réels, ou à titre parodique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "phénicien": {
+    "type": "specialized",
+    "exact_terms": [
+      "phénicien"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "phénicien",
+          "synonyms": [
+            "phénicien"
+          ]
+        },
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "morte",
+          "synonyms": [
+            "morte"
+          ]
+        },
+        {
+          "name": "parlée",
+          "synonyms": [
+            "parlée"
+          ]
+        },
+        {
+          "name": "l'origine",
+          "synonyms": [
+            "l'origine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le phénicien est une langue morte, parlée à l'origine sur les côtes des actuels Liban et Syrie, dans un pays qu'on désignait alors comme le « pays de Canaan » aussi bien en phénicien et en arabe, qu'en hébreu et en araméen, « Phénicie » en grec et en latin, et « Pūt » en égyptien ancien. Le phénicien est une langue sémitique du sous-groupe cananéen, groupe dont descend l'hébreu."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pixilation": {
+    "type": "specialized",
+    "exact_terms": [
+      "pixilation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pixilation",
+          "synonyms": [
+            "pixilation"
+          ]
+        },
+        {
+          "name": "l'anglais",
+          "synonyms": [
+            "l'anglais"
+          ]
+        },
+        {
+          "name": "pixilated",
+          "synonyms": [
+            "pixilated"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "d'animation",
+          "synonyms": [
+            "d'animation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La pixilation (de l'anglais pixilated) est une technique d'animation en volume, où des acteurs ou objets réels sont filmés image par image.\nC'est un effet spécial (trucage réalisé au tournage) qui crée un semblant de magie : des personnages qui volent, glissent sans bouger les jambes, des objets ou des personnages qui apparaissent subitement et se meuvent bizarrement, des déplacements impossibles dans la réalité, etc."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "planchette": {
+    "type": "specialized",
+    "exact_terms": [
+      "planchette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "planchette",
+          "synonyms": [
+            "planchette"
+          ]
+        },
+        {
+          "name": "morceau",
+          "synonyms": [
+            "morceau"
+          ]
+        },
+        {
+          "name": "bois",
+          "synonyms": [
+            "bois"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une planchette est un morceau de bois, généralement en forme de cœur, équipé de deux petites roues et d'un espace tenant un petit stylo, utilisé pour la psychographie. L'usage des planchettes pour produire des messages écrits mystérieux a donné naissance à la croyance que ces outils favorisaient la communication avec les esprits dans une forme de divination."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "porno chic": {
+    "type": "specialized",
+    "exact_terms": [
+      "porno chic"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'expression",
+          "synonyms": [
+            "l'expression"
+          ]
+        },
+        {
+          "name": "porno",
+          "synonyms": [
+            "porno"
+          ]
+        },
+        {
+          "name": "chic",
+          "synonyms": [
+            "chic"
+          ]
+        },
+        {
+          "name": "apparue",
+          "synonyms": [
+            "apparue"
+          ]
+        },
+        {
+          "name": "états-unis",
+          "synonyms": [
+            "états-unis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'expression « porno chic » est apparue aux États-Unis au début des années 1970 afin de désigner la première vague de longs métrages pornographiques sophistiqués, tels que Deep Throat, Derrière la porte verte, The Devil in Miss Jones, Emmanuelle et le phénomène social qui en a résulté.\nAfin de décrire ce phénomène, un article fameux de cinq pages en 1973 dans le New York Times Magazine forgea l'expression qui est depuis passée dans le langage courant."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prise": {
+    "type": "specialized",
+    "exact_terms": [
+      "prise"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "prise",
+          "synonyms": [
+            "prise"
+          ]
+        },
+        {
+          "name": "verbe",
+          "synonyms": [
+            "verbe"
+          ]
+        },
+        {
+          "name": "prendre",
+          "synonyms": [
+            "prendre"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot prise (du verbe prendre) est employé dans plusieurs domaines :\n\nen chimie, la prise est la réaction exothermique de solidification du ciment, pendant laquelle il acquiert ses propriétés mécaniques ;\nen économie, la prise au tas est une expression économique anarchiste ;\nen électricité, une prise électrique permet de fournir aux appareils domestiques l'énergie nécessaire pour fonctionner ;\nen électrotechnique, une prise de transformateur permet de contrôler la tension au primaire ou au sec..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "retour en arrière": {
+    "type": "specialized",
+    "exact_terms": [
+      "retour en arrière"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "locution",
+          "synonyms": [
+            "locution"
+          ]
+        },
+        {
+          "name": "retour",
+          "synonyms": [
+            "retour"
+          ]
+        },
+        {
+          "name": "arrière",
+          "synonyms": [
+            "arrière"
+          ]
+        },
+        {
+          "name": "demi-tour",
+          "synonyms": [
+            "demi-tour"
+          ]
+        },
+        {
+          "name": "marche",
+          "synonyms": [
+            "marche"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La locution retour en arrière peut désigner :\n\nun demi-tour\nune marche arrière\nun flashback\nRéaction (politique)\nRetour en arrière, un épisode de la série La Treizième Dimension."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "rotoscopie": {
+    "type": "specialized",
+    "exact_terms": [
+      "rotoscopie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "rotoscopie",
+          "synonyms": [
+            "rotoscopie"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "cinématographique",
+          "synonyms": [
+            "cinématographique"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "relever",
+          "synonyms": [
+            "relever"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La rotoscopie est une technique cinématographique qui consiste à relever image par image les contours d'une figure filmée en prise de vues réelle pour en transcrire la forme et les actions dans un film d'animation. Ce procédé permet de reproduire avec réalisme la dynamique des mouvements des sujets filmés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "récit": {
+    "type": "specialized",
+    "exact_terms": [
+      "récit"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "récit",
+          "synonyms": [
+            "récit"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "littéraire",
+          "synonyms": [
+            "littéraire"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "organiser",
+          "synonyms": [
+            "organiser"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le récit est une forme littéraire qui consiste à organiser de manière arbitraire et spécifique les faits d'une histoire. Il se distingue de l'histoire, qui est souvent définie comme la succession chronologique des faits."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "salle de cinéma": {
+    "type": "specialized",
+    "exact_terms": [
+      "salle de cinéma"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "salle",
+          "synonyms": [
+            "salle"
+          ]
+        },
+        {
+          "name": "cinéma",
+          "synonyms": [
+            "cinéma"
+          ]
+        },
+        {
+          "name": "auditorium",
+          "synonyms": [
+            "auditorium"
+          ]
+        },
+        {
+          "name": "équipé",
+          "synonyms": [
+            "équipé"
+          ]
+        },
+        {
+          "name": "permettre",
+          "synonyms": [
+            "permettre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une salle de cinéma est un auditorium équipé pour permettre au public d'y\nvoir une projection de films.\nUn bâtiment ou une partie d'un bâtiment qui contient une telle salle ou plusieurs est souvent appelé un cinéma."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "shotacon": {
+    "type": "specialized",
+    "exact_terms": [
+      "shotacon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "japon",
+          "synonyms": [
+            "japon"
+          ]
+        },
+        {
+          "name": "shotacon",
+          "synonyms": [
+            "shotacon"
+          ]
+        },
+        {
+          "name": "ショタコン",
+          "synonyms": [
+            "ショタコン"
+          ]
+        },
+        {
+          "name": "shotakon",
+          "synonyms": [
+            "shotakon"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Au Japon, le mot shotacon (ショタコン, shotakon) désigne l'attirance d'un homme ou d'une femme pour un garçon jeune ou de petite taille. Ce mot est un terme de wasei-eigo (mot japonais formé au Japon à partir de termes d'origine anglaise, mais pouvant comme celui-ci comporter des termes d'origine japonaise) et a été construit par la contraction de Shōtarō (正太郎) et de complex, Shōtarō étant le nom générique de beaucoup de jeunes adolescents dans les animes, et notamment celui du héros de Tetsujin 28-g..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fiction japonaise",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "soucoupe": {
+    "type": "specialized",
+    "exact_terms": [
+      "soucoupe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "soucoupe",
+          "synonyms": [
+            "soucoupe"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "coupe",
+          "synonyms": [
+            "coupe"
+          ]
+        },
+        {
+          "name": "sous-tasse",
+          "synonyms": [
+            "sous-tasse"
+          ]
+        },
+        {
+          "name": "élément",
+          "synonyms": [
+            "élément"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La soucoupe (du français sous - coupe) ou sous-tasse, est un élément de la vaisselle ayant l’aspect d’une petite assiette et servant le plus souvent de base à une tasse. Elle permet de recueillir les gouttes qui pourraient couler de la tasse, de poser la cuillère à café, les morceaux de sucre et toute friandise consommée avec la boisson."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "steampunk": {
+    "type": "specialized",
+    "exact_terms": [
+      "steampunk"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "steampunk",
+          "synonyms": [
+            "steampunk"
+          ]
+        },
+        {
+          "name": "sous-genre",
+          "synonyms": [
+            "sous-genre"
+          ]
+        },
+        {
+          "name": "science-fiction",
+          "synonyms": [
+            "science-fiction"
+          ]
+        },
+        {
+          "name": "apparu",
+          "synonyms": [
+            "apparu"
+          ]
+        },
+        {
+          "name": "domaine",
+          "synonyms": [
+            "domaine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le steampunk est un sous-genre de la science-fiction. Apparu dans le domaine de la littérature, il est aujourd'hui une culture à part entière, passant également par le champ des arts visuels et allant jusqu'à la musique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "syndrome du vinaigre": {
+    "type": "specialized",
+    "exact_terms": [
+      "syndrome du vinaigre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "vinaigre",
+          "synonyms": [
+            "vinaigre"
+          ]
+        },
+        {
+          "name": "phénomène",
+          "synonyms": [
+            "phénomène"
+          ]
+        },
+        {
+          "name": "dépolymérisation",
+          "synonyms": [
+            "dépolymérisation"
+          ]
+        },
+        {
+          "name": "spontanée",
+          "synonyms": [
+            "spontanée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le syndrome du vinaigre est le phénomène de dépolymérisation spontanée qui se produit dans les films pour la photographie, le cinéma, et certaines bandes magnétiques, par dégradation de l'acétate en acide acétique, causant ainsi la détérioration du support des œuvres."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "sélénite": {
+    "type": "specialized",
+    "exact_terms": [
+      "sélénite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "sélénite",
+          "synonyms": [
+            "sélénite"
+          ]
+        },
+        {
+          "name": "possède",
+          "synonyms": [
+            "possède"
+          ]
+        },
+        {
+          "name": "acceptions",
+          "synonyms": [
+            "acceptions"
+          ]
+        },
+        {
+          "name": "différentes",
+          "synonyms": [
+            "différentes"
+          ]
+        },
+        {
+          "name": "sélénite",
+          "synonyms": [
+            "sélénite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme sélénite possède plusieurs acceptions différentes :\n\nla sélénite est un vieux mot français féminin, attesté en 1611, désignant de façon savante la pierre à plâtre, le plâtre cru, la pierre à Jésus, la pierre gypseuse, l'alabastre, l'alabastrite, le verre de Marie (en lamelle), etc., soit le gypse des ouvriers gypsiers ou des minéralogistes, ou encore le sulfate de calcium dihydraté des chimistes, sous de multiples formes en accord avec la variété de ses occurrences. Il provient du mot l..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tarasque": {
+    "type": "specialized",
+    "exact_terms": [
+      "tarasque"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tarasque",
+          "synonyms": [
+            "tarasque"
+          ]
+        },
+        {
+          "name": "prononcé",
+          "synonyms": [
+            "prononcé"
+          ]
+        },
+        {
+          "name": "ʁask",
+          "synonyms": [
+            "ʁask"
+          ]
+        },
+        {
+          "name": "occitan",
+          "synonyms": [
+            "occitan"
+          ]
+        },
+        {
+          "name": "provençal",
+          "synonyms": [
+            "provençal"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La Tarasque (prononcé [ta.ʁask] ; en occitan provençal Tarasca) est un animal du folklore provençal. Elle était censée hanter les marécages près de Tarascon, détruisant tout sur son passage et terrorisant la population."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "triton": {
+    "type": "specialized",
+    "exact_terms": [
+      "triton"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "triton",
+          "synonyms": [
+            "triton"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "τρίτων",
+          "synonyms": [
+            "τρίτων"
+          ]
+        },
+        {
+          "name": "trítōn",
+          "synonyms": [
+            "trítōn"
+          ]
+        },
+        {
+          "name": "via",
+          "synonyms": [
+            "via"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot Triton, du grec Τρίτων / Trítōn via le latin Trītōn, désigne originellement une divinité marine de la mythologie grecque puis de la mythologie romaine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fantastique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ummo": {
+    "type": "specialized",
+    "exact_terms": [
+      "ummo"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ummo",
+          "synonyms": [
+            "ummo"
+          ]
+        },
+        {
+          "name": "transcription",
+          "synonyms": [
+            "transcription"
+          ]
+        },
+        {
+          "name": "espagnole",
+          "synonyms": [
+            "espagnole"
+          ]
+        },
+        {
+          "name": "initiale",
+          "synonyms": [
+            "initiale"
+          ]
+        },
+        {
+          "name": "oummo",
+          "synonyms": [
+            "oummo"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ummo (dans la transcription espagnole « initiale »), ou Oummo (en prononciation française), est une prétendue planète qui se trouverait à environ 14,4 années-lumière de la Terre, suivant les « révélations » faites par l'intermédiaire de divers courriers dactylographiés et appels téléphoniques reçus à partir du milieu des années 1960, en grande majorité en Espagne mais également dans d'autres pays. Ces lettres auraient été écrites par des membres d'un groupe présent sur Terre depuis le 28 mars 19..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\science-fiction",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "virage": {
+    "type": "specialized",
+    "exact_terms": [
+      "virage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "virage",
+          "synonyms": [
+            "virage"
+          ]
+        },
+        {
+          "name": "courbe",
+          "synonyms": [
+            "courbe"
+          ]
+        },
+        {
+          "name": "formée",
+          "synonyms": [
+            "formée"
+          ]
+        },
+        {
+          "name": "route",
+          "synonyms": [
+            "route"
+          ]
+        },
+        {
+          "name": "sentier",
+          "synonyms": [
+            "sentier"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un virage est une courbe formée par une route, un sentier ou autre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "whodunit": {
+    "type": "specialized",
+    "exact_terms": [
+      "whodunit"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "whodunit",
+          "synonyms": [
+            "whodunit"
+          ]
+        },
+        {
+          "name": "whodunnit",
+          "synonyms": [
+            "whodunnit"
+          ]
+        },
+        {
+          "name": "prononcé",
+          "synonyms": [
+            "prononcé"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "ˌhuːˈdʌnɪt",
+          "synonyms": [
+            "ˌhuːˈdʌnɪt"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le whodunit ou whodunnit (prononcé en anglais : /ˌhuːˈdʌnɪt/ , contraction de « Who [has] done it? », littéralement : « qui l’a fait ?"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "worldbuilding": {
+    "type": "specialized",
+    "exact_terms": [
+      "worldbuilding"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "worldbuilding",
+          "synonyms": [
+            "worldbuilding"
+          ]
+        },
+        {
+          "name": "construction",
+          "synonyms": [
+            "construction"
+          ]
+        },
+        {
+          "name": "d'univers",
+          "synonyms": [
+            "d'univers"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "d'élaboration",
+          "synonyms": [
+            "d'élaboration"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le worldbuilding, ou construction d'univers, est le processus d'élaboration d'un monde imaginaire, parfois associé à tout un univers fictionnel. Développer un monde imaginaire doté de caractéristiques cohérentes et réalistes telles qu'une histoire, une géographie et une écologie est une tâche clé pour de nombreux créateurs, en particulier de science-fiction ou de fantasy."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "yaoi": {
+    "type": "specialized",
+    "exact_terms": [
+      "yaoi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "yaoi",
+          "synonyms": [
+            "yaoi"
+          ]
+        },
+        {
+          "name": "やおい",
+          "synonyms": [
+            "やおい"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "boys",
+          "synonyms": [
+            "boys"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le yaoi (やおい), aussi appelé boys' love (BL), est dans la culture populaire japonaise un genre d'œuvres de fiction centré sur les relations sentimentales et/ou sexuelles entre personnages masculins. Le genre du yaoi concerne essentiellement la littérature ainsi que le monde du manga et de l’anime, mais se retrouve aussi à plus petite échelle dans le cadre des jeux vidéo, de la télévision et du cinéma, ainsi que d'autres types de supports."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema\\fiction japonaise",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "zombie": {
+    "type": "specialized",
+    "exact_terms": [
+      "zombie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "zombie",
+          "synonyms": [
+            "zombie"
+          ]
+        },
+        {
+          "name": "zombi",
+          "synonyms": [
+            "zombi"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "l'origine",
+          "synonyms": [
+            "l'origine"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un zombie ou zombi (terme utilisé à l'origine en français, dérivé de zonbi en créole haïtien lui-même issu de termes présents en Afrique de l'Ouest) est une personne fictive ayant perdu toute forme de conscience et d'humanité, au comportement violent envers les êtres humains et dont le mal est terriblement contagieux.\nIl trouve ses origines dans la culture haïtienne et sert également à qualifier les victimes de sortilèges vaudous permettant de ramener les morts à la vie ou de détruire la conscie..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "cinema",
+    "domaine_exact": "cinema",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}
