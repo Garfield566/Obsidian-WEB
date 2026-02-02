@@ -958,10 +958,10 @@ class TagGeneratorV2:
                 text = f"{note.title} {note_content}"
                 text_lower = text.lower()
 
-                # Progress bar tous les 10%
-                if (i + 1) % max(1, total_notes // 10) == 0:
+                # Progress bar toutes les 5 notes
+                if (i + 1) % 5 == 0:
                     pct = ((i + 1) / total_notes) * 100
-                    print(f"      Extraction: {i+1}/{total_notes} ({pct:.0f}%)", flush=True)
+                    print(f"      Extraction: {i+1}/{total_notes} ({pct:.1f}%)", flush=True)
 
                 # 1. Extraction VSC/VSCA
                 if i == 0:

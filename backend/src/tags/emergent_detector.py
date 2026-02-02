@@ -1051,7 +1051,9 @@ class EmergentTagDetector:
     def _find_words_in_text(self, text: str, vocabulary: dict) -> dict:
         """Trouve les mots du vocabulaire présents dans le texte.
 
-        OPTIMISATION: Utilise des patterns regex pré-compilés.
+        OPTIMISATION V2: Au lieu de chercher chaque terme individuellement (7,041 regex),
+        on extrait tous les mots/n-grammes du texte une seule fois, puis on fait
+        une intersection avec le vocabulaire (O(n) au lieu de O(n×m)).
 
         Args:
             text: Texte à analyser (déjà en minuscules)
@@ -1060,14 +1062,36 @@ class EmergentTagDetector:
         Returns:
             Dict {"VSC": set(), "VSCA": set()} avec mots trouvés
         """
+        import re
+
         found = {"VSC": set(), "VSCA": set()}
 
-        for niveau in ["VSC", "VSCA"]:
-            for word in vocabulary.get(niveau, set()):
-                # Utilise le pattern compilé en cache
-                pattern = self._get_compiled_pattern(word)
-                if pattern.search(text):
-                    found[niveau].add(word)
+        # Normaliser le vocabulaire (lowercase, strip)
+        vocab_vsc_normalized = {w.lower().strip() for w in vocabulary.get("VSC", set())}
+        vocab_vsca_normalized = {w.lower().strip() for w in vocabulary.get("VSCA", set())}
+
+        # Extraire tous les mots et n-grammes du texte (1-4 mots)
+        # Utilise word boundaries pour matcher exactement comme les regex précédentes
+        words = re.findall(r'\b[\w\'-]+\b', text)
+
+        # Créer des n-grammes (1-gram à 4-gram pour gérer les expressions multi-mots)
+        text_ngrams = set()
+        for i in range(len(words)):
+            # 1-gram
+            text_ngrams.add(words[i])
+            # 2-gram
+            if i < len(words) - 1:
+                text_ngrams.add(f"{words[i]} {words[i+1]}")
+            # 3-gram
+            if i < len(words) - 2:
+                text_ngrams.add(f"{words[i]} {words[i+1]} {words[i+2]}")
+            # 4-gram
+            if i < len(words) - 3:
+                text_ngrams.add(f"{words[i]} {words[i+1]} {words[i+2]} {words[i+3]}")
+
+        # Intersection entre les n-grammes du texte et le vocabulaire (O(1) par terme)
+        found["VSC"] = vocab_vsc_normalized & text_ngrams
+        found["VSCA"] = vocab_vsca_normalized & text_ngrams
 
         return found
 
