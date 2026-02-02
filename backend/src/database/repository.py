@@ -739,6 +739,89 @@ class Repository:
         self.session.commit()
         return deleted
 
+    # ===== Vocabulary State =====
+
+    def get_vocabulary_state(self, file_path: str) -> Optional["VocabularyState"]:
+        """Récupère l'état d'un fichier de vocabulaire.
+
+        Args:
+            file_path: Chemin relatif du fichier (ex: "hierarchy.json")
+
+        Returns:
+            VocabularyState ou None si pas encore tracké
+        """
+        from .models import VocabularyState
+        return self.session.query(VocabularyState).filter(
+            VocabularyState.file_path == file_path
+        ).first()
+
+    def update_vocabulary_state(
+        self,
+        file_path: str,
+        content_hash: str,
+        term_count: int,
+        increment_changes: int = 0,
+    ) -> "VocabularyState":
+        """Crée ou met à jour l'état d'un fichier de vocabulaire.
+
+        Args:
+            file_path: Chemin relatif du fichier
+            content_hash: Hash MD5 du contenu
+            term_count: Nombre total de termes
+            increment_changes: Nombre de changements à ajouter au compteur
+
+        Returns:
+            VocabularyState mis à jour
+        """
+        from .models import VocabularyState
+
+        state = self.get_vocabulary_state(file_path)
+
+        if state is None:
+            # Première fois qu'on track ce fichier
+            state = VocabularyState(
+                file_path=file_path,
+                content_hash=content_hash,
+                term_count=term_count,
+                changes_since_reanalysis=0,  # Pas de changements initiaux
+            )
+            self.session.add(state)
+        else:
+            # Fichier déjà tracké, mettre à jour
+            state.content_hash = content_hash
+            state.term_count = term_count
+            if increment_changes > 0:
+                state.increment_changes(increment_changes)
+
+        self.session.commit()
+        return state
+
+    def reset_vocabulary_changes(self, file_path: str) -> None:
+        """Réinitialise le compteur de changements après une ré-analyse.
+
+        Args:
+            file_path: Chemin relatif du fichier
+        """
+        state = self.get_vocabulary_state(file_path)
+        if state:
+            state.reset_changes()
+            self.session.commit()
+
+    def get_total_vocabulary_changes(self) -> int:
+        """Retourne le nombre total de changements de vocabulaire.
+
+        Returns:
+            Somme des changes_since_reanalysis de tous les fichiers
+        """
+        from .models import VocabularyState
+        from sqlalchemy import func
+
+        result = self.session.query(
+            func.sum(VocabularyState.changes_since_reanalysis)
+        ).scalar()
+
+        return result or 0
+
     # ===== Utilitaires =====
 
     def commit(self):

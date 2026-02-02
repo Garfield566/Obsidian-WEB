@@ -419,6 +419,33 @@ class ClusterValidationCache(Base):
             return []
 
 
+class VocabularyState(Base):
+    """État des fichiers de vocabulaire pour détecter les changements.
+
+    Permet de tracker les modifications du vocabulaire (hierarchy.json,
+    specialized_terms.json) et de déclencher une ré-analyse quand un seuil
+    de changements est atteint.
+    """
+
+    __tablename__ = "vocabulary_state"
+
+    file_path = Column(String, primary_key=True)  # Chemin relatif du fichier (ex: "hierarchy.json")
+    content_hash = Column(String, nullable=False)  # MD5 du contenu complet
+    term_count = Column(Integer, nullable=False, default=0)  # Nombre total de termes
+    last_checked = Column(DateTime, default=func.now(), onupdate=func.now())
+    changes_since_reanalysis = Column(Integer, nullable=False, default=0)  # Compteur de changements
+    last_reanalysis = Column(DateTime, nullable=True)  # Dernière ré-analyse complète
+
+    def increment_changes(self, count: int = 1) -> None:
+        """Incrémente le compteur de changements."""
+        self.changes_since_reanalysis += count
+
+    def reset_changes(self) -> None:
+        """Réinitialise le compteur après une ré-analyse."""
+        self.changes_since_reanalysis = 0
+        self.last_reanalysis = datetime.now()
+
+
 def _run_migrations(engine) -> None:
     """Exécute les migrations pour ajouter les colonnes manquantes."""
     from sqlalchemy import inspect, text

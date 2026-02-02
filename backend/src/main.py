@@ -133,6 +133,55 @@ def analyze_vault(
         print("⚠️  Aucune note trouvée. Arrêt.")
         return {"status": "empty", "notes": 0}
 
+    # 1.5. Vérifie les changements de vocabulaire
+    step_start = time.time()
+    if verbose:
+        print("\n1.5. Vérification du vocabulaire...")
+
+    from .vocabulary_tracker import VocabularyChangeDetector
+
+    vocab_dir = Path(__file__).parent.parent / "data" / "references"
+    vocab_tracker = VocabularyChangeDetector(vocab_dir, repository)
+
+    vocab_changes, total_vocab_changes = vocab_tracker.check_all_files()
+
+    # Affiche les changements détectés
+    vocab_modified = [c for c in vocab_changes if c.has_changed]
+    if vocab_modified:
+        if verbose:
+            print(f"   📚 Changements de vocabulaire détectés:")
+            for change in vocab_modified:
+                print(f"      {change}")
+    else:
+        if verbose:
+            print(f"   📚 Vocabulaire inchangé")
+
+    # Vérifie si on doit ré-analyser (seuil: 15 changements)
+    should_reanalyze, changes_count = vocab_tracker.should_reanalyze(threshold=15)
+
+    force_reanalysis = False
+    if should_reanalyze:
+        if verbose:
+            print(f"   🔄 Seuil atteint ({changes_count} changements >= 15)")
+            print(f"   ⚡ Invalidation du cache de validation pour ré-analyse")
+
+        # Invalide le cache de validation de toutes les notes
+        # Cela forcera une ré-analyse complète avec le nouveau vocabulaire
+        for note in notes:
+            repository.upsert_note(
+                path=note.path,
+                title=note.title,
+                content_hash=note.content_hash,
+                invalidate_validation_cache=True,
+            )
+
+        force_reanalysis = True
+    elif total_vocab_changes > 0 and verbose:
+        print(f"   📊 {total_vocab_changes} changements cumulés (seuil: 15)")
+
+    if verbose:
+        print(f"   ✓ Vérification terminée ({time.time() - step_start:.1f}s)")
+
     # Détecte les changements de notes (nouvelles, modifiées, inchangées)
     notes_with_hash = [(n.path, n.content_hash) for n in notes]
     new_notes, modified_notes, unchanged_notes = repository.detect_note_changes(notes_with_hash)
@@ -351,6 +400,12 @@ def analyze_vault(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     output_generator.save_to_file(output_path)
+
+    # Réinitialise les compteurs de changements de vocabulaire si ré-analyse effectuée
+    if force_reanalysis:
+        vocab_tracker.reset_after_reanalysis()
+        if verbose:
+            print(f"\n   🔄 Compteurs de vocabulaire réinitialisés")
 
     # Ferme la connexion DB
     repository.close()
