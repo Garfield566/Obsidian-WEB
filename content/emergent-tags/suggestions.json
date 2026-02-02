@@ -1,478 +1,183 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-02T13:48:12.936773",
-  "vault_hash": "b3e85675",
+  "generated_at": "2026-02-02T23:19:32.472070",
+  "vault_hash": "72cd18da",
   "suggestions": {
     "new_tags": [
       {
-        "id": "lt_ent_000",
-        "name": "entité\\états-unis",
-        "confidence": 0.93,
+        "id": "lt_spec_000",
+        "name": "déclassement",
+        "confidence": 0.9,
         "notes": [
-          "info box 1.md",
-          "Termes Specialises par Domaine.md",
-          "caroro.md",
-          "Exemples_Definitions_Detaillees.md",
-          "info box 1 1.md",
-          "info box.md",
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Hamilton.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Tudor.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Yema.md"
+          "Exemples_Vocabulaire_Physique.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 56 notes",
+          "summary": "Terme spécialisé 'déclassement' validé par définition - éléments: déclassement, sociologie, descendre, l'échelle, sociale",
           "details": {
-            "entity_type": "political_entity",
-            "raw_text": "états-unis",
-            "total_occurrences": 160,
-            "notes_count": 56,
-            "in_reference_db": true,
-            "in_title": false
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "electronique",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "déclassement",
+                "matched": "déclassement"
+              },
+              {
+                "name": "sociologie",
+                "matched": "sociologie"
+              },
+              {
+                "name": "descendre",
+                "matched": "descendre"
+              },
+              {
+                "name": "l'échelle",
+                "matched": "l'échelle"
+              },
+              {
+                "name": "sociale",
+                "matched": "sociale"
+              }
+            ]
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936809",
-        "source": "reference_db",
-        "alternatives": []
+        "first_detected": "2026-02-02T23:19:32.472110",
+        "source": "specialized_term"
       },
       {
-        "id": "lt_ent_007",
-        "name": "geo\\europe\\suisse",
-        "confidence": 0.93,
+        "id": "lt_spec_002",
+        "name": "électrotechnique",
+        "confidence": 0.9,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Hamilton.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Omega.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Blancpain.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Zenith.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Tudor.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Certina.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Rolex.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/IWC.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Jaeger-LeCoultre.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Tissot .md"
+          "Exemples_Vocabulaire_Physique.md"
         ],
         "reasoning": {
-          "summary": "Lieu géographique détecté(e) dans 16 notes",
+          "summary": "Terme spécialisé 'électrotechnique' validé par définition - éléments: électrotechnique, rapporte, applications, pratiques, l'électricité",
           "details": {
-            "entity_type": "place",
-            "raw_text": "suisse",
-            "total_occurrences": 47,
-            "notes_count": 16,
-            "in_reference_db": true,
-            "in_title": false
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "physique",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "électrotechnique",
+                "matched": "électrotechnique"
+              },
+              {
+                "name": "rapporte",
+                "matched": "rapporte"
+              },
+              {
+                "name": "applications",
+                "matched": "applications"
+              },
+              {
+                "name": "pratiques",
+                "matched": "pratiques"
+              },
+              {
+                "name": "l'électricité",
+                "matched": "l'électricité"
+              }
+            ]
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936815",
-        "source": "reference_db",
-        "alternatives": []
+        "first_detected": "2026-02-02T23:19:32.472116",
+        "source": "specialized_term"
       },
       {
-        "id": "lt_ent_009",
-        "name": "substance\\aristote",
-        "confidence": 0.88,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md",
-          "Clippings/Mécanique quantique — Wikipédia.md",
-          "Clippings/Cellule (biologie) — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Concept théorique détecté(e) dans 5 notes",
-          "details": {
-            "entity_type": "concept",
-            "raw_text": "substance",
-            "total_occurrences": 18,
-            "notes_count": 5,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936818",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_022",
-        "name": "rousseau",
-        "confidence": 0.88,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le travail.md",
-          "Clippings/Droit civil — Wikipédia.md",
-          "Clippings/Féodalité — Wikipédia.md",
-          "Clippings/Épistémologie — Wikipédia.md",
-          "Clippings/Impressionnisme — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 5 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Jean-Jacques Rousseau",
-            "total_occurrences": 18,
-            "notes_count": 5,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936822",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Jean-jacques-Rousseau",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_006",
-        "name": "entité\\urss",
-        "confidence": 0.87,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Yema.md",
-          "Clippings/Mécanique quantique — Wikipédia.md",
-          "Clippings/Montage — Wikipédia.md",
-          "Clippings/Algorithme — Wikipédia.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 6 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "urss",
-            "total_occurrences": 12,
-            "notes_count": 6,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936825",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_008",
-        "name": "jung",
-        "confidence": 0.87,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Junghans.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Pulp Fiction.md",
-          "Clippings/Psychanalyse — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Carl Gustav Jung",
-            "total_occurrences": 34,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": true
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936828",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Carl-Gustav-Jung",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_001",
-        "name": "entité\\carthage",
-        "confidence": 0.86,
-        "notes": [
-          "caroro.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/Denier (monnaie) — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 4 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "carthage",
-            "total_occurrences": 21,
-            "notes_count": 4,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936832",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_004",
-        "name": "geo\\asie\\chine",
+        "id": "lt_spec_001",
+        "name": "rif",
         "confidence": 0.85,
         "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "YouTube Notes/Timestamps 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
+          "Exemples_Vocabulaire_Physique.md"
         ],
         "reasoning": {
-          "summary": "Lieu géographique détecté(e) dans 3 notes",
+          "summary": "Terme spécialisé 'rif' validé par définition - éléments: rif, rifain, ⴰⵔⵔⵉⴼ, arrif, arabe",
           "details": {
-            "entity_type": "place",
-            "raw_text": "chine",
-            "total_occurrences": 28,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "electronique",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "rif",
+                "matched": "rif"
+              },
+              {
+                "name": "rifain",
+                "matched": "rifain"
+              },
+              {
+                "name": "ⴰⵔⵔⵉⴼ",
+                "matched": "ⴰⵔⵔⵉⴼ"
+              },
+              {
+                "name": "arrif",
+                "matched": "arrif"
+              },
+              {
+                "name": "arabe",
+                "matched": "arabe"
+              }
+            ]
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936838",
-        "source": "reference_db",
-        "alternatives": []
+        "first_detected": "2026-02-02T23:19:32.472120",
+        "source": "specialized_term"
       },
       {
-        "id": "lt_ent_016",
-        "name": "newton",
+        "id": "lt_spec_003",
+        "name": "abélien",
         "confidence": 0.85,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
-          "Clippings/Mécanique quantique — Wikipédia.md",
-          "Clippings/Épistémologie — Wikipédia.md"
+          "Exemples_Definitions_Detaillees.md"
         ],
         "reasoning": {
-          "summary": "Personne détecté(e) dans 3 notes",
+          "summary": "Terme spécialisé 'abélien' validé par définition - éléments: l'adjectif, abélien, dérivé, nom, mathématicien",
           "details": {
-            "entity_type": "person",
-            "raw_text": "Isaac Newton",
-            "total_occurrences": 15,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "islam",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "l'adjectif",
+                "matched": "l'adjectif"
+              },
+              {
+                "name": "abélien",
+                "matched": "abélien"
+              },
+              {
+                "name": "dérivé",
+                "matched": "dérivé"
+              },
+              {
+                "name": "nom",
+                "matched": "nom"
+              },
+              {
+                "name": "mathématicien",
+                "matched": "mathématicien"
+              }
+            ]
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936842",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Isaac-Newton",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
+        "first_detected": "2026-02-02T23:19:32.472123",
+        "source": "specialized_term"
       },
       {
-        "id": "lt_ent_027",
-        "name": "poincaré",
-        "confidence": 0.85,
-        "notes": [
-          "Clippings/Mécanique quantique — Wikipédia.md",
-          "Clippings/Théorème de Pythagore — Wikipédia.md",
-          "Clippings/Épistémologie — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Henri Poincaré",
-            "total_occurrences": 17,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936845",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Henri-Poincaré",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_005",
-        "name": "geo\\asie\\japon",
-        "confidence": 0.84,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Seiko.md"
-        ],
-        "reasoning": {
-          "summary": "Lieu géographique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "place",
-            "raw_text": "japon",
-            "total_occurrences": 95,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936848",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_013",
-        "name": "weber",
-        "confidence": 0.84,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Robert Heilbroner.md",
-          "Clippings/Psychanalyse — Wikipédia.md",
-          "Clippings/Montage — Wikipédia.md",
-          "Clippings/Épistémologie — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 4 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Max Weber",
-            "total_occurrences": 10,
-            "notes_count": 4,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936851",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Max-Weber",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_015",
-        "name": "kant",
-        "confidence": 0.84,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
-          "Clippings/Épistémologie — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Emmanuel Kant",
-            "total_occurrences": 53,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936854",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Emmanuel-Kant",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_025",
-        "name": "entité\\athènes-antique",
-        "confidence": 0.84,
-        "notes": [
-          "Clippings/Mythologie grecque — Wikipédia.md",
-          "Clippings/Impressionnisme — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "athènes",
-            "total_occurrences": 18,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936857",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_026",
-        "name": "einstein",
-        "confidence": 0.84,
-        "notes": [
-          "Clippings/Mécanique quantique — Wikipédia.md",
-          "Clippings/Épistémologie — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Albert Einstein",
-            "total_occurrences": 17,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936860",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Albert-Einstein",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_012",
-        "name": "picasso",
-        "confidence": 0.83,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
-          "Clippings/Impressionnisme — Wikipédia.md",
-          "Clippings/Sonnet — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Pablo Picasso",
-            "total_occurrences": 10,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936863",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Pablo-Picasso",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_010",
+        "id": "lt_ent_002",
         "name": "I-fin",
         "confidence": 0.82,
         "notes": [
@@ -495,7 +200,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936866",
+        "first_detected": "2026-02-02T23:19:32.472126",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -506,32 +211,7 @@
         ]
       },
       {
-        "id": "lt_ent_021",
-        "name": "aristote",
-        "confidence": 0.82,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/PDF théorie de la valeur (Ricardo)/histoire-pensee-economique.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le travail.md",
-          "Clippings/Épistémologie — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Aristote",
-            "total_occurrences": 9,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936869",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_003",
+        "id": "lt_ent_001",
         "name": "X-fin",
         "confidence": 0.8,
         "notes": [
@@ -555,147 +235,9 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936872",
+        "first_detected": "2026-02-02T23:19:32.472130",
         "source": "pattern_date",
         "alternatives": []
-      },
-      {
-        "id": "lt_ent_011",
-        "name": "entité\\sparte",
-        "confidence": 0.8,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "Clippings/Mythologie grecque — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "sparte",
-            "total_occurrences": 6,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936874",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_024",
-        "name": "socrate",
-        "confidence": 0.8,
-        "notes": [
-          "Clippings/Psychanalyse — Wikipédia.md",
-          "Clippings/Mythologie grecque — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Socrate",
-            "total_occurrences": 6,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936877",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_028",
-        "name": "proust",
-        "confidence": 0.8,
-        "notes": [
-          "Clippings/Théorème de Pythagore — Wikipédia.md",
-          "Clippings/Impressionnisme — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Marcel Proust",
-            "total_occurrences": 7,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936880",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Marcel-Proust",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_014",
-        "name": "hayek",
-        "confidence": 0.79,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Robert Heilbroner.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/John Maynard Keynes.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Friedrich Hayek",
-            "total_occurrences": 4,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936882",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Friedrich-Hayek",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_023",
-        "name": "hugo",
-        "confidence": 0.79,
-        "notes": [
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le Bonheur.md",
-          "Clippings/Impressionnisme — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Victor Hugo",
-            "total_occurrences": 5,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936885",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Victor-Hugo",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
       },
       {
         "id": "lt_emg_000",
@@ -728,7 +270,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936888",
+        "first_detected": "2026-02-02T23:19:32.472134",
         "source": "emergent"
       },
       {
@@ -762,11 +304,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936891",
+        "first_detected": "2026-02-02T23:19:32.472140",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_018",
+        "id": "lt_ent_004",
         "name": "II-fin",
         "confidence": 0.73,
         "notes": [
@@ -786,7 +328,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936894",
+        "first_detected": "2026-02-02T23:19:32.472144",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -797,7 +339,7 @@
         ]
       },
       {
-        "id": "lt_ent_002",
+        "id": "lt_ent_000",
         "name": "IX-fin",
         "confidence": 0.72,
         "notes": [
@@ -816,12 +358,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936896",
+        "first_detected": "2026-02-02T23:19:32.472147",
         "source": "pattern_date",
         "alternatives": []
       },
       {
-        "id": "lt_ent_017",
+        "id": "lt_ent_003",
         "name": "XIII-fin",
         "confidence": 0.72,
         "notes": [
@@ -840,12 +382,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936899",
+        "first_detected": "2026-02-02T23:19:32.472151",
         "source": "pattern_date",
         "alternatives": []
       },
       {
-        "id": "lt_ent_019",
+        "id": "lt_ent_005",
         "name": "III-fin",
         "confidence": 0.72,
         "notes": [
@@ -864,7 +406,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936902",
+        "first_detected": "2026-02-02T23:19:32.472153",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -875,7 +417,7 @@
         ]
       },
       {
-        "id": "lt_ent_029",
+        "id": "lt_ent_007",
         "name": "XII-fin",
         "confidence": 0.72,
         "notes": [
@@ -894,12 +436,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936904",
+        "first_detected": "2026-02-02T23:19:32.472156",
         "source": "pattern_date",
         "alternatives": []
       },
       {
-        "id": "lt_ent_020",
+        "id": "lt_ent_006",
         "name": "1016",
         "confidence": 0.65,
         "notes": [
@@ -921,7 +463,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:48:12.936907",
+        "first_detected": "2026-02-02T23:19:32.472159",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -1054,44 +596,24 @@
         }
       }
     ],
-    "health_alerts": [
-      {
-        "tag": "M",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-02-02T13:47:57.833597",
-          "days_inactive": 0,
-          "notes_using": [
-            "Clippings/Sonnet — Wikipédia.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "L",
-          "v",
-          "livre"
-        ]
-      }
-    ],
+    "health_alerts": [],
     "redundant_tags": [
       {
-        "id": "rg_5753",
+        "id": "rg_7875",
         "tags": [
-          "Mammif",
           "exclrw",
+          "Comportement",
           "vocabulaire",
-          "Comportement"
+          "Mammif"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "Mammif": 2,
           "exclrw": 2,
+          "Comportement": 2,
           "vocabulaire": 2,
-          "Comportement": 2
+          "Mammif": 2
         },
-        "recommended": "Mammif"
+        "recommended": "exclrw"
       }
     ]
   },
@@ -1152,9 +674,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "livre",
         "note-The_Wealth_of_Nations",
-        "note-livre"
+        "note-livre",
+        "livre"
       ]
     },
     {
@@ -1179,21 +701,21 @@
       ],
       "suggested_tags": [
         "Psychological-Thriller",
-        "Crime-Mystery",
-        "Masayuki-Kojima"
+        "Kuniaki-Haishima",
+        "Madhouse"
       ]
     }
   ],
   "stats": {
-    "total_notes": 244,
-    "analyzed_notes": 244,
+    "total_notes": 245,
+    "analyzed_notes": 245,
     "total_tags": 109,
     "active_tags": 109,
-    "latent_tags": 32,
+    "latent_tags": 14,
     "health_score": 0.97,
     "feedback_impact": {
       "decisions_integrated": 1000,
-      "acceptance_rate": "40%"
+      "acceptance_rate": "50%"
     }
   },
   "vocabulary_actions": [
