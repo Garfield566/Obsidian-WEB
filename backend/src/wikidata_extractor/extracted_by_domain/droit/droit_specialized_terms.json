@@ -21962,5 +21962,6793 @@
       "wikipedia"
     ],
     "confidence": 0.8
+  },
+  "délai de grâce": {
+    "type": "specialized",
+    "exact_terms": [
+      "délai de grâce"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "contexte",
+          "synonyms": [
+            "contexte"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "prêt",
+          "synonyms": [
+            "prêt"
+          ]
+        },
+        {
+          "name": "hypothécaire",
+          "synonyms": [
+            "hypothécaire"
+          ]
+        },
+        {
+          "name": "délai",
+          "synonyms": [
+            "délai"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le contexte du processus de prêt hypothécaire, le délai de grâce (forbearance en anglais) est un accord entre le prêteur et l'emprunteur visant à retarder une saisie immobilière.\nLorsque les emprunteurs hypothécaires ne sont pas en mesure de respecter leurs conditions de remboursement, les prêteurs peuvent choisir de procéder à une saisie du bien hypothéqué."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "délit": {
+    "type": "specialized",
+    "exact_terms": [
+      "délit"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "délit",
+          "synonyms": [
+            "délit"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "faut",
+          "synonyms": [
+            "faut"
+          ]
+        },
+        {
+          "name": "distinguer",
+          "synonyms": [
+            "distinguer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Délit est un nom qui peut désigner :\nEn droit, il faut distinguer selon que le délit soit :\nun fait juridique fautif ayant causé un dommage à autrui, que l'auteur doit dédommager, notamment par le paiement de dommages-intérêts : délit civil ou quasi-délit ;\nune infraction pénale, qui est en France jugée par un tribunal correctionnel : délit pénal et délit pénal en France.\nEn anthropologie religieuse, un délit est le fait de transgresser un interdit."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "délit de fuite": {
+    "type": "specialized",
+    "exact_terms": [
+      "délit de fuite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "délit",
+          "synonyms": [
+            "délit"
+          ]
+        },
+        {
+          "name": "fuite",
+          "synonyms": [
+            "fuite"
+          ]
+        },
+        {
+          "name": "cas",
+          "synonyms": [
+            "cas"
+          ]
+        },
+        {
+          "name": "accident",
+          "synonyms": [
+            "accident"
+          ]
+        },
+        {
+          "name": "routier",
+          "synonyms": [
+            "routier"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le délit de fuite en cas d'un accident routier est considéré comme une infraction de la loi dans la plupart des pays. Typiquement le délit de fuite intervient si un conducteur ne s'identifie pas auprès d'un autre usager de la voie publique après un accident."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "délégation": {
+    "type": "specialized",
+    "exact_terms": [
+      "délégation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "délégation",
+          "synonyms": [
+            "délégation"
+          ]
+        },
+        {
+          "name": "confier",
+          "synonyms": [
+            "confier"
+          ]
+        },
+        {
+          "name": "tâche",
+          "synonyms": [
+            "tâche"
+          ]
+        },
+        {
+          "name": "autre",
+          "synonyms": [
+            "autre"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La délégation est le fait de confier une tâche à une autre personne, généralement un subordonné. La délégation ne désengage pas le délégant de sa responsabilité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "délégué à la protection des données": {
+    "type": "specialized",
+    "exact_terms": [
+      "délégué à la protection des données"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "européen",
+          "synonyms": [
+            "européen"
+          ]
+        },
+        {
+          "name": "délégué",
+          "synonyms": [
+            "délégué"
+          ]
+        },
+        {
+          "name": "protection",
+          "synonyms": [
+            "protection"
+          ]
+        },
+        {
+          "name": "données",
+          "synonyms": [
+            "données"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En droit européen, le Délégué à la protection des données (abrégé DPD, ou DPO, pour Data Protection Officer) est la personne chargée de la protection des données personnelles au sein d'une organisation.\nLa fonction de DPO a été instaurée par les articles 37 et suivants du Règlement général sur la protection des données (RGPD) entré en application le 25 mai 2018, et étant applicable au sein des pays membres de l'Union européenne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déni": {
+    "type": "specialized",
+    "exact_terms": [
+      "déni"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychanalyse",
+          "synonyms": [
+            "psychanalyse"
+          ]
+        },
+        {
+          "name": "déni",
+          "synonyms": [
+            "déni"
+          ]
+        },
+        {
+          "name": "l'attitude",
+          "synonyms": [
+            "l'attitude"
+          ]
+        },
+        {
+          "name": "individuelle",
+          "synonyms": [
+            "individuelle"
+          ]
+        },
+        {
+          "name": "inconsciente",
+          "synonyms": [
+            "inconsciente"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En psychanalyse, le déni est l'attitude individuelle et inconsciente de refus de prendre en compte une partie de la réalité, vécue comme inacceptable par l'individu.\nFormes de déni :\n\nEn Droit, le déni de justice est le refus par une juridiction de juger."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déni de justice": {
+    "type": "specialized",
+    "exact_terms": [
+      "déni de justice"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "déni",
+          "synonyms": [
+            "déni"
+          ]
+        },
+        {
+          "name": "justice",
+          "synonyms": [
+            "justice"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "déni",
+          "synonyms": [
+            "déni"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le déni de justice, également appelé déni de droit[réf. nécessaire], est le refus par une juridiction de juger."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dénomination": {
+    "type": "specialized",
+    "exact_terms": [
+      "dénomination"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dénomination",
+          "synonyms": [
+            "dénomination"
+          ]
+        },
+        {
+          "name": "synonyme",
+          "synonyms": [
+            "synonyme"
+          ]
+        },
+        {
+          "name": "nomenclature",
+          "synonyms": [
+            "nomenclature"
+          ]
+        },
+        {
+          "name": "dénomination",
+          "synonyms": [
+            "dénomination"
+          ]
+        },
+        {
+          "name": "religieuse",
+          "synonyms": [
+            "religieuse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La dénomination est un synonyme de nomenclature.\n« Dénomination religieuse » est une expression religieuse pour parler des différentes confessions ou branches d'une religion."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dénonciation": {
+    "type": "specialized",
+    "exact_terms": [
+      "dénonciation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dénonciation",
+          "synonyms": [
+            "dénonciation"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "fois",
+          "synonyms": [
+            "fois"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "dénoncer",
+          "synonyms": [
+            "dénoncer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une dénonciation désigne à la fois l'action de dénoncer et le résultat de cette action, exercée selon des règles sociales tacites et enrichie de codifications juridiques selon le contexte auquel elle appartient.\nDénoncer consiste soit dans la rupture d'une convention, soit dans la publication d'une telle action."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dépaysement": {
+    "type": "specialized",
+    "exact_terms": [
+      "dépaysement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        },
+        {
+          "name": "dépaysement",
+          "synonyms": [
+            "dépaysement"
+          ]
+        },
+        {
+          "name": "émotion",
+          "synonyms": [
+            "émotion"
+          ]
+        },
+        {
+          "name": "ressentie",
+          "synonyms": [
+            "ressentie"
+          ]
+        },
+        {
+          "name": "changement",
+          "synonyms": [
+            "changement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En psychologie, le dépaysement est une émotion ressentie par le changement d'habitudes ou d'environnements. Il désigne souvent les sentiments associés à une immersion dans un environnement inconnu, différent de celui d'origine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dépendance": {
+    "type": "specialized",
+    "exact_terms": [
+      "dépendance"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dépendance",
+          "synonyms": [
+            "dépendance"
+          ]
+        },
+        {
+          "name": "renvoyer",
+          "synonyms": [
+            "renvoyer"
+          ]
+        },
+        {
+          "name": "notions",
+          "synonyms": [
+            "notions"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme dépendance peut renvoyer à diverses notions :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dépens": {
+    "type": "specialized",
+    "exact_terms": [
+      "dépens"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "dépens",
+          "synonyms": [
+            "dépens"
+          ]
+        },
+        {
+          "name": "frais",
+          "synonyms": [
+            "frais"
+          ]
+        },
+        {
+          "name": "justice",
+          "synonyms": [
+            "justice"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En droit, les dépens sont des frais de justice que la partie perdante est, en temps normal, condamnée à payer au gagnant."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déport": {
+    "type": "specialized",
+    "exact_terms": [
+      "déport"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "domaine",
+          "synonyms": [
+            "domaine"
+          ]
+        },
+        {
+          "name": "automobile",
+          "synonyms": [
+            "automobile"
+          ]
+        },
+        {
+          "name": "distingue",
+          "synonyms": [
+            "distingue"
+          ]
+        },
+        {
+          "name": "déport",
+          "synonyms": [
+            "déport"
+          ]
+        },
+        {
+          "name": "sol",
+          "synonyms": [
+            "sol"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le domaine automobile, on distingue le déport au sol et le déport à la fusée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déposition": {
+    "type": "specialized",
+    "exact_terms": [
+      "déposition"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "déposition",
+          "synonyms": [
+            "déposition"
+          ]
+        },
+        {
+          "name": "transition",
+          "synonyms": [
+            "transition"
+          ]
+        },
+        {
+          "name": "phase",
+          "synonyms": [
+            "phase"
+          ]
+        },
+        {
+          "name": "lorsqu'un",
+          "synonyms": [
+            "lorsqu'un"
+          ]
+        },
+        {
+          "name": "gaz",
+          "synonyms": [
+            "gaz"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La déposition est une transition de phase lorsqu'un gaz se condense en solide.\nLa déposition est une déclaration faite sous serment en justice, devant un magistrat ou, au minimum, un agent de police judiciaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dépôt légal": {
+    "type": "specialized",
+    "exact_terms": [
+      "dépôt légal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dépôt",
+          "synonyms": [
+            "dépôt"
+          ]
+        },
+        {
+          "name": "légal",
+          "synonyms": [
+            "légal"
+          ]
+        },
+        {
+          "name": "l'obligation",
+          "synonyms": [
+            "l'obligation"
+          ]
+        },
+        {
+          "name": "légale",
+          "synonyms": [
+            "légale"
+          ]
+        },
+        {
+          "name": "l'incitation",
+          "synonyms": [
+            "l'incitation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le dépôt légal est l'obligation légale ou l'incitation faite aux producteurs ou aux diffuseurs de déposer, dans la bibliothèque nationale du pays ou dans d'autres institutions désignées, un ou plusieurs exemplaires des documents qu'ils produisent ou diffusent. Il vise à assurer le contrôle bibliographique universel et permet l'élaboration et la diffusion de bibliographies nationales."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déradicalisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "déradicalisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "déradicalisation",
+          "synonyms": [
+            "déradicalisation"
+          ]
+        },
+        {
+          "name": "néologisme",
+          "synonyms": [
+            "néologisme"
+          ]
+        },
+        {
+          "name": "politique",
+          "synonyms": [
+            "politique"
+          ]
+        },
+        {
+          "name": "xxe",
+          "synonyms": [
+            "xxe"
+          ]
+        },
+        {
+          "name": "siècle",
+          "synonyms": [
+            "siècle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme déradicalisation est un néologisme politique du XXe siècle qui implique une action pour inverser le processus de radicalisation, pour adoucir les positions et les actions. Il a pris un sens nouveau à l'échelle mondiale avec la montée des extrémismes politiques et religieux au début du XXIe siècle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déshérence": {
+    "type": "specialized",
+    "exact_terms": [
+      "déshérence"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "déshérence",
+          "synonyms": [
+            "déshérence"
+          ]
+        },
+        {
+          "name": "situation",
+          "synonyms": [
+            "situation"
+          ]
+        },
+        {
+          "name": "laquelle",
+          "synonyms": [
+            "laquelle"
+          ]
+        },
+        {
+          "name": "trouve",
+          "synonyms": [
+            "trouve"
+          ]
+        },
+        {
+          "name": "patrimoine",
+          "synonyms": [
+            "patrimoine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La déshérence est la situation dans laquelle se trouve un bien ou un patrimoine lorsque son propriétaire est décédé sans laisser d'héritier connu."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "détective": {
+    "type": "specialized",
+    "exact_terms": [
+      "détective"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "détective",
+          "synonyms": [
+            "détective"
+          ]
+        },
+        {
+          "name": "enquêteur",
+          "synonyms": [
+            "enquêteur"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "privé",
+          "synonyms": [
+            "privé"
+          ]
+        },
+        {
+          "name": "c'est-à-dire",
+          "synonyms": [
+            "c'est-à-dire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le détective est un enquêteur de droit privé, c'est-à-dire une personne ayant un statut de droit privé, qui effectue, à titre professionnel, des recherches, des investigations et des filatures. Cette qualité d'enquêteur de droit privé (qui n'est pas une appellation ni un titre mais un statut juridique et social) est d'ailleurs partagée avec diverses autres professions qui n'ont aucun rapport avec les enquêteurs privés, notamment dans le cadre de procédures administratives, civiles, pénales, soci..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\police",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "détention provisoire": {
+    "type": "specialized",
+    "exact_terms": [
+      "détention provisoire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "détention",
+          "synonyms": [
+            "détention"
+          ]
+        },
+        {
+          "name": "provisoire",
+          "synonyms": [
+            "provisoire"
+          ]
+        },
+        {
+          "name": "détention",
+          "synonyms": [
+            "détention"
+          ]
+        },
+        {
+          "name": "préventive",
+          "synonyms": [
+            "préventive"
+          ]
+        },
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La détention provisoire (ou détention préventive selon les ordres juridiques) est une mesure de détention, généralement exceptionnelle, visant à emprisonner un accusé jusqu'à la fin du procès alors que sa culpabilité n’est pas encore formellement établie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\prison",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "détournement de fonds": {
+    "type": "specialized",
+    "exact_terms": [
+      "détournement de fonds"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "détournement",
+          "synonyms": [
+            "détournement"
+          ]
+        },
+        {
+          "name": "fonds",
+          "synonyms": [
+            "fonds"
+          ]
+        },
+        {
+          "name": "l'appropriation",
+          "synonyms": [
+            "l'appropriation"
+          ]
+        },
+        {
+          "name": "frauduleuse",
+          "synonyms": [
+            "frauduleuse"
+          ]
+        },
+        {
+          "name": "biens",
+          "synonyms": [
+            "biens"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le détournement de fonds est l'appropriation frauduleuse de biens par une personne pour son propre intérêt à qui l'on avait fait confiance pour gérer l'argent et les fonds détenus par un autre individu ou par une organisation tierce."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dîme": {
+    "type": "specialized",
+    "exact_terms": [
+      "dîme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dîme",
+          "synonyms": [
+            "dîme"
+          ]
+        },
+        {
+          "name": "dime",
+          "synonyms": [
+            "dime"
+          ]
+        },
+        {
+          "name": "encore",
+          "synonyms": [
+            "encore"
+          ]
+        },
+        {
+          "name": "décime",
+          "synonyms": [
+            "décime"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La dîme, ou dime, ou encore décime (du latin : decima, « dixième »), est une contribution variable, étymologiquement de 10 %, versée en nature ou en espèces, à une institution civile ou religieuse. Cette taxe, connue depuis la Rome antique et mentionnée dans la Bible, est en usage dans le judaïsme et le christianisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "eaux intérieures": {
+    "type": "specialized",
+    "exact_terms": [
+      "eaux intérieures"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "mer",
+          "synonyms": [
+            "mer"
+          ]
+        },
+        {
+          "name": "appelle",
+          "synonyms": [
+            "appelle"
+          ]
+        },
+        {
+          "name": "eaux",
+          "synonyms": [
+            "eaux"
+          ]
+        },
+        {
+          "name": "intérieures",
+          "synonyms": [
+            "intérieures"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En droit de la mer, on appelle eaux intérieures, les eaux situées en deçà de la ligne de base, constituée de la laisse de basse mer et de la ligne de base droite.\n\nÀ l’intérieur des terres, le réseau des voies navigables : fleuves, rivières, canaux, lacs et étangs, jusqu'à la limite de l'inscription maritime, sont appelés eaux intérieures."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "eaux territoriales": {
+    "type": "specialized",
+    "exact_terms": [
+      "eaux territoriales"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "eaux",
+          "synonyms": [
+            "eaux"
+          ]
+        },
+        {
+          "name": "territoriales",
+          "synonyms": [
+            "territoriales"
+          ]
+        },
+        {
+          "name": "mers",
+          "synonyms": [
+            "mers"
+          ]
+        },
+        {
+          "name": "territoriales",
+          "synonyms": [
+            "territoriales"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les eaux territoriales ou mers territoriales sont la partie de mer côtière sur laquelle s'étend la souveraineté d'un État côtier. Sa largeur maximale est fixée à 12 milles marins (soit 22 224 mètres) par la Convention des Nations unies sur le droit de la mer, ou résulte d'un partage médian du littoral pour les États voisins dont les côtes sont distantes de moins de 24 milles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "emploi fictif": {
+    "type": "specialized",
+    "exact_terms": [
+      "emploi fictif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "emploi",
+          "synonyms": [
+            "emploi"
+          ]
+        },
+        {
+          "name": "fictif",
+          "synonyms": [
+            "fictif"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "lorsqu'une",
+          "synonyms": [
+            "lorsqu'une"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un emploi fictif est un terme employé lorsqu'une personne perçoit une rémunération pour une activité qu'elle n'exerce pas, par exemple en poursuivant des activités partisanes ou militantes au lieu d'effectuer le travail pour lequel elle est censée être rémunérée, ce qui est un délit."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "enquête": {
+    "type": "specialized",
+    "exact_terms": [
+      "enquête"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "enquête",
+          "synonyms": [
+            "enquête"
+          ]
+        },
+        {
+          "name": "opération",
+          "synonyms": [
+            "opération"
+          ]
+        },
+        {
+          "name": "but",
+          "synonyms": [
+            "but"
+          ]
+        },
+        {
+          "name": "découverte",
+          "synonyms": [
+            "découverte"
+          ]
+        },
+        {
+          "name": "faits",
+          "synonyms": [
+            "faits"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une enquête est une opération qui a pour but la découverte de faits, l'amélioration des connaissances ou la résolution de doutes et de problèmes. Concrètement, il s'agit d'une recherche poussée d'informations, avec le but de l'exhaustivité dans la découverte des informations inconnues au début de l'enquête et parfois la volonté de publication des informations collectées."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "enrichissement sans cause": {
+    "type": "specialized",
+    "exact_terms": [
+      "enrichissement sans cause"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "civil",
+          "synonyms": [
+            "civil"
+          ]
+        },
+        {
+          "name": "l'institution",
+          "synonyms": [
+            "l'institution"
+          ]
+        },
+        {
+          "name": "l'enrichissement",
+          "synonyms": [
+            "l'enrichissement"
+          ]
+        },
+        {
+          "name": "cause",
+          "synonyms": [
+            "cause"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En droit civil, l'institution de l'enrichissement sans cause (aussi appelé enrichissement illégitime, enrichissement injustifié ou action de in rem verso sous l'influence d'Aubry et Rau[réf. nécessaire]), consiste à  permettre à une personne qui se sera acquittée sans raison d'une obligation, et qui se sera donc appauvrie, de demander à être remboursée par celui qui s'est enrichi à son détriment."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "enseigne": {
+    "type": "specialized",
+    "exact_terms": [
+      "enseigne"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "enseigne",
+          "synonyms": [
+            "enseigne"
+          ]
+        },
+        {
+          "name": "signal",
+          "synonyms": [
+            "signal"
+          ]
+        },
+        {
+          "name": "pancarte",
+          "synonyms": [
+            "pancarte"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        },
+        {
+          "name": "signalant",
+          "synonyms": [
+            "signalant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Enseigne (signal) : pancarte ou objet signalant la position d'un lieu ou d'une activité.\nEnseigne (nom commercial) : raison sociale, nom de marque d'un point-de-vente\nDomaine militaire\nUne enseigne (Fähnlein (en) en allemand) correspondait, au Moyen Âge, à nos bataillons ou compagnies actuels."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "entail": {
+    "type": "specialized",
+    "exact_terms": [
+      "entail"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "entail",
+          "synonyms": [
+            "entail"
+          ]
+        },
+        {
+          "name": "fee",
+          "synonyms": [
+            "fee"
+          ]
+        },
+        {
+          "name": "tail",
+          "synonyms": [
+            "tail"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "juridique",
+          "synonyms": [
+            "juridique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’entail, ou fee tail, est un ancien terme juridique anglais, qui désigne une propriété reçue en héritage, consistant en biens immobiliers, et qui ne peut être ni vendue, ni transmise par héritage ni aliénée par son propriétaire de quelque façon que ce soit, mais qui est juridiquement transmise aux héritiers du propriétaire « répondant à certains critères », après la mort de celui-ci.\nL'entail et les législations similaires — telles que le Familienfideikommiss allemand et autrichien — ont été pr..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "entreprise": {
+    "type": "specialized",
+    "exact_terms": [
+      "entreprise"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "entreprise",
+          "synonyms": [
+            "entreprise"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "firme",
+          "synonyms": [
+            "firme"
+          ]
+        },
+        {
+          "name": "compagnie",
+          "synonyms": [
+            "compagnie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une entreprise, également appelée firme, compagnie ou société, ou encore familièrement boîte ou business, est une organisation ou une unité institutionnelle, mue par un projet décliné en stratégie, en politiques et en plans d'action, dont le but est de produire et de fournir des biens ou des services à destination d'un ensemble de clients, en réalisant un équilibre de ses comptes de charges et de produits.\nPour ce faire, une entreprise fait appel, mobilise et consomme des ressources (matérielles..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "erp": {
+    "type": "specialized",
+    "exact_terms": [
+      "erp"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "erp",
+          "synonyms": [
+            "erp"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "française",
+          "synonyms": [
+            "française"
+          ]
+        },
+        {
+          "name": "située",
+          "synonyms": [
+            "située"
+          ]
+        },
+        {
+          "name": "l'ouest",
+          "synonyms": [
+            "l'ouest"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Erp est une commune française, située dans l'ouest du département de l'Ariège en région Occitanie, au cœur du Couserans et à proximité de la ville de Saint-Girons. Le village est connu en particulier pour ses parcours de randonnées, (pédestre et de VTT), et son belvédère du col d'Ayens."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "erreur": {
+    "type": "specialized",
+    "exact_terms": [
+      "erreur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "erreur",
+          "synonyms": [
+            "erreur"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "errare",
+          "synonyms": [
+            "errare"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une erreur (du latin errare, signifiant l'action d'errer, ou un détour) est un acte inadapté à une situation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ertzaintza": {
+    "type": "specialized",
+    "exact_terms": [
+      "ertzaintza"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'ertzaintza",
+          "synonyms": [
+            "l'ertzaintza"
+          ]
+        },
+        {
+          "name": "police",
+          "synonyms": [
+            "police"
+          ]
+        },
+        {
+          "name": "autonome",
+          "synonyms": [
+            "autonome"
+          ]
+        },
+        {
+          "name": "communauté",
+          "synonyms": [
+            "communauté"
+          ]
+        },
+        {
+          "name": "autonome",
+          "synonyms": [
+            "autonome"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'Ertzaintza est la police autonome de la Communauté autonome basque espagnole, qui assume l'intégralité des compétences en ce qui concerne l'ordre public, la sécurité des citoyens et la circulation routière sur le territoire de la communauté autonome, remplaçant largement la Police nationale espagnole et la Garde civile, laissant ces deux corps à des tâches spécifiques au Pays-Basque.\nElle coopère ainsi étroitement avec la Police nationale et la Garde civile, d'où le surnom de Zipaio(ak)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\police",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "escalade": {
+    "type": "specialized",
+    "exact_terms": [
+      "escalade"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "escalade",
+          "synonyms": [
+            "escalade"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "grimpe",
+          "synonyms": [
+            "grimpe"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’escalade, également appelée grimpe ou parfois varappe (désuet), est une pratique et un sport consistant à progresser le long d'une paroi pour atteindre le haut d'un relief ou d'une structure artificielle par un cheminement appelé voie ou itinéraire, avec ou sans l'aide de matériel. Le terrain de pratique va des blocs de faible hauteur aux parois de plusieurs centaines de mètres, en passant par les murs d'escalade."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "escroquerie": {
+    "type": "specialized",
+    "exact_terms": [
+      "escroquerie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "escroquerie",
+          "synonyms": [
+            "escroquerie"
+          ]
+        },
+        {
+          "name": "soit",
+          "synonyms": [
+            "soit"
+          ]
+        },
+        {
+          "name": "l'usage",
+          "synonyms": [
+            "l'usage"
+          ]
+        },
+        {
+          "name": "faux",
+          "synonyms": [
+            "faux"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’escroquerie est le fait, soit par l'usage d'un faux nom ou d'une fausse qualité, soit par l'abus d'une qualité vraie, soit par l'emploi de manœuvres frauduleuses, de tromper une personne physique ou morale et de déterminer ainsi, à son préjudice ou au préjudice d'un tiers, à remettre des fonds, des valeurs ou un bien quelconque, à fournir un service ou à consentir un acte opérant obligation ou décharge. Depuis les années 1990, une escroquerie en ligne s'est développée avec l'Internet."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "espace public mondial": {
+    "type": "specialized",
+    "exact_terms": [
+      "espace public mondial"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'espace",
+          "synonyms": [
+            "l'espace"
+          ]
+        },
+        {
+          "name": "public",
+          "synonyms": [
+            "public"
+          ]
+        },
+        {
+          "name": "mondial",
+          "synonyms": [
+            "mondial"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'espace public mondial est un concept utilisé dans l'étude des relations internationales pour désigner la scène internationale en soulignant la diversité des acteurs qui y agissent."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "espion": {
+    "type": "specialized",
+    "exact_terms": [
+      "espion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "espion",
+          "synonyms": [
+            "espion"
+          ]
+        },
+        {
+          "name": "encore",
+          "synonyms": [
+            "encore"
+          ]
+        },
+        {
+          "name": "agent",
+          "synonyms": [
+            "agent"
+          ]
+        },
+        {
+          "name": "secret",
+          "synonyms": [
+            "secret"
+          ]
+        },
+        {
+          "name": "individu",
+          "synonyms": [
+            "individu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un espion, ou encore un agent secret, est un individu qui pratique l'espionnage ou, de manière plus générale, une activité relative à la collecte clandestine de renseignements ou d'informations secrètes classifiées, le plus souvent pour les livrer à un État.\nPar extension, on appelle aussi espion ou agent secret, toute personne exerçant une activité clandestine au service d'un État, comme le sabotage, la destruction, la capture de matériel, l'assassinat, l'enlèvement ou encore l'exfiltration de ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit international\\droit international public\\droit des conflits armés",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "espèce": {
+    "type": "specialized",
+    "exact_terms": [
+      "espèce"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "sciences",
+          "synonyms": [
+            "sciences"
+          ]
+        },
+        {
+          "name": "vivant",
+          "synonyms": [
+            "vivant"
+          ]
+        },
+        {
+          "name": "espèce",
+          "synonyms": [
+            "espèce"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "species",
+          "synonyms": [
+            "species"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans les sciences du vivant, l’espèce (du latin species, « type » ou « apparence ») est le taxon de base de la taxonomie. La définition le plus communément admise est celle du concept biologique : une espèce est un ensemble d'individus qui peuvent effectivement ou potentiellement se reproduire entre eux et engendrer une descendance viable et féconde, dans des conditions naturelles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ester": {
+    "type": "specialized",
+    "exact_terms": [
+      "ester"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chimie",
+          "synonyms": [
+            "chimie"
+          ]
+        },
+        {
+          "name": "fonction",
+          "synonyms": [
+            "fonction"
+          ]
+        },
+        {
+          "name": "ester",
+          "synonyms": [
+            "ester"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "groupement",
+          "synonyms": [
+            "groupement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En chimie, la fonction ester désigne un groupement caractéristique formé d'un atome lié simultanément à un atome d'oxygène par une double liaison et à un groupement alkoxyle. Lorsque l'atome lié est un atome de carbone, on parle d'ester carboxylique, dont la forme générale est R-COO-R'."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "estoppel": {
+    "type": "specialized",
+    "exact_terms": [
+      "estoppel"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'estoppel",
+          "synonyms": [
+            "l'estoppel"
+          ]
+        },
+        {
+          "name": "principe",
+          "synonyms": [
+            "principe"
+          ]
+        },
+        {
+          "name": "juridique",
+          "synonyms": [
+            "juridique"
+          ]
+        },
+        {
+          "name": "d'origine",
+          "synonyms": [
+            "d'origine"
+          ]
+        },
+        {
+          "name": "anglaise",
+          "synonyms": [
+            "anglaise"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'estoppel est un principe juridique d'origine anglaise (de common law) qui peut revêtir deux sens.\nDans un premier sens, c'est une objection qui s'oppose, en droit international public, à ce qu'un État partie à un procès puisse contredire une position qu’il a prise antérieurement et dans laquelle les autres États ou des organisations internationales avaient placé leur légitime confiance."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "eurodac": {
+    "type": "specialized",
+    "exact_terms": [
+      "eurodac"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "eurodac",
+          "synonyms": [
+            "eurodac"
+          ]
+        },
+        {
+          "name": "base",
+          "synonyms": [
+            "base"
+          ]
+        },
+        {
+          "name": "données",
+          "synonyms": [
+            "données"
+          ]
+        },
+        {
+          "name": "mise",
+          "synonyms": [
+            "mise"
+          ]
+        },
+        {
+          "name": "place",
+          "synonyms": [
+            "place"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Eurodac est une base de données mise en place dans l'Union européenne et opérationnelle depuis le 15 janvier 2003. Dotée d'un système automatisé de reconnaissance d'empreintes digitales, elle a pour objet de permettre d'identifier des personnes et ainsi contribuer à déterminer l'État membre qui, en vertu de la convention de Dublin, est responsable de l'examen d'une demande d'asile présentée dans un État membre et de faciliter à d'autres égards l'application de la convention de Dublin."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit international",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "eurojust": {
+    "type": "specialized",
+    "exact_terms": [
+      "eurojust"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'unité",
+          "synonyms": [
+            "l'unité"
+          ]
+        },
+        {
+          "name": "coopération",
+          "synonyms": [
+            "coopération"
+          ]
+        },
+        {
+          "name": "judiciaire",
+          "synonyms": [
+            "judiciaire"
+          ]
+        },
+        {
+          "name": "l'union",
+          "synonyms": [
+            "l'union"
+          ]
+        },
+        {
+          "name": "européenne",
+          "synonyms": [
+            "européenne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'Unité de coopération judiciaire de l'Union européenne, ou Eurojust, est l'agence européenne chargée de renforcer la coopération judiciaire entre les États membres par l'adoption, au niveau européen, de mesures structurelles destinées à promouvoir une coordination optimale des actions d'enquête et de poursuites débordant le cadre d'un seul territoire national, dans le plein respect des libertés et des droits fondamentaux. Institué par une décision du Conseil de l'Union européenne du 28 février ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "europol": {
+    "type": "specialized",
+    "exact_terms": [
+      "europol"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "europol",
+          "synonyms": [
+            "europol"
+          ]
+        },
+        {
+          "name": "european",
+          "synonyms": [
+            "european"
+          ]
+        },
+        {
+          "name": "union",
+          "synonyms": [
+            "union"
+          ]
+        },
+        {
+          "name": "agency",
+          "synonyms": [
+            "agency"
+          ]
+        },
+        {
+          "name": "for",
+          "synonyms": [
+            "for"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Europol (European Union Agency for Law Enforcement Cooperation, anciennement European Police Office) est une agence européenne de police criminelle qui facilite l'échange de renseignements entre polices nationales en matière de stupéfiants, de terrorisme, de criminalité internationale et de pédocriminalité au sein de l'Union européenne.\nLa convention portant sa création a été signée et ratifiée par tous les États membres de l'Union européenne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\police",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ex aequo et bono": {
+    "type": "specialized",
+    "exact_terms": [
+      "ex aequo et bono"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "æquo",
+          "synonyms": [
+            "æquo"
+          ]
+        },
+        {
+          "name": "bono",
+          "synonyms": [
+            "bono"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ex æquo et bono (latin pour « selon le droit et le bon » ou « de l'équité et de la conscience ») est une expression dérivée du latin utilisée comme terme technique. Dans le contexte de l'arbitrage, il se réfère au pouvoir des arbitres de se dispenser de l'examen de la loi et prenant en compte uniquement ce qu'ils considèrent être juste et équitable."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ex nihilo": {
+    "type": "specialized",
+    "exact_terms": [
+      "ex nihilo"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "nihilo",
+          "synonyms": [
+            "nihilo"
+          ]
+        },
+        {
+          "name": "expression",
+          "synonyms": [
+            "expression"
+          ]
+        },
+        {
+          "name": "latine",
+          "synonyms": [
+            "latine"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        },
+        {
+          "name": "partir",
+          "synonyms": [
+            "partir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ex nihilo est une expression latine signifiant « à partir de rien ». Elle est souvent utilisée en conjonction avec un terme exprimant une idée de création, comme dans le concept théologico-cosmologique de creatio ex nihilo, qui signifie littéralement « création à partir de rien », par opposition à une creatio ex materia, création à partir d'un substrat préexistant."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exception": {
+    "type": "specialized",
+    "exact_terms": [
+      "exception"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exception",
+          "synonyms": [
+            "exception"
+          ]
+        },
+        {
+          "name": "dérogation",
+          "synonyms": [
+            "dérogation"
+          ]
+        },
+        {
+          "name": "règle",
+          "synonyms": [
+            "règle"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une exception est :\n\nune dérogation à une règle générale ;\nen droit, une dérogation à une règle spéciale, pouvant être légitimée en raison de son invalidité ou de son inapplicabilité : voir voie d'exception ;\nEn droit romain, l'exception est un moyen de défense procédural, sens par ailleurs conservé dans les termes juridiques français exception de subrogation et exception d'inexécution.\nun événement informatique : voir système de gestion d'exceptions."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exhibition": {
+    "type": "specialized",
+    "exact_terms": [
+      "exhibition"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exhibition",
+          "synonyms": [
+            "exhibition"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "exhibere",
+          "synonyms": [
+            "exhibere"
+          ]
+        },
+        {
+          "name": "montrer",
+          "synonyms": [
+            "montrer"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot exhibition (du latin exhibere : « montrer ») peut faire référence à :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exhérédation": {
+    "type": "specialized",
+    "exact_terms": [
+      "exhérédation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exhérédation",
+          "synonyms": [
+            "exhérédation"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "successions",
+          "synonyms": [
+            "successions"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’exhérédation est un terme utilisé en droit des successions qui signifie le fait de déshériter une personne. Il désigne plus spécifiquement la clause testamentaire, légale ou coutumière, par laquelle cette personne se retrouve déshéritée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "expertise": {
+    "type": "specialized",
+    "exact_terms": [
+      "expertise"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'expertise",
+          "synonyms": [
+            "l'expertise"
+          ]
+        },
+        {
+          "name": "examen",
+          "synonyms": [
+            "examen"
+          ]
+        },
+        {
+          "name": "avis",
+          "synonyms": [
+            "avis"
+          ]
+        },
+        {
+          "name": "estimation",
+          "synonyms": [
+            "estimation"
+          ]
+        },
+        {
+          "name": "évaluation",
+          "synonyms": [
+            "évaluation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'expertise est un examen, un avis, une estimation ou une évaluation de quelque chose. Elle est réalisée par un expert détenant un ensemble de savoirs spécialisés (scientifique,  technique, etc.)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exploit": {
+    "type": "specialized",
+    "exact_terms": [
+      "exploit"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exploit",
+          "synonyms": [
+            "exploit"
+          ]
+        },
+        {
+          "name": "extraordinaire",
+          "synonyms": [
+            "extraordinaire"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "exploit",
+          "synonyms": [
+            "exploit"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un exploit est un fait extraordinaire.\nLe mot anglais exploit peut aussi désigner :\n\nen sécurité informatique, exploit, un programme informatique permettant d'exploiter une faille de sécurité ;\nen jeu vidéo, exploit, l'utilisation d'un bug dans un jeu vidéo pour gagner un avantage d'une façon non prévue par les développeurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exploitation agricole à responsabilité limitée": {
+    "type": "specialized",
+    "exact_terms": [
+      "exploitation agricole à responsabilité limitée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exploitation",
+          "synonyms": [
+            "exploitation"
+          ]
+        },
+        {
+          "name": "agricole",
+          "synonyms": [
+            "agricole"
+          ]
+        },
+        {
+          "name": "responsabilité",
+          "synonyms": [
+            "responsabilité"
+          ]
+        },
+        {
+          "name": "limitée",
+          "synonyms": [
+            "limitée"
+          ]
+        },
+        {
+          "name": "earl",
+          "synonyms": [
+            "earl"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’exploitation agricole à responsabilité limitée (EARL) est un statut d’entreprise spécialisée dans l’exploitation agricole de droit français. Cette entreprise à responsabilité limitée se crée avec un capital minimum de 7 500 € et entre 1 et 10 associés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit privé\\droit des affaires\\droit des sociétés",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exposant": {
+    "type": "specialized",
+    "exact_terms": [
+      "exposant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exposant",
+          "synonyms": [
+            "exposant"
+          ]
+        },
+        {
+          "name": "l'exposant",
+          "synonyms": [
+            "l'exposant"
+          ]
+        },
+        {
+          "name": "notation",
+          "synonyms": [
+            "notation"
+          ]
+        },
+        {
+          "name": "typographique",
+          "synonyms": [
+            "typographique"
+          ]
+        },
+        {
+          "name": "l'exposant",
+          "synonyms": [
+            "l'exposant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Exposant peut signifier :\n\nl'exposant, une notation typographique ;\nl'exposant, l'opération mathématique ou encore l'exposant d'un groupe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exposé des motifs": {
+    "type": "specialized",
+    "exact_terms": [
+      "exposé des motifs"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "l'exposé",
+          "synonyms": [
+            "l'exposé"
+          ]
+        },
+        {
+          "name": "motifs",
+          "synonyms": [
+            "motifs"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En droit français, l'exposé des motifs est la partie d'un projet de loi ou d'une proposition de loi, ou d'un acte réglementaire, qui indique « de manière simple et concise, les raisons pour lesquelles ce [texte est adopté/proposé], l'esprit dont il procède, les objectifs qu'il se fixe et les modifications qu'il apporte au droit existant ». Il « constitue l'un des éléments des travaux préparatoires, auquel le juge peut se référer en cas de doute sur les intentions du législateur (CE, 12 mars 1975..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\législation",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "expédition": {
+    "type": "specialized",
+    "exact_terms": [
+      "expédition"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "expédition",
+          "synonyms": [
+            "expédition"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "expédition",
+          "synonyms": [
+            "expédition"
+          ]
+        },
+        {
+          "name": "opération",
+          "synonyms": [
+            "opération"
+          ]
+        },
+        {
+          "name": "militaire",
+          "synonyms": [
+            "militaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Expédition peut faire référence à :\n\nUne expédition est une opération militaire en territoire éloigné ; dans les armées modernes, on parle de projection\nUne expédition est un voyage organisé pour une exploration ou dans le cadre de l’alpinisme.\nL'expédition d'un objet est sa remise à un transporteur pour l'envoyer à un destinataire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "extraterritorialité": {
+    "type": "specialized",
+    "exact_terms": [
+      "extraterritorialité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "extraterritorialité",
+          "synonyms": [
+            "extraterritorialité"
+          ]
+        },
+        {
+          "name": "principe",
+          "synonyms": [
+            "principe"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "international",
+          "synonyms": [
+            "international"
+          ]
+        },
+        {
+          "name": "public",
+          "synonyms": [
+            "public"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’extraterritorialité est un principe de droit international public qui revient pour un pays à laisser s'exercer l'autorité d'un État étranger ou d'une organisation internationale sur une partie de son territoire propre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exécuteur testamentaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "exécuteur testamentaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exécuteur",
+          "synonyms": [
+            "exécuteur"
+          ]
+        },
+        {
+          "name": "testamentaire",
+          "synonyms": [
+            "testamentaire"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "chargée",
+          "synonyms": [
+            "chargée"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un exécuteur testamentaire est la personne chargée de faire respecter les dernières volontés du défunt. Il est appelé liquidateur au Québec."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exécution forcée": {
+    "type": "specialized",
+    "exact_terms": [
+      "exécution forcée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exécution",
+          "synonyms": [
+            "exécution"
+          ]
+        },
+        {
+          "name": "forcée",
+          "synonyms": [
+            "forcée"
+          ]
+        },
+        {
+          "name": "domaine",
+          "synonyms": [
+            "domaine"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "concerne",
+          "synonyms": [
+            "concerne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’exécution forcée  est un domaine du droit qui concerne l’utilisation de la puissance publique pour procéder à l’exécution d’un contrat ou d’un jugement. Sur la base d’un jugement exécutoire, le créancier peut demander à l’État (par un Tribunal d’exécution ou un officier public) la mise en œuvre de la décision finale du tribunal devant lequel il avait porté son affaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exécution provisoire": {
+    "type": "specialized",
+    "exact_terms": [
+      "exécution provisoire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'exécution",
+          "synonyms": [
+            "l'exécution"
+          ]
+        },
+        {
+          "name": "provisoire",
+          "synonyms": [
+            "provisoire"
+          ]
+        },
+        {
+          "name": "jugement",
+          "synonyms": [
+            "jugement"
+          ]
+        },
+        {
+          "name": "définie",
+          "synonyms": [
+            "définie"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'exécution provisoire d'un jugement peut être définie comme étant une « mesure ordonnée par un tribunal pour que sa décision soit immédiatement exécutée même s'il y a un appel formé contre elle. [Elle] suppose qu'il y ait  urgence ou péril en la demeure »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "exécution sommaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "exécution sommaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exécution",
+          "synonyms": [
+            "exécution"
+          ]
+        },
+        {
+          "name": "sommaire",
+          "synonyms": [
+            "sommaire"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "d'homicide",
+          "synonyms": [
+            "d'homicide"
+          ]
+        },
+        {
+          "name": "volontaire",
+          "synonyms": [
+            "volontaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une exécution sommaire est une forme d'homicide volontaire sur la personne d'un prisonnier, accusé ou suspect d'activités criminelles ou subversives, qui est tuée souvent sur le lieu même de sa capture, sans procès préliminaire ou à la suite d'une parodie de procès.\nCe type d'exécution a lieu durant un état d'exception, quand la loi martiale s'impose sur un territoire durant un conflit d'ordre militaire quel qu'il soit."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fair use": {
+    "type": "specialized",
+    "exact_terms": [
+      "fair use"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "états-unis",
+          "synonyms": [
+            "états-unis"
+          ]
+        },
+        {
+          "name": "fair",
+          "synonyms": [
+            "fair"
+          ]
+        },
+        {
+          "name": "use",
+          "synonyms": [
+            "use"
+          ]
+        },
+        {
+          "name": "fɛɚ",
+          "synonyms": [
+            "fɛɚ"
+          ]
+        },
+        {
+          "name": "jus",
+          "synonyms": [
+            "jus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Aux États-Unis, le fair use /fɛɚ jus/ (litt. « usage loyal », « usage raisonnable », « usage acceptable » ou « utilisation équitable ») est un ensemble de règles de droit, d'origine législative et jurisprudentielle, qui apportent des limitations et des exceptions aux droits exclusifs de l'auteur sur son œuvre (droit d'auteur)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fait": {
+    "type": "specialized",
+    "exact_terms": [
+      "fait"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "événement",
+          "synonyms": [
+            "événement"
+          ]
+        },
+        {
+          "name": "advenu",
+          "synonyms": [
+            "advenu"
+          ]
+        },
+        {
+          "name": "advenant",
+          "synonyms": [
+            "advenant"
+          ]
+        },
+        {
+          "name": "l'histoire",
+          "synonyms": [
+            "l'histoire"
+          ]
+        },
+        {
+          "name": "individu",
+          "synonyms": [
+            "individu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un fait est un événement advenu ou advenant dans l'histoire d'un individu ou d'un groupe. Il est caractérisé par son extériorité, par opposition à une idée qui, elle, relève de l'intériorité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "famille recomposée": {
+    "type": "specialized",
+    "exact_terms": [
+      "famille recomposée"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "recomposée",
+          "synonyms": [
+            "recomposée"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "constituée",
+          "synonyms": [
+            "constituée"
+          ]
+        },
+        {
+          "name": "couple",
+          "synonyms": [
+            "couple"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une famille recomposée est une famille constituée d'un couple vivant avec au moins un enfant dont un seul des conjoints est le parent. Plus précisément, outre son père, sa mère et ses frères et sœurs, peuvent s'ajouter dans le cas d'une famille recomposée :\n\nune belle-mère ou un beau-père qui est le conjoint du père ou de la mère;\ndes demi-frères ou demi-sœurs, enfants avec lesquels on a un seul parent en commun ; enfants du conjoint du père ou de la mère avec lesquels on n'a aucun lien de sang."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fatwa": {
+    "type": "specialized",
+    "exact_terms": [
+      "fatwa"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fatwa",
+          "synonyms": [
+            "fatwa"
+          ]
+        },
+        {
+          "name": "fetva",
+          "synonyms": [
+            "fetva"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "orthographié",
+          "synonyms": [
+            "orthographié"
+          ]
+        },
+        {
+          "name": "fetfa",
+          "synonyms": [
+            "fetfa"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une fatwa ou fetva, parfois orthographié fetfa, en arabe : fatwā, فتوى, au pl. : fatāwā, فتاوى (littéralement « réponse, éclairage »), est, dans l'islam, un avis juridique donné par un spécialiste de la loi islamique sur une question particulière."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "faucher": {
+    "type": "specialized",
+    "exact_terms": [
+      "faucher"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "page",
+          "synonyms": [
+            "page"
+          ]
+        },
+        {
+          "name": "contient",
+          "synonyms": [
+            "contient"
+          ]
+        },
+        {
+          "name": "pages",
+          "synonyms": [
+            "pages"
+          ]
+        },
+        {
+          "name": "d'homonymie",
+          "synonyms": [
+            "d'homonymie"
+          ]
+        },
+        {
+          "name": "faucher",
+          "synonyms": [
+            "faucher"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Cette page contient les pages d'homonymie de Faucher et de de Faucher."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\illégalité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "faux": {
+    "type": "specialized",
+    "exact_terms": [
+      "faux"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "faux",
+          "synonyms": [
+            "faux"
+          ]
+        },
+        {
+          "name": "concurremment",
+          "synonyms": [
+            "concurremment"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "masculin",
+          "synonyms": [
+            "masculin"
+          ]
+        },
+        {
+          "name": "singulier",
+          "synonyms": [
+            "singulier"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot « faux » est, concurremment :\n\nun adjectif masculin singulier ou pluriel (féminin : fausse/fausses) issu du latin falsus (même sens), le contraire de « vrai » ;\nun nom commun masculin (singulier ou pluriel) dérivé de l'adjectif par substantivation, signifiant « ce qui n'est pas vrai » ;\nun nom commun féminin singulier ou pluriel issu du latin falx (même sens), désignant un outil manuel utilisé pour faucher l'herbe ou récolter les céréales ;\nle pluriel de fau, un nom commun masculin issu d..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "faîtage": {
+    "type": "specialized",
+    "exact_terms": [
+      "faîtage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "faîte",
+          "synonyms": [
+            "faîte"
+          ]
+        },
+        {
+          "name": "faite",
+          "synonyms": [
+            "faite"
+          ]
+        },
+        {
+          "name": "nouvelle",
+          "synonyms": [
+            "nouvelle"
+          ]
+        },
+        {
+          "name": "orthographe",
+          "synonyms": [
+            "orthographe"
+          ]
+        },
+        {
+          "name": "ligne",
+          "synonyms": [
+            "ligne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le faîte (ou faite en nouvelle orthographe) est la ligne de rencontre haute de deux versants d'une toiture. Le faîtage (ou faitage en nouvelle orthographe) est l'ouvrage qui permet de joindre ces deux parties."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ferme": {
+    "type": "specialized",
+    "exact_terms": [
+      "ferme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ferme",
+          "synonyms": [
+            "ferme"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "composé",
+          "synonyms": [
+            "composé"
+          ]
+        },
+        {
+          "name": "bâtiments",
+          "synonyms": [
+            "bâtiments"
+          ]
+        },
+        {
+          "name": "terres",
+          "synonyms": [
+            "terres"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une ferme, un ensemble composé d'un ou plusieurs bâtiments et des terres attachées dévolu à l'activité agricole ;\nvoir aussi fermage, un type loyer agricole fixe (ferme)\nUne ferme, un élément de charpente.\nUn ferme est un coffre à plusieurs serrures où sont conservées les archives importantes d'une collectivité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fermeture administrative": {
+    "type": "specialized",
+    "exact_terms": [
+      "fermeture administrative"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fermeture",
+          "synonyms": [
+            "fermeture"
+          ]
+        },
+        {
+          "name": "administrative",
+          "synonyms": [
+            "administrative"
+          ]
+        },
+        {
+          "name": "acte",
+          "synonyms": [
+            "acte"
+          ]
+        },
+        {
+          "name": "administratif",
+          "synonyms": [
+            "administratif"
+          ]
+        },
+        {
+          "name": "formalisant",
+          "synonyms": [
+            "formalisant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une fermeture administrative est un acte administratif, formalisant la décision prise par une administration publique de procéder à la fermeture d'un établissement (scolaire, commercial, etc.).\nCette décision peut faire suite à des constats de manquements à diverses réglementations (manquement à l'hygiène, au règlement de sécurité en matière de risque d'incendie, etc.) ou en cas de trouble à l'ordre public."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "feudiste": {
+    "type": "specialized",
+    "exact_terms": [
+      "feudiste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'ancien",
+          "synonyms": [
+            "l'ancien"
+          ]
+        },
+        {
+          "name": "régime",
+          "synonyms": [
+            "régime"
+          ]
+        },
+        {
+          "name": "feudistes",
+          "synonyms": [
+            "feudistes"
+          ]
+        },
+        {
+          "name": "juristes",
+          "synonyms": [
+            "juristes"
+          ]
+        },
+        {
+          "name": "spécialisés",
+          "synonyms": [
+            "spécialisés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Sous l'Ancien Régime, les feudistes sont des juristes spécialisés dans le droit féodal et les droits seigneuriaux. Recrutés par les seigneurs, ils sont chargés de la réfection des livres terriers, notamment lors des périodes de réaction seigneuriale et nobiliaire, comme à la fin de l'Ancien Régime."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fiction": {
+    "type": "specialized",
+    "exact_terms": [
+      "fiction"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fiction",
+          "synonyms": [
+            "fiction"
+          ]
+        },
+        {
+          "name": "espace",
+          "synonyms": [
+            "espace"
+          ]
+        },
+        {
+          "name": "souvent",
+          "synonyms": [
+            "souvent"
+          ]
+        },
+        {
+          "name": "imaginaire",
+          "synonyms": [
+            "imaginaire"
+          ]
+        },
+        {
+          "name": "réaliste",
+          "synonyms": [
+            "réaliste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une fiction est un espace plus souvent imaginaire que réaliste qui peut servir de cadre pour le récit d'une histoire. Les personnages qui y sont décrits sont dits « personnages fictifs »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\jurisprudence",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fiduciaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "fiduciaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "étymologiquement",
+          "synonyms": [
+            "étymologiquement"
+          ]
+        },
+        {
+          "name": "fiduciaire",
+          "synonyms": [
+            "fiduciaire"
+          ]
+        },
+        {
+          "name": "vient",
+          "synonyms": [
+            "vient"
+          ]
+        },
+        {
+          "name": "fiducie",
+          "synonyms": [
+            "fiducie"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Étymologiquement, le mot fiduciaire vient de « fiducie », qui signifie « confiance » (fiducia en latin)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fiducie": {
+    "type": "specialized",
+    "exact_terms": [
+      "fiducie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fiducie",
+          "synonyms": [
+            "fiducie"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "fiducia",
+          "synonyms": [
+            "fiducia"
+          ]
+        },
+        {
+          "name": "confiance",
+          "synonyms": [
+            "confiance"
+          ]
+        },
+        {
+          "name": "juridique",
+          "synonyms": [
+            "juridique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La fiducie (du latin fiducia, « confiance ») est un concept juridique anglo-saxon de gestion de patrimoine privé connu en anglais sous le nom de « trust ». Il désigne une opération par laquelle une personne appelée « constituant » confie la propriété de biens, de droits ou de sûretés présents ou futurs à un tiers appelé fiduciaire, agissant au profit d'un ou plusieurs bénéficiaires, avec des conditions d'usage ou de durée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fiducie-sûreté": {
+    "type": "specialized",
+    "exact_terms": [
+      "fiducie-sûreté"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fiducie-sûreté",
+          "synonyms": [
+            "fiducie-sûreté"
+          ]
+        },
+        {
+          "name": "traduit",
+          "synonyms": [
+            "traduit"
+          ]
+        },
+        {
+          "name": "mieux",
+          "synonyms": [
+            "mieux"
+          ]
+        },
+        {
+          "name": "trust",
+          "synonyms": [
+            "trust"
+          ]
+        },
+        {
+          "name": "way",
+          "synonyms": [
+            "way"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La fiducie-sûreté (ce qui se traduit le mieux par trust by way of security en anglais) est une fiducie constituée à fin de servir de sûreté. Un constituant, débiteur, transfère à un fiduciaire, créancier, des biens, des droits ou des sûretés en garantie de sa créance."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fidéicommis": {
+    "type": "specialized",
+    "exact_terms": [
+      "fidéicommis"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fideicommissum",
+          "synonyms": [
+            "fideicommissum"
+          ]
+        },
+        {
+          "name": "fideicommittere",
+          "synonyms": [
+            "fideicommittere"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "romain",
+          "synonyms": [
+            "romain"
+          ]
+        },
+        {
+          "name": "disposition",
+          "synonyms": [
+            "disposition"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le fideicommissum (de fideicommittere) est en droit romain  « une disposition de dernière volonté, non revêtue des formes solennelles des legs ou des institutions d'héritier, par laquelle quelqu'un (fideicommittens) chargeait une personne (fiduciarius) à laquelle elle faisait une libéralité, de transmettre à un tiers (fideicommissarius) tout ou partie du bénéfice de cette libéralité. »\nAutrement dit, le mot latin fidéicommis (littéralement: laissé entre des mains fidèles) désigne une disposition..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fief": {
+    "type": "specialized",
+    "exact_terms": [
+      "fief"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fief",
+          "synonyms": [
+            "fief"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "tenure",
+          "synonyms": [
+            "tenure"
+          ]
+        },
+        {
+          "name": "noble",
+          "synonyms": [
+            "noble"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le fief, également appelé tenure noble ou terre de noble tenure est, au Moyen Âge et à l'Époque moderne, un bien ou un revenu immobilier cédé par un seigneur à un vassal en rétribution des services obligatoires dus par le vassal. Contrairement à une tenure paysanne, la tenure noble implique une cérémonie d'hommage du vassal au seigneur suzerain."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "filet de sécurité": {
+    "type": "specialized",
+    "exact_terms": [
+      "filet de sécurité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "filet",
+          "synonyms": [
+            "filet"
+          ]
+        },
+        {
+          "name": "sécurité",
+          "synonyms": [
+            "sécurité"
+          ]
+        },
+        {
+          "name": "filet",
+          "synonyms": [
+            "filet"
+          ]
+        },
+        {
+          "name": "protège",
+          "synonyms": [
+            "protège"
+          ]
+        },
+        {
+          "name": "personnes",
+          "synonyms": [
+            "personnes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un filet de sécurité est un filet qui protège les personnes contre les blessures d'une chute. Il a pour objectif de limiter la distance de descente et de dissiper l'énergie d'impact."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fin de non-recevoir": {
+    "type": "specialized",
+    "exact_terms": [
+      "fin de non-recevoir"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fin",
+          "synonyms": [
+            "fin"
+          ]
+        },
+        {
+          "name": "non-recevoir",
+          "synonyms": [
+            "non-recevoir"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "diplomatie",
+          "synonyms": [
+            "diplomatie"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme Fin de non-recevoir est employé en diplomatie et en droit civil."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "finances publiques": {
+    "type": "specialized",
+    "exact_terms": [
+      "finances publiques"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "finances",
+          "synonyms": [
+            "finances"
+          ]
+        },
+        {
+          "name": "publiques",
+          "synonyms": [
+            "publiques"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "règles",
+          "synonyms": [
+            "règles"
+          ]
+        },
+        {
+          "name": "opérations",
+          "synonyms": [
+            "opérations"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les finances publiques sont l'étude des règles et des opérations relatives aux deniers publics. Selon le critère organique, les finances publiques peuvent aussi être présentées comme l’ensemble des règles gouvernant les finances de l’État, des collectivités territoriales, des organismes de sécurité sociale, des établissements publics et de toutes autres personnes morales de droit public."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fixation des prix": {
+    "type": "specialized",
+    "exact_terms": [
+      "fixation des prix"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fixation",
+          "synonyms": [
+            "fixation"
+          ]
+        },
+        {
+          "name": "prix",
+          "synonyms": [
+            "prix"
+          ]
+        },
+        {
+          "name": "pratique",
+          "synonyms": [
+            "pratique"
+          ]
+        },
+        {
+          "name": "anticoncurrentielle",
+          "synonyms": [
+            "anticoncurrentielle"
+          ]
+        },
+        {
+          "name": "présente",
+          "synonyms": [
+            "présente"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La fixation des prix est une pratique anticoncurrentielle présente lorsque des parties qui œuvrent dans un même marché s'entendent, de façon formelle ou informelle, pour acquérir ou vendre un produit, un service ou une marchandise à un prix préalablement établi ou maintiennent des conditions de marché telles que le prix est contrôlé par l'offre et la demande. Elle peut viser à augmenter des prix à des maximums tolérés par les acheteurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "flagrant délit": {
+    "type": "specialized",
+    "exact_terms": [
+      "flagrant délit"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "flagrant",
+          "synonyms": [
+            "flagrant"
+          ]
+        },
+        {
+          "name": "délit",
+          "synonyms": [
+            "délit"
+          ]
+        },
+        {
+          "name": "délit",
+          "synonyms": [
+            "délit"
+          ]
+        },
+        {
+          "name": "flagrant",
+          "synonyms": [
+            "flagrant"
+          ]
+        },
+        {
+          "name": "venant",
+          "synonyms": [
+            "venant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le flagrant délit ou délit flagrant (venant de l'expression latine in flagrante delicto) est une situation dans laquelle une infraction est en train d'être commise, ou vient d'être commise.\nSouvent, une personne est prise sur le fait au moment de son infraction ou immédiatement après et en possession d'indices laissant supposer sa participation à cette infraction."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "foi": {
+    "type": "specialized",
+    "exact_terms": [
+      "foi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "foi",
+          "synonyms": [
+            "foi"
+          ]
+        },
+        {
+          "name": "vient",
+          "synonyms": [
+            "vient"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "fides",
+          "synonyms": [
+            "fides"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot foi vient du latin fides qui signifie « confiance ». La foi désigne étymologiquement le fait d'avoir confiance en quelque chose ou quelqu'un."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fond": {
+    "type": "specialized",
+    "exact_terms": [
+      "fond"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "manière",
+          "synonyms": [
+            "manière"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "fond",
+          "synonyms": [
+            "fond"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        },
+        {
+          "name": "basse",
+          "synonyms": [
+            "basse"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "D'une manière générale, le fond est la partie basse de l'intérieur d'un objet. En particulier, ce terme est employé dans plusieurs domaines :\n\nen informatique\nun fond de panier est une carte composée d'un bus ;\nfond d'écran\nen architecture navale, le fond d'un bateau est la partie basse de la cale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fondation": {
+    "type": "specialized",
+    "exact_terms": [
+      "fondation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fondation",
+          "synonyms": [
+            "fondation"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "foundation",
+          "synonyms": [
+            "foundation"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme fondation (en anglais, foundation) désigne notamment :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fonds de commerce": {
+    "type": "specialized",
+    "exact_terms": [
+      "fonds de commerce"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fonds",
+          "synonyms": [
+            "fonds"
+          ]
+        },
+        {
+          "name": "commerce",
+          "synonyms": [
+            "commerce"
+          ]
+        },
+        {
+          "name": "juridique",
+          "synonyms": [
+            "juridique"
+          ]
+        },
+        {
+          "name": "existant",
+          "synonyms": [
+            "existant"
+          ]
+        },
+        {
+          "name": "certains",
+          "synonyms": [
+            "certains"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le fonds de commerce est une notion juridique existant dans certains pays comme la France, l'Algérie, la Tunisie, le Maroc, la Belgique, le Luxembourg et le Québec. Il est défini comme un ensemble d'éléments mobiliers corporels et incorporels (dont le droit au bail), réunis en vue d'attirer une clientèle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "forage": {
+    "type": "specialized",
+    "exact_terms": [
+      "forage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "forage",
+          "synonyms": [
+            "forage"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "creuser",
+          "synonyms": [
+            "creuser"
+          ]
+        },
+        {
+          "name": "trou",
+          "synonyms": [
+            "trou"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le forage est l'action de creuser un trou (aussi appelé « puits » dans le domaine de la prospection) dans la Terre. L'équipement du puits, tel les tubages, et de manière générale les moyens techniques permettant de creuser, varient en fonction de son dimensionnement et de ses objectifs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "forain": {
+    "type": "specialized",
+    "exact_terms": [
+      "forain"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "forain",
+          "synonyms": [
+            "forain"
+          ]
+        },
+        {
+          "name": "propriétaire",
+          "synonyms": [
+            "propriétaire"
+          ]
+        },
+        {
+          "name": "employé",
+          "synonyms": [
+            "employé"
+          ]
+        },
+        {
+          "name": "grandes",
+          "synonyms": [
+            "grandes"
+          ]
+        },
+        {
+          "name": "petites",
+          "synonyms": [
+            "petites"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un forain est un propriétaire ou un employé des grandes et petites attractions, des manèges, des stands de foire, des étals de foire et de marché. Les entreprises foraines étant pour la plupart familiales, le terme « forain » s'applique par extension à la famille de ces personnes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "force majeure": {
+    "type": "specialized",
+    "exact_terms": [
+      "force majeure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cas",
+          "synonyms": [
+            "cas"
+          ]
+        },
+        {
+          "name": "dit",
+          "synonyms": [
+            "dit"
+          ]
+        },
+        {
+          "name": "force",
+          "synonyms": [
+            "force"
+          ]
+        },
+        {
+          "name": "majeure",
+          "synonyms": [
+            "majeure"
+          ]
+        },
+        {
+          "name": "événement",
+          "synonyms": [
+            "événement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un cas dit de force majeure est un événement exceptionnel auquel on ne peut faire face.\nEn droit, les conditions de la force majeure évoluent au gré de la jurisprudence et de la doctrine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "forces armées": {
+    "type": "specialized",
+    "exact_terms": [
+      "forces armées"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "forces",
+          "synonyms": [
+            "forces"
+          ]
+        },
+        {
+          "name": "armées",
+          "synonyms": [
+            "armées"
+          ]
+        },
+        {
+          "name": "différentes",
+          "synonyms": [
+            "différentes"
+          ]
+        },
+        {
+          "name": "organisations",
+          "synonyms": [
+            "organisations"
+          ]
+        },
+        {
+          "name": "moyens",
+          "synonyms": [
+            "moyens"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les forces armées sont les différentes organisations et moyens militaires qu'un État consacre à la mise en œuvre de sa politique de défense. Elles ne se limitent pas à sa seule armée mais regroupent d'autres organisations comme les milices, les mercenaires, les paramilitaires ou les partisans dans le cas d'une nation occupée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit international",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "forces de sécurité intérieure": {
+    "type": "specialized",
+    "exact_terms": [
+      "forces de sécurité intérieure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "forces",
+          "synonyms": [
+            "forces"
+          ]
+        },
+        {
+          "name": "sécurité",
+          "synonyms": [
+            "sécurité"
+          ]
+        },
+        {
+          "name": "intérieure",
+          "synonyms": [
+            "intérieure"
+          ]
+        },
+        {
+          "name": "fsi",
+          "synonyms": [
+            "fsi"
+          ]
+        },
+        {
+          "name": "corps",
+          "synonyms": [
+            "corps"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les Forces de sécurité intérieure (FSI) sont un corps représentant la police libanaise, et dont le directeur général est le général de division Imad Osman.\nSon effectif est d'environ 30 000 personnes dans les années 2000."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "forclusion": {
+    "type": "specialized",
+    "exact_terms": [
+      "forclusion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "forclusion",
+          "synonyms": [
+            "forclusion"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "forclusion",
+          "synonyms": [
+            "forclusion"
+          ]
+        },
+        {
+          "name": "éteint",
+          "synonyms": [
+            "éteint"
+          ]
+        },
+        {
+          "name": "possibilité",
+          "synonyms": [
+            "possibilité"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot forclusion a plusieurs sens :\n\nen droit, la forclusion éteint la possibilité d'agir en justice en raison de délais pour agir non respectés.\nen psychanalyse, la forclusion est un mécanisme de défense spécifique aux psychoses selon Lacan."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "formariage": {
+    "type": "specialized",
+    "exact_terms": [
+      "formariage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "médiéval",
+          "synonyms": [
+            "médiéval"
+          ]
+        },
+        {
+          "name": "vertu",
+          "synonyms": [
+            "vertu"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En droit français médiéval, en vertu du droit de formariage (ou for-mariage), les serfs ne pouvaient contracter mariage qu'avec un autre serf du même seigneur, sauf s'ils obtenaient la permission de leur seigneur.\nLe terme provient de mariage et de fors («hors», « dehors ») : mariage contracté hors de la seigneurie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "forme": {
+    "type": "specialized",
+    "exact_terms": [
+      "forme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "polysémique",
+          "synonyms": [
+            "polysémique"
+          ]
+        },
+        {
+          "name": "admettant",
+          "synonyms": [
+            "admettant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Forme est un nom commun polysémique admettant beaucoup d’emplois spécifiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "forêt domaniale": {
+    "type": "specialized",
+    "exact_terms": [
+      "forêt domaniale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "forêt",
+          "synonyms": [
+            "forêt"
+          ]
+        },
+        {
+          "name": "domaniale",
+          "synonyms": [
+            "domaniale"
+          ]
+        },
+        {
+          "name": "france",
+          "synonyms": [
+            "france"
+          ]
+        },
+        {
+          "name": "forêt",
+          "synonyms": [
+            "forêt"
+          ]
+        },
+        {
+          "name": "appartenant",
+          "synonyms": [
+            "appartenant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une forêt domaniale est, en France, une forêt appartenant à l'État. Sa gestion est assurée par l'Office national des forêts (ONF) en application du Code forestier, héritier d'ordonnances et règlements qui se sont succédé depuis l'époque de Charlemagne « au gré du contexte politique, économique et démographique de la France, faisant des forêts domaniales les premiers espaces naturels dont la gestion est rigoureusement encadrée »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fouage": {
+    "type": "specialized",
+    "exact_terms": [
+      "fouage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "moyen",
+          "synonyms": [
+            "moyen"
+          ]
+        },
+        {
+          "name": "âge",
+          "synonyms": [
+            "âge"
+          ]
+        },
+        {
+          "name": "fouage",
+          "synonyms": [
+            "fouage"
+          ]
+        },
+        {
+          "name": "focagium",
+          "synonyms": [
+            "focagium"
+          ]
+        },
+        {
+          "name": "impôt",
+          "synonyms": [
+            "impôt"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Au Moyen Âge, le fouage (focagium) est un impôt ordinaire ou extraordinaire perçu sur chaque feu (focus) ou foyer."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "frais": {
+    "type": "specialized",
+    "exact_terms": [
+      "frais"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "frais",
+          "synonyms": [
+            "frais"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "l'adjectif",
+          "synonyms": [
+            "l'adjectif"
+          ]
+        },
+        {
+          "name": "relatif",
+          "synonyms": [
+            "relatif"
+          ]
+        },
+        {
+          "name": "basses",
+          "synonyms": [
+            "basses"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Frais peut faire référence à :\n\nl'adjectif relatif aux basses températures, et par extension à la fraîcheur des denrées alimentaires ;\nune dépense ;\nFrais, commune du Territoire de Belfort.\nFrais, épisode de la série américaine Better Call Saul diffusé en 2017."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "franc-tenancier": {
+    "type": "specialized",
+    "exact_terms": [
+      "franc-tenancier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "franc-tenancier",
+          "synonyms": [
+            "franc-tenancier"
+          ]
+        },
+        {
+          "name": "moyen",
+          "synonyms": [
+            "moyen"
+          ]
+        },
+        {
+          "name": "âge",
+          "synonyms": [
+            "âge"
+          ]
+        },
+        {
+          "name": "angleterre",
+          "synonyms": [
+            "angleterre"
+          ]
+        },
+        {
+          "name": "homme",
+          "synonyms": [
+            "homme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le franc-tenancier est au Moyen Âge, en Angleterre, un homme qui ne dépend que du pouvoir du roi et qui possède ses terres en alleu."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "francisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "francisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "francisation",
+          "synonyms": [
+            "francisation"
+          ]
+        },
+        {
+          "name": "l'extension",
+          "synonyms": [
+            "l'extension"
+          ]
+        },
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "française",
+          "synonyms": [
+            "française"
+          ]
+        },
+        {
+          "name": "adoption",
+          "synonyms": [
+            "adoption"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La francisation est l'extension de la langue française par son adoption en tant que langue maternelle ou non, adoption pouvant être subie ou voulue par les populations concernées. Le mot peut aussi désigner la modification d'un nom propre, par exemple Schlettstàdt en Sélestat, Van de Walle en De Gaulle ou Winchester en Bicêtre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "français": {
+    "type": "specialized",
+    "exact_terms": [
+      "français"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "indo-européenne",
+          "synonyms": [
+            "indo-européenne"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "langues",
+          "synonyms": [
+            "langues"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le français est une langue indo-européenne de la famille des langues romanes dont les locuteurs sont appelés « francophones ».\nIl est la sixième langue parlée au monde après l'anglais, le mandarin, le hindi, l'espagnol et l'arabe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit privé\\droit civil",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fraude sociale": {
+    "type": "specialized",
+    "exact_terms": [
+      "fraude sociale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fraude",
+          "synonyms": [
+            "fraude"
+          ]
+        },
+        {
+          "name": "sociale",
+          "synonyms": [
+            "sociale"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "actions",
+          "synonyms": [
+            "actions"
+          ]
+        },
+        {
+          "name": "illégales",
+          "synonyms": [
+            "illégales"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La fraude sociale est l'ensemble des actions illégales intentionnelles pour échapper aux cotisations sociales ou pour bénéficier de manière indue des prestations sociales."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit privé\\droit social",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fresnes": {
+    "type": "specialized",
+    "exact_terms": [
+      "fresnes"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fresnes",
+          "synonyms": [
+            "fresnes"
+          ]
+        },
+        {
+          "name": "tant",
+          "synonyms": [
+            "tant"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        },
+        {
+          "name": "nombreux",
+          "synonyms": [
+            "nombreux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Fresnes, en tant que nom propre peut désigner de nombreux lieux.\nEn ancien français, fresnes signifie « frêne » (au cas sujet) et fait référence à l'arbre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\prison",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gaffe": {
+    "type": "specialized",
+    "exact_terms": [
+      "gaffe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gaffe",
+          "synonyms": [
+            "gaffe"
+          ]
+        },
+        {
+          "name": "longue",
+          "synonyms": [
+            "longue"
+          ]
+        },
+        {
+          "name": "perche",
+          "synonyms": [
+            "perche"
+          ]
+        },
+        {
+          "name": "bois",
+          "synonyms": [
+            "bois"
+          ]
+        },
+        {
+          "name": "métal",
+          "synonyms": [
+            "métal"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une gaffe est une longue perche en bois ou en métal (de nos jours souvent en aluminium). Parfois télescopique, elle comprend une sorte de crochet recourbé vers l'intérieur à une de ses extrémités."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\prison",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gage": {
+    "type": "specialized",
+    "exact_terms": [
+      "gage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gage",
+          "synonyms": [
+            "gage"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Gage est un nom propre ou un nom commun (écrit alors sans majuscule initiale) qui peut désigner :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "garantie de temps de rétablissement": {
+    "type": "specialized",
+    "exact_terms": [
+      "garantie de temps de rétablissement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "garantie",
+          "synonyms": [
+            "garantie"
+          ]
+        },
+        {
+          "name": "temps",
+          "synonyms": [
+            "temps"
+          ]
+        },
+        {
+          "name": "rétablissement",
+          "synonyms": [
+            "rétablissement"
+          ]
+        },
+        {
+          "name": "gtr",
+          "synonyms": [
+            "gtr"
+          ]
+        },
+        {
+          "name": "délai",
+          "synonyms": [
+            "délai"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La garantie de temps de rétablissement (GTR) est le délai contractuel dans lequel un service accidentellement interrompu doit être rétabli. Cette notion est utilisée notamment dans le domaine du web (GTR d'une page web), des réseaux (téléphoniques, de données...) et plus généralement dans le domaine des applications informatiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "garde des finances": {
+    "type": "specialized",
+    "exact_terms": [
+      "garde des finances"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "garde",
+          "synonyms": [
+            "garde"
+          ]
+        },
+        {
+          "name": "finances",
+          "synonyms": [
+            "finances"
+          ]
+        },
+        {
+          "name": "italien",
+          "synonyms": [
+            "italien"
+          ]
+        },
+        {
+          "name": "guardia",
+          "synonyms": [
+            "guardia"
+          ]
+        },
+        {
+          "name": "finanza",
+          "synonyms": [
+            "finanza"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La Garde des finances (en italien : Guardia di Finanza ou GDF) est la police douanière et financière italienne. C'est un corps qui fait partie des forces armées italiennes mais dépend directement du ministre de l'Économie et des Finances."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\police",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "garde à vue": {
+    "type": "specialized",
+    "exact_terms": [
+      "garde à vue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "garde",
+          "synonyms": [
+            "garde"
+          ]
+        },
+        {
+          "name": "vue",
+          "synonyms": [
+            "vue"
+          ]
+        },
+        {
+          "name": "statut",
+          "synonyms": [
+            "statut"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "suspectée",
+          "synonyms": [
+            "suspectée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La garde à vue est le statut d'une personne suspectée d'avoir commis ou tenté de commettre une infraction et gardée par des forces de police dans le cadre d'une enquête judiciaire. C'est une mesure privative de liberté."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gardien de la paix": {
+    "type": "specialized",
+    "exact_terms": [
+      "gardien de la paix"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "métier",
+          "synonyms": [
+            "métier"
+          ]
+        },
+        {
+          "name": "fonction",
+          "synonyms": [
+            "fonction"
+          ]
+        },
+        {
+          "name": "gardien",
+          "synonyms": [
+            "gardien"
+          ]
+        },
+        {
+          "name": "paix",
+          "synonyms": [
+            "paix"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le métier ou la fonction de « gardien de la paix » peut faire référence :\n\nen France, au métier de gardien de la paix, un grade de la police française ;\nen Belgique, au métier de gardien de la paix, un agent municipal « chargé de missions de sécurité et de prévention dans le but d'accroître le sentiment de sécurité des citoyens et de prévenir les nuisances publiques et la criminalité », vêtu d'un uniforme mauve. La fonction est créée en 2007 au bénéfice de chômeurs de longue durée\nen Suisse, au ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\police",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gardien de prison": {
+    "type": "specialized",
+    "exact_terms": [
+      "gardien de prison"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gardien",
+          "synonyms": [
+            "gardien"
+          ]
+        },
+        {
+          "name": "surveillant",
+          "synonyms": [
+            "surveillant"
+          ]
+        },
+        {
+          "name": "prison",
+          "synonyms": [
+            "prison"
+          ]
+        },
+        {
+          "name": "pénitentiaire",
+          "synonyms": [
+            "pénitentiaire"
+          ]
+        },
+        {
+          "name": "historiquement",
+          "synonyms": [
+            "historiquement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un gardien, surveillant de prison ou pénitentiaire, historiquement un geôlier, en argot un maton, est une personne dont le métier est d'assurer le confinement et la sécurité des détenus d'une prison ou de tout autre centre de détention."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\prison",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "genre": {
+    "type": "specialized",
+    "exact_terms": [
+      "genre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "notions",
+          "synonyms": [
+            "notions"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "rang",
+          "synonyms": [
+            "rang"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot genre peut désigner plusieurs notions  :\n\nen biologie, le genre est un rang taxinomique qui regroupe un ensemble d'espèces ayant en commun plusieurs caractères similaires ;\nen mathématiques :\nle genre est une propriété de plusieurs types de surfaces ou de courbes ;\nla théorie des genres, théorie de la théorie des jeux ;\nen physique, le genre est une propriété d'un quadrivecteur ;\nen sciences sociales, le genre fait référence aux processus et rapports sociaux qui divisent, polarisent et or..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gens du voyage": {
+    "type": "specialized",
+    "exact_terms": [
+      "gens du voyage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gens",
+          "synonyms": [
+            "gens"
+          ]
+        },
+        {
+          "name": "voyage",
+          "synonyms": [
+            "voyage"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "communauté",
+          "synonyms": [
+            "communauté"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les gens du voyage, en droit français, sont la communauté des voyageurs ne disposant pas de domicile fixe, ou communauté nomade. Elle est définie par la loi Besson du 5 juillet 2000."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "germain": {
+    "type": "specialized",
+    "exact_terms": [
+      "germain"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "germain",
+          "synonyms": [
+            "germain"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "qualifier",
+          "synonyms": [
+            "qualifier"
+          ]
+        },
+        {
+          "name": "parents",
+          "synonyms": [
+            "parents"
+          ]
+        },
+        {
+          "name": "leurs",
+          "synonyms": [
+            "leurs"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Germain est un adjectif pour désigner ou qualifier : \n\ndes parents et leurs liens de parenté (par exemple, cousins germains) ;\nce qui est en rapport avec la Germanie ou les Germains, anciens peuples d'Europe centrale. Dans un sens plus actuel, ce qui est relatif à l'Allemagne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gestion des ressources humaines": {
+    "type": "specialized",
+    "exact_terms": [
+      "gestion des ressources humaines"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gestion",
+          "synonyms": [
+            "gestion"
+          ]
+        },
+        {
+          "name": "ressources",
+          "synonyms": [
+            "ressources"
+          ]
+        },
+        {
+          "name": "humaines",
+          "synonyms": [
+            "humaines"
+          ]
+        },
+        {
+          "name": "grh",
+          "synonyms": [
+            "grh"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La gestion des ressources humaines (GRH), parfois appelée gestion du capital humain, désigne l'ensemble des pratiques mises en œuvre pour administrer, mobiliser et développer les ressources humaines impliquées dans l'activité d'une organisation.\nCes ressources humaines sont l'ensemble des salariés de tous statuts (ouvriers, employés, cadres) faisant partie de l'organisation, mais aussi – et de plus en plus – liés à elle par des rapports de sujétion (ainsi, les prestataires extérieurs, ou sous-tr..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit privé\\droit social\\droit du travail",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gilet pare-balles": {
+    "type": "specialized",
+    "exact_terms": [
+      "gilet pare-balles"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gilet",
+          "synonyms": [
+            "gilet"
+          ]
+        },
+        {
+          "name": "pare-balles",
+          "synonyms": [
+            "pare-balles"
+          ]
+        },
+        {
+          "name": "équipement",
+          "synonyms": [
+            "équipement"
+          ]
+        },
+        {
+          "name": "principalement",
+          "synonyms": [
+            "principalement"
+          ]
+        },
+        {
+          "name": "destiné",
+          "synonyms": [
+            "destiné"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le gilet pare-balles est un équipement principalement destiné à protéger le thorax, l'abdomen et le dos contre le tir d'armes à feu en empêchant la pénétration de la balle et en absorbant son impact."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice\\police",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "go fast": {
+    "type": "specialized",
+    "exact_terms": [
+      "go fast"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fast",
+          "synonyms": [
+            "fast"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "aller",
+          "synonyms": [
+            "aller"
+          ]
+        },
+        {
+          "name": "vite",
+          "synonyms": [
+            "vite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le go fast (terme anglais ; en français : « aller vite ») est une technique utilisée par les trafiquants pour importer des produits stupéfiants ou de contrebande. Par extension, le terme désigne aussi le véhicule utilisé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\illégalité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "grand jury": {
+    "type": "specialized",
+    "exact_terms": [
+      "grand jury"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "grand",
+          "synonyms": [
+            "grand"
+          ]
+        },
+        {
+          "name": "jury",
+          "synonyms": [
+            "jury"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "grand",
+          "synonyms": [
+            "grand"
+          ]
+        },
+        {
+          "name": "jury",
+          "synonyms": [
+            "jury"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Grand jury peut faire référence à :\n\nle grand jury, un type de jury dans certains systèmes judiciaires ;\nLe Grand Jury, une émission de radio française consacrée à la politique ;\nGrand Jury, une marque du groupe Carrefour.\nGrand Jury, film américain sorti en 1936."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "greffier": {
+    "type": "specialized",
+    "exact_terms": [
+      "greffier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "greffier",
+          "synonyms": [
+            "greffier"
+          ]
+        },
+        {
+          "name": "greffière",
+          "synonyms": [
+            "greffière"
+          ]
+        },
+        {
+          "name": "officier",
+          "synonyms": [
+            "officier"
+          ]
+        },
+        {
+          "name": "justice",
+          "synonyms": [
+            "justice"
+          ]
+        },
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un greffier (ou une greffière) est un officier de justice. Selon le système judiciaire auquel il est soumis, il détient différentes responsabilités."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "grenier à sel": {
+    "type": "specialized",
+    "exact_terms": [
+      "grenier à sel"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "greniers",
+          "synonyms": [
+            "greniers"
+          ]
+        },
+        {
+          "name": "sel",
+          "synonyms": [
+            "sel"
+          ]
+        },
+        {
+          "name": "créés",
+          "synonyms": [
+            "créés"
+          ]
+        },
+        {
+          "name": "1342",
+          "synonyms": [
+            "1342"
+          ]
+        },
+        {
+          "name": "entrepôts",
+          "synonyms": [
+            "entrepôts"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les greniers à sel, créés en 1342, sont des entrepôts pour le sel de gabelle. Ils sont aussi des tribunaux pour juger les litiges sur la gabelle jusqu'à la valeur d'un minot (soit environ 52 litres)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "grief": {
+    "type": "specialized",
+    "exact_terms": [
+      "grief"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "grief",
+          "synonyms": [
+            "grief"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "deuil",
+          "synonyms": [
+            "deuil"
+          ]
+        },
+        {
+          "name": "chagrin",
+          "synonyms": [
+            "chagrin"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Grief signifie « deuil » ou « chagrin » en anglais."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "grivèlerie": {
+    "type": "specialized",
+    "exact_terms": [
+      "grivèlerie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "grivèlerie",
+          "synonyms": [
+            "grivèlerie"
+          ]
+        },
+        {
+          "name": "délit",
+          "synonyms": [
+            "délit"
+          ]
+        },
+        {
+          "name": "voisin",
+          "synonyms": [
+            "voisin"
+          ]
+        },
+        {
+          "name": "l'escroquerie",
+          "synonyms": [
+            "l'escroquerie"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La grivèlerie est un délit voisin de l'escroquerie, qui consiste à profiter d'un service (notamment dans la restauration et l'hôtellerie) avec l'intention de ne pas payer. Il faut établir l'intention de ne pas payer pour prouver le délit (par exemple commander un plat sans avoir les moyens de le payer)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\justice",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "groupe": {
+    "type": "specialized",
+    "exact_terms": [
+      "groupe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "groupe",
+          "synonyms": [
+            "groupe"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "d'individus",
+          "synonyms": [
+            "d'individus"
+          ]
+        },
+        {
+          "name": "d'objets",
+          "synonyms": [
+            "d'objets"
+          ]
+        },
+        {
+          "name": "possédant",
+          "synonyms": [
+            "possédant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un groupe est un ensemble d'individus ou d'objets possédant des caractéristiques communes ou rassemblés dans le même objectif."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\illégalité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "groupement foncier agricole": {
+    "type": "specialized",
+    "exact_terms": [
+      "groupement foncier agricole"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "groupement",
+          "synonyms": [
+            "groupement"
+          ]
+        },
+        {
+          "name": "foncier",
+          "synonyms": [
+            "foncier"
+          ]
+        },
+        {
+          "name": "agricole",
+          "synonyms": [
+            "agricole"
+          ]
+        },
+        {
+          "name": "gfa",
+          "synonyms": [
+            "gfa"
+          ]
+        },
+        {
+          "name": "société",
+          "synonyms": [
+            "société"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un groupement foncier agricole (GFA) est une société civile spécifique à l'agriculture proche des SCI (Société civile immobilière). Elle a été créée dans les années 1970 pour favoriser la transmission des exploitations familiales en favorisant la transmission de parts plutôt que du patrimoine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit privé\\droit des affaires\\droit des sociétés",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gruerie": {
+    "type": "specialized",
+    "exact_terms": [
+      "gruerie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gruerie",
+          "synonyms": [
+            "gruerie"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "médiéval",
+          "synonyms": [
+            "médiéval"
+          ]
+        },
+        {
+          "name": "gruaria",
+          "synonyms": [
+            "gruaria"
+          ]
+        },
+        {
+          "name": "griaria",
+          "synonyms": [
+            "griaria"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La gruerie, en latin médiéval gruaria ou griaria, termes attestés en 1153, désigne en droit féodal dans le royaume de France et les autres pays francophones (notamment le comté de Bourgogne et le duché de Lorraine), deux notions concernant l'administration des bois et forêts d'un domaine seigneurial ou de plusieurs : d'une part le privilège du seigneur (qui peut être le roi de France ou un puissant feudataire) sur les bois et forêts, d'autre part la circonscription territoriale et les pouvoirs a..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gruyer": {
+    "type": "specialized",
+    "exact_terms": [
+      "gruyer"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gruyer",
+          "synonyms": [
+            "gruyer"
+          ]
+        },
+        {
+          "name": "france",
+          "synonyms": [
+            "france"
+          ]
+        },
+        {
+          "name": "moyen",
+          "synonyms": [
+            "moyen"
+          ]
+        },
+        {
+          "name": "âge",
+          "synonyms": [
+            "âge"
+          ]
+        },
+        {
+          "name": "temps",
+          "synonyms": [
+            "temps"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un gruyer est, dans la France du Moyen Âge et des Temps modernes, un agent seigneurial, chargé de s'occuper des forêts et rivières d'un domaine ou de plusieurs domaines. La circonscription du gruyer est appelée « gruerie »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "guerre": {
+    "type": "specialized",
+    "exact_terms": [
+      "guerre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "guerre",
+          "synonyms": [
+            "guerre"
+          ]
+        },
+        {
+          "name": "définit",
+          "synonyms": [
+            "définit"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        },
+        {
+          "name": "état",
+          "synonyms": [
+            "état"
+          ]
+        },
+        {
+          "name": "conflit",
+          "synonyms": [
+            "conflit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La guerre se définit comme un état de conflit armé entre plusieurs groupes politiques constitués, comme des États. Par opposition aux guerres entre États, une guerre peut aussi désigner un conflit armé entre deux factions de populations opposées à l'intérieur d'un même État : on parle alors de guerre de religion, de guerre civile, de guerre ethnique, de guerre révolutionnaire ou encore de guerre de sécession."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit international\\droit international public\\droit des conflits armés",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "guichet unique": {
+    "type": "specialized",
+    "exact_terms": [
+      "guichet unique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "guichet",
+          "synonyms": [
+            "guichet"
+          ]
+        },
+        {
+          "name": "unique",
+          "synonyms": [
+            "unique"
+          ]
+        },
+        {
+          "name": "lieu",
+          "synonyms": [
+            "lieu"
+          ]
+        },
+        {
+          "name": "administratif",
+          "synonyms": [
+            "administratif"
+          ]
+        },
+        {
+          "name": "commercial",
+          "synonyms": [
+            "commercial"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un guichet unique est un lieu administratif ou commercial regroupant la plupart des services offerts à sa clientèle.\nDe nombreuses administrations de par le monde proposent ce genre de service :\n\nEn Union européenne, ils sont réunis sur le réseau EUGO de la commission européenne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "géminé": {
+    "type": "specialized",
+    "exact_terms": [
+      "géminé"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "architecture",
+          "synonyms": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "géminé",
+          "synonyms": [
+            "géminé"
+          ]
+        },
+        {
+          "name": "architecture",
+          "synonyms": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "colonnes",
+          "synonyms": [
+            "colonnes"
+          ]
+        },
+        {
+          "name": "géminées",
+          "synonyms": [
+            "géminées"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En architecture : géminé (architecture) et colonnes géminées.\nGémination de consonnes, doublées, toutes deux prononcées ; terme de phonétique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "habeas corpus": {
+    "type": "specialized",
+    "exact_terms": [
+      "habeas corpus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "habeas",
+          "synonyms": [
+            "habeas"
+          ]
+        },
+        {
+          "name": "corpus",
+          "synonyms": [
+            "corpus"
+          ]
+        },
+        {
+          "name": "exactement",
+          "synonyms": [
+            "exactement"
+          ]
+        },
+        {
+          "name": "habeas",
+          "synonyms": [
+            "habeas"
+          ]
+        },
+        {
+          "name": "corpus",
+          "synonyms": [
+            "corpus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Habeas corpus, plus exactement Habeas corpus ad subjiciendum et recipiendum, est une notion juridique qui énonce une liberté fondamentale, celle de ne pas être emprisonné sans jugement, contraire de l'arbitraire qui permet d'arrêter n'importe qui sans raison valable. En vertu du principe, toute personne arrêtée a le droit de savoir pourquoi elle est arrêtée et de quoi elle est accusée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "habilitation": {
+    "type": "specialized",
+    "exact_terms": [
+      "habilitation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "habilitation",
+          "synonyms": [
+            "habilitation"
+          ]
+        },
+        {
+          "name": "universitaire",
+          "synonyms": [
+            "universitaire"
+          ]
+        },
+        {
+          "name": "qualification",
+          "synonyms": [
+            "qualification"
+          ]
+        },
+        {
+          "name": "universitaire",
+          "synonyms": [
+            "universitaire"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Habilitation universitaire, qualification universitaire qu'une personne peut recevoir dans certains pays.\nHabilitation à diriger des recherches en France."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "habitation": {
+    "type": "specialized",
+    "exact_terms": [
+      "habitation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "habitation",
+          "synonyms": [
+            "habitation"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "l'habitat",
+          "synonyms": [
+            "l'habitat"
+          ]
+        },
+        {
+          "name": "humain",
+          "synonyms": [
+            "humain"
+          ]
+        },
+        {
+          "name": "synonyme",
+          "synonyms": [
+            "synonyme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Habitation désigne l'habitat humain et est synonyme de logement.\nAux Antilles françaises, en Guyane et dans les Mascareignes, une habitation désigne une exploitation agricole (plantation), dans laquelle vivent et travaillent les propriétaires et les employés (esclaves pour la plupart)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "harcèlement": {
+    "type": "specialized",
+    "exact_terms": [
+      "harcèlement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "harcèlement",
+          "synonyms": [
+            "harcèlement"
+          ]
+        },
+        {
+          "name": "mode",
+          "synonyms": [
+            "mode"
+          ]
+        },
+        {
+          "name": "persécution",
+          "synonyms": [
+            "persécution"
+          ]
+        },
+        {
+          "name": "consistant",
+          "synonyms": [
+            "consistant"
+          ]
+        },
+        {
+          "name": "enchaîner",
+          "synonyms": [
+            "enchaîner"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le harcèlement est un mode de persécution consistant à enchaîner de façon répétée des agissements ou des paroles hostiles afin de démoraliser et d'affaiblir psychologiquement la personne qui en est la victime.\nCe type de comportement peut être habituel pour le harceleur, et viser le statut social ou l'intégrité physique de la victime."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "harcèlement sexuel": {
+    "type": "specialized",
+    "exact_terms": [
+      "harcèlement sexuel"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "harcèlement",
+          "synonyms": [
+            "harcèlement"
+          ]
+        },
+        {
+          "name": "sexuel",
+          "synonyms": [
+            "sexuel"
+          ]
+        },
+        {
+          "name": "enchaînement",
+          "synonyms": [
+            "enchaînement"
+          ]
+        },
+        {
+          "name": "d'agissements",
+          "synonyms": [
+            "d'agissements"
+          ]
+        },
+        {
+          "name": "hostiles",
+          "synonyms": [
+            "hostiles"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le harcèlement sexuel est un enchaînement d'agissements hostiles et à connotation sexuelle, dont la répétition et l'intensité affaiblissent psychologiquement la victime. Il peut viser à intimider la victime, à la dominer, ou à obtenir un acte sexuel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit privé\\droit civil",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hauban": {
+    "type": "specialized",
+    "exact_terms": [
+      "hauban"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "hauban",
+          "synonyms": [
+            "hauban"
+          ]
+        },
+        {
+          "name": "barre",
+          "synonyms": [
+            "barre"
+          ]
+        },
+        {
+          "name": "câble",
+          "synonyms": [
+            "câble"
+          ]
+        },
+        {
+          "name": "servant",
+          "synonyms": [
+            "servant"
+          ]
+        },
+        {
+          "name": "assurer",
+          "synonyms": [
+            "assurer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ce terme peut désigner :\n\nLe hauban : barre ou câble servant à assurer la rigidité d'une construction. Le hauban, en aménagement paysager, sert à la stabilité et la reprise d'un arbre adulte récemment transplanté (Haubanage)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "haute mer": {
+    "type": "specialized",
+    "exact_terms": [
+      "haute mer"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "eaux",
+          "synonyms": [
+            "eaux"
+          ]
+        },
+        {
+          "name": "internationales",
+          "synonyms": [
+            "internationales"
+          ]
+        },
+        {
+          "name": "haute",
+          "synonyms": [
+            "haute"
+          ]
+        },
+        {
+          "name": "mer",
+          "synonyms": [
+            "mer"
+          ]
+        },
+        {
+          "name": "zones",
+          "synonyms": [
+            "zones"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les eaux internationales ou haute mer sont les zones maritimes qui ne sont sous l'autorité d'aucun État (par opposition aux « eaux sous juridiction d'un État côtier »). Plus précisément, il s'agit de toutes les parties de la mer qui ne sont « ni dans les eaux sous juridiction d’un  État (ZEE, ZPE, ZPP…), ni au sein de la mer territoriale d'un État ou bien dans les eaux archipélagiques d'un État archipel », selon l’article 86 de la convention des Nations unies sur le droit de la mer (CNUDM)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "haute trahison": {
+    "type": "specialized",
+    "exact_terms": [
+      "haute trahison"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'acte",
+          "synonyms": [
+            "l'acte"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "méritant",
+          "synonyms": [
+            "méritant"
+          ]
+        },
+        {
+          "name": "qualification",
+          "synonyms": [
+            "qualification"
+          ]
+        },
+        {
+          "name": "haute",
+          "synonyms": [
+            "haute"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'acte ou l'action méritant la qualification de haute trahison est un crime qui consiste en une extrême déloyauté à l'égard de son pays, de son chef d'État, de son gouvernement ou de ses institutions. Ce crime est souvent associé avec celui d'intelligence avec l'ennemi."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hermandad": {
+    "type": "specialized",
+    "exact_terms": [
+      "hermandad"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "hermandad",
+          "synonyms": [
+            "hermandad"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "espagnol",
+          "synonyms": [
+            "espagnol"
+          ]
+        },
+        {
+          "name": "fraternité",
+          "synonyms": [
+            "fraternité"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une Hermandad, ce qui signifie en espagnol « fraternité », désigne, dans l'Espagne médiévale, une confrérie d'hommes armés formée contre le meurtre et le pillage, et qui fut plus tard organisée administrativement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\illégalité",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ho": {
+    "type": "specialized",
+    "exact_terms": [
+      "ho"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "code",
+          "synonyms": [
+            "code"
+          ]
+        },
+        {
+          "name": "honduras",
+          "synonyms": [
+            "honduras"
+          ]
+        },
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        },
+        {
+          "name": "liste",
+          "synonyms": [
+            "liste"
+          ]
+        },
+        {
+          "name": "désuète",
+          "synonyms": [
+            "désuète"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "HO est un code qui peut signifier :\n\nHonduras, selon la liste (désuète) des codes pays utilisés par l'OTAN, code alpha-2.\nHO est un sigle qui peut désigner :\n\nÉchelle HO équivoque pour Échelle H0, une échelle de réduction très utilisée en modélisme ferroviaire (1/87e) ;\nHaute occupée, c’est-à-dire l'orbitale moléculaire occupée (par un doublet d'électrons) d'énergie la plus haute,\nHors-œuvre, une notion utilisée pour établir un avant-métré ;\nHospitalisation d'office, une modalité de l'hospitalis..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "homicide involontaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "homicide involontaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "homicide",
+          "synonyms": [
+            "homicide"
+          ]
+        },
+        {
+          "name": "involontaire",
+          "synonyms": [
+            "involontaire"
+          ]
+        },
+        {
+          "name": "tuer",
+          "synonyms": [
+            "tuer"
+          ]
+        },
+        {
+          "name": "quelqu'un",
+          "synonyms": [
+            "quelqu'un"
+          ]
+        },
+        {
+          "name": "composante",
+          "synonyms": [
+            "composante"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un homicide involontaire est le fait de tuer quelqu'un (composante homicide) en l'absence de volonté (composante involontaire)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hommage": {
+    "type": "specialized",
+    "exact_terms": [
+      "hommage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "hommage",
+          "synonyms": [
+            "hommage"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "l'origine",
+          "synonyms": [
+            "l'origine"
+          ]
+        },
+        {
+          "name": "cérémonie",
+          "synonyms": [
+            "cérémonie"
+          ]
+        },
+        {
+          "name": "féodale",
+          "synonyms": [
+            "féodale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme hommage désigne à l'origine une cérémonie féodale par laquelle un vassal reconnaissait un suzerain. Pour ce sens, voir :\n\nHommage féodal pour le sens général ;\nHommage lige pour sa forme renforcée ;\nLa république de Malte a créé une décoration nommée Hommage de la République."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "droit",
+    "domaine_exact": "droit\\droit féodal",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
   }
 }
