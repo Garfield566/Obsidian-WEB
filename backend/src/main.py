@@ -939,12 +939,18 @@ class TagGeneratorV2:
             print(f"   📊 Extraction données brutes: {len(notes_needing_extraction)} notes")
             # Réutilise le détecteur d'entités existant
             entity_detector = self.entity_detector
+            total_notes = len(notes_needing_extraction)
 
             for i, note in enumerate(notes_needing_extraction):
                 # Accès défensif à content (peut être absent dans certains cas)
                 note_content = getattr(note, 'content', '') or ''
                 text = f"{note.title} {note_content}"
                 text_lower = text.lower()
+
+                # Progress bar tous les 10%
+                if (i + 1) % max(1, total_notes // 10) == 0:
+                    pct = ((i + 1) / total_notes) * 100
+                    print(f"      Extraction: {i+1}/{total_notes} ({pct:.0f}%)", flush=True)
 
                 # 1. Extraction VSC/VSCA
                 extracted_vocab = detector.extract_all_vocabulary_from_text(text_lower)
@@ -982,14 +988,19 @@ class TagGeneratorV2:
                     wiki_links=wiki_links,
                     terms=terms,
                 )
-                if (i + 1) % 50 == 0:
-                    print(f"      Extraction: {i+1}/{len(notes_needing_extraction)}")
             print(f"   ✓ Extraction terminée")
         else:
             print(f"   📊 Extraction vocabulaire: {total_notes}/{total_notes} notes ont déjà leurs données")
 
         # Pour chaque note, vérifie les termes spécialisés
-        for note in self.notes:
+        print(f"   📊 Validation termes spécialisés: {len(self.notes)} notes", flush=True)
+        total_notes_validation = len(self.notes)
+        for note_idx, note in enumerate(self.notes):
+            # Progress bar tous les 10%
+            if (note_idx + 1) % max(1, total_notes_validation // 10) == 0:
+                pct = ((note_idx + 1) / total_notes_validation) * 100
+                print(f"      Validation: {note_idx+1}/{total_notes_validation} ({pct:.0f}%)", flush=True)
+
             # Vérifie si on a un cache valide
             if note.path in cached_results:
                 validated_paths_names, specialized_names = cached_results[note.path]
