@@ -1,19 +1,19 @@
 {
   "domain": "physique",
-  "timestamp": "2026-01-31T21:25:22.341718",
+  "timestamp": "2026-02-02T02:45:07.524675",
   "vocabulary": {
-    "total_terms": 4407,
-    "vsc": 2039,
-    "vsca": 2368,
+    "total_terms": 6684,
+    "vsc": 5763,
+    "vsca": 921,
     "hierarchies": 32,
-    "elapsed_seconds": 5197.140980005264,
-    "file": "C:\\Users\\robin tual\\quartz\\backend\\src\\wikidata_extractor\\extracted_by_domain\\physique\\physique_enriched_vocabulary.json"
+    "elapsed_seconds": 1745.507643699646,
+    "file": "E:\\extraction_quartz\\extracted_by_domain\\physique\\physique_enriched_vocabulary.json"
   },
   "specialized": {
-    "total_unique": 4013,
-    "enriched": 1353,
-    "elapsed_seconds": 4064.2649252414703,
-    "file": "C:\\Users\\robin tual\\quartz\\backend\\src\\wikidata_extractor\\extracted_by_domain\\physique\\physique_specialized_terms.json"
+    "total_unique": 5927,
+    "enriched": 527,
+    "elapsed_seconds": 1512.8343601226807,
+    "file": "E:\\extraction_quartz\\extracted_by_domain\\physique\\physique_specialized_terms.json"
   },
-  "total_elapsed_seconds": 9261.810908555984
+  "total_elapsed_seconds": 3258.8886692523956
 }

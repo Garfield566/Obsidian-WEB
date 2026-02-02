@@ -1,0 +1,652 @@
+{
+  "blitz": {
+    "type": "specialized",
+    "exact_terms": [
+      "blitz"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "blitz",
+          "synonyms": [
+            "blitz"
+          ]
+        },
+        {
+          "name": "allemand",
+          "synonyms": [
+            "allemand"
+          ]
+        },
+        {
+          "name": "signifiant",
+          "synonyms": [
+            "signifiant"
+          ]
+        },
+        {
+          "name": "éclair",
+          "synonyms": [
+            "éclair"
+          ]
+        },
+        {
+          "name": "campagne",
+          "synonyms": [
+            "campagne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le Blitz (terme allemand signifiant « éclair ») est la campagne de bombardements stratégiques durant la Seconde Guerre mondiale menée par l'aviation allemande contre le Royaume-Uni du 7 septembre 1940 au 11 mai 1941. Il s'agit de l'opération la plus connue de la bataille d'Angleterre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "chessboxing": {
+    "type": "specialized",
+    "exact_terms": [
+      "chessboxing"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chessboxing",
+          "synonyms": [
+            "chessboxing"
+          ]
+        },
+        {
+          "name": "chess",
+          "synonyms": [
+            "chess"
+          ]
+        },
+        {
+          "name": "échecs",
+          "synonyms": [
+            "échecs"
+          ]
+        },
+        {
+          "name": "boxing",
+          "synonyms": [
+            "boxing"
+          ]
+        },
+        {
+          "name": "boxer",
+          "synonyms": [
+            "boxer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le chessboxing, de chess (échecs) et boxing (boxer), est un sport hybride qui mélange boxe anglaise et jeu d'échecs.\nLa WCBO (World Chess Boxing Organisation (en)), l'organisation régissant ce sport, est née dans les années 2000, après avoir été créé de manière fictive par l'auteur de bandes dessinées Enki Bilal en 1992."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "début du fou": {
+    "type": "specialized",
+    "exact_terms": [
+      "début du fou"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "début",
+          "synonyms": [
+            "début"
+          ]
+        },
+        {
+          "name": "fou",
+          "synonyms": [
+            "fou"
+          ]
+        },
+        {
+          "name": "partie",
+          "synonyms": [
+            "partie"
+          ]
+        },
+        {
+          "name": "fou",
+          "synonyms": [
+            "fou"
+          ]
+        },
+        {
+          "name": "ouverture",
+          "synonyms": [
+            "ouverture"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le début du fou ou partie du fou est une ouverture aux échecs qui s'obtient après les coups 1.e4 e5 2.Fc4.  Son code ECO est C24 pour la défense berlinoise 2...Cf6 (du nom de la Pléiade berlinoise, et qui est la variante principale) ou C23 pour la défense classique 2...Fc5 ainsi que pour les autres seconds coups noirs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "défenseur": {
+    "type": "specialized",
+    "exact_terms": [
+      "défenseur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "défenseur",
+          "synonyms": [
+            "défenseur"
+          ]
+        },
+        {
+          "name": "sportif",
+          "synonyms": [
+            "sportif"
+          ]
+        },
+        {
+          "name": "jouant",
+          "synonyms": [
+            "jouant"
+          ]
+        },
+        {
+          "name": "défense",
+          "synonyms": [
+            "défense"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un défenseur peut être un sportif jouant en défense mais aussi une sorte d'ombudsman."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fourchette": {
+    "type": "specialized",
+    "exact_terms": [
+      "fourchette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fourchette",
+          "synonyms": [
+            "fourchette"
+          ]
+        },
+        {
+          "name": "couvert",
+          "synonyms": [
+            "couvert"
+          ]
+        },
+        {
+          "name": "table",
+          "synonyms": [
+            "table"
+          ]
+        },
+        {
+          "name": "ustensile",
+          "synonyms": [
+            "ustensile"
+          ]
+        },
+        {
+          "name": "cuisine",
+          "synonyms": [
+            "cuisine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La fourchette est un couvert de table ou un ustensile de cuisine permettant d'attraper les aliments sans les toucher directement avec les doigts.\nElle est constituée de deux à quatre extrémités pointues, pour saisir ou ramasser la nourriture, et d'un manche pour être tenue aisément."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gambit du roi": {
+    "type": "specialized",
+    "exact_terms": [
+      "gambit du roi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gambit",
+          "synonyms": [
+            "gambit"
+          ]
+        },
+        {
+          "name": "roi",
+          "synonyms": [
+            "roi"
+          ]
+        },
+        {
+          "name": "gambit",
+          "synonyms": [
+            "gambit"
+          ]
+        },
+        {
+          "name": "roi",
+          "synonyms": [
+            "roi"
+          ]
+        },
+        {
+          "name": "l'ouverture",
+          "synonyms": [
+            "l'ouverture"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le gambit du roi ou gambit roi est l'ouverture du jeu d'échecs caractérisée par les coups 1. e4 e5 2."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mat du lion": {
+    "type": "specialized",
+    "exact_terms": [
+      "mat du lion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mat",
+          "synonyms": [
+            "mat"
+          ]
+        },
+        {
+          "name": "lion",
+          "synonyms": [
+            "lion"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "mat",
+          "synonyms": [
+            "mat"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mat du lion appelé également mat du sot, mat du débutant ou mat de l'imbécile est la plus courte partie d'échecs possible, elle ne dure que deux coups. Cette partie a surtout un rôle éducatif : elle montre le danger de pousser arbitrairement ses pions."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "miniature": {
+    "type": "specialized",
+    "exact_terms": [
+      "miniature"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "miniature",
+          "synonyms": [
+            "miniature"
+          ]
+        },
+        {
+          "name": "issu",
+          "synonyms": [
+            "issu"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "miniatulus",
+          "synonyms": [
+            "miniatulus"
+          ]
+        },
+        {
+          "name": "coloré",
+          "synonyms": [
+            "coloré"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Miniature, issu du latin miniatulus (« coloré au minium »), désigne les enluminures, puis par analogie (finesse des détails peints) a pour sens quelque chose de petites dimensions."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ouverture": {
+    "type": "specialized",
+    "exact_terms": [
+      "ouverture"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'ouverture",
+          "synonyms": [
+            "l'ouverture"
+          ]
+        },
+        {
+          "name": "tant",
+          "synonyms": [
+            "tant"
+          ]
+        },
+        {
+          "name": "philosophie",
+          "synonyms": [
+            "philosophie"
+          ]
+        },
+        {
+          "name": "rapproche",
+          "synonyms": [
+            "rapproche"
+          ]
+        },
+        {
+          "name": "tolérance",
+          "synonyms": [
+            "tolérance"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'ouverture en tant que philosophie se rapproche de la tolérance et des systèmes ouverts.\nEn politique, l'ouverture est un processus par lequel un groupe s'élargit."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "problémiste": {
+    "type": "specialized",
+    "exact_terms": [
+      "problémiste"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "problémiste",
+          "synonyms": [
+            "problémiste"
+          ]
+        },
+        {
+          "name": "compositeur",
+          "synonyms": [
+            "compositeur"
+          ]
+        },
+        {
+          "name": "problèmes",
+          "synonyms": [
+            "problèmes"
+          ]
+        },
+        {
+          "name": "d'échecs",
+          "synonyms": [
+            "d'échecs"
+          ]
+        },
+        {
+          "name": "amateurs",
+          "synonyms": [
+            "amateurs"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un problémiste est un compositeur de problèmes d'échecs.\nLes amateurs de problèmes d'échecs se divisent généralement en plusieurs groupes : les compositeurs, les solutionnistes et les juges."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "zeitnot": {
+    "type": "specialized",
+    "exact_terms": [
+      "zeitnot"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "jeu",
+          "synonyms": [
+            "jeu"
+          ]
+        },
+        {
+          "name": "d'échecs",
+          "synonyms": [
+            "d'échecs"
+          ]
+        },
+        {
+          "name": "pendule",
+          "synonyms": [
+            "pendule"
+          ]
+        },
+        {
+          "name": "joueur",
+          "synonyms": [
+            "joueur"
+          ]
+        },
+        {
+          "name": "zeitnot",
+          "synonyms": [
+            "zeitnot"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Au jeu d'échecs à la pendule, un joueur est en zeitnot (de l'allemand Zeit = temps et Not = pénurie, détresse, urgence) si, proche du prochain « contrôle de temps », il doit jouer beaucoup de coups en peu de temps (moins de cinq minutes). Les situations de zeitnot mettent les joueurs sous pression et peuvent entraîner des décisions hâtives et des coups approximatifs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "zugzwang": {
+    "type": "specialized",
+    "exact_terms": [
+      "zugzwang"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "jeu",
+          "synonyms": [
+            "jeu"
+          ]
+        },
+        {
+          "name": "d'échecs",
+          "synonyms": [
+            "d'échecs"
+          ]
+        },
+        {
+          "name": "zugzwang",
+          "synonyms": [
+            "zugzwang"
+          ]
+        },
+        {
+          "name": "allemand",
+          "synonyms": [
+            "allemand"
+          ]
+        },
+        {
+          "name": "suːkt",
+          "synonyms": [
+            "suːkt"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Au jeu d'échecs, le terme zugzwang (en allemand : /t͡suːkt͡svaŋ/) signifie un « coup contraint » au sens d'« être obligé de jouer » et non au sens qu'il n'y a plus qu'un seul coup jouable (auquel cas on utilise le terme « forcé » et non zugzwang). \nCe terme vient de l'allemand Zug, « coup », et Zwang, « contrainte »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "échec": {
+    "type": "specialized",
+    "exact_terms": [
+      "échec"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'échec",
+          "synonyms": [
+            "l'échec"
+          ]
+        },
+        {
+          "name": "l'état",
+          "synonyms": [
+            "l'état"
+          ]
+        },
+        {
+          "name": "condition",
+          "synonyms": [
+            "condition"
+          ]
+        },
+        {
+          "name": "l'objectif",
+          "synonyms": [
+            "l'objectif"
+          ]
+        },
+        {
+          "name": "désiré",
+          "synonyms": [
+            "désiré"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'échec est l'état ou la condition qui fait que l'objectif désiré ou prévu n'est pas atteint, et peut être vu comme l'opposé de succès, mais cela peut aussi désigner un sentiment qui surgit lorsque l'on regrette quelque chose, au même titre que le regret. \nDans son sens le plus général, un échec est une situation qui résulte d'une action n'ayant pas abouti au résultat escompté."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "echecs",
+    "domaine_exact": "echecs",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

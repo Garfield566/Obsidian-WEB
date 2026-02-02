@@ -1,0 +1,3393 @@
+{
+  "genie_civil": {
+    "VSC": [
+      {
+        "term": "ep",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "eu",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "ev",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "fissuration",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "fondation",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "Le terme fondation (en anglais, foundation) désigne notamment :",
+        "definition_mandatory": [
+          {
+            "name": "fondation",
+            "synonyms": [
+              "fondation"
+            ]
+          },
+          {
+            "name": "anglais",
+            "synonyms": [
+              "anglais"
+            ]
+          },
+          {
+            "name": "foundation",
+            "synonyms": [
+              "foundation"
+            ]
+          },
+          {
+            "name": "désigne",
+            "synonyms": [
+              "désigne"
+            ]
+          },
+          {
+            "name": "notamment",
+            "synonyms": [
+              "notamment"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "génie hydraulique",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "géostatique",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "géotechnique",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Qui se rapporte à l’étude des propriétés des sols et des roches ainsi qu’à leurs interactions avec les ouvrages de construction.",
+        "definition_mandatory": [
+          {
+            "name": "rapporte",
+            "synonyms": [
+              "rapporte"
+            ]
+          },
+          {
+            "name": "étude",
+            "synonyms": [
+              "étude"
+            ]
+          },
+          {
+            "name": "propriétés",
+            "synonyms": [
+              "propriétés"
+            ]
+          },
+          {
+            "name": "sols",
+            "synonyms": [
+              "sols"
+            ]
+          },
+          {
+            "name": "roches",
+            "synonyms": [
+              "roches"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "hydraulique urbaine",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil",
+          "genie_civil\\génie hydraulique\\aménagement hydraulique"
+        ],
+        "domaine_principal": "genie_civil\\génie hydraulique\\aménagement hydraulique"
+      },
+      {
+        "term": "imperméabilisation",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "structure",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Ossature porteuse d’un édifice bâti, d'une construction mécanique.",
+        "definition_mandatory": [
+          {
+            "name": "ossature",
+            "synonyms": [
+              "ossature"
+            ]
+          },
+          {
+            "name": "porteuse",
+            "synonyms": [
+              "porteuse"
+            ]
+          },
+          {
+            "name": "édifice",
+            "synonyms": [
+              "édifice"
+            ]
+          },
+          {
+            "name": "bâti",
+            "synonyms": [
+              "bâti"
+            ]
+          },
+          {
+            "name": "construction",
+            "synonyms": [
+              "construction"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      }
+    ],
+    "VSCA": [
+      {
+        "term": "aménagement hydraulique",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Réalisation d’ouvrages et de dispositifs destinés à maîtriser, stocker, distribuer ou évacuer l’eau, afin de répondre à divers usages comme l’alimentation en eau potable, l’irrigation, la navigation, la production hydroélectrique, la protection contre les crues ou le soutien d’étiage.",
+        "definition_mandatory": [
+          {
+            "name": "réalisation",
+            "synonyms": [
+              "réalisation"
+            ]
+          },
+          {
+            "name": "ouvrages",
+            "synonyms": [
+              "ouvrages"
+            ]
+          },
+          {
+            "name": "dispositifs",
+            "synonyms": [
+              "dispositifs"
+            ]
+          },
+          {
+            "name": "destinés",
+            "synonyms": [
+              "destinés"
+            ]
+          },
+          {
+            "name": "maîtriser",
+            "synonyms": [
+              "maîtriser"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "béton armé",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "Le béton armé est un matériau composite constitué de béton et de barres d'acier alliant les propriétés mécaniques complémentaires de ces matériaux (bonne résistance à la compression du béton et bonne résistance à la traction de l'acier). Il est utilisé comme matériau de construction, en particulier pour le bâtiment et le génie civil.",
+        "definition_mandatory": [
+          {
+            "name": "béton",
+            "synonyms": [
+              "béton"
+            ]
+          },
+          {
+            "name": "armé",
+            "synonyms": [
+              "armé"
+            ]
+          },
+          {
+            "name": "matériau",
+            "synonyms": [
+              "matériau"
+            ]
+          },
+          {
+            "name": "composite",
+            "synonyms": [
+              "composite"
+            ]
+          },
+          {
+            "name": "constitué",
+            "synonyms": [
+              "constitué"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "béton haute performance",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Béton dont la formulation, la résistance mécanique, la durabilité et la compacité sont améliorées par rapport au béton ordinaire, généralement grâce à une optimisation du rapport eau/ciment, à l’usage d’adjuvants et d’ajouts minéraux, et pouvant atteindre des résistances en compression supérieures à 50 MPa.",
+        "definition_mandatory": [
+          {
+            "name": "béton",
+            "synonyms": [
+              "béton"
+            ]
+          },
+          {
+            "name": "formulation",
+            "synonyms": [
+              "formulation"
+            ]
+          },
+          {
+            "name": "résistance",
+            "synonyms": [
+              "résistance"
+            ]
+          },
+          {
+            "name": "mécanique",
+            "synonyms": [
+              "mécanique"
+            ]
+          },
+          {
+            "name": "durabilité",
+            "synonyms": [
+              "durabilité"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "charpente",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "Une charpente est un assemblage d'éléments en bois, métal ou béton, servant à soutenir ou couvrir des constructions. C'est une ossature porteuse ponctuelle, par opposition à la structure linéaire que constitue un mur continu.",
+        "definition_mandatory": [
+          {
+            "name": "charpente",
+            "synonyms": [
+              "charpente"
+            ]
+          },
+          {
+            "name": "assemblage",
+            "synonyms": [
+              "assemblage"
+            ]
+          },
+          {
+            "name": "d'éléments",
+            "synonyms": [
+              "d'éléments"
+            ]
+          },
+          {
+            "name": "bois",
+            "synonyms": [
+              "bois"
+            ]
+          },
+          {
+            "name": "métal",
+            "synonyms": [
+              "métal"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      },
+      {
+        "term": "plate-forme pétrolière",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Structure construite en mer ou sur terre pour permettre l’extraction et parfois le traitement du pétrole provenant du sous-sol.",
+        "definition_mandatory": [
+          {
+            "name": "structure",
+            "synonyms": [
+              "structure"
+            ]
+          },
+          {
+            "name": "construite",
+            "synonyms": [
+              "construite"
+            ]
+          },
+          {
+            "name": "mer",
+            "synonyms": [
+              "mer"
+            ]
+          },
+          {
+            "name": "terre",
+            "synonyms": [
+              "terre"
+            ]
+          },
+          {
+            "name": "permettre",
+            "synonyms": [
+              "permettre"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil",
+        "transversal": false
+      }
+    ],
+    "stats": {
+      "total_terms": 16,
+      "enriched_count": 8,
+      "vsc_count": 11,
+      "vsca_count": 5,
+      "academic_count": 0,
+      "wikipedia_count": 3,
+      "wiktionary_count": 8,
+      "elapsed_seconds": 3.9768190383911133
+    }
+  },
+  "genie_civil\\assainissement": {
+    "VSC": [
+      {
+        "term": "assainir",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "assainissement",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "assainissement collectif",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\hydraulique urbaine"
+        ],
+        "domaine_principal": "genie_civil\\assainissement"
+      },
+      {
+        "term": "assainissement non collectif",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\hydraulique urbaine"
+        ],
+        "domaine_principal": "genie_civil\\assainissement"
+      },
+      {
+        "term": "assainisseur",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Nom générique d’appareil permettant d’assainir un milieu (eau, air, …).",
+        "definition_mandatory": [
+          {
+            "name": "nom",
+            "synonyms": [
+              "nom"
+            ]
+          },
+          {
+            "name": "générique",
+            "synonyms": [
+              "générique"
+            ]
+          },
+          {
+            "name": "appareil",
+            "synonyms": [
+              "appareil"
+            ]
+          },
+          {
+            "name": "permettant",
+            "synonyms": [
+              "permettant"
+            ]
+          },
+          {
+            "name": "assainir",
+            "synonyms": [
+              "assainir"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "bouche d’égout",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "boues activées",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Procédé biologique de traitement des eaux usées consistant à maintenir en suspension une biomasse bactérienne aérobie qui dégrade la pollution organique dissoute.",
+        "definition_mandatory": [
+          {
+            "name": "procédé",
+            "synonyms": [
+              "procédé"
+            ]
+          },
+          {
+            "name": "biologique",
+            "synonyms": [
+              "biologique"
+            ]
+          },
+          {
+            "name": "traitement",
+            "synonyms": [
+              "traitement"
+            ]
+          },
+          {
+            "name": "eaux",
+            "synonyms": [
+              "eaux"
+            ]
+          },
+          {
+            "name": "usées",
+            "synonyms": [
+              "usées"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "boues d’épuration",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "canaliser",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "curage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "curement",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "curer",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "dégraissage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Action de dégraisser les laines, les étoffes de laine, ou de tout autre matériau.",
+        "definition_mandatory": [
+          {
+            "name": "action",
+            "synonyms": [
+              "action"
+            ]
+          },
+          {
+            "name": "dégraisser",
+            "synonyms": [
+              "dégraisser"
+            ]
+          },
+          {
+            "name": "laines",
+            "synonyms": [
+              "laines"
+            ]
+          },
+          {
+            "name": "étoffes",
+            "synonyms": [
+              "étoffes"
+            ]
+          },
+          {
+            "name": "laine",
+            "synonyms": [
+              "laine"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "depurar",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "désassainir",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "eau usée",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Eau qui a été utilisée et souillée par une activité humaine (domestique, industrielle, agricole, etc.) et qui nécessite un traitement avant tout rejet dans le milieu naturel ou toute réutilisation.",
+        "definition_mandatory": [
+          {
+            "name": "eau",
+            "synonyms": [
+              "eau"
+            ]
+          },
+          {
+            "name": "été",
+            "synonyms": [
+              "été"
+            ]
+          },
+          {
+            "name": "utilisée",
+            "synonyms": [
+              "utilisée"
+            ]
+          },
+          {
+            "name": "souillée",
+            "synonyms": [
+              "souillée"
+            ]
+          },
+          {
+            "name": "activité",
+            "synonyms": [
+              "activité"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "eaux usées",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "écurage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "écurement",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Raie qui, traversant un champ ensemencé, facilite l’écoulement des eaux.",
+        "definition_mandatory": [
+          {
+            "name": "raie",
+            "synonyms": [
+              "raie"
+            ]
+          },
+          {
+            "name": "traversant",
+            "synonyms": [
+              "traversant"
+            ]
+          },
+          {
+            "name": "champ",
+            "synonyms": [
+              "champ"
+            ]
+          },
+          {
+            "name": "ensemencé",
+            "synonyms": [
+              "ensemencé"
+            ]
+          },
+          {
+            "name": "facilite",
+            "synonyms": [
+              "facilite"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "égout",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "épuration",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "épurer",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "évacuation",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\assainissement\\gestion des déchets"
+        ],
+        "domaine_principal": "genie_civil\\assainissement\\gestion des déchets"
+      },
+      {
+        "term": "fosse septique",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "fosse toutes-eaux",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\hydraulique urbaine"
+        ],
+        "domaine_principal": "genie_civil\\assainissement"
+      },
+      {
+        "term": "méphitique",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "plaque d’égout",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "pompe de vidange",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "purificateur",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "rassainir",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "réassainir",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "réseau séparatif",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\hydraulique urbaine"
+        ],
+        "domaine_principal": "genie_civil\\assainissement"
+      },
+      {
+        "term": "salubrité",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "spanc",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "surveillance des eaux usées",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "tout-à-l’égout",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "tout-à-l’égoût",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "traitement secondaire",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "vidange",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\génie hydraulique\\aménagement hydraulique"
+        ],
+        "domaine_principal": "genie_civil\\génie hydraulique\\aménagement hydraulique"
+      }
+    ],
+    "VSCA": [
+      {
+        "term": "assainissement agricole",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Évacuation des eaux, regroupées naturellement ou à la suite du drainage, jusqu'au réseau hydrographique naturel.",
+        "definition_mandatory": [
+          {
+            "name": "évacuation",
+            "synonyms": [
+              "évacuation"
+            ]
+          },
+          {
+            "name": "eaux",
+            "synonyms": [
+              "eaux"
+            ]
+          },
+          {
+            "name": "regroupées",
+            "synonyms": [
+              "regroupées"
+            ]
+          },
+          {
+            "name": "naturellement",
+            "synonyms": [
+              "naturellement"
+            ]
+          },
+          {
+            "name": "suite",
+            "synonyms": [
+              "suite"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "dégrillage",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "Le dégrillage est destiné à piéger les matières plus ou moins volumineuses et les déchets de toutes sortes contenus dans le chenal d’admission d’un ouvrage hydraulique ou au stade de prétraitement d'eaux usées domestiques, agricoles ou industrielles, pour permettre leur extraction puis stockage en benne et évacuation vers une voie de traitement. \nCet équipement (dégrilleur, souvent associés à un bac de déshuilage et un système de dessablage) évite l'entraînement des déchets vers les vannes, pale...",
+        "definition_mandatory": [
+          {
+            "name": "dégrillage",
+            "synonyms": [
+              "dégrillage"
+            ]
+          },
+          {
+            "name": "destiné",
+            "synonyms": [
+              "destiné"
+            ]
+          },
+          {
+            "name": "piéger",
+            "synonyms": [
+              "piéger"
+            ]
+          },
+          {
+            "name": "matières",
+            "synonyms": [
+              "matières"
+            ]
+          },
+          {
+            "name": "moins",
+            "synonyms": [
+              "moins"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "micro-station d’épuration",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Dispositif d’assainissement non collectif destiné au traitement des eaux usées domestiques d’une habitation ou d’un petit groupe d’habitations, reposant sur des procédés biologiques (cultures libres ou fixées) et constituant une alternative à la fosse toutes-eaux avec filtre compact ou épandage.",
+        "definition_mandatory": [
+          {
+            "name": "dispositif",
+            "synonyms": [
+              "dispositif"
+            ]
+          },
+          {
+            "name": "assainissement",
+            "synonyms": [
+              "assainissement"
+            ]
+          },
+          {
+            "name": "non",
+            "synonyms": [
+              "non"
+            ]
+          },
+          {
+            "name": "collectif",
+            "synonyms": [
+              "collectif"
+            ]
+          },
+          {
+            "name": "destiné",
+            "synonyms": [
+              "destiné"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "tamisage",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "Le tamisage est le passage d'un produit solide ou d'une suspension au tamis pour réaliser la séparation et éventuellement l'analyse granulométrique de certains éléments.",
+        "definition_mandatory": [
+          {
+            "name": "tamisage",
+            "synonyms": [
+              "tamisage"
+            ]
+          },
+          {
+            "name": "passage",
+            "synonyms": [
+              "passage"
+            ]
+          },
+          {
+            "name": "produit",
+            "synonyms": [
+              "produit"
+            ]
+          },
+          {
+            "name": "solide",
+            "synonyms": [
+              "solide"
+            ]
+          },
+          {
+            "name": "suspension",
+            "synonyms": [
+              "suspension"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "traitement des eaux usées",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Ensemble des procédés physiques, chimiques et biologiques appliqués aux eaux usées domestiques, industrielles ou pluviales, afin d’en réduire la pollution et de permettre leur rejet dans le milieu naturel ou leur réutilisation dans de bonnes conditions sanitaires et environnementales.",
+        "definition_mandatory": [
+          {
+            "name": "ensemble",
+            "synonyms": [
+              "ensemble"
+            ]
+          },
+          {
+            "name": "procédés",
+            "synonyms": [
+              "procédés"
+            ]
+          },
+          {
+            "name": "physiques",
+            "synonyms": [
+              "physiques"
+            ]
+          },
+          {
+            "name": "chimiques",
+            "synonyms": [
+              "chimiques"
+            ]
+          },
+          {
+            "name": "biologiques",
+            "synonyms": [
+              "biologiques"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "traitement primaire",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Première étape du traitement des eaux usées, consistant à éliminer les matières solides grossières et décantables ainsi que les graisses, par des procédés mécaniques tels que le dégrillage, le dessablage, le dégraissage et la décantation.",
+        "definition_mandatory": [
+          {
+            "name": "première",
+            "synonyms": [
+              "première"
+            ]
+          },
+          {
+            "name": "étape",
+            "synonyms": [
+              "étape"
+            ]
+          },
+          {
+            "name": "traitement",
+            "synonyms": [
+              "traitement"
+            ]
+          },
+          {
+            "name": "eaux",
+            "synonyms": [
+              "eaux"
+            ]
+          },
+          {
+            "name": "usées",
+            "synonyms": [
+              "usées"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      },
+      {
+        "term": "traitement tertiaire",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Étape d’affinage du traitement des eaux usées qui suit le traitement secondaire, visant à éliminer les nutriments (azote, phosphore), les micropolluants et les germes pathogènes par des procédés physico-chimiques (floculation, filtration sur sable, membranes) ou de désinfection (chloration, ozonation, ultraviolet).",
+        "definition_mandatory": [
+          {
+            "name": "étape",
+            "synonyms": [
+              "étape"
+            ]
+          },
+          {
+            "name": "affinage",
+            "synonyms": [
+              "affinage"
+            ]
+          },
+          {
+            "name": "traitement",
+            "synonyms": [
+              "traitement"
+            ]
+          },
+          {
+            "name": "eaux",
+            "synonyms": [
+              "eaux"
+            ]
+          },
+          {
+            "name": "usées",
+            "synonyms": [
+              "usées"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement",
+        "transversal": false
+      }
+    ],
+    "stats": {
+      "total_terms": 46,
+      "enriched_count": 12,
+      "vsc_count": 39,
+      "vsca_count": 7,
+      "academic_count": 0,
+      "wikipedia_count": 2,
+      "wiktionary_count": 34,
+      "elapsed_seconds": 10.99135446548462
+    }
+  },
+  "genie_civil\\assainissement\\gestion des déchets": {
+    "VSC": [
+      {
+        "term": "banalisateur",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "biodéchet",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "biotraitement",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "blocage de déchets radioactifs",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "collecte sélective",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "compostage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Action de composter un ticket, un billet de train, d'affranchir avec un composteur.",
+        "definition_mandatory": [
+          {
+            "name": "action",
+            "synonyms": [
+              "action"
+            ]
+          },
+          {
+            "name": "composter",
+            "synonyms": [
+              "composter"
+            ]
+          },
+          {
+            "name": "ticket",
+            "synonyms": [
+              "ticket"
+            ]
+          },
+          {
+            "name": "billet",
+            "synonyms": [
+              "billet"
+            ]
+          },
+          {
+            "name": "train",
+            "synonyms": [
+              "train"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "conditionnement de déchets radioactifs",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "conteneur de stockage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "conteneur d’entreposage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "dasri",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet hospitalier",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet industriel",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet industriel banal",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet industriel dangereux",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet inerte",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet organique",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet ultime",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet vert",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchets assimilés aux ordures ménagères",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchets d’équipements électriques et électroniques",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "deee",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "désembouage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "désembouer",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "dib",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "did",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "emballage de matières radioactives",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "emballage d’entreposage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "enrobage de déchets radioactifs",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "entreposage de déchets radioactifs",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "évacuation",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\assainissement\\gestion des déchets"
+        ],
+        "domaine_principal": "genie_civil\\assainissement\\gestion des déchets"
+      },
+      {
+        "term": "lixiviat",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Liquide chargé de composés dissous ou en suspension, produit par la percolation de l’eau à travers un matériau, notamment les déchets d’une décharge.",
+        "definition_mandatory": [
+          {
+            "name": "liquide",
+            "synonyms": [
+              "liquide"
+            ]
+          },
+          {
+            "name": "chargé",
+            "synonyms": [
+              "chargé"
+            ]
+          },
+          {
+            "name": "composés",
+            "synonyms": [
+              "composés"
+            ]
+          },
+          {
+            "name": "dissous",
+            "synonyms": [
+              "dissous"
+            ]
+          },
+          {
+            "name": "suspension",
+            "synonyms": [
+              "suspension"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "om",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "ordures ménagères",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "ordures ménagères résiduelles",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "récupération des déchets",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "stockage de déchets radioactifs",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "stockage intérimaire",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "stockage provisoire",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "stockage temporaire de déchets radioactifs",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "valorisation énergétique des déchets",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "vitrification de déchets radioactifs",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      }
+    ],
+    "VSCA": [
+      {
+        "term": "bloc d’entreposage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Ensemble de modules en béton renfermant chacun un conteneur d’entreposage à sec d’assemblages combustibles usés ou de déchets radioactifs conditionnés.",
+        "definition_mandatory": [
+          {
+            "name": "ensemble",
+            "synonyms": [
+              "ensemble"
+            ]
+          },
+          {
+            "name": "modules",
+            "synonyms": [
+              "modules"
+            ]
+          },
+          {
+            "name": "béton",
+            "synonyms": [
+              "béton"
+            ]
+          },
+          {
+            "name": "renfermant",
+            "synonyms": [
+              "renfermant"
+            ]
+          },
+          {
+            "name": "chacun",
+            "synonyms": [
+              "chacun"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet dangereux",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "Les déchets dangereux sont une des catégories de déchets définies par la législation propre à chaque pays, qui s'oppose à la catégorie des déchets non dangereux. Ils se caractérisent par leur dangerosité pour l'environnement ou la santé à travers leurs effets directs ou indirects à court, moyen ou long terme.",
+        "definition_mandatory": [
+          {
+            "name": "déchets",
+            "synonyms": [
+              "déchets"
+            ]
+          },
+          {
+            "name": "dangereux",
+            "synonyms": [
+              "dangereux"
+            ]
+          },
+          {
+            "name": "catégories",
+            "synonyms": [
+              "catégories"
+            ]
+          },
+          {
+            "name": "déchets",
+            "synonyms": [
+              "déchets"
+            ]
+          },
+          {
+            "name": "définies",
+            "synonyms": [
+              "définies"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchet non dangereux",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Déchet qui, selon la réglementation, ne présente pas de caractère dangereux pour la santé humaine ou pour l’environnement, et qui peut être collecté, stocké ou traité dans des conditions standards (par exemple : papiers, cartons, bois, plastiques, verre, déchets alimentaires).",
+        "definition_mandatory": [
+          {
+            "name": "déchet",
+            "synonyms": [
+              "déchet"
+            ]
+          },
+          {
+            "name": "selon",
+            "synonyms": [
+              "selon"
+            ]
+          },
+          {
+            "name": "réglementation",
+            "synonyms": [
+              "réglementation"
+            ]
+          },
+          {
+            "name": "présente",
+            "synonyms": [
+              "présente"
+            ]
+          },
+          {
+            "name": "caractère",
+            "synonyms": [
+              "caractère"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "déchets d’activités de soins à risques infectieux",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Déchets produits par les activités de diagnostic, de suivi, de traitement ou de recherche médicale et présentant un risque infectieux pour les personnes ou l’environnement (aiguilles, pansements souillés, gants, seringues, matériels de perfusion, etc.).",
+        "definition_mandatory": [
+          {
+            "name": "déchets",
+            "synonyms": [
+              "déchets"
+            ]
+          },
+          {
+            "name": "produits",
+            "synonyms": [
+              "produits"
+            ]
+          },
+          {
+            "name": "activités",
+            "synonyms": [
+              "activités"
+            ]
+          },
+          {
+            "name": "diagnostic",
+            "synonyms": [
+              "diagnostic"
+            ]
+          },
+          {
+            "name": "suivi",
+            "synonyms": [
+              "suivi"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      },
+      {
+        "term": "recyclage des déchets",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Ensemble des techniques de transformation des déchets après récupération, visant à en réintroduire tout ou partie dans un cycle de production.",
+        "definition_mandatory": [
+          {
+            "name": "ensemble",
+            "synonyms": [
+              "ensemble"
+            ]
+          },
+          {
+            "name": "techniques",
+            "synonyms": [
+              "techniques"
+            ]
+          },
+          {
+            "name": "transformation",
+            "synonyms": [
+              "transformation"
+            ]
+          },
+          {
+            "name": "déchets",
+            "synonyms": [
+              "déchets"
+            ]
+          },
+          {
+            "name": "après",
+            "synonyms": [
+              "après"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+        "transversal": false
+      }
+    ],
+    "stats": {
+      "total_terms": 47,
+      "enriched_count": 7,
+      "vsc_count": 42,
+      "vsca_count": 5,
+      "academic_count": 0,
+      "wikipedia_count": 1,
+      "wiktionary_count": 40,
+      "elapsed_seconds": 9.53893518447876
+    }
+  },
+  "genie_civil\\génie hydraulique": {
+    "VSC": [
+      {
+        "term": "aménagement fluvial",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage écrêteur de crues",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage en enrochements",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage fixe",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage mobile",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage-voile",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage-voûte",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\génie hydraulique",
+          "genie_civil\\génie hydraulique\\aménagement hydraulique"
+        ],
+        "domaine_principal": "genie_civil\\génie hydraulique\\aménagement hydraulique"
+      },
+      {
+        "term": "bassin de régulation",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "bassin de retenue",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "canalisation",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "chenal artificiel",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "débit réservé",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "dessablage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "déversoir",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "digue",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "digue fusible",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Digue conçue pour céder volontairement en cas de crue exceptionnelle, afin de diriger ou d’évacuer l’eau vers une zone prévue pour l’inondation, protégeant ainsi d’autres secteurs plus vulnérables.",
+        "definition_mandatory": [
+          {
+            "name": "digue",
+            "synonyms": [
+              "digue"
+            ]
+          },
+          {
+            "name": "conçue",
+            "synonyms": [
+              "conçue"
+            ]
+          },
+          {
+            "name": "céder",
+            "synonyms": [
+              "céder"
+            ]
+          },
+          {
+            "name": "volontairement",
+            "synonyms": [
+              "volontairement"
+            ]
+          },
+          {
+            "name": "cas",
+            "synonyms": [
+              "cas"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "évacuateur de crues",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lit artificiel",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lit canalisé",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lit détourné",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Lit dont le tracé a été volontairement déplacé par des travaux humains, afin de modifier l’écoulement, de protéger des zones habitées ou cultivées, de permettre des exploitations (minières, industrielles) ou de créer de nouveaux espaces aménageables.",
+        "definition_mandatory": [
+          {
+            "name": "lit",
+            "synonyms": [
+              "lit"
+            ]
+          },
+          {
+            "name": "tracé",
+            "synonyms": [
+              "tracé"
+            ]
+          },
+          {
+            "name": "été",
+            "synonyms": [
+              "été"
+            ]
+          },
+          {
+            "name": "volontairement",
+            "synonyms": [
+              "volontairement"
+            ]
+          },
+          {
+            "name": "déplacé",
+            "synonyms": [
+              "déplacé"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lit endigué",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lit recalibré",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lit rectifié",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Lit d’un cours d’eau dont le tracé a été artificiellement modifié, redressé ou calibré par des travaux d’aménagement fluvial, généralement pour améliorer l’écoulement, limiter les inondations ou gagner des surfaces agricoles.",
+        "definition_mandatory": [
+          {
+            "name": "lit",
+            "synonyms": [
+              "lit"
+            ]
+          },
+          {
+            "name": "cours",
+            "synonyms": [
+              "cours"
+            ]
+          },
+          {
+            "name": "eau",
+            "synonyms": [
+              "eau"
+            ]
+          },
+          {
+            "name": "tracé",
+            "synonyms": [
+              "tracé"
+            ]
+          },
+          {
+            "name": "été",
+            "synonyms": [
+              "été"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lit régularisé",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Lit modifié par des travaux visant à stabiliser son tracé et son profil, à réduire son irrégularité ou sa sinuosité, afin de faciliter l’écoulement, d’améliorer la navigation ou de limiter les inondations.",
+        "definition_mandatory": [
+          {
+            "name": "lit",
+            "synonyms": [
+              "lit"
+            ]
+          },
+          {
+            "name": "modifié",
+            "synonyms": [
+              "modifié"
+            ]
+          },
+          {
+            "name": "travaux",
+            "synonyms": [
+              "travaux"
+            ]
+          },
+          {
+            "name": "visant",
+            "synonyms": [
+              "visant"
+            ]
+          },
+          {
+            "name": "stabiliser",
+            "synonyms": [
+              "stabiliser"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "porte d’écluse",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "rectification de cours d’eau",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "réservoir artificiel",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "retenue collinaire",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "retenue d’eau",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Étendue d’eau formée artificiellement ou naturellement par un barrage, une digue ou un seuil, et destinée à l’alimentation en eau, à l’irrigation, à la production hydroélectrique ou à la régulation des crues.",
+        "definition_mandatory": [
+          {
+            "name": "étendue",
+            "synonyms": [
+              "étendue"
+            ]
+          },
+          {
+            "name": "eau",
+            "synonyms": [
+              "eau"
+            ]
+          },
+          {
+            "name": "formée",
+            "synonyms": [
+              "formée"
+            ]
+          },
+          {
+            "name": "artificiellement",
+            "synonyms": [
+              "artificiellement"
+            ]
+          },
+          {
+            "name": "naturellement",
+            "synonyms": [
+              "naturellement"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "sas d’écluse",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "seuil déversant",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "seuil mobile",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "station de pompage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "station de traitement",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      }
+    ],
+    "VSCA": [
+      {
+        "term": "barrage-poids",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "Un barrage-poids est un barrage construit à partir d’éléments de maçonnerie en béton, de roche et de terre et conçu pour retenir l'eau en utilisant seulement le poids de la matière qui s’oppose à la pression horizontale de l'eau s’exerçant sur le barrage. Les barrages-poids sont conçus de telle sorte que chaque section de barrage est stable, indépendamment de toute autre section de barrage.",
+        "definition_mandatory": [
+          {
+            "name": "barrage-poids",
+            "synonyms": [
+              "barrage-poids"
+            ]
+          },
+          {
+            "name": "barrage",
+            "synonyms": [
+              "barrage"
+            ]
+          },
+          {
+            "name": "construit",
+            "synonyms": [
+              "construit"
+            ]
+          },
+          {
+            "name": "partir",
+            "synonyms": [
+              "partir"
+            ]
+          },
+          {
+            "name": "éléments",
+            "synonyms": [
+              "éléments"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\génie hydraulique",
+          "genie_civil\\génie hydraulique\\aménagement hydraulique"
+        ],
+        "domaine_principal": "genie_civil\\génie hydraulique\\aménagement hydraulique"
+      },
+      {
+        "term": "digue de protection",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Digue construite pour protéger un territoire, une ville, une zone agricole ou des infrastructures contre les crues, les inondations ou l’érosion marine.",
+        "definition_mandatory": [
+          {
+            "name": "digue",
+            "synonyms": [
+              "digue"
+            ]
+          },
+          {
+            "name": "construite",
+            "synonyms": [
+              "construite"
+            ]
+          },
+          {
+            "name": "protéger",
+            "synonyms": [
+              "protéger"
+            ]
+          },
+          {
+            "name": "territoire",
+            "synonyms": [
+              "territoire"
+            ]
+          },
+          {
+            "name": "ville",
+            "synonyms": [
+              "ville"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lac de barrage",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "Un lac de barrage, lac de retenue ou réservoir est un plan d'eau dont le niveau est contrôlé par un ou plusieurs ouvrages d'art et qui est utilisé à des fins utilitaires. Un lac de barrage est alimenté par le ruissellement des eaux et la confluence de cours d'eau situés en amont.",
+        "definition_mandatory": [
+          {
+            "name": "lac",
+            "synonyms": [
+              "lac"
+            ]
+          },
+          {
+            "name": "barrage",
+            "synonyms": [
+              "barrage"
+            ]
+          },
+          {
+            "name": "lac",
+            "synonyms": [
+              "lac"
+            ]
+          },
+          {
+            "name": "retenue",
+            "synonyms": [
+              "retenue"
+            ]
+          },
+          {
+            "name": "réservoir",
+            "synonyms": [
+              "réservoir"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique",
+        "transversal": false
+      }
+    ],
+    "stats": {
+      "total_terms": 37,
+      "enriched_count": 8,
+      "vsc_count": 34,
+      "vsca_count": 3,
+      "academic_count": 0,
+      "wikipedia_count": 2,
+      "wiktionary_count": 29,
+      "elapsed_seconds": 7.850485324859619
+    }
+  },
+  "genie_civil\\génie hydraulique\\aménagement hydraulique": {
+    "VSC": [
+      {
+        "term": "adduction d’eau",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "adduction d’eau potable",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage-poids",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\génie hydraulique",
+          "genie_civil\\génie hydraulique\\aménagement hydraulique"
+        ],
+        "domaine_principal": "genie_civil\\génie hydraulique\\aménagement hydraulique"
+      },
+      {
+        "term": "barrage-réservoir",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "barrage-voûte",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\génie hydraulique",
+          "genie_civil\\génie hydraulique\\aménagement hydraulique"
+        ],
+        "domaine_principal": "genie_civil\\génie hydraulique\\aménagement hydraulique"
+      },
+      {
+        "term": "captage d’eau",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Ensemble des techniques et des ouvrages permettant de prélever l’eau dans une ressource naturelle (source, nappe souterraine, rivière, lac) en vue de son adduction, de son traitement ou de son utilisation agricole et industrielle.",
+        "definition_mandatory": [
+          {
+            "name": "ensemble",
+            "synonyms": [
+              "ensemble"
+            ]
+          },
+          {
+            "name": "techniques",
+            "synonyms": [
+              "techniques"
+            ]
+          },
+          {
+            "name": "ouvrages",
+            "synonyms": [
+              "ouvrages"
+            ]
+          },
+          {
+            "name": "permettant",
+            "synonyms": [
+              "permettant"
+            ]
+          },
+          {
+            "name": "prélever",
+            "synonyms": [
+              "prélever"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "conduite forcée",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "distribution d’eau",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "hydraulique urbaine",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil",
+          "genie_civil\\génie hydraulique\\aménagement hydraulique"
+        ],
+        "domaine_principal": "genie_civil\\génie hydraulique\\aménagement hydraulique"
+      },
+      {
+        "term": "irrigation",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "lâcher d’eau",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "réseau d’eau potable",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "réservoir d’eau",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "traitement de l’eau",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "vidange",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\génie hydraulique\\aménagement hydraulique"
+        ],
+        "domaine_principal": "genie_civil\\génie hydraulique\\aménagement hydraulique"
+      },
+      {
+        "term": "zone d’expansion de crue",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      }
+    ],
+    "VSCA": [
+      {
+        "term": "aménagement de navigation",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Ensemble des travaux et des ouvrages réalisés sur un cours d’eau ou une voie artificielle afin de permettre, d’améliorer ou de sécuriser la navigation des bateaux (par exemple canalisation, écluse, barrage, dragage).",
+        "definition_mandatory": [
+          {
+            "name": "ensemble",
+            "synonyms": [
+              "ensemble"
+            ]
+          },
+          {
+            "name": "travaux",
+            "synonyms": [
+              "travaux"
+            ]
+          },
+          {
+            "name": "ouvrages",
+            "synonyms": [
+              "ouvrages"
+            ]
+          },
+          {
+            "name": "réalisés",
+            "synonyms": [
+              "réalisés"
+            ]
+          },
+          {
+            "name": "cours",
+            "synonyms": [
+              "cours"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "galerie d’amenée",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Galerie creusée dans le sol ou la roche servant à amener l’eau d’un captage, d’un réservoir ou d’un barrage jusqu’à une usine hydroélectrique, une station de traitement ou un canal de dérivation.",
+        "definition_mandatory": [
+          {
+            "name": "galerie",
+            "synonyms": [
+              "galerie"
+            ]
+          },
+          {
+            "name": "creusée",
+            "synonyms": [
+              "creusée"
+            ]
+          },
+          {
+            "name": "sol",
+            "synonyms": [
+              "sol"
+            ]
+          },
+          {
+            "name": "roche",
+            "synonyms": [
+              "roche"
+            ]
+          },
+          {
+            "name": "servant",
+            "synonyms": [
+              "servant"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      },
+      {
+        "term": "réseau de distribution",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "Ensemble des canalisations, réservoirs, stations de pompage et dispositifs associés assurant la répartition de l’eau potable depuis l’adduction jusqu’aux usagers.",
+        "definition_mandatory": [
+          {
+            "name": "ensemble",
+            "synonyms": [
+              "ensemble"
+            ]
+          },
+          {
+            "name": "canalisations",
+            "synonyms": [
+              "canalisations"
+            ]
+          },
+          {
+            "name": "réservoirs",
+            "synonyms": [
+              "réservoirs"
+            ]
+          },
+          {
+            "name": "stations",
+            "synonyms": [
+              "stations"
+            ]
+          },
+          {
+            "name": "pompage",
+            "synonyms": [
+              "pompage"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\génie hydraulique\\aménagement hydraulique",
+        "transversal": false
+      }
+    ],
+    "stats": {
+      "total_terms": 20,
+      "enriched_count": 4,
+      "vsc_count": 17,
+      "vsca_count": 3,
+      "academic_count": 0,
+      "wikipedia_count": 0,
+      "wiktionary_count": 16,
+      "elapsed_seconds": 4.2885682582855225
+    }
+  },
+  "genie_civil\\hydraulique urbaine": {
+    "VSC": [
+      {
+        "term": "assainissement collectif",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\hydraulique urbaine"
+        ],
+        "domaine_principal": "genie_civil\\assainissement"
+      },
+      {
+        "term": "assainissement non collectif",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\hydraulique urbaine"
+        ],
+        "domaine_principal": "genie_civil\\assainissement"
+      },
+      {
+        "term": "exhaurer",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": false
+      },
+      {
+        "term": "fosse toutes-eaux",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\hydraulique urbaine"
+        ],
+        "domaine_principal": "genie_civil\\assainissement"
+      },
+      {
+        "term": "gestion des eaux pluviales",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": false
+      },
+      {
+        "term": "gestion intégrée des eaux pluviales",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": false
+      },
+      {
+        "term": "réseau séparatif",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": true,
+        "domaines_apparition": [
+          "genie_civil\\assainissement",
+          "genie_civil\\hydraulique urbaine"
+        ],
+        "domaine_principal": "genie_civil\\assainissement"
+      },
+      {
+        "term": "réseau unitaire",
+        "sources": [
+          "wiktionary"
+        ],
+        "confidence": 0.6,
+        "definition": "",
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": false
+      }
+    ],
+    "VSCA": [
+      {
+        "term": "infiltration",
+        "sources": [
+          "wikipedia"
+        ],
+        "confidence": 0.8,
+        "definition": "D'une manière générale, le mot infiltration désigne l’action de s’infiltrer. Plus particulièrement, on le retrouve dans plusieurs domaines :\n\nen médecine, une infiltration consiste en l’injection d’une substance dans un tissu ou une articulation à des fins thérapeutiques ;\nen géologie, une infiltration désigne l'entrée de l'eau dans les couches rocheuses constituant le sol et le sous-sol, synonyme de percolation ;\nEn hydrologie, une infiltration désigne le processus par lequel l'eau sur la surfa...",
+        "definition_mandatory": [
+          {
+            "name": "manière",
+            "synonyms": [
+              "manière"
+            ]
+          },
+          {
+            "name": "générale",
+            "synonyms": [
+              "générale"
+            ]
+          },
+          {
+            "name": "infiltration",
+            "synonyms": [
+              "infiltration"
+            ]
+          },
+          {
+            "name": "désigne",
+            "synonyms": [
+              "désigne"
+            ]
+          },
+          {
+            "name": "action",
+            "synonyms": [
+              "action"
+            ]
+          }
+        ],
+        "domaine_parent": "genie_civil",
+        "domaine_exact": "genie_civil\\hydraulique urbaine",
+        "transversal": false
+      }
+    ],
+    "stats": {
+      "total_terms": 9,
+      "enriched_count": 1,
+      "vsc_count": 8,
+      "vsca_count": 1,
+      "academic_count": 0,
+      "wikipedia_count": 1,
+      "wiktionary_count": 8,
+      "elapsed_seconds": 2.084376335144043
+    }
+  }
+}

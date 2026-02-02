@@ -1,1 +1,302 @@
-{}
+{
+  "969": {
+    "type": "specialized",
+    "exact_terms": [
+      "969"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'année",
+          "synonyms": [
+            "l'année"
+          ]
+        },
+        {
+          "name": "969",
+          "synonyms": [
+            "969"
+          ]
+        },
+        {
+          "name": "année",
+          "synonyms": [
+            "année"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "commence",
+          "synonyms": [
+            "commence"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'année 969 est une année commune qui commence un vendredi."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "bouddhisme",
+    "domaine_exact": "bouddhisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "butsudan": {
+    "type": "specialized",
+    "exact_terms": [
+      "butsudan"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "butsudan",
+          "synonyms": [
+            "butsudan"
+          ]
+        },
+        {
+          "name": "sanctuaire",
+          "synonyms": [
+            "sanctuaire"
+          ]
+        },
+        {
+          "name": "religieux",
+          "synonyms": [
+            "religieux"
+          ]
+        },
+        {
+          "name": "temples",
+          "synonyms": [
+            "temples"
+          ]
+        },
+        {
+          "name": "maisons",
+          "synonyms": [
+            "maisons"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un butsudan (仏壇) est un sanctuaire religieux dans les temples et les maisons des bouddhistes japonais et autres."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "bouddhisme",
+    "domaine_exact": "bouddhisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mahavamsa": {
+    "type": "specialized",
+    "exact_terms": [
+      "mahavamsa"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mahavamsa",
+          "synonyms": [
+            "mahavamsa"
+          ]
+        },
+        {
+          "name": "sanskrit",
+          "synonyms": [
+            "sanskrit"
+          ]
+        },
+        {
+          "name": "iast",
+          "synonyms": [
+            "iast"
+          ]
+        },
+        {
+          "name": "mahāvaṃśa",
+          "synonyms": [
+            "mahāvaṃśa"
+          ]
+        },
+        {
+          "name": "pāli",
+          "synonyms": [
+            "pāli"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le Mahavamsa (sanskrit IAST : Mahāvaṃśa ; pāli : Mahāvaṃsa ; litt. Grande chronique) est un texte en langue pāli relatant l'histoire des rois singhalais et tamouls de Ceylan (aujourd'hui Sri Lanka)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "bouddhisme",
+    "domaine_exact": "bouddhisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "panchen-lama": {
+    "type": "specialized",
+    "exact_terms": [
+      "panchen-lama"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lignée",
+          "synonyms": [
+            "lignée"
+          ]
+        },
+        {
+          "name": "panchen-lamas",
+          "synonyms": [
+            "panchen-lamas"
+          ]
+        },
+        {
+          "name": "lignée",
+          "synonyms": [
+            "lignée"
+          ]
+        },
+        {
+          "name": "réincarnation",
+          "synonyms": [
+            "réincarnation"
+          ]
+        },
+        {
+          "name": "importante",
+          "synonyms": [
+            "importante"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La lignée des panchen-lamas est une lignée de réincarnation importante dans l'histoire du Tibet, abbés du monastère de Tashilhunpo. Le panchen-lama est le deuxième plus haut chef spirituel du bouddhisme tibétain, et un lama guélougpa."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "bouddhisme",
+    "domaine_exact": "bouddhisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pleine conscience": {
+    "type": "specialized",
+    "exact_terms": [
+      "pleine conscience"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'expression",
+          "synonyms": [
+            "l'expression"
+          ]
+        },
+        {
+          "name": "pleine",
+          "synonyms": [
+            "pleine"
+          ]
+        },
+        {
+          "name": "conscience",
+          "synonyms": [
+            "conscience"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "attitude",
+          "synonyms": [
+            "attitude"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'expression pleine conscience désigne une attitude d'attention, de présence et de conscience vigilante, qui peut être interne (sensations, pensées, émotions, actions, motivations, etc.) ou externe (au monde environnant, bruits, objets, événements, etc.).\nC'est une notion indienne ancienne, samma-sati en pali, samyak-smriti en sanskrit, l'« attention juste »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "bouddhisme",
+    "domaine_exact": "bouddhisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tantrisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "tantrisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tantrisme",
+          "synonyms": [
+            "tantrisme"
+          ]
+        },
+        {
+          "name": "inventé",
+          "synonyms": [
+            "inventé"
+          ]
+        },
+        {
+          "name": "xixe",
+          "synonyms": [
+            "xixe"
+          ]
+        },
+        {
+          "name": "siècle",
+          "synonyms": [
+            "siècle"
+          ]
+        },
+        {
+          "name": "occident",
+          "synonyms": [
+            "occident"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "« Tantrisme », terme inventé au XIXe siècle en Occident et dérivé du mot tantra (sanskrit IAST ; devanāgarī : तन्त्र ; « règle, traité »), désigne un ensemble de textes, de doctrines, de rituels et de méthodes initiatiques qui ont pénétré de façon diffuse la plupart des branches de l'hindouisme (ainsi que dans le jaïnisme). Sa définition exacte et son origine historique restent un sujet de discussion parmi les spécialistes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "bouddhisme",
+    "domaine_exact": "bouddhisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

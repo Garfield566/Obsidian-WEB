@@ -1,0 +1,781 @@
+[
+  {
+    "domain": "anthropologie",
+    "timestamp": "2026-02-02T09:17:08.525445",
+    "vocabulary": {
+      "total_terms": 3498,
+      "vsc": 2994,
+      "vsca": 504,
+      "hierarchies": 37,
+      "elapsed_seconds": 859.1575915813446,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\anthropologie\\anthropologie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 3224,
+      "enriched": 198,
+      "elapsed_seconds": 722.0266840457916,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\anthropologie\\anthropologie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 1581.5205323696136
+  },
+  {
+    "domain": "architecture",
+    "timestamp": "2026-02-01T21:38:11.611264",
+    "vocabulary": {
+      "total_terms": 2082,
+      "vsc": 1859,
+      "vsca": 223,
+      "hierarchies": 16,
+      "elapsed_seconds": 569.7510886192322,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\architecture\\architecture_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 1929,
+      "enriched": 65,
+      "elapsed_seconds": 387.74442172050476,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\architecture\\architecture_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 957.6719255447388
+  },
+  {
+    "domain": "biologie",
+    "timestamp": "2026-02-02T06:27:09.942005",
+    "vocabulary": {
+      "total_terms": 23866,
+      "vsc": 21917,
+      "vsca": 1949,
+      "hierarchies": 60,
+      "elapsed_seconds": 5150.687592983246,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\biologie\\biologie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 21685,
+      "enriched": 1436,
+      "elapsed_seconds": 4669.880781650543,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\biologie\\biologie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 9821.933041334152
+  },
+  {
+    "domain": "bouddhisme",
+    "timestamp": "2026-02-02T11:15:36.465073",
+    "vocabulary": {
+      "total_terms": 82,
+      "vsc": 52,
+      "vsca": 30,
+      "hierarchies": 1,
+      "elapsed_seconds": 24.88409733772278,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\bouddhisme\\bouddhisme_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 82,
+      "enriched": 6,
+      "elapsed_seconds": 15.426634550094604,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\bouddhisme\\bouddhisme_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 40.46788954734802
+  },
+  {
+    "domain": "brasserie",
+    "timestamp": "2026-02-01T23:13:09.490325",
+    "vocabulary": {
+      "total_terms": 50,
+      "vsc": 48,
+      "vsca": 2,
+      "hierarchies": 1,
+      "elapsed_seconds": 13.222210884094238,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\brasserie\\brasserie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 50,
+      "enriched": 4,
+      "elapsed_seconds": 12.454396963119507,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\brasserie\\brasserie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 25.7300066947937
+  },
+  {
+    "domain": "chimie",
+    "timestamp": "2026-02-02T03:43:27.999917",
+    "vocabulary": {
+      "total_terms": 7372,
+      "vsc": 6556,
+      "vsca": 816,
+      "hierarchies": 22,
+      "elapsed_seconds": 1807.1751282215118,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\chimie\\chimie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 7097,
+      "enriched": 526,
+      "elapsed_seconds": 1692.761693239212,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\chimie\\chimie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 3500.4682381153107
+  },
+  {
+    "domain": "christianisme",
+    "timestamp": "2026-02-02T00:43:42.102322",
+    "vocabulary": {
+      "total_terms": 431,
+      "vsc": 393,
+      "vsca": 38,
+      "hierarchies": 4,
+      "elapsed_seconds": 101.80518579483032,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\christianisme\\christianisme_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 426,
+      "enriched": 25,
+      "elapsed_seconds": 98.64561319351196,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\christianisme\\christianisme_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 200.5372302532196
+  },
+  {
+    "domain": "cinema",
+    "timestamp": "2026-02-02T00:40:21.556577",
+    "vocabulary": {
+      "total_terms": 1105,
+      "vsc": 947,
+      "vsca": 158,
+      "hierarchies": 6,
+      "elapsed_seconds": 289.9394705295563,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\cinema\\cinema_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 1077,
+      "enriched": 76,
+      "elapsed_seconds": 257.1805980205536,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\cinema\\cinema_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 547.2316150665283
+  },
+  {
+    "domain": "cuisine",
+    "timestamp": "2026-02-01T23:05:19.129012",
+    "vocabulary": {
+      "total_terms": 2398,
+      "vsc": 2111,
+      "vsca": 287,
+      "hierarchies": 10,
+      "elapsed_seconds": 682.7280461788177,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\cuisine\\cuisine_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 2330,
+      "enriched": 210,
+      "elapsed_seconds": 610.2672281265259,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\cuisine\\cuisine_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 1293.250183582306
+  },
+  {
+    "domain": "danse",
+    "timestamp": "2026-02-01T22:43:45.873317",
+    "vocabulary": {
+      "total_terms": 205,
+      "vsc": 186,
+      "vsca": 19,
+      "hierarchies": 1,
+      "elapsed_seconds": 54.91956090927124,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\danse\\danse_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 205,
+      "enriched": 17,
+      "elapsed_seconds": 49.75447463989258,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\danse\\danse_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 104.74521541595459
+  },
+  {
+    "domain": "dessin",
+    "timestamp": "2026-02-01T01:59:00.120918",
+    "vocabulary": {
+      "total_terms": 201,
+      "vsc": 176,
+      "vsca": 25,
+      "hierarchies": 4,
+      "elapsed_seconds": 55.91520595550537,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\dessin\\dessin_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 198,
+      "enriched": 20,
+      "elapsed_seconds": 48.18785548210144,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\dessin\\dessin_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 104.19093203544617
+  },
+  {
+    "domain": "droit",
+    "timestamp": "2026-02-02T08:37:35.762224",
+    "vocabulary": {
+      "total_terms": 4715,
+      "vsc": 4252,
+      "vsca": 463,
+      "hierarchies": 37,
+      "elapsed_seconds": 1008.3714332580566,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\droit\\droit_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 4480,
+      "enriched": 256,
+      "elapsed_seconds": 936.2338001728058,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\droit\\droit_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 1944.9718754291534
+  },
+  {
+    "domain": "echecs",
+    "timestamp": "2026-02-02T10:30:12.309164",
+    "vocabulary": {
+      "total_terms": 136,
+      "vsc": 124,
+      "vsca": 12,
+      "hierarchies": 1,
+      "elapsed_seconds": 33.58393168449402,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\echecs\\echecs_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 136,
+      "enriched": 13,
+      "elapsed_seconds": 29.638159036636353,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\echecs\\echecs_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 63.334218978881836
+  },
+  {
+    "domain": "economie",
+    "timestamp": "2026-02-02T06:35:25.473598",
+    "vocabulary": {
+      "total_terms": 1204,
+      "vsc": 1088,
+      "vsca": 116,
+      "hierarchies": 1,
+      "elapsed_seconds": 248.65187001228333,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\economie\\economie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 1204,
+      "enriched": 51,
+      "elapsed_seconds": 246.66740894317627,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\economie\\economie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 495.5161588191986
+  },
+  {
+    "domain": "electronique",
+    "timestamp": "2026-02-02T12:02:58.058021",
+    "vocabulary": {
+      "total_terms": 6684,
+      "vsc": 5883,
+      "vsca": 801,
+      "hierarchies": 32,
+      "elapsed_seconds": 1490.6229629516602,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\electronique\\electronique_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 5927,
+      "enriched": 423,
+      "elapsed_seconds": 1269.5515267848969,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\electronique\\electronique_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 2760.815446138382
+  },
+  {
+    "domain": "genie_civil",
+    "timestamp": "2026-02-02T11:16:57.238578",
+    "vocabulary": {
+      "total_terms": 175,
+      "vsc": 151,
+      "vsca": 24,
+      "hierarchies": 6,
+      "elapsed_seconds": 43.13009977340698,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\genie_civil\\genie_civil_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 166,
+      "enriched": 8,
+      "elapsed_seconds": 36.7127628326416,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\genie_civil\\genie_civil_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 80.05679488182068
+  },
+  {
+    "domain": "geographie",
+    "timestamp": "2026-02-02T01:12:59.381631",
+    "vocabulary": {
+      "total_terms": 2963,
+      "vsc": 1378,
+      "vsca": 1585,
+      "hierarchies": 23,
+      "elapsed_seconds": 3520.1442143917084,
+      "file": "C:\\Users\\robin tual\\quartz\\backend\\src\\wikidata_extractor\\extracted_by_domain\\geographie\\geographie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 2788,
+      "enriched": 913,
+      "elapsed_seconds": 2810.9514491558075,
+      "file": "C:\\Users\\robin tual\\quartz\\backend\\src\\wikidata_extractor\\extracted_by_domain\\geographie\\geographie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 6331.450503826141
+  },
+  {
+    "domain": "go",
+    "timestamp": "2026-02-02T09:17:14.501181",
+    "vocabulary": {
+      "total_terms": 10,
+      "vsc": 9,
+      "vsca": 1,
+      "hierarchies": 1,
+      "elapsed_seconds": 2.7423741817474365,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\go\\go_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 10,
+      "enriched": 2,
+      "elapsed_seconds": 2.459158182144165,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\go\\go_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 5.29600191116333
+  },
+  {
+    "domain": "hindouisme",
+    "timestamp": "2026-02-02T00:03:13.128017",
+    "vocabulary": {
+      "total_terms": 82,
+      "vsc": 75,
+      "vsca": 7,
+      "hierarchies": 1,
+      "elapsed_seconds": 18.745251893997192,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\hindouisme\\hindouisme_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 82,
+      "enriched": 7,
+      "elapsed_seconds": 19.05586051940918,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\hindouisme\\hindouisme_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 37.86053013801575
+  },
+  {
+    "domain": "histoire",
+    "timestamp": "2026-02-02T07:48:34.814361",
+    "vocabulary": {
+      "total_terms": 9990,
+      "vsc": 8953,
+      "vsca": 1037,
+      "hierarchies": 53,
+      "elapsed_seconds": 2417.000759601593,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\histoire\\histoire_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 8387,
+      "enriched": 720,
+      "elapsed_seconds": 1970.9785809516907,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\histoire\\histoire_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 4388.665260314941
+  },
+  {
+    "domain": "informatique",
+    "timestamp": "2026-02-02T12:18:18.290246",
+    "vocabulary": {
+      "total_terms": 311,
+      "vsc": 270,
+      "vsca": 41,
+      "hierarchies": 1,
+      "elapsed_seconds": 80.30686211585999,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\informatique\\informatique_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 311,
+      "enriched": 22,
+      "elapsed_seconds": 74.22788524627686,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\informatique\\informatique_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 154.68558478355408
+  },
+  {
+    "domain": "islam",
+    "timestamp": "2026-02-02T00:00:39.944130",
+    "vocabulary": {
+      "total_terms": 5531,
+      "vsc": 4923,
+      "vsca": 608,
+      "hierarchies": 18,
+      "elapsed_seconds": 1515.5698101520538,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\islam\\islam_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 5110,
+      "enriched": 481,
+      "elapsed_seconds": 1333.7478845119476,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\islam\\islam_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 2849.8423862457275
+  },
+  {
+    "domain": "judaisme",
+    "timestamp": "2026-02-02T00:02:34.636984",
+    "vocabulary": {
+      "total_terms": 245,
+      "vsc": 222,
+      "vsca": 23,
+      "hierarchies": 1,
+      "elapsed_seconds": 57.47491240501404,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\judaisme\\judaisme_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 245,
+      "enriched": 15,
+      "elapsed_seconds": 57.118433237075806,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\judaisme\\judaisme_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 114.67890954017639
+  },
+  {
+    "domain": "linguistique",
+    "timestamp": "2026-02-02T11:01:40.441544",
+    "vocabulary": {
+      "total_terms": 3869,
+      "vsc": 3427,
+      "vsca": 442,
+      "hierarchies": 21,
+      "elapsed_seconds": 990.8118469715118,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\linguistique\\linguistique_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 3687,
+      "enriched": 309,
+      "elapsed_seconds": 892.6050531864166,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\linguistique\\linguistique_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 1883.8817608356476
+  },
+  {
+    "domain": "litterature",
+    "timestamp": "2026-02-01T22:22:25.226224",
+    "vocabulary": {
+      "total_terms": 3141,
+      "vsc": 2790,
+      "vsca": 351,
+      "hierarchies": 16,
+      "elapsed_seconds": 855.0608570575714,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\litterature\\litterature_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 3007,
+      "enriched": 309,
+      "elapsed_seconds": 816.5513842105865,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\litterature\\litterature_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 1672.0589158535004
+  },
+  {
+    "domain": "mathematiques",
+    "timestamp": "2026-02-02T01:50:48.629858",
+    "vocabulary": {
+      "total_terms": 3136,
+      "vsc": 2744,
+      "vsca": 392,
+      "hierarchies": 22,
+      "elapsed_seconds": 808.730893611908,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\mathematiques\\mathematiques_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 2916,
+      "enriched": 289,
+      "elapsed_seconds": 678.7097823619843,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\mathematiques\\mathematiques_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 1487.6899852752686
+  },
+  {
+    "domain": "mecanique",
+    "timestamp": "2026-02-02T09:23:20.028109",
+    "vocabulary": {
+      "total_terms": 794,
+      "vsc": 680,
+      "vsca": 114,
+      "hierarchies": 3,
+      "elapsed_seconds": 190.46061539649963,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\mecanique\\mecanique_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 794,
+      "enriched": 68,
+      "elapsed_seconds": 174.181218624115,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\mecanique\\mecanique_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 364.8239402770996
+  },
+  {
+    "domain": "musique",
+    "timestamp": "2026-02-01T21:50:56.900665",
+    "vocabulary": {
+      "total_terms": 2833,
+      "vsc": 2685,
+      "vsca": 148,
+      "hierarchies": 10,
+      "elapsed_seconds": 594.2089867591858,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\musique\\musique_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 2776,
+      "enriched": 316,
+      "elapsed_seconds": 743.76451420784,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\musique\\musique_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 1338.2974696159363
+  },
+  {
+    "domain": "mythologie",
+    "timestamp": "2026-02-02T00:08:06.679272",
+    "vocabulary": {
+      "total_terms": 595,
+      "vsc": 506,
+      "vsca": 89,
+      "hierarchies": 18,
+      "elapsed_seconds": 166.83112359046936,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\mythologie\\mythologie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 574,
+      "enriched": 79,
+      "elapsed_seconds": 126.62241840362549,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\mythologie\\mythologie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 293.54347372055054
+  },
+  {
+    "domain": "numismatique",
+    "timestamp": "2026-02-02T12:15:43.600661",
+    "vocabulary": {
+      "total_terms": 200,
+      "vsc": 170,
+      "vsca": 30,
+      "hierarchies": 1,
+      "elapsed_seconds": 67.2210431098938,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\numismatique\\numismatique_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 200,
+      "enriched": 14,
+      "elapsed_seconds": 39.71095275878906,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\numismatique\\numismatique_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 107.08196830749512
+  },
+  {
+    "domain": "oenologie",
+    "timestamp": "2026-02-01T23:12:43.752801",
+    "vocabulary": {
+      "total_terms": 847,
+      "vsc": 764,
+      "vsca": 83,
+      "hierarchies": 1,
+      "elapsed_seconds": 219.00361919403076,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\oenologie\\oenologie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 847,
+      "enriched": 74,
+      "elapsed_seconds": 225.4763538837433,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\oenologie\\oenologie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 444.61725974082947
+  },
+  {
+    "domain": "peinture",
+    "timestamp": "2026-02-01T01:57:15.928986",
+    "vocabulary": {
+      "total_terms": 383,
+      "vsc": 308,
+      "vsca": 75,
+      "hierarchies": 1,
+      "elapsed_seconds": 139.24976706504822,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\peinture\\peinture_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 383,
+      "enriched": 38,
+      "elapsed_seconds": 101.36982727050781,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\peinture\\peinture_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 240.74475812911987
+  },
+  {
+    "domain": "philosophie",
+    "timestamp": "2026-02-02T08:05:10.785338",
+    "vocabulary": {
+      "total_terms": 2453,
+      "vsc": 2225,
+      "vsca": 228,
+      "hierarchies": 31,
+      "elapsed_seconds": 529.2982120513916,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\philosophie\\philosophie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 2309,
+      "enriched": 168,
+      "elapsed_seconds": 466.37945914268494,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\philosophie\\philosophie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 995.9574580192566
+  },
+  {
+    "domain": "photographie",
+    "timestamp": "2026-02-01T22:42:00.517185",
+    "vocabulary": {
+      "total_terms": 370,
+      "vsc": 302,
+      "vsca": 68,
+      "hierarchies": 2,
+      "elapsed_seconds": 117.03033208847046,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\photographie\\photographie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 370,
+      "enriched": 32,
+      "elapsed_seconds": 89.66841793060303,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\photographie\\photographie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 206.77566647529602
+  },
+  {
+    "domain": "physique",
+    "timestamp": "2026-02-02T02:45:07.524675",
+    "vocabulary": {
+      "total_terms": 6684,
+      "vsc": 5763,
+      "vsca": 921,
+      "hierarchies": 32,
+      "elapsed_seconds": 1745.507643699646,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\physique\\physique_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 5927,
+      "enriched": 527,
+      "elapsed_seconds": 1512.8343601226807,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\physique\\physique_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 3258.8886692523956
+  },
+  {
+    "domain": "poesie",
+    "timestamp": "2026-02-02T00:46:31.432885",
+    "vocabulary": {
+      "total_terms": 376,
+      "vsc": 348,
+      "vsca": 28,
+      "hierarchies": 2,
+      "elapsed_seconds": 89.81089663505554,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\poesie\\poesie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 368,
+      "enriched": 30,
+      "elapsed_seconds": 78.85172367095947,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\poesie\\poesie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 168.71847987174988
+  },
+  {
+    "domain": "psychologie",
+    "timestamp": "2026-02-02T08:50:46.322652",
+    "vocabulary": {
+      "total_terms": 2112,
+      "vsc": 1943,
+      "vsca": 169,
+      "hierarchies": 14,
+      "elapsed_seconds": 441.3495297431946,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\psychologie\\psychologie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 1707,
+      "enriched": 103,
+      "elapsed_seconds": 348.94032740592957,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\psychologie\\psychologie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 790.5530009269714
+  },
+  {
+    "domain": "rhetorique",
+    "timestamp": "2026-02-01T21:58:08.127352",
+    "vocabulary": {
+      "total_terms": 239,
+      "vsc": 225,
+      "vsca": 14,
+      "hierarchies": 1,
+      "elapsed_seconds": 48.2563362121582,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\rhetorique\\rhetorique_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 239,
+      "enriched": 11,
+      "elapsed_seconds": 46.351998805999756,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\rhetorique\\rhetorique_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 94.76153826713562
+  },
+  {
+    "domain": "sculpture",
+    "timestamp": "2026-02-01T02:00:58.729483",
+    "vocabulary": {
+      "total_terms": 208,
+      "vsc": 180,
+      "vsca": 28,
+      "hierarchies": 4,
+      "elapsed_seconds": 58.11224675178528,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\sculpture\\sculpture_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 206,
+      "enriched": 32,
+      "elapsed_seconds": 59.76868772506714,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\sculpture\\sculpture_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 117.98052930831909
+  },
+  {
+    "domain": "sociologie",
+    "timestamp": "2026-02-02T10:29:08.969340",
+    "vocabulary": {
+      "total_terms": 882,
+      "vsc": 724,
+      "vsca": 158,
+      "hierarchies": 12,
+      "elapsed_seconds": 222.92603039741516,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\sociologie\\sociologie_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 868,
+      "enriched": 51,
+      "elapsed_seconds": 184.3323836326599,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\sociologie\\sociologie_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 407.4812786579132
+  },
+  {
+    "domain": "theatre",
+    "timestamp": "2026-02-01T21:54:26.903648",
+    "vocabulary": {
+      "total_terms": 403,
+      "vsc": 359,
+      "vsca": 44,
+      "hierarchies": 1,
+      "elapsed_seconds": 101.25595426559448,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\theatre\\theatre_enriched_vocabulary.json"
+    },
+    "specialized": {
+      "total_unique": 403,
+      "enriched": 35,
+      "elapsed_seconds": 108.56720280647278,
+      "file": "E:\\extraction_quartz\\extracted_by_domain\\theatre\\theatre_specialized_terms.json"
+    },
+    "total_elapsed_seconds": 209.99793410301208
+  }
+]

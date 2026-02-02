@@ -1,0 +1,102 @@
+{
+  "goban": {
+    "type": "specialized",
+    "exact_terms": [
+      "goban"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "goban",
+          "synonyms": [
+            "goban"
+          ]
+        },
+        {
+          "name": "l'appellation",
+          "synonyms": [
+            "l'appellation"
+          ]
+        },
+        {
+          "name": "japonaise",
+          "synonyms": [
+            "japonaise"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "utilisée",
+          "synonyms": [
+            "utilisée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le goban est l'appellation japonaise, également utilisée en Occident, du qipan (chinois : 棋盤 ; pinyin : qípán), tablier sur lequel on joue au go, mais aussi à des jeux d'alignement comme le Pente.\nLa grille 19 × 19 est la taille officielle pour le go."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "go",
+    "domaine_exact": "go",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "komi": {
+    "type": "specialized",
+    "exact_terms": [
+      "komi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "komi",
+          "synonyms": [
+            "komi"
+          ]
+        },
+        {
+          "name": "komi",
+          "synonyms": [
+            "komi"
+          ]
+        },
+        {
+          "name": "langue",
+          "synonyms": [
+            "langue"
+          ]
+        },
+        {
+          "name": "parlée",
+          "synonyms": [
+            "parlée"
+          ]
+        },
+        {
+          "name": "komis",
+          "synonyms": [
+            "komis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Komi peut désigner :\n\nLe komi, une langue parlée par les Komis, ethnie de la République des Komis, dans la fédération russe ;\nle Komi ou Komidashi, un élément du jeu de go ;\nYōta Komi (né en 2002), footballeur japonais."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "go",
+    "domaine_exact": "go",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}
