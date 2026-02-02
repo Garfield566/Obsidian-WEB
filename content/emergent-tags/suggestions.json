@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-02T12:50:09.547259",
-  "vault_hash": "f0d2c658",
+  "generated_at": "2026-02-02T13:17:29.858849",
+  "vault_hash": "16a40dcb",
   "suggestions": {
     "new_tags": [
       {
@@ -29,7 +29,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547301",
+        "first_detected": "2026-02-02T13:17:29.858889",
         "source": "emergent"
       },
       {
@@ -49,18 +49,18 @@
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Yema.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 43 notes",
+          "summary": "Entité politique détecté(e) dans 44 notes",
           "details": {
             "entity_type": "political_entity",
             "raw_text": "états-unis",
-            "total_occurrences": 90,
-            "notes_count": 43,
+            "total_occurrences": 104,
+            "notes_count": 44,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547306",
+        "first_detected": "2026-02-02T13:17:29.858894",
         "source": "reference_db",
         "alternatives": []
       },
@@ -81,23 +81,23 @@
           "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 11 notes",
+          "summary": "Entité politique détecté(e) dans 12 notes",
           "details": {
             "entity_type": "political_entity",
             "raw_text": "empire-romain",
-            "total_occurrences": 83,
-            "notes_count": 11,
+            "total_occurrences": 89,
+            "notes_count": 12,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547311",
+        "first_detected": "2026-02-02T13:17:29.858898",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_019",
+        "id": "lt_ent_015",
         "name": "geo\\europe\\suisse",
         "confidence": 0.93,
         "notes": [
@@ -124,14 +124,14 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547314",
+        "first_detected": "2026-02-02T13:17:29.858902",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_007",
+        "id": "lt_ent_006",
         "name": "entité\\empire-britannique",
-        "confidence": 0.86,
+        "confidence": 0.91,
         "notes": [
           "caroro.md",
           "info box.md",
@@ -139,26 +139,80 @@
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 7 notes",
+          "summary": "Entité politique détecté(e) dans 8 notes",
           "details": {
             "entity_type": "political_entity",
             "raw_text": "empire-britannique",
-            "total_occurrences": 7,
-            "notes_count": 7,
+            "total_occurrences": 100,
+            "notes_count": 8,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547318",
+        "first_detected": "2026-02-02T13:17:29.858906",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_020",
+        "id": "lt_ent_002",
+        "name": "entité\\empire-perse",
+        "confidence": 0.88,
+        "notes": [
+          "info box 1.md",
+          "info box 1 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/métallurgie  Britannica.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 5 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "empire-perse",
+            "total_occurrences": 15,
+            "notes_count": 5,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:17:29.858910",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_012",
+        "name": "entité\\empire-ottoman",
+        "confidence": 0.86,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité politique détecté(e) dans 4 notes",
+          "details": {
+            "entity_type": "political_entity",
+            "raw_text": "empire-ottoman",
+            "total_occurrences": 152,
+            "notes_count": 4,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:17:29.858913",
+        "source": "reference_db",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_016",
         "name": "jung",
         "confidence": 0.86,
         "notes": [
@@ -177,7 +231,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547321",
+        "first_detected": "2026-02-02T13:17:29.858920",
         "source": "reference_db",
         "alternatives": [
           {
@@ -188,7 +242,7 @@
         ]
       },
       {
-        "id": "lt_ent_031",
+        "id": "lt_ent_024",
         "name": "monet",
         "confidence": 0.86,
         "notes": [
@@ -209,7 +263,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547324",
+        "first_detected": "2026-02-02T13:17:29.858925",
         "source": "reference_db",
         "alternatives": [
           {
@@ -673,62 +727,36 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547330",
+        "first_detected": "2026-02-02T13:17:29.858929",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_002",
-        "name": "entité\\empire-perse",
-        "confidence": 0.85,
-        "notes": [
-          "info box 1.md",
-          "info box 1 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/métallurgie  Britannica.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 4 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-perse",
-            "total_occurrences": 13,
-            "notes_count": 4,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547335",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_006",
-        "name": "mouvement\\renaissance",
+        "id": "lt_ent_004",
+        "name": "entité\\empire-byzantin",
         "confidence": 0.85,
         "notes": [
           "caroro.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Longines.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Mouvement artistique détecté(e) dans 3 notes",
+          "summary": "Entité politique détecté(e) dans 3 notes",
           "details": {
-            "entity_type": "art_movement",
-            "raw_text": "renaissance",
-            "total_occurrences": 32,
+            "entity_type": "political_entity",
+            "raw_text": "empire-byzantin",
+            "total_occurrences": 69,
             "notes_count": 3,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547338",
+        "first_detected": "2026-02-02T13:17:29.858932",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_014",
+        "id": "lt_ent_010",
         "name": "geo\\asie\\chine",
         "confidence": 0.85,
         "notes": [
@@ -748,31 +776,32 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547342",
+        "first_detected": "2026-02-02T13:17:29.858935",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_004",
-        "name": "entité\\empire-byzantin",
-        "confidence": 0.84,
+        "id": "lt_ent_021",
+        "name": "entité\\second-empire-français",
+        "confidence": 0.85,
         "notes": [
-          "caroro.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 2 notes",
+          "summary": "Entité politique détecté(e) dans 3 notes",
           "details": {
             "entity_type": "political_entity",
-            "raw_text": "empire-byzantin",
-            "total_occurrences": 65,
-            "notes_count": 2,
+            "raw_text": "second-empire-français",
+            "total_occurrences": 51,
+            "notes_count": 3,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547345",
+        "first_detected": "2026-02-02T13:17:29.858938",
         "source": "reference_db",
         "alternatives": []
       },
@@ -797,12 +826,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547348",
+        "first_detected": "2026-02-02T13:17:29.858941",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_015",
+        "id": "lt_ent_011",
         "name": "geo\\asie\\japon",
         "confidence": 0.84,
         "notes": [
@@ -821,61 +850,61 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547351",
+        "first_detected": "2026-02-02T13:17:29.858944",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_028",
-        "name": "entité\\second-empire-français",
+        "id": "lt_ent_022",
+        "name": "entité\\royaume-de-prusse",
         "confidence": 0.84,
         "notes": [
           "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md"
+          "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
           "summary": "Entité politique détecté(e) dans 2 notes",
           "details": {
             "entity_type": "political_entity",
-            "raw_text": "second-empire-français",
-            "total_occurrences": 21,
+            "raw_text": "royaume-de-prusse",
+            "total_occurrences": 15,
             "notes_count": 2,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547354",
+        "first_detected": "2026-02-02T13:17:29.858947",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_016",
-        "name": "entité\\empire-ottoman",
-        "confidence": 0.82,
+        "id": "lt_ent_009",
+        "name": "entité\\empire-austro-hongrois",
+        "confidence": 0.83,
         "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+          "YouTube Notes/Timestamps 5.md",
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
           "summary": "Entité politique détecté(e) dans 3 notes",
           "details": {
             "entity_type": "political_entity",
-            "raw_text": "empire-ottoman",
-            "total_occurrences": 8,
+            "raw_text": "empire-austro-hongrois",
+            "total_occurrences": 11,
             "notes_count": 3,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547357",
+        "first_detected": "2026-02-02T13:17:29.858949",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_021",
+        "id": "lt_ent_017",
         "name": "substance\\aristote",
         "confidence": 0.81,
         "notes": [
@@ -895,12 +924,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547359",
+        "first_detected": "2026-02-02T13:17:29.858953",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_024",
+        "id": "lt_ent_019",
         "name": "geo\\asie\\inde",
         "confidence": 0.81,
         "notes": [
@@ -919,36 +948,37 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547362",
+        "first_detected": "2026-02-02T13:17:29.858956",
         "source": "reference_db",
         "alternatives": []
       },
       {
         "id": "lt_ent_013",
-        "name": "entité\\empire-austro-hongrois",
+        "name": "entité\\urss",
         "confidence": 0.8,
         "notes": [
-          "YouTube Notes/Timestamps 5.md",
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md"
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Yema.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 2 notes",
+          "summary": "Entité politique détecté(e) dans 3 notes",
           "details": {
             "entity_type": "political_entity",
-            "raw_text": "empire-austro-hongrois",
-            "total_occurrences": 7,
-            "notes_count": 2,
+            "raw_text": "urss",
+            "total_occurrences": 5,
+            "notes_count": 3,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547365",
+        "first_detected": "2026-02-02T13:17:29.858958",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_026",
+        "id": "lt_ent_020",
         "name": "hume",
         "confidence": 0.8,
         "notes": [
@@ -968,7 +998,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547368",
+        "first_detected": "2026-02-02T13:17:29.858961",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1010,11 +1040,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547371",
+        "first_detected": "2026-02-02T13:17:29.858964",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_009",
+        "id": "lt_ent_008",
         "name": "économie",
         "confidence": 0.79,
         "notes": [
@@ -1030,49 +1060,23 @@
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md"
         ],
         "reasoning": {
-          "summary": "Discipline détecté(e) dans 38 notes",
+          "summary": "Discipline détecté(e) dans 39 notes",
           "details": {
             "entity_type": "discipline",
             "raw_text": "économie",
             "total_occurrences": 0,
-            "notes_count": 38,
+            "notes_count": 39,
             "in_reference_db": false,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547374",
+        "first_detected": "2026-02-02T13:17:29.858967",
         "source": "context_secondary",
         "alternatives": []
       },
       {
-        "id": "lt_ent_010",
-        "name": "avantage-comparatif\\ricardo",
-        "confidence": 0.79,
-        "notes": [
-          "info box.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/David Ricardo.md"
-        ],
-        "reasoning": {
-          "summary": "Concept théorique détecté(e) dans 4 notes",
-          "details": {
-            "entity_type": "concept",
-            "raw_text": "avantage-comparatif",
-            "total_occurrences": 10,
-            "notes_count": 4,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547377",
-        "source": "context_resolved",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_023",
+        "id": "lt_ent_018",
         "name": "I-fin",
         "confidence": 0.79,
         "notes": [
@@ -1093,7 +1097,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547380",
+        "first_detected": "2026-02-02T13:17:29.858970",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1104,7 +1108,7 @@
         ]
       },
       {
-        "id": "lt_ent_029",
+        "id": "lt_ent_023",
         "name": "hayek",
         "confidence": 0.79,
         "notes": [
@@ -1123,7 +1127,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547383",
+        "first_detected": "2026-02-02T13:17:29.858973",
         "source": "reference_db",
         "alternatives": [
           {
@@ -1134,34 +1138,32 @@
         ]
       },
       {
-        "id": "lt_ent_011",
-        "name": "XVIII\\1723",
+        "id": "lt_ent_014",
+        "name": "entité\\premier-empire",
         "confidence": 0.78,
         "notes": [
-          "info box.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Tempate commande/info box.md"
+          "YouTube Notes/Timestamps 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 5 notes",
+          "summary": "Entité politique détecté(e) dans 3 notes",
           "details": {
-            "entity_type": "date",
-            "raw_text": "1723",
-            "total_occurrences": 11,
-            "notes_count": 5,
+            "entity_type": "political_entity",
+            "raw_text": "napoléon",
+            "total_occurrences": 49,
+            "notes_count": 3,
             "in_reference_db": false,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547386",
-        "source": "pattern_year",
+        "first_detected": "2026-02-02T13:17:29.858975",
+        "source": "reference_related",
         "alternatives": []
       },
       {
-        "id": "lt_ent_032",
+        "id": "lt_ent_026",
         "name": "aristote",
         "confidence": 0.78,
         "notes": [
@@ -1180,12 +1182,12 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547389",
+        "first_detected": "2026-02-02T13:17:29.858979",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_008",
+        "id": "lt_ent_007",
         "name": "X-fin",
         "confidence": 0.77,
         "notes": [
@@ -1207,167 +1209,9 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547392",
+        "first_detected": "2026-02-02T13:17:29.858982",
         "source": "pattern_date",
         "alternatives": []
-      },
-      {
-        "id": "lt_ent_017",
-        "name": "entité\\urss",
-        "confidence": 0.77,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Yema.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "urss",
-            "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547395",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_018",
-        "name": "entité\\premier-empire",
-        "confidence": 0.76,
-        "notes": [
-          "YouTube Notes/Timestamps 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "napoléon",
-            "total_occurrences": 15,
-            "notes_count": 2,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547398",
-        "source": "reference_related",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_027",
-        "name": "mouvement\\pop-art",
-        "confidence": 0.76,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
-        ],
-        "reasoning": {
-          "summary": "Mouvement artistique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "art_movement",
-            "raw_text": "pop-art",
-            "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547401",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_012",
-        "name": "XVIII\\1790",
-        "confidence": 0.75,
-        "notes": [
-          "info box.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "Tempate commande/info box.md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 4 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "1790",
-            "total_occurrences": 8,
-            "notes_count": 4,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547404",
-        "source": "pattern_year",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_022",
-        "name": "IV-fin",
-        "confidence": 0.75,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "IV",
-            "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": false,
-            "in_title": true
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547407",
-        "source": "pattern_date",
-        "alternatives": [
-          {
-            "name": "IV",
-            "reason": "Format conventionnel pour Date/Siècle",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_025",
-        "name": "V-fin",
-        "confidence": 0.75,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "V",
-            "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": false,
-            "in_title": true
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547410",
-        "source": "pattern_date",
-        "alternatives": [
-          {
-            "name": "V",
-            "reason": "Format conventionnel pour Date/Siècle",
-            "is_convention": true
-          }
-        ]
       },
       {
         "id": "lt_emg_003",
@@ -1400,7 +1244,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547412",
+        "first_detected": "2026-02-02T13:17:29.858985",
         "source": "emergent"
       },
       {
@@ -1434,7 +1278,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547415",
+        "first_detected": "2026-02-02T13:17:29.858988",
         "source": "emergent"
       },
       {
@@ -1468,32 +1312,38 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547418",
+        "first_detected": "2026-02-02T13:17:29.858991",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_030",
-        "name": "XVIII\\1793",
+        "id": "lt_ent_025",
+        "name": "II-fin",
         "confidence": 0.72,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
           "summary": "Date/Siècle détecté(e) dans 2 notes",
           "details": {
             "entity_type": "date",
-            "raw_text": "1793",
-            "total_occurrences": 7,
+            "raw_text": "II",
+            "total_occurrences": 2,
             "notes_count": 2,
             "in_reference_db": false,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T12:50:09.547421",
-        "source": "pattern_year",
-        "alternatives": []
+        "first_detected": "2026-02-02T13:17:29.858994",
+        "source": "pattern_date",
+        "alternatives": [
+          {
+            "name": "II",
+            "reason": "Format conventionnel pour Date/Siècle",
+            "is_convention": true
+          }
+        ]
       }
     ],
     "tag_assignments": [
@@ -1543,18 +1393,18 @@
         "id": "ta_003",
         "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/BoJack Horseman.md",
         "tag": "audiovisuel",
-        "confidence": 0.6035064816474914,
+        "confidence": 0.6035065191984176,
         "reasoning": {
           "summary": "2 notes similaires ont ce tag",
           "details": {
             "matching_notes": [
               {
                 "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
-                "similarity": 0.5957633256912231
+                "similarity": 0.59576336145401
               },
               {
                 "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md",
-                "similarity": 0.5571123361587524
+                "similarity": 0.5571124076843261
               }
             ]
           }
@@ -1652,7 +1502,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.979036",
+          "last_used": "2026-02-02T13:17:18.692363",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_2_PCs.md"
@@ -1671,7 +1521,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.908751",
+          "last_used": "2026-02-02T13:17:18.724730",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_2_PCs.md"
@@ -1690,7 +1540,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.900449",
+          "last_used": "2026-02-02T13:17:18.559842",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_2_PCs.md"
@@ -1709,7 +1559,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.821665",
+          "last_used": "2026-02-02T13:17:18.562474",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_2_PCs.md"
@@ -1728,7 +1578,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.954005",
+          "last_used": "2026-02-02T13:17:18.520561",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1747,7 +1597,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.927425",
+          "last_used": "2026-02-02T13:17:18.506443",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1766,7 +1616,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.021911",
+          "last_used": "2026-02-02T13:17:18.526447",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1785,7 +1635,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.934559",
+          "last_used": "2026-02-02T13:17:18.727437",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1804,7 +1654,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.814664",
+          "last_used": "2026-02-02T13:17:18.652678",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1823,7 +1673,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.027660",
+          "last_used": "2026-02-02T13:17:18.522253",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1842,7 +1692,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.877105",
+          "last_used": "2026-02-02T13:17:18.705738",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1861,7 +1711,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.982335",
+          "last_used": "2026-02-02T13:17:18.643016",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1880,7 +1730,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.855640",
+          "last_used": "2026-02-02T13:17:18.685939",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1899,7 +1749,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.830372",
+          "last_used": "2026-02-02T13:17:18.514406",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1918,7 +1768,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.046675",
+          "last_used": "2026-02-02T13:17:18.511330",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1937,7 +1787,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.050141",
+          "last_used": "2026-02-02T13:17:18.648639",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete_41_Domaines.md"
@@ -1956,7 +1806,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.998719",
+          "last_used": "2026-02-02T13:17:18.683462",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete.md"
@@ -1975,7 +1825,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.957702",
+          "last_used": "2026-02-02T13:17:18.679046",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -1994,7 +1844,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.892739",
+          "last_used": "2026-02-02T13:17:18.567603",
           "days_inactive": 0,
           "notes_using": [
             "Extraction_Physique_Verification.md"
@@ -2013,7 +1863,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.013156",
+          "last_used": "2026-02-02T13:17:18.524963",
           "days_inactive": 0,
           "notes_using": [
             "Guide_PC2_Disque_Externe.md"
@@ -2032,7 +1882,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.944872",
+          "last_used": "2026-02-02T13:17:18.697924",
           "days_inactive": 0,
           "notes_using": [
             "Guide_PC2_Disque_Externe.md"
@@ -2051,7 +1901,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.902151",
+          "last_used": "2026-02-02T13:17:18.695197",
           "days_inactive": 0,
           "notes_using": [
             "Guide_PC2_Disque_Externe.md"
@@ -2070,7 +1920,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.048384",
+          "last_used": "2026-02-02T13:17:18.707166",
           "days_inactive": 0,
           "notes_using": [
             "Guide_PC2_Disque_Externe.md"
@@ -2089,7 +1939,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.923971",
+          "last_used": "2026-02-02T13:17:18.684768",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -2108,7 +1958,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.990604",
+          "last_used": "2026-02-02T13:17:18.607420",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -2127,7 +1977,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.031085",
+          "last_used": "2026-02-02T13:17:18.701969",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -2146,7 +1996,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.015123",
+          "last_used": "2026-02-02T13:17:18.556319",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -2165,7 +2015,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:50:00.002604",
+          "last_used": "2026-02-02T13:17:18.655712",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon.md"
@@ -2184,7 +2034,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T12:49:59.939808",
+          "last_used": "2026-02-02T13:17:18.637844",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
@@ -2196,44 +2046,388 @@
           "livre",
           "------------------------------------------"
         ]
+      },
+      {
+        "tag": "Badem2010",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.539862",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-WangTedford200874-14",
+          "cite_note-Nowak2005-10",
+          "cite_note-Mivart-9"
+        ]
+      },
+      {
+        "tag": "Cooke1990",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.732984",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "smith/argent_conditions_valeur_",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "Curtiss1980",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.670885",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "XX",
+          "Robert-Heilbroner"
+        ]
+      },
+      {
+        "tag": "Edgerton1999",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.576517",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "topfadewide",
+          "livre",
+          "cite_note-Asa-25"
+        ]
+      },
+      {
+        "tag": "Figes2012",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.583743",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Asa-25",
+          "cite_note-Mivart-9",
+          "cite_note-Ewer1973-11"
+        ]
+      },
+      {
+        "tag": "FletcherIshchenko2004",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.570984",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/prix_r",
+          "polish",
+          "russian_empire"
+        ]
+      },
+      {
+        "tag": "Gooch1959",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.551605",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "------------------------------------------",
+          "------------------------------"
+        ]
+      },
+      {
+        "tag": "Gouttman1995",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.602288",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Robert-Heilbroner",
+          "livre",
+          "histoire"
+        ]
+      },
+      {
+        "tag": "Guillemin1981",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.538261",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "polish",
+          "livre",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "Hanio",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.549537",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Kuniaki-Haishima",
+          "Masayuki-Kojima",
+          "XIX"
+        ]
+      },
+      {
+        "tag": "Harris1999",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.682002",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "L",
+          "note-livre"
+        ]
+      },
+      {
+        "tag": "Lambert2011",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.542550",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "David-Ricardo",
+          "L",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Monnier1977",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.544707",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "note-livre",
+          "histoire"
+        ]
+      },
+      {
+        "tag": "Radzinsky2006",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.609317",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "Chez_les_chiens",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "Russell1877",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.635212",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Alfred-Marshall",
+          "histoire",
+          "livre"
+        ]
+      },
+      {
+        "tag": "SeatonRoffe1973",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.641027",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "livre",
+          "Fonction/Cosinus"
+        ]
+      },
+      {
+        "tag": "Sweetman2001",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.600674",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Ewer1973-11",
+          "cite_note-Mivart-9",
+          "cite_note-miklosi2015-29"
+        ]
+      },
+      {
+        "tag": "ThomasScollins1991",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.720227",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Joseph-Schumpeter",
+          "Robert-Heilbroner",
+          "Alfred-Marshall"
+        ]
+      },
+      {
+        "tag": "v",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:17:18.518830",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Guerre de Crimée — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "L",
+          "livre",
+          "------------------------------------------"
+        ]
       }
     ],
     "redundant_tags": [
       {
-        "id": "rg_6427",
+        "id": "rg_8992",
         "tags": [
+          "------",
           "------------------------------",
-          "------------------------------------------",
-          "---------------------------------------",
           "--------------------",
-          "------"
+          "---------------------------------------",
+          "------------------------------------------"
         ],
         "similarity": 1.0,
         "usage_counts": {
+          "------": 1,
           "------------------------------": 2,
-          "------------------------------------------": 2,
-          "---------------------------------------": 1,
           "--------------------": 1,
-          "------": 1
+          "---------------------------------------": 1,
+          "------------------------------------------": 2
         },
         "recommended": "------------------------------"
-      },
-      {
-        "id": "rg_9898",
-        "tags": [
-          "vocabulaire",
-          "Mammif",
-          "exclrw",
-          "Comportement"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "vocabulaire": 2,
-          "Mammif": 2,
-          "exclrw": 2,
-          "Comportement": 2
-        },
-        "recommended": "vocabulaire"
       }
     ]
   },
@@ -2294,9 +2488,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "livre",
         "note-The_Wealth_of_Nations",
-        "note-livre"
+        "note-livre",
+        "livre"
       ]
     },
     {
@@ -2321,18 +2515,18 @@
       ],
       "suggested_tags": [
         "Medical-Drama",
-        "Kuniaki-Haishima",
-        "Masayuki-Kojima"
+        "Madhouse",
+        "Naoki-Urasawa"
       ]
     }
   ],
   "stats": {
-    "total_notes": 228,
-    "analyzed_notes": 228,
-    "total_tags": 134,
-    "active_tags": 134,
-    "latent_tags": 38,
-    "health_score": 0.88
+    "total_notes": 229,
+    "analyzed_notes": 229,
+    "total_tags": 153,
+    "active_tags": 153,
+    "latent_tags": 32,
+    "health_score": 0.83
   },
   "vocabulary_actions": [
     {
