@@ -910,13 +910,17 @@ class TagGeneratorV2:
             return suggestions
 
         # Calcule le hash de validation pour le cache
+        print(f"   📊 Calcul hash de validation...", flush=True)
         validation_hash = self._compute_validation_hash(detector)
+        print(f"   ✓ Hash calculé: {validation_hash}", flush=True)
 
         # Identifie les notes nécessitant une validation (non cachées ou modifiées)
+        print(f"   📊 Vérification cache validation ({len(self.notes)} notes)...", flush=True)
         all_paths = [note.path for note in self.notes]
         needs_validation, cached_results = self.repository.get_notes_needing_validation(
             all_paths, validation_hash
         )
+        print(f"   ✓ Cache vérifié", flush=True)
 
         # Stats pour le debug
         total_notes = len(self.notes)
@@ -931,9 +935,11 @@ class TagGeneratorV2:
         # ÉTAPE PRÉALABLE: Extraction des données brutes pour les notes qui en ont besoin
         # Cas 1: Notes sans données d'extraction (nouvelles notes)
         # Cas 2: Notes dans needs_validation (modifiées, donc données potentiellement obsolètes)
+        print(f"   📊 Vérification données d'extraction...", flush=True)
         paths_without_extraction = self.repository.get_paths_without_extraction()
         paths_needing_extraction = paths_without_extraction | set(needs_validation)
         notes_needing_extraction = [n for n in self.notes if n.path in paths_needing_extraction]
+        print(f"   ✓ {len(notes_needing_extraction)} notes nécessitent une extraction", flush=True)
 
         if notes_needing_extraction:
             print(f"   📊 Extraction données brutes: {len(notes_needing_extraction)} notes")
