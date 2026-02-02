@@ -72,16 +72,16 @@ Avant l'adoption du BGB par l' [Empire allemand](https://fr.wikipedia.org/wiki/E
 
 [^1]: « [Droit civil](http://www.universalis.fr/encyclopedie/droit-civil/) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.universalis.fr%2Fencyclopedie%2Fdroit-civil%2F "archive sur Wikiwix")\] », sur [Encyclopædia Universalis](https://fr.wikipedia.org/wiki/Encyclop%C3%A6dia_Universalis "Encyclopædia Universalis") (consulté le ).
 
-[^2]: [Atias 2004](https://fr.wikipedia.org/wiki/#Atias2004), p. 8.
+[^2]: [Atias 2004](https://fr.wikipedia.org/wiki/), p. 8.
 
 [^3]: Robert Derathé, *Jean-Jacques Rousseau et la science politique de son temps*, Librairie philosophique J. Vrin, 1995, p. 171, [lire en ligne](https://books.google.fr/books?id=4GxjvaBl_S8C&pg=PA171&lpg=PA171&dq=droits+civils+%22La+philosophie+politique+de+Rousseau%22&source=bl&ots=EeV3HS93sT&sig=_lXcmhEk36AkuGzuhDTQYevpnbc&hl=fr&sa=X&ei=C_IhU_36KvTZ0QXasoE4&ved=0CEAQ6AEwAw#v=onepage&q=droits%20civils%20%22La%20philosophie%20politique%20de%20Rousseau%22&f=false) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.fr%2Fbooks%3Fid%3D4GxjvaBl_S8C%26pg%3DPA171%26lpg%3DPA171%26dq%3Ddroits%2Bcivils%2B%2522La%2Bphilosophie%2Bpolitique%2Bde%2BRousseau%2522%26source%3Dbl%26ots%3DEeV3HS93sT%26sig%3D_lXcmhEk36AkuGzuhDTQYevpnbc%26hl%3Dfr%26sa%3DX%26ei%3DC_IhU_36KvTZ0QXasoE4%26ved%3D0CEAQ6AEwAw%23v%3Donepage%26q%3Ddroits%2520civils%2520%2522La%2520philosophie%2520politique%2520de%2520Rousseau%2522%26f%3Dfalse "archive sur Wikiwix")\]
 
-[^4]: [Atias 2004](https://fr.wikipedia.org/wiki/#Atias2004), p. 36.
+[^4]: [Atias 2004](https://fr.wikipedia.org/wiki/), p. 36.
 
 [^5]: « [Droits civils: définition du lexique juridique de Juritravail](http://www.juritravail.com/lexique/Droitscivils.html) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.juritravail.com%2Flexique%2FDroitscivils.html "archive sur Wikiwix")\] », sur juritravail.com (consulté le ).
 
 [^6]: Loi n°2019-222 de programmation 2018-2022 et de réforme pour la justice, et loi org. n°2019-221 relative au renforcement de l'organisation des juridictions (JO 24 mars 2019)
 
-[^7]: [Atias 2004](https://fr.wikipedia.org/wiki/#Atias2004), p. 31.
+[^7]: [Atias 2004](https://fr.wikipedia.org/wiki/), p. 31.
 
 [^8]: D'après Jean-Louis Halpérin, « Deux cents ans de rayonnement du Code civil des Français? », *Les Cahiers de droit*, vol. 46, n <sup>os</sup> 1-2, ([DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier "Digital Object Identifier") [10.7202/043837ar](https://dx.doi.org/10.7202/043837ar)).

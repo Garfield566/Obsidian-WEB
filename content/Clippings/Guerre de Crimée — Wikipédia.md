@@ -537,387 +537,387 @@ La Guerre de Crimée a été portée sur grand écran dès le début du cinéma 
 
 [^22]: [Azzedine Guellouz](https://fr.wikipedia.org/wiki/Azzedine_Guellouz "Azzedine Guellouz"), Abdelkader Masmoudi, Mongi Smida et [Ahmed Saadaoui](https://fr.wikipedia.org/wiki/Ahmed_Saadaoui "Ahmed Saadaoui"), Histoire générale de la Tunisie, t. III: Les Temps Modernes (641-1247 H./1534-1881), Tunis, Sud éditions,, 495 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [9789973844767](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/9789973844767 "Spécial:Ouvrages de référence/9789973844767"), [OCLC](https://fr.wikipedia.org/wiki/Online_Computer_Library_Center "Online Computer Library Center") [470857672](https://worldcat.org/fr/title/470857672)), « Le règne d'Ahmed Bey (1837-1855) », p. 379
 
-[^23]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 480.
+[^23]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 480.
 
-[^24]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. xix.
+[^24]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. xix.
 
-[^25]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 479.
+[^25]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 479.
 
-[^26]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 284-285.
+[^26]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 284-285.
 
-[^27]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 483.
+[^27]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 483.
 
-[^28]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 5.
+[^28]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 5.
 
 [^29]: (ar) « [التونسيون في الوظائف العسكرية والمدنية للدولة العثمانية](https://www.turkpress.co/node/48390) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.turkpress.co%2Fnode%2F48390 "archive sur Wikiwix")\] » \[« Tunisiens dans les emplois militaires et civils de l'Empire ottoman »\], sur [Turk Press](https://fr.wikipedia.org/w/index.php?title=Turk_Press&action=edit&redlink=1 "Turk Press (page inexistante)") [(ar)](https://ar.wikipedia.org/wiki/%D8%AA%D8%B1%D9%83_%D8%A8%D8%B1%D8%B3 "ar:ترك برس"), (consulté le )
 
-[^30]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 467.
+[^30]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 467.
 
-[^31]: [Lambert 2011](https://fr.wikipedia.org/wiki/#Lambert2011), p. 15.
+[^31]: [Lambert 2011](https://fr.wikipedia.org/wiki/), p. 15.
 
-[^32]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 332.
+[^32]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 332.
 
-[^33]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 482.
+[^33]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 482.
 
-[^34]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 476.
+[^34]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 476.
 
-[^35]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 334.
+[^35]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 334.
 
-[^36]: [Thomas et Scollins 1991](https://fr.wikipedia.org/wiki/#ThomasScollins1991), p. 3.
+[^36]: [Thomas et Scollins 1991](https://fr.wikipedia.org/wiki/), p. 3.
 
-[^37]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. xix, 488-489.
+[^37]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. xix, 488-489.
 
-[^38]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 489.
+[^38]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 489.
 
-[^39]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. xvii.
+[^39]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. xvii.
 
-[^40]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/#SeatonRoffe1973), p. 33.
+[^40]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/), p. 33.
 
-[^41]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 29.
+[^41]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 29.
 
-[^42]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/#Hanio%C4%9Flu2008), p. 14-16.
+[^42]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/%C4%9Flu2008), p. 14-16.
 
-[^43]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 30.
+[^43]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 30.
 
-[^44]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/#Hanio%C4%9Flu2008), p. 43-44.
+[^44]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/%C4%9Flu2008), p. 43-44.
 
-[^45]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/#Hanio%C4%9Flu2008), p. 53-54.
+[^45]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/%C4%9Flu2008), p. 53-54.
 
-[^46]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 31.
+[^46]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 31.
 
-[^47]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 28, 31.
+[^47]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 28, 31.
 
-[^48]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 34.
+[^48]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 34.
 
-[^49]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 38.
+[^49]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 38.
 
-[^50]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 39-40.
+[^50]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 39-40.
 
-[^51]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 40-41.
+[^51]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 40-41.
 
-[^52]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 149.
+[^52]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 149.
 
-[^53]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 43.
+[^53]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 43.
 
-[^54]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 44-45.
+[^54]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 44-45.
 
-[^55]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 64.
+[^55]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 64.
 
-[^56]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 69-70.
+[^56]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 69-70.
 
-[^57]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 57.
+[^57]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 57.
 
-[^58]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 58-59.
+[^58]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 58-59.
 
-[^59]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 39.
+[^59]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 39.
 
-[^60]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/#Hanio%C4%9Flu2008), p. 106-108.
+[^60]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/%C4%9Flu2008), p. 106-108.
 
-[^61]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 12.
+[^61]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 12.
 
-[^62]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 102-103.
+[^62]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 102-103.
 
-[^63]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 16.
+[^63]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 16.
 
-[^64]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 104.
+[^64]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 104.
 
 [^65]: [Georges Florovsky](https://fr.wikipedia.org/wiki/Georges_Florovsky "Georges Florovsky"), *[Les Voies de la théologie russe](https://fr.wikipedia.org/wiki/Les_Voies_de_la_th%C3%A9ologie_russe "Les Voies de la théologie russe")*, Paris, 1937, trad. et notes de J.C. Roberti, Paris, Desclée de Brouwer, 1991, p. 150.
 
-[^66]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 13.
+[^66]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 13.
 
-[^67]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 105.
+[^67]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 105.
 
-[^68]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 106.
+[^68]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 106.
 
-[^69]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 14.
+[^69]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 14.
 
-[^70]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 36.
+[^70]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 36.
 
-[^71]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 21.
+[^71]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 21.
 
-[^72]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 70.
+[^72]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 70.
 
-[^73]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 87-90.
+[^73]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 87-90.
 
-[^74]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 184.
+[^74]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 184.
 
-[^75]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 72-73.
+[^75]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 72-73.
 
-[^76]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 11.
+[^76]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 11.
 
-[^77]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 50.
+[^77]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 50.
 
-[^78]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 51-52.
+[^78]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 51-52.
 
-[^79]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 48.
+[^79]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 48.
 
-[^80]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 17.
+[^80]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 17.
 
-[^81]: [Monnier 1977](https://fr.wikipedia.org/wiki/#Monnier1977), p. 7-8.
+[^81]: [Monnier 1977](https://fr.wikipedia.org/wiki/), p. 7-8.
 
-[^82]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 81.
+[^82]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 81.
 
-[^83]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 92.
+[^83]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 92.
 
-[^84]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 34.
+[^84]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 34.
 
-[^85]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 95.
+[^85]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 95.
 
-[^86]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/#Hanio%C4%9Flu2008), p. 79.
+[^86]: [Hanioğlu 2008](https://fr.wikipedia.org/wiki/%C4%9Flu2008), p. 79.
 
-[^87]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 96-97.
+[^87]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 96-97.
 
-[^88]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 98.
+[^88]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 98.
 
-[^89]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 53.
+[^89]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 53.
 
-[^90]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 34-35.
+[^90]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 34-35.
 
-[^91]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 100-101.
+[^91]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 100-101.
 
-[^92]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 102.
+[^92]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 102.
 
-[^93]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 103.
+[^93]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 103.
 
-[^94]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 2.
+[^94]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 2.
 
-[^95]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 78.
+[^95]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 78.
 
-[^96]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 5.
+[^96]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 5.
 
-[^97]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 36.
+[^97]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 36.
 
 [^98]: Gérald Decoster, «  [La guerre de Crimée: un tournant pour la Russie, l’Europe et le droit international aux échos bien actuels - RTBF Actus](https://www.rtbf.be/article/la-guerre-de-crimee-un-tournant-pour-la-russie-l-europe-et-le-droit-international-aux-echos-bien-actuels-11669545) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.rtbf.be%2Farticle%2Fla-guerre-de-crimee-un-tournant-pour-la-russie-l-europe-et-le-droit-international-aux-echos-bien-actuels-11669545 "archive sur Wikiwix")\] », sur RTBF (consulté le )
 
-[^99]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 40.
+[^99]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 40.
 
-[^100]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 43-44, 47.
+[^100]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 43-44, 47.
 
-[^101]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 8.
+[^101]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 8.
 
-[^102]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 104.
+[^102]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 104.
 
-[^103]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 91.
+[^103]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 91.
 
-[^104]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 59.
+[^104]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 59.
 
-[^105]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 104-105.
+[^105]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 104-105.
 
-[^106]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 106.
+[^106]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 106.
 
-[^107]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 13.
+[^107]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 13.
 
-[^108]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 107-109.
+[^108]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 107-109.
 
-[^109]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 68, 113.
+[^109]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 68, 113.
 
-[^110]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 15.
+[^110]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 15.
 
-[^111]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 110.
+[^111]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 110.
 
-[^112]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 112.
+[^112]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 112.
 
-[^113]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 94, 120.
+[^113]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 94, 120.
 
-[^114]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 126.
+[^114]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 126.
 
-[^115]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 114.
+[^115]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 114.
 
-[^116]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 138.
+[^116]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 138.
 
-[^117]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 115.
+[^117]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 115.
 
-[^118]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 144.
+[^118]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 144.
 
-[^119]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 159.
+[^119]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 159.
 
-[^120]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 124-125.
+[^120]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 124-125.
 
-[^121]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 148-149.
+[^121]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 148-149.
 
-[^122]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 127-128.
+[^122]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 127-128.
 
-[^123]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 130.
+[^123]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 130.
 
-[^124]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 99-100.
+[^124]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 99-100.
 
-[^125]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 20.
+[^125]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 20.
 
-[^126]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 17.
+[^126]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 17.
 
-[^127]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 102.
+[^127]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 102.
 
-[^128]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 131.
+[^128]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 131.
 
-[^129]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 137.
+[^129]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 137.
 
-[^130]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 139.
+[^130]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 139.
 
-[^131]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 158.
+[^131]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 158.
 
-[^132]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 19, 82, 140.
+[^132]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 19, 82, 140.
 
-[^133]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 141.
+[^133]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 141.
 
-[^134]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 156.
+[^134]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 156.
 
-[^135]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 142.
+[^135]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 142.
 
-[^136]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 162-163.
+[^136]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 162-163.
 
-[^137]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 120-123.
+[^137]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 120-123.
 
-[^138]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 163-165, 168-170.
+[^138]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 163-165, 168-170.
 
-[^139]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 173.
+[^139]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 173.
 
-[^140]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 144.
+[^140]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 144.
 
-[^141]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 140-142.
+[^141]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 140-142.
 
-[^142]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 122, 146.
+[^142]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 122, 146.
 
-[^143]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 68.
+[^143]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 68.
 
-[^144]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 153-154.
+[^144]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 153-154.
 
-[^145]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 147.
+[^145]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 147.
 
-[^146]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 171.
+[^146]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 171.
 
-[^147]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 154.
+[^147]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 154.
 
-[^148]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 176, 179.
+[^148]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 176, 179.
 
-[^149]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 157.
+[^149]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 157.
 
-[^150]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 183.
+[^150]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 183.
 
 [^151]: Charles Alexandre Fay, Souvenirs de la guerre de Crimée: 1854-1856, Berger-Levrault,, 363 p.([lire en ligne](https://books.google.fr/books?id=xsemfzNFXr0C) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.fr%2Fbooks%3Fid%3DxsemfzNFXr0C "archive sur Wikiwix")\]), p. 12.
 
-[^152]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/#SeatonRoffe1973), p. 11.
+[^152]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/), p. 11.
 
-[^153]: [Thomas et Scollins 1991](https://fr.wikipedia.org/wiki/#ThomasScollins1991), p. 13.
+[^153]: [Thomas et Scollins 1991](https://fr.wikipedia.org/wiki/), p. 13.
 
-[^154]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 116-117.
+[^154]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 116-117.
 
-[^155]: [Thomas et Scollins 1991](https://fr.wikipedia.org/wiki/#ThomasScollins1991), p. 14.
+[^155]: [Thomas et Scollins 1991](https://fr.wikipedia.org/wiki/), p. 14.
 
-[^156]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 57-58.
+[^156]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 57-58.
 
-[^157]: [Radzinsky 2006](https://fr.wikipedia.org/wiki/#Radzinsky2006), p. 150.
+[^157]: [Radzinsky 2006](https://fr.wikipedia.org/wiki/), p. 150.
 
-[^158]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/#SeatonRoffe1973), p. 16-17.
+[^158]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/), p. 16-17.
 
-[^159]: [Thomas et Scollins 1991](https://fr.wikipedia.org/wiki/#ThomasScollins1991), p. 16.
+[^159]: [Thomas et Scollins 1991](https://fr.wikipedia.org/wiki/), p. 16.
 
-[^160]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 57.
+[^160]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 57.
 
-[^161]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/#SeatonRoffe1973), p. 15.
+[^161]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/), p. 15.
 
-[^162]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 118-119.
+[^162]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 118-119.
 
-[^163]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 50.
+[^163]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 50.
 
-[^164]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 40.
+[^164]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 40.
 
-[^165]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 39-40.
+[^165]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 39-40.
 
-[^166]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 120.
+[^166]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 120.
 
-[^167]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 230-232.
+[^167]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 230-232.
 
-[^168]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 230.
+[^168]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 230.
 
-[^169]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 45.
+[^169]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 45.
 
-[^170]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 232.
+[^170]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 232.
 
-[^171]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 121-122.
+[^171]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 121-122.
 
-[^172]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 183.
+[^172]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 183.
 
-[^173]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 65-66.
+[^173]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 65-66.
 
-[^174]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 167.
+[^174]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 167.
 
-[^175]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 91.
+[^175]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 91.
 
-[^176]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 368.
+[^176]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 368.
 
-[^177]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 47-48.
+[^177]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 47-48.
 
-[^178]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 48-49.
+[^178]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 48-49.
 
-[^179]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 50.
+[^179]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 50.
 
-[^180]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 179-180.
+[^180]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 179-180.
 
-[^181]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 59-60.
+[^181]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 59-60.
 
-[^182]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 46.
+[^182]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 46.
 
-[^183]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 6, 61.
+[^183]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 6, 61.
 
-[^184]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 53-54.
+[^184]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 53-54.
 
 [^185]: « [PODCAST. De Bourges à Kiev, les canons et missiles Made in France (1/2)](https://www.lexpress.fr/podcasts/podcast-de-bourges-a-kiev-les-canons-et-missiles-made-in-france-1-2_2174063.html) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.lexpress.fr%2Fpodcasts%2Fpodcast-de-bourges-a-kiev-les-canons-et-missiles-made-in-france-1-2_2174063.html "archive sur Wikiwix")\] », sur LExpress.fr, (consulté le )
 
-[^186]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 70-72.
+[^186]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 70-72.
 
-[^187]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 63.
+[^187]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 63.
 
-[^188]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 176.
+[^188]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 176.
 
-[^189]: [Fletcher et Ishchenko 2004](https://fr.wikipedia.org/wiki/#FletcherIshchenko2004), p. 2004.
+[^189]: [Fletcher et Ishchenko 2004](https://fr.wikipedia.org/wiki/), p. 2004.
 
 [^190]: Stephen Roberts, « Telegraph at war 1854 - 1868 », sur Distant Writing [\[1\]](http://distantwriting.co.uk/telegraphwar.html) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fdistantwriting.co.uk%2Ftelegraphwar.html "archive sur Wikiwix")\].
 
 [^191]: Stephen Lovell, *Russia in the Microphone Age: A History of Soviet Radio, 1919-1970*, page 15 [\[2\]](https://books.google.fr/books?id=5NqmCAAAQBAJ&pg=PA15&lpg=PA15&dq=telegraph+russia+1854&source=bl&ots=TMcFtK0CEL&sig=nUaS4CWS2s01QdzDcLFzunW9ADc&hl=fr&sa=X&ved=0ahUKEwjA6KXe_djJAhUByxoKHYxoC9YQ6AEINDAC#v=onepage&q=telegraph%20russia%201854&f=false) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.fr%2Fbooks%3Fid%3D5NqmCAAAQBAJ%26pg%3DPA15%26lpg%3DPA15%26dq%3Dtelegraph%2Brussia%2B1854%26source%3Dbl%26ots%3DTMcFtK0CEL%26sig%3DnUaS4CWS2s01QdzDcLFzunW9ADc%26hl%3Dfr%26sa%3DX%26ved%3D0ahUKEwjA6KXe_djJAhUByxoKHYxoC9YQ6AEINDAC%23v%3Donepage%26q%3Dtelegraph%2520russia%25201854%26f%3Dfalse "archive sur Wikiwix")\].
 
-[^192]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 167.
+[^192]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 167.
 
-[^193]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 168.
+[^193]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 168.
 
-[^194]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 205.
+[^194]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 205.
 
-[^195]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 177.
+[^195]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 177.
 
-[^196]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 67.
+[^196]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 67.
 
-[^197]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 209.
+[^197]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 209.
 
 [^198]: Camille Allard, *Entre mer Noire et Danube, Dobroudja 1855*, éd. Non Lieu, 2013 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-35270-135-4](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-35270-135-4 "Spécial:Ouvrages de référence/978-2-35270-135-4")).
 
-[^199]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 190.
+[^199]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 190.
 
-[^200]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 220-221.
+[^200]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 220-221.
 
-[^201]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 186.
+[^201]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 186.
 
-[^202]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 220-225.
+[^202]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 220-225.
 
-[^203]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 184.
+[^203]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 184.
 
-[^204]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 186.
+[^204]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 186.
 
-[^205]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 16.
+[^205]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 16.
 
-[^206]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 237.
+[^206]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 237.
 
-[^207]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 230.
+[^207]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 230.
 
-[^208]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 181-182, 188.
+[^208]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 181-182, 188.
 
-[^209]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 74.
+[^209]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 74.
 
-[^210]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 235.
+[^210]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 235.
 
-[^211]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 31.
+[^211]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 31.
 
 [^212]: (en) John J. Stephan, «  The Crimean War in the Far East  », *Modern Asian Studies*, Cambridge University Press, vol. 3, n <sup>o</sup> 3,, p.263-264 ([JSTOR](https://fr.wikipedia.org/wiki/JSTOR "JSTOR") [311951](https://jstor.org/stable/311951)).
 
-[^213]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 19.
+[^213]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 19.
 
 [^214]: (en) Ian R. Stone, «  The Crimean War in the Arctic  », *Polar Record*, Cambridge University Press, vol. 21, n <sup>o</sup> 135, ([DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier "Digital Object Identifier") [10.1017/S0032247400021987](https://dx.doi.org/10.1017/S0032247400021987)).
 
@@ -925,495 +925,495 @@ La Guerre de Crimée a été portée sur grand écran dès le début du cinéma 
 
 [^216]: Andrew C. Rath, The Crimean War in Imperial Context, 1854-1856 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-1-137-54451-3](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-1-137-54451-3 "Spécial:Ouvrages de référence/978-1-137-54451-3"), [1-137-54451-1](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/1-137-54451-1 "Spécial:Ouvrages de référence/1-137-54451-1") et [978-1-349-57473-5](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-1-349-57473-5 "Spécial:Ouvrages de référence/978-1-349-57473-5"), [OCLC](https://fr.wikipedia.org/wiki/Online_Computer_Library_Center "Online Computer Library Center") [905599765](https://worldcat.org/fr/title/905599765))
 
-[^217]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 193-194.
+[^217]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 193-194.
 
-[^218]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 88.
+[^218]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 88.
 
-[^219]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 242-243.
+[^219]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 242-243.
 
-[^220]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 34.
+[^220]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 34.
 
-[^221]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 98-103.
+[^221]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 98-103.
 
-[^222]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 198.
+[^222]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 198.
 
-[^223]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 199.
+[^223]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 199.
 
-[^224]: [Lambert 2011](https://fr.wikipedia.org/wiki/#Lambert2011), p. 67-68.
+[^224]: [Lambert 2011](https://fr.wikipedia.org/wiki/), p. 67-68.
 
-[^225]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 234.
+[^225]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 234.
 
-[^226]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 277.
+[^226]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 277.
 
-[^227]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 195-196.
+[^227]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 195-196.
 
-[^228]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 110.
+[^228]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 110.
 
-[^229]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 197.
+[^229]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 197.
 
-[^230]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 75.
+[^230]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 75.
 
-[^231]: [Harris 1999](https://fr.wikipedia.org/wiki/#Harris1999), p. 27-28, 36-37.
+[^231]: [Harris 1999](https://fr.wikipedia.org/wiki/), p. 27-28, 36-37.
 
-[^232]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 200.
+[^232]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 200.
 
-[^233]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 273.
+[^233]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 273.
 
-[^234]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 117-119.
+[^234]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 117-119.
 
-[^235]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 201.
+[^235]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 201.
 
-[^236]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 283-284, 287.
+[^236]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 283-284, 287.
 
-[^237]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 204.
+[^237]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 204.
 
-[^238]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 267.
+[^238]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 267.
 
-[^239]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 202-203.
+[^239]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 202-203.
 
-[^240]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 288.
+[^240]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 288.
 
-[^241]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 43.
+[^241]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 43.
 
-[^242]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 81-82.
+[^242]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 81-82.
 
-[^243]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 208-209.
+[^243]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 208-209.
 
-[^244]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 212-213.
+[^244]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 212-213.
 
-[^245]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 215-216.
+[^245]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 215-216.
 
-[^246]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 303.
+[^246]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 303.
 
-[^247]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 21.
+[^247]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 21.
 
-[^248]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 88, 92.
+[^248]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 88, 92.
 
-[^249]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 77.
+[^249]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 77.
 
-[^250]: [Fletcher et Ishchenko 2004](https://fr.wikipedia.org/wiki/#FletcherIshchenko2004), p. 117-118.
+[^250]: [Fletcher et Ishchenko 2004](https://fr.wikipedia.org/wiki/), p. 117-118.
 
-[^251]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 305.
+[^251]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 305.
 
-[^252]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 224-225.
+[^252]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 224-225.
 
-[^253]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 226.
+[^253]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 226.
 
-[^254]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 163.
+[^254]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 163.
 
-[^255]: [Harris 1999](https://fr.wikipedia.org/wiki/#Harris1999), p. 52.
+[^255]: [Harris 1999](https://fr.wikipedia.org/wiki/), p. 52.
 
-[^256]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 68.
+[^256]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 68.
 
-[^257]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 231.
+[^257]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 231.
 
-[^258]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/#SeatonRoffe1973), p. 24.
+[^258]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/), p. 24.
 
-[^259]: [Harris 1999](https://fr.wikipedia.org/wiki/#Harris1999), p. 47.
+[^259]: [Harris 1999](https://fr.wikipedia.org/wiki/), p. 47.
 
-[^260]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 223.
+[^260]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 223.
 
-[^261]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 312-313.
+[^261]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 312-313.
 
-[^262]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 136-137.
+[^262]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 136-137.
 
-[^263]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 235.
+[^263]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 235.
 
-[^264]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 236-237.
+[^264]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 236-237.
 
-[^265]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 238-239.
+[^265]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 238-239.
 
-[^266]: [Lambert 2011](https://fr.wikipedia.org/wiki/#Lambert2011), p. 164.
+[^266]: [Lambert 2011](https://fr.wikipedia.org/wiki/), p. 164.
 
-[^267]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 240.
+[^267]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 240.
 
-[^268]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 320-322.
+[^268]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 320-322.
 
-[^269]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 140.
+[^269]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 140.
 
-[^270]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 242.
+[^270]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 242.
 
-[^271]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 328.
+[^271]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 328.
 
-[^272]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 329.
+[^272]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 329.
 
-[^273]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 244-246.
+[^273]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 244-246.
 
-[^274]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 246.
+[^274]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 246.
 
-[^275]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 332.
+[^275]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 332.
 
-[^276]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 248.
+[^276]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 248.
 
-[^277]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 335-336.
+[^277]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 335-336.
 
-[^278]: [Russell 1877](https://fr.wikipedia.org/wiki/#Russell1877), p. 161.
+[^278]: [Russell 1877](https://fr.wikipedia.org/wiki/), p. 161.
 
-[^279]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 252.
+[^279]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 252.
 
-[^280]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 55.
+[^280]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 55.
 
-[^281]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 250-252.
+[^281]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 250-252.
 
-[^282]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 253-254.
+[^282]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 253-254.
 
-[^283]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 339.
+[^283]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 339.
 
-[^284]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 275-276.
+[^284]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 275-276.
 
-[^285]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 342.
+[^285]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 342.
 
-[^286]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 145.
+[^286]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 145.
 
-[^287]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 255-256.
+[^287]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 255-256.
 
-[^288]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 257-258.
+[^288]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 257-258.
 
-[^289]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 343.
+[^289]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 343.
 
-[^290]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 59.
+[^290]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 59.
 
-[^291]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/#SeatonRoffe1973), p. 30.
+[^291]: [Seaton et Roffe 1973](https://fr.wikipedia.org/wiki/), p. 30.
 
-[^292]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 259-261.
+[^292]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 259-261.
 
-[^293]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 345.
+[^293]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 345.
 
-[^294]: [Fletcher et Ishchenko 2004](https://fr.wikipedia.org/wiki/#FletcherIshchenko2004), p. 214-215.
+[^294]: [Fletcher et Ishchenko 2004](https://fr.wikipedia.org/wiki/), p. 214-215.
 
-[^295]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 267.
+[^295]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 267.
 
-[^296]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 347.
+[^296]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 347.
 
-[^297]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 220, 224.
+[^297]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 220, 224.
 
-[^298]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 224-227.
+[^298]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 224-227.
 
-[^299]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 268.
+[^299]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 268.
 
-[^300]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 348-350.
+[^300]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 348-350.
 
-[^301]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 274.
+[^301]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 274.
 
-[^302]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 148.
+[^302]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 148.
 
-[^303]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 272-273.
+[^303]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 272-273.
 
-[^304]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 351, 353.
+[^304]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 351, 353.
 
 [^305]: César Lecat, baron de Bazancourt, L'expédition de Crimée. La marine française dans la mer Noire et la Baltique, chroniques maritimes de la guerre d'Orient. Tome 1: par le baron de Bazancourt,..., ([lire en ligne](https://gallica.bnf.fr/ark:/12148/bpt6k65420716) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k65420716 "archive sur Wikiwix")\]), p.353-390
 
-[^306]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 278-279.
+[^306]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 278-279.
 
-[^307]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 352-353.
+[^307]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 352-353.
 
-[^308]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 61.
+[^308]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 61.
 
-[^309]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 98-99.
+[^309]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 98-99.
 
 [^310]: Emmanuel (1826-1900) Auteur du texte Liais, L'espace céleste et la nature tropicale: description physique de l'univers, d'après des observations personnelles faites dans les deux hémisphères: Emm. Liais,...; préface de M. Babinet; dessins de Yan'Dargent, ([lire en ligne](https://gallica.bnf.fr/ark:/12148/bpt6k5568538h) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k5568538h "archive sur Wikiwix")\])
 
 [^311]: Fabien Locher, Le savant et la tempête: étudier l'atmosphère et prévoir le temps au XIXe siècle, Rennes, Presses universitaires de Rennes,, 221 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-7535-0696-1](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-7535-0696-1 "Spécial:Ouvrages de référence/978-2-7535-0696-1") et [2753506965](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2753506965 "Spécial:Ouvrages de référence/2753506965"), [OCLC](https://fr.wikipedia.org/wiki/Online_Computer_Library_Center "Online Computer Library Center") [471024207](https://worldcat.org/fr/title/471024207))
 
-[^312]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 154-155.
+[^312]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 154-155.
 
-[^313]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 153.
+[^313]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 153.
 
-[^314]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 280-284.
+[^314]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 280-284.
 
-[^315]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 286-287.
+[^315]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 286-287.
 
-[^316]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 371.
+[^316]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 371.
 
-[^317]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 112-114.
+[^317]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 112-114.
 
-[^318]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 289.
+[^318]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 289.
 
-[^319]: [Cooke 1990](https://fr.wikipedia.org/wiki/#Cooke1990), p. 13.
+[^319]: [Cooke 1990](https://fr.wikipedia.org/wiki/), p. 13.
 
-[^320]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 283.
+[^320]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 283.
 
-[^321]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 157.
+[^321]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 157.
 
-[^322]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 158.
+[^322]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 158.
 
-[^323]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 135.
+[^323]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 135.
 
-[^324]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 285.
+[^324]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 285.
 
-[^325]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 110.
+[^325]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 110.
 
-[^326]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 106.
+[^326]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 106.
 
-[^327]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 280.
+[^327]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 280.
 
-[^328]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 290.
+[^328]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 290.
 
-[^329]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 294.
+[^329]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 294.
 
-[^330]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 303-304.
+[^330]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 303-304.
 
-[^331]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 128.
+[^331]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 128.
 
-[^332]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 126-128, 149-150, 159-160.
+[^332]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 126-128, 149-150, 159-160.
 
-[^333]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 117.
+[^333]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 117.
 
-[^334]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 255.
+[^334]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 255.
 
-[^335]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 296-297.
+[^335]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 296-297.
 
-[^336]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 133-134.
+[^336]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 133-134.
 
-[^337]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 297-298.
+[^337]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 297-298.
 
-[^338]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 14.
+[^338]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 14.
 
-[^339]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 306-307.
+[^339]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 306-307.
 
-[^340]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 10.
+[^340]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 10.
 
-[^341]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 304-306.
+[^341]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 304-306.
 
-[^342]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 307-309.
+[^342]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 307-309.
 
-[^343]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 369.
+[^343]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 369.
 
-[^344]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 357.
+[^344]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 357.
 
-[^345]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 374.
+[^345]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 374.
 
-[^346]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 311-312.
+[^346]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 311-312.
 
-[^347]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 319.
+[^347]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 319.
 
-[^348]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 184.
+[^348]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 184.
 
-[^349]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 321.
+[^349]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 321.
 
-[^350]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 387.
+[^350]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 387.
 
-[^351]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 322.
+[^351]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 322.
 
-[^352]: [Radzinsky 2006](https://fr.wikipedia.org/wiki/#Radzinsky2006), p. 96.
+[^352]: [Radzinsky 2006](https://fr.wikipedia.org/wiki/), p. 96.
 
-[^353]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 326.
+[^353]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 326.
 
-[^354]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 355.
+[^354]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 355.
 
-[^355]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 137-138.
+[^355]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 137-138.
 
-[^356]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 335-336.
+[^356]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 335-336.
 
-[^357]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 337.
+[^357]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 337.
 
-[^358]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 11.
+[^358]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 11.
 
-[^359]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 338-339.
+[^359]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 338-339.
 
-[^360]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 287.
+[^360]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 287.
 
-[^361]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. xx.
+[^361]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. xx.
 
-[^362]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 364-365.
+[^362]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 364-365.
 
-[^363]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 346-349.
+[^363]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 346-349.
 
-[^364]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 463.
+[^364]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 463.
 
-[^365]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 221-222.
+[^365]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 221-222.
 
-[^366]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 366.
+[^366]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 366.
 
-[^367]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 350-352.
+[^367]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 350-352.
 
-[^368]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 353-354.
+[^368]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 353-354.
 
-[^369]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 367.
+[^369]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 367.
 
-[^370]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 137.
+[^370]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 137.
 
-[^371]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 356.
+[^371]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 356.
 
-[^372]: [Cooke 1990](https://fr.wikipedia.org/wiki/#Cooke1990), p. 114.
+[^372]: [Cooke 1990](https://fr.wikipedia.org/wiki/), p. 114.
 
-[^373]: [Cooke 1990](https://fr.wikipedia.org/wiki/#Cooke1990), p. 71, 73.
+[^373]: [Cooke 1990](https://fr.wikipedia.org/wiki/), p. 71, 73.
 
-[^374]: [Cooke 1990](https://fr.wikipedia.org/wiki/#Cooke1990), p. 75.
+[^374]: [Cooke 1990](https://fr.wikipedia.org/wiki/), p. 75.
 
-[^375]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 356-360.
+[^375]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 356-360.
 
-[^376]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 388.
+[^376]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 388.
 
-[^377]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 340-341.
+[^377]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 340-341.
 
-[^378]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 342.
+[^378]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 342.
 
-[^379]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 393.
+[^379]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 393.
 
-[^380]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 386.
+[^380]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 386.
 
-[^381]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 198.
+[^381]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 198.
 
-[^382]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 361.
+[^382]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 361.
 
-[^383]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 397.
+[^383]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 397.
 
-[^384]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 361-363.
+[^384]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 361-363.
 
-[^385]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 399.
+[^385]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 399.
 
-[^386]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 407.
+[^386]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 407.
 
-[^387]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 364-365.
+[^387]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 364-365.
 
-[^388]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 367-371.
+[^388]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 367-371.
 
-[^389]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 372.
+[^389]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 372.
 
-[^390]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 373-374.
+[^390]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 373-374.
 
-[^391]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 402.
+[^391]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 402.
 
-[^392]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 206.
+[^392]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 206.
 
-[^393]: [Harris 1999](https://fr.wikipedia.org/wiki/#Harris1999), p. 110.
+[^393]: [Harris 1999](https://fr.wikipedia.org/wiki/), p. 110.
 
-[^394]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 376-378.
+[^394]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 376-378.
 
-[^395]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 420, 423.
+[^395]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 420, 423.
 
-[^396]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 379.
+[^396]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 379.
 
-[^397]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 66.
+[^397]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 66.
 
-[^398]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 380-381.
+[^398]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 380-381.
 
-[^399]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 423-424.
+[^399]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 423-424.
 
-[^400]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 241.
+[^400]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 241.
 
-[^401]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 382-383.
+[^401]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 382-383.
 
-[^402]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 385.
+[^402]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 385.
 
-[^403]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 422.
+[^403]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 422.
 
-[^404]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 431.
+[^404]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 431.
 
-[^405]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 385-388.
+[^405]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 385-388.
 
-[^406]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 432.
+[^406]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 432.
 
-[^407]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 247.
+[^407]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 247.
 
-[^408]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 439.
+[^408]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 439.
 
-[^409]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 388-389.
+[^409]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 388-389.
 
-[^410]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 438.
+[^410]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 438.
 
-[^411]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 199.
+[^411]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 199.
 
-[^412]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 390-391.
+[^412]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 390-391.
 
-[^413]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 440-441.
+[^413]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 440-441.
 
-[^414]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 446.
+[^414]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 446.
 
-[^415]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 392-393.
+[^415]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 392-393.
 
-[^416]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 442.
+[^416]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 442.
 
-[^417]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 394-395.
+[^417]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 394-395.
 
-[^418]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 249, 252.
+[^418]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 249, 252.
 
-[^419]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 134.
+[^419]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 134.
 
 [^420]: Baron César Lecat de Bazancourt, « [L'expédition de Crimée: la marine française dans la mer Noire et la Baltique, tome I, 1858](https://gallica.bnf.fr/ark:/12148/bpt6k65420716/f11.item.texteImage) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k65420716%2Ff11.item.texteImage "archive sur Wikiwix")\] » (consulté le )
 
 [^421]: Baron César Lecat de Bazancourt, « [L'expédition de Crimée: la marine française dans la mer Noire et la Baltique, tome II, 1858](https://gallica.bnf.fr/ark:/12148/bpt6k65430117.texteImage) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k65430117.texteImage "archive sur Wikiwix")\] » (consulté le )
 
-[^422]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 447.
+[^422]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 447.
 
-[^423]: [Radzinsky 2006](https://fr.wikipedia.org/wiki/#Radzinsky2006), p. 107.
+[^423]: [Radzinsky 2006](https://fr.wikipedia.org/wiki/), p. 107.
 
-[^424]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 396-397.
+[^424]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 396-397.
 
-[^425]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 448-450.
+[^425]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 448-450.
 
-[^426]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 260-261.
+[^426]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 260-261.
 
-[^427]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 131-132.
+[^427]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 131-132.
 
-[^428]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 402.
+[^428]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 402.
 
-[^429]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 262.
+[^429]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 262.
 
-[^430]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 307.
+[^430]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 307.
 
-[^431]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 176-178.
+[^431]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 176-178.
 
-[^432]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 398-399.
+[^432]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 398-399.
 
-[^433]: [Edgerton 1999](https://fr.wikipedia.org/wiki/#Edgerton1999), p. 179-184.
+[^433]: [Edgerton 1999](https://fr.wikipedia.org/wiki/), p. 179-184.
 
-[^434]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 400-401.
+[^434]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 400-401.
 
-[^435]: [Sweetman 2001](https://fr.wikipedia.org/wiki/#Sweetman2001), p. 85.
+[^435]: [Sweetman 2001](https://fr.wikipedia.org/wiki/), p. 85.
 
-[^436]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 205-207.
+[^436]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 205-207.
 
-[^437]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 403.
+[^437]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 403.
 
-[^438]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 406.
+[^438]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 406.
 
-[^439]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 408.
+[^439]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 408.
 
-[^440]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 501.
+[^440]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 501.
 
-[^441]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 411.
+[^441]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 411.
 
-[^442]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 468.
+[^442]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 468.
 
-[^443]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 477.
+[^443]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 477.
 
-[^444]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 412-413.
+[^444]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 412-413.
 
-[^445]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 466.
+[^445]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 466.
 
-[^446]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 413-414.
+[^446]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 413-414.
 
-[^447]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 416-417.
+[^447]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 416-417.
 
-[^448]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 473.
+[^448]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 473.
 
-[^449]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 418.
+[^449]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 418.
 
-[^450]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 480.
+[^450]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 480.
 
-[^451]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 421-422.
+[^451]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 421-422.
 
-[^452]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 451.
+[^452]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 451.
 
-[^453]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 424-425.
+[^453]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 424-425.
 
-[^454]: [Gooch 1959](https://fr.wikipedia.org/wiki/#Gooch1959), p. 264.
+[^454]: [Gooch 1959](https://fr.wikipedia.org/wiki/), p. 264.
 
-[^455]: [Guillemin 1981](https://fr.wikipedia.org/wiki/#Guillemin1981), p. 318.
+[^455]: [Guillemin 1981](https://fr.wikipedia.org/wiki/), p. 318.
 
-[^456]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 433.
+[^456]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 433.
 
-[^457]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 438.
+[^457]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 438.
 
 [^458]: Geoffrey Wawro, (en) *The Franco-Prussian War: The German Conquest of France in 1870–1871*, Cambridge University Press, 2003 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-0-511-33728-4](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-0-511-33728-4 "Spécial:Ouvrages de référence/978-0-511-33728-4")), p. 290.
 
-[^459]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 490.
+[^459]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 490.
 
-[^460]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 441-442.
+[^460]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 441-442.
 
-[^461]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 489.
+[^461]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 489.
 
 [^462]: (en) Brian Bond, «  Prelude to the Cardwell Reforms, 1856–68  », *Journal*, [Royal United Services Institution](https://fr.wikipedia.org/wiki/Royal_United_Services_Institute "Royal United Services Institute"), vol. 106, n <sup>o</sup> 622,, p.229-236 ([DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier "Digital Object Identifier") [10.1080/03071846109420686](https://dx.doi.org/10.1080/03071846109420686)).
 
@@ -1421,49 +1421,49 @@ La Guerre de Crimée a été portée sur grand écran dès le début du cinéma 
 
 [^464]: André Tardieu, La révolution à refaire: Le souverain captif, Paris, Flammarion,, 282 p.([lire en ligne](https://fr.scribd.com/document/57457231/Andre-Tardieu-LA-REVOLUTION-A-REFAIRE-Tome-1-Le-Souverain-Captif-Paris-1936) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Ffr.scribd.com%2Fdocument%2F57457231%2FAndre-Tardieu-LA-REVOLUTION-A-REFAIRE-Tome-1-Le-Souverain-Captif-Paris-1936 "archive sur Wikiwix")\]), p. 261
 
-[^465]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 492.
+[^465]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 492.
 
-[^466]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 445-447.
+[^466]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 445-447.
 
-[^467]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 448.
+[^467]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 448.
 
-[^468]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 451-452.
+[^468]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 451-452.
 
-[^469]: [Radzinsky 2006](https://fr.wikipedia.org/wiki/#Radzinsky2006), p. 150-151.
+[^469]: [Radzinsky 2006](https://fr.wikipedia.org/wiki/), p. 150-151.
 
-[^470]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 427-429.
+[^470]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 427-429.
 
-[^471]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 516.
+[^471]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 516.
 
-[^472]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 459-460.
+[^472]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 459-460.
 
-[^473]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 494.
+[^473]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 494.
 
-[^474]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 462.
+[^474]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 462.
 
-[^475]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 431-432, 464.
+[^475]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 431-432, 464.
 
-[^476]: [Fletcher et Ishchenko 2004](https://fr.wikipedia.org/wiki/#FletcherIshchenko2004), p. 533-534.
+[^476]: [Fletcher et Ishchenko 2004](https://fr.wikipedia.org/wiki/), p. 533-534.
 
-[^477]: [Curtiss 1980](https://fr.wikipedia.org/wiki/#Curtiss1980), p. 238-239.
+[^477]: [Curtiss 1980](https://fr.wikipedia.org/wiki/), p. 238-239.
 
 [^478]: (en) Robert F. Trager, «  Long-Term Consequences of Aggressive Diplomacy: European Relations after Austrian Crimean War Threats  », *Security Studies*, Taylor & Francis, vol. 21, n <sup>o</sup> 2,, p.232-265 ([DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier "Digital Object Identifier") [10.1080/09636412.2012.679204](https://dx.doi.org/10.1080/09636412.2012.679204)).
 
-[^479]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 468.
+[^479]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 468.
 
-[^480]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 471-472.
+[^480]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 471-472.
 
-[^481]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 474.
+[^481]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 474.
 
-[^482]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 481.
+[^482]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 481.
 
-[^483]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 5-6.
+[^483]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 5-6.
 
-[^484]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 482.
+[^484]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 482.
 
-[^485]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 484-486.
+[^485]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 484-486.
 
-[^486]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 490-491.
+[^486]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 490-491.
 
 [^487]: (ru) « [История статуса звания «города воинской славы» и его присвоения Петропавловску-Камчатскому](https://www.internauka.org/journal/science/internauka/215/306283) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.internauka.org%2Fjournal%2Fscience%2Finternauka%2F215%2F306283 "archive sur Wikiwix")\] » \[« Histoire du statut du titre « ville de gloire militaire » et son attribution à Petropavlovsk-Kamchatski »\], sur www.internauka.org (consulté le )
 
@@ -1471,17 +1471,17 @@ La Guerre de Crimée a été portée sur grand écran dès le début du cinéma 
 
 [^489]: (ru) A.P. Piragis, « Никольская сопка в Петропавловске-Камчатском », *Neizvestnaïa Kamchatka*, Petropavlovsk-Kamtchatski,, article n <sup>o</sup> 3 ([lire en ligne](http://www.piragis.ru/history/nikolskaya-sopka-petropavlovsk-kamchatsky.html) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.piragis.ru%2Fhistory%2Fnikolskaya-sopka-petropavlovsk-kamchatsky.html "archive sur Wikiwix")\])
 
-[^490]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 414.
+[^490]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 414.
 
-[^491]: [Gouttman 1995](https://fr.wikipedia.org/wiki/#Gouttman1995), p. 471-472.
+[^491]: [Gouttman 1995](https://fr.wikipedia.org/wiki/), p. 471-472.
 
 [^492]: K. Heitmann, « Moldauisch » dans G. Holtus, M. Metzeltin et C. Schmitt (dir.), *Lexicon der Romanschinen Linguistik*, Tübingen, vol. 3, p.508-21, 1989.
 
 [^493]: Anthony Babel, *La Bessarabie*, éd. Félix Alcan, Genève et Paris, 1932.
 
-[^494]: [Figes 2012](https://fr.wikipedia.org/wiki/#Figes2012), p. 483-484.
+[^494]: [Figes 2012](https://fr.wikipedia.org/wiki/), p. 483-484.
 
-[^495]: [Badem 2010](https://fr.wikipedia.org/wiki/#Badem2010), p. 20-21.
+[^495]: [Badem 2010](https://fr.wikipedia.org/wiki/), p. 20-21.
 
 [^496]: Claire Fredj, « Un désastre sanitaire », p. 52, « Léon Tolstoï: *Si vous avez les nerfs solides* », *[L'Histoire](https://fr.wikipedia.org/wiki/L%27Histoire "L'Histoire")*, n <sup>o</sup> 528, février 2025.
 

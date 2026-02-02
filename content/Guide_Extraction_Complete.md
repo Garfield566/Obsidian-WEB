@@ -64,7 +64,7 @@ L'extraction s'exécute **domaine par domaine** dans cet ordre :
 Affiche pour chaque domaine :
 ```
 ================================================================================
-PROGRESSION GLOBALE: [##########--------------------] 40.0%
+PROGRESSION GLOBALE: [#########] 40.0%
 Domaine 2/5: PHYSIQUE
 Temps total ecoule: 3h45min
 ================================================================================

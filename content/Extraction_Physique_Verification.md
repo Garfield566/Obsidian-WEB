@@ -6,7 +6,7 @@ tags:
   - extraction
   - wikidata
   - verification
-  - filtres-qualite
+
 ---
 
 # Vérification Extraction Physique

@@ -223,7 +223,7 @@ Sous [Louis le Germanique](https://fr.wikipedia.org/wiki/Louis_le_Germanique "Lo
 
 [^4]: [Jean-François Lemarignier](https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Lemarignier "Jean-François Lemarignier"), *La France médiévale. Institutions et société*, Armand Colin, 2005, p. 100.
 
-[^5]: [Ganshof 1982](https://fr.wikipedia.org/wiki/#Ganshof1982), p. 12-13.
+[^5]: [Ganshof 1982](https://fr.wikipedia.org/wiki/), p. 12-13.
 
 [^6]: Claude Gauvard, La France au Moyen âge du Ve au XVe siècle, PUF, coll. « Quadrige », ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-13-081798-7](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-13-081798-7 "Spécial:Ouvrages de référence/978-2-13-081798-7")), p. 613
 
@@ -245,11 +245,11 @@ Sous [Louis le Germanique](https://fr.wikipedia.org/wiki/Louis_le_Germanique "Lo
 
 [^15]: Karl Ferdinand Werner, *Naissance de la noblesse*, Fayard, 1998.
 
-[^16]: [Theis 1990](https://fr.wikipedia.org/wiki/#Theis1990).
+[^16]: [Theis 1990](https://fr.wikipedia.org/wiki/).
 
-[^17]: [Ganshof 1982](https://fr.wikipedia.org/wiki/#Ganshof1982).
+[^17]: [Ganshof 1982](https://fr.wikipedia.org/wiki/).
 
-[^18]: [Theis 1990](https://fr.wikipedia.org/wiki/#Theis1990), p. 46.
+[^18]: [Theis 1990](https://fr.wikipedia.org/wiki/), p. 46.
 
 [^19]: Marc Girot, *De Charlemagne à la féodalité*, [Site de l'IUFM de Créteil](http://pedagene.creteil.iufm.fr/ressources/histoire/charlemagne.html) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fpedagene.creteil.iufm.fr%2Fressources%2Fhistoire%2Fcharlemagne.html "archive sur Wikiwix")\].
 
@@ -265,21 +265,21 @@ Sous [Louis le Germanique](https://fr.wikipedia.org/wiki/Louis_le_Germanique "Lo
 
 [^25]: [Christian Lauranson-Rosaz](https://fr.wikipedia.org/wiki/Christian_Lauranson-Rosaz "Christian Lauranson-Rosaz"), *La Paix des Montagnes: Origines auvergnates de la Paix de Dieu*, p. 4 [Site de l'Université de droit de Clermont-Ferrand](http://www.droit.u-clermont1.fr/pages_statiques/Recherche/CentreRecherche/LeCentredEtudesRomanistiquesDAuvergne/GERHMA/these5a.pdf) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.droit.u-clermont1.fr%2Fpages_statiques%2FRecherche%2FCentreRecherche%2FLeCentredEtudesRomanistiquesDAuvergne%2FGERHMA%2Fthese5a.pdf "archive sur Wikiwix")\].
 
-[^26]: [Duby 2007](https://fr.wikipedia.org/wiki/#Duby2007), p. 277.
+[^26]: [Duby 2007](https://fr.wikipedia.org/wiki/), p. 277.
 
-[^27]: [Duby 2007](https://fr.wikipedia.org/wiki/#Duby2007), p. 274.
+[^27]: [Duby 2007](https://fr.wikipedia.org/wiki/), p. 274.
 
 [^28]: Saint Jean, *[L'Apocalypse](https://fr.wikipedia.org/wiki/L%27Apocalypse_de_Saint_Jean "L'Apocalypse de Saint Jean")* XX,7 et XX,8.
 
-[^29]: [Duby 2007](https://fr.wikipedia.org/wiki/#Duby2007), p. 276.
+[^29]: [Duby 2007](https://fr.wikipedia.org/wiki/), p. 276.
 
 [^30]: [Christian Lauranson-Rosaz](https://fr.wikipedia.org/wiki/Christian_Lauranson-Rosaz "Christian Lauranson-Rosaz"), *La Paix des Montagnes. Origines auvergnates de la Paix de Dieu*, p. 19.
 
-[^31]: [Balard, Genet et Rouche 2003](https://fr.wikipedia.org/wiki/#BalardGenetRouche2003), p. 104-105.
+[^31]: [Balard, Genet et Rouche 2003](https://fr.wikipedia.org/wiki/), p. 104-105.
 
 [^32]: Jacques Paviot, *Le moine est maître chez lui* dans *La France féodale*, p. 43.
 
-[^33]: [Duby 2007](https://fr.wikipedia.org/wiki/#Duby2007), p. 278.
+[^33]: [Duby 2007](https://fr.wikipedia.org/wiki/), p. 278.
 
 [^34]: Edina Bozoky, *Les reliques: un marché en pleine expansion*.
 
@@ -293,29 +293,29 @@ Sous [Louis le Germanique](https://fr.wikipedia.org/wiki/Louis_le_Germanique "Lo
 
 [^39]: [Michel Kaplan](https://fr.wikipedia.org/wiki/Michel_Kaplan "Michel Kaplan"), Moyen Âge: XI <sup>e</sup>  –  XV <sup>e</sup> siècles, [Éditions Bréal](https://fr.wikipedia.org/wiki/%C3%89ditions_Br%C3%A9al "Éditions Bréal"),, p. 123
 
-[^40]: [Le Goff 2006](https://fr.wikipedia.org/wiki/#Le_Goff2006), p. 60-62.
+[^40]: [Le Goff 2006](https://fr.wikipedia.org/wiki/), p. 60-62.
 
-[^41]: [Autrand 1994](https://fr.wikipedia.org/wiki/#Autrand1994), p. 234.
+[^41]: [Autrand 1994](https://fr.wikipedia.org/wiki/), p. 234.
 
-[^42]: [Le Goff 2006](https://fr.wikipedia.org/wiki/#Le_Goff2006), p. 97-98.
+[^42]: [Le Goff 2006](https://fr.wikipedia.org/wiki/), p. 97-98.
 
-[^43]: [Le Goff 2006](https://fr.wikipedia.org/wiki/#Le_Goff2006), p. 104-108.
+[^43]: [Le Goff 2006](https://fr.wikipedia.org/wiki/), p. 104-108.
 
 [^44]: [Marie-Thérèse Lorcin](https://fr.wikipedia.org/wiki/Marie-Th%C3%A9r%C3%A8se_Lorcin "Marie-Thérèse Lorcin"), *Des Restos du cœur avant la lettre* dans *Un Moyen Âge inattendu*, p. 48-51.
 
 [^45]: [Jean Gimpel](https://fr.wikipedia.org/wiki/Jean_Gimpel "Jean Gimpel"), La révolution industrielle du Moyen Âge, [Éditions du Seuil](https://fr.wikipedia.org/wiki/%C3%89ditions_du_Seuil "Éditions du Seuil"),, 258 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2-02-054151-3](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-02-054151-3 "Spécial:Ouvrages de référence/2-02-054151-3")), p.113-140
 
-[^46]: [Gimpel 1975](https://fr.wikipedia.org/wiki/#Gimpel1975), p. 149-157
+[^46]: [Gimpel 1975](https://fr.wikipedia.org/wiki/), p. 149-157
 
-[^47]: [Autrand 1994](https://fr.wikipedia.org/wiki/#Autrand1994), p. 237.
+[^47]: [Autrand 1994](https://fr.wikipedia.org/wiki/), p. 237.
 
-[^48]: [Balard, Genet et Rouche 2003](https://fr.wikipedia.org/wiki/#BalardGenetRouche2003), p. 222-223.
+[^48]: [Balard, Genet et Rouche 2003](https://fr.wikipedia.org/wiki/), p. 222-223.
 
 [^49]: Les constatations décrites par exemple par (en) Scott A. Mandia, *The Little Ice Age in Europe* [(lire en ligne)](http://www2.sunysuffolk.edu/mandias/lia/little_ice_age.html) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww2.sunysuffolk.edu%2Fmandias%2Flia%2Flittle_ice_age.html "archive sur Wikiwix")\], sont corroborées par des médiévistes ayant analysé les chroniques de l’époque, tels [Philippe Contamine](https://fr.wikipedia.org/wiki/Philippe_Contamine "Philippe Contamine"), *La Guerre de Cent Ans*, coll. [Que sais-je?](https://fr.wikipedia.org/wiki/Que_sais-je_%3F "Que sais-je ?"), n <sup>o</sup>  1309, PUF, 2002. Pour d’autres auteurs, le refroidissement climatique survient plus tard et d’autres modèrent l’impact que les changements climatiques en question ont eus sur l’économie: [Emmanuel Le Roy Ladurie](https://fr.wikipedia.org/wiki/Emmanuel_Le_Roy_Ladurie "Emmanuel Le Roy Ladurie"), *Histoire humaine et comparée du climat*, Fayard, 2006.
 
 [^50]: (en) [Eileen Power](https://fr.wikipedia.org/wiki/Eileen_Power "Eileen Power"), *The Wool Trade in English medieval History*, Ford Lectures, 1961, [page 9](http://socserv.mcmaster.ca/econ/ugcm/3ll3/power/WoolTrade.pdf) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fsocserv.mcmaster.ca%2Fecon%2Fugcm%2F3ll3%2Fpower%2FWoolTrade.pdf "archive sur Wikiwix")\].
 
-[^51]: [Balard, Genet et Rouche 2003](https://fr.wikipedia.org/wiki/#BalardGenetRouche2003), p. 231-232.
+[^51]: [Balard, Genet et Rouche 2003](https://fr.wikipedia.org/wiki/), p. 231-232.
 
 [^52]: Philippe Richardot, [Stratis.org *Y a-t-il une pensée navale dans l’occident médiéval?*](http://www.stratisc.org/PN7_Richardot.html) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.stratisc.org%2FPN7_Richardot.html "archive sur Wikiwix")\].
 

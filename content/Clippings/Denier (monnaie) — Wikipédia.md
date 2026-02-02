@@ -72,7 +72,7 @@ Le tableau ci-dessous des différentes monnaies en circulation sous le règne d'
 | 1/ 8 | **1/ 2** | 2 | \|  \| **[Dupondius](https://fr.wikipedia.org/wiki/Dupondius "Dupondius")** \| \| --- \| --- \| | laiton | ≈ 12,5 g |
 | 1/ 16 | **1/ 4** | **1** | \|  \| **[As](https://fr.wikipedia.org/wiki/As_\(monnaie\) "As (monnaie)")** \| \| --- \| --- \| | [cuivre](https://fr.wikipedia.org/wiki/Cuivre "Cuivre") | ≈ 11 g |
 | 1/ 32 | **1/ 8** | 1/ 2 | \|  \| **[Semis](https://fr.wikipedia.org/wiki/Semis_\(monnaie\) "Semis (monnaie)")** \| \| --- \| --- \| | cuivre | ≈ 4,6 g |
-| 1/ 64 | **1/ 16** | 1/ 4 | \|  \| **[Quadrans](https://fr.wikipedia.org/wiki/Unit%C3%A9s_de_mesure_romaines#Mesures_de_masse "Unités de mesure romaines")** \| \| --- \| --- \| | cuivre |  |
+| 1/ 64 | **1/ 16** | 1/ 4 | \|  \| **[Quadrans](https://fr.wikipedia.org/wiki/Unit%C3%A9s_de_mesure_romaines "Unités de mesure romaines")** \| \| --- \| --- \| | cuivre |  |
 
 |  |
 | --- |
@@ -146,29 +146,29 @@ On trouve en français l'expression [denier du culte](https://fr.wikipedia.org/w
 
 [^6]: Jean-Baptiste Giard, « In memoriam: Harold Mattingly  », *Revue numismatique*, 6 <sup>e</sup> série, t. 6,, p.217-218 ([lire en ligne](http://www.persee.fr/web/revues/home/prescript/article/numi_0484-8942_1964_num_6_6_1105) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.persee.fr%2Fweb%2Frevues%2Fhome%2Fprescript%2Farticle%2Fnumi_0484-8942_1964_num_6_6_1105 "archive sur Wikiwix")\]).
 
-[^7]: [Zehnacker 1992](https://fr.wikipedia.org/wiki/#ANR1), p. 3
+[^7]: [Zehnacker 1992](https://fr.wikipedia.org/wiki/), p. 3
 
 [^8]: Edward Allen Sydenham, *The Coinage of the Roman Republic*, 1952, p. XI
 
-[^9]: [Marchetti 1993](https://fr.wikipedia.org/wiki/#Marchetti1993), p. 30
+[^9]: [Marchetti 1993](https://fr.wikipedia.org/wiki/), p. 30
 
-[^10]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/#Depeyrot2006), p. 14
+[^10]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/), p. 14
 
-[^11]: [Zehnacker 1992](https://fr.wikipedia.org/wiki/#ANR1), p. 2
+[^11]: [Zehnacker 1992](https://fr.wikipedia.org/wiki/), p. 2
 
-[^12]: [Zehnacker 1992](https://fr.wikipedia.org/wiki/#ANR2), p. 3
+[^12]: [Zehnacker 1992](https://fr.wikipedia.org/wiki/), p. 3
 
-[^13]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/#Depeyrot2006), p. 16
+[^13]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/), p. 16
 
 [^14]: [Michel Christol](https://fr.wikipedia.org/wiki/Michel_Christol "Michel Christol") et Daniel Nony, Rome et son empire, des origines aux invasions barbares, Hachette, coll. « HU », ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2-01-145542-1](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-01-145542-1 "Spécial:Ouvrages de référence/2-01-145542-1")), p. 5.
 
-[^15]: [Zehnacker 1992](https://fr.wikipedia.org/wiki/#ANR2), p. 2
+[^15]: [Zehnacker 1992](https://fr.wikipedia.org/wiki/), p. 2
 
-[^16]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/#Depeyrot2006), p. 15
+[^16]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/), p. 15
 
-[^17]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/#Depeyrot2006), p. 16-18
+[^17]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/), p. 16-18
 
-[^18]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/#Depeyrot2006), p. 33
+[^18]: [Depeyrot 2006](https://fr.wikipedia.org/wiki/), p. 33
 
 [^19]: « [Prix et salaires sous l'Empire romain](https://elearning.unifr.ch/antiquitas/fr/fiches/308) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Felearning.unifr.ch%2Fantiquitas%2Ffr%2Ffiches%2F308 "archive sur Wikiwix")\] », Antiquitas, le web au service de l'enseignement, en ligne.
 

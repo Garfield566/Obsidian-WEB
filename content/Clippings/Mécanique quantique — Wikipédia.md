@@ -3,7 +3,7 @@ title: "Mécanique quantique — Wikipédia"
 source: "https://fr.wikipedia.org/wiki/M%C3%A9canique_quantique"
 author:
   - "[[Contributeurs aux projets Wikimedia]]"
-published: 2001-10-22
+published: 2001--22
 created: 2026-02-02
 description:
 tags:
@@ -35,7 +35,7 @@ Dans la conception classique des [lois de probabilité](https://fr.wikipedia.org
 
 Cette propriété est illustrée par l'expérience des [fentes de Young](https://fr.wikipedia.org/wiki/Fentes_de_Young "Fentes de Young"), considérée notamment par [Richard Feynman](https://fr.wikipedia.org/wiki/Richard_Feynman "Richard Feynman") comme la plus emblématique du comportement quantique de la matière. Dans son cours de mécanique quantique, Feynman consacre un long chapitre à son analyse. Cette expérience illustre aussi le concept de [dualité onde-corpuscule](https://fr.wikipedia.org/wiki/Dualit%C3%A9_onde-corpuscule "Dualité onde-corpuscule"), à la base de l'interprétation standard de la théorie.
 
-On considère actuellement qu'aux échelles macroscopiques, l'apparente non-observation de ce comportement probabiliste s'explique par un phénomène appelé [décohérence](https://fr.wikipedia.org/wiki/D%C3%A9coh%C3%A9rence "Décohérence"). D'autres explications sont proposées, mais aucune ne fait l'unanimité: elles relèvent essentiellement de différences dans l' [interprétation de la mécanique quantique](https://fr.wikipedia.org/wiki/#Interpr%C3%A9tation).
+On considère actuellement qu'aux échelles macroscopiques, l'apparente non-observation de ce comportement probabiliste s'explique par un phénomène appelé [décohérence](https://fr.wikipedia.org/wiki/D%C3%A9coh%C3%A9rence "Décohérence"). D'autres explications sont proposées, mais aucune ne fait l'unanimité: elles relèvent essentiellement de différences dans l' [interprétation de la mécanique quantique](https://fr.wikipedia.org/wiki/%C3%A9tation).
 
 La mécanique quantique tire son nom de l'existence de grandeurs ne pouvant se manifester que par multiples de quantités fixes, souvent liées à la [constante](https://fr.wikipedia.org/wiki/Constante_de_Planck "Constante de Planck"), découverte par [Max Planck](https://fr.wikipedia.org/wiki/Max_Planck "Max Planck"). Ces grandeurs sont par exemple l' [énergie](https://fr.wikipedia.org/wiki/%C3%89nergie_\(physique\) "Énergie (physique)") ou le [moment cinétique](https://fr.wikipedia.org/wiki/Moment_cin%C3%A9tique "Moment cinétique") des particules.
 
@@ -611,11 +611,11 @@ Il existe de nombreuses [interprétations de la mécanique quantique](https://fr
 - [Portail de la physique](https://fr.wikipedia.org/wiki/Portail:Physique "Portail:Physique")
 - [Portail des sciences quantiques](https://fr.wikipedia.org/wiki/Portail:Sciences_quantiques "Portail:Sciences quantiques")
 
-[^1]: Elle offre une précision de 13 décimales et une confiance de 40 [sigmas](https://fr.wikipedia.org/wiki/%C3%89cart_type#Intervalle_de_fluctuation "Écart type") dans certaines expériences, [celle d'Alain Aspect](https://fr.wikipedia.org/wiki/Exp%C3%A9rience_d%27Aspect "Expérience d'Aspect") entre autres. Ce formalisme a de plus conduit à prévoir l'existence de particules et de phénomènes qui ne furent observés que par la suite.
+[^1]: Elle offre une précision de 13 décimales et une confiance de 40 [sigmas](https://fr.wikipedia.org/wiki/%C3%89cart_type "Écart type") dans certaines expériences, [celle d'Alain Aspect](https://fr.wikipedia.org/wiki/Exp%C3%A9rience_d%27Aspect "Expérience d'Aspect") entre autres. Ce formalisme a de plus conduit à prévoir l'existence de particules et de phénomènes qui ne furent observés que par la suite.
 
 [^2]: [Isaac Newton](https://fr.wikipedia.org/wiki/Isaac_Newton "Isaac Newton") pensait que la lumière était constituée de particules, mais les travaux notamment de [Christian Huygens](https://fr.wikipedia.org/wiki/Christian_Huygens "Christian Huygens") ont longtemps fait oublier cette idée
 
-[^3]: Cette appellation est un peu trompeuse car elle pourrait être confondue avec une [interprétation de la mécanique quantique](https://fr.wikipedia.org/wiki/#Interpr%C3%A9tation), ce qu'elle n'est pas vraiment
+[^3]: Cette appellation est un peu trompeuse car elle pourrait être confondue avec une [interprétation de la mécanique quantique](https://fr.wikipedia.org/wiki/%C3%A9tation), ce qu'elle n'est pas vraiment
 
 [^4]: Une telle formulation s'avère néanmoins imprécise car son analyse détaillée montre qu'elle est inconsistante. En effet la considération d'un scalaire ${\displaystyle \lambda }$ quelconque et l'application au chat de Schrödinger de la règle de Born telle que nous venons de la formuler, en prenant ${\displaystyle \alpha =\lambda }$ et ${\displaystyle \beta =0}$ , montre que le vecteur ${\displaystyle |\phi _{\lambda ,0}\rangle =\lambda |\mathrm {mort} \rangle }$ ainsi obtenu donne une probabilité certaine de trouver le chat mort, tout comme c'est le cas pour l'état ${\displaystyle |\mathrm {mort} \rangle }$ , par hypothèse. Il est donc possible d'appliquer à nouveau la règle de Born en utilisant cette fois-ci non plus ${\displaystyle |\mathrm {mort} \rangle }$ , mais ${\displaystyle \lambda |\mathrm {mort} \rangle }$ . Le vecteur ${\displaystyle |\phi \rangle }$ utilisé initialement s'écrit dans ce cas:
 
@@ -675,7 +675,7 @@ That's a postulate: the basic postulate is when things are measurably different,
 
 [^24]: « Voici ce qu'est la mécanique quantique: c'est une méthode de calcul de probabilités. \[…\] Probabilités de quoi? Probabilités de résultats de mesures, de valeurs de résultats de mesures. Et les choses que l'on mesure s'appellent des observables. »
 
-[^25]: [Cohen-Tannoudji](https://fr.wikipedia.org/wiki/#Cohen), p. 235
+[^25]: [Cohen-Tannoudji](https://fr.wikipedia.org/wiki/), p. 235
 
 [^26]: (en) [The stability of matter](https://fisherp.scripts.mit.edu/wordpress/wp-content/uploads/2020/05/1.1705209.pdf), [Freeman Dyson](https://fr.wikipedia.org/wiki/Freeman_Dyson "Freeman Dyson"), Journal of mathematical physics, 1967.
 
@@ -689,4 +689,4 @@ That's a postulate: the basic postulate is when things are measurably different,
 
 [^31]: Concernant la validité de ce « théorème », lire les travaux d'Eric Galapon: [*quant-ph/9908033*](https://arxiv.org/abs/quant-ph/9908033) et [*quant-ph/0303106*](https://arxiv.org/abs/quant-ph/0303106).
 
-[^32]: [Haroche, Raimond et Brune 1997](https://fr.wikipedia.org/wiki/#HarocheRaimondBrune1997).
+[^32]: [Haroche, Raimond et Brune 1997](https://fr.wikipedia.org/wiki/).

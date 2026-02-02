@@ -4,7 +4,7 @@ title: "Carl von Clausewitz"
 tags:
  - "clippings"
  - "wikipedia"
-published: "2001-08-10T12:25:53+02:00"
+published: "2001-08-T12:25:53+02:00"
 modified: "2025-02-26T19:36:21+01:00"
 created: "2025-04-16"
 cover: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Clausewitz.jpg/500px-Clausewitz.jpg"

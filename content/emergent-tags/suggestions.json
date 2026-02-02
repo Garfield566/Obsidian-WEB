@@ -1,39 +1,11 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-02T13:17:29.858849",
-  "vault_hash": "16a40dcb",
+  "generated_at": "2026-02-02T13:28:51.420455",
+  "vault_hash": "f350398c",
   "suggestions": {
     "new_tags": [
       {
-        "id": "lt_emg_000",
-        "name": "droit",
-        "confidence": 0.95,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (2).md"
-        ],
-        "reasoning": {
-          "summary": "Terme 'droit' validé: terme toujours valide (nom propre/entité)",
-          "details": {
-            "family": "discipline",
-            "family_label": "Discipline",
-            "source_terms": [
-              "droit"
-            ],
-            "is_valid": true,
-            "confidence": 0.95,
-            "reasons": [
-              "terme toujours valide (nom propre/entité)"
-            ],
-            "category": "toujours_valide"
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858889",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_ent_001",
+        "id": "lt_ent_000",
         "name": "entité\\états-unis",
         "confidence": 0.93,
         "notes": [
@@ -49,55 +21,23 @@
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Yema.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 44 notes",
+          "summary": "Entité politique détecté(e) dans 57 notes",
           "details": {
             "entity_type": "political_entity",
             "raw_text": "états-unis",
-            "total_occurrences": 104,
-            "notes_count": 44,
+            "total_occurrences": 161,
+            "notes_count": 57,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858894",
+        "first_detected": "2026-02-02T13:28:51.420498",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_003",
-        "name": "entité\\empire-romain",
-        "confidence": 0.93,
-        "notes": [
-          "caroro.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap X/note chap X, Livre I  (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 12 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-romain",
-            "total_occurrences": 89,
-            "notes_count": 12,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858898",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_015",
+        "id": "lt_ent_004",
         "name": "geo\\europe\\suisse",
         "confidence": 0.93,
         "notes": [
@@ -124,980 +64,250 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858902",
+        "first_detected": "2026-02-02T13:28:51.420504",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_006",
-        "name": "entité\\empire-britannique",
-        "confidence": 0.91,
-        "notes": [
-          "caroro.md",
-          "info box.md",
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 8 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-britannique",
-            "total_occurrences": 100,
-            "notes_count": 8,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858906",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_002",
-        "name": "entité\\empire-perse",
+        "id": "lt_ent_013",
+        "name": "rousseau",
         "confidence": 0.88,
         "notes": [
-          "info box 1.md",
-          "info box 1 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/métallurgie  Britannica.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le travail.md",
+          "Clippings/Droit civil — Wikipédia.md",
+          "Clippings/Féodalité — Wikipédia.md",
+          "Clippings/Épistémologie — Wikipédia.md",
+          "Clippings/Impressionnisme — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 5 notes",
+          "summary": "Personne détecté(e) dans 5 notes",
           "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-perse",
-            "total_occurrences": 15,
+            "entity_type": "person",
+            "raw_text": "Jean-Jacques Rousseau",
+            "total_occurrences": 18,
             "notes_count": 5,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858910",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_012",
-        "name": "entité\\empire-ottoman",
-        "confidence": 0.86,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 4 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-ottoman",
-            "total_occurrences": 152,
-            "notes_count": 4,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858913",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_016",
-        "name": "jung",
-        "confidence": 0.86,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Junghans.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Pulp Fiction.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Carl Gustav Jung",
-            "total_occurrences": 20,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": true
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858920",
+        "first_detected": "2026-02-02T13:28:51.420508",
         "source": "reference_db",
         "alternatives": [
           {
-            "name": "Carl-Gustav-Jung",
+            "name": "Jean-jacques-Rousseau",
             "reason": "Format conventionnel pour Nom de personne",
             "is_convention": true
           }
         ]
       },
       {
-        "id": "lt_ent_024",
-        "name": "monet",
-        "confidence": 0.86,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle tournée vers la droite.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle tournée vers la gauche.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 4 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Claude Monet",
-            "total_occurrences": 47,
-            "notes_count": 4,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858925",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Claude-Monet",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_emg_001",
-        "name": "mathématiques",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md"
-        ],
-        "reasoning": {
-          "summary": "Sous-notion (tag hiérarchique) validée par cascade (profondeur 0): suite, côté, opération, somme, nombre...",
-          "details": {
-            "family": "discipline",
-            "family_label": "Discipline",
-            "source_terms": [
-              "travail"
-            ],
-            "is_valid": true,
-            "confidence": 0.8500000000000001,
-            "reasons": [
-              "Validé à profondeur 0: 4 VSC (seuil: 2)",
-              "Mots comptés: suite, côté, opération, somme, nombre...",
-              "Mots consommés: variable, nombre, ensemble"
-            ],
-            "category": "cascade",
-            "validated_paths": [
-              {
-                "path": "mathématiques",
-                "depth": 0,
-                "confidence": 0.8500000000000001,
-                "words_used": [
-                  "suite",
-                  "côté",
-                  "opération",
-                  "somme",
-                  "nombre",
-                  "loi",
-                  "fonction",
-                  "mesure",
-                  "inverse",
-                  "rang",
-                  "primitive",
-                  "point",
-                  "valeur propre",
-                  "degré",
-                  "variable",
-                  "taux",
-                  "voisinage",
-                  "corps",
-                  "ensemble"
-                ],
-                "is_subnotion": false
-              },
-              {
-                "path": "économie",
-                "depth": 0,
-                "confidence": 0.8500000000000001,
-                "words_used": [
-                  "valeur",
-                  "salaire",
-                  "marchandise",
-                  "production",
-                  "atelier",
-                  "métal",
-                  "argent",
-                  "intérêt",
-                  "capital",
-                  "prix",
-                  "or",
-                  "échange",
-                  "as",
-                  "cuivre",
-                  "offre",
-                  "travail",
-                  "demande",
-                  "profit",
-                  "sesterce",
-                  "marché",
-                  "monnaie",
-                  "pièce",
-                  "taux",
-                  "accumulation"
-                ],
-                "is_subnotion": true
-              },
-              {
-                "path": "philosophie",
-                "depth": 0,
-                "confidence": 0.8500000000000001,
-                "words_used": [
-                  "valeur",
-                  "simples",
-                  "état",
-                  "droit",
-                  "proposition",
-                  "mêmes",
-                  "physique",
-                  "bonheur",
-                  "existence",
-                  "raison",
-                  "pouvoir",
-                  "absurde",
-                  "choses",
-                  "utilité",
-                  "matière",
-                  "autorité",
-                  "vérité",
-                  "doute",
-                  "mal",
-                  "bien",
-                  "parties",
-                  "sagesse",
-                  "propres",
-                  "être",
-                  "tant",
-                  "liberté",
-                  "corps",
-                  "projet"
-                ],
-                "is_subnotion": false
-              },
-              {
-                "path": "histoire",
-                "depth": 0,
-                "confidence": 0.8500000000000001,
-                "words_used": [
-                  "révolution",
-                  "esclave",
-                  "siège",
-                  "république",
-                  "égaux",
-                  "époque",
-                  "punique",
-                  "commerce",
-                  "royaume",
-                  "guerre",
-                  "tyrannie",
-                  "empire",
-                  "siècle"
-                ],
-                "is_subnotion": true
-              },
-              {
-                "path": "physique",
-                "depth": 0,
-                "confidence": 0.8500000000000001,
-                "words_used": [
-                  "masse",
-                  "champ",
-                  "matière",
-                  "probabilité",
-                  "constante",
-                  "loi",
-                  "mesure",
-                  "inertie",
-                  "temps",
-                  "force"
-                ],
-                "is_subnotion": true
-              },
-              {
-                "path": "biologie",
-                "depth": 0,
-                "confidence": 0.8500000000000001,
-                "words_used": [
-                  "circulation",
-                  "bras",
-                  "classe",
-                  "espèce",
-                  "division",
-                  "espèces",
-                  "croissance",
-                  "décomposition",
-                  "eau",
-                  "vie",
-                  "mort",
-                  "pied",
-                  "libre",
-                  "règle",
-                  "achète",
-                  "population",
-                  "corps",
-                  "mourir"
-                ],
-                "is_subnotion": false
-              },
-              {
-                "path": "psychologie",
-                "depth": 0,
-                "confidence": 0.8500000000000001,
-                "words_used": [
-                  "réel",
-                  "apprentissage",
-                  "moi",
-                  "esprit",
-                  "sujet",
-                  "ça",
-                  "manque",
-                  "langage",
-                  "réponse",
-                  "symptôme"
-                ],
-                "is_subnotion": false
-              },
-              {
-                "path": "sociologie",
-                "depth": 0,
-                "confidence": 0.8300000000000001,
-                "words_used": [
-                  "champ",
-                  "régulation",
-                  "distinction",
-                  "classe",
-                  "société",
-                  "division",
-                  "pouvoir",
-                  "institution",
-                  "individu"
-                ],
-                "is_subnotion": false
-              },
-              {
-                "path": "linguistique",
-                "depth": 0,
-                "confidence": 0.81,
-                "words_used": [
-                  "valeur",
-                  "sens",
-                  "génération",
-                  "signe",
-                  "langage",
-                  "règle",
-                  "transformation",
-                  "mot"
-                ],
-                "is_subnotion": false
-              }
-            ],
-            "best_path": "mathématiques",
-            "best_depth": 0,
-            "suggested_discipline": "mathématiques",
-            "validated_objects": [
-              {
-                "name": "intégrale-de-lebesgue",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "mesure"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "mathématiques\\analyse\\calcul-intégral",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (mesure)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "principe-d-incertitude",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "incertitude"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "physique\\mécanique-quantique",
-                "total_word_count": 5,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (incertitude)",
-                  "Vocabulaire total: 5 mots"
-                ]
-              },
-              {
-                "name": "lois-de-newton",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "inertie"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "physique\\mécanique-classique",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (inertie)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "lois-de-kepler",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "période"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "physique\\mécanique-classique\\mécanique-céleste",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (période)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "complexe-d-oedipe",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "père"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "psychologie\\psychanalyse\\psychanalyse-freudienne",
-                "total_word_count": 5,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (père)",
-                  "Vocabulaire total: 5 mots"
-                ]
-              },
-              {
-                "name": "cogito-ergo-sum",
-                "confidence": 0.7999999999999999,
-                "triggers_found": [
-                  "doute",
-                  "je pense"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "philosophie\\rationalisme",
-                "total_word_count": 5,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 2/1 mots déclencheurs (doute, je pense)",
-                  "Vocabulaire total: 5 mots"
-                ]
-              },
-              {
-                "name": "léviathan",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "hobbes"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "philosophie\\philosophie-politique",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (hobbes)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "aureus",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "or"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "économie\\numismatique\\numismatique-romaine",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (or)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "denier-républicain",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "république"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "économie\\numismatique\\numismatique-romaine",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (république)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "capital-symbolique",
-                "confidence": 0.7999999999999999,
-                "triggers_found": [
-                  "capital",
-                  "distinction"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "sociologie\\sociologie-critique",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 2/1 mots déclencheurs (capital, distinction)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "habitus",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "disposition"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "sociologie\\sociologie-critique",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (disposition)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "cours-de-linguistique-générale",
-                "confidence": 0.7999999999999999,
-                "triggers_found": [
-                  "cours",
-                  "générale"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "linguistique\\linguistique-structurale",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 2/1 mots déclencheurs (cours, générale)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              },
-              {
-                "name": "grammaire-universelle",
-                "confidence": 0.75,
-                "triggers_found": [
-                  "universelle"
-                ],
-                "vocab_found": [],
-                "domaine_parent": "linguistique\\grammaire-générative",
-                "total_word_count": 4,
-                "tag_type": "flat",
-                "reasons": [
-                  "Objet validé: 1/1 mots déclencheurs (universelle)",
-                  "Vocabulaire total: 4 mots"
-                ]
-              }
-            ],
-            "validated_specialized_terms": [],
-            "tag_type": "subnotion",
-            "tag_format": "hierarchical"
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858929",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_ent_004",
-        "name": "entité\\empire-byzantin",
-        "confidence": 0.85,
-        "notes": [
-          "caroro.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-byzantin",
-            "total_occurrences": 69,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858932",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_010",
-        "name": "geo\\asie\\chine",
-        "confidence": 0.85,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "YouTube Notes/Timestamps 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
-        ],
-        "reasoning": {
-          "summary": "Lieu géographique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "place",
-            "raw_text": "chine",
-            "total_occurrences": 28,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858935",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_021",
-        "name": "entité\\second-empire-français",
-        "confidence": 0.85,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Pierre Joseph Jeanningros.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "second-empire-français",
-            "total_occurrences": 51,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858938",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_005",
-        "name": "entité\\carthage",
-        "confidence": 0.84,
-        "notes": [
-          "caroro.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (7).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "carthage",
-            "total_occurrences": 12,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858941",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_011",
-        "name": "geo\\asie\\japon",
-        "confidence": 0.84,
-        "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Seiko.md"
-        ],
-        "reasoning": {
-          "summary": "Lieu géographique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "place",
-            "raw_text": "japon",
-            "total_occurrences": 95,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858944",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_022",
-        "name": "entité\\royaume-de-prusse",
-        "confidence": 0.84,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "royaume-de-prusse",
-            "total_occurrences": 15,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858947",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_009",
-        "name": "entité\\empire-austro-hongrois",
-        "confidence": 0.83,
-        "notes": [
-          "YouTube Notes/Timestamps 5.md",
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "empire-austro-hongrois",
-            "total_occurrences": 11,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858949",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_017",
-        "name": "substance\\aristote",
-        "confidence": 0.81,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Karl Marx.md"
-        ],
-        "reasoning": {
-          "summary": "Concept théorique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "concept",
-            "raw_text": "substance",
-            "total_occurrences": 6,
-            "notes_count": 3,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858953",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_019",
-        "name": "geo\\asie\\inde",
-        "confidence": 0.81,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Hermann Heinrich Gossen.md"
-        ],
-        "reasoning": {
-          "summary": "Lieu géographique détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "place",
-            "raw_text": "inde",
-            "total_occurrences": 9,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858956",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_013",
+        "id": "lt_ent_003",
         "name": "entité\\urss",
-        "confidence": 0.8,
+        "confidence": 0.87,
         "notes": [
           "YouTube Notes/Timestamps 2.md",
           "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Yema.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Montage — Wikipédia.md",
+          "Clippings/Algorithme — Wikipédia.md",
           "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Entité politique détecté(e) dans 3 notes",
+          "summary": "Entité politique détecté(e) dans 6 notes",
           "details": {
             "entity_type": "political_entity",
             "raw_text": "urss",
-            "total_occurrences": 5,
-            "notes_count": 3,
+            "total_occurrences": 12,
+            "notes_count": 6,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858958",
+        "first_detected": "2026-02-02T13:28:51.420511",
         "source": "reference_db",
         "alternatives": []
       },
       {
-        "id": "lt_ent_020",
-        "name": "hume",
-        "confidence": 0.8,
+        "id": "lt_ent_008",
+        "name": "newton",
+        "confidence": 0.85,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹  🍖 Recette/Drawing 2024-12-19 20.45.02.excalidraw.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Épistémologie — Wikipédia.md"
         ],
         "reasoning": {
           "summary": "Personne détecté(e) dans 3 notes",
           "details": {
             "entity_type": "person",
-            "raw_text": "David Hume",
-            "total_occurrences": 4,
+            "raw_text": "Isaac Newton",
+            "total_occurrences": 15,
             "notes_count": 3,
             "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858961",
+        "first_detected": "2026-02-02T13:28:51.420515",
         "source": "reference_db",
         "alternatives": [
           {
-            "name": "David-Hume",
+            "name": "Isaac-Newton",
             "reason": "Format conventionnel pour Nom de personne",
             "is_convention": true
           }
         ]
       },
       {
-        "id": "lt_emg_002",
-        "name": "cogito-ergo-sum",
-        "confidence": 0.8,
+        "id": "lt_ent_007",
+        "name": "weber",
+        "confidence": 0.84,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md"
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Robert Heilbroner.md",
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/Montage — Wikipédia.md",
+          "Clippings/Épistémologie — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Objet 'cogito-ergo-sum' (tag plat) validé - déclencheurs: doute, je pense",
+          "summary": "Personne détecté(e) dans 4 notes",
           "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "doute",
-              "je pense"
-            ],
-            "tag_type": "object",
-            "domaine_parent": "philosophie\\rationalisme",
-            "total_word_count": 5,
-            "can_promote": true
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858964",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_ent_008",
-        "name": "économie",
-        "confidence": 0.79,
-        "notes": [
-          "caroro.md",
-          "info box.md",
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Bulova.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Cartier.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Longines.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md"
-        ],
-        "reasoning": {
-          "summary": "Discipline détecté(e) dans 39 notes",
-          "details": {
-            "entity_type": "discipline",
-            "raw_text": "économie",
-            "total_occurrences": 0,
-            "notes_count": 39,
-            "in_reference_db": false,
+            "entity_type": "person",
+            "raw_text": "Max Weber",
+            "total_occurrences": 10,
+            "notes_count": 4,
+            "in_reference_db": true,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858967",
-        "source": "context_secondary",
-        "alternatives": []
+        "first_detected": "2026-02-02T13:28:51.420518",
+        "source": "reference_db",
+        "alternatives": [
+          {
+            "name": "Max-Weber",
+            "reason": "Format conventionnel pour Nom de personne",
+            "is_convention": true
+          }
+        ]
       },
       {
-        "id": "lt_ent_018",
+        "id": "lt_ent_009",
+        "name": "kant",
+        "confidence": 0.84,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
+          "Clippings/Épistémologie — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Personne détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "person",
+            "raw_text": "Emmanuel Kant",
+            "total_occurrences": 53,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:28:51.420522",
+        "source": "reference_db",
+        "alternatives": [
+          {
+            "name": "Emmanuel-Kant",
+            "reason": "Format conventionnel pour Nom de personne",
+            "is_convention": true
+          }
+        ]
+      },
+      {
+        "id": "lt_ent_015",
+        "name": "einstein",
+        "confidence": 0.84,
+        "notes": [
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Épistémologie — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Personne détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "person",
+            "raw_text": "Albert Einstein",
+            "total_occurrences": 17,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:28:51.420528",
+        "source": "reference_db",
+        "alternatives": [
+          {
+            "name": "Albert-Einstein",
+            "reason": "Format conventionnel pour Nom de personne",
+            "is_convention": true
+          }
+        ]
+      },
+      {
+        "id": "lt_ent_006",
+        "name": "picasso",
+        "confidence": 0.83,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
+          "Clippings/Impressionnisme — Wikipédia.md",
+          "Clippings/Sonnet — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Personne détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "person",
+            "raw_text": "Pablo Picasso",
+            "total_occurrences": 10,
+            "notes_count": 3,
+            "in_reference_db": true,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:28:51.420532",
+        "source": "reference_db",
+        "alternatives": [
+          {
+            "name": "Pablo-Picasso",
+            "reason": "Format conventionnel pour Nom de personne",
+            "is_convention": true
+          }
+        ]
+      },
+      {
+        "id": "lt_ent_005",
         "name": "I-fin",
-        "confidence": 0.79,
+        "confidence": 0.82,
         "notes": [
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
           "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 4 notes",
+          "summary": "Date/Siècle détecté(e) dans 6 notes",
           "details": {
             "entity_type": "date",
             "raw_text": "I",
-            "total_occurrences": 4,
-            "notes_count": 4,
+            "total_occurrences": 6,
+            "notes_count": 6,
             "in_reference_db": false,
             "in_title": true
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858970",
+        "first_detected": "2026-02-02T13:28:51.420536",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1108,147 +318,60 @@
         ]
       },
       {
-        "id": "lt_ent_023",
-        "name": "hayek",
-        "confidence": 0.79,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Robert Heilbroner.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/John Maynard Keynes.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Friedrich Hayek",
-            "total_occurrences": 4,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858973",
-        "source": "reference_db",
-        "alternatives": [
-          {
-            "name": "Friedrich-Hayek",
-            "reason": "Format conventionnel pour Nom de personne",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_014",
-        "name": "entité\\premier-empire",
-        "confidence": 0.78,
-        "notes": [
-          "YouTube Notes/Timestamps 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité politique détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "political_entity",
-            "raw_text": "napoléon",
-            "total_occurrences": 49,
-            "notes_count": 3,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858975",
-        "source": "reference_related",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_026",
-        "name": "aristote",
-        "confidence": 0.78,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/PDF théorie de la valeur (Ricardo)/histoire-pensee-economique.md",
-          "⁰ 🧭 Cercle Béni 🧭/¹ 🗿 Philosophie/Le travail.md"
-        ],
-        "reasoning": {
-          "summary": "Personne détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "person",
-            "raw_text": "Aristote",
-            "total_occurrences": 3,
-            "notes_count": 2,
-            "in_reference_db": true,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858979",
-        "source": "reference_db",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_007",
+        "id": "lt_ent_002",
         "name": "X-fin",
-        "confidence": 0.77,
+        "confidence": 0.8,
         "notes": [
           "caroro.md",
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Tangente.md",
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Cosinus.md",
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Logarithme.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Dérivée.md"
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Dérivée.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Denier (monnaie) — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 5 notes",
+          "summary": "Date/Siècle détecté(e) dans 7 notes",
           "details": {
             "entity_type": "date",
             "raw_text": "Xe siècle",
-            "total_occurrences": 5,
-            "notes_count": 5,
+            "total_occurrences": 7,
+            "notes_count": 7,
             "in_reference_db": false,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858982",
+        "first_detected": "2026-02-02T13:28:51.420539",
         "source": "pattern_date",
         "alternatives": []
       },
       {
-        "id": "lt_emg_003",
-        "name": "principe-d-incertitude",
-        "confidence": 0.75,
+        "id": "lt_ent_014",
+        "name": "socrate",
+        "confidence": 0.8,
         "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md"
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/Mythologie grecque — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Objet 'principe-d-incertitude' (tag plat) validé - déclencheurs: incertitude",
+          "summary": "Personne détecté(e) dans 2 notes",
           "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "incertitude"
-            ],
-            "tag_type": "object",
-            "domaine_parent": "physique\\mécanique-quantique",
-            "total_word_count": 5,
-            "can_promote": true
+            "entity_type": "person",
+            "raw_text": "Socrate",
+            "total_occurrences": 6,
+            "notes_count": 2,
+            "in_reference_db": true,
+            "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858985",
-        "source": "emergent"
+        "first_detected": "2026-02-02T13:28:51.420543",
+        "source": "reference_db",
+        "alternatives": []
       },
       {
-        "id": "lt_emg_004",
+        "id": "lt_emg_000",
         "name": "aureus",
         "confidence": 0.75,
         "notes": [
@@ -1278,64 +401,31 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858988",
+        "first_detected": "2026-02-02T13:28:51.420546",
         "source": "emergent"
       },
       {
-        "id": "lt_emg_005",
-        "name": "habitus",
-        "confidence": 0.75,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (3).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (8).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IX/note chap IX, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VI/note chap VI, Livre I.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (2).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (5).md"
-        ],
-        "reasoning": {
-          "summary": "Objet 'habitus' (tag plat) validé - déclencheurs: disposition",
-          "details": {
-            "family": "category",
-            "family_label": "Catégorie",
-            "source_terms": [
-              "disposition"
-            ],
-            "tag_type": "object",
-            "domaine_parent": "sociologie\\sociologie-critique",
-            "total_word_count": 4,
-            "can_promote": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858991",
-        "source": "emergent"
-      },
-      {
-        "id": "lt_ent_025",
+        "id": "lt_ent_011",
         "name": "II-fin",
-        "confidence": 0.72,
+        "confidence": 0.73,
         "notes": [
           "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Féodalité — Wikipédia.md",
           "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 2 notes",
+          "summary": "Date/Siècle détecté(e) dans 3 notes",
           "details": {
             "entity_type": "date",
             "raw_text": "II",
-            "total_occurrences": 2,
-            "notes_count": 2,
+            "total_occurrences": 3,
+            "notes_count": 3,
             "in_reference_db": false,
             "in_title": false
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T13:17:29.858994",
+        "first_detected": "2026-02-02T13:28:51.420549",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -1344,6 +434,108 @@
             "is_convention": true
           }
         ]
+      },
+      {
+        "id": "lt_ent_001",
+        "name": "IX-fin",
+        "confidence": 0.72,
+        "notes": [
+          "caroro.md",
+          "Clippings/Féodalité — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Date/Siècle détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "date",
+            "raw_text": "IXe siècle",
+            "total_occurrences": 2,
+            "notes_count": 2,
+            "in_reference_db": false,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:28:51.420552",
+        "source": "pattern_date",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_010",
+        "name": "XIII-fin",
+        "confidence": 0.72,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Féodalité — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Date/Siècle détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "date",
+            "raw_text": "XIII",
+            "total_occurrences": 2,
+            "notes_count": 2,
+            "in_reference_db": false,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:28:51.420555",
+        "source": "pattern_date",
+        "alternatives": []
+      },
+      {
+        "id": "lt_ent_012",
+        "name": "III-fin",
+        "confidence": 0.72,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Denier (monnaie) — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Date/Siècle détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "date",
+            "raw_text": "III",
+            "total_occurrences": 2,
+            "notes_count": 2,
+            "in_reference_db": false,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:28:51.420558",
+        "source": "pattern_date",
+        "alternatives": [
+          {
+            "name": "III",
+            "reason": "Format conventionnel pour Date/Siècle",
+            "is_convention": true
+          }
+        ]
+      },
+      {
+        "id": "lt_ent_016",
+        "name": "XII-fin",
+        "confidence": 0.72,
+        "notes": [
+          "Clippings/Denier (monnaie) — Wikipédia.md",
+          "Clippings/Sonnet — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Date/Siècle détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "date",
+            "raw_text": "XII",
+            "total_occurrences": 2,
+            "notes_count": 2,
+            "in_reference_db": false,
+            "in_title": false
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-02T13:28:51.420561",
+        "source": "pattern_date",
+        "alternatives": []
       }
     ],
     "tag_assignments": [
@@ -1393,18 +585,18 @@
         "id": "ta_003",
         "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/BoJack Horseman.md",
         "tag": "audiovisuel",
-        "confidence": 0.6035065191984176,
+        "confidence": 0.6035064816474914,
         "reasoning": {
           "summary": "2 notes similaires ont ce tag",
           "details": {
             "matching_notes": [
               {
                 "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
-                "similarity": 0.59576336145401
+                "similarity": 0.5957633256912231
               },
               {
                 "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md",
-                "similarity": 0.5571124076843261
+                "similarity": 0.5571123361587524
               }
             ]
           }
@@ -1502,7 +694,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.692363",
+          "last_used": "2026-02-02T13:28:22.068509",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_2_PCs.md"
@@ -1521,7 +713,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.724730",
+          "last_used": "2026-02-02T13:28:22.105691",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_2_PCs.md"
@@ -1529,9 +721,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
+          "v",
           "physique",
-          "Wit-Studio",
-          "------------------------------------------"
+          "Wit-Studio"
         ]
       },
       {
@@ -1540,7 +732,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.559842",
+          "last_used": "2026-02-02T13:28:22.201559",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_2_PCs.md"
@@ -1549,8 +741,8 @@
         "recommendation": "review",
         "alternative_tags": [
           "extraction",
-          "economy",
-          "exemples"
+          "v",
+          "economy"
         ]
       },
       {
@@ -1559,7 +751,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.562474",
+          "last_used": "2026-02-02T13:28:22.356229",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_2_PCs.md"
@@ -1567,9 +759,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
+          "v",
           "clippings",
-          "clipping",
-          "exemples"
+          "clipping"
         ]
       },
       {
@@ -1578,7 +770,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.520561",
+          "last_used": "2026-02-02T13:28:22.353048",
           "days_inactive": 0,
           "notes_using": [
             "Termes Specialises par Domaine.md"
@@ -1587,8 +779,8 @@
         "recommendation": "review",
         "alternative_tags": [
           "note-livre",
-          "livre",
-          "L"
+          "v",
+          "livre"
         ]
       },
       {
@@ -1597,7 +789,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.506443",
+          "last_used": "2026-02-02T13:28:22.277547",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1616,7 +808,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.526447",
+          "last_used": "2026-02-02T13:28:22.405765",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1635,7 +827,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.727437",
+          "last_used": "2026-02-02T13:28:22.134273",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1654,7 +846,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.652678",
+          "last_used": "2026-02-02T13:28:22.343791",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1673,7 +865,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.522253",
+          "last_used": "2026-02-02T13:28:22.378435",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1692,7 +884,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.705738",
+          "last_used": "2026-02-02T13:28:22.238596",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1711,7 +903,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.643016",
+          "last_used": "2026-02-02T13:28:22.409203",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1730,7 +922,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.685939",
+          "last_used": "2026-02-02T13:28:22.444064",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1749,7 +941,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.514406",
+          "last_used": "2026-02-02T13:28:22.368909",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1768,7 +960,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.511330",
+          "last_used": "2026-02-02T13:28:22.323303",
           "days_inactive": 0,
           "notes_using": [
             "caroro.md"
@@ -1787,7 +979,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.648639",
+          "last_used": "2026-02-02T13:28:22.370427",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete_41_Domaines.md"
@@ -1795,9 +987,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
+          "v",
           "guide",
-          "Wit-Studio",
-          "L"
+          "Wit-Studio"
         ]
       },
       {
@@ -1806,7 +998,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.683462",
+          "last_used": "2026-02-02T13:28:22.091644",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete.md"
@@ -1825,7 +1017,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.679046",
+          "last_used": "2026-02-02T13:28:22.299874",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -1834,8 +1026,8 @@
         "recommendation": "review",
         "alternative_tags": [
           "exemples",
-          "L",
-          "livre"
+          "v",
+          "L"
         ]
       },
       {
@@ -1844,7 +1036,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.567603",
+          "last_used": "2026-02-02T13:28:22.026244",
           "days_inactive": 0,
           "notes_using": [
             "Extraction_Physique_Verification.md"
@@ -1863,7 +1055,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.524963",
+          "last_used": "2026-02-02T13:28:22.301742",
           "days_inactive": 0,
           "notes_using": [
             "Guide_PC2_Disque_Externe.md"
@@ -1882,7 +1074,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.697924",
+          "last_used": "2026-02-02T13:28:22.138512",
           "days_inactive": 0,
           "notes_using": [
             "Guide_PC2_Disque_Externe.md"
@@ -1891,8 +1083,8 @@
         "recommendation": "review",
         "alternative_tags": [
           "physique",
-          "L",
-          "livre"
+          "v",
+          "L"
         ]
       },
       {
@@ -1901,7 +1093,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.695197",
+          "last_used": "2026-02-02T13:28:22.151961",
           "days_inactive": 0,
           "notes_using": [
             "Guide_PC2_Disque_Externe.md"
@@ -1910,8 +1102,8 @@
         "recommendation": "review",
         "alternative_tags": [
           "L",
-          "physique",
-          "------------------------------------------"
+          "v",
+          "physique"
         ]
       },
       {
@@ -1920,7 +1112,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.707166",
+          "last_used": "2026-02-02T13:28:22.072037",
           "days_inactive": 0,
           "notes_using": [
             "Guide_PC2_Disque_Externe.md"
@@ -1928,9 +1120,9 @@
         },
         "recommendation": "review",
         "alternative_tags": [
+          "v",
           "physique",
-          "wikipedia",
-          "L"
+          "wikipedia"
         ]
       },
       {
@@ -1939,7 +1131,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.684768",
+          "last_used": "2026-02-02T13:28:22.169805",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1958,7 +1150,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.607420",
+          "last_used": "2026-02-02T13:28:22.450110",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1977,7 +1169,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.701969",
+          "last_used": "2026-02-02T13:28:22.153391",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -1996,7 +1188,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.556319",
+          "last_used": "2026-02-02T13:28:22.203098",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
@@ -2015,7 +1207,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.655712",
+          "last_used": "2026-02-02T13:28:22.480865",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon.md"
@@ -2034,7 +1226,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.637844",
+          "last_used": "2026-02-02T13:28:22.031921",
           "days_inactive": 0,
           "notes_using": [
             "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Great Pretender.md"
@@ -2048,12 +1240,2064 @@
         ]
       },
       {
+        "tag": "Atias2004",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.474910",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Droit civil — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Asa-25",
+          "livre",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "ChemamaVandermersch2003",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.236768",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Psychanalyse — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "livre",
+          "Chez_les_chiens"
+        ]
+      },
+      {
+        "tag": "Clair",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.166729",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Psychanalyse — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "L",
+          "v"
+        ]
+      },
+      {
+        "tag": "LaplanchePontalis1984",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.362570",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Psychanalyse — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "histoire",
+          "Thomas-Malthus",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Belin_",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.281287",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Mythologie grecque — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "Chez_les_chiens",
+          "note-livre"
+        ]
+      },
+      {
+        "tag": "Bruit_ZaidmanSchmitt_Pantel1991",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.319468",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Mythologie grecque — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "livre",
+          "Joseph-Schumpeter"
+        ]
+      },
+      {
+        "tag": "Gantz2004",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.087199",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Mythologie grecque — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-WangTedford200874-14",
+          "cite_note-Asa-25",
+          "cite_note-cherin2013-16"
+        ]
+      },
+      {
+        "tag": "Sa",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.283577",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Mythologie grecque — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "L",
+          "v"
+        ]
+      },
+      {
+        "tag": "Cohen",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.190254",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Mécanique quantique — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Adam-Smith",
+          "livre",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "HarocheRaimondBrune1997",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.226402",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Mécanique quantique — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Kuniaki-Haishima",
+          "livre",
+          "wikidata"
+        ]
+      },
+      {
+        "tag": "Interpr",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.321656",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Mécanique quantique — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "v",
+          "livre",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "Intervalle_de_fluctuation",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.333795",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Mécanique quantique — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Fonction/Exponentielle",
+          "Mode_de_vie_et_reproduction",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "En_micro",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.196837",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Inflation — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Mode_de_vie_et_reproduction",
+          "Wit-Studio",
+          "v"
+        ]
+      },
+      {
+        "tag": "Interm",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.286877",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Inflation — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "v",
+          "XIX",
+          "XX"
+        ]
+      },
+      {
+        "tag": "Piketty2013",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.428333",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Inflation — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "v",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "view",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.383642",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Inflation — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "page",
+          "guide",
+          "v"
+        ]
+      },
+      {
+        "tag": "Autrand1994",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.493222",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Féodalité — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "v",
+          "XX"
+        ]
+      },
+      {
+        "tag": "BalardGenetRouche2003",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.250766",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Féodalité — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-WangTedford200874-14",
+          "smith/argent_conditions_valeur_",
+          "smith/prix_r"
+        ]
+      },
+      {
+        "tag": "Duby2007",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.351105",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Féodalité — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "v",
+          "L"
+        ]
+      },
+      {
+        "tag": "Ganshof1982",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.483377",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Féodalité — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "polish",
+          "histoire",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Gimpel1975",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.082480",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Féodalité — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Asa-25",
+          "cite_note-Mivart-9",
+          "cite_note-WangTedford200874-14"
+        ]
+      },
+      {
+        "tag": "Le_Goff2006",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.184989",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Féodalité — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "France",
+          "L"
+        ]
+      },
+      {
+        "tag": "Theis1990",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.155223",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Féodalité — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "wikipedia",
+          "livre",
+          "v"
+        ]
+      },
+      {
+        "tag": "Histoire_",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.164966",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Cellule (biologie) — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "histoire",
+          "livre",
+          "wikipedia"
+        ]
+      },
+      {
+        "tag": "10",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.295798",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "v",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "Aire",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.125996",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "v",
+          "L"
+        ]
+      },
+      {
+        "tag": "Baruk1992",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.156926",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "livre",
+          "cite_note-WangTedford200874-14"
+        ]
+      },
+      {
+        "tag": "Bkouche2017",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.357992",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-WangTedford200874-14",
+          "cite_note-Asa-25",
+          "v"
+        ]
+      },
+      {
+        "tag": "Chemla_et_Shuchun_2005",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.399167",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-WangTedford200874-14",
+          "Chez_les_chiens",
+          "cite_note-WangTedford200897"
+        ]
+      },
+      {
+        "tag": "Cousquer",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.454914",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "------------------------------------------",
+          "------------------------------"
+        ]
+      },
+      {
+        "tag": "Distance_euclidienne",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.309529",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Fonction/Exponentielle",
+          "Chez_les_chiens",
+          "physique"
+        ]
+      },
+      {
+        "tag": "Dupliquer_un_carr",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.253024",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Mode_de_vie_et_reproduction",
+          "Chez_les_chiens",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "H",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.364306",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "L",
+          "v",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Maor2007",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.217473",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Kuniaki-Haishima",
+          "Naoki-Urasawa",
+          "cite_note-Mivart-9"
+        ]
+      },
+      {
+        "tag": "Martzloff1990",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.396978",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/prix_r",
+          "smith/argent_conditions_valeur_",
+          "cite_note-WangTedford200874-14"
+        ]
+      },
+      {
+        "tag": "Martzloff2006",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.043030",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/prix_r",
+          "smith/argent_conditions_valeur_",
+          "John_Stuart-Mill"
+        ]
+      },
+      {
+        "tag": "Melville2004",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.215905",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "histoire",
+          "note-livre"
+        ]
+      },
+      {
+        "tag": "PWW",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.186584",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "v",
+          "L",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "Par_des_triangles_semblables",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.390900",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "Mode_de_vie_et_reproduction",
+          "Fonction/Exponentielle"
+        ]
+      },
+      {
+        "tag": "Par_le_puzzle_de_Gougu",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.078630",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "Mode_de_vie_et_reproduction",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "Proust2015",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.303279",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-sansalone2015-15",
+          "cite_note-cherin2013-16",
+          "cite_note-wroe2005-17"
+        ]
+      },
+      {
+        "tag": "Robson2002",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.107269",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "L",
+          "livre",
+          "v"
+        ]
+      },
+      {
+        "tag": "Rossi2007",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.209040",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "smith/prix_r",
+          "polish"
+        ]
+      },
+      {
+        "tag": "Triplets_pythagoriciens",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.336130",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-heptner1998-4",
+          "smith/argent_conditions_valeur_",
+          "Chez_les_chiens"
+        ]
+      },
+      {
+        "tag": "Vitrac1990",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.297584",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Asa-25",
+          "cite_note-miklosi2015-29",
+          "cite_note-cherin2013-16"
+        ]
+      },
+      {
+        "tag": "Vitrac1994",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.461539",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Asa-25",
+          "cite_note-miklosi2015-29",
+          "cite_note-cherin2013-16"
+        ]
+      },
+      {
+        "tag": "d1e136",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.243671",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Théorème de Pythagore — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-miklosi2015-29",
+          "cite_note-Asa-25",
+          "cite_note-cherin2013-16"
+        ]
+      },
+      {
+        "tag": "Bazin1994",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.416459",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Montage — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "v",
+          "cite_note-Asa-25"
+        ]
+      },
+      {
+        "tag": "BriselanceMorin2010",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.192071",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Montage — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "wikidata",
+          "cite_note-Asa-25",
+          "cite_note-Nowak2005-10"
+        ]
+      },
+      {
+        "tag": "EisensteinMarina_Berger",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.412541",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Montage — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "Robert-Heilbroner",
+          "Joseph-Schumpeter"
+        ]
+      },
+      {
+        "tag": "HitchcockTruffaut1985",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.259352",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Montage — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Alfred-Marshall",
+          "Joseph-Schumpeter",
+          "90s-Cinema"
+        ]
+      },
+      {
+        "tag": "J",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.210634",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Montage — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "L",
+          "v",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Le_montage_non_lin",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.180057",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Montage — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "Mode_de_vie_et_reproduction",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "Sadoul1968",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.036922",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Montage — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "histoire",
+          "v"
+        ]
+      },
+      {
+        "tag": "Vertov1923",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.183416",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Montage — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "histoire",
+          "smith/prix_r",
+          "Joseph-Schumpeter"
+        ]
+      },
+      {
+        "tag": "ANR1",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.373509",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Denier (monnaie) — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "v",
+          "L",
+          "livre"
+        ]
+      },
+      {
+        "tag": "ANR2",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.139844",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Denier (monnaie) — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "v",
+          "L",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Depeyrot2006",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.341675",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Denier (monnaie) — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Mode_de_vie_et_reproduction",
+          "cite_note-Asa-25",
+          "cite_note-cherin2013-16"
+        ]
+      },
+      {
+        "tag": "Marchetti1993",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.129626",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Denier (monnaie) — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-cherin2013-16",
+          "cite_note-Asa-25",
+          "cite_note-Mivart-9"
+        ]
+      },
+      {
+        "tag": "Mesures_de_masse",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.311597",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Denier (monnaie) — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Mode_de_vie_et_reproduction",
+          "smith/argent_conditions_valeur_",
+          "Chez_les_chiens"
+        ]
+      },
+      {
+        "tag": "Ar",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.142990",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Vinification — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "v",
+          "livre",
+          "L"
+        ]
+      },
+      {
+        "tag": "Gris_de_gris",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.418308",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Vinification — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Mode_de_vie_et_reproduction",
+          "Chez_les_chiens",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "La_saign",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.193765",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Vinification — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "L",
+          "Comportement"
+        ]
+      },
+      {
+        "tag": "Le_pressurage_direct",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.073530",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Vinification — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "Mode_de_vie_et_reproduction",
+          "France"
+        ]
+      },
+      {
+        "tag": "Techniques_d",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.487089",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Vinification — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "guide",
+          "extraction",
+          "L"
+        ]
+      },
+      {
+        "tag": "Viniculture",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.389261",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Vinification — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "philosophie",
+          "histoire"
+        ]
+      },
+      {
+        "tag": "Vinification",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.317907",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Vinification — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "verification",
+          "v",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Alexis_Philonenko2003",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.328203",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "russian_empire",
+          "smith/argent_conditions_valeur_"
+        ]
+      },
+      {
+        "tag": "Barreau2013",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.158889",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "cite_note-Asa-25",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Chevalley2019",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.306000",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-cherin2013-16",
+          "cite_note-miklosi2015-29",
+          "cite_note-Asa-25"
+        ]
+      },
+      {
+        "tag": "Dawes2023",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.131203",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-cherin2013-16",
+          "cite_note-miklosi2015-29",
+          "Chez_les_chiens"
+        ]
+      },
+      {
+        "tag": "Doctrine_de_la_science",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.213767",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "philosophie",
+          "The_Worldly_Philosophers",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Ferrier1854",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.221431",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "histoire",
+          "John_Stuart-Mill",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Godin2004",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.050715",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "philosophie",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "Le_Moigne1995",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.057606",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "smith/argent_conditions_valeur_",
+          "cite_note-cherin2013-16"
+        ]
+      },
+      {
+        "tag": "Lecourt2018",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.230215",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "L",
+          "Chez_les_chiens",
+          "livre"
+        ]
+      },
+      {
+        "tag": "LecourtBourgeois2006",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.101039",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "John_Maynard-Keynes",
+          "France",
+          "L"
+        ]
+      },
+      {
+        "tag": "Mach1904",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.171378",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "smith/prix_r",
+          "David-Ricardo"
+        ]
+      },
+      {
+        "tag": "Nadeau2016",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.375213",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "XIX",
+          "v"
+        ]
+      },
+      {
+        "tag": "PPA11",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.144658",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Asa-25",
+          "cite_note-Ewer1973-11",
+          "v"
+        ]
+      },
+      {
+        "tag": "Philosophie_de_la_Nature",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.046807",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "philosophie",
+          "The_Worldly_Philosophers",
+          "Thomas-Malthus"
+        ]
+      },
+      {
+        "tag": "Philosophie_et_sciences_de_la_nature",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.021784",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "philosophie",
+          "The_Worldly_Philosophers",
+          "Thomas-Malthus"
+        ]
+      },
+      {
+        "tag": "Renault2001",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.387368",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "France",
+          "smith/argent_conditions_valeur_",
+          "polish"
+        ]
+      },
+      {
+        "tag": "Rey1992",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.424458",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "livre",
+          "Mode_de_vie_et_reproduction"
+        ]
+      },
+      {
+        "tag": "ReyRey-Debove2007",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.038514",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Mode_de_vie_et_reproduction",
+          "smith/argent_conditions_valeur_",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Schmid1983",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.069910",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Joseph-Schumpeter",
+          "cite_note-Asa-25",
+          "cite_note-miklosi2015-29"
+        ]
+      },
+      {
+        "tag": "Schmid2019",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.035215",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Joseph-Schumpeter",
+          "cite_note-Asa-25",
+          "cite_note-miklosi2015-29"
+        ]
+      },
+      {
+        "tag": "Soler2000",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.044976",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "v",
+          "livre",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "Soler2019",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.059265",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "v",
+          "------------------------------------------"
+        ]
+      },
+      {
+        "tag": "Trinquecoste2022",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.017464",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Fonction/Cosinus",
+          "cite_note-Asa-25",
+          "cite_note-miklosi2015-29"
+        ]
+      },
+      {
+        "tag": "Wagner2002",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.219629",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/prix_r",
+          "livre",
+          "Adam-Smith"
+        ]
+      },
+      {
+        "tag": "i_0",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.407437",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-tedford2009-1",
+          "XX",
+          "cite_note-Nowak2005-10"
+        ]
+      },
+      {
+        "tag": "i_34482",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.465257",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-miklosi2015-29",
+          "cite_note-cherin2013-16",
+          "cite_note-Asa-25"
+        ]
+      },
+      {
+        "tag": "s2",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.261227",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Épistémologie — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "v",
+          "L",
+          "XX"
+        ]
+      },
+      {
+        "tag": "Amic2020",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.380244",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Asa-25",
+          "cite_note-cherin2013-16",
+          "cite_note-miklosi2015-29"
+        ]
+      },
+      {
+        "tag": "Breuille1992",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.113120",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "L",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Duranty1876",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.463377",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "histoire",
+          "livre",
+          "Robert-Heilbroner"
+        ]
+      },
+      {
+        "tag": "Ferretti-Bocquillon2018",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.266087",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "smith/prix_r",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Gunnarsson1998",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.232039",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "polish",
+          "Masayuki-Kojima",
+          "smith/prix_r"
+        ]
+      },
+      {
+        "tag": "Joyeux-Prunel2015",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.049068",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "cite_note-sansalone2015-15",
+          "cite_note-wroe2005-17"
+        ]
+      },
+      {
+        "tag": "Laurent1984",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.338066",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "polish",
+          "livre",
+          "L"
+        ]
+      },
+      {
+        "tag": "Lista2005",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.429974",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "tous-domaines",
+          "v"
+        ]
+      },
+      {
+        "tag": "Loyrette1994",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.330330",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "L",
+          "Comportement"
+        ]
+      },
+      {
+        "tag": "Moffett1983",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.240276",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "smith/argent_conditions_valeur_",
+          "Fonction/Cosinus",
+          "livre"
+        ]
+      },
+      {
+        "tag": "Nocq1894",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.434990",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-Asa-25",
+          "cite_note-miklosi2015-29",
+          "cite_note-cherin2013-16"
+        ]
+      },
+      {
+        "tag": "Patry2014",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.313718",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "v",
+          "L"
+        ]
+      },
+      {
+        "tag": "Wildenstein1996",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.347515",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Alfred-Marshall",
+          "histoire",
+          "livre"
+        ]
+      },
+      {
+        "tag": "search",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.285308",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Impressionnisme — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "wikipedia",
+          "extraction",
+          "L"
+        ]
+      },
+      {
         "tag": "Badem2010",
         "issue": "low_usage",
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.539862",
+          "last_used": "2026-02-02T13:28:22.485057",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2072,7 +3316,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.732984",
+          "last_used": "2026-02-02T13:28:22.041756",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2081,8 +3325,8 @@
         "recommendation": "review",
         "alternative_tags": [
           "livre",
-          "smith/argent_conditions_valeur_",
-          "------------------------------------------"
+          "v",
+          "smith/argent_conditions_valeur_"
         ]
       },
       {
@@ -2091,7 +3335,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.670885",
+          "last_used": "2026-02-02T13:28:22.273298",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2101,7 +3345,7 @@
         "alternative_tags": [
           "livre",
           "XX",
-          "Robert-Heilbroner"
+          "v"
         ]
       },
       {
@@ -2110,7 +3354,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.576517",
+          "last_used": "2026-02-02T13:28:22.173268",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2129,7 +3373,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.583743",
+          "last_used": "2026-02-02T13:28:22.040250",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2148,7 +3392,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.570984",
+          "last_used": "2026-02-02T13:28:22.392765",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2167,7 +3411,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.551605",
+          "last_used": "2026-02-02T13:28:22.316326",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2186,7 +3430,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.602288",
+          "last_used": "2026-02-02T13:28:22.233611",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2205,7 +3449,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.538261",
+          "last_used": "2026-02-02T13:28:22.456788",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2224,7 +3468,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.549537",
+          "last_used": "2026-02-02T13:28:22.241804",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2243,7 +3487,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.682002",
+          "last_used": "2026-02-02T13:28:22.411078",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2253,7 +3497,7 @@
         "alternative_tags": [
           "livre",
           "L",
-          "note-livre"
+          "v"
         ]
       },
       {
@@ -2262,7 +3506,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.542550",
+          "last_used": "2026-02-02T13:28:22.029285",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2271,8 +3515,8 @@
         "recommendation": "review",
         "alternative_tags": [
           "David-Ricardo",
-          "L",
-          "livre"
+          "v",
+          "L"
         ]
       },
       {
@@ -2281,7 +3525,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.544707",
+          "last_used": "2026-02-02T13:28:22.084077",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2300,7 +3544,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.609317",
+          "last_used": "2026-02-02T13:28:22.146142",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2310,7 +3554,7 @@
         "alternative_tags": [
           "livre",
           "Chez_les_chiens",
-          "smith/argent_conditions_valeur_"
+          "v"
         ]
       },
       {
@@ -2319,7 +3563,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.635212",
+          "last_used": "2026-02-02T13:28:22.096516",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2338,7 +3582,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.641027",
+          "last_used": "2026-02-02T13:28:22.354736",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2357,7 +3601,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.600674",
+          "last_used": "2026-02-02T13:28:22.188213",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2376,7 +3620,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.720227",
+          "last_used": "2026-02-02T13:28:22.147540",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Guerre de Crimée — Wikipédia.md"
@@ -2390,44 +3634,131 @@
         ]
       },
       {
-        "tag": "v",
+        "tag": "Distinction_entre_rimes_f",
         "issue": "low_usage",
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-02T13:17:18.518830",
+          "last_used": "2026-02-02T13:28:22.174759",
           "days_inactive": 0,
           "notes_using": [
-            "Clippings/Guerre de Crimée — Wikipédia.md"
+            "Clippings/Sonnet — Wikipédia.md"
           ]
         },
         "recommendation": "review",
         "alternative_tags": [
-          "L",
+          "smith/argent_conditions_valeur_",
+          "Chez_les_chiens",
+          "Fonction/Exponentielle"
+        ]
+      },
+      {
+        "tag": "Rimes_crois",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.099348",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Sonnet — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-ref_auto_1-21",
+          "cite_note-heptner1998-4",
+          "cite_note-Asa-25"
+        ]
+      },
+      {
+        "tag": "Rimes_embrass",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.060707",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Sonnet — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "cite_note-heptner1998-4",
+          "cite_note-ref_auto_1-21",
+          "cite_note-tedford2009-1"
+        ]
+      },
+      {
+        "tag": "Wyczynski_1960",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.065392",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Sonnet — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "histoire",
           "livre",
-          "------------------------------------------"
+          "L"
+        ]
+      },
+      {
+        "tag": "La_variante_Winawer",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-02T13:28:22.222973",
+          "days_inactive": 0,
+          "notes_using": [
+            "Clippings/Ouverture (échecs) — Wikipédia.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Chez_les_chiens",
+          "smith/argent_conditions_valeur_",
+          "Mode_de_vie_et_reproduction"
         ]
       }
     ],
     "redundant_tags": [
       {
-        "id": "rg_8992",
+        "id": "rg_8290",
         "tags": [
-          "------",
-          "------------------------------",
-          "--------------------",
-          "---------------------------------------",
-          "------------------------------------------"
+          "Histoire_",
+          "histoire"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "------": 1,
-          "------------------------------": 2,
-          "--------------------": 1,
-          "---------------------------------------": 1,
-          "------------------------------------------": 2
+          "Histoire_": 1,
+          "histoire": 4
         },
-        "recommended": "------------------------------"
+        "recommended": "histoire"
+      },
+      {
+        "id": "rg_2313",
+        "tags": [
+          "Mammif",
+          "vocabulaire",
+          "exclrw",
+          "Comportement"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "Mammif": 2,
+          "vocabulaire": 2,
+          "exclrw": 2,
+          "Comportement": 2
+        },
+        "recommended": "Mammif"
       }
     ]
   },
@@ -2488,9 +3819,9 @@
         "vii,"
       ],
       "suggested_tags": [
+        "livre",
         "note-The_Wealth_of_Nations",
-        "note-livre",
-        "livre"
+        "note-livre"
       ]
     },
     {
@@ -2514,19 +3845,19 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Medical-Drama",
-        "Madhouse",
-        "Naoki-Urasawa"
+        "Naoki-Urasawa",
+        "Psychological-Thriller",
+        "Masayuki-Kojima"
       ]
     }
   ],
   "stats": {
-    "total_notes": 229,
-    "analyzed_notes": 229,
-    "total_tags": 153,
-    "active_tags": 153,
-    "latent_tags": 32,
-    "health_score": 0.83
+    "total_notes": 245,
+    "analyzed_notes": 245,
+    "total_tags": 269,
+    "active_tags": 269,
+    "latent_tags": 18,
+    "health_score": 0.69
   },
   "vocabulary_actions": [
     {

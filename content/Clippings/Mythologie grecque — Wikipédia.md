@@ -204,7 +204,7 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 - Charles Delattre, *Manuel de mythologie grecque*, Paris, Bréal, 2005.
 - (en) Lowell Edmunds, Greek Myth, Berlin et Boston, De Gruyter,
 - Ariane Eissen, *Les Mythes grecs*, Belin, 2010.
-- [Timothy Gantz](https://fr.wikipedia.org/wiki/Timothy_Gantz "Timothy Gantz"), Mythes de la Grèce archaïque, [Belin](https://fr.wikipedia.org/wiki/Belin_%C3%A9diteur "Belin éditeur"), \[[détail de l’édition](https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rence:Early_Greek_Myth_\(Timothy_Gantz\)#Belin_\(traduction_fran%C3%A7aise\) "Référence:Early Greek Myth (Timothy Gantz)")\].
+- [Timothy Gantz](https://fr.wikipedia.org/wiki/Timothy_Gantz "Timothy Gantz"), Mythes de la Grèce archaïque, [Belin](https://fr.wikipedia.org/wiki/Belin_%C3%A9diteur "Belin éditeur"), \[[détail de l’édition](https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rence:Early_Greek_Myth_\(Timothy_Gantz\)\(traduction_fran%C3%A7aise\) "Référence:Early Greek Myth (Timothy Gantz)")\].
 - (de) Fritz Graf, Griechische Mythologie: eine Einführung, Düsseldorf, Patmos Verlag, .
 - [Pierre Grimal](https://fr.wikipedia.org/wiki/Pierre_Grimal "Pierre Grimal"), La Mythologie grecque, Paris, [PUF](https://fr.wikipedia.org/wiki/Presses_universitaires_de_France "Presses universitaires de France"), coll. « [Que sais-je?](https://fr.wikipedia.org/wiki/Que_sais-je_%3F "Que sais-je ?") », , 19 <sup>e</sup> éd., 128 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-13-053858-5](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-13-053858-5 "Spécial:Ouvrages de référence/978-2-13-053858-5"), [lire en ligne](http://www.cairn.info/la-mythologie-grecque--9782130538585.htm) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.cairn.info%2Fla-mythologie-grecque--9782130538585.htm "archive sur Wikiwix")\]).
 - [Georges Hacquard](https://fr.wikipedia.org/wiki/Georges_Hacquard "Georges Hacquard"), Guide mythologique de la Grèce et de Rome, Paris, Hachette éducation, coll. « [Hachette Éducation](https://fr.wikipedia.org/wiki/Hachette_Livre "Hachette Livre") », , 351 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2-01-015971-3](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-01-015971-3 "Spécial:Ouvrages de référence/2-01-015971-3")).
@@ -243,15 +243,15 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 - [Portail de la mythologie grecque](https://fr.wikipedia.org/wiki/Portail:Mythologie_grecque "Portail:Mythologie grecque")
 - [Portail de la Grèce antique](https://fr.wikipedia.org/wiki/Portail:Gr%C3%A8ce_antique "Portail:Grèce antique")
 
-[^1]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 10 et 12.
+[^1]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 10 et 12.
 
-[^2]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 5.
+[^2]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 5.
 
-[^3]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 10.
+[^3]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 10.
 
-[^4]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 135.
+[^4]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 135.
 
-[^5]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 99-104.
+[^5]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 99-104.
 
 [^6]: Gunnel Ekroth, *The Sacrificial Rituals of Greek Hero-Cults in the Archaic to the Early Hellenistic Periods*, *Kernos* Supplément, 12, Liège, Centre International d'Étude de la Religion Grecque Antique, 2002. [Compte rendu par Jesper Jensen sur le site Bryn Mawr Classical Review le 23 juin 2003](http://bmcr.brynmawr.edu/2003/2003-06-28.html) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fbmcr.brynmawr.edu%2F2003%2F2003-06-28.html "archive sur Wikiwix")\]. Page consultée le 16 août 2010.
 
@@ -259,27 +259,27 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^8]: Hérodote, *Enquête*, texte présenté, traduit et annoté par Andrée Barguet, tome 1, Paris, Gallimard, Folio, 1964, p. 188.
 
-[^9]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 33.
+[^9]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 33.
 
 [^10]: *Iliade*, XIX, 524-605.
 
-[^11]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 38-39.
+[^11]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 38-39.
 
-[^12]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 50.
+[^12]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 50.
 
 [^13]: François Lissarrague, *Un flot d'images. Une esthétique du banquet grec*, Paris, Biro, 1987.
 
 [^14]: François Lissarrague, « De la sexualité des satyres », article dans *Mètis*, vol. 2, n <sup>o</sup>  2-1, 1987, p. 63-90 \[[lire en ligne](http://www.persee.fr/web/revues/home/prescript/article/metis_1105-2201_1987_num_2_1_884?_Prescripts_Search_isPortletOuvrage=false) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.persee.fr%2Fweb%2Frevues%2Fhome%2Fprescript%2Farticle%2Fmetis_1105-2201_1987_num_2_1_884%3F_Prescripts_Search_isPortletOuvrage%3Dfalse "archive sur Wikiwix")\]\].
 
-[^15]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 71–72.
+[^15]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 71–72.
 
-[^16]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 73-74.
+[^16]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 73-74.
 
-[^17]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 74-75.
+[^17]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 74-75.
 
 [^18]: *Enquête*, I, 1-5.
 
-[^19]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 76.
+[^19]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 76.
 
 [^20]: Plutarque, *Vie de Thésée*, I, 5, traduction d'Anne-Marie Ozanam, dans *Vies parallèles*, Gallimard, Quarto, 2001, p. 61.
 
@@ -287,7 +287,7 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^22]: Paul Veyne (1983), chapitre « Quand la vérité historique était tradition et vulgate », p. 20.
 
-[^23]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 65-71.
+[^23]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 65-71.
 
 [^24]: Isocrate, *Panégyrique*, §63.
 
@@ -301,23 +301,23 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^29]: Voir l'article d'Aikaterini Lefka, « La présence des divinités traditionnelles dans l'œuvre de Platon », in *Les Dieux de Platon*, Actes du colloque organisé à l'Université de Caen Basse-Normandie les 24, 25 et 26 janvier 2002, textes réunis et présentés par Jérôme Laurent, Presses Universitaires de Caen, 2003.
 
-[^30]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 86-89.
+[^30]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 86-89.
 
 [^31]: Pierre Vidal-Naquet, *L'Atlantide. Petite histoire d'un mythe platonicien*, Paris, Belles Lettres, 2005.
 
-[^32]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 121–126.
+[^32]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 121–126.
 
 [^33]: *Iliade*, XIV, 201.
 
-[^34]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 15. Ces cosmogonies existaient déjà à l'époque d' [Aristophane](https://fr.wikipedia.org/wiki/Aristophane "Aristophane"), qui en imagine une parodie dans sa comédie *[Les Oiseaux](https://fr.wikipedia.org/wiki/Les_Oiseaux_\(Aristophane\) "Les Oiseaux (Aristophane)")* (v. 692-701).
+[^34]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 15. Ces cosmogonies existaient déjà à l'époque d' [Aristophane](https://fr.wikipedia.org/wiki/Aristophane "Aristophane"), qui en imagine une parodie dans sa comédie *[Les Oiseaux](https://fr.wikipedia.org/wiki/Les_Oiseaux_\(Aristophane\) "Les Oiseaux (Aristophane)")* (v. 692-701).
 
-[^35]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 123-126.
+[^35]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 123-126.
 
 [^36]: Sur ces récits, voir [Marcel Detienne](https://fr.wikipedia.org/wiki/Marcel_Detienne "Marcel Detienne"), *Dionysos mis à mort*, Paris, Gallimard, 1977.
 
-[^37]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 14–16.
+[^37]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 14–16.
 
-[^38]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 269.
+[^38]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 269.
 
 [^39]: *Trav.*, 109-201.
 
@@ -325,7 +325,7 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^41]: Sur ce sujet, voir Nicole Loraux, *Né de la terre. Politique et autochtonie à Athènes*, Seuil, 1996.
 
-[^42]: Sur les problèmes posés par les sources archaïques, voir [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 292-296.
+[^42]: Sur les problèmes posés par les sources archaïques, voir [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 292-296.
 
 [^43]: *Olympiques*, IX, 41-55.
 
@@ -335,13 +335,13 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^46]: Sur ce point, voir « Prométhée et la fonction technique », dans Jean-Pierre Vernant, *Mythe et pensée chez les Grecs*, en particulier p.264-267 de l'édition La Découverte (1996).
 
-[^47]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 217-222.
+[^47]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 217-222.
 
-[^48]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 217.
+[^48]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 217.
 
-[^49]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 222-241.
+[^49]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 222-241.
 
-[^50]: *[Iliade](https://fr.wikipedia.org/wiki/Iliade "Iliade")*, VIII, 369, et XXIII, 73-74, cités par [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 224.
+[^50]: *[Iliade](https://fr.wikipedia.org/wiki/Iliade "Iliade")*, VIII, 369, et XXIII, 73-74, cités par [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 224.
 
 [^51]: *Périégèse*, X, 28 et suivants.
 
@@ -351,19 +351,19 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^54]: *Théogonie*, 735-745.
 
-[^55]: Cf. l'analyse de [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 231-232.
+[^55]: Cf. l'analyse de [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 231-232.
 
-[^56]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 233, fait cette remarque en analysant une probable [interpolation](https://fr.wikipedia.org/wiki/Interpolation_\(philologie\) "Interpolation (philologie)") dans un passage du *[Bouclier](https://fr.wikipedia.org/wiki/Le_Bouclier_d%27H%C3%A9racl%C3%A8s "Le Bouclier d'Héraclès")* (v. 254-255).
+[^56]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 233, fait cette remarque en analysant une probable [interpolation](https://fr.wikipedia.org/wiki/Interpolation_\(philologie\) "Interpolation (philologie)") dans un passage du *[Bouclier](https://fr.wikipedia.org/wiki/Le_Bouclier_d%27H%C3%A9racl%C3%A8s "Le Bouclier d'Héraclès")* (v. 254-255).
 
 [^57]: *Odyssée*, IV, 561-569.
 
-[^58]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 237.
+[^58]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 237.
 
 [^59]: *Trav.*, 156-173.
 
 [^60]: *Odyssée*, chant XI.
 
-[^61]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 241.
+[^61]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 241.
 
 [^62]: Hérodote, *Enquête*, I, 131.
 
@@ -383,7 +383,7 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^70]: *Odyssée*, X, 306.
 
-[^71]: Voir [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 118-119 (qui reprend un tableau extrait du *Thesaurus* de l' *Encyclopaedia Universalis*), et [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 21-22.
+[^71]: Voir [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 118-119 (qui reprend un tableau extrait du *Thesaurus* de l' *Encyclopaedia Universalis*), et [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 21-22.
 
 [^72]: *Théogonie*, 115-153.
 
@@ -415,11 +415,11 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^86]: M. C. Howatson (dir.), Dictionnaire de l'antiquité: mythologie, littérature, civilisation, Laffont, ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-221-06800-7](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-221-06800-7 "Spécial:Ouvrages de référence/978-2-221-06800-7")), « héros », p.497-498.
 
-[^87]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 25.
+[^87]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 25.
 
-[^88]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 142. Les auteures indiquent également que, contrairement à une théorie réfutée par la suite, qui distinguait les cultes divins « ouraniens » et les cultes héroïques « chtoniens », les modalités du culte des héros étaient en fait, le plus souvent, très proches de celles du culte des dieux.
+[^88]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 142. Les auteures indiquent également que, contrairement à une théorie réfutée par la suite, qui distinguait les cultes divins « ouraniens » et les cultes héroïques « chtoniens », les modalités du culte des héros étaient en fait, le plus souvent, très proches de celles du culte des dieux.
 
-[^89]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/#Bruit_ZaidmanSchmitt_Pantel1991), p. 142.
+[^89]: [Bruit Zaidman et Schmitt Pantel 1991](https://fr.wikipedia.org/wiki/), p. 142.
 
 [^90]: Voir Jean-Pierre Vernant, «  Le mythe hésiodique des races. Essai d'analyse structurale  », *Revue de l'histoire des religions*, vol. 157, n <sup>o</sup> 1,, p.21-54 ([ISSN](https://fr.wikipedia.org/wiki/International_Standard_Serial_Number "International Standard Serial Number") [0035-1423](https://portal.issn.org/resource/issn/0035-1423), [DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier "Digital Object Identifier") [10.3406/rhr.1960.8997](https://dx.doi.org/10.3406/rhr.1960.8997), [lire en ligne](https://www.persee.fr/doc/rhr_0035-1423_1960_num_157_1_8997) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.persee.fr%2Fdoc%2Frhr_0035-1423_1960_num_157_1_8997 "archive sur Wikiwix")\], consulté le ), ainsi que les autres études consacrées à ce sujet dans Jean-Pierre Vernant, Mythe et pensée chez les Grecs: Études de psychologie historique, La Découverte Poche, coll. « Sciences humaines et sociales » (n <sup>o</sup> 13),, 434 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [9782707146502](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/9782707146502 "Spécial:Ouvrages de référence/9782707146502")) et les études qui y sont citées.
 
@@ -427,19 +427,19 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^92]: [Anatole Bailly](https://fr.wikipedia.org/wiki/Anatole_Bailly "Anatole Bailly"), Dictionnaire grec-français, Hachette, ([lire en ligne](https://bailly.app/h%C3%AAr%C3%B4s) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbailly.app%2Fh%25C3%25AAr%25C3%25B4s "archive sur Wikiwix")\]), « ἥρως ».
 
-[^93]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 29-30.
+[^93]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 29-30.
 
-[^94]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), chap. XIV (« Thèbes »), p. 823-938.
+[^94]: [Gantz 2004](https://fr.wikipedia.org/wiki/), chap. XIV (« Thèbes »), p. 823-938.
 
-[^95]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 939-980.
+[^95]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 939-980.
 
-[^96]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), chap. VII (« La famille royale d'Athènes »), p. 407-450.
+[^96]: [Gantz 2004](https://fr.wikipedia.org/wiki/), chap. VII (« La famille royale d'Athènes »), p. 407-450.
 
-[^97]: Sur la question, cf. [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 407-411.
+[^97]: Sur la question, cf. [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 407-411.
 
-[^98]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 31.
+[^98]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 31.
 
-[^99]: [Gantz 2004](https://fr.wikipedia.org/wiki/#Gantz2004), p. 981-1166.
+[^99]: [Gantz 2004](https://fr.wikipedia.org/wiki/), p. 981-1166.
 
 [^100]: Suzanne Saïd, Monique Trédé et Alain Le Boulluec, Histoire de la littérature grecque, Paris, Presses universitaires de France, coll. « Premier Cycle », ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2130482333](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2130482333 "Spécial:Ouvrages de référence/2130482333") et [978-2130482338](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2130482338 "Spécial:Ouvrages de référence/978-2130482338")), p.51-52.
 
@@ -453,11 +453,11 @@ La mythologie grecque occupe une place importante dans « l'Antiquité imaginair
 
 [^105]: Marcel Detienne (1981), chapitre 1, p.33-37.
 
-[^106]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 106-107.
+[^106]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 106-107.
 
-[^107]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 107.
+[^107]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 107.
 
-[^108]: [Saïd 2008](https://fr.wikipedia.org/wiki/#Sa%C3%AFd2008), p. 107-108.
+[^108]: [Saïd 2008](https://fr.wikipedia.org/wiki/%C3%AFd2008), p. 107-108.
 
 [^109]: Claude Lévi-Strauss, *La Pensée sauvage*, Plon, 1962.
 

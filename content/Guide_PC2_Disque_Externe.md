@@ -3,9 +3,7 @@ title: "Guide PC2 - Extraction sur Disque Externe F:\\"
 date: 2026-02-01
 tags:
   - extraction
-  - pc2
-  - disque-externe
-  - f-drive
+
 ---
 
 # Guide PC2 - Extraction sur Disque Externe F:\
@@ -125,7 +123,7 @@ python watch_pc2_external.py
 
 Affichage :
 ```
-[15:30:45] PC2: [##########------] 25.0% |
+[15:30:45] PC2: [#########] 25.0% |
            Domaines: 5/21 | Temps: 12h23min |
            En cours: cinema (Arts Audiovisuels)
 ```

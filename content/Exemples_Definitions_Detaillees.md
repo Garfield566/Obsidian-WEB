@@ -3,7 +3,6 @@ title: "Exemples Détaillés - Définitions Mathématiques"
 date: 2026-01-31
 tags:
   - mathematiques
-  - definitions
   - exemples
 ---
 

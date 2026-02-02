@@ -1,6 +1,6 @@
 ---
 brand: Lip
-cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkJP8Hcq-yL26kBg0At9w&s"
+cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkP8cq-yL26kBg0At9w&s"
 tags: []
 created: "1867"
 ed: no

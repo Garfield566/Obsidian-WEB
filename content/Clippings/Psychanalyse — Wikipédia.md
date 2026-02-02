@@ -100,7 +100,7 @@ Le rêve est donc composé:
 - du [contenu manifeste du rêve](https://fr.wikipedia.org/wiki/Contenu_manifeste_du_r%C3%AAve "Contenu manifeste du rêve"), c'est-à-dire ce qu'on en retient, les images qui parviennent jusqu'à la conscience;
 - du [contenu latent](https://fr.wikipedia.org/wiki/Contenu_latent "Contenu latent"): le sens inconscient, ce que le [travail du rêve](https://fr.wikipedia.org/wiki/Travail_du_r%C3%AAve "Travail du rêve") transforme en contenu manifeste.
 
-Le [travail du rêve](https://fr.wikipedia.org/wiki/Travail_du_r%C3%AAve "Travail du rêve") est un mécanisme psychique qui déforme le contenu latent <sup><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Style_encyclop%C3%A9dique#Clair" title="Wikipédia:Style encyclopédique">[pas clair]</a></sup>; le travail d'analyse consiste à interpréter le contenu manifeste pour retrouver le sens caché. Cette interprétation passe donc par le travail d'analyse du rêve.
+Le [travail du rêve](https://fr.wikipedia.org/wiki/Travail_du_r%C3%AAve "Travail du rêve") est un mécanisme psychique qui déforme le contenu latent <sup><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Style_encyclop%C3%A9dique" title="Wikipédia:Style encyclopédique">[pas clair]</a></sup>; le travail d'analyse consiste à interpréter le contenu manifeste pour retrouver le sens caché. Cette interprétation passe donc par le travail d'analyse du rêve.
 
 Freud distingue plusieurs mécanismes psychiques:
 
@@ -553,15 +553,15 @@ Entre autres:
 - [Portail de la psychologie](https://fr.wikipedia.org/wiki/Portail:Psychologie "Portail:Psychologie")
 - [Portail de la psychanalyse](https://fr.wikipedia.org/wiki/Portail:Psychanalyse "Portail:Psychanalyse")
 
-[^1]: Selon [Laplanche et Pontalis 1984](https://fr.wikipedia.org/wiki/#LaplanchePontalis1984), cette définition de Freud, ainsi traduite dans le *[Vocabulaire de la psychanalyse](https://fr.wikipedia.org/wiki/Vocabulaire_de_la_psychanalyse "Vocabulaire de la psychanalyse")* (1967), figure « au début de l'article de l' *Encyclopédie* paru en 1922 »: il s'agit de la première publication de *« Psychoanalyse » und « Libidotheorie »* dans le *Handwörterbuch der Sexualwissenschaft. Enzyklopädie der natur- und kulturwissenschaftlichen Sexualkunde des Menschen* (« Lexique de science sexuelle. Encyclopédie de la sexologie humaine en tant que science de la nature et de la culture ») de [Max Marcuse](https://fr.wikipedia.org/w/index.php?title=Max_Marcuse&action=edit&redlink=1 "Max Marcuse (page inexistante)") [(de)](https://de.wikipedia.org/wiki/Max_Marcuse "de:Max Marcuse") (Bonn, A. Marcus & E. Weber, 1923, p. 296-298 et 377-383), les deux articles [« Psychanalyse » et « Théorie de la libido »](https://fr.wikipedia.org/wiki/Psychanalyse_et_Th%C3%A9orie_de_la_libido "Psychanalyse et Théorie de la libido") ayant été écrits par Freud durant l'été 1922 (Notice au texte de Freud *« Psychanalyse » et « Théorie de la libido »* dans les *[OCF.P](https://fr.wikipedia.org/wiki/OCF.P "OCF.P")*, tome XVI, 1991, p. 182).
+[^1]: Selon [Laplanche et Pontalis 1984](https://fr.wikipedia.org/wiki/), cette définition de Freud, ainsi traduite dans le *[Vocabulaire de la psychanalyse](https://fr.wikipedia.org/wiki/Vocabulaire_de_la_psychanalyse "Vocabulaire de la psychanalyse")* (1967), figure « au début de l'article de l' *Encyclopédie* paru en 1922 »: il s'agit de la première publication de *« Psychoanalyse » und « Libidotheorie »* dans le *Handwörterbuch der Sexualwissenschaft. Enzyklopädie der natur- und kulturwissenschaftlichen Sexualkunde des Menschen* (« Lexique de science sexuelle. Encyclopédie de la sexologie humaine en tant que science de la nature et de la culture ») de [Max Marcuse](https://fr.wikipedia.org/w/index.php?title=Max_Marcuse&action=edit&redlink=1 "Max Marcuse (page inexistante)") [(de)](https://de.wikipedia.org/wiki/Max_Marcuse "de:Max Marcuse") (Bonn, A. Marcus & E. Weber, 1923, p. 296-298 et 377-383), les deux articles [« Psychanalyse » et « Théorie de la libido »](https://fr.wikipedia.org/wiki/Psychanalyse_et_Th%C3%A9orie_de_la_libido "Psychanalyse et Théorie de la libido") ayant été écrits par Freud durant l'été 1922 (Notice au texte de Freud *« Psychanalyse » et « Théorie de la libido »* dans les *[OCF.P](https://fr.wikipedia.org/wiki/OCF.P "OCF.P")*, tome XVI, 1991, p. 182).
 
 [^2]: [^15]
 
 [^3]: Dans les *Cinq leçons sur la psychanalyse*, il précise ainsi sa pensée: « Vous remarquerez déjà que le psychanalyste se distingue par sa foi dans le [déterminisme](https://fr.wikipedia.org/wiki/D%C3%A9terminisme "Déterminisme") de la vie psychique. Celle-ci n'a, à ses yeux, rien d'arbitraire ni de fortuit; il imagine une cause particulière là où, d'habitude, on n'a pas l'idée d'en supposer. »
 
-[^4]: *Trieb* en allemand (*instinct ou drive* en anglais), rendu dans certaines traductions plus anciennes par « instinct »: le *Vocabulaire de la psychanalyse* justifie la traduction française à présent adoptée de « pulsion » pour *Trieb* en raison de la racine germanique du mot (*treiben* = pousser), ainsi que sur la base de l'emploi différencié, « dans des acceptions nettement distinctes », que fait Freud de *Instinkt* (comportement animal selon l' [hérédité](https://fr.wikipedia.org/wiki/H%C3%A9r%C3%A9dit%C3%A9 "Hérédité") comme caractéristique de l' [espèce](https://fr.wikipedia.org/wiki/Esp%C3%A8ce "Espèce")) et de *Trieb* ([Laplanche et Pontalis 1984](https://fr.wikipedia.org/wiki/#LaplanchePontalis1984), « Pulsion », p. 360).
+[^4]: *Trieb* en allemand (*instinct ou drive* en anglais), rendu dans certaines traductions plus anciennes par « instinct »: le *Vocabulaire de la psychanalyse* justifie la traduction française à présent adoptée de « pulsion » pour *Trieb* en raison de la racine germanique du mot (*treiben* = pousser), ainsi que sur la base de l'emploi différencié, « dans des acceptions nettement distinctes », que fait Freud de *Instinkt* (comportement animal selon l' [hérédité](https://fr.wikipedia.org/wiki/H%C3%A9r%C3%A9dit%C3%A9 "Hérédité") comme caractéristique de l' [espèce](https://fr.wikipedia.org/wiki/Esp%C3%A8ce "Espèce")) et de *Trieb* ([Laplanche et Pontalis 1984](https://fr.wikipedia.org/wiki/), « Pulsion », p. 360).
 
-[^5]: [Laplanche et Pontalis 1984](https://fr.wikipedia.org/wiki/#LaplanchePontalis1984), « Psychanalyse », p. 351.
+[^5]: [Laplanche et Pontalis 1984](https://fr.wikipedia.org/wiki/), « Psychanalyse », p. 351.
 
 [^6]: [Roger Perron](https://fr.wikipedia.org/wiki/Roger_Perron "Roger Perron"), Histoire de la psychanalyse, Paris, [PUF](https://fr.wikipedia.org/wiki/Presses_universitaires_de_France "Presses universitaires de France"), coll. « Que sais-je? »,, 5 <sup>e</sup> éd. (1 <sup>re</sup> éd. 1988), 127 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-13-063375-4](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-13-063375-4 "Spécial:Ouvrages de référence/978-2-13-063375-4")), p.3-9.
 
@@ -581,11 +581,11 @@ Entre autres:
 
 [^14]: Liliane Maury, « Sigmund Freud présenté par lui-même », dans Liliane Maury, *Les émotions de Darwin à Freud*, Paris, [Presses Universitaires de France](https://fr.wikipedia.org/wiki/Presses_universitaires_de_France "Presses universitaires de France"), « Philosophies », 1993, p.101-107 \[[lire en ligne](https://www.cairn.info/article.php?ID_ARTICLE=PUF_MAURY_1993_01_0101) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.cairn.info%2Farticle.php%3FID_ARTICLE%3DPUF_MAURY_1993_01_0101 "archive sur Wikiwix")\]\].
 
-[^15]: [Chemama et Vandermersch 2003](https://fr.wikipedia.org/wiki/#ChemamaVandermersch2003), « Analysant », p. 21.
+[^15]: [Chemama et Vandermersch 2003](https://fr.wikipedia.org/wiki/), « Analysant », p. 21.
 
 [^16]: [Alain de Mijolla](https://fr.wikipedia.org/wiki/Alain_de_Mijolla "Alain de Mijolla") (dir.), [Dictionnaire international de la psychanalyse](https://fr.wikipedia.org/wiki/Dictionnaire_international_de_la_psychanalyse "Dictionnaire international de la psychanalyse"), Paris, [Calmann-Lévy](https://fr.wikipedia.org/wiki/Calmann-L%C3%A9vy "Calmann-Lévy"), (1 <sup>re</sup> éd. 2002) ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-01-279145-9](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-01-279145-9 "Spécial:Ouvrages de référence/978-2-01-279145-9")), « Analysé/analysant », p. 102.
 
-[^17]: [Chemama et Vandermersch 2003](https://fr.wikipedia.org/wiki/#ChemamaVandermersch2003), « Psychanalytique (technique) ».
+[^17]: [Chemama et Vandermersch 2003](https://fr.wikipedia.org/wiki/), « Psychanalytique (technique) ».
 
 [^18]: Sigmund Freud, *Cinq leçons sur la psychanalyse, 1909*, Payot, Paris, 1966, p. 38. Dans le cours de la cure, l'analyse du rêve permet notamment de découvrir les mécanismes de travail de symbolisation du psychisme.
 
@@ -605,7 +605,7 @@ Entre autres:
 
 [^26]: S. Freud, *Obsessions et phobies*, in *Névrose, psychose et perversion*, PUF, p. 41
 
-[^27]: [Chemama et Vandermersch 2003](https://fr.wikipedia.org/wiki/#ChemamaVandermersch2003), « Œdipe (complexe d') ».
+[^27]: [Chemama et Vandermersch 2003](https://fr.wikipedia.org/wiki/), « Œdipe (complexe d') ».
 
 [^28]: Sigmund Freud, Métapsychologie, Gallimard Folio, (1 <sup>re</sup> éd. 1915) ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2-07-032340-4](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-07-032340-4 "Spécial:Ouvrages de référence/2-07-032340-4")).
 

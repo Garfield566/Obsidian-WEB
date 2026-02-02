@@ -84,7 +84,7 @@ ${\displaystyle 5^{2}=25\,}$
 
 Vérification de la relation pour un triangle de longueurs de côté 3, 4 et 5.
 
-Ce cas particulier de [triplet pythagoricien](https://fr.wikipedia.org/wiki/#Triplets_pythagoriciens) justifie l’usage de la [corde à treize nœuds](https://fr.wikipedia.org/wiki/Corde_%C3%A0_treize_n%C5%93uds "Corde à treize nœuds"), qui aurait permis [^1] de mesurer des distances mais aussi d’obtenir un angle droit sans [équerre](https://fr.wikipedia.org/wiki/%C3%89querre "Équerre") rigide en répartissant les douze intervalles qui séparent les nœuds sur les trois côtés d’un triangle de dimensions 3 – 4 – 5.
+Ce cas particulier de [triplet pythagoricien](https://fr.wikipedia.org/wiki/) justifie l’usage de la [corde à treize nœuds](https://fr.wikipedia.org/wiki/Corde_%C3%A0_treize_n%C5%93uds "Corde à treize nœuds"), qui aurait permis [^1] de mesurer des distances mais aussi d’obtenir un angle droit sans [équerre](https://fr.wikipedia.org/wiki/%C3%89querre "Équerre") rigide en répartissant les douze intervalles qui séparent les nœuds sur les trois côtés d’un triangle de dimensions 3 – 4 – 5.
 
 Le théorème (ou plutôt sa [contraposée](https://fr.wikipedia.org/wiki/Proposition_contrapos%C3%A9e "Proposition contraposée")) et sa réciproque montrent que la relation donnée entre les longueurs des côtés est une propriété caractéristique des triangles rectangles, ce qui permet de l’utiliser comme test dans la détermination de la nature d’un triangle:
 
@@ -115,7 +115,7 @@ La tablette Plimpton 322, datant d'environ 1800 av. J.-C., donne une liste de no
 
 [Pythagore](https://fr.wikipedia.org/wiki/Pythagore "Pythagore") vivait au VI <sup>e</sup>  siècle  av. J.-C., mais l'histoire du théorème de Pythagore commence plus d'un millénaire auparavant, comme en témoignent plusieurs tablettes d'argile de la [période paléo-babylonienne](https://fr.wikipedia.org/wiki/P%C3%A9riode_pal%C3%A9o-babylonienne "Période paléo-babylonienne") [^6]. Il n'y a aucune preuve archéologique qui permette de remonter plus avant, même si quelques hypothèses existent.
 
-Ainsi, les travaux d' [Alexander Thom](https://fr.wikipedia.org/wiki/Alexander_Thom "Alexander Thom"), qui imagine une organisation de [sites mégalithiques](https://fr.wikipedia.org/wiki/M%C3%A9galithe "Mégalithe") datant du XXV <sup>e</sup>  siècle  av. J.-C. en [Grande-Bretagne](https://fr.wikipedia.org/wiki/Grande-Bretagne "Grande-Bretagne") et en France utilisant triangles rectangles et [triplets pythagoriciens](https://fr.wikipedia.org/wiki/#Triplets_pythagoriciens), sont fortement contestés [^7]. L'hypothèse parfois avancée que le théorème aurait été connu de l'Égypte ancienne dès le [Moyen Empire](https://fr.wikipedia.org/wiki/Moyen_Empire "Moyen Empire") paraît elle aussi difficile à établir [^8].
+Ainsi, les travaux d' [Alexander Thom](https://fr.wikipedia.org/wiki/Alexander_Thom "Alexander Thom"), qui imagine une organisation de [sites mégalithiques](https://fr.wikipedia.org/wiki/M%C3%A9galithe "Mégalithe") datant du XXV <sup>e</sup>  siècle  av. J.-C. en [Grande-Bretagne](https://fr.wikipedia.org/wiki/Grande-Bretagne "Grande-Bretagne") et en France utilisant triangles rectangles et [triplets pythagoriciens](https://fr.wikipedia.org/wiki/), sont fortement contestés [^7]. L'hypothèse parfois avancée que le théorème aurait été connu de l'Égypte ancienne dès le [Moyen Empire](https://fr.wikipedia.org/wiki/Moyen_Empire "Moyen Empire") paraît elle aussi difficile à établir [^8].
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Si427o.jpg/500px-Si427o.jpg)
 
@@ -131,7 +131,7 @@ Plusieurs des [tablettes d'argile](https://fr.wikipedia.org/wiki/Tablette_d%27ar
 
 Des « tablettes cadastrales » (dont la plus ancienne date de 2340 à ) établies pour le commerce ou l'administration de parcelles exposent ainsi cette connaissance. La tablette Si427 [^16], datant de 1900 à , a été redécouverte par Daniel Mansfield en 2020 au *[Istanbul Arkeoloji Müzeleri](https://fr.wikipedia.org/wiki/Mus%C3%A9e_arch%C3%A9ologique_d%27Istanbul "Musée archéologique d'Istanbul")* [^17]. Découverte à Sippar (Irak), elle montre ainsi un terrain avec tour, aire de battage et marécage dont une des parcelles a été mise en vente par son propriétaire. Elle présente des découpes de trapèzes et de triangles rectangles ainsi que quelques triplets pythagoriciens [^18].
 
-La tablette [Plimpton 322](https://fr.wikipedia.org/wiki/Plimpton_322 "Plimpton 322") (vers ) donne une liste ordonnée de nombres associés à des [triplets pythagoriciens](https://fr.wikipedia.org/wiki/#Triplets_pythagoriciens), soit des [entiers](https://fr.wikipedia.org/wiki/Entier_naturel "Entier naturel") (*a*, *b*, *c*) satisfaisant la relation *a* <sup>2</sup> + *b* <sup>2</sup> = *c* <sup>2</sup>. La tablette ne donne que deux nombres du triplet, mais les associe explicitement au plus petit côté et à la diagonale d'un rectangle [^19]<sup>,</sup>[^5].
+La tablette [Plimpton 322](https://fr.wikipedia.org/wiki/Plimpton_322 "Plimpton 322") (vers ) donne une liste ordonnée de nombres associés à des [triplets pythagoriciens](https://fr.wikipedia.org/wiki/), soit des [entiers](https://fr.wikipedia.org/wiki/Entier_naturel "Entier naturel") (*a*, *b*, *c*) satisfaisant la relation *a* <sup>2</sup> + *b* <sup>2</sup> = *c* <sup>2</sup>. La tablette ne donne que deux nombres du triplet, mais les associe explicitement au plus petit côté et à la diagonale d'un rectangle [^19]<sup>,</sup>[^5].
 
 Il n'y a pas trace cependant de l'énoncé d'un *théorème* et les historiens préfèrent souvent utiliser un autre mot: certains parlent par exemple de « règle de la diagonale » [^20] ou de « règle de Pythagore » [^21]. Ni celle-ci, ni le principe qui la sous-tend ne sont explicitement énoncés non plus, mais les exemples montrent bien qu'une règle générale est connue [^22].
 
@@ -165,9 +165,9 @@ Sa réciproque est la proposition XLVIII [^40]:
 
 Pythagore, copie ancienne d'un original du milieu du V e siècle av. J.-C. ( musées du Capitole ).
 
-[Proclus](https://fr.wikipedia.org/wiki/Proclus "Proclus") dans ses commentaires (autour de l’an [400](https://fr.wikipedia.org/wiki/400 "400")) relate, avec scepticisme, que certains attribuent à [Pythagore](https://fr.wikipedia.org/wiki/Pythagore "Pythagore") la découverte du théorème, et attribue à Euclide la démonstration qu'il donne dans ses *Éléments* [^41]. Les témoignages connus au sujet des contributions mathématiques de Pythagore sont tardifs: ils datent au plus tôt du I <sup>er</sup>  siècle  av. J.-C., alors que Pythagore aurait vécu au VI <sup>e</sup>  siècle avant notre ère. Un [distique](https://fr.wikipedia.org/wiki/Distique_%C3%A9l%C3%A9giaque "Distique élégiaque") attribué à Apollodore de [Cyzique](https://fr.wikipedia.org/wiki/Cyzique "Cyzique") (IV <sup>e</sup>  siècle  av. J.-C.) et cité par [Plutarque](https://fr.wikipedia.org/wiki/Plutarque "Plutarque") (I <sup>er</sup> siècle de notre ère) pourrait faire exception s'il s'agit bien du théorème [^42], mais Plutarque lui-même en doute [^43]. L'identité exacte de l'auteur du distique et donc la date de sa composition n'ont d'ailleurs elles-mêmes rien d'évident [^42]. Il n'y a cependant aucun doute que le théorème était connu des Grecs bien avant Euclide; par exemple, [Hippocrate de Chio](https://fr.wikipedia.org/wiki/Hippocrate_de_Chio "Hippocrate de Chio") (V <sup>e</sup>  siècle  av. J.-C.), l'auteur du [théorème des deux lunules](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_des_deux_lunules "Théorème des deux lunules"), ne pouvait l'ignorer. Aussi, certains historiens ont tenté de reconstituer leurs démonstrations, celle d'Euclide ayant pu être contrainte par la structure de son traité axiomatique. Ainsi n'a-t-il pas encore abordé les proportions quand il démontre le théorème de l'hypoténuse au livre I, ce qui lui interdit une démonstration analogue à celle [par les triangles semblables](https://fr.wikipedia.org/wiki/#Par_des_triangles_semblables) [^44].
+[Proclus](https://fr.wikipedia.org/wiki/Proclus "Proclus") dans ses commentaires (autour de l’an [400](https://fr.wikipedia.org/wiki/400 "400")) relate, avec scepticisme, que certains attribuent à [Pythagore](https://fr.wikipedia.org/wiki/Pythagore "Pythagore") la découverte du théorème, et attribue à Euclide la démonstration qu'il donne dans ses *Éléments* [^41]. Les témoignages connus au sujet des contributions mathématiques de Pythagore sont tardifs: ils datent au plus tôt du I <sup>er</sup>  siècle  av. J.-C., alors que Pythagore aurait vécu au VI <sup>e</sup>  siècle avant notre ère. Un [distique](https://fr.wikipedia.org/wiki/Distique_%C3%A9l%C3%A9giaque "Distique élégiaque") attribué à Apollodore de [Cyzique](https://fr.wikipedia.org/wiki/Cyzique "Cyzique") (IV <sup>e</sup>  siècle  av. J.-C.) et cité par [Plutarque](https://fr.wikipedia.org/wiki/Plutarque "Plutarque") (I <sup>er</sup> siècle de notre ère) pourrait faire exception s'il s'agit bien du théorème [^42], mais Plutarque lui-même en doute [^43]. L'identité exacte de l'auteur du distique et donc la date de sa composition n'ont d'ailleurs elles-mêmes rien d'évident [^42]. Il n'y a cependant aucun doute que le théorème était connu des Grecs bien avant Euclide; par exemple, [Hippocrate de Chio](https://fr.wikipedia.org/wiki/Hippocrate_de_Chio "Hippocrate de Chio") (V <sup>e</sup>  siècle  av. J.-C.), l'auteur du [théorème des deux lunules](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_des_deux_lunules "Théorème des deux lunules"), ne pouvait l'ignorer. Aussi, certains historiens ont tenté de reconstituer leurs démonstrations, celle d'Euclide ayant pu être contrainte par la structure de son traité axiomatique. Ainsi n'a-t-il pas encore abordé les proportions quand il démontre le théorème de l'hypoténuse au livre I, ce qui lui interdit une démonstration analogue à celle [par les triangles semblables](https://fr.wikipedia.org/wiki/) [^44].
 
-Le théorème de Pythagore joue un rôle dans la découverte par les mathématiciens grecs, probablement au V <sup>e</sup>  siècle  av. J.-C., de grandeurs [incommensurables](https://fr.wikipedia.org/wiki/Commensurabilit%C3%A9_\(math%C3%A9matiques\) "Commensurabilité (mathématiques)") (qui ne peuvent pas être mesurées avec une même unité), [prémisse](https://fr.wikipedia.org/wiki/Pr%C3%A9misse "Prémisse") des nombres [irrationnels](https://fr.wikipedia.org/wiki/Nombre_irrationnel "Nombre irrationnel"), en particulier à travers le cas particulier du triangle rectangle isocèle, pour lequel on dispose d'une démonstration particulièrement simple par [duplication du carré](https://fr.wikipedia.org/wiki/Racine_carr%C3%A9e_de_deux#Dupliquer_un_carr%C3%A9 "Racine carrée de deux") [^45]: un carré dont le côté sert d’unité a une diagonale dont le carré de la longueur vaut 2.
+Le théorème de Pythagore joue un rôle dans la découverte par les mathématiciens grecs, probablement au V <sup>e</sup>  siècle  av. J.-C., de grandeurs [incommensurables](https://fr.wikipedia.org/wiki/Commensurabilit%C3%A9_\(math%C3%A9matiques\) "Commensurabilité (mathématiques)") (qui ne peuvent pas être mesurées avec une même unité), [prémisse](https://fr.wikipedia.org/wiki/Pr%C3%A9misse "Prémisse") des nombres [irrationnels](https://fr.wikipedia.org/wiki/Nombre_irrationnel "Nombre irrationnel"), en particulier à travers le cas particulier du triangle rectangle isocèle, pour lequel on dispose d'une démonstration particulièrement simple par [duplication du carré](https://fr.wikipedia.org/wiki/Racine_carr%C3%A9e_de_deux%C3%A9 "Racine carrée de deux") [^45]: un carré dont le côté sert d’unité a une diagonale dont le carré de la longueur vaut 2.
 
 L'incommensurabilité a pu être mise en évidence géométriquement, sans qu'il soit question de racine carrée donc sans recourir au théorème de Pythagore [^46], mais le théorème de Pythagore autorise une preuve arithmétique, dans le cas de la diagonale du carré en montrant qu'aucune [fraction](https://fr.wikipedia.org/wiki/Fraction_\(math%C3%A9matiques\) "Fraction (mathématiques)") d’ [entiers](https://fr.wikipedia.org/wiki/Entier_naturel "Entier naturel") n’a de carré égal à 2, soit l'irrationalité de ${\displaystyle {\sqrt {2}}}$ [^46].
 
@@ -197,7 +197,7 @@ Aucun [calcul algébrique](https://fr.wikipedia.org/wiki/Calcul_alg%C3%A9brique 
 
 Le triangle ACB rectangle en C est découpé par la hauteur issue de C en deux triangles rectangles HAC et HCB semblables au triangle initial.
 
-Il n’y a pas trace de la démonstration qu’aurait conçue Pythagore et les historiens envisagent deux types de démonstrations: ou bien une démonstration fondée sur un découpage comme celui de la section précédente ou le [puzzle de *Gougu*](https://fr.wikipedia.org/wiki/#Par_le_puzzle_de_Gougu), ou bien une démonstration utilisant les proportionnalités des triangles découpés par la hauteur issue de l’angle droit [^53]. Une telle démonstration est donnée par Euclide à la proposition 31 du [Livre VI des *Éléments*](https://fr.wikipedia.org/wiki/Livre_VI_des_%C3%89l%C3%A9ments_d%27Euclide "Livre VI des Éléments d'Euclide") (pour une généralisation du théorème) [^54].
+Il n’y a pas trace de la démonstration qu’aurait conçue Pythagore et les historiens envisagent deux types de démonstrations: ou bien une démonstration fondée sur un découpage comme celui de la section précédente ou le [puzzle de *Gougu*](https://fr.wikipedia.org/wiki/), ou bien une démonstration utilisant les proportionnalités des triangles découpés par la hauteur issue de l’angle droit [^53]. Une telle démonstration est donnée par Euclide à la proposition 31 du [Livre VI des *Éléments*](https://fr.wikipedia.org/wiki/Livre_VI_des_%C3%89l%C3%A9ments_d%27Euclide "Livre VI des Éléments d'Euclide") (pour une généralisation du théorème) [^54].
 
 En effet, soit H le pied de la hauteur issue de C dans le triangle ACB rectangle en C. Alors les deux triangles rectangles AHC et CHB sont semblables au triangle initial, par égalités des angles, puisqu'ils partagent à chaque fois un des angles non droits [^55].
 
@@ -270,7 +270,7 @@ Quant à Li Jimin [^67], il attribue au *Zhoubi Suanjian* la paternité de la pr
 
 Une animation, qui n'a pas de prétention historique, pour une preuve par réarrangement issue d'un livre de mathématiques japonais du XIX e siècle 69.
 
-Cette preuve s'inscrit dans un contexte tout à fait différent. Dans un [espace vectoriel euclidien](https://fr.wikipedia.org/wiki/Espace_vectoriel_euclidien "Espace vectoriel euclidien"), les définitions mêmes de la [norme](https://fr.wikipedia.org/wiki/Norme_\(math%C3%A9matiques\) "Norme (mathématiques)"), du [produit scalaire](https://fr.wikipedia.org/wiki/Produit_scalaire "Produit scalaire") et de l' [orthogonalité](https://fr.wikipedia.org/wiki/Orthogonalit%C3%A9 "Orthogonalité") sont déjà d'une certaine façon associées à une forme du théorème de Pythagore (voir [ci-dessus](https://fr.wikipedia.org/wiki/#Distance_euclidienne)).
+Cette preuve s'inscrit dans un contexte tout à fait différent. Dans un [espace vectoriel euclidien](https://fr.wikipedia.org/wiki/Espace_vectoriel_euclidien "Espace vectoriel euclidien"), les définitions mêmes de la [norme](https://fr.wikipedia.org/wiki/Norme_\(math%C3%A9matiques\) "Norme (mathématiques)"), du [produit scalaire](https://fr.wikipedia.org/wiki/Produit_scalaire "Produit scalaire") et de l' [orthogonalité](https://fr.wikipedia.org/wiki/Orthogonalit%C3%A9 "Orthogonalité") sont déjà d'une certaine façon associées à une forme du théorème de Pythagore (voir [ci-dessus](https://fr.wikipedia.org/wiki/)).
 
 Par [bilinéarité](https://fr.wikipedia.org/wiki/Application_bilin%C3%A9aire "Application bilinéaire") du [produit scalaire](https://fr.wikipedia.org/wiki/Produit_scalaire "Produit scalaire"), pour deux vecteurs quelconques ${\displaystyle {\vec {u}}}$ et ${\displaystyle {\vec {v}}}$ :
 
@@ -442,33 +442,33 @@ Construits sur les autres côtés.
 
 [^1]: L'usage de la corde à treize nœuds n'est pas attesté historiquement autrement que dans un but pédagogique en mathématiques, voir l' [article dédié](https://fr.wikipedia.org/wiki/Corde_%C3%A0_treize_n%C5%93uds "Corde à treize nœuds") pour plus de détails.
 
-[^2]: C'est, pour des triangles semblables quelconques, la proposition 19 du livre VI ([Vitrac 1994](https://fr.wikipedia.org/wiki/#Vitrac1994), p. 199). De façon plus moderne: les hauteurs des triangles semblables étant dans le même rapport que les côtés, le [calcul de l'aire du triangle](https://fr.wikipedia.org/wiki/Triangle#Aire "Triangle") donne immédiatement le résultat.
+[^2]: C'est, pour des triangles semblables quelconques, la proposition 19 du livre VI ([Vitrac 1994](https://fr.wikipedia.org/wiki/), p. 199). De façon plus moderne: les hauteurs des triangles semblables étant dans le même rapport que les côtés, le [calcul de l'aire du triangle](https://fr.wikipedia.org/wiki/Triangle "Triangle") donne immédiatement le résultat.
 
 [^3]: On pourrait se demander si cette démonstration n'est pas trigonométrique en ne parlant que des projections orthogonales donc du cosinus des angles α et β et en voyant qu'il existe deux expressions pour chacun d'eux: cosα=m/b=b/c et cosβ=n/a=a/c, d'où c=m+n=bcosα+acosβ=b <sup>2</sup> /c+a <sup>2</sup> /c=(a <sup>2</sup> +b <sup>2</sup>)/c, ce qui revient à la même résolution que par les triangles semblables.
 
 [^4]: Le commentaire du *Zhoubi Suanjing* consiste à remarquer que le carré de l’hypoténuse est formé de 4 triangles vermillon d’aire *ab* /2 et d’un carré jaune central d’aire (*b – a*) <sup>2</sup>.
 
-[^5]: Pour une description de la tablette et diverses interprétations, voir [Proust 2015](https://fr.wikipedia.org/wiki/#Proust2015) et [Robson 2002](https://fr.wikipedia.org/wiki/#Robson2002).
+[^5]: Pour une description de la tablette et diverses interprétations, voir [Proust 2015](https://fr.wikipedia.org/wiki/) et [Robson 2002](https://fr.wikipedia.org/wiki/).
 
-[^6]: [Høyrup 1998](https://fr.wikipedia.org/wiki/#H%C3%B8yrup1998).
+[^6]: [Høyrup 1998](https://fr.wikipedia.org/wiki/%C3%B8yrup1998).
 
 [^7]: Voir Olivier Keller, « [Préhistoire de la géométrie: le problème des sources](http://irem.univ-reunion.fr/IMG/pdf/Keller_prehistoire_geometrie.pdf) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Firem.univ-reunion.fr%2FIMG%2Fpdf%2FKeller_prehistoire_geometrie.pdf "archive sur Wikiwix")\] », sur [IREM](https://fr.wikipedia.org/wiki/IREM "IREM") de [La Réunion](https://fr.wikipedia.org/wiki/La_R%C3%A9union "La Réunion"), ; voir également Maurice Caveing, Le Problème des objets dans la pensée mathématique: problèmes et controverses, Vrin, ([lire en ligne](https://books.google.com/books?id=sFpElpZRbSgC&pg=PA56) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DsFpElpZRbSgC%26pg%3DPA56 "archive sur Wikiwix")\]), p. 56, qui critique l'utilisation des travaux de Thom par [Bartel Leendert van der Waerden](https://fr.wikipedia.org/wiki/Bartel_Leendert_van_der_Waerden "Bartel Leendert van der Waerden") dans (en) Geometry and Algebra in Ancient Civilizations, Springer Verlag, .
 
-[^8]: Le [Papyrus Berlin 6619](https://fr.wikipedia.org/wiki/Papyrus_Berlin_6619 "Papyrus Berlin 6619") qui peut dater du XIX <sup>e</sup>  siècle  av. J.-C. est parfois évoqué, mais cela est très contesté ([Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 217). Il présente bien un problème du second degré dont la solution met en jeu implicitement le triplet (3, 4, 5), mais il n'est pas question de triangle rectangle. Voir également ci-dessous le paragraphe [Égypte ancienne](https://fr.wikipedia.org/wiki/#%C3%89gypte_ancienne).
+[^8]: Le [Papyrus Berlin 6619](https://fr.wikipedia.org/wiki/Papyrus_Berlin_6619 "Papyrus Berlin 6619") qui peut dater du XIX <sup>e</sup>  siècle  av. J.-C. est parfois évoqué, mais cela est très contesté ([Rossi 2007](https://fr.wikipedia.org/wiki/), p. 217). Il présente bien un problème du second degré dont la solution met en jeu implicitement le triplet (3, 4, 5), mais il n'est pas question de triangle rectangle. Voir également ci-dessous le paragraphe [Égypte ancienne](https://fr.wikipedia.org/wiki/#%C3%89gypte_ancienne).
 
-[^9]: Voir [Høyrup 1998](https://fr.wikipedia.org/wiki/#H%C3%B8yrup1998), p. 396, la solution est décrite de façon procédurale, voir (en) Duncan J. Melville, «  Poles and walls in Mesopotamia and Egypt  », *Historia Mathematica*, vol. 31,, p.148–162 ([lire en ligne](http://www.sciencedirect.com/science/article/pii/S0315086003000776) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0315086003000776 "archive sur Wikiwix")\]).
+[^9]: Voir [Høyrup 1998](https://fr.wikipedia.org/wiki/%C3%B8yrup1998), p. 396, la solution est décrite de façon procédurale, voir (en) Duncan J. Melville, «  Poles and walls in Mesopotamia and Egypt  », *Historia Mathematica*, vol. 31,, p.148–162 ([lire en ligne](http://www.sciencedirect.com/science/article/pii/S0315086003000776) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0315086003000776 "archive sur Wikiwix")\]).
 
-[^10]: [Melville 2004](https://fr.wikipedia.org/wiki/#Melville2004).
+[^10]: [Melville 2004](https://fr.wikipedia.org/wiki/).
 
 [^11]: Éliane Cousquer, « [Le Théorème de Pythagore](http://ddata.over-blog.com/xxxyyy/2/78/40/05/histoire_des_maths/pythagore.pdf) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fddata.over-blog.com%2Fxxxyyy%2F2%2F78%2F40%2F05%2Fhistoire_des_maths%2Fpythagore.pdf "archive sur Wikiwix")\] » \[PDF\].
 
 [^12]: Autour d' [Otto Neugebauer](https://fr.wikipedia.org/wiki/Otto_Neugebauer "Otto Neugebauer") en Allemagne, puis de [François Thureau-Dangin](https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Thureau-Dangin "François Thureau-Dangin") en France, voir (en) Jens Høyrup, « Changing Trends in the Historiography of Mesopotamian Mathematics: An Insider's View  », *History of Science*, vol. 34,, p.1-32 ([lire en ligne](http://akira.ruc.dk/~jensh/publications/1991%7bb%7d_Changing%20Trends.PDF) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fakira.ruc.dk%2F~jensh%2Fpublications%2F1991%257bb%257d_Changing%2520Trends.PDF "archive sur Wikiwix")\]).
 
-[^13]: [Høyrup 1998](https://fr.wikipedia.org/wiki/#H%C3%B8yrup1998), p. 393.
+[^13]: [Høyrup 1998](https://fr.wikipedia.org/wiki/%C3%B8yrup1998), p. 393.
 
 [^14]: E. M. Bruins, « Aperçu sur les mathématiques babyloniennes  », *Revue d'histoire des sciences et de leurs applications*, vol. 3, n <sup>o</sup> 4,, p. 312 ([lire en ligne](http://www.persee.fr/web/revues/home/prescript/article/rhs_0048-7996_1950_num_3_4_2857) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.persee.fr%2Fweb%2Frevues%2Fhome%2Fprescript%2Farticle%2Frhs_0048-7996_1950_num_3_4_2857 "archive sur Wikiwix")\]).
 
-[^15]: Plusieurs sont décrits par [Høyrup 1998](https://fr.wikipedia.org/wiki/#H%C3%B8yrup1998).
+[^15]: Plusieurs sont décrits par [Høyrup 1998](https://fr.wikipedia.org/wiki/%C3%B8yrup1998).
 
 [^16]: Albane P., « [Des scientifiques percent enfin les mystères d'une tablette babylonienne vieille de 3700 ans](https://www.demotivateur.fr/article/cette-tablette-de-3700-ans-explique-comment-les-babyloniens-delimitaient-les-terres-et-les-maisons-25669) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.demotivateur.fr%2Farticle%2Fcette-tablette-de-3700-ans-explique-comment-les-babyloniens-delimitaient-les-terres-et-les-maisons-25669 "archive sur Wikiwix")\] », sur Demotivateur, (consulté le ).
 
@@ -480,55 +480,55 @@ Construits sur les autres côtés.
 
 [^20]: (en) Jöran Friberg, A Remarkable Collection of Babylonian Mathematical Texts: Manuscripts in the Schøyen Collection: Cuneiform Texts I, New York, [Springer-Verlag](https://fr.wikipedia.org/wiki/Springer_Science%2BBusiness_Media "Springer Science+Business Media"), coll. « Sources and Studies in the History of Mathematics and Physical Sciences »,, 533 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-0-387-34543-7](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-0-387-34543-7 "Spécial:Ouvrages de référence/978-0-387-34543-7"), [lire en ligne](https://books.google.com/books?id=sOiHePN7cW8C) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DsOiHePN7cW8C "archive sur Wikiwix")\]) donne une liste de tablettes en [cunéiforme](https://fr.wikipedia.org/wiki/%C3%89criture_cun%C3%A9iforme "Écriture cunéiforme") qui utilisent cette « règle de la diagonale » dans *A.8.6. The Diagonal Rule in the corpus of Mathematical Cuneiforms Texts*, p.449-451.
 
-[^21]: [Robson 2002](https://fr.wikipedia.org/wiki/#Robson2002), [Høyrup 1998](https://fr.wikipedia.org/wiki/#H%C3%B8yrup1998).
+[^21]: [Robson 2002](https://fr.wikipedia.org/wiki/), [Høyrup 1998](https://fr.wikipedia.org/wiki/%C3%B8yrup1998).
 
-[^22]: [Høyrup 1998](https://fr.wikipedia.org/wiki/#H%C3%B8yrup1998), p. 402.
+[^22]: [Høyrup 1998](https://fr.wikipedia.org/wiki/%C3%B8yrup1998), p. 402.
 
-[^23]: [Høyrup 1998](https://fr.wikipedia.org/wiki/#H%C3%B8yrup1998), p. 406-407.
+[^23]: [Høyrup 1998](https://fr.wikipedia.org/wiki/%C3%B8yrup1998), p. 406-407.
 
-[^24]: [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990), p. 315.
+[^24]: [Vitrac 1990](https://fr.wikipedia.org/wiki/), p. 315.
 
-[^25]: [Martzloff 2006](https://fr.wikipedia.org/wiki/#Martzloff2006), p. 13.
+[^25]: [Martzloff 2006](https://fr.wikipedia.org/wiki/), p. 13.
 
-[^26]: [Chemla et Shuchun 2005](https://fr.wikipedia.org/wiki/#Chemla_et_Shuchun_2005), p. 681.
+[^26]: [Chemla et Shuchun 2005](https://fr.wikipedia.org/wiki/), p. 681.
 
 [^27]: [Jean-Claude Martzloff](https://fr.wikipedia.org/wiki/Jean-Claude_Martzloff "Jean-Claude Martzloff"), « Quelques exemples de démonstration en mathématiques chinoises », dans La démonstration mathématique dans l’histoire, IREM de Lyon,, p.131-132.
 
-[^28]: [Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 64.
+[^28]: [Rossi 2007](https://fr.wikipedia.org/wiki/), p. 64.
 
-[^29]: [Maor 2007](https://fr.wikipedia.org/wiki/#Maor2007), p. 14.
+[^29]: [Maor 2007](https://fr.wikipedia.org/wiki/), p. 14.
 
 [^30]: Il s'agit du traité sur [Isis](https://fr.wikipedia.org/wiki/Isis "Isis") et [Osiris](https://fr.wikipedia.org/wiki/Osiris "Osiris"), dans les [Œuvres morales](https://fr.wikipedia.org/wiki/%C5%92uvres_morales "Œuvres morales"). Voir Plutarque, Oeuvres morales, chez Jean-Baptiste Cussac, ([lire en ligne](https://books.google.fr/books?id=yd0TAAAAQAAJ&pg=333#v=onepage&q&f=false) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.fr%2Fbooks%3Fid%3Dyd0TAAAAQAAJ%26pg%3D333%23v%3Donepage%26q%26f%3Dfalse "archive sur Wikiwix")\]), « De Isis et d'Osiris ».
 
-[^31]: [Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 64-65.
+[^31]: [Rossi 2007](https://fr.wikipedia.org/wiki/), p. 64-65.
 
-[^32]: [Maor 2007](https://fr.wikipedia.org/wiki/#Maor2007), p. 14-15.
+[^32]: [Maor 2007](https://fr.wikipedia.org/wiki/), p. 14-15.
 
-[^33]: L'usage de cordes pour l' [arpentage](https://fr.wikipedia.org/wiki/Arpentage "Arpentage") est quant à lui bien attesté, il est représenté dans des tombes de la [XVIII <sup>e</sup> dynastie](https://fr.wikipedia.org/wiki/XVIIIe_dynastie_%C3%A9gyptienne "XVIIIe dynastie égyptienne") ([Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 154.), mais sans trace de nœuds ([Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 155-156).
+[^33]: L'usage de cordes pour l' [arpentage](https://fr.wikipedia.org/wiki/Arpentage "Arpentage") est quant à lui bien attesté, il est représenté dans des tombes de la [XVIII <sup>e</sup> dynastie](https://fr.wikipedia.org/wiki/XVIIIe_dynastie_%C3%A9gyptienne "XVIIIe dynastie égyptienne") ([Rossi 2007](https://fr.wikipedia.org/wiki/), p. 154.), mais sans trace de nœuds ([Rossi 2007](https://fr.wikipedia.org/wiki/), p. 155-156).
 
-[^34]: [Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 221.
+[^34]: [Rossi 2007](https://fr.wikipedia.org/wiki/), p. 221.
 
-[^35]: [Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 155.
+[^35]: [Rossi 2007](https://fr.wikipedia.org/wiki/), p. 155.
 
-[^36]: De nombreuses tentatives de reconstitutions de plans d'édifices à partir de triangles (pas forcément rectangles) ont eu lieu depuis le XIX <sup>e</sup>  siècle ([Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 7-28). Parmi les plus récentes: [Jean-Philippe Lauer](https://fr.wikipedia.org/wiki/Jean-Philippe_Lauer "Jean-Philippe Lauer") utilise le triangle 3-4-5, compte-rendu critique et références ([Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 158-161), [Alexandre Badawy](https://fr.wikipedia.org/wiki/Alexandre_Badawy "Alexandre Badawy") l'utilise accompagné d'autres triangles, compte-rendu critique et références ([Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 32-56).
+[^36]: De nombreuses tentatives de reconstitutions de plans d'édifices à partir de triangles (pas forcément rectangles) ont eu lieu depuis le XIX <sup>e</sup>  siècle ([Rossi 2007](https://fr.wikipedia.org/wiki/), p. 7-28). Parmi les plus récentes: [Jean-Philippe Lauer](https://fr.wikipedia.org/wiki/Jean-Philippe_Lauer "Jean-Philippe Lauer") utilise le triangle 3-4-5, compte-rendu critique et références ([Rossi 2007](https://fr.wikipedia.org/wiki/), p. 158-161), [Alexandre Badawy](https://fr.wikipedia.org/wiki/Alexandre_Badawy "Alexandre Badawy") l'utilise accompagné d'autres triangles, compte-rendu critique et références ([Rossi 2007](https://fr.wikipedia.org/wiki/), p. 32-56).
 
-[^37]: [Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 117; cet exemple est jugé le plus convaincant pour une relation entre l'utilisation de cordes et le triangle 3-4-5 par [Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 159.
+[^37]: [Rossi 2007](https://fr.wikipedia.org/wiki/), p. 117; cet exemple est jugé le plus convaincant pour une relation entre l'utilisation de cordes et le triangle 3-4-5 par [Rossi 2007](https://fr.wikipedia.org/wiki/), p. 159.
 
-[^38]: [Rossi 2007](https://fr.wikipedia.org/wiki/#Rossi2007), p. 218.
+[^38]: [Rossi 2007](https://fr.wikipedia.org/wiki/), p. 218.
 
-[^39]: Caveing, « Introduction générale », p. 15, dans [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990).
+[^39]: Caveing, « Introduction générale », p. 15, dans [Vitrac 1990](https://fr.wikipedia.org/wiki/).
 
 [^40]: *Éléments* d'Euclide, traduction Henrion. [Référence](https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rence:%C3%89l%C3%A9ments_\(Euclide\) "Référence:Éléments (Euclide)"), [document en ligne sur le site de la BNF (Ressources Gallica)](https://gallica.bnf.fr/ark:/12148/bpt6k68013g) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k68013g "archive sur Wikiwix")\]. Livre I (cisaillement [proposition XXXV p. 62](https://gallica.bnf.fr/ark:/12148/bpt6k68013g.image.f67.pagination) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k68013g.image.f67.pagination "archive sur Wikiwix")\], parallélogramme et triangle de même base [proposition XLI p. 69](https://gallica.bnf.fr/ark:/12148/bpt6k68013g.image.f74.pagination) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k68013g.image.f74.pagination "archive sur Wikiwix")\], le théorème [proposition XLVII p. 76](https://gallica.bnf.fr/ark:/12148/bpt6k68013g.image.f81.pagination) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k68013g.image.f81.pagination "archive sur Wikiwix")\], réciproque [proposition XLVIII p. 78](https://gallica.bnf.fr/ark:/12148/bpt6k68013g.image.f83.pagination) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k68013g.image.f83.pagination "archive sur Wikiwix")\]) et Livre VI (généralisation aux figures semblables [proposition XXXI p. 241](https://gallica.bnf.fr/ark:/12148/bpt6k68013g.image.f246.pagination) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k68013g.image.f246.pagination "archive sur Wikiwix")\]).
 
 [^41]: Éliane Cousquer, « [Le Théorème de Pythagore](http://ddata.over-blog.com/xxxyyy/2/78/40/05/histoire_des_maths/pythagore.pdf) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fddata.over-blog.com%2Fxxxyyy%2F2%2F78%2F40%2F05%2Fhistoire_des_maths%2Fpythagore.pdf "archive sur Wikiwix")\] », p.10-11.
 
-[^42]: [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990), p. 311.
+[^42]: [Vitrac 1990](https://fr.wikipedia.org/wiki/), p. 311.
 
-[^43]: [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990), p. 377.
+[^43]: [Vitrac 1990](https://fr.wikipedia.org/wiki/), p. 377.
 
-[^44]: [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990), p. 313.
+[^44]: [Vitrac 1990](https://fr.wikipedia.org/wiki/), p. 313.
 
-[^45]: [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990), p. 314.
+[^45]: [Vitrac 1990](https://fr.wikipedia.org/wiki/), p. 314.
 
 [^46]: Maurice Caveing, La figure et le nombre: Recherches sur les premières mathématiques des Grecs, [Presses universitaires du Septentrion](https://fr.wikipedia.org/wiki/Presses_universitaires_du_Septentrion "Presses universitaires du Septentrion"),, 424 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-85939-494-3](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-85939-494-3 "Spécial:Ouvrages de référence/978-2-85939-494-3"), [lire en ligne](https://books.google.com/books?id=T6CSoU9bMF8C) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DT6CSoU9bMF8C "archive sur Wikiwix")\]), p. 183.
 
@@ -542,41 +542,41 @@ Construits sur les autres côtés.
 
 [^51]: la rédaction, «  [Des lycéennes résolvent une énigme mathématique jugée impossible!](https://www.futura-sciences.com/sciences/actualites/mathematiques-lyceennes-resolvent-enigme-mathematique-jugee-impossible-118253/) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.futura-sciences.com%2Fsciences%2Factualites%2Fmathematiques-lyceennes-resolvent-enigme-mathematique-jugee-impossible-118253%2F "archive sur Wikiwix")\] », sur Futura (consulté le )
 
-[^52]: (en) Ne'kiya Jackson et Calcea Johnson, «  Five or Ten New Proofs of the Pythagorean Theorem  », *The American Mathematical Monthly*, vol. 131, n <sup>o</sup> 9,, p.739-752 ([ISSN](https://fr.wikipedia.org/wiki/International_Standard_Serial_Number "International Standard Serial Number") [0002-9890](https://portal.issn.org/resource/issn/0002-9890), [DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier "Digital Object Identifier") [10.1080/00029890.2024.2370240#d1e136](https://dx.doi.org/10.1080/00029890.2024.2370240%23d1e136), [lire en ligne](https://www.tandfonline.com/doi/full/10.1080/00029890.2024.2370240) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F00029890.2024.2370240 "archive sur Wikiwix")\], consulté le ).
+[^52]: (en) Ne'kiya Jackson et Calcea Johnson, «  Five or Ten New Proofs of the Pythagorean Theorem  », *The American Mathematical Monthly*, vol. 131, n <sup>o</sup> 9,, p.739-752 ([ISSN](https://fr.wikipedia.org/wiki/International_Standard_Serial_Number "International Standard Serial Number") [0002-9890](https://portal.issn.org/resource/issn/0002-9890), [DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier "Digital Object Identifier") [10.1080/00029890.2024.2370240](https://dx.doi.org/10.1080/00029890.2024.2370240%23d1e136), [lire en ligne](https://www.tandfonline.com/doi/full/10.1080/00029890.2024.2370240) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F00029890.2024.2370240 "archive sur Wikiwix")\], consulté le ).
 
 [^53]: Éliane Cousquer, « [Le Théorème de Pythagore](http://ddata.over-blog.com/xxxyyy/2/78/40/05/histoire_des_maths/pythagore.pdf) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fddata.over-blog.com%2Fxxxyyy%2F2%2F78%2F40%2F05%2Fhistoire_des_maths%2Fpythagore.pdf "archive sur Wikiwix")\] » p. 13.
 
-[^54]: [Vitrac 1994](https://fr.wikipedia.org/wiki/#Vitrac1994), p. 236-237.
+[^54]: [Vitrac 1994](https://fr.wikipedia.org/wiki/), p. 236-237.
 
-[^55]: C'est la proposition VI. 8 d'Euclide ([Vitrac 1994](https://fr.wikipedia.org/wiki/#Vitrac1994), p. 176).
+[^55]: C'est la proposition VI. 8 d'Euclide ([Vitrac 1994](https://fr.wikipedia.org/wiki/), p. 176).
 
 [^56]: Une telle démonstration est donnée par exemple dans Rudolf Bkouche, «  Sur les démonstrations du théorème de Pythagore  », *APMEP*, n <sup>o</sup> 523,, p. 12 ([lire en ligne](https://www.apmep.fr/IMG/pdf/AAA17024.pdf) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.apmep.fr%2FIMG%2Fpdf%2FAAA17024.pdf "archive sur Wikiwix")\] \[PDF\]).
 
-[^57]: [Bkouche 2017](https://fr.wikipedia.org/wiki/#Bkouche2017), p. 198.
+[^57]: [Bkouche 2017](https://fr.wikipedia.org/wiki/), p. 198.
 
-[^58]: [Vitrac 1994](https://fr.wikipedia.org/wiki/#Vitrac1994), p. 237; Euclide parle de \[segments de\] droites, et non de longueurs, et de figures semblables sur les côtés, et non de carré d'une longueur.
+[^58]: [Vitrac 1994](https://fr.wikipedia.org/wiki/), p. 237; Euclide parle de \[segments de\] droites, et non de longueurs, et de figures semblables sur les côtés, et non de carré d'une longueur.
 
-[^59]: Voir [Cousquer](https://fr.wikipedia.org/wiki/#Cousquer), p. 13 pour une présentation similaire de cette démonstration.
+[^59]: Voir [Cousquer](https://fr.wikipedia.org/wiki/), p. 13 pour une présentation similaire de cette démonstration.
 
-[^60]: [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990), p. 282-284.
+[^60]: [Vitrac 1990](https://fr.wikipedia.org/wiki/), p. 282-284.
 
-[^61]: Celle-ci est détaillée dans [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990), p. 285-287. Le principe est celui de la démonstration donnée dans l'article « [Théorème de Clairaut (géométrie)](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Clairaut_\(g%C3%A9om%C3%A9trie\) "Théorème de Clairaut (géométrie)") ».
+[^61]: Celle-ci est détaillée dans [Vitrac 1990](https://fr.wikipedia.org/wiki/), p. 285-287. Le principe est celui de la démonstration donnée dans l'article « [Théorème de Clairaut (géométrie)](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Clairaut_\(g%C3%A9om%C3%A9trie\) "Théorème de Clairaut (géométrie)") ».
 
 [^62]: (en) « [Proof of Guogu or Pythagoras' Theorem](http://www.chinapage.com/math/s9/pythagoras.html) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.chinapage.com%2Fmath%2Fs9%2Fpythagoras.html "archive sur Wikiwix")\] », sur chinapage.com.
 
-[^63]: [Martzloff 1990](https://fr.wikipedia.org/wiki/#Martzloff1990).
+[^63]: [Martzloff 1990](https://fr.wikipedia.org/wiki/).
 
-[^64]: [Chemla et Shuchun 2005](https://fr.wikipedia.org/wiki/#Chemla_et_Shuchun_2005), chap. 9.
+[^64]: [Chemla et Shuchun 2005](https://fr.wikipedia.org/wiki/), chap. 9.
 
-[^65]: [Martzloff 2006](https://fr.wikipedia.org/wiki/#Martzloff2006), p. 297.
+[^65]: [Martzloff 2006](https://fr.wikipedia.org/wiki/), p. 297.
 
-[^66]: [Chemla et Shuchun 2005](https://fr.wikipedia.org/wiki/#Chemla_et_Shuchun_2005), p. 680.
+[^66]: [Chemla et Shuchun 2005](https://fr.wikipedia.org/wiki/), p. 680.
 
-[^67]: Karine Chemla dans ([Chemla et Shuchun 2005](https://fr.wikipedia.org/wiki/#Chemla_et_Shuchun_2005)) fait référence à l’interprétation (1993) de cet historien p. 682.
+[^67]: Karine Chemla dans ([Chemla et Shuchun 2005](https://fr.wikipedia.org/wiki/)) fait référence à l’interprétation (1993) de cet historien p. 682.
 
 [^68]: Serge Cantat, « [Découpage d’Airy et théorème de Pythagore](https://images.math.cnrs.fr/decoupage-dairy-et-theoreme-de-pythagore/) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fimages.math.cnrs.fr%2Fdecoupage-dairy-et-theoreme-de-pythagore%2F "archive sur Wikiwix")\] », sur [Images des mathématiques](https://fr.wikipedia.org/wiki/Images_des_math%C3%A9matiques "Images des mathématiques"), .
 
-[^69]: voir (en) « [Pythagorean Theorem, Proof #10](https://www.faculty.umb.edu/gary_zabel/Courses/Phil%20281b/Philosophy%20of%20Magic/Arcana/Neoplatonism/Pythagoras/index.shtml.html#PWW) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.faculty.umb.edu%2Fgary_zabel%2FCourses%2FPhil%2520281b%2FPhilosophy%2520of%2520Magic%2FArcana%2FNeoplatonism%2FPythagoras%2Findex.shtml.html%23PWW "archive sur Wikiwix")\] », sur faculty.umb.edu, utilisant la même figure.
+[^69]: voir (en) « [Pythagorean Theorem, Proof ](https://www.faculty.umb.edu/gary_zabel/Courses/Phil%20281b/Philosophy%20of%20Magic/Arcana/Neoplatonism/Pythagoras/index.shtml.html) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.faculty.umb.edu%2Fgary_zabel%2FCourses%2FPhil%2520281b%2FPhilosophy%2520of%2520Magic%2FArcana%2FNeoplatonism%2FPythagoras%2Findex.shtml.html%23PWW "archive sur Wikiwix")\] », sur faculty.umb.edu, utilisant la même figure.
 
 [^70]: D'où la formule pour un triangle quelconque dans le chapitre suivant.
 
@@ -590,7 +590,7 @@ Construits sur les autres côtés.
 
 [^75]: (en) « ["Extra-geometric" proofs of the Pythagorean Theorem](http://www.cut-the-knot.org/pythagoras/PTcom3.shtml) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.cut-the-knot.org%2Fpythagoras%2FPTcom3.shtml "archive sur Wikiwix")\] », sur cut-the-knot.org (consulté le ).
 
-[^76]: [Vitrac 1990](https://fr.wikipedia.org/wiki/#Vitrac1990), p. 285-286.
+[^76]: [Vitrac 1990](https://fr.wikipedia.org/wiki/), p. 285-286.
 
 [^77]: (en) Scott E. Brodie, « [The Pythagorean Theorem is Equivalent to the Parallel Postulate](http://www.cut-the-knot.org/triangle/pythpar/PTimpliesPP.shtml) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.cut-the-knot.org%2Ftriangle%2Fpythpar%2FPTimpliesPP.shtml "archive sur Wikiwix")\] », Cut The Knot.
 
@@ -600,4 +600,4 @@ Construits sur les autres côtés.
 
 [^80]: (en) Augustin A. Dubrulle, «  A Class of Numerical Methods for the Computation of Pythagorean Sums  », *IBM Journal of Research and Development*, vol. 27, n <sup>o</sup> 6,, p.582–589 ([ISSN](https://fr.wikipedia.org/wiki/International_Standard_Serial_Number "International Standard Serial Number") [0018-8646](https://portal.issn.org/resource/issn/0018-8646), [DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier "Digital Object Identifier") [10.1147/rd.276.0582](https://dx.doi.org/10.1147/rd.276.0582), [CiteSeer <sup>x</sup>](https://fr.wikipedia.org/wiki/CiteSeerX "CiteSeerX") [10.1.1.94.3443](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.94.3443), [lire en ligne](http://blogs.mathworks.com/images/cleve/dubrulle.pdf) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fblogs.mathworks.com%2Fimages%2Fcleve%2Fdubrulle.pdf "archive sur Wikiwix")\]).
 
-[^81]: Entrée « Pythagore (théorème de) » dans [Baruk 1992](https://fr.wikipedia.org/wiki/#Baruk1992).
+[^81]: Entrée « Pythagore (théorème de) » dans [Baruk 1992](https://fr.wikipedia.org/wiki/).

@@ -33,7 +33,7 @@ tags: []
 > |---|---|
 > | **People** | <ul style="margin: 0; padding-left: 15px;"><li></li><li>#Yutaka-Yamada</li><li></li></ul> |
 > | **Studios** | <ul style="margin: 0; padding-left: 15px;"><li>#Wit-Studio</li></ul> |
-> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li>#Heist</li><li></li><li></li></ul> |
+> | **Concepts** | <ul style="margin: 0; padding-left: 15px;"><li></li><li></li><li></li></ul> |
 
 ### **📖 Synopsis pour Great Pretender** :
 

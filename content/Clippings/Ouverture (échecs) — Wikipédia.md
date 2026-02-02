@@ -3,7 +3,7 @@ title: "Ouverture (échecs) — Wikipédia"
 source: "https://fr.wikipedia.org/wiki/Ouverture_(%C3%A9checs)"
 author:
   - "[[Contributeurs aux projets Wikimedia]]"
-published: 2005-10-07
+published: 2005--07
 created: 2026-02-02
 description:
 tags:
@@ -92,7 +92,7 @@ En outre, d'autres plans [stratégiques](https://fr.wikipedia.org/wiki/Strat%C3%
 
 De façon plus générale, de nombreux auteurs (par exemple [Reuben Fine](https://fr.wikipedia.org/wiki/Reuben_Fine "Reuben Fine") dans *Les idées cachées dans les ouvertures d'échecs*) sont d'avis que la mission des Blancs dans l'ouverture est d'exploiter l'avantage du [trait](https://fr.wikipedia.org/wiki/Trait_\(%C3%A9checs\) "Trait (échecs)") initial dans l'ouverture en le transformant en avantage, tandis que les Noirs cherchent à égaliser. Il existe cependant beaucoup d'ouvertures où les Noirs obtiennent une chance de jouer agressivement pour un avantage dès le début.
 
-Pour le [maître international](https://fr.wikipedia.org/wiki/Ma%C3%AEtre_international "Maître international") [Jeremy Silman](https://fr.wikipedia.org/wiki/Jeremy_Silman "Jeremy Silman"), le but de l'ouverture est de créer des *déséquilibres dynamiques* entre les deux camps qui vont déterminer le type de milieu de jeu et les plans stratégiques choisis par chacun des joueurs [^5]. Dans la variante [Winawer](https://fr.wikipedia.org/wiki/D%C3%A9fense_fran%C3%A7aise#La_variante_Winawer "Défense française") de la [défense française](https://fr.wikipedia.org/wiki/D%C3%A9fense_fran%C3%A7aise "Défense française"), les Blancs tentent d'exploiter la paire de fous et l'avantage d'espace pour lancer une attaque sur l'aile roi noire, tandis que les Noirs cherchent des échanges en vue de simplifier (en échangeant les fous blancs pour affaiblir l'attaque) et de contre-attaquer les pions faibles sur l'aile dame.
+Pour le [maître international](https://fr.wikipedia.org/wiki/Ma%C3%AEtre_international "Maître international") [Jeremy Silman](https://fr.wikipedia.org/wiki/Jeremy_Silman "Jeremy Silman"), le but de l'ouverture est de créer des *déséquilibres dynamiques* entre les deux camps qui vont déterminer le type de milieu de jeu et les plans stratégiques choisis par chacun des joueurs [^5]. Dans la variante [Winawer](https://fr.wikipedia.org/wiki/D%C3%A9fense_fran%C3%A7aise "Défense française") de la [défense française](https://fr.wikipedia.org/wiki/D%C3%A9fense_fran%C3%A7aise "Défense française"), les Blancs tentent d'exploiter la paire de fous et l'avantage d'espace pour lancer une attaque sur l'aile roi noire, tandis que les Noirs cherchent des échanges en vue de simplifier (en échangeant les fous blancs pour affaiblir l'attaque) et de contre-attaquer les pions faibles sur l'aile dame.
 
 La transition entre l'ouverture et le [milieu de partie](https://fr.wikipedia.org/wiki/Milieu_de_partie "Milieu de partie") n'est pas clairement établie, mais on considère généralement que la fin du développement ou le [roque](https://fr.wikipedia.org/wiki/Roque_\(%C3%A9checs\) "Roque (échecs)") sont des indicateurs raisonnables. Depuis l'avènement des échecs modernes et le développement exponentiel de la théorie, l'ouverture est une phase extrêmement étudiée par les joueurs et les [analystes](https://fr.wikipedia.org/wiki/Analyse_\(%C3%A9checs\) "Analyse (échecs)"). Les joueurs de compétition connaissent parfois des séquences de plusieurs dizaines de coups.
 

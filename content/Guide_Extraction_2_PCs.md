@@ -3,9 +3,7 @@ title: "Guide Extraction - 2 PCs en Parallèle"
 date: 2026-02-01
 tags:
   - extraction
-  - parallelisation
-  - 2-pcs
-  - optimisation
+
 ---
 
 # Guide d'Extraction - 2 PCs en Parallèle
@@ -115,7 +113,7 @@ python watch_pc2.py
 ### Affichage PC2
 
 ```
-[15:30:45] PC2: [#############---------------------------------------] 28.6% |
+[15:30:45] PC2: [############] 28.6% |
            Domaines: 6/21 | Temps: 10h15min |
            En cours: cinema (Arts Audiovisuels)
 ```

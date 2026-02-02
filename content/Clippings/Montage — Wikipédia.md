@@ -245,7 +245,7 @@ Alors qu’un plan destiné à un ensemble monté [^48]
 
 L'organisation du temps de montage traditionnel (surtout en [35 mm](https://fr.wikipedia.org/wiki/Format_35_mm "Format 35 mm")) obéit à des contraintes propres, entre autres, à la lourdeur des manipulations de la pellicule. Le montage avance pas-à-pas vers son aboutissement et il est très lourd et coûteux d'envisager, par exemple, de « casser » une séquence pour la remonter.
 
-Au fur et à mesure de la montée en puissance des stations de [montage virtuel](https://fr.wikipedia.org/wiki/Montage_vid%C3%A9o#Le_montage_non_lin%C3%A9aire_ou_%C2%AB_virtuel_%C2%BB "Montage vidéo"), des capacités de stockage des disques durs puis des [serveurs de stockage](https://fr.wikipedia.org/wiki/Serveur_vid%C3%A9o "Serveur vidéo"), les usages et coutumes ont beaucoup évolué.
+Au fur et à mesure de la montée en puissance des stations de [montage virtuel](https://fr.wikipedia.org/wiki/Montage_vid%C3%A9o%C3%A9aire_ou_%C2%AB_virtuel_%C2%BB "Montage vidéo"), des capacités de stockage des disques durs puis des [serveurs de stockage](https://fr.wikipedia.org/wiki/Serveur_vid%C3%A9o "Serveur vidéo"), les usages et coutumes ont beaucoup évolué.
 
 Le passage du montage traditionnel ou linéaire vers le montage virtuel a demandé un temps d'appropriation assez long du fait du changement d'univers. En 35 mm, une [table de montage](https://fr.wikipedia.org/wiki/Table_de_montage "Table de montage") s'assimile à un système mécanique, en virtuel il faut appréhender l'informatique et apprendre à maîtriser les logiciels dédiés.
 
@@ -283,7 +283,7 @@ Certains films bénéficient après une première sortie dans un montage décid�
 
 - [Alain Weber](https://fr.wikipedia.org/wiki/Alain_Weber_\(monteur\) "Alain Weber (monteur)"), *Idéologies du montage ou l’art de la manipulation*, *CinémAction*, n <sup>o</sup> 23, 1983
 - [Albert Jurgenson](https://fr.wikipedia.org/wiki/Albert_Jurgenson "Albert Jurgenson") et [Sophie Brunet](https://fr.wikipedia.org/w/index.php?title=Sophie_Brunet&action=edit&redlink=1 "Sophie Brunet (page inexistante)"), Pratique du montage, La Fémis, , 183 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2-907114-08-5](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-907114-08-5 "Spécial:Ouvrages de référence/2-907114-08-5"), [ISSN](https://fr.wikipedia.org/wiki/International_Standard_Serial_Number "International Standard Serial Number") [0991-6296](https://portal.issn.org/resource/issn/0991-6296))
-- [Henri Colpi](https://fr.wikipedia.org/wiki/Henri_Colpi "Henri Colpi") en collaboration avec Nathalie Hureau, *Lettres à un jeune monteur*, 208 p., Éditions [Les Belles lettres](https://fr.wikipedia.org/wiki/Les_Belles_Lettres "Les Belles Lettres") -Archimbaud, [1996](https://fr.wikipedia.org/wiki/1996_en_litt%C3%A9rature "1996 en littérature") ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2251752021](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2251752021 "Spécial:Ouvrages de référence/2251752021")) — Réédition par [Séguier](https://fr.wikipedia.org/wiki/%C3%89ditions_S%C3%A9guier "Éditions Séguier"), [Biarritz](https://fr.wikipedia.org/wiki/Biarritz "Biarritz"), [2006](https://fr.wikipedia.org/wiki/2006_en_litt%C3%A9rature "2006 en littérature") ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2840494620](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2840494620 "Spécial:Ouvrages de référence/2840494620")) « [Présentation en ligne](http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&go=Go&Affichage=&id_partner=&id_club=&RefLien=&nomSession=1259222630&sid=580edcb7d398a0f1814b7313049604dd&br_ident=&n=) » <sup>(<a href="https://web.archive.org/web/*/http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&amp;go=Go&amp;Affichage=&amp;id_partner=&amp;id_club=&amp;RefLien=&amp;nomSession=1259222630&amp;sid=580edcb7d398a0f1814b7313049604dd&amp;br_ident=&amp;n=">Archive.org</a> • <a href="https://archive.wikiwix.com/cache/?url=http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&amp;go=Go&amp;Affichage=&amp;id_partner=&amp;id_club=&amp;RefLien=&amp;nomSession=1259222630&amp;sid=580edcb7d398a0f1814b7313049604dd&amp;br_ident=&amp;n=">Wikiwix</a> • <a href="https://archive.is/http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&amp;go=Go&amp;Affichage=&amp;id_partner=&amp;id_club=&amp;RefLien=&amp;nomSession=1259222630&amp;sid=580edcb7d398a0f1814b7313049604dd&amp;br_ident=&amp;n=">Archive.is</a> • <a href="https://webcache.googleusercontent.com/search?hl=fr&amp;q=cache:http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&amp;go=Go&amp;Affichage=&amp;id_partner=&amp;id_club=&amp;RefLien=&amp;nomSession=1259222630&amp;sid=580edcb7d398a0f1814b7313049604dd&amp;br_ident=&amp;n=">Google</a> • <a href="https://fr.wikipedia.org/wiki/Projet:Correction_des_liens_externes#J'ai_trouv%C3%A9_un_lien_mort,_que_faire_?" title="Projet:Correction des liens externes">Que faire?</a>)</sup>
+- [Henri Colpi](https://fr.wikipedia.org/wiki/Henri_Colpi "Henri Colpi") en collaboration avec Nathalie Hureau, *Lettres à un jeune monteur*, 208 p., Éditions [Les Belles lettres](https://fr.wikipedia.org/wiki/Les_Belles_Lettres "Les Belles Lettres") -Archimbaud, [1996](https://fr.wikipedia.org/wiki/1996_en_litt%C3%A9rature "1996 en littérature") ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2251752021](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2251752021 "Spécial:Ouvrages de référence/2251752021")) — Réédition par [Séguier](https://fr.wikipedia.org/wiki/%C3%89ditions_S%C3%A9guier "Éditions Séguier"), [Biarritz](https://fr.wikipedia.org/wiki/Biarritz "Biarritz"), [2006](https://fr.wikipedia.org/wiki/2006_en_litt%C3%A9rature "2006 en littérature") ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2840494620](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2840494620 "Spécial:Ouvrages de référence/2840494620")) « [Présentation en ligne](http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&go=Go&Affichage=&id_partner=&id_club=&RefLien=&nomSession=1259222630&sid=580edcb7d398a0f1814b7313049604dd&br_ident=&n=) » <sup>(<a href="https://web.archive.org/web/*/http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&amp;go=Go&amp;Affichage=&amp;id_partner=&amp;id_club=&amp;RefLien=&amp;nomSession=1259222630&amp;sid=580edcb7d398a0f1814b7313049604dd&amp;br_ident=&amp;n=">Archive.org</a> • <a href="https://archive.wikiwix.com/cache/?url=http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&amp;go=Go&amp;Affichage=&amp;id_partner=&amp;id_club=&amp;RefLien=&amp;nomSession=1259222630&amp;sid=580edcb7d398a0f1814b7313049604dd&amp;br_ident=&amp;n=">Wikiwix</a> • <a href="https://archive.is/http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&amp;go=Go&amp;Affichage=&amp;id_partner=&amp;id_club=&amp;RefLien=&amp;nomSession=1259222630&amp;sid=580edcb7d398a0f1814b7313049604dd&amp;br_ident=&amp;n=">Archive.is</a> • <a href="https://webcache.googleusercontent.com/search?hl=fr&amp;q=cache:http://www.atlantica.fr/catalogue.php?zt_titre_seul=Lettres+%E0+un+jeune+monteur&amp;go=Go&amp;Affichage=&amp;id_partner=&amp;id_club=&amp;RefLien=&amp;nomSession=1259222630&amp;sid=580edcb7d398a0f1814b7313049604dd&amp;br_ident=&amp;n=">Google</a> • <a href="https://fr.wikipedia.org/wiki/Projet:Correction_des_liens_externes'ai_trouv%C3%A9_un_lien_mort,_que_faire_?" title="Projet:Correction des liens externes">Que faire?</a>)</sup>
 - [Noëlle Boisson](https://fr.wikipedia.org/wiki/No%C3%ABlle_Boisson "Noëlle Boisson"), La Sagesse de la Monteuse de film, L'Œil Neuf,
 - [Walter Murch](https://fr.wikipedia.org/wiki/Walter_Murch "Walter Murch"), En un clin d'œil: Passé, présent et futur du montage, Capricci, , 170 p.
 - Emmanuelle Jay, *Plus long le chat dans la brume, journal d'une monteuse*, Les Éditions Adespote, 2017, 180 p.
@@ -313,86 +313,86 @@ Certains films bénéficient après une première sortie dans un montage décid�
 
 [^6]: Laurent Mannoni, *Lexique*, in Libération numéro spécial, supplément au no 4306 du 22 mars 1995, célébrant le 22 mars 1895, année française de l’invention du cinéma, citation p. 3
 
-[^7]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 29
+[^7]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 29
 
 [^8]: (sous la direction de) Michelle Aubert et Jean-Claude Seguin, *La Production cinématographique des frères Lumière*, Bifi-éditions, Mémoires de cinéma, Paris, 1996 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2-9509-048-1-5](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-9509-048-1-5 "Spécial:Ouvrages de référence/2-9509-048-1-5"))
 
 [^9]: (en) Charles Musser, *History of the American Cinema, Volume 1, The Emergence of Cinema, The American Screen to 1907*, Charles Scribner’s Sons, New York, Collier Macmillan Canada, Toronto, Maxwell Macmillan International, New York, Oxford, Singapore, Sydney, 1990 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [0-684-18413-3](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/0-684-18413-3 "Spécial:Ouvrages de référence/0-684-18413-3")), 613 pages, page 233
 
-[^10]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 22
+[^10]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 22
 
-[^11]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 30
+[^11]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 30
 
-[^12]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 28
+[^12]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 28
 
 [^13]: Jean Douchet, *Les Fantômes de la surimpression*, in Cahiers du cinéma n° 465, mars 1993, citation de la page 50
 
-[^14]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 61
+[^14]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 61
 
 [^15]: Georges Sadoul, *Histoire du cinéma mondial, des origines à nos jours*, op. cit., citation de la page 43
 
-[^16]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 49
+[^16]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 49
 
 [^17]: Jean-Claude Carrière, *Le Film que l’on ne voit pas*, Paris, Plon, 1996, ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [9782259181877](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/9782259181877 "Spécial:Ouvrages de référence/9782259181877")), 224 p.
 
-[^18]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 16
+[^18]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 16
 
-[^19]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 43
+[^19]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 43
 
 [^20]: S.M. Eisenstein, « Dickens et Griffith », 1938, traduit du russe par Marina Berger, Paris, Stalker éditeur, 2007 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-9526719-41](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-9526719-41 "Spécial:Ouvrages de référence/978-2-9526719-41")) 248 pages, citation p. 215
 
-[^21]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 184
+[^21]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 184
 
-[^22]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 184-186
+[^22]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 184-186
 
 [^23]: S.M. Eisenstein, « Dickens et Griffith », traduit du russe par Marina Berger, op. cit., citation de la p. 218
 
-[^24]: [Eisenstein Marina Berger](https://fr.wikipedia.org/wiki/#EisensteinMarina_Berger), p. 220-221
+[^24]: [Eisenstein Marina Berger](https://fr.wikipedia.org/wiki/), p. 220-221
 
 [^25]: Béla Balázs, « L’Esprit du cinéma », 1930, traduit de l’allemand par J.M. Chavy, Paris, Payot, 1977 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2-228-11910-5](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-228-11910-5 "Spécial:Ouvrages de référence/2-228-11910-5")) 298 p., citation p. 164
 
 [^26]: Dziga Vertov, « Articles, journaux, projets », 1923, traduit de l’anglais par Syviane Mossé & Andrée Robel, Paris, UGE 10|18, collection Inédit Cahiers du cinéma, 1972, 442 pages, p. 15
 
-[^27]: [Vertov 1923](https://fr.wikipedia.org/wiki/#Vertov1923), p. 31
+[^27]: [Vertov 1923](https://fr.wikipedia.org/wiki/), p. 31
 
-[^28]: [Vertov 1923](https://fr.wikipedia.org/wiki/#Vertov1923), p. 30
+[^28]: [Vertov 1923](https://fr.wikipedia.org/wiki/), p. 30
 
-[^29]: [Vertov 1923](https://fr.wikipedia.org/wiki/#Vertov1923), p. 102-103
+[^29]: [Vertov 1923](https://fr.wikipedia.org/wiki/), p. 102-103
 
-[^30]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 164
+[^30]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 164
 
 [^31]: Marie-France Briselance et Jean-Claude Morin, « Le Personnage, de la "Grande" histoire à la fiction », Paris, Nouveau Monde éditions, 2013 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-36583-837-5](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-36583-837-5 "Spécial:Ouvrages de référence/978-2-36583-837-5")) 436 pages, citation de la page 291
 
-[^32]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 20
+[^32]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 20
 
-[^33]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 229
+[^33]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 229
 
-[^34]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 230-231
+[^34]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 230-231
 
-[^35]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 172
+[^35]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 172
 
-[^36]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 172-173
+[^36]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 172-173
 
-[^37]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 235
+[^37]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 235
 
-[^38]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 405-406
+[^38]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 405-406
 
 [^39]: André Bazin « Qu’est-ce que le cinéma? – Montage interdit », Paris, Les Éditions du Cerf, Collection 7 <sup>e</sup> Art, 1994 ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [2-204-02419-8](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/2-204-02419-8 "Spécial:Ouvrages de référence/2-204-02419-8")), 372 pages, citation du titre page 51
 
-[^40]: [Bazin 1994](https://fr.wikipedia.org/wiki/#Bazin1994), p. 58 « Montage interdit »
+[^40]: [Bazin 1994](https://fr.wikipedia.org/wiki/), p. 58 « Montage interdit »
 
-[^41]: [Hitchcock et Truffaut 1985](https://fr.wikipedia.org/wiki/#HitchcockTruffaut1985), p. 225
+[^41]: [Hitchcock et Truffaut 1985](https://fr.wikipedia.org/wiki/), p. 225
 
-[^42]: [Hitchcock et Truffaut 1985](https://fr.wikipedia.org/wiki/#HitchcockTruffaut1985), p. 251
+[^42]: [Hitchcock et Truffaut 1985](https://fr.wikipedia.org/wiki/), p. 251
 
-[^43]: [Hitchcock et Truffaut 1985](https://fr.wikipedia.org/wiki/#HitchcockTruffaut1985), p. 215
+[^43]: [Hitchcock et Truffaut 1985](https://fr.wikipedia.org/wiki/), p. 215
 
-[^44]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 507
+[^44]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 507
 
-[^45]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 508
+[^45]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 508
 
-[^46]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 103
+[^46]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 103
 
-[^47]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/#BriselanceMorin2010), p. 130
+[^47]: [Briselance et Morin 2010](https://fr.wikipedia.org/wiki/), p. 130
 
-[^48]: [Sadoul 1968](https://fr.wikipedia.org/wiki/#Sadoul1968), p. 67
+[^48]: [Sadoul 1968](https://fr.wikipedia.org/wiki/), p. 67

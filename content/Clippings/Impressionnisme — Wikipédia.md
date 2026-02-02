@@ -389,263 +389,263 @@ Les toiles impressionnistes conservent, au début du XXI <sup>e</sup> siècle, u
 - [Portail de l’histoire de l’art](https://fr.wikipedia.org/wiki/Portail:Histoire_de_l%27art "Portail:Histoire de l'art")
 - [Portail de la peinture](https://fr.wikipedia.org/wiki/Portail:Peinture "Portail:Peinture")
 
-[^1]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 51, donne des exemples: « Nos peintres se préoccupent de l'impression avant tout »; « C'est surtout parmi les peintres d'aquarelles qu'il faut chercher les paysagistes d'impression ».
+[^1]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 51, donne des exemples: « Nos peintres se préoccupent de l'impression avant tout »; « C'est surtout parmi les peintres d'aquarelles qu'il faut chercher les paysagistes d'impression ».
 
 [^2]: [^48]
 
-[^3]: Pour un tableau chronologique reprenant les grands événements artistiques, littéraires, scientifiques et politiques entre 1860 et 1914, voir [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 398-409.
+[^3]: Pour un tableau chronologique reprenant les grands événements artistiques, littéraires, scientifiques et politiques entre 1860 et 1914, voir [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 398-409.
 
 [^4]: Aimie Eliot, « Réformer l'académisme! », *Les cahiers de Science & Vie*, n <sup>o</sup> 216,, p.26-29 ([ISSN](https://fr.wikipedia.org/wiki/International_Standard_Serial_Number "International Standard Serial Number") [1157-4887](https://portal.issn.org/resource/issn/1157-4887))
 
-[^5]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 35.
+[^5]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 35.
 
-[^6]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 36.
+[^6]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 36.
 
-[^7]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 43.
+[^7]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 43.
 
-[^8]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 44.
+[^8]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 44.
 
-[^9]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 38.
+[^9]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 38.
 
-[^10]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 48.
+[^10]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 48.
 
-[^11]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. XIV.
+[^11]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. XIV.
 
-[^12]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 40.
+[^12]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 40.
 
-[^13]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 41.
+[^13]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 41.
 
-[^14]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 299.
+[^14]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 299.
 
-[^15]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. XV.
+[^15]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. XV.
 
-[^16]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 18.
+[^16]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 18.
 
-[^17]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 6.
+[^17]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 6.
 
-[^18]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 7.
+[^18]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 7.
 
-[^19]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 15.
+[^19]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 15.
 
 [^20]: Anne-Marie Bergeret-Gourbin, Eugène Boudin, la magie de l'air et de l'eau, Garches, Editions A Propos, 64  p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [9782915398144](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/9782915398144 "Spécial:Ouvrages de référence/9782915398144")).
 
-[^21]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 23.
+[^21]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 23.
 
-[^22]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 25.
+[^22]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 25.
 
-[^23]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 46.
+[^23]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 46.
 
-[^24]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 302.
+[^24]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 302.
 
-[^25]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 78.
+[^25]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 78.
 
-[^26]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 47.
+[^26]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 47.
 
-[^27]: [Loyrette 1994](https://fr.wikipedia.org/wiki/#Loyrette1994), p. 114.
+[^27]: [Loyrette 1994](https://fr.wikipedia.org/wiki/), p. 114.
 
-[^28]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 64.
+[^28]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 64.
 
-[^29]: [Moffett 1983](https://fr.wikipedia.org/wiki/#Moffett1983), p. 33.
+[^29]: [Moffett 1983](https://fr.wikipedia.org/wiki/), p. 33.
 
-[^30]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 112.
+[^30]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 112.
 
-[^31]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 49.
+[^31]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 49.
 
-[^32]: [Moffett 1983](https://fr.wikipedia.org/wiki/#Moffett1983), p. 30.
+[^32]: [Moffett 1983](https://fr.wikipedia.org/wiki/), p. 30.
 
-[^33]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 67.
+[^33]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 67.
 
-[^34]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 77.
+[^34]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 77.
 
-[^35]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 50.
+[^35]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 50.
 
-[^36]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 55.
+[^36]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 55.
 
-[^37]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 52-53.
+[^37]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 52-53.
 
-[^38]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 53.
+[^38]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 53.
 
-[^39]: [Wildenstein 1996](https://fr.wikipedia.org/wiki/#Wildenstein1996), p. 78.
+[^39]: [Wildenstein 1996](https://fr.wikipedia.org/wiki/), p. 78.
 
-[^40]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 55.
+[^40]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 55.
 
-[^41]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 56.
+[^41]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 56.
 
-[^42]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 96.
+[^42]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 96.
 
-[^43]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 57.
+[^43]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 57.
 
-[^44]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 97.
+[^44]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 97.
 
-[^45]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 58.
+[^45]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 58.
 
-[^46]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 98.
+[^46]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 98.
 
-[^47]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 59.
+[^47]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 59.
 
 [^48]: [Louis Leroy](https://fr.wikipedia.org/wiki/Louis_Leroy "Louis Leroy"), «  L'exposition des impressionnistes  », *Le Charivari*, ([lire en ligne](https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f3) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k30708891%2Ff3 "archive sur Wikiwix")\] sur *[Gallica](https://fr.wikipedia.org/wiki/Gallica "Gallica")*).
 
-[^49]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 60.
+[^49]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 60.
 
-[^50]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 99.
+[^50]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 99.
 
 [^51]: Jean-Jacques Breton, Les 100 mots de l'impressionnisme,, 128 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-13-081547-1](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-13-081547-1 "Spécial:Ouvrages de référence/978-2-13-081547-1"), [lire en ligne](https://books.google.fr/books?id=YX6CDwAAQBAJ&pg=PT30) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.fr%2Fbooks%3Fid%3DYX6CDwAAQBAJ%26pg%3DPT30 "archive sur Wikiwix")\]), p. 30.
 
 [^52]: Henri Perruchot, La vie de Renoir,, 410 p.([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [978-2-7062-3041-7](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-7062-3041-7 "Spécial:Ouvrages de référence/978-2-7062-3041-7"), [lire en ligne](https://books.google.fr/books?id=kCSFDwAAQBAJ&pg=PT103) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fbooks.google.fr%2Fbooks%3Fid%3DkCSFDwAAQBAJ%26pg%3DPT103 "archive sur Wikiwix")\]), p. 103.
 
-[^53]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 86.
+[^53]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 86.
 
-[^54]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 102.
+[^54]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 102.
 
-[^55]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 95.
+[^55]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 95.
 
-[^56]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 149.
+[^56]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 149.
 
-[^57]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 146.
+[^57]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 146.
 
-[^58]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 320.
+[^58]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 320.
 
-[^59]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 135.
+[^59]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 135.
 
-[^60]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 61.
+[^60]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 61.
 
-[^61]: [Geraldine Lefebvre, *Léon Monet et François Depeaux*](https://fr.wikipedia.org/wiki/#Amic2020), p. 61.
+[^61]: [Geraldine Lefebvre, *Léon Monet et François Depeaux*](https://fr.wikipedia.org/wiki/), p. 61.
 
-[^62]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 100.
+[^62]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 100.
 
-[^63]: Cité dans [Duranty 1876](https://fr.wikipedia.org/wiki/#Duranty1876), p. 10.
+[^63]: Cité dans [Duranty 1876](https://fr.wikipedia.org/wiki/), p. 10.
 
-[^64]: Cité dans [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 183.
+[^64]: Cité dans [Patry 2014](https://fr.wikipedia.org/wiki/), p. 183.
 
-[^65]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 103.
+[^65]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 103.
 
-[^66]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 36.
+[^66]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 36.
 
-[^67]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 100.
+[^67]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 100.
 
-[^68]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 144.
+[^68]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 144.
 
-[^69]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 101.
+[^69]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 101.
 
-[^70]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 117-121.
+[^70]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 117-121.
 
-[^71]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 112.
+[^71]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 112.
 
-[^72]: Cité dans [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 117.
+[^72]: Cité dans [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 117.
 
-[^73]: Cité dans [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 115.
+[^73]: Cité dans [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 115.
 
-[^74]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 122.
+[^74]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 122.
 
-[^75]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 125.
+[^75]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 125.
 
-[^76]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 25-27.
+[^76]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 25-27.
 
-[^77]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 138.
+[^77]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 138.
 
-[^78]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 107.
+[^78]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 107.
 
-[^79]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 108.
+[^79]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 108.
 
-[^80]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 38.
+[^80]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 38.
 
-[^81]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 106.
+[^81]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 106.
 
-[^82]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 118.
+[^82]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 118.
 
-[^83]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 139.
+[^83]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 139.
 
-[^84]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 142.
+[^84]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 142.
 
-[^85]: Lettre à Durand-Ruel, cité par [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 34.
+[^85]: Lettre à Durand-Ruel, cité par [Patry 2014](https://fr.wikipedia.org/wiki/), p. 34.
 
-[^86]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 68.
+[^86]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 68.
 
-[^87]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 69.
+[^87]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 69.
 
-[^88]: Terme employé par [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 84.
+[^88]: Terme employé par [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 84.
 
-[^89]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 69-70.
+[^89]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 69-70.
 
-[^90]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 70-76.
+[^90]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 70-76.
 
-[^91]: [Nocq 1894](https://fr.wikipedia.org/wiki/#Nocq1894), p. 529.
+[^91]: [Nocq 1894](https://fr.wikipedia.org/wiki/), p. 529.
 
-[^92]: [Laurent 1984](https://fr.wikipedia.org/wiki/#Laurent1984), p. 70.
+[^92]: [Laurent 1984](https://fr.wikipedia.org/wiki/), p. 70.
 
-[^93]: [Laurent 1984](https://fr.wikipedia.org/wiki/#Laurent1984), p. 78.
+[^93]: [Laurent 1984](https://fr.wikipedia.org/wiki/), p. 78.
 
-[^94]: [Laurent 1984](https://fr.wikipedia.org/wiki/#Laurent1984), p. 81.
+[^94]: [Laurent 1984](https://fr.wikipedia.org/wiki/), p. 81.
 
-[^95]: [Laurent 1984](https://fr.wikipedia.org/wiki/#Laurent1984), p. 80.
+[^95]: [Laurent 1984](https://fr.wikipedia.org/wiki/), p. 80.
 
-[^96]: [Laurent 1984](https://fr.wikipedia.org/wiki/#Laurent1984), p. 85.
+[^96]: [Laurent 1984](https://fr.wikipedia.org/wiki/), p. 85.
 
-[^97]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 87.
+[^97]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 87.
 
-[^98]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 141.
+[^98]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 141.
 
-[^99]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 193.
+[^99]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 193.
 
-[^100]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 79.
+[^100]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 79.
 
-[^101]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 80.
+[^101]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 80.
 
-[^102]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 82-83.
+[^102]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 82-83.
 
-[^103]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 86.
+[^103]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 86.
 
-[^104]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 85.
+[^104]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 85.
 
-[^105]: [Lista 2005](https://fr.wikipedia.org/wiki/#Lista2005), p. 150-151.
+[^105]: [Lista 2005](https://fr.wikipedia.org/wiki/), p. 150-151.
 
-[^106]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 73.
+[^106]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 73.
 
-[^107]: [Duranty 1876](https://fr.wikipedia.org/wiki/#Duranty1876).
+[^107]: [Duranty 1876](https://fr.wikipedia.org/wiki/).
 
-[^108]: [Moffett 1983](https://fr.wikipedia.org/wiki/#Moffett1983), p. 32.
+[^108]: [Moffett 1983](https://fr.wikipedia.org/wiki/), p. 32.
 
-[^109]: [Moffett 1983](https://fr.wikipedia.org/wiki/#Moffett1983), p. 29.
+[^109]: [Moffett 1983](https://fr.wikipedia.org/wiki/), p. 29.
 
-[^110]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 105-107
+[^110]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 105-107
 
-[^111]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 42
+[^111]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 42
 
-[^112]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 110-112
+[^112]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 110-112
 
-[^113]: [Lista 2005](https://fr.wikipedia.org/wiki/#Lista2005), p. 140-141
+[^113]: [Lista 2005](https://fr.wikipedia.org/wiki/), p. 140-141
 
-[^114]: [Lista 2005](https://fr.wikipedia.org/wiki/#Lista2005), p. 144
+[^114]: [Lista 2005](https://fr.wikipedia.org/wiki/), p. 144
 
-[^115]: [Lista 2005](https://fr.wikipedia.org/wiki/#Lista2005), p. 143
+[^115]: [Lista 2005](https://fr.wikipedia.org/wiki/), p. 143
 
-[^116]: [Lista 2005](https://fr.wikipedia.org/wiki/#Lista2005), p. 145
+[^116]: [Lista 2005](https://fr.wikipedia.org/wiki/), p. 145
 
-[^117]: [Lista 2005](https://fr.wikipedia.org/wiki/#Lista2005), p. 148
+[^117]: [Lista 2005](https://fr.wikipedia.org/wiki/), p. 148
 
 [^118]: \[vidéo\] « [Photographie et peinture II, Les impressionnistes et la photographie](https://www.youtube.com/watch?v=Miuthz6HrpQ) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMiuthz6HrpQ "archive sur Wikiwix")\] », Art d'Histoire,, 36:34 min (consulté le )
 
 [^119]: (en) Warren, Lynne, Encyclopedia of Twentieth-century Photography Vol.1, New York, Routledge, ([ISBN](https://fr.wikipedia.org/wiki/International_Standard_Book_Number "International Standard Book Number") [9781579583934](https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/9781579583934 "Spécial:Ouvrages de référence/9781579583934")), p.778–781
 
-[^120]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 107-110
+[^120]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 107-110
 
-[^121]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 33
+[^121]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 33
 
-[^122]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 34
+[^122]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 34
 
-[^123]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 73-76
+[^123]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 73-76
 
-[^124]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/#Joyeux-Prunel2015), p. 66
+[^124]: [Joyeux-Prunel 2015](https://fr.wikipedia.org/wiki/), p. 66
 
-[^125]: [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/#Ferretti-Bocquillon2018), p. 47
+[^125]: [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/), p. 47
 
-[^126]: [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/#Ferretti-Bocquillon2018), p. 46
+[^126]: [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/), p. 46
 
-[^127]: [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/#Ferretti-Bocquillon2018), p. 52
+[^127]: [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/), p. 52
 
-[^128]: [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/#Ferretti-Bocquillon2018), p. 49
+[^128]: [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/), p. 49
 
-[^129]: Lettre à son fils Lucien, cité dans [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/#Ferretti-Bocquillon2018), p. 49
+[^129]: Lettre à son fils Lucien, cité dans [Ferretti-Bocquillon 2018](https://fr.wikipedia.org/wiki/), p. 49
 
 [^130]: (es) Karin Sagner-Dûchting, « Capítulo 15 », dans *La Pintura en España en la época del Impresionismo*, p. 553-557.
 
@@ -653,63 +653,63 @@ Les toiles impressionnistes conservent, au début du XXI <sup>e</sup> siècle, u
 
 [^132]: « [Marià Pidelaserra i Brias | enciclopedia.cat](https://www.enciclopedia.cat/gran-enciclopedia-catalana/maria-pidelaserra-i-brias) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.enciclopedia.cat%2Fgran-enciclopedia-catalana%2Fmaria-pidelaserra-i-brias "archive sur Wikiwix")\] », sur www.enciclopedia.cat
 
-[^133]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 251
+[^133]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 251
 
-[^134]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 261
+[^134]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 261
 
-[^135]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 92
+[^135]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 92
 
-[^136]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 93
+[^136]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 93
 
-[^137]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 88
+[^137]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 88
 
-[^138]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 121
+[^138]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 121
 
-[^139]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 122
+[^139]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 122
 
-[^140]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 123
+[^140]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 123
 
-[^141]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 124
+[^141]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 124
 
-[^142]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 129
+[^142]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 129
 
-[^143]: [Patry 2014](https://fr.wikipedia.org/wiki/#Patry2014), p. 132
+[^143]: [Patry 2014](https://fr.wikipedia.org/wiki/), p. 132
 
-[^144]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 206
+[^144]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 206
 
-[^145]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 356-357
+[^145]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 356-357
 
 [^146]: « [Les impressionnistes slovènes et leur temps](https://www.petitpalais.paris.fr/expositions/les-impressionnistes-slovenes-et-leur-temps) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.petitpalais.paris.fr%2Fexpositions%2Fles-impressionnistes-slovenes-et-leur-temps "archive sur Wikiwix")\] », sur petitpalais.paris.fr, (consulté le )
 
-[^147]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 292
+[^147]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 292
 
-[^148]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 173
+[^148]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 173
 
-[^149]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 198
+[^149]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 198
 
-[^150]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 175
+[^150]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 175
 
-[^151]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 174
+[^151]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 174
 
-[^152]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 181
+[^152]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 181
 
-[^153]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 182
+[^153]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 182
 
-[^154]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 183
+[^154]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 183
 
-[^155]: [Breuille 1992](https://fr.wikipedia.org/wiki/#Breuille1992), p. 91
+[^155]: [Breuille 1992](https://fr.wikipedia.org/wiki/), p. 91
 
-[^156]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 187-188
+[^156]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 187-188
 
-[^157]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 184-185
+[^157]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 184-185
 
-[^158]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 191
+[^158]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 191
 
-[^159]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 192
+[^159]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 192
 
-[^160]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 196
+[^160]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 196
 
-[^161]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/#Gunnarsson1998), p. 201
+[^161]: [Gunnarsson 1998](https://fr.wikipedia.org/wiki/), p. 201
 
 [^162]: (en) Scott C. Allan, « [Sunrise (Marine)](http://www.getty.edu/art/collection/objects/125556/claude-monet-sunrise-marine-french-1872-or-1873/) \[[archive](https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.getty.edu%2Fart%2Fcollection%2Fobjects%2F125556%2Fclaude-monet-sunrise-marine-french-1872-or-1873%2F "archive sur Wikiwix")\] », sur The J.Paul Getty Museum (consulté le ).
 
@@ -719,7 +719,7 @@ Les toiles impressionnistes conservent, au début du XXI <sup>e</sup> siècle, u
 
 [^165]: (en) « [The collection - impressionism](https://www.artic.edu/collection?style_ids=Impressionism) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.artic.edu%2Fcollection%3Fstyle_ids%3DImpressionism "archive sur Wikiwix")\] », sur Art Institue of Chicago (consulté le ).
 
-[^166]: (en) « [French Painting of 19th-20th centuries](https://hermitagemuseum.org/wps/portal/hermitage/search-results#search=impressionism) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fhermitagemuseum.org%2Fwps%2Fportal%2Fhermitage%2Fsearch-results%23search%3Dimpressionism "archive sur Wikiwix")\] », sur musée de l'Ermitage (consulté le ).
+[^166]: (en) « [French Painting of 19th-20th centuries](https://hermitagemuseum.org/wps/portal/hermitage/search-results=impressionism) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fhermitagemuseum.org%2Fwps%2Fportal%2Fhermitage%2Fsearch-results%23search%3Dimpressionism "archive sur Wikiwix")\] », sur musée de l'Ermitage (consulté le ).
 
 [^167]: (en) « [Outline](https://www.nmwa.go.jp/en/about/index.html) \[[archive](https://archive.wikiwix.com/cache/?url=https%3A%2F%2Fwww.nmwa.go.jp%2Fen%2Fabout%2Findex.html "archive sur Wikiwix")\] », sur The National Museum of Western Art (consulté le ).
 

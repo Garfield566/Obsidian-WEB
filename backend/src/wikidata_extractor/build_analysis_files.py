@@ -128,15 +128,23 @@ def build_specialized_terms_file(specialized_terms):
 
     Format source: {term_name: {type, exact_terms, definition, domaine_exact, ...}}
 
-    Format cible:
+    Format cible (compatible avec emergent_detector.py):
     {
       "terme-specialise": {
-        "type": "specialized",
-        "domain": "domaine-exact",
-        "definition": "...",
-        "source": "...",
-        "confidence": 0.85,
-        "validation_keywords": ["mot1", "mot2"]
+        "exact_terms": ["terme exact 1", "terme exact 2"],
+        "definition": {
+          "mandatory": [
+            {"name": "mot", "synonyms": ["syn1", "syn2"]}
+          ],
+          "contextual": [
+            {"name": "mot", "synonyms": ["syn1", "syn2"]}
+          ],
+          "raw_definition": "définition complète..."
+        },
+        "threshold": 0.90,
+        "domaine_parent": "domaine\\sous-domaine",
+        "domaine_exact": "domaine\\sous-domaine",
+        "validation_weight": 1.0
       }
     }
     """
@@ -151,28 +159,60 @@ def build_specialized_terms_file(specialized_terms):
         # Normaliser le nom (remplacer espaces par tirets)
         term_key = term_name.replace(" ", "-").strip().lower()
 
-        # Extraire les mots clés de la définition
+        # Extraire la définition source
         definition = term_data.get("definition", {})
-        mandatory_words = []
 
-        # Les mots mandatory peuvent être des strings ou des dicts
+        # Construire les listes mandatory et contextual
+        mandatory = []
         for word_item in definition.get("mandatory", []):
-            if isinstance(word_item, dict) and "name" in word_item:
-                mandatory_words.append(word_item["name"])
+            if isinstance(word_item, dict):
+                mandatory.append({
+                    "name": word_item.get("name", ""),
+                    "synonyms": word_item.get("synonyms", [])
+                })
             elif isinstance(word_item, str):
-                mandatory_words.append(word_item)
+                # Si c'est juste un string, créer la structure
+                mandatory.append({
+                    "name": word_item,
+                    "synonyms": [word_item]
+                })
 
-        # Récupérer les sources
-        sources = term_data.get("sources", ["wiktionary"])
-        source_str = sources[0] if isinstance(sources, list) and sources else "wiktionary"
+        contextual = []
+        for word_item in definition.get("contextual", []):
+            if isinstance(word_item, dict):
+                contextual.append({
+                    "name": word_item.get("name", ""),
+                    "synonyms": word_item.get("synonyms", [])
+                })
+            elif isinstance(word_item, str):
+                contextual.append({
+                    "name": word_item,
+                    "synonyms": [word_item]
+                })
+
+        # Extraire exact_terms
+        exact_terms = term_data.get("exact_terms", [])
+        if isinstance(exact_terms, str):
+            exact_terms = [exact_terms]
+        elif not exact_terms:
+            # Si pas d'exact_terms, utiliser le nom du terme
+            exact_terms = [term_name]
+
+        # Domaine parent et exact
+        domaine_exact = term_data.get("domaine_exact", "").strip().lower()
+        domaine_parent = term_data.get("domaine_parent", domaine_exact).strip().lower()
 
         output[term_key] = {
-            "type": "specialized",
-            "domain": term_data.get("domaine_exact", "").strip().lower(),
-            "definition": definition.get("raw_definition", ""),
-            "source": source_str,
-            "confidence": term_data.get("confidence", 0.8),
-            "validation_keywords": mandatory_words[:10]  # Max 10 mots-clés
+            "exact_terms": exact_terms,
+            "definition": {
+                "mandatory": mandatory,
+                "contextual": contextual,
+                "raw_definition": definition.get("raw_definition", "")
+            },
+            "threshold": term_data.get("threshold", 0.90),
+            "domaine_parent": domaine_parent,
+            "domaine_exact": domaine_exact,
+            "validation_weight": term_data.get("validation_weight", 1.0)
         }
 
     print(f"      OK {len(output)} termes specialises")

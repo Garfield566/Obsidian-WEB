@@ -1,7 +1,6 @@
 ---
-title: "Vinification — Wikipédia"
-source: "https://fr.wikipedia.org/wiki/Vinification"
-author:
+title: — Wikipédia"
+source: "https://fr.wikipedia.org/wiki/author:
   - "[[Contributeurs aux projets Wikimedia]]"
 published: 2004-03-06
 created: 2026-02-02
@@ -55,7 +54,7 @@ Un [débourbage](https://fr.wikipedia.org/wiki/D%C3%A9bourbage "Débourbage"), c
 
 L' [assemblage](https://fr.wikipedia.org/wiki/Assemblage_\(alcools\) "Assemblage (alcools)") éventuel de différents moûts (dans le cas de vinifications de différents [cépages](https://fr.wikipedia.org/wiki/C%C3%A9page "Cépage"), parcelles, etc.).
 
-La [macération pelliculaire](https://fr.wikipedia.org/wiki/Mac%C3%A9ration_pelliculaire "Macération pelliculaire") (pour les vinifications en blanc et en [rosé de pressurage direct](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9#Le_pressurage_direct "Vin rosé")) consiste en un contact de quelques heures des pellicules et du moût pour faire diffuser les [arômes primaires](https://fr.wikipedia.org/wiki/Ar%C3%B4mes_du_vin#Ar%C3%B4mes_primaires,_ar%C3%B4mes_de_c%C3%A9pages_ou_ar%C3%B4mes_vari%C3%A9taux "Arômes du vin") et les [anthocyanes](https://fr.wikipedia.org/wiki/Anthocyane "Anthocyane") (pour les rosés).
+La [macération pelliculaire](https://fr.wikipedia.org/wiki/Mac%C3%A9ration_pelliculaire "Macération pelliculaire") (pour les vinifications en blanc et en [rosé de pressurage direct](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9 "Vin rosé")) consiste en un contact de quelques heures des pellicules et du moût pour faire diffuser les [arômes primaires](https://fr.wikipedia.org/wiki/Ar%C3%B4mes_du_vin%C3%B4mes_primaires,_ar%C3%B4mes_de_c%C3%A9pages_ou_ar%C3%B4mes_vari%C3%A9taux "Arômes du vin") et les [anthocyanes](https://fr.wikipedia.org/wiki/Anthocyane "Anthocyane") (pour les rosés).
 
 Ces opérations sont principalement réalisées pour les vins rouges.
 
@@ -67,7 +66,7 @@ Le [foulage](https://fr.wikipedia.org/wiki/Foulage_\(vin\) "Foulage (vin)") cons
 
 La [fermentation alcoolique](https://fr.wikipedia.org/wiki/Fermentation_alcoolique "Fermentation alcoolique") dure de 5 à 20 jours dans les cas classiques, jusqu'à plusieurs mois dans des cas particuliers. La fermentation durant la [cuvaison](https://fr.wikipedia.org/wiki/Cuvaison "Cuvaison") produit un important dégagement de [gaz carbonique](https://fr.wikipedia.org/wiki/Gaz_carbonique "Gaz carbonique"), et une élévation de la température qui peut être néfaste aux [levures](https://fr.wikipedia.org/wiki/Levure_en_vinification "Levure en vinification"). La [thermorégulation](https://fr.wikipedia.org/wiki/Ma%C3%AEtrise_des_temp%C3%A9ratures_en_%C5%93nologie "Maîtrise des températures en œnologie") permet de respecter des [températures optimales](https://fr.wikipedia.org/wiki/Ma%C3%AEtrise_des_temp%C3%A9ratures_en_%C5%93nologie "Maîtrise des températures en œnologie") (entre 26 et 32 °C). Elle peut se faire en [cuve](https://fr.wikipedia.org/wiki/Cuve "Cuve") ou en fûts.
 
-La [macération traditionnelle](https://fr.wikipedia.org/wiki/Mac%C3%A9ration_alcoolique "Macération alcoolique") pour le [vin rouge de garde](https://fr.wikipedia.org/wiki/Vin_de_garde "Vin de garde") et partielle pour le [vin rosé de saignée](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9#La_saign%C3%A9e "Vin rosé") se fait durant la [fermentation alcoolique](https://fr.wikipedia.org/wiki/Fermentation_alcoolique "Fermentation alcoolique"), voire au-delà (macération post-fermentaire). Pour le vin rouge, le contact de la partie liquide du [moût](https://fr.wikipedia.org/wiki/Mo%C3%BBt "Moût") avec le [marc](https://fr.wikipedia.org/wiki/Chapeau_de_marc "Chapeau de marc") lors de la [cuvaison](https://fr.wikipedia.org/wiki/Cuvaison "Cuvaison") permet une extraction, des arômes, de la [couleur](https://fr.wikipedia.org/wiki/Anthocyane "Anthocyane") et des [tanins](https://fr.wikipedia.org/wiki/Tanin "Tanin").
+La [macération traditionnelle](https://fr.wikipedia.org/wiki/Mac%C3%A9ration_alcoolique "Macération alcoolique") pour le [vin rouge de garde](https://fr.wikipedia.org/wiki/Vin_de_garde "Vin de garde") et partielle pour le [vin rosé de saignée](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9%C3%A9e "Vin rosé") se fait durant la [fermentation alcoolique](https://fr.wikipedia.org/wiki/Fermentation_alcoolique "Fermentation alcoolique"), voire au-delà (macération post-fermentaire). Pour le vin rouge, le contact de la partie liquide du [moût](https://fr.wikipedia.org/wiki/Mo%C3%BBt "Moût") avec le [marc](https://fr.wikipedia.org/wiki/Chapeau_de_marc "Chapeau de marc") lors de la [cuvaison](https://fr.wikipedia.org/wiki/Cuvaison "Cuvaison") permet une extraction, des arômes, de la [couleur](https://fr.wikipedia.org/wiki/Anthocyane "Anthocyane") et des [tanins](https://fr.wikipedia.org/wiki/Tanin "Tanin").
 
 L'extraction peut être favorisée par:
 
@@ -96,21 +95,21 @@ Il s'ensuit l' [élevage du vin](https://fr.wikipedia.org/wiki/%C3%89levage_du_v
 
 Le type de vinification diffère suivant le produit fini souhaité, classiquement on retrouve ces processus:
 
-- [vinification en vin rouge](https://fr.wikipedia.org/wiki/Vin_rouge#Vinification "Vin rouge")
-- [vinification en vin blanc](https://fr.wikipedia.org/wiki/Vin_blanc#Viniculture "Vin blanc")
+- [vinification en vin rouge](https://fr.wikipedia.org/wiki/Vin_rouge "Vin rouge")
+- [vinification en vin blanc](https://fr.wikipedia.org/wiki/Vin_blanc "Vin blanc")
 - [vinification en vin effervescent](https://fr.wikipedia.org/wiki/Vin_effervescent#M%C3%A9thodes_d'%C3%A9laboration "Vin effervescent")
 	- production d'un [blanc de blancs](https://fr.wikipedia.org/wiki/Blanc_de_blancs "Blanc de blancs")
 	- production d'un [blanc de noirs](https://fr.wikipedia.org/wiki/Blanc_de_noirs "Blanc de noirs")
-- [vinification en vin rosé](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9#Techniques_d'%C3%A9laboration "Vin rosé")
-	- vinification en [rosé de saignée](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9#La_saign%C3%A9e "Vin rosé")
-	- vinification en [rosé de pressurage direct](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9#Le_pressurage_direct "Vin rosé")
+- [vinification en vin rosé](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9'%C3%A9laboration "Vin rosé")
+	- vinification en [rosé de saignée](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9%C3%A9e "Vin rosé")
+	- vinification en [rosé de pressurage direct](https://fr.wikipedia.org/wiki/Vin_ros%C3%A9 "Vin rosé")
 - vinification en rosé de saignée
 	- vinification en [œil-de-perdrix](https://fr.wikipedia.org/wiki/%C5%92il-de-perdrix "Œil-de-perdrix")
 	- vinification en [gris](https://fr.wikipedia.org/wiki/Vin_gris "Vin gris")
 	- vinification en [clairet](https://fr.wikipedia.org/wiki/Bordeaux-clairet "Bordeaux-clairet")
 - vinification en rosé de pressurage direct
 	- vinification en [clairet](https://fr.wikipedia.org/wiki/Bordeaux-clairet "Bordeaux-clairet")
-	- vinification en [gris de gris](https://fr.wikipedia.org/wiki/Vin_gris#Gris_de_gris "Vin gris")
+	- vinification en [gris de gris](https://fr.wikipedia.org/wiki/Vin_gris "Vin gris")
 - vinification en [vin de chaudière](https://fr.wikipedia.org/wiki/Vin_de_chaudi%C3%A8re "Vin de chaudière")
 - vinification en [vin clair](https://fr.wikipedia.org/wiki/Vin_clair "Vin clair")
 - vinification en [vin primeur](https://fr.wikipedia.org/wiki/Vin_primeur "Vin primeur")

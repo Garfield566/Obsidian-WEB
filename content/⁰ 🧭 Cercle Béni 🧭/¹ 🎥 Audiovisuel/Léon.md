@@ -134,7 +134,7 @@ Année de Sortie: 1994
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
 ###### Tags 
- #Sting 
+  
  
  
  

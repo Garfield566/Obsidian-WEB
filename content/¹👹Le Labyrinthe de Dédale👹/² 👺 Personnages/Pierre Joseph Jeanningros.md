@@ -1,6 +1,6 @@
 ---
-url: https://fr.wikipedia.org/wiki/Pierre_Joseph_Jeanningros
-title: Pierre Joseph Jeanningros — Wikipédia
+url: https://fr.wikipedia.org/wiki/Pierre_oseph_eanningros
+title: Pierre oseph eanningros — Wikipédia
 tags:
  - clippings
  - wikipedia
