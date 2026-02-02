@@ -940,14 +940,19 @@ class TagGeneratorV2:
         paths_needing_extraction = paths_without_extraction | set(needs_validation)
         notes_needing_extraction = [n for n in self.notes if n.path in paths_needing_extraction]
         print(f"   ✓ {len(notes_needing_extraction)} notes nécessitent une extraction", flush=True)
+        print(f"   🔍 Test condition if: {bool(notes_needing_extraction)}", flush=True)
 
         if notes_needing_extraction:
-            print(f"   📊 Extraction données brutes: {len(notes_needing_extraction)} notes")
+            print(f"   ✅ Entrée dans le bloc if", flush=True)
+            print(f"   📊 Extraction données brutes: {len(notes_needing_extraction)} notes", flush=True)
             # Réutilise le détecteur d'entités existant
             entity_detector = self.entity_detector
+            print(f"   ✓ Détecteur d'entités prêt", flush=True)
             total_notes = len(notes_needing_extraction)
 
             for i, note in enumerate(notes_needing_extraction):
+                if i == 0:
+                    print(f"   🔄 Début traitement note 1/{total_notes}: {note.path}", flush=True)
                 # Accès défensif à content (peut être absent dans certains cas)
                 note_content = getattr(note, 'content', '') or ''
                 text = f"{note.title} {note_content}"
@@ -959,9 +964,15 @@ class TagGeneratorV2:
                     print(f"      Extraction: {i+1}/{total_notes} ({pct:.0f}%)", flush=True)
 
                 # 1. Extraction VSC/VSCA
+                if i == 0:
+                    print(f"   🔄 Extraction vocabulaire note 1...", flush=True)
                 extracted_vocab = detector.extract_all_vocabulary_from_text(text_lower)
+                if i == 0:
+                    print(f"   ✓ Vocabulaire extrait note 1", flush=True)
 
                 # 2. Extraction des entités (personnes, lieux, dates, concepts)
+                if i == 0:
+                    print(f"   🔄 Extraction entités note 1...", flush=True)
                 entities_by_type: dict[str, list[str]] = {}
                 try:
                     note_entities = entity_detector.detect_entities(note)
@@ -974,17 +985,33 @@ class TagGeneratorV2:
                 except (AttributeError, Exception) as e:
                     # Fallback si detect_entities échoue
                     pass
+                if i == 0:
+                    print(f"   ✓ Entités extraites note 1", flush=True)
 
                 # 3. Extraction des keywords (mots significatifs > 5 chars, hors stopwords)
+                if i == 0:
+                    print(f"   🔄 Extraction keywords note 1...", flush=True)
                 keywords = self._extract_keywords(text_lower)
+                if i == 0:
+                    print(f"   ✓ Keywords extraits note 1", flush=True)
 
                 # 4. Extraction des liens wiki [[...]]
+                if i == 0:
+                    print(f"   🔄 Extraction wiki_links note 1...", flush=True)
                 wiki_links = self._extract_wiki_links(note_content)
+                if i == 0:
+                    print(f"   ✓ Wiki_links extraits note 1", flush=True)
 
                 # 5. Extraction des termes candidats (pour tags émergents)
+                if i == 0:
+                    print(f"   🔄 Extraction terms note 1...", flush=True)
                 terms = self._extract_term_candidates(text_lower)
+                if i == 0:
+                    print(f"   ✓ Terms extraits note 1", flush=True)
 
                 # Stocke toutes les données brutes
+                if i == 0:
+                    print(f"   🔄 Sauvegarde données note 1 en DB...", flush=True)
                 self.repository.update_extracted_data(
                     note.path,
                     vsc=extracted_vocab["vsc"],
@@ -994,6 +1021,8 @@ class TagGeneratorV2:
                     wiki_links=wiki_links,
                     terms=terms,
                 )
+                if i == 0:
+                    print(f"   ✓ Données sauvegardées note 1", flush=True)
             print(f"   ✓ Extraction terminée")
         else:
             print(f"   📊 Extraction vocabulaire: {total_notes}/{total_notes} notes ont déjà leurs données")
