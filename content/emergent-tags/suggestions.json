@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-03T04:13:12.314384",
+  "generated_at": "2026-02-03T08:25:39.142317",
   "vault_hash": "3ac43a1a",
   "suggestions": {
     "new_tags": [
@@ -23,7 +23,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314425",
+        "first_detected": "2026-02-03T08:25:39.142369",
         "source": "specialized_term"
       },
       {
@@ -45,7 +45,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314430",
+        "first_detected": "2026-02-03T08:25:39.142374",
         "source": "specialized_term"
       },
       {
@@ -67,7 +67,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314434",
+        "first_detected": "2026-02-03T08:25:39.142378",
         "source": "specialized_term"
       },
       {
@@ -89,7 +89,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314437",
+        "first_detected": "2026-02-03T08:25:39.142382",
         "source": "specialized_term"
       },
       {
@@ -116,7 +116,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314441",
+        "first_detected": "2026-02-03T08:25:39.142386",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -151,7 +151,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314445",
+        "first_detected": "2026-02-03T08:25:39.142391",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -186,7 +186,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314449",
+        "first_detected": "2026-02-03T08:25:39.142396",
         "source": "emergent"
       },
       {
@@ -220,7 +220,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314455",
+        "first_detected": "2026-02-03T08:25:39.142403",
         "source": "emergent"
       },
       {
@@ -244,7 +244,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314459",
+        "first_detected": "2026-02-03T08:25:39.142407",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -274,7 +274,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314463",
+        "first_detected": "2026-02-03T08:25:39.142411",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -298,7 +298,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314466",
+        "first_detected": "2026-02-03T08:25:39.142415",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -322,7 +322,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314468",
+        "first_detected": "2026-02-03T08:25:39.142418",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -352,7 +352,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314472",
+        "first_detected": "2026-02-03T08:25:39.142421",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -379,7 +379,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T04:13:12.314475",
+        "first_detected": "2026-02-03T08:25:39.142425",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -515,36 +515,36 @@
     "health_alerts": [],
     "redundant_tags": [
       {
-        "id": "rg_6080",
+        "id": "rg_1067",
         "tags": [
-          "------------------------------------------",
+          "------------------------------",
           "/",
-          "------------------------------"
+          "------------------------------------------"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "------------------------------------------": 2,
+          "------------------------------": 2,
           "/": 1,
-          "------------------------------": 2
+          "------------------------------------------": 2
         },
-        "recommended": "------------------------------------------"
+        "recommended": "------------------------------"
       },
       {
-        "id": "rg_6794",
+        "id": "rg_1358",
         "tags": [
-          "Mammif",
           "vocabulaire",
           "Comportement",
-          "exclrw"
+          "exclrw",
+          "Mammif"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "Mammif": 2,
           "vocabulaire": 2,
           "Comportement": 2,
-          "exclrw": 2
+          "exclrw": 2,
+          "Mammif": 2
         },
-        "recommended": "Mammif"
+        "recommended": "vocabulaire"
       }
     ]
   },
@@ -631,9 +631,9 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Psychological-Thriller",
-        "Crime-Mystery",
-        "Masayuki-Kojima"
+        "Masayuki-Kojima",
+        "Naoki-Urasawa",
+        "Kuniaki-Haishima"
       ]
     }
   ],
