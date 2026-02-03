@@ -1,93 +1,29 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-02T23:19:32.472070",
-  "vault_hash": "72cd18da",
+  "generated_at": "2026-02-03T04:13:12.314384",
+  "vault_hash": "3ac43a1a",
   "suggestions": {
     "new_tags": [
       {
         "id": "lt_spec_000",
         "name": "déclassement",
-        "confidence": 0.9,
+        "confidence": 0.85,
         "notes": [
           "Exemples_Vocabulaire_Physique.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'déclassement' validé par définition - éléments: déclassement, sociologie, descendre, l'échelle, sociale",
+          "summary": "Terme spécialisé 'déclassement' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "electronique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "déclassement",
-                "matched": "déclassement"
-              },
-              {
-                "name": "sociologie",
-                "matched": "sociologie"
-              },
-              {
-                "name": "descendre",
-                "matched": "descendre"
-              },
-              {
-                "name": "l'échelle",
-                "matched": "l'échelle"
-              },
-              {
-                "name": "sociale",
-                "matched": "sociale"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472110",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_002",
-        "name": "électrotechnique",
-        "confidence": 0.9,
-        "notes": [
-          "Exemples_Vocabulaire_Physique.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'électrotechnique' validé par définition - éléments: électrotechnique, rapporte, applications, pratiques, l'électricité",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "physique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "électrotechnique",
-                "matched": "électrotechnique"
-              },
-              {
-                "name": "rapporte",
-                "matched": "rapporte"
-              },
-              {
-                "name": "applications",
-                "matched": "applications"
-              },
-              {
-                "name": "pratiques",
-                "matched": "pratiques"
-              },
-              {
-                "name": "l'électricité",
-                "matched": "l'électricité"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472116",
+        "first_detected": "2026-02-03T04:13:12.314425",
         "source": "specialized_term"
       },
       {
@@ -98,39 +34,40 @@
           "Exemples_Vocabulaire_Physique.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'rif' validé par définition - éléments: rif, rifain, ⴰⵔⵔⵉⴼ, arrif, arabe",
+          "summary": "Terme spécialisé 'rif' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "electronique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "rif",
-                "matched": "rif"
-              },
-              {
-                "name": "rifain",
-                "matched": "rifain"
-              },
-              {
-                "name": "ⴰⵔⵔⵉⴼ",
-                "matched": "ⴰⵔⵔⵉⴼ"
-              },
-              {
-                "name": "arrif",
-                "matched": "arrif"
-              },
-              {
-                "name": "arabe",
-                "matched": "arabe"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472120",
+        "first_detected": "2026-02-03T04:13:12.314430",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_002",
+        "name": "électrotechnique",
+        "confidence": 0.85,
+        "notes": [
+          "Exemples_Vocabulaire_Physique.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'électrotechnique' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T04:13:12.314434",
         "source": "specialized_term"
       },
       {
@@ -141,39 +78,18 @@
           "Exemples_Definitions_Detaillees.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'abélien' validé par définition - éléments: l'adjectif, abélien, dérivé, nom, mathématicien",
+          "summary": "Terme spécialisé 'abélien' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "islam",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "l'adjectif",
-                "matched": "l'adjectif"
-              },
-              {
-                "name": "abélien",
-                "matched": "abélien"
-              },
-              {
-                "name": "dérivé",
-                "matched": "dérivé"
-              },
-              {
-                "name": "nom",
-                "matched": "nom"
-              },
-              {
-                "name": "mathématicien",
-                "matched": "mathématicien"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472123",
+        "first_detected": "2026-02-03T04:13:12.314437",
         "source": "specialized_term"
       },
       {
@@ -200,7 +116,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472126",
+        "first_detected": "2026-02-03T04:13:12.314441",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -235,7 +151,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472130",
+        "first_detected": "2026-02-03T04:13:12.314445",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -270,7 +186,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472134",
+        "first_detected": "2026-02-03T04:13:12.314449",
         "source": "emergent"
       },
       {
@@ -304,7 +220,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472140",
+        "first_detected": "2026-02-03T04:13:12.314455",
         "source": "emergent"
       },
       {
@@ -328,7 +244,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472144",
+        "first_detected": "2026-02-03T04:13:12.314459",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -358,7 +274,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472147",
+        "first_detected": "2026-02-03T04:13:12.314463",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -382,7 +298,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472151",
+        "first_detected": "2026-02-03T04:13:12.314466",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -406,7 +322,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472153",
+        "first_detected": "2026-02-03T04:13:12.314468",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -436,7 +352,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472156",
+        "first_detected": "2026-02-03T04:13:12.314472",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -463,7 +379,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-02T23:19:32.472159",
+        "first_detected": "2026-02-03T04:13:12.314475",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -599,21 +515,36 @@
     "health_alerts": [],
     "redundant_tags": [
       {
-        "id": "rg_7875",
+        "id": "rg_6080",
         "tags": [
-          "exclrw",
-          "Comportement",
-          "vocabulaire",
-          "Mammif"
+          "------------------------------------------",
+          "/",
+          "------------------------------"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "exclrw": 2,
-          "Comportement": 2,
-          "vocabulaire": 2,
-          "Mammif": 2
+          "------------------------------------------": 2,
+          "/": 1,
+          "------------------------------": 2
         },
-        "recommended": "exclrw"
+        "recommended": "------------------------------------------"
+      },
+      {
+        "id": "rg_6794",
+        "tags": [
+          "Mammif",
+          "vocabulaire",
+          "Comportement",
+          "exclrw"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "Mammif": 2,
+          "vocabulaire": 2,
+          "Comportement": 2,
+          "exclrw": 2
+        },
+        "recommended": "Mammif"
       }
     ]
   },
@@ -674,8 +605,8 @@
         "vii,"
       ],
       "suggested_tags": [
-        "note-The_Wealth_of_Nations",
         "note-livre",
+        "note-The_Wealth_of_Nations",
         "livre"
       ]
     },
@@ -701,8 +632,8 @@
       ],
       "suggested_tags": [
         "Psychological-Thriller",
-        "Kuniaki-Haishima",
-        "Madhouse"
+        "Crime-Mystery",
+        "Masayuki-Kojima"
       ]
     }
   ],
@@ -715,7 +646,7 @@
     "health_score": 0.97,
     "feedback_impact": {
       "decisions_integrated": 1000,
-      "acceptance_rate": "50%"
+      "acceptance_rate": "0%"
     }
   },
   "vocabulary_actions": [
