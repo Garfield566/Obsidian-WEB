@@ -1225,8 +1225,239 @@ class EmergentTagDetector:
                 )
                 suggestions.extend(term_suggestions)
 
+        # 3. NOUVEAU: Détecte les domaines via vocabulaire VSC/VSCA
+        domain_suggestions = self._detect_domain_vocabulary_suggestions(
+            cluster_notes, combined_text
+        )
+        suggestions.extend(domain_suggestions)
+
         # Déduplique et filtre
         suggestions = self._deduplicate_suggestions(suggestions)
+
+        return suggestions
+
+    def _detect_domain_vocabulary_suggestions(
+        self,
+        cluster_notes: list,
+        combined_text: str,
+    ) -> list[EmergentTagSuggestion]:
+        """Détecte les domaines via le vocabulaire VSC/VSCA et génère des suggestions.
+
+        Cette méthode analyse le texte combiné des notes pour détecter les domaines
+        académiques (mathématiques, biologie, histoire, etc.) en utilisant le
+        vocabulaire VSC/VSCA de la hiérarchie (hierarchy.json).
+
+        Contrairement aux termes spécialisés qui nécessitent une définition précise,
+        cette méthode détecte la PRÉSENCE MASSIVE de vocabulaire d'un domaine.
+
+        Args:
+            cluster_notes: Notes du cluster à analyser
+            combined_text: Texte combiné des notes (minuscules)
+
+        Returns:
+            Liste de suggestions de tags pour les domaines détectés
+        """
+        suggestions = []
+        text_lower = combined_text.lower()
+        note_paths = [note.path for note in cluster_notes]
+
+        # Parcourt chaque domaine racine de la hiérarchie
+        for domain_name, domain_data in self.HIERARCHY.items():
+            if domain_name.startswith("_"):
+                continue
+
+            if not isinstance(domain_data, dict):
+                continue
+
+            # Récupère TOUT le vocabulaire du domaine (racine + descendants)
+            all_vocab = self._get_all_domain_vocabulary(domain_name)
+
+            # Trouve les mots présents dans le texte
+            found_words = self._find_words_in_text(text_lower, all_vocab)
+
+            vsc_found = found_words["VSC"]
+            vsca_found = found_words["VSCA"]
+
+            # Vérifie si les seuils sont atteints (profondeur 0 = racine)
+            is_valid, validation_reason = self._is_level_valid(
+                len(vsc_found), len(vsca_found), depth=0
+            )
+
+            if not is_valid:
+                continue
+
+            # Vérifie que le tag n'existe pas déjà
+            domain_tag = domain_name
+            if self._normalize(domain_tag) in self._existing_tags_normalized:
+                continue
+
+            # Calcule la confiance basée sur la quantité de vocabulaire trouvé
+            total_vocab = len(vsc_found) + len(vsca_found)
+            confidence = min(0.85, 0.65 + (total_vocab / 50) * 0.20)
+
+            # Construit le raisonnement
+            vsc_examples = list(vsc_found)[:5]
+            vsca_examples = list(vsca_found)[:5]
+            reasoning_parts = []
+
+            if vsc_found:
+                reasoning_parts.append(f"{len(vsc_found)} VSC ({', '.join(vsc_examples)}{'...' if len(vsc_found) > 5 else ''})")
+            if vsca_found:
+                reasoning_parts.append(f"{len(vsca_found)} VSCA ({', '.join(vsca_examples)}{'...' if len(vsca_found) > 5 else ''})")
+
+            reasoning = (
+                f"Domaine '{domain_name}' détecté via vocabulaire: {' + '.join(reasoning_parts)}"
+            )
+
+            suggestions.append(EmergentTagSuggestion(
+                name=domain_tag,
+                family=TagFamily.DISCIPLINE,
+                confidence=confidence,
+                notes=note_paths,
+                source_terms=list(vsc_found | vsca_found)[:10],
+                reasoning=reasoning,
+                metadata={
+                    "category": "domain_vocabulary",
+                    "vsc_count": len(vsc_found),
+                    "vsca_count": len(vsca_found),
+                    "vsc_examples": list(vsc_found)[:10],
+                    "vsca_examples": list(vsca_found)[:10],
+                    "validation_reason": validation_reason,
+                    "tag_type": "domain",
+                    "tag_format": "hierarchical",
+                },
+            ))
+
+            # Explore aussi les sous-domaines si le domaine racine est validé
+            sous_notions = domain_data.get("sous_notions", {})
+            if sous_notions:
+                subdomain_suggestions = self._explore_subdomains_vocabulary(
+                    sous_notions,
+                    domain_name,
+                    text_lower,
+                    note_paths,
+                    depth=1,
+                    consumed_words=vsc_found | vsca_found,
+                )
+                suggestions.extend(subdomain_suggestions)
+
+        return suggestions
+
+    def _explore_subdomains_vocabulary(
+        self,
+        subdomains: dict,
+        parent_path: str,
+        text_lower: str,
+        note_paths: list[str],
+        depth: int,
+        consumed_words: set,
+    ) -> list[EmergentTagSuggestion]:
+        """Explore récursivement les sous-domaines pour générer des suggestions.
+
+        Args:
+            subdomains: Dict des sous-domaines à explorer
+            parent_path: Chemin du domaine parent
+            text_lower: Texte à analyser (minuscules)
+            note_paths: Chemins des notes du cluster
+            depth: Profondeur actuelle dans la hiérarchie
+            consumed_words: Mots déjà consommés par les niveaux supérieurs
+
+        Returns:
+            Liste de suggestions pour les sous-domaines validés
+        """
+        suggestions = []
+
+        for subdomain_name, subdomain_data in subdomains.items():
+            if subdomain_name.startswith("_"):
+                continue
+
+            if not isinstance(subdomain_data, dict):
+                continue
+
+            current_path = f"{parent_path}\\{subdomain_name}"
+
+            # Récupère le vocabulaire du sous-domaine
+            all_vocab = self._get_all_domain_vocabulary(current_path)
+
+            # Trouve les mots présents dans le texte
+            found_words = self._find_words_in_text(text_lower, all_vocab)
+
+            # Retire les mots déjà consommés
+            vsc_found = found_words["VSC"] - consumed_words
+            vsca_found = found_words["VSCA"] - consumed_words
+
+            # Vérifie si les seuils sont atteints
+            is_valid, validation_reason = self._is_level_valid(
+                len(vsc_found), len(vsca_found), depth=depth
+            )
+
+            if not is_valid:
+                continue
+
+            # Vérifie que le tag n'existe pas déjà
+            if self._normalize(current_path) in self._existing_tags_normalized:
+                # Explore quand même les sous-niveaux
+                nested_subdomains = subdomain_data.get("sous_notions", {})
+                if nested_subdomains and depth < 3:
+                    nested_suggestions = self._explore_subdomains_vocabulary(
+                        nested_subdomains,
+                        current_path,
+                        text_lower,
+                        note_paths,
+                        depth + 1,
+                        consumed_words | vsc_found | vsca_found,
+                    )
+                    suggestions.extend(nested_suggestions)
+                continue
+
+            # Calcule la confiance
+            total_vocab = len(vsc_found) + len(vsca_found)
+            confidence = min(0.85, 0.65 + (total_vocab / 30) * 0.20)
+
+            # Construit le raisonnement
+            vsc_examples = list(vsc_found)[:5]
+            vsca_examples = list(vsca_found)[:5]
+            reasoning_parts = []
+
+            if vsc_found:
+                reasoning_parts.append(f"{len(vsc_found)} VSC ({', '.join(vsc_examples)}{'...' if len(vsc_found) > 5 else ''})")
+            if vsca_found:
+                reasoning_parts.append(f"{len(vsca_found)} VSCA ({', '.join(vsca_examples)}{'...' if len(vsca_found) > 5 else ''})")
+
+            reasoning = (
+                f"Sous-domaine '{current_path}' détecté (profondeur {depth}): {' + '.join(reasoning_parts)}"
+            )
+
+            suggestions.append(EmergentTagSuggestion(
+                name=current_path,
+                family=TagFamily.DISCIPLINE,
+                confidence=confidence,
+                notes=note_paths,
+                source_terms=list(vsc_found | vsca_found)[:10],
+                reasoning=reasoning,
+                metadata={
+                    "category": "domain_vocabulary",
+                    "vsc_count": len(vsc_found),
+                    "vsca_count": len(vsca_found),
+                    "depth": depth,
+                    "validation_reason": validation_reason,
+                    "tag_type": "subnotion",
+                    "tag_format": "hierarchical",
+                },
+            ))
+
+            # Explore les sous-niveaux
+            nested_subdomains = subdomain_data.get("sous_notions", {})
+            if nested_subdomains and depth < 3:
+                nested_suggestions = self._explore_subdomains_vocabulary(
+                    nested_subdomains,
+                    current_path,
+                    text_lower,
+                    note_paths,
+                    depth + 1,
+                    consumed_words | vsc_found | vsca_found,
+                )
+                suggestions.extend(nested_suggestions)
 
         return suggestions
 
