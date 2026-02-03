@@ -320,6 +320,28 @@ class EntityDetector:
         self._proper_name_pattern = re.compile(
             r'\b([A-Z][a-zÀ-ÿ]+(?:[-\s][A-Z][a-zÀ-ÿ]+)*)\b'
         )
+        # Cache pour les patterns de mots entiers
+        self._word_pattern_cache: dict[str, re.Pattern] = {}
+
+    def _count_whole_word(self, text: str, word: str) -> int:
+        """Compte les occurrences d'un mot entier (avec limites de mots).
+
+        Évite les faux positifs comme 'ur' dans 'culturel' ou 'art' dans 'carte'.
+        """
+        if word not in self._word_pattern_cache:
+            # Escape les caractères spéciaux regex et ajoute les limites de mots
+            escaped = re.escape(word)
+            # Pour les mots avec accents, on utilise une limite plus souple
+            # \b ne fonctionne pas bien avec les accents en Python
+            self._word_pattern_cache[word] = re.compile(
+                rf'(?<![a-zà-ÿ]){escaped}(?![a-zà-ÿ])',
+                re.IGNORECASE
+            )
+        return len(self._word_pattern_cache[word].findall(text))
+
+    def _word_in_text(self, text: str, word: str) -> bool:
+        """Vérifie si un mot entier est présent dans le texte."""
+        return self._count_whole_word(text, word) > 0
 
     def detect_entities(self, note: ParsedNote) -> NoteEntities:
         """Détecte toutes les entités dans une note."""
@@ -484,37 +506,41 @@ class EntityDetector:
 
         # 1. Cherche les lieux connus (noms de référence)
         for place in self.KNOWN_GEO:
-            if place in text_lower:
-                count = text_lower.count(place)
-                in_title = place in title_lower if title_lower else False
-                density = count / text_length if text_length > 0 else 0
+            # Utilise la recherche par mot entier pour éviter les faux positifs
+            # Ex: "ur" ne doit pas être détecté dans "culturel"
+            count = self._count_whole_word(text_lower, place)
+            if count == 0:
+                continue
 
-                if not in_title:
-                    if count < MIN_OCCURRENCES:
-                        continue
-                    if density < MIN_DENSITY:
-                        continue
+            in_title = self._word_in_text(title_lower, place) if title_lower else False
+            density = count / text_length if text_length > 0 else 0
 
-                confidence = 0.6
-                if in_title:
-                    confidence += 0.25
-                if count >= 3:
-                    confidence += 0.1
-                if density >= MIN_DENSITY * 2:
-                    confidence += 0.05
+            if not in_title:
+                if count < MIN_OCCURRENCES:
+                    continue
+                if density < MIN_DENSITY:
+                    continue
 
-                confidence = min(0.9, confidence)
+            confidence = 0.6
+            if in_title:
+                confidence += 0.25
+            if count >= 3:
+                confidence += 0.1
+            if density >= MIN_DENSITY * 2:
+                confidence += 0.05
 
-                tag = suggest_tag_format(TagFamily.GEO, place)
-                detected_references.add(place)
+            confidence = min(0.9, confidence)
 
-                entities.append(DetectedEntity(
-                    family=TagFamily.GEO,
-                    raw_text=place,
-                    suggested_tag=tag,
-                    confidence=round(confidence, 2),
-                    occurrences=count,
-                ))
+            tag = suggest_tag_format(TagFamily.GEO, place)
+            detected_references.add(place)
+
+            entities.append(DetectedEntity(
+                family=TagFamily.GEO,
+                raw_text=place,
+                suggested_tag=tag,
+                confidence=round(confidence, 2),
+                occurrences=count,
+            ))
 
         # 2. Cherche les synonymes (noms anciens) et mappe vers la référence
         for alias, reference in self.GEO_ALIASES.items():
@@ -522,40 +548,43 @@ class EntityDetector:
             if reference in detected_references:
                 continue
 
-            if alias in text_lower:
-                count = text_lower.count(alias)
-                in_title = alias in title_lower if title_lower else False
-                density = count / text_length if text_length > 0 else 0
+            # Utilise la recherche par mot entier pour éviter les faux positifs
+            count = self._count_whole_word(text_lower, alias)
+            if count == 0:
+                continue
 
-                if not in_title:
-                    if count < MIN_OCCURRENCES:
-                        continue
-                    if density < MIN_DENSITY:
-                        continue
+            in_title = self._word_in_text(title_lower, alias) if title_lower else False
+            density = count / text_length if text_length > 0 else 0
 
-                # Confiance légèrement réduite car c'est un alias
-                confidence = 0.55
-                if in_title:
-                    confidence += 0.25
-                if count >= 3:
-                    confidence += 0.1
-                if density >= MIN_DENSITY * 2:
-                    confidence += 0.05
+            if not in_title:
+                if count < MIN_OCCURRENCES:
+                    continue
+                if density < MIN_DENSITY:
+                    continue
 
-                confidence = min(0.85, confidence)
+            # Confiance légèrement réduite car c'est un alias
+            confidence = 0.55
+            if in_title:
+                confidence += 0.25
+            if count >= 3:
+                confidence += 0.1
+            if density >= MIN_DENSITY * 2:
+                confidence += 0.05
 
-                # Utilise le nom de référence pour le tag
-                tag = suggest_tag_format(TagFamily.GEO, reference)
-                detected_references.add(reference)
+            confidence = min(0.85, confidence)
 
-                entities.append(DetectedEntity(
-                    family=TagFamily.GEO,
-                    raw_text=alias,  # Garde le texte original trouvé
-                    suggested_tag=tag,  # Mais suggère le tag avec le nom de référence
-                    confidence=round(confidence, 2),
-                    occurrences=count,
-                    context=f"(synonyme de {reference})",  # Indique que c'est un alias
-                ))
+            # Utilise le nom de référence pour le tag
+            tag = suggest_tag_format(TagFamily.GEO, reference)
+            detected_references.add(reference)
+
+            entities.append(DetectedEntity(
+                family=TagFamily.GEO,
+                raw_text=alias,  # Garde le texte original trouvé
+                suggested_tag=tag,  # Mais suggère le tag avec le nom de référence
+                confidence=round(confidence, 2),
+                occurrences=count,
+                context=f"(synonyme de {reference})",  # Indique que c'est un alias
+            ))
 
         return entities
 
@@ -566,35 +595,36 @@ class EntityDetector:
         donc on garde un seuil plus bas mais on ajuste la confiance.
         """
         entities = []
-        text_length = len(text_lower)
 
         for entity in self.KNOWN_ENTITIES:
-            if entity in text_lower:
-                count = text_lower.count(entity)
+            # Utilise la recherche par mot entier pour éviter les faux positifs
+            count = self._count_whole_word(text_lower, entity)
+            if count == 0:
+                continue
 
-                in_title = entity in title_lower if title_lower else False
+            in_title = self._word_in_text(title_lower, entity) if title_lower else False
 
-                # Pour les entités politiques, 1 occurrence suffit si assez longue
-                # mais on ajuste la confiance
-                confidence = 0.65  # Base
-                if in_title:
-                    confidence += 0.2
-                if count >= 2:
-                    confidence += 0.1
-                if count >= 3:
-                    confidence += 0.05
+            # Pour les entités politiques, 1 occurrence suffit si assez longue
+            # mais on ajuste la confiance
+            confidence = 0.65  # Base
+            if in_title:
+                confidence += 0.2
+            if count >= 2:
+                confidence += 0.1
+            if count >= 3:
+                confidence += 0.05
 
-                confidence = min(0.9, confidence)
+            confidence = min(0.9, confidence)
 
-                tag = suggest_tag_format(TagFamily.ENTITY, entity)
+            tag = suggest_tag_format(TagFamily.ENTITY, entity)
 
-                entities.append(DetectedEntity(
-                    family=TagFamily.ENTITY,
-                    raw_text=entity,
-                    suggested_tag=tag,
-                    confidence=round(confidence, 2),
-                    occurrences=count,
-                ))
+            entities.append(DetectedEntity(
+                family=TagFamily.ENTITY,
+                raw_text=entity,
+                suggested_tag=tag,
+                confidence=round(confidence, 2),
+                occurrences=count,
+            ))
 
         return entities
 
@@ -607,28 +637,30 @@ class EntityDetector:
         entities = []
 
         for area in self.KNOWN_AREAS:
-            if area in text_lower:
-                count = text_lower.count(area)
+            # Utilise la recherche par mot entier pour éviter les faux positifs
+            count = self._count_whole_word(text_lower, area)
+            if count == 0:
+                continue
 
-                in_title = area in title_lower if title_lower else False
+            in_title = self._word_in_text(title_lower, area) if title_lower else False
 
-                confidence = 0.7  # Base
-                if in_title:
-                    confidence += 0.15
-                if count >= 2:
-                    confidence += 0.1
+            confidence = 0.7  # Base
+            if in_title:
+                confidence += 0.15
+            if count >= 2:
+                confidence += 0.1
 
-                confidence = min(0.9, confidence)
+            confidence = min(0.9, confidence)
 
-                tag = suggest_tag_format(TagFamily.AREA, area)
+            tag = suggest_tag_format(TagFamily.AREA, area)
 
-                entities.append(DetectedEntity(
-                    family=TagFamily.AREA,
-                    raw_text=area,
-                    suggested_tag=tag,
-                    confidence=round(confidence, 2),
-                    occurrences=count,
-                ))
+            entities.append(DetectedEntity(
+                family=TagFamily.AREA,
+                raw_text=area,
+                suggested_tag=tag,
+                confidence=round(confidence, 2),
+                occurrences=count,
+            ))
 
         return entities
 
@@ -644,46 +676,48 @@ class EntityDetector:
         MIN_DENSITY = 1 / 3000  # Les disciplines peuvent être mentionnées moins souvent
 
         for discipline in KNOWN_DISCIPLINES:
-            if discipline in text_lower:
-                count = text_lower.count(discipline)
+            # Utilise la recherche par mot entier pour éviter les faux positifs
+            count = self._count_whole_word(text_lower, discipline)
+            if count == 0:
+                continue
 
-                in_title = discipline in title_lower if title_lower else False
+            in_title = self._word_in_text(title_lower, discipline) if title_lower else False
 
-                density = count / text_length if text_length > 0 else 0
+            density = count / text_length if text_length > 0 else 0
 
-                # Filtre : titre OU (occurrences ET densité)
-                if not in_title:
-                    if count < MIN_OCCURRENCES:
-                        continue
-                    if density < MIN_DENSITY:
-                        continue
+            # Filtre : titre OU (occurrences ET densité)
+            if not in_title:
+                if count < MIN_OCCURRENCES:
+                    continue
+                if density < MIN_DENSITY:
+                    continue
 
-                # Cherche un sous-domaine potentiel
-                subdomain = self._find_subdomain(text_lower, discipline)
+            # Cherche un sous-domaine potentiel
+            subdomain = self._find_subdomain(text_lower, discipline)
 
-                confidence = 0.55  # Base plus basse car les disciplines sont courantes
-                if in_title:
-                    confidence += 0.25
-                if count >= 3:
-                    confidence += 0.1
-                if subdomain:
-                    confidence += 0.1  # Bonus si sous-domaine trouvé
+            confidence = 0.55  # Base plus basse car les disciplines sont courantes
+            if in_title:
+                confidence += 0.25
+            if count >= 3:
+                confidence += 0.1
+            if subdomain:
+                confidence += 0.1  # Bonus si sous-domaine trouvé
 
-                confidence = min(0.85, confidence)
+            confidence = min(0.85, confidence)
 
-                tag = suggest_tag_format(
-                    TagFamily.DISCIPLINE,
-                    discipline,
-                    {"subdomain": subdomain} if subdomain else {}
-                )
+            tag = suggest_tag_format(
+                TagFamily.DISCIPLINE,
+                discipline,
+                {"subdomain": subdomain} if subdomain else {}
+            )
 
-                entities.append(DetectedEntity(
-                    family=TagFamily.DISCIPLINE,
-                    raw_text=discipline,
-                    suggested_tag=tag,
-                    confidence=round(confidence, 2),
-                    occurrences=count,
-                ))
+            entities.append(DetectedEntity(
+                family=TagFamily.DISCIPLINE,
+                raw_text=discipline,
+                suggested_tag=tag,
+                confidence=round(confidence, 2),
+                occurrences=count,
+            ))
 
         return entities
 
