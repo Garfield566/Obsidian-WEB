@@ -1,13 +1,14 @@
 {
 	"nodes":[
 		{"id":"6773de93d90cf83f","type":"group","x":-2280,"y":180,"width":3070,"height":3580,"color":"3","label":"Partie 1- Le Fonctionnement du marché: Comment se forment les prix et les quantités sur un marché ?"},
-		{"id":"4307ff902e8d3404","type":"group","x":-1850,"y":4160,"width":1640,"height":1360,"label":"Partie 2 - Le choix "},
+		{"id":"4307ff902e8d3404","type":"group","x":-2200,"y":4160,"width":1990,"height":2040,"label":"Partie 2 - Le choix "},
+		{"id":"dd18821ac74e08a0","type":"group","x":-2120,"y":4365,"width":1720,"height":1595,"color":"4","label":"Représenter les préférences"},
 		{"id":"a2dc05fc2e92f8fe","type":"group","x":-820,"y":1380,"width":1220,"height":1300,"label":"Le concept d'élasticité"},
 		{"id":"7fa5f5c0aa490c04","type":"group","x":-960,"y":320,"width":1640,"height":880,"color":"5","label":"Les caractèristique de l'offre"},
 		{"id":"165601a517e4c763","type":"group","x":-1723,"y":2871,"width":1643,"height":769,"label":"Effet intervention publique"},
 		{"id":"e419142bd473c467","type":"group","x":-2120,"y":1280,"width":920,"height":1360,"label":"Prix et quantité d'équilibre"},
 		{"id":"54d977b5133bccdc","type":"group","x":-2120,"y":320,"width":996,"height":700,"color":"4","label":"Les caractéristiques de la Demande"},
-		{"id":"dd18821ac74e08a0","type":"group","x":-1780,"y":4365,"width":800,"height":400,"color":"4","label":"Représenter les préférences"},
+		{"id":"980fc716bc0d5b39","x":-1360,"y":4903,"width":1040,"height":400,"type":"group","label":"relations vérifient les implication logique suivantes :"},
 		{"id":"08baea92229bcb00","type":"group","x":-760,"y":1760,"width":550,"height":400,"color":"4","label":"Elasticité- Prix-de l'offre"},
 		{"id":"519d28415709e6fc","type":"group","x":560,"y":-20,"width":459,"height":400,"label":"Notion"},
 		{"id":"6998bb51099cb08a","type":"group","x":-2080,"y":1400,"width":400,"height":400,"color":"5","label":"Choque de demande"},
@@ -45,8 +46,11 @@
 		{"id":"b2be89e43109b244","type":"text","text":"contrainte budgétaire","x":-1780,"y":4200,"width":250,"height":60},
 		{"id":"0573eda713ffb314","type":"text","text":"saturation de la contrainte de Budget :","x":-1500,"y":4200,"width":250,"height":60},
 		{"id":"65e9b2327fae9332","type":"text","text":"Bien distincts :\n- caractéristique physique \n- lieux \n- date\n- etc","x":-1760,"y":4380,"width":160,"height":203},
-		{"id":"0f3c37e91e91ebe9","type":"text","text":"La relation de préférence\nLes préférences du consommateur sont représentées par une relation de préférences notée \n\n- X $\\succ$ Y le consommateur préfère strictement le  panier X à Y\n- X Y \n- X $\\succeq$ ","x":-1502,"y":4417,"width":522,"height":203},
-		{"id":"000b0d1349f0cb3c","x":-1502,"y":4660,"width":429,"height":92,"type":"text","text":"relations vérifient les implication logique suivantes :"}
+		{"id":"0f3c37e91e91ebe9","type":"text","text":"### Les trois relations fondamentales\n\nSoit X l'ensemble des paniers de biens et x, y ∈ X :\n\n- **x ≻ y** (préférence stricte) : le consommateur préfère strictement x à y\n- **x ∼ y** (indifférence) : le consommateur est indifférent entre x et y\n- **x ≽ y** (préférence faible) : le consommateur préfère x à y ou est indifférent\n\nCes relations sont liées : x ≻ y signifie que x ≽ y et non(y ≽ x).","x":-1540,"y":4420,"width":642,"height":247},
+		{"id":"383ccec758bcd5f8","x":-2100,"y":4640,"width":441,"height":400,"type":"text","text":"### Axiomes de rationalité\n\nLa relation ≽ doit satisfaire :\n\n**Complétude** : pour tous x, y ∈ X, soit x ≽ y, soit y ≽ x (ou les deux). Le consommateur peut toujours comparer deux paniers.\n\n**Transitivité** : si x ≽ y et y ≽ z, alors x ≽ z. Ceci implique que ≻ est également transitive : si x ≻ y et y ≻ z, alors x ≻ z.\n\n**Réflexivité** : x ≽ x pour tout x (tout panier est au moins aussi bon que lui-même). Noter que ≻ est au contraire irréflexive : jamais x ≻ x."},
+		{"id":"a4a8daeb866302ff","x":-2076,"y":5105,"width":632,"height":275,"type":"text","text":"### Propriétés supplémentaires courantes\n\n**Monotonie** (ou non-satiété) : si x contient au moins autant de chaque bien que y, et strictement plus d'au moins un bien, alors x ≻ y. \"Plus c'est mieux.\"\n\n**Convexité** : si x ≽ y, alors pour tout λ ∈ ]0,1[, on a λx + (1−λ)y ≽ y. Le consommateur préfère les mélanges aux extrêmes."},
+		{"id":"d2d0982f84b84cdc","x":-2072,"y":5440,"width":628,"height":178,"type":"text","text":"### Lien avec la fonction d'utilité\n\nQuand ces axiomes sont satisfaits (plus la continuité), il existe une fonction u : X → ℝ telle que x ≻ y ⟺ u(x) > u(y). La fonction d'utilité représente numériquement les préférences, ce qui permet ensuite de poser le programme d'optimisation du consommateur."},
+		{"id":"846f5a9a2e16f78c","x":-1015,"y":5061,"width":535,"height":319,"type":"text","text":"### Implications fondamentales\n\nx≻y⇒x≿yx \\succ y \\Rightarrow x \\succsim yx≻y⇒x≿y\n\n(la préférence stricte implique la préférence faible)\n\nx∼y⇒x≿y et y≿xx \\sim y \\Rightarrow x \\succsim y \\text{ et } y \\succsim xx∼y⇒x≿y et y≿x\n\n(l'indifférence implique la préférence faible dans les deux sens)"}
 	],
 	"edges":[
 		{"id":"252aa1f0ec8c8a25","fromNode":"3e13cdc03076af9c","fromSide":"right","toNode":"e6ec6b70f8855344","toSide":"left"},
