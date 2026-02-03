@@ -1,351 +1,233 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-03T16:41:27.303193",
-  "vault_hash": "3ac43a1a",
+  "generated_at": "2026-02-03T19:20:31.567417",
+  "vault_hash": "eaa9a47b",
   "suggestions": {
     "new_tags": [
       {
+        "id": "lt_ent_008",
+        "name": "aire\\orient",
+        "confidence": 0.9,
+        "notes": [
+          "caroro.md",
+          "YouTube Notes/Timestamps 2.md",
+          "Clippings/métallurgie  Britannica.md",
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/Mythologie grecque — Wikipédia.md",
+          "Clippings/Féodalité — Wikipédia.md",
+          "Clippings/Théorème de Pythagore — Wikipédia.md",
+          "Clippings/Denier (monnaie) — Wikipédia.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 9 notes",
+          "details": {
+            "entity_type": "area",
+            "raw_text": "orient",
+            "total_occurrences": 37,
+            "notes_count": 9
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567458",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_010",
+        "name": "entité\\états-unis",
+        "confidence": 0.9,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Hamilton.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md",
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "Clippings/métallurgie  Britannica.md",
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Inflation — Wikipédia.md",
+          "Clippings/Montage — Wikipédia.md",
+          "Clippings/Impressionnisme — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 10 notes",
+          "details": {
+            "entity_type": "entity",
+            "raw_text": "états-unis",
+            "total_occurrences": 37,
+            "notes_count": 10
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567463",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_000",
+        "name": "catégorie",
+        "confidence": 0.88,
+        "notes": [
+          "Guide_Extraction_2_PCs.md",
+          "Guide_Extraction_Complete_41_Domaines.md",
+          "Guide_Extraction_Complete.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md",
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/Mythologie grecque — Wikipédia.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Impressionnisme — Wikipédia.md",
+          "Clippings/Ouverture (échecs) — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 9 notes",
+          "details": {
+            "entity_type": "math_object",
+            "raw_text": "catégorie",
+            "total_occurrences": 25,
+            "notes_count": 9
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567467",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_007",
+        "name": "renaissance",
+        "confidence": 0.87,
+        "notes": [
+          "caroro.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Longines.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/Mythologie grecque — Wikipédia.md",
+          "Clippings/Féodalité — Wikipédia.md",
+          "Clippings/Épistémologie — Wikipédia.md",
+          "Clippings/Sonnet — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 8 notes",
+          "details": {
+            "entity_type": "artwork",
+            "raw_text": "renaissance",
+            "total_occurrences": 31,
+            "notes_count": 8
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567471",
+        "source": "heuristic"
+      },
+      {
         "id": "lt_spec_000",
-        "name": "déclassement",
-        "confidence": 0.9,
-        "notes": [
-          "Exemples_Vocabulaire_Physique.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'déclassement' validé par définition - éléments: déclassement, sociologie, descendre, l'échelle, sociale",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "electronique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "déclassement",
-                "matched": "déclassement"
-              },
-              {
-                "name": "sociologie",
-                "matched": "sociologie"
-              },
-              {
-                "name": "descendre",
-                "matched": "descendre"
-              },
-              {
-                "name": "l'échelle",
-                "matched": "l'échelle"
-              },
-              {
-                "name": "sociale",
-                "matched": "sociale"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303236",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_002",
-        "name": "électrotechnique",
-        "confidence": 0.9,
-        "notes": [
-          "Exemples_Vocabulaire_Physique.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'électrotechnique' validé par définition - éléments: électrotechnique, rapporte, applications, pratiques, l'électricité",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "physique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "électrotechnique",
-                "matched": "électrotechnique"
-              },
-              {
-                "name": "rapporte",
-                "matched": "rapporte"
-              },
-              {
-                "name": "applications",
-                "matched": "applications"
-              },
-              {
-                "name": "pratiques",
-                "matched": "pratiques"
-              },
-              {
-                "name": "l'électricité",
-                "matched": "l'électricité"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303242",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_001",
-        "name": "rif",
-        "confidence": 0.85,
-        "notes": [
-          "Exemples_Vocabulaire_Physique.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'rif' validé par définition - éléments: rif, rifain, ⴰⵔⵔⵉⴼ, arrif, arabe",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "electronique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "rif",
-                "matched": "rif"
-              },
-              {
-                "name": "rifain",
-                "matched": "rifain"
-              },
-              {
-                "name": "ⴰⵔⵔⵉⴼ",
-                "matched": "ⴰⵔⵔⵉⴼ"
-              },
-              {
-                "name": "arrif",
-                "matched": "arrif"
-              },
-              {
-                "name": "arabe",
-                "matched": "arabe"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303246",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_003",
         "name": "abélien",
         "confidence": 0.85,
         "notes": [
           "Exemples_Definitions_Detaillees.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'abélien' validé par définition - éléments: l'adjectif, abélien, dérivé, nom, mathématicien",
+          "summary": "Terme spécialisé 'abélien' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "islam",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "l'adjectif",
-                "matched": "l'adjectif"
-              },
-              {
-                "name": "abélien",
-                "matched": "abélien"
-              },
-              {
-                "name": "dérivé",
-                "matched": "dérivé"
-              },
-              {
-                "name": "nom",
-                "matched": "nom"
-              },
-              {
-                "name": "mathématicien",
-                "matched": "mathématicien"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303251",
+        "first_detected": "2026-02-03T19:20:31.567474",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_004",
+        "id": "lt_spec_001",
         "name": "dérivée",
         "confidence": 0.85,
         "notes": [
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Dérivée.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'dérivée' validé par définition - éléments: dérivée, fonction, limite, taux, variation",
+          "summary": "Terme spécialisé 'dérivée' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "dérivée",
-                "matched": "dérivée"
-              },
-              {
-                "name": "fonction",
-                "matched": "fonction"
-              },
-              {
-                "name": "limite",
-                "matched": "limite"
-              },
-              {
-                "name": "taux",
-                "matched": "taux"
-              },
-              {
-                "name": "variation",
-                "matched": "variation"
-              },
-              {
-                "name": "tangente",
-                "matched": "tangente"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303255",
+        "first_detected": "2026-02-03T19:20:31.567478",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_005",
+        "id": "lt_spec_002",
         "name": "récurrence",
         "confidence": 0.85,
         "notes": [
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Raisonnement par Récurrence.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'récurrence' validé par définition - éléments: récurrence, démonstration, suite, hérédité, initialisation",
+          "summary": "Terme spécialisé 'récurrence' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "récurrence",
-                "matched": "récurrence"
-              },
-              {
-                "name": "démonstration",
-                "matched": "démonstration"
-              },
-              {
-                "name": "suite",
-                "matched": "suite"
-              },
-              {
-                "name": "hérédité",
-                "matched": "hérédité"
-              },
-              {
-                "name": "initialisation",
-                "matched": "initialisation"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303259",
+        "first_detected": "2026-02-03T19:20:31.567481",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_006",
+        "id": "lt_spec_003",
         "name": "équation différentielle",
         "confidence": 0.85,
         "notes": [
           "Clippings/Mécanique quantique — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'équation différentielle' validé par définition - éléments: équation différentielle, dérivée, solution, ordre",
+          "summary": "Terme spécialisé 'équation différentielle' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "équation différentielle",
-                "matched": "équation différentielle"
-              },
-              {
-                "name": "dérivée",
-                "matched": "dérivée"
-              },
-              {
-                "name": "solution",
-                "matched": "solution"
-              },
-              {
-                "name": "ordre",
-                "matched": "ordre"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303262",
+        "first_detected": "2026-02-03T19:20:31.567504",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_007",
+        "id": "lt_spec_004",
         "name": "probabilité",
         "confidence": 0.85,
         "notes": [
           "Clippings/Mécanique quantique — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'probabilité' validé par définition - éléments: probabilité, événement, aléatoire, statistique",
+          "summary": "Terme spécialisé 'probabilité' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "probabilité",
-                "matched": "probabilité"
-              },
-              {
-                "name": "événement",
-                "matched": "événement"
-              },
-              {
-                "name": "aléatoire",
-                "matched": "aléatoire"
-              },
-              {
-                "name": "statistique",
-                "matched": "statistique"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303269",
+        "first_detected": "2026-02-03T19:20:31.567508",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_008",
+        "id": "lt_spec_005",
         "name": "suite géométrique",
         "confidence": 0.85,
         "notes": [
@@ -353,325 +235,156 @@
           "Clippings/Théorème de Pythagore — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'suite géométrique' validé par définition - éléments: suite géométrique, raison, terme, somme",
+          "summary": "Terme spécialisé 'suite géométrique' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "suite géométrique",
-                "matched": "géométrique"
-              },
-              {
-                "name": "raison",
-                "matched": "raison"
-              },
-              {
-                "name": "terme",
-                "matched": "terme"
-              },
-              {
-                "name": "somme",
-                "matched": "somme"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303273",
+        "first_detected": "2026-02-03T19:20:31.567511",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_009",
+        "id": "lt_spec_006",
         "name": "tangente",
         "confidence": 0.85,
         "notes": [
           "Clippings/Théorème de Pythagore — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'tangente' validé par définition - éléments: tangente, droite, courbe, pente, trigonométrie",
+          "summary": "Terme spécialisé 'tangente' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "tangente",
-                "matched": "tan"
-              },
-              {
-                "name": "droite",
-                "matched": "droite"
-              },
-              {
-                "name": "courbe",
-                "matched": "courbe"
-              },
-              {
-                "name": "pente",
-                "matched": "pente"
-              },
-              {
-                "name": "trigonométrie",
-                "matched": "trigonométrie"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303277",
+        "first_detected": "2026-02-03T19:20:31.567515",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_010",
+        "id": "lt_spec_007",
         "name": "cosinus",
         "confidence": 0.85,
         "notes": [
           "Clippings/Théorème de Pythagore — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'cosinus' validé par définition - éléments: cosinus, angle, trigonométrie, cercle, sinus",
+          "summary": "Terme spécialisé 'cosinus' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "cosinus",
-                "matched": "cosinus"
-              },
-              {
-                "name": "angle",
-                "matched": "angle"
-              },
-              {
-                "name": "trigonométrie",
-                "matched": "trigonométrie"
-              },
-              {
-                "name": "cercle",
-                "matched": "cercle"
-              },
-              {
-                "name": "sinus",
-                "matched": "sinus"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303281",
+        "first_detected": "2026-02-03T19:20:31.567518",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_011",
+        "id": "lt_spec_008",
         "name": "sinus",
         "confidence": 0.85,
         "notes": [
           "Clippings/Théorème de Pythagore — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'sinus' validé par définition - éléments: sinus, angle, trigonométrie, cercle, cosinus",
+          "summary": "Terme spécialisé 'sinus' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "sinus",
-                "matched": "sinus"
-              },
-              {
-                "name": "angle",
-                "matched": "angle"
-              },
-              {
-                "name": "trigonométrie",
-                "matched": "trigonométrie"
-              },
-              {
-                "name": "cercle",
-                "matched": "cercle"
-              },
-              {
-                "name": "cosinus",
-                "matched": "cosinus"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303285",
+        "first_detected": "2026-02-03T19:20:31.567521",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_012",
+        "id": "lt_spec_009",
         "name": "fonction affine",
         "confidence": 0.85,
         "notes": [
           "Clippings/Théorème de Pythagore — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'fonction affine' validé par définition - éléments: fonction affine, droite, pente, ordonnée",
+          "summary": "Terme spécialisé 'fonction affine' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "fonction affine",
-                "matched": "affine"
-              },
-              {
-                "name": "droite",
-                "matched": "droite"
-              },
-              {
-                "name": "pente",
-                "matched": "pente"
-              },
-              {
-                "name": "ordonnée",
-                "matched": "ordonnée"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303288",
+        "first_detected": "2026-02-03T19:20:31.567524",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_013",
+        "id": "lt_spec_010",
         "name": "suite arithmétique",
         "confidence": 0.85,
         "notes": [
           "Clippings/Théorème de Pythagore — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'suite arithmétique' validé par définition - éléments: suite arithmétique, raison, terme, somme",
+          "summary": "Terme spécialisé 'suite arithmétique' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "suite arithmétique",
-                "matched": "arithmétique"
-              },
-              {
-                "name": "raison",
-                "matched": "raison"
-              },
-              {
-                "name": "terme",
-                "matched": "terme"
-              },
-              {
-                "name": "somme",
-                "matched": "somme"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303291",
+        "first_detected": "2026-02-03T19:20:31.567527",
         "source": "specialized_term"
       },
       {
-        "id": "lt_spec_014",
+        "id": "lt_spec_011",
         "name": "théorème de Pythagore",
         "confidence": 0.85,
         "notes": [
           "Clippings/Théorème de Pythagore — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'théorème de Pythagore' validé par définition - éléments: Pythagore, triangle, rectangle, hypoténuse, carré",
+          "summary": "Terme spécialisé 'théorème de Pythagore' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "Pythagore",
-                "matched": "pythagore"
-              },
-              {
-                "name": "triangle",
-                "matched": "triangle"
-              },
-              {
-                "name": "rectangle",
-                "matched": "rectangle"
-              },
-              {
-                "name": "hypoténuse",
-                "matched": "hypoténuse"
-              },
-              {
-                "name": "carré",
-                "matched": "carré"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303294",
+        "first_detected": "2026-02-03T19:20:31.567530",
         "source": "specialized_term"
       },
       {
-        "id": "lt_ent_002",
-        "name": "I-fin",
-        "confidence": 0.82,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/Mécanique quantique — Wikipédia.md",
-          "Clippings/Théorème de Pythagore — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 6 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "I",
-            "total_occurrences": 6,
-            "notes_count": 6,
-            "in_reference_db": false,
-            "in_title": true
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303298",
-        "source": "pattern_date",
-        "alternatives": [
-          {
-            "name": "I",
-            "reason": "Format conventionnel pour Date/Siècle",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_001",
+        "id": "lt_ent_005",
         "name": "X-fin",
-        "confidence": 0.8,
+        "confidence": 0.83,
         "notes": [
           "caroro.md",
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Fonction Tangente.md",
@@ -682,23 +395,984 @@
           "Clippings/Denier (monnaie) — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 7 notes",
+          "summary": "Entité détecté(e) dans 7 notes",
           "details": {
             "entity_type": "date",
             "raw_text": "Xe siècle",
             "total_occurrences": 7,
-            "notes_count": 7,
-            "in_reference_db": false,
-            "in_title": false
+            "notes_count": 7
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303301",
-        "source": "pattern_date",
-        "alternatives": []
+        "first_detected": "2026-02-03T19:20:31.567533",
+        "source": "heuristic"
       },
       {
         "id": "lt_emg_000",
+        "name": "physique",
+        "confidence": 0.82,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'physique' détecté via vocabulaire: 35 VSC (vitesse, chaleur, source, masse, couple...) + 7 VSCA (rotation, cible, vert, pression, argent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "rotation",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 35,
+            "vsca_count": 7,
+            "vsc_examples": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance",
+              "charge"
+            ],
+            "vsca_examples": [
+              "rotation",
+              "cible",
+              "vert",
+              "pression",
+              "argent",
+              "régime",
+              "conducteur"
+            ],
+            "validation_reason": "35 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567537",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_001",
+        "name": "physique\\acoustique",
+        "confidence": 0.82,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'physique\\acoustique' détecté via vocabulaire: 35 VSC (vitesse, chaleur, source, masse, couple...) + 7 VSCA (rotation, cible, vert, pression, argent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "rotation",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 35,
+            "vsca_count": 7,
+            "vsc_examples": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance",
+              "charge"
+            ],
+            "vsca_examples": [
+              "rotation",
+              "cible",
+              "vert",
+              "pression",
+              "argent",
+              "régime",
+              "conducteur"
+            ],
+            "validation_reason": "35 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567540",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_002",
+        "name": "physique\\astrophysique",
+        "confidence": 0.82,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'physique\\astrophysique' détecté via vocabulaire: 35 VSC (vitesse, chaleur, source, masse, couple...) + 7 VSCA (rotation, cible, vert, pression, argent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "rotation",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 35,
+            "vsca_count": 7,
+            "vsc_examples": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance",
+              "charge"
+            ],
+            "vsca_examples": [
+              "rotation",
+              "cible",
+              "vert",
+              "pression",
+              "argent",
+              "régime",
+              "conducteur"
+            ],
+            "validation_reason": "35 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567543",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_003",
+        "name": "physique\\biophysique",
+        "confidence": 0.82,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'physique\\biophysique' détecté via vocabulaire: 35 VSC (vitesse, chaleur, source, masse, couple...) + 7 VSCA (rotation, cible, vert, pression, argent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "rotation",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 35,
+            "vsca_count": 7,
+            "vsc_examples": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance",
+              "charge"
+            ],
+            "vsca_examples": [
+              "rotation",
+              "cible",
+              "vert",
+              "pression",
+              "argent",
+              "régime",
+              "conducteur"
+            ],
+            "validation_reason": "35 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567546",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_004",
+        "name": "physique\\géophysique",
+        "confidence": 0.82,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'physique\\géophysique' détecté via vocabulaire: 35 VSC (vitesse, chaleur, source, masse, couple...) + 7 VSCA (rotation, cible, vert, pression, argent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "rotation",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 35,
+            "vsca_count": 7,
+            "vsc_examples": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance",
+              "charge"
+            ],
+            "vsca_examples": [
+              "rotation",
+              "cible",
+              "vert",
+              "pression",
+              "argent",
+              "régime",
+              "conducteur"
+            ],
+            "validation_reason": "35 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567549",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_005",
+        "name": "physique\\optique",
+        "confidence": 0.82,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'physique\\optique' détecté via vocabulaire: 35 VSC (vitesse, chaleur, source, masse, couple...) + 7 VSCA (rotation, cible, vert, pression, argent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "rotation",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 35,
+            "vsca_count": 7,
+            "vsc_examples": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance",
+              "charge"
+            ],
+            "vsca_examples": [
+              "rotation",
+              "cible",
+              "vert",
+              "pression",
+              "argent",
+              "régime",
+              "conducteur"
+            ],
+            "validation_reason": "35 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567552",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_006",
+        "name": "physique\\physique quantique",
+        "confidence": 0.82,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'physique\\physique quantique' détecté via vocabulaire: 35 VSC (vitesse, chaleur, source, masse, couple...) + 7 VSCA (rotation, cible, vert, pression, argent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "rotation",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 35,
+            "vsca_count": 7,
+            "vsc_examples": [
+              "vitesse",
+              "chaleur",
+              "source",
+              "masse",
+              "couple",
+              "similaire",
+              "stable",
+              "travail",
+              "puissance",
+              "charge"
+            ],
+            "vsca_examples": [
+              "rotation",
+              "cible",
+              "vert",
+              "pression",
+              "argent",
+              "régime",
+              "conducteur"
+            ],
+            "validation_reason": "35 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567555",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_ent_014",
+        "name": "I-fin",
+        "confidence": 0.81,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap IV/note chap IV, Livre I (5).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap V/note chap V, Livre I (4).md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Carl von Clausewitz.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 6 notes",
+          "details": {
+            "entity_type": "date",
+            "raw_text": "I",
+            "total_occurrences": 6,
+            "notes_count": 6
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567558",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_019",
+        "name": "New-York",
+        "confidence": 0.79,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Montage — Wikipédia.md",
+          "Clippings/Impressionnisme — Wikipédia.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 5 notes",
+          "details": {
+            "entity_type": "person",
+            "raw_text": "New York",
+            "total_occurrences": 20,
+            "notes_count": 5
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567561",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_011",
+        "name": "geo\\chine",
+        "confidence": 0.77,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "YouTube Notes/Timestamps 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (4).md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "geo",
+            "raw_text": "chine",
+            "total_occurrences": 28,
+            "notes_count": 3
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567564",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_012",
+        "name": "proposition",
+        "confidence": 0.77,
+        "notes": [
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (3).md",
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "math_object",
+            "raw_text": "proposition",
+            "total_occurrences": 29,
+            "notes_count": 3
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567567",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_015",
+        "name": "entité\\prusse",
+        "confidence": 0.77,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "Clippings/Droit civil — Wikipédia.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "entity",
+            "raw_text": "prusse",
+            "total_occurrences": 16,
+            "notes_count": 3
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567570",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_013",
+        "name": "geo\\paris",
+        "confidence": 0.76,
+        "notes": [
+          "YouTube Notes/Timestamps 1.md",
+          "Clippings/Impressionnisme — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "geo",
+            "raw_text": "paris",
+            "total_occurrences": 73,
+            "notes_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567573",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_emg_007",
+        "name": "geographie",
+        "confidence": 0.76,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'geographie' détecté via vocabulaire: 12 VSC (au niveau de, polaire, zone, bassin, chute...) + 16 VSCA (occident, île, allemand, bouche, dent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "au niveau de",
+              "occident",
+              "île",
+              "allemand",
+              "zone",
+              "bassin",
+              "péninsule",
+              "antarctique",
+              "par",
+              "côte"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 12,
+            "vsca_count": 16,
+            "vsc_examples": [
+              "au niveau de",
+              "polaire",
+              "zone",
+              "bassin",
+              "chute",
+              "supérieur",
+              "par",
+              "côte",
+              "inférieur",
+              "lieu"
+            ],
+            "vsca_examples": [
+              "occident",
+              "île",
+              "allemand",
+              "bouche",
+              "dent",
+              "péninsule",
+              "estuaire",
+              "conception",
+              "est",
+              "pays"
+            ],
+            "validation_reason": "12 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567576",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_008",
+        "name": "geographie\\cartographie",
+        "confidence": 0.76,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'geographie\\cartographie' détecté via vocabulaire: 12 VSC (au niveau de, polaire, zone, bassin, chute...) + 16 VSCA (occident, île, allemand, bouche, dent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "au niveau de",
+              "occident",
+              "île",
+              "allemand",
+              "zone",
+              "bassin",
+              "péninsule",
+              "antarctique",
+              "par",
+              "côte"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 12,
+            "vsca_count": 16,
+            "vsc_examples": [
+              "au niveau de",
+              "polaire",
+              "zone",
+              "bassin",
+              "chute",
+              "supérieur",
+              "par",
+              "côte",
+              "inférieur",
+              "lieu"
+            ],
+            "vsca_examples": [
+              "occident",
+              "île",
+              "allemand",
+              "bouche",
+              "dent",
+              "péninsule",
+              "estuaire",
+              "conception",
+              "est",
+              "pays"
+            ],
+            "validation_reason": "12 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567579",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_009",
+        "name": "geographie\\géographie physique",
+        "confidence": 0.76,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'geographie\\géographie physique' détecté via vocabulaire: 12 VSC (au niveau de, polaire, zone, bassin, chute...) + 16 VSCA (occident, île, allemand, bouche, dent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "au niveau de",
+              "occident",
+              "île",
+              "allemand",
+              "zone",
+              "bassin",
+              "péninsule",
+              "antarctique",
+              "par",
+              "côte"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 12,
+            "vsca_count": 16,
+            "vsc_examples": [
+              "au niveau de",
+              "polaire",
+              "zone",
+              "bassin",
+              "chute",
+              "supérieur",
+              "par",
+              "côte",
+              "inférieur",
+              "lieu"
+            ],
+            "vsca_examples": [
+              "occident",
+              "île",
+              "allemand",
+              "bouche",
+              "dent",
+              "péninsule",
+              "estuaire",
+              "conception",
+              "est",
+              "pays"
+            ],
+            "validation_reason": "12 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567582",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_010",
+        "name": "geographie\\géographie physique\\biogéographie",
+        "confidence": 0.76,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'geographie\\géographie physique\\biogéographie' détecté via vocabulaire: 12 VSC (au niveau de, polaire, zone, bassin, chute...) + 16 VSCA (occident, île, allemand, bouche, dent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "au niveau de",
+              "occident",
+              "île",
+              "allemand",
+              "zone",
+              "bassin",
+              "péninsule",
+              "antarctique",
+              "par",
+              "côte"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 12,
+            "vsca_count": 16,
+            "vsc_examples": [
+              "au niveau de",
+              "polaire",
+              "zone",
+              "bassin",
+              "chute",
+              "supérieur",
+              "par",
+              "côte",
+              "inférieur",
+              "lieu"
+            ],
+            "vsca_examples": [
+              "occident",
+              "île",
+              "allemand",
+              "bouche",
+              "dent",
+              "péninsule",
+              "estuaire",
+              "conception",
+              "est",
+              "pays"
+            ],
+            "validation_reason": "12 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567585",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_011",
+        "name": "geographie\\topographie",
+        "confidence": 0.76,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'geographie\\topographie' détecté via vocabulaire: 12 VSC (au niveau de, polaire, zone, bassin, chute...) + 16 VSCA (occident, île, allemand, bouche, dent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "au niveau de",
+              "occident",
+              "île",
+              "allemand",
+              "zone",
+              "bassin",
+              "péninsule",
+              "antarctique",
+              "par",
+              "côte"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 12,
+            "vsca_count": 16,
+            "vsc_examples": [
+              "au niveau de",
+              "polaire",
+              "zone",
+              "bassin",
+              "chute",
+              "supérieur",
+              "par",
+              "côte",
+              "inférieur",
+              "lieu"
+            ],
+            "vsca_examples": [
+              "occident",
+              "île",
+              "allemand",
+              "bouche",
+              "dent",
+              "péninsule",
+              "estuaire",
+              "conception",
+              "est",
+              "pays"
+            ],
+            "validation_reason": "12 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567587",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_012",
+        "name": "geographie\\union européenne",
+        "confidence": 0.76,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'geographie\\union européenne' détecté via vocabulaire: 12 VSC (au niveau de, polaire, zone, bassin, chute...) + 16 VSCA (occident, île, allemand, bouche, dent...)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "au niveau de",
+              "occident",
+              "île",
+              "allemand",
+              "zone",
+              "bassin",
+              "péninsule",
+              "antarctique",
+              "par",
+              "côte"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 12,
+            "vsca_count": 16,
+            "vsc_examples": [
+              "au niveau de",
+              "polaire",
+              "zone",
+              "bassin",
+              "chute",
+              "supérieur",
+              "par",
+              "côte",
+              "inférieur",
+              "lieu"
+            ],
+            "vsca_examples": [
+              "occident",
+              "île",
+              "allemand",
+              "bouche",
+              "dent",
+              "péninsule",
+              "estuaire",
+              "conception",
+              "est",
+              "pays"
+            ],
+            "validation_reason": "12 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567590",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_ent_006",
+        "name": "byzantin",
+        "confidence": 0.75,
+        "notes": [
+          "caroro.md",
+          "Clippings/Mythologie grecque — Wikipédia.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 3 notes",
+          "details": {
+            "entity_type": "artwork",
+            "raw_text": "byzantin",
+            "total_occurrences": 10,
+            "notes_count": 3
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567593",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_022",
+        "name": "opérateur",
+        "confidence": 0.75,
+        "notes": [
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Montage — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "math_object",
+            "raw_text": "opérateur",
+            "total_occurrences": 26,
+            "notes_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567597",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_emg_013",
         "name": "aureus",
         "confidence": 0.75,
         "notes": [
@@ -728,11 +1402,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303306",
+        "first_detected": "2026-02-03T19:20:31.567600",
         "source": "emergent"
       },
       {
-        "id": "lt_emg_001",
+        "id": "lt_emg_014",
         "name": "habitus",
         "confidence": 0.75,
         "notes": [
@@ -762,11 +1436,32 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303309",
+        "first_detected": "2026-02-03T19:20:31.567603",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_004",
+        "id": "lt_ent_026",
+        "name": "Saint-Pétersbourg",
+        "confidence": 0.74,
+        "notes": [
+          "Clippings/Impressionnisme — Wikipédia.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 2 notes",
+          "details": {
+            "entity_type": "person",
+            "raw_text": "Saint-Pétersbourg",
+            "total_occurrences": 7,
+            "notes_count": 2
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567606",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_017",
         "name": "II-fin",
         "confidence": 0.73,
         "notes": [
@@ -775,155 +1470,389 @@
           "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 3 notes",
+          "summary": "Entité détecté(e) dans 3 notes",
           "details": {
             "entity_type": "date",
             "raw_text": "II",
             "total_occurrences": 3,
-            "notes_count": 3,
-            "in_reference_db": false,
-            "in_title": false
+            "notes_count": 3
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303312",
-        "source": "pattern_date",
-        "alternatives": [
-          {
-            "name": "II",
-            "reason": "Format conventionnel pour Date/Siècle",
-            "is_convention": true
-          }
-        ]
+        "first_detected": "2026-02-03T19:20:31.567609",
+        "source": "heuristic"
       },
       {
-        "id": "lt_ent_000",
-        "name": "IX-fin",
+        "id": "lt_emg_015",
+        "name": "cuisine",
+        "confidence": 0.73,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'cuisine' détecté via vocabulaire: 17 VSC (trancher, fil, réduire, passe, bateau...) + 3 VSCA (langue, œil, plat)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "fil",
+              "réduire",
+              "passe",
+              "œil",
+              "retourner",
+              "quasi",
+              "chef",
+              "côte",
+              "vert",
+              "tête"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 17,
+            "vsca_count": 3,
+            "vsc_examples": [
+              "trancher",
+              "fil",
+              "réduire",
+              "passe",
+              "bateau",
+              "retourner",
+              "casser",
+              "mettre",
+              "quasi",
+              "chef"
+            ],
+            "vsca_examples": [
+              "langue",
+              "œil",
+              "plat"
+            ],
+            "validation_reason": "17 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567612",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_016",
+        "name": "cuisine\\boucherie",
+        "confidence": 0.73,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'cuisine\\boucherie' détecté via vocabulaire: 17 VSC (trancher, fil, réduire, passe, bateau...) + 3 VSCA (langue, œil, plat)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "fil",
+              "réduire",
+              "passe",
+              "œil",
+              "retourner",
+              "quasi",
+              "chef",
+              "côte",
+              "vert",
+              "tête"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 17,
+            "vsca_count": 3,
+            "vsc_examples": [
+              "trancher",
+              "fil",
+              "réduire",
+              "passe",
+              "bateau",
+              "retourner",
+              "casser",
+              "mettre",
+              "quasi",
+              "chef"
+            ],
+            "vsca_examples": [
+              "langue",
+              "œil",
+              "plat"
+            ],
+            "validation_reason": "17 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567615",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_017",
+        "name": "cuisine\\charcuterie",
+        "confidence": 0.73,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'cuisine\\charcuterie' détecté via vocabulaire: 17 VSC (trancher, fil, réduire, passe, bateau...) + 3 VSCA (langue, œil, plat)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "fil",
+              "réduire",
+              "passe",
+              "œil",
+              "retourner",
+              "quasi",
+              "chef",
+              "côte",
+              "vert",
+              "tête"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 17,
+            "vsca_count": 3,
+            "vsc_examples": [
+              "trancher",
+              "fil",
+              "réduire",
+              "passe",
+              "bateau",
+              "retourner",
+              "casser",
+              "mettre",
+              "quasi",
+              "chef"
+            ],
+            "vsca_examples": [
+              "langue",
+              "œil",
+              "plat"
+            ],
+            "validation_reason": "17 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567618",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_018",
+        "name": "cuisine\\nutrition",
+        "confidence": 0.73,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'cuisine\\nutrition' détecté via vocabulaire: 17 VSC (trancher, fil, réduire, passe, bateau...) + 3 VSCA (langue, œil, plat)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "fil",
+              "réduire",
+              "passe",
+              "œil",
+              "retourner",
+              "quasi",
+              "chef",
+              "côte",
+              "vert",
+              "tête"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 17,
+            "vsca_count": 3,
+            "vsc_examples": [
+              "trancher",
+              "fil",
+              "réduire",
+              "passe",
+              "bateau",
+              "retourner",
+              "casser",
+              "mettre",
+              "quasi",
+              "chef"
+            ],
+            "vsca_examples": [
+              "langue",
+              "œil",
+              "plat"
+            ],
+            "validation_reason": "17 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567621",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_019",
+        "name": "cuisine\\pâtisserie",
+        "confidence": 0.73,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'cuisine\\pâtisserie' détecté via vocabulaire: 17 VSC (trancher, fil, réduire, passe, bateau...) + 3 VSCA (langue, œil, plat)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "fil",
+              "réduire",
+              "passe",
+              "œil",
+              "retourner",
+              "quasi",
+              "chef",
+              "côte",
+              "vert",
+              "tête"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 17,
+            "vsca_count": 3,
+            "vsc_examples": [
+              "trancher",
+              "fil",
+              "réduire",
+              "passe",
+              "bateau",
+              "retourner",
+              "casser",
+              "mettre",
+              "quasi",
+              "chef"
+            ],
+            "vsca_examples": [
+              "langue",
+              "œil",
+              "plat"
+            ],
+            "validation_reason": "17 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567624",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_emg_020",
+        "name": "peinture",
         "confidence": 0.72,
+        "notes": [
+          "info box 1.md",
+          "caroro.md",
+          "info box 1 1.md"
+        ],
+        "reasoning": {
+          "summary": "Domaine 'peinture' détecté via vocabulaire: 16 VSC (richesse, face, masse, cadre, jours...) + 1 VSCA (vue)",
+          "details": {
+            "family": "discipline",
+            "family_label": "Discipline",
+            "source_terms": [
+              "face",
+              "masse",
+              "cadre",
+              "vue",
+              "terrain",
+              "soutenu",
+              "mouvement",
+              "trait",
+              "richesse",
+              "jours"
+            ],
+            "category": "domain_vocabulary",
+            "vsc_count": 16,
+            "vsca_count": 1,
+            "vsc_examples": [
+              "richesse",
+              "face",
+              "masse",
+              "cadre",
+              "jours",
+              "noblesse",
+              "fuite",
+              "touche",
+              "dessous",
+              "terrain"
+            ],
+            "vsca_examples": [
+              "vue"
+            ],
+            "validation_reason": "16 VSC (seuil: 2)",
+            "tag_type": "domain",
+            "tag_format": "hierarchical"
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567627",
+        "source": "emergent"
+      },
+      {
+        "id": "lt_ent_003",
+        "name": "anneau",
+        "confidence": 0.71,
+        "notes": [
+          "info box 1.md",
+          "info box 1 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
+          "Clippings/métallurgie  Britannica.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 4 notes",
+          "details": {
+            "entity_type": "math_object",
+            "raw_text": "anneau",
+            "total_occurrences": 5,
+            "notes_count": 4
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T19:20:31.567629",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_004",
+        "name": "IX-fin",
+        "confidence": 0.7,
         "notes": [
           "caroro.md",
           "Clippings/Féodalité — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 2 notes",
+          "summary": "Entité détecté(e) dans 2 notes",
           "details": {
             "entity_type": "date",
             "raw_text": "IXe siècle",
             "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": false,
-            "in_title": false
+            "notes_count": 2
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303316",
-        "source": "pattern_date",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_003",
-        "name": "XIII-fin",
-        "confidence": 0.72,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/Féodalité — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "XIII",
-            "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303319",
-        "source": "pattern_date",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_005",
-        "name": "III-fin",
-        "confidence": 0.72,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/Denier (monnaie) — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "III",
-            "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303322",
-        "source": "pattern_date",
-        "alternatives": [
-          {
-            "name": "III",
-            "reason": "Format conventionnel pour Date/Siècle",
-            "is_convention": true
-          }
-        ]
-      },
-      {
-        "id": "lt_ent_007",
-        "name": "XII-fin",
-        "confidence": 0.72,
-        "notes": [
-          "Clippings/Denier (monnaie) — Wikipédia.md",
-          "Clippings/Sonnet — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Date/Siècle détecté(e) dans 2 notes",
-          "details": {
-            "entity_type": "date",
-            "raw_text": "XII",
-            "total_occurrences": 2,
-            "notes_count": 2,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303325",
-        "source": "pattern_date",
-        "alternatives": []
-      },
-      {
-        "id": "lt_ent_006",
-        "name": "1016",
-        "confidence": 0.65,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/Psychanalyse — Wikipédia.md",
-          "Clippings/Mécanique quantique — Wikipédia.md",
-          "Clippings/Cellule (biologie) — Wikipédia.md",
-          "Clippings/Épistémologie — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 5 notes",
-          "details": {
-            "entity_type": "unknown",
-            "raw_text": "1016",
-            "total_occurrences": 25,
-            "notes_count": 5,
-            "in_reference_db": false,
-            "in_title": false
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T16:41:27.303328",
-        "source": "pattern_year",
-        "alternatives": []
+        "first_detected": "2026-02-03T19:20:31.567632",
+        "source": "heuristic"
       }
     ],
     "tag_assignments": [
@@ -1054,10 +1983,87 @@
         }
       }
     ],
-    "health_alerts": [],
+    "health_alerts": [
+      {
+        "tag": "vocabulaire",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-03T18:05:47.399415",
+          "days_inactive": 0,
+          "notes_using": [
+            "Termes Specialises par Domaine.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Comportement",
+          "Mammif",
+          "exclrw"
+        ]
+      },
+      {
+        "tag": "wikidata",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-03T18:05:47.361661",
+          "days_inactive": 0,
+          "notes_using": [
+            "Guide_Extraction_Complete.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "wikipedia",
+          "livre",
+          "v"
+        ]
+      },
+      {
+        "tag": "exemples",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-03T18:05:47.371145",
+          "days_inactive": 0,
+          "notes_using": [
+            "Exemples_Definitions_Detaillees.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "livre",
+          "tous-domaines",
+          "L"
+        ]
+      },
+      {
+        "tag": "mathematiques",
+        "issue": "low_usage",
+        "severity": "warning",
+        "details": {
+          "usage_count": 1,
+          "last_used": "2026-02-03T18:05:47.298305",
+          "days_inactive": 0,
+          "notes_using": [
+            "Exemples_Definitions_Detaillees.md"
+          ]
+        },
+        "recommendation": "review",
+        "alternative_tags": [
+          "Fonction/Exponentielle",
+          "XX",
+          "XIX"
+        ]
+      }
+    ],
     "redundant_tags": [
       {
-        "id": "rg_3482",
+        "id": "rg_6575",
         "tags": [
           "------------------------------",
           "/",
@@ -1072,27 +2078,27 @@
         "recommended": "------------------------------"
       },
       {
-        "id": "rg_1911",
+        "id": "rg_6265",
         "tags": [
-          "exclrw",
-          "Comportement",
+          "vocabulaire",
           "Mammif",
-          "vocabulaire"
+          "exclrw",
+          "Comportement"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "exclrw": 2,
-          "Comportement": 2,
+          "vocabulaire": 1,
           "Mammif": 2,
-          "vocabulaire": 2
+          "exclrw": 2,
+          "Comportement": 2
         },
-        "recommended": "exclrw"
+        "recommended": "Mammif"
       }
     ]
   },
   "clusters": [
     {
-      "id": "cl_000",
+      "id": "cl_001",
       "name": "Cluster",
       "notes": [
         "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap VIII/note chap VIII, Livre I (6).md",
@@ -1147,13 +2153,13 @@
         "vii,"
       ],
       "suggested_tags": [
+        "note-The_Wealth_of_Nations",
         "note-livre",
-        "livre",
-        "note-The_Wealth_of_Nations"
+        "livre"
       ]
     },
     {
-      "id": "cl_001",
+      "id": "cl_002",
       "name": "Cluster",
       "notes": [
         "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Forrest Gump.md",
@@ -1173,19 +2179,40 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Madhouse",
-        "Crime-Mystery",
+        "Kuniaki-Haishima",
+        "Naoki-Urasawa",
         "Masayuki-Kojima"
+      ]
+    },
+    {
+      "id": "cl_000",
+      "name": "Cluster",
+      "notes": [
+        "info box 1.md",
+        "caroro.md",
+        "info box 1 1.md"
+      ],
+      "coherence": 0.63,
+      "centroid_terms": [
+        "contenu",
+        "note",
+        "caroro",
+        "info"
+      ],
+      "suggested_tags": [
+        "cite_note-20",
+        "cite_note-7",
+        "cite_note-2"
       ]
     }
   ],
   "stats": {
-    "total_notes": 245,
-    "analyzed_notes": 245,
-    "total_tags": 109,
-    "active_tags": 109,
-    "latent_tags": 25,
-    "health_score": 0.97,
+    "total_notes": 242,
+    "analyzed_notes": 242,
+    "total_tags": 107,
+    "active_tags": 107,
+    "latent_tags": 50,
+    "health_score": 0.95,
     "feedback_impact": {
       "decisions_integrated": 1000,
       "acceptance_rate": "0%"
