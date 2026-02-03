@@ -200,15 +200,74 @@ class EntityDetector:
         "méditerranée", "moyen-orient", "extrême-orient", "balkans",
         "scandinavie", "maghreb", "proche-orient", "asie centrale",
         "asie du sud-est", "europe de l'est", "europe occidentale",
-        # Villes majeures
+        # Villes majeures (noms actuels/plus connus)
         "paris", "londres", "berlin", "rome", "athènes", "vienne",
         "moscou", "pékin", "tokyo", "new york", "washington",
-        "jérusalem", "istanbul", "constantinople", "alexandrie",
-        "babylone", "memphis", "thèbes", "carthage",
+        "jérusalem", "istanbul", "alexandrie", "le caire",
+        "saint-pétersbourg", "mumbai", "kolkata", "chennai",
+        "ho chi minh-ville", "yangon", "kinshasa", "harare",
+        # Villes historiques (gardées pour contexte historique)
+        "babylone", "memphis", "thèbes", "carthage", "troie",
+        "pompéi", "herculanum", "persépolis", "ninive", "ur",
         # Pays
         "france", "allemagne", "italie", "espagne", "portugal",
         "angleterre", "russie", "chine", "japon", "inde", "égypte",
         "grèce", "turquie", "iran", "irak", "syrie", "liban",
+        "myanmar", "thaïlande", "vietnam", "cambodge",
+        "république démocratique du congo", "zimbabwe", "sri lanka",
+    }
+
+    # Synonymes géographiques: ancien nom → nom de référence (actuel/plus connu)
+    # Le système détecte l'ancien nom mais suggère le tag avec le nom de référence
+    GEO_ALIASES = {
+        # Villes - Turquie
+        "constantinople": "istanbul",
+        "byzance": "istanbul",
+        # Villes - Russie
+        "léningrad": "saint-pétersbourg",
+        "leningrad": "saint-pétersbourg",
+        "petrograd": "saint-pétersbourg",
+        "stalingrad": "volgograd",
+        # Villes - Inde
+        "bombay": "mumbai",
+        "calcutta": "kolkata",
+        "madras": "chennai",
+        "bénarès": "varanasi",
+        "benares": "varanasi",
+        # Villes - Chine
+        "pékin": "beijing",
+        "pekin": "beijing",
+        "canton": "guangzhou",
+        "nankin": "nanjing",
+        # Villes - Vietnam
+        "saïgon": "ho chi minh-ville",
+        "saigon": "ho chi minh-ville",
+        # Villes - Myanmar
+        "rangoon": "yangon",
+        "rangoun": "yangon",
+        # Villes - Afrique
+        "léopoldville": "kinshasa",
+        "leopoldville": "kinshasa",
+        "salisbury": "harare",
+        # Villes - Moyen-Orient
+        "smyrne": "izmir",
+        "angora": "ankara",
+        # Pays
+        "perse": "iran",
+        "siam": "thaïlande",
+        "birmanie": "myanmar",
+        "ceylan": "sri lanka",
+        "zaïre": "république démocratique du congo",
+        "zaire": "république démocratique du congo",
+        "rhodésie": "zimbabwe",
+        "rhodesie": "zimbabwe",
+        "abyssinie": "éthiopie",
+        "formose": "taïwan",
+        # Régions
+        "indochine": "asie du sud-est",
+        "levant": "proche-orient",
+        "mésopotamie": "irak",
+        "mesopotamie": "irak",
     }
 
     # Entités politiques historiques
@@ -405,50 +464,49 @@ class EntityDetector:
         return entities
 
     def _detect_geo(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
-        """Détecte les lieux géographiques.
+        """Détecte les lieux géographiques avec gestion des synonymes.
 
         Pour éviter les faux positifs, on vérifie :
         - Le nombre d'occurrences (minimum 2, sauf si dans le titre)
         - La densité (occurrences par rapport à la longueur du texte)
+
+        Les synonymes (noms anciens) sont détectés et mappés vers le nom
+        de référence (actuel/plus connu) pour le tag suggéré.
         """
         entities = []
         text_length = len(text_lower)
+        detected_references = set()  # Évite les doublons si alias et référence présents
 
         # Seuil minimum : 2 occurrences OU présence dans le titre
         MIN_OCCURRENCES = 2
         # Densité minimum : au moins 1 occurrence pour 2000 caractères
         MIN_DENSITY = 1 / 2000
 
+        # 1. Cherche les lieux connus (noms de référence)
         for place in self.KNOWN_GEO:
             if place in text_lower:
-                # Compte les occurrences
                 count = text_lower.count(place)
-
-                # Vérifie si le lieu est dans le titre (forte indication de pertinence)
                 in_title = place in title_lower if title_lower else False
-
-                # Calcule la densité
                 density = count / text_length if text_length > 0 else 0
 
-                # Filtre : soit dans le titre, soit assez d'occurrences ET densité suffisante
                 if not in_title:
                     if count < MIN_OCCURRENCES:
                         continue
                     if density < MIN_DENSITY:
                         continue
 
-                # Calcule la confiance en fonction de la pertinence
-                confidence = 0.6  # Base
+                confidence = 0.6
                 if in_title:
-                    confidence += 0.25  # Bonus titre
+                    confidence += 0.25
                 if count >= 3:
-                    confidence += 0.1  # Bonus occurrences multiples
+                    confidence += 0.1
                 if density >= MIN_DENSITY * 2:
-                    confidence += 0.05  # Bonus densité élevée
+                    confidence += 0.05
 
-                confidence = min(0.9, confidence)  # Plafond
+                confidence = min(0.9, confidence)
 
                 tag = suggest_tag_format(TagFamily.GEO, place)
+                detected_references.add(place)
 
                 entities.append(DetectedEntity(
                     family=TagFamily.GEO,
@@ -456,6 +514,47 @@ class EntityDetector:
                     suggested_tag=tag,
                     confidence=round(confidence, 2),
                     occurrences=count,
+                ))
+
+        # 2. Cherche les synonymes (noms anciens) et mappe vers la référence
+        for alias, reference in self.GEO_ALIASES.items():
+            # Skip si la référence a déjà été détectée directement
+            if reference in detected_references:
+                continue
+
+            if alias in text_lower:
+                count = text_lower.count(alias)
+                in_title = alias in title_lower if title_lower else False
+                density = count / text_length if text_length > 0 else 0
+
+                if not in_title:
+                    if count < MIN_OCCURRENCES:
+                        continue
+                    if density < MIN_DENSITY:
+                        continue
+
+                # Confiance légèrement réduite car c'est un alias
+                confidence = 0.55
+                if in_title:
+                    confidence += 0.25
+                if count >= 3:
+                    confidence += 0.1
+                if density >= MIN_DENSITY * 2:
+                    confidence += 0.05
+
+                confidence = min(0.85, confidence)
+
+                # Utilise le nom de référence pour le tag
+                tag = suggest_tag_format(TagFamily.GEO, reference)
+                detected_references.add(reference)
+
+                entities.append(DetectedEntity(
+                    family=TagFamily.GEO,
+                    raw_text=alias,  # Garde le texte original trouvé
+                    suggested_tag=tag,  # Mais suggère le tag avec le nom de référence
+                    confidence=round(confidence, 2),
+                    occurrences=count,
+                    context=f"(synonyme de {reference})",  # Indique que c'est un alias
                 ))
 
         return entities
