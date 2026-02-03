@@ -726,25 +726,28 @@ class EntityDetector:
         entities = []
 
         for obj in KNOWN_MATH_OBJECTS:
-            if obj in text_lower:
-                count = text_lower.count(obj)
+            # Utilise la recherche par mot entier pour éviter les faux positifs
+            # Ex: "somme" ne doit pas être détecté dans "consommation"
+            count = self._count_whole_word(text_lower, obj)
+            if count == 0:
+                continue
 
-                # Cherche un mathématicien associé
-                author = self._find_mathematician(text_lower, obj)
+            # Cherche un mathématicien associé
+            author = self._find_mathematician(text_lower, obj)
 
-                tag = suggest_tag_format(
-                    TagFamily.MATH_OBJECT,
-                    obj,
-                    {"author": author} if author else {}
-                )
+            tag = suggest_tag_format(
+                TagFamily.MATH_OBJECT,
+                obj,
+                {"author": author} if author else {}
+            )
 
-                entities.append(DetectedEntity(
-                    family=TagFamily.MATH_OBJECT,
-                    raw_text=obj,
-                    suggested_tag=tag,
-                    confidence=0.7 if not author else 0.85,
-                    occurrences=count,
-                ))
+            entities.append(DetectedEntity(
+                family=TagFamily.MATH_OBJECT,
+                raw_text=obj,
+                suggested_tag=tag,
+                confidence=0.7 if not author else 0.85,
+                occurrences=count,
+            ))
 
         return entities
 
@@ -757,32 +760,34 @@ class EntityDetector:
         entities = []
 
         for movement in KNOWN_ART_MOVEMENTS:
-            if movement in text_lower:
-                count = text_lower.count(movement)
+            # Utilise la recherche par mot entier pour éviter les faux positifs
+            count = self._count_whole_word(text_lower, movement)
+            if count == 0:
+                continue
 
-                in_title = movement in title_lower if title_lower else False
+            in_title = self._word_in_text(title_lower, movement) if title_lower else False
 
-                confidence = 0.65  # Base
-                if in_title:
-                    confidence += 0.2
-                if count >= 2:
-                    confidence += 0.1
+            confidence = 0.65  # Base
+            if in_title:
+                confidence += 0.2
+            if count >= 2:
+                confidence += 0.1
 
-                confidence = min(0.9, confidence)
+            confidence = min(0.9, confidence)
 
-                tag = suggest_tag_format(
-                    TagFamily.ARTWORK,
-                    movement,
-                    {"movement": movement}
-                )
+            tag = suggest_tag_format(
+                TagFamily.ARTWORK,
+                movement,
+                {"movement": movement}
+            )
 
-                entities.append(DetectedEntity(
-                    family=TagFamily.ARTWORK,
-                    raw_text=movement,
-                    suggested_tag=tag,
-                    confidence=round(confidence, 2),
-                    occurrences=count,
-                ))
+            entities.append(DetectedEntity(
+                family=TagFamily.ARTWORK,
+                raw_text=movement,
+                suggested_tag=tag,
+                confidence=round(confidence, 2),
+                occurrences=count,
+            ))
 
         return entities
 
@@ -801,7 +806,8 @@ class EntityDetector:
 
         if discipline.lower() in subdomains:
             for sub in subdomains[discipline.lower()]:
-                if sub in text:
+                # Utilise la recherche par mot entier
+                if self._word_in_text(text, sub):
                     return sub
 
         return None
@@ -809,13 +815,20 @@ class EntityDetector:
     def _find_mathematician(self, text: str, math_object: str) -> Optional[str]:
         """Cherche un mathématicien associé à un objet mathématique."""
         for mathematician in KNOWN_MATHEMATICIANS:
-            if mathematician in text:
+            # Utilise la recherche par mot entier
+            if self._word_in_text(text, mathematician):
                 # Vérifie la proximité (dans les 100 caractères)
-                obj_pos = text.find(math_object)
-                math_pos = text.find(mathematician)
+                # Trouve la position via regex pour être cohérent
+                escaped = re.escape(mathematician)
+                pattern = re.compile(rf'(?<![a-zà-ÿ]){escaped}(?![a-zà-ÿ])', re.IGNORECASE)
+                math_match = pattern.search(text)
+                obj_match = re.search(rf'(?<![a-zà-ÿ]){re.escape(math_object)}(?![a-zà-ÿ])', text, re.IGNORECASE)
 
-                if abs(obj_pos - math_pos) < 100:
-                    return mathematician
+                if math_match and obj_match:
+                    math_pos = math_match.start()
+                    obj_pos = obj_match.start()
+                    if abs(obj_pos - math_pos) < 100:
+                        return mathematician
 
         return None
 
