@@ -1231,6 +1231,12 @@ class EmergentTagDetector:
         )
         suggestions.extend(domain_suggestions)
 
+        # 4. NOUVEAU: Détecte les entités (noms, dates, lieux)
+        entity_suggestions = self._detect_entity_suggestions(
+            cluster_notes, combined_text
+        )
+        suggestions.extend(entity_suggestions)
+
         # Déduplique et filtre
         suggestions = self._deduplicate_suggestions(suggestions)
 
