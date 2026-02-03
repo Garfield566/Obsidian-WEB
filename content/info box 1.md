@@ -1,9 +1,10 @@
 ---
-author:
-  - yyy
+type: personnage
+domaine: histoire
+date_creation: 2025-02-03
 ---
 
-yyy
+# Contenu de la note
 
 ---
 Les Canidés (Canidae) sont une [famille](https://fr.wikipedia.org/wiki/Famille_\(biologie\) "Famille (biologie)") de [mammifères](https://fr.wikipedia.org/wiki/Mammif%C3%A8re "Mammifère") de l'[ordre](https://fr.wikipedia.org/wiki/Ordre_\(biologie\) "Ordre (biologie)") des [Carnivores](https://fr.wikipedia.org/wiki/Carnivora "Carnivora"), [éponyme](https://fr.wikipedia.org/wiki/%C3%89ponymie "Éponymie") de la branche des [Caniformes](https://fr.wikipedia.org/wiki/Caniformia "Caniformia"), et comprenant entre autres les [loups](https://fr.wikipedia.org/wiki/Canis_lupus "Canis lupus") (et donc le [chien](https://fr.wikipedia.org/wiki/Chien "Chien")), les [chacals](https://fr.wikipedia.org/wiki/Chacal "Chacal") et les [renards](https://fr.wikipedia.org/wiki/Renard "Renard").
