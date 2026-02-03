@@ -316483,5 +316483,477 @@
     "domaine_parent": "theatre",
     "domaine_exact": "theatre",
     "validation_weight": 0.8
+  },
+  "exponentielle": {
+    "exact_terms": [
+      "exponentielle",
+      "fonction exponentielle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "exponentielle",
+          "synonyms": [
+            "exponentielle",
+            "exp"
+          ]
+        }
+      ],
+      "contextual": [
+        "fonction",
+        "croissance",
+        "décroissance",
+        "logarithme"
+      ],
+      "raw_definition": "Fonction mathématique de la forme f(x) = e^x"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\analyse",
+    "validation_weight": 1.0
+  },
+  "dérivée": {
+    "exact_terms": [
+      "dérivée",
+      "dérivation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dérivée",
+          "synonyms": [
+            "dérivée",
+            "dérivation",
+            "derivative"
+          ]
+        }
+      ],
+      "contextual": [
+        "fonction",
+        "limite",
+        "taux",
+        "variation",
+        "tangente"
+      ],
+      "raw_definition": "Mesure du taux de variation instantané d'une fonction"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\analyse\\calcul-différentiel",
+    "validation_weight": 1.0
+  },
+  "intégrale": {
+    "exact_terms": [
+      "intégrale",
+      "intégration"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "intégrale",
+          "synonyms": [
+            "intégrale",
+            "intégration",
+            "integral"
+          ]
+        }
+      ],
+      "contextual": [
+        "aire",
+        "primitive",
+        "somme",
+        "Riemann"
+      ],
+      "raw_definition": "Opération inverse de la dérivation, calcul d'aires"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\analyse\\calcul-intégral",
+    "validation_weight": 1.0
+  },
+  "tangente": {
+    "exact_terms": [
+      "tangente",
+      "tan"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tangente",
+          "synonyms": [
+            "tangente",
+            "tan"
+          ]
+        }
+      ],
+      "contextual": [
+        "droite",
+        "courbe",
+        "pente",
+        "trigonométrie"
+      ],
+      "raw_definition": "Droite qui touche une courbe en un point ou fonction trigonométrique"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\géométrie\\trigonométrie",
+    "validation_weight": 1.0
+  },
+  "cosinus": {
+    "exact_terms": [
+      "cosinus",
+      "cos"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cosinus",
+          "synonyms": [
+            "cosinus",
+            "cos"
+          ]
+        }
+      ],
+      "contextual": [
+        "angle",
+        "trigonométrie",
+        "cercle",
+        "sinus"
+      ],
+      "raw_definition": "Fonction trigonométrique, rapport du côté adjacent sur l'hypoténuse"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\géométrie\\trigonométrie",
+    "validation_weight": 1.0
+  },
+  "sinus": {
+    "exact_terms": [
+      "sinus",
+      "sin"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "sinus",
+          "synonyms": [
+            "sinus",
+            "sin"
+          ]
+        }
+      ],
+      "contextual": [
+        "angle",
+        "trigonométrie",
+        "cercle",
+        "cosinus"
+      ],
+      "raw_definition": "Fonction trigonométrique, rapport du côté opposé sur l'hypoténuse"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\géométrie\\trigonométrie",
+    "validation_weight": 1.0
+  },
+  "limite": {
+    "exact_terms": [
+      "limite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "limite",
+          "synonyms": [
+            "limite",
+            "lim"
+          ]
+        }
+      ],
+      "contextual": [
+        "convergence",
+        "suite",
+        "fonction",
+        "infini"
+      ],
+      "raw_definition": "Valeur vers laquelle tend une fonction ou suite"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\analyse",
+    "validation_weight": 1.0
+  },
+  "équation différentielle": {
+    "exact_terms": [
+      "équation différentielle",
+      "équations différentielles"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "équation différentielle",
+          "synonyms": [
+            "équation différentielle",
+            "EDO",
+            "EDP"
+          ]
+        }
+      ],
+      "contextual": [
+        "dérivée",
+        "solution",
+        "ordre"
+      ],
+      "raw_definition": "Équation reliant une fonction et ses dérivées"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\analyse\\calcul-différentiel",
+    "validation_weight": 1.0
+  },
+  "récurrence": {
+    "exact_terms": [
+      "récurrence",
+      "raisonnement par récurrence"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "récurrence",
+          "synonyms": [
+            "récurrence",
+            "induction"
+          ]
+        }
+      ],
+      "contextual": [
+        "démonstration",
+        "suite",
+        "hérédité",
+        "initialisation"
+      ],
+      "raw_definition": "Méthode de démonstration par induction"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\arithmétique",
+    "validation_weight": 1.0
+  },
+  "probabilité": {
+    "exact_terms": [
+      "probabilité",
+      "probabilités"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "probabilité",
+          "synonyms": [
+            "probabilité",
+            "proba"
+          ]
+        }
+      ],
+      "contextual": [
+        "événement",
+        "aléatoire",
+        "statistique"
+      ],
+      "raw_definition": "Mesure de la vraisemblance d'un événement"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\probabilités",
+    "validation_weight": 1.0
+  },
+  "statistique": {
+    "exact_terms": [
+      "statistique",
+      "statistiques"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "statistique",
+          "synonyms": [
+            "statistique",
+            "stats"
+          ]
+        }
+      ],
+      "contextual": [
+        "moyenne",
+        "écart-type",
+        "variance",
+        "données"
+      ],
+      "raw_definition": "Science de la collecte et analyse de données"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\statistiques",
+    "validation_weight": 1.0
+  },
+  "fonction affine": {
+    "exact_terms": [
+      "fonction affine",
+      "fonctions affines"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fonction affine",
+          "synonyms": [
+            "affine",
+            "linéaire"
+          ]
+        }
+      ],
+      "contextual": [
+        "droite",
+        "pente",
+        "ordonnée"
+      ],
+      "raw_definition": "Fonction de la forme f(x) = ax + b"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\analyse",
+    "validation_weight": 1.0
+  },
+  "nombre complexe": {
+    "exact_terms": [
+      "nombre complexe",
+      "nombres complexes",
+      "complexe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "nombre complexe",
+          "synonyms": [
+            "complexe",
+            "imaginaire"
+          ]
+        }
+      ],
+      "contextual": [
+        "réel",
+        "imaginaire",
+        "module",
+        "argument"
+      ],
+      "raw_definition": "Nombre de la forme a + bi où i² = -1"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\algèbre",
+    "validation_weight": 1.0
+  },
+  "suite arithmétique": {
+    "exact_terms": [
+      "suite arithmétique",
+      "suites arithmétiques"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "suite arithmétique",
+          "synonyms": [
+            "arithmétique"
+          ]
+        }
+      ],
+      "contextual": [
+        "raison",
+        "terme",
+        "somme"
+      ],
+      "raw_definition": "Suite où chaque terme est obtenu en ajoutant une constante"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\arithmétique",
+    "validation_weight": 1.0
+  },
+  "suite géométrique": {
+    "exact_terms": [
+      "suite géométrique",
+      "suites géométriques"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "suite géométrique",
+          "synonyms": [
+            "géométrique"
+          ]
+        }
+      ],
+      "contextual": [
+        "raison",
+        "terme",
+        "somme"
+      ],
+      "raw_definition": "Suite où chaque terme est obtenu en multipliant par une constante"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\arithmétique",
+    "validation_weight": 1.0
+  },
+  "théorème de Pythagore": {
+    "exact_terms": [
+      "théorème de Pythagore",
+      "Pythagore"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "Pythagore",
+          "synonyms": [
+            "Pythagore",
+            "pythagoricien"
+          ]
+        }
+      ],
+      "contextual": [
+        "triangle",
+        "rectangle",
+        "hypoténuse",
+        "carré"
+      ],
+      "raw_definition": "Dans un triangle rectangle, le carré de l'hypoténuse égale la somme des carrés des côtés"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\géométrie\\géométrie-euclidienne",
+    "validation_weight": 1.0
+  },
+  "théorème de Thalès": {
+    "exact_terms": [
+      "théorème de Thalès",
+      "Thalès"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "Thalès",
+          "synonyms": [
+            "Thalès",
+            "Thales"
+          ]
+        }
+      ],
+      "contextual": [
+        "parallèle",
+        "proportionnel",
+        "droite"
+      ],
+      "raw_definition": "Théorème sur les rapports de longueurs dans des triangles semblables"
+    },
+    "threshold": 0.85,
+    "domaine_parent": "mathematiques",
+    "domaine_exact": "mathematiques\\géométrie\\géométrie-euclidienne",
+    "validation_weight": 1.0
   }
 }
