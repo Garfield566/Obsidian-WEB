@@ -1,14 +1,17 @@
 {
 	"nodes":[
 		{"id":"6773de93d90cf83f","type":"group","x":-2280,"y":180,"width":3070,"height":3580,"color":"3","label":"Partie 1- Le Fonctionnement du marché: Comment se forment les prix et les quantités sur un marché ?"},
-		{"id":"4307ff902e8d3404","type":"group","x":-2200,"y":4160,"width":1990,"height":2040,"label":"Partie 2 - Le choix "},
-		{"id":"dd18821ac74e08a0","type":"group","x":-2120,"y":4365,"width":1840,"height":1595,"color":"4","label":"Représenter les préférences"},
+		{"id":"4307ff902e8d3404","type":"group","x":-2200,"y":4160,"width":1990,"height":3720,"label":"Partie 2 - Le choix "},
+		{"id":"dd18821ac74e08a0","type":"group","x":-2120,"y":4365,"width":1840,"height":2975,"color":"4","label":"Représenter les préférences"},
+		{"id":"4f03c9bc8c4ece0d","x":-2072,"y":6046,"width":1752,"height":1134,"color":"5","type":"group","label":"Les différent type de bien"},
 		{"id":"a2dc05fc2e92f8fe","type":"group","x":-820,"y":1380,"width":1220,"height":1300,"label":"Le concept d'élasticité"},
 		{"id":"7fa5f5c0aa490c04","type":"group","x":-960,"y":320,"width":1640,"height":880,"color":"5","label":"Les caractèristique de l'offre"},
 		{"id":"165601a517e4c763","type":"group","x":-1723,"y":2871,"width":1643,"height":769,"label":"Effet intervention publique"},
 		{"id":"e419142bd473c467","type":"group","x":-2120,"y":1280,"width":920,"height":1360,"label":"Prix et quantité d'équilibre"},
 		{"id":"980fc716bc0d5b39","x":-1360,"y":4903,"width":1040,"height":977,"color":"3","type":"group","label":"relations vérifient les implication logique suivantes :"},
+		{"id":"1d63fca8733ad8d9","x":-2040,"y":6120,"width":1020,"height":880,"color":"#e27373","type":"group","label":"Selon la réaction au revenu"},
 		{"id":"54d977b5133bccdc","type":"group","x":-2120,"y":320,"width":996,"height":700,"color":"4","label":"Les caractéristiques de la Demande"},
+		{"id":"f2d648f8a740eb65","x":-960,"y":6120,"width":640,"height":884,"color":"#32d2aa","type":"group","label":"Selon la réaction au prix propre"},
 		{"id":"08baea92229bcb00","type":"group","x":-760,"y":1760,"width":550,"height":400,"color":"4","label":"Elasticité- Prix-de l'offre"},
 		{"id":"519d28415709e6fc","type":"group","x":560,"y":-20,"width":459,"height":400,"label":"Notion"},
 		{"id":"6998bb51099cb08a","type":"group","x":-2080,"y":1400,"width":400,"height":400,"color":"5","label":"Choque de demande"},
@@ -51,7 +54,11 @@
 		{"id":"a4a8daeb866302ff","x":-2076,"y":5105,"width":632,"height":275,"type":"text","text":"### Propriétés supplémentaires courantes\n\n**Monotonie** (ou non-satiété) : si x contient au moins autant de chaque bien que y, et strictement plus d'au moins un bien, alors x ≻ y. \"Plus c'est mieux.\"\n\n**Convexité** : si x ≽ y, alors pour tout λ ∈ ]0,1[, on a λx + (1−λ)y ≽ y. Le consommateur préfère les mélanges aux extrêmes."},
 		{"id":"d2d0982f84b84cdc","x":-2072,"y":5440,"width":628,"height":178,"type":"text","text":"### Lien avec la fonction d'utilité\n\nQuand ces axiomes sont satisfaits (plus la continuité), il existe une fonction u : X → ℝ telle que x ≻ y ⟺ u(x) > u(y). La fonction d'utilité représente numériquement les préférences, ce qui permet ensuite de poser le programme d'optimisation du consommateur."},
 		{"id":"673a0d5ac99a8a16","x":-1160,"y":4940,"width":659,"height":781,"type":"text","text":"\n\n## Implications fondamentales\n\n$$x \\succ y \\Rightarrow x \\succsim y$$\n\n$$x \\sim y \\Rightarrow (x \\succsim y \\land y \\succsim x)$$\n\n## Définitions en termes de $\\succsim$\n\n$$x \\succ y \\Leftrightarrow (x \\succsim y \\land \\neg(y \\succsim x))$$\n\n$$x \\sim y \\Leftrightarrow (x \\succsim y \\land y \\succsim x)$$\n\n## Négations et contraposées\n\n$$\\neg(x \\succsim y) \\Rightarrow y \\succ x$$\n\n$$x \\succ y \\Rightarrow \\neg(y \\succ x)$$\n\n$$x \\succ y \\Rightarrow \\neg(x \\sim y)$$\n\n## Transitivité croisée\n\n$$\\big(x \\succ y \\land y \\succsim z\\big) \\Rightarrow x \\succ z$$\n\n$$\\big(x \\succsim y \\land y \\succ z\\big) \\Rightarrow x \\succ z$$\n\n$$\\big(x \\sim y \\land y \\sim z\\big) \\Rightarrow x \\sim z$$\n"},
-		{"id":"3c542148d235e7b4","x":-2053,"y":5674,"width":295,"height":126,"color":"6","type":"text","text":"Les courbe d'indifférence ne peuvent pas ce croiser "}
+		{"id":"3c542148d235e7b4","x":-1907,"y":5658,"width":295,"height":126,"color":"6","type":"text","text":"Les courbe d'indifférence ne peuvent pas ce croiser "},
+		{"id":"fb678ee5e5252ffd","x":-2020,"y":6140,"width":468,"height":50,"color":"2","type":"text","text":"On note RR R le revenu et xix_i xi​ la demande du bien ii i."},
+		{"id":"2fa29796abe091b1","x":-2000,"y":6220,"width":356,"height":239,"type":"text","text":"**Bien normal :**\n\n$$\\frac{\\partial x_i}{\\partial  R} > 0 $$\n\nLa demande augmente quand le revenu augmente."},
+		{"id":"43eb39d4b4c6d19a","x":-1560,"y":6260,"width":437,"height":284,"type":"text","text":"### Bien inférieur :\n$$\\frac{\\partial x_i}{\\partial  R} < 0 $$\nLa demande diminue quand le revenu augmente (ex : pâtes, transports en commun).\n"},
+		{"id":"1ec68bf4f891c2bb","x":-2030,"y":6577,"width":330,"height":163,"type":"text","text":"### Biens de lux\n\n$$ \\frac{\\partial x_i}  $$"}
 	],
 	"edges":[
 		{"id":"252aa1f0ec8c8a25","fromNode":"3e13cdc03076af9c","fromSide":"right","toNode":"e6ec6b70f8855344","toSide":"left"},
