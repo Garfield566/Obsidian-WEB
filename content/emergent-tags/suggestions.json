@@ -1,29 +1,93 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-03T08:25:39.142317",
+  "generated_at": "2026-02-03T16:41:27.303193",
   "vault_hash": "3ac43a1a",
   "suggestions": {
     "new_tags": [
       {
         "id": "lt_spec_000",
         "name": "déclassement",
-        "confidence": 0.85,
+        "confidence": 0.9,
         "notes": [
           "Exemples_Vocabulaire_Physique.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'déclassement' validé par terme exact",
+          "summary": "Terme spécialisé 'déclassement' validé par définition - éléments: déclassement, sociologie, descendre, l'échelle, sociale",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "",
-            "exact_match": true,
-            "matched_elements": []
+            "domaine_parent": "electronique",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "déclassement",
+                "matched": "déclassement"
+              },
+              {
+                "name": "sociologie",
+                "matched": "sociologie"
+              },
+              {
+                "name": "descendre",
+                "matched": "descendre"
+              },
+              {
+                "name": "l'échelle",
+                "matched": "l'échelle"
+              },
+              {
+                "name": "sociale",
+                "matched": "sociale"
+              }
+            ]
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142369",
+        "first_detected": "2026-02-03T16:41:27.303236",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_002",
+        "name": "électrotechnique",
+        "confidence": 0.9,
+        "notes": [
+          "Exemples_Vocabulaire_Physique.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'électrotechnique' validé par définition - éléments: électrotechnique, rapporte, applications, pratiques, l'électricité",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "physique",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "électrotechnique",
+                "matched": "électrotechnique"
+              },
+              {
+                "name": "rapporte",
+                "matched": "rapporte"
+              },
+              {
+                "name": "applications",
+                "matched": "applications"
+              },
+              {
+                "name": "pratiques",
+                "matched": "pratiques"
+              },
+              {
+                "name": "l'électricité",
+                "matched": "l'électricité"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303242",
         "source": "specialized_term"
       },
       {
@@ -34,40 +98,39 @@
           "Exemples_Vocabulaire_Physique.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'rif' validé par terme exact",
+          "summary": "Terme spécialisé 'rif' validé par définition - éléments: rif, rifain, ⴰⵔⵔⵉⴼ, arrif, arabe",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "",
-            "exact_match": true,
-            "matched_elements": []
+            "domaine_parent": "electronique",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "rif",
+                "matched": "rif"
+              },
+              {
+                "name": "rifain",
+                "matched": "rifain"
+              },
+              {
+                "name": "ⴰⵔⵔⵉⴼ",
+                "matched": "ⴰⵔⵔⵉⴼ"
+              },
+              {
+                "name": "arrif",
+                "matched": "arrif"
+              },
+              {
+                "name": "arabe",
+                "matched": "arabe"
+              }
+            ]
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142374",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_002",
-        "name": "électrotechnique",
-        "confidence": 0.85,
-        "notes": [
-          "Exemples_Vocabulaire_Physique.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'électrotechnique' validé par terme exact",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "",
-            "exact_match": true,
-            "matched_elements": []
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142378",
+        "first_detected": "2026-02-03T16:41:27.303246",
         "source": "specialized_term"
       },
       {
@@ -78,18 +141,497 @@
           "Exemples_Definitions_Detaillees.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'abélien' validé par terme exact",
+          "summary": "Terme spécialisé 'abélien' validé par définition - éléments: l'adjectif, abélien, dérivé, nom, mathématicien",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "",
-            "exact_match": true,
-            "matched_elements": []
+            "domaine_parent": "islam",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "l'adjectif",
+                "matched": "l'adjectif"
+              },
+              {
+                "name": "abélien",
+                "matched": "abélien"
+              },
+              {
+                "name": "dérivé",
+                "matched": "dérivé"
+              },
+              {
+                "name": "nom",
+                "matched": "nom"
+              },
+              {
+                "name": "mathématicien",
+                "matched": "mathématicien"
+              }
+            ]
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142382",
+        "first_detected": "2026-02-03T16:41:27.303251",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_004",
+        "name": "dérivée",
+        "confidence": 0.85,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Dérivée.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'dérivée' validé par définition - éléments: dérivée, fonction, limite, taux, variation",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "dérivée",
+                "matched": "dérivée"
+              },
+              {
+                "name": "fonction",
+                "matched": "fonction"
+              },
+              {
+                "name": "limite",
+                "matched": "limite"
+              },
+              {
+                "name": "taux",
+                "matched": "taux"
+              },
+              {
+                "name": "variation",
+                "matched": "variation"
+              },
+              {
+                "name": "tangente",
+                "matched": "tangente"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303255",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_005",
+        "name": "récurrence",
+        "confidence": 0.85,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Raisonnement par Récurrence.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'récurrence' validé par définition - éléments: récurrence, démonstration, suite, hérédité, initialisation",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "récurrence",
+                "matched": "récurrence"
+              },
+              {
+                "name": "démonstration",
+                "matched": "démonstration"
+              },
+              {
+                "name": "suite",
+                "matched": "suite"
+              },
+              {
+                "name": "hérédité",
+                "matched": "hérédité"
+              },
+              {
+                "name": "initialisation",
+                "matched": "initialisation"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303259",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_006",
+        "name": "équation différentielle",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Mécanique quantique — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'équation différentielle' validé par définition - éléments: équation différentielle, dérivée, solution, ordre",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "équation différentielle",
+                "matched": "équation différentielle"
+              },
+              {
+                "name": "dérivée",
+                "matched": "dérivée"
+              },
+              {
+                "name": "solution",
+                "matched": "solution"
+              },
+              {
+                "name": "ordre",
+                "matched": "ordre"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303262",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_007",
+        "name": "probabilité",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Mécanique quantique — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'probabilité' validé par définition - éléments: probabilité, événement, aléatoire, statistique",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "probabilité",
+                "matched": "probabilité"
+              },
+              {
+                "name": "événement",
+                "matched": "événement"
+              },
+              {
+                "name": "aléatoire",
+                "matched": "aléatoire"
+              },
+              {
+                "name": "statistique",
+                "matched": "statistique"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303269",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_008",
+        "name": "suite géométrique",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'suite géométrique' validé par définition - éléments: suite géométrique, raison, terme, somme",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "suite géométrique",
+                "matched": "géométrique"
+              },
+              {
+                "name": "raison",
+                "matched": "raison"
+              },
+              {
+                "name": "terme",
+                "matched": "terme"
+              },
+              {
+                "name": "somme",
+                "matched": "somme"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303273",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_009",
+        "name": "tangente",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'tangente' validé par définition - éléments: tangente, droite, courbe, pente, trigonométrie",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "tangente",
+                "matched": "tan"
+              },
+              {
+                "name": "droite",
+                "matched": "droite"
+              },
+              {
+                "name": "courbe",
+                "matched": "courbe"
+              },
+              {
+                "name": "pente",
+                "matched": "pente"
+              },
+              {
+                "name": "trigonométrie",
+                "matched": "trigonométrie"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303277",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_010",
+        "name": "cosinus",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'cosinus' validé par définition - éléments: cosinus, angle, trigonométrie, cercle, sinus",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "cosinus",
+                "matched": "cosinus"
+              },
+              {
+                "name": "angle",
+                "matched": "angle"
+              },
+              {
+                "name": "trigonométrie",
+                "matched": "trigonométrie"
+              },
+              {
+                "name": "cercle",
+                "matched": "cercle"
+              },
+              {
+                "name": "sinus",
+                "matched": "sinus"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303281",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_011",
+        "name": "sinus",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'sinus' validé par définition - éléments: sinus, angle, trigonométrie, cercle, cosinus",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "sinus",
+                "matched": "sinus"
+              },
+              {
+                "name": "angle",
+                "matched": "angle"
+              },
+              {
+                "name": "trigonométrie",
+                "matched": "trigonométrie"
+              },
+              {
+                "name": "cercle",
+                "matched": "cercle"
+              },
+              {
+                "name": "cosinus",
+                "matched": "cosinus"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303285",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_012",
+        "name": "fonction affine",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'fonction affine' validé par définition - éléments: fonction affine, droite, pente, ordonnée",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "fonction affine",
+                "matched": "affine"
+              },
+              {
+                "name": "droite",
+                "matched": "droite"
+              },
+              {
+                "name": "pente",
+                "matched": "pente"
+              },
+              {
+                "name": "ordonnée",
+                "matched": "ordonnée"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303288",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_013",
+        "name": "suite arithmétique",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'suite arithmétique' validé par définition - éléments: suite arithmétique, raison, terme, somme",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "suite arithmétique",
+                "matched": "arithmétique"
+              },
+              {
+                "name": "raison",
+                "matched": "raison"
+              },
+              {
+                "name": "terme",
+                "matched": "terme"
+              },
+              {
+                "name": "somme",
+                "matched": "somme"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303291",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_014",
+        "name": "théorème de Pythagore",
+        "confidence": 0.85,
+        "notes": [
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'théorème de Pythagore' validé par définition - éléments: Pythagore, triangle, rectangle, hypoténuse, carré",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "mathematiques",
+            "exact_match": false,
+            "matched_elements": [
+              {
+                "name": "Pythagore",
+                "matched": "pythagore"
+              },
+              {
+                "name": "triangle",
+                "matched": "triangle"
+              },
+              {
+                "name": "rectangle",
+                "matched": "rectangle"
+              },
+              {
+                "name": "hypoténuse",
+                "matched": "hypoténuse"
+              },
+              {
+                "name": "carré",
+                "matched": "carré"
+              }
+            ]
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-03T16:41:27.303294",
         "source": "specialized_term"
       },
       {
@@ -116,7 +658,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142386",
+        "first_detected": "2026-02-03T16:41:27.303298",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -151,7 +693,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142391",
+        "first_detected": "2026-02-03T16:41:27.303301",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -186,7 +728,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142396",
+        "first_detected": "2026-02-03T16:41:27.303306",
         "source": "emergent"
       },
       {
@@ -220,7 +762,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142403",
+        "first_detected": "2026-02-03T16:41:27.303309",
         "source": "emergent"
       },
       {
@@ -244,7 +786,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142407",
+        "first_detected": "2026-02-03T16:41:27.303312",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -274,7 +816,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142411",
+        "first_detected": "2026-02-03T16:41:27.303316",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -298,7 +840,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142415",
+        "first_detected": "2026-02-03T16:41:27.303319",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -322,7 +864,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142418",
+        "first_detected": "2026-02-03T16:41:27.303322",
         "source": "pattern_date",
         "alternatives": [
           {
@@ -352,7 +894,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142421",
+        "first_detected": "2026-02-03T16:41:27.303325",
         "source": "pattern_date",
         "alternatives": []
       },
@@ -379,7 +921,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-03T08:25:39.142425",
+        "first_detected": "2026-02-03T16:41:27.303328",
         "source": "pattern_year",
         "alternatives": []
       }
@@ -515,7 +1057,7 @@
     "health_alerts": [],
     "redundant_tags": [
       {
-        "id": "rg_1067",
+        "id": "rg_3482",
         "tags": [
           "------------------------------",
           "/",
@@ -530,21 +1072,21 @@
         "recommended": "------------------------------"
       },
       {
-        "id": "rg_1358",
+        "id": "rg_1911",
         "tags": [
-          "vocabulaire",
-          "Comportement",
           "exclrw",
-          "Mammif"
+          "Comportement",
+          "Mammif",
+          "vocabulaire"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "vocabulaire": 2,
-          "Comportement": 2,
           "exclrw": 2,
-          "Mammif": 2
+          "Comportement": 2,
+          "Mammif": 2,
+          "vocabulaire": 2
         },
-        "recommended": "vocabulaire"
+        "recommended": "exclrw"
       }
     ]
   },
@@ -606,8 +1148,8 @@
       ],
       "suggested_tags": [
         "note-livre",
-        "note-The_Wealth_of_Nations",
-        "livre"
+        "livre",
+        "note-The_Wealth_of_Nations"
       ]
     },
     {
@@ -631,9 +1173,9 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Masayuki-Kojima",
-        "Naoki-Urasawa",
-        "Kuniaki-Haishima"
+        "Madhouse",
+        "Crime-Mystery",
+        "Masayuki-Kojima"
       ]
     }
   ],
@@ -642,7 +1184,7 @@
     "analyzed_notes": 245,
     "total_tags": 109,
     "active_tags": 109,
-    "latent_tags": 14,
+    "latent_tags": 25,
     "health_score": 0.97,
     "feedback_impact": {
       "decisions_integrated": 1000,
