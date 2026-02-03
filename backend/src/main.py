@@ -18,8 +18,7 @@ import time
 from .parsers import NoteParser
 from .embeddings import Embedder
 from .analysis.similarity_v2 import SimilarityEngineV2, SimilarityConfigV2
-from .analysis.entity_detector_v2 import EntityDetectorV2, aggregate_entities_v2, EntityType
-from .analysis.entity_classifier import ReferenceDatabase
+from .analysis.entity_detector import EntityDetector, aggregate_entities_across_notes
 from .clustering.detector_v2 import ClusterDetectorV2
 from .tags import TagHealthAnalyzer, TagGenerator, TagMatcher, FeedbackIntegrator, RedundancyDetector
 from .tags.conventions import TagFamily, classify_tag, suggest_tag_format, get_tag_family_label
@@ -498,9 +497,8 @@ class TagGeneratorV2:
         self.repository = repository
         self.notes = notes or []
 
-        # Détecteur d'entités V2 avec bases de référence
-        self.reference_db = ReferenceDatabase()
-        self.entity_detector = EntityDetectorV2(self.reference_db)
+        # Détecteur d'entités V1 avec listes hardcodées
+        self.entity_detector = EntityDetector()
 
     def generate_suggestions(self, max_suggestions: int = 50) -> list[dict]:
         """Génère des suggestions de nouveaux tags.
@@ -605,14 +603,14 @@ class TagGeneratorV2:
     def _generate_entity_suggestions(
         self, rejected_tags: set, max_suggestions: int
     ) -> list[dict]:
-        """Génère des suggestions basées sur les entités détectées (V2 avec bases de référence)."""
+        """Génère des suggestions basées sur les entités détectées (V1 avec listes hardcodées)."""
         suggestions = []
 
-        # Détecte les entités dans toutes les notes avec le détecteur V2
+        # Détecte les entités dans toutes les notes avec le détecteur V1
         notes_entities = self.entity_detector.detect_entities_batch(self.notes)
 
         # Agrège les entités qui apparaissent dans plusieurs notes
-        aggregated = aggregate_entities_v2(
+        aggregated = aggregate_entities_across_notes(
             notes_entities, min_notes=self.MIN_ENTITY_NOTES
         )
 
@@ -657,36 +655,26 @@ class TagGeneratorV2:
             if not entities:
                 continue
 
-            # === NOUVEAU: Score de confiance amélioré V2 ===
+            # Score de confiance basé sur V1
             avg_detection_confidence = sum(e.confidence for e in entities) / len(entities)
 
             # Facteurs de confiance :
-            # 1. Nombre de notes (3-10+) : 20% du score
+            # 1. Nombre de notes (3-10+) : 30% du score
             notes_count = len(note_paths)
-            notes_factor = min(1.0, (notes_count - 2) / 7)  # 3 notes = 0.14, 10 notes = 1.0
+            notes_factor = min(1.0, (notes_count - 2) / 7)
 
-            # 2. Occurrences totales : 15% du score
+            # 2. Occurrences totales : 25% du score
             total_occurrences = sum(e.occurrences for e in entities)
             occurrences_factor = min(1.0, total_occurrences / 15)
 
-            # 3. Qualité de détection (déjà calibrée par le classificateur) : 40% du score
+            # 3. Qualité de détection : 45% du score
             detection_factor = min(1.0, (avg_detection_confidence - 0.3) / 0.6)
-
-            # 4. NOUVEAU: Présence dans base de référence : 15% du score
-            in_reference_db = any(e.source == "reference_db" for e in entities)
-            reference_factor = 1.0 if in_reference_db else 0.3
-
-            # 5. NOUVEAU: Présence dans titre : 10% du score
-            in_title = any(getattr(e, 'in_title', False) for e in entities)
-            title_factor = 1.0 if in_title else 0.5
 
             # Score final composé
             confidence = (
-                0.40 * detection_factor +      # Qualité de détection
-                0.20 * notes_factor +           # Nombre de notes
-                0.15 * occurrences_factor +     # Fréquence
-                0.15 * reference_factor +       # Base de référence
-                0.10 * title_factor             # Présence dans titre
+                0.45 * detection_factor +      # Qualité de détection
+                0.30 * notes_factor +           # Nombre de notes
+                0.25 * occurrences_factor       # Fréquence
             )
 
             # Ajuste l'échelle pour avoir des scores entre 0.50 et 0.95
@@ -698,27 +686,21 @@ class TagGeneratorV2:
 
             # Construit le raisonnement
             entity_sample = entities[0]
-            family_label = self._get_entity_type_label(entity_sample.entity_type)
-
-            # Calcule les alternatives et vérifications de convention
-            alternatives = self._compute_tag_alternatives(tag, entity_sample)
+            family_label = self._get_family_label(entity_sample.family)
 
             suggestions.append({
                 "id": f"lt_ent_{len(suggestions):03d}",
                 "name": tag,
                 "confidence": round(confidence, 2),
                 "notes": note_paths[:10],
-                "source": entity_sample.source,
-                "alternatives": alternatives,
+                "source": "heuristic",
                 "reasoning": {
                     "summary": f"{family_label} détecté(e) dans {len(note_paths)} notes",
                     "details": {
-                        "entity_type": entity_sample.entity_type.value,
+                        "entity_type": entity_sample.family.value,
                         "raw_text": entity_sample.raw_text,
                         "total_occurrences": total_occurrences,
                         "notes_count": len(note_paths),
-                        "in_reference_db": in_reference_db,
-                        "in_title": in_title,
                     },
                 },
             })
@@ -1268,69 +1250,6 @@ class TagGeneratorV2:
             TagFamily.GENERIC: "Concept",
         }
         return labels.get(family, "Entité")
-
-    def _get_entity_type_label(self, entity_type: EntityType) -> str:
-        """Retourne un label lisible pour un type d'entité V2."""
-        labels = {
-            EntityType.PERSON: "Personne",
-            EntityType.PLACE: "Lieu géographique",
-            EntityType.POLITICAL_ENTITY: "Entité politique",
-            EntityType.DISCIPLINE: "Discipline",
-            EntityType.CONCEPT: "Concept théorique",
-            EntityType.ART_MOVEMENT: "Mouvement artistique",
-            EntityType.DATE: "Date/Siècle",
-            EntityType.UNKNOWN: "Entité",
-        }
-        return labels.get(entity_type, "Entité")
-
-    def _compute_tag_alternatives(self, suggested_tag: str, entity) -> list[dict]:
-        """Calcule les alternatives pour un tag suggéré (V2).
-
-        Retourne une liste d'alternatives avec:
-        - name: le nom alternatif du tag
-        - reason: raison de l'alternative
-        - is_convention: si c'est une correction de convention
-        """
-        alternatives = []
-
-        # 1. Vérifie si le tag respecte les conventions
-        tag_info = classify_tag(suggested_tag)
-
-        # Si le tag est générique mais pourrait avoir une convention spécifique
-        if tag_info.family == TagFamily.GENERIC:
-            # Suggère un format plus structuré selon le type d'entité détectée (V2)
-            entity_type_to_family = {
-                EntityType.PERSON: TagFamily.PERSON,
-                EntityType.PLACE: TagFamily.GEO,
-                EntityType.POLITICAL_ENTITY: TagFamily.ENTITY,
-                EntityType.DISCIPLINE: TagFamily.DISCIPLINE,
-                EntityType.DATE: TagFamily.DATE,
-                EntityType.ART_MOVEMENT: TagFamily.ARTWORK,
-            }
-            expected_family = entity_type_to_family.get(entity.entity_type)
-            if expected_family:
-                # Génère le format conventionnel
-                context = entity.metadata if hasattr(entity, 'metadata') else {}
-                conventional = suggest_tag_format(
-                    entity.raw_text, expected_family, context
-                )
-                if conventional != suggested_tag and conventional.lower() != suggested_tag.lower():
-                    alternatives.append({
-                        "name": conventional,
-                        "reason": f"Format conventionnel pour {get_tag_family_label(expected_family)}",
-                        "is_convention": True,
-                    })
-
-        # 2. Cherche des tags existants similaires
-        similar_existing = self._find_similar_existing_tags(suggested_tag)
-        for existing_tag, similarity_reason in similar_existing:
-            alternatives.append({
-                "name": existing_tag,
-                "reason": similarity_reason,
-                "is_convention": False,
-            })
-
-        return alternatives[:3]  # Limite à 3 alternatives
 
     def _find_similar_existing_tags(self, tag: str) -> list[tuple[str, str]]:
         """Trouve des tags existants similaires au tag suggéré.
