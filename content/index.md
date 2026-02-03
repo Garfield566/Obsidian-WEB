@@ -1,4 +1,4 @@
-﻿# 🧭 Bienvenue dans mon Jardin Numérique
+# 🧭 Bienvenue dans mon Jardin Numérique
 
 Explorez mes notes, idées et connaissances organisées avec Obsidian et publiées avec Quartz.
 
