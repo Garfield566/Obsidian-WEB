@@ -1012,6 +1012,15 @@ class TagGeneratorV2:
                 # Stocke toutes les données brutes
                 if i == 0:
                     print(f"   🔄 Sauvegarde données note 1 en DB...", flush=True)
+
+                # D'abord, s'assurer que la note existe en DB
+                self.repository.upsert_note(
+                    path=note.path,
+                    title=note.title,
+                    content_hash=note.content_hash,
+                )
+
+                # Ensuite, mettre à jour les données extraites
                 self.repository.update_extracted_data(
                     note.path,
                     vsc=extracted_vocab["vsc"],
