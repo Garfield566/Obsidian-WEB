@@ -1,17 +1,17 @@
 {
 	"nodes":[
 		{"id":"6773de93d90cf83f","type":"group","x":-2280,"y":180,"width":3070,"height":3580,"color":"3","label":"Partie 1- Le Fonctionnement du marché: Comment se forment les prix et les quantités sur un marché ?"},
-		{"id":"4307ff902e8d3404","type":"group","x":-2200,"y":4160,"width":1990,"height":3720,"label":"Partie 2 - Le choix "},
-		{"id":"dd18821ac74e08a0","type":"group","x":-2120,"y":4365,"width":1840,"height":2975,"color":"4","label":"Représenter les préférences"},
-		{"id":"4f03c9bc8c4ece0d","x":-2072,"y":6046,"width":1752,"height":1134,"color":"5","type":"group","label":"Les différent type de bien"},
+		{"id":"4307ff902e8d3404","type":"group","x":-2200,"y":4160,"width":2380,"height":3720,"label":"Partie 2 - Le choix "},
+		{"id":"dd18821ac74e08a0","type":"group","x":-2120,"y":4365,"width":2100,"height":2975,"color":"4","label":"Représenter les préférences"},
+		{"id":"4f03c9bc8c4ece0d","x":-2072,"y":6046,"width":2012,"height":1134,"color":"5","type":"group","label":"Les différent type de bien"},
 		{"id":"a2dc05fc2e92f8fe","type":"group","x":-820,"y":1380,"width":1220,"height":1300,"label":"Le concept d'élasticité"},
 		{"id":"7fa5f5c0aa490c04","type":"group","x":-960,"y":320,"width":1640,"height":880,"color":"5","label":"Les caractèristique de l'offre"},
 		{"id":"165601a517e4c763","type":"group","x":-1723,"y":2871,"width":1643,"height":769,"label":"Effet intervention publique"},
 		{"id":"e419142bd473c467","type":"group","x":-2120,"y":1280,"width":920,"height":1360,"label":"Prix et quantité d'équilibre"},
 		{"id":"980fc716bc0d5b39","x":-1360,"y":4903,"width":1040,"height":977,"color":"3","type":"group","label":"relations vérifient les implication logique suivantes :"},
 		{"id":"1d63fca8733ad8d9","x":-2040,"y":6120,"width":1020,"height":880,"color":"#e27373","type":"group","label":"Selon la réaction au revenu"},
+		{"id":"f2d648f8a740eb65","x":-960,"y":6120,"width":860,"height":884,"color":"#32d2aa","type":"group","label":"Selon la réaction au prix propre"},
 		{"id":"54d977b5133bccdc","type":"group","x":-2120,"y":320,"width":996,"height":700,"color":"4","label":"Les caractéristiques de la Demande"},
-		{"id":"f2d648f8a740eb65","x":-960,"y":6120,"width":640,"height":884,"color":"#32d2aa","type":"group","label":"Selon la réaction au prix propre"},
 		{"id":"08baea92229bcb00","type":"group","x":-760,"y":1760,"width":550,"height":400,"color":"4","label":"Elasticité- Prix-de l'offre"},
 		{"id":"519d28415709e6fc","type":"group","x":560,"y":-20,"width":459,"height":400,"label":"Notion"},
 		{"id":"6998bb51099cb08a","type":"group","x":-2080,"y":1400,"width":400,"height":400,"color":"5","label":"Choque de demande"},
@@ -58,7 +58,11 @@
 		{"id":"fb678ee5e5252ffd","x":-2020,"y":6140,"width":468,"height":50,"color":"2","type":"text","text":"On note RR R le revenu et xix_i xi​ la demande du bien ii i."},
 		{"id":"2fa29796abe091b1","x":-2000,"y":6220,"width":356,"height":239,"type":"text","text":"**Bien normal :**\n\n$$\\frac{\\partial x_i}{\\partial  R} > 0 $$\n\nLa demande augmente quand le revenu augmente."},
 		{"id":"43eb39d4b4c6d19a","x":-1560,"y":6260,"width":437,"height":284,"type":"text","text":"### Bien inférieur :\n$$\\frac{\\partial x_i}{\\partial  R} < 0 $$\nLa demande diminue quand le revenu augmente (ex : pâtes, transports en commun).\n"},
-		{"id":"1ec68bf4f891c2bb","x":-2030,"y":6577,"width":330,"height":163,"type":"text","text":"### Biens de lux\n\n$$ \\frac{\\partial x_i}  $$"}
+		{"id":"1ec68bf4f891c2bb","x":-1980,"y":6577,"width":470,"height":283,"type":"text","text":"### Biens de lux\n\n$$ \\frac{\\partial x_i}{\\partial R} > 0 $$ et $$ εxi​,R​>1$$ L'élasticité-revenu est supérieure à 1 : la demande croît plus vite que le revenu.\n "},
+		{"id":"9fd1b4a7b19ff05b","x":-1466,"y":6595,"width":386,"height":225,"type":"text","text":"**Bien de première nécessité :**\n\n$$ \\frac {\\partial x_i}{\\partial R } > 0  $$et $$ 0<εxi​,R​<1$$\n"},
+		{"id":"5fb05820c8385d78","x":-760,"y":6140,"width":239,"height":50,"color":"6","type":"text","text":"On note $p_i$ le prix du bien i."},
+		{"id":"58f3ec2f85a6d029","x":-949,"y":6220,"width":379,"height":253,"type":"text","text":"### Bien ordinaire (ou typique) :\n\n$$\\frac{\\partial x_i}{\\partial  P} < 0 $$\nLa demande diminue quand le prix augmente (loi de la demande)."},
+		{"id":"590130d311cef4bc","x":-524,"y":6324,"width":504,"height":1296,"type":"text","text":"\n## Selon la relation entre deux biens\n\nOn considère deux biens $i$ et $j$ avec $p_j$ le prix du bien $j$.\n\n**Biens substituables :** $$\\frac{\\partial x_i}{\\partial p_j} > 0$$\n\nQuand le prix de $j$ augmente, la demande de $i$ augmente (ex : beurre et margarine).\n\n**Biens complémentaires :** $$\\frac{\\partial x_i}{\\partial p_j} < 0$$\n\nQuand le prix de $j$ augmente, la demande de $i$ diminue (ex : café et sucre).\n\n**Biens indépendants :** $$\\frac{\\partial x_i}{\\partial p_j} = 0$$\n\n## Élasticités associées\n\n**Élasticité-prix directe :** $$\\varepsilon_{x_i, p_i} = \\frac{\\partial x_i}{\\partial p_i} \\cdot \\frac{p_i}{x_i}$$\n\n**Élasticité-prix croisée :** $$\\varepsilon_{x_i, p_j} = \\frac{\\partial x_i}{\\partial p_j} \\cdot \\frac{p_j}{x_i}$$\n\n**Élasticité-revenu :** $$\\varepsilon_{x_i, R} = \\frac{\\partial x_i}{\\partial R} \\cdot \\frac{R}{x_i}$$"}
 	],
 	"edges":[
 		{"id":"252aa1f0ec8c8a25","fromNode":"3e13cdc03076af9c","fromSide":"right","toNode":"e6ec6b70f8855344","toSide":"left"},
