@@ -598,16 +598,28 @@ class EmergentTagDetector:
                 # Normalise les synonymes en minuscules
                 mandatory = []
                 for elem in term_data.get("definition", {}).get("mandatory", []):
+                    if isinstance(elem, dict):
+                        name = elem.get("name", "")
+                        synonyms = [s.lower() for s in elem.get("synonyms", [])]
+                    else:
+                        name = str(elem)
+                        synonyms = [name.lower()]
                     mandatory.append({
-                        "name": elem.get("name", ""),
-                        "synonyms": [s.lower() for s in elem.get("synonyms", [])]
+                        "name": name,
+                        "synonyms": synonyms
                     })
 
                 contextual = []
                 for elem in term_data.get("definition", {}).get("contextual", []):
+                    if isinstance(elem, dict):
+                        name = elem.get("name", "")
+                        synonyms = [s.lower() for s in elem.get("synonyms", [])]
+                    else:
+                        name = str(elem)
+                        synonyms = [name.lower()]
                     contextual.append({
-                        "name": elem.get("name", ""),
-                        "synonyms": [s.lower() for s in elem.get("synonyms", [])]
+                        "name": name,
+                        "synonyms": synonyms
                     })
 
                 self.SPECIALIZED_TERMS[term_name] = {
