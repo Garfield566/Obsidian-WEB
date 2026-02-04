@@ -1324,6 +1324,9 @@ class TagMatcherV2:
     # Connecteurs à ignorer dans les noms de personnes
     PERSON_NAME_CONNECTORS = {"de", "du", "von", "van", "di", "da", "le", "la", "i", "ii", "iii", "iv", "v"}
 
+    # Seuil minimum de vocabulaire pour valider une attribution de domaine
+    MIN_VOCAB_FOR_DOMAIN_ATTRIBUTION = 3  # Au moins 3 mots du domaine
+
     def __init__(
         self,
         notes_dict: dict,
@@ -1343,6 +1346,10 @@ class TagMatcherV2:
                 if tag not in self._notes_by_tag:
                     self._notes_by_tag[tag] = []
                 self._notes_by_tag[tag].append(path)
+
+        # Charge le vocabulaire pour vérification des attributions de domaines
+        self._vocab_detector = EmergentTagDetector(existing_tags=existing_tags)
+        self._domain_vocab_cache: dict[str, dict] = {}  # Cache vocabulaire par domaine
 
     def find_suggestions(self, max_suggestions: int = 100) -> list[dict]:
         """Trouve des suggestions d'attribution de tags existants."""
@@ -1381,11 +1388,18 @@ class TagMatcherV2:
                 # NOUVEAU: Vérifie si le tag est un nom propre (personne, lieu, entité, studio, etc.)
                 # et s'il apparaît dans la note
                 tag_info = classify_tag(tag)
+                vocab_match = None  # Pour stocker les infos de vocabulaire si tag discipline
 
                 # Tags avec famille explicite (personne, geo, entité, aire)
                 if tag_info.family in (TagFamily.PERSON, TagFamily.GEO, TagFamily.ENTITY, TagFamily.AREA):
                     if not self._note_mentions_entity(note, tag):
                         continue  # Skip - entité non mentionnée dans la note
+
+                # Tags de discipline/domaine : vérifie le vocabulaire
+                elif tag_info.family == TagFamily.DISCIPLINE:
+                    vocab_match = self._note_has_domain_vocabulary(note, tag)
+                    if not vocab_match["is_valid"]:
+                        continue  # Skip - vocabulaire du domaine non présent
 
                 # Tags qui ressemblent à des noms propres (mot unique capitalisé, probable studio/marque)
                 elif self._is_likely_proper_noun(tag):
@@ -1400,8 +1414,31 @@ class TagMatcherV2:
                 # Confiance basee sur le score et le nombre de sources
                 confidence = min(0.95, avg_score * 0.7 + 0.3 * min(1.0, len(sources) / 3))
 
+                # Boost de confiance si vocabulaire du domaine trouvé
+                if vocab_match and vocab_match["vocab_count"] >= 5:
+                    confidence = min(0.95, confidence + 0.1)
+
                 if confidence < 0.45:
                     continue
+
+                # Construit le reasoning
+                summary = f"{len(sources)} notes similaires ont ce tag"
+                details = {
+                    "matching_notes": [
+                        {"path": s[0], "similarity": s[1]}
+                        for s in sources[:3]
+                    ],
+                }
+
+                # Ajoute les infos de vocabulaire pour les tags discipline
+                if vocab_match and vocab_match["vocab_count"] > 0:
+                    summary += f" + {vocab_match['vocab_count']} mots du domaine détectés"
+                    details["vocabulary_match"] = {
+                        "count": vocab_match["vocab_count"],
+                        "vsc_count": vocab_match.get("vsc_count", 0),
+                        "vsca_count": vocab_match.get("vsca_count", 0),
+                        "examples": vocab_match.get("vocab_found", [])[:5],
+                    }
 
                 suggestions.append({
                     "id": f"ta_{len(suggestions):03d}",
@@ -1409,13 +1446,8 @@ class TagMatcherV2:
                     "tag": tag,
                     "confidence": confidence,
                     "reasoning": {
-                        "summary": f"{len(sources)} notes similaires ont ce tag",
-                        "details": {
-                            "matching_notes": [
-                                {"path": s[0], "similarity": s[1]}
-                                for s in sources[:3]
-                            ],
-                        },
+                        "summary": summary,
+                        "details": details,
                     },
                 })
 
@@ -1529,6 +1561,87 @@ class TagMatcherV2:
                 return True
 
         return False
+
+    def _get_domain_vocabulary(self, domain_tag: str) -> dict:
+        """Récupère le vocabulaire VSC/VSCA d'un domaine depuis la hiérarchie.
+
+        Args:
+            domain_tag: Tag de domaine (ex: "biologie", "mathématiques\\analyse")
+
+        Returns:
+            Dict {"VSC": set(), "VSCA": set()} avec le vocabulaire du domaine
+        """
+        # Utilise le cache si disponible
+        if domain_tag in self._domain_vocab_cache:
+            return self._domain_vocab_cache[domain_tag]
+
+        # Normalise le tag pour correspondre à la hiérarchie
+        # Les tags peuvent avoir "/" ou "\\" comme séparateur
+        normalized = domain_tag.replace("/", "\\").lower()
+
+        # Récupère le vocabulaire via EmergentTagDetector
+        vocab = self._vocab_detector._get_all_domain_vocabulary(normalized)
+
+        # Cache le résultat
+        self._domain_vocab_cache[domain_tag] = vocab
+        return vocab
+
+    def _note_has_domain_vocabulary(self, note, domain_tag: str) -> dict:
+        """Vérifie si une note contient du vocabulaire d'un domaine.
+
+        Utilise la base VSC/VSCA pour vérifier que la note contient
+        effectivement du vocabulaire spécifique au domaine du tag.
+
+        Args:
+            note: La note à analyser
+            domain_tag: Tag de domaine (ex: "biologie", "mathématiques")
+
+        Returns:
+            Dict avec:
+            - is_valid: bool - True si assez de vocabulaire trouvé
+            - vocab_count: int - Nombre de mots du domaine trouvés
+            - vocab_found: list - Exemples de mots trouvés
+        """
+        # Récupère le vocabulaire du domaine
+        domain_vocab = self._get_domain_vocabulary(domain_tag)
+
+        if not domain_vocab or (not domain_vocab.get("VSC") and not domain_vocab.get("VSCA")):
+            # Pas de vocabulaire défini pour ce domaine, on accepte par défaut
+            return {"is_valid": True, "vocab_count": 0, "vocab_found": []}
+
+        # Prépare le texte de la note
+        content = getattr(note, 'content', '') or ''
+        content = self._strip_frontmatter(content)
+        note_title = getattr(note, 'title', '') or ''
+        text_lower = f"{note_title} {content}".lower()
+
+        # Cherche les mots du domaine dans la note
+        found_vsc = set()
+        found_vsca = set()
+
+        # Vérifie VSC
+        for word in domain_vocab.get("VSC", set()):
+            if word.lower() in text_lower:
+                found_vsc.add(word)
+
+        # Vérifie VSCA
+        for word in domain_vocab.get("VSCA", set()):
+            if word.lower() in text_lower:
+                found_vsca.add(word)
+
+        total_found = len(found_vsc) + len(found_vsca)
+        vocab_found = list(found_vsc | found_vsca)[:10]  # Max 10 exemples
+
+        # Valide si assez de vocabulaire trouvé
+        is_valid = total_found >= self.MIN_VOCAB_FOR_DOMAIN_ATTRIBUTION
+
+        return {
+            "is_valid": is_valid,
+            "vocab_count": total_found,
+            "vocab_found": vocab_found,
+            "vsc_count": len(found_vsc),
+            "vsca_count": len(found_vsca),
+        }
 
     def _strip_frontmatter(self, content: str) -> str:
         """Enlève le frontmatter YAML du contenu s'il est présent.
