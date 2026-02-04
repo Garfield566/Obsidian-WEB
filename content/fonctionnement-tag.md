@@ -4,6 +4,94 @@
 
 ---
 
+## 0. Index des Types de Vocabulaire et Entites
+
+### 0.1 Familles de Tags (TagFamily)
+
+| Famille | Prefixe | Description | Exemple |
+|---------|---------|-------------|---------|
+| **PERSON** | `p\` | Personnes | `p\karl-marx` |
+| **GEO** | `geo\` | Lieux geographiques | `geo\paris` |
+| **ENTITY** | `entite\` | Entites politiques | `entite\empire-romain` |
+| **AREA** | `aire\` | Aires culturelles | `aire\monde-grec` |
+| **DATE** | `date\` | Dates et siecles | `siecle\XIX` |
+| **CONCEPT_AUTHOR** | - | Concepts avec auteur | `anomie\durkheim` |
+| **DISCIPLINE** | - | Disciplines academiques | `mathematiques\analyse` |
+| **MATH_OBJECT** | - | Objets mathematiques | `integrale\riemann` |
+| **ARTWORK** | `art\` | Mouvements artistiques | `art\impressionnisme` |
+| **CATEGORY** | - | Categories generiques | `Xxx\Yyy` |
+| **GENERIC** | - | Tags sans convention | `mon-tag` |
+
+### 0.2 Types de Vocabulaire
+
+| Type | Source | Contenu |
+|------|--------|---------|
+| **VSC** | `hierarchy.json` | Vocabulaire Specifique Courant (~98 000 termes) |
+| **VSCA** | `hierarchy.json` | Vocabulaire Specifique Courant Associe |
+| **KNOWN_AUTHORS** | `conventions.py` | Auteurs/penseurs connus (Durkheim, Marx, etc.) |
+| **KNOWN_DISCIPLINES** | `conventions.py` | Disciplines academiques |
+| **KNOWN_MATH_OBJECTS** | `conventions.py` | Objets mathematiques |
+| **KNOWN_MATHEMATICIANS** | `conventions.py` | Mathematiciens celebres |
+| **KNOWN_ART_MOVEMENTS** | `conventions.py` | Mouvements artistiques |
+
+### 0.3 Entites Detectables
+
+| Type | Source | Contenu |
+|------|--------|---------|
+| **KNOWN_GEO** | `entity_detector.py` | Lieux geographiques (villes, pays, regions) |
+| **GEO_ALIASES** | `entity_detector.py` | Synonymes geographiques (Constantinople → Istanbul) |
+| **KNOWN_ENTITIES** | `entity_detector.py` | Entites politiques (empires, royaumes) |
+| **KNOWN_AREAS** | `entity_detector.py` | Aires culturelles (monde grec, occident) |
+
+---
+
+### 0.4 Listes Detaillees
+
+#### Auteurs Connus (KNOWN_AUTHORS)
+> durkheim, merton, nietzsche, marx, weber, bourdieu, foucault, deleuze, derrida, heidegger, husserl, kant, hegel, spinoza, descartes, platon, aristote, socrate, freud, lacan, jung, darwin, einstein, newton, leibniz, locke, hume, rousseau, montesquieu, tocqueville, arendt, habermas, rawls, popper, kuhn, lakatos, feyerabend, wittgenstein, russell, frege, carnap, quine, putnam, kripke, searle, dennett, chalmers
+
+#### Disciplines Academiques (KNOWN_DISCIPLINES)
+> mathematiques, physique, chimie, biologie, philosophie, histoire, geographie, sociologie, psychologie, anthropologie, economie, linguistique, litterature, musicologie, informatique, medecine, droit, theologie, archeologie, astronomie, geologie, ecologie, botanique, zoologie, genetique, neurologie, epistemologie, logique, rhetorique, esthetique, ethique, metaphysique, politique, statistiques, probabilites
+
+#### Objets Mathematiques (KNOWN_MATH_OBJECTS)
+> integrale, derivee, differentielle, fonction, serie, suite, limite, groupe, anneau, corps, espace, algebre, module, matrice, vecteur, tenseur, operateur, variete, metrique, topologie, surface, courbe, fibre, mesure, norme, produit, somme, convergence, axiome, theoreme, lemme, proposition, conjecture, categorie, morphisme, foncteur, transformation
+
+#### Mathematiciens (KNOWN_MATHEMATICIANS)
+> riemann, lebesgue, cauchy, weierstrass, fourier, laplace, taylor, maclaurin, euler, lagrange, dirichlet, poisson, galois, abel, noether, hilbert, dedekind, kronecker, cayley, hamilton, grassmann, clifford, jordan, lie, euclide, poincare, hausdorff, borel, cantor, zorn, zermelo, banach, frechet, sobolev, godel, turing, church, tarski, kleene, kolmogorov, markov, bayes, bernoulli, gauss, fermat, pascal, jacobi, legendre, hermite, chebyshev, bessel, stirling
+
+#### Mouvements Artistiques (KNOWN_ART_MOVEMENTS)
+> impressionnisme, post-impressionnisme, expressionnisme, cubisme, fauvisme, surrealisme, dadaisme, baroque, rococo, renaissance, manierisme, romantisme, realisme, naturalisme, symbolisme, art-nouveau, art-deco, futurisme, constructivisme, minimalisme, pop-art, hyperrealisme, neoclassicisme, gothique, abstrait, classique, romantique, modernisme, serialisme, jazz, blues, rock, punk, hip-hop, parnasse, nouveau-roman, existentialisme, absurde, brutalisme, fonctionnalisme, deconstructivisme
+
+#### Lieux Geographiques (KNOWN_GEO)
+> **Continents**: europe, asie, afrique, amerique, oceanie, antarctique
+> **Regions**: mediterranee, moyen-orient, extreme-orient, balkans, scandinavie, maghreb, proche-orient, asie centrale
+> **Villes majeures**: paris, londres, berlin, rome, athenes, vienne, moscou, pekin, tokyo, new york, jerusalem, istanbul, alexandrie, le caire
+> **Villes historiques**: babylone, memphis, thebes, carthage, troie, pompei, persepolis, ninive, ur
+> **Pays**: france, allemagne, italie, espagne, angleterre, russie, chine, japon, inde, egypte, grece, turquie, iran, irak, syrie
+
+#### Synonymes Geographiques (GEO_ALIASES)
+| Ancien nom | Nom de reference |
+|------------|------------------|
+| constantinople, byzance | istanbul |
+| leningrad, petrograd | saint-petersbourg |
+| bombay | mumbai |
+| calcutta | kolkata |
+| saigon | ho chi minh-ville |
+| perse | iran |
+| siam | thailande |
+| birmanie | myanmar |
+| mesopotamie | irak |
+
+#### Entites Politiques (KNOWN_ENTITIES)
+> **Empires**: empire romain, empire byzantin, empire ottoman, empire perse, empire mongol, empire britannique, empire francais, empire allemand, empire russe, empire austro-hongrois, saint-empire, empire chinois, empire japonais
+> **Royaumes**: royaume de france, royaume d'angleterre, royaume de prusse, royaume de naples, royaume de sicile, royaume de pologne
+> **Etats**: urss, union sovietique, etats-unis, republique de weimar, troisieme reich, republique francaise
+
+#### Aires Culturelles (KNOWN_AREAS)
+> monde hellenistique, monde grec, monde romain, monde arabe, monde islamique, monde chinois, occident, orient, monde mediterraneen, monde germanique, monde slave, monde anglo-saxon, asie orientale, asie du sud, afrique subsaharienne
+
+---
+
 ## 1. Architecture Generale
 
 Le systeme de tags repose sur **3 piliers**:
