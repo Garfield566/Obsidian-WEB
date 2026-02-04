@@ -1,14 +1,15 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-04T14:22:33.933445",
-  "vault_hash": "e10f1da6",
+  "generated_at": "2026-02-04T14:33:21.134540",
+  "vault_hash": "e8753067",
   "suggestions": {
     "new_tags": [
       {
-        "id": "lt_ent_009",
+        "id": "lt_ent_004",
         "name": "aire\\orient",
         "confidence": 0.9,
         "notes": [
+          "fonctionnement-tag.md",
           "caroro.md",
           "YouTube Notes/Timestamps 2.md",
           "Clippings/métallurgie  Britannica.md",
@@ -20,20 +21,20 @@
           "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Entité détecté(e) dans 9 notes",
+          "summary": "Entité détecté(e) dans 10 notes",
           "details": {
             "entity_type": "area",
             "raw_text": "orient",
-            "total_occurrences": 37,
-            "notes_count": 9
+            "total_occurrences": 41,
+            "notes_count": 10
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933491",
+        "first_detected": "2026-02-04T14:33:21.134578",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_011",
+        "id": "lt_ent_016",
         "name": "entité\\états-unis",
         "confidence": 0.9,
         "notes": [
@@ -58,7 +59,35 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933496",
+        "first_detected": "2026-02-04T14:33:21.134583",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_011",
+        "name": "renaissance",
+        "confidence": 0.89,
+        "notes": [
+          "fonctionnement-tag.md",
+          "caroro.md",
+          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Longines.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/Mythologie grecque — Wikipédia.md",
+          "Clippings/Féodalité — Wikipédia.md",
+          "Clippings/Épistémologie — Wikipédia.md",
+          "Clippings/Sonnet — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 9 notes",
+          "details": {
+            "entity_type": "artwork",
+            "raw_text": "renaissance",
+            "total_occurrences": 32,
+            "notes_count": 9
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-04T14:33:21.134587",
         "source": "heuristic"
       },
       {
@@ -86,34 +115,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933500",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_008",
-        "name": "renaissance",
-        "confidence": 0.87,
-        "notes": [
-          "caroro.md",
-          "¹👹Le Labyrinthe de Dédale👹/²  🚀 Marque/Longines.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md",
-          "Clippings/Psychanalyse — Wikipédia.md",
-          "Clippings/Mythologie grecque — Wikipédia.md",
-          "Clippings/Féodalité — Wikipédia.md",
-          "Clippings/Épistémologie — Wikipédia.md",
-          "Clippings/Sonnet — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 8 notes",
-          "details": {
-            "entity_type": "artwork",
-            "raw_text": "renaissance",
-            "total_occurrences": 31,
-            "notes_count": 8
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933503",
+        "first_detected": "2026-02-04T14:33:21.134590",
         "source": "heuristic"
       },
       {
@@ -135,7 +137,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933508",
+        "first_detected": "2026-02-04T14:33:21.134594",
         "source": "specialized_term"
       },
       {
@@ -157,7 +159,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933512",
+        "first_detected": "2026-02-04T14:33:21.134598",
         "source": "specialized_term"
       },
       {
@@ -179,7 +181,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933516",
+        "first_detected": "2026-02-04T14:33:21.134602",
         "source": "specialized_term"
       },
       {
@@ -201,7 +203,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933523",
+        "first_detected": "2026-02-04T14:33:21.134608",
         "source": "specialized_term"
       },
       {
@@ -223,7 +225,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933528",
+        "first_detected": "2026-02-04T14:33:21.134612",
         "source": "specialized_term"
       },
       {
@@ -246,7 +248,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933532",
+        "first_detected": "2026-02-04T14:33:21.134616",
         "source": "specialized_term"
       },
       {
@@ -268,7 +270,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933535",
+        "first_detected": "2026-02-04T14:33:21.134619",
         "source": "specialized_term"
       },
       {
@@ -290,7 +292,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933539",
+        "first_detected": "2026-02-04T14:33:21.134623",
         "source": "specialized_term"
       },
       {
@@ -312,7 +314,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933542",
+        "first_detected": "2026-02-04T14:33:21.134626",
         "source": "specialized_term"
       },
       {
@@ -334,7 +336,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933546",
+        "first_detected": "2026-02-04T14:33:21.134630",
         "source": "specialized_term"
       },
       {
@@ -356,7 +358,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933549",
+        "first_detected": "2026-02-04T14:33:21.134633",
         "source": "specialized_term"
       },
       {
@@ -378,11 +380,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933552",
+        "first_detected": "2026-02-04T14:33:21.134636",
         "source": "specialized_term"
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_014",
         "name": "X-fin",
         "confidence": 0.83,
         "notes": [
@@ -404,7 +406,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933556",
+        "first_detected": "2026-02-04T14:33:21.134639",
         "source": "heuristic"
       },
       {
@@ -463,7 +465,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933560",
+        "first_detected": "2026-02-04T14:33:21.134642",
         "source": "emergent"
       },
       {
@@ -522,7 +524,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933564",
+        "first_detected": "2026-02-04T14:33:21.134646",
         "source": "emergent"
       },
       {
@@ -581,7 +583,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933567",
+        "first_detected": "2026-02-04T14:33:21.134649",
         "source": "emergent"
       },
       {
@@ -640,7 +642,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933570",
+        "first_detected": "2026-02-04T14:33:21.134652",
         "source": "emergent"
       },
       {
@@ -699,7 +701,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933573",
+        "first_detected": "2026-02-04T14:33:21.134655",
         "source": "emergent"
       },
       {
@@ -758,7 +760,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933576",
+        "first_detected": "2026-02-04T14:33:21.134658",
         "source": "emergent"
       },
       {
@@ -817,11 +819,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933579",
+        "first_detected": "2026-02-04T14:33:21.134661",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_015",
+        "id": "lt_ent_019",
         "name": "I-fin",
         "confidence": 0.81,
         "notes": [
@@ -842,11 +844,34 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933582",
+        "first_detected": "2026-02-04T14:33:21.134664",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_020",
+        "id": "lt_ent_007",
+        "name": "proposition",
+        "confidence": 0.79,
+        "notes": [
+          "fonctionnement-tag.md",
+          "YouTube Notes/Timestamps 2.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (3).md",
+          "Clippings/Théorème de Pythagore — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 4 notes",
+          "details": {
+            "entity_type": "math_object",
+            "raw_text": "proposition",
+            "total_occurrences": 30,
+            "notes_count": 4
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-04T14:33:21.134667",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_023",
         "name": "New-York",
         "confidence": 0.79,
         "notes": [
@@ -866,11 +891,34 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933586",
+        "first_detected": "2026-02-04T14:33:21.134669",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_012",
+        "id": "lt_ent_009",
+        "name": "entité\\prusse",
+        "confidence": 0.78,
+        "notes": [
+          "fonctionnement-tag.md",
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "Clippings/Droit civil — Wikipédia.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 4 notes",
+          "details": {
+            "entity_type": "entity",
+            "raw_text": "prusse",
+            "total_occurrences": 17,
+            "notes_count": 4
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-04T14:33:21.134672",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_017",
         "name": "geo\\chine",
         "confidence": 0.77,
         "notes": [
@@ -888,55 +936,34 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933589",
+        "first_detected": "2026-02-04T14:33:21.134675",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_013",
-        "name": "proposition",
-        "confidence": 0.77,
+        "id": "lt_ent_012",
+        "name": "byzantin",
+        "confidence": 0.76,
         "notes": [
-          "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap II/note chap II, Livre I (3).md",
-          "Clippings/Théorème de Pythagore — Wikipédia.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 3 notes",
-          "details": {
-            "entity_type": "math_object",
-            "raw_text": "proposition",
-            "total_occurrences": 29,
-            "notes_count": 3
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933592",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_016",
-        "name": "entité\\prusse",
-        "confidence": 0.77,
-        "notes": [
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "Clippings/Droit civil — Wikipédia.md",
+          "fonctionnement-tag.md",
+          "caroro.md",
+          "Clippings/Mythologie grecque — Wikipédia.md",
           "Clippings/Guerre de Crimée — Wikipédia.md"
         ],
         "reasoning": {
-          "summary": "Entité détecté(e) dans 3 notes",
+          "summary": "Entité détecté(e) dans 4 notes",
           "details": {
-            "entity_type": "entity",
-            "raw_text": "prusse",
-            "total_occurrences": 16,
-            "notes_count": 3
+            "entity_type": "artwork",
+            "raw_text": "byzantin",
+            "total_occurrences": 11,
+            "notes_count": 4
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933595",
+        "first_detected": "2026-02-04T14:33:21.134678",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_014",
+        "id": "lt_ent_018",
         "name": "geo\\paris",
         "confidence": 0.76,
         "notes": [
@@ -953,7 +980,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933598",
+        "first_detected": "2026-02-04T14:33:21.134681",
         "source": "heuristic"
       },
       {
@@ -1015,7 +1042,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933601",
+        "first_detected": "2026-02-04T14:33:21.134684",
         "source": "emergent"
       },
       {
@@ -1077,7 +1104,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933604",
+        "first_detected": "2026-02-04T14:33:21.134686",
         "source": "emergent"
       },
       {
@@ -1139,7 +1166,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933607",
+        "first_detected": "2026-02-04T14:33:21.134690",
         "source": "emergent"
       },
       {
@@ -1201,7 +1228,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933610",
+        "first_detected": "2026-02-04T14:33:21.134692",
         "source": "emergent"
       },
       {
@@ -1263,7 +1290,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933613",
+        "first_detected": "2026-02-04T14:33:21.134695",
         "source": "emergent"
       },
       {
@@ -1325,33 +1352,35 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933616",
+        "first_detected": "2026-02-04T14:33:21.134698",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_007",
-        "name": "byzantin",
+        "id": "lt_ent_003",
+        "name": "anneau",
         "confidence": 0.75,
         "notes": [
-          "caroro.md",
-          "Clippings/Mythologie grecque — Wikipédia.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md"
+          "info box 1.md",
+          "fonctionnement-tag.md",
+          "info box 1 1.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
+          "Clippings/métallurgie  Britannica.md"
         ],
         "reasoning": {
-          "summary": "Entité détecté(e) dans 3 notes",
+          "summary": "Entité détecté(e) dans 5 notes",
           "details": {
-            "entity_type": "artwork",
-            "raw_text": "byzantin",
-            "total_occurrences": 10,
-            "notes_count": 3
+            "entity_type": "math_object",
+            "raw_text": "anneau",
+            "total_occurrences": 7,
+            "notes_count": 5
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933619",
+        "first_detected": "2026-02-04T14:33:21.134701",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_024",
+        "id": "lt_ent_026",
         "name": "opérateur",
         "confidence": 0.75,
         "notes": [
@@ -1368,7 +1397,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933622",
+        "first_detected": "2026-02-04T14:33:21.134704",
         "source": "heuristic"
       },
       {
@@ -1402,7 +1431,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933625",
+        "first_detected": "2026-02-04T14:33:21.134707",
         "source": "emergent"
       },
       {
@@ -1436,35 +1465,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933628",
+        "first_detected": "2026-02-04T14:33:21.134710",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_003",
-        "name": "anneau",
-        "confidence": 0.74,
-        "notes": [
-          "info box 1.md",
-          "fonctionnement-tag.md",
-          "info box 1 1.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
-          "Clippings/métallurgie  Britannica.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 5 notes",
-          "details": {
-            "entity_type": "math_object",
-            "raw_text": "anneau",
-            "total_occurrences": 6,
-            "notes_count": 5
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933631",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_027",
+        "id": "lt_ent_029",
         "name": "Saint-Pétersbourg",
         "confidence": 0.74,
         "notes": [
@@ -1481,11 +1486,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933634",
+        "first_detected": "2026-02-04T14:33:21.134713",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_018",
+        "id": "lt_ent_021",
         "name": "II-fin",
         "confidence": 0.73,
         "notes": [
@@ -1503,7 +1508,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933653",
+        "first_detected": "2026-02-04T14:33:21.134716",
         "source": "heuristic"
       },
       {
@@ -1558,7 +1563,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933657",
+        "first_detected": "2026-02-04T14:33:21.134719",
         "source": "emergent"
       },
       {
@@ -1613,7 +1618,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933659",
+        "first_detected": "2026-02-04T14:33:21.134722",
         "source": "emergent"
       },
       {
@@ -1668,7 +1673,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933662",
+        "first_detected": "2026-02-04T14:33:21.134725",
         "source": "emergent"
       },
       {
@@ -1723,7 +1728,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933665",
+        "first_detected": "2026-02-04T14:33:21.134728",
         "source": "emergent"
       },
       {
@@ -1778,7 +1783,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933668",
+        "first_detected": "2026-02-04T14:33:21.134731",
         "source": "emergent"
       },
       {
@@ -1831,11 +1836,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933671",
+        "first_detected": "2026-02-04T14:33:21.134734",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_005",
+        "id": "lt_ent_013",
         "name": "IX-fin",
         "confidence": 0.7,
         "notes": [
@@ -1852,7 +1857,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-04T14:22:33.933674",
+        "first_detected": "2026-02-04T14:33:21.134736",
         "source": "heuristic"
       }
     ],
@@ -1986,31 +1991,12 @@
     ],
     "health_alerts": [
       {
-        "tag": "vocabulaire",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-02-04T14:21:32.307298",
-          "days_inactive": 0,
-          "notes_using": [
-            "Termes Specialises par Domaine.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "Comportement",
-          "Mammif",
-          "exclrw"
-        ]
-      },
-      {
         "tag": "wikidata",
         "issue": "low_usage",
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-04T14:21:32.394680",
+          "last_used": "2026-02-04T14:32:17.076959",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete.md"
@@ -2029,7 +2015,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-04T14:21:32.308747",
+          "last_used": "2026-02-04T14:32:17.209186",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -2048,7 +2034,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-04T14:21:32.407292",
+          "last_used": "2026-02-04T14:32:17.207785",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -2064,36 +2050,34 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_8617",
+        "id": "rg_4389",
         "tags": [
+          "------------------------------------------",
           "------------------------------",
-          "/",
-          "------------------------------------------"
+          "/"
         ],
         "similarity": 1.0,
         "usage_counts": {
+          "------------------------------------------": 2,
           "------------------------------": 2,
-          "/": 1,
-          "------------------------------------------": 2
+          "/": 1
         },
-        "recommended": "------------------------------"
+        "recommended": "------------------------------------------"
       },
       {
-        "id": "rg_3518",
+        "id": "rg_8366",
         "tags": [
-          "Mammif",
-          "exclrw",
           "Comportement",
-          "vocabulaire"
+          "Mammif",
+          "exclrw"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "Mammif": 2,
-          "exclrw": 2,
           "Comportement": 2,
-          "vocabulaire": 1
+          "Mammif": 2,
+          "exclrw": 2
         },
-        "recommended": "Mammif"
+        "recommended": "Comportement"
       }
     ]
   },
@@ -2155,8 +2139,8 @@
       ],
       "suggested_tags": [
         "livre",
-        "note-The_Wealth_of_Nations",
-        "note-livre"
+        "note-livre",
+        "note-The_Wealth_of_Nations"
       ]
     },
     {
@@ -2180,9 +2164,9 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Kuniaki-Haishima",
-        "Naoki-Urasawa",
-        "Psychological-Thriller"
+        "Medical-Drama",
+        "Madhouse",
+        "Kuniaki-Haishima"
       ]
     },
     {
@@ -2201,19 +2185,19 @@
         "info"
       ],
       "suggested_tags": [
-        "cite_note-8",
         "cite_note-19",
-        "cite_note-2"
+        "cite_note-5",
+        "cite_note-6"
       ]
     }
   ],
   "stats": {
-    "total_notes": 243,
-    "analyzed_notes": 243,
-    "total_tags": 107,
-    "active_tags": 107,
+    "total_notes": 242,
+    "analyzed_notes": 242,
+    "total_tags": 106,
+    "active_tags": 106,
     "latent_tags": 50,
-    "health_score": 0.95,
+    "health_score": 0.96,
     "feedback_impact": {
       "decisions_integrated": 1000,
       "acceptance_rate": "0%"
