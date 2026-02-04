@@ -131,6 +131,37 @@ class EmergentTagDetector:
     # Sous-notion: 5+ mots propres | Objet: 1-4 mots
     MIN_WORDS_FOR_SUBNOTION = 5
 
+    # DOMAINES FAIBLES - vocabulaire trop courant, nécessite d'être DOMINANT
+    # Pour être suggéré, un domaine faible doit avoir significativement plus
+    # de matchs que les autres domaines (ratio minimum de 2:1)
+    WEAK_DOMAINS = {
+        # Très faibles - vocabulaire très courant
+        "cuisine",
+        "cuisine\\boucherie",
+        "cuisine\\charcuterie",
+        "cuisine\\nutrition",
+        "cuisine\\nutrition\\alimentation",
+        "cuisine\\boulangerie",
+        "cuisine\\pâtisserie",
+        "peinture",
+        "dessin",
+        "musique",
+        "architecture",
+        "photographie",
+        "danse",
+        "theatre",
+        # Moyennement faibles
+        "histoire\\art\\artisanat",
+        "histoire\\art\\musique",
+        "economie",
+        "linguistique\\grammaire",
+        "brasserie",
+    }
+
+    # Ratio minimum pour qu'un domaine faible soit considéré dominant
+    # Un domaine faible doit avoir au moins 2x plus de matchs que le 2ème domaine
+    WEAK_DOMAIN_DOMINANCE_RATIO = 2.0
+
     # Patterns de détection structurés
     PATTERNS = {
         "political_event": re.compile(
@@ -1241,6 +1272,19 @@ class EmergentTagDetector:
 
         return suggestions
 
+    def _is_weak_domain(self, domain_name: str) -> bool:
+        """Vérifie si un domaine est considéré comme faible (vocabulaire courant).
+
+        Un domaine faible nécessite d'être dominant pour être suggéré.
+        """
+        domain_lower = domain_name.lower()
+        # Vérifie le domaine exact et ses parents
+        for weak in self.WEAK_DOMAINS:
+            weak_lower = weak.lower()
+            if domain_lower == weak_lower or domain_lower.startswith(weak_lower + "\\"):
+                return True
+        return False
+
     def _detect_domain_vocabulary_suggestions(
         self,
         cluster_notes: list,
@@ -1255,6 +1299,10 @@ class EmergentTagDetector:
         Contrairement aux termes spécialisés qui nécessitent une définition précise,
         cette méthode détecte la PRÉSENCE MASSIVE de vocabulaire d'un domaine.
 
+        IMPORTANT: Les domaines faibles (cuisine, peinture, musique, etc.) nécessitent
+        d'être DOMINANTS (2x plus de matchs que le 2ème domaine) pour être suggérés.
+        Cela évite les faux positifs comme "charcuterie" sur une note de biologie.
+
         Args:
             cluster_notes: Notes du cluster à analyser
             combined_text: Texte combiné des notes (minuscules)
@@ -1265,6 +1313,9 @@ class EmergentTagDetector:
         suggestions = []
         text_lower = combined_text.lower()
         note_paths = [note.path for note in cluster_notes]
+
+        # PHASE 1: Collecter tous les domaines valides avec leurs scores
+        domain_matches: list[dict] = []
 
         # Parcourt chaque domaine racine de la hiérarchie
         for domain_name, domain_data in self.HIERARCHY.items():
@@ -1296,11 +1347,55 @@ class EmergentTagDetector:
             if self._normalize(domain_tag) in self._existing_tags_normalized:
                 continue
 
-            # Calcule la confiance basée sur la quantité de vocabulaire trouvé
+            # Calcule le score total (pour le tri et la dominance)
             total_vocab = len(vsc_found) + len(vsca_found)
+
+            domain_matches.append({
+                "name": domain_name,
+                "tag": domain_tag,
+                "data": domain_data,  # Pour exploration des sous-domaines
+                "vsc_found": vsc_found,
+                "vsca_found": vsca_found,
+                "total_vocab": total_vocab,
+                "validation_reason": validation_reason,
+                "is_weak": self._is_weak_domain(domain_name),
+            })
+
+        # PHASE 2: Filtrer les domaines faibles non-dominants
+        # Trie par score décroissant pour identifier le domaine dominant
+        domain_matches.sort(key=lambda x: x["total_vocab"], reverse=True)
+
+        # Le meilleur score (domaine dominant)
+        best_score = domain_matches[0]["total_vocab"] if domain_matches else 0
+        # Le 2ème meilleur score (pour comparaison)
+        second_best_score = domain_matches[1]["total_vocab"] if len(domain_matches) > 1 else 0
+
+        # PHASE 3: Générer les suggestions en filtrant les domaines faibles
+        for match in domain_matches:
+            domain_name = match["name"]
+            is_weak = match["is_weak"]
+            total_vocab = match["total_vocab"]
+
+            # Si domaine faible, vérifier la dominance
+            if is_weak:
+                # Le domaine faible doit être le meilleur ET avoir 2x le score du 2ème
+                if total_vocab != best_score:
+                    # Ce n'est pas le domaine dominant, skip
+                    continue
+                if second_best_score > 0 and total_vocab < second_best_score * self.WEAK_DOMAIN_DOMINANCE_RATIO:
+                    # Pas assez dominant par rapport au 2ème domaine
+                    continue
+
+            # Calcule la confiance basée sur la quantité de vocabulaire trouvé
             confidence = min(0.85, 0.65 + (total_vocab / 50) * 0.20)
 
+            # Réduit la confiance pour les domaines faibles
+            if is_weak:
+                confidence = min(confidence, 0.75)
+
             # Construit le raisonnement
+            vsc_found = match["vsc_found"]
+            vsca_found = match["vsca_found"]
             vsc_examples = list(vsc_found)[:5]
             vsca_examples = list(vsca_found)[:5]
             reasoning_parts = []
@@ -1313,9 +1408,11 @@ class EmergentTagDetector:
             reasoning = (
                 f"Domaine '{domain_name}' détecté via vocabulaire: {' + '.join(reasoning_parts)}"
             )
+            if is_weak:
+                reasoning += f" [domaine faible - dominant avec {total_vocab} vs {second_best_score}]"
 
             suggestions.append(EmergentTagSuggestion(
-                name=domain_tag,
+                name=match["tag"],
                 family=TagFamily.DISCIPLINE,
                 confidence=confidence,
                 notes=note_paths,
@@ -1327,14 +1424,16 @@ class EmergentTagDetector:
                     "vsca_count": len(vsca_found),
                     "vsc_examples": list(vsc_found)[:10],
                     "vsca_examples": list(vsca_found)[:10],
-                    "validation_reason": validation_reason,
+                    "validation_reason": match["validation_reason"],
                     "tag_type": "domain",
                     "tag_format": "hierarchical",
+                    "is_weak_domain": is_weak,
                 },
             ))
 
             # Explore aussi les sous-domaines si le domaine racine est validé
-            sous_notions = domain_data.get("sous_notions", {})
+            domain_data = match["data"]
+            sous_notions = domain_data.get("sous_notions", {}) if domain_data else {}
             if sous_notions:
                 subdomain_suggestions = self._explore_subdomains_vocabulary(
                     sous_notions,
