@@ -1592,6 +1592,9 @@ class TagMatcherV2:
         Utilise la base VSC/VSCA pour vérifier que la note contient
         effectivement du vocabulaire spécifique au domaine du tag.
 
+        IMPORTANT: Utilise _find_words_in_text() pour éviter les faux positifs
+        (ex: "art" trouvé dans "carte").
+
         Args:
             note: La note à analyser
             domain_tag: Tag de domaine (ex: "biologie", "mathématiques")
@@ -1615,19 +1618,12 @@ class TagMatcherV2:
         note_title = getattr(note, 'title', '') or ''
         text_lower = f"{note_title} {content}".lower()
 
-        # Cherche les mots du domaine dans la note
-        found_vsc = set()
-        found_vsca = set()
+        # Utilise _find_words_in_text pour recherche avec limites de mots
+        # Cela évite les faux positifs comme "art" dans "carte"
+        found_words = self._vocab_detector._find_words_in_text(text_lower, domain_vocab)
 
-        # Vérifie VSC
-        for word in domain_vocab.get("VSC", set()):
-            if word.lower() in text_lower:
-                found_vsc.add(word)
-
-        # Vérifie VSCA
-        for word in domain_vocab.get("VSCA", set()):
-            if word.lower() in text_lower:
-                found_vsca.add(word)
+        found_vsc = found_words.get("VSC", set())
+        found_vsca = found_words.get("VSCA", set())
 
         total_found = len(found_vsc) + len(found_vsca)
         vocab_found = list(found_vsc | found_vsca)[:10]  # Max 10 exemples
