@@ -1,12 +1,13 @@
 # Léonard de Vinci
 
-## Infobox
-- **Dates** : 15 avril 1452 - 2 mai 1519
-- **Discipline** : Peinture, sculpture, ingénierie, anatomie
-- **Mouvement** : Renaissance italienne
-- **Formation** : Atelier de Verrocchio à Florence
-- **Œuvre majeure** : *La Joconde*, *L'Homme de Vitruve*
-- **Image** : [Portrait de Léonard de Vinci]
+> [!Infobox]
+> ![[Pasted image 20260207002658.png]]
+>- **Dates** : 15 avril 1452 - 2 mai 1519
+>- **Discipline** : Peinture, sculpture, ingénierie, anatomie
+>- **Mouvement** : Renaissance italienne
+>- **Formation** : Atelier de Verrocchio à Florence
+>- **Œuvre majeure** : *La Joconde*, *L'Homme de Vitruve*
+
 
 ---
 
