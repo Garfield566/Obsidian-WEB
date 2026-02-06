@@ -1,141 +1,100 @@
-================================================================================
-📐 TRIANGLES QUELCONQUES CORRIGÉS
-================================================================================
+# Léonard de Vinci
 
-✅ Corrections appliquées:
- 1. Échelle adaptative (petits triangles pour grandes dimensions)
- 2. Angles affichés avec valeurs en degrés (α = 53.1°, β = 36.9°, etc.)
+## Infobox
+- **Dates** : 15 avril 1452 - 2 mai 1519
+- **Discipline** : Peinture, sculpture, ingénierie, anatomie
+- **Mouvement** : Renaissance italienne
+- **Formation** : Atelier de Verrocchio à Florence
+- **Œuvre majeure** : *La Joconde*, *L'Homme de Vitruve*
+- **Image** : [Portrait de Léonard de Vinci]
 
-================================================================================
-1️⃣ Triangle 3-4-5 (Rectangle Classique)
-================================================================================
+---
+
+## Biographie
+
+Léonard de Vinci naît le 15 avril 1452 à Vinci, en Toscane, dans une famille d'artisans. Son père, notaire, et sa mère, paysanne, ne se marient pas, mais il grandit dans un environnement stimulant. Dès son plus jeune âge, il montre un talent exceptionnel pour le dessin, ce qui le conduit à l'atelier de Verrocchio à Florence, où il apprend la peinture, la sculpture et les techniques artistiques.
+
+En 1472, il ouvre son propre atelier et commence à travailler sur des commandes prestigieuses, comme *L'Annonciation* (1472-1475). Ses voyages en Italie du Nord et en France, où il est invité par François Ier, marquent des tournants dans sa carrière. Il meurt le 2 mai 1519 au Clos Lucé, près d'Amboise, laissant derrière lui des œuvres inachevées et des carnets remplis de croquis et d'idées révolutionnaires.
+
+---
+
+## Style et technique
+
+Léonard de Vinci est un maître du sfumato, une technique de peinture qui adoucit les contours et crée des transitions subtiles entre les couleurs. Ses œuvres, comme *La Joconde*, sont caractérisées par des expressions énigmatiques et une maîtrise de la perspective. Il est également connu pour ses études anatomiques détaillées, qui ont influencé la médecine et l'art.
+
+Son style évolue vers plus de complexité et de profondeur, notamment dans ses dernières années, où il se concentre sur des projets scientifiques et techniques. Il est souvent considéré comme un précurseur de la Renaissance, combinant art et science de manière inédite.
+
+---
+
+## Œuvres principales
+
+### Peintures majeures
+- **`[[La Joconde]]`** (1503-1519) — Huile sur panneau, Musée du Louvre
+  Portrait énigmatique de Lisa Gherardini, épouse de Francesco del Giocondo, célèbre pour son sourire et son sfumato.
+
+- **`[[La Cène]]`** (1495-1498) — Fresque, Santa Maria delle Grazie, Milan
+  Représentation du dernier repas du Christ, connue pour sa composition dynamique et sa perspective innovante.
+
+- **`[[L'Homme de Vitruve]]`** (1490) — Dessin, Accademia, Venise
+  Étude des proportions idéales du corps humain, symbole de la Renaissance.
+
+### Dessins et études
+- **`[[Études anatomiques]]`** (1510) — Carnets, Royal Collection, Londres
+  Croquis détaillés du corps humain, montrant son intérêt pour la science.
+
+- **`[[Machine volante]]`** (1485) — Carnets, Bibliothèque nationale, Paris
+  Projet d'une machine volante inspirée des oiseaux.
+
+---
+
+## Influences et héritage
+
+### Influences reçues
+- **`[[Verrocchio]]`** : Maître qui lui a enseigné les techniques artistiques.
+- **`[[Pline l'Ancien]]`** : Influence sur ses études anatomiques.
+
+### Influence exercée
+- **`[[Raphaël]]`** : A repris ses techniques de perspective et de composition.
+- **`[[Galilée]]`** : A été inspiré par ses études scientifiques.
+- **Postérité** : Considéré comme un génie universel, ses idées ont influencé l'art, la science et la technologie.
+
+---
+
+## Chronologie
+- **1452** : Naissance à Vinci, en Toscane.
+- **1469** : Entre à l'atelier de Verrocchio à Florence.
+- **1472** : Ouvre son propre atelier.
+- **1490** : Réalise *L'Homme de Vitruve*.
+- **1495-1498** : Peint *La Cène* à Milan.
+- **1503-1519** : Travaille sur *La Joconde*.
+- **1516** : S'installe en France, invité par François Ier.
+- **1519** : Mort au Clos Lucé, près d'Amboise.
+
+---
+
+**Illustration graphique** :
 ```tikz
-\usepackage{tikz}
 \begin{document}
 \begin{tikzpicture}[scale=1.5]
- % Triangle
- \draw[very thick] (0,0) -- (5,0) -- (3.20,2.40) -- cycle;
+  % Cercle de Vitruve
+  \draw (0,0) circle (2);
+  \draw (0,0) -- (2,0) -- (0,0) -- (0,2) -- (0,0) -- (-2,0) -- (0,0) -- (0,-2) -- (0,0);
+  \draw (0,0) -- (1.414,1.414) -- (0,0) -- (-1.414,1.414) -- (0,0) -- (-1.414,-1.414) -- (0,0) -- (1.414,-1.414) -- (0,0);
 
- % Points
- \fill (0,0) circle (0.05);
- \fill (5,0) circle (0.05);
- \fill (3.20,2.40) circle (0.05);
+  % Homme de Vitruve
+  \draw[thick] (0,0) circle (0.1);
+  \draw[thick] (0,0) -- (0,1.5);
+  \draw[thick] (0,0) -- (1.5,0);
+  \draw[thick] (0,0) -- (-1.5,0);
+  \draw[thick] (0,0) -- (0,-1.5);
+  \draw[thick] (0,1.5) -- (1.5,0);
+  \draw[thick] (0,1.5) -- (-1.5,0);
+  \draw[thick] (0,-1.5) -- (1.5,0);
+  \draw[thick] (0,-1.5) -- (-1.5,0);
 
- % Labels des sommets
- \node[below left] at (0,0) {$A$};
- \node[below right] at (5,0) {$B$};
- \node[above] at (3.20,2.40) {$C$};
-
- % Labels des côtés
- \node[below] at (2.5,0) {$c = 5$};
- \node[left] at (1.60,1.20) {$b = 4$};
- \node[right] at (4.10,1.20) {$a = 3$};
-
- % Angles avec valeurs en degrés
- \node[red, right, fill=white] at (0.5,0.2) {$\alpha = 36.9^\circ$};
- \node[red, left, fill=white] at (4.5,0.2) {$\beta = 53.1^\circ$};
- \node[red, below, fill=white] at (3.20,2.00) {$\gamma = 90.0^\circ$};
+  % Légende
+  \node at (0,2.5) {L'Homme de Vitruve};
+  \node at (0,-2.5) {Étude des proportions idéales};
 \end{tikzpicture}
 \end{document}
 ```
-
-================================================================================
-2️⃣ Triangle 5-12-13 (Triplet Pythagoricien - GRAND)
-================================================================================
-```tikz
-\usepackage{tikz}
-\begin{document}
-\begin{tikzpicture}[scale=0.5]
- % Triangle
- \draw[very thick] (0,0) -- (13,0) -- (11.08,4.62) -- cycle;
-
- % Points
- \fill (0,0) circle (0.05);
- \fill (13,0) circle (0.05);
- \fill (11.08,4.62) circle (0.05);
-
- % Labels des sommets
- \node[below left] at (0,0) {$A$};
- \node[below right] at (13,0) {$B$};
- \node[above] at (11.08,4.62) {$C$};
-
- % Labels des côtés
- \node[below] at (6.5,0) {$c = 13$};
- \node[left] at (5.54,2.31) {$b = 12$};
- \node[right] at (12.04,2.31) {$a = 5$};
-
- % Angles avec valeurs en degrés
- \node[red, right, fill=white] at (0.5,0.2) {$\alpha = 22.6^\circ$};
- \node[red, left, fill=white] at (12.5,0.2) {$\beta = 67.4^\circ$};
- \node[red, below, fill=white] at (11.08,4.22) {$\gamma = 90.0^\circ$};
-\end{tikzpicture}
-\end{document}
-```
-
-================================================================================
-3️⃣ Triangle 8-15-17 (Triplet Pythagoricien - TRÈS GRAND)
-================================================================================
-```tikz
-\usepackage{tikz}
-\begin{document}
-\begin{tikzpicture}[scale=0.5]
- % Triangle
- \draw[very thick] (0,0) -- (17,0) -- (13.24,7.06) -- cycle;
-
- % Points
- \fill (0,0) circle (0.05);
- \fill (17,0) circle (0.05);
- \fill (13.24,7.06) circle (0.05);
-
- % Labels des sommets
- \node[below left] at (0,0) {$A$};
- \node[below right] at (17,0) {$B$};
- \node[above] at (13.24,7.06) {$C$};
-
- % Labels des côtés
- \node[below] at (8.5,0) {$c = 17$};
- \node[left] at (6.62,3.53) {$b = 15$};
- \node[right] at (15.12,3.53) {$a = 8$};
-
- % Angles avec valeurs en degrés
- \node[red, right, fill=white] at (0.5,0.2) {$\alpha = 28.1^\circ$};
- \node[red, left, fill=white] at (16.5,0.2) {$\beta = 61.9^\circ$};
- \node[red, below, fill=white] at (13.24,6.66) {$\gamma = 90.0^\circ$};
-\end{tikzpicture}
-\end{document}
-```
-
-================================================================================
-4️⃣ Triangle 7-8-9 (Quelconque)
-================================================================================
-```tikz
-\usepackage{tikz}
-\begin{document}
-\begin{tikzpicture}[scale=0.8]
- % Triangle
- \draw[very thick] (0,0) -- (9,0) -- (5.33,5.96) -- cycle;
-
- % Points
- \fill (0,0) circle (0.05);
- \fill (9,0) circle (0.05);
- \fill (5.33,5.96) circle (0.05);
-
- % Labels des sommets
- \node[below left] at (0,0) {$A$};
- \node[below right] at (9,0) {$B$};
- \node[above] at (5.33,5.96) {$C$};
-
- % Labels des côtés
- \node[below] at (4.5,0) {$c = 9$};
- \node[left] at (2.67,2.98) {$b = 8$};
- \node[right] at (7.17,2.98) {$a = 7$};
-
- % Angles avec valeurs en degrés
- \node[red, right, fill=white] at (0.5,0.2) {$\alpha = 48.2^\circ$};
- \node[red, left, fill=white] at (8.5,0.2) {$\beta = 58.4^\circ$};
- \node[red, below, fill=white] at (5.33,5.56) {$\gamma = 73.4^\circ$};
-\end{tikzpicture}
-\end{document}
-```
-
- 
