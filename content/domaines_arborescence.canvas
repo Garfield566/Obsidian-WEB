@@ -161,19 +161,19 @@
 		{"id":"religion-judaisme","type":"text","text":"Judaïsme","x":-1900,"y":1050,"width":120,"height":40},
 		{"id":"religion-bouddhisme","type":"text","text":"Bouddhisme","x":-1750,"y":1050,"width":130,"height":40},
 		{"id":"religion-hindouisme","type":"text","text":"Hindouisme","x":-1900,"y":1150,"width":130,"height":40},
-		{"id":"mythologie-grecque","type":"text","text":"Grecque","x":-1650,"y":1050,"width":100,"height":40},
-		{"id":"mythologie-romaine","type":"text","text":"Romaine","x":-1520,"y":1050,"width":100,"height":40},
-		{"id":"mythologie-nordique","type":"text","text":"Nordique","x":-1390,"y":1050,"width":100,"height":40},
-		{"id":"mythologie-egyptienne","type":"text","text":"Égyptienne","x":-1260,"y":1050,"width":120,"height":40},
-		{"id":"mythologie-japonaise","type":"text","text":"Japonaise","x":-1520,"y":1150,"width":110,"height":40},
-		{"id":"mythologie-celtique","type":"text","text":"Celtique","x":-1390,"y":1150,"width":100,"height":40},
-		{"id":"mythologie","type":"text","text":"## Mythologie","x":-1500,"y":900,"width":180,"height":50,"color":"2"},
 		{"id":"53a16fbd3812ca8a","x":109,"y":950,"width":283,"height":85,"color":"6","type":"text","text":"## Livre"},
 		{"id":"d04a72f3b13ff7a4","type":"text","text":"## Evainement","x":-210,"y":1050,"width":260,"height":100,"color":"4"},
 		{"id":"b472f7987afe181e","type":"text","text":"## Lieux","x":-456,"y":1005,"width":206,"height":60,"color":"2"},
 		{"id":"011f28060ca8ec0a","type":"text","text":"## Perssonage","x":-730,"y":905,"width":240,"height":100,"color":"2"},
 		{"id":"e272d1951c0c0c5f","type":"text","text":"## Institution","x":-1000,"y":1035,"width":240,"height":100,"color":"1"},
-		{"id":"root","type":"text","text":"# DOMAINES","x":-20,"y":-400,"width":200,"height":60,"color":"1"}
+		{"id":"root","type":"text","text":"# DOMAINES","x":-20,"y":-400,"width":200,"height":60,"color":"1"},
+		{"id":"mythologie-romaine","type":"text","text":"Romaine","x":-1490,"y":1055,"width":100,"height":40},
+		{"id":"mythologie-japonaise","type":"text","text":"Japonaise","x":-1490,"y":1155,"width":110,"height":40},
+		{"id":"mythologie","type":"text","text":"## Mythologie","x":-1470,"y":905,"width":180,"height":50,"color":"2"},
+		{"id":"mythologie-nordique","type":"text","text":"Nordique","x":-1360,"y":1055,"width":100,"height":40},
+		{"id":"mythologie-celtique","type":"text","text":"Celtique","x":-1360,"y":1155,"width":100,"height":40},
+		{"id":"mythologie-egyptienne","type":"text","text":"Égyptienne","x":-1230,"y":1055,"width":120,"height":40},
+		{"id":"mythologie-grecque","type":"text","text":"Grecque","x":-1620,"y":1055,"width":100,"height":40}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"root","fromSide":"bottom","toNode":"anthropologie","toSide":"top"},
@@ -343,6 +343,11 @@
 		{"id":"e-myth-3","fromNode":"mythologie","fromSide":"bottom","toNode":"mythologie-nordique","toSide":"top"},
 		{"id":"e-myth-4","fromNode":"mythologie","fromSide":"bottom","toNode":"mythologie-egyptienne","toSide":"top"},
 		{"id":"e-myth-5","fromNode":"mythologie","fromSide":"bottom","toNode":"mythologie-japonaise","toSide":"top"},
-		{"id":"e-myth-6","fromNode":"mythologie","fromSide":"bottom","toNode":"mythologie-celtique","toSide":"top"}
+		{"id":"e-myth-6","fromNode":"mythologie","fromSide":"bottom","toNode":"mythologie-celtique","toSide":"top"},
+		{"id":"def9da35ced4c422","fromNode":"root","fromSide":"bottom","toNode":"e272d1951c0c0c5f","toSide":"top"},
+		{"id":"b65f379e894b062a","fromNode":"root","fromSide":"bottom","toNode":"011f28060ca8ec0a","toSide":"top"},
+		{"id":"3e14b27b00ed31eb","fromNode":"root","fromSide":"bottom","toNode":"b472f7987afe181e","toSide":"top"},
+		{"id":"0da28a69e83f2094","fromNode":"root","fromSide":"bottom","toNode":"d04a72f3b13ff7a4","toSide":"top"},
+		{"id":"69df0180b65af82a","fromNode":"root","fromSide":"bottom","toNode":"53a16fbd3812ca8a","toSide":"top"}
 	]
 }
