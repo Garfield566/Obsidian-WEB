@@ -15,7 +15,7 @@ sous_category: Ricardienne
 nationalité: "British "
 ---
 
-> [!infobox]
+> [!infobox] David Ricardo
 > # David Ricardo
 > ###### 1772–1823
 > ![[Pasted image 20250501184223.png]]
