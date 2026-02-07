@@ -93,72 +93,220 @@ export default ((userOpts?: CardGridOptions) => {
       return null
     }
 
-    return (
-      <div class="masonry-grid" style={`--columns: ${opts.columns}`}>
-        {list.map((page) => {
-          const title = page.frontmatter?.title ?? "Untitled"
-          const tags = page.frontmatter?.tags ?? []
-          const description = page.description ?? ""
-          const coverImage = getCoverImage(page.frontmatter, opts.imageProperties!)
-          const date = page.dates ? getDate(cfg, page) : undefined
+    // Collect all tags for filters
+    const tagCounts = new Map<string, number>()
+    list.forEach(page => {
+      const tags = page.frontmatter?.tags ?? []
+      tags.forEach((tag: string) => {
+        tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1)
+      })
+    })
+    // Sort tags by count (most used first), keep top 15
+    const topTags = Array.from(tagCounts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 15)
+      .map(([tag]) => tag)
 
-          return (
-            <a href={resolveRelative(fileData.slug!, page.slug!)} class="masonry-item internal">
-              {coverImage && (
-                <div class="masonry-cover">
-                  <img
-                    src={coverImage.startsWith("http") ? coverImage : resolveRelative(fileData.slug!, coverImage as FullSlug)}
-                    alt={title}
-                    loading="lazy"
-                  />
-                </div>
-              )}
-              <div class="masonry-content">
-                <h3 class="masonry-title">{title}</h3>
-                {opts.showDate && date && (
-                  <p class="masonry-date">
-                    <Date date={date} locale={cfg.locale} />
-                  </p>
-                )}
-                {opts.showDescription && description && (
-                  <p class="masonry-desc">{description}</p>
-                )}
-                {opts.showTags && tags.length > 0 && (
-                  <div class="masonry-tags">
-                    {tags.slice(0, 3).map((tag) => (
-                      <span class="masonry-tag">#{tag}</span>
-                    ))}
+    // Collect categories
+    const categoryCounts = new Map<string, number>()
+    list.forEach(page => {
+      const cat = page.frontmatter?.category as string | undefined
+      if (cat && typeof cat === "string") {
+        categoryCounts.set(cat, (categoryCounts.get(cat) || 0) + 1)
+      }
+    })
+    const categories = Array.from(categoryCounts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([cat]) => cat)
+
+    return (
+      <div class="masonry-container">
+        {/* Filter bar */}
+        <div class="masonry-filters">
+          <div class="masonry-filter-row">
+            <button class="masonry-filter-btn active" data-filter="all">
+              Tous <span class="masonry-filter-count">{list.length}</span>
+            </button>
+            {categories.map((cat) => (
+              <button class="masonry-filter-btn" data-filter={`cat:${cat}`}>
+                {cat} <span class="masonry-filter-count">{categoryCounts.get(cat)}</span>
+              </button>
+            ))}
+          </div>
+          {topTags.length > 0 && (
+            <div class="masonry-filter-row">
+              {topTags.map((tag) => (
+                <button class="masonry-filter-btn masonry-filter-tag" data-filter={`tag:${tag}`}>
+                  #{tag}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Grid */}
+        <div class="masonry-grid" style={`--columns: ${opts.columns}`}>
+          {list.map((page) => {
+            const title = page.frontmatter?.title ?? "Untitled"
+            const tags = page.frontmatter?.tags ?? []
+            const description = page.description ?? ""
+            const coverImage = getCoverImage(page.frontmatter, opts.imageProperties!)
+            const date = page.dates ? getDate(cfg, page) : undefined
+            const category = (page.frontmatter?.category as string) ?? ""
+
+            return (
+              <a
+                href={resolveRelative(fileData.slug!, page.slug!)}
+                class="masonry-item internal"
+                data-tags={tags.join(",")}
+                data-category={category}
+              >
+                {coverImage && (
+                  <div class="masonry-cover">
+                    <img
+                      src={coverImage.startsWith("http") ? coverImage : resolveRelative(fileData.slug!, coverImage as FullSlug)}
+                      alt={title}
+                      loading="lazy"
+                    />
                   </div>
                 )}
-              </div>
-            </a>
-          )
-        })}
+                <div class="masonry-content">
+                  <h3 class="masonry-title">{title}</h3>
+                  {opts.showDate && date && (
+                    <p class="masonry-date">
+                      <Date date={date} locale={cfg.locale} />
+                    </p>
+                  )}
+                  {opts.showDescription && description && (
+                    <p class="masonry-desc">{description}</p>
+                  )}
+                  {opts.showTags && tags.length > 0 && (
+                    <div class="masonry-tags">
+                      {tags.slice(0, 3).map((tag) => (
+                        <span class="masonry-tag">#{tag}</span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </a>
+            )
+          })}
+        </div>
       </div>
     )
   }
 
+  CardGrid.afterDOMLoaded = `
+document.addEventListener("nav", () => {
+  const container = document.querySelector(".masonry-container")
+  if (!container) return
+
+  const buttons = container.querySelectorAll(".masonry-filter-btn")
+  const items = container.querySelectorAll(".masonry-item")
+
+  buttons.forEach((btn) => {
+    const handleClick = () => {
+      // Toggle active
+      const wasActive = btn.classList.contains("active")
+      buttons.forEach((b) => b.classList.remove("active"))
+      if (!wasActive) {
+        btn.classList.add("active")
+      } else {
+        // If deselecting, show all
+        container.querySelector('[data-filter="all"]').classList.add("active")
+      }
+
+      const activeBtn = container.querySelector(".masonry-filter-btn.active")
+      const filter = activeBtn ? activeBtn.getAttribute("data-filter") : "all"
+
+      items.forEach((item) => {
+        if (filter === "all") {
+          item.style.display = ""
+          return
+        }
+        const tags = (item.getAttribute("data-tags") || "").split(",")
+        const category = item.getAttribute("data-category") || ""
+
+        if (filter.startsWith("tag:")) {
+          const tag = filter.slice(4)
+          item.style.display = tags.includes(tag) ? "" : "none"
+        } else if (filter.startsWith("cat:")) {
+          const cat = filter.slice(4)
+          item.style.display = category === cat ? "" : "none"
+        }
+      })
+    }
+    btn.addEventListener("click", handleClick)
+    window.addCleanup(() => btn.removeEventListener("click", handleClick))
+  })
+})
+`
+
   CardGrid.css = `
-/* Masonry Grid - Pinterest Style */
+/* Filter bar */
+.masonry-container {
+  margin-top: 2rem;
+}
+.masonry-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+  padding: 12px 16px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+}
+.masonry-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.masonry-filter-btn {
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid var(--lightgray);
+  border-radius: 20px;
+  cursor: pointer;
+  color: var(--darkgray);
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.masonry-filter-btn:hover {
+  background: var(--lightgray);
+  color: var(--dark);
+}
+.masonry-filter-btn.active {
+  background: var(--secondary);
+  color: var(--light);
+  border-color: var(--secondary);
+}
+.masonry-filter-tag {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+}
+.masonry-filter-count {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin-left: 4px;
+}
+
+/* Masonry Grid */
 .masonry-grid {
   column-count: var(--columns, 4);
   column-gap: 16px;
-  margin-top: 2rem;
 }
-
 @media (max-width: 1200px) {
   .masonry-grid { column-count: 3; }
 }
-
 @media (max-width: 900px) {
   .masonry-grid { column-count: 2; }
 }
-
 @media (max-width: 600px) {
   .masonry-grid { column-count: 2; column-gap: 10px; }
 }
-
-/* Card Item */
 .masonry-item {
   display: block;
   break-inside: avoid;
@@ -171,35 +319,30 @@ export default ((userOpts?: CardGridOptions) => {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
-
+.masonry-item[style*="display: none"] {
+  display: none !important;
+}
 .masonry-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
-
-/* Cover Image */
 .masonry-cover {
   width: 100%;
   overflow: hidden;
   background: var(--lightgray);
 }
-
 .masonry-cover img {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.3s ease;
 }
-
 .masonry-item:hover .masonry-cover img {
   transform: scale(1.05);
 }
-
-/* Content */
 .masonry-content {
   padding: 12px;
 }
-
 .masonry-title {
   margin: 0 0 6px 0;
   font-size: 0.95rem;
@@ -211,13 +354,11 @@ export default ((userOpts?: CardGridOptions) => {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 .masonry-date {
   margin: 0 0 6px 0;
   font-size: 0.75rem;
   color: var(--gray);
 }
-
 .masonry-desc {
   margin: 0 0 8px 0;
   font-size: 0.8rem;
@@ -228,13 +369,11 @@ export default ((userOpts?: CardGridOptions) => {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 .masonry-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
 }
-
 .masonry-tag {
   font-size: 0.7rem;
   padding: 2px 8px;
@@ -242,15 +381,16 @@ export default ((userOpts?: CardGridOptions) => {
   color: var(--secondary);
   border-radius: 12px;
 }
-
-/* Dark mode */
 :root[saved-theme="dark"] .masonry-item {
   background: var(--light);
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
-
 :root[saved-theme="dark"] .masonry-item:hover {
   box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+:root[saved-theme="dark"] .masonry-filters {
+  background: var(--light);
+  border-color: var(--lightgray);
 }
 `
 

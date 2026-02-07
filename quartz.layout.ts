@@ -12,7 +12,6 @@ export const sharedPageComponents: SharedLayout = {
         columns: 4,
         requireImage: true,
         showTags: true,
-        showDate: false,
         showDescription: true,
       }),
       condition: (page) => page.fileData.slug === "index",
