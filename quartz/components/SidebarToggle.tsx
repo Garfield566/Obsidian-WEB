@@ -1,10 +1,11 @@
+// @ts-ignore
+import sidebarToggleScript from "./scripts/sidebarToggle.inline"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const SidebarToggle: QuartzComponent = (_props: QuartzComponentProps) => {
   return (
     <button
       class="sidebar-toggle"
-      id="sidebar-toggle"
       aria-label="Toggle sidebar"
       title="Masquer/Afficher le panneau"
     >
@@ -27,6 +28,8 @@ const SidebarToggle: QuartzComponent = (_props: QuartzComponentProps) => {
   )
 }
 
+SidebarToggle.beforeDOMLoaded = sidebarToggleScript
+
 SidebarToggle.css = `
 .sidebar-toggle {
   display: flex;
@@ -41,6 +44,7 @@ SidebarToggle.css = `
   cursor: pointer;
   color: var(--darkgray);
   transition: all 0.2s ease;
+  flex-shrink: 0;
 }
 
 .sidebar-toggle:hover {
@@ -57,17 +61,18 @@ body.sidebar-hidden .sidebar-toggle-icon {
   transform: scaleX(-1);
 }
 
-body.sidebar-hidden .left {
+body.sidebar-hidden #quartz-body > .left {
   display: none !important;
 }
 
-body.sidebar-hidden .center {
-  grid-column: 1 / -1 !important;
-  max-width: 100% !important;
+body.sidebar-hidden .page {
+  display: block !important;
 }
 
-body.sidebar-hidden .page {
-  grid-template-columns: 1fr !important;
+body.sidebar-hidden .center {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
 }
 
 @media all and (max-width: 800px) {
@@ -75,25 +80,6 @@ body.sidebar-hidden .page {
     display: none;
   }
 }
-`
-
-SidebarToggle.afterDOMLoaded = `
-document.addEventListener("DOMContentLoaded", () => {
-  const toggleBtn = document.getElementById("sidebar-toggle");
-  if (!toggleBtn) return;
-
-  // Restore saved state
-  const savedState = localStorage.getItem("sidebar-hidden");
-  if (savedState === "true") {
-    document.body.classList.add("sidebar-hidden");
-  }
-
-  toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("sidebar-hidden");
-    const isHidden = document.body.classList.contains("sidebar-hidden");
-    localStorage.setItem("sidebar-hidden", isHidden.toString());
-  });
-});
 `
 
 export default (() => SidebarToggle) satisfies QuartzComponentConstructor

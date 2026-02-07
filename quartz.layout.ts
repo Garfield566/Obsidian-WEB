@@ -8,12 +8,13 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.ConditionalRender({
       component: Component.CardGrid({
-        limit: 24,
-        columns: 3,
-        requireImage: true,  // Only show notes with cover images
+        limit: 100,
+        columns: 4,
+        requireImage: true,
         showTags: true,
         showDate: false,
-        showDescription: true,
+        showDescription: false,
+        showFilters: true,
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
