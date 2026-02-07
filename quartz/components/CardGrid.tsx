@@ -103,9 +103,35 @@ export default ((userOpts?: CardGridOptions) => {
         }
       })
     })
-    const allTags = Array.from(tagCounts.entries())
+
+    // Collect folder names as filterable items
+    const folderCounts = new Map<string, number>()
+    list.forEach(page => {
+      const slug = page.slug ?? ""
+      const parts = slug.split("/")
+      // Extract each folder segment (skip the filename)
+      for (let i = 0; i < parts.length - 1; i++) {
+        let folder = decodeURIComponent(parts[i])
+        // Clean up folder names: remove leading numbers, emojis prefixes like "¹", "²", "⁰"
+        folder = folder.replace(/^[⁰¹²³⁴⁵⁶⁷⁸⁹\d]+[-\s]*/g, "").replace(/^[^\w\s]*\s*/g, "").trim()
+        if (folder && folder.length > 1) {
+          folderCounts.set(folder, (folderCounts.get(folder) || 0) + 1)
+        }
+      }
+    })
+
+    // Combine: folders first, then tags
+    const allFilters: { label: string; count: number; type: "folder" | "tag" }[] = []
+    Array.from(folderCounts.entries())
       .sort((a, b) => b[1] - a[1])
-      .map(([tag, count]) => ({ tag, count }))
+      .forEach(([folder, count]) => {
+        allFilters.push({ label: folder, count, type: "folder" })
+      })
+    Array.from(tagCounts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .forEach(([tag, count]) => {
+        allFilters.push({ label: tag, count, type: "tag" })
+      })
 
     return (
       <div class="masonry-container">
@@ -117,15 +143,17 @@ export default ((userOpts?: CardGridOptions) => {
               <input
                 type="text"
                 class="masonry-tag-input"
-                placeholder="Rechercher un tag..."
+                placeholder="Rechercher un tag ou dossier..."
                 autocomplete="off"
               />
               <button class="masonry-clear-btn" style="display:none" aria-label="Effacer">✕</button>
             </div>
             <div class="masonry-tag-dropdown" style="display:none">
-              {allTags.map(({ tag, count }) => (
-                <div class="masonry-tag-option" data-tag={tag}>
-                  <span class="masonry-tag-name">#{tag}</span>
+              {allFilters.map(({ label, count, type }) => (
+                <div class="masonry-tag-option" data-tag={label} data-type={type}>
+                  <span class="masonry-tag-name">
+                    {type === "folder" ? "\uD83D\uDCC1 " : "#"}{label}
+                  </span>
                   <span class="masonry-tag-count">{count}</span>
                 </div>
               ))}
@@ -145,14 +173,20 @@ export default ((userOpts?: CardGridOptions) => {
             const description = page.description ?? ""
             const coverImage = getCoverImage(page.frontmatter, opts.imageProperties!)
             const date = page.dates ? getDate(cfg, page) : undefined
-            const category = (page.frontmatter?.category as string) ?? ""
+            // Extract clean folder names from slug
+            const slugParts = (page.slug ?? "").split("/")
+            const folders = slugParts.slice(0, -1).map(p => {
+              let f = decodeURIComponent(p)
+              f = f.replace(/^[⁰¹²³⁴⁵⁶⁷⁸⁹\d]+[-\s]*/g, "").replace(/^[^\w\s]*\s*/g, "").trim()
+              return f
+            }).filter(f => f.length > 1)
 
             return (
               <a
                 href={resolveRelative(fileData.slug!, page.slug!)}
                 class="masonry-item internal"
                 data-tags={tags.join(",")}
-                data-category={category}
+                data-folders={folders.join(",")}
               >
                 {coverImage && (
                   <div class="masonry-cover">
@@ -204,36 +238,44 @@ document.addEventListener("nav", () => {
   const items = container.querySelectorAll(".masonry-item")
   if (!input || !dropdown) return
 
-  let selectedTag = null
+  let selectedFilter = null
+  let selectedType = null
 
-  function filterGrid(tag) {
+  function filterGrid(filter, type) {
     items.forEach((item) => {
-      if (!tag) {
+      if (!filter) {
         item.style.display = ""
         return
       }
-      const tags = (item.getAttribute("data-tags") || "").split(",")
-      item.style.display = tags.includes(tag) ? "" : "none"
+      if (type === "tag") {
+        const tags = (item.getAttribute("data-tags") || "").split(",")
+        item.style.display = tags.includes(filter) ? "" : "none"
+      } else if (type === "folder") {
+        const folders = (item.getAttribute("data-folders") || "").split(",")
+        item.style.display = folders.includes(filter) ? "" : "none"
+      }
     })
   }
 
-  function selectTag(tag) {
-    selectedTag = tag
+  function selectTag(filter, type) {
+    selectedFilter = filter
+    selectedType = type
     input.value = ""
     dropdown.style.display = "none"
     clearBtn.style.display = "none"
     activeTagEl.style.display = "flex"
-    activeTagLabel.textContent = "#" + tag
-    filterGrid(tag)
+    activeTagLabel.textContent = (type === "folder" ? "\uD83D\uDCC1 " : "#") + filter
+    filterGrid(filter, type)
   }
 
   function clearTag() {
-    selectedTag = null
+    selectedFilter = null
+    selectedType = null
     input.value = ""
     dropdown.style.display = "none"
     clearBtn.style.display = "none"
     activeTagEl.style.display = "none"
-    filterGrid(null)
+    filterGrid(null, null)
   }
 
   function handleInput() {
@@ -273,7 +315,7 @@ document.addEventListener("nav", () => {
 
   options.forEach((opt) => {
     const handleClick = () => {
-      selectTag(opt.getAttribute("data-tag"))
+      selectTag(opt.getAttribute("data-tag"), opt.getAttribute("data-type") || "tag")
     }
     opt.addEventListener("click", handleClick)
     window.addCleanup(() => opt.removeEventListener("click", handleClick))
