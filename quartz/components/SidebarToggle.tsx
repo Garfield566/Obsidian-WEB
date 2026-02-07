@@ -28,7 +28,7 @@ const SidebarToggle: QuartzComponent = (_props: QuartzComponentProps) => {
   )
 }
 
-SidebarToggle.beforeDOMLoaded = sidebarToggleScript
+SidebarToggle.afterDOMLoaded = sidebarToggleScript
 
 SidebarToggle.css = `
 .sidebar-toggle {
@@ -56,23 +56,33 @@ SidebarToggle.css = `
   transition: transform 0.2s ease;
 }
 
-/* When sidebar is hidden */
+/* When sidebar is hidden - keep button visible */
+body.sidebar-hidden .sidebar-toggle {
+  position: fixed !important;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
 body.sidebar-hidden .sidebar-toggle-icon {
   transform: scaleX(-1);
 }
 
-body.sidebar-hidden #quartz-body > .left {
+body.sidebar-hidden .left {
   display: none !important;
 }
 
 body.sidebar-hidden .page {
-  display: block !important;
+  grid-template-columns: 1fr !important;
 }
 
 body.sidebar-hidden .center {
   margin-left: auto;
   margin-right: auto;
-  max-width: 900px;
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media all and (max-width: 800px) {
