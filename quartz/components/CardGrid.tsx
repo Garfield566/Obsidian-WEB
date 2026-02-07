@@ -3,9 +3,6 @@ import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
-import style from "./styles/cardGrid.scss"
-// @ts-ignore
-import script from "./scripts/cardGrid.inline"
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
@@ -30,32 +27,22 @@ interface CardGridOptions {
   showTags?: boolean
   showDate?: boolean
   showDescription?: boolean
-  columns?: 2 | 3 | 4 | 5
-  /** Folders to show as filter buttons */
-  filterFolders?: string[]
-  /** Folders to exclude (e.g., [".obsidian", ".trash"]) */
+  columns?: number
   excludeFolders?: string[]
-  /** Frontmatter properties to search for cover image (first found wins) */
   imageProperties?: string[]
-  /** Only show files that have a cover image */
   requireImage?: boolean
-  /** Show filter header */
-  showFilters?: boolean
 }
 
 const defaultOptions: CardGridOptions = {
   showTags: true,
   showDate: false,
-  showDescription: false,
+  showDescription: true,
   columns: 4,
-  filterFolders: [],
   excludeFolders: [".obsidian", ".trash", "templates", "private", "emergent-tags"],
   imageProperties: ["cover", "image", "banner", "thumbnail", "poster"],
-  requireImage: false,
-  showFilters: true,
+  requireImage: true,
 }
 
-// Helper to get cover image from multiple possible properties
 function getCoverImage(frontmatter: Record<string, unknown> | undefined, properties: string[]): string | undefined {
   if (!frontmatter) return undefined
   for (const prop of properties) {
@@ -67,7 +54,6 @@ function getCoverImage(frontmatter: Record<string, unknown> | undefined, propert
   return undefined
 }
 
-// Helper to check if slug is in excluded folders
 function isExcluded(slug: string, excludeFolders: string[]): boolean {
   return excludeFolders.some(folder => {
     const normalizedFolder = folder.toLowerCase()
@@ -76,20 +62,6 @@ function isExcluded(slug: string, excludeFolders: string[]): boolean {
            normalizedSlug.includes("/" + normalizedFolder + "/") ||
            normalizedSlug === normalizedFolder
   })
-}
-
-// Get the top-level folder from a slug
-function getTopFolder(slug: string): string {
-  const parts = slug.split("/")
-  return parts.length > 1 ? parts[0] : ""
-}
-
-// Clean folder name for display
-function cleanFolderName(name: string): string {
-  return name
-    .replace(/[²¹⁰]/g, "")
-    .replace(/[👹🧭♟👺📈⚙️🖼📚💡🎯]/g, "")
-    .trim()
 }
 
 export default ((userOpts?: CardGridOptions) => {
@@ -102,13 +74,9 @@ export default ((userOpts?: CardGridOptions) => {
     let list = allFiles
       .filter((file) => {
         const slug = file.slug ?? ""
-        // Exclude current page
         if (slug === fileData.slug) return false
-        // Exclude index files
         if (slug.endsWith("/index") || slug === "index") return false
-        // Exclude folders in excludeFolders
         if (isExcluded(slug, opts.excludeFolders!)) return false
-        // Filter by image requirement
         if (opts.requireImage) {
           const cover = getCoverImage(file.frontmatter, opts.imageProperties!)
           if (!cover) return false
@@ -125,84 +93,166 @@ export default ((userOpts?: CardGridOptions) => {
       return null
     }
 
-    // Get unique folders for filters
-    const folders = new Set<string>()
-    list.forEach(file => {
-      const folder = getTopFolder(file.slug ?? "")
-      if (folder) folders.add(folder)
-    })
-    const folderList = opts.filterFolders!.length > 0
-      ? opts.filterFolders!
-      : Array.from(folders).sort()
-
     return (
-      <div class="card-grid-container">
-        {opts.showFilters && folderList.length > 1 && (
-          <div class="card-grid-header">
-            <div class="card-grid-filters">
-              <button class="filter-btn active" data-folder="all">Tous</button>
-              {folderList.map((folder) => (
-                <button class="filter-btn" data-folder={folder}>
-                  {cleanFolderName(folder)}
-                </button>
-              ))}
-            </div>
-            <span class="card-grid-count">{list.length} notes</span>
-          </div>
-        )}
-        <div class={`card-grid columns-${opts.columns}`}>
-          {list.map((page) => {
-            const title = page.frontmatter?.title ?? "Untitled"
-            const tags = page.frontmatter?.tags ?? []
-            const description = page.description ?? ""
-            const coverImage = getCoverImage(page.frontmatter, opts.imageProperties!)
-            const date = page.dates ? getDate(cfg, page) : undefined
-            const folder = getTopFolder(page.slug ?? "")
+      <div class="masonry-grid" style={`--columns: ${opts.columns}`}>
+        {list.map((page) => {
+          const title = page.frontmatter?.title ?? "Untitled"
+          const tags = page.frontmatter?.tags ?? []
+          const description = page.description ?? ""
+          const coverImage = getCoverImage(page.frontmatter, opts.imageProperties!)
+          const date = page.dates ? getDate(cfg, page) : undefined
 
-            return (
-              <a
-                href={resolveRelative(fileData.slug!, page.slug!)}
-                class="card-link internal"
-                data-folder={folder}
-              >
-                <article class={`card ${coverImage ? "has-cover" : "no-cover"}`}>
-                  {coverImage && (
-                    <div class="card-cover">
-                      <img
-                        src={coverImage.startsWith("http") ? coverImage : resolveRelative(fileData.slug!, coverImage as FullSlug)}
-                        alt={title}
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                  <div class="card-content">
-                    <h3 class="card-title">{title}</h3>
-                    {opts.showDate && date && (
-                      <p class="card-date">
-                        <Date date={date} locale={cfg.locale} />
-                      </p>
-                    )}
-                    {opts.showDescription && description && (
-                      <p class="card-description">{description}</p>
-                    )}
-                    {opts.showTags && tags.length > 0 && (
-                      <ul class="card-tags">
-                        {tags.slice(0, 3).map((tag) => (
-                          <li class="card-tag">#{tag}</li>
-                        ))}
-                      </ul>
-                    )}
+          return (
+            <a href={resolveRelative(fileData.slug!, page.slug!)} class="masonry-item internal">
+              {coverImage && (
+                <div class="masonry-cover">
+                  <img
+                    src={coverImage.startsWith("http") ? coverImage : resolveRelative(fileData.slug!, coverImage as FullSlug)}
+                    alt={title}
+                    loading="lazy"
+                  />
+                </div>
+              )}
+              <div class="masonry-content">
+                <h3 class="masonry-title">{title}</h3>
+                {opts.showDate && date && (
+                  <p class="masonry-date">
+                    <Date date={date} locale={cfg.locale} />
+                  </p>
+                )}
+                {opts.showDescription && description && (
+                  <p class="masonry-desc">{description}</p>
+                )}
+                {opts.showTags && tags.length > 0 && (
+                  <div class="masonry-tags">
+                    {tags.slice(0, 3).map((tag) => (
+                      <span class="masonry-tag">#{tag}</span>
+                    ))}
                   </div>
-                </article>
-              </a>
-            )
-          })}
-        </div>
+                )}
+              </div>
+            </a>
+          )
+        })}
       </div>
     )
   }
 
-  CardGrid.css = style
-  CardGrid.afterDOMLoaded = script
+  CardGrid.css = `
+/* Masonry Grid - Pinterest Style */
+.masonry-grid {
+  column-count: var(--columns, 4);
+  column-gap: 16px;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .masonry-grid { column-count: 3; }
+}
+
+@media (max-width: 900px) {
+  .masonry-grid { column-count: 2; }
+}
+
+@media (max-width: 600px) {
+  .masonry-grid { column-count: 2; column-gap: 10px; }
+}
+
+/* Card Item */
+.masonry-item {
+  display: block;
+  break-inside: avoid;
+  margin-bottom: 16px;
+  background: var(--light);
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.masonry-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Cover Image */
+.masonry-cover {
+  width: 100%;
+  overflow: hidden;
+  background: var(--lightgray);
+}
+
+.masonry-cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.masonry-item:hover .masonry-cover img {
+  transform: scale(1.05);
+}
+
+/* Content */
+.masonry-content {
+  padding: 12px;
+}
+
+.masonry-title {
+  margin: 0 0 6px 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--dark);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.masonry-date {
+  margin: 0 0 6px 0;
+  font-size: 0.75rem;
+  color: var(--gray);
+}
+
+.masonry-desc {
+  margin: 0 0 8px 0;
+  font-size: 0.8rem;
+  color: var(--darkgray);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.masonry-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.masonry-tag {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  background: var(--highlight);
+  color: var(--secondary);
+  border-radius: 12px;
+}
+
+/* Dark mode */
+:root[saved-theme="dark"] .masonry-item {
+  background: var(--light);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+:root[saved-theme="dark"] .masonry-item:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+`
+
   return CardGrid
 }) satisfies QuartzComponentConstructor

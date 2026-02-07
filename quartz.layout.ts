@@ -8,13 +8,12 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.ConditionalRender({
       component: Component.CardGrid({
-        limit: 100,
+        limit: 50,
         columns: 4,
         requireImage: true,
         showTags: true,
         showDate: false,
-        showDescription: false,
-        showFilters: true,
+        showDescription: true,
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
@@ -49,7 +48,6 @@ export const defaultContentPageLayout: PageLayout = {
         },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
-        { Component: Component.SidebarToggle() },
       ],
     }),
     Component.Explorer(),
@@ -74,7 +72,6 @@ export const defaultListPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.SidebarToggle() },
       ],
     }),
     Component.Explorer(),
