@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"1d22a96ff15cc31f","type":"group","x":-640,"y":200,"width":925,"height":780,"color":"#2d8647","label":"Chapitre DEUX: Espaces vectoriels réels"},
+		{"id":"1d22a96ff15cc31f","type":"group","x":-640,"y":200,"width":925,"height":920,"color":"#2d8647","label":"Chapitre DEUX: Espaces vectoriels réels"},
 		{"id":"4e56a271ae44edf3","type":"text","text":"Méthode de Gauss \"matrice\"","x":-129,"y":-247,"width":250,"height":60},
 		{"id":"55278ab979a6283b","type":"text","text":"$$\n\\begin{pmatrix}  \\\\\n1&1&1&6\\\\  \\\\\n2&3&1&10\\\\  \\\\\n1&4&3&15\\\\ \\end{pmatrix}\n$$","x":-460,"y":-120,"width":250,"height":192},
 		{"id":"82a0cada3b3e1487","type":"text","text":"$$\n\\begin{pmatrix}  \\\\\n1&1&1&6\\\\  \\\\\n0&1&-1&-2\\\\  \\\\\n0&0&5&15\\\\ \\end{pmatrix}\n$$","x":160,"y":-126,"width":250,"height":198},
@@ -8,10 +8,11 @@
 		{"id":"2da75297bba70ecf","x":-456,"y":521,"width":250,"height":60,"type":"text","text":"cmbinaisont linéaire"},
 		{"id":"15de8aba4f4763a8","x":-196,"y":260,"width":416,"height":160,"color":"6","type":"text","text":"### Vecteur combinaison linéaire de deux autre: \non doit résoudre le système ![{\\displaystyle {\\vec {v}}=2\\times {\\vec {u}}_{1}+1.5\\times {\\vec {u}}_{2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/87bb9e9e3f2abdce140ef9439b4469ae98a724fc)"},
 		{"id":"b043e4125f526ed4","x":-188,"y":464,"width":408,"height":216,"type":"text","text":"### Familles libres ou linéairement indépendantes :\n**si la seule combinaison linéaire de ces vecteurs qui soit égale au vecteur nul est celle dont tous les coefficients sont nuls**. "},
-		{"id":"86259d6d0af5af8a","x":-190,"y":700,"width":404,"height":209,"color":"6","type":"text","text":"Une famille est libre si et seulement si le seul vecteur combinaison linéaire des vecteurs de cette famille avec des coefficients nuls est le vexteur nul.\n\nUne famille de vecteurs est libre si aucun vecteur de cette famille ne peut s'écrit comme combinaison linéaire des autre."},
-		{"id":"3f20fbd051ddd144","x":-603,"y":664,"width":250,"height":196,"type":"text","text":"$$ \\left \\{\n\\begin{array}{rcl}\n+&=&c \\\\\na'x+b'y&=&c'\n\\end{array}\n\\right.  $$"}
+		{"id":"86259d6d0af5af8a","x":-190,"y":700,"width":404,"height":280,"color":"6","type":"text","text":"Une famille est libre si et seulement si le seul vecteur combinaison linéaire des vecteurs de cette famille avec des coefficients nuls est le vexteur nul.\n\nUne famille de vecteurs est libre si aucun vecteur de cette famille ne peut s'écrit comme combinaison linéaire des autre.\n\n$$ \\left \\{\n\\begin{array}{rcl}\n\\alpha+\\beta+\\gamma =0 \\\\\n-\\alpha+\\beta+ =0 \\\\ \n\\alpha+\\gamma =0 \n\\end{array}\n\\right.  $$"},
+		{"id":"9218da6176967c14","x":-480,"y":980,"width":250,"height":84,"color":"6","type":"text","text":"Toute sous famille d'une famille libre est libre. "}
 	],
 	"edges":[
-		{"id":"190ffb9a59783854","fromNode":"55278ab979a6283b","fromSide":"right","toNode":"82a0cada3b3e1487","toSide":"left"}
+		{"id":"190ffb9a59783854","fromNode":"55278ab979a6283b","fromSide":"right","toNode":"82a0cada3b3e1487","toSide":"left"},
+		{"id":"94a422658ad7ec64","fromNode":"86259d6d0af5af8a","fromSide":"left","toNode":"9218da6176967c14","toSide":"top"}
 	]
 }
