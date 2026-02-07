@@ -93,55 +93,48 @@ export default ((userOpts?: CardGridOptions) => {
       return null
     }
 
-    // Collect all tags for filters
+    // Collect all tags for the search input
     const tagCounts = new Map<string, number>()
     list.forEach(page => {
       const tags = page.frontmatter?.tags ?? []
       tags.forEach((tag: string) => {
-        tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1)
+        if (tag && tag.trim() !== "") {
+          tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1)
+        }
       })
     })
-    // Sort tags by count (most used first), keep top 15
-    const topTags = Array.from(tagCounts.entries())
+    const allTags = Array.from(tagCounts.entries())
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 15)
-      .map(([tag]) => tag)
-
-    // Collect categories
-    const categoryCounts = new Map<string, number>()
-    list.forEach(page => {
-      const cat = page.frontmatter?.category as string | undefined
-      if (cat && typeof cat === "string") {
-        categoryCounts.set(cat, (categoryCounts.get(cat) || 0) + 1)
-      }
-    })
-    const categories = Array.from(categoryCounts.entries())
-      .sort((a, b) => b[1] - a[1])
-      .map(([cat]) => cat)
+      .map(([tag, count]) => ({ tag, count }))
 
     return (
       <div class="masonry-container">
-        {/* Filter bar */}
+        {/* Tag search bar */}
         <div class="masonry-filters">
-          <div class="masonry-filter-row">
-            <button class="masonry-filter-btn active" data-filter="all">
-              Tous <span class="masonry-filter-count">{list.length}</span>
-            </button>
-            {categories.map((cat) => (
-              <button class="masonry-filter-btn" data-filter={`cat:${cat}`}>
-                {cat} <span class="masonry-filter-count">{categoryCounts.get(cat)}</span>
-              </button>
-            ))}
-          </div>
-          {topTags.length > 0 && (
-            <div class="masonry-filter-row">
-              {topTags.map((tag) => (
-                <button class="masonry-filter-btn masonry-filter-tag" data-filter={`tag:${tag}`}>
-                  #{tag}
-                </button>
+          <div class="masonry-tag-search">
+            <div class="masonry-search-wrapper">
+              <svg class="masonry-search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input
+                type="text"
+                class="masonry-tag-input"
+                placeholder="Rechercher un tag..."
+                autocomplete="off"
+              />
+              <button class="masonry-clear-btn" style="display:none" aria-label="Effacer">✕</button>
+            </div>
+            <div class="masonry-tag-dropdown" style="display:none">
+              {allTags.map(({ tag, count }) => (
+                <div class="masonry-tag-option" data-tag={tag}>
+                  <span class="masonry-tag-name">#{tag}</span>
+                  <span class="masonry-tag-count">{count}</span>
+                </div>
               ))}
             </div>
-          )}
+          </div>
+          <div class="masonry-active-tag" style="display:none">
+            <span class="masonry-active-tag-label"></span>
+            <button class="masonry-remove-tag" aria-label="Retirer le filtre">✕</button>
+          </div>
         </div>
 
         {/* Grid */}
@@ -201,43 +194,104 @@ document.addEventListener("nav", () => {
   const container = document.querySelector(".masonry-container")
   if (!container) return
 
-  const buttons = container.querySelectorAll(".masonry-filter-btn")
+  const input = container.querySelector(".masonry-tag-input")
+  const dropdown = container.querySelector(".masonry-tag-dropdown")
+  const clearBtn = container.querySelector(".masonry-clear-btn")
+  const activeTagEl = container.querySelector(".masonry-active-tag")
+  const activeTagLabel = container.querySelector(".masonry-active-tag-label")
+  const removeTagBtn = container.querySelector(".masonry-remove-tag")
+  const options = container.querySelectorAll(".masonry-tag-option")
   const items = container.querySelectorAll(".masonry-item")
+  if (!input || !dropdown) return
 
-  buttons.forEach((btn) => {
-    const handleClick = () => {
-      // Toggle active
-      const wasActive = btn.classList.contains("active")
-      buttons.forEach((b) => b.classList.remove("active"))
-      if (!wasActive) {
-        btn.classList.add("active")
-      } else {
-        // If deselecting, show all
-        container.querySelector('[data-filter="all"]').classList.add("active")
+  let selectedTag = null
+
+  function filterGrid(tag) {
+    items.forEach((item) => {
+      if (!tag) {
+        item.style.display = ""
+        return
       }
+      const tags = (item.getAttribute("data-tags") || "").split(",")
+      item.style.display = tags.includes(tag) ? "" : "none"
+    })
+  }
 
-      const activeBtn = container.querySelector(".masonry-filter-btn.active")
-      const filter = activeBtn ? activeBtn.getAttribute("data-filter") : "all"
+  function selectTag(tag) {
+    selectedTag = tag
+    input.value = ""
+    dropdown.style.display = "none"
+    clearBtn.style.display = "none"
+    activeTagEl.style.display = "flex"
+    activeTagLabel.textContent = "#" + tag
+    filterGrid(tag)
+  }
 
-      items.forEach((item) => {
-        if (filter === "all") {
-          item.style.display = ""
-          return
-        }
-        const tags = (item.getAttribute("data-tags") || "").split(",")
-        const category = item.getAttribute("data-category") || ""
+  function clearTag() {
+    selectedTag = null
+    input.value = ""
+    dropdown.style.display = "none"
+    clearBtn.style.display = "none"
+    activeTagEl.style.display = "none"
+    filterGrid(null)
+  }
 
-        if (filter.startsWith("tag:")) {
-          const tag = filter.slice(4)
-          item.style.display = tags.includes(tag) ? "" : "none"
-        } else if (filter.startsWith("cat:")) {
-          const cat = filter.slice(4)
-          item.style.display = category === cat ? "" : "none"
-        }
-      })
+  function handleInput() {
+    const query = input.value.toLowerCase().trim()
+    clearBtn.style.display = query ? "flex" : "none"
+    if (!query) {
+      dropdown.style.display = "none"
+      return
     }
-    btn.addEventListener("click", handleClick)
-    window.addCleanup(() => btn.removeEventListener("click", handleClick))
+    let hasMatch = false
+    options.forEach((opt) => {
+      const tag = opt.getAttribute("data-tag").toLowerCase()
+      if (tag.includes(query)) {
+        opt.style.display = "flex"
+        hasMatch = true
+      } else {
+        opt.style.display = "none"
+      }
+    })
+    dropdown.style.display = hasMatch ? "block" : "none"
+  }
+
+  function handleClear() {
+    input.value = ""
+    dropdown.style.display = "none"
+    clearBtn.style.display = "none"
+    input.focus()
+  }
+
+  input.addEventListener("input", handleInput)
+  input.addEventListener("focus", () => {
+    if (input.value.trim()) handleInput()
+  })
+
+  clearBtn.addEventListener("click", handleClear)
+  removeTagBtn.addEventListener("click", clearTag)
+
+  options.forEach((opt) => {
+    const handleClick = () => {
+      selectTag(opt.getAttribute("data-tag"))
+    }
+    opt.addEventListener("click", handleClick)
+    window.addCleanup(() => opt.removeEventListener("click", handleClick))
+  })
+
+  // Close dropdown on outside click
+  function handleOutside(e) {
+    if (!container.querySelector(".masonry-tag-search").contains(e.target)) {
+      dropdown.style.display = "none"
+    }
+  }
+  document.addEventListener("click", handleOutside)
+
+  window.addCleanup(() => {
+    input.removeEventListener("input", handleInput)
+    clearBtn.removeEventListener("click", handleClear)
+    removeTagBtn.removeEventListener("click", clearTag)
+    document.removeEventListener("click", handleOutside)
   })
 })
 `
@@ -252,45 +306,118 @@ document.addEventListener("nav", () => {
   flex-direction: column;
   gap: 8px;
   margin-bottom: 1.5rem;
-  padding: 12px 16px;
-  background: var(--light);
-  border: 1px solid var(--lightgray);
-  border-radius: 12px;
 }
-.masonry-filter-row {
+/* Tag search */
+.masonry-tag-search {
+  position: relative;
+}
+.masonry-search-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
   align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: var(--light);
+  border: 2px solid var(--lightgray);
+  border-radius: 10px;
+  transition: border-color 0.2s ease;
 }
-.masonry-filter-btn {
-  padding: 6px 14px;
-  font-size: 0.8rem;
-  background: transparent;
-  border: 1px solid var(--lightgray);
-  border-radius: 20px;
-  cursor: pointer;
-  color: var(--darkgray);
-  transition: all 0.15s ease;
-  white-space: nowrap;
-}
-.masonry-filter-btn:hover {
-  background: var(--lightgray);
-  color: var(--dark);
-}
-.masonry-filter-btn.active {
-  background: var(--secondary);
-  color: var(--light);
+.masonry-search-wrapper:focus-within {
   border-color: var(--secondary);
 }
-.masonry-filter-tag {
-  font-size: 0.75rem;
-  padding: 4px 10px;
+.masonry-search-icon {
+  flex-shrink: 0;
+  color: var(--gray);
 }
-.masonry-filter-count {
-  font-size: 0.7rem;
-  opacity: 0.7;
-  margin-left: 4px;
+.masonry-tag-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.9rem;
+  color: var(--dark);
+  font-family: var(--bodyFont);
+}
+.masonry-tag-input::placeholder {
+  color: var(--gray);
+}
+.masonry-clear-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--gray);
+  font-size: 0.9rem;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.masonry-clear-btn:hover {
+  color: var(--dark);
+  background: var(--lightgray);
+}
+/* Dropdown */
+.masonry-tag-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 100;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.masonry-tag-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.1s ease;
+}
+.masonry-tag-option:hover {
+  background: var(--lightgray);
+}
+.masonry-tag-name {
+  font-size: 0.85rem;
+  color: var(--dark);
+}
+.masonry-tag-count {
+  font-size: 0.75rem;
+  color: var(--gray);
+  background: var(--lightgray);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+/* Active tag pill */
+.masonry-active-tag {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: var(--secondary);
+  color: var(--light);
+  border-radius: 20px;
+  width: fit-content;
+  font-size: 0.85rem;
+}
+.masonry-active-tag-label {
+  font-weight: 600;
+}
+.masonry-remove-tag {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--light);
+  font-size: 0.85rem;
+  padding: 0 2px;
+  opacity: 0.8;
+}
+.masonry-remove-tag:hover {
+  opacity: 1;
 }
 
 /* Masonry Grid */
@@ -388,9 +515,14 @@ document.addEventListener("nav", () => {
 :root[saved-theme="dark"] .masonry-item:hover {
   box-shadow: 0 8px 25px rgba(0,0,0,0.4);
 }
-:root[saved-theme="dark"] .masonry-filters {
+:root[saved-theme="dark"] .masonry-search-wrapper {
   background: var(--light);
   border-color: var(--lightgray);
+}
+:root[saved-theme="dark"] .masonry-tag-dropdown {
+  background: var(--light);
+  border-color: var(--lightgray);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
 }
 `
 
