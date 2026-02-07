@@ -1,12 +1,13 @@
 {
 	"nodes":[
 		{"id":"1d22a96ff15cc31f","type":"group","x":-640,"y":200,"width":925,"height":705,"color":"#2d8647","label":"Chapitre DEUX: Espaces vectoriels réels"},
+		{"id":"b043e4125f526ed4","x":-188,"y":464,"width":250,"height":60,"type":"text","text":""},
 		{"id":"4e56a271ae44edf3","type":"text","text":"Méthode de Gauss \"matrice\"","x":-129,"y":-247,"width":250,"height":60},
 		{"id":"55278ab979a6283b","type":"text","text":"$$\n\\begin{pmatrix}  \\\\\n1&1&1&6\\\\  \\\\\n2&3&1&10\\\\  \\\\\n1&4&3&15\\\\ \\end{pmatrix}\n$$","x":-460,"y":-120,"width":250,"height":192},
 		{"id":"82a0cada3b3e1487","type":"text","text":"$$\n\\begin{pmatrix}  \\\\\n1&1&1&6\\\\  \\\\\n0&1&-1&-2\\\\  \\\\\n0&0&5&15\\\\ \\end{pmatrix}\n$$","x":160,"y":-126,"width":250,"height":198},
 		{"id":"168af3d9601228ed","type":"text","text":"Le but de la méthode de Gauss est de simplifier un système par c'est règle d'égalité.   ","x":-160,"y":-160,"width":250,"height":133,"color":"6"},
 		{"id":"2da75297bba70ecf","x":-456,"y":521,"width":250,"height":60,"type":"text","text":"cmbinaisont linéaire"},
-		{"id":"15de8aba4f4763a8","x":-196,"y":375,"width":250,"height":125,"type":"text","text":"### Vecteur combinaison linéaire de deux autre: \non doit résoudre le système $alpha $ "}
+		{"id":"15de8aba4f4763a8","x":-196,"y":260,"width":416,"height":160,"color":"6","type":"text","text":"### Vecteur combinaison linéaire de deux autre: \non doit résoudre le système ![{\\displaystyle {\\vec {v}}=2\\times {\\vec {u}}_{1}+1.5\\times {\\vec {u}}_{2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/87bb9e9e3f2abdce140ef9439b4469ae98a724fc)"}
 	],
 	"edges":[
 		{"id":"190ffb9a59783854","fromNode":"55278ab979a6283b","fromSide":"right","toNode":"82a0cada3b3e1487","toSide":"left"}

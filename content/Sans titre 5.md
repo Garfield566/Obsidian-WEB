@@ -1,99 +1,67 @@
-# Léonard de Vinci
+# Napoléon Bonaparte
 
 > [!Infobox]
-> {{label}}
-> ![[{{image}}]]
->- {{clé}}: {{valeur}}
-
-
-
----
+> Napoléon Bonaparte
+> ![[Pasted image 20260207094255.png|300]]
+> - **Dates** : 15 août 1769 - 5 mai 1821
+> - **Grade** : Empereur des Français
+> - **Nationalité** : Française
+> - **Allégeance** : République française puis Empire français
+> - **Conflits** : Guerres révolutionnaires, Guerres napoléoniennes
+> - **Batailles** : Austerlitz, Iéna, Wagram
 
 ## Biographie
 
-Léonard de Vinci naît le 15 avril 1452 à Vinci, en Toscane, dans une famille d'artisans. Son père, notaire, et sa mère, paysanne, ne se marient pas, mais il grandit dans un environnement stimulant. Dès son plus jeune âge, il montre un talent exceptionnel pour le dessin, ce qui le conduit à l'atelier de Verrocchio à Florence, où il apprend la peinture, la sculpture et les techniques artistiques.
+Né le 15 août 1769 en Corse, Napoléon Bonaparte grandit dans une famille noble mais modeste. Formé à l'École militaire de Brienne, il s'engage dans l'armée française au début de la Révolution. Son ascension fulgurante commence en 1793 lors du siège de Toulon, où il se distingue par son génie tactique. Nommé général à 24 ans, il mène ensuite la campagne d'Italie (1796-1797), qui fait de lui une figure nationale. Son coup d'État du 18 Brumaire (1799) le porte au pouvoir, puis il se couronne empereur en 1804. Son règne est marqué par des réformes administratives (Code civil) et une expansion militaire sans précédent en Europe. Défait à Waterloo en 1815, il est exilé à Sainte-Hélène où il meurt en 1821.
 
-En 1472, il ouvre son propre atelier et commence à travailler sur des commandes prestigieuses, comme *L'Annonciation* (1472-1475). Ses voyages en Italie du Nord et en France, où il est invité par François Ier, marquent des tournants dans sa carrière. Il meurt le 2 mai 1519 au Clos Lucé, près d'Amboise, laissant derrière lui des œuvres inachevées et des carnets remplis de croquis et d'idées révolutionnaires.
+## Campagnes et batailles
 
----
+> [!war] **Guerres révolutionnaires (1792-1802)**
+> Contexte : Conflits entre la France révolutionnaire et les monarchies européennes
+> Rôle : Général puis commandant en chef
+>
+> Batailles principales :
+> - **[[Siège de Toulon]]** (1793) : Victoire décisive ✓
+> - **[[Campagne d'Italie]]** (1796-1797) : Série de victoires contre l'Autriche ✓
+>
+> Bilan : Établit sa réputation militaire et politique
 
-## Style et technique
+> [!war] **Guerres napoléoniennes (1803-1815)**
+> Contexte : Conflits pour dominer l'Europe
+> Rôle : Empereur et commandant en chef
+>
+> Batailles principales :
+> - **[[Bataille d'Austerlitz]]** (1805) : Victoire stratégique contre l'Autriche et la Russie ✓
+> - **[[Bataille d'Iéna]]** (1806) : Défaite écrasante de la Prusse ✓
+> - **[[Bataille de Wagram]]** (1809) : Victoire contre l'Autriche ✓
+> - **[[Bataille de Waterloo]]** (1815) : Défaite finale contre les coalisés ✗
+>
+> Bilan : Apogée puis chute de l'Empire
 
-Léonard de Vinci est un maître du sfumato, une technique de peinture qui adoucit les contours et crée des transitions subtiles entre les couleurs. Ses œuvres, comme *La Joconde*, sont caractérisées par des expressions énigmatiques et une maîtrise de la perspective. Il est également connu pour ses études anatomiques détaillées, qui ont influencé la médecine et l'art.
+## Art militaire
 
-Son style évolue vers plus de complexité et de profondeur, notamment dans ses dernières années, où il se concentre sur des projets scientifiques et techniques. Il est souvent considéré comme un précurseur de la Renaissance, combinant art et science de manière inédite.
-
----
-
-## Œuvres principales
-
-### Peintures majeures
-- **`[[La Joconde]]`** (1503-1519) — Huile sur panneau, Musée du Louvre
-  Portrait énigmatique de Lisa Gherardini, épouse de Francesco del Giocondo, célèbre pour son sourire et son sfumato.
-
-- **`[[La Cène]]`** (1495-1498) — Fresque, Santa Maria delle Grazie, Milan
-  Représentation du dernier repas du Christ, connue pour sa composition dynamique et sa perspective innovante.
-
-- **`[[L'Homme de Vitruve]]`** (1490) — Dessin, Accademia, Venise
-  Étude des proportions idéales du corps humain, symbole de la Renaissance.
-
-### Dessins et études
-- **`[[Études anatomiques]]`** (1510) — Carnets, Royal Collection, Londres
-  Croquis détaillés du corps humain, montrant son intérêt pour la science.
-
-- **`[[Machine volante]]`** (1485) — Carnets, Bibliothèque nationale, Paris
-  Projet d'une machine volante inspirée des oiseaux.
-
----
-
-## Influences et héritage
-
-### Influences reçues
-- **`[[Verrocchio]]`** : Maître qui lui a enseigné les techniques artistiques.
-- **`[[Pline l'Ancien]]`** : Influence sur ses études anatomiques.
-
-### Influence exercée
-- **`[[Raphaël]]`** : A repris ses techniques de perspective et de composition.
-- **`[[Galilée]]`** : A été inspiré par ses études scientifiques.
-- **Postérité** : Considéré comme un génie universel, ses idées ont influencé l'art, la science et la technologie.
-
----
+Napoléon révolutionne l'art de la guerre en combinant mobilité, concentration des forces et logistique avancée. Son style de commandement est à la fois audacieux et méthodique : il privilégie les manœuvres enveloppantes et les attaques concentrées sur un point faible de l'ennemi. Il innove en créant la Grande Armée, une force multinationale disciplinée et bien équipée. Ses tactiques reposent sur la rapidité des mouvements et l'exploitation des faiblesses adverses. Cependant, son insistance à mener des campagnes prolongées malgré les pertes et son mépris des conditions météorologiques (comme en Russie) ont contribué à sa chute.
 
 ## Chronologie
-- **1452** : Naissance à Vinci, en Toscane.
-- **1469** : Entre à l'atelier de Verrocchio à Florence.
-- **1472** : Ouvre son propre atelier.
-- **1490** : Réalise *L'Homme de Vitruve*.
-- **1495-1498** : Peint *La Cène* à Milan.
-- **1503-1519** : Travaille sur *La Joconde*.
-- **1516** : S'installe en France, invité par François Ier.
-- **1519** : Mort au Clos Lucé, près d'Amboise.
 
----
+- **1769** : Naissance en Corse
+- **1793** : Siège de Toulon - première victoire majeure
+- **1796-1797** : Campagne d'Italie - consacre sa réputation
+- **1799** : Coup d'État du 18 Brumaire - prise du pouvoir
+- **1804** : Sacre comme empereur
+- **1805** : Victoire d'Austerlitz
+- **1812** : Campagne de Russie - désastre
+- **1815** : Défaite de Waterloo
+- **1821** : Mort à Sainte-Hélène
 
-**Illustration graphique** :
-```tikz
-\begin{document}
-\begin{tikzpicture}[scale=1.5]
-  % Cercle de Vitruve
-  \draw (0,0) circle (2);
-  \draw (0,0) -- (2,0) -- (0,0) -- (0,2) -- (0,0) -- (-2,0) -- (0,0) -- (0,-2) -- (0,0);
-  \draw (0,0) -- (1.414,1.414) -- (0,0) -- (-1.414,1.414) -- (0,0) -- (-1.414,-1.414) -- (0,0) -- (1.414,-1.414) -- (0,0);
+## Héritage
 
-  % Homme de Vitruve
-  \draw[thick] (0,0) circle (0.1);
-  \draw[thick] (0,0) -- (0,1.5);
-  \draw[thick] (0,0) -- (1.5,0);
-  \draw[thick] (0,0) -- (-1.5,0);
-  \draw[thick] (0,0) -- (0,-1.5);
-  \draw[thick] (0,1.5) -- (1.5,0);
-  \draw[thick] (0,1.5) -- (-1.5,0);
-  \draw[thick] (0,-1.5) -- (1.5,0);
-  \draw[thick] (0,-1.5) -- (-1.5,0);
+Napoléon est considéré comme l'un des plus grands stratèges de l'histoire, bien que son héritage soit controversé. Ses réformes administratives (Code civil, lycées) ont profondément marqué la France. Son modèle de guerre totale a influencé les conflits du XIXe siècle. Cependant, son ambition démesurée et ses pertes humaines massives ont aussi conduit à une réévaluation critique. Aujourd'hui, il reste une figure ambivalente : génie militaire pour les uns, tyran sanguinaire pour les autres.
 
-  % Légende
-  \node at (0,2.5) {L'Homme de Vitruve};
-  \node at (0,-2.5) {Étude des proportions idéales};
-\end{tikzpicture}
-\end{document}
-```
+## Relations
+
+> [!info] **Relations**
+> - **Souverains servis** : `[[République française]]` (général), `[[Empire français]]` (empereur)
+> - **Subordonnés notables** : `[[Michel Ney]]` (maréchal), `[[Joachim Murat]]` (cavalerie)
+> - **Rivaux/Ennemis** : `[[Arthur Wellesley]]` (Waterloo), `[[Koutouzov]]` (Russie)
+> - **Mentors** : `[[Maximilien de Robespierre]]` (influence politique), `[[Louis-Alexandre Berthier]]` (logistique)
