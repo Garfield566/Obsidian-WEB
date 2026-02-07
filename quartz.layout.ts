@@ -8,9 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.ConditionalRender({
       component: Component.CardGrid({
-        limit: 50,
+        limit: 200,
         columns: 4,
-        requireImage: true,
+        requireImage: false,
         showTags: true,
         showDescription: true,
       }),
