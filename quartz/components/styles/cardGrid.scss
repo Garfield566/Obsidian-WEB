@@ -21,7 +21,7 @@
     grid-template-columns: 1fr !important;
   }
 
-  @media all and (max-width: 900px) and (min-width: $mobileBreakpoint) {
+  @media all and ($tablet) {
     &.columns-3,
     &.columns-4 {
       grid-template-columns: repeat(2, 1fr);
