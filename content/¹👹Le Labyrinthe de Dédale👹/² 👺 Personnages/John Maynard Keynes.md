@@ -8,9 +8,9 @@ nationalité: "Britannique"
 ---
 
 > [!infobox]
-> # John Maynard Keynes
+>  John Maynard Keynes
 > ###### 1883–1946
->![[Pasted image 20250501230542.png|370]]
+>![[Pasted image 20250501230542.png|250]]
 > 
 > ###### Key Facts
 > | | |
