@@ -1,0 +1,137 @@
+@use "../../styles/variables.scss" as *;
+
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+
+  &.columns-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &.columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &.columns-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media all and ($mobile) {
+    grid-template-columns: 1fr !important;
+  }
+
+  @media all and (max-width: 900px) and (min-width: $mobileBreakpoint) {
+    &.columns-3,
+    &.columns-4 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent !important;
+
+  &:hover {
+    .card {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+
+  .card-cover {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: var(--lightgray);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &:hover .card-cover img {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .card-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-date {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.8rem;
+    color: var(--gray);
+  }
+
+  .card-description {
+    margin: 0 0 0.75rem 0;
+    font-size: 0.9rem;
+    color: var(--darkgray);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    padding: 0;
+    margin: auto 0 0 0;
+  }
+
+  .card-tag {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    background-color: var(--highlight);
+    color: var(--secondary);
+    border-radius: 4px;
+  }
+}
+
+// Dark mode adjustments
+:root[saved-theme="dark"] {
+  .card {
+    background-color: var(--light);
+    border-color: var(--lightgray);
+
+    .card-cover {
+      background-color: var(--lightgray);
+    }
+  }
+}
