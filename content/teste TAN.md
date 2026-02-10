@@ -4,6 +4,7 @@ bnner: "![[zzzzz ⚙️ime 1 🖼ime bnquePted ime 20230702214935.pn]]"
 ---
 caca
 tube
+% === 14*x^{0.5}*y^{0.5} ===
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
@@ -11,16 +12,20 @@ tube
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
- axis lines=middle,
- grid=both,
- domain=-1.4:1.4,
- samples=200,
- xlabel={$x$},
- ylabel={$f(x)$},
- width=10cm,
- height=8cm
+    view={60}{30},
+    xlabel=$x$,
+    ylabel=$y$,
+    zlabel=$z$,
+    colormap/cool,
+    width=10cm,
+    height=8cm
 ]
-\addplot[blue, thick] {tan(x)};
+\addplot3[
+    surf,
+    samples=15,
+    domain=-5:5,
+    y domain=-5:5
+] {14*x^{0.5}*y^{0.5}};
 \end{axis}
 \end{tikzpicture}
 \end{document}
