@@ -1,301 +1,41 @@
 {
-  "nodes": [
-    {
-      "id": "title",
-      "type": "text",
-      "x": 2200,
-      "y": -350,
-      "width": 600,
-      "height": 80,
-      "text": "# Cours de Microéconomie"
-    },
-    {
-      "id": "s1",
-      "type": "text",
-      "x": -100,
-      "y": 0,
-      "width": 600,
-      "height": 150,
-      "text": "## 1. Le Fonctionnement du Marché\n**(Offre et Demande)**\n\nLe marché est le lieu de rencontre entre l'offre et la demande, déterminant ainsi les prix et les quantités échangées.",
-      "color": "1"
-    },
-    {
-      "id": "s1-demande",
-      "type": "text",
-      "x": -450,
-      "y": 320,
-      "width": 520,
-      "height": 550,
-      "text": "### La Demande\n\nLa demande représente la quantité qu'un consommateur désire et peut acheter à un prix donné.\n\n**Loi de la demande :** Relation **décroissante**. Quand le prix augmente, la quantité demandée diminue (effet de revenu et effet de substitution).\n\n**Fonction de demande linéaire :**\n$$Q_d = a - bP$$\nOù $a$ est l'ordonnée à l'origine et $b$ la sensibilité au prix.\n\n**Mouvement vs Déplacement :**\n- Variation du prix = déplacement **le long** de la courbe\n- Variation d'autres facteurs (revenu, préférences) = déplacement **de** la courbe",
-      "color": "1"
-    },
-    {
-      "id": "s1-offre",
-      "type": "text",
-      "x": 150,
-      "y": 320,
-      "width": 520,
-      "height": 380,
-      "text": "### L'Offre\n\nL'offre représente la quantité que les producteurs souhaitent vendre.\n\n**Loi de l'offre :** Relation **croissante**. Plus le prix est élevé, plus l'offre augmente (car les coûts marginaux sont croissants).\n\n**Fonction d'offre linéaire :**\n$$Q_o = f + gP$$\nOù $f$ est l'abscisse à l'origine et $g$ la sensibilité au prix.",
-      "color": "1"
-    },
-    {
-      "id": "s1-eq",
-      "type": "text",
-      "x": -150,
-      "y": 980,
-      "width": 600,
-      "height": 420,
-      "text": "### L'Équilibre du Marché\n\nLe marché est à l'équilibre lorsque l'offre égale la demande.\n\n**Condition d'équilibre :**\n$$Q_d = Q_o$$\n\n**Formules de résolution algébrique :**\nSi $Q_d = a - bP$ et $Q_o = c + dP$ :\n$$P^* = \\frac{a - c}{b + d}$$\n$$Q^* = \\frac{ad + bc}{b + d}$$",
-      "color": "1"
-    },
-    {
-      "id": "s2",
-      "type": "text",
-      "x": 1200,
-      "y": 0,
-      "width": 600,
-      "height": 130,
-      "text": "## 2. Les Élasticités\n\nL'élasticité mesure la sensibilité (réactivité) d'une variable par rapport à une autre. C'est une variation relative.",
-      "color": "2"
-    },
-    {
-      "id": "s2-prix",
-      "type": "text",
-      "x": 1100,
-      "y": 300,
-      "width": 640,
-      "height": 620,
-      "text": "### Élasticité-prix de la demande\n\nMesure la variation de la demande suite à une variation du prix. Toujours **négative**.\n\n**Formule (variation discrète) :**\n$$\\varepsilon_{D/P} = \\frac{\\Delta Q_d(\\%)}{\\Delta P(\\%)} = \\frac{\\Delta Q_d}{\\Delta P} \\times \\frac{P}{Q_d}$$\n\n**Formule (continue/dérivée) :**\nPour $Q_d = a - bP$ :\n$$\\varepsilon = \\frac{\\partial Q_d}{\\partial P} \\times \\frac{P}{Q_d} = -b \\times \\frac{P}{a - bP}$$\n\n**Lien avec la Recette Totale ($D = P \\times Q$) :**\nLa recette est maximale lorsque $|\\varepsilon|=1$, au prix :\n$$P = \\frac{a}{2b}$$",
-      "color": "2"
-    },
-    {
-      "id": "s2-autres",
-      "type": "text",
-      "x": 1100,
-      "y": 1020,
-      "width": 640,
-      "height": 580,
-      "text": "### Autres Élasticités\n\n**Élasticité-prix de l'offre :** Toujours positive.\n$$\\varepsilon_{O/P} = \\frac{\\Delta Q_o(\\%)}{\\Delta P(\\%)}$$\n\n**Élasticité-revenu ($\\varepsilon_R$) :**\n$$\\varepsilon_{Q/R} = \\frac{\\partial Q}{\\partial R} \\times \\frac{R}{Q}$$\n- $\\varepsilon > 0$ : Bien **normal**\n- $\\varepsilon < 0$ : Bien **inférieur**\n\n**Élasticité-prix croisée :**\n$$\\varepsilon_{Q_x/P_y} = \\frac{\\partial Q_x}{\\partial P_y} \\times \\frac{P_y}{Q_x}$$\n- $> 0$ : Biens **substituts**\n- $< 0$ : Biens **complémentaires**",
-      "color": "2"
-    },
-    {
-      "id": "s3",
-      "type": "text",
-      "x": 2400,
-      "y": 0,
-      "width": 600,
-      "height": 130,
-      "text": "## 3. Intervention Publique\n\nL'État intervient pour corriger le marché, ce qui affecte l'équilibre.",
-      "color": "4"
-    },
-    {
-      "id": "s3-controle",
-      "type": "text",
-      "x": 2350,
-      "y": 300,
-      "width": 600,
-      "height": 340,
-      "text": "### Contrôle des prix\n\n**Prix-plancher** (ex: salaire minimum)\nFixé **au-dessus** de l'équilibre\n→ **Excédent** ($Q_o > Q_d$)\n\n**Prix-plafond** (ex: loyers)\nFixé **en dessous** de l'équilibre\n→ **Pénurie** ($Q_d > Q_o$)",
-      "color": "4"
-    },
-    {
-      "id": "s3-taxes",
-      "type": "text",
-      "x": 2350,
-      "y": 740,
-      "width": 600,
-      "height": 400,
-      "text": "### Taxes\n\n**Taxe unitaire :**\nDéplace la courbe d'offre parallèlement vers le haut du montant de la taxe ($t$).\n\n**Incidence fiscale :**\nC'est le côté du marché le **moins élastique** qui supporte la plus grande part de la taxe.\n\n- Charge consommateur : $P_{final} - P_{initial}$\n- Charge producteur : $P_{initial} - (P_{final} - \\text{taxe})$",
-      "color": "4"
-    },
-    {
-      "id": "s4",
-      "type": "text",
-      "x": 3850,
-      "y": 0,
-      "width": 700,
-      "height": 130,
-      "text": "## 4. Théorie du Consommateur\n\nLe consommateur cherche à maximiser sa satisfaction (utilité) sous contrainte de budget.",
-      "color": "6"
-    },
-    {
-      "id": "s4-budget",
-      "type": "text",
-      "x": 3550,
-      "y": 300,
-      "width": 600,
-      "height": 420,
-      "text": "### La Contrainte Budgétaire\n\nReprésente ce que le consommateur *peut* acheter avec son revenu $R$ et les prix $P_1, P_2$.\n\n**Équation de la droite de budget :**\n$$P_1X_1 + P_2X_2 = R$$\n\n**Forme réduite :**\n$$X_2 = \\frac{R}{P_2} - \\frac{P_1}{P_2}X_1$$\nLa pente est $-\\frac{P_1}{P_2}$ (coût d'opportunité).",
-      "color": "6"
-    },
-    {
-      "id": "s4-prefs",
-      "type": "text",
-      "x": 4230,
-      "y": 300,
-      "width": 600,
-      "height": 500,
-      "text": "### Préférences et Utilité\n\n**Courbe d'indifférence :** Ensemble des paniers procurant le même niveau d'utilité $U$.\n\n**Utilité Marginale ($Um$) :**\n$$Um_1 = \\frac{\\partial U}{\\partial X_1}$$\n\n**Taux Marginal de Substitution (TMS) :**\nQuantité de bien 2 qu'on cède pour avoir du bien 1, à utilité constante.\n$$TMS_{2,1} = -\\frac{dX_2}{dX_1} = \\frac{Um_1}{Um_2}$$\nGraphiquement : pente de la tangente à la courbe d'indifférence (en valeur absolue).",
-      "color": "6"
-    },
-    {
-      "id": "s4-choix",
-      "type": "text",
-      "x": 3550,
-      "y": 840,
-      "width": 600,
-      "height": 500,
-      "text": "### Le Choix Optimal\n\nLe consommateur choisit le panier qui maximise son utilité en respectant son budget.\n\n**Condition d'optimalité :**\nTangence entre droite de budget et courbe d'indifférence :\n$$\\frac{Um_1}{Um_2} = \\frac{P_1}{P_2} \\iff TMS = \\frac{P_1}{P_2}$$\n\n**Système à résoudre :**\n$$\\begin{cases} P_1X_1 + P_2X_2 = R \\\\ \\frac{Um_1}{Um_2} = \\frac{P_1}{P_2} \\end{cases}$$",
-      "color": "6"
-    },
-    {
-      "id": "s4-cas",
-      "type": "text",
-      "x": 4230,
-      "y": 900,
-      "width": 600,
-      "height": 580,
-      "text": "### Cas Particuliers\n\n**1. Cobb-Douglas** ($U = X_1X_2$)\nPréférences convexes classiques.\n- $X_1^* = \\frac{R}{2P_1}$\n- $X_2^* = \\frac{R}{2P_2}$\n\n**2. Substituts Parfaits** ($U = aX_1 + bX_2$)\nSolution en coin. Achat uniquement du bien au meilleur rapport qualité-prix.\n\n**3. Compléments Parfaits** ($U = \\min(X_1, X_2)$)\nPas de tangence. Optimum au sommet ($X_1 = X_2$).\n$$X^* = \\frac{R}{P_1 + P_2}$$",
-      "color": "6"
-    },
-    {
-      "id": "s4-surplus",
-      "type": "text",
-      "x": 3900,
-      "y": 1580,
-      "width": 600,
-      "height": 260,
-      "text": "### Surplus du Consommateur\n\nDifférence entre ce que le consommateur est prêt à payer et ce qu'il paie réellement.\n\n**Formule (cas continu) :**\n$$S = \\int_{0}^{Q^*} P(Q) \\, dQ - P^*Q^*$$",
-      "color": "6"
-    }
-  ],
-  "edges": [
-    {
-      "id": "e1",
-      "fromNode": "title",
-      "fromSide": "bottom",
-      "toNode": "s1",
-      "toSide": "top"
-    },
-    {
-      "id": "e2",
-      "fromNode": "title",
-      "fromSide": "bottom",
-      "toNode": "s2",
-      "toSide": "top"
-    },
-    {
-      "id": "e3",
-      "fromNode": "title",
-      "fromSide": "bottom",
-      "toNode": "s3",
-      "toSide": "top"
-    },
-    {
-      "id": "e4",
-      "fromNode": "title",
-      "fromSide": "bottom",
-      "toNode": "s4",
-      "toSide": "top"
-    },
-    {
-      "id": "e5",
-      "fromNode": "s1",
-      "fromSide": "bottom",
-      "toNode": "s1-demande",
-      "toSide": "top"
-    },
-    {
-      "id": "e6",
-      "fromNode": "s1",
-      "fromSide": "bottom",
-      "toNode": "s1-offre",
-      "toSide": "top"
-    },
-    {
-      "id": "e7",
-      "fromNode": "s1-demande",
-      "fromSide": "bottom",
-      "toNode": "s1-eq",
-      "toSide": "top"
-    },
-    {
-      "id": "e8",
-      "fromNode": "s1-offre",
-      "fromSide": "bottom",
-      "toNode": "s1-eq",
-      "toSide": "top"
-    },
-    {
-      "id": "e9",
-      "fromNode": "s2",
-      "fromSide": "bottom",
-      "toNode": "s2-prix",
-      "toSide": "top"
-    },
-    {
-      "id": "e10",
-      "fromNode": "s2-prix",
-      "fromSide": "bottom",
-      "toNode": "s2-autres",
-      "toSide": "top"
-    },
-    {
-      "id": "e11",
-      "fromNode": "s3",
-      "fromSide": "bottom",
-      "toNode": "s3-controle",
-      "toSide": "top"
-    },
-    {
-      "id": "e12",
-      "fromNode": "s3-controle",
-      "fromSide": "bottom",
-      "toNode": "s3-taxes",
-      "toSide": "top"
-    },
-    {
-      "id": "e13",
-      "fromNode": "s4",
-      "fromSide": "bottom",
-      "toNode": "s4-budget",
-      "toSide": "top"
-    },
-    {
-      "id": "e14",
-      "fromNode": "s4",
-      "fromSide": "bottom",
-      "toNode": "s4-prefs",
-      "toSide": "top"
-    },
-    {
-      "id": "e15",
-      "fromNode": "s4-budget",
-      "fromSide": "bottom",
-      "toNode": "s4-choix",
-      "toSide": "top"
-    },
-    {
-      "id": "e16",
-      "fromNode": "s4-prefs",
-      "fromSide": "bottom",
-      "toNode": "s4-cas",
-      "toSide": "top"
-    },
-    {
-      "id": "e17",
-      "fromNode": "s4-choix",
-      "fromSide": "bottom",
-      "toNode": "s4-surplus",
-      "toSide": "top"
-    },
-    {
-      "id": "e18",
-      "fromNode": "s4-cas",
-      "fromSide": "bottom",
-      "toNode": "s4-surplus",
-      "toSide": "top"
-    }
-  ]
+	"nodes":[
+		{"id":"title","type":"text","x":2200,"y":-350,"width":600,"height":80,"text":"# Cours de Microéconomie"},
+		{"id":"s1","type":"text","x":-100,"y":0,"width":600,"height":150,"text":"## 1. Le Fonctionnement du Marché\n**(Offre et Demande)**\n\nLe marché est le lieu de rencontre entre l'offre et la demande, déterminant ainsi les prix et les quantités échangées.","color":"1"},
+		{"id":"s1-demande","type":"text","x":-450,"y":320,"width":520,"height":550,"text":"### La Demande\n\nLa demande représente la quantité qu'un consommateur désire et peut acheter à un prix donné.\n\n**Loi de la demande :** Relation **décroissante**. Quand le prix augmente, la quantité demandée diminue (effet de revenu et effet de substitution).\n\n**Fonction de demande linéaire :**\n$$Q_d = a - bP$$\nOù $a$ est l'ordonnée à l'origine et $b$ la sensibilité au prix.\n\n**Mouvement vs Déplacement :**\n- Variation du prix = déplacement **le long** de la courbe\n- Variation d'autres facteurs (revenu, préférences) = déplacement **de** la courbe","color":"1"},
+		{"id":"s1-offre","type":"text","x":150,"y":320,"width":520,"height":380,"text":"### L'Offre\n\nL'offre représente la quantité que les producteurs souhaitent vendre.\n\n**Loi de l'offre :** Relation **croissante**. Plus le prix est élevé, plus l'offre augmente (car les coûts marginaux sont croissants).\n\n**Fonction d'offre linéaire :**\n$$Q_o = f + gP$$\nOù $f$ est l'abscisse à l'origine et $g$ la sensibilité au prix.","color":"1"},
+		{"id":"s1-eq","type":"text","x":-150,"y":980,"width":600,"height":420,"text":"### L'Équilibre du Marché\n\nLe marché est à l'équilibre lorsque l'offre égale la demande.\n\n**Condition d'équilibre :**\n$$Q_d = Q_o$$\n\n**Formules de résolution algébrique :**\nSi $Q_d = a - bP$ et $Q_o = c + dP$ :\n$$P^* = \\frac{a - c}{b + d}$$\n$$Q^* = \\frac{ad + bc}{b + d}$$","color":"1"},
+		{"id":"s2","type":"text","x":1200,"y":0,"width":600,"height":130,"text":"## 2. Les Élasticités\n\nL'élasticité mesure la sensibilité (réactivité) d'une variable par rapport à une autre. C'est une variation relative.","color":"2"},
+		{"id":"s2-prix","type":"text","x":1100,"y":300,"width":640,"height":620,"text":"### Élasticité-prix de la demande\n\nMesure la variation de la demande suite à une variation du prix. Toujours **négative**.\n\n**Formule (variation discrète) :**\n$$\\varepsilon_{D/P} = \\frac{\\Delta Q_d(\\%)}{\\Delta P(\\%)} = \\frac{\\Delta Q_d}{\\Delta P} \\times \\frac{P}{Q_d}$$\n\n**Formule (continue/dérivée) :**\nPour $Q_d = a - bP$ :\n$$\\varepsilon = \\frac{\\partial Q_d}{\\partial P} \\times \\frac{P}{Q_d} = -b \\times \\frac{P}{a - bP}$$\n\n**Lien avec la Recette Totale ($D = P \\times Q$) :**\nLa recette est maximale lorsque $|\\varepsilon|=1$, au prix :\n$$P = \\frac{a}{2b}$$","color":"2"},
+		{"id":"s2-autres","type":"text","x":1100,"y":1020,"width":640,"height":580,"text":"### Autres Élasticités\n\n**Élasticité-prix de l'offre :** Toujours positive.\n$$\\varepsilon_{O/P} = \\frac{\\Delta Q_o(\\%)}{\\Delta P(\\%)}$$\n\n**Élasticité-revenu ($\\varepsilon_R$) :**\n$$\\varepsilon_{Q/R} = \\frac{\\partial Q}{\\partial R} \\times \\frac{R}{Q}$$\n- $\\varepsilon > 0$ : Bien **normal**\n- $\\varepsilon < 0$ : Bien **inférieur**\n\n**Élasticité-prix croisée :**\n$$\\varepsilon_{Q_x/P_y} = \\frac{\\partial Q_x}{\\partial P_y} \\times \\frac{P_y}{Q_x}$$\n- $> 0$ : Biens **substituts**\n- $< 0$ : Biens **complémentaires**","color":"2"},
+		{"id":"s3","type":"text","x":2400,"y":0,"width":600,"height":130,"text":"## 3. Intervention Publique\n\nL'État intervient pour corriger le marché, ce qui affecte l'équilibre.","color":"4"},
+		{"id":"s3-controle","type":"text","x":2350,"y":300,"width":600,"height":340,"text":"### Contrôle des prix\n\n**Prix-plancher** (ex: salaire minimum)\nFixé **au-dessus** de l'équilibre\n→ **Excédent** ($Q_o > Q_d$)\n\n**Prix-plafond** (ex: loyers)\nFixé **en dessous** de l'équilibre\n→ **Pénurie** ($Q_d > Q_o$)","color":"4"},
+		{"id":"s3-taxes","type":"text","x":2350,"y":740,"width":600,"height":400,"text":"### Taxes\n\n**Taxe unitaire :**\nDéplace la courbe d'offre parallèlement vers le haut du montant de la taxe ($t$).\n\n**Incidence fiscale :**\nC'est le côté du marché le **moins élastique** qui supporte la plus grande part de la taxe.\n\n- Charge consommateur : $P_{final} - P_{initial}$\n- Charge producteur : $P_{initial} - (P_{final} - \\text{taxe})$","color":"4"},
+		{"id":"s4","type":"text","x":3850,"y":0,"width":700,"height":130,"text":"## 4. Théorie du Consommateur\n\nLe consommateur cherche à maximiser sa satisfaction (utilité) sous contrainte de budget.","color":"6"},
+		{"id":"s4-budget","type":"text","x":3550,"y":300,"width":600,"height":420,"text":"### La Contrainte Budgétaire\n\nReprésente ce que le consommateur *peut* acheter avec son revenu $R$ et les prix $P_1, P_2$.\n\n**Équation de la droite de budget :**\n$$P_1X_1 + P_2X_2 = R$$\n\n**Forme réduite :**\n$$X_2 = \\frac{R}{P_2} - \\frac{P_1}{P_2}X_1$$\nLa pente est $-\\frac{P_1}{P_2}$ (coût d'opportunité).","color":"6"},
+		{"id":"s4-prefs","type":"text","x":4230,"y":300,"width":600,"height":500,"text":"### Préférences et Utilité\n\n**Courbe d'indifférence :** Ensemble des paniers procurant le même niveau d'utilité $U$.\n\n**Utilité Marginale ($Um$) :**\n$$Um_1 = \\frac{\\partial U}{\\partial X_1}$$\n\n**Taux Marginal de Substitution (TMS) :**\nQuantité de bien 2 qu'on cède pour avoir du bien 1, à utilité constante.\n$$TMS_{2,1} = -\\frac{dX_2}{dX_1} = \\frac{Um_1}{Um_2}$$\nGraphiquement : pente de la tangente à la courbe d'indifférence (en valeur absolue).","color":"6"},
+		{"id":"s4-choix","type":"text","x":3550,"y":840,"width":600,"height":500,"text":"### Le Choix Optimal\n\nLe consommateur choisit le panier qui maximise son utilité en respectant son budget.\n\n**Condition d'optimalité :**\nTangence entre droite de budget et courbe d'indifférence :\n$$\\frac{Um_1}{Um_2} = \\frac{P_1}{P_2} \\iff TMS = \\frac{P_1}{P_2}$$\n\n**Système à résoudre :**\n$$\\begin{cases} P_1X_1 + P_2X_2 = R \\\\ \\frac{Um_1}{Um_2} = \\frac{P_1}{P_2} \\end{cases}$$","color":"6"},
+		{"id":"s4-cas","type":"text","x":4230,"y":900,"width":600,"height":580,"text":"### Cas Particuliers\n\n**1. Cobb-Douglas** ($U = X_1X_2$)\nPréférences convexes classiques.\n- $X_1^* = \\frac{R}{2P_1}$\n- $X_2^* = \\frac{R}{2P_2}$\n\n**2. Substituts Parfaits** ($U = aX_1 + bX_2$)\nSolution en coin. Achat uniquement du bien au meilleur rapport qualité-prix.\n\n**3. Compléments Parfaits** ($U = \\min(X_1, X_2)$)\nPas de tangence. Optimum au sommet ($X_1 = X_2$).\n$$X^* = \\frac{R}{P_1 + P_2}$$","color":"6"},
+		{"id":"s4-surplus","type":"text","x":3900,"y":1580,"width":600,"height":260,"text":"### Surplus du Consommateur\n\nDifférence entre ce que le consommateur est prêt à payer et ce qu'il paie réellement.\n\n**Formule (cas continu) :**\n$$S = \\int_{0}^{Q^*} P(Q) \\, dQ - P^*Q^*$$","color":"6"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"title","fromSide":"bottom","toNode":"s1","toSide":"top"},
+		{"id":"e2","fromNode":"title","fromSide":"bottom","toNode":"s2","toSide":"top"},
+		{"id":"e3","fromNode":"title","fromSide":"bottom","toNode":"s3","toSide":"top"},
+		{"id":"e4","fromNode":"title","fromSide":"bottom","toNode":"s4","toSide":"top"},
+		{"id":"e5","fromNode":"s1","fromSide":"bottom","toNode":"s1-demande","toSide":"top"},
+		{"id":"e6","fromNode":"s1","fromSide":"bottom","toNode":"s1-offre","toSide":"top"},
+		{"id":"e7","fromNode":"s1-demande","fromSide":"bottom","toNode":"s1-eq","toSide":"top"},
+		{"id":"e8","fromNode":"s1-offre","fromSide":"bottom","toNode":"s1-eq","toSide":"top"},
+		{"id":"e9","fromNode":"s2","fromSide":"bottom","toNode":"s2-prix","toSide":"top"},
+		{"id":"e10","fromNode":"s2-prix","fromSide":"bottom","toNode":"s2-autres","toSide":"top"},
+		{"id":"e11","fromNode":"s3","fromSide":"bottom","toNode":"s3-controle","toSide":"top"},
+		{"id":"e12","fromNode":"s3-controle","fromSide":"bottom","toNode":"s3-taxes","toSide":"top"},
+		{"id":"e13","fromNode":"s4","fromSide":"bottom","toNode":"s4-budget","toSide":"top"},
+		{"id":"e14","fromNode":"s4","fromSide":"bottom","toNode":"s4-prefs","toSide":"top"},
+		{"id":"e15","fromNode":"s4-budget","fromSide":"bottom","toNode":"s4-choix","toSide":"top"},
+		{"id":"e16","fromNode":"s4-prefs","fromSide":"bottom","toNode":"s4-cas","toSide":"top"},
+		{"id":"e17","fromNode":"s4-choix","fromSide":"bottom","toNode":"s4-surplus","toSide":"top"},
+		{"id":"e18","fromNode":"s4-cas","fromSide":"bottom","toNode":"s4-surplus","toSide":"top"}
+	]
 }
