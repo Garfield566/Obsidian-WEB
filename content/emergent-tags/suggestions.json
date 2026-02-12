@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-12T19:32:30.546734",
-  "vault_hash": "66c357f1",
+  "generated_at": "2026-02-12T20:12:46.862564",
+  "vault_hash": "21215fcd",
   "suggestions": {
     "new_tags": [
       {
@@ -30,11 +30,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546777",
+        "first_detected": "2026-02-12T20:12:46.862600",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_011",
+        "id": "lt_ent_010",
         "name": "renaissance",
         "confidence": 0.89,
         "notes": [
@@ -58,14 +58,15 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546782",
+        "first_detected": "2026-02-12T20:12:46.862604",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_016",
+        "id": "lt_ent_012",
         "name": "entité\\états-unis",
         "confidence": 0.89,
         "notes": [
+          "orange.md",
           "orange fruit.md",
           "Clippings/Psychanalyse — Wikipédia.md",
           "Clippings/métallurgie  Britannica.md",
@@ -74,28 +75,28 @@
           "Clippings/Inflation — Wikipédia.md",
           "Clippings/Impressionnisme — Wikipédia.md",
           "YouTube Notes/Timestamps 2.md",
-          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
-          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Capital.md"
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md"
         ],
         "reasoning": {
-          "summary": "Entité détecté(e) dans 11 notes",
+          "summary": "Entité détecté(e) dans 12 notes",
           "details": {
             "entity_type": "entity",
             "raw_text": "états-unis",
-            "total_occurrences": 38,
-            "notes_count": 11
+            "total_occurrences": 40,
+            "notes_count": 12
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546786",
+        "first_detected": "2026-02-12T20:12:46.862608",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_002",
+        "id": "lt_ent_001",
         "name": "catégorie",
         "confidence": 0.88,
         "notes": [
           "Guide_Extraction_Complete_41_Domaines.md",
+          "orange.md",
           "Guide_Extraction_2_PCs.md",
           "Guide_Extraction_Complete.md",
           "Clippings/Psychanalyse — Wikipédia.md",
@@ -106,16 +107,16 @@
           "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Adam Smith.md"
         ],
         "reasoning": {
-          "summary": "Entité détecté(e) dans 9 notes",
+          "summary": "Entité détecté(e) dans 10 notes",
           "details": {
             "entity_type": "math_object",
             "raw_text": "catégorie",
-            "total_occurrences": 25,
-            "notes_count": 9
+            "total_occurrences": 26,
+            "notes_count": 10
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546789",
+        "first_detected": "2026-02-12T20:12:46.862611",
         "source": "heuristic"
       },
       {
@@ -137,7 +138,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546793",
+        "first_detected": "2026-02-12T20:12:46.862614",
         "source": "specialized_term"
       },
       {
@@ -159,7 +160,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546797",
+        "first_detected": "2026-02-12T20:12:46.862617",
         "source": "specialized_term"
       },
       {
@@ -181,7 +182,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546800",
+        "first_detected": "2026-02-12T20:12:46.862621",
         "source": "specialized_term"
       },
       {
@@ -204,7 +205,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546807",
+        "first_detected": "2026-02-12T20:12:46.862626",
         "source": "specialized_term"
       },
       {
@@ -226,7 +227,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546811",
+        "first_detected": "2026-02-12T20:12:46.862630",
         "source": "specialized_term"
       },
       {
@@ -248,7 +249,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546815",
+        "first_detected": "2026-02-12T20:12:46.862633",
         "source": "specialized_term"
       },
       {
@@ -270,7 +271,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546818",
+        "first_detected": "2026-02-12T20:12:46.862637",
         "source": "specialized_term"
       },
       {
@@ -292,7 +293,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546822",
+        "first_detected": "2026-02-12T20:12:46.862640",
         "source": "specialized_term"
       },
       {
@@ -314,7 +315,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546825",
+        "first_detected": "2026-02-12T20:12:46.862642",
         "source": "specialized_term"
       },
       {
@@ -336,7 +337,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546828",
+        "first_detected": "2026-02-12T20:12:46.862646",
         "source": "specialized_term"
       },
       {
@@ -358,7 +359,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546832",
+        "first_detected": "2026-02-12T20:12:46.862649",
         "source": "specialized_term"
       },
       {
@@ -380,11 +381,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546835",
+        "first_detected": "2026-02-12T20:12:46.862651",
         "source": "specialized_term"
       },
       {
-        "id": "lt_ent_013",
+        "id": "lt_ent_015",
         "name": "X-fin",
         "confidence": 0.83,
         "notes": [
@@ -406,7 +407,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546838",
+        "first_detected": "2026-02-12T20:12:46.862654",
         "source": "heuristic"
       },
       {
@@ -465,7 +466,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546841",
+        "first_detected": "2026-02-12T20:12:46.862657",
         "source": "emergent"
       },
       {
@@ -524,7 +525,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546844",
+        "first_detected": "2026-02-12T20:12:46.862660",
         "source": "emergent"
       },
       {
@@ -583,7 +584,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546848",
+        "first_detected": "2026-02-12T20:12:46.862663",
         "source": "emergent"
       },
       {
@@ -642,7 +643,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546851",
+        "first_detected": "2026-02-12T20:12:46.862666",
         "source": "emergent"
       },
       {
@@ -701,7 +702,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546854",
+        "first_detected": "2026-02-12T20:12:46.862668",
         "source": "emergent"
       },
       {
@@ -760,7 +761,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546857",
+        "first_detected": "2026-02-12T20:12:46.862671",
         "source": "emergent"
       },
       {
@@ -819,11 +820,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546860",
+        "first_detected": "2026-02-12T20:12:46.862674",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_025",
+        "id": "lt_ent_026",
         "name": "I-fin",
         "confidence": 0.81,
         "notes": [
@@ -844,11 +845,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546863",
+        "first_detected": "2026-02-12T20:12:46.862676",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_005",
         "name": "proposition",
         "confidence": 0.79,
         "notes": [
@@ -867,11 +868,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546866",
+        "first_detected": "2026-02-12T20:12:46.862679",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_015",
+        "id": "lt_ent_017",
         "name": "geo\\chine",
         "confidence": 0.79,
         "notes": [
@@ -890,11 +891,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546869",
+        "first_detected": "2026-02-12T20:12:46.862682",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_024",
+        "id": "lt_ent_025",
         "name": "New-York",
         "confidence": 0.79,
         "notes": [
@@ -914,7 +915,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546872",
+        "first_detected": "2026-02-12T20:12:46.862685",
         "source": "heuristic"
       },
       {
@@ -937,7 +938,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546875",
+        "first_detected": "2026-02-12T20:12:46.862688",
         "source": "heuristic"
       },
       {
@@ -960,11 +961,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546877",
+        "first_detected": "2026-02-12T20:12:46.862690",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_028",
+        "id": "lt_ent_029",
         "name": "geo\\paris",
         "confidence": 0.76,
         "notes": [
@@ -981,7 +982,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546880",
+        "first_detected": "2026-02-12T20:12:46.862693",
         "source": "heuristic"
       },
       {
@@ -1043,7 +1044,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546883",
+        "first_detected": "2026-02-12T20:12:46.862696",
         "source": "emergent"
       },
       {
@@ -1105,7 +1106,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546886",
+        "first_detected": "2026-02-12T20:12:46.862698",
         "source": "emergent"
       },
       {
@@ -1167,7 +1168,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546889",
+        "first_detected": "2026-02-12T20:12:46.862701",
         "source": "emergent"
       },
       {
@@ -1229,7 +1230,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546892",
+        "first_detected": "2026-02-12T20:12:46.862704",
         "source": "emergent"
       },
       {
@@ -1291,7 +1292,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546896",
+        "first_detected": "2026-02-12T20:12:46.862707",
         "source": "emergent"
       },
       {
@@ -1353,7 +1354,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546898",
+        "first_detected": "2026-02-12T20:12:46.862710",
         "source": "emergent"
       },
       {
@@ -1377,11 +1378,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546901",
+        "first_detected": "2026-02-12T20:12:46.862712",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_023",
+        "id": "lt_ent_024",
         "name": "opérateur",
         "confidence": 0.75,
         "notes": [
@@ -1398,7 +1399,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546904",
+        "first_detected": "2026-02-12T20:12:46.862715",
         "source": "heuristic"
       },
       {
@@ -1432,7 +1433,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546907",
+        "first_detected": "2026-02-12T20:12:46.862718",
         "source": "emergent"
       },
       {
@@ -1466,11 +1467,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546910",
+        "first_detected": "2026-02-12T20:12:46.862720",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_027",
+        "id": "lt_ent_028",
         "name": "Saint-Pétersbourg",
         "confidence": 0.74,
         "notes": [
@@ -1487,11 +1488,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546913",
+        "first_detected": "2026-02-12T20:12:46.862723",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_022",
+        "id": "lt_ent_023",
         "name": "II-fin",
         "confidence": 0.73,
         "notes": [
@@ -1509,7 +1510,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546916",
+        "first_detected": "2026-02-12T20:12:46.862726",
         "source": "heuristic"
       },
       {
@@ -1564,7 +1565,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546933",
+        "first_detected": "2026-02-12T20:12:46.862728",
         "source": "emergent"
       },
       {
@@ -1619,7 +1620,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546936",
+        "first_detected": "2026-02-12T20:12:46.862731",
         "source": "emergent"
       },
       {
@@ -1674,7 +1675,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546939",
+        "first_detected": "2026-02-12T20:12:46.862734",
         "source": "emergent"
       },
       {
@@ -1729,7 +1730,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546942",
+        "first_detected": "2026-02-12T20:12:46.862736",
         "source": "emergent"
       },
       {
@@ -1784,7 +1785,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546945",
+        "first_detected": "2026-02-12T20:12:46.862739",
         "source": "emergent"
       },
       {
@@ -1837,11 +1838,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546948",
+        "first_detected": "2026-02-12T20:12:46.862741",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_012",
+        "id": "lt_ent_014",
         "name": "IX-fin",
         "confidence": 0.7,
         "notes": [
@@ -1858,7 +1859,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-12T19:32:30.546951",
+        "first_detected": "2026-02-12T20:12:46.862744",
         "source": "heuristic"
       }
     ],
@@ -1997,7 +1998,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-12T19:31:26.109269",
+          "last_used": "2026-02-12T20:11:32.296740",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -2016,7 +2017,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-12T19:31:26.062567",
+          "last_used": "2026-02-12T20:11:32.332855",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -2030,31 +2031,12 @@
         ]
       },
       {
-        "tag": "objet",
-        "issue": "low_usage",
-        "severity": "warning",
-        "details": {
-          "usage_count": 1,
-          "last_used": "2026-02-12T19:31:26.147768",
-          "days_inactive": 0,
-          "notes_using": [
-            "orange fruit.md"
-          ]
-        },
-        "recommendation": "review",
-        "alternative_tags": [
-          "livre",
-          "v",
-          "L"
-        ]
-      },
-      {
         "tag": "wikidata",
         "issue": "low_usage",
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-12T19:31:26.142767",
+          "last_used": "2026-02-12T20:11:32.394902",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete.md"
@@ -2070,34 +2052,34 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_1261",
+        "id": "rg_4545",
         "tags": [
-          "------------------------------",
           "------------------------------------------",
-          "/"
+          "/",
+          "------------------------------"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "------------------------------": 2,
           "------------------------------------------": 2,
-          "/": 1
+          "/": 1,
+          "------------------------------": 2
         },
-        "recommended": "------------------------------"
+        "recommended": "------------------------------------------"
       },
       {
-        "id": "rg_2491",
+        "id": "rg_8998",
         "tags": [
-          "Comportement",
           "Mammif",
+          "Comportement",
           "exclrw"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "Comportement": 2,
           "Mammif": 2,
+          "Comportement": 2,
           "exclrw": 2
         },
-        "recommended": "Comportement"
+        "recommended": "Mammif"
       }
     ]
   },
@@ -2159,8 +2141,8 @@
       ],
       "suggested_tags": [
         "livre",
-        "note-livre",
-        "note-The_Wealth_of_Nations"
+        "note-The_Wealth_of_Nations",
+        "note-livre"
       ]
     },
     {
@@ -2185,8 +2167,8 @@
       ],
       "suggested_tags": [
         "Crime-Mystery",
-        "Madhouse",
-        "Masayuki-Kojima"
+        "Masayuki-Kojima",
+        "Naoki-Urasawa"
       ]
     },
     {
@@ -2205,19 +2187,19 @@
         "caroro"
       ],
       "suggested_tags": [
-        "cite_note-6",
-        "cite_note-7",
-        "cite_note-22"
+        "cite_note-5",
+        "cite_note-8",
+        "cite_note-23"
       ]
     }
   ],
   "stats": {
-    "total_notes": 243,
-    "analyzed_notes": 243,
+    "total_notes": 244,
+    "analyzed_notes": 244,
     "total_tags": 107,
     "active_tags": 107,
     "latent_tags": 50,
-    "health_score": 0.95,
+    "health_score": 0.96,
     "feedback_impact": {
       "decisions_integrated": 1000,
       "acceptance_rate": "0%"
