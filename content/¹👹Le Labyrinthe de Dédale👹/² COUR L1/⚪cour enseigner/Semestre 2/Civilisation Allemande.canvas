@@ -4,7 +4,7 @@
 		{"id":"02de14be0f9b1b0b","type":"group","x":-200,"y":1085,"width":2480,"height":3515,"color":"#3da97a","label":"Fonctionnement"},
 		{"id":"6e6c04705dda8ee6","type":"group","x":-2145,"y":-760,"width":1345,"height":2200,"label":"S2"},
 		{"id":"3045c9404a401e37","type":"group","x":-120,"y":2000,"width":2120,"height":1360,"color":"#2a3484","label":"Système politique"},
-		{"id":"3f1858116b10d368","x":-120,"y":3480,"width":1098,"height":994,"color":"3","type":"group","label":"Mithe fondateur "},
+		{"id":"3f1858116b10d368","x":-120,"y":3480,"width":1240,"height":994,"color":"3","type":"group","label":"Mithe fondateur "},
 		{"id":"98f926a4c6f60766","type":"group","x":554,"y":1160,"width":1325,"height":794,"color":"3","label":"Bund/ Läder"},
 		{"id":"814a768af0683ed2","type":"group","x":-2020,"y":-680,"width":1020,"height":1020,"color":"#d0934e","label":"Histoire"},
 		{"id":"826e2ac1daa61d60","type":"text","text":"### La staint empire Romain Germanique :\nEst un empire érité de chale magne, neillant j'amait vraie eu une puissan santraliser forte (organiser par les dirigent de leider)","x":-2000,"y":-660,"width":354,"height":200},
@@ -39,11 +39,15 @@
 		{"id":"8fcc070fd9de2f16","x":26,"y":3792,"width":250,"height":60,"type":"text","text":"le pacte de varsovie en 1955 (pays de l'Est),  otan 1949"},
 		{"id":"5448726d87e1114d","x":-20,"y":3900,"width":250,"height":104,"type":"text","text":"On parle de miracle économique "},
 		{"id":"42a3590535491373","x":360,"y":3733,"width":250,"height":119,"type":"text","text":"Il sont passer du Reichsmark au D-Marck,  10 Reichsmark = 1 D-Marck."},
-		{"id":"8896cfb2e6eacc5a","x":360,"y":3862,"width":250,"height":181,"color":"1","type":"text","text":"Une figure clée de se mouvemnt de ratrapage économique était Ludwig Erhard, le ministre de l'Economique"}
+		{"id":"8896cfb2e6eacc5a","x":380,"y":3862,"width":250,"height":181,"color":"1","type":"text","text":"Une figure clée de se mouvemnt de ratrapage économique était Ludwig Erhard, le ministre de l'Economique"},
+		{"id":"2c8c6e65c5ab2766","x":700,"y":3900,"width":250,"height":60,"color":"3","type":"text","text":"Le plane Marcshall de 13 milliards de dollars"},
+		{"id":"f35e6f1f12641077","x":540,"y":4120,"width":321,"height":134,"color":"5","type":"text","text":"ce rattrapage économique à conduis à un environnement très favorable au plaine emploie, à la consommation calquer sur le mondiale américain  "}
 	],
 	"edges":[
 		{"id":"f724a1bddf696854","fromNode":"f75bad1dd901c118","fromSide":"left","toNode":"8c2adb7efb3507a1","toSide":"top"},
 		{"id":"9bccf7b8ec37b491","fromNode":"535112f07e12386b","fromSide":"bottom","toNode":"2796c4c91ca1b431","toSide":"top"},
-		{"id":"e4ccadc6412fbcc3","fromNode":"535112f07e12386b","fromSide":"bottom","toNode":"4a43817c53a92970","toSide":"top"}
+		{"id":"e4ccadc6412fbcc3","fromNode":"535112f07e12386b","fromSide":"bottom","toNode":"4a43817c53a92970","toSide":"top"},
+		{"id":"1bc0292c79e5ee53","fromNode":"8896cfb2e6eacc5a","fromSide":"right","toNode":"2c8c6e65c5ab2766","toSide":"left","color":"4"},
+		{"id":"895377a0e543e801","fromNode":"2c8c6e65c5ab2766","fromSide":"bottom","toNode":"f35e6f1f12641077","toSide":"top","color":"3"}
 	]
 }
