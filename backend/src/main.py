@@ -325,7 +325,7 @@ def analyze_vault(
         repository=repository,
         notes=notes,  # Ajout pour détection d'entités
     )
-    new_tag_suggestions = tag_generator.generate_suggestions(max_suggestions=50)
+    new_tag_suggestions = tag_generator.generate_suggestions()
 
     if verbose:
         cluster_count = sum(1 for s in new_tag_suggestions if s.get("source") == "cluster")
@@ -344,7 +344,7 @@ def analyze_vault(
         existing_tags=existing_tags,
         repository=repository,
     )
-    tag_assignments = tag_matcher.find_suggestions(max_suggestions=100)
+    tag_assignments = tag_matcher.find_suggestions()
 
     if verbose:
         print(f"   ✓ {len(tag_assignments)} attributions suggérées ({time.time() - step_start:.1f}s)")
@@ -500,7 +500,7 @@ class TagGeneratorV2:
         # Détecteur d'entités V1 avec listes hardcodées
         self.entity_detector = EntityDetector()
 
-    def generate_suggestions(self, max_suggestions: int = 50) -> list[dict]:
+    def generate_suggestions(self) -> list[dict]:
         """Génère des suggestions de nouveaux tags.
 
         Combine trois sources de suggestions :
@@ -520,21 +520,21 @@ class TagGeneratorV2:
 
         # 1. Suggestions basées sur les clusters (termes centroids)
         _t0 = _time.time()
-        cluster_suggestions = self._generate_cluster_suggestions(rejected_tags, max_suggestions)
+        cluster_suggestions = self._generate_cluster_suggestions(rejected_tags)
         suggestions.extend(cluster_suggestions)
         print(f"      8.1 Clusters: {len(cluster_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
 
         # 2. Suggestions basées sur les entités détectées (bases de référence)
         if self.notes:
             _t0 = _time.time()
-            entity_suggestions = self._generate_entity_suggestions(rejected_tags, max_suggestions)
+            entity_suggestions = self._generate_entity_suggestions(rejected_tags)
             suggestions.extend(entity_suggestions)
             print(f"      8.2 Entités: {len(entity_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
 
         # 3. NOUVEAU: Suggestions de tags émergents (patterns dans les clusters)
         if self.notes and self.clusters:
             _t0 = _time.time()
-            emergent_suggestions = self._generate_emergent_suggestions(rejected_tags, max_suggestions)
+            emergent_suggestions = self._generate_emergent_suggestions(rejected_tags)
             suggestions.extend(emergent_suggestions)
             print(f"      8.3 Émergents: {len(emergent_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
 
@@ -542,7 +542,7 @@ class TagGeneratorV2:
         # Important: les termes spécialisés peuvent être dans des notes isolées (hors clusters)
         if self.notes:
             _t0 = _time.time()
-            specialized_suggestions = self._detect_specialized_terms_all_notes(rejected_tags, max_suggestions)
+            specialized_suggestions = self._detect_specialized_terms_all_notes(rejected_tags)
             suggestions.extend(specialized_suggestions)
             print(f"      8.4 Spécialisés: {len(specialized_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
 
@@ -550,15 +550,15 @@ class TagGeneratorV2:
         suggestions = self._deduplicate_suggestions(suggestions)
         suggestions.sort(key=lambda x: x["confidence"], reverse=True)
 
-        return suggestions[:max_suggestions]
+        return suggestions
 
     def _generate_cluster_suggestions(
-        self, rejected_tags: set, max_suggestions: int
+        self, rejected_tags: set,
     ) -> list[dict]:
         """Génère des suggestions basées sur les clusters."""
         suggestions = []
 
-        for cluster in self.clusters[:max_suggestions * 2]:
+        for cluster in self.clusters:
             # Vérifie si le cluster a déjà un tag approprié
             if cluster.suggested_tags:
                 continue
@@ -595,13 +595,10 @@ class TagGeneratorV2:
                 },
             })
 
-            if len(suggestions) >= max_suggestions:
-                break
-
         return suggestions
 
     def _generate_entity_suggestions(
-        self, rejected_tags: set, max_suggestions: int
+        self, rejected_tags: set,
     ) -> list[dict]:
         """Génère des suggestions basées sur les entités détectées (V1 avec listes hardcodées)."""
         suggestions = []
@@ -705,13 +702,10 @@ class TagGeneratorV2:
                 },
             })
 
-            if len(suggestions) >= max_suggestions:
-                break
-
         return suggestions
 
     def _generate_emergent_suggestions(
-        self, rejected_tags: set, max_suggestions: int
+        self, rejected_tags: set,
     ) -> list[dict]:
         """Génère des suggestions de tags émergents basées sur l'analyse des clusters.
 
@@ -783,9 +777,6 @@ class TagGeneratorV2:
                     },
                 },
             })
-
-            if len(suggestions) >= max_suggestions:
-                break
 
         return suggestions
 
@@ -870,7 +861,7 @@ class TagGeneratorV2:
         return hashlib.md5(combined.encode()).hexdigest()[:16]
 
     def _detect_specialized_terms_all_notes(
-        self, rejected_tags: set, max_suggestions: int
+        self, rejected_tags: set,
     ) -> list[dict]:
         """Détecte les termes spécialisés sur TOUTES les notes individuellement.
 
@@ -1131,9 +1122,6 @@ class TagGeneratorV2:
                     },
                 })
 
-                if len(suggestions) >= max_suggestions:
-                    return suggestions
-
         return suggestions
 
     def _extract_keywords(self, text: str, min_length: int = 5, max_keywords: int = 50) -> list[str]:
@@ -1351,7 +1339,7 @@ class TagMatcherV2:
         self._vocab_detector = EmergentTagDetector(existing_tags=existing_tags)
         self._domain_vocab_cache: dict[str, dict] = {}  # Cache vocabulaire par domaine
 
-    def find_suggestions(self, max_suggestions: int = 100) -> list[dict]:
+    def find_suggestions(self) -> list[dict]:
         """Trouve des suggestions d'attribution de tags existants."""
         suggestions = []
 
@@ -1451,12 +1439,9 @@ class TagMatcherV2:
                     },
                 })
 
-                if len(suggestions) >= max_suggestions:
-                    return suggestions
-
         # Trie par confiance
         suggestions.sort(key=lambda x: x["confidence"], reverse=True)
-        return suggestions[:max_suggestions]
+        return suggestions
 
     def _is_likely_proper_noun(self, tag: str) -> bool:
         """Détecte si un tag ressemble à un nom propre (studio, marque, lieu, etc.).
