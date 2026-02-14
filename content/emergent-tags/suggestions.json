@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-14T20:30:25.725565",
+  "generated_at": "2026-02-14T22:01:08.725976",
   "vault_hash": "9d36c779",
   "suggestions": {
     "new_tags": [
@@ -30,7 +30,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725604",
+        "first_detected": "2026-02-14T22:01:08.726017",
         "source": "heuristic"
       },
       {
@@ -59,7 +59,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725609",
+        "first_detected": "2026-02-14T22:01:08.726022",
         "source": "heuristic"
       },
       {
@@ -88,7 +88,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725613",
+        "first_detected": "2026-02-14T22:01:08.726025",
         "source": "heuristic"
       },
       {
@@ -117,7 +117,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725617",
+        "first_detected": "2026-02-14T22:01:08.726028",
         "source": "heuristic"
       },
       {
@@ -146,7 +146,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725620",
+        "first_detected": "2026-02-14T22:01:08.726032",
         "source": "heuristic"
       },
       {
@@ -175,7 +175,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725624",
+        "first_detected": "2026-02-14T22:01:08.726035",
         "source": "heuristic"
       },
       {
@@ -204,40 +204,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725627",
+        "first_detected": "2026-02-14T22:01:08.726039",
         "source": "heuristic"
       },
       {
         "id": "lt_ent_009",
-        "name": "entité\\urss",
-        "confidence": 0.89,
-        "notes": [
-          "fonctionnement-tag.md",
-          "YouTube Notes/Timestamps 2.md",
-          "mange manger manger/Paella.md",
-          "mange manger manger/Traite de Versailles.md",
-          "mange manger manger/Grand requin blanc.md",
-          "mange manger manger/Organisation des Nations unies.md",
-          "mange manger manger/Uranium.md",
-          "mange manger manger/Democratie.md",
-          "mange manger manger/Declaration des droits de lhomme.md",
-          "mange manger manger/Empire romain.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 25 notes",
-          "details": {
-            "entity_type": "entity",
-            "raw_text": "urss",
-            "total_occurrences": 84,
-            "notes_count": 25
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725633",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_010",
         "name": "entité\\prusse",
         "confidence": 0.89,
         "notes": [
@@ -262,7 +233,36 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725637",
+        "first_detected": "2026-02-14T22:01:08.726045",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_010",
+        "name": "entité\\urss",
+        "confidence": 0.89,
+        "notes": [
+          "fonctionnement-tag.md",
+          "YouTube Notes/Timestamps 2.md",
+          "mange manger manger/Paella.md",
+          "mange manger manger/Traite de Versailles.md",
+          "mange manger manger/Grand requin blanc.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Uranium.md",
+          "mange manger manger/Democratie.md",
+          "mange manger manger/Declaration des droits de lhomme.md",
+          "mange manger manger/Empire romain.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 25 notes",
+          "details": {
+            "entity_type": "entity",
+            "raw_text": "urss",
+            "total_occurrences": 84,
+            "notes_count": 25
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-14T22:01:08.726049",
         "source": "heuristic"
       },
       {
@@ -291,7 +291,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725641",
+        "first_detected": "2026-02-14T22:01:08.726052",
         "source": "heuristic"
       },
       {
@@ -320,11 +320,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725644",
+        "first_detected": "2026-02-14T22:01:08.726056",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_007",
         "name": "proposition",
         "confidence": 0.88,
         "notes": [
@@ -349,40 +349,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725647",
+        "first_detected": "2026-02-14T22:01:08.726059",
         "source": "heuristic"
       },
       {
         "id": "lt_ent_012",
-        "name": "baroque",
-        "confidence": 0.88,
-        "notes": [
-          "fonctionnement-tag.md",
-          "Clippings/Sonnet — Wikipédia.md",
-          "mange manger manger/Accord general sur les tarifs douaniers.md",
-          "mange manger manger/Guitare.md",
-          "mange manger manger/Benzene.md",
-          "mange manger manger/James Cook.md",
-          "mange manger manger/Violon.md",
-          "mange manger manger/Renaissance.md",
-          "mange manger manger/Tour Eiffel.md",
-          "mange manger manger/Chateau de Versailles.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 14 notes",
-          "details": {
-            "entity_type": "artwork",
-            "raw_text": "baroque",
-            "total_occurrences": 27,
-            "notes_count": 14
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725650",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_013",
         "name": "byzantin",
         "confidence": 0.88,
         "notes": [
@@ -407,7 +378,36 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725653",
+        "first_detected": "2026-02-14T22:01:08.726062",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_013",
+        "name": "baroque",
+        "confidence": 0.88,
+        "notes": [
+          "fonctionnement-tag.md",
+          "Clippings/Sonnet — Wikipédia.md",
+          "mange manger manger/Accord general sur les tarifs douaniers.md",
+          "mange manger manger/Guitare.md",
+          "mange manger manger/Benzene.md",
+          "mange manger manger/James Cook.md",
+          "mange manger manger/Violon.md",
+          "mange manger manger/Renaissance.md",
+          "mange manger manger/Tour Eiffel.md",
+          "mange manger manger/Chateau de Versailles.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 14 notes",
+          "details": {
+            "entity_type": "artwork",
+            "raw_text": "baroque",
+            "total_occurrences": 27,
+            "notes_count": 14
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-14T22:01:08.726065",
         "source": "heuristic"
       },
       {
@@ -436,7 +436,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725656",
+        "first_detected": "2026-02-14T22:01:08.726069",
         "source": "heuristic"
       },
       {
@@ -465,7 +465,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725659",
+        "first_detected": "2026-02-14T22:01:08.726071",
         "source": "heuristic"
       },
       {
@@ -493,7 +493,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725662",
+        "first_detected": "2026-02-14T22:01:08.726074",
         "source": "heuristic"
       },
       {
@@ -520,7 +520,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725666",
+        "first_detected": "2026-02-14T22:01:08.726078",
         "source": "heuristic"
       },
       {
@@ -549,7 +549,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725669",
+        "first_detected": "2026-02-14T22:01:08.726080",
         "source": "heuristic"
       },
       {
@@ -576,7 +576,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725672",
+        "first_detected": "2026-02-14T22:01:08.726083",
         "source": "heuristic"
       },
       {
@@ -605,7 +605,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725675",
+        "first_detected": "2026-02-14T22:01:08.726086",
         "source": "heuristic"
       },
       {
@@ -632,7 +632,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725678",
+        "first_detected": "2026-02-14T22:01:08.726089",
         "source": "heuristic"
       },
       {
@@ -659,7 +659,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725681",
+        "first_detected": "2026-02-14T22:01:08.726092",
         "source": "heuristic"
       },
       {
@@ -685,7 +685,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725684",
+        "first_detected": "2026-02-14T22:01:08.726094",
         "source": "heuristic"
       },
       {
@@ -29571,7 +29571,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725688",
+        "first_detected": "2026-02-14T22:01:08.726098",
         "source": "emergent"
       },
       {
@@ -29632,7 +29632,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725691",
+        "first_detected": "2026-02-14T22:01:08.726101",
         "source": "emergent"
       },
       {
@@ -29693,7 +29693,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725694",
+        "first_detected": "2026-02-14T22:01:08.726104",
         "source": "emergent"
       },
       {
@@ -29754,7 +29754,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725697",
+        "first_detected": "2026-02-14T22:01:08.726107",
         "source": "emergent"
       },
       {
@@ -29815,7 +29815,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725700",
+        "first_detected": "2026-02-14T22:01:08.726110",
         "source": "emergent"
       },
       {
@@ -29876,7 +29876,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725703",
+        "first_detected": "2026-02-14T22:01:08.726113",
         "source": "emergent"
       },
       {
@@ -29937,7 +29937,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725706",
+        "first_detected": "2026-02-14T22:01:08.726117",
         "source": "emergent"
       },
       {
@@ -29959,7 +29959,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725711",
+        "first_detected": "2026-02-14T22:01:08.726120",
         "source": "specialized_term"
       },
       {
@@ -29982,7 +29982,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725715",
+        "first_detected": "2026-02-14T22:01:08.726123",
         "source": "specialized_term"
       },
       {
@@ -30008,7 +30008,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725718",
+        "first_detected": "2026-02-14T22:01:08.726126",
         "source": "specialized_term"
       },
       {
@@ -30037,7 +30037,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725721",
+        "first_detected": "2026-02-14T22:01:08.726129",
         "source": "specialized_term"
       },
       {
@@ -30060,7 +30060,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725724",
+        "first_detected": "2026-02-14T22:01:08.726132",
         "source": "specialized_term"
       },
       {
@@ -30083,7 +30083,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725727",
+        "first_detected": "2026-02-14T22:01:08.726135",
         "source": "specialized_term"
       },
       {
@@ -30106,7 +30106,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725729",
+        "first_detected": "2026-02-14T22:01:08.726138",
         "source": "specialized_term"
       },
       {
@@ -30129,7 +30129,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725732",
+        "first_detected": "2026-02-14T22:01:08.726140",
         "source": "specialized_term"
       },
       {
@@ -30157,7 +30157,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725735",
+        "first_detected": "2026-02-14T22:01:08.726143",
         "source": "specialized_term"
       },
       {
@@ -30181,7 +30181,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725738",
+        "first_detected": "2026-02-14T22:01:08.726146",
         "source": "specialized_term"
       },
       {
@@ -30203,7 +30203,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725741",
+        "first_detected": "2026-02-14T22:01:08.726149",
         "source": "specialized_term"
       },
       {
@@ -30225,7 +30225,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725744",
+        "first_detected": "2026-02-14T22:01:08.726152",
         "source": "specialized_term"
       },
       {
@@ -30247,7 +30247,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725748",
+        "first_detected": "2026-02-14T22:01:08.726155",
         "source": "specialized_term"
       },
       {
@@ -30269,7 +30269,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725751",
+        "first_detected": "2026-02-14T22:01:08.726158",
         "source": "specialized_term"
       },
       {
@@ -30291,7 +30291,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725754",
+        "first_detected": "2026-02-14T22:01:08.726161",
         "source": "specialized_term"
       },
       {
@@ -30313,7 +30313,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725758",
+        "first_detected": "2026-02-14T22:01:08.726164",
         "source": "specialized_term"
       },
       {
@@ -30335,7 +30335,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725761",
+        "first_detected": "2026-02-14T22:01:08.726167",
         "source": "specialized_term"
       },
       {
@@ -30358,7 +30358,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725764",
+        "first_detected": "2026-02-14T22:01:08.726169",
         "source": "specialized_term"
       },
       {
@@ -30380,7 +30380,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725767",
+        "first_detected": "2026-02-14T22:01:08.726172",
         "source": "specialized_term"
       },
       {
@@ -30402,7 +30402,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725770",
+        "first_detected": "2026-02-14T22:01:08.726175",
         "source": "specialized_term"
       },
       {
@@ -30424,7 +30424,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725773",
+        "first_detected": "2026-02-14T22:01:08.726178",
         "source": "specialized_term"
       },
       {
@@ -30446,7 +30446,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725776",
+        "first_detected": "2026-02-14T22:01:08.726181",
         "source": "specialized_term"
       },
       {
@@ -30468,7 +30468,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725780",
+        "first_detected": "2026-02-14T22:01:08.726183",
         "source": "specialized_term"
       },
       {
@@ -30490,7 +30490,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725783",
+        "first_detected": "2026-02-14T22:01:08.726186",
         "source": "specialized_term"
       },
       {
@@ -30514,7 +30514,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725787",
+        "first_detected": "2026-02-14T22:01:08.726189",
         "source": "specialized_term"
       },
       {
@@ -30537,7 +30537,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725790",
+        "first_detected": "2026-02-14T22:01:08.726192",
         "source": "specialized_term"
       },
       {
@@ -30559,7 +30559,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725792",
+        "first_detected": "2026-02-14T22:01:08.726194",
         "source": "specialized_term"
       },
       {
@@ -30581,7 +30581,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725795",
+        "first_detected": "2026-02-14T22:01:08.726197",
         "source": "specialized_term"
       },
       {
@@ -30603,7 +30603,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725799",
+        "first_detected": "2026-02-14T22:01:08.726200",
         "source": "specialized_term"
       },
       {
@@ -30625,7 +30625,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725802",
+        "first_detected": "2026-02-14T22:01:08.726203",
         "source": "specialized_term"
       },
       {
@@ -30647,7 +30647,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725805",
+        "first_detected": "2026-02-14T22:01:08.726206",
         "source": "specialized_term"
       },
       {
@@ -30669,7 +30669,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725808",
+        "first_detected": "2026-02-14T22:01:08.726208",
         "source": "specialized_term"
       },
       {
@@ -30691,7 +30691,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725811",
+        "first_detected": "2026-02-14T22:01:08.726211",
         "source": "specialized_term"
       },
       {
@@ -30713,7 +30713,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725815",
+        "first_detected": "2026-02-14T22:01:08.726214",
         "source": "specialized_term"
       },
       {
@@ -30735,7 +30735,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725818",
+        "first_detected": "2026-02-14T22:01:08.726218",
         "source": "specialized_term"
       },
       {
@@ -30757,7 +30757,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725822",
+        "first_detected": "2026-02-14T22:01:08.726220",
         "source": "specialized_term"
       },
       {
@@ -30779,7 +30779,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725825",
+        "first_detected": "2026-02-14T22:01:08.726223",
         "source": "specialized_term"
       },
       {
@@ -30801,7 +30801,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725828",
+        "first_detected": "2026-02-14T22:01:08.726226",
         "source": "specialized_term"
       },
       {
@@ -30823,7 +30823,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725832",
+        "first_detected": "2026-02-14T22:01:08.726229",
         "source": "specialized_term"
       },
       {
@@ -30845,7 +30845,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725835",
+        "first_detected": "2026-02-14T22:01:08.726233",
         "source": "specialized_term"
       },
       {
@@ -30867,11 +30867,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725838",
+        "first_detected": "2026-02-14T22:01:08.726236",
         "source": "specialized_term"
       },
       {
-        "id": "lt_ent_008",
+        "id": "lt_ent_006",
         "name": "fibre",
         "confidence": 0.84,
         "notes": [
@@ -30895,7 +30895,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725841",
+        "first_detected": "2026-02-14T22:01:08.726239",
         "source": "heuristic"
       },
       {
@@ -30958,7 +30958,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725844",
+        "first_detected": "2026-02-14T22:01:08.726242",
         "source": "emergent"
       },
       {
@@ -31021,7 +31021,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725847",
+        "first_detected": "2026-02-14T22:01:08.726244",
         "source": "emergent"
       },
       {
@@ -31084,7 +31084,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725850",
+        "first_detected": "2026-02-14T22:01:08.726247",
         "source": "emergent"
       },
       {
@@ -31147,7 +31147,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725853",
+        "first_detected": "2026-02-14T22:01:08.726250",
         "source": "emergent"
       },
       {
@@ -31210,7 +31210,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725856",
+        "first_detected": "2026-02-14T22:01:08.726254",
         "source": "emergent"
       },
       {
@@ -31273,7 +31273,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725860",
+        "first_detected": "2026-02-14T22:01:08.726257",
         "source": "emergent"
       },
       {
@@ -31294,7 +31294,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725862",
+        "first_detected": "2026-02-14T22:01:08.726260",
         "source": "heuristic"
       },
       {
@@ -31319,7 +31319,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725865",
+        "first_detected": "2026-02-14T22:01:08.726262",
         "source": "heuristic"
       },
       {
@@ -31344,7 +31344,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725868",
+        "first_detected": "2026-02-14T22:01:08.726265",
         "source": "heuristic"
       },
       {
@@ -31369,7 +31369,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725871",
+        "first_detected": "2026-02-14T22:01:08.726268",
         "source": "heuristic"
       },
       {
@@ -31390,7 +31390,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725874",
+        "first_detected": "2026-02-14T22:01:08.726270",
         "source": "heuristic"
       },
       {
@@ -31412,7 +31412,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725877",
+        "first_detected": "2026-02-14T22:01:08.726273",
         "source": "heuristic"
       },
       {
@@ -31434,7 +31434,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725880",
+        "first_detected": "2026-02-14T22:01:08.726276",
         "source": "heuristic"
       },
       {
@@ -31456,7 +31456,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725883",
+        "first_detected": "2026-02-14T22:01:08.726279",
         "source": "heuristic"
       },
       {
@@ -31479,7 +31479,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725885",
+        "first_detected": "2026-02-14T22:01:08.726282",
         "source": "heuristic"
       },
       {
@@ -31501,7 +31501,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725888",
+        "first_detected": "2026-02-14T22:01:08.726285",
         "source": "heuristic"
       },
       {
@@ -31523,11 +31523,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725892",
+        "first_detected": "2026-02-14T22:01:08.726288",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_007",
+        "id": "lt_ent_008",
         "name": "tenseur",
         "confidence": 0.75,
         "notes": [
@@ -31544,7 +31544,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725894",
+        "first_detected": "2026-02-14T22:01:08.726290",
         "source": "heuristic"
       },
       {
@@ -31565,7 +31565,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725897",
+        "first_detected": "2026-02-14T22:01:08.726293",
         "source": "heuristic"
       },
       {
@@ -31586,7 +31586,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725900",
+        "first_detected": "2026-02-14T22:01:08.726296",
         "source": "heuristic"
       },
       {
@@ -31620,7 +31620,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725904",
+        "first_detected": "2026-02-14T22:01:08.726299",
         "source": "emergent"
       },
       {
@@ -31654,7 +31654,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725907",
+        "first_detected": "2026-02-14T22:01:08.726302",
         "source": "emergent"
       },
       {
@@ -31678,7 +31678,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725910",
+        "first_detected": "2026-02-14T22:01:08.726305",
         "source": "heuristic"
       },
       {
@@ -31699,7 +31699,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725914",
+        "first_detected": "2026-02-14T22:01:08.726307",
         "source": "heuristic"
       },
       {
@@ -31721,7 +31721,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725917",
+        "first_detected": "2026-02-14T22:01:08.726310",
         "source": "heuristic"
       },
       {
@@ -31742,7 +31742,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725919",
+        "first_detected": "2026-02-14T22:01:08.726312",
         "source": "heuristic"
       },
       {
@@ -31797,7 +31797,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725922",
+        "first_detected": "2026-02-14T22:01:08.726316",
         "source": "emergent"
       },
       {
@@ -31852,7 +31852,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725925",
+        "first_detected": "2026-02-14T22:01:08.726319",
         "source": "emergent"
       },
       {
@@ -31907,7 +31907,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725928",
+        "first_detected": "2026-02-14T22:01:08.726322",
         "source": "emergent"
       },
       {
@@ -31962,7 +31962,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725931",
+        "first_detected": "2026-02-14T22:01:08.726324",
         "source": "emergent"
       },
       {
@@ -31984,7 +31984,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725934",
+        "first_detected": "2026-02-14T22:01:08.726327",
         "source": "heuristic"
       },
       {
@@ -32007,7 +32007,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725937",
+        "first_detected": "2026-02-14T22:01:08.726330",
         "source": "heuristic"
       },
       {
@@ -32030,7 +32030,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725939",
+        "first_detected": "2026-02-14T22:01:08.726332",
         "source": "heuristic"
       },
       {
@@ -32053,7 +32053,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725942",
+        "first_detected": "2026-02-14T22:01:08.726335",
         "source": "heuristic"
       },
       {
@@ -32075,7 +32075,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725945",
+        "first_detected": "2026-02-14T22:01:08.726338",
         "source": "heuristic"
       },
       {
@@ -32096,7 +32096,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725948",
+        "first_detected": "2026-02-14T22:01:08.726341",
         "source": "heuristic"
       },
       {
@@ -32118,7 +32118,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725950",
+        "first_detected": "2026-02-14T22:01:08.726343",
         "source": "heuristic"
       },
       {
@@ -32140,7 +32140,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725953",
+        "first_detected": "2026-02-14T22:01:08.726346",
         "source": "heuristic"
       },
       {
@@ -32162,7 +32162,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725956",
+        "first_detected": "2026-02-14T22:01:08.726349",
         "source": "heuristic"
       },
       {
@@ -32183,7 +32183,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725959",
+        "first_detected": "2026-02-14T22:01:08.726352",
         "source": "heuristic"
       },
       {
@@ -32205,7 +32205,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725962",
+        "first_detected": "2026-02-14T22:01:08.726354",
         "source": "heuristic"
       },
       {
@@ -32226,7 +32226,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725965",
+        "first_detected": "2026-02-14T22:01:08.726357",
         "source": "heuristic"
       },
       {
@@ -32249,7 +32249,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725967",
+        "first_detected": "2026-02-14T22:01:08.726359",
         "source": "heuristic"
       },
       {
@@ -32271,7 +32271,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725970",
+        "first_detected": "2026-02-14T22:01:08.726362",
         "source": "heuristic"
       },
       {
@@ -32293,7 +32293,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725973",
+        "first_detected": "2026-02-14T22:01:08.726365",
         "source": "heuristic"
       },
       {
@@ -32314,7 +32314,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725975",
+        "first_detected": "2026-02-14T22:01:08.726368",
         "source": "heuristic"
       },
       {
@@ -32335,7 +32335,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725978",
+        "first_detected": "2026-02-14T22:01:08.726370",
         "source": "heuristic"
       },
       {
@@ -32356,7 +32356,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725981",
+        "first_detected": "2026-02-14T22:01:08.726373",
         "source": "heuristic"
       },
       {
@@ -32378,7 +32378,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725983",
+        "first_detected": "2026-02-14T22:01:08.726376",
         "source": "heuristic"
       },
       {
@@ -32400,7 +32400,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725986",
+        "first_detected": "2026-02-14T22:01:08.726378",
         "source": "heuristic"
       },
       {
@@ -32421,7 +32421,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725989",
+        "first_detected": "2026-02-14T22:01:08.726381",
         "source": "heuristic"
       },
       {
@@ -32442,7 +32442,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725992",
+        "first_detected": "2026-02-14T22:01:08.726384",
         "source": "heuristic"
       },
       {
@@ -32463,7 +32463,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725995",
+        "first_detected": "2026-02-14T22:01:08.726386",
         "source": "heuristic"
       },
       {
@@ -32485,7 +32485,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.725997",
+        "first_detected": "2026-02-14T22:01:08.726389",
         "source": "heuristic"
       },
       {
@@ -32507,7 +32507,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726000",
+        "first_detected": "2026-02-14T22:01:08.726392",
         "source": "heuristic"
       },
       {
@@ -32529,7 +32529,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726003",
+        "first_detected": "2026-02-14T22:01:08.726395",
         "source": "heuristic"
       },
       {
@@ -32551,7 +32551,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726009",
+        "first_detected": "2026-02-14T22:01:08.726398",
         "source": "heuristic"
       },
       {
@@ -32596,7 +32596,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726012",
+        "first_detected": "2026-02-14T22:01:08.726401",
         "source": "emergent"
       },
       {
@@ -32641,7 +32641,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726015",
+        "first_detected": "2026-02-14T22:01:08.726404",
         "source": "emergent"
       },
       {
@@ -32686,7 +32686,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726019",
+        "first_detected": "2026-02-14T22:01:08.726407",
         "source": "emergent"
       },
       {
@@ -32731,7 +32731,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726021",
+        "first_detected": "2026-02-14T22:01:08.726410",
         "source": "emergent"
       },
       {
@@ -32777,7 +32777,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726025",
+        "first_detected": "2026-02-14T22:01:08.726413",
         "source": "emergent"
       },
       {
@@ -32824,7 +32824,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726027",
+        "first_detected": "2026-02-14T22:01:08.726416",
         "source": "emergent"
       },
       {
@@ -32845,7 +32845,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726030",
+        "first_detected": "2026-02-14T22:01:08.726419",
         "source": "heuristic"
       },
       {
@@ -32866,7 +32866,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726032",
+        "first_detected": "2026-02-14T22:01:08.726421",
         "source": "heuristic"
       },
       {
@@ -32888,7 +32888,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726035",
+        "first_detected": "2026-02-14T22:01:08.726424",
         "source": "heuristic"
       },
       {
@@ -32909,7 +32909,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726037",
+        "first_detected": "2026-02-14T22:01:08.726427",
         "source": "heuristic"
       },
       {
@@ -32931,7 +32931,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726040",
+        "first_detected": "2026-02-14T22:01:08.726430",
         "source": "heuristic"
       },
       {
@@ -32952,7 +32952,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726043",
+        "first_detected": "2026-02-14T22:01:08.726433",
         "source": "heuristic"
       },
       {
@@ -32973,7 +32973,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726046",
+        "first_detected": "2026-02-14T22:01:08.726436",
         "source": "heuristic"
       },
       {
@@ -32994,7 +32994,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726048",
+        "first_detected": "2026-02-14T22:01:08.726439",
         "source": "heuristic"
       },
       {
@@ -33015,7 +33015,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726051",
+        "first_detected": "2026-02-14T22:01:08.726442",
         "source": "heuristic"
       },
       {
@@ -33036,7 +33036,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726054",
+        "first_detected": "2026-02-14T22:01:08.726445",
         "source": "heuristic"
       },
       {
@@ -33057,7 +33057,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726057",
+        "first_detected": "2026-02-14T22:01:08.726448",
         "source": "heuristic"
       },
       {
@@ -33078,7 +33078,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726060",
+        "first_detected": "2026-02-14T22:01:08.726450",
         "source": "heuristic"
       },
       {
@@ -33099,7 +33099,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726062",
+        "first_detected": "2026-02-14T22:01:08.726453",
         "source": "heuristic"
       },
       {
@@ -33120,7 +33120,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726065",
+        "first_detected": "2026-02-14T22:01:08.726456",
         "source": "heuristic"
       },
       {
@@ -33141,7 +33141,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726068",
+        "first_detected": "2026-02-14T22:01:08.726458",
         "source": "heuristic"
       },
       {
@@ -33162,7 +33162,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726070",
+        "first_detected": "2026-02-14T22:01:08.726461",
         "source": "heuristic"
       },
       {
@@ -33183,7 +33183,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726073",
+        "first_detected": "2026-02-14T22:01:08.726464",
         "source": "heuristic"
       },
       {
@@ -33204,7 +33204,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726075",
+        "first_detected": "2026-02-14T22:01:08.726466",
         "source": "heuristic"
       },
       {
@@ -33225,7 +33225,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726078",
+        "first_detected": "2026-02-14T22:01:08.726469",
         "source": "heuristic"
       },
       {
@@ -33246,7 +33246,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726081",
+        "first_detected": "2026-02-14T22:01:08.726471",
         "source": "heuristic"
       },
       {
@@ -33267,7 +33267,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726083",
+        "first_detected": "2026-02-14T22:01:08.726474",
         "source": "heuristic"
       },
       {
@@ -33288,7 +33288,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726086",
+        "first_detected": "2026-02-14T22:01:08.726477",
         "source": "heuristic"
       },
       {
@@ -33309,7 +33309,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726088",
+        "first_detected": "2026-02-14T22:01:08.726480",
         "source": "heuristic"
       },
       {
@@ -33330,7 +33330,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726091",
+        "first_detected": "2026-02-14T22:01:08.726482",
         "source": "heuristic"
       },
       {
@@ -33351,7 +33351,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726094",
+        "first_detected": "2026-02-14T22:01:08.726485",
         "source": "heuristic"
       },
       {
@@ -33372,7 +33372,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726097",
+        "first_detected": "2026-02-14T22:01:08.726488",
         "source": "heuristic"
       },
       {
@@ -33393,7 +33393,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726100",
+        "first_detected": "2026-02-14T22:01:08.726491",
         "source": "heuristic"
       },
       {
@@ -33414,7 +33414,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-14T20:30:25.726102",
+        "first_detected": "2026-02-14T22:01:08.726494",
         "source": "heuristic"
       }
     ],
@@ -33601,18 +33601,18 @@
         "id": "ta_000",
         "note": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/BoJack Horseman.md",
         "tag": "audiovisuel",
-        "confidence": 0.6035064816474914,
+        "confidence": 0.6035065191984176,
         "reasoning": {
           "summary": "2 notes similaires ont ce tag",
           "details": {
             "matching_notes": [
               {
                 "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md",
-                "similarity": 0.5957633256912231
+                "similarity": 0.59576336145401
               },
               {
                 "path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md",
-                "similarity": 0.5571123361587524
+                "similarity": 0.5571124076843261
               }
             ]
           }
@@ -33689,7 +33689,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-14T20:27:21.809035",
+          "last_used": "2026-02-14T21:58:40.757596",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -33708,7 +33708,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-14T20:27:21.816368",
+          "last_used": "2026-02-14T21:58:40.823337",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -33727,7 +33727,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-14T20:27:21.646915",
+          "last_used": "2026-02-14T21:58:40.732449",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete.md"
@@ -33746,7 +33746,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-14T20:27:21.728781",
+          "last_used": "2026-02-14T21:58:40.582810",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Guitare.md"
@@ -33765,7 +33765,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-14T20:27:21.725580",
+          "last_used": "2026-02-14T21:58:40.810994",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Toyota.md"
@@ -33784,7 +33784,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-14T20:27:21.710191",
+          "last_used": "2026-02-14T21:58:40.679528",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Imprimerie.md"
@@ -33803,7 +33803,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-14T20:27:21.613442",
+          "last_used": "2026-02-14T21:58:40.715859",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Go strategie.md"
@@ -33822,7 +33822,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-14T20:27:21.707461",
+          "last_used": "2026-02-14T21:58:40.808932",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Isaac Newton.md"
@@ -33838,33 +33838,7 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_7177",
-        "tags": [
-          "concept",
-          "economie/concept"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "concept": 12,
-          "economie/concept": 3
-        },
-        "recommended": "concept"
-      },
-      {
-        "id": "rg_9036",
-        "tags": [
-          "musique/oeuvre",
-          "oeuvre"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "musique/oeuvre": 4,
-          "oeuvre": 8
-        },
-        "recommended": "oeuvre"
-      },
-      {
-        "id": "rg_7896",
+        "id": "rg_0822",
         "tags": [
           "histoire/personne/politique",
           "economie/politique"
@@ -33877,22 +33851,48 @@
         "recommended": "economie/politique"
       },
       {
-        "id": "rg_2228",
+        "id": "rg_7111",
         "tags": [
+          "/",
           "------------------------------------------",
-          "------------------------------",
-          "/"
+          "------------------------------"
         ],
         "similarity": 1.0,
         "usage_counts": {
+          "/": 1,
           "------------------------------------------": 2,
-          "------------------------------": 2,
-          "/": 1
+          "------------------------------": 2
         },
         "recommended": "------------------------------------------"
       },
       {
-        "id": "rg_5884",
+        "id": "rg_2162",
+        "tags": [
+          "concept",
+          "economie/concept"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "concept": 12,
+          "economie/concept": 3
+        },
+        "recommended": "concept"
+      },
+      {
+        "id": "rg_0963",
+        "tags": [
+          "musique/oeuvre",
+          "oeuvre"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "musique/oeuvre": 4,
+          "oeuvre": 8
+        },
+        "recommended": "oeuvre"
+      },
+      {
+        "id": "rg_9836",
         "tags": [
           "science/personne/mathematiques",
           "mathematiques"
@@ -33903,21 +33903,6 @@
           "mathematiques": 1
         },
         "recommended": "science/personne/mathematiques"
-      },
-      {
-        "id": "rg_2151",
-        "tags": [
-          "Mammif",
-          "exclrw",
-          "Comportement"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "Mammif": 2,
-          "exclrw": 2,
-          "Comportement": 2
-        },
-        "recommended": "Mammif"
       }
     ]
   },
@@ -33979,8 +33964,8 @@
       ],
       "suggested_tags": [
         "livre",
-        "note-livre",
-        "note-The_Wealth_of_Nations"
+        "note-The_Wealth_of_Nations",
+        "note-livre"
       ]
     },
     {
@@ -34004,9 +33989,9 @@
         "**monster**"
       ],
       "suggested_tags": [
+        "Kuniaki-Haishima",
         "Psychological-Thriller",
-        "Crime-Mystery",
-        "Kuniaki-Haishima"
+        "Masayuki-Kojima"
       ]
     },
     {
@@ -34025,9 +34010,9 @@
         "caroro"
       ],
       "suggested_tags": [
-        "cite_note-7",
         "cite_note-3",
-        "cite_note-22"
+        "cite_note-8",
+        "cite_note-19"
       ]
     },
     {
