@@ -583,7 +583,7 @@ class TagGeneratorV2:
                 "id": f"lt_{len(suggestions):03d}",
                 "name": tag_name,
                 "confidence": confidence,
-                "notes": cluster.notes[:10],
+                "notes": cluster.notes,
                 "source": "cluster",
                 "reasoning": {
                     "summary": f"Cluster de {cluster.size} notes avec termes communs: {', '.join(cluster.centroid_terms[:3])}",
@@ -689,7 +689,7 @@ class TagGeneratorV2:
                 "id": f"lt_ent_{len(suggestions):03d}",
                 "name": tag,
                 "confidence": round(confidence, 2),
-                "notes": note_paths[:10],
+                "notes": note_paths,
                 "source": "heuristic",
                 "reasoning": {
                     "summary": f"{family_label} détecté(e) dans {len(note_paths)} notes",
@@ -765,7 +765,7 @@ class TagGeneratorV2:
                 "id": f"lt_emg_{len(suggestions):03d}",
                 "name": tag,
                 "confidence": round(emergent.confidence, 2),
-                "notes": emergent.notes[:10],
+                "notes": emergent.notes,
                 "source": "emergent",
                 "reasoning": {
                     "summary": emergent.reasoning,
