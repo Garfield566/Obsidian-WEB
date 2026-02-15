@@ -1361,11 +1361,16 @@ class EmergentTagDetector:
             )
 
             if not is_valid:
+                if len(vsc_found) + len(vsca_found) > 0:
+                    print(f"      ❌ SEUIL NON ATTEINT: {domain_name} ({len(vsc_found)} VSC + {len(vsca_found)} VSCA) - {validation_reason}")
                 continue
+
+            print(f"      ✅ DOMAINE VALIDE: {domain_name} ({len(vsc_found)} VSC + {len(vsca_found)} VSCA)")
 
             # Vérifie que le tag n'existe pas déjà
             domain_tag = domain_name
             if self._normalize(domain_tag) in self._existing_tags_normalized:
+                print(f"      ⏭️  SKIP (tag existant): {domain_name}")
                 continue
 
             # Calcule le score total (pour le tri et la dominance)
@@ -1386,6 +1391,12 @@ class EmergentTagDetector:
         # Trie par score décroissant pour identifier le domaine dominant
         domain_matches.sort(key=lambda x: x["total_vocab"], reverse=True)
 
+        print(f"      📊 PHASE 2: {len(domain_matches)} domaines validés avant filtrage weak")
+        for m in domain_matches[:10]:
+            print(f"         {m['name']:30s} score={m['total_vocab']:3d} weak={m['is_weak']}")
+        if len(domain_matches) > 10:
+            print(f"         ... et {len(domain_matches) - 10} autres")
+
         # Le meilleur score (domaine dominant)
         best_score = domain_matches[0]["total_vocab"] if domain_matches else 0
         # Le 2ème meilleur score (pour comparaison)
@@ -1402,9 +1413,11 @@ class EmergentTagDetector:
                 # Le domaine faible doit être le meilleur ET avoir 2x le score du 2ème
                 if total_vocab != best_score:
                     # Ce n'est pas le domaine dominant, skip
+                    print(f"      ❌ WEAK FILTRÉ (pas dominant): {domain_name} score={total_vocab} vs best={best_score}")
                     continue
                 if second_best_score > 0 and total_vocab < second_best_score * self.WEAK_DOMAIN_DOMINANCE_RATIO:
                     # Pas assez dominant par rapport au 2ème domaine
+                    print(f"      ❌ WEAK FILTRÉ (ratio): {domain_name} score={total_vocab} vs 2nd={second_best_score} (ratio={self.WEAK_DOMAIN_DOMINANCE_RATIO})")
                     continue
 
             # Calcule la confiance basée sur la quantité de vocabulaire trouvé
