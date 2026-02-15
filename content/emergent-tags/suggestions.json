@@ -1,11 +1,11 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-15T04:22:29.125930",
+  "generated_at": "2026-02-15T10:33:48.801776",
   "vault_hash": "e499448f",
   "suggestions": {
     "new_tags": [
       {
-        "id": "lt_ent_025",
+        "id": "lt_ent_032",
         "name": "II-fin",
         "confidence": 0.93,
         "notes": [
@@ -39,11 +39,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.125973",
+        "first_detected": "2026-02-15T10:33:48.801827",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_032",
+        "id": "lt_ent_039",
         "name": "I-fin",
         "confidence": 0.93,
         "notes": [
@@ -74,11 +74,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.125978",
+        "first_detected": "2026-02-15T10:33:48.801832",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_024",
+        "id": "lt_ent_031",
         "name": "III-fin",
         "confidence": 0.92,
         "notes": [
@@ -106,11 +106,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.125983",
+        "first_detected": "2026-02-15T10:33:48.801836",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_036",
+        "id": "lt_ent_043",
         "name": "Saint-Pétersbourg",
         "confidence": 0.92,
         "notes": [
@@ -135,7 +135,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.125986",
+        "first_detected": "2026-02-15T10:33:48.801840",
         "source": "heuristic"
       },
       {
@@ -212,11 +212,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.125990",
+        "first_detected": "2026-02-15T10:33:48.801843",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_016",
+        "id": "lt_ent_017",
         "name": "entité\\états-unis",
         "confidence": 0.9,
         "notes": [
@@ -343,11 +343,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.125994",
+        "first_detected": "2026-02-15T10:33:48.801846",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_027",
+        "id": "lt_ent_034",
         "name": "Saint-Jean",
         "confidence": 0.9,
         "notes": [
@@ -374,11 +374,55 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.125997",
+        "first_detected": "2026-02-15T10:33:48.801849",
         "source": "heuristic"
       },
       {
         "id": "lt_ent_009",
+        "name": "entité\\urss",
+        "confidence": 0.89,
+        "notes": [
+          "fonctionnement-tag.md",
+          "YouTube Notes/Timestamps 2.md",
+          "mange manger manger/Paella.md",
+          "mange manger manger/Traite de Versailles.md",
+          "mange manger manger/Grand requin blanc.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Uranium.md",
+          "mange manger manger/Democratie.md",
+          "mange manger manger/Declaration des droits de lhomme.md",
+          "mange manger manger/Empire romain.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Piano.md",
+          "mange manger manger/Bataille de Marathon.md",
+          "mange manger manger/Declaration des droits de l homme.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/Antiquite.md",
+          "mange manger manger/Tulipomanie.md",
+          "mange manger manger/Albert Einstein.md",
+          "mange manger manger/Baleine bleue.md",
+          "mange manger manger/UNESCO.md",
+          "mange manger manger/Traite de Versailles 1919.md",
+          "mange manger manger/La Pieta.md",
+          "mange manger manger/Union europeenne.md",
+          "mange manger manger/Code penal francais.md",
+          "mange manger manger/Seconde Guerre mondiale.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 25 notes",
+          "details": {
+            "entity_type": "entity",
+            "raw_text": "urss",
+            "total_occurrences": 84,
+            "notes_count": 25
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801855",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_010",
         "name": "entité\\prusse",
         "confidence": 0.89,
         "notes": [
@@ -419,51 +463,132 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126004",
+        "first_detected": "2026-02-15T10:33:48.801859",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_010",
-        "name": "entité\\urss",
+        "id": "lt_ent_016",
+        "name": "personnage\\artiste",
         "confidence": 0.89,
         "notes": [
           "fonctionnement-tag.md",
-          "YouTube Notes/Timestamps 2.md",
-          "mange manger manger/Paella.md",
-          "mange manger manger/Traite de Versailles.md",
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🖼️ Peinture/Femme à l'ombrelle.md",
+          "Clippings/Sonnet — Wikipédia.md",
+          "Clippings/Montage — Wikipédia.md",
+          "Clippings/Impressionnisme — Wikipédia.md",
+          "Clippings/Mythologie grecque — Wikipédia.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md",
+          "mange manger manger/Van Gogh.md",
+          "mange manger manger/Isis.md",
+          "mange manger manger/Accord general sur les tarifs douaniers.md",
+          "mange manger manger/Guitare.md",
+          "mange manger manger/Onomatopee.md",
+          "mange manger manger/Parthenon.md",
+          "mange manger manger/Benzene.md",
+          "mange manger manger/Traite de Tordesillas.md",
+          "mange manger manger/Alan Turing.md",
+          "mange manger manger/Frida Kahlo.md",
+          "mange manger manger/LOrigine des especes.md",
+          "mange manger manger/Organisation mondiale de la sante.md",
+          "mange manger manger/Habeas corpus.md",
+          "mange manger manger/La Flute enchantee.md",
           "mange manger manger/Grand requin blanc.md",
-          "mange manger manger/Organisation des Nations unies.md",
-          "mange manger manger/Uranium.md",
-          "mange manger manger/Democratie.md",
-          "mange manger manger/Declaration des droits de lhomme.md",
+          "mange manger manger/La Joconde.md",
+          "mange manger manger/Michel-Ange.md",
+          "mange manger manger/Apple.md",
+          "mange manger manger/Amanite tue-mouches.md",
+          "mange manger manger/Osmose.md",
+          "mange manger manger/Jules Cesar.md",
           "mange manger manger/Empire romain.md",
+          "mange manger manger/Charbon.md",
+          "mange manger manger/Gambit de la dame.md",
+          "mange manger manger/Les Miserables.md",
+          "mange manger manger/Boussole.md",
           "mange manger manger/Franc.md",
+          "mange manger manger/Vercingetorix.md",
           "mange manger manger/Piano.md",
-          "mange manger manger/Bataille de Marathon.md",
-          "mange manger manger/Declaration des droits de l homme.md",
-          "mange manger manger/Italie.md",
-          "mange manger manger/Antiquite.md",
-          "mange manger manger/Tulipomanie.md",
-          "mange manger manger/Albert Einstein.md",
+          "mange manger manger/Beethoven.md",
+          "mange manger manger/Les Noces de Figaro.md",
+          "mange manger manger/Violon.md",
+          "mange manger manger/Renaissance.md",
+          "mange manger manger/Magna Carta.md",
+          "mange manger manger/Algorithme.md",
+          "mange manger manger/Shiva.md",
+          "mange manger manger/Tour Eiffel.md",
+          "mange manger manger/Bourse de New York.md",
+          "mange manger manger/Les Quatre Saisons.md",
           "mange manger manger/Baleine bleue.md",
-          "mange manger manger/UNESCO.md",
-          "mange manger manger/Traite de Versailles 1919.md",
-          "mange manger manger/La Pieta.md",
-          "mange manger manger/Union europeenne.md",
-          "mange manger manger/Code penal francais.md",
-          "mange manger manger/Seconde Guerre mondiale.md"
+          "mange manger manger/Don Quichotte.md",
+          "mange manger manger/Go strategie.md",
+          "mange manger manger/Mozart.md",
+          "mange manger manger/Constitution americaine.md",
+          "mange manger manger/Colisee.md",
+          "mange manger manger/Leonard de Vinci.md",
+          "mange manger manger/Odyssee.md",
+          "mange manger manger/Les Fleurs du mal.md",
+          "mange manger manger/La Nuit etoilee.md",
+          "mange manger manger/Indice de developpement humain.md",
+          "mange manger manger/Aspirine.md",
+          "mange manger manger/Amazonie.md",
+          "mange manger manger/ALENA.md",
+          "mange manger manger/Theorie des jeux.md",
+          "mange manger manger/Age du bronze.md",
+          "mange manger manger/Gengis Khan.md"
         ],
         "reasoning": {
-          "summary": "Entité détecté(e) dans 25 notes",
+          "summary": "Entité détecté(e) dans 64 notes",
           "details": {
-            "entity_type": "entity",
-            "raw_text": "urss",
-            "total_occurrences": 84,
-            "notes_count": 25
+            "entity_type": "person_type",
+            "raw_text": "Vocabulaire Specifique Courant",
+            "total_occurrences": 437,
+            "notes_count": 64
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126008",
+        "first_detected": "2026-02-15T10:33:48.801862",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_063",
+        "name": "organisation\\nations-unies",
+        "confidence": 0.89,
+        "notes": [
+          "mange manger manger/Marie Curie.md",
+          "mange manger manger/Justinien Ier.md",
+          "mange manger manger/Isis.md",
+          "mange manger manger/Voyelle.md",
+          "mange manger manger/Loup gris.md",
+          "mange manger manger/Avantage comparatif.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Phrase nominale.md",
+          "mange manger manger/Declaration des droits de lhomme.md",
+          "mange manger manger/Mitose.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Bataille de Marathon.md",
+          "mange manger manger/Magna Carta.md",
+          "mange manger manger/Declaration des droits de l homme.md",
+          "mange manger manger/Tulipomanie.md",
+          "mange manger manger/Elizabeth I.md",
+          "mange manger manger/Belle Epoque.md",
+          "mange manger manger/UNESCO.md",
+          "mange manger manger/Aigle royal.md",
+          "mange manger manger/Amnesty International.md",
+          "mange manger manger/Capitalisme.md",
+          "mange manger manger/Union europeenne.md",
+          "mange manger manger/Seconde Guerre mondiale.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 23 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "nations unies",
+            "total_occurrences": 186,
+            "notes_count": 23
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801865",
         "source": "heuristic"
       },
       {
@@ -497,11 +622,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126011",
+        "first_detected": "2026-02-15T10:33:48.801868",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_002",
+        "id": "lt_ent_001",
         "name": "catégorie",
         "confidence": 0.88,
         "notes": [
@@ -557,7 +682,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126015",
+        "first_detected": "2026-02-15T10:33:48.801871",
         "source": "heuristic"
       },
       {
@@ -613,11 +738,44 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126018",
+        "first_detected": "2026-02-15T10:33:48.801874",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_012",
+        "id": "lt_ent_011",
+        "name": "baroque",
+        "confidence": 0.88,
+        "notes": [
+          "fonctionnement-tag.md",
+          "Clippings/Sonnet — Wikipédia.md",
+          "mange manger manger/Accord general sur les tarifs douaniers.md",
+          "mange manger manger/Guitare.md",
+          "mange manger manger/Benzene.md",
+          "mange manger manger/James Cook.md",
+          "mange manger manger/Violon.md",
+          "mange manger manger/Renaissance.md",
+          "mange manger manger/Tour Eiffel.md",
+          "mange manger manger/Chateau de Versailles.md",
+          "mange manger manger/Mozart.md",
+          "mange manger manger/Moliere.md",
+          "mange manger manger/Aspirine.md",
+          "mange manger manger/Amazonie.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 14 notes",
+          "details": {
+            "entity_type": "artwork",
+            "raw_text": "baroque",
+            "total_occurrences": 27,
+            "notes_count": 14
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801877",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_014",
         "name": "renaissance",
         "confidence": 0.88,
         "notes": [
@@ -678,40 +836,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126021",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_013",
-        "name": "baroque",
-        "confidence": 0.88,
-        "notes": [
-          "fonctionnement-tag.md",
-          "Clippings/Sonnet — Wikipédia.md",
-          "mange manger manger/Accord general sur les tarifs douaniers.md",
-          "mange manger manger/Guitare.md",
-          "mange manger manger/Benzene.md",
-          "mange manger manger/James Cook.md",
-          "mange manger manger/Violon.md",
-          "mange manger manger/Renaissance.md",
-          "mange manger manger/Tour Eiffel.md",
-          "mange manger manger/Chateau de Versailles.md",
-          "mange manger manger/Mozart.md",
-          "mange manger manger/Moliere.md",
-          "mange manger manger/Aspirine.md",
-          "mange manger manger/Amazonie.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 14 notes",
-          "details": {
-            "entity_type": "artwork",
-            "raw_text": "baroque",
-            "total_occurrences": 27,
-            "notes_count": 14
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126024",
+        "first_detected": "2026-02-15T10:33:48.801879",
         "source": "heuristic"
       },
       {
@@ -747,11 +872,174 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126027",
+        "first_detected": "2026-02-15T10:33:48.801882",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_030",
+        "id": "lt_ent_018",
+        "name": "organisation\\unesco",
+        "confidence": 0.88,
+        "notes": [
+          "orange.md",
+          "mange manger manger/Grande Muraille.md",
+          "mange manger manger/Siecle des Lumieres.md",
+          "mange manger manger/Pizza.md",
+          "mange manger manger/Victoria.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Phrase nominale.md",
+          "mange manger manger/Eau.md",
+          "mange manger manger/Don Quichotte.md",
+          "mange manger manger/UNESCO.md",
+          "mange manger manger/Amnesty International.md",
+          "mange manger manger/Age du bronze.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 12 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "unesco",
+            "total_occurrences": 116,
+            "notes_count": 12
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801885",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_023",
+        "name": "organisation\\papauté",
+        "confidence": 0.88,
+        "notes": [
+          "caroro.md",
+          "Clippings/Féodalité — Wikipédia.md",
+          "mange manger manger/La Republique.md",
+          "mange manger manger/Moyen Age.md",
+          "mange manger manger/Traite de Rome.md",
+          "mange manger manger/Chute du mur de Berlin.md",
+          "mange manger manger/Charlemagne.md",
+          "mange manger manger/Renaissance.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/Tour Eiffel.md",
+          "mange manger manger/Marco Polo.md",
+          "mange manger manger/Capitalisme.md",
+          "mange manger manger/Darwinisme.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 13 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "papauté",
+            "total_occurrences": 28,
+            "notes_count": 13
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801888",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_025",
+        "name": "organisation\\union-européenne",
+        "confidence": 0.88,
+        "notes": [
+          "orange fruit.md",
+          "mange manger manger/OTAN.md",
+          "mange manger manger/Grande Muraille.md",
+          "mange manger manger/Accord general sur les tarifs douaniers.md",
+          "mange manger manger/Euro.md",
+          "mange manger manger/Semantique.md",
+          "mange manger manger/Osmose.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Industrie automobile.md",
+          "mange manger manger/Democratie.md",
+          "mange manger manger/Quetzalcoatl.md",
+          "mange manger manger/Charbon.md",
+          "mange manger manger/Gravitation.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Or ressource.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/PIB.md",
+          "mange manger manger/Marche des changes.md",
+          "mange manger manger/Belle Epoque.md",
+          "mange manger manger/Amnesty International.md",
+          "mange manger manger/Croissant.md",
+          "mange manger manger/Or.md",
+          "mange manger manger/Union europeenne.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 23 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "union européenne",
+            "total_occurrences": 130,
+            "notes_count": 23
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801891",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_029",
+        "name": "organisation\\congrès",
+        "confidence": 0.88,
+        "notes": [
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md",
+          "mange manger manger/Decouverte de lAmerique.md",
+          "mange manger manger/Nombre dAvogadro.md",
+          "mange manger manger/Marie Curie.md",
+          "mange manger manger/Van Gogh.md",
+          "mange manger manger/Justinien Ier.md",
+          "mange manger manger/Grande Depression.md",
+          "mange manger manger/Karl Marx economiste.md",
+          "mange manger manger/Bataille de Stalingrad.md",
+          "mange manger manger/Le Penseur.md",
+          "mange manger manger/Grand requin blanc.md",
+          "mange manger manger/Le Prince.md",
+          "mange manger manger/Empire romain.md",
+          "mange manger manger/Vasco de Gama.md",
+          "mange manger manger/Mitose.md",
+          "mange manger manger/Dollar americain.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Principes de la thermodynamique.md",
+          "mange manger manger/Violon.md",
+          "mange manger manger/Neologisme.md",
+          "mange manger manger/Magna Carta.md",
+          "mange manger manger/Victor Hugo.md",
+          "mange manger manger/PIB.md",
+          "mange manger manger/Traite de Westphalie 1648.md",
+          "mange manger manger/Albert Einstein.md",
+          "mange manger manger/Don Quichotte.md",
+          "mange manger manger/UNESCO.md",
+          "mange manger manger/Amnesty International.md",
+          "mange manger manger/Taux de change.md",
+          "mange manger manger/Vitesse de la lumiere.md",
+          "mange manger manger/ALENA.md",
+          "mange manger manger/La Pieta.md",
+          "mange manger manger/Pierre de Rosette.md",
+          "mange manger manger/Premiere Guerre mondiale.md",
+          "mange manger manger/Adam Smith.md",
+          "mange manger manger/Bataille de Waterloo.md",
+          "mange manger manger/Seconde Guerre mondiale.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 39 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "congrès",
+            "total_occurrences": 93,
+            "notes_count": 39
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801894",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_037",
         "name": "opérateur",
         "confidence": 0.88,
         "notes": [
@@ -779,11 +1067,44 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126030",
+        "first_detected": "2026-02-15T10:33:48.801897",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_051",
+        "id": "lt_ent_055",
+        "name": "organisation\\sénat",
+        "confidence": 0.88,
+        "notes": [
+          "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md",
+          "mange manger manger/La Republique.md",
+          "mange manger manger/James Cook.md",
+          "mange manger manger/Roald Amundsen.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Crise des subprimes.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/Napoleon Bonaparte.md",
+          "mange manger manger/Dynastie des Romanov.md",
+          "mange manger manger/Cleopatre VII.md",
+          "mange manger manger/De Gaulle.md",
+          "mange manger manger/Taux de change.md",
+          "mange manger manger/Galilee.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 14 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "sénat",
+            "total_occurrences": 21,
+            "notes_count": 14
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801900",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_059",
         "name": "geo\\europe",
         "confidence": 0.88,
         "notes": [
@@ -807,11 +1128,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126033",
+        "first_detected": "2026-02-15T10:33:48.801903",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_075",
+        "id": "lt_ent_085",
         "name": "Saint-Pierre",
         "confidence": 0.88,
         "notes": [
@@ -834,11 +1155,50 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126036",
+        "first_detected": "2026-02-15T10:33:48.801906",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_017",
+        "id": "lt_ent_086",
+        "name": "organisation\\onu",
+        "confidence": 0.88,
+        "notes": [
+          "mange manger manger/Semantique.md",
+          "mange manger manger/Voyelle.md",
+          "mange manger manger/RGPD.md",
+          "mange manger manger/Avantage comparatif.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Democratie.md",
+          "mange manger manger/Declaration des droits de lhomme.md",
+          "mange manger manger/Mitose.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Declaration des droits de l homme.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/Elizabeth I.md",
+          "mange manger manger/Eau.md",
+          "mange manger manger/Fermentation.md",
+          "mange manger manger/Belle Epoque.md",
+          "mange manger manger/Petrole.md",
+          "mange manger manger/UNESCO.md",
+          "mange manger manger/Amnesty International.md",
+          "mange manger manger/Capitalisme.md",
+          "mange manger manger/Seconde Guerre mondiale.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 20 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "onu",
+            "total_occurrences": 104,
+            "notes_count": 20
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801908",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_019",
         "name": "Pays-Bas",
         "confidence": 0.87,
         "notes": [
@@ -869,11 +1229,99 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126039",
+        "first_detected": "2026-02-15T10:33:48.801911",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_020",
+        "id": "lt_ent_021",
+        "name": "personnage\\scientifique",
+        "confidence": 0.87,
+        "notes": [
+          "info box.md",
+          "Exemples_Definitions_Detaillees.md",
+          "Tempate commande/info box.md",
+          "Clippings/Algorithme — Wikipédia.md",
+          "Clippings/Cellule (biologie) — Wikipédia.md",
+          "Clippings/Psychanalyse — Wikipédia.md",
+          "Clippings/métallurgie  Britannica.md",
+          "Clippings/Montage — Wikipédia.md",
+          "Clippings/Mécanique quantique — Wikipédia.md",
+          "Clippings/Épistémologie — Wikipédia.md",
+          "Clippings/Inflation — Wikipédia.md",
+          "Clippings/Théorème de Pythagore — Wikipédia.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 👔 Sartorial/Article couleur.md",
+          "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/PDF théorie de la valeur (Ricardo)/histoire-pensee-economique.md",
+          "mange manger manger/Nombre dAvogadro.md",
+          "mange manger manger/Marie Curie.md",
+          "mange manger manger/Escherichia coli.md",
+          "mange manger manger/Helium.md",
+          "mange manger manger/Isis.md",
+          "mange manger manger/Benzene.md",
+          "mange manger manger/Tourisme.md",
+          "mange manger manger/Toyota.md",
+          "mange manger manger/John Maynard Keynes.md",
+          "mange manger manger/La Flute enchantee.md",
+          "mange manger manger/Evolution.md",
+          "mange manger manger/Loup gris.md",
+          "mange manger manger/Industrie automobile.md",
+          "mange manger manger/Vasco de Gama.md",
+          "mange manger manger/Mitose.md",
+          "mange manger manger/Conjecture de Goldbach.md",
+          "mange manger manger/Theoreme de Godel.md",
+          "mange manger manger/Saladin.md",
+          "mange manger manger/Agriculture.md",
+          "mange manger manger/Neologisme.md",
+          "mange manger manger/Renaissance.md",
+          "mange manger manger/Antiquite.md",
+          "mange manger manger/Hypothese de Riemann.md",
+          "mange manger manger/Avicenne.md",
+          "mange manger manger/Theoreme de Thales.md",
+          "mange manger manger/Photosynthese.md",
+          "mange manger manger/Darwin.md",
+          "mange manger manger/Loi de la gravitation universelle.md",
+          "mange manger manger/Albert Einstein.md",
+          "mange manger manger/Fer.md",
+          "mange manger manger/Theoreme fondamental de lanalyse.md",
+          "mange manger manger/Baleine bleue.md",
+          "mange manger manger/Belle Epoque.md",
+          "mange manger manger/Telescope.md",
+          "mange manger manger/Dernier theoreme de Fermat.md",
+          "mange manger manger/Relativite generale.md",
+          "mange manger manger/Hannibal Barca.md",
+          "mange manger manger/UNESCO.md",
+          "mange manger manger/Theoreme des nombres premiers.md",
+          "mange manger manger/Aigle royal.md",
+          "mange manger manger/Nikola Tesla.md",
+          "mange manger manger/E egale mc carre.md",
+          "mange manger manger/Philosophie.md",
+          "mange manger manger/Croissant.md",
+          "mange manger manger/Vitesse de la lumiere.md",
+          "mange manger manger/Tectonique des plaques.md",
+          "mange manger manger/Conjecture de Syracuse.md",
+          "mange manger manger/Odin.md",
+          "mange manger manger/Theoreme de Pythagore.md",
+          "mange manger manger/Galilee.md",
+          "mange manger manger/Elephant dAfrique.md",
+          "mange manger manger/Constante de Planck.md",
+          "mange manger manger/Adam Smith.md",
+          "mange manger manger/Isaac Newton.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 69 notes",
+          "details": {
+            "entity_type": "person_type",
+            "raw_text": "Docteur Zoidberg",
+            "total_occurrences": 294,
+            "notes_count": 69
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.801914",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_024",
         "name": "geo\\chine",
         "confidence": 0.87,
         "notes": [
@@ -896,11 +1344,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126043",
+        "first_detected": "2026-02-15T10:33:48.801917",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_031",
+        "id": "lt_ent_038",
         "name": "New-York",
         "confidence": 0.87,
         "notes": [
@@ -935,11 +1383,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126045",
+        "first_detected": "2026-02-15T10:33:48.801920",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_044",
+        "id": "lt_ent_051",
         "name": "geo\\japon",
         "confidence": 0.87,
         "notes": [
@@ -962,11 +1410,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126048",
+        "first_detected": "2026-02-15T10:33:48.801923",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_011",
+        "id": "lt_ent_013",
         "name": "gothique",
         "confidence": 0.86,
         "notes": [
@@ -989,11 +1437,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126051",
+        "first_detected": "2026-02-15T10:33:48.801925",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_037",
+        "id": "lt_ent_044",
         "name": "geo\\paris",
         "confidence": 0.86,
         "notes": [
@@ -1015,7 +1463,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126054",
+        "first_detected": "2026-02-15T10:33:48.801928",
         "source": "heuristic"
       },
       {
@@ -29901,7 +30349,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126058",
+        "first_detected": "2026-02-15T10:33:48.801931",
         "source": "emergent"
       },
       {
@@ -29962,7 +30410,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126061",
+        "first_detected": "2026-02-15T10:33:48.801935",
         "source": "emergent"
       },
       {
@@ -30023,7 +30471,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126065",
+        "first_detected": "2026-02-15T10:33:48.801938",
         "source": "emergent"
       },
       {
@@ -30084,7 +30532,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126067",
+        "first_detected": "2026-02-15T10:33:48.801941",
         "source": "emergent"
       },
       {
@@ -30145,7 +30593,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126071",
+        "first_detected": "2026-02-15T10:33:48.801944",
         "source": "emergent"
       },
       {
@@ -30206,7 +30654,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126074",
+        "first_detected": "2026-02-15T10:33:48.801947",
         "source": "emergent"
       },
       {
@@ -30267,7 +30715,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126077",
+        "first_detected": "2026-02-15T10:33:48.801950",
         "source": "emergent"
       },
       {
@@ -30289,7 +30737,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126080",
+        "first_detected": "2026-02-15T10:33:48.801953",
         "source": "specialized_term"
       },
       {
@@ -30312,7 +30760,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126084",
+        "first_detected": "2026-02-15T10:33:48.801956",
         "source": "specialized_term"
       },
       {
@@ -30338,7 +30786,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126087",
+        "first_detected": "2026-02-15T10:33:48.801959",
         "source": "specialized_term"
       },
       {
@@ -30367,7 +30815,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126090",
+        "first_detected": "2026-02-15T10:33:48.801962",
         "source": "specialized_term"
       },
       {
@@ -30390,7 +30838,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126093",
+        "first_detected": "2026-02-15T10:33:48.801965",
         "source": "specialized_term"
       },
       {
@@ -30413,7 +30861,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126096",
+        "first_detected": "2026-02-15T10:33:48.801968",
         "source": "specialized_term"
       },
       {
@@ -30436,7 +30884,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126099",
+        "first_detected": "2026-02-15T10:33:48.801970",
         "source": "specialized_term"
       },
       {
@@ -30459,7 +30907,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126103",
+        "first_detected": "2026-02-15T10:33:48.801973",
         "source": "specialized_term"
       },
       {
@@ -30487,7 +30935,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126106",
+        "first_detected": "2026-02-15T10:33:48.801976",
         "source": "specialized_term"
       },
       {
@@ -30511,7 +30959,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126109",
+        "first_detected": "2026-02-15T10:33:48.801978",
         "source": "specialized_term"
       },
       {
@@ -30533,7 +30981,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126112",
+        "first_detected": "2026-02-15T10:33:48.801981",
         "source": "specialized_term"
       },
       {
@@ -30555,7 +31003,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126115",
+        "first_detected": "2026-02-15T10:33:48.801984",
         "source": "specialized_term"
       },
       {
@@ -30577,7 +31025,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126118",
+        "first_detected": "2026-02-15T10:33:48.801987",
         "source": "specialized_term"
       },
       {
@@ -30599,7 +31047,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126121",
+        "first_detected": "2026-02-15T10:33:48.801990",
         "source": "specialized_term"
       },
       {
@@ -30621,7 +31069,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126124",
+        "first_detected": "2026-02-15T10:33:48.801993",
         "source": "specialized_term"
       },
       {
@@ -30643,7 +31091,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126127",
+        "first_detected": "2026-02-15T10:33:48.801996",
         "source": "specialized_term"
       },
       {
@@ -30665,7 +31113,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126130",
+        "first_detected": "2026-02-15T10:33:48.801998",
         "source": "specialized_term"
       },
       {
@@ -30688,7 +31136,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126133",
+        "first_detected": "2026-02-15T10:33:48.802001",
         "source": "specialized_term"
       },
       {
@@ -30710,7 +31158,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126136",
+        "first_detected": "2026-02-15T10:33:48.802004",
         "source": "specialized_term"
       },
       {
@@ -30732,7 +31180,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126139",
+        "first_detected": "2026-02-15T10:33:48.802007",
         "source": "specialized_term"
       },
       {
@@ -30754,7 +31202,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126143",
+        "first_detected": "2026-02-15T10:33:48.802010",
         "source": "specialized_term"
       },
       {
@@ -30776,7 +31224,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126145",
+        "first_detected": "2026-02-15T10:33:48.802013",
         "source": "specialized_term"
       },
       {
@@ -30798,7 +31246,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126149",
+        "first_detected": "2026-02-15T10:33:48.802016",
         "source": "specialized_term"
       },
       {
@@ -30820,7 +31268,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126152",
+        "first_detected": "2026-02-15T10:33:48.802019",
         "source": "specialized_term"
       },
       {
@@ -30844,7 +31292,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126155",
+        "first_detected": "2026-02-15T10:33:48.802022",
         "source": "specialized_term"
       },
       {
@@ -30867,7 +31315,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126158",
+        "first_detected": "2026-02-15T10:33:48.802025",
         "source": "specialized_term"
       },
       {
@@ -30889,7 +31337,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126161",
+        "first_detected": "2026-02-15T10:33:48.802027",
         "source": "specialized_term"
       },
       {
@@ -30911,7 +31359,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126164",
+        "first_detected": "2026-02-15T10:33:48.802030",
         "source": "specialized_term"
       },
       {
@@ -30933,7 +31381,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126167",
+        "first_detected": "2026-02-15T10:33:48.802033",
         "source": "specialized_term"
       },
       {
@@ -30955,7 +31403,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126170",
+        "first_detected": "2026-02-15T10:33:48.802036",
         "source": "specialized_term"
       },
       {
@@ -30977,7 +31425,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126173",
+        "first_detected": "2026-02-15T10:33:48.802039",
         "source": "specialized_term"
       },
       {
@@ -30999,7 +31447,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126176",
+        "first_detected": "2026-02-15T10:33:48.802041",
         "source": "specialized_term"
       },
       {
@@ -31021,7 +31469,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126179",
+        "first_detected": "2026-02-15T10:33:48.802044",
         "source": "specialized_term"
       },
       {
@@ -31043,7 +31491,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126182",
+        "first_detected": "2026-02-15T10:33:48.802047",
         "source": "specialized_term"
       },
       {
@@ -31065,7 +31513,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126185",
+        "first_detected": "2026-02-15T10:33:48.802050",
         "source": "specialized_term"
       },
       {
@@ -31087,7 +31535,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126189",
+        "first_detected": "2026-02-15T10:33:48.802053",
         "source": "specialized_term"
       },
       {
@@ -31109,7 +31557,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126192",
+        "first_detected": "2026-02-15T10:33:48.802056",
         "source": "specialized_term"
       },
       {
@@ -31131,7 +31579,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126195",
+        "first_detected": "2026-02-15T10:33:48.802062",
         "source": "specialized_term"
       },
       {
@@ -31153,7 +31601,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126198",
+        "first_detected": "2026-02-15T10:33:48.802064",
         "source": "specialized_term"
       },
       {
@@ -31175,7 +31623,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126201",
+        "first_detected": "2026-02-15T10:33:48.802067",
         "source": "specialized_term"
       },
       {
@@ -31197,7 +31645,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126204",
+        "first_detected": "2026-02-15T10:33:48.802070",
         "source": "specialized_term"
       },
       {
@@ -31225,7 +31673,57 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126207",
+        "first_detected": "2026-02-15T10:33:48.802073",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_094",
+        "name": "organisation\\otan",
+        "confidence": 0.84,
+        "notes": [
+          "mange manger manger/Avantage comparatif.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/De Gaulle.md",
+          "mange manger manger/Amnesty International.md",
+          "mange manger manger/Union europeenne.md",
+          "mange manger manger/Constante de Planck.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 7 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "otan",
+            "total_occurrences": 32,
+            "notes_count": 7
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.802076",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_027",
+        "name": "histoire\\ancienne",
+        "confidence": 0.82,
+        "notes": [
+          "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/BoJack Horseman.md",
+          "mange manger manger/La Flute enchantee.md",
+          "mange manger manger/Agriculture.md",
+          "mange manger manger/Don Quichotte.md",
+          "mange manger manger/Philosophie.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 5 notes",
+          "details": {
+            "entity_type": "discipline",
+            "raw_text": "histoire",
+            "total_occurrences": 45,
+            "notes_count": 5
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.802079",
         "source": "heuristic"
       },
       {
@@ -31288,7 +31786,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126210",
+        "first_detected": "2026-02-15T10:33:48.802081",
         "source": "emergent"
       },
       {
@@ -31351,7 +31849,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126213",
+        "first_detected": "2026-02-15T10:33:48.802084",
         "source": "emergent"
       },
       {
@@ -31414,7 +31912,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126216",
+        "first_detected": "2026-02-15T10:33:48.802087",
         "source": "emergent"
       },
       {
@@ -31477,7 +31975,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126219",
+        "first_detected": "2026-02-15T10:33:48.802090",
         "source": "emergent"
       },
       {
@@ -31540,7 +32038,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126229",
+        "first_detected": "2026-02-15T10:33:48.802093",
         "source": "emergent"
       },
       {
@@ -31603,11 +32101,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126232",
+        "first_detected": "2026-02-15T10:33:48.802095",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_071",
+        "id": "lt_ent_081",
         "name": "Haye-Sainte",
         "confidence": 0.81,
         "notes": [
@@ -31624,11 +32122,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126235",
+        "first_detected": "2026-02-15T10:33:48.802098",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_033",
+        "id": "lt_ent_040",
         "name": "Isaac-Newton",
         "confidence": 0.8,
         "notes": [
@@ -31649,11 +32147,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126238",
+        "first_detected": "2026-02-15T10:33:48.802101",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_055",
+        "id": "lt_ent_064",
         "name": "En-Europe",
         "confidence": 0.8,
         "notes": [
@@ -31674,11 +32172,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126241",
+        "first_detected": "2026-02-15T10:33:48.802104",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_059",
+        "id": "lt_ent_068",
         "name": "Hong-Kong",
         "confidence": 0.8,
         "notes": [
@@ -31699,11 +32197,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126244",
+        "first_detected": "2026-02-15T10:33:48.802107",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_098",
+        "id": "lt_ent_110",
         "name": "espace\\newton",
         "confidence": 0.8,
         "notes": [
@@ -31720,11 +32218,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126247",
+        "first_detected": "2026-02-15T10:33:48.802110",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_076",
+        "id": "lt_ent_087",
         "name": "geo\\russie",
         "confidence": 0.79,
         "notes": [
@@ -31742,11 +32240,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126250",
+        "first_detected": "2026-02-15T10:33:48.802112",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_088",
+        "id": "lt_ent_100",
         "name": "geo\\égypte",
         "confidence": 0.79,
         "notes": [
@@ -31764,11 +32262,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126253",
+        "first_detected": "2026-02-15T10:33:48.802115",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_061",
+        "id": "lt_ent_070",
         "name": "geo\\ur",
         "confidence": 0.77,
         "notes": [
@@ -31786,11 +32284,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126256",
+        "first_detected": "2026-02-15T10:33:48.802117",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_079",
+        "id": "lt_ent_090",
         "name": "François-Ier",
         "confidence": 0.77,
         "notes": [
@@ -31809,11 +32307,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126259",
+        "first_detected": "2026-02-15T10:33:48.802120",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_089",
+        "id": "lt_ent_101",
         "name": "geo\\afrique",
         "confidence": 0.77,
         "notes": [
@@ -31831,11 +32329,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126262",
+        "first_detected": "2026-02-15T10:33:48.802123",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_068",
+        "id": "lt_ent_078",
         "name": "geo\\asie",
         "confidence": 0.76,
         "notes": [
@@ -31853,7 +32351,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126265",
+        "first_detected": "2026-02-15T10:33:48.802125",
         "source": "heuristic"
       },
       {
@@ -31874,11 +32372,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126268",
+        "first_detected": "2026-02-15T10:33:48.802128",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_073",
+        "id": "lt_ent_083",
         "name": "Quatre-Bras",
         "confidence": 0.75,
         "notes": [
@@ -31895,11 +32393,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126271",
+        "first_detected": "2026-02-15T10:33:48.802130",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_099",
+        "id": "lt_ent_111",
         "name": "geo\\new-york",
         "confidence": 0.75,
         "notes": [
@@ -31916,7 +32414,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126274",
+        "first_detected": "2026-02-15T10:33:48.802133",
         "source": "heuristic"
       },
       {
@@ -31970,7 +32468,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126277",
+        "first_detected": "2026-02-15T10:33:48.802136",
         "source": "emergent"
       },
       {
@@ -32024,11 +32522,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126280",
+        "first_detected": "2026-02-15T10:33:48.802138",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_065",
+        "id": "lt_ent_074",
         "name": "Saint-Siège",
         "confidence": 0.74,
         "notes": [
@@ -32048,11 +32546,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126283",
+        "first_detected": "2026-02-15T10:33:48.802141",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_022",
+        "id": "lt_ent_028",
         "name": "Robert-Hooke",
         "confidence": 0.73,
         "notes": [
@@ -32069,11 +32567,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126286",
+        "first_detected": "2026-02-15T10:33:48.802144",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_045",
+        "id": "lt_ent_052",
         "name": "entité\\autriche-hongrie",
         "confidence": 0.73,
         "notes": [
@@ -32091,11 +32589,35 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126289",
+        "first_detected": "2026-02-15T10:33:48.802147",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_081",
+        "id": "lt_ent_075",
+        "name": "organisation\\saint-siège",
+        "confidence": 0.73,
+        "notes": [
+          "mange manger manger/Traite de Rome.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/Traite de Westphalie 1648.md",
+          "mange manger manger/UNESCO.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 5 notes",
+          "details": {
+            "entity_type": "organization",
+            "raw_text": "saint-siège",
+            "total_occurrences": 6,
+            "notes_count": 5
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T10:33:48.802152",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_092",
         "name": "génétique",
         "confidence": 0.73,
         "notes": [
@@ -32112,7 +32634,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126291",
+        "first_detected": "2026-02-15T10:33:48.802155",
         "source": "heuristic"
       },
       {
@@ -32167,7 +32689,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126294",
+        "first_detected": "2026-02-15T10:33:48.802158",
         "source": "emergent"
       },
       {
@@ -32222,7 +32744,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126298",
+        "first_detected": "2026-02-15T10:33:48.802161",
         "source": "emergent"
       },
       {
@@ -32277,7 +32799,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126301",
+        "first_detected": "2026-02-15T10:33:48.802164",
         "source": "emergent"
       },
       {
@@ -32332,11 +32854,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126304",
+        "first_detected": "2026-02-15T10:33:48.802166",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_023",
+        "id": "lt_ent_030",
         "name": "Heinrich-Heine",
         "confidence": 0.72,
         "notes": [
@@ -32354,11 +32876,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126307",
+        "first_detected": "2026-02-15T10:33:48.802169",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_026",
+        "id": "lt_ent_033",
         "name": "Saint-Jacques",
         "confidence": 0.72,
         "notes": [
@@ -32377,11 +32899,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126310",
+        "first_detected": "2026-02-15T10:33:48.802172",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_053",
+        "id": "lt_ent_061",
         "name": "Proche-Orient",
         "confidence": 0.72,
         "notes": [
@@ -32400,11 +32922,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126313",
+        "first_detected": "2026-02-15T10:33:48.802175",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_095",
+        "id": "lt_ent_107",
         "name": "Saint-Eustache",
         "confidence": 0.72,
         "notes": [
@@ -32423,11 +32945,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126316",
+        "first_detected": "2026-02-15T10:33:48.802177",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_049",
+        "id": "lt_ent_057",
         "name": "Santa-Fe",
         "confidence": 0.71,
         "notes": [
@@ -32445,11 +32967,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126319",
+        "first_detected": "2026-02-15T10:33:48.802180",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_062",
+        "id": "lt_ent_071",
         "name": "Wi-Fi",
         "confidence": 0.71,
         "notes": [
@@ -32466,11 +32988,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126321",
+        "first_detected": "2026-02-15T10:33:48.802182",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_072",
+        "id": "lt_ent_082",
         "name": "Haie-Sainte",
         "confidence": 0.71,
         "notes": [
@@ -32488,11 +33010,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126330",
+        "first_detected": "2026-02-15T10:33:48.802185",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_087",
+        "id": "lt_ent_099",
         "name": "Saint-Esprit",
         "confidence": 0.71,
         "notes": [
@@ -32510,11 +33032,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126332",
+        "first_detected": "2026-02-15T10:33:48.802188",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_029",
+        "id": "lt_ent_036",
         "name": "Jacques-Heers",
         "confidence": 0.7,
         "notes": [
@@ -32532,11 +33054,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126335",
+        "first_detected": "2026-02-15T10:33:48.802190",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_035",
+        "id": "lt_ent_042",
         "name": "Henri-Poincaré",
         "confidence": 0.7,
         "notes": [
@@ -32553,11 +33075,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126338",
+        "first_detected": "2026-02-15T10:33:48.802193",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_039",
+        "id": "lt_ent_046",
         "name": "Sainte-Anne",
         "confidence": 0.7,
         "notes": [
@@ -32575,11 +33097,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126340",
+        "first_detected": "2026-02-15T10:33:48.802195",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_047",
+        "id": "lt_ent_054",
         "name": "Henry-George",
         "confidence": 0.7,
         "notes": [
@@ -32596,11 +33118,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126343",
+        "first_detected": "2026-02-15T10:33:48.802198",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_050",
+        "id": "lt_ent_058",
         "name": "San-Francisco",
         "confidence": 0.7,
         "notes": [
@@ -32619,11 +33141,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126346",
+        "first_detected": "2026-02-15T10:33:48.802201",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_063",
+        "id": "lt_ent_072",
         "name": "Sept-Ans",
         "confidence": 0.7,
         "notes": [
@@ -32641,11 +33163,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126349",
+        "first_detected": "2026-02-15T10:33:48.802203",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_084",
+        "id": "lt_ent_096",
         "name": "Saint-Augustin",
         "confidence": 0.7,
         "notes": [
@@ -32663,11 +33185,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126352",
+        "first_detected": "2026-02-15T10:33:48.802207",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_092",
+        "id": "lt_ent_104",
         "name": "Tchang-Kaï",
         "confidence": 0.7,
         "notes": [
@@ -32684,11 +33206,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126355",
+        "first_detected": "2026-02-15T10:33:48.802209",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_038",
+        "id": "lt_ent_045",
         "name": "Zhoubi-Suanjing",
         "confidence": 0.69,
         "notes": [
@@ -32705,11 +33227,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126358",
+        "first_detected": "2026-02-15T10:33:48.802212",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_077",
+        "id": "lt_ent_088",
         "name": "Saint-Cyr",
         "confidence": 0.69,
         "notes": [
@@ -32726,11 +33248,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126360",
+        "first_detected": "2026-02-15T10:33:48.802214",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_078",
+        "id": "lt_ent_089",
         "name": "Ian-Kershaw",
         "confidence": 0.69,
         "notes": [
@@ -32748,7 +33270,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126363",
+        "first_detected": "2026-02-15T10:33:48.802217",
         "source": "heuristic"
       },
       {
@@ -32770,11 +33292,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126366",
+        "first_detected": "2026-02-15T10:33:48.802220",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_042",
+        "id": "lt_ent_049",
         "name": "Reuben-Fine",
         "confidence": 0.68,
         "notes": [
@@ -32791,11 +33313,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126369",
+        "first_detected": "2026-02-15T10:33:48.802222",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_043",
+        "id": "lt_ent_050",
         "name": "Heinrich-Gossen",
         "confidence": 0.68,
         "notes": [
@@ -32812,11 +33334,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126372",
+        "first_detected": "2026-02-15T10:33:48.802225",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_046",
+        "id": "lt_ent_053",
         "name": "Autriche-Hongrie",
         "confidence": 0.68,
         "notes": [
@@ -32833,11 +33355,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126375",
+        "first_detected": "2026-02-15T10:33:48.802227",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_064",
+        "id": "lt_ent_073",
         "name": "Saint-Jean-Baptiste",
         "confidence": 0.68,
         "notes": [
@@ -32855,11 +33377,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126377",
+        "first_detected": "2026-02-15T10:33:48.802230",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_069",
+        "id": "lt_ent_079",
         "name": "Bonne-Espérance",
         "confidence": 0.68,
         "notes": [
@@ -32877,11 +33399,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126380",
+        "first_detected": "2026-02-15T10:33:48.802232",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_080",
+        "id": "lt_ent_091",
         "name": "Haute-Renaissance",
         "confidence": 0.68,
         "notes": [
@@ -32899,11 +33421,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126383",
+        "first_detected": "2026-02-15T10:33:48.802235",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_083",
+        "id": "lt_ent_095",
         "name": "Nations-Unies",
         "confidence": 0.68,
         "notes": [
@@ -32921,7 +33443,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126386",
+        "first_detected": "2026-02-15T10:33:48.802237",
         "source": "heuristic"
       },
       {
@@ -32966,7 +33488,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126389",
+        "first_detected": "2026-02-15T10:33:48.802240",
         "source": "emergent"
       },
       {
@@ -33011,7 +33533,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126392",
+        "first_detected": "2026-02-15T10:33:48.802243",
         "source": "emergent"
       },
       {
@@ -33056,7 +33578,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126395",
+        "first_detected": "2026-02-15T10:33:48.802246",
         "source": "emergent"
       },
       {
@@ -33101,7 +33623,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126398",
+        "first_detected": "2026-02-15T10:33:48.802249",
         "source": "emergent"
       },
       {
@@ -33147,7 +33669,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126401",
+        "first_detected": "2026-02-15T10:33:48.802252",
         "source": "emergent"
       },
       {
@@ -33194,11 +33716,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126404",
+        "first_detected": "2026-02-15T10:33:48.802255",
         "source": "emergent"
       },
       {
-        "id": "lt_ent_052",
+        "id": "lt_ent_060",
         "name": "Sainte-Sophie",
         "confidence": 0.67,
         "notes": [
@@ -33215,11 +33737,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126407",
+        "first_detected": "2026-02-15T10:33:48.802257",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_070",
+        "id": "lt_ent_080",
         "name": "Saint-Antoine",
         "confidence": 0.67,
         "notes": [
@@ -33236,11 +33758,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126409",
+        "first_detected": "2026-02-15T10:33:48.802260",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_090",
+        "id": "lt_ent_102",
         "name": "Hernán-Cortés",
         "confidence": 0.67,
         "notes": [
@@ -33258,11 +33780,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126412",
+        "first_detected": "2026-02-15T10:33:48.802263",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_097",
+        "id": "lt_ent_109",
         "name": "Saint-Nicaise",
         "confidence": 0.67,
         "notes": [
@@ -33279,11 +33801,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126415",
+        "first_detected": "2026-02-15T10:33:48.802265",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_014",
+        "id": "lt_ent_012",
         "name": "rococo",
         "confidence": 0.66,
         "notes": [
@@ -33301,11 +33823,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126417",
+        "first_detected": "2026-02-15T10:33:48.802268",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_086",
+        "id": "lt_ent_098",
         "name": "René-Cassin",
         "confidence": 0.66,
         "notes": [
@@ -33322,11 +33844,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126420",
+        "first_detected": "2026-02-15T10:33:48.802271",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_018",
+        "id": "lt_ent_020",
         "name": "Christian-Estrosi",
         "confidence": 0.65,
         "notes": [
@@ -33343,11 +33865,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126423",
+        "first_detected": "2026-02-15T10:33:48.802273",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_019",
+        "id": "lt_ent_022",
         "name": "Saint-Bertin",
         "confidence": 0.65,
         "notes": [
@@ -33364,11 +33886,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126426",
+        "first_detected": "2026-02-15T10:33:48.802276",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_021",
+        "id": "lt_ent_026",
         "name": "Shinichiro-Watanabe",
         "confidence": 0.65,
         "notes": [
@@ -33385,11 +33907,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126428",
+        "first_detected": "2026-02-15T10:33:48.802278",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_028",
+        "id": "lt_ent_035",
         "name": "Sainte-Foy",
         "confidence": 0.65,
         "notes": [
@@ -33406,11 +33928,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126431",
+        "first_detected": "2026-02-15T10:33:48.802281",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_041",
+        "id": "lt_ent_048",
         "name": "Jean-Jacques-Rousseau",
         "confidence": 0.65,
         "notes": [
@@ -33427,11 +33949,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126434",
+        "first_detected": "2026-02-15T10:33:48.802283",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_048",
+        "id": "lt_ent_056",
         "name": "Saint-George",
         "confidence": 0.65,
         "notes": [
@@ -33448,11 +33970,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126436",
+        "first_detected": "2026-02-15T10:33:48.802286",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_054",
+        "id": "lt_ent_062",
         "name": "Saint-Georges",
         "confidence": 0.65,
         "notes": [
@@ -33469,11 +33991,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126439",
+        "first_detected": "2026-02-15T10:33:48.802288",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_066",
+        "id": "lt_ent_076",
         "name": "Saint-Ange",
         "confidence": 0.65,
         "notes": [
@@ -33490,11 +34012,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126442",
+        "first_detected": "2026-02-15T10:33:48.802291",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_085",
+        "id": "lt_ent_097",
         "name": "San-Antonio",
         "confidence": 0.65,
         "notes": [
@@ -33511,11 +34033,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126445",
+        "first_detected": "2026-02-15T10:33:48.802293",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_094",
+        "id": "lt_ent_106",
         "name": "Saint-Christophe",
         "confidence": 0.65,
         "notes": [
@@ -33532,11 +34054,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126448",
+        "first_detected": "2026-02-15T10:33:48.802296",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_034",
+        "id": "lt_ent_041",
         "name": "Christian-Huygens",
         "confidence": 0.63,
         "notes": [
@@ -33553,11 +34075,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126451",
+        "first_detected": "2026-02-15T10:33:48.802298",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_040",
+        "id": "lt_ent_047",
         "name": "François-Guizot",
         "confidence": 0.63,
         "notes": [
@@ -33574,11 +34096,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126453",
+        "first_detected": "2026-02-15T10:33:48.802301",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_056",
+        "id": "lt_ent_065",
         "name": "Cent-Ans",
         "confidence": 0.63,
         "notes": [
@@ -33595,11 +34117,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126456",
+        "first_detected": "2026-02-15T10:33:48.802304",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_057",
+        "id": "lt_ent_066",
         "name": "En-Croatie",
         "confidence": 0.63,
         "notes": [
@@ -33616,11 +34138,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126459",
+        "first_detected": "2026-02-15T10:33:48.802306",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_058",
+        "id": "lt_ent_067",
         "name": "En-Serbie",
         "confidence": 0.63,
         "notes": [
@@ -33637,11 +34159,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126462",
+        "first_detected": "2026-02-15T10:33:48.802309",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_060",
+        "id": "lt_ent_069",
         "name": "En-Afrique",
         "confidence": 0.63,
         "notes": [
@@ -33658,11 +34180,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126464",
+        "first_detected": "2026-02-15T10:33:48.802311",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_067",
+        "id": "lt_ent_077",
         "name": "Au-Japon",
         "confidence": 0.63,
         "notes": [
@@ -33679,11 +34201,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126467",
+        "first_detected": "2026-02-15T10:33:48.802314",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_074",
+        "id": "lt_ent_084",
         "name": "Scots-Greys",
         "confidence": 0.63,
         "notes": [
@@ -33700,11 +34222,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126469",
+        "first_detected": "2026-02-15T10:33:48.802316",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_082",
+        "id": "lt_ent_093",
         "name": "Jean-Baptiste",
         "confidence": 0.63,
         "notes": [
@@ -33721,11 +34243,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126472",
+        "first_detected": "2026-02-15T10:33:48.802319",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_091",
+        "id": "lt_ent_103",
         "name": "Au-Au",
         "confidence": 0.63,
         "notes": [
@@ -33742,11 +34264,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126474",
+        "first_detected": "2026-02-15T10:33:48.802322",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_093",
+        "id": "lt_ent_105",
         "name": "En-Chine",
         "confidence": 0.63,
         "notes": [
@@ -33763,11 +34285,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126477",
+        "first_detected": "2026-02-15T10:33:48.802324",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_096",
+        "id": "lt_ent_108",
         "name": "Porto-Rico",
         "confidence": 0.63,
         "notes": [
@@ -33784,7 +34306,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T04:22:29.126480",
+        "first_detected": "2026-02-15T10:33:48.802327",
         "source": "heuristic"
       }
     ],
@@ -34059,7 +34581,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T04:19:27.114975",
+          "last_used": "2026-02-15T10:15:53.066848",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -34078,7 +34600,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T04:19:27.145741",
+          "last_used": "2026-02-15T10:15:53.027189",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -34097,7 +34619,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T04:19:27.032495",
+          "last_used": "2026-02-15T10:15:53.126037",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete.md"
@@ -34116,7 +34638,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T04:19:27.020640",
+          "last_used": "2026-02-15T10:15:53.224500",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Guitare.md"
@@ -34135,7 +34657,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T04:19:27.046062",
+          "last_used": "2026-02-15T10:15:53.188991",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Toyota.md"
@@ -34154,7 +34676,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T04:19:27.122830",
+          "last_used": "2026-02-15T10:15:53.108378",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Imprimerie.md"
@@ -34173,7 +34695,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T04:19:27.107689",
+          "last_used": "2026-02-15T10:15:53.190231",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Go strategie.md"
@@ -34192,7 +34714,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T04:19:27.005792",
+          "last_used": "2026-02-15T10:15:53.233173",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Isaac Newton.md"
@@ -34208,61 +34730,33 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_4487",
+        "id": "rg_8830",
         "tags": [
-          "science/personne/mathematiques",
-          "mathematiques"
+          "mathematiques",
+          "science/personne/mathematiques"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "science/personne/mathematiques": 1,
-          "mathematiques": 1
+          "mathematiques": 1,
+          "science/personne/mathematiques": 1
         },
-        "recommended": "science/personne/mathematiques"
+        "recommended": "mathematiques"
       },
       {
-        "id": "rg_3286",
+        "id": "rg_9654",
         "tags": [
-          "histoire/personne/politique",
-          "economie/politique"
+          "economie/politique",
+          "histoire/personne/politique"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "histoire/personne/politique": 2,
-          "economie/politique": 3
+          "economie/politique": 3,
+          "histoire/personne/politique": 2
         },
         "recommended": "economie/politique"
       },
       {
-        "id": "rg_9469",
-        "tags": [
-          "/",
-          "------------------------------------------",
-          "------------------------------"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "/": 1,
-          "------------------------------------------": 2,
-          "------------------------------": 2
-        },
-        "recommended": "------------------------------------------"
-      },
-      {
-        "id": "rg_3055",
-        "tags": [
-          "oeuvre",
-          "musique/oeuvre"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "oeuvre": 8,
-          "musique/oeuvre": 4
-        },
-        "recommended": "oeuvre"
-      },
-      {
-        "id": "rg_8126",
+        "id": "rg_8696",
         "tags": [
           "economie/concept",
           "concept"
@@ -34275,7 +34769,35 @@
         "recommended": "concept"
       },
       {
-        "id": "rg_4220",
+        "id": "rg_4953",
+        "tags": [
+          "------------------------------",
+          "------------------------------------------",
+          "/"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "------------------------------": 2,
+          "------------------------------------------": 2,
+          "/": 1
+        },
+        "recommended": "------------------------------"
+      },
+      {
+        "id": "rg_5415",
+        "tags": [
+          "oeuvre",
+          "musique/oeuvre"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "oeuvre": 8,
+          "musique/oeuvre": 4
+        },
+        "recommended": "oeuvre"
+      },
+      {
+        "id": "rg_9774",
         "tags": [
           "Comportement",
           "Mammif",
@@ -34348,9 +34870,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "note-The_Wealth_of_Nations",
+        "livre",
         "note-livre",
-        "livre"
+        "note-The_Wealth_of_Nations"
       ]
     },
     {
@@ -34374,9 +34896,9 @@
         "**monster**"
       ],
       "suggested_tags": [
+        "Madhouse",
         "Masayuki-Kojima",
-        "Medical-Drama",
-        "Madhouse"
+        "Crime-Mystery"
       ]
     },
     {
@@ -34395,8 +34917,8 @@
         "caroro"
       ],
       "suggested_tags": [
-        "cite_note-8",
-        "cite_note-22",
+        "cite_note-23",
+        "cite_note-3",
         "cite_note-19"
       ]
     },
@@ -34425,7 +34947,7 @@
     "analyzed_notes": 520,
     "total_tags": 167,
     "active_tags": 167,
-    "latent_tags": 164,
+    "latent_tags": 176,
     "health_score": 0.91,
     "feedback_impact": {
       "decisions_integrated": 1000,
