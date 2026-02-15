@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-15T19:48:00.075347",
+  "generated_at": "2026-02-15T22:36:00.931539",
   "vault_hash": "2e2a834c",
   "suggestions": {
     "new_tags": [
@@ -39,7 +39,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075395",
+        "first_detected": "2026-02-15T22:36:00.931573",
         "source": "heuristic"
       },
       {
@@ -74,7 +74,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075400",
+        "first_detected": "2026-02-15T22:36:00.931579",
         "source": "heuristic"
       },
       {
@@ -106,7 +106,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075404",
+        "first_detected": "2026-02-15T22:36:00.931582",
         "source": "heuristic"
       },
       {
@@ -135,7 +135,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075407",
+        "first_detected": "2026-02-15T22:36:00.931585",
         "source": "heuristic"
       },
       {
@@ -212,7 +212,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075410",
+        "first_detected": "2026-02-15T22:36:00.931588",
         "source": "heuristic"
       },
       {
@@ -343,7 +343,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075414",
+        "first_detected": "2026-02-15T22:36:00.931591",
         "source": "heuristic"
       },
       {
@@ -374,788 +374,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075417",
+        "first_detected": "2026-02-15T22:36:00.931594",
         "source": "heuristic"
-      },
-      {
-        "id": "lt_spec_012",
-        "name": "port",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Bill of Rights.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'port' validé par définition - éléments: port, infrastructure, construite, l'homme, située",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "informatique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "port",
-                "matched": "port"
-              },
-              {
-                "name": "infrastructure",
-                "matched": "infrastructure"
-              },
-              {
-                "name": "construite",
-                "matched": "construite"
-              },
-              {
-                "name": "l'homme",
-                "matched": "l'homme"
-              },
-              {
-                "name": "située",
-                "matched": "située"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075424",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_013",
-        "name": "soufre",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Helium.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'soufre' validé par définition - éléments: soufre, l'élément, chimique, numéro, atomique",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "oenologie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "soufre",
-                "matched": "soufre"
-              },
-              {
-                "name": "l'élément",
-                "matched": "l'élément"
-              },
-              {
-                "name": "chimique",
-                "matched": "chimique"
-              },
-              {
-                "name": "numéro",
-                "matched": "numéro"
-              },
-              {
-                "name": "atomique",
-                "matched": "atomique"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075429",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_014",
-        "name": "ragnarök",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Erwin Rommel.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'ragnarök' validé par définition - éléments: mythologie, nordique, ragnarök, renvoie, fin",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "mythologie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "mythologie",
-                "matched": "mythologie"
-              },
-              {
-                "name": "nordique",
-                "matched": "nordique"
-              },
-              {
-                "name": "ragnarök",
-                "matched": "ragnarök"
-              },
-              {
-                "name": "renvoie",
-                "matched": "renvoie"
-              },
-              {
-                "name": "fin",
-                "matched": "fin"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075432",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_015",
-        "name": "intestin-grêle",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Main invisible.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'intestin-grêle' validé par définition - éléments: l'intestin, grêle, partie, l'appareil, digestif",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "biologie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "l'intestin",
-                "matched": "l'intestin"
-              },
-              {
-                "name": "grêle",
-                "matched": "grêle"
-              },
-              {
-                "name": "partie",
-                "matched": "partie"
-              },
-              {
-                "name": "l'appareil",
-                "matched": "l'appareil"
-              },
-              {
-                "name": "digestif",
-                "matched": "digestif"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075436",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_016",
-        "name": "platine",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Tourisme.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'platine' validé par définition - éléments: platine, l'élément, chimique, numéro, atomique",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "musique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "platine",
-                "matched": "platine"
-              },
-              {
-                "name": "l'élément",
-                "matched": "l'élément"
-              },
-              {
-                "name": "chimique",
-                "matched": "chimique"
-              },
-              {
-                "name": "numéro",
-                "matched": "numéro"
-              },
-              {
-                "name": "atomique",
-                "matched": "atomique"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075440",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_017",
-        "name": "chasse-à-la-baleine",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Traite de Versailles.md",
-          "mange manger manger/Traite de Versailles 1919.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'chasse-à-la-baleine' validé par définition - éléments: chasse, baleine, aussi, appelée, pêche",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "droit",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "chasse",
-                "matched": "chasse"
-              },
-              {
-                "name": "baleine",
-                "matched": "baleine"
-              },
-              {
-                "name": "aussi",
-                "matched": "aussi"
-              },
-              {
-                "name": "appelée",
-                "matched": "appelée"
-              },
-              {
-                "name": "pêche",
-                "matched": "pêche"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075443",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_018",
-        "name": "proposition-relative",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Subordonnee relative.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'proposition-relative' validé par définition - éléments: grammaire, proposition, relative, proposition, subordonnée",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "linguistique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "grammaire",
-                "matched": "grammaire"
-              },
-              {
-                "name": "proposition",
-                "matched": "proposition"
-              },
-              {
-                "name": "relative",
-                "matched": "relative"
-              },
-              {
-                "name": "proposition",
-                "matched": "proposition"
-              },
-              {
-                "name": "subordonnée",
-                "matched": "subordonnée"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075447",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_019",
-        "name": "diamètre",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Imprimerie.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'diamètre' validé par définition - éléments: diamètre, concerne, initialement, figures, simples",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "diamètre",
-                "matched": "diamètre"
-              },
-              {
-                "name": "concerne",
-                "matched": "concerne"
-              },
-              {
-                "name": "initialement",
-                "matched": "initialement"
-              },
-              {
-                "name": "figures",
-                "matched": "figures"
-              },
-              {
-                "name": "simples",
-                "matched": "simples"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075450",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_020",
-        "name": "arbre",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Loup gris.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'arbre' validé par définition - éléments: arbre, latin, arbor, plante, ligneuse",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "physique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "arbre",
-                "matched": "arbre"
-              },
-              {
-                "name": "latin",
-                "matched": "latin"
-              },
-              {
-                "name": "arbor",
-                "matched": "arbor"
-              },
-              {
-                "name": "plante",
-                "matched": "plante"
-              },
-              {
-                "name": "ligneuse",
-                "matched": "ligneuse"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075454",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_021",
-        "name": "argent",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Uranium.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'argent' validé par définition - éléments: l'argent, l'élément, chimique, numéro, atomique",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "electronique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "l'argent",
-                "matched": "l'argent"
-              },
-              {
-                "name": "l'élément",
-                "matched": "l'élément"
-              },
-              {
-                "name": "chimique",
-                "matched": "chimique"
-              },
-              {
-                "name": "numéro",
-                "matched": "numéro"
-              },
-              {
-                "name": "atomique",
-                "matched": "atomique"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075457",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_025",
-        "name": "or",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Or ressource.md",
-          "mange manger manger/Or.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'or' validé par définition - éléments: l'or, l'élément, chimique, numéro, atomique",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "philosophie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "l'or",
-                "matched": "l'or"
-              },
-              {
-                "name": "l'élément",
-                "matched": "l'élément"
-              },
-              {
-                "name": "chimique",
-                "matched": "chimique"
-              },
-              {
-                "name": "numéro",
-                "matched": "numéro"
-              },
-              {
-                "name": "atomique",
-                "matched": "atomique"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075461",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_026",
-        "name": "corps-commutatif",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Physiocrates.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'corps-commutatif' validé par définition - éléments: mathématiques, corps, commutatif, parfois, simplement",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "mathématiques",
-                "matched": "mathématiques"
-              },
-              {
-                "name": "corps",
-                "matched": "corps"
-              },
-              {
-                "name": "commutatif",
-                "matched": "commutatif"
-              },
-              {
-                "name": "parfois",
-                "matched": "parfois"
-              },
-              {
-                "name": "simplement",
-                "matched": "simplement"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075465",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_030",
-        "name": "pronom",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Nom.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'pronom' validé par définition - éléments: pronom, mot-outil, variable, rôle, principal",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "linguistique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "pronom",
-                "matched": "pronom"
-              },
-              {
-                "name": "mot-outil",
-                "matched": "mot-outil"
-              },
-              {
-                "name": "variable",
-                "matched": "variable"
-              },
-              {
-                "name": "rôle",
-                "matched": "rôle"
-              },
-              {
-                "name": "principal",
-                "matched": "principal"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075468",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_035",
-        "name": "fer",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Fer.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'fer' validé par définition - éléments: fer, l'élément, chimique, numéro, atomique",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "physique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "fer",
-                "matched": "fer"
-              },
-              {
-                "name": "l'élément",
-                "matched": "l'élément"
-              },
-              {
-                "name": "chimique",
-                "matched": "chimique"
-              },
-              {
-                "name": "numéro",
-                "matched": "numéro"
-              },
-              {
-                "name": "atomique",
-                "matched": "atomique"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075471",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_037",
-        "name": "relativité-générale",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Relativite generale.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'relativité-générale' validé par définition - éléments: relativité, générale, théorie, relativiste, gravitation",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "electronique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "relativité",
-                "matched": "relativité"
-              },
-              {
-                "name": "générale",
-                "matched": "générale"
-              },
-              {
-                "name": "théorie",
-                "matched": "théorie"
-              },
-              {
-                "name": "relativiste",
-                "matched": "relativiste"
-              },
-              {
-                "name": "gravitation",
-                "matched": "gravitation"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075475",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_038",
-        "name": "vitesse-de-la-lumière",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Vitesse de la lumiere.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'vitesse-de-la-lumière' validé par définition - éléments: vitesse, lumière, vide, habituellement, notée",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "electronique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "vitesse",
-                "matched": "vitesse"
-              },
-              {
-                "name": "lumière",
-                "matched": "lumière"
-              },
-              {
-                "name": "vide",
-                "matched": "vide"
-              },
-              {
-                "name": "habituellement",
-                "matched": "habituellement"
-              },
-              {
-                "name": "notée",
-                "matched": "notée"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075478",
-        "source": "specialized_term"
-      },
-      {
-        "id": "lt_spec_039",
-        "name": "addiction",
-        "confidence": 0.9,
-        "notes": [
-          "mange manger manger/Tectonique des plaques.md"
-        ],
-        "reasoning": {
-          "summary": "Terme spécialisé 'addiction' validé par définition - éléments: l'addiction, dépendance, assuétude, l'envie, répétée",
-          "details": {
-            "family": "category",
-            "family_label": "Terme spécialisé",
-            "tag_type": "specialized",
-            "domaine_parent": "chimie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "l'addiction",
-                "matched": "l'addiction"
-              },
-              {
-                "name": "dépendance",
-                "matched": "dépendance"
-              },
-              {
-                "name": "assuétude",
-                "matched": "assuétude"
-              },
-              {
-                "name": "l'envie",
-                "matched": "l'envie"
-              },
-              {
-                "name": "répétée",
-                "matched": "répétée"
-              }
-            ]
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075482",
-        "source": "specialized_term"
       },
       {
         "id": "lt_ent_009",
-        "name": "entité\\urss",
-        "confidence": 0.89,
-        "notes": [
-          "fonctionnement-tag.md",
-          "YouTube Notes/Timestamps 2.md",
-          "mange manger manger/Paella.md",
-          "mange manger manger/Traite de Versailles.md",
-          "mange manger manger/Grand requin blanc.md",
-          "mange manger manger/Organisation des Nations unies.md",
-          "mange manger manger/Uranium.md",
-          "mange manger manger/Democratie.md",
-          "mange manger manger/Declaration des droits de lhomme.md",
-          "mange manger manger/Empire romain.md",
-          "mange manger manger/Franc.md",
-          "mange manger manger/Piano.md",
-          "mange manger manger/Bataille de Marathon.md",
-          "mange manger manger/Declaration des droits de l homme.md",
-          "mange manger manger/Italie.md",
-          "mange manger manger/Antiquite.md",
-          "mange manger manger/Tulipomanie.md",
-          "mange manger manger/Albert Einstein.md",
-          "mange manger manger/Baleine bleue.md",
-          "mange manger manger/UNESCO.md",
-          "mange manger manger/Traite de Versailles 1919.md",
-          "mange manger manger/La Pieta.md",
-          "mange manger manger/Union europeenne.md",
-          "mange manger manger/Code penal francais.md",
-          "mange manger manger/Seconde Guerre mondiale.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 25 notes",
-          "details": {
-            "entity_type": "entity",
-            "raw_text": "urss",
-            "total_occurrences": 84,
-            "notes_count": 25
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075485",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_010",
         "name": "entité\\prusse",
         "confidence": 0.89,
         "notes": [
@@ -1196,7 +419,51 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075488",
+        "first_detected": "2026-02-15T22:36:00.931601",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_010",
+        "name": "entité\\urss",
+        "confidence": 0.89,
+        "notes": [
+          "fonctionnement-tag.md",
+          "YouTube Notes/Timestamps 2.md",
+          "mange manger manger/Paella.md",
+          "mange manger manger/Traite de Versailles.md",
+          "mange manger manger/Grand requin blanc.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Uranium.md",
+          "mange manger manger/Democratie.md",
+          "mange manger manger/Declaration des droits de lhomme.md",
+          "mange manger manger/Empire romain.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Piano.md",
+          "mange manger manger/Bataille de Marathon.md",
+          "mange manger manger/Declaration des droits de l homme.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/Antiquite.md",
+          "mange manger manger/Tulipomanie.md",
+          "mange manger manger/Albert Einstein.md",
+          "mange manger manger/Baleine bleue.md",
+          "mange manger manger/UNESCO.md",
+          "mange manger manger/Traite de Versailles 1919.md",
+          "mange manger manger/La Pieta.md",
+          "mange manger manger/Union europeenne.md",
+          "mange manger manger/Code penal francais.md",
+          "mange manger manger/Seconde Guerre mondiale.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 25 notes",
+          "details": {
+            "entity_type": "entity",
+            "raw_text": "urss",
+            "total_occurrences": 84,
+            "notes_count": 25
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931604",
         "source": "heuristic"
       },
       {
@@ -1279,7 +546,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075492",
+        "first_detected": "2026-02-15T22:36:00.931607",
         "source": "heuristic"
       },
       {
@@ -1321,7 +588,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075494",
+        "first_detected": "2026-02-15T22:36:00.931610",
         "source": "heuristic"
       },
       {
@@ -1355,11 +622,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075497",
+        "first_detected": "2026-02-15T22:36:00.931613",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_001",
+        "id": "lt_ent_002",
         "name": "catégorie",
         "confidence": 0.88,
         "notes": [
@@ -1415,7 +682,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075500",
+        "first_detected": "2026-02-15T22:36:00.931616",
         "source": "heuristic"
       },
       {
@@ -1471,11 +738,80 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075503",
+        "first_detected": "2026-02-15T22:36:00.931618",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_011",
+        "name": "byzantin",
+        "confidence": 0.88,
+        "notes": [
+          "fonctionnement-tag.md",
+          "caroro.md",
+          "Clippings/Guerre de Crimée — Wikipédia.md",
+          "Clippings/Mythologie grecque — Wikipédia.md",
+          "mange manger manger/La Republique.md",
+          "mange manger manger/Moyen Age.md",
+          "mange manger manger/Accord general sur les tarifs douaniers.md",
+          "mange manger manger/Parthenon.md",
+          "mange manger manger/Prise de la Bastille.md",
+          "mange manger manger/Roald Amundsen.md",
+          "mange manger manger/Chute du mur de Berlin.md",
+          "mange manger manger/Methane.md",
+          "mange manger manger/Charlemagne.md",
+          "mange manger manger/Renaissance.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/Avicenne.md",
+          "mange manger manger/Alexandre le Grand.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 17 notes",
+          "details": {
+            "entity_type": "artwork",
+            "raw_text": "byzantin",
+            "total_occurrences": 108,
+            "notes_count": 17
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931621",
         "source": "heuristic"
       },
       {
         "id": "lt_ent_012",
+        "name": "baroque",
+        "confidence": 0.88,
+        "notes": [
+          "fonctionnement-tag.md",
+          "Clippings/Sonnet — Wikipédia.md",
+          "mange manger manger/Accord general sur les tarifs douaniers.md",
+          "mange manger manger/Guitare.md",
+          "mange manger manger/Benzene.md",
+          "mange manger manger/James Cook.md",
+          "mange manger manger/Violon.md",
+          "mange manger manger/Renaissance.md",
+          "mange manger manger/Tour Eiffel.md",
+          "mange manger manger/Chateau de Versailles.md",
+          "mange manger manger/Mozart.md",
+          "mange manger manger/Moliere.md",
+          "mange manger manger/Aspirine.md",
+          "mange manger manger/Amazonie.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 14 notes",
+          "details": {
+            "entity_type": "artwork",
+            "raw_text": "baroque",
+            "total_occurrences": 27,
+            "notes_count": 14
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931623",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_014",
         "name": "renaissance",
         "confidence": 0.88,
         "notes": [
@@ -1536,76 +872,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075506",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_013",
-        "name": "byzantin",
-        "confidence": 0.88,
-        "notes": [
-          "fonctionnement-tag.md",
-          "caroro.md",
-          "Clippings/Guerre de Crimée — Wikipédia.md",
-          "Clippings/Mythologie grecque — Wikipédia.md",
-          "mange manger manger/La Republique.md",
-          "mange manger manger/Moyen Age.md",
-          "mange manger manger/Accord general sur les tarifs douaniers.md",
-          "mange manger manger/Parthenon.md",
-          "mange manger manger/Prise de la Bastille.md",
-          "mange manger manger/Roald Amundsen.md",
-          "mange manger manger/Chute du mur de Berlin.md",
-          "mange manger manger/Methane.md",
-          "mange manger manger/Charlemagne.md",
-          "mange manger manger/Renaissance.md",
-          "mange manger manger/Italie.md",
-          "mange manger manger/Avicenne.md",
-          "mange manger manger/Alexandre le Grand.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 17 notes",
-          "details": {
-            "entity_type": "artwork",
-            "raw_text": "byzantin",
-            "total_occurrences": 108,
-            "notes_count": 17
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075509",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_015",
-        "name": "baroque",
-        "confidence": 0.88,
-        "notes": [
-          "fonctionnement-tag.md",
-          "Clippings/Sonnet — Wikipédia.md",
-          "mange manger manger/Accord general sur les tarifs douaniers.md",
-          "mange manger manger/Guitare.md",
-          "mange manger manger/Benzene.md",
-          "mange manger manger/James Cook.md",
-          "mange manger manger/Violon.md",
-          "mange manger manger/Renaissance.md",
-          "mange manger manger/Tour Eiffel.md",
-          "mange manger manger/Chateau de Versailles.md",
-          "mange manger manger/Mozart.md",
-          "mange manger manger/Moliere.md",
-          "mange manger manger/Aspirine.md",
-          "mange manger manger/Amazonie.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 14 notes",
-          "details": {
-            "entity_type": "artwork",
-            "raw_text": "baroque",
-            "total_occurrences": 27,
-            "notes_count": 14
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075512",
+        "first_detected": "2026-02-15T22:36:00.931626",
         "source": "heuristic"
       },
       {
@@ -1636,7 +903,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075515",
+        "first_detected": "2026-02-15T22:36:00.931629",
         "source": "heuristic"
       },
       {
@@ -1668,7 +935,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075518",
+        "first_detected": "2026-02-15T22:36:00.931632",
         "source": "heuristic"
       },
       {
@@ -1710,7 +977,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075521",
+        "first_detected": "2026-02-15T22:36:00.931634",
         "source": "heuristic"
       },
       {
@@ -1768,7 +1035,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075524",
+        "first_detected": "2026-02-15T22:36:00.931637",
         "source": "heuristic"
       },
       {
@@ -1800,7 +1067,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075526",
+        "first_detected": "2026-02-15T22:36:00.931639",
         "source": "heuristic"
       },
       {
@@ -1833,7 +1100,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075529",
+        "first_detected": "2026-02-15T22:36:00.931642",
         "source": "heuristic"
       },
       {
@@ -1861,7 +1128,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075532",
+        "first_detected": "2026-02-15T22:36:00.931645",
         "source": "heuristic"
       },
       {
@@ -1888,7 +1155,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075535",
+        "first_detected": "2026-02-15T22:36:00.931647",
         "source": "heuristic"
       },
       {
@@ -1927,7 +1194,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075539",
+        "first_detected": "2026-02-15T22:36:00.931650",
         "source": "heuristic"
       },
       {
@@ -1962,7 +1229,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075542",
+        "first_detected": "2026-02-15T22:36:00.931652",
         "source": "heuristic"
       },
       {
@@ -2050,7 +1317,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075544",
+        "first_detected": "2026-02-15T22:36:00.931654",
         "source": "heuristic"
       },
       {
@@ -2077,7 +1344,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075547",
+        "first_detected": "2026-02-15T22:36:00.931657",
         "source": "heuristic"
       },
       {
@@ -2116,7 +1383,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075550",
+        "first_detected": "2026-02-15T22:36:00.931659",
         "source": "heuristic"
       },
       {
@@ -2143,11 +1410,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075552",
+        "first_detected": "2026-02-15T22:36:00.931662",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_011",
+        "id": "lt_ent_013",
         "name": "gothique",
         "confidence": 0.86,
         "notes": [
@@ -2170,7 +1437,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075555",
+        "first_detected": "2026-02-15T22:36:00.931664",
         "source": "heuristic"
       },
       {
@@ -2196,7 +1463,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075558",
+        "first_detected": "2026-02-15T22:36:00.931667",
         "source": "heuristic"
       },
       {
@@ -31082,7 +30349,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075561",
+        "first_detected": "2026-02-15T22:36:00.931670",
         "source": "emergent"
       },
       {
@@ -31143,7 +30410,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075564",
+        "first_detected": "2026-02-15T22:36:00.931673",
         "source": "emergent"
       },
       {
@@ -31204,7 +30471,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075567",
+        "first_detected": "2026-02-15T22:36:00.931675",
         "source": "emergent"
       },
       {
@@ -31265,7 +30532,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075570",
+        "first_detected": "2026-02-15T22:36:00.931678",
         "source": "emergent"
       },
       {
@@ -31326,7 +30593,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075573",
+        "first_detected": "2026-02-15T22:36:00.931681",
         "source": "emergent"
       },
       {
@@ -31387,7 +30654,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075576",
+        "first_detected": "2026-02-15T22:36:00.931683",
         "source": "emergent"
       },
       {
@@ -31448,7 +30715,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075580",
+        "first_detected": "2026-02-15T22:36:00.931686",
         "source": "emergent"
       },
       {
@@ -31459,39 +30726,18 @@
           "Exemples_Definitions_Detaillees.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'abélien' validé par définition - éléments: l'adjectif, abélien, dérivé, nom, mathématicien",
+          "summary": "Terme spécialisé 'abélien' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "islam",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "l'adjectif",
-                "matched": "l'adjectif"
-              },
-              {
-                "name": "abélien",
-                "matched": "abélien"
-              },
-              {
-                "name": "dérivé",
-                "matched": "dérivé"
-              },
-              {
-                "name": "nom",
-                "matched": "nom"
-              },
-              {
-                "name": "mathématicien",
-                "matched": "mathématicien"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075582",
+        "first_detected": "2026-02-15T22:36:00.931689",
         "source": "specialized_term"
       },
       {
@@ -31503,35 +30749,18 @@
           "mange manger manger/Theoreme de Thales.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'équation différentielle' validé par définition - éléments: équation différentielle, dérivée, solution, ordre",
+          "summary": "Terme spécialisé 'équation différentielle' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "équation différentielle",
-                "matched": "équation différentielle"
-              },
-              {
-                "name": "dérivée",
-                "matched": "dérivée"
-              },
-              {
-                "name": "solution",
-                "matched": "solution"
-              },
-              {
-                "name": "ordre",
-                "matched": "ordre"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075585",
+        "first_detected": "2026-02-15T22:36:00.931692",
         "source": "specialized_term"
       },
       {
@@ -31546,35 +30775,18 @@
           "mange manger manger/Conjecture de Syracuse.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'probabilité' validé par définition - éléments: probabilité, événement, aléatoire, statistique",
+          "summary": "Terme spécialisé 'probabilité' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "probabilité",
-                "matched": "probabilité"
-              },
-              {
-                "name": "événement",
-                "matched": "événement"
-              },
-              {
-                "name": "aléatoire",
-                "matched": "aléatoire"
-              },
-              {
-                "name": "statistique",
-                "matched": "statistique"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075588",
+        "first_detected": "2026-02-15T22:36:00.931694",
         "source": "specialized_term"
       },
       {
@@ -31592,35 +30804,18 @@
           "mange manger manger/Isaac Newton.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'suite géométrique' validé par définition - éléments: suite géométrique, raison, terme, somme",
+          "summary": "Terme spécialisé 'suite géométrique' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "suite géométrique",
-                "matched": "géométrique"
-              },
-              {
-                "name": "raison",
-                "matched": "raison"
-              },
-              {
-                "name": "terme",
-                "matched": "terme"
-              },
-              {
-                "name": "somme",
-                "matched": "somme"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075591",
+        "first_detected": "2026-02-15T22:36:00.931697",
         "source": "specialized_term"
       },
       {
@@ -31632,39 +30827,18 @@
           "mange manger manger/Theoreme de Pythagore.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'tangente' validé par définition - éléments: tangente, droite, courbe, pente, trigonométrie",
+          "summary": "Terme spécialisé 'tangente' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "tangente",
-                "matched": "tan"
-              },
-              {
-                "name": "droite",
-                "matched": "droite"
-              },
-              {
-                "name": "courbe",
-                "matched": "courbe"
-              },
-              {
-                "name": "pente",
-                "matched": "pente"
-              },
-              {
-                "name": "trigonométrie",
-                "matched": "trigonométrie"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075594",
+        "first_detected": "2026-02-15T22:36:00.931699",
         "source": "specialized_term"
       },
       {
@@ -31676,39 +30850,18 @@
           "mange manger manger/Theoreme de Pythagore.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'cosinus' validé par définition - éléments: cosinus, angle, trigonométrie, cercle, sinus",
+          "summary": "Terme spécialisé 'cosinus' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "cosinus",
-                "matched": "cosinus"
-              },
-              {
-                "name": "angle",
-                "matched": "angle"
-              },
-              {
-                "name": "trigonométrie",
-                "matched": "trigonométrie"
-              },
-              {
-                "name": "cercle",
-                "matched": "cercle"
-              },
-              {
-                "name": "sinus",
-                "matched": "sinus"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075597",
+        "first_detected": "2026-02-15T22:36:00.931702",
         "source": "specialized_term"
       },
       {
@@ -31720,39 +30873,18 @@
           "mange manger manger/Theoreme de Pythagore.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'sinus' validé par définition - éléments: sinus, angle, trigonométrie, cercle, cosinus",
+          "summary": "Terme spécialisé 'sinus' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "sinus",
-                "matched": "sinus"
-              },
-              {
-                "name": "angle",
-                "matched": "angle"
-              },
-              {
-                "name": "trigonométrie",
-                "matched": "trigonométrie"
-              },
-              {
-                "name": "cercle",
-                "matched": "cercle"
-              },
-              {
-                "name": "cosinus",
-                "matched": "cosinus"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075600",
+        "first_detected": "2026-02-15T22:36:00.931704",
         "source": "specialized_term"
       },
       {
@@ -31764,35 +30896,18 @@
           "mange manger manger/Theoreme de Pythagore.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'fonction affine' validé par définition - éléments: fonction affine, droite, pente, ordonnée",
+          "summary": "Terme spécialisé 'fonction affine' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "fonction affine",
-                "matched": "affine"
-              },
-              {
-                "name": "droite",
-                "matched": "droite"
-              },
-              {
-                "name": "pente",
-                "matched": "pente"
-              },
-              {
-                "name": "ordonnée",
-                "matched": "ordonnée"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075603",
+        "first_detected": "2026-02-15T22:36:00.931707",
         "source": "specialized_term"
       },
       {
@@ -31809,35 +30924,18 @@
           "mange manger manger/Isaac Newton.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'suite arithmétique' validé par définition - éléments: suite arithmétique, raison, terme, somme",
+          "summary": "Terme spécialisé 'suite arithmétique' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "suite arithmétique",
-                "matched": "arithmétique"
-              },
-              {
-                "name": "raison",
-                "matched": "raison"
-              },
-              {
-                "name": "terme",
-                "matched": "terme"
-              },
-              {
-                "name": "somme",
-                "matched": "somme"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075607",
+        "first_detected": "2026-02-15T22:36:00.931709",
         "source": "specialized_term"
       },
       {
@@ -31850,39 +30948,18 @@
           "mange manger manger/Theoreme de Pythagore.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'théorème de Pythagore' validé par définition - éléments: Pythagore, triangle, rectangle, hypoténuse, carré",
+          "summary": "Terme spécialisé 'théorème de Pythagore' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "Pythagore",
-                "matched": "pythagore"
-              },
-              {
-                "name": "triangle",
-                "matched": "triangle"
-              },
-              {
-                "name": "rectangle",
-                "matched": "rectangle"
-              },
-              {
-                "name": "hypoténuse",
-                "matched": "hypoténuse"
-              },
-              {
-                "name": "carré",
-                "matched": "carré"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075610",
+        "first_detected": "2026-02-15T22:36:00.931711",
         "source": "specialized_term"
       },
       {
@@ -31893,39 +30970,18 @@
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Raisonnement par Récurrence.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'récurrence' validé par définition - éléments: récurrence, démonstration, suite, hérédité, initialisation",
+          "summary": "Terme spécialisé 'récurrence' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "récurrence",
-                "matched": "récurrence"
-              },
-              {
-                "name": "démonstration",
-                "matched": "démonstration"
-              },
-              {
-                "name": "suite",
-                "matched": "suite"
-              },
-              {
-                "name": "hérédité",
-                "matched": "hérédité"
-              },
-              {
-                "name": "initialisation",
-                "matched": "initialisation"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075613",
+        "first_detected": "2026-02-15T22:36:00.931714",
         "source": "specialized_term"
       },
       {
@@ -31936,43 +30992,239 @@
           "¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Dérivée.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'dérivée' validé par définition - éléments: dérivée, fonction, limite, taux, variation",
+          "summary": "Terme spécialisé 'dérivée' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "dérivée",
-                "matched": "dérivée"
-              },
-              {
-                "name": "fonction",
-                "matched": "fonction"
-              },
-              {
-                "name": "limite",
-                "matched": "limite"
-              },
-              {
-                "name": "taux",
-                "matched": "taux"
-              },
-              {
-                "name": "variation",
-                "matched": "variation"
-              },
-              {
-                "name": "tangente",
-                "matched": "tangente"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075616",
+        "first_detected": "2026-02-15T22:36:00.931717",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_012",
+        "name": "port",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Bill of Rights.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'port' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931719",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_013",
+        "name": "soufre",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Helium.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'soufre' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931721",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_014",
+        "name": "ragnarök",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Erwin Rommel.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'ragnarök' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931724",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_015",
+        "name": "intestin-grêle",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Main invisible.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'intestin-grêle' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931727",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_016",
+        "name": "platine",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Tourisme.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'platine' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931729",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_017",
+        "name": "chasse-à-la-baleine",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Traite de Versailles.md",
+          "mange manger manger/Traite de Versailles 1919.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'chasse-à-la-baleine' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931732",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_018",
+        "name": "proposition-relative",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Subordonnee relative.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'proposition-relative' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931734",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_019",
+        "name": "diamètre",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Imprimerie.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'diamètre' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931737",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_020",
+        "name": "arbre",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Loup gris.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'arbre' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931740",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_021",
+        "name": "argent",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Uranium.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'argent' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931742",
         "source": "specialized_term"
       },
       {
@@ -31983,39 +31235,18 @@
           "mange manger manger/Industrie automobile.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'nanotechnologie' validé par définition - éléments: nanosciences, nanotechnologies, après, grec, νάνος",
+          "summary": "Terme spécialisé 'nanotechnologie' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "physique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "nanosciences",
-                "matched": "nanosciences"
-              },
-              {
-                "name": "nanotechnologies",
-                "matched": "nanotechnologies"
-              },
-              {
-                "name": "après",
-                "matched": "après"
-              },
-              {
-                "name": "grec",
-                "matched": "grec"
-              },
-              {
-                "name": "νάνος",
-                "matched": "νάνος"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075619",
+        "first_detected": "2026-02-15T22:36:00.931745",
         "source": "specialized_term"
       },
       {
@@ -32026,39 +31257,18 @@
           "mange manger manger/Dynastie des Habsbourg.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'détroit' validé par définition - éléments: détroit, latin, districts, adjectivation, participe",
+          "summary": "Terme spécialisé 'détroit' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "geographie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "détroit",
-                "matched": "détroit"
-              },
-              {
-                "name": "latin",
-                "matched": "latin"
-              },
-              {
-                "name": "districts",
-                "matched": "districts"
-              },
-              {
-                "name": "adjectivation",
-                "matched": "adjectivation"
-              },
-              {
-                "name": "participe",
-                "matched": "participe"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075622",
+        "first_detected": "2026-02-15T22:36:00.931747",
         "source": "specialized_term"
       },
       {
@@ -32071,39 +31281,63 @@
           "mange manger manger/Theoreme fondamental de lanalyse.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'limite' validé par définition - éléments: limite, convergence, suite, fonction, infini",
+          "summary": "Terme spécialisé 'limite' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "limite",
-                "matched": "limite"
-              },
-              {
-                "name": "convergence",
-                "matched": "convergence"
-              },
-              {
-                "name": "suite",
-                "matched": "suite"
-              },
-              {
-                "name": "fonction",
-                "matched": "fonction"
-              },
-              {
-                "name": "infini",
-                "matched": "infini"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075626",
+        "first_detected": "2026-02-15T22:36:00.931750",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_025",
+        "name": "or",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Or ressource.md",
+          "mange manger manger/Or.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'or' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931753",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_026",
+        "name": "corps-commutatif",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Physiocrates.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'corps-commutatif' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931755",
         "source": "specialized_term"
       },
       {
@@ -32114,39 +31348,18 @@
           "mange manger manger/Lois de Kepler.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'liquide' validé par définition - éléments: phase, liquide, état, matière, ainsi",
+          "summary": "Terme spécialisé 'liquide' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "electronique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "phase",
-                "matched": "phase"
-              },
-              {
-                "name": "liquide",
-                "matched": "liquide"
-              },
-              {
-                "name": "état",
-                "matched": "état"
-              },
-              {
-                "name": "matière",
-                "matched": "matière"
-              },
-              {
-                "name": "ainsi",
-                "matched": "ainsi"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075630",
+        "first_detected": "2026-02-15T22:36:00.931758",
         "source": "specialized_term"
       },
       {
@@ -32157,39 +31370,18 @@
           "mange manger manger/Neologisme.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'chambre-noire' validé par définition - éléments: chambre, noire, latin, camera, obscura",
+          "summary": "Terme spécialisé 'chambre-noire' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "photographie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "chambre",
-                "matched": "chambre"
-              },
-              {
-                "name": "noire",
-                "matched": "noire"
-              },
-              {
-                "name": "latin",
-                "matched": "latin"
-              },
-              {
-                "name": "camera",
-                "matched": "camera"
-              },
-              {
-                "name": "obscura",
-                "matched": "obscura"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075633",
+        "first_detected": "2026-02-15T22:36:00.931760",
         "source": "specialized_term"
       },
       {
@@ -32200,39 +31392,40 @@
           "mange manger manger/Fusion nucleaire.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'hormone' validé par définition - éléments: parmi, animaux, hormone, substance, produite",
+          "summary": "Terme spécialisé 'hormone' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "chimie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "parmi",
-                "matched": "parmi"
-              },
-              {
-                "name": "animaux",
-                "matched": "animaux"
-              },
-              {
-                "name": "hormone",
-                "matched": "hormone"
-              },
-              {
-                "name": "substance",
-                "matched": "substance"
-              },
-              {
-                "name": "produite",
-                "matched": "produite"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075637",
+        "first_detected": "2026-02-15T22:36:00.931763",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_030",
+        "name": "pronom",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Nom.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'pronom' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931765",
         "source": "specialized_term"
       },
       {
@@ -32243,39 +31436,18 @@
           "mange manger manger/Avicenne.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'avicenne' validé par définition - éléments: ibn, sina, persan, ابن, سینا",
+          "summary": "Terme spécialisé 'avicenne' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "philosophie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "ibn",
-                "matched": "ibn"
-              },
-              {
-                "name": "sina",
-                "matched": "sina"
-              },
-              {
-                "name": "persan",
-                "matched": "persan"
-              },
-              {
-                "name": "ابن",
-                "matched": "ابن"
-              },
-              {
-                "name": "سینا",
-                "matched": "سینا"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075640",
+        "first_detected": "2026-02-15T22:36:00.931768",
         "source": "specialized_term"
       },
       {
@@ -32286,39 +31458,18 @@
           "mange manger manger/Loi salique.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'chorégraphie' validé par définition - éléments: chorégraphie, grec, ancien, χορεία, khoreía",
+          "summary": "Terme spécialisé 'chorégraphie' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "danse",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "chorégraphie",
-                "matched": "chorégraphie"
-              },
-              {
-                "name": "grec",
-                "matched": "grec"
-              },
-              {
-                "name": "ancien",
-                "matched": "ancien"
-              },
-              {
-                "name": "χορεία",
-                "matched": "χορεία"
-              },
-              {
-                "name": "khoreía",
-                "matched": "khoreía"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075644",
+        "first_detected": "2026-02-15T22:36:00.931770",
         "source": "specialized_term"
       },
       {
@@ -32329,39 +31480,18 @@
           "mange manger manger/Theoreme de Thales.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'logarithme' validé par définition - éléments: mathématiques, généralement, science, logarithme, grec",
+          "summary": "Terme spécialisé 'logarithme' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "mathématiques",
-                "matched": "mathématiques"
-              },
-              {
-                "name": "généralement",
-                "matched": "généralement"
-              },
-              {
-                "name": "science",
-                "matched": "science"
-              },
-              {
-                "name": "logarithme",
-                "matched": "logarithme"
-              },
-              {
-                "name": "grec",
-                "matched": "grec"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075650",
+        "first_detected": "2026-02-15T22:36:00.931773",
         "source": "specialized_term"
       },
       {
@@ -32372,39 +31502,40 @@
           "mange manger manger/Utilitarisme.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'droit' validé par définition - éléments: droit, droit, objectif, défini, comme",
+          "summary": "Terme spécialisé 'droit' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "linguistique",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "droit",
-                "matched": "droit"
-              },
-              {
-                "name": "droit",
-                "matched": "droit"
-              },
-              {
-                "name": "objectif",
-                "matched": "objectif"
-              },
-              {
-                "name": "défini",
-                "matched": "défini"
-              },
-              {
-                "name": "comme",
-                "matched": "comme"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075653",
+        "first_detected": "2026-02-15T22:36:00.931776",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_035",
+        "name": "fer",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Fer.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'fer' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931778",
         "source": "specialized_term"
       },
       {
@@ -32415,39 +31546,84 @@
           "mange manger manger/Theoreme fondamental de lanalyse.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'intégrale' validé par définition - éléments: intégrale, aire, primitive, somme, Riemann",
+          "summary": "Terme spécialisé 'intégrale' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "mathematiques",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "intégrale",
-                "matched": "intégrale"
-              },
-              {
-                "name": "aire",
-                "matched": "aire"
-              },
-              {
-                "name": "primitive",
-                "matched": "primitive"
-              },
-              {
-                "name": "somme",
-                "matched": "somme"
-              },
-              {
-                "name": "Riemann",
-                "matched": "riemann"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075656",
+        "first_detected": "2026-02-15T22:36:00.931780",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_037",
+        "name": "relativité-générale",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Relativite generale.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'relativité-générale' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931784",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_038",
+        "name": "vitesse-de-la-lumière",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Vitesse de la lumiere.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'vitesse-de-la-lumière' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931787",
+        "source": "specialized_term"
+      },
+      {
+        "id": "lt_spec_039",
+        "name": "addiction",
+        "confidence": 0.85,
+        "notes": [
+          "mange manger manger/Tectonique des plaques.md"
+        ],
+        "reasoning": {
+          "summary": "Terme spécialisé 'addiction' validé par terme exact",
+          "details": {
+            "family": "category",
+            "family_label": "Terme spécialisé",
+            "tag_type": "specialized",
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T22:36:00.931789",
         "source": "specialized_term"
       },
       {
@@ -32458,43 +31634,22 @@
           "mange manger manger/Elephant dAfrique.md"
         ],
         "reasoning": {
-          "summary": "Terme spécialisé 'espèce' validé par définition - éléments: sciences, vivant, espèce, latin, species",
+          "summary": "Terme spécialisé 'espèce' validé par terme exact",
           "details": {
             "family": "category",
             "family_label": "Terme spécialisé",
             "tag_type": "specialized",
-            "domaine_parent": "economie",
-            "exact_match": false,
-            "matched_elements": [
-              {
-                "name": "sciences",
-                "matched": "sciences"
-              },
-              {
-                "name": "vivant",
-                "matched": "vivant"
-              },
-              {
-                "name": "espèce",
-                "matched": "espèce"
-              },
-              {
-                "name": "latin",
-                "matched": "latin"
-              },
-              {
-                "name": "species",
-                "matched": "species"
-              }
-            ]
+            "domaine_parent": "",
+            "exact_match": true,
+            "matched_elements": []
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075660",
+        "first_detected": "2026-02-15T22:36:00.931792",
         "source": "specialized_term"
       },
       {
-        "id": "lt_ent_007",
+        "id": "lt_ent_006",
         "name": "fibre",
         "confidence": 0.84,
         "notes": [
@@ -32518,7 +31673,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075663",
+        "first_detected": "2026-02-15T22:36:00.931794",
         "source": "heuristic"
       },
       {
@@ -32544,7 +31699,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075666",
+        "first_detected": "2026-02-15T22:36:00.931797",
         "source": "heuristic"
       },
       {
@@ -32568,7 +31723,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075669",
+        "first_detected": "2026-02-15T22:36:00.931799",
         "source": "heuristic"
       },
       {
@@ -32631,7 +31786,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075672",
+        "first_detected": "2026-02-15T22:36:00.931802",
         "source": "emergent"
       },
       {
@@ -32694,7 +31849,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075675",
+        "first_detected": "2026-02-15T22:36:00.931804",
         "source": "emergent"
       },
       {
@@ -32757,7 +31912,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075678",
+        "first_detected": "2026-02-15T22:36:00.931807",
         "source": "emergent"
       },
       {
@@ -32820,7 +31975,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075681",
+        "first_detected": "2026-02-15T22:36:00.931809",
         "source": "emergent"
       },
       {
@@ -32883,7 +32038,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075684",
+        "first_detected": "2026-02-15T22:36:00.931812",
         "source": "emergent"
       },
       {
@@ -32946,7 +32101,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075687",
+        "first_detected": "2026-02-15T22:36:00.931814",
         "source": "emergent"
       },
       {
@@ -32967,7 +32122,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075689",
+        "first_detected": "2026-02-15T22:36:00.931817",
         "source": "heuristic"
       },
       {
@@ -32992,7 +32147,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075692",
+        "first_detected": "2026-02-15T22:36:00.931820",
         "source": "heuristic"
       },
       {
@@ -33017,7 +32172,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075695",
+        "first_detected": "2026-02-15T22:36:00.931822",
         "source": "heuristic"
       },
       {
@@ -33042,7 +32197,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075698",
+        "first_detected": "2026-02-15T22:36:00.931825",
         "source": "heuristic"
       },
       {
@@ -33063,7 +32218,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075701",
+        "first_detected": "2026-02-15T22:36:00.931827",
         "source": "heuristic"
       },
       {
@@ -33085,7 +32240,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075704",
+        "first_detected": "2026-02-15T22:36:00.931830",
         "source": "heuristic"
       },
       {
@@ -33107,7 +32262,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075707",
+        "first_detected": "2026-02-15T22:36:00.931833",
         "source": "heuristic"
       },
       {
@@ -33129,7 +32284,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075710",
+        "first_detected": "2026-02-15T22:36:00.931835",
         "source": "heuristic"
       },
       {
@@ -33152,7 +32307,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075713",
+        "first_detected": "2026-02-15T22:36:00.931838",
         "source": "heuristic"
       },
       {
@@ -33174,7 +32329,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075716",
+        "first_detected": "2026-02-15T22:36:00.931840",
         "source": "heuristic"
       },
       {
@@ -33196,11 +32351,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075719",
+        "first_detected": "2026-02-15T22:36:00.931842",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_007",
         "name": "tenseur",
         "confidence": 0.75,
         "notes": [
@@ -33217,7 +32372,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075722",
+        "first_detected": "2026-02-15T22:36:00.931845",
         "source": "heuristic"
       },
       {
@@ -33238,7 +32393,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075726",
+        "first_detected": "2026-02-15T22:36:00.931847",
         "source": "heuristic"
       },
       {
@@ -33259,7 +32414,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075728",
+        "first_detected": "2026-02-15T22:36:00.931850",
         "source": "heuristic"
       },
       {
@@ -33283,7 +32438,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075731",
+        "first_detected": "2026-02-15T22:36:00.931852",
         "source": "heuristic"
       },
       {
@@ -33304,7 +32459,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075734",
+        "first_detected": "2026-02-15T22:36:00.931855",
         "source": "heuristic"
       },
       {
@@ -33326,7 +32481,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075737",
+        "first_detected": "2026-02-15T22:36:00.931857",
         "source": "heuristic"
       },
       {
@@ -33350,7 +32505,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075740",
+        "first_detected": "2026-02-15T22:36:00.931860",
         "source": "heuristic"
       },
       {
@@ -33371,7 +32526,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075743",
+        "first_detected": "2026-02-15T22:36:00.931862",
         "source": "heuristic"
       },
       {
@@ -33393,7 +32548,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075749",
+        "first_detected": "2026-02-15T22:36:00.931864",
         "source": "heuristic"
       },
       {
@@ -33416,7 +32571,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075752",
+        "first_detected": "2026-02-15T22:36:00.931867",
         "source": "heuristic"
       },
       {
@@ -33439,7 +32594,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075755",
+        "first_detected": "2026-02-15T22:36:00.931869",
         "source": "heuristic"
       },
       {
@@ -33462,7 +32617,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075758",
+        "first_detected": "2026-02-15T22:36:00.931872",
         "source": "heuristic"
       },
       {
@@ -33484,7 +32639,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075761",
+        "first_detected": "2026-02-15T22:36:00.931874",
         "source": "heuristic"
       },
       {
@@ -33505,7 +32660,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075763",
+        "first_detected": "2026-02-15T22:36:00.931877",
         "source": "heuristic"
       },
       {
@@ -33527,7 +32682,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075767",
+        "first_detected": "2026-02-15T22:36:00.931879",
         "source": "heuristic"
       },
       {
@@ -33549,7 +32704,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075769",
+        "first_detected": "2026-02-15T22:36:00.931881",
         "source": "heuristic"
       },
       {
@@ -33571,7 +32726,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075773",
+        "first_detected": "2026-02-15T22:36:00.931884",
         "source": "heuristic"
       },
       {
@@ -33592,7 +32747,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075775",
+        "first_detected": "2026-02-15T22:36:00.931886",
         "source": "heuristic"
       },
       {
@@ -33614,7 +32769,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075778",
+        "first_detected": "2026-02-15T22:36:00.931889",
         "source": "heuristic"
       },
       {
@@ -33635,7 +32790,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075781",
+        "first_detected": "2026-02-15T22:36:00.931891",
         "source": "heuristic"
       },
       {
@@ -33658,7 +32813,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075783",
+        "first_detected": "2026-02-15T22:36:00.931894",
         "source": "heuristic"
       },
       {
@@ -33680,7 +32835,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075786",
+        "first_detected": "2026-02-15T22:36:00.931897",
         "source": "heuristic"
       },
       {
@@ -33702,7 +32857,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075789",
+        "first_detected": "2026-02-15T22:36:00.931899",
         "source": "heuristic"
       },
       {
@@ -33723,7 +32878,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075792",
+        "first_detected": "2026-02-15T22:36:00.931902",
         "source": "heuristic"
       },
       {
@@ -33777,7 +32932,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075795",
+        "first_detected": "2026-02-15T22:36:00.931905",
         "source": "emergent"
       },
       {
@@ -33831,7 +32986,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075798",
+        "first_detected": "2026-02-15T22:36:00.931907",
         "source": "emergent"
       },
       {
@@ -33885,7 +33040,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075801",
+        "first_detected": "2026-02-15T22:36:00.931910",
         "source": "emergent"
       },
       {
@@ -33939,7 +33094,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075804",
+        "first_detected": "2026-02-15T22:36:00.931912",
         "source": "emergent"
       },
       {
@@ -33960,7 +33115,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075807",
+        "first_detected": "2026-02-15T22:36:00.931917",
         "source": "heuristic"
       },
       {
@@ -33981,7 +33136,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075810",
+        "first_detected": "2026-02-15T22:36:00.931920",
         "source": "heuristic"
       },
       {
@@ -34003,7 +33158,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075812",
+        "first_detected": "2026-02-15T22:36:00.931922",
         "source": "heuristic"
       },
       {
@@ -34025,7 +33180,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075815",
+        "first_detected": "2026-02-15T22:36:00.931925",
         "source": "heuristic"
       },
       {
@@ -34046,7 +33201,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075818",
+        "first_detected": "2026-02-15T22:36:00.931927",
         "source": "heuristic"
       },
       {
@@ -34067,7 +33222,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075821",
+        "first_detected": "2026-02-15T22:36:00.931929",
         "source": "heuristic"
       },
       {
@@ -34088,7 +33243,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075823",
+        "first_detected": "2026-02-15T22:36:00.931932",
         "source": "heuristic"
       },
       {
@@ -34110,7 +33265,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075826",
+        "first_detected": "2026-02-15T22:36:00.931934",
         "source": "heuristic"
       },
       {
@@ -34132,7 +33287,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075829",
+        "first_detected": "2026-02-15T22:36:00.931936",
         "source": "heuristic"
       },
       {
@@ -34154,7 +33309,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075832",
+        "first_detected": "2026-02-15T22:36:00.931939",
         "source": "heuristic"
       },
       {
@@ -34176,7 +33331,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075834",
+        "first_detected": "2026-02-15T22:36:00.931941",
         "source": "heuristic"
       },
       {
@@ -34223,7 +33378,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075837",
+        "first_detected": "2026-02-15T22:36:00.931943",
         "source": "emergent"
       },
       {
@@ -34269,7 +33424,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075840",
+        "first_detected": "2026-02-15T22:36:00.931946",
         "source": "emergent"
       },
       {
@@ -34290,7 +33445,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075843",
+        "first_detected": "2026-02-15T22:36:00.931949",
         "source": "heuristic"
       },
       {
@@ -34311,7 +33466,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075846",
+        "first_detected": "2026-02-15T22:36:00.931951",
         "source": "heuristic"
       },
       {
@@ -34333,7 +33488,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075849",
+        "first_detected": "2026-02-15T22:36:00.931954",
         "source": "heuristic"
       },
       {
@@ -34354,11 +33509,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075852",
+        "first_detected": "2026-02-15T22:36:00.931957",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_014",
+        "id": "lt_ent_015",
         "name": "rococo",
         "confidence": 0.66,
         "notes": [
@@ -34376,7 +33531,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075854",
+        "first_detected": "2026-02-15T22:36:00.931959",
         "source": "heuristic"
       },
       {
@@ -34397,7 +33552,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075857",
+        "first_detected": "2026-02-15T22:36:00.931962",
         "source": "heuristic"
       },
       {
@@ -34418,7 +33573,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075860",
+        "first_detected": "2026-02-15T22:36:00.931965",
         "source": "heuristic"
       },
       {
@@ -34439,7 +33594,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075863",
+        "first_detected": "2026-02-15T22:36:00.931967",
         "source": "heuristic"
       },
       {
@@ -34460,7 +33615,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075866",
+        "first_detected": "2026-02-15T22:36:00.931969",
         "source": "heuristic"
       },
       {
@@ -34481,7 +33636,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075868",
+        "first_detected": "2026-02-15T22:36:00.931972",
         "source": "heuristic"
       },
       {
@@ -34502,7 +33657,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075871",
+        "first_detected": "2026-02-15T22:36:00.931974",
         "source": "heuristic"
       },
       {
@@ -34523,7 +33678,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075874",
+        "first_detected": "2026-02-15T22:36:00.931977",
         "source": "heuristic"
       },
       {
@@ -34544,7 +33699,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075877",
+        "first_detected": "2026-02-15T22:36:00.931979",
         "source": "heuristic"
       },
       {
@@ -34565,7 +33720,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075879",
+        "first_detected": "2026-02-15T22:36:00.931981",
         "source": "heuristic"
       },
       {
@@ -34586,7 +33741,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075882",
+        "first_detected": "2026-02-15T22:36:00.931984",
         "source": "heuristic"
       },
       {
@@ -34607,7 +33762,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075885",
+        "first_detected": "2026-02-15T22:36:00.931986",
         "source": "heuristic"
       },
       {
@@ -34628,7 +33783,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075888",
+        "first_detected": "2026-02-15T22:36:00.931989",
         "source": "heuristic"
       },
       {
@@ -34649,7 +33804,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075891",
+        "first_detected": "2026-02-15T22:36:00.931991",
         "source": "heuristic"
       },
       {
@@ -34670,7 +33825,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075893",
+        "first_detected": "2026-02-15T22:36:00.931993",
         "source": "heuristic"
       },
       {
@@ -34691,7 +33846,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075896",
+        "first_detected": "2026-02-15T22:36:00.931996",
         "source": "heuristic"
       },
       {
@@ -34712,7 +33867,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075899",
+        "first_detected": "2026-02-15T22:36:00.931998",
         "source": "heuristic"
       },
       {
@@ -34733,7 +33888,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075902",
+        "first_detected": "2026-02-15T22:36:00.932001",
         "source": "heuristic"
       },
       {
@@ -34754,7 +33909,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075904",
+        "first_detected": "2026-02-15T22:36:00.932003",
         "source": "heuristic"
       },
       {
@@ -34775,7 +33930,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075907",
+        "first_detected": "2026-02-15T22:36:00.932019",
         "source": "heuristic"
       },
       {
@@ -34796,7 +33951,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075909",
+        "first_detected": "2026-02-15T22:36:00.932022",
         "source": "heuristic"
       },
       {
@@ -34817,7 +33972,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075912",
+        "first_detected": "2026-02-15T22:36:00.932024",
         "source": "heuristic"
       },
       {
@@ -34838,7 +33993,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075915",
+        "first_detected": "2026-02-15T22:36:00.932027",
         "source": "heuristic"
       },
       {
@@ -34859,7 +34014,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T19:48:00.075917",
+        "first_detected": "2026-02-15T22:36:00.932030",
         "source": "heuristic"
       }
     ],
@@ -35029,7 +34184,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.286885",
+          "last_used": "2026-02-15T22:18:01.534654",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -35048,7 +34203,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.240716",
+          "last_used": "2026-02-15T22:18:01.595190",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -35067,7 +34222,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.325683",
+          "last_used": "2026-02-15T22:18:01.409244",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete.md"
@@ -35086,7 +34241,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.173462",
+          "last_used": "2026-02-15T22:18:01.531942",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Cellule (biologie) — Wikipédia.md"
@@ -35105,7 +34260,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.213226",
+          "last_used": "2026-02-15T22:18:01.423127",
           "days_inactive": 0,
           "notes_using": [
             "YouTube Notes/Timestamps 2.md"
@@ -35124,7 +34279,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.294639",
+          "last_used": "2026-02-15T22:18:01.543847",
           "days_inactive": 0,
           "notes_using": [
             "YouTube Notes/Timestamps 2.md"
@@ -35143,7 +34298,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.305557",
+          "last_used": "2026-02-15T22:18:01.445473",
           "days_inactive": 0,
           "notes_using": [
             "YouTube Notes/Timestamps 2.md"
@@ -35162,7 +34317,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.235494",
+          "last_used": "2026-02-15T22:18:01.582335",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
@@ -35181,7 +34336,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.338633",
+          "last_used": "2026-02-15T22:18:01.461543",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Guitare.md"
@@ -35200,7 +34355,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.383696",
+          "last_used": "2026-02-15T22:18:01.402675",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Toyota.md"
@@ -35219,7 +34374,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.193825",
+          "last_used": "2026-02-15T22:18:01.561408",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Imprimerie.md"
@@ -35238,7 +34393,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.318986",
+          "last_used": "2026-02-15T22:18:01.428292",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Go strategie.md"
@@ -35257,7 +34412,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T18:59:28.188234",
+          "last_used": "2026-02-15T22:18:01.569271",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Isaac Newton.md"
@@ -35273,61 +34428,48 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_1777",
+        "id": "rg_5845",
         "tags": [
-          "/",
-          "------------------------------------------",
-          "------------------------------"
+          "concept",
+          "economie/concept"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "/": 1,
-          "------------------------------------------": 2,
-          "------------------------------": 2
-        },
-        "recommended": "------------------------------------------"
-      },
-      {
-        "id": "rg_7490",
-        "tags": [
-          "science/personne/mathematiques",
-          "mathematiques"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "science/personne/mathematiques": 1,
-          "mathematiques": 1
-        },
-        "recommended": "science/personne/mathematiques"
-      },
-      {
-        "id": "rg_3432",
-        "tags": [
-          "histoire/personne/politique",
-          "economie/politique"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "histoire/personne/politique": 2,
-          "economie/politique": 3
-        },
-        "recommended": "economie/politique"
-      },
-      {
-        "id": "rg_5944",
-        "tags": [
-          "economie/concept",
-          "concept"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "economie/concept": 3,
-          "concept": 12
+          "concept": 12,
+          "economie/concept": 3
         },
         "recommended": "concept"
       },
       {
-        "id": "rg_0050",
+        "id": "rg_7332",
+        "tags": [
+          "economie/politique",
+          "histoire/personne/politique"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "economie/politique": 3,
+          "histoire/personne/politique": 2
+        },
+        "recommended": "economie/politique"
+      },
+      {
+        "id": "rg_0820",
+        "tags": [
+          "------------------------------------------",
+          "------------------------------",
+          "/"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "------------------------------------------": 2,
+          "------------------------------": 2,
+          "/": 1
+        },
+        "recommended": "------------------------------------------"
+      },
+      {
+        "id": "rg_5087",
         "tags": [
           "oeuvre",
           "musique/oeuvre"
@@ -35338,6 +34480,19 @@
           "musique/oeuvre": 4
         },
         "recommended": "oeuvre"
+      },
+      {
+        "id": "rg_3720",
+        "tags": [
+          "science/personne/mathematiques",
+          "mathematiques"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "science/personne/mathematiques": 1,
+          "mathematiques": 1
+        },
+        "recommended": "science/personne/mathematiques"
       }
     ]
   },
@@ -35424,9 +34579,9 @@
         "**monster**"
       ],
       "suggested_tags": [
+        "Psychological-Thriller",
         "Madhouse",
-        "Crime-Mystery",
-        "Kuniaki-Haishima"
+        "Crime-Mystery"
       ]
     },
     {
@@ -35445,9 +34600,9 @@
         "caroro"
       ],
       "suggested_tags": [
-        "cite_note-20",
-        "cite_note-7",
-        "cite_note-18"
+        "cite_note-23",
+        "cite_note-6",
+        "cite_note-7"
       ]
     },
     {
@@ -35498,7 +34653,7 @@
     "latent_tags": 170,
     "health_score": 0.91,
     "feedback_impact": {
-      "decisions_integrated": 960,
+      "decisions_integrated": 1000,
       "acceptance_rate": "0%"
     }
   },
