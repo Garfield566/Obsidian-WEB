@@ -1456,13 +1456,20 @@ class EmergentTagDetector:
             domain_data = match["data"]
             sous_notions = domain_data.get("sous_notions", {}) if domain_data else {}
             if sous_notions:
+                # PATCH: Ne consomme que les mots dont le domaine EXACT est la racine
+                words_to_consume_root = set()
+                for word in vsc_found | vsca_found:
+                    word_domain = self._get_word_exact_domain(word, domain_name)
+                    if word_domain == domain_name:
+                        words_to_consume_root.add(word)
+
                 subdomain_suggestions = self._explore_subdomains_vocabulary(
                     sous_notions,
                     domain_name,
                     text_lower,
                     note_paths,
                     depth=1,
-                    consumed_words=vsc_found | vsca_found,
+                    consumed_words=words_to_consume_root,
                     text_ngrams=text_ngrams,
                 )
                 suggestions.extend(subdomain_suggestions)
@@ -1524,6 +1531,13 @@ class EmergentTagDetector:
             if not is_valid:
                 continue
 
+            # PATCH: Sépare les mots à consommer (domaine exact) des mots hérités
+            words_to_consume = set()
+            for word in vsc_found | vsca_found:
+                word_domain = self._get_word_exact_domain(word, current_path)
+                if word_domain == current_path:
+                    words_to_consume.add(word)
+
             # Vérifie que le tag n'existe pas déjà
             if self._normalize(current_path) in self._existing_tags_normalized:
                 # Explore quand même les sous-niveaux
@@ -1535,7 +1549,7 @@ class EmergentTagDetector:
                         text_lower,
                         note_paths,
                         depth + 1,
-                        consumed_words | vsc_found | vsca_found,
+                        consumed_words | words_to_consume,
                         text_ngrams=text_ngrams,
                     )
                     suggestions.extend(nested_suggestions)
@@ -1586,7 +1600,7 @@ class EmergentTagDetector:
                     text_lower,
                     note_paths,
                     depth + 1,
-                    consumed_words | vsc_found | vsca_found,
+                    consumed_words | words_to_consume,
                     text_ngrams=text_ngrams,
                 )
                 suggestions.extend(nested_suggestions)
@@ -1861,12 +1875,36 @@ class EmergentTagDetector:
             self._cascade_cache[text_hash] = result
             return result
 
+        # PATCH: Collecte TOUS les chemins validés, y compris les frères (siblings)
+        def collect_all_results(r):
+            """Collecte récursivement un résultat + ses siblings + son parent."""
+            collected = [r]
+            for sibling in r.get("sibling_results", []):
+                collected.extend(collect_all_results(sibling))
+            parent = r.get("parent_result")
+            if parent and parent.get("is_valid"):
+                collected.append(parent)
+            return collected
+
+        all_results = []
+        for r in results:
+            all_results.extend(collect_all_results(r))
+
+        # Déduplique par chemin (garde la meilleure confiance)
+        seen_paths = {}
+        for r in all_results:
+            path = r["path"]
+            if path not in seen_paths or r["confidence"] > seen_paths[path]["confidence"]:
+                seen_paths[path] = r
+
+        unique_results = list(seen_paths.values())
+
         # Trie par profondeur décroissante puis par confiance
-        results.sort(key=lambda r: (r["depth"], r["confidence"]), reverse=True)
+        unique_results.sort(key=lambda r: (r["depth"], r["confidence"]), reverse=True)
 
         # Compile tous les chemins validés
         all_paths = []
-        for r in results:
+        for r in unique_results:
             all_paths.append({
                 "path": r["path"],
                 "depth": r["depth"],
@@ -1875,7 +1913,7 @@ class EmergentTagDetector:
                 "is_subnotion": r.get("is_subnotion", True),
             })
 
-        best = results[0]
+        best = unique_results[0]
         result = {
             "is_valid": True,
             "confidence": best["confidence"],
@@ -2020,8 +2058,9 @@ class EmergentTagDetector:
         }
 
         # Tente de descendre dans les sous-notions
+        # PATCH: Collecte TOUS les enfants validés (pas seulement le meilleur)
         sous_notions = domain_data.get("sous_notions", {})
-        best_child = None
+        valid_children = []
 
         for child_name, child_data in sous_notions.items():
             if child_name.startswith("_"):
@@ -2039,11 +2078,18 @@ class EmergentTagDetector:
             )
 
             if child_result["is_valid"]:
-                if best_child is None or child_result["depth"] > best_child["depth"]:
-                    best_child = child_result
+                valid_children.append(child_result)
 
-        # Retourne le résultat le plus profond
-        if best_child:
+        # Retourne le résultat enrichi avec tous les enfants validés
+        if valid_children:
+            # Trie par profondeur puis confiance
+            valid_children.sort(key=lambda r: (r["depth"], r["confidence"]), reverse=True)
+            best_child = valid_children[0]
+
+            # Enrichit le résultat : le meilleur enfant est le résultat principal,
+            # mais on attache AUSSI les frères validés pour _validate_cascade
+            best_child["sibling_results"] = valid_children[1:]
+            best_child["parent_result"] = result
             return best_child
 
         return result
