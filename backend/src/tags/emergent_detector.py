@@ -1089,46 +1089,55 @@ class EmergentTagDetector:
             )
         return self._compiled_patterns[word]
 
-    def _find_words_in_text(self, text: str, vocabulary: dict) -> dict:
+    @staticmethod
+    def _compute_text_ngrams(text: str) -> set:
+        """Extrait les n-grammes (1 à 4 mots) du texte une seule fois.
+
+        OPTIMISATION V3: Cette méthode est appelée UNE SEULE FOIS par note,
+        puis les n-grammes sont réutilisés pour chaque domaine/vocabulaire.
+        Avant: 530 domaines × re.findall + boucle = 275K appels redondants.
+        Après: 1 seul appel par note.
+
+        Args:
+            text: Texte à analyser (déjà en minuscules)
+
+        Returns:
+            Set de n-grammes (1-gram à 4-gram)
+        """
+        words = re.findall(r'\b[\w\'-]+\b', text)
+        ngrams = set()
+        for i in range(len(words)):
+            ngrams.add(words[i])
+            if i < len(words) - 1:
+                ngrams.add(f"{words[i]} {words[i+1]}")
+            if i < len(words) - 2:
+                ngrams.add(f"{words[i]} {words[i+1]} {words[i+2]}")
+            if i < len(words) - 3:
+                ngrams.add(f"{words[i]} {words[i+1]} {words[i+2]} {words[i+3]}")
+        return ngrams
+
+    def _find_words_in_text(self, text: str, vocabulary: dict, precomputed_ngrams: set = None) -> dict:
         """Trouve les mots du vocabulaire présents dans le texte.
 
-        OPTIMISATION V2: Au lieu de chercher chaque terme individuellement (7,041 regex),
-        on extrait tous les mots/n-grammes du texte une seule fois, puis on fait
-        une intersection avec le vocabulaire (O(n) au lieu de O(n×m)).
+        OPTIMISATION V3: Accepte des n-grammes pré-calculés pour éviter
+        de recalculer pour chaque domaine d'une même note.
 
         Args:
             text: Texte à analyser (déjà en minuscules)
             vocabulary: Dict {"VSC": set(), "VSCA": set()}
+            precomputed_ngrams: N-grammes pré-calculés (optionnel, sinon recalculés)
 
         Returns:
             Dict {"VSC": set(), "VSCA": set()} avec mots trouvés
         """
-        import re
-
         found = {"VSC": set(), "VSCA": set()}
 
         # Normaliser le vocabulaire (lowercase, strip)
         vocab_vsc_normalized = {w.lower().strip() for w in vocabulary.get("VSC", set())}
         vocab_vsca_normalized = {w.lower().strip() for w in vocabulary.get("VSCA", set())}
 
-        # Extraire tous les mots et n-grammes du texte (1-4 mots)
-        # Utilise word boundaries pour matcher exactement comme les regex précédentes
-        words = re.findall(r'\b[\w\'-]+\b', text)
-
-        # Créer des n-grammes (1-gram à 4-gram pour gérer les expressions multi-mots)
-        text_ngrams = set()
-        for i in range(len(words)):
-            # 1-gram
-            text_ngrams.add(words[i])
-            # 2-gram
-            if i < len(words) - 1:
-                text_ngrams.add(f"{words[i]} {words[i+1]}")
-            # 3-gram
-            if i < len(words) - 2:
-                text_ngrams.add(f"{words[i]} {words[i+1]} {words[i+2]}")
-            # 4-gram
-            if i < len(words) - 3:
-                text_ngrams.add(f"{words[i]} {words[i+1]} {words[i+2]} {words[i+3]}")
+        # Utilise les n-grammes pré-calculés ou les calcule
+        text_ngrams = precomputed_ngrams if precomputed_ngrams is not None else self._compute_text_ngrams(text)
 
         # Intersection entre les n-grammes du texte et le vocabulaire (O(1) par terme)
         found["VSC"] = vocab_vsc_normalized & text_ngrams
@@ -1312,6 +1321,9 @@ class EmergentTagDetector:
         text_lower = combined_text.lower()
         note_paths = [note.path for note in cluster_notes]
 
+        # OPTIMISATION V3: Pré-calcule les n-grammes une seule fois pour ce cluster
+        text_ngrams = self._compute_text_ngrams(text_lower)
+
         # PHASE 1: Collecter tous les domaines valides avec leurs scores
         domain_matches: list[dict] = []
 
@@ -1326,8 +1338,8 @@ class EmergentTagDetector:
             # Récupère TOUT le vocabulaire du domaine (racine + descendants)
             all_vocab = self._get_all_domain_vocabulary(domain_name)
 
-            # Trouve les mots présents dans le texte
-            found_words = self._find_words_in_text(text_lower, all_vocab)
+            # Trouve les mots présents dans le texte (réutilise n-grammes pré-calculés)
+            found_words = self._find_words_in_text(text_lower, all_vocab, precomputed_ngrams=text_ngrams)
 
             vsc_found = found_words["VSC"]
             vsca_found = found_words["VSCA"]
@@ -1440,6 +1452,7 @@ class EmergentTagDetector:
                     note_paths,
                     depth=1,
                     consumed_words=vsc_found | vsca_found,
+                    text_ngrams=text_ngrams,
                 )
                 suggestions.extend(subdomain_suggestions)
 
@@ -1453,8 +1466,11 @@ class EmergentTagDetector:
         note_paths: list[str],
         depth: int,
         consumed_words: set,
+        text_ngrams: set = None,
     ) -> list[EmergentTagSuggestion]:
         """Explore récursivement les sous-domaines pour générer des suggestions.
+
+        OPTIMISATION V3: Accepte text_ngrams pré-calculés.
 
         Args:
             subdomains: Dict des sous-domaines à explorer
@@ -1463,6 +1479,7 @@ class EmergentTagDetector:
             note_paths: Chemins des notes du cluster
             depth: Profondeur actuelle dans la hiérarchie
             consumed_words: Mots déjà consommés par les niveaux supérieurs
+            text_ngrams: N-grammes pré-calculés du texte
 
         Returns:
             Liste de suggestions pour les sous-domaines validés
@@ -1481,8 +1498,8 @@ class EmergentTagDetector:
             # Récupère le vocabulaire du sous-domaine
             all_vocab = self._get_all_domain_vocabulary(current_path)
 
-            # Trouve les mots présents dans le texte
-            found_words = self._find_words_in_text(text_lower, all_vocab)
+            # Trouve les mots présents dans le texte (réutilise n-grammes pré-calculés)
+            found_words = self._find_words_in_text(text_lower, all_vocab, precomputed_ngrams=text_ngrams)
 
             # Retire les mots déjà consommés
             vsc_found = found_words["VSC"] - consumed_words
@@ -1508,6 +1525,7 @@ class EmergentTagDetector:
                         note_paths,
                         depth + 1,
                         consumed_words | vsc_found | vsca_found,
+                        text_ngrams=text_ngrams,
                     )
                     suggestions.extend(nested_suggestions)
                 continue
@@ -1558,6 +1576,7 @@ class EmergentTagDetector:
                     note_paths,
                     depth + 1,
                     consumed_words | vsc_found | vsca_found,
+                    text_ngrams=text_ngrams,
                 )
                 suggestions.extend(nested_suggestions)
 
@@ -1779,22 +1798,8 @@ class EmergentTagDetector:
         3. Continue jusqu'à ce qu'aucun niveau enfant ne soit validable
         4. Retourne le chemin le plus profond validé
 
-        RÈGLES CRUCIALES :
-        - COMPTAGE : Les mots de tous les niveaux (parents + propre + descendants)
-          comptent pour valider un niveau. Ex: "intégrale" (défini dans calcul-intégral)
-          compte pour valider "mathématiques" (racine).
-
-        - CONSOMMATION : Seuls les mots dont le domaine EXACT correspond au niveau
-          actuel sont consommés. Les mots hérités (parents ou enfants) comptent
-          mais NE sont PAS consommés - ils seront consommés à leur propre niveau.
-
-        - HÉRITAGE ASCENDANT : Un niveau peut être validé par des mots définis
-          dans ses descendants.
-
-        - SEUILS ADAPTATIFS : Diminuent avec la profondeur (plus facile de valider
-          une sous-sous-notion qu'une racine, car le vocabulaire est consommé).
-
-        - MINIMUM : 5+ mots uniques = sous-notion, 1-4 = objet
+        OPTIMISATION V3: Pré-calcule les n-grammes UNE SEULE FOIS par note,
+        puis les passe à tous les appels de _find_words_in_text dans la cascade.
 
         Args:
             text: Texte combiné des notes (déjà normalisé)
@@ -1805,6 +1810,9 @@ class EmergentTagDetector:
         """
         text_lower = text.lower()
         results = []
+
+        # OPTIMISATION V3: Pré-calcule les n-grammes une seule fois pour cette note
+        text_ngrams = self._compute_text_ngrams(text_lower)
 
         # NOUVEAU: Détecte les termes spécialisés pour support de validation
         # Ces termes aident à valider leurs sous-domaines exacts
@@ -1823,6 +1831,7 @@ class EmergentTagDetector:
                 depth=0,
                 parent_path="",
                 specialized_support=specialized_support,
+                text_ngrams=text_ngrams,
             )
 
             if cascade_result["is_valid"]:
@@ -1872,19 +1881,11 @@ class EmergentTagDetector:
         depth: int,
         parent_path: str,
         specialized_support: dict = None,
+        text_ngrams: set = None,
     ) -> dict:
         """Valide récursivement un domaine et ses sous-notions.
 
-        RÈGLE CRUCIALE de consommation :
-        - Les mots COMPTENT pour la validation s'ils appartiennent au niveau actuel
-          OU à un de ses descendants (héritage ascendant)
-        - Seuls les mots dont le domaine EXACT est le niveau actuel sont CONSOMMÉS
-        - Les mots hérités des niveaux enfants comptent mais ne sont PAS consommés
-          (ils seront consommés à leur propre niveau)
-
-        NOUVEAU - Support specialized terms :
-        - Les termes spécialisés trouvés pour ce domaine exact comptent comme VSC
-        - Permet de valider des sous-domaines profonds avec peu de vocabulaire
+        OPTIMISATION V3: Accepte text_ngrams pré-calculés pour éviter 530+ recalculs.
 
         Args:
             domain_name: Nom du domaine courant
@@ -1894,6 +1895,7 @@ class EmergentTagDetector:
             depth: Profondeur actuelle dans la hiérarchie
             parent_path: Chemin du parent
             specialized_support: Dict {domaine_exact: [terms]} des termes spécialisés trouvés
+            text_ngrams: N-grammes pré-calculés du texte (évite recalcul par domaine)
 
         Returns:
             Dict avec résultat de validation pour ce niveau et ses enfants
@@ -1906,7 +1908,7 @@ class EmergentTagDetector:
         # (parents + propre + descendants)
         all_vocab = self._get_all_domain_vocabulary(current_path)
 
-        found_words = self._find_words_in_text(text, all_vocab)
+        found_words = self._find_words_in_text(text, all_vocab, precomputed_ngrams=text_ngrams)
 
         # Retire les mots déjà consommés
         available_vsc = found_words["VSC"] - consumed_words
@@ -2016,6 +2018,7 @@ class EmergentTagDetector:
                 depth + 1,
                 current_path,
                 specialized_support=specialized_support,
+                text_ngrams=text_ngrams,
             )
 
             if child_result["is_valid"]:
@@ -2037,6 +2040,9 @@ class EmergentTagDetector:
         - Trouver des liens quand de nouvelles notes sont ajoutées
         - Statistiques sur le vault
 
+        OPTIMISATION V3: Pré-calcule les n-grammes UNE SEULE FOIS puis les passe
+        à chaque appel de _find_words_in_text (530+ domaines × 1 seul calcul au lieu de 530+).
+
         Args:
             text: Texte à analyser
 
@@ -2056,6 +2062,9 @@ class EmergentTagDetector:
         all_vsc = set()
         all_vsca = set()
 
+        # OPTIMISATION V3: Pré-calcule les n-grammes une seule fois pour cette note
+        text_ngrams = self._compute_text_ngrams(text_lower)
+
         # Parcourt tous les domaines de la hiérarchie
         def scan_domain(domain_name: str, domain_data: dict, path: str):
             """Scanne récursivement un domaine et ses sous-notions."""
@@ -2066,8 +2075,8 @@ class EmergentTagDetector:
                 "VSCA": set(vocab_data.get("VSCA", [])),
             }
 
-            # Trouve les mots présents dans le texte
-            found = self._find_words_in_text(text_lower, vocab)
+            # Trouve les mots présents dans le texte (réutilise les n-grammes pré-calculés)
+            found = self._find_words_in_text(text_lower, vocab, precomputed_ngrams=text_ngrams)
 
             if found["VSC"]:
                 if path not in vsc_by_domain:
