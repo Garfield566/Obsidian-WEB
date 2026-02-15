@@ -1464,8 +1464,105 @@ class TagMatcherV2:
                     },
                 })
 
+        # Attribution directe par vocabulaire (bypass similarity propagation)
+        vocab_suggestions = self._find_vocabulary_attributions(suggestions)
+        suggestions.extend(vocab_suggestions)
+
         # Trie par confiance
         suggestions.sort(key=lambda x: x["confidence"], reverse=True)
+        return suggestions
+
+    def _find_vocabulary_attributions(self, existing_suggestions: list[dict]) -> list[dict]:
+        """Attribution directe de tags discipline par détection de vocabulaire.
+
+        Contourne le problème de bootstrap du TagMatcherV2 : au lieu de se baser
+        sur les voisins similaires (qui nécessitent des notes déjà taguées),
+        vérifie directement si une note contient du vocabulaire d'un domaine.
+        """
+        suggestions = []
+
+        # Notes déjà suggérées (pour éviter les doublons)
+        already_suggested = {(s["note"], s["tag"]) for s in existing_suggestions}
+
+        # Groupe les tags existants par domaine racine (type DISCIPLINE uniquement)
+        domain_tags: dict[str, list[str]] = {}
+        for tag in self.existing_tags:
+            tag_info = classify_tag(tag)
+            if tag_info.family == TagFamily.DISCIPLINE:
+                root = tag_info.prefix.lower() if tag_info.prefix else tag.split("\\")[0].lower()
+                if root not in domain_tags:
+                    domain_tags[root] = []
+                domain_tags[root].append(tag)
+
+        if not domain_tags:
+            return suggestions
+
+        for path, note in self.notes.items():
+            if len(note.tags) >= 8:
+                continue
+
+            # Tags que la note a déjà (normalisés)
+            note_tags_lower = {t.lower() for t in note.tags}
+
+            for domain_root, tags_in_domain in domain_tags.items():
+                # Vérifie si la note a déjà un tag de ce domaine
+                has_domain_tag = any(
+                    t.lower().startswith(domain_root) for t in note.tags
+                )
+                if has_domain_tag:
+                    continue
+
+                # Vérifie le vocabulaire du domaine dans la note
+                vocab_match = self._note_has_domain_vocabulary(note, domain_root)
+                if not vocab_match["is_valid"]:
+                    continue
+
+                # Trouve le tag le plus général du domaine (la racine)
+                # On attribue le tag racine, pas les sous-tags spécifiques
+                root_tag = None
+                for tag in tags_in_domain:
+                    if "\\" not in tag and "/" not in tag:
+                        root_tag = tag
+                        break
+                if not root_tag:
+                    # Prend le premier tag comme fallback
+                    root_tag = tags_in_domain[0]
+
+                # Vérifie doublons
+                if root_tag.lower() in note_tags_lower:
+                    continue
+                if (path, root_tag) in already_suggested:
+                    continue
+                if self.repository.suggestion_exists(root_tag, path):
+                    continue
+
+                vocab_count = vocab_match["vocab_count"]
+                confidence = min(0.85, 0.55 + vocab_count * 0.03)
+
+                if confidence < 0.45:
+                    continue
+
+                already_suggested.add((path, root_tag))
+
+                suggestions.append({
+                    "id": f"ta_{len(existing_suggestions) + len(suggestions):03d}",
+                    "note": path,
+                    "tag": root_tag,
+                    "confidence": confidence,
+                    "reasoning": {
+                        "summary": f"Vocabulaire du domaine détecté: {vocab_count} mots ({', '.join(vocab_match.get('vocab_found', [])[:5])})",
+                        "details": {
+                            "vocabulary_match": {
+                                "count": vocab_count,
+                                "vsc_count": vocab_match.get("vsc_count", 0),
+                                "vsca_count": vocab_match.get("vsca_count", 0),
+                                "examples": vocab_match.get("vocab_found", [])[:5],
+                            },
+                            "method": "direct_vocabulary_attribution",
+                        },
+                    },
+                })
+
         return suggestions
 
     def _is_likely_proper_noun(self, tag: str) -> bool:

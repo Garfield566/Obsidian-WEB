@@ -556,6 +556,29 @@ class EntityDetector:
 
         return entities
 
+    # Préfixes qui ne débutent jamais un nom propre de personne
+    FALSE_NAME_PREFIXES = {
+        "en", "au", "du", "le", "la", "les", "des", "un", "une",
+        "sur", "sous", "par", "pour", "avec", "dans", "vers",
+    }
+
+    # Mots composés connus qui ne sont pas des personnes
+    FALSE_NAME_COMPOUNDS = {
+        "wi-fi", "cent-ans", "sept-ans", "quatre-bras",
+        "scots-greys", "porto-rico", "haute-renaissance",
+        "bonne-espérance", "nations-unies", "moyen-âge",
+        "moyen-orient", "extrême-orient", "proche-orient",
+        "tiers-monde", "nouveau-monde", "ancien-régime",
+        "belle-époque", "bas-empire", "haut-empire",
+    }
+
+    # Saints connus comme personnes (pas des lieux)
+    SAINT_PERSONS = {
+        "augustin", "thomas", "paul", "pierre", "jean",
+        "françois", "dominique", "benoît", "ignace",
+        "thérèse", "bernard", "anselme", "bonaventure",
+    }
+
     def _detect_persons(self, text: str, text_lower: str = "", title_lower: str = "") -> list[DetectedEntity]:
         """Détecte les noms de personnes et leur sous-type (militaire, artiste, etc.)."""
         entities = []
@@ -577,6 +600,23 @@ class EntityDetector:
             # Au moins 2 parties pour un nom de personne
             if len(parts) < 2:
                 continue
+
+            # Filtre les faux noms propres
+            name_lower = name.lower()
+
+            # Mot composé connu non-personne
+            if name_lower.replace(" ", "-") in self.FALSE_NAME_COMPOUNDS:
+                continue
+
+            # Commence par un préfixe grammatical (En-Chine, Au-Japon, etc.)
+            first_part_lower = parts[0].lower()
+            if first_part_lower in self.FALSE_NAME_PREFIXES:
+                continue
+
+            # Saint-X → personne seulement si le nom est dans SAINT_PERSONS
+            if first_part_lower in ("saint", "sainte"):
+                if len(parts) >= 2 and parts[1].lower() not in self.SAINT_PERSONS:
+                    continue
 
             # Vérifie les indicateurs de personne
             parts_lower = [p.lower() for p in parts]
