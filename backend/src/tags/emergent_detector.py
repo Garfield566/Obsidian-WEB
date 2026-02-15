@@ -243,6 +243,11 @@ class EmergentTagDetector:
         self._vocab_cache: dict[str, dict] = {}
         # Cache pour les patterns regex compilés (évite recompilation)
         self._compiled_patterns: dict[str, re.Pattern] = {}
+        # Cache pour _validate_cascade par hash de texte
+        # (évite 500+ recalculs identiques dans la boucle de termes)
+        self._cascade_cache: dict[int, dict] = {}
+        # Cache pour _detect_specialized_terms_in_text par hash de texte
+        self._specialized_terms_text_cache: dict[int, dict] = {}
 
     def _build_whitelist(self):
         """Construit TOUJOURS_VALIDE et charge la hiérarchie.
@@ -678,9 +683,9 @@ class EmergentTagDetector:
     def _detect_specialized_terms_in_text(self, text_lower: str) -> dict[str, list[dict]]:
         """Détecte les termes spécialisés présents dans le texte.
 
-        Cette méthode scanne le texte pour trouver les termes spécialisés
-        SANS vérifier la validation du domaine parent. Elle retourne les termes
-        trouvés groupés par leur domaine_exact pour utilisation dans la cascade.
+        OPTIMISATION V3: Cache par hash de texte. Quand _validate_term appelle
+        _validate_cascade pour chaque terme d'un cluster, le texte combiné est
+        toujours le même → cache hit après le 1er appel.
 
         Args:
             text_lower: Texte en minuscules à analyser
@@ -690,6 +695,11 @@ class EmergentTagDetector:
         """
         if not self.SPECIALIZED_TERMS:
             return {}
+
+        # Cache par hash de texte (même texte → même résultat)
+        text_hash = hash(text_lower)
+        if text_hash in self._specialized_terms_text_cache:
+            return self._specialized_terms_text_cache[text_hash]
 
         found_by_domain = {}
 
@@ -711,6 +721,7 @@ class EmergentTagDetector:
                     "exact_match": result.get("exact_match", False),
                 })
 
+        self._specialized_terms_text_cache[text_hash] = found_by_domain
         return found_by_domain
 
     def _validate_specialized_term(self, term_name: str, text_lower: str) -> dict | None:
@@ -1792,14 +1803,10 @@ class EmergentTagDetector:
     ) -> dict:
         """Valide le texte en cascade à travers la hiérarchie des domaines.
 
-        ALGORITHME DE CASCADE :
-        1. Pour chaque domaine racine, vérifie si le seuil est atteint
-        2. Si validé, descend dans les sous-notions avec vocabulaire consommé
-        3. Continue jusqu'à ce qu'aucun niveau enfant ne soit validable
-        4. Retourne le chemin le plus profond validé
-
-        OPTIMISATION V3: Pré-calcule les n-grammes UNE SEULE FOIS par note,
-        puis les passe à tous les appels de _find_words_in_text dans la cascade.
+        OPTIMISATION V3: Cache par hash de texte + n-grammes pré-calculés.
+        Dans _validate_term, cette méthode est appelée pour chaque terme candidat
+        d'un cluster (500+), mais le texte combiné est toujours le même.
+        Le cache élimine 499+ recalculs redondants par cluster.
 
         Args:
             text: Texte combiné des notes (déjà normalisé)
@@ -1809,6 +1816,12 @@ class EmergentTagDetector:
             Dict avec résultats de validation incluant le chemin validé le plus profond
         """
         text_lower = text.lower()
+
+        # Cache par hash de texte (même texte → même résultat cascade)
+        text_hash = hash(text_lower)
+        if text_hash in self._cascade_cache:
+            return self._cascade_cache[text_hash]
+
         results = []
 
         # OPTIMISATION V3: Pré-calcule les n-grammes une seule fois pour cette note
@@ -1838,13 +1851,15 @@ class EmergentTagDetector:
                 results.append(cascade_result)
 
         if not results:
-            return {
+            result = {
                 "is_valid": False,
                 "confidence": 0.0,
                 "reasons": ["Aucun domaine validé"],
                 "category": "cascade",
                 "validated_paths": [],
             }
+            self._cascade_cache[text_hash] = result
+            return result
 
         # Trie par profondeur décroissante puis par confiance
         results.sort(key=lambda r: (r["depth"], r["confidence"]), reverse=True)
@@ -1861,7 +1876,7 @@ class EmergentTagDetector:
             })
 
         best = results[0]
-        return {
+        result = {
             "is_valid": True,
             "confidence": best["confidence"],
             "reasons": best["reasons"],
@@ -1871,6 +1886,8 @@ class EmergentTagDetector:
             "best_depth": best["depth"],
             "suggested_discipline": best["path"],
         }
+        self._cascade_cache[text_hash] = result
+        return result
 
     def _validate_domain_cascade(
         self,
@@ -2248,7 +2265,9 @@ class EmergentTagDetector:
     ) -> list[dict]:
         """Valide les termes spécialisés pour une note.
 
-        OPTIMISATION: Pré-calcul des racines validées et lookup O(1).
+        OPTIMISATION V3: Cache par hash de texte. Dans _validate_term,
+        cette méthode est appelée 500+ fois avec le même texte combiné
+        d'un cluster et les mêmes validated_paths (issus du cascade caché).
 
         Args:
             text: Texte complet de la note
@@ -2262,6 +2281,12 @@ class EmergentTagDetector:
 
         if not self.SPECIALIZED_TERMS:
             return validated
+
+        # Cache par hash de texte (même texte + même cascade → même résultat)
+        text_hash = hash(text_lower)
+        cache_key = f"spec_{text_hash}"
+        if cache_key in self._cascade_cache:
+            return self._cascade_cache[cache_key]
 
         # Extrait les chemins validés avec confiance
         valid_path_confidence = {}
@@ -2331,6 +2356,7 @@ class EmergentTagDetector:
                     "reasons": [result["reason"]],
                 })
 
+        self._cascade_cache[cache_key] = validated
         return validated
 
     def _domains_match(self, domain1: str, domain2: str) -> bool:
