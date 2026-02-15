@@ -534,6 +534,9 @@ class TagGeneratorV2:
         # 3. NOUVEAU: Suggestions de tags émergents (patterns dans les clusters)
         if self.notes and self.clusters:
             _t0 = _time.time()
+            # DEBUG: Forcer le recalcul des clusters (invalide le cache)
+            self.repository.clear_cluster_validation_cache()
+            print("      🔄 Cache clusters invalidé (debug)", flush=True)
             emergent_suggestions = self._generate_emergent_suggestions(rejected_tags)
             suggestions.extend(emergent_suggestions)
             print(f"      8.3 Émergents: {len(emergent_suggestions)} suggestions ({_time.time() - _t0:.1f}s)")
@@ -1495,7 +1498,14 @@ class TagMatcherV2:
                 domain_tags[root].append(tag)
 
         if not domain_tags:
+            print("      ⚠️  VOCAB ATTRIB: aucun tag discipline trouvé dans existing_tags", flush=True)
             return suggestions
+
+        print(f"      🔎 VOCAB ATTRIB: {len(domain_tags)} domaines discipline détectés: {', '.join(sorted(domain_tags.keys()))}", flush=True)
+
+        # DEBUG: compteurs par domaine
+        _domain_match_counts: dict[str, int] = {d: 0 for d in domain_tags}
+        _domain_skip_counts: dict[str, int] = {d: 0 for d in domain_tags}
 
         for path, note in self.notes.items():
             if len(note.tags) >= 8:
@@ -1515,7 +1525,10 @@ class TagMatcherV2:
                 # Vérifie le vocabulaire du domaine dans la note
                 vocab_match = self._note_has_domain_vocabulary(note, domain_root)
                 if not vocab_match["is_valid"]:
+                    _domain_skip_counts[domain_root] += 1
                     continue
+
+                _domain_match_counts[domain_root] += 1
 
                 # Trouve le tag le plus général du domaine (la racine)
                 # On attribue le tag racine, pas les sous-tags spécifiques
@@ -1562,6 +1575,14 @@ class TagMatcherV2:
                         },
                     },
                 })
+
+        # DEBUG: Résumé par domaine
+        print(f"      📊 VOCAB ATTRIB RÉSUMÉ: {len(suggestions)} attributions générées", flush=True)
+        for domain in sorted(domain_tags.keys()):
+            matches = _domain_match_counts[domain]
+            skips = _domain_skip_counts[domain]
+            if matches > 0 or skips > 0:
+                print(f"         {domain:25s} ✅ {matches:3d} notes matchées, ❌ {skips:3d} notes sans assez de vocab", flush=True)
 
         return suggestions
 

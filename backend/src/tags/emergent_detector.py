@@ -1332,6 +1332,8 @@ class EmergentTagDetector:
         text_lower = combined_text.lower()
         note_paths = [note.path for note in cluster_notes]
 
+        print(f"      🔎 EMERGENT DOMAIN: {len(cluster_notes)} notes, texte={len(text_lower)} chars", flush=True)
+
         # OPTIMISATION V3: Pré-calcule les n-grammes une seule fois pour ce cluster
         text_ngrams = self._compute_text_ngrams(text_lower)
 
@@ -1361,11 +1363,16 @@ class EmergentTagDetector:
             )
 
             if not is_valid:
+                if len(vsc_found) + len(vsca_found) > 0:
+                    print(f"         ❌ SEUIL: {domain_name} ({len(vsc_found)} VSC + {len(vsca_found)} VSCA) - {validation_reason}", flush=True)
                 continue
+
+            print(f"         ✅ VALIDE: {domain_name} ({len(vsc_found)} VSC + {len(vsca_found)} VSCA)", flush=True)
 
             # Vérifie que le tag n'existe pas déjà
             domain_tag = domain_name
             if self._normalize(domain_tag) in self._existing_tags_normalized:
+                print(f"         ⏭️  SKIP (existant): {domain_name}", flush=True)
                 continue
 
             # Calcule le score total (pour le tri et la dominance)
@@ -1385,6 +1392,12 @@ class EmergentTagDetector:
         # PHASE 2: Filtrer les domaines faibles non-dominants
         # Trie par score décroissant pour identifier le domaine dominant
         domain_matches.sort(key=lambda x: x["total_vocab"], reverse=True)
+
+        print(f"         📊 PHASE 2: {len(domain_matches)} domaines validés", flush=True)
+        for m in domain_matches[:15]:
+            print(f"            {m['name']:30s} score={m['total_vocab']:3d} weak={m['is_weak']}", flush=True)
+        if len(domain_matches) > 15:
+            print(f"            ... et {len(domain_matches) - 15} autres", flush=True)
 
         # Le meilleur score (domaine dominant)
         best_score = domain_matches[0]["total_vocab"] if domain_matches else 0
