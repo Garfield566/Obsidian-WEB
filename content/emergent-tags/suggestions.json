@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-15T22:36:00.931539",
+  "generated_at": "2026-02-15T23:12:46.986857",
   "vault_hash": "2e2a834c",
   "suggestions": {
     "new_tags": [
@@ -39,7 +39,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931573",
+        "first_detected": "2026-02-15T23:12:46.986893",
         "source": "heuristic"
       },
       {
@@ -74,7 +74,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931579",
+        "first_detected": "2026-02-15T23:12:46.986898",
         "source": "heuristic"
       },
       {
@@ -106,7 +106,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931582",
+        "first_detected": "2026-02-15T23:12:46.986902",
         "source": "heuristic"
       },
       {
@@ -135,7 +135,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931585",
+        "first_detected": "2026-02-15T23:12:46.986905",
         "source": "heuristic"
       },
       {
@@ -212,7 +212,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931588",
+        "first_detected": "2026-02-15T23:12:46.986908",
         "source": "heuristic"
       },
       {
@@ -343,7 +343,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931591",
+        "first_detected": "2026-02-15T23:12:46.986912",
         "source": "heuristic"
       },
       {
@@ -374,11 +374,55 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931594",
+        "first_detected": "2026-02-15T23:12:46.986915",
         "source": "heuristic"
       },
       {
         "id": "lt_ent_009",
+        "name": "entité\\urss",
+        "confidence": 0.89,
+        "notes": [
+          "fonctionnement-tag.md",
+          "YouTube Notes/Timestamps 2.md",
+          "mange manger manger/Paella.md",
+          "mange manger manger/Traite de Versailles.md",
+          "mange manger manger/Grand requin blanc.md",
+          "mange manger manger/Organisation des Nations unies.md",
+          "mange manger manger/Uranium.md",
+          "mange manger manger/Democratie.md",
+          "mange manger manger/Declaration des droits de lhomme.md",
+          "mange manger manger/Empire romain.md",
+          "mange manger manger/Franc.md",
+          "mange manger manger/Piano.md",
+          "mange manger manger/Bataille de Marathon.md",
+          "mange manger manger/Declaration des droits de l homme.md",
+          "mange manger manger/Italie.md",
+          "mange manger manger/Antiquite.md",
+          "mange manger manger/Tulipomanie.md",
+          "mange manger manger/Albert Einstein.md",
+          "mange manger manger/Baleine bleue.md",
+          "mange manger manger/UNESCO.md",
+          "mange manger manger/Traite de Versailles 1919.md",
+          "mange manger manger/La Pieta.md",
+          "mange manger manger/Union europeenne.md",
+          "mange manger manger/Code penal francais.md",
+          "mange manger manger/Seconde Guerre mondiale.md"
+        ],
+        "reasoning": {
+          "summary": "Entité détecté(e) dans 25 notes",
+          "details": {
+            "entity_type": "entity",
+            "raw_text": "urss",
+            "total_occurrences": 84,
+            "notes_count": 25
+          }
+        },
+        "detection_count": 1,
+        "first_detected": "2026-02-15T23:12:46.986921",
+        "source": "heuristic"
+      },
+      {
+        "id": "lt_ent_010",
         "name": "entité\\prusse",
         "confidence": 0.89,
         "notes": [
@@ -419,51 +463,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931601",
-        "source": "heuristic"
-      },
-      {
-        "id": "lt_ent_010",
-        "name": "entité\\urss",
-        "confidence": 0.89,
-        "notes": [
-          "fonctionnement-tag.md",
-          "YouTube Notes/Timestamps 2.md",
-          "mange manger manger/Paella.md",
-          "mange manger manger/Traite de Versailles.md",
-          "mange manger manger/Grand requin blanc.md",
-          "mange manger manger/Organisation des Nations unies.md",
-          "mange manger manger/Uranium.md",
-          "mange manger manger/Democratie.md",
-          "mange manger manger/Declaration des droits de lhomme.md",
-          "mange manger manger/Empire romain.md",
-          "mange manger manger/Franc.md",
-          "mange manger manger/Piano.md",
-          "mange manger manger/Bataille de Marathon.md",
-          "mange manger manger/Declaration des droits de l homme.md",
-          "mange manger manger/Italie.md",
-          "mange manger manger/Antiquite.md",
-          "mange manger manger/Tulipomanie.md",
-          "mange manger manger/Albert Einstein.md",
-          "mange manger manger/Baleine bleue.md",
-          "mange manger manger/UNESCO.md",
-          "mange manger manger/Traite de Versailles 1919.md",
-          "mange manger manger/La Pieta.md",
-          "mange manger manger/Union europeenne.md",
-          "mange manger manger/Code penal francais.md",
-          "mange manger manger/Seconde Guerre mondiale.md"
-        ],
-        "reasoning": {
-          "summary": "Entité détecté(e) dans 25 notes",
-          "details": {
-            "entity_type": "entity",
-            "raw_text": "urss",
-            "total_occurrences": 84,
-            "notes_count": 25
-          }
-        },
-        "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931604",
+        "first_detected": "2026-02-15T23:12:46.986925",
         "source": "heuristic"
       },
       {
@@ -546,7 +546,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931607",
+        "first_detected": "2026-02-15T23:12:46.986929",
         "source": "heuristic"
       },
       {
@@ -588,7 +588,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931610",
+        "first_detected": "2026-02-15T23:12:46.986932",
         "source": "heuristic"
       },
       {
@@ -622,7 +622,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931613",
+        "first_detected": "2026-02-15T23:12:46.986934",
         "source": "heuristic"
       },
       {
@@ -682,7 +682,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931616",
+        "first_detected": "2026-02-15T23:12:46.986937",
         "source": "heuristic"
       },
       {
@@ -738,11 +738,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931618",
+        "first_detected": "2026-02-15T23:12:46.986940",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_011",
+        "id": "lt_ent_012",
         "name": "byzantin",
         "confidence": 0.88,
         "notes": [
@@ -774,11 +774,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931621",
+        "first_detected": "2026-02-15T23:12:46.986943",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_012",
+        "id": "lt_ent_013",
         "name": "baroque",
         "confidence": 0.88,
         "notes": [
@@ -807,11 +807,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931623",
+        "first_detected": "2026-02-15T23:12:46.986945",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_014",
+        "id": "lt_ent_015",
         "name": "renaissance",
         "confidence": 0.88,
         "notes": [
@@ -872,7 +872,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931626",
+        "first_detected": "2026-02-15T23:12:46.986948",
         "source": "heuristic"
       },
       {
@@ -903,7 +903,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931629",
+        "first_detected": "2026-02-15T23:12:46.986951",
         "source": "heuristic"
       },
       {
@@ -935,7 +935,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931632",
+        "first_detected": "2026-02-15T23:12:46.986954",
         "source": "heuristic"
       },
       {
@@ -977,7 +977,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931634",
+        "first_detected": "2026-02-15T23:12:46.986956",
         "source": "heuristic"
       },
       {
@@ -1035,7 +1035,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931637",
+        "first_detected": "2026-02-15T23:12:46.986959",
         "source": "heuristic"
       },
       {
@@ -1067,7 +1067,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931639",
+        "first_detected": "2026-02-15T23:12:46.986962",
         "source": "heuristic"
       },
       {
@@ -1100,7 +1100,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931642",
+        "first_detected": "2026-02-15T23:12:46.986965",
         "source": "heuristic"
       },
       {
@@ -1128,7 +1128,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931645",
+        "first_detected": "2026-02-15T23:12:46.986967",
         "source": "heuristic"
       },
       {
@@ -1155,7 +1155,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931647",
+        "first_detected": "2026-02-15T23:12:46.986970",
         "source": "heuristic"
       },
       {
@@ -1194,7 +1194,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931650",
+        "first_detected": "2026-02-15T23:12:46.986972",
         "source": "heuristic"
       },
       {
@@ -1229,7 +1229,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931652",
+        "first_detected": "2026-02-15T23:12:46.986975",
         "source": "heuristic"
       },
       {
@@ -1317,7 +1317,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931654",
+        "first_detected": "2026-02-15T23:12:46.986978",
         "source": "heuristic"
       },
       {
@@ -1344,7 +1344,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931657",
+        "first_detected": "2026-02-15T23:12:46.986980",
         "source": "heuristic"
       },
       {
@@ -1383,7 +1383,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931659",
+        "first_detected": "2026-02-15T23:12:46.986983",
         "source": "heuristic"
       },
       {
@@ -1410,11 +1410,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931662",
+        "first_detected": "2026-02-15T23:12:46.986985",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_013",
+        "id": "lt_ent_014",
         "name": "gothique",
         "confidence": 0.86,
         "notes": [
@@ -1437,7 +1437,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931664",
+        "first_detected": "2026-02-15T23:12:46.986988",
         "source": "heuristic"
       },
       {
@@ -1463,7 +1463,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931667",
+        "first_detected": "2026-02-15T23:12:46.986991",
         "source": "heuristic"
       },
       {
@@ -30349,7 +30349,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931670",
+        "first_detected": "2026-02-15T23:12:46.986994",
         "source": "emergent"
       },
       {
@@ -30410,7 +30410,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931673",
+        "first_detected": "2026-02-15T23:12:46.986997",
         "source": "emergent"
       },
       {
@@ -30471,7 +30471,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931675",
+        "first_detected": "2026-02-15T23:12:46.987000",
         "source": "emergent"
       },
       {
@@ -30532,7 +30532,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931678",
+        "first_detected": "2026-02-15T23:12:46.987003",
         "source": "emergent"
       },
       {
@@ -30593,7 +30593,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931681",
+        "first_detected": "2026-02-15T23:12:46.987006",
         "source": "emergent"
       },
       {
@@ -30654,7 +30654,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931683",
+        "first_detected": "2026-02-15T23:12:46.987008",
         "source": "emergent"
       },
       {
@@ -30715,7 +30715,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931686",
+        "first_detected": "2026-02-15T23:12:46.987011",
         "source": "emergent"
       },
       {
@@ -30737,7 +30737,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931689",
+        "first_detected": "2026-02-15T23:12:46.987015",
         "source": "specialized_term"
       },
       {
@@ -30760,7 +30760,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931692",
+        "first_detected": "2026-02-15T23:12:46.987018",
         "source": "specialized_term"
       },
       {
@@ -30786,7 +30786,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931694",
+        "first_detected": "2026-02-15T23:12:46.987021",
         "source": "specialized_term"
       },
       {
@@ -30815,7 +30815,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931697",
+        "first_detected": "2026-02-15T23:12:46.987023",
         "source": "specialized_term"
       },
       {
@@ -30838,7 +30838,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931699",
+        "first_detected": "2026-02-15T23:12:46.987026",
         "source": "specialized_term"
       },
       {
@@ -30861,7 +30861,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931702",
+        "first_detected": "2026-02-15T23:12:46.987029",
         "source": "specialized_term"
       },
       {
@@ -30884,7 +30884,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931704",
+        "first_detected": "2026-02-15T23:12:46.987032",
         "source": "specialized_term"
       },
       {
@@ -30907,7 +30907,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931707",
+        "first_detected": "2026-02-15T23:12:46.987034",
         "source": "specialized_term"
       },
       {
@@ -30935,7 +30935,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931709",
+        "first_detected": "2026-02-15T23:12:46.987037",
         "source": "specialized_term"
       },
       {
@@ -30959,7 +30959,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931711",
+        "first_detected": "2026-02-15T23:12:46.987040",
         "source": "specialized_term"
       },
       {
@@ -30981,7 +30981,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931714",
+        "first_detected": "2026-02-15T23:12:46.987042",
         "source": "specialized_term"
       },
       {
@@ -31003,7 +31003,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931717",
+        "first_detected": "2026-02-15T23:12:46.987045",
         "source": "specialized_term"
       },
       {
@@ -31025,7 +31025,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931719",
+        "first_detected": "2026-02-15T23:12:46.987047",
         "source": "specialized_term"
       },
       {
@@ -31047,7 +31047,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931721",
+        "first_detected": "2026-02-15T23:12:46.987050",
         "source": "specialized_term"
       },
       {
@@ -31069,7 +31069,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931724",
+        "first_detected": "2026-02-15T23:12:46.987053",
         "source": "specialized_term"
       },
       {
@@ -31091,7 +31091,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931727",
+        "first_detected": "2026-02-15T23:12:46.987056",
         "source": "specialized_term"
       },
       {
@@ -31113,7 +31113,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931729",
+        "first_detected": "2026-02-15T23:12:46.987058",
         "source": "specialized_term"
       },
       {
@@ -31136,7 +31136,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931732",
+        "first_detected": "2026-02-15T23:12:46.987061",
         "source": "specialized_term"
       },
       {
@@ -31158,7 +31158,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931734",
+        "first_detected": "2026-02-15T23:12:46.987064",
         "source": "specialized_term"
       },
       {
@@ -31180,7 +31180,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931737",
+        "first_detected": "2026-02-15T23:12:46.987067",
         "source": "specialized_term"
       },
       {
@@ -31202,7 +31202,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931740",
+        "first_detected": "2026-02-15T23:12:46.987070",
         "source": "specialized_term"
       },
       {
@@ -31224,7 +31224,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931742",
+        "first_detected": "2026-02-15T23:12:46.987073",
         "source": "specialized_term"
       },
       {
@@ -31246,7 +31246,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931745",
+        "first_detected": "2026-02-15T23:12:46.987075",
         "source": "specialized_term"
       },
       {
@@ -31268,7 +31268,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931747",
+        "first_detected": "2026-02-15T23:12:46.987078",
         "source": "specialized_term"
       },
       {
@@ -31292,7 +31292,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931750",
+        "first_detected": "2026-02-15T23:12:46.987081",
         "source": "specialized_term"
       },
       {
@@ -31315,7 +31315,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931753",
+        "first_detected": "2026-02-15T23:12:46.987084",
         "source": "specialized_term"
       },
       {
@@ -31337,7 +31337,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931755",
+        "first_detected": "2026-02-15T23:12:46.987087",
         "source": "specialized_term"
       },
       {
@@ -31359,7 +31359,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931758",
+        "first_detected": "2026-02-15T23:12:46.987090",
         "source": "specialized_term"
       },
       {
@@ -31381,7 +31381,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931760",
+        "first_detected": "2026-02-15T23:12:46.987093",
         "source": "specialized_term"
       },
       {
@@ -31403,7 +31403,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931763",
+        "first_detected": "2026-02-15T23:12:46.987095",
         "source": "specialized_term"
       },
       {
@@ -31425,7 +31425,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931765",
+        "first_detected": "2026-02-15T23:12:46.987098",
         "source": "specialized_term"
       },
       {
@@ -31447,7 +31447,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931768",
+        "first_detected": "2026-02-15T23:12:46.987100",
         "source": "specialized_term"
       },
       {
@@ -31469,7 +31469,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931770",
+        "first_detected": "2026-02-15T23:12:46.987103",
         "source": "specialized_term"
       },
       {
@@ -31491,7 +31491,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931773",
+        "first_detected": "2026-02-15T23:12:46.987105",
         "source": "specialized_term"
       },
       {
@@ -31513,7 +31513,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931776",
+        "first_detected": "2026-02-15T23:12:46.987109",
         "source": "specialized_term"
       },
       {
@@ -31535,7 +31535,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931778",
+        "first_detected": "2026-02-15T23:12:46.987111",
         "source": "specialized_term"
       },
       {
@@ -31557,7 +31557,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931780",
+        "first_detected": "2026-02-15T23:12:46.987114",
         "source": "specialized_term"
       },
       {
@@ -31579,7 +31579,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931784",
+        "first_detected": "2026-02-15T23:12:46.987118",
         "source": "specialized_term"
       },
       {
@@ -31601,7 +31601,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931787",
+        "first_detected": "2026-02-15T23:12:46.987120",
         "source": "specialized_term"
       },
       {
@@ -31623,7 +31623,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931789",
+        "first_detected": "2026-02-15T23:12:46.987123",
         "source": "specialized_term"
       },
       {
@@ -31645,11 +31645,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931792",
+        "first_detected": "2026-02-15T23:12:46.987125",
         "source": "specialized_term"
       },
       {
-        "id": "lt_ent_006",
+        "id": "lt_ent_007",
         "name": "fibre",
         "confidence": 0.84,
         "notes": [
@@ -31673,7 +31673,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931794",
+        "first_detected": "2026-02-15T23:12:46.987128",
         "source": "heuristic"
       },
       {
@@ -31699,7 +31699,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931797",
+        "first_detected": "2026-02-15T23:12:46.987131",
         "source": "heuristic"
       },
       {
@@ -31723,7 +31723,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931799",
+        "first_detected": "2026-02-15T23:12:46.987133",
         "source": "heuristic"
       },
       {
@@ -31786,7 +31786,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931802",
+        "first_detected": "2026-02-15T23:12:46.987136",
         "source": "emergent"
       },
       {
@@ -31849,7 +31849,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931804",
+        "first_detected": "2026-02-15T23:12:46.987139",
         "source": "emergent"
       },
       {
@@ -31912,7 +31912,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931807",
+        "first_detected": "2026-02-15T23:12:46.987141",
         "source": "emergent"
       },
       {
@@ -31975,7 +31975,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931809",
+        "first_detected": "2026-02-15T23:12:46.987144",
         "source": "emergent"
       },
       {
@@ -32038,7 +32038,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931812",
+        "first_detected": "2026-02-15T23:12:46.987147",
         "source": "emergent"
       },
       {
@@ -32101,7 +32101,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931814",
+        "first_detected": "2026-02-15T23:12:46.987163",
         "source": "emergent"
       },
       {
@@ -32122,7 +32122,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931817",
+        "first_detected": "2026-02-15T23:12:46.987166",
         "source": "heuristic"
       },
       {
@@ -32147,7 +32147,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931820",
+        "first_detected": "2026-02-15T23:12:46.987169",
         "source": "heuristic"
       },
       {
@@ -32172,7 +32172,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931822",
+        "first_detected": "2026-02-15T23:12:46.987172",
         "source": "heuristic"
       },
       {
@@ -32197,7 +32197,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931825",
+        "first_detected": "2026-02-15T23:12:46.987175",
         "source": "heuristic"
       },
       {
@@ -32218,7 +32218,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931827",
+        "first_detected": "2026-02-15T23:12:46.987177",
         "source": "heuristic"
       },
       {
@@ -32240,7 +32240,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931830",
+        "first_detected": "2026-02-15T23:12:46.987180",
         "source": "heuristic"
       },
       {
@@ -32262,7 +32262,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931833",
+        "first_detected": "2026-02-15T23:12:46.987183",
         "source": "heuristic"
       },
       {
@@ -32284,7 +32284,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931835",
+        "first_detected": "2026-02-15T23:12:46.987185",
         "source": "heuristic"
       },
       {
@@ -32307,7 +32307,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931838",
+        "first_detected": "2026-02-15T23:12:46.987188",
         "source": "heuristic"
       },
       {
@@ -32329,7 +32329,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931840",
+        "first_detected": "2026-02-15T23:12:46.987190",
         "source": "heuristic"
       },
       {
@@ -32351,11 +32351,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931842",
+        "first_detected": "2026-02-15T23:12:46.987193",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_007",
+        "id": "lt_ent_006",
         "name": "tenseur",
         "confidence": 0.75,
         "notes": [
@@ -32372,7 +32372,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931845",
+        "first_detected": "2026-02-15T23:12:46.987196",
         "source": "heuristic"
       },
       {
@@ -32393,7 +32393,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931847",
+        "first_detected": "2026-02-15T23:12:46.987198",
         "source": "heuristic"
       },
       {
@@ -32414,7 +32414,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931850",
+        "first_detected": "2026-02-15T23:12:46.987201",
         "source": "heuristic"
       },
       {
@@ -32438,7 +32438,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931852",
+        "first_detected": "2026-02-15T23:12:46.987204",
         "source": "heuristic"
       },
       {
@@ -32459,7 +32459,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931855",
+        "first_detected": "2026-02-15T23:12:46.987206",
         "source": "heuristic"
       },
       {
@@ -32481,7 +32481,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931857",
+        "first_detected": "2026-02-15T23:12:46.987209",
         "source": "heuristic"
       },
       {
@@ -32505,7 +32505,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931860",
+        "first_detected": "2026-02-15T23:12:46.987211",
         "source": "heuristic"
       },
       {
@@ -32526,7 +32526,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931862",
+        "first_detected": "2026-02-15T23:12:46.987214",
         "source": "heuristic"
       },
       {
@@ -32548,7 +32548,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931864",
+        "first_detected": "2026-02-15T23:12:46.987217",
         "source": "heuristic"
       },
       {
@@ -32571,7 +32571,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931867",
+        "first_detected": "2026-02-15T23:12:46.987219",
         "source": "heuristic"
       },
       {
@@ -32594,7 +32594,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931869",
+        "first_detected": "2026-02-15T23:12:46.987222",
         "source": "heuristic"
       },
       {
@@ -32617,7 +32617,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931872",
+        "first_detected": "2026-02-15T23:12:46.987225",
         "source": "heuristic"
       },
       {
@@ -32639,7 +32639,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931874",
+        "first_detected": "2026-02-15T23:12:46.987227",
         "source": "heuristic"
       },
       {
@@ -32660,7 +32660,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931877",
+        "first_detected": "2026-02-15T23:12:46.987230",
         "source": "heuristic"
       },
       {
@@ -32682,7 +32682,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931879",
+        "first_detected": "2026-02-15T23:12:46.987232",
         "source": "heuristic"
       },
       {
@@ -32704,7 +32704,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931881",
+        "first_detected": "2026-02-15T23:12:46.987235",
         "source": "heuristic"
       },
       {
@@ -32726,7 +32726,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931884",
+        "first_detected": "2026-02-15T23:12:46.987237",
         "source": "heuristic"
       },
       {
@@ -32747,7 +32747,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931886",
+        "first_detected": "2026-02-15T23:12:46.987240",
         "source": "heuristic"
       },
       {
@@ -32769,7 +32769,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931889",
+        "first_detected": "2026-02-15T23:12:46.987243",
         "source": "heuristic"
       },
       {
@@ -32790,7 +32790,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931891",
+        "first_detected": "2026-02-15T23:12:46.987245",
         "source": "heuristic"
       },
       {
@@ -32813,7 +32813,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931894",
+        "first_detected": "2026-02-15T23:12:46.987248",
         "source": "heuristic"
       },
       {
@@ -32835,7 +32835,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931897",
+        "first_detected": "2026-02-15T23:12:46.987250",
         "source": "heuristic"
       },
       {
@@ -32857,7 +32857,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931899",
+        "first_detected": "2026-02-15T23:12:46.987252",
         "source": "heuristic"
       },
       {
@@ -32878,7 +32878,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931902",
+        "first_detected": "2026-02-15T23:12:46.987255",
         "source": "heuristic"
       },
       {
@@ -32932,7 +32932,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931905",
+        "first_detected": "2026-02-15T23:12:46.987258",
         "source": "emergent"
       },
       {
@@ -32986,7 +32986,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931907",
+        "first_detected": "2026-02-15T23:12:46.987260",
         "source": "emergent"
       },
       {
@@ -33040,7 +33040,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931910",
+        "first_detected": "2026-02-15T23:12:46.987263",
         "source": "emergent"
       },
       {
@@ -33094,7 +33094,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931912",
+        "first_detected": "2026-02-15T23:12:46.987266",
         "source": "emergent"
       },
       {
@@ -33115,7 +33115,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931917",
+        "first_detected": "2026-02-15T23:12:46.987268",
         "source": "heuristic"
       },
       {
@@ -33136,7 +33136,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931920",
+        "first_detected": "2026-02-15T23:12:46.987271",
         "source": "heuristic"
       },
       {
@@ -33158,7 +33158,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931922",
+        "first_detected": "2026-02-15T23:12:46.987273",
         "source": "heuristic"
       },
       {
@@ -33180,7 +33180,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931925",
+        "first_detected": "2026-02-15T23:12:46.987276",
         "source": "heuristic"
       },
       {
@@ -33201,7 +33201,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931927",
+        "first_detected": "2026-02-15T23:12:46.987279",
         "source": "heuristic"
       },
       {
@@ -33222,7 +33222,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931929",
+        "first_detected": "2026-02-15T23:12:46.987281",
         "source": "heuristic"
       },
       {
@@ -33243,7 +33243,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931932",
+        "first_detected": "2026-02-15T23:12:46.987283",
         "source": "heuristic"
       },
       {
@@ -33265,7 +33265,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931934",
+        "first_detected": "2026-02-15T23:12:46.987286",
         "source": "heuristic"
       },
       {
@@ -33287,7 +33287,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931936",
+        "first_detected": "2026-02-15T23:12:46.987288",
         "source": "heuristic"
       },
       {
@@ -33309,7 +33309,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931939",
+        "first_detected": "2026-02-15T23:12:46.987291",
         "source": "heuristic"
       },
       {
@@ -33331,7 +33331,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931941",
+        "first_detected": "2026-02-15T23:12:46.987293",
         "source": "heuristic"
       },
       {
@@ -33378,7 +33378,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931943",
+        "first_detected": "2026-02-15T23:12:46.987296",
         "source": "emergent"
       },
       {
@@ -33424,7 +33424,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931946",
+        "first_detected": "2026-02-15T23:12:46.987299",
         "source": "emergent"
       },
       {
@@ -33445,7 +33445,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931949",
+        "first_detected": "2026-02-15T23:12:46.987301",
         "source": "heuristic"
       },
       {
@@ -33466,7 +33466,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931951",
+        "first_detected": "2026-02-15T23:12:46.987304",
         "source": "heuristic"
       },
       {
@@ -33488,7 +33488,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931954",
+        "first_detected": "2026-02-15T23:12:46.987306",
         "source": "heuristic"
       },
       {
@@ -33509,11 +33509,11 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931957",
+        "first_detected": "2026-02-15T23:12:46.987309",
         "source": "heuristic"
       },
       {
-        "id": "lt_ent_015",
+        "id": "lt_ent_011",
         "name": "rococo",
         "confidence": 0.66,
         "notes": [
@@ -33531,7 +33531,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931959",
+        "first_detected": "2026-02-15T23:12:46.987311",
         "source": "heuristic"
       },
       {
@@ -33552,7 +33552,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931962",
+        "first_detected": "2026-02-15T23:12:46.987313",
         "source": "heuristic"
       },
       {
@@ -33573,7 +33573,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931965",
+        "first_detected": "2026-02-15T23:12:46.987316",
         "source": "heuristic"
       },
       {
@@ -33594,7 +33594,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931967",
+        "first_detected": "2026-02-15T23:12:46.987318",
         "source": "heuristic"
       },
       {
@@ -33615,7 +33615,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931969",
+        "first_detected": "2026-02-15T23:12:46.987321",
         "source": "heuristic"
       },
       {
@@ -33636,7 +33636,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931972",
+        "first_detected": "2026-02-15T23:12:46.987323",
         "source": "heuristic"
       },
       {
@@ -33657,7 +33657,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931974",
+        "first_detected": "2026-02-15T23:12:46.987326",
         "source": "heuristic"
       },
       {
@@ -33678,7 +33678,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931977",
+        "first_detected": "2026-02-15T23:12:46.987328",
         "source": "heuristic"
       },
       {
@@ -33699,7 +33699,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931979",
+        "first_detected": "2026-02-15T23:12:46.987331",
         "source": "heuristic"
       },
       {
@@ -33720,7 +33720,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931981",
+        "first_detected": "2026-02-15T23:12:46.987333",
         "source": "heuristic"
       },
       {
@@ -33741,7 +33741,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931984",
+        "first_detected": "2026-02-15T23:12:46.987336",
         "source": "heuristic"
       },
       {
@@ -33762,7 +33762,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931986",
+        "first_detected": "2026-02-15T23:12:46.987338",
         "source": "heuristic"
       },
       {
@@ -33783,7 +33783,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931989",
+        "first_detected": "2026-02-15T23:12:46.987340",
         "source": "heuristic"
       },
       {
@@ -33804,7 +33804,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931991",
+        "first_detected": "2026-02-15T23:12:46.987343",
         "source": "heuristic"
       },
       {
@@ -33825,7 +33825,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931993",
+        "first_detected": "2026-02-15T23:12:46.987346",
         "source": "heuristic"
       },
       {
@@ -33846,7 +33846,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931996",
+        "first_detected": "2026-02-15T23:12:46.987348",
         "source": "heuristic"
       },
       {
@@ -33867,7 +33867,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.931998",
+        "first_detected": "2026-02-15T23:12:46.987351",
         "source": "heuristic"
       },
       {
@@ -33888,7 +33888,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.932001",
+        "first_detected": "2026-02-15T23:12:46.987353",
         "source": "heuristic"
       },
       {
@@ -33909,7 +33909,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.932003",
+        "first_detected": "2026-02-15T23:12:46.987355",
         "source": "heuristic"
       },
       {
@@ -33930,7 +33930,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.932019",
+        "first_detected": "2026-02-15T23:12:46.987358",
         "source": "heuristic"
       },
       {
@@ -33951,7 +33951,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.932022",
+        "first_detected": "2026-02-15T23:12:46.987360",
         "source": "heuristic"
       },
       {
@@ -33972,7 +33972,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.932024",
+        "first_detected": "2026-02-15T23:12:46.987363",
         "source": "heuristic"
       },
       {
@@ -33993,7 +33993,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.932027",
+        "first_detected": "2026-02-15T23:12:46.987365",
         "source": "heuristic"
       },
       {
@@ -34014,7 +34014,7 @@
           }
         },
         "detection_count": 1,
-        "first_detected": "2026-02-15T22:36:00.932030",
+        "first_detected": "2026-02-15T23:12:46.987368",
         "source": "heuristic"
       }
     ],
@@ -34184,7 +34184,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.534654",
+          "last_used": "2026-02-15T22:54:48.031792",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -34203,7 +34203,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.595190",
+          "last_used": "2026-02-15T22:54:48.090864",
           "days_inactive": 0,
           "notes_using": [
             "Exemples_Definitions_Detaillees.md"
@@ -34222,7 +34222,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.409244",
+          "last_used": "2026-02-15T22:54:48.070498",
           "days_inactive": 0,
           "notes_using": [
             "Guide_Extraction_Complete.md"
@@ -34241,7 +34241,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.531942",
+          "last_used": "2026-02-15T22:54:48.227868",
           "days_inactive": 0,
           "notes_using": [
             "Clippings/Cellule (biologie) — Wikipédia.md"
@@ -34260,7 +34260,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.423127",
+          "last_used": "2026-02-15T22:54:48.119432",
           "days_inactive": 0,
           "notes_using": [
             "YouTube Notes/Timestamps 2.md"
@@ -34279,7 +34279,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.543847",
+          "last_used": "2026-02-15T22:54:48.166434",
           "days_inactive": 0,
           "notes_using": [
             "YouTube Notes/Timestamps 2.md"
@@ -34298,7 +34298,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.445473",
+          "last_used": "2026-02-15T22:54:48.055848",
           "days_inactive": 0,
           "notes_using": [
             "YouTube Notes/Timestamps 2.md"
@@ -34317,7 +34317,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.582335",
+          "last_used": "2026-02-15T22:54:48.037734",
           "days_inactive": 0,
           "notes_using": [
             "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
@@ -34336,7 +34336,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.461543",
+          "last_used": "2026-02-15T22:54:48.207483",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Guitare.md"
@@ -34355,7 +34355,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.402675",
+          "last_used": "2026-02-15T22:54:48.089409",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Toyota.md"
@@ -34374,7 +34374,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.561408",
+          "last_used": "2026-02-15T22:54:48.215590",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Imprimerie.md"
@@ -34393,7 +34393,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.428292",
+          "last_used": "2026-02-15T22:54:48.136085",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Go strategie.md"
@@ -34412,7 +34412,7 @@
         "severity": "warning",
         "details": {
           "usage_count": 1,
-          "last_used": "2026-02-15T22:18:01.569271",
+          "last_used": "2026-02-15T22:54:48.108635",
           "days_inactive": 0,
           "notes_using": [
             "mange manger manger/Isaac Newton.md"
@@ -34428,7 +34428,35 @@
     ],
     "redundant_tags": [
       {
-        "id": "rg_5845",
+        "id": "rg_8713",
+        "tags": [
+          "musique/oeuvre",
+          "oeuvre"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "musique/oeuvre": 4,
+          "oeuvre": 8
+        },
+        "recommended": "oeuvre"
+      },
+      {
+        "id": "rg_1153",
+        "tags": [
+          "------------------------------",
+          "------------------------------------------",
+          "/"
+        ],
+        "similarity": 1.0,
+        "usage_counts": {
+          "------------------------------": 2,
+          "------------------------------------------": 2,
+          "/": 1
+        },
+        "recommended": "------------------------------"
+      },
+      {
+        "id": "rg_5770",
         "tags": [
           "concept",
           "economie/concept"
@@ -34441,7 +34469,7 @@
         "recommended": "concept"
       },
       {
-        "id": "rg_7332",
+        "id": "rg_9654",
         "tags": [
           "economie/politique",
           "histoire/personne/politique"
@@ -34454,45 +34482,17 @@
         "recommended": "economie/politique"
       },
       {
-        "id": "rg_0820",
+        "id": "rg_8762",
         "tags": [
-          "------------------------------------------",
-          "------------------------------",
-          "/"
+          "mathematiques",
+          "science/personne/mathematiques"
         ],
         "similarity": 1.0,
         "usage_counts": {
-          "------------------------------------------": 2,
-          "------------------------------": 2,
-          "/": 1
+          "mathematiques": 1,
+          "science/personne/mathematiques": 1
         },
-        "recommended": "------------------------------------------"
-      },
-      {
-        "id": "rg_5087",
-        "tags": [
-          "oeuvre",
-          "musique/oeuvre"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "oeuvre": 8,
-          "musique/oeuvre": 4
-        },
-        "recommended": "oeuvre"
-      },
-      {
-        "id": "rg_3720",
-        "tags": [
-          "science/personne/mathematiques",
-          "mathematiques"
-        ],
-        "similarity": 1.0,
-        "usage_counts": {
-          "science/personne/mathematiques": 1,
-          "mathematiques": 1
-        },
-        "recommended": "science/personne/mathematiques"
+        "recommended": "mathematiques"
       }
     ]
   },
@@ -34553,9 +34553,9 @@
         "vii,"
       ],
       "suggested_tags": [
-        "livre",
+        "note-The_Wealth_of_Nations",
         "note-livre",
-        "note-The_Wealth_of_Nations"
+        "livre"
       ]
     },
     {
@@ -34579,9 +34579,9 @@
         "**monster**"
       ],
       "suggested_tags": [
-        "Psychological-Thriller",
-        "Madhouse",
-        "Crime-Mystery"
+        "Medical-Drama",
+        "Naoki-Urasawa",
+        "Kuniaki-Haishima"
       ]
     },
     {
@@ -34600,9 +34600,9 @@
         "caroro"
       ],
       "suggested_tags": [
-        "cite_note-23",
+        "cite_note-12",
         "cite_note-6",
-        "cite_note-7"
+        "cite_note-18"
       ]
     },
     {
