@@ -133,9 +133,12 @@ class EmergentTagDetector:
 
     # DOMAINES FAIBLES - vocabulaire trop courant, nécessite d'être DOMINANT
     # Pour être suggéré, un domaine faible doit avoir significativement plus
-    # de matchs que les autres domaines (ratio minimum de 2:1)
+    # de matchs que les autres domaines (ratio minimum configurable)
+    # NOTE: Ne PAS mettre ici les domaines académiques légitimes comme
+    # musique, architecture, economie, linguistique - ils ont du vocabulaire
+    # suffisamment spécifique pour être détectés normalement.
     WEAK_DOMAINS = {
-        # Très faibles - vocabulaire très courant
+        # Vocabulaire très courant, risque élevé de faux positifs
         "cuisine",
         "cuisine\\boucherie",
         "cuisine\\charcuterie",
@@ -145,22 +148,17 @@ class EmergentTagDetector:
         "cuisine\\pâtisserie",
         "peinture",
         "dessin",
-        "musique",
-        "architecture",
         "photographie",
         "danse",
         "theatre",
-        # Moyennement faibles
+        # Artisanat courant
         "histoire\\art\\artisanat",
-        "histoire\\art\\musique",
-        "economie",
-        "linguistique\\grammaire",
         "brasserie",
     }
 
     # Ratio minimum pour qu'un domaine faible soit considéré dominant
-    # Un domaine faible doit avoir au moins 2x plus de matchs que le 2ème domaine
-    WEAK_DOMAIN_DOMINANCE_RATIO = 2.0
+    # Un domaine faible doit avoir au moins 1.5x plus de matchs que le 2ème domaine
+    WEAK_DOMAIN_DOMINANCE_RATIO = 1.5
 
     # Patterns de détection structurés
     PATTERNS = {

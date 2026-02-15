@@ -640,7 +640,15 @@ class TagGeneratorV2:
             is_redundant = False
             for existing in self.existing_tags:
                 existing_lower = existing.lower()
-                # Similarité simple : contient ou est contenu
+                # Exact match → redondant
+                if tag_lower == existing_lower:
+                    is_redundant = True
+                    break
+                # Vérifie les relations hiérarchiques : parent\enfant n'est PAS redondant
+                # ex: "physique\optique" n'est pas redondant avec "physique"
+                if tag_lower.startswith(existing_lower + "\\") or existing_lower.startswith(tag_lower + "\\"):
+                    continue
+                # Substring match pour les tags non-hiérarchiques (ex: variantes d'écriture)
                 if tag_lower in existing_lower or existing_lower in tag_lower:
                     is_redundant = True
                     break
@@ -752,6 +760,14 @@ class TagGeneratorV2:
             is_redundant = False
             for existing in self.existing_tags:
                 existing_lower = existing.lower()
+                # Exact match → redondant
+                if tag_lower == existing_lower:
+                    is_redundant = True
+                    break
+                # Relations hiérarchiques parent\enfant ne sont PAS redondantes
+                if tag_lower.startswith(existing_lower + "\\") or existing_lower.startswith(tag_lower + "\\"):
+                    continue
+                # Substring match pour variantes non-hiérarchiques
                 if tag_lower in existing_lower or existing_lower in tag_lower:
                     is_redundant = True
                     break
@@ -1226,14 +1242,23 @@ class TagGeneratorV2:
         """Retourne un label lisible pour une famille de tags (V1 legacy)."""
         labels = {
             TagFamily.PERSON: "Personne",
+            TagFamily.PERSON_TYPE: "Type de personnage",
             TagFamily.GEO: "Lieu géographique",
             TagFamily.ENTITY: "Entité politique",
             TagFamily.AREA: "Aire culturelle",
             TagFamily.DATE: "Date/Siècle",
+            TagFamily.CONCEPT: "Concept",
             TagFamily.CONCEPT_AUTHOR: "Concept/Auteur",
             TagFamily.DISCIPLINE: "Discipline",
             TagFamily.MATH_OBJECT: "Objet mathématique",
             TagFamily.ARTWORK: "Mouvement artistique",
+            TagFamily.EVENT: "Événement",
+            TagFamily.BOOK: "Livre",
+            TagFamily.WORK: "Œuvre",
+            TagFamily.ORGANIZATION: "Organisation",
+            TagFamily.ORGANISM: "Organisme",
+            TagFamily.PERIOD: "Période",
+            TagFamily.PROCESS: "Processus",
             TagFamily.CATEGORY: "Catégorie",
             TagFamily.GENERIC: "Concept",
         }
