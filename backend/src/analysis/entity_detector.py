@@ -14,14 +14,23 @@ from ..parsers.note_parser import ParsedNote
 class TagFamily(Enum):
     """Familles de tags selon les conventions."""
     PERSON = "person"
+    PERSON_TYPE = "person_type"
     GEO = "geo"
     ENTITY = "entity"
     AREA = "area"
     DATE = "date"
+    CONCEPT = "concept"
     CONCEPT_AUTHOR = "concept_author"
     DISCIPLINE = "discipline"
     MATH_OBJECT = "math_object"
     ARTWORK = "artwork"
+    EVENT = "event"
+    BOOK = "book"
+    WORK = "work"
+    ORGANIZATION = "organization"
+    ORGANISM = "organism"
+    PERIOD = "period"
+    PROCESS = "process"
     CATEGORY = "category"
     GENERIC = "generic"
 
@@ -78,6 +87,76 @@ KNOWN_ART_MOVEMENTS = {
     "minimalisme", "pop-art", "art-conceptuel", "néoclassicisme",
     "neoclassicisme", "gothique", "roman", "byzantin",
     "classicisme", "néo-impressionnisme", "neo-impressionnisme",
+}
+
+# Sous-types de personnages (pour classification personnage\type)
+PERSON_TYPE_INDICATORS = {
+    "militaire": {
+        "titles": {"général", "maréchal", "amiral", "capitaine", "colonel", "lieutenant",
+                   "commandant", "sergent", "soldat", "officier", "stratège"},
+        "contexts": {"armée", "bataille", "guerre", "campagne", "régiment", "front",
+                     "militaire", "combat", "siège", "offensive", "défense"},
+    },
+    "artiste": {
+        "titles": {"peintre", "sculpteur", "musicien", "compositeur", "poète", "écrivain",
+                   "auteur", "dramaturge", "cinéaste", "réalisateur", "acteur", "artiste"},
+        "contexts": {"œuvre", "tableau", "sculpture", "symphonie", "opéra", "roman",
+                     "poème", "peinture", "exposition", "musée", "galerie"},
+    },
+    "souverain": {
+        "titles": {"roi", "reine", "empereur", "impératrice", "prince", "princesse",
+                   "duc", "duchesse", "comte", "sultan", "tsar", "tsarine", "pharaon",
+                   "calife", "shogun", "khan"},
+        "contexts": {"règne", "couronne", "trône", "dynastie", "succession", "royal",
+                     "royaume", "empire", "monarchie"},
+    },
+    "aventurier": {
+        "titles": {"explorateur", "navigateur", "conquistador", "aventurier", "pirate",
+                   "corsaire", "découvreur", "voyageur"},
+        "contexts": {"expédition", "exploration", "découverte", "voyage", "navigation",
+                     "circumnavigation", "traversée"},
+    },
+    "scientifique": {
+        "titles": {"professeur", "docteur", "chercheur", "scientifique", "physicien",
+                   "chimiste", "biologiste", "mathématicien", "astronome", "médecin",
+                   "naturaliste", "géologue", "ingénieur", "inventeur"},
+        "contexts": {"recherche", "théorie", "expérience", "découverte", "formule",
+                     "équation", "laboratoire", "prix nobel"},
+    },
+}
+
+# Événements historiques connus
+KNOWN_EVENTS = {
+    "révolution française", "révolution industrielle", "révolution russe",
+    "révolution américaine", "première guerre mondiale", "seconde guerre mondiale",
+    "guerre froide", "guerre de cent ans", "guerre de trente ans",
+    "croisade", "reconquista", "réforme", "contre-réforme",
+    "renaissance", "lumières", "printemps des peuples",
+    "traité de versailles", "traité de westphalie",
+    "chute de rome", "chute de constantinople", "chute du mur de berlin",
+    "prise de la bastille", "débarquement de normandie",
+}
+
+# Organisations connues
+KNOWN_ORGANIZATIONS = {
+    "onu", "nations unies", "otan", "union européenne", "ligue des nations",
+    "croix-rouge", "unesco", "oms", "fmi", "banque mondiale",
+    "parlement", "sénat", "assemblée nationale", "congrès",
+    "vatican", "saint-siège", "papauté",
+    "société des nations",
+}
+
+# Périodes historiques nommées
+KNOWN_PERIODS = {
+    "antiquité", "moyen âge", "moyen-âge", "renaissance",
+    "ancien régime", "belle époque", "entre-deux-guerres",
+    "âge du bronze", "âge du fer", "âge de pierre", "néolithique",
+    "paléolithique", "mésolithique",
+    "haut moyen âge", "bas moyen âge",
+    "époque moderne", "époque contemporaine",
+    "protohistoire", "préhistoire",
+    "âge classique", "siècle des lumières",
+    "période hellénistique", "pax romana",
 }
 
 
@@ -138,6 +217,45 @@ def suggest_tag_format(family: TagFamily, concept: str, context: dict = None) ->
         # Œuvre d'art: mouvement\auteur\titre ou juste mouvement
         movement = context.get("movement", concept)
         return movement.lower().replace(" ", "-")
+
+    if family == TagFamily.PERSON_TYPE:
+        # Type de personnage: personnage\type
+        person_type = context.get("person_type", "")
+        if person_type:
+            return f"personnage\\{person_type}"
+        return concept.replace(" ", "-")
+
+    if family == TagFamily.EVENT:
+        # Événement: evenement
+        return f"evenement\\{concept.lower().replace(' ', '-')}"
+
+    if family == TagFamily.ORGANIZATION:
+        # Organisation: organisation\nom
+        return f"organisation\\{concept.lower().replace(' ', '-')}"
+
+    if family == TagFamily.PERIOD:
+        # Période: période\nom
+        return f"période\\{concept.lower().replace(' ', '-')}"
+
+    if family == TagFamily.BOOK:
+        # Livre: livre
+        return f"livre\\{concept.lower().replace(' ', '-')}"
+
+    if family == TagFamily.WORK:
+        # Œuvre: oeuvre
+        return f"oeuvre\\{concept.lower().replace(' ', '-')}"
+
+    if family == TagFamily.ORGANISM:
+        # Organisme: organisme
+        return f"organisme\\{concept.lower().replace(' ', '-')}"
+
+    if family == TagFamily.PROCESS:
+        # Processus: processus
+        return f"processus\\{concept.lower().replace(' ', '-')}"
+
+    if family == TagFamily.CONCEPT:
+        # Concept: concept
+        return f"concept\\{concept.lower().replace(' ', '-')}"
 
     # Défaut
     return concept.replace(" ", "-")
@@ -354,13 +472,16 @@ class EntityDetector:
 
         # Détecte les différents types d'entités
         entities.extend(self._detect_dates(text))
-        entities.extend(self._detect_persons(text))
+        entities.extend(self._detect_persons(text, text_lower, title_lower))
         entities.extend(self._detect_geo(text_lower, title_lower))
         entities.extend(self._detect_political_entities(text_lower, title_lower))
         entities.extend(self._detect_cultural_areas(text_lower, title_lower))
         entities.extend(self._detect_disciplines(text_lower, title_lower))
         entities.extend(self._detect_math_objects(text_lower))
         entities.extend(self._detect_art_movements(text_lower, title_lower))
+        entities.extend(self._detect_events(text_lower, title_lower))
+        entities.extend(self._detect_organizations(text_lower, title_lower))
+        entities.extend(self._detect_periods(text_lower, title_lower))
 
         # Déduplique et trie par confiance
         entities = self._deduplicate_entities(entities)
@@ -435,8 +556,8 @@ class EntityDetector:
 
         return entities
 
-    def _detect_persons(self, text: str) -> list[DetectedEntity]:
-        """Détecte les noms de personnes."""
+    def _detect_persons(self, text: str, text_lower: str = "", title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les noms de personnes et leur sous-type (militaire, artiste, etc.)."""
         entities = []
 
         # Trouve les noms propres (mots capitalisés)
@@ -483,7 +604,57 @@ class EntityDetector:
                     occurrences=count,
                 ))
 
+                # Détecte le sous-type de personnage
+                if text_lower:
+                    person_type = self._classify_person_type(name, text_lower, title_lower)
+                    if person_type:
+                        type_tag = suggest_tag_format(
+                            TagFamily.PERSON_TYPE, name,
+                            {"person_type": person_type}
+                        )
+                        entities.append(DetectedEntity(
+                            family=TagFamily.PERSON_TYPE,
+                            raw_text=name,
+                            suggested_tag=type_tag,
+                            confidence=confidence * 0.9,
+                            occurrences=count,
+                        ))
+
         return entities
+
+    def _classify_person_type(self, name: str, text_lower: str, title_lower: str = "") -> Optional[str]:
+        """Détermine le sous-type d'un personnage (militaire, artiste, souverain, etc.).
+
+        Analyse le contexte autour du nom pour classifier la personne.
+        """
+        best_type = None
+        best_score = 0
+
+        for ptype, indicators in PERSON_TYPE_INDICATORS.items():
+            score = 0
+
+            # Vérifie les titres associés
+            for title in indicators["titles"]:
+                if self._word_in_text(text_lower, title):
+                    # Bonus si le titre est proche du nom (dans les 100 chars)
+                    name_lower = name.lower()
+                    name_pos = text_lower.find(name_lower)
+                    title_pos = text_lower.find(title)
+                    if name_pos >= 0 and title_pos >= 0 and abs(name_pos - title_pos) < 150:
+                        score += 3
+                    else:
+                        score += 1
+
+            # Vérifie les mots de contexte
+            for ctx in indicators["contexts"]:
+                if self._word_in_text(text_lower, ctx):
+                    score += 0.5
+
+            if score > best_score and score >= 2:
+                best_score = score
+                best_type = ptype
+
+        return best_type
 
     def _detect_geo(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
         """Détecte les lieux géographiques avec gestion des synonymes.
@@ -831,6 +1002,104 @@ class EntityDetector:
                         return mathematician
 
         return None
+
+    def _detect_events(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les événements historiques connus."""
+        entities = []
+
+        for event in KNOWN_EVENTS:
+            count = self._count_whole_word(text_lower, event)
+            if count == 0:
+                continue
+
+            in_title = self._word_in_text(title_lower, event) if title_lower else False
+
+            confidence = 0.65
+            if in_title:
+                confidence += 0.2
+            if count >= 2:
+                confidence += 0.1
+
+            confidence = min(0.9, confidence)
+
+            tag = suggest_tag_format(TagFamily.EVENT, event)
+
+            entities.append(DetectedEntity(
+                family=TagFamily.EVENT,
+                raw_text=event,
+                suggested_tag=tag,
+                confidence=round(confidence, 2),
+                occurrences=count,
+            ))
+
+        return entities
+
+    def _detect_organizations(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les organisations connues."""
+        entities = []
+
+        for org in KNOWN_ORGANIZATIONS:
+            count = self._count_whole_word(text_lower, org)
+            if count == 0:
+                continue
+
+            in_title = self._word_in_text(title_lower, org) if title_lower else False
+
+            confidence = 0.65
+            if in_title:
+                confidence += 0.2
+            if count >= 2:
+                confidence += 0.1
+
+            confidence = min(0.9, confidence)
+
+            tag = suggest_tag_format(TagFamily.ORGANIZATION, org)
+
+            entities.append(DetectedEntity(
+                family=TagFamily.ORGANIZATION,
+                raw_text=org,
+                suggested_tag=tag,
+                confidence=round(confidence, 2),
+                occurrences=count,
+            ))
+
+        return entities
+
+    def _detect_periods(self, text_lower: str, title_lower: str = "") -> list[DetectedEntity]:
+        """Détecte les périodes historiques nommées."""
+        entities = []
+
+        for period in KNOWN_PERIODS:
+            count = self._count_whole_word(text_lower, period)
+            if count == 0:
+                continue
+
+            in_title = self._word_in_text(title_lower, period) if title_lower else False
+
+            # Les périodes sont des termes courants, exiger au moins 2 occurrences
+            # sauf si dans le titre
+            if not in_title and count < 2:
+                continue
+
+            confidence = 0.60
+            if in_title:
+                confidence += 0.25
+            if count >= 3:
+                confidence += 0.1
+
+            confidence = min(0.9, confidence)
+
+            tag = suggest_tag_format(TagFamily.PERIOD, period)
+
+            entities.append(DetectedEntity(
+                family=TagFamily.PERIOD,
+                raw_text=period,
+                suggested_tag=tag,
+                confidence=round(confidence, 2),
+                occurrences=count,
+            ))
+
+        return entities
 
     def _deduplicate_entities(
         self, entities: list[DetectedEntity]

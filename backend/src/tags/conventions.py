@@ -22,14 +22,23 @@ from typing import Optional
 class TagFamily(Enum):
     """Familles de tags selon les conventions."""
     PERSON = "person"           # Noms de personnes (tiret entre parties capitalisées)
+    PERSON_TYPE = "person_type" # Sous-catégorie de personne (personnage\militaire, personnage\artiste...)
     GEO = "geo"                 # Géographie physique (geo\...)
     ENTITY = "entity"           # Entités politiques (entité\...)
     AREA = "area"               # Aires culturelles (aire\...)
     DATE = "date"               # Dates et siècles (chiffres romains)
+    CONCEPT = "concept"         # Concepts abstraits (concept)
     CONCEPT_AUTHOR = "concept_author"  # Concepts avec auteur (anomie\durkheim)
     DISCIPLINE = "discipline"   # Disciplines académiques (mathématiques\analyse)
     MATH_OBJECT = "math_object" # Objets mathématiques (intégrale\riemann, fonction-exponentielle)
     ARTWORK = "artwork"         # Œuvres d'art (mouvement\auteur\titre)
+    EVENT = "event"             # Événements historiques (evenement)
+    BOOK = "book"               # Livres et ouvrages (livre)
+    WORK = "work"               # Œuvres (oeuvre)
+    ORGANIZATION = "organization"  # Organisations (organisation)
+    ORGANISM = "organism"       # Organismes vivants (organisme)
+    PERIOD = "period"           # Périodes historiques (période)
+    PROCESS = "process"         # Processus (processus)
     CATEGORY = "category"       # Catégories génériques (Xxx\Yyy)
     GENERIC = "generic"         # Tags génériques sans convention spécifique
 
@@ -566,14 +575,23 @@ def get_tag_family_label(family: TagFamily) -> str:
     """Retourne le label français pour une famille de tags."""
     labels = {
         TagFamily.PERSON: "Nom de personne",
+        TagFamily.PERSON_TYPE: "Type de personnage",
         TagFamily.GEO: "Lieu géographique",
         TagFamily.ENTITY: "Entité politique",
         TagFamily.AREA: "Aire culturelle",
         TagFamily.DATE: "Date/Siècle",
+        TagFamily.CONCEPT: "Concept",
         TagFamily.CONCEPT_AUTHOR: "Concept/Auteur",
         TagFamily.DISCIPLINE: "Discipline",
         TagFamily.MATH_OBJECT: "Objet mathématique",
         TagFamily.ARTWORK: "Œuvre d'art",
+        TagFamily.EVENT: "Événement",
+        TagFamily.BOOK: "Livre",
+        TagFamily.WORK: "Œuvre",
+        TagFamily.ORGANIZATION: "Organisation",
+        TagFamily.ORGANISM: "Organisme",
+        TagFamily.PERIOD: "Période",
+        TagFamily.PROCESS: "Processus",
         TagFamily.CATEGORY: "Catégorie",
         TagFamily.GENERIC: "Générique",
     }
