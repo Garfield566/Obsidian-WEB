@@ -439,20 +439,19 @@ def analyze_vault(
         # --- Détail des nouveaux tags suggérés ---
         print(f"\n--- NOUVEAUX TAGS SUGGÉRÉS: {len(new_tag_suggestions)} ---", flush=True)
         new_by_source = {}
-        new_by_family = {}
         for s in new_tag_suggestions:
             src = s.get("source", "unknown")
             new_by_source[src] = new_by_source.get(src, 0) + 1
-            fam = s.get("family", "unknown")
-            new_by_family[fam] = new_by_family.get(fam, 0) + 1
         for src, cnt in sorted(new_by_source.items(), key=lambda x: -x[1]):
             print(f"  Source {src}: {cnt}", flush=True)
-        for fam, cnt in sorted(new_by_family.items(), key=lambda x: -x[1]):
-            print(f"  Famille {fam}: {cnt}", flush=True)
         # Liste les 30 premiers
         print(f"  Top 30 nouveaux tags:", flush=True)
         for s in new_tag_suggestions[:30]:
-            print(f"    {s.get('tag', '?'):40s} | src={s.get('source','?'):10s} | fam={s.get('family','?'):12s} | conf={s.get('confidence',0):.2f} | notes={s.get('note_count',0)}", flush=True)
+            name = s.get('name', s.get('tag', '?'))
+            src = s.get('source', '?')
+            conf = s.get('confidence', 0)
+            n_notes = len(s.get('notes', []))
+            print(f"    {name:40s} | src={src:15s} | conf={conf:.2f} | notes={n_notes}", flush=True)
 
         # --- Détail des attributions ---
         print(f"\n--- ATTRIBUTIONS DE TAGS EXISTANTS: {len(tag_assignments)} ---", flush=True)
@@ -480,7 +479,7 @@ def analyze_vault(
         print(f"  Groupes de doublons: {len(redundant_groups)}", flush=True)
         if redundant_groups:
             for rg in redundant_groups[:10]:
-                tags_in_group = rg.get("tags", [])
+                tags_in_group = rg.tags if hasattr(rg, 'tags') else rg.get("tags", [])
                 print(f"    Doublon: {' <-> '.join(tags_in_group)}", flush=True)
 
         # --- Notes sans aucun tag ni attribution ---
@@ -1571,6 +1570,7 @@ class TagMatcherV2:
                         "summary": summary,
                         "details": details,
                     },
+                    "source": "similarity",
                 })
 
         # Attribution directe par vocabulaire (bypass similarity propagation)
@@ -1680,6 +1680,7 @@ class TagMatcherV2:
                             "method": "direct_vocabulary_attribution",
                         },
                     },
+                    "source": "vocabulary",
                 })
 
         # DEBUG: Résumé par domaine
