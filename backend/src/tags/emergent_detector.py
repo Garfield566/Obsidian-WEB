@@ -1564,7 +1564,11 @@ class EmergentTagDetector:
             )
 
             if not is_valid:
+                if len(vsc_found) + len(vsca_found) > 0:
+                    print(f"            ❌ SOUS-DOMAINE seuil: {current_path} ({len(vsc_found)} VSC + {len(vsca_found)} VSCA) - {validation_reason}", flush=True)
                 continue
+
+            print(f"            ✅ SOUS-DOMAINE valide: {current_path} ({len(vsc_found)} VSC + {len(vsca_found)} VSCA)", flush=True)
 
             # PATCH: Sépare les mots à consommer (domaine exact) des mots hérités
             words_to_consume = set()

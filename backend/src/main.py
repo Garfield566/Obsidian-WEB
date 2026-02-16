@@ -425,19 +425,78 @@ def analyze_vault(
     }
 
     if verbose:
-        print("\n" + "=" * 50)
-        print("✅ ANALYSE TERMINÉE")
-        print("=" * 50)
-        print(f"📝 Notes analysées: {stats['notes_analyzed']}")
-        print(f"🏷️  Tags existants: {stats['existing_tags']}")
-        print(f"📦 Clusters détectés: {stats['clusters_detected']}")
-        print(f"✨ Nouveaux tags suggérés: {stats['new_tags_suggested']}")
-        print(f"📎 Attributions suggérées: {stats['tag_assignments_suggested']}")
-        print(f"🔄 Doublons détectés: {stats['redundant_groups']}")
-        print(f"⚠️  Alertes de santé: {stats['health_alerts']}")
-        print(f"💚 Score de santé: {stats['vault_health_score']:.0%}")
-        print(f"⏱️  Temps total: {total_time:.1f}s")
-        print("=" * 50)
+        print("\n" + "=" * 80, flush=True)
+        print("RÉSUMÉ GLOBAL DE L'ANALYSE", flush=True)
+        print("=" * 80, flush=True)
+
+        # --- Stats de base ---
+        print(f"\n--- STATISTIQUES DE BASE ---", flush=True)
+        print(f"  Notes analysées: {stats['notes_analyzed']}", flush=True)
+        print(f"  Tags existants: {stats['existing_tags']}", flush=True)
+        print(f"  Clusters détectés: {stats['clusters_detected']}", flush=True)
+        print(f"  Temps total: {total_time:.1f}s", flush=True)
+
+        # --- Détail des nouveaux tags suggérés ---
+        print(f"\n--- NOUVEAUX TAGS SUGGÉRÉS: {len(new_tag_suggestions)} ---", flush=True)
+        new_by_source = {}
+        new_by_family = {}
+        for s in new_tag_suggestions:
+            src = s.get("source", "unknown")
+            new_by_source[src] = new_by_source.get(src, 0) + 1
+            fam = s.get("family", "unknown")
+            new_by_family[fam] = new_by_family.get(fam, 0) + 1
+        for src, cnt in sorted(new_by_source.items(), key=lambda x: -x[1]):
+            print(f"  Source {src}: {cnt}", flush=True)
+        for fam, cnt in sorted(new_by_family.items(), key=lambda x: -x[1]):
+            print(f"  Famille {fam}: {cnt}", flush=True)
+        # Liste les 30 premiers
+        print(f"  Top 30 nouveaux tags:", flush=True)
+        for s in new_tag_suggestions[:30]:
+            print(f"    {s.get('tag', '?'):40s} | src={s.get('source','?'):10s} | fam={s.get('family','?'):12s} | conf={s.get('confidence',0):.2f} | notes={s.get('note_count',0)}", flush=True)
+
+        # --- Détail des attributions ---
+        print(f"\n--- ATTRIBUTIONS DE TAGS EXISTANTS: {len(tag_assignments)} ---", flush=True)
+        attr_by_source = {}
+        attr_by_tag = {}
+        notes_with_attr = set()
+        for a in tag_assignments:
+            src = a.get("source", "unknown")
+            attr_by_source[src] = attr_by_source.get(src, 0) + 1
+            tag = a.get("tag", "?")
+            attr_by_tag[tag] = attr_by_tag.get(tag, 0) + 1
+            notes_with_attr.add(a.get("note", ""))
+        print(f"  Notes avec au moins 1 attribution: {len(notes_with_attr)}/{len(notes)}", flush=True)
+        for src, cnt in sorted(attr_by_source.items(), key=lambda x: -x[1]):
+            print(f"  Source {src}: {cnt}", flush=True)
+        # Top 20 tags les plus attribués
+        print(f"  Top 20 tags les plus attribués:", flush=True)
+        for tag, cnt in sorted(attr_by_tag.items(), key=lambda x: -x[1])[:20]:
+            print(f"    {tag:40s} -> {cnt} notes", flush=True)
+
+        # --- Alertes et doublons ---
+        print(f"\n--- SANTÉ & DOUBLONS ---", flush=True)
+        print(f"  Score de santé: {stats['vault_health_score']:.0%}", flush=True)
+        print(f"  Alertes: {len(health_alerts)}", flush=True)
+        print(f"  Groupes de doublons: {len(redundant_groups)}", flush=True)
+        if redundant_groups:
+            for rg in redundant_groups[:10]:
+                tags_in_group = rg.get("tags", [])
+                print(f"    Doublon: {' <-> '.join(tags_in_group)}", flush=True)
+
+        # --- Notes sans aucun tag ni attribution ---
+        notes_without_tags = [n for n in notes if len(n.tags) == 0]
+        notes_without_anything = [n for n in notes_without_tags if n.path not in notes_with_attr]
+        print(f"\n--- COUVERTURE ---", flush=True)
+        print(f"  Notes sans aucun tag: {len(notes_without_tags)}/{len(notes)}", flush=True)
+        print(f"  Notes sans tag ET sans attribution suggérée: {len(notes_without_anything)}/{len(notes)}", flush=True)
+        if notes_without_anything:
+            print(f"  Exemples de notes non couvertes (max 15):", flush=True)
+            for n in notes_without_anything[:15]:
+                print(f"    {n.path}", flush=True)
+
+        print("\n" + "=" * 80, flush=True)
+        print("FIN DU RÉSUMÉ GLOBAL", flush=True)
+        print("=" * 80, flush=True)
 
     return stats
 
@@ -608,11 +667,13 @@ class TagGeneratorV2:
 
         # Détecte les entités dans toutes les notes avec le détecteur V1
         notes_entities = self.entity_detector.detect_entities_batch(self.notes)
+        print(f"      📊 ENTITÉS: détection sur {len(notes_entities)} notes", flush=True)
 
         # Agrège les entités qui apparaissent dans plusieurs notes
         aggregated = aggregate_entities_across_notes(
             notes_entities, min_notes=self.MIN_ENTITY_NOTES
         )
+        print(f"      📊 ENTITÉS: {len(aggregated)} entités agrégées (min {self.MIN_ENTITY_NOTES} notes)", flush=True)
 
         # Collecte les infos détaillées sur chaque entité
         entity_details: dict = {}
@@ -713,6 +774,15 @@ class TagGeneratorV2:
                 },
             })
 
+        # DEBUG: Résumé entités par famille
+        family_counts: dict[str, int] = {}
+        for s in suggestions:
+            fam = s.get("reasoning", {}).get("details", {}).get("entity_type", "unknown")
+            family_counts[fam] = family_counts.get(fam, 0) + 1
+        print(f"      📊 ENTITÉS RÉSUMÉ: {len(suggestions)} suggestions", flush=True)
+        for fam, count in sorted(family_counts.items(), key=lambda x: -x[1]):
+            print(f"         {fam:25s}: {count}", flush=True)
+
         return suggestions
 
     def _generate_emergent_suggestions(
@@ -743,20 +813,34 @@ class TagGeneratorV2:
             content_hashes=content_hashes,
         )
 
+        # DEBUG: Résumé des émergents bruts par catégorie
+        _emg_cats: dict[str, int] = {}
+        for e in emergent_tags:
+            cat = e.metadata.get("category", e.family.value if hasattr(e, 'family') else "unknown")
+            _emg_cats[cat] = _emg_cats.get(cat, 0) + 1
+        print(f"      📊 ÉMERGENTS BRUTS: {len(emergent_tags)} tags détectés", flush=True)
+        for cat, cnt in sorted(_emg_cats.items(), key=lambda x: -x[1]):
+            print(f"         {cat:30s}: {cnt}", flush=True)
+
+        _filtered = {"existing": 0, "excluded": 0, "generic": 0, "redundant": 0, "kept": 0}
+
         for emergent in emergent_tags:
             tag = emergent.name
 
             # Vérifie que le tag n'existe pas et n'a pas été rejeté
             if tag in self.existing_tags or tag in rejected_tags:
+                _filtered["existing"] += 1
                 continue
 
             # Vérifie que le tag n'est pas trop générique
             tag_lower = tag.lower()
             tag_base = tag_lower.replace("\\", " ").replace("-", " ").strip()
             if any(excluded in tag_base for excluded in self.EXCLUDED_ENTITY_NAMES):
+                _filtered["excluded"] += 1
                 continue
 
             if "\\" not in tag and tag_lower in self.TOO_GENERIC_WORDS:
+                _filtered["generic"] += 1
                 continue
 
             # Vérifie similarité avec tags existants
@@ -775,11 +859,13 @@ class TagGeneratorV2:
                     is_redundant = True
                     break
             if is_redundant:
+                _filtered["redundant"] += 1
                 continue
 
             # Construit la suggestion
             family_label = get_tag_family_label(emergent.family)
 
+            _filtered["kept"] += 1
             suggestions.append({
                 "id": f"lt_emg_{len(suggestions):03d}",
                 "name": tag,
@@ -796,6 +882,17 @@ class TagGeneratorV2:
                     },
                 },
             })
+
+        # DEBUG: Résumé filtrage émergents
+        print(f"      📊 ÉMERGENTS FILTRAGE: kept={_filtered['kept']}, existing={_filtered['existing']}, excluded={_filtered['excluded']}, generic={_filtered['generic']}, redundant={_filtered['redundant']}", flush=True)
+
+        # DEBUG: Liste des suggestions émergentes gardées par famille
+        _emg_families: dict[str, list[str]] = {}
+        for s in suggestions:
+            fam = s["reasoning"]["details"].get("family", "unknown")
+            _emg_families.setdefault(fam, []).append(s["name"])
+        for fam, names in sorted(_emg_families.items()):
+            print(f"         {fam:20s}: {', '.join(names[:10])}{'...' if len(names) > 10 else ''}", flush=True)
 
         return suggestions
 
@@ -1140,6 +1237,15 @@ class TagGeneratorV2:
                         },
                     },
                 })
+
+        # DEBUG: Résumé termes spécialisés par domaine parent
+        _spec_domains: dict[str, list[str]] = {}
+        for s in suggestions:
+            dom = s["reasoning"]["details"].get("domaine_parent", "inconnu")
+            _spec_domains.setdefault(dom, []).append(s["name"])
+        print(f"      📊 SPÉCIALISÉS RÉSUMÉ: {len(suggestions)} suggestions", flush=True)
+        for dom, names in sorted(_spec_domains.items(), key=lambda x: -len(x[1])):
+            print(f"         {dom:30s}: {len(names):3d} tags ({', '.join(names[:5])}{'...' if len(names) > 5 else ''})", flush=True)
 
         return suggestions
 
