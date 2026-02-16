@@ -818,6 +818,44 @@ class TagGeneratorV2:
         for cat, cnt in sorted(_emg_cats.items(), key=lambda x: -x[1]):
             print(f"         {cat:30s}: {cnt}", flush=True)
 
+        # === DIAGNOSTIC PRÉ-FILTRAGE : pourquoi les domaines validés disparaissent ===
+        domain_roots = [e for e in emergent_tags if "\\" not in e.name and e.metadata.get("category") == "domain_vocabulary"]
+        domain_subs = [e for e in emergent_tags if "\\" in e.name and e.metadata.get("category") == "domain_vocabulary"]
+        others = [e for e in emergent_tags if e.metadata.get("category") != "domain_vocabulary"]
+        print(f"\n      📊 DIAGNOSTIC PRÉ-FILTRAGE: {len(emergent_tags)} suggestions brutes", flush=True)
+        print(f"         Racines domaine: {len(domain_roots)}", flush=True)
+        print(f"         Sous-domaines:   {len(domain_subs)}", flush=True)
+        print(f"         Autres:          {len(others)}", flush=True)
+
+        for e in sorted(domain_roots, key=lambda x: x.name):
+            name_lower = e.name.lower()
+            name_norm = name_lower.replace("/", "\\")
+            killed_by_old = []  # ancien filtre (substring)
+            killed_by_new = False  # nouveau filtre (exact match)
+            parent_child = []
+            for existing_tag in self.existing_tags:
+                existing_lower = existing_tag.lower()
+                existing_norm = existing_lower.replace("/", "\\")
+                # Ancien filtre (substring) — pour montrer le bug
+                if name_lower in existing_lower or existing_lower in name_lower:
+                    killed_by_old.append(existing_tag)
+                # Nouveau filtre (exact match normalisé)
+                if name_norm == existing_norm:
+                    killed_by_new = True
+                # Relations parent/enfant
+                if name_norm.startswith(existing_norm + "\\") or existing_norm.startswith(name_norm + "\\"):
+                    parent_child.append(existing_tag)
+
+            if killed_by_new:
+                status = "EXACT-DUP"
+            elif killed_by_old:
+                status = f"OLD-SUBSTRING-BUG (aurait tué: {killed_by_old[:3]})"
+            else:
+                status = "SURVIT"
+            pc = f" [parent/enfant: {parent_child[:3]}]" if parent_child else ""
+            print(f"         {'✅' if not killed_by_new else '❌'} {e.name:30s} {status}{pc}", flush=True)
+        # === FIN DIAGNOSTIC ===
+
         _filtered = {"existing": 0, "excluded": 0, "generic": 0, "redundant": 0, "kept": 0}
 
         for emergent in emergent_tags:
