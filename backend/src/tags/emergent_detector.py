@@ -984,6 +984,35 @@ class EmergentTagDetector:
 
         return inherited
 
+    def _navigate_to_node(self, path: str) -> dict | None:
+        """Navigue dans HIERARCHY jusqu'au nœud correspondant au chemin.
+
+        Pour path="physique\\acoustique\\électroacoustique":
+          HIERARCHY["physique"]["sous_notions"]["acoustique"]["sous_notions"]["électroacoustique"]
+
+        Args:
+            path: Chemin avec backslash (ex: "physique\\acoustique")
+
+        Returns:
+            Le nœud dict, ou None si le chemin est introuvable
+        """
+        parts = path.split("\\")
+        current_node = self.HIERARCHY
+
+        # Premier niveau: accès direct dans HIERARCHY
+        if parts[0] not in current_node:
+            return None
+        current_node = current_node[parts[0]]
+
+        # Niveaux suivants: accès via sous_notions
+        for part in parts[1:]:
+            sous_notions = current_node.get("sous_notions", {})
+            if part not in sous_notions:
+                return None
+            current_node = sous_notions[part]
+
+        return current_node
+
     def _get_descendant_vocabulary(self, path: str) -> dict:
         """Récupère le vocabulaire de TOUS les descendants d'un chemin.
 
@@ -998,17 +1027,12 @@ class EmergentTagDetector:
         """
         descendants = {"VSC": set(), "VSCA": set()}
 
-        # Trouve le nœud correspondant au chemin
-        parts = path.split("\\")
-        current_node = self.HIERARCHY
-
-        for part in parts:
-            if part not in current_node:
-                return descendants
-            current_node = current_node[part]
+        node = self._navigate_to_node(path)
+        if node is None:
+            return descendants
 
         # Récupère le vocabulaire de tous les descendants
-        sous_notions = current_node.get("sous_notions", {})
+        sous_notions = node.get("sous_notions", {})
         self._collect_descendant_vocabulary(sous_notions, descendants)
 
         return descendants
@@ -1065,15 +1089,13 @@ class EmergentTagDetector:
         all_vocab["VSC"].update(parent_vocab["VSC"])
         all_vocab["VSCA"].update(parent_vocab["VSCA"])
 
-        # 2. Vocabulaire propre
-        parts = path.split("\\")
-        current_node = self.HIERARCHY
-        for part in parts:
-            if part not in current_node:
-                break
-            current_node = current_node[part]
+        # 2. Vocabulaire propre — navigue via sous_notions
+        node = self._navigate_to_node(path)
+        if node is None:
+            self._vocab_cache[path] = all_vocab
+            return all_vocab
 
-        own_vocab = current_node.get("vocabulaire", {})
+        own_vocab = node.get("vocabulaire", {})
         for word in own_vocab.get("VSC", []):
             all_vocab["VSC"].add(word.lower())
         for word in own_vocab.get("VSCA", []):
