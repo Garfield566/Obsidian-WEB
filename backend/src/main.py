@@ -699,22 +699,19 @@ class TagGeneratorV2:
             if "\\" not in tag and tag_lower in self.TOO_GENERIC_WORDS:
                 continue
 
-            # Vérifie similarité avec tags existants (normalise)
+            # Vérifie redondance avec tags existants (normalise séparateurs)
             is_redundant = False
+            tag_norm = tag_lower.replace("/", "\\")
             for existing in self.existing_tags:
-                existing_lower = existing.lower()
-                # Exact match → redondant
-                if tag_lower == existing_lower:
+                existing_norm = existing.lower().replace("/", "\\")
+                # Même chemin normalisé → redondant
+                if tag_norm == existing_norm:
                     is_redundant = True
                     break
-                # Vérifie les relations hiérarchiques : parent\enfant n'est PAS redondant
-                # ex: "physique\optique" n'est pas redondant avec "physique"
-                if tag_lower.startswith(existing_lower + "\\") or existing_lower.startswith(tag_lower + "\\"):
+                # Relations parent\enfant ne sont PAS redondantes
+                # ex: "physique" n'est pas redondant avec "physique\constante"
+                if tag_norm.startswith(existing_norm + "\\") or existing_norm.startswith(tag_norm + "\\"):
                     continue
-                # Substring match pour les tags non-hiérarchiques (ex: variantes d'écriture)
-                if tag_lower in existing_lower or existing_lower in tag_lower:
-                    is_redundant = True
-                    break
             if is_redundant:
                 continue
 
@@ -842,21 +839,19 @@ class TagGeneratorV2:
                 _filtered["generic"] += 1
                 continue
 
-            # Vérifie similarité avec tags existants
+            # Vérifie redondance avec tags existants (normalise séparateurs)
             is_redundant = False
+            tag_norm = tag_lower.replace("/", "\\")
             for existing in self.existing_tags:
-                existing_lower = existing.lower()
-                # Exact match → redondant
-                if tag_lower == existing_lower:
+                existing_norm = existing.lower().replace("/", "\\")
+                # Même chemin normalisé → redondant
+                if tag_norm == existing_norm:
                     is_redundant = True
                     break
-                # Relations hiérarchiques parent\enfant ne sont PAS redondantes
-                if tag_lower.startswith(existing_lower + "\\") or existing_lower.startswith(tag_lower + "\\"):
+                # Relations parent\enfant ne sont PAS redondantes
+                # ex: "physique" n'est pas redondant avec "physique\constante"
+                if tag_norm.startswith(existing_norm + "\\") or existing_norm.startswith(tag_norm + "\\"):
                     continue
-                # Substring match pour variantes non-hiérarchiques
-                if tag_lower in existing_lower or existing_lower in tag_lower:
-                    is_redundant = True
-                    break
             if is_redundant:
                 _filtered["redundant"] += 1
                 continue
