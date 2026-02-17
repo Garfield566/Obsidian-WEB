@@ -47,6 +47,7 @@ from .conventions import (
     KNOWN_DISCIPLINES, KNOWN_AUTHORS, KNOWN_ART_MOVEMENTS,
     ROMAN_NUMERALS, KNOWN_MATHEMATICIANS
 )
+from .lexical_frequency import load_lexique, poids_ngram
 
 
 @dataclass
@@ -130,6 +131,17 @@ class EmergentTagDetector:
     # Minimum de mots uniques pour créer une sous-notion vs un objet
     # Sous-notion: 5+ mots propres | Objet: 1-4 mots
     MIN_WORDS_FOR_SUBNOTION = 5
+
+    # SEUILS PONDÉRÉS par fréquence lexicale (Lexique 3.83)
+    # Remplace le comptage brut VSC/VSCA par un score pondéré :
+    # score = Σ poids(mot_vsc) + 0.5 × Σ poids(mot_vsca)
+    # où poids(mot) = 1/log2(2 + freq_par_million)
+    # Un mot rare pèse ~1.0, un mot courant pèse ~0.1
+    WEIGHTED_THRESHOLDS = {
+        0: 1.2,   # Racine : ~2 mots rares ou ~4-5 mots courants
+        1: 1.0,   # Niveau 1
+        2: 0.8,   # Niveau 2+
+    }
 
     # DOMAINES FAIBLES - vocabulaire trop courant, nécessite d'être DOMINANT
     # Pour être suggéré, un domaine faible doit avoir significativement plus
@@ -237,6 +249,9 @@ class EmergentTagDetector:
 
         # Construit la whitelist à partir des bases connues
         self._build_whitelist()
+
+        # Charge les fréquences lexicales pour pondération
+        self._lexique = load_lexique()
 
         # === CACHES POUR PERFORMANCE ===
         # Cache pour le vocabulaire par domaine (évite recalculs O(n))
@@ -948,6 +963,47 @@ class EmergentTagDetector:
         )
         reason = f"VSC={vsc_count}, VSCA={vsca_count} (requis: {options_str})"
         return False, reason
+
+    def _compute_weighted_score(self, vsc_words: set, vsca_words: set) -> float:
+        """Calcule le score pondéré par fréquence lexicale.
+
+        score = Σ poids(mot_vsc) + 0.5 × Σ poids(mot_vsca)
+
+        Un mot rare (absent de Lexique3) pèse ~1.0,
+        un mot courant (freq=100/million) pèse ~0.15.
+
+        Args:
+            vsc_words: Mots VSC trouvés dans le texte.
+            vsca_words: Mots VSCA trouvés dans le texte.
+
+        Returns:
+            Score pondéré (float >= 0).
+        """
+        score = sum(poids_ngram(w, self._lexique) for w in vsc_words)
+        score += 0.5 * sum(poids_ngram(w, self._lexique) for w in vsca_words)
+        return score
+
+    def _is_level_valid_weighted(
+        self, weighted_score: float, depth: int
+    ) -> tuple[bool, str]:
+        """Vérifie si un niveau est validé selon le score pondéré.
+
+        Args:
+            weighted_score: Score pondéré (VSC + 0.5*VSCA, pondéré par fréquence).
+            depth: Profondeur dans la hiérarchie.
+
+        Returns:
+            Tuple (is_valid, reason)
+        """
+        max_depth = max(self.WEIGHTED_THRESHOLDS.keys())
+        threshold = self.WEIGHTED_THRESHOLDS.get(
+            depth, self.WEIGHTED_THRESHOLDS[max_depth]
+        )
+
+        if weighted_score >= threshold:
+            return True, f"score pondéré {weighted_score:.2f} (seuil: {threshold})"
+
+        return False, f"score pondéré {weighted_score:.2f} < seuil {threshold}"
 
     def _get_inherited_vocabulary(self, path: str) -> dict:
         """Récupère le vocabulaire hérité des PARENTS pour un chemin donné.
@@ -2022,12 +2078,12 @@ class EmergentTagDetector:
                     specialized_vsc_equivalent += term_info["weight"]
                     specialized_terms_used.append(term_info["term"])
 
-        # Vérifie si le niveau est validé selon les options de seuil
-        # Les termes spécialisés comptent comme VSC supplémentaires
-        effective_vsc_count = len(available_vsc) + specialized_vsc_equivalent
-        is_valid, validation_reason = self._is_level_valid(
-            effective_vsc_count,
-            len(available_vsca),
+        # Vérifie si le niveau est validé via score pondéré par fréquence lexicale
+        # Les mots courants (partie, division...) pèsent peu, les mots rares pèsent lourd
+        weighted_score = self._compute_weighted_score(available_vsc, available_vsca)
+        weighted_score += specialized_vsc_equivalent  # Termes spécialisés gardent poids plein
+        is_valid, validation_reason = self._is_level_valid_weighted(
+            weighted_score,
             depth
         )
 
@@ -2077,9 +2133,9 @@ class EmergentTagDetector:
         if specialized_terms_used:
             reasons.append(f"Termes spécialisés: {', '.join(specialized_terms_used)}")
 
-        # Calcul de confiance basé sur la profondeur et le support
+        # Calcul de confiance basé sur la profondeur et le score pondéré
         base_confidence = 0.65 + depth * 0.05
-        support_bonus = min(0.20, len(words_counted) * 0.02)
+        support_bonus = min(0.20, weighted_score * 0.03)
         # Bonus pour termes spécialisés
         specialized_bonus = min(0.10, specialized_vsc_equivalent * 0.05)
         confidence = min(0.95, base_confidence + support_bonus + specialized_bonus)
