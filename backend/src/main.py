@@ -1478,8 +1478,10 @@ class TagMatcherV2:
     # Connecteurs à ignorer dans les noms de personnes
     PERSON_NAME_CONNECTORS = {"de", "du", "von", "van", "di", "da", "le", "la", "i", "ii", "iii", "iv", "v"}
 
-    # Seuil minimum de vocabulaire pour valider une attribution de domaine
-    MIN_VOCAB_FOR_DOMAIN_ATTRIBUTION = 3  # Au moins 3 mots du domaine
+    # Seuil minimum de vocabulaire pondéré pour valider une attribution de domaine
+    # Ancien seuil count-based : 3 mots
+    # Nouveau seuil pondéré : ~1.2 (= 2 mots rares ou 4-5 mots courants)
+    MIN_VOCAB_WEIGHTED = 1.2
 
     def __init__(
         self,
@@ -1568,8 +1570,8 @@ class TagMatcherV2:
                 # Confiance basee sur le score et le nombre de sources
                 confidence = min(0.95, avg_score * 0.7 + 0.3 * min(1.0, len(sources) / 3))
 
-                # Boost de confiance si vocabulaire du domaine trouvé
-                if vocab_match and vocab_match["vocab_count"] >= 5:
+                # Boost de confiance si vocabulaire du domaine trouvé (score pondéré >= 3.0)
+                if vocab_match and vocab_match.get("weighted_score", 0) >= 3.0:
                     confidence = min(0.95, confidence + 0.1)
 
                 if confidence < 0.45:
@@ -1586,9 +1588,11 @@ class TagMatcherV2:
 
                 # Ajoute les infos de vocabulaire pour les tags discipline
                 if vocab_match and vocab_match["vocab_count"] > 0:
-                    summary += f" + {vocab_match['vocab_count']} mots du domaine détectés"
+                    w_score = vocab_match.get("weighted_score", 0)
+                    summary += f" + {vocab_match['vocab_count']} mots du domaine (score pondéré: {w_score:.1f})"
                     details["vocabulary_match"] = {
                         "count": vocab_match["vocab_count"],
+                        "weighted_score": w_score,
                         "vsc_count": vocab_match.get("vsc_count", 0),
                         "vsca_count": vocab_match.get("vsca_count", 0),
                         "examples": vocab_match.get("vocab_found", [])[:5],
@@ -1689,7 +1693,8 @@ class TagMatcherV2:
                     continue
 
                 vocab_count = vocab_match["vocab_count"]
-                confidence = min(0.85, 0.55 + vocab_count * 0.03)
+                w_score = vocab_match.get("weighted_score", 0)
+                confidence = min(0.85, 0.55 + w_score * 0.04)
 
                 if confidence < 0.45:
                     continue
@@ -1896,12 +1901,16 @@ class TagMatcherV2:
         total_found = len(found_vsc) + len(found_vsca)
         vocab_found = list(found_vsc | found_vsca)[:10]  # Max 10 exemples
 
-        # Valide si assez de vocabulaire trouvé
-        is_valid = total_found >= self.MIN_VOCAB_FOR_DOMAIN_ATTRIBUTION
+        # Score pondéré par fréquence lexicale
+        weighted_score = self._vocab_detector._compute_weighted_score(found_vsc, found_vsca)
+
+        # Valide si score pondéré suffisant
+        is_valid = weighted_score >= self.MIN_VOCAB_WEIGHTED
 
         return {
             "is_valid": is_valid,
             "vocab_count": total_found,
+            "weighted_score": weighted_score,
             "vocab_found": vocab_found,
             "vsc_count": len(found_vsc),
             "vsca_count": len(found_vsca),
