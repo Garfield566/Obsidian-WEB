@@ -1,13 +1,13 @@
 {
 	"nodes":[
 		{"id":"54625e4ee91d705f","type":"group","x":440,"y":7780,"width":3680,"height":3220,"color":"4","label":"variation du revenue dans la consomation "},
+		{"id":"124333d071c4a1bc","type":"group","x":658,"y":11384,"width":1422,"height":1896,"label":"Le choix du Producteur"},
 		{"id":"6773de93d90cf83f","type":"group","x":-2280,"y":180,"width":3070,"height":3580,"color":"3","label":"Partie 1- Le Fonctionnement du marché: Comment se forment les prix et les quantités sur un marché ?"},
 		{"id":"4307ff902e8d3404","type":"group","x":-2200,"y":4160,"width":2380,"height":3720,"label":"Partie 2 - Le choix "},
 		{"id":"dd18821ac74e08a0","type":"group","x":-2120,"y":4365,"width":2360,"height":3395,"color":"4","label":"Représenter les préférences"},
 		{"id":"3cdef1544292d295","type":"group","x":1391,"y":8850,"width":2449,"height":2030,"color":"3","label":"La méthode de Slutsky"},
 		{"id":"05ffe1d065cdb94a","type":"group","x":320,"y":5620,"width":2100,"height":1900,"color":"#84c832","label":"Fonction d'utilité"},
 		{"id":"4f03c9bc8c4ece0d","type":"group","x":-2072,"y":6046,"width":2252,"height":1474,"color":"5","label":"Les différent type de bien"},
-		{"id":"124333d071c4a1bc","x":658,"y":11384,"width":1422,"height":1896,"type":"group","label":"Le choix du Producteur"},
 		{"id":"a2dc05fc2e92f8fe","type":"group","x":-820,"y":1380,"width":1220,"height":1300,"label":"Le concept d'élasticité"},
 		{"id":"7fa5f5c0aa490c04","type":"group","x":-960,"y":320,"width":1640,"height":880,"color":"5","label":"Les caractèristique de l'offre"},
 		{"id":"165601a517e4c763","type":"group","x":-1723,"y":2871,"width":1643,"height":769,"label":"Effet intervention publique"},
@@ -103,11 +103,15 @@
 		{"id":"a4209e0c1a2fc4f2","type":"text","text":"#### Loi de la demande :\nLorsque le prix d'un bien augmente, la quantité d'un bien diminue (toutes choses égales par ailleurs)","x":-1600,"y":358,"width":380,"height":162,"color":"6"},
 		{"id":"bf82dce5a2177cd4","type":"text","text":"Loi de l'offre : plus d'un bien est élevé plus l'offre augment\n","x":140,"y":400,"width":303,"height":60,"color":"6"},
 		{"id":"4fe073f838603eaf","type":"text","text":"##### Les facteurs de relation  Demande Offre, (entre quantité offerte et prix):\n- Cout marginaux croissants \n- Profitabilité\n- Entrés de nouveaux producteur","x":-861,"y":415,"width":401,"height":225,"color":"6"},
-		{"id":"07d4e7b107a0e459","x":796,"y":11480,"width":344,"height":89,"color":"6","type":"text","text":"Demander de bien & offreise de biens"},
-		{"id":"ecf474e06f9b2921","x":812,"y":11662,"width":250,"height":60,"type":"text","text":"matière premières & bien segojklm"},
-		{"id":"6eff14ef2d337256","x":1340,"y":11476,"width":250,"height":93,"color":"6","type":"text","text":"### Def facteur\n facteur fix & facteur variable"},
-		{"id":"cb647346703936cf","x":1174,"y":11647,"width":416,"height":75,"color":"5","type":"text","text":" facteur subtituable  & facteur complémentarité "},
-		{"id":"9e58de345867f374","x":814,"y":11811,"width":250,"height":60,"type":"text","text":"cob douglass"}
+		{"id":"07d4e7b107a0e459","type":"text","text":"Demander de bien & offreise de biens","x":796,"y":11480,"width":344,"height":89,"color":"6"},
+		{"id":"ecf474e06f9b2921","type":"text","text":"matière premières & bien segojklm","x":812,"y":11662,"width":250,"height":60},
+		{"id":"6eff14ef2d337256","type":"text","text":"### Def facteur\n facteur fix & facteur variable","x":1340,"y":11476,"width":250,"height":93,"color":"6"},
+		{"id":"cb647346703936cf","type":"text","text":" facteur subtituable  & facteur complémentarité ","x":1174,"y":11647,"width":416,"height":75,"color":"5"},
+		{"id":"9e58de345867f374","type":"text","text":"cob douglass","x":814,"y":11811,"width":250,"height":60},
+		{"id":"ed30da06eabd590a","type":"text","text":"% === x^1/4*y^3/4 ===\n```tikz\n\\usepackage{pgfplots}\n\\pgfplotsset{compat=1.16}\n\n\\begin{document}\n\\begin{tikzpicture}\n\\begin{axis}[\n    view={60}{30},\n    xlabel=$x$,\n    ylabel=$y$,\n    zlabel=$z$,\n    colormap/cool,\n    width=10cm,\n    height=8cm\n]\n\\addplot3[\n    surf,\n    samples=15,\n    domain=-5:5,\n    y domain=-5:5\n] {x^1/4*y^3/4};\n\\end{axis}\n\\end{tikzpicture}\n\\end{document}\n```\n\n% === (x^1/4*y^3/4)/x ===\n```tikz\n\\usepackage{pgfplots}\n\\pgfplotsset{compat=1.16}\n\n\\begin{document}\n\\begin{tikzpicture}\n\\begin{axis}[\n    view={60}{30},\n    xlabel=$x$,\n    ylabel=$y$,\n    zlabel=$z$,\n    colormap/cool,\n    width=10cm,\n    height=8cm\n]\n\\addplot3[\n    surf,\n    samples=15,\n    domain=-5:5,\n    y domain=-5:5\n] {(x^1/4*y^3/4)/x};\n\\end{axis}\n\\end{tikzpicture}\n\\end{document}\n```","x":1048,"y":11960,"width":480,"height":740},
+		{"id":"a15dc1aa2c20ab22","x":1403,"y":11842,"width":250,"height":60,"type":"text","text":"$ $"},
+		{"id":"9a7681d6308ab3b7","x":1600,"y":11960,"width":400,"height":333,"type":"text","text":"% === (x^1/4*x^3/4) ===\n```tikz\n\\usepackage{pgfplots}\n\\pgfplotsset{compat=1.16}\n\n\\begin{document}\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis lines=middle,\n    grid=both,\n    domain=-5:5,\n    samples=200,\n    xlabel={$x$},\n    ylabel={$f(x)$},\n    width=10cm,\n    height=7cm\n]\n\\addplot[blue, thick] {(x^1/4*x^3/4)};\n\\end{axis}\n\\end{tikzpicture}\n\\end{document}\n```"},
+		{"id":"04f699806bde9b7d","x":1637,"y":12434,"width":363,"height":266,"type":"text","text":"% === (x^1/4*x^3/4)/x ===\n```tikz\n\\usepackage{pgfplots}\n\\pgfplotsset{compat=1.16}\n\n\\begin{document}\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis lines=middle,\n    grid=both,\n    domain=-5:5,\n    samples=200,\n    xlabel={$x$},\n    ylabel={$f(x)$},\n    width=10cm,\n    height=7cm\n]\n\\addplot[blue, thick] {(x^1/4*x^3/4)/x};\n\\end{axis}\n\\end{tikzpicture}\n\\end{document}\n```"}
 	],
 	"edges":[
 		{"id":"252aa1f0ec8c8a25","fromNode":"3e13cdc03076af9c","fromSide":"right","toNode":"e6ec6b70f8855344","toSide":"left"},
