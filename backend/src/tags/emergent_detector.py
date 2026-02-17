@@ -143,6 +143,12 @@ class EmergentTagDetector:
         2: 0.8,   # Niveau 2+
     }
 
+    # Seuil de densité : proportion minimum de mots domaine-spécifiques
+    # dans la note pour valider un domaine.
+    # densité = (nb_VSC + 0.5 * nb_VSCA) / nb_mots_note
+    # 0.005 = 0.5% → note de 1000 mots → au moins 5 VSC (ou 10 VSCA)
+    MIN_DENSITY = 0.005
+
     # DOMAINES FAIBLES - vocabulaire trop courant, nécessite d'être DOMINANT
     # Pour être suggéré, un domaine faible doit avoir significativement plus
     # de matchs que les autres domaines (ratio minimum configurable)
@@ -1936,6 +1942,9 @@ class EmergentTagDetector:
         # OPTIMISATION V3: Pré-calcule les n-grammes une seule fois pour cette note
         text_ngrams = self._compute_text_ngrams(text_lower)
 
+        # Calcule le nombre de mots de la note (pour le seuil de densité)
+        nb_mots_note = len(re.findall(r'\b[\w\'-]+\b', text_lower))
+
         # NOUVEAU: Détecte les termes spécialisés pour support de validation
         # Ces termes aident à valider leurs sous-domaines exacts
         specialized_support = self._detect_specialized_terms_in_text(text_lower)
@@ -1954,6 +1963,7 @@ class EmergentTagDetector:
                 parent_path="",
                 specialized_support=specialized_support,
                 text_ngrams=text_ngrams,
+                nb_mots_note=nb_mots_note,
             )
 
             if cascade_result["is_valid"]:
@@ -2032,10 +2042,15 @@ class EmergentTagDetector:
         parent_path: str,
         specialized_support: dict = None,
         text_ngrams: set = None,
+        nb_mots_note: int = 0,
     ) -> dict:
         """Valide récursivement un domaine et ses sous-notions.
 
         OPTIMISATION V3: Accepte text_ngrams pré-calculés pour éviter 530+ recalculs.
+
+        Double validation :
+        1. Score pondéré >= seuil (fréquence lexicale)
+        2. Densité >= MIN_DENSITY (proportionnelle à la taille de la note)
 
         Args:
             domain_name: Nom du domaine courant
@@ -2046,6 +2061,7 @@ class EmergentTagDetector:
             parent_path: Chemin du parent
             specialized_support: Dict {domaine_exact: [terms]} des termes spécialisés trouvés
             text_ngrams: N-grammes pré-calculés du texte (évite recalcul par domaine)
+            nb_mots_note: Nombre de mots de la note (pour calcul de densité)
 
         Returns:
             Dict avec résultat de validation pour ce niveau et ses enfants
@@ -2082,10 +2098,28 @@ class EmergentTagDetector:
         # Les mots courants (partie, division...) pèsent peu, les mots rares pèsent lourd
         weighted_score = self._compute_weighted_score(available_vsc, available_vsca)
         weighted_score += specialized_vsc_equivalent  # Termes spécialisés gardent poids plein
-        is_valid, validation_reason = self._is_level_valid_weighted(
+        is_valid_score, score_reason = self._is_level_valid_weighted(
             weighted_score,
             depth
         )
+
+        # Condition 2 : densité de vocabulaire proportionnelle à la taille de la note
+        # densité = (nb_VSC + 0.5 * nb_VSCA) / nb_mots_note
+        # Utilise les comptes bruts (pas pondérés) : mesure la *présence*, pas la spécificité
+        nb_vsc = len(available_vsc)
+        nb_vsca = len(available_vsca)
+        density = (nb_vsc + 0.5 * nb_vsca) / max(nb_mots_note, 1)
+        is_valid_density = density >= self.MIN_DENSITY
+
+        # Double validation : les deux conditions doivent être remplies
+        is_valid = is_valid_score and is_valid_density
+
+        if not is_valid_score:
+            validation_reason = f"Score insuffisant: {score_reason}"
+        elif not is_valid_density:
+            validation_reason = f"Densité insuffisante: {density:.4f} < {self.MIN_DENSITY} ({nb_vsc} VSC + {nb_vsca} VSCA / {nb_mots_note} mots)"
+        else:
+            validation_reason = f"{score_reason} | densité={density:.4f}"
 
         if not is_valid:
             return {
@@ -2170,6 +2204,7 @@ class EmergentTagDetector:
                 current_path,
                 specialized_support=specialized_support,
                 text_ngrams=text_ngrams,
+                nb_mots_note=nb_mots_note,
             )
 
             if child_result["is_valid"]:
