@@ -26,6 +26,5 @@ nul
 
 # Temp directories
 backend/backend/
-backend/data/
-# MAIS autoriser les fichiers de référence vocabulaire
+backend/data/*
 !backend/data/references/

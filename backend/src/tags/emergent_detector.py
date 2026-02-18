@@ -48,6 +48,13 @@ from .conventions import (
     ROMAN_NUMERALS, KNOWN_MATHEMATICIANS
 )
 from .lexical_frequency import load_lexique, poids_ngram
+from .historical_periods import (
+    extract_dates,
+    dates_to_epoques,
+    suggest_history_tags,
+    load_historical_vocabulary,
+    score_historical_period,
+)
 
 
 @dataclass
@@ -305,6 +312,9 @@ class EmergentTagDetector:
 
         # Charge les corrections utilisateur (enrichissement progressif)
         self._load_user_corrections()
+
+        # Charge le vocabulaire historique datable (Wikidata)
+        self._historical_vocabulary = load_historical_vocabulary()
 
     def _load_user_corrections(self):
         """Charge les corrections utilisateur depuis corrections.txt.
@@ -1387,6 +1397,101 @@ class EmergentTagDetector:
                 return True
         return False
 
+    def _detect_history_tags(
+        self,
+        text: str,
+        note_paths: list[str],
+    ) -> list[EmergentTagSuggestion]:
+        """Détection spéciale pour le domaine histoire.
+
+        Au lieu de retourner juste "histoire", retourne des sous-tags
+        précis comme "histoire\\medieval\\haut-moyen-age" basés sur :
+        1. Les dates mentionnées dans le texte → mappées vers des époques
+        2. Le vocabulaire datable (armes, monnaies, titres, etc.) → enrichi via Wikidata
+
+        Returns:
+            Liste de suggestions de sous-périodes historiques (peut être vide → fallback "histoire")
+        """
+        # A. Dates → époques
+        dates = extract_dates(text)
+        epoques = dates_to_epoques(dates)
+
+        # B. Vocabulaire datable (Wikidata)
+        period_scores = score_historical_period(
+            text, self._historical_vocabulary, epoques
+        )
+
+        # C. Si pas de scores suffisants, essayer juste les dates
+        if not period_scores:
+            date_suggestions = suggest_history_tags(text, min_dates=2)
+            if not date_suggestions:
+                return []  # Fallback → garder "histoire" générique
+
+            # Convertir en EmergentTagSuggestion
+            results = []
+            for ds in date_suggestions:
+                results.append(EmergentTagSuggestion(
+                    name=ds["tag"],
+                    family=TagFamily.PERIOD,
+                    confidence=ds["confidence"],
+                    notes=note_paths,
+                    source_terms=[str(d) for d in ds["example_dates"]],
+                    reasoning=(
+                        f"Période '{ds['label']}' détectée via {ds['dates_count']} dates "
+                        f"(ratio={ds['ratio']:.0%}, ex: {', '.join(str(d) for d in ds['example_dates'])})"
+                    ),
+                    metadata={
+                        "category": "historical_period",
+                        "source": "dates",
+                        "dates_count": ds["dates_count"],
+                        "ratio": ds["ratio"],
+                        "example_dates": ds["example_dates"],
+                        "tag_type": "domain",
+                        "tag_format": "hierarchical",
+                    },
+                ))
+            return results
+
+        # D. Scores combinés (dates + vocabulaire datable)
+        results = []
+        for ps in period_scores:
+            # Confiance basée sur le score total
+            score = ps["score"]
+            if score >= 10:
+                confidence = 0.95
+            elif score >= 6:
+                confidence = 0.90
+            else:
+                confidence = 0.80
+
+            source_terms = [str(d) for d in epoques.get(ps["tag"], {}).get("dates", [])[:3]]
+            source_terms.extend(ps["vocab_examples"][:3])
+
+            results.append(EmergentTagSuggestion(
+                name=ps["tag"],
+                family=TagFamily.PERIOD,
+                confidence=confidence,
+                notes=note_paths,
+                source_terms=source_terms,
+                reasoning=(
+                    f"Période '{ps['label']}' détectée: "
+                    f"{ps['dates']} dates + {ps['vocab']} termes datables "
+                    f"(score={ps['score']})"
+                ),
+                metadata={
+                    "category": "historical_period",
+                    "source": "dates+vocabulary",
+                    "dates_count": ps["dates"],
+                    "vocab_count": ps["vocab"],
+                    "vocab_examples": ps["vocab_examples"],
+                    "score": ps["score"],
+                    "tag_type": "domain",
+                    "tag_format": "hierarchical",
+                },
+            ))
+
+        return results
+
     def _detect_domain_vocabulary_suggestions(
         self,
         cluster_notes: list,
@@ -1503,6 +1608,18 @@ class EmergentTagDetector:
                 if second_best_score > 0 and total_vocab < second_best_score * self.WEAK_DOMAIN_DOMINANCE_RATIO:
                     # Pas assez dominant par rapport au 2ème domaine
                     continue
+
+            # HISTOIRE: détection de sous-périodes au lieu du tag générique
+            if domain_name == "histoire":
+                history_tags = self._detect_history_tags(text_lower, note_paths)
+                if history_tags:
+                    print(f"         🏛️  HISTOIRE: {len(history_tags)} sous-périodes détectées", flush=True)
+                    for ht in history_tags:
+                        print(f"            → {ht.name} (conf={ht.confidence:.2f})", flush=True)
+                    suggestions.extend(history_tags)
+                    continue  # Ne pas ajouter "histoire" générique
+                else:
+                    print(f"         🏛️  HISTOIRE: aucune période détectée, fallback 'histoire'", flush=True)
 
             # Calcule la confiance basée sur la quantité de vocabulaire trouvé
             confidence = min(0.85, 0.65 + (total_vocab / 50) * 0.20)
