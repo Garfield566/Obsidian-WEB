@@ -1,11 +1,19 @@
 {
 	"nodes":[
-		{"id":"c0fcb58fae1842e6","x":452,"y":-253,"width":250,"height":60,"type":"text","text":""},
-		{"id":"795c1753cc84f27f","type":"file","file":"⭐​⭐​⭐​⭐​PROJETTTTTT⭐​⭐​⭐​⭐/⭐​PROJETTTTTT⭐​.md","x":-320,"y":-180,"width":440,"height":400},
 		{"id":"ca5e49ce65ccde54","x":60,"y":-320,"width":463,"height":73,"type":"text","text":"### le problème de la mémoire pour évité la redondance "},
-		{"id":"ebb698a58d0e55b3","x":569,"y":-456,"width":250,"height":60,"type":"text","text":"rejet de l'utilisateur"}
+		{"id":"795c1753cc84f27f","type":"file","file":"⭐​⭐​⭐​⭐​PROJETTTTTT⭐​⭐​⭐​⭐/⭐​PROJETTTTTT⭐​.md","x":-420,"y":0,"width":440,"height":400},
+		{"id":"ebb698a58d0e55b3","x":569,"y":-600,"width":250,"height":60,"type":"text","text":"rejet de l'utilisateur"},
+		{"id":"048469c62d066d59","x":660,"y":-313,"width":250,"height":60,"type":"text","text":"le renvoyer plutar"},
+		{"id":"38849c99a05cda5f","x":1040,"y":-307,"width":250,"height":60,"type":"text","text":"intéressent mais sen plus"},
+		{"id":"cdf198406917e802","x":1040,"y":-60,"width":250,"height":60,"type":"text","text":"très intéréssent et donc devient une note"},
+		{"id":"c0fcb58fae1842e6","x":620,"y":-160,"width":250,"height":60,"type":"text","text":"approuvé par utilisateur"}
 	],
 	"edges":[
-		{"id":"e022613c25cdc732","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"ebb698a58d0e55b3","toSide":"left"}
+		{"id":"e022613c25cdc732","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"ebb698a58d0e55b3","toSide":"left"},
+		{"id":"0b1018462324f704","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"c0fcb58fae1842e6","toSide":"left"},
+		{"id":"34891d46e393fa76","fromNode":"c0fcb58fae1842e6","fromSide":"right","toNode":"38849c99a05cda5f","toSide":"left"},
+		{"id":"6356518e18c75739","fromNode":"c0fcb58fae1842e6","fromSide":"right","toNode":"cdf198406917e802","toSide":"left"},
+		{"id":"0a023edc10f13334","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"048469c62d066d59","toSide":"left"},
+		{"id":"7053a758a3c27f74","fromNode":"048469c62d066d59","fromSide":"top","toNode":"ca5e49ce65ccde54","toSide":"top"}
 	]
 }
