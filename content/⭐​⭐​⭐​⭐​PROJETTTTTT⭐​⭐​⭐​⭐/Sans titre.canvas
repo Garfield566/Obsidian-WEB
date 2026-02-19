@@ -6,7 +6,16 @@
 		{"id":"048469c62d066d59","x":660,"y":-313,"width":250,"height":60,"type":"text","text":"le renvoyer plutar"},
 		{"id":"38849c99a05cda5f","x":1040,"y":-307,"width":250,"height":60,"type":"text","text":"intéressent mais sen plus"},
 		{"id":"cdf198406917e802","x":1040,"y":-60,"width":250,"height":60,"type":"text","text":"très intéréssent et donc devient une note"},
-		{"id":"c0fcb58fae1842e6","x":620,"y":-160,"width":250,"height":60,"type":"text","text":"approuvé par utilisateur"}
+		{"id":"c0fcb58fae1842e6","x":620,"y":-160,"width":250,"height":60,"type":"text","text":"approuvé par utilisateur"},
+		{"id":"e41ca553cb3f432f","x":671,"y":1139,"width":369,"height":155,"color":"5","type":"text","text":"Comportement physique\n\nArrêt inattendu → signal fort  \nMarche rapide → signal faible  \nStagnation prolongée → signal fort"},
+		{"id":"57d1b8a6f9eb3dce","x":1434,"y":1111,"width":406,"height":183,"color":"5","type":"text","text":"Historique de réception\n\nRejets récents → espacer  \nRenvoi à plus tard → reproposer dans X min  \nValidation → moment propice"},
+		{"id":"4a00e0f72153e77a","x":1040,"y":960,"width":440,"height":76,"color":"4","type":"text","text":"### Score de réceptivité en temps réel"},
+		{"id":"896e6c337b921485","x":1100,"y":1139,"width":320,"height":207,"color":"5","type":"text","text":"Contexte du lieu\n\nMusée / jardin / monument → haute réceptivité présumée  \nTransport / commerce → basse réceptivité présumée"},
+		{"id":"714858575fd5ff07","x":729,"y":259,"width":311,"height":141,"type":"text","text":"📷 Caméra\nScène visuelle complète\nObjets, monuments, textes,\nplantes, œuvres d'art"},
+		{"id":"bf624654a8e6cccf","x":772,"y":471,"width":351,"height":141,"type":"text","text":"🏃 Comportement physique\nVitesse de déplacement\nArrêt inattendu\nTemps passé sur place"},
+		{"id":"0f336b6a020b7b8d","x":1169,"y":542,"width":311,"height":141,"type":"text","text":"🎙 Micro\nMots captés\ndans l'environnement\net conversations"},
+		{"id":"8de678c52c232280","x":1434,"y":330,"width":311,"height":141,"type":"text","text":"🕐 Contexte temporel\nHeure de la journée\nJour de la semaine\nSaison / météo"},
+		{"id":"b1b31c764383e1fd","x":1123,"y":118,"width":311,"height":141,"type":"text","text":"📍 Géolocalisation\nPosition précise\nType de lieu détecté\nMusée / jardin / rue..."}
 	],
 	"edges":[
 		{"id":"e022613c25cdc732","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"ebb698a58d0e55b3","toSide":"left"},
@@ -14,6 +23,9 @@
 		{"id":"34891d46e393fa76","fromNode":"c0fcb58fae1842e6","fromSide":"right","toNode":"38849c99a05cda5f","toSide":"left"},
 		{"id":"6356518e18c75739","fromNode":"c0fcb58fae1842e6","fromSide":"right","toNode":"cdf198406917e802","toSide":"left"},
 		{"id":"0a023edc10f13334","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"048469c62d066d59","toSide":"left"},
-		{"id":"7053a758a3c27f74","fromNode":"048469c62d066d59","fromSide":"top","toNode":"ca5e49ce65ccde54","toSide":"top"}
+		{"id":"7053a758a3c27f74","fromNode":"048469c62d066d59","fromSide":"top","toNode":"ca5e49ce65ccde54","toSide":"top"},
+		{"id":"31e1c86388d07f54","fromNode":"4a00e0f72153e77a","fromSide":"bottom","toNode":"e41ca553cb3f432f","toSide":"top"},
+		{"id":"fe6341986e383cdb","fromNode":"4a00e0f72153e77a","fromSide":"bottom","toNode":"896e6c337b921485","toSide":"top"},
+		{"id":"e533cb525350c2d2","fromNode":"4a00e0f72153e77a","fromSide":"bottom","toNode":"57d1b8a6f9eb3dce","toSide":"top"}
 	]
 }
