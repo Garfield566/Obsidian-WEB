@@ -42,7 +42,11 @@
 		{"id":"a2915c07057823a1","x":-289,"y":1768,"width":404,"height":152,"color":"5","type":"text","text":"Comportement sur c'est appareil de l'utilisateur \n- les aplication qu'il utilise (insta, le journal eetc)\n- si il fait des recherhce sur quelque chause"},
 		{"id":"896e6c337b921485","x":-71,"y":1987,"width":320,"height":207,"color":"5","type":"text","text":"Contexte du lieu\n\nMusée / jardin / monument → haute réceptivité présumée  \nTransport / commerce → basse réceptivité présumée"},
 		{"id":"57d1b8a6f9eb3dce","x":263,"y":1959,"width":406,"height":183,"color":"5","type":"text","text":"Historique de réception\n\nRejets récents → espacer  \nRenvoi à plus tard → reproposer dans X min  \nValidation → moment propice"},
-		{"id":"dace4f4278cf4130","x":-483,"y":1132,"width":325,"height":108,"type":"text","text":"l'utilisateur remplie un profil culturel :\nc'est centre d'itérait, sont niveau de savoir dans c'est domaine, sont attente du projet  "}
+		{"id":"dace4f4278cf4130","x":-483,"y":1132,"width":325,"height":108,"type":"text","text":"l'utilisateur remplie un profil culturel :\nc'est centre d'itérait, sont niveau de savoir dans c'est domaine, sont attente du projet  "},
+		{"id":"6930e5c3e835989a","x":-386,"y":3000,"width":292,"height":60,"color":"3","type":"text","text":"si l'objet n'est pas déjà assimiler "},
+		{"id":"6f080a9b948f4abe","x":-240,"y":2840,"width":269,"height":75,"color":"3","type":"text","text":"la recommandation : objet complet tout seul "},
+		{"id":"c4564050087679a1","x":160,"y":2855,"width":250,"height":60,"type":"text","text":"objet quelconque"},
+		{"id":"ceb9acb40e6ccafb","x":-20,"y":3080,"width":250,"height":60,"type":"text","text":"si déjà assimiler "}
 	],
 	"edges":[
 		{"id":"e022613c25cdc732","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"ebb698a58d0e55b3","toSide":"left"},
@@ -56,6 +60,9 @@
 		{"id":"3ed6a1f494d127ec","fromNode":"b1b31c764383e1fd","fromSide":"bottom","toNode":"5e8c1c29ab6713b7","toSide":"top"},
 		{"id":"61e6a2af2bf877f0","fromNode":"714858575fd5ff07","fromSide":"right","toNode":"5e8c1c29ab6713b7","toSide":"left"},
 		{"id":"e44e245fd4ad87a1","fromNode":"bf624654a8e6cccf","fromSide":"right","toNode":"5e8c1c29ab6713b7","toSide":"left"},
-		{"id":"3179f6d16174774a","fromNode":"4979ffd53956ae48","fromSide":"bottom","toNode":"2f72bc9f6560fba1","toSide":"top","color":"1","label":"si confirmation assez grand que l'utilisateur serait ouvert à la culture"}
+		{"id":"3179f6d16174774a","fromNode":"4979ffd53956ae48","fromSide":"bottom","toNode":"2f72bc9f6560fba1","toSide":"top","color":"1","label":"si confirmation assez grand que l'utilisateur serait ouvert à la culture"},
+		{"id":"0bbe57cf515550d7","fromNode":"6f080a9b948f4abe","fromSide":"bottom","toNode":"6930e5c3e835989a","toSide":"top"},
+		{"id":"79a57d5cbfb28f12","fromNode":"6f080a9b948f4abe","fromSide":"bottom","toNode":"ceb9acb40e6ccafb","toSide":"top"},
+		{"id":"31b24e7d2fc020f2","fromNode":"c4564050087679a1","fromSide":"bottom","toNode":"ceb9acb40e6ccafb","toSide":"top"}
 	]
 }
