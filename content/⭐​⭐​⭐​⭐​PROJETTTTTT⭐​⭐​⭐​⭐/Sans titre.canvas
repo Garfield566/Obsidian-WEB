@@ -1,9 +1,9 @@
 {
 	"nodes":[
+		{"id":"2f72bc9f6560fba1","x":-440,"y":2700,"width":1320,"height":1260,"type":"group","label":"Groupe sans titre"},
 		{"id":"7d2da28b06d2e68d","x":2400,"y":1000,"width":920,"height":887,"color":"#ced298","type":"group","label":"Orchestrateur sémantique — le cerveau"},
 		{"id":"c8a0ea655ad0fc0b","x":-520,"y":760,"width":996,"height":737,"color":"3","type":"group","label":"Paramétrage utilisateur"},
 		{"id":"4979ffd53956ae48","x":-520,"y":1720,"width":1269,"height":568,"color":"4","type":"group","label":"Score de réceptivité en temps réel"},
-		{"id":"2f72bc9f6560fba1","x":-440,"y":2800,"width":924,"height":671,"type":"group","label":"Groupe sans titre"},
 		{"id":"04250a7fad68f6e6","x":960,"y":1960,"width":1181,"height":400,"color":"6","type":"group","label":"Ce que reçoit l'utilisateur"},
 		{"id":"92f8e8bc7240df37","x":2440,"y":2160,"width":818,"height":556,"color":"#e656c0","type":"group","label":"Boucle d'amélioration continue"},
 		{"id":"ca5e49ce65ccde54","x":60,"y":-320,"width":463,"height":73,"type":"text","text":"### le problème de la mémoire pour évité la redondance "},
@@ -43,10 +43,12 @@
 		{"id":"896e6c337b921485","x":-71,"y":1987,"width":320,"height":207,"color":"5","type":"text","text":"Contexte du lieu\n\nMusée / jardin / monument → haute réceptivité présumée  \nTransport / commerce → basse réceptivité présumée"},
 		{"id":"57d1b8a6f9eb3dce","x":263,"y":1959,"width":406,"height":183,"color":"5","type":"text","text":"Historique de réception\n\nRejets récents → espacer  \nRenvoi à plus tard → reproposer dans X min  \nValidation → moment propice"},
 		{"id":"dace4f4278cf4130","x":-483,"y":1132,"width":325,"height":108,"type":"text","text":"l'utilisateur remplie un profil culturel :\nc'est centre d'itérait, sont niveau de savoir dans c'est domaine, sont attente du projet  "},
-		{"id":"6930e5c3e835989a","x":-386,"y":3000,"width":292,"height":60,"color":"3","type":"text","text":"si l'objet n'est pas déjà assimiler "},
-		{"id":"6f080a9b948f4abe","x":-240,"y":2840,"width":269,"height":75,"color":"3","type":"text","text":"la recommandation : objet complet tout seul "},
-		{"id":"c4564050087679a1","x":160,"y":2855,"width":250,"height":60,"type":"text","text":"objet quelconque"},
-		{"id":"ceb9acb40e6ccafb","x":-20,"y":3080,"width":250,"height":60,"type":"text","text":"si déjà assimiler "}
+		{"id":"4756e9f75cb72ef4","x":1040,"y":2933,"width":442,"height":297,"color":"6","type":"text","text":"**Exemple concret**\n\nTu regardes un denier carolingien que tu connais parfaitement — flan, atelier, iconographie. Le système sait que tu maîtrises ça. Donc il ne te propose pas une note sur les deniers carolingiens — tu connais. Il te propose un pont vers la métallurgie de l'argent au IXe siècle, ou vers un poème contemporain de Charlemagne qui décrit l'économie de l'époque. Quelque chose que ton expertise numismatique rend **directement accessible** mais que tu n'as pas encore traversé."},
+		{"id":"ceb9acb40e6ccafb","x":101,"y":3610,"width":250,"height":60,"type":"text","text":"si déjà assimiler "},
+		{"id":"6f080a9b948f4abe","x":-174,"y":3266,"width":269,"height":75,"color":"3","type":"text","text":"la recommandation : objet complet tout seul "},
+		{"id":"c4564050087679a1","x":226,"y":3304,"width":250,"height":60,"type":"text","text":"objet quelconque"},
+		{"id":"99ce579d06a5f2bc","x":-55,"y":2728,"width":531,"height":411,"type":"text","text":"**La différence concrète**\n\nC'est la **densité des données structurées disponibles** sur cet objet dans Wikidata et les corpus spécialisés. Un objet riche a des dizaines de propriétés Wikidata, des articles académiques, des bases spécialisées. Un objet pauvre a une fiche générique.\n\n**Ce que ça implique pour le système**\n\nIl pourrait mesurer cette densité automatiquement — interroger Wikidata, compter les propriétés, les connexions, les sources disponibles. Au dessus d'un certain seuil → objet riche → pont vers nouveau savoir. En dessous → objet générique → connexions plus superficielles.\n\nC'est un **score de richesse informationnelle** de l'objet reconnu."},
+		{"id":"6930e5c3e835989a","x":-347,"y":3440,"width":292,"height":116,"color":"3","type":"text","text":"si l'objet n'est pas déjà assimiler :\nProposition à l'utilisateur sur cette objet"}
 	],
 	"edges":[
 		{"id":"e022613c25cdc732","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"ebb698a58d0e55b3","toSide":"left"},
@@ -63,6 +65,8 @@
 		{"id":"3179f6d16174774a","fromNode":"4979ffd53956ae48","fromSide":"bottom","toNode":"2f72bc9f6560fba1","toSide":"top","color":"1","label":"si confirmation assez grand que l'utilisateur serait ouvert à la culture"},
 		{"id":"0bbe57cf515550d7","fromNode":"6f080a9b948f4abe","fromSide":"bottom","toNode":"6930e5c3e835989a","toSide":"top"},
 		{"id":"79a57d5cbfb28f12","fromNode":"6f080a9b948f4abe","fromSide":"bottom","toNode":"ceb9acb40e6ccafb","toSide":"top"},
-		{"id":"31b24e7d2fc020f2","fromNode":"c4564050087679a1","fromSide":"bottom","toNode":"ceb9acb40e6ccafb","toSide":"top"}
+		{"id":"31b24e7d2fc020f2","fromNode":"c4564050087679a1","fromSide":"bottom","toNode":"ceb9acb40e6ccafb","toSide":"top"},
+		{"id":"4365c18d46ebd1eb","fromNode":"99ce579d06a5f2bc","fromSide":"bottom","toNode":"6f080a9b948f4abe","toSide":"top"},
+		{"id":"7e8b9627b5bb318e","fromNode":"99ce579d06a5f2bc","fromSide":"bottom","toNode":"c4564050087679a1","toSide":"top"}
 	]
 }
