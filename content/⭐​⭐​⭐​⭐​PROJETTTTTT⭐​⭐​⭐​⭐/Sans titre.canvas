@@ -1,5 +1,10 @@
 {
 	"nodes":[
+		{"id":"7d2da28b06d2e68d","x":1720,"y":1524,"width":920,"height":876,"color":"#ced298","type":"group","label":"Orchestrateur sémantique — le cerveau"},
+		{"id":"c8a0ea655ad0fc0b","x":-240,"y":1928,"width":996,"height":737,"color":"3","type":"group","label":"Paramétrage utilisateur"},
+		{"id":"4979ffd53956ae48","x":651,"y":872,"width":1269,"height":568,"color":"4","type":"group","label":"Score de réceptivité en temps réel"},
+		{"id":"04250a7fad68f6e6","x":499,"y":2843,"width":1181,"height":400,"color":"6","type":"group","label":"Ce que reçoit l'utilisateur"},
+		{"id":"92f8e8bc7240df37","x":1822,"y":2556,"width":818,"height":556,"color":"#e656c0","type":"group","label":"Boucle d'amélioration continue"},
 		{"id":"ca5e49ce65ccde54","x":60,"y":-320,"width":463,"height":73,"type":"text","text":"### le problème de la mémoire pour évité la redondance "},
 		{"id":"795c1753cc84f27f","type":"file","file":"⭐​⭐​⭐​⭐​PROJETTTTTT⭐​⭐​⭐​⭐/⭐​PROJETTTTTT⭐​.md","x":-420,"y":0,"width":440,"height":400},
 		{"id":"ebb698a58d0e55b3","x":569,"y":-600,"width":250,"height":60,"type":"text","text":"rejet de l'utilisateur"},
@@ -9,13 +14,33 @@
 		{"id":"c0fcb58fae1842e6","x":620,"y":-160,"width":250,"height":60,"type":"text","text":"approuvé par utilisateur"},
 		{"id":"e41ca553cb3f432f","x":671,"y":1139,"width":369,"height":155,"color":"5","type":"text","text":"Comportement physique\n\nArrêt inattendu → signal fort  \nMarche rapide → signal faible  \nStagnation prolongée → signal fort"},
 		{"id":"57d1b8a6f9eb3dce","x":1434,"y":1111,"width":406,"height":183,"color":"5","type":"text","text":"Historique de réception\n\nRejets récents → espacer  \nRenvoi à plus tard → reproposer dans X min  \nValidation → moment propice"},
-		{"id":"4a00e0f72153e77a","x":1040,"y":960,"width":440,"height":76,"color":"4","type":"text","text":"### Score de réceptivité en temps réel"},
 		{"id":"896e6c337b921485","x":1100,"y":1139,"width":320,"height":207,"color":"5","type":"text","text":"Contexte du lieu\n\nMusée / jardin / monument → haute réceptivité présumée  \nTransport / commerce → basse réceptivité présumée"},
-		{"id":"714858575fd5ff07","x":729,"y":259,"width":311,"height":141,"type":"text","text":"📷 Caméra\nScène visuelle complète\nObjets, monuments, textes,\nplantes, œuvres d'art"},
-		{"id":"bf624654a8e6cccf","x":772,"y":471,"width":351,"height":141,"type":"text","text":"🏃 Comportement physique\nVitesse de déplacement\nArrêt inattendu\nTemps passé sur place"},
 		{"id":"0f336b6a020b7b8d","x":1169,"y":542,"width":311,"height":141,"type":"text","text":"🎙 Micro\nMots captés\ndans l'environnement\net conversations"},
 		{"id":"8de678c52c232280","x":1434,"y":330,"width":311,"height":141,"type":"text","text":"🕐 Contexte temporel\nHeure de la journée\nJour de la semaine\nSaison / météo"},
-		{"id":"b1b31c764383e1fd","x":1123,"y":118,"width":311,"height":141,"type":"text","text":"📍 Géolocalisation\nPosition précise\nType de lieu détecté\nMusée / jardin / rue..."}
+		{"id":"b1b31c764383e1fd","x":1123,"y":118,"width":311,"height":141,"type":"text","text":"📍 Géolocalisation\nPosition précise\nType de lieu détecté\nMusée / jardin / rue..."},
+		{"id":"5e8c1c29ab6713b7","x":1169,"y":325,"width":146,"height":146,"type":"file","file":"z_Assets/Unsorted/Pasted image 20260219093148.png"},
+		{"id":"714858575fd5ff07","x":671,"y":184,"width":311,"height":141,"type":"text","text":"📷 Caméra\nScène visuelle complète\nObjets, monuments, textes,\nplantes, œuvres d'art"},
+		{"id":"bf624654a8e6cccf","x":651,"y":471,"width":351,"height":141,"type":"text","text":"🏃 Comportement physique\nVitesse de déplacement\nArrêt inattendu\nTemps passé sur place"},
+		{"id":"7a493ba913da8d68","x":1109,"y":1520,"width":371,"height":50,"color":"4","type":"text","text":"Si score suffisant → traitement sémantique"},
+		{"id":"3d7633851eabdb71","x":-160,"y":1960,"width":317,"height":135,"type":"text","text":"Domaines actifs\n\nSélection libre  \n⚠ Avertissement si trop nombreux  \nModifiable à tout moment"},
+		{"id":"323cef987ff15637","x":248,"y":1961,"width":312,"height":134,"type":"text","text":"Rythme contrôlé\n\nPas de suggestion sans digestion  \nValidation explicite ou implicite  \nC'est l'utilisateur qui contrôle"},
+		{"id":"3c1b7a5c62172cd5","x":320,"y":2141,"width":294,"height":137,"type":"text","text":"Recommandation journalière\n\nSujets pointus proactifs  \nSeulement si dernière digérée  \nCroise tous les domaines actifs"},
+		{"id":"6e54f969749337a2","x":-200,"y":2141,"width":322,"height":125,"type":"text","text":"Curseur de profondeur\nAccessible ←→ Très pointu\nPar domaine individuellement\nHugo vs troubadour occitan XIIe"},
+		{"id":"425b16149aa648ad","x":560,"y":2880,"width":286,"height":134,"type":"text","text":"Note existante\n\nPertinente au contexte du moment → ouvrir dans Obsidian"},
+		{"id":"4fbc59c9fb77d84a","x":919,"y":2873,"width":249,"height":148,"type":"text","text":"Nouvelle note à créer\n\nProposition générée par le pipeline NLG existant"},
+		{"id":"b4672481ebeb872f","x":1268,"y":2880,"width":279,"height":156,"type":"text","text":"Découverte inconnue\n\nPoème, texte, concept que tu ne connais pas mais qui te correspondrait"},
+		{"id":"8a239e8232038687","x":547,"y":3036,"width":313,"height":143,"type":"text","text":"Curriculum à la demande\n\nParcours du connu vers l'inconnu sur un sujet demandé"},
+		{"id":"dd7107beed780fb4","x":886,"y":3045,"width":282,"height":134,"type":"text","text":"Recommandation journalière\n\nSujet pointu proactif au bon moment selon contexte temporel"},
+		{"id":"eee887531d57fa77","x":1880,"y":2598,"width":274,"height":134,"type":"text","text":"Validation / rejet\n\nAffine le profil  \nChaque action apprend"},
+		{"id":"14d8e702e4ebc2c5","x":1867,"y":2750,"width":287,"height":130,"type":"text","text":"Cartographie du vault\n\nDensité = niveau de connaissance  \nLacunes = frontière à explorer"},
+		{"id":"21209f7114ae87e2","x":2200,"y":2576,"width":304,"height":178,"type":"text","text":"Score réceptivité\n\nHistorique comportemental  \nAméliore la détection du bon moment"},
+		{"id":"226560eca0214741","x":2200,"y":2798,"width":309,"height":151,"type":"text","text":"Profil intellectuel\n\nSe précise avec le temps  \nDevient un modèle de ta pensée"},
+		{"id":"d727e41f2b8f9ea5","x":1819,"y":1570,"width":384,"height":203,"type":"text","text":"Reconnaissance visuelle\n\n- Pl@ntNet pour les plantes (98.8%)\n- Google Arts & Culture pour les œuvres\n- OCR pour les textes\n- Objets généraux via vision AI"},
+		{"id":"8c4ddaf79668b136","x":1778,"y":1792,"width":302,"height":188,"type":"text","text":"Lecture sémantique de scène\n\n- Pas de reconnaissance littérale\n- Inférence contextuelle globale\n- Croisement avec domaines actifs\n- Filtrage par géolocalisation"},
+		{"id":"c7219fa9cf5a9381","x":2240,"y":1640,"width":317,"height":178,"type":"text","text":"Recherche dans le vault\n\n- Sentence-transformers existants\n- Notes pertinentes au contexte\n- Cartographie des lacunes\n- Zones peu denses = frontière\n"},
+		{"id":"d3884019b7404d41","x":2154,"y":1818,"width":303,"height":205,"type":"text","text":"Recherche externe\n\n- RAGFlow / LlamaIndex\n- Wikisource, Gallica, GBIF...\n- UnSearch (vrai web local)\n- Multi-requêtes + reclassement\n"},
+		{"id":"9cb31893496fbc13","x":1795,"y":2023,"width":285,"height":191,"type":"text","text":"Lectures quotidiennes\n\n- Articles et news lus\n- Croisés avec domaines actifs\n- Enrichissement continu du profil"},
+		{"id":"8fa4f5bcfe1d3cec","x":2179,"y":2108,"width":330,"height":213,"type":"text","text":"Mode intention explicite\n\n- Bouton + voix ou texte\n- Curriculum personnalisé à la demande\n- Du connu vers l'inconnu\n- Selon curseur de profondeur"}
 	],
 	"edges":[
 		{"id":"e022613c25cdc732","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"ebb698a58d0e55b3","toSide":"left"},
@@ -24,8 +49,8 @@
 		{"id":"6356518e18c75739","fromNode":"c0fcb58fae1842e6","fromSide":"right","toNode":"cdf198406917e802","toSide":"left"},
 		{"id":"0a023edc10f13334","fromNode":"ca5e49ce65ccde54","fromSide":"right","toNode":"048469c62d066d59","toSide":"left"},
 		{"id":"7053a758a3c27f74","fromNode":"048469c62d066d59","fromSide":"top","toNode":"ca5e49ce65ccde54","toSide":"top"},
-		{"id":"31e1c86388d07f54","fromNode":"4a00e0f72153e77a","fromSide":"bottom","toNode":"e41ca553cb3f432f","toSide":"top"},
-		{"id":"fe6341986e383cdb","fromNode":"4a00e0f72153e77a","fromSide":"bottom","toNode":"896e6c337b921485","toSide":"top"},
-		{"id":"e533cb525350c2d2","fromNode":"4a00e0f72153e77a","fromSide":"bottom","toNode":"57d1b8a6f9eb3dce","toSide":"top"}
-	]
-}
+		{"id":"262b2487ecad97a1","fromNode":"0f336b6a020b7b8d","fromSide":"top","toNode":"5e8c1c29ab6713b7","toSide":"bottom"},
+		{"id":"6b1efc3545ca7b1c","fromNode":"8de678c52c232280","fromSide":"left","toNode":"5e8c1c29ab6713b7","toSide":"right"},
+		{"id":"3ed6a1f494d127ec","fromNode":"b1b31c764383e1fd","fromSide":"bottom","toNode":"5e8c1c29ab6713b7","toSide":"top"},
+		{"id":"61e6a2af2bf877f0","fromNode":"714858575fd5ff07","fromSide":"right","toNode":"5e8c1c29ab6713b7","toSide":"left"},
+		{"id":"e44e245fd4ad87a1","fromNode":"bf624654a8e6cccf","fromSide":"right","toNode":"5e8c1c29ab6713b7","toSide":
