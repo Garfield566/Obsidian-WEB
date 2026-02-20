@@ -2,11 +2,12 @@ import { Root } from "hast"
 import { GlobalConfiguration } from "../../cfg"
 import { getDate } from "../../components/Date"
 import { escapeHTML } from "../../util/escape"
-import { FilePath, FullSlug, SimpleSlug, joinSegments, simplifySlug } from "../../util/path"
+import { FilePath, FullSlug, SimpleSlug, joinSegments, simplifySlug, slugifyFilePath } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
 import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
+import path from "path"
 
 export type ContentIndexMap = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -117,6 +118,23 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
             description: file.data.description ?? "",
           })
         }
+      }
+
+      // Add canvas files to the index so they appear in the Explorer
+      const canvasFiles = ctx.allFiles.filter((fp) => fp.endsWith(".canvas"))
+      for (const canvasPath of canvasFiles) {
+        const slug = slugifyFilePath(canvasPath as FilePath, true) as FullSlug
+        const fileName = path.basename(canvasPath, ".canvas")
+        linkIndex.set(slug, {
+          slug,
+          filePath: canvasPath as FilePath,
+          title: fileName,
+          links: [],
+          tags: [],
+          content: "",
+          date: new Date(),
+          description: "Canvas",
+        })
       }
 
       if (opts?.enableSiteMap) {
