@@ -1,10 +1,9 @@
 ---
 nom: "traité de Versailles"
 qid: Q19235442
-type: evenement
+type: "Traité de paix"
 categorie: evenement
 tags: "#histoire/evenement"
-type: "Traité de paix"
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Treaty_of_Versailles_Signing%2C_Hall_of_Mirrors.jpg/330px-Treaty_of_Versailles_Signing%2C_Hall_of_Mirrors.jpg
 ---
 
