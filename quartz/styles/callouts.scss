@@ -124,14 +124,15 @@
     max-width: 300px;
     margin: 0 0 1rem 1.5rem;
     padding: 0;
-    border: 1px solid #a8d4f0;
-    background-color: #f0f8ff;
-    --color: var(--dark);
-    --border: #a8d4f0;
-    --bg: #f0f8ff;
+    border: 1px solid #1e2460;
+    background-color: #f0e4cc;
+    --color: #1e2460;
+    --border: #1e2460;
+    --bg: #f0e4cc;
 
     & > .callout-title {
-      background-color: #dceefb;
+      background-color: #1e2460;
+      color: #f0e4cc;
       padding: 0.5rem 0.75rem;
       justify-content: center;
 
@@ -142,11 +143,13 @@
       .callout-title-inner {
         font-size: 1.1rem;
         text-align: center;
+        color: #f0e4cc;
       }
     }
 
     & > .callout-content {
       padding: 0 0.75rem 0.5rem;
+      color: #1e2460;
 
       // Images: full width, centered
       img {
@@ -161,9 +164,9 @@
       h6 {
         margin: 0.75rem 0 0.25rem;
         padding: 0.25rem 0;
-        border-bottom: 1px solid var(--lightgray);
+        border-bottom: 1px solid #1e246044;
         font-size: 0.85rem;
-        color: var(--darkgray);
+        color: #1e2460;
         text-align: center;
       }
 
@@ -175,7 +178,7 @@
 
         li {
           padding: 0.2rem 0;
-          border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 50%, transparent);
+          border-bottom: 1px solid #1e246033;
           font-size: 0.85rem;
           line-height: 1.4;
 
@@ -195,7 +198,7 @@
         td,
         th {
           padding: 0.25rem 0.4rem;
-          border: 1px solid color-mix(in srgb, var(--lightgray) 50%, transparent);
+          border: 1px solid #1e246033;
           vertical-align: top;
         }
 
