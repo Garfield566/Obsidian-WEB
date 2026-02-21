@@ -163,6 +163,10 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           // for the RSS feed
           delete content.description
           delete content.date
+          // truncate content to keep the search index small enough for browsers
+          if (content.content.length > 8000) {
+            content.content = content.content.slice(0, 8000)
+          }
           return [slug, content]
         }),
       )
