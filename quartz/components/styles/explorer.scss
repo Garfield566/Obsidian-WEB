@@ -118,7 +118,6 @@ button.desktop-explorer {
     list-style: none;
     margin: 0;
     padding: 0;
-    overscroll-behavior: contain;
 
     & li > a {
       color: var(--dark);
@@ -132,6 +131,12 @@ button.desktop-explorer {
     }
   }
 
+  // Only apply overscroll containment to the main scrollable list,
+  // not nested <ul> inside folders (which would trap wheel events)
+  & > ul {
+    overscroll-behavior: contain;
+  }
+
   .folder-outer {
     visibility: collapse;
     display: grid;
@@ -139,11 +144,13 @@ button.desktop-explorer {
     transition-property: grid-template-rows, visibility;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
+    pointer-events: none;
   }
 
   .folder-outer.open {
     visibility: visible;
     grid-template-rows: 1fr;
+    pointer-events: auto;
   }
 
   .folder-outer > ul {
