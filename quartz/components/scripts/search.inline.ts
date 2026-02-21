@@ -526,15 +526,26 @@ async function fillDocument(data: ContentIndex) {
     )
   }
 
-  await Promise.all(promises)
-  indexPopulated = true
+  try {
+    await Promise.all(promises)
+    indexPopulated = true
+    console.log("[search] Index populated with", id, "entries")
+  } catch (err) {
+    console.error("[search] Failed to populate index:", err)
+  }
 }
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const currentSlug = e.detail.url
-  const data = await fetchData
-  const searchElement = document.getElementsByClassName("search")
-  for (const element of searchElement) {
-    await setupSearch(element, currentSlug, data)
+  try {
+    const data = await fetchData
+    console.log("[search] contentIndex loaded, entries:", Object.keys(data).length)
+    const searchElement = document.getElementsByClassName("search")
+    for (const element of searchElement) {
+      await setupSearch(element, currentSlug, data)
+    }
+    console.log("[search] setup complete, indexPopulated:", indexPopulated)
+  } catch (err) {
+    console.error("[search] Failed to initialize search:", err)
   }
 })
