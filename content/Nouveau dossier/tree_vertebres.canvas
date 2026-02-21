@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"type":"text","id":"09b95b3bf9334034","x":105,"y":0,"width":280,"height":110,"color":"#f5c2e7","text":"Vertebre"},
+		{"type":"text","id":"0ff1cf4e27c5474c","x":0,"y":230,"width":220,"height":80,"color":"#cba6f7","text":"Mammifere"},
+		{"type":"text","id":"d51436ed86e543c7","x":270,"y":230,"width":220,"height":80,"color":"#a6e3a1","text":"Reptile"}
+	],
+	"edges":[
+		{
+			"id":"91c03d48d7df4fe7",
+			"fromNode":"09b95b3bf9334034",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"0ff1cf4e27c5474c",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"est un type de"
+		},
+		{
+			"id":"27c7681d22374593",
+			"fromNode":"09b95b3bf9334034",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"d51436ed86e543c7",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"est un type de"
+		}
+	]
+}

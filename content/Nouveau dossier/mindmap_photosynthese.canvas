@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"type":"text","id":"d6f4d269ac5845a8","x":-175,"y":-70,"width":350,"height":140,"color":"#f5c2e7","text":"## Photosynthese\n\nLa photosynthese convertit la lumiere en energie."},
+		{"type":"text","id":"6535e4894fe04b59","x":310,"y":-55,"width":280,"height":110,"color":"#cba6f7","text":"**Chloroplaste**\n\nOrganite cellulaire."},
+		{"type":"text","id":"77b57c0244ef46b3","x":-590,"y":-54,"width":280,"height":110,"color":"#a6e3a1","text":"**Lumiere**\n\nRayonnement electromagnetique."}
+	],
+	"edges":[
+		{
+			"id":"c5e85061a6764ec0",
+			"fromNode":"d6f4d269ac5845a8",
+			"fromSide":"right",
+			"fromEnd":null,
+			"toNode":"6535e4894fe04b59",
+			"toSide":"left",
+			"toEnd":null,
+			"color":null,
+			"label":"comprend"
+		},
+		{
+			"id":"d555a66e6b2a4972",
+			"fromNode":"d6f4d269ac5845a8",
+			"fromSide":"left",
+			"fromEnd":null,
+			"toNode":"77b57c0244ef46b3",
+			"toSide":"right",
+			"toEnd":null,
+			"color":null,
+			"label":"comprend"
+		}
+	]
+}

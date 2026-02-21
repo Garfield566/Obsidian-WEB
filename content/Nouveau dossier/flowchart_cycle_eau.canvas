@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"type":"text","id":"e590135e12444e48","x":0,"y":0,"width":280,"height":110,"color":"#89dceb","text":"## Evaporation\n\nPhase gazeuse."},
+		{"type":"text","id":"7da4c91f05084c50","x":430,"y":0,"width":280,"height":110,"color":"#a6e3a1","text":"Condensation"},
+		{"type":"text","id":"8f3e50e0751e4129","x":860,"y":0,"width":280,"height":110,"color":"#89dceb","text":"Precipitation"}
+	],
+	"edges":[
+		{
+			"id":"2af1d222253049d8",
+			"fromNode":"e590135e12444e48",
+			"fromSide":"right",
+			"fromEnd":null,
+			"toNode":"7da4c91f05084c50",
+			"toSide":"left",
+			"toEnd":null,
+			"color":null,
+			"label":null
+		},
+		{
+			"id":"e8c6dafb0e9746f0",
+			"fromNode":"7da4c91f05084c50",
+			"fromSide":"right",
+			"fromEnd":null,
+			"toNode":"8f3e50e0751e4129",
+			"toSide":"left",
+			"toEnd":null,
+			"color":null,
+			"label":null
+		}
+	]
+}
