@@ -124,14 +124,14 @@
     max-width: 300px;
     margin: 0 0 1rem 1.5rem;
     padding: 0;
-    border: 1px solid var(--lightgray);
-    background-color: var(--light);
+    border: 1px solid #a8d4f0;
+    background-color: #f0f8ff;
     --color: var(--dark);
-    --border: var(--lightgray);
-    --bg: var(--light);
+    --border: #a8d4f0;
+    --bg: #f0f8ff;
 
     & > .callout-title {
-      background-color: color-mix(in srgb, var(--lightgray) 40%, transparent);
+      background-color: #dceefb;
       padding: 0.5rem 0.75rem;
       justify-content: center;
 
