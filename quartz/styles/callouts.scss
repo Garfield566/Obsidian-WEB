@@ -151,6 +151,18 @@
       padding: 0 0.75rem 0.5rem;
       color: #1e2460;
 
+      &,
+      p,
+      li,
+      strong,
+      em,
+      a,
+      td,
+      th,
+      span {
+        color: #1e2460;
+      }
+
       // Images: full width, centered
       img {
         display: block;
