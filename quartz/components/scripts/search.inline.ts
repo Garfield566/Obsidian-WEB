@@ -3,6 +3,8 @@ import { ContentDetails } from "../../plugins/emitters/contentIndex"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, normalizeRelativeURLs, resolveRelative } from "../../util/path"
 
+console.log("[search] module starting")
+
 interface Item {
   id: number
   slug: FullSlug
@@ -61,27 +63,34 @@ const encoder = (str: string): string[] => {
   return tokens
 }
 
-let index = new FlexSearch.Document<Item>({
-  encode: encoder,
-  document: {
-    id: "id",
-    tag: "tags",
-    index: [
-      {
-        field: "title",
-        tokenize: "forward",
-      },
-      {
-        field: "content",
-        tokenize: "forward",
-      },
-      {
-        field: "tags",
-        tokenize: "forward",
-      },
-    ],
-  },
-})
+console.log("[search] creating FlexSearch index...")
+let index: any
+try {
+  index = new FlexSearch.Document<Item>({
+    encode: encoder,
+    document: {
+      id: "id",
+      tag: "tags",
+      index: [
+        {
+          field: "title",
+          tokenize: "forward",
+        },
+        {
+          field: "content",
+          tokenize: "forward",
+        },
+        {
+          field: "tags",
+          tokenize: "forward",
+        },
+      ],
+    },
+  })
+  console.log("[search] FlexSearch index created successfully")
+} catch (err) {
+  console.error("[search] FlexSearch creation FAILED:", err)
+}
 
 const p = new DOMParser()
 const fetchContentCache: Map<FullSlug, Element[]> = new Map()
