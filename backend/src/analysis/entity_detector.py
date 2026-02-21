@@ -327,12 +327,32 @@ class EntityDetector:
         # Villes historiques (gardées pour contexte historique)
         "babylone", "memphis", "thèbes", "carthage", "troie",
         "pompéi", "herculanum", "persépolis", "ninive", "ur",
-        # Pays
+        # Pays (noms simples)
         "france", "allemagne", "italie", "espagne", "portugal",
         "angleterre", "russie", "chine", "japon", "inde", "égypte",
         "grèce", "turquie", "iran", "irak", "syrie", "liban",
         "myanmar", "thaïlande", "vietnam", "cambodge",
         "république démocratique du congo", "zimbabwe", "sri lanka",
+        "brésil", "mexique", "argentine", "colombie", "pérou",
+        "pologne", "suède", "norvège", "danemark", "finlande",
+        "suisse", "belgique", "autriche", "hongrie", "roumanie",
+        "bulgarie", "serbie", "croatie", "slovénie", "albanie",
+        "corée", "mongolie", "pakistan", "afghanistan",
+        "maroc", "tunisie", "algérie", "libye", "soudan", "éthiopie",
+        "nigéria", "sénégal", "mali", "ghana", "kenya", "tanzanie",
+        # Pays composés
+        "pays-bas", "royaume-uni", "nouvelle-zélande",
+        "hong kong", "cap-vert", "bosnie-herzégovine",
+        "nouvelle-calédonie", "nouvelle-guinée",
+        "grande-bretagne", "terre-neuve",
+        "costa rica", "porto rico",
+        # Régions composées
+        "mongolie intérieure", "franche-comté",
+        "atlantique nord", "asie mineure",
+        # Villes composées
+        "san francisco", "clermont-ferrand",
+        "buenos aires", "rio de janeiro", "são paulo",
+        "tel aviv", "kuala lumpur",
     }
 
     # Synonymes géographiques: ancien nom → nom de référence (actuel/plus connu)
@@ -570,6 +590,18 @@ class EntityDetector:
         "moyen-orient", "extrême-orient", "proche-orient",
         "tiers-monde", "nouveau-monde", "ancien-régime",
         "belle-époque", "bas-empire", "haut-empire",
+        # Noms géographiques composés (pays, régions, villes)
+        "pays-bas", "royaume-uni", "nouvelle-zélande", "sri-lanka",
+        "hong-kong", "cap-vert", "bosnie-herzégovine",
+        "grande-bretagne", "terre-neuve", "nouvelle-calédonie",
+        "nouvelle-guinée", "san-francisco", "clermont-ferrand",
+        "united-states", "united-kingdom", "viet-nam",
+        "mongolie-intérieure", "franche-comté",
+        "atlantique-nord", "asie-mineure",
+        "costa-rica", "buenos-aires", "rio-de-janeiro",
+        "tel-aviv", "kuala-lumpur",
+        # Entités historiques composées
+        "provinces-unies", "saint-empire",
     }
 
     # Saints connus comme personnes (pas des lieux)
@@ -608,6 +640,15 @@ class EntityDetector:
             if name_lower.replace(" ", "-") in self.FALSE_NAME_COMPOUNDS:
                 continue
 
+            # Lieu géographique connu → pas une personne
+            name_spaced = name_lower.replace("-", " ")
+            if name_lower in self.KNOWN_GEO or name_spaced in self.KNOWN_GEO:
+                continue
+
+            # Entité politique connue → pas une personne
+            if name_lower in self.KNOWN_ENTITIES or name_spaced in self.KNOWN_ENTITIES:
+                continue
+
             # Commence par un préfixe grammatical (En-Chine, Au-Japon, etc.)
             first_part_lower = parts[0].lower()
             if first_part_lower in self.FALSE_NAME_PREFIXES:
@@ -632,10 +673,20 @@ class EntityDetector:
             if count > 1:
                 confidence += min(0.2, count * 0.05)
 
+            # Pénalise les noms incomplets (titre/particule + nom seul, sans prénom)
+            title_prefixes = {"lord", "sir", "baron", "comte", "prince",
+                              "roi", "reine", "empereur", "pape"}
+            particles = {"van", "von", "de", "da", "du", "di"}
+            if len(parts) == 2:
+                if parts_lower[0] in title_prefixes:
+                    confidence -= 0.15
+                elif parts_lower[0] in particles:
+                    confidence -= 0.15
+
             # Formate le tag
             tag = suggest_tag_format(TagFamily.PERSON, name)
 
-            if confidence >= 0.6:
+            if confidence >= 0.65:
                 entities.append(DetectedEntity(
                     family=TagFamily.PERSON,
                     raw_text=name,
@@ -863,10 +914,10 @@ class EntityDetector:
 
             confidence = min(0.9, confidence)
 
-            tag = suggest_tag_format(TagFamily.AREA, area)
+            tag = suggest_tag_format(TagFamily.GEO, area)
 
             entities.append(DetectedEntity(
-                family=TagFamily.AREA,
+                family=TagFamily.GEO,
                 raw_text=area,
                 suggested_tag=tag,
                 confidence=round(confidence, 2),
