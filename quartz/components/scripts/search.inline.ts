@@ -3,8 +3,6 @@ import { ContentDetails } from "../../plugins/emitters/contentIndex"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, normalizeRelativeURLs, resolveRelative } from "../../util/path"
 
-console.log("[search] module starting")
-
 interface Item {
   id: number
   slug: FullSlug
@@ -63,34 +61,27 @@ const encoder = (str: string): string[] => {
   return tokens
 }
 
-console.log("[search] creating FlexSearch index...")
-let index: any
-try {
-  index = new FlexSearch.Document<Item>({
-    encode: encoder,
-    document: {
-      id: "id",
-      tag: "tags",
-      index: [
-        {
-          field: "title",
-          tokenize: "forward",
-        },
-        {
-          field: "content",
-          tokenize: "forward",
-        },
-        {
-          field: "tags",
-          tokenize: "forward",
-        },
-      ],
-    },
-  })
-  console.log("[search] FlexSearch index created successfully")
-} catch (err) {
-  console.error("[search] FlexSearch creation FAILED:", err)
-}
+let index = new FlexSearch.Document<Item>({
+  encode: encoder,
+  document: {
+    id: "id",
+    tag: "tags",
+    index: [
+      {
+        field: "title",
+        tokenize: "forward",
+      },
+      {
+        field: "content",
+        tokenize: "forward",
+      },
+      {
+        field: "tags",
+        tokenize: "forward",
+      },
+    ],
+  },
+})
 
 const p = new DOMParser()
 const fetchContentCache: Map<FullSlug, Element[]> = new Map()
@@ -535,26 +526,15 @@ async function fillDocument(data: ContentIndex) {
     )
   }
 
-  try {
-    await Promise.all(promises)
-    indexPopulated = true
-    console.log("[search] Index populated with", id, "entries")
-  } catch (err) {
-    console.error("[search] Failed to populate index:", err)
-  }
+  await Promise.all(promises)
+  indexPopulated = true
 }
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const currentSlug = e.detail.url
-  try {
-    const data = await fetchData
-    console.log("[search] contentIndex loaded, entries:", Object.keys(data).length)
-    const searchElement = document.getElementsByClassName("search")
-    for (const element of searchElement) {
-      await setupSearch(element, currentSlug, data)
-    }
-    console.log("[search] setup complete, indexPopulated:", indexPopulated)
-  } catch (err) {
-    console.error("[search] Failed to initialize search:", err)
+  const data = await fetchData
+  const searchElement = document.getElementsByClassName("search")
+  for (const element of searchElement) {
+    await setupSearch(element, currentSlug, data)
   }
 })
