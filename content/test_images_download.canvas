@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"file","id":"82609de19e96467d","file":"images/Simple_photosynthesis_overview.svg","x":-100,"y":-150,"width":121,"height":150},
+		{"type":"text","id":"5807f8d335fe424d","text":"## Photosynthese\n\nLa photosynthese est un processus bioenergetique.","x":-175,"y":10,"width":350,"height":140,"color":"#f5c2e7"},
+		{"type":"file","id":"11c18eb444dc4905","file":"images/Chloroplast_II.svg","x":350,"y":-135,"width":158,"height":150},
+		{"type":"text","id":"015b37e9ac4942c8","text":"**Chloroplaste**\n\nLe chloroplaste est un organite.","x":310,"y":25,"width":280,"height":110,"color":"#cba6f7"},
+		{"type":"text","id":"9a2187fe609549f8","text":"**Lumiere**\n\nLa lumiere est une onde.","x":-590,"y":-54,"width":280,"height":110,"color":"#a6e3a1"}
+	],
+	"edges":[
+		{"id":"5e04ed149b234124","fromNode":"5807f8d335fe424d","fromSide":"right","toNode":"015b37e9ac4942c8","toSide":"left","label":"comprend"},
+		{"id":"a67256495a084e31","fromNode":"5807f8d335fe424d","fromSide":"left","toNode":"9a2187fe609549f8","toSide":"right","label":"comprend"}
+	]
+}
