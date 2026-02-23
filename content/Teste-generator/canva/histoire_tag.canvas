@@ -1,19 +1,19 @@
 {
 	"nodes":[
-		{"type":"text","id":"db67c4a067394d28","text":"## histoire\n\nCanvas regroupant 6 notes avec les tags : histoire.","x":-175,"y":-70,"width":350,"height":140,"color":"#f5c2e7"},
-		{"type":"file","id":"3f7348f30709449c","file":"YouTube Notes/Timestamps 2.md","x":310,"y":-150,"width":280,"height":300,"color":"#cba6f7"},
-		{"type":"file","id":"8729505aa7554bde","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/JoJo (Golden Wind).md","x":85,"y":239,"width":280,"height":300,"color":"#a6e3a1"},
-		{"type":"file","id":"9223683bf9224b2e","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md","x":-364,"y":239,"width":280,"height":300,"color":"#89dceb"},
-		{"type":"file","id":"52227b7f616347e5","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Sans titre.md","x":-590,"y":-149,"width":280,"height":300,"color":"#fab387"},
-		{"type":"file","id":"4c93eb3fc97e4785","file":"¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md","x":-590,"y":-800,"width":505,"height":600,"color":"#f9e2af"},
-		{"type":"file","id":"3906809e473343dc","file":"² -------------------------------------------/test/teste tag.md","x":84,"y":-539,"width":280,"height":300,"color":"#f38ba8"}
+		{"type":"text","id":"a98f8add83284c41","text":"## histoire\n\nCanvas regroupant 6 notes avec les tags : histoire.","x":-175,"y":-70,"width":350,"height":140,"color":"#f5c2e7"},
+		{"type":"file","id":"f005b88010884978","file":"YouTube Notes/Timestamps 2.md","x":50,"y":-500,"width":800,"height":1000,"color":"#cba6f7"},
+		{"type":"file","id":"466f4157edd941cf","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md","x":-624,"y":-110,"width":800,"height":1000,"color":"#89dceb"},
+		{"type":"file","id":"78e9e6c1a30f4f7b","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Sans titre.md","x":-850,"y":-499,"width":800,"height":1000,"color":"#fab387"},
+		{"type":"file","id":"be5cfff52287435b","file":"¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md","x":-625,"y":-889,"width":800,"height":1000,"color":"#f9e2af"},
+		{"type":"file","id":"8500613f78bc48ac","file":"² -------------------------------------------/test/teste tag.md","x":450,"y":-1110,"width":800,"height":1000,"color":"#f38ba8"},
+		{"type":"file","id":"bfcf1b3874084171","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/JoJo (Golden Wind).md","x":450,"y":680,"width":800,"height":1000,"color":"#a6e3a1"}
 	],
 	"edges":[
-		{"id":"c4c3ecfe7f9c4dcf","fromNode":"db67c4a067394d28","fromSide":"right","toNode":"3f7348f30709449c","toSide":"left","label":"comprend"},
-		{"id":"e60df9b055ca4d0d","fromNode":"db67c4a067394d28","fromSide":"bottom","toNode":"8729505aa7554bde","toSide":"top","label":"comprend"},
-		{"id":"6104638e47344ea5","fromNode":"db67c4a067394d28","fromSide":"bottom","toNode":"9223683bf9224b2e","toSide":"top","label":"comprend"},
-		{"id":"ca20389f426f4017","fromNode":"db67c4a067394d28","fromSide":"left","toNode":"52227b7f616347e5","toSide":"right","label":"comprend"},
-		{"id":"769c6977acf04ef2","fromNode":"db67c4a067394d28","fromSide":"top","toNode":"4c93eb3fc97e4785","toSide":"bottom","label":"comprend"},
-		{"id":"1c4a90fc52744fc6","fromNode":"db67c4a067394d28","fromSide":"top","toNode":"3906809e473343dc","toSide":"bottom","label":"comprend"}
+		{"id":"3664f12d86e2414e","fromNode":"a98f8add83284c41","fromSide":"right","toNode":"f005b88010884978","toSide":"left","label":"comprend"},
+		{"id":"734d9f608e5240ad","fromNode":"a98f8add83284c41","fromSide":"bottom","toNode":"bfcf1b3874084171","toSide":"top","label":"comprend"},
+		{"id":"c25f0e97378d4e31","fromNode":"a98f8add83284c41","fromSide":"bottom","toNode":"466f4157edd941cf","toSide":"top","label":"comprend"},
+		{"id":"008fef6783b344ff","fromNode":"a98f8add83284c41","fromSide":"left","toNode":"78e9e6c1a30f4f7b","toSide":"right","label":"comprend"},
+		{"id":"80044c50e86642be","fromNode":"a98f8add83284c41","fromSide":"top","toNode":"be5cfff52287435b","toSide":"bottom","label":"comprend"},
+		{"id":"e5110ced4e5f4fe9","fromNode":"a98f8add83284c41","fromSide":"top","toNode":"8500613f78bc48ac","toSide":"bottom","label":"comprend"}
 	]
 }
