@@ -1,6 +1,12 @@
 {
 	"nodes":[
-		{"type":"file","id":"d2ff74e2c3ce439f","file":".trash/mange manger manger/Napoleon Bonaparte.md","x":-140,"y":0,"width":420,"height":320,"color":"#f5c2e7"}
+		{"type":"file","id":"81976db2f53c47fe","file":"miammmmmmmme/Napoléon Ier.md","x":105,"y":-860,"width":535,"height":1180,"color":"#f5c2e7"},
+		{"type":"text","id":"1d0bf368a7e6403e","text":"Napoleon I of France and Josephine","x":270,"y":440,"width":370,"height":100,"color":"#a6e3a1"},
+		{"type":"text","id":"6db746bab1634a91","text":"**être humain**\n\nindividu appartenant à l’espèce Homo sapiens, la seule espèce restante du genre Homo – distinct de « humain fictif » et de « humain possiblement fictif »","x":-180,"y":660,"width":340,"height":200,"color":"#cba6f7"},
+		{"type":"file","id":"15ea66dcf6d042a2","file":"images/Akha cropped hires.JPG","x":-100,"y":510,"width":90,"height":150}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"c47f5ff458974c4d","fromNode":"81976db2f53c47fe","fromSide":"bottom","toNode":"6db746bab1634a91","toSide":"top","label":"est un(e)"},
+		{"id":"fa31adb5ab8e4116","fromNode":"81976db2f53c47fe","fromSide":"bottom","toNode":"1d0bf368a7e6403e","toSide":"top","label":"fait partie de"}
+	]
 }

@@ -1,18 +1,18 @@
 {
 	"nodes":[
-		{"type":"file","id":"a549caff404d4451","file":".trash/mange manger manger/Photosynthese.md","x":-175,"y":-188,"width":350,"height":375,"color":"#f5c2e7"},
-		{"type":"text","id":"6ee551c225d0494c","text":"**processus biologique**\n\ntransformation se déroulant dans un organisme vivant ou entre plusieurs organismes en interaction, mettant en jeux habituellement des réactions chimiques ou d'autres natures","x":310,"y":-67,"width":280,"height":135,"color":"#cba6f7"},
-		{"type":"file","id":"3f73871ad4364a46","file":"images/Calvin-cycle4.svg","x":40,"y":255,"width":164,"height":150},
-		{"type":"text","id":"20d392339ace4f39","text":"**Cycle de Calvin**\n\nLe cycle de Calvin (aussi connu comme le cycle de Calvin-Benson-Bassham) est une série de réactions biochimiques  des organismes photosynthétiques ayant lieu dans le stroma des chloroplastes chez les ...","x":0,"y":415,"width":280,"height":185,"color":"#a6e3a1"},
-		{"type":"text","id":"7c1462cbe6824231","text":"**light-dependent reactions**\n\nchemical reactions involved in photosynthesis induced by light","x":-504,"y":209,"width":280,"height":110,"color":"#89dceb"},
-		{"type":"text","id":"71f7ef0870da473a","text":"**métabolisme cellulaire**\n\nthe chemical reactions and pathways by which individual cells transform chemical substances","x":0,"y":-482,"width":280,"height":110,"color":"#f9e2af"},
-		{"type":"text","id":"3f8ee2e0c31a4957","text":"**photosynthesis, dark reaction**\n\ncomplex cycle of enzyme-mediated reactions which catalyzes the reduction of carbon dioxide to sugar","x":-644,"y":-427,"width":280,"height":187,"color":"#fab387"}
+		{"type":"file","id":"c3c5917a26b5435f","file":"miammmmmmmme/photosynthèse.md","x":-175,"y":-188,"width":350,"height":375,"color":"#f5c2e7"},
+		{"type":"text","id":"571660b0da1946d1","text":"**métabolisme cellulaire**\n\nthe chemical reactions and pathways by which individual cells transform chemical substances","x":310,"y":-55,"width":280,"height":110,"color":"#cba6f7"},
+		{"type":"file","id":"42b5534f959e43ed","file":"images/Calvin-cycle4.svg","x":40,"y":255,"width":164,"height":150},
+		{"type":"text","id":"acc6b318d72240b6","text":"**Cycle de Calvin**\n\nLe cycle de Calvin (aussi connu comme le cycle de Calvin-Benson-Bassham) est une série de réactions biochimiques  des organismes photosynthétiques ayant lieu dans le stroma des chloroplastes chez les ...","x":0,"y":415,"width":280,"height":185,"color":"#a6e3a1"},
+		{"type":"text","id":"febb5645a6d347c4","text":"**light-dependent reactions**\n\nchemical reactions involved in photosynthesis induced by light","x":-504,"y":209,"width":280,"height":110,"color":"#89dceb"},
+		{"type":"text","id":"c4192bebb1dd47b0","text":"**photosynthesis, dark reaction**\n\ncomplex cycle of enzyme-mediated reactions which catalyzes the reduction of carbon dioxide to sugar","x":-504,"y":-319,"width":280,"height":110,"color":"#fab387"},
+		{"type":"text","id":"4a2f3e279bec4e00","text":"**processus biologique**\n\ntransformation se déroulant dans un organisme vivant ou entre plusieurs organismes en interaction, mettant en jeux habituellement des réactions chimiques ou d'autres natures","x":0,"y":-495,"width":280,"height":135,"color":"#f9e2af"}
 	],
 	"edges":[
-		{"id":"2eaf0b54afa44cac","fromNode":"a549caff404d4451","fromSide":"right","toNode":"6ee551c225d0494c","toSide":"left","label":"est un(e)"},
-		{"id":"1e153cbf1b154150","fromNode":"a549caff404d4451","fromSide":"bottom","toNode":"20d392339ace4f39","toSide":"top","label":"comprend"},
-		{"id":"97f8535f47764b32","fromNode":"a549caff404d4451","fromSide":"left","toNode":"7c1462cbe6824231","toSide":"right","label":"comprend"},
-		{"id":"e7d60eb84d4549f4","fromNode":"a549caff404d4451","fromSide":"left","toNode":"3f8ee2e0c31a4957","toSide":"right","label":"comprend"},
-		{"id":"62490febf16e455a","fromNode":"a549caff404d4451","fromSide":"top","toNode":"71f7ef0870da473a","toSide":"bottom","label":"est un type de"}
+		{"id":"71fe74c0fbdd4210","fromNode":"c3c5917a26b5435f","fromSide":"right","toNode":"571660b0da1946d1","toSide":"left","label":"est un type de"},
+		{"id":"a62fff5bd72c4106","fromNode":"c3c5917a26b5435f","fromSide":"bottom","toNode":"acc6b318d72240b6","toSide":"top","label":"comprend"},
+		{"id":"d1f3fc123f664a54","fromNode":"c3c5917a26b5435f","fromSide":"left","toNode":"febb5645a6d347c4","toSide":"right","label":"comprend"},
+		{"id":"98aa7f67c9884997","fromNode":"c3c5917a26b5435f","fromSide":"left","toNode":"c4192bebb1dd47b0","toSide":"right","label":"comprend"},
+		{"id":"03f18509a41746c9","fromNode":"c3c5917a26b5435f","fromSide":"top","toNode":"4a2f3e279bec4e00","toSide":"bottom","label":"est un(e)"}
 	]
 }

@@ -1,6 +1,19 @@
 {
 	"nodes":[
-		{"type":"text","id":"8fcd20f9fd094b27","text":"## histoire\n\nCanvas regroupant 8 notes avec les tags : histoire.","x":-175,"y":-70,"width":350,"height":190,"color":"#f5c2e7"}
+		{"type":"text","id":"b40be8163bff4d14","text":"## histoire\n\nCanvas regroupant 6 notes avec les tags : histoire.","x":-175,"y":-70,"width":350,"height":140,"color":"#f5c2e7"},
+		{"type":"file","id":"d300cb19975f487d","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/JoJo (Golden Wind).md","x":85,"y":334,"width":280,"height":110,"color":"#a6e3a1"},
+		{"type":"file","id":"954515b40f944935","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md","x":-364,"y":334,"width":280,"height":110,"color":"#89dceb"},
+		{"type":"file","id":"4bbe9cd70a054277","file":"² -------------------------------------------/test/teste tag.md","x":84,"y":-444,"width":280,"height":110,"color":"#f38ba8"},
+		{"type":"file","id":"25c1a5d309064603","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Sans titre.md","x":-780,"y":18,"width":280,"height":371,"color":"#fab387"},
+		{"type":"file","id":"3fc89a4bf09b4b62","file":"¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md","x":-500,"y":-628,"width":280,"height":184,"color":"#f9e2af"},
+		{"type":"file","id":"ddebf0ecd6244398","file":"YouTube Notes/Timestamps 2.md","x":365,"y":-220,"width":280,"height":110,"color":"#cba6f7"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"08552627d2db4d82","fromNode":"b40be8163bff4d14","fromSide":"right","toNode":"ddebf0ecd6244398","toSide":"left","label":"comprend"},
+		{"id":"b11f97e26a474ed5","fromNode":"b40be8163bff4d14","fromSide":"bottom","toNode":"d300cb19975f487d","toSide":"top","label":"comprend"},
+		{"id":"f478e90b83ce42b9","fromNode":"b40be8163bff4d14","fromSide":"bottom","toNode":"954515b40f944935","toSide":"top","label":"comprend"},
+		{"id":"a60df50401024b7c","fromNode":"b40be8163bff4d14","fromSide":"left","toNode":"25c1a5d309064603","toSide":"right","label":"comprend"},
+		{"id":"9d60d99f572e4bec","fromNode":"b40be8163bff4d14","fromSide":"top","toNode":"3fc89a4bf09b4b62","toSide":"bottom","label":"comprend"},
+		{"id":"0df3d9dbc9134351","fromNode":"b40be8163bff4d14","fromSide":"top","toNode":"4bbe9cd70a054277","toSide":"bottom","label":"comprend"}
+	]
 }
