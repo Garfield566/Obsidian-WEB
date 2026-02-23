@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"type":"text","id":"785f99b381914450","text":"## histoire\n\nCanvas regroupant 5 notes avec les tags : histoire.","x":-175,"y":-70,"width":350,"height":140,"color":"#f5c2e7"},
+		{"type":"text","id":"9934b14c4dcc4e3d","text":"**audiovisuel**\n\nNotes avec le tag : audiovisuel","x":760,"y":-55,"width":280,"height":110,"color":"#cba6f7"},
+		{"type":"file","id":"ccbfccd3c9ff4e93","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md","x":3977,"y":-450,"width":700,"height":900,"color":"#ddb6f2"},
+		{"type":"file","id":"e870452b5c104bab","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Sans titre.md","x":3770,"y":722,"width":700,"height":900,"color":"#b4befe"},
+		{"type":"file","id":"2ea60a8ab77d4248","file":"YouTube Notes/Timestamps 2.md","x":-849,"y":279,"width":800,"height":1000,"color":"#a6e3a1"},
+		{"type":"file","id":"2495aa2ae6c84988","file":"¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md","x":-850,"y":-1279,"width":800,"height":1000,"color":"#89dceb"},
+		{"type":"file","id":"0b2c9a40d56f4ea4","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/JoJo (Golden Wind).md","x":3770,"y":-1840,"width":700,"height":900,"color":"#b4befe"}
+	],
+	"edges":[
+		{"id":"287b701125384418","fromNode":"785f99b381914450","fromSide":"right","toNode":"9934b14c4dcc4e3d","toSide":"left","label":"tag"},
+		{"id":"7c30d385c3b7492c","fromNode":"9934b14c4dcc4e3d","fromSide":"right","toNode":"0b2c9a40d56f4ea4","toSide":"left","label":"comprend"},
+		{"id":"c50c7490c5e44639","fromNode":"9934b14c4dcc4e3d","fromSide":"right","toNode":"ccbfccd3c9ff4e93","toSide":"left","label":"comprend"},
+		{"id":"598664f154054f7f","fromNode":"9934b14c4dcc4e3d","fromSide":"right","toNode":"e870452b5c104bab","toSide":"left","label":"comprend"},
+		{"id":"abd290a888044dbe","fromNode":"785f99b381914450","fromSide":"bottom","toNode":"2ea60a8ab77d4248","toSide":"top"},
+		{"id":"8cbcdbfa387840f6","fromNode":"785f99b381914450","fromSide":"top","toNode":"2495aa2ae6c84988","toSide":"bottom"},
+		{"id":"ec5ec2b0c7c24aec","fromNode":"0b2c9a40d56f4ea4","fromSide":"bottom","toNode":"ccbfccd3c9ff4e93","toSide":"top","label":"#audiovisuel"},
+		{"id":"f6ef55cec32e45b0","fromNode":"0b2c9a40d56f4ea4","fromSide":"bottom","toNode":"e870452b5c104bab","toSide":"top","label":"#audiovisuel"},
+		{"id":"d2646ee3d1184002","fromNode":"ccbfccd3c9ff4e93","fromSide":"bottom","toNode":"e870452b5c104bab","toSide":"top","label":"#audiovisuel"}
+	]
+}
