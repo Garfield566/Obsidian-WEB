@@ -1,19 +1,19 @@
 {
 	"nodes":[
-		{"type":"text","id":"b40be8163bff4d14","text":"## histoire\n\nCanvas regroupant 6 notes avec les tags : histoire.","x":-175,"y":-70,"width":350,"height":140,"color":"#f5c2e7"},
-		{"type":"file","id":"d300cb19975f487d","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/JoJo (Golden Wind).md","x":85,"y":334,"width":280,"height":110,"color":"#a6e3a1"},
-		{"type":"file","id":"954515b40f944935","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md","x":-364,"y":334,"width":280,"height":110,"color":"#89dceb"},
-		{"type":"file","id":"4bbe9cd70a054277","file":"² -------------------------------------------/test/teste tag.md","x":84,"y":-444,"width":280,"height":110,"color":"#f38ba8"},
-		{"type":"file","id":"25c1a5d309064603","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Sans titre.md","x":-780,"y":18,"width":280,"height":371,"color":"#fab387"},
-		{"type":"file","id":"3fc89a4bf09b4b62","file":"¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md","x":-500,"y":-628,"width":280,"height":184,"color":"#f9e2af"},
-		{"type":"file","id":"ddebf0ecd6244398","file":"YouTube Notes/Timestamps 2.md","x":365,"y":-220,"width":280,"height":110,"color":"#cba6f7"}
+		{"type":"text","id":"db67c4a067394d28","text":"## histoire\n\nCanvas regroupant 6 notes avec les tags : histoire.","x":-175,"y":-70,"width":350,"height":140,"color":"#f5c2e7"},
+		{"type":"file","id":"3f7348f30709449c","file":"YouTube Notes/Timestamps 2.md","x":310,"y":-150,"width":280,"height":300,"color":"#cba6f7"},
+		{"type":"file","id":"8729505aa7554bde","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/JoJo (Golden Wind).md","x":85,"y":239,"width":280,"height":300,"color":"#a6e3a1"},
+		{"type":"file","id":"9223683bf9224b2e","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md","x":-364,"y":239,"width":280,"height":300,"color":"#89dceb"},
+		{"type":"file","id":"52227b7f616347e5","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Sans titre.md","x":-590,"y":-149,"width":280,"height":300,"color":"#fab387"},
+		{"type":"file","id":"4c93eb3fc97e4785","file":"¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md","x":-590,"y":-800,"width":505,"height":600,"color":"#f9e2af"},
+		{"type":"file","id":"3906809e473343dc","file":"² -------------------------------------------/test/teste tag.md","x":84,"y":-539,"width":280,"height":300,"color":"#f38ba8"}
 	],
 	"edges":[
-		{"id":"08552627d2db4d82","fromNode":"b40be8163bff4d14","fromSide":"right","toNode":"ddebf0ecd6244398","toSide":"left","label":"comprend"},
-		{"id":"b11f97e26a474ed5","fromNode":"b40be8163bff4d14","fromSide":"bottom","toNode":"d300cb19975f487d","toSide":"top","label":"comprend"},
-		{"id":"f478e90b83ce42b9","fromNode":"b40be8163bff4d14","fromSide":"bottom","toNode":"954515b40f944935","toSide":"top","label":"comprend"},
-		{"id":"a60df50401024b7c","fromNode":"b40be8163bff4d14","fromSide":"left","toNode":"25c1a5d309064603","toSide":"right","label":"comprend"},
-		{"id":"9d60d99f572e4bec","fromNode":"b40be8163bff4d14","fromSide":"top","toNode":"3fc89a4bf09b4b62","toSide":"bottom","label":"comprend"},
-		{"id":"0df3d9dbc9134351","fromNode":"b40be8163bff4d14","fromSide":"top","toNode":"4bbe9cd70a054277","toSide":"bottom","label":"comprend"}
+		{"id":"c4c3ecfe7f9c4dcf","fromNode":"db67c4a067394d28","fromSide":"right","toNode":"3f7348f30709449c","toSide":"left","label":"comprend"},
+		{"id":"e60df9b055ca4d0d","fromNode":"db67c4a067394d28","fromSide":"bottom","toNode":"8729505aa7554bde","toSide":"top","label":"comprend"},
+		{"id":"6104638e47344ea5","fromNode":"db67c4a067394d28","fromSide":"bottom","toNode":"9223683bf9224b2e","toSide":"top","label":"comprend"},
+		{"id":"ca20389f426f4017","fromNode":"db67c4a067394d28","fromSide":"left","toNode":"52227b7f616347e5","toSide":"right","label":"comprend"},
+		{"id":"769c6977acf04ef2","fromNode":"db67c4a067394d28","fromSide":"top","toNode":"4c93eb3fc97e4785","toSide":"bottom","label":"comprend"},
+		{"id":"1c4a90fc52744fc6","fromNode":"db67c4a067394d28","fromSide":"top","toNode":"3906809e473343dc","toSide":"bottom","label":"comprend"}
 	]
 }
