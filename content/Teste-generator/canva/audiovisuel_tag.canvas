@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"text","id":"d0d1af5d60f14ba5","text":"## audiovisuel\n\nCanvas regroupant 7 notes avec les tags : audiovisuel.","x":-175,"y":-70,"width":350,"height":140,"color":"#f5c2e7"},
+		{"type":"text","id":"8a5353f0295f43d4","text":"**histoire**\n\nNotes avec le tag : histoire","x":801,"y":-55,"width":280,"height":110,"color":"#cba6f7"},
+		{"type":"file","id":"d1ea87540b9646f3","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Cyberpunk_Edgerunners.md","x":-399,"y":441,"width":800,"height":1000,"color":"#a6e3a1"},
+		{"type":"file","id":"23f2cb2d79ba4dcb","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Mononoke.md","x":-1341,"y":-499,"width":800,"height":1000,"color":"#89dceb"},
+		{"type":"file","id":"87eb71223d424bfa","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Vinland Saga.md","x":-400,"y":-1441,"width":800,"height":1000,"color":"#fab387"},
+		{"type":"file","id":"d1254a473fd84432","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Sans titre.md","x":1797,"y":640,"width":700,"height":1155,"color":"#b4befe"},
+		{"type":"file","id":"8fb2aaf5efb34b00","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Samuel.md","x":2497,"y":-688,"width":700,"height":1129,"color":"#ddb6f2"},
+		{"type":"file","id":"89a9bc0f654a4d00","file":"⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/JoJo (Golden Wind).md","x":1797,"y":-2163,"width":1193,"height":1222,"color":"#b4befe"}
+	],
+	"edges":[
+		{"id":"65bcf12230a34cdc","fromNode":"d0d1af5d60f14ba5","fromSide":"right","toNode":"8a5353f0295f43d4","toSide":"left","label":"tag"},
+		{"id":"5cfd7c880e104685","fromNode":"8a5353f0295f43d4","fromSide":"right","toNode":"89a9bc0f654a4d00","toSide":"left","label":"comprend"},
+		{"id":"e38b58cce43543c1","fromNode":"8a5353f0295f43d4","fromSide":"right","toNode":"8fb2aaf5efb34b00","toSide":"left","label":"comprend"},
+		{"id":"fa8c7db6876c4256","fromNode":"8a5353f0295f43d4","fromSide":"right","toNode":"d1254a473fd84432","toSide":"left","label":"comprend"},
+		{"id":"ddcac792b0824bba","fromNode":"d0d1af5d60f14ba5","fromSide":"bottom","toNode":"d1ea87540b9646f3","toSide":"top","label":"comprend"},
+		{"id":"3300afa7d2de402c","fromNode":"d0d1af5d60f14ba5","fromSide":"left","toNode":"23f2cb2d79ba4dcb","toSide":"right","label":"comprend"},
+		{"id":"59c4e7527e9f4bd3","fromNode":"d0d1af5d60f14ba5","fromSide":"top","toNode":"87eb71223d424bfa","toSide":"bottom","label":"comprend"}
+	]
+}
