@@ -1,0 +1,130 @@
+name: Analyze Tags
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**/*.md'
+      - 'content/emergent-tags/decisions.json'
+      - 'backend/**/*.py'
+  workflow_dispatch:  # Permet de lancer manuellement
+  schedule:
+    - cron: '0 2 * * *'  # Quotidien à 2h UTC
+
+permissions:
+  contents: write  # Permet au workflow de pousser des commits
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'backend/requirements.txt'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      # Cache pour le modèle Sentence-Transformers (~500MB)
+      - name: Cache Sentence-Transformers model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: huggingface-${{ runner.os }}-paraphrase-multilingual
+          restore-keys: |
+            huggingface-${{ runner.os }}-
+
+      # Persistance de la DB via artifacts GitHub
+      - name: Download previous database
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          workflow: analyze-tags.yml
+          name: analysis-db
+          path: backend/data/
+          if_no_artifact_found: warn
+        continue-on-error: true
+
+      - name: Create directories
+        run: |
+          mkdir -p backend/data
+          mkdir -p content/emergent-tags
+
+      - name: Run analysis
+        run: |
+          set -eux
+          echo "=== Checking paths ==="
+          ls -la ./content/ | head -5 || echo "content/ not found"
+          ls -la backend/data/ || echo "backend/data/ not found"
+          ls -la content/emergent-tags/ || echo "emergent-tags/ not found"
+          echo "=== Running analysis ==="
+          python -m backend.src.main \
+            --vault-path ./content \
+            --output content/emergent-tags/suggestions.json \
+            --db-path backend/data/tags.db \
+            --decisions content/emergent-tags/decisions.json \
+            --verbose 2>&1 || {
+              echo "=== Analysis failed with exit code $? ==="
+              exit 1
+            }
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          HF_HOME: ~/.cache/huggingface
+
+      # Upload DB comme artifact (retention 90 jours)
+      - name: Upload database artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-db
+          path: backend/data/tags.db
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Commit suggestions
+        run: |
+          echo "=== Checking suggestions file ==="
+          ls -la content/emergent-tags/ || echo "Directory not found"
+
+          if [ -f content/emergent-tags/suggestions.json ]; then
+            echo "✅ suggestions.json found"
+            echo "File size: $(wc -c < content/emergent-tags/suggestions.json) bytes"
+
+            git config user.name "Tag Analyzer Bot"
+            git config user.email "bot@github.com"
+            git add content/emergent-tags/suggestions.json
+
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "🏷️ Update tag suggestions [skip ci]"
+
+              # Pull avec rebase pour gérer les changements concurrents
+              echo "Pulling latest changes..."
+              git pull --rebase origin main || true
+
+              # Retry push avec gestion d'erreur
+              for i in 1 2 3; do
+                if git push; then
+                  echo "✅ Changes pushed successfully"
+                  break
+                else
+                  echo "Push failed, retrying ($i/3)..."
+                  git pull --rebase origin main || true
+                  sleep 2
+                fi
+              done
+            fi
+          else
+            echo "❌ suggestions.json NOT found!"
+          fi

@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"file","id":"b49648fa98414d44","file":"miammmmmmmme/Napoléon Ier.md","x":0,"y":0,"width":900,"height":1475,"color":"#f5c2e7"},
+		{"type":"file","id":"934907aea4ec47ee","file":"images/Akha cropped hires.JPG","x":10,"y":1595,"width":90,"height":150},
+		{"type":"text","id":"7fe8da8366944a1e","text":"**être humain**\n\nHomo sapiens, plus communément appelé « homme moderne », « homme », « Homme », « humain » ou « être humain », est une espèce de Primates originaire d'Afrique qui s'est aujourd'hui répandue et naturalisée sur l'ensemble de la Terre hormis l'Antarctique. Il appartient à la famille des Hominidés et est le seul représentant actuel du genre Homo, les autres espèces étant éteintes.","x":0,"y":1755,"width":220,"height":230,"color":"#cba6f7"},
+		{"type":"text","id":"504b0a5d244544be","text":"**Napoleon I of France and Josephine**\n\nVictor Hugo, né le 7 ventôse an X (26 février 1802) à Besançon et mort le 22 mai 1885 à Paris, est un poète, dramaturge, romancier et dessinateur français associé au romantisme. Il est considéré comme l'un des écrivains de la langue française et de la littérature mondiale les plus importants.","x":270,"y":1595,"width":220,"height":155,"color":"#a6e3a1"}
+	],
+	"edges":[
+		{"id":"2ebbf2be45e74669","fromNode":"b49648fa98414d44","fromSide":"bottom","toNode":"7fe8da8366944a1e","toSide":"top","label":"est un(e)"},
+		{"id":"52badaa9251d4c18","fromNode":"b49648fa98414d44","fromSide":"bottom","toNode":"504b0a5d244544be","toSide":"top","label":"fait partie de"}
+	]
+}

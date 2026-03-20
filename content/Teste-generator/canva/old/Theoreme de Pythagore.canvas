@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{
+			"type":"group",
+			"id":"218b683a25bd4509",
+			"backgroundStyle":null,
+			"x":800,
+			"y":-3040,
+			"width":540,
+			"height":1550,
+			"color":"2",
+			"label":"Oeuvre sur le sujet"
+		},
+		{"type":"file","id":"d17f51565f1a401b","file":"images/Pythagorean.svg","x":-100,"y":-763,"width":200,"height":150},
+		{"type":"text","id":"2d4d024cecfe4832","text":"# Théorème de Pythagore\n\n- **Nomme d'apres** : Pythagore\n- **Formule décrivant** : triangle rectangle\n- **Généralisation de** : identité trigonométrique pythagoricienne, axiome des parallèles\n- **Discipline dont c'est l'objet** : géométrie euclidienne\n\nLe théorème de Pythagore est un théorème de géométrie euclidienne qui met en relation les longueurs des côtés dans un triangle rectangle. Il s'énonce fréquemment sous la forme suivante : \n\n« Dans un triangle rectangle, le carré de la longueur de l'hypoténuse (ou côté opposé à l'angle droit) est égal à la somme des carrés des longueurs des deux autres côtés. »\n\nCe théorème permet notamment de calculer l'une des longueurs à partir des deux autres.\nIl doit son nom à Pythagore de Samos, philosophe de la Grèce antique du VIe siècle av. J.-C.","x":-175,"y":-603,"width":350,"height":1205,"color":"1"},
+		{"type":"text","id":"928db707cd3a4d14","text":"**Théorème**\n\nEn mathématiques et en logique, un théorème (du grec théorêma, objet digne d'étude) est une assertion qui est démontrée, c'est-à-dire établie comme vraie à partir d'autres assertions déjà démontrées (théorèmes ou autres formes d'assertions) ou des assertions acceptées comme vraies, appelées axiomes.","x":827,"y":-172,"width":280,"height":345,"color":"#cba6f7"},
+		{"type":"text","id":"66fa2d7a80cc4d63","text":"**Liste de théorèmes**\n\nListe de théorèmes par ordre alphabétique.\nPour l'établissement de l'ordre alphabétique, il a été convenu ce qui suit :\n\nsi le nom du théorème comprend des noms de mathématiciens ou de physiciens, on se base sur le premier nom propre cité ;\nsi le nom du théorème ne comprend pas de nom de mathématiciens ni de physiciens, on se base sur le premier substantif (nom commun ou adjectif) apparaissant en....","x":158,"y":672,"width":280,"height":495,"color":"#a6e3a1"},
+		{"type":"file","id":"2b9b2e8f61854412","file":"images/Kathetensatz.svg","x":-882,"y":155,"width":200,"height":150},
+		{"type":"text","id":"35ca1bf4a311476d","text":"**Pythagoras–Euclid theorems**\n\nTraditionnellement, la théorie des nombres est une branche des mathématiques qui s'occupe des propriétés des nombres entiers (qu'ils soient entiers naturels ou entiers relatifs). Plus généralement, le champ d'étude de cette théorie concerne une large classe de problèmes qui proviennent naturellement de l'étude des entiers.","x":-922,"y":315,"width":280,"height":505,"color":"#89dceb"},
+		{"type":"file","id":"ed7e0f256aa34b8a","file":"images/Pythagoras grundfigur.svg","x":-882,"y":-863,"width":200,"height":150},
+		{"type":"text","id":"e2b9b3e89e62499b","text":"Bride's Chair","x":-922,"y":-703,"width":280,"height":270,"color":"#fab387"},
+		{"type":"text","id":"474987c28751481b","text":"**Baudhayana Sulbasutra**\n\nL'histoire de la racine carrée commence autour du XXe siècle av. J.-C. Sa première représentation connue date du XVIIe siècle av. J.-C. La valeur de la racine carrée de deux a été calculée de manière approchée en Inde au VIIIe siècle av. J.-C. et en Chine durant le IIe siècle av. J.-C.","x":830,"y":-1915,"width":220,"height":395,"color":"#f5e0dc"},
+		{"type":"text","id":"e2859ea5ceb741d1","text":"**MKL1888:Théorème de Pythagore**\n\narticle encyclopédique sur le théorème de Pythagore","x":1090,"y":-1815,"width":220,"height":195,"color":"#efe0b0"},
+		{"type":"text","id":"d9f69a45827c4d2b","text":"**Katyayana Sulbasutra**\n\nLa racine carrée de deux, notée \n  \n    \n      \n        \n          \n            2\n          \n        \n      \n    \n    {\\displaystyle {\\sqrt {2}}}\n  \n (ou parfois \n  \n    \n      \n        \n          2\n          \n            1\n            \n              /\n            \n            2\n          \n        \n      \n    \n    {\\displaystyle 2^{1/2}}\n  \n), est le seul nombre réel positif qui, lorsqu'il est mul...","x":830,"y":-2975,"width":220,"height":1020,"color":"#f5e0dc"},
+		{"type":"text","id":"5516fb904bcd499a","text":"**Geometry in the Plane**\n\nEn mathématiques, on appelle géométrie non euclidienne une théorie géométrique ayant recours aux axiomes et postulats posés par Euclide dans les Éléments, sauf le postulat des parallèles.\nLes différentes géométries non euclidiennes sont issues initialement de la volonté de démontrer la proposition du cinquième postulat, qui apparaissait peu satisfaisant en tant que postulat car trop complexe et pe...","x":1090,"y":-2712,"width":220,"height":495,"color":"#efe0b0"}
+	],
+	"edges":[
+		{"id":"22ac1ffb35c5478e","fromNode":"2d4d024cecfe4832","fromSide":"right","toNode":"928db707cd3a4d14","toSide":"left","color":"1","label":"est un(e)"},
+		{"id":"38d6197225f84096","fromNode":"2d4d024cecfe4832","fromSide":"bottom","toNode":"66fa2d7a80cc4d63","toSide":"top","color":"1","label":"fait partie de"},
+		{"id":"f949744be66b4210","fromNode":"2d4d024cecfe4832","fromSide":"left","toNode":"35ca1bf4a311476d","toSide":"right","color":"1","label":"fait partie de"},
+		{"id":"9dc0892f93554057","fromNode":"2d4d024cecfe4832","fromSide":"left","toNode":"e2b9b3e89e62499b","toSide":"right","color":"1","label":"partie"},
+		{"id":"ced818cc253140b5","fromNode":"2d4d024cecfe4832","fromSide":"top","toNode":"218b683a25bd4509","toSide":"bottom","color":"1","label":"Oeuvre sur le sujet"},
+		{"id":"5dd0dda17a13404e","fromNode":"66fa2d7a80cc4d63","fromSide":"top","toNode":"928db707cd3a4d14","toSide":"bottom","color":"#a6e3a1"}
+	]
+}

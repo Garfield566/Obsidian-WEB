@@ -1,0 +1,2552 @@
+{
+  "agent de change": {
+    "type": "specialized",
+    "exact_terms": [
+      "agent de change"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "agent",
+          "synonyms": [
+            "agent"
+          ]
+        },
+        {
+          "name": "change",
+          "synonyms": [
+            "change"
+          ]
+        },
+        {
+          "name": "courtier",
+          "synonyms": [
+            "courtier"
+          ]
+        },
+        {
+          "name": "valeurs",
+          "synonyms": [
+            "valeurs"
+          ]
+        },
+        {
+          "name": "mobilières",
+          "synonyms": [
+            "mobilières"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un agent de change (ou courtier en valeurs mobilières) exerce la fonction de négociation de valeurs mobilières et d'instruments financiers, avec des règlementations et des périmètres de compétence variables selon les pays et les époques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "appel de marge": {
+    "type": "specialized",
+    "exact_terms": [
+      "appel de marge"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "marchés",
+          "synonyms": [
+            "marchés"
+          ]
+        },
+        {
+          "name": "organisés",
+          "synonyms": [
+            "organisés"
+          ]
+        },
+        {
+          "name": "connus",
+          "synonyms": [
+            "connus"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        },
+        {
+          "name": "leur",
+          "synonyms": [
+            "leur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Sur les marchés à terme organisés (connus également sous leur nom anglais de marché de futures), l'appel de marges (en anglais : margin requirements ou margin call) est à l'origine le versement obligatoire de fonds supplémentaires auprès de la chambre de compensation, en numéraire ou en collatéral (valeurs mobilières, titres de créance négociables, etc.) par un intervenant pour couvrir la dépréciation de sa position ouverte sur le marché, et qui doit être effectué dans un délai assez rapproché, ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "assurance crédit": {
+    "type": "specialized",
+    "exact_terms": [
+      "assurance crédit"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'assurance-crédit",
+          "synonyms": [
+            "l'assurance-crédit"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "particulière",
+          "synonyms": [
+            "particulière"
+          ]
+        },
+        {
+          "name": "d'assurance",
+          "synonyms": [
+            "d'assurance"
+          ]
+        },
+        {
+          "name": "garantit",
+          "synonyms": [
+            "garantit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'assurance-crédit est une forme très particulière d'assurance qui garantit les entreprises ou les banques contre les défauts de paiement de leurs clients survenus pour des motifs :\n\nsoit qui sont propres à ces débiteurs (insolvabilité) ;\nsoit relevant de contraintes extérieures (notamment risque politique dans les contrats à l'exportation comportant un crédit client). Ici, l'assurance-crédit est l'une des composantes de l'assurance export."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "avertissement": {
+    "type": "specialized",
+    "exact_terms": [
+      "avertissement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "avertissement",
+          "synonyms": [
+            "avertissement"
+          ]
+        },
+        {
+          "name": "synonyme",
+          "synonyms": [
+            "synonyme"
+          ]
+        },
+        {
+          "name": "mise",
+          "synonyms": [
+            "mise"
+          ]
+        },
+        {
+          "name": "garde",
+          "synonyms": [
+            "garde"
+          ]
+        },
+        {
+          "name": "théâtre",
+          "synonyms": [
+            "théâtre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot avertissement est synonyme de mise en garde.\n\nAu théâtre, un avertissement est un texte d'escorte."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "banque universelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "banque universelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "banque",
+          "synonyms": [
+            "banque"
+          ]
+        },
+        {
+          "name": "universelle",
+          "synonyms": [
+            "universelle"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "banque",
+          "synonyms": [
+            "banque"
+          ]
+        },
+        {
+          "name": "activités",
+          "synonyms": [
+            "activités"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La banque universelle est un type de banque dont les activités sont particulièrement diversifiées et qui ainsi exercent toutes les opérations des domaines bancaire et financier. La banque universelle est interdite dans les pays où les banques sont régies par un principe de séparation stricte des domaines d'activités."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "bon de caisse": {
+    "type": "specialized",
+    "exact_terms": [
+      "bon de caisse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "bon",
+          "synonyms": [
+            "bon"
+          ]
+        },
+        {
+          "name": "caisse",
+          "synonyms": [
+            "caisse"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "nommé",
+          "synonyms": [
+            "nommé"
+          ]
+        },
+        {
+          "name": "obligation",
+          "synonyms": [
+            "obligation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le bon de caisse, aussi nommé obligation de caisse, est une valeur mobilière et donc un titre pouvant être représenté par un papier-valeur, constituant une créance contre son émetteur. Il est très proche de l'obligation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "bon à moyen terme négociable": {
+    "type": "specialized",
+    "exact_terms": [
+      "bon à moyen terme négociable"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "bon",
+          "synonyms": [
+            "bon"
+          ]
+        },
+        {
+          "name": "moyen",
+          "synonyms": [
+            "moyen"
+          ]
+        },
+        {
+          "name": "négociable",
+          "synonyms": [
+            "négociable"
+          ]
+        },
+        {
+          "name": "bmtn",
+          "synonyms": [
+            "bmtn"
+          ]
+        },
+        {
+          "name": "titre",
+          "synonyms": [
+            "titre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le bon à moyen terme négociable (BMTN) est un titre de créance négociable (TCN) d'une durée initiale supérieure à un an pouvant être émis sur le marché monétaire, un crédit interentreprises, c’est-à-dire que les entreprises (généralement les plus grandes) ou les établissements de crédit qui sont en phase de besoin de trésorerie, vont émettre elles-mêmes des BMTN qui vont être achetés par d'autres entreprises (entreprises classiques ou appartenant au secteur bancaire et financier) ayant des facil..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "caisse de retraite": {
+    "type": "specialized",
+    "exact_terms": [
+      "caisse de retraite"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "caisse",
+          "synonyms": [
+            "caisse"
+          ]
+        },
+        {
+          "name": "retraite",
+          "synonyms": [
+            "retraite"
+          ]
+        },
+        {
+          "name": "institution",
+          "synonyms": [
+            "institution"
+          ]
+        },
+        {
+          "name": "financière",
+          "synonyms": [
+            "financière"
+          ]
+        },
+        {
+          "name": "publique",
+          "synonyms": [
+            "publique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une caisse de retraite est une institution financière, publique ou privée (et dans ce dernier cas commerciale ou mutuelle), qui reçoit des cotisations, à titre obligatoire ou facultatif, servant à alimenter des versements de retraites de salariés ou de travailleurs indépendants en utilisant un procédé de capitalisation ou de répartition.\nOn parle de caisse primaire pour le régime de base et de caisse complémentaire pour les prestations au-delà de ce régime."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "capital": {
+    "type": "specialized",
+    "exact_terms": [
+      "capital"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "capital",
+          "synonyms": [
+            "capital"
+          ]
+        },
+        {
+          "name": "somme",
+          "synonyms": [
+            "somme"
+          ]
+        },
+        {
+          "name": "d'investissements",
+          "synonyms": [
+            "d'investissements"
+          ]
+        },
+        {
+          "name": "utilisée",
+          "synonyms": [
+            "utilisée"
+          ]
+        },
+        {
+          "name": "tirer",
+          "synonyms": [
+            "tirer"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le capital est une somme d'investissements utilisée pour en tirer un profit, c'est-à-dire un stock de biens ou de richesses nécessaires à une production. Cet emploi, courant en sciences économiques, en finance, en comptabilité, en sociologie et en philosophie, a néanmoins dans les domaines distincts des significations spécifiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "capitalisation boursière": {
+    "type": "specialized",
+    "exact_terms": [
+      "capitalisation boursière"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "capitalisation",
+          "synonyms": [
+            "capitalisation"
+          ]
+        },
+        {
+          "name": "boursière",
+          "synonyms": [
+            "boursière"
+          ]
+        },
+        {
+          "name": "valorisation",
+          "synonyms": [
+            "valorisation"
+          ]
+        },
+        {
+          "name": "instant",
+          "synonyms": [
+            "instant"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La capitalisation boursière est la valorisation à un instant T  de l'ensemble des actions en circulation d'une entreprise cotée en bourse. La capitalisation boursière évolue au fil du temps, elle augmente ou diminue en particulier avec l'évolution du cours de l'action ou avec l'évolution du nombre d'actions, et après l'annonce des résultats d'une entreprise ou d'événements majeurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "cavalerie": {
+    "type": "specialized",
+    "exact_terms": [
+      "cavalerie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cavalerie",
+          "synonyms": [
+            "cavalerie"
+          ]
+        },
+        {
+          "name": "l'arme",
+          "synonyms": [
+            "l'arme"
+          ]
+        },
+        {
+          "name": "militaires",
+          "synonyms": [
+            "militaires"
+          ]
+        },
+        {
+          "name": "guerriers",
+          "synonyms": [
+            "guerriers"
+          ]
+        },
+        {
+          "name": "combattent",
+          "synonyms": [
+            "combattent"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La cavalerie est l'arme des militaires ou des guerriers qui combattent à cheval. Historiquement, elle est la troisième plus ancienne des armes de combat (après l'infanterie et les chariots de guerre) et la plus mobile."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "collatéral": {
+    "type": "specialized",
+    "exact_terms": [
+      "collatéral"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "collatéral",
+          "synonyms": [
+            "collatéral"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "situé",
+          "synonyms": [
+            "situé"
+          ]
+        },
+        {
+          "name": "côté",
+          "synonyms": [
+            "côté"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’adjectif collatéral signifie « situé de côté, en appartenance ou en subordination ». Le mot existe aussi en tant que nom."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "commission de gestion": {
+    "type": "specialized",
+    "exact_terms": [
+      "commission de gestion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "suisse",
+          "synonyms": [
+            "suisse"
+          ]
+        },
+        {
+          "name": "commission",
+          "synonyms": [
+            "commission"
+          ]
+        },
+        {
+          "name": "gestion",
+          "synonyms": [
+            "gestion"
+          ]
+        },
+        {
+          "name": "cdg",
+          "synonyms": [
+            "cdg"
+          ]
+        },
+        {
+          "name": "commission",
+          "synonyms": [
+            "commission"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En Suisse, une commission de gestion (CdG) est une commission parlementaire fédérale, cantonale ou communale dévolue à la surveillance de la gestion de l'administration, de l'exécutif et des tribunaux.\nLa séparation des pouvoirs législatif, exécutif et judiciaire entre les trois niveaux de l’État est un principe instauré en Suisse en 1848, lors de la création de l’État fédéral , il est contrôlé par la CdG selon l'expression des différentes réformes constitutionnelles qui ont été faites jusqu'en ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "consolidation": {
+    "type": "specialized",
+    "exact_terms": [
+      "consolidation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "consolidation",
+          "synonyms": [
+            "consolidation"
+          ]
+        },
+        {
+          "name": "réunion",
+          "synonyms": [
+            "réunion"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "ensembles",
+          "synonyms": [
+            "ensembles"
+          ]
+        },
+        {
+          "name": "homogènes",
+          "synonyms": [
+            "homogènes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La consolidation est la notion de réunion de deux ensembles homogènes de valeurs (comptables, bases de données diverses) en un ensemble unique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "contrat de différence": {
+    "type": "specialized",
+    "exact_terms": [
+      "contrat de différence"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "finance",
+          "synonyms": [
+            "finance"
+          ]
+        },
+        {
+          "name": "cfd",
+          "synonyms": [
+            "cfd"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "contract",
+          "synonyms": [
+            "contract"
+          ]
+        },
+        {
+          "name": "for",
+          "synonyms": [
+            "for"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En finance, un CFD (en anglais: contract for difference) ou quelquefois contrat sur différence,  en français, est un instrument financier dérivé non réglementé et spéculatif qui permet de réaliser des profits ou des pertes indexés sur la variation à la hausse (ou à la baisse) du cours d'un sous-jacent. Le sous-jacent peut être une action, un indice, une matière première ou une devise."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "coulissier": {
+    "type": "specialized",
+    "exact_terms": [
+      "coulissier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "profession",
+          "synonyms": [
+            "profession"
+          ]
+        },
+        {
+          "name": "coulissier",
+          "synonyms": [
+            "coulissier"
+          ]
+        },
+        {
+          "name": "était",
+          "synonyms": [
+            "était"
+          ]
+        },
+        {
+          "name": "profession",
+          "synonyms": [
+            "profession"
+          ]
+        },
+        {
+          "name": "parallèle",
+          "synonyms": [
+            "parallèle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La profession de coulissier était une profession parallèle à celle des agents de change de la Bourse de Paris, qui a fait ses premières armes hors du palais Brongniart, à la Petite Bourse. Les coulissiers sont devenus des courtiers en valeurs mobilières, dotés d’une chambre syndicale officialisée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "cours à terme": {
+    "type": "specialized",
+    "exact_terms": [
+      "cours à terme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "finance",
+          "synonyms": [
+            "finance"
+          ]
+        },
+        {
+          "name": "cours",
+          "synonyms": [
+            "cours"
+          ]
+        },
+        {
+          "name": "opposition",
+          "synonyms": [
+            "opposition"
+          ]
+        },
+        {
+          "name": "cours",
+          "synonyms": [
+            "cours"
+          ]
+        },
+        {
+          "name": "comptant",
+          "synonyms": [
+            "comptant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En finance, le cours à terme (par opposition au cours comptant ou cours spot) est un cours de change fixé à l'avance pour se prémunir du risque de fluctuations des cours (appelé risque de change).  Le cours à terme est conclu dans le cadre d'une opération de change à terme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "crédit hypothécaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "crédit hypothécaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "crédit",
+          "synonyms": [
+            "crédit"
+          ]
+        },
+        {
+          "name": "hypothécaire",
+          "synonyms": [
+            "hypothécaire"
+          ]
+        },
+        {
+          "name": "crédit",
+          "synonyms": [
+            "crédit"
+          ]
+        },
+        {
+          "name": "immobilier",
+          "synonyms": [
+            "immobilier"
+          ]
+        },
+        {
+          "name": "garanti",
+          "synonyms": [
+            "garanti"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un crédit hypothécaire est un crédit immobilier qui est garanti par une hypothèque, c'est-à-dire que le prêteur dispose du bien immobilier sous-jacent comme garantie sur le prêt. En France, près de 40 % des crédits immobiliers sont adossés à une hypothèque, alors que près de 60 % sont garantis par un cautionnement mutualisé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "date de valeur": {
+    "type": "specialized",
+    "exact_terms": [
+      "date de valeur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "date",
+          "synonyms": [
+            "date"
+          ]
+        },
+        {
+          "name": "valeur",
+          "synonyms": [
+            "valeur"
+          ]
+        },
+        {
+          "name": "système",
+          "synonyms": [
+            "système"
+          ]
+        },
+        {
+          "name": "bancaire",
+          "synonyms": [
+            "bancaire"
+          ]
+        },
+        {
+          "name": "date",
+          "synonyms": [
+            "date"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La date de valeur est, dans le système bancaire, la date de prise en compte d'une opération bancaire donnée (paiement de chèque, prélèvement bancaire, etc.), que celle-ci soit au crédit ou au débit du compte bancaire.\nElle diffère de la date d'opération (date de l'enregistrement comptable)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "deadline": {
+    "type": "specialized",
+    "exact_terms": [
+      "deadline"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "deadline",
+          "synonyms": [
+            "deadline"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "correspondant",
+          "synonyms": [
+            "correspondant"
+          ]
+        },
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "expressions",
+          "synonyms": [
+            "expressions"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Deadline est un mot anglais correspondant en français aux expressions suivantes : « date butoir », « date limite », « échéance », « date de tombée » (dans le monde des médias), « date de clôture »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "division": {
+    "type": "specialized",
+    "exact_terms": [
+      "division"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "division",
+          "synonyms": [
+            "division"
+          ]
+        },
+        {
+          "name": "l'une",
+          "synonyms": [
+            "l'une"
+          ]
+        },
+        {
+          "name": "quatre",
+          "synonyms": [
+            "quatre"
+          ]
+        },
+        {
+          "name": "opérations",
+          "synonyms": [
+            "opérations"
+          ]
+        },
+        {
+          "name": "l'arithmétique",
+          "synonyms": [
+            "l'arithmétique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La division est l'une des quatre opérations de l'arithmétique élémentaire avec l'addition, la soustraction et la multiplication. Dans une première approche, la division consiste à calculer combien de fois on peut mettre un nombre dans un autre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "défaut de paiement": {
+    "type": "specialized",
+    "exact_terms": [
+      "défaut de paiement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "défaut",
+          "synonyms": [
+            "défaut"
+          ]
+        },
+        {
+          "name": "paiement",
+          "synonyms": [
+            "paiement"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "physique",
+          "synonyms": [
+            "physique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le défaut de paiement désigne le fait qu'une personne physique, une entreprise ou un pays ne soit pas en mesure d'honorer une partie ou la totalité de ses engagements envers un créancier.\nLe défaut de paiement de la part d'une entreprise peut entraîner la faillite de celle-ci."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dérivé de crédit": {
+    "type": "specialized",
+    "exact_terms": [
+      "dérivé de crédit"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dérivé",
+          "synonyms": [
+            "dérivé"
+          ]
+        },
+        {
+          "name": "crédit",
+          "synonyms": [
+            "crédit"
+          ]
+        },
+        {
+          "name": "produit",
+          "synonyms": [
+            "produit"
+          ]
+        },
+        {
+          "name": "financier",
+          "synonyms": [
+            "financier"
+          ]
+        },
+        {
+          "name": "visant",
+          "synonyms": [
+            "visant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un dérivé de crédit est un produit financier à terme visant à transférer le risque de crédit d'un actif d'une contrepartie \"acheteuse de protection\" vers une contrepartie \"vendeuse de protection\" en échange d'une rétribution financière.\nLa protection pourra être exercée lors de l'occurrence d'un événement de crédit sur l'actif sous-jacent du dérivé de crédit."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "effet de levier": {
+    "type": "specialized",
+    "exact_terms": [
+      "effet de levier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'effet",
+          "synonyms": [
+            "l'effet"
+          ]
+        },
+        {
+          "name": "levier",
+          "synonyms": [
+            "levier"
+          ]
+        },
+        {
+          "name": "financier",
+          "synonyms": [
+            "financier"
+          ]
+        },
+        {
+          "name": "général",
+          "synonyms": [
+            "général"
+          ]
+        },
+        {
+          "name": "n'importe",
+          "synonyms": [
+            "n'importe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'effet de levier (financier) est un terme général pour désigner n'importe quelle technique destinée à multiplier les profits. Les techniques courantes de levier sont l'endettement, l'achat d'actifs à long terme et les produits dérivés (tels que les warrants)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "espèce": {
+    "type": "specialized",
+    "exact_terms": [
+      "espèce"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "sciences",
+          "synonyms": [
+            "sciences"
+          ]
+        },
+        {
+          "name": "vivant",
+          "synonyms": [
+            "vivant"
+          ]
+        },
+        {
+          "name": "espèce",
+          "synonyms": [
+            "espèce"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "species",
+          "synonyms": [
+            "species"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans les sciences du vivant, l’espèce (du latin species, « type » ou « apparence ») est le taxon de base de la taxonomie. La définition le plus communément admise est celle du concept biologique : une espèce est un ensemble d'individus qui peuvent effectivement ou potentiellement se reproduire entre eux et engendrer une descendance viable et féconde, dans des conditions naturelles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fiduciaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "fiduciaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "étymologiquement",
+          "synonyms": [
+            "étymologiquement"
+          ]
+        },
+        {
+          "name": "fiduciaire",
+          "synonyms": [
+            "fiduciaire"
+          ]
+        },
+        {
+          "name": "vient",
+          "synonyms": [
+            "vient"
+          ]
+        },
+        {
+          "name": "fiducie",
+          "synonyms": [
+            "fiducie"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Étymologiquement, le mot fiduciaire vient de « fiducie », qui signifie « confiance » (fiducia en latin)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fixing": {
+    "type": "specialized",
+    "exact_terms": [
+      "fixing"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fixing",
+          "synonyms": [
+            "fixing"
+          ]
+        },
+        {
+          "name": "mode",
+          "synonyms": [
+            "mode"
+          ]
+        },
+        {
+          "name": "cotation",
+          "synonyms": [
+            "cotation"
+          ]
+        },
+        {
+          "name": "marchés",
+          "synonyms": [
+            "marchés"
+          ]
+        },
+        {
+          "name": "financiers",
+          "synonyms": [
+            "financiers"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le fixing est un mode de cotation sur les marchés financiers, c'est-à-dire une méthode de fixation du prix par rencontre de l'offre et de la demande sur les marchés financiers.\nSur un marché de fixing, les titres financiers concernés sont cotés de manière discontinue (une à deux fois par jour)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "flux financier": {
+    "type": "specialized",
+    "exact_terms": [
+      "flux financier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "flux",
+          "synonyms": [
+            "flux"
+          ]
+        },
+        {
+          "name": "financier",
+          "synonyms": [
+            "financier"
+          ]
+        },
+        {
+          "name": "valeur",
+          "synonyms": [
+            "valeur"
+          ]
+        },
+        {
+          "name": "ventes",
+          "synonyms": [
+            "ventes"
+          ]
+        },
+        {
+          "name": "d'achats",
+          "synonyms": [
+            "d'achats"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le flux financier est la valeur de ventes et d'achats dans une période comptable, le moins souvent un trimestre ou une année."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fonds de garantie": {
+    "type": "specialized",
+    "exact_terms": [
+      "fonds de garantie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fonds",
+          "synonyms": [
+            "fonds"
+          ]
+        },
+        {
+          "name": "garantie",
+          "synonyms": [
+            "garantie"
+          ]
+        },
+        {
+          "name": "fdg",
+          "synonyms": [
+            "fdg"
+          ]
+        },
+        {
+          "name": "fonds",
+          "synonyms": [
+            "fonds"
+          ]
+        },
+        {
+          "name": "garantie",
+          "synonyms": [
+            "garantie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Fonds de garantie (FDG) peut désigner :\n\nFonds de garantie des assurances obligatoires de dommages ;\nFonds de garantie des assurés contre la défaillance de sociétés d'assurance de personnes ;\nFonds de garantie des dépôts et de résolution ;\nFonds de garantie des dommages consécutifs à des actes de prévention, de diagnostic ou de soins ;\nFonds de garantie des victimes des actes de terrorisme et d'autres infractions."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "holding": {
+    "type": "specialized",
+    "exact_terms": [
+      "holding"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "holding",
+          "synonyms": [
+            "holding"
+          ]
+        },
+        {
+          "name": "société",
+          "synonyms": [
+            "société"
+          ]
+        },
+        {
+          "name": "faîtière",
+          "synonyms": [
+            "faîtière"
+          ]
+        },
+        {
+          "name": "suisse",
+          "synonyms": [
+            "suisse"
+          ]
+        },
+        {
+          "name": "également",
+          "synonyms": [
+            "également"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un ou une holding ou société faîtière en Suisse, également appelée société de portefeuille au Canada et en Belgique, est une société ayant pour vocation de regrouper des participations dans diverses sociétés et d'en assurer l'unité de direction."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "intérêts composés": {
+    "type": "specialized",
+    "exact_terms": [
+      "intérêts composés"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "intérêts",
+          "synonyms": [
+            "intérêts"
+          ]
+        },
+        {
+          "name": "composés",
+          "synonyms": [
+            "composés"
+          ]
+        },
+        {
+          "name": "désignent",
+          "synonyms": [
+            "désignent"
+          ]
+        },
+        {
+          "name": "mécanisme",
+          "synonyms": [
+            "mécanisme"
+          ]
+        },
+        {
+          "name": "financier",
+          "synonyms": [
+            "financier"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les intérêts composés désignent un mécanisme financier dans lequel les intérêts gagnés sur un capital initial sont réinvestis, générant ainsi des intérêts supplémentaires. Contrairement aux intérêts simples, où seuls le capital de départ produit des gains, les intérêts composés permettent de faire fructifier à la fois le capital initial et les intérêts déjà accumulés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "marché au comptant": {
+    "type": "specialized",
+    "exact_terms": [
+      "marché au comptant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "marché",
+          "synonyms": [
+            "marché"
+          ]
+        },
+        {
+          "name": "comptant",
+          "synonyms": [
+            "comptant"
+          ]
+        },
+        {
+          "name": "livraison",
+          "synonyms": [
+            "livraison"
+          ]
+        },
+        {
+          "name": "biens",
+          "synonyms": [
+            "biens"
+          ]
+        },
+        {
+          "name": "échangés",
+          "synonyms": [
+            "échangés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans un marché au comptant, la livraison des biens échangés et leur paiement ont lieu pratiquement simultanément et immédiatement, par opposition à un marché à terme. Au comptant, on utilise donc le prix spot."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mezzanine": {
+    "type": "specialized",
+    "exact_terms": [
+      "mezzanine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mezzanine",
+          "synonyms": [
+            "mezzanine"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "mezzanine",
+          "synonyms": [
+            "mezzanine"
+          ]
+        },
+        {
+          "name": "architecture",
+          "synonyms": [
+            "architecture"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mezzanine est un nom commun qui peut désigner :\n\nMezzanine (architecture), désigne en architecture un plancher intermédiaire n'occupant pas toute la surface de la pièce qu'il surplombe.\nPar extension, dans le domaine du mobilier, on appelle mezzanine un lit surélevé d'environ la hauteur d'une personne, et dont le dessous est soit évidé, soit disposé en espace meublé (canapé, sofa ou un bureau, etc.)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micropaiement": {
+    "type": "specialized",
+    "exact_terms": [
+      "micropaiement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "micropaiement",
+          "synonyms": [
+            "micropaiement"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "microtransaction",
+          "synonyms": [
+            "microtransaction"
+          ]
+        },
+        {
+          "name": "service",
+          "synonyms": [
+            "service"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le micropaiement (aussi appelé microtransaction) est un service de paiement permettant d'acheter des services ou des contenus de faible valeur unitaire. Il permet en particulier au webmaster d'un site Web d'être rémunéré sur de toutes petites sommes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monnaie scripturale": {
+    "type": "specialized",
+    "exact_terms": [
+      "monnaie scripturale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'argent",
+          "synonyms": [
+            "l'argent"
+          ]
+        },
+        {
+          "name": "chiffre",
+          "synonyms": [
+            "chiffre"
+          ]
+        },
+        {
+          "name": "enregistré",
+          "synonyms": [
+            "enregistré"
+          ]
+        },
+        {
+          "name": "comptes",
+          "synonyms": [
+            "comptes"
+          ]
+        },
+        {
+          "name": "courants",
+          "synonyms": [
+            "courants"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'argent en chiffre enregistré dans les comptes courants des banques forme ce qu'on appelle la monnaie scripturale. La possession de monnaie par un titulaire de compte est matérialisée par une écriture en compte."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "offset": {
+    "type": "specialized",
+    "exact_terms": [
+      "offset"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "offset",
+          "synonyms": [
+            "offset"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "toute",
+          "synonyms": [
+            "toute"
+          ]
+        },
+        {
+          "name": "chose",
+          "synonyms": [
+            "chose"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot offset signifie en anglais toute chose qui se pose (set) à quelque distance (off) d'une origine. Il s'emploie couramment pour une action d'équilibrage ou de compensation et dans de multiples métaphores techniques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ponte": {
+    "type": "specialized",
+    "exact_terms": [
+      "ponte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "ponte",
+          "synonyms": [
+            "ponte"
+          ]
+        },
+        {
+          "name": "polysémique",
+          "synonyms": [
+            "polysémique"
+          ]
+        },
+        {
+          "name": "autres",
+          "synonyms": [
+            "autres"
+          ]
+        },
+        {
+          "name": "langues",
+          "synonyms": [
+            "langues"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En français le mot ponte est polysémique. Dans plusieurs autres langues, dont l'italien et le portugais, il signifie « pont »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "prospectus": {
+    "type": "specialized",
+    "exact_terms": [
+      "prospectus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "valeurs",
+          "synonyms": [
+            "valeurs"
+          ]
+        },
+        {
+          "name": "mobilières",
+          "synonyms": [
+            "mobilières"
+          ]
+        },
+        {
+          "name": "comptabilité",
+          "synonyms": [
+            "comptabilité"
+          ]
+        },
+        {
+          "name": "financière",
+          "synonyms": [
+            "financière"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En droit des valeurs mobilières et en comptabilité financière, un prospectus est un document qu'une entreprise qui fait un appel public à l'épargne doit obligatoirement soumettre à une autorité réglementaire en valeurs mobilières. Ce document doit obligatoirement contenir une description de l'émetteur, de ses activités et de ses dirigeants, en plus de contenir l'information financière requise par la loi et les circonstances factuelles qui peuvent avoir une influence sur le cours du titre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "présentation": {
+    "type": "specialized",
+    "exact_terms": [
+      "présentation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "présentation",
+          "synonyms": [
+            "présentation"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "communiquer",
+          "synonyms": [
+            "communiquer"
+          ]
+        },
+        {
+          "name": "sujet",
+          "synonyms": [
+            "sujet"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une présentation est un processus qui consiste à communiquer un sujet à un public."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "quitus": {
+    "type": "specialized",
+    "exact_terms": [
+      "quitus"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "quitus",
+          "synonyms": [
+            "quitus"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "acte",
+          "synonyms": [
+            "acte"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        },
+        {
+          "name": "juge",
+          "synonyms": [
+            "juge"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un quitus, en droit, est un acte par lequel on juge « quitte » une personne ou une entité.\nDans le domaine du commerce, c'est l'acte qui reconnaît que la gestion financière est « exacte et régulière »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "raideur": {
+    "type": "specialized",
+    "exact_terms": [
+      "raideur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "raideur",
+          "synonyms": [
+            "raideur"
+          ]
+        },
+        {
+          "name": "méningée",
+          "synonyms": [
+            "méningée"
+          ]
+        },
+        {
+          "name": "symptôme",
+          "synonyms": [
+            "symptôme"
+          ]
+        },
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "méningé",
+          "synonyms": [
+            "méningé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ce mot peut désigner :\n\nla raideur méningée, symptôme du syndrome méningé ;\nen mécanique, la raideur est une caractéristique d'une structure élastique, d'un ressort ou d'un système oscillant. Voir aussi Module de Young ;\ndans l'univers des jeux, le membre d'un raid ;\n\nen finance, un raideur (ou raider) une personne pratiquant des offres publiques en vue de pratiquer des opérations de fusions-acquisitions."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "seigneuriage": {
+    "type": "specialized",
+    "exact_terms": [
+      "seigneuriage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "seigneuriage",
+          "synonyms": [
+            "seigneuriage"
+          ]
+        },
+        {
+          "name": "l'avantage",
+          "synonyms": [
+            "l'avantage"
+          ]
+        },
+        {
+          "name": "financier",
+          "synonyms": [
+            "financier"
+          ]
+        },
+        {
+          "name": "direct",
+          "synonyms": [
+            "direct"
+          ]
+        },
+        {
+          "name": "découle",
+          "synonyms": [
+            "découle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le seigneuriage est l'avantage financier direct qui découle, pour l'émetteur, de l'émission d'une monnaie. Dans le cas de la monnaie fiduciaire, émise seulement par les banques centrales, il est égal au montant émis, moins ses coûts de fabrication, de mise en circulation et d'entretien (remplacement des espèces usagées)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "siam": {
+    "type": "specialized",
+    "exact_terms": [
+      "siam"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "siam",
+          "synonyms": [
+            "siam"
+          ]
+        },
+        {
+          "name": "thaï",
+          "synonyms": [
+            "thaï"
+          ]
+        },
+        {
+          "name": "สยาม",
+          "synonyms": [
+            "สยาม"
+          ]
+        },
+        {
+          "name": "sayam",
+          "synonyms": [
+            "sayam"
+          ]
+        },
+        {
+          "name": "l'ancien",
+          "synonyms": [
+            "l'ancien"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le Siam (thaï : สยาม Sayam) est l'ancien nom de la Thaïlande.\nLe royaume de Siam fut fondé en 1350 par le roi Ramathibodi Ier."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "splitter": {
+    "type": "specialized",
+    "exact_terms": [
+      "splitter"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "splitter",
+          "synonyms": [
+            "splitter"
+          ]
+        },
+        {
+          "name": "maison",
+          "synonyms": [
+            "maison"
+          ]
+        },
+        {
+          "name": "d'édition",
+          "synonyms": [
+            "d'édition"
+          ]
+        },
+        {
+          "name": "allemande",
+          "synonyms": [
+            "allemande"
+          ]
+        },
+        {
+          "name": "bande",
+          "synonyms": [
+            "bande"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Splitter est une maison d'édition allemande de bande dessinée et de comics créée en 1988 par Jürgen Janetzki à Munich."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "stress test": {
+    "type": "specialized",
+    "exact_terms": [
+      "stress test"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "stress",
+          "synonyms": [
+            "stress"
+          ]
+        },
+        {
+          "name": "test",
+          "synonyms": [
+            "test"
+          ]
+        },
+        {
+          "name": "correspond",
+          "synonyms": [
+            "correspond"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme anglais de « stress test » correspond à une technique destinée à évaluer le bon fonctionnement ou la stabilité d’un produit, d’une entité ou d’un système dans des conditions de fonctionnement sévères ou inhabituelles.\nLe terme peut être utilisé notamment dans les domaines suivants :\n\nEn médecine, épreuve d'effort (en anglais : cardiac stress test) : examen consistant à l'enregistrement d'un électrocardiogramme durant le déroulement d'un exercice physique ;\nEn mécanique, résistance des m..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "swap": {
+    "type": "specialized",
+    "exact_terms": [
+      "swap"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "swap",
+          "synonyms": [
+            "swap"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "échange",
+          "synonyms": [
+            "échange"
+          ]
+        },
+        {
+          "name": "permutation",
+          "synonyms": [
+            "permutation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le swap, qui signifie en anglais échange ou permutation, peut désigner les concepts suivants :\n\nEn informatique, le swap ou espace d'échange sert à étendre la mémoire utilisable par un système d'exploitation, par un fichier d'échange ou une partition dédiée.\nEn informatique, swap est aussi une instruction de certains processeurs et une fonction de certains langages de programmation qui permet l'échange de deux variables."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "termaillage": {
+    "type": "specialized",
+    "exact_terms": [
+      "termaillage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "termaillage",
+          "synonyms": [
+            "termaillage"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "non",
+          "synonyms": [
+            "non"
+          ]
+        },
+        {
+          "name": "financière",
+          "synonyms": [
+            "financière"
+          ]
+        },
+        {
+          "name": "gestion",
+          "synonyms": [
+            "gestion"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le termaillage est une technique non financière de gestion du risque de change par une entreprise commerciale.\nIl consiste à anticiper ou retarder les paiements (décaissements) ou encaissements selon les anticipations sur le cours des devises."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tirage": {
+    "type": "specialized",
+    "exact_terms": [
+      "tirage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tirage",
+          "synonyms": [
+            "tirage"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "tirage",
+          "synonyms": [
+            "tirage"
+          ]
+        },
+        {
+          "name": "imprimerie",
+          "synonyms": [
+            "imprimerie"
+          ]
+        },
+        {
+          "name": "tirage",
+          "synonyms": [
+            "tirage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Tirage peut faire référence à :\n\ntirage, en imprimerie ;\ntirage , en photographie ;\ntirage, le fait de sortir le vin de la barrique ;\ntirage au sort ;\ntirage, une extraction d'objets d'une urne en mathématiques ;\ntirage, l'effet de résistance ressenti par le grimpeur sur la corde en escalade ;\ntirage, un signe clinique en médecine observé en cas d'augmentation du travail respiratoire ;\ntirage de cheminée, l'aspiration de gaz chauds et fumée ;\nle tirage est l'un des deux moyens de gagner au Tac-O..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tireur": {
+    "type": "specialized",
+    "exact_terms": [
+      "tireur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "domaine",
+          "synonyms": [
+            "domaine"
+          ]
+        },
+        {
+          "name": "commerce",
+          "synonyms": [
+            "commerce"
+          ]
+        },
+        {
+          "name": "banque",
+          "synonyms": [
+            "banque"
+          ]
+        },
+        {
+          "name": "tireur",
+          "synonyms": [
+            "tireur"
+          ]
+        },
+        {
+          "name": "l'émetteur",
+          "synonyms": [
+            "l'émetteur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le domaine du commerce et de la banque, le tireur est l'émetteur d'un chèque ou d'un effet de commerce.\nEn photographie, le tireur est la personne qui effectue le tirage (l'agrandissement) d'une photographie à partir d'un film - ce terme ne s'applique qu'à la photographie argentique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "valeur réelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "valeur réelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "évolutions",
+          "synonyms": [
+            "évolutions"
+          ]
+        },
+        {
+          "name": "valeur",
+          "synonyms": [
+            "valeur"
+          ]
+        },
+        {
+          "name": "réelle",
+          "synonyms": [
+            "réelle"
+          ]
+        },
+        {
+          "name": "évolutions",
+          "synonyms": [
+            "évolutions"
+          ]
+        },
+        {
+          "name": "valeur",
+          "synonyms": [
+            "valeur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les évolutions de la valeur réelle d’un bien sont les évolutions de sa valeur nominale corrigées de l’effet de l’inflation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "épuisement": {
+    "type": "specialized",
+    "exact_terms": [
+      "épuisement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'épuisement",
+          "synonyms": [
+            "l'épuisement"
+          ]
+        },
+        {
+          "name": "définit",
+          "synonyms": [
+            "définit"
+          ]
+        },
+        {
+          "name": "général",
+          "synonyms": [
+            "général"
+          ]
+        },
+        {
+          "name": "perte",
+          "synonyms": [
+            "perte"
+          ]
+        },
+        {
+          "name": "considérable",
+          "synonyms": [
+            "considérable"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'épuisement définit en général une perte considérable d'une capacité ou d'une ressource."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "economie",
+    "domaine_exact": "economie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

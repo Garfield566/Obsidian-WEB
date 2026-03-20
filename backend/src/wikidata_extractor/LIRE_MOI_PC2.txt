@@ -1,0 +1,127 @@
+================================================================================
+ ⭐ GUIDE RAPIDE PC2 - DISQUE EXTERNE E:\ ⭐
+================================================================================
+
+Votre disque externe s'appelle E:\ sur PC2 → Pas de problème !
+Tous les scripts sont déjà configurés pour E:\
+
+
+================================================================================
+📋 ÉTAPE 1 : SUR PC1 (Préparer le disque)
+================================================================================
+
+Brancher le disque externe sur PC1
+
+Ouvrir le terminal (cmd) et taper :
+
+  xcopy /E /I "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\*" "E:\extraction_quartz\wikidata_extractor\"
+
+Débrancher le disque de PC1
+
+
+================================================================================
+📋 ÉTAPE 2 : SUR PC2 (Installer Python)
+================================================================================
+
+Brancher le disque externe sur PC2 (il apparaîtra comme E:\)
+
+Installer les dépendances Python (une seule fois) :
+
+  cd /d E:\extraction_quartz\wikidata_extractor
+  pip install -r requirements.txt
+
+
+================================================================================
+📋 ÉTAPE 3 : SUR PC2 (Lancer l'extraction)
+================================================================================
+
+🎯 MÉTHODE FACILE - Double-cliquer sur :
+
+  E:\extraction_quartz\wikidata_extractor\lancer_extraction_pc2.bat
+
+
+OU en ligne de commande :
+
+  cd /d E:\extraction_quartz\wikidata_extractor
+  python extract_pc2_external.py
+
+
+Confirmer : o
+
+
+================================================================================
+⏰ ATTENTE (~1.5-2 jours)
+================================================================================
+
+L'extraction va prendre 32-52 heures
+
+Progression affichée :
+  PC2 - PROGRESSION: [##########------] 25.0%
+  Domaine 5/21: CINEMA
+  Temps total ecoule: 12h23min
+
+À la fin :
+  [OK] EXTRACTION PC2 TERMINEE!
+
+
+================================================================================
+📋 ÉTAPE 4 : RETOUR SUR PC1 (Copier les résultats)
+================================================================================
+
+Débrancher E:\ de PC2, rebrancher sur PC1
+
+Sur PC1, taper :
+
+  xcopy /E /I /Y "E:\extraction_quartz\extracted_by_domain\*" "C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\"
+
+
+================================================================================
+📋 ÉTAPE 5 : SUR PC1 (Fusionner tout)
+================================================================================
+
+  cd "C:\Users\robin tual\quartz\backend\src\wikidata_extractor"
+  python extract_by_domain.py --merge-only
+
+
+✅ TERMINÉ !
+
+
+================================================================================
+📁 CE QUI SERA SUR E:\
+================================================================================
+
+E:\extraction_quartz\
+├── wikidata_extractor\
+│   └── lancer_extraction_pc2.bat    👈 Double-cliquer ici !
+│
+└── extracted_by_domain\
+    └── (21 domaines extraits)
+
+
+================================================================================
+🔧 DÉPANNAGE
+================================================================================
+
+❌ "pip: command not found"
+   → Installer Python sur PC2 : https://www.python.org/downloads/
+
+❌ "E:\ n'existe pas"
+   → Vérifier que le disque est bien branché sur PC2
+
+❌ Extraction interrompue
+   → Relancer le script, il reprendra automatiquement
+
+
+================================================================================
+💡 ASTUCE
+================================================================================
+
+Pour voir la progression en temps réel (optionnel), ouvrir un 2ème terminal :
+
+  cd /d E:\extraction_quartz\wikidata_extractor
+  python watch_pc2_external.py
+
+
+================================================================================
+FIN - Tout est configuré pour E:\ ! 🚀
+================================================================================

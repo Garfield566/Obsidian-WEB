@@ -1,0 +1,38 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "YouTube timestamp8",
+	"behavior": "create",
+	"noteContentFormat": "## {{schema:@VideoObject:name}}\n\n![{{schema:@VideoObject:name}}]({{schema:@VideoObject:thumbnailUrl|first}})\n\nChannel: {{schema:@VideoObject:author}}\nPublished: {{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}}\nURL: {{url|split:\"&t=\"|first}}\n\n> [!note]+ Description\n> {{schema:@VideoObject:description}}\n\n---\n#### Timestamps\n- [{{selector:.ytp-time-current|first}}]({{url|split:\"&t=\"|first}}&t={{selector:.ytp-time-current|first|slice:0,-3|replace:\"\\:\":\"h\"}}m{{selector:.ytp-time-current|first|slice:-2}}s) - Add your note here\n\n> [!summary]+ Transcript (Youtube)\n> - [ ] Copier la transcription manuellement\n\n---",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{schema:@VideoObject:name}}",
+			"type": "text"
+		},
+		{
+			"name": "channel",
+			"value": "{{schema:@VideoObject:author}}",
+			"type": "text"
+		},
+		{
+			"name": "published",
+			"value": "{{schema:@VideoObject:uploadDate|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "url",
+			"value": "{{url|split:\\\"&t=\\\"|first}}",
+			"type": "text"
+		},
+		{
+			"name": "thumbnailUrl",
+			"value": "{{schema:@VideoObject:thumbnailUrl|first}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.youtube.com/watch?v="
+	],
+	"noteNameFormat": "Timestamps",
+	"path": "YouTube Notes"
+}

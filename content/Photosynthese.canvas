@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"type":"file","id":"a31566819c8d4e98","file":".trash/mange manger manger/Photosynthese.md","x":-175,"y":-188,"width":350,"height":375,"color":"#f5c2e7"},
+		{"type":"file","id":"d524fc5a645141dd","file":"images/Calvin-cycle4.svg","x":350,"y":-172,"width":164,"height":150},
+		{"type":"text","id":"cbc56da6891e409e","text":"**Cycle de Calvin**\n\nLe cycle de Calvin (aussi connu comme le cycle de Calvin-Benson-Bassham) est une série de réactions biochimiques  des organismes photosynthétiques ayant lieu dans le stroma des chloroplastes chez les ...","x":310,"y":-12,"width":280,"height":185,"color":"#cba6f7"},
+		{"type":"text","id":"0262d7cdcb494f60","text":"**light-dependent reactions**\n\nchemical reactions involved in photosynthesis induced by light","x":0,"y":372,"width":280,"height":110,"color":"#a6e3a1"},
+		{"type":"text","id":"5d65c29173184759","text":"**photosynthesis, dark reaction**\n\ncomplex cycle of enzyme-mediated reactions which catalyzes the reduction of carbon dioxide to sugar","x":-504,"y":209,"width":280,"height":110,"color":"#89dceb"},
+		{"type":"text","id":"b45792d5072e4c58","text":"**métabolisme cellulaire**\n\nthe chemical reactions and pathways by which individual cells transform chemical substances","x":-504,"y":-319,"width":280,"height":110,"color":"#fab387"},
+		{"type":"text","id":"126d3c26a699423f","text":"**processus biologique**\n\ntransformation se déroulant dans un organisme vivant ou entre plusieurs organismes en interaction, mettant en jeux habituellement des réactions chimiques ou d'autres natures","x":0,"y":-495,"width":280,"height":135,"color":"#f9e2af"}
+	],
+	"edges":[
+		{"id":"dacd980c69bc4993","fromNode":"a31566819c8d4e98","fromSide":"right","toNode":"cbc56da6891e409e","toSide":"left","label":"comprend"},
+		{"id":"ec782f7f832d49c5","fromNode":"a31566819c8d4e98","fromSide":"bottom","toNode":"0262d7cdcb494f60","toSide":"top","label":"comprend"},
+		{"id":"9a8743aaa84e48f7","fromNode":"a31566819c8d4e98","fromSide":"left","toNode":"5d65c29173184759","toSide":"right","label":"comprend"},
+		{"id":"f414db3e8ea24668","fromNode":"a31566819c8d4e98","fromSide":"left","toNode":"b45792d5072e4c58","toSide":"right","label":"est un type de"},
+		{"id":"05972617ae8c42c7","fromNode":"a31566819c8d4e98","fromSide":"top","toNode":"126d3c26a699423f","toSide":"bottom","label":"est un(e)"}
+	]
+}

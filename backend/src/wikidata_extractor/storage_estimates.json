@@ -1,0 +1,70 @@
+{
+  "by_domain": [
+    {
+      "domain": "mathematiques",
+      "terms": 1483,
+      "hierarchies": 22,
+      "vocab_size_bytes": 2046539.9999999998,
+      "specialized_size_bytes": 2130375.0,
+      "total_size_bytes": 4176915.0,
+      "vocab_size": "2.0 MB",
+      "specialized_size": "2.0 MB",
+      "total_size": "4.0 MB"
+    },
+    {
+      "domain": "physique",
+      "terms": 2318,
+      "hierarchies": 18,
+      "vocab_size_bytes": 3198839.9999999995,
+      "specialized_size_bytes": 3332124.9999999995,
+      "total_size_bytes": 6530964.999999999,
+      "vocab_size": "3.1 MB",
+      "specialized_size": "3.2 MB",
+      "total_size": "6.2 MB"
+    },
+    {
+      "domain": "chimie",
+      "terms": 4871,
+      "hierarchies": 25,
+      "vocab_size_bytes": 6721979.999999999,
+      "specialized_size_bytes": 7000624.999999999,
+      "total_size_bytes": 13722604.999999998,
+      "vocab_size": "6.4 MB",
+      "specialized_size": "6.7 MB",
+      "total_size": "13.1 MB"
+    },
+    {
+      "domain": "biologie",
+      "terms": 2378,
+      "hierarchies": 20,
+      "vocab_size_bytes": 3281639.9999999995,
+      "specialized_size_bytes": 3418374.9999999995,
+      "total_size_bytes": 6700014.999999999,
+      "vocab_size": "3.1 MB",
+      "specialized_size": "3.3 MB",
+      "total_size": "6.4 MB"
+    },
+    {
+      "domain": "medecine",
+      "terms": 7635,
+      "hierarchies": 30,
+      "vocab_size_bytes": 10536300.0,
+      "specialized_size_bytes": 10973875.0,
+      "total_size_bytes": 21510175.0,
+      "vocab_size": "10.0 MB",
+      "specialized_size": "10.5 MB",
+      "total_size": "20.5 MB"
+    }
+  ],
+  "total": {
+    "terms": 18685,
+    "vocab_size_bytes": 25785300.0,
+    "specialized_size_bytes": 26855375.0,
+    "total_size_bytes": 52640675.0,
+    "with_merged_bytes": 105281350.0,
+    "vocab_size": "24.6 MB",
+    "specialized_size": "25.6 MB",
+    "total_size": "50.2 MB",
+    "with_merged": "100.4 MB"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "a5acb62d-ebf4-42e0-b2b4-483ac3b75776",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "currencyType": "USD",
+        "dateFormat": "mm/dd/yyyy",
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset"
+      }
+    ],
+    "headerRows": [
+      {
+        "id": "af1c1018-cfaa-4c01-acc1-f33e66a6cf3d"
+      }
+    ],
+    "bodyRows": [
+      {
+        "id": "184449e5-ccee-419c-bf57-f0eff7e8cfe8",
+        "index": 0,
+        "creationTime": 1697825620583,
+        "lastEditedTime": 1697825620583
+      }
+    ],
+    "footerRows": [
+      {
+        "id": "4bf3629d-244c-464d-97cd-624717e3b50e"
+      },
+      {
+        "id": "dd41351e-2ba0-4dc1-81fa-95edb6dee1d5"
+      }
+    ],
+    "headerCells": [
+      {
+        "id": "baef3eb8-8b35-4a68-a695-d2ea4ba19252",
+        "columnId": "a5acb62d-ebf4-42e0-b2b4-483ac3b75776",
+        "rowId": "af1c1018-cfaa-4c01-acc1-f33e66a6cf3d",
+        "markdown": "New Column"
+      }
+    ],
+    "bodyCells": [
+      {
+        "id": "0d7159d6-952d-468b-8a2f-02b84d010fbc",
+        "isExternalLink": false,
+        "columnId": "a5acb62d-ebf4-42e0-b2b4-483ac3b75776",
+        "rowId": "184449e5-ccee-419c-bf57-f0eff7e8cfe8",
+        "dateTime": null,
+        "markdown": "",
+        "tagIds": []
+      }
+    ],
+    "footerCells": [
+      {
+        "id": "3df07c96-4303-4345-8b7e-581acdb688f7",
+        "columnId": "a5acb62d-ebf4-42e0-b2b4-483ac3b75776",
+        "rowId": "4bf3629d-244c-464d-97cd-624717e3b50e"
+      },
+      {
+        "id": "4b8f88c0-f986-4323-87ef-3e0589dd69eb",
+        "columnId": "a5acb62d-ebf4-42e0-b2b4-483ac3b75776",
+        "rowId": "dd41351e-2ba0-4dc1-81fa-95edb6dee1d5"
+      }
+    ],
+    "filterRules": [],
+    "settings": {
+      "numFrozenColumns": 3
+    }
+  },
+  "pluginVersion": "8.2.2"
+}

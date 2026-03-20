@@ -1,0 +1,402 @@
+{
+  "barrage-voûte": {
+    "type": "specialized",
+    "exact_terms": [
+      "barrage-voûte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "barrage-voûte",
+          "synonyms": [
+            "barrage-voûte"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "barrage",
+          "synonyms": [
+            "barrage"
+          ]
+        },
+        {
+          "name": "dénommé",
+          "synonyms": [
+            "dénommé"
+          ]
+        },
+        {
+          "name": "ainsi",
+          "synonyms": [
+            "ainsi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un barrage-voûte est un type de barrage dénommé ainsi en raison de sa forme arquée caractéristique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "genie_civil",
+    "domaine_exact": "genie_civil\\génie hydraulique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "compostage": {
+    "type": "specialized",
+    "exact_terms": [
+      "compostage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "compostage",
+          "synonyms": [
+            "compostage"
+          ]
+        },
+        {
+          "name": "procédé",
+          "synonyms": [
+            "procédé"
+          ]
+        },
+        {
+          "name": "biologique",
+          "synonyms": [
+            "biologique"
+          ]
+        },
+        {
+          "name": "conversion",
+          "synonyms": [
+            "conversion"
+          ]
+        },
+        {
+          "name": "valorisation",
+          "synonyms": [
+            "valorisation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le compostage, un procédé biologique de conversion et de valorisation des matières organiques.\nLe compostage domestique est pratiqué par les habitants à l'échelle du foyer ;\nLe compostage de proximité partagé est pratiqué et géré par les habitants à l'échelle d'un pied d'immeuble, d'un quartier, d'un hameau, d'un village ;\nLe compostage de proximité autonome en établissement publique ou privé est une gestion de proximité des biodéchets pratiquée en interne."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "genie_civil",
+    "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "digue": {
+    "type": "specialized",
+    "exact_terms": [
+      "digue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "digue",
+          "synonyms": [
+            "digue"
+          ]
+        },
+        {
+          "name": "ouvrage",
+          "synonyms": [
+            "ouvrage"
+          ]
+        },
+        {
+          "name": "d'ingénierie",
+          "synonyms": [
+            "d'ingénierie"
+          ]
+        },
+        {
+          "name": "hydraulique",
+          "synonyms": [
+            "hydraulique"
+          ]
+        },
+        {
+          "name": "destiné",
+          "synonyms": [
+            "destiné"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une digue est un ouvrage d'ingénierie hydraulique (en) destiné à faire obstacle aux eaux. Constituée d'un remblai longitudinal (le plus souvent composé de terre), de nature artificielle ou d'une accumulation de sédiments (digue naturelle), elle forme un « ouvrage continu sur une certaine longueur » qui empêche la submersion des basses-terres par les eaux d'un lac, d'une rivière ou de la mer, protège les côtes de l'érosion marine ou régularise un cours d'eau et protège ses rives."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "genie_civil",
+    "domaine_exact": "genie_civil\\génie hydraulique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déchet ultime": {
+    "type": "specialized",
+    "exact_terms": [
+      "déchet ultime"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "réglementation",
+          "synonyms": [
+            "réglementation"
+          ]
+        },
+        {
+          "name": "française",
+          "synonyms": [
+            "française"
+          ]
+        },
+        {
+          "name": "déchet",
+          "synonyms": [
+            "déchet"
+          ]
+        },
+        {
+          "name": "ultime",
+          "synonyms": [
+            "ultime"
+          ]
+        },
+        {
+          "name": "défini",
+          "synonyms": [
+            "défini"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Au sens de la réglementation française, un déchet ultime  est défini comme un déchet, qui n’est plus susceptible d’être traité dans les conditions techniques et économiques du moment, notamment par extraction de la part valorisable ou par réduction de son caractère polluant ou dangereux.\n\nLes déchets ultimes sont ceux situés en bout de chaîne de traitement, c’est-à-dire que leurs caractères polluants ou dangereux ne sont plus à même d'être réduits davantage."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "genie_civil",
+    "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fondation": {
+    "type": "specialized",
+    "exact_terms": [
+      "fondation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fondation",
+          "synonyms": [
+            "fondation"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "foundation",
+          "synonyms": [
+            "foundation"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme fondation (en anglais, foundation) désigne notamment :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "genie_civil",
+    "domaine_exact": "genie_civil",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hydraulique urbaine": {
+    "type": "specialized",
+    "exact_terms": [
+      "hydraulique urbaine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'hydraulique",
+          "synonyms": [
+            "l'hydraulique"
+          ]
+        },
+        {
+          "name": "urbaine",
+          "synonyms": [
+            "urbaine"
+          ]
+        },
+        {
+          "name": "traite",
+          "synonyms": [
+            "traite"
+          ]
+        },
+        {
+          "name": "conception",
+          "synonyms": [
+            "conception"
+          ]
+        },
+        {
+          "name": "réseaux",
+          "synonyms": [
+            "réseaux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'hydraulique urbaine traite de la conception des réseaux (génie urbain) des distributions d'eau potable et d'évacuation des eaux usées et pluviales en milieu urbain. Cet article porte sur les aspects techniques ; voir aussi l'approche institutionnelle dans assainissement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "genie_civil",
+    "domaine_exact": "genie_civil",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lixiviat": {
+    "type": "specialized",
+    "exact_terms": [
+      "lixiviat"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lixiviat",
+          "synonyms": [
+            "lixiviat"
+          ]
+        },
+        {
+          "name": "lessive",
+          "synonyms": [
+            "lessive"
+          ]
+        },
+        {
+          "name": "trivial",
+          "synonyms": [
+            "trivial"
+          ]
+        },
+        {
+          "name": "percolat",
+          "synonyms": [
+            "percolat"
+          ]
+        },
+        {
+          "name": "physique",
+          "synonyms": [
+            "physique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lixiviat (lessive au sens trivial ou percolat en physique) est le liquide résiduel qui provient de la percolation de l'eau à travers un matériau, dont une fraction peut être soluble. Ce matériau traversé peut être, par exemple, une poudre, un corps poreux insoluble ou très faiblement soluble, un amas quelconque de corps solides, avec des fractions liquides et gazeuses, etc."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "genie_civil",
+    "domaine_exact": "genie_civil\\assainissement\\gestion des déchets",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "structure": {
+    "type": "specialized",
+    "exact_terms": [
+      "structure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "structure",
+          "synonyms": [
+            "structure"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        },
+        {
+          "name": "système",
+          "synonyms": [
+            "système"
+          ]
+        },
+        {
+          "name": "façon",
+          "synonyms": [
+            "façon"
+          ]
+        },
+        {
+          "name": "éléments",
+          "synonyms": [
+            "éléments"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La structure, généralement d'un système, est la façon dont ses éléments constitutifs sont reliés ou interagissent entre eux. Un phénomène est dit structurel  s'il est dû à la structure du système."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "genie_civil",
+    "domaine_exact": "genie_civil",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

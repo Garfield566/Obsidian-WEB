@@ -1,0 +1,5134 @@
+{
+  "acte manqué": {
+    "type": "specialized",
+    "exact_terms": [
+      "acte manqué"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "acte",
+          "synonyms": [
+            "acte"
+          ]
+        },
+        {
+          "name": "manqué",
+          "synonyms": [
+            "manqué"
+          ]
+        },
+        {
+          "name": "fehlleistung",
+          "synonyms": [
+            "fehlleistung"
+          ]
+        },
+        {
+          "name": "psychanalyse",
+          "synonyms": [
+            "psychanalyse"
+          ]
+        },
+        {
+          "name": "depuis",
+          "synonyms": [
+            "depuis"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un acte manqué (Fehlleistung) est, en psychanalyse et depuis Freud, le résultat d'un acte qui a manqué un objectif consciemment visé et qui traduit par là l'expression d’un désir inconscient."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "aiguillage": {
+    "type": "specialized",
+    "exact_terms": [
+      "aiguillage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "aiguille",
+          "synonyms": [
+            "aiguille"
+          ]
+        },
+        {
+          "name": "nommée",
+          "synonyms": [
+            "nommée"
+          ]
+        },
+        {
+          "name": "aiguillage",
+          "synonyms": [
+            "aiguillage"
+          ]
+        },
+        {
+          "name": "langage",
+          "synonyms": [
+            "langage"
+          ]
+        },
+        {
+          "name": "courant",
+          "synonyms": [
+            "courant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une aiguille, nommée aiguillage dans le langage courant, est un appareil de voie servant à faire changer de voie un train. Plus généralement, l'aiguillage est le fait d’aiguiller un train, c'est-à-dire lui attribuer une direction."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "alcoolisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "alcoolisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'alcoolisme",
+          "synonyms": [
+            "l'alcoolisme"
+          ]
+        },
+        {
+          "name": "alcoolodépendance",
+          "synonyms": [
+            "alcoolodépendance"
+          ]
+        },
+        {
+          "name": "éthylisme",
+          "synonyms": [
+            "éthylisme"
+          ]
+        },
+        {
+          "name": "troubles",
+          "synonyms": [
+            "troubles"
+          ]
+        },
+        {
+          "name": "liés",
+          "synonyms": [
+            "liés"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'alcoolisme, alcoolodépendance, éthylisme ou troubles liés à l'usage de l'alcool (abrégé en TUA), est l'addiction à l'éthanol (alcool éthylique) contenu dans les boissons alcoolisées.\nL'Organisation mondiale de la santé (OMS) reconnaît depuis 1978 l'alcoolisme comme une maladie et le définit comme des « troubles mentaux et troubles du comportement » liés à l'ingestion fréquente d'alcool éthylique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "alcoolémie": {
+    "type": "specialized",
+    "exact_terms": [
+      "alcoolémie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "alcoolémie",
+          "synonyms": [
+            "alcoolémie"
+          ]
+        },
+        {
+          "name": "éthanolémie",
+          "synonyms": [
+            "éthanolémie"
+          ]
+        },
+        {
+          "name": "concentration",
+          "synonyms": [
+            "concentration"
+          ]
+        },
+        {
+          "name": "d'éthanol",
+          "synonyms": [
+            "d'éthanol"
+          ]
+        },
+        {
+          "name": "alcool",
+          "synonyms": [
+            "alcool"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’alcoolémie ou éthanolémie est la concentration d'éthanol (alcool éthylique) dans le sang. Elle s'exprime généralement en grammes par litre (ou en milligrammes par 100 ml ou en millimoles par litre de sang)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "aliénation mentale": {
+    "type": "specialized",
+    "exact_terms": [
+      "aliénation mentale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'aliénation",
+          "synonyms": [
+            "l'aliénation"
+          ]
+        },
+        {
+          "name": "mentale",
+          "synonyms": [
+            "mentale"
+          ]
+        },
+        {
+          "name": "habituellement",
+          "synonyms": [
+            "habituellement"
+          ]
+        },
+        {
+          "name": "simplement",
+          "synonyms": [
+            "simplement"
+          ]
+        },
+        {
+          "name": "décrit",
+          "synonyms": [
+            "décrit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'aliénation mentale (habituellement et simplement décrit aliénation) est un terme désignant un trouble mental instable (en psychiatrie  et psychopathologie) dans lequel un individu se retrouve psychiquement et psychologiquement séparé du monde extérieur (quelque temps connu comme psychose). Le terme a été utilisé pour la première fois dans le sens médical et psychiatrique par Philippe Pinel dans un texte de 1801, son Traité médico-philosophique sur l'aliénation mentale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "amnésie antérograde": {
+    "type": "specialized",
+    "exact_terms": [
+      "amnésie antérograde"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'amnésie",
+          "synonyms": [
+            "l'amnésie"
+          ]
+        },
+        {
+          "name": "antérograde",
+          "synonyms": [
+            "antérograde"
+          ]
+        },
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "mémoire",
+          "synonyms": [
+            "mémoire"
+          ]
+        },
+        {
+          "name": "porte",
+          "synonyms": [
+            "porte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'amnésie antérograde est un trouble de la mémoire qui porte sur les faits postérieurs à l'accident ou à la maladie qui l'a provoquée. Elle est la conséquence de l'altération de certaines zones du cortex préfrontal, mais aussi occipital et pariétal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "anal": {
+    "type": "specialized",
+    "exact_terms": [
+      "anal"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'adjectif",
+          "synonyms": [
+            "l'adjectif"
+          ]
+        },
+        {
+          "name": "anal",
+          "synonyms": [
+            "anal"
+          ]
+        },
+        {
+          "name": "l'anus",
+          "synonyms": [
+            "l'anus"
+          ]
+        },
+        {
+          "name": "anal",
+          "synonyms": [
+            "anal"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'adjectif anal fait référence à l'anus.\nAnal peut aussi désigner :\n\nanal, une langue sino-tibétaine parlée dans l'État indien du Manipur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychanalyse",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ancrage": {
+    "type": "specialized",
+    "exact_terms": [
+      "ancrage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ancrage",
+          "synonyms": [
+            "ancrage"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "rarement",
+          "synonyms": [
+            "rarement"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ancrage est un nom commun ou plus rarement un nom propre qui peut référer à :\n\nancrage, la difficulté à se départir d'une première impression ;\nancrage dentaire ou implant dentaire, un dispositif médical — sorte de vis — inséré dans le maxillaire ou la mandibule et destiné à recevoir une prothèse dentaire ;\nancrage osseux, un dispositif permettant d'assurer un ancrage maximal lors d'un traitement d'orthodontie ;\npoint d'ancrage, en escalade, un point de fixation solide, permettant d'y accrocher ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "annulation": {
+    "type": "specialized",
+    "exact_terms": [
+      "annulation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "annulation",
+          "synonyms": [
+            "annulation"
+          ]
+        },
+        {
+          "name": "exprime",
+          "synonyms": [
+            "exprime"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "résultat",
+          "synonyms": [
+            "résultat"
+          ]
+        },
+        {
+          "name": "suppression",
+          "synonyms": [
+            "suppression"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme annulation exprime l'action ou le résultat d'une suppression.\nOn retrouve ce terme dans les expressions suivantes :\n\nannulation en informatique ;\nannulation rétroactive ;\nannulation de mariage ;\nrecours en annulation ."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "anthropophobie": {
+    "type": "specialized",
+    "exact_terms": [
+      "anthropophobie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anthropophobie",
+          "synonyms": [
+            "anthropophobie"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "phobie",
+          "synonyms": [
+            "phobie"
+          ]
+        },
+        {
+          "name": "relations",
+          "synonyms": [
+            "relations"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’anthropophobie aussi appelée phobie de relations interpersonnelles ou phobie sociale est une crainte pathologique des gens et de la compagnie des gens est une variante de la névrose sociale, qui est un trouble panique. Il se manifeste par le désir d'éviter la société, par la peur des étrangers et est considéré comme une sorte de phobie sociale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "apotemnophilie": {
+    "type": "specialized",
+    "exact_terms": [
+      "apotemnophilie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'apotemnophilie",
+          "synonyms": [
+            "l'apotemnophilie"
+          ]
+        },
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "neurologique",
+          "synonyms": [
+            "neurologique"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        },
+        {
+          "name": "individu",
+          "synonyms": [
+            "individu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'apotemnophilie est un trouble neurologique dans lequel un individu exprime un fort désir spécifique de subir l'amputation d'un ou plusieurs membres du corps en bon état. Cela pourrait être dû à une lésion du lobe pariétal droit, ce trouble ayant des caractéristiques communes avec la somatoparaphrénie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "archétype": {
+    "type": "specialized",
+    "exact_terms": [
+      "archétype"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "archétype",
+          "synonyms": [
+            "archétype"
+          ]
+        },
+        {
+          "name": "archétype",
+          "synonyms": [
+            "archétype"
+          ]
+        },
+        {
+          "name": "philosophie",
+          "synonyms": [
+            "philosophie"
+          ]
+        },
+        {
+          "name": "modèle",
+          "synonyms": [
+            "modèle"
+          ]
+        },
+        {
+          "name": "général",
+          "synonyms": [
+            "général"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Archétype peut désigner :\n\narchétype, en philosophie, un modèle général représentatif d'un sujet ;\narchétype (en), en critique textuelle, un texte (dont l'existence n'est parfois qu'inférée) expliquant les ressemblances (fautes identiques, mise en page, passages manquants similaires) entre différents manuscrits d'un même livre ;\narchétype (uk), en linguistique, une unité linguistique reconstruite par la méthode historique comparative ;\narchétype, en psychologie analytique, un concept créé par Ca..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "aumône": {
+    "type": "specialized",
+    "exact_terms": [
+      "aumône"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'aumône",
+          "synonyms": [
+            "l'aumône"
+          ]
+        },
+        {
+          "name": "offrande",
+          "synonyms": [
+            "offrande"
+          ]
+        },
+        {
+          "name": "nécessiteux",
+          "synonyms": [
+            "nécessiteux"
+          ]
+        },
+        {
+          "name": "contrepartie",
+          "synonyms": [
+            "contrepartie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'aumône est une offrande aux nécessiteux sans contrepartie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme\\errance",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "autocompassion": {
+    "type": "specialized",
+    "exact_terms": [
+      "autocompassion"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'autocompassion",
+          "synonyms": [
+            "l'autocompassion"
+          ]
+        },
+        {
+          "name": "consiste",
+          "synonyms": [
+            "consiste"
+          ]
+        },
+        {
+          "name": "manifester",
+          "synonyms": [
+            "manifester"
+          ]
+        },
+        {
+          "name": "compassion",
+          "synonyms": [
+            "compassion"
+          ]
+        },
+        {
+          "name": "envers",
+          "synonyms": [
+            "envers"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'autocompassion consiste à manifester de la compassion envers soi-même en cas d'insuffisance perçue, d'échec ou de souffrance. Kristin Neff a défini l'autocompassion comme étant composée de trois éléments principaux : la bienveillance envers soi, le sentiment d'humanité commune et la pleine conscience."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "biais cognitif": {
+    "type": "specialized",
+    "exact_terms": [
+      "biais cognitif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biais",
+          "synonyms": [
+            "biais"
+          ]
+        },
+        {
+          "name": "cognitif",
+          "synonyms": [
+            "cognitif"
+          ]
+        },
+        {
+          "name": "déviation",
+          "synonyms": [
+            "déviation"
+          ]
+        },
+        {
+          "name": "traitement",
+          "synonyms": [
+            "traitement"
+          ]
+        },
+        {
+          "name": "cognitif",
+          "synonyms": [
+            "cognitif"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un biais cognitif est une déviation dans le traitement cognitif d'une information. Le terme biais fait référence à une déviation de la pensée logique et rationnelle par rapport à la réalité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "bisexualité": {
+    "type": "specialized",
+    "exact_terms": [
+      "bisexualité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "bisexualité",
+          "synonyms": [
+            "bisexualité"
+          ]
+        },
+        {
+          "name": "d'éprouver",
+          "synonyms": [
+            "d'éprouver"
+          ]
+        },
+        {
+          "name": "attirance",
+          "synonyms": [
+            "attirance"
+          ]
+        },
+        {
+          "name": "sexuelle",
+          "synonyms": [
+            "sexuelle"
+          ]
+        },
+        {
+          "name": "sentiments",
+          "synonyms": [
+            "sentiments"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La bisexualité est le fait d'éprouver une attirance sexuelle ou des sentiments amoureux pour plus d'un sexe ou genre. Le degré d'attraction pour un sexe et genre ou l'autre peut varier sur l'échelle de Kinsey selon la personne et le moment de sa vie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "blessure": {
+    "type": "specialized",
+    "exact_terms": [
+      "blessure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "blessure",
+          "synonyms": [
+            "blessure"
+          ]
+        },
+        {
+          "name": "dommage",
+          "synonyms": [
+            "dommage"
+          ]
+        },
+        {
+          "name": "physique",
+          "synonyms": [
+            "physique"
+          ]
+        },
+        {
+          "name": "psychique",
+          "synonyms": [
+            "psychique"
+          ]
+        },
+        {
+          "name": "involontairement",
+          "synonyms": [
+            "involontairement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une blessure est un dommage, physique ou psychique, fait involontairement ou dans l'intention de nuire. La blessure physique est évaluée par le degré de sévérité et non l'intensité de la douleur."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "buveuse": {
+    "type": "specialized",
+    "exact_terms": [
+      "buveuse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "buveuse",
+          "synonyms": [
+            "buveuse"
+          ]
+        },
+        {
+          "name": "bombyx",
+          "synonyms": [
+            "bombyx"
+          ]
+        },
+        {
+          "name": "buveur",
+          "synonyms": [
+            "buveur"
+          ]
+        },
+        {
+          "name": "euthrix",
+          "synonyms": [
+            "euthrix"
+          ]
+        },
+        {
+          "name": "potatoria",
+          "synonyms": [
+            "potatoria"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La Buveuse ou Bombyx buveur, Euthrix potatoria, est un lépidoptère (papillon) nocturne appartenant à la famille des Lasiocampidae.\n\nSynonyme ancien\nPhiludoria potatoria Linnaeus, 1758\nLa chenille a la réputation de boire les gouttelettes d'eau des feuilles ce qui explique son nom vernaculaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "caractère": {
+    "type": "specialized",
+    "exact_terms": [
+      "caractère"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "page",
+          "synonyms": [
+            "page"
+          ]
+        },
+        {
+          "name": "contient",
+          "synonyms": [
+            "contient"
+          ]
+        },
+        {
+          "name": "pages",
+          "synonyms": [
+            "pages"
+          ]
+        },
+        {
+          "name": "d'homonymie",
+          "synonyms": [
+            "d'homonymie"
+          ]
+        },
+        {
+          "name": "caractère",
+          "synonyms": [
+            "caractère"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Cette page contient les pages d'homonymie de Caractère et Caractères.\nCaractère peut désigner :\n\nPsychologie\ncaractère, en psychologie, la manière dont une personne va réagir dans une situation donnée ;\nLinguistique et typographie\ncaractère, un signe graphique d'un système d'écriture, ou une petite pièce imprimant un caractère en typographie ;\ncaractère, un ensemble de glyphes de la même famille ;\ncaractère, en informatique, un type de données permettant la représentation des caractères typograp..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "charge mentale": {
+    "type": "specialized",
+    "exact_terms": [
+      "charge mentale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "charge",
+          "synonyms": [
+            "charge"
+          ]
+        },
+        {
+          "name": "mentale",
+          "synonyms": [
+            "mentale"
+          ]
+        },
+        {
+          "name": "charge",
+          "synonyms": [
+            "charge"
+          ]
+        },
+        {
+          "name": "cognitive",
+          "synonyms": [
+            "cognitive"
+          ]
+        },
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Charge mentale peut désigner :\n\nla charge cognitive en psychologie ;\nla charge mentale ménagère ;\nla charge mentale au travail ;\nla charge sexuelle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychologie cognitive",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "cognition": {
+    "type": "specialized",
+    "exact_terms": [
+      "cognition"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cognition",
+          "synonyms": [
+            "cognition"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "mentaux",
+          "synonyms": [
+            "mentaux"
+          ]
+        },
+        {
+          "name": "rapportent",
+          "synonyms": [
+            "rapportent"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La cognition est l'ensemble des processus mentaux qui se rapportent à la fonction de connaissance et mettent en jeu la mémoire, le langage, le raisonnement, l'apprentissage, l'intelligence, la résolution de problèmes, la prise de décision, la perception ou l'attention. Ces processus cognitifs ont été mis au jour par un petit groupe de psychologues de Harvard dans les années 1955-1960, notamment autour de Jerome Bruner et de George Miller dans ce qui a été désigné comme la « révolution cognitive ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "communication améliorée et alternative": {
+    "type": "specialized",
+    "exact_terms": [
+      "communication améliorée et alternative"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "communication",
+          "synonyms": [
+            "communication"
+          ]
+        },
+        {
+          "name": "améliorée",
+          "synonyms": [
+            "améliorée"
+          ]
+        },
+        {
+          "name": "alternative",
+          "synonyms": [
+            "alternative"
+          ]
+        },
+        {
+          "name": "caa",
+          "synonyms": [
+            "caa"
+          ]
+        },
+        {
+          "name": "générique",
+          "synonyms": [
+            "générique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La communication améliorée et alternative (CAA) est un terme générique qui englobe les méthodes de communication utilisées pour compléter ou remplacer la parole ou l'écriture pour les personnes ayant une déficience dans la production ou la compréhension du langage. La CAA est utilisée par des personnes présentant un large éventail de troubles de la parole et du langage, y compris des déficiences congénitales telles que la paralysie cérébrale, la déficience intellectuelle et l'autisme, ou des tro..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "complexe de supériorité": {
+    "type": "specialized",
+    "exact_terms": [
+      "complexe de supériorité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "complexe",
+          "synonyms": [
+            "complexe"
+          ]
+        },
+        {
+          "name": "supériorité",
+          "synonyms": [
+            "supériorité"
+          ]
+        },
+        {
+          "name": "mécanisme",
+          "synonyms": [
+            "mécanisme"
+          ]
+        },
+        {
+          "name": "défense",
+          "synonyms": [
+            "défense"
+          ]
+        },
+        {
+          "name": "psychologique",
+          "synonyms": [
+            "psychologique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le complexe de supériorité est un mécanisme de défense psychologique par lequel les sentiments de supériorité d'un individu comblent ses sentiments d'infériorité. \nIntroduit par Alfred Adler, ce concept est présenté dans deux de ses ouvrages (Understanding Human Nature et Social Interest)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "conation": {
+    "type": "specialized",
+    "exact_terms": [
+      "conation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "conation",
+          "synonyms": [
+            "conation"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "conatus",
+          "synonyms": [
+            "conatus"
+          ]
+        },
+        {
+          "name": "effort",
+          "synonyms": [
+            "effort"
+          ]
+        },
+        {
+          "name": "élan",
+          "synonyms": [
+            "élan"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La conation (du latin conatus, -us : « effort, élan ; essai, entreprise ») est un effort, une tendance, une volonté, une impulsion dirigée vers un passage à l'action. En psychologie, la conation est la troisième composante de l'action, avec la cognition et l'affectivité."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "connexité": {
+    "type": "specialized",
+    "exact_terms": [
+      "connexité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mathématiques",
+          "synonyms": [
+            "mathématiques"
+          ]
+        },
+        {
+          "name": "connexité",
+          "synonyms": [
+            "connexité"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En mathématiques, la notion  de connexité est utilisé dans deux domaines :\nen topologie, la notion de connexité formalise le concept d'« être d'un seul tenant ». Voir aussi Connexité par arcs, Connexité simple et n-connexité ;\ndans la théorie des graphes, un graphe non orienté est connexe s’il existe une chaine reliant chaque couple de sommets ; un graphe orienté est fortement connexe s’il existe un chemin reliant chaque couple de sommets."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "coprolalie": {
+    "type": "specialized",
+    "exact_terms": [
+      "coprolalie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "coprolalie",
+          "synonyms": [
+            "coprolalie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "κόπρος",
+          "synonyms": [
+            "κόπρος"
+          ]
+        },
+        {
+          "name": "excréments",
+          "synonyms": [
+            "excréments"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La coprolalie (du grec ancien κόπρος, « excréments » et λαλέω, « parler ») est un tic de langage qui consiste à dire de façon involontaire des mots grossiers ou vulgaires."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "criminologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "criminologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "criminologie",
+          "synonyms": [
+            "criminologie"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "nature",
+          "synonyms": [
+            "nature"
+          ]
+        },
+        {
+          "name": "causes",
+          "synonyms": [
+            "causes"
+          ]
+        },
+        {
+          "name": "développement",
+          "synonyms": [
+            "développement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La criminologie est l'étude de la nature, des causes, du développement et du contrôle de la criminalité à la fois d'un point de vue individuel et social. C'est un champ interdisciplinaire qui étudie le phénomène criminel et qui fait appel à de nombreuses disciplines allant de la psychologie, au droit, en passant par la sociologie (en particulier dans le domaine de la sociologie de la délinquance) ou l'économie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dans la rue": {
+    "type": "specialized",
+    "exact_terms": [
+      "dans la rue"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "rue",
+          "synonyms": [
+            "rue"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "connu",
+          "synonyms": [
+            "connu"
+          ]
+        },
+        {
+          "name": "bon",
+          "synonyms": [
+            "bon"
+          ]
+        },
+        {
+          "name": "dieu",
+          "synonyms": [
+            "dieu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans la rue (aussi connu sous Le Bon Dieu dans la rue) est une organisation caritative laïque de Montréal au service des jeunes sans-abri ou en situation précaire. Elle a été fondée en 1988 par le père Emmett Johns."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme\\errance",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dissociation": {
+    "type": "specialized",
+    "exact_terms": [
+      "dissociation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dissociation",
+          "synonyms": [
+            "dissociation"
+          ]
+        },
+        {
+          "name": "dissociation",
+          "synonyms": [
+            "dissociation"
+          ]
+        },
+        {
+          "name": "séparation",
+          "synonyms": [
+            "séparation"
+          ]
+        },
+        {
+          "name": "deux",
+          "synonyms": [
+            "deux"
+          ]
+        },
+        {
+          "name": "entités",
+          "synonyms": [
+            "entités"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La dissociation peut désigner :\n\nla dissociation, séparation en deux ou plusieurs entités moléculaires, en chimie ;\nla dissociation thermique, phénomène de dissociations chimiques se produisant à haute température ;\nla dissociation, en psychologie, action de dissocier, de rompre l'unité, la cohésion interne d'une chose ; par extension, on parle de dissociation mentale au sens psychiatrique dans deux situations très différentes : syndrome dissociatif et trouble dissociatif ;\nla dissociation, en n..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dramatisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "dramatisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dramatisation",
+          "synonyms": [
+            "dramatisation"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "permettant",
+          "synonyms": [
+            "permettant"
+          ]
+        },
+        {
+          "name": "rendre",
+          "synonyms": [
+            "rendre"
+          ]
+        },
+        {
+          "name": "œuvre",
+          "synonyms": [
+            "œuvre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La dramatisation est la technique permettant de rendre une œuvre, qu'elle soit littéraire, musicale, théâtrale, ou audio-visuelle, plus dramatique et conflictuelle. Les effets dramatiques mettent en place l'exagération, la sur-intensité d'un évènement, jusqu'à des aspects parfois comiques.[réf."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dysthymie": {
+    "type": "specialized",
+    "exact_terms": [
+      "dysthymie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dysthymie",
+          "synonyms": [
+            "dysthymie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "δυσθυμία",
+          "synonyms": [
+            "δυσθυμία"
+          ]
+        },
+        {
+          "name": "mélancolie",
+          "synonyms": [
+            "mélancolie"
+          ]
+        },
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La dysthymie (du grec δυσθυμία, « mélancolie ») est un trouble de l'humeur, chronique et persistant, impliquant un spectre dépressif. Elle n'est pas nécessairement moins sévère qu'une dépression clinique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déni de grossesse": {
+    "type": "specialized",
+    "exact_terms": [
+      "déni de grossesse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "déni",
+          "synonyms": [
+            "déni"
+          ]
+        },
+        {
+          "name": "grossesse",
+          "synonyms": [
+            "grossesse"
+          ]
+        },
+        {
+          "name": "comportement",
+          "synonyms": [
+            "comportement"
+          ]
+        },
+        {
+          "name": "inconscient",
+          "synonyms": [
+            "inconscient"
+          ]
+        },
+        {
+          "name": "négation",
+          "synonyms": [
+            "négation"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le déni de grossesse est le comportement inconscient de négation du fait d'être enceinte, que présentent certaines femmes par méconnaissance de leur grossesse, les changements liés à la grossesse étant biologiquement réduits ou incorrectement perçus. Une grossesse niée évolue à l'insu de la femme qui peut ne pas sentir qu'elle est enceinte, ou alors ne pas faire de lien entre les symptômes perçus et une grossesse."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dépersonnalisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "dépersonnalisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dépersonnalisation",
+          "synonyms": [
+            "dépersonnalisation"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        },
+        {
+          "name": "abrégé",
+          "synonyms": [
+            "abrégé"
+          ]
+        },
+        {
+          "name": "symptôme",
+          "synonyms": [
+            "symptôme"
+          ]
+        },
+        {
+          "name": "psychologique",
+          "synonyms": [
+            "psychologique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La dépersonnalisation (parfois abrégé DP) est un symptôme psychologique dissociatif. Il s'agit d'un sentiment de perte du sens de soi-même, de confusion, dans lequel un individu semble ne posséder aucun contrôle de la situation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "désensibilisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "désensibilisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "désensibilisation",
+          "synonyms": [
+            "désensibilisation"
+          ]
+        },
+        {
+          "name": "désensibilisation",
+          "synonyms": [
+            "désensibilisation"
+          ]
+        },
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        },
+        {
+          "name": "réponse",
+          "synonyms": [
+            "réponse"
+          ]
+        },
+        {
+          "name": "émotionnelle",
+          "synonyms": [
+            "émotionnelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La désensibilisation peut désigner :\n\nDésensibilisation (psychologie), réponse émotionnelle moins réceptive aux stimulus après exposition répétée et prolongée\nHyposensibilisation, vaccination anti-allergique\nDésensibilisation (télécommunications), phénomène observé lorsqu'un signal est soumis à une forte interférence électromagnétique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "effet de halo": {
+    "type": "specialized",
+    "exact_terms": [
+      "effet de halo"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "effet",
+          "synonyms": [
+            "effet"
+          ]
+        },
+        {
+          "name": "halo",
+          "synonyms": [
+            "halo"
+          ]
+        },
+        {
+          "name": "effet",
+          "synonyms": [
+            "effet"
+          ]
+        },
+        {
+          "name": "notoriété",
+          "synonyms": [
+            "notoriété"
+          ]
+        },
+        {
+          "name": "encore",
+          "synonyms": [
+            "encore"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’effet de halo, effet de notoriété ou encore effet de contamination, est un biais cognitif qui affecte la perception des gens ou de marques. C'est une interprétation et une perception sélective d'informations allant dans le sens d'une première impression (« il ne voit que ce qu'il veut bien voir »)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychologie sociale",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "emprise": {
+    "type": "specialized",
+    "exact_terms": [
+      "emprise"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "dérivé",
+          "synonyms": [
+            "dérivé"
+          ]
+        },
+        {
+          "name": "verbe",
+          "synonyms": [
+            "verbe"
+          ]
+        },
+        {
+          "name": "emprendre",
+          "synonyms": [
+            "emprendre"
+          ]
+        },
+        {
+          "name": "entreprendre",
+          "synonyms": [
+            "entreprendre"
+          ]
+        },
+        {
+          "name": "saisir",
+          "synonyms": [
+            "saisir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dérivé du verbe emprendre (« entreprendre, saisir »), le mot emprise désigne à l’origine une action exercée sur quelque chose ou sur quelqu’un. De cette idée première de prise — matérielle ou symbolique — procèdent plusieurs acceptions, techniques ou courantes, qui relèvent tantôt du domaine juridique ou industriel, tantôt des rapports humains, de la psychologie ou des sciences sociales."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "enculturation": {
+    "type": "specialized",
+    "exact_terms": [
+      "enculturation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'enculturation",
+          "synonyms": [
+            "l'enculturation"
+          ]
+        },
+        {
+          "name": "proposé",
+          "synonyms": [
+            "proposé"
+          ]
+        },
+        {
+          "name": "margaret",
+          "synonyms": [
+            "margaret"
+          ]
+        },
+        {
+          "name": "mead",
+          "synonyms": [
+            "mead"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'enculturation est un terme proposé par Margaret Mead pour définir le processus par lequel le groupe va transmettre à l'enfant, dès sa naissance, des éléments culturels, normes et valeurs partagés. L'enculturation traduit le processus de transmission de la culture du groupe à l'enfant."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "front": {
+    "type": "specialized",
+    "exact_terms": [
+      "front"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "front",
+          "synonyms": [
+            "front"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Front est un nom commun ou nom propre qui peut faire référence à :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "genre": {
+    "type": "specialized",
+    "exact_terms": [
+      "genre"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "notions",
+          "synonyms": [
+            "notions"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "genre",
+          "synonyms": [
+            "genre"
+          ]
+        },
+        {
+          "name": "rang",
+          "synonyms": [
+            "rang"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot genre peut désigner plusieurs notions  :\n\nen biologie, le genre est un rang taxinomique qui regroupe un ensemble d'espèces ayant en commun plusieurs caractères similaires ;\nen mathématiques :\nle genre est une propriété de plusieurs types de surfaces ou de courbes ;\nla théorie des genres, théorie de la théorie des jeux ;\nen physique, le genre est une propriété d'un quadrivecteur ;\nen sciences sociales, le genre fait référence aux processus et rapports sociaux qui divisent, polarisent et or..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychologie sociale",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gueuse": {
+    "type": "specialized",
+    "exact_terms": [
+      "gueuse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gueuse",
+          "synonyms": [
+            "gueuse"
+          ]
+        },
+        {
+          "name": "vocable",
+          "synonyms": [
+            "vocable"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "sidérurgie",
+          "synonyms": [
+            "sidérurgie"
+          ]
+        },
+        {
+          "name": "ancienne",
+          "synonyms": [
+            "ancienne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une gueuse, vocable commun de la sidérurgie ancienne, est une masse de fonte brute de quelques dizaines de kilos, grossièrement moulée, issue de la coulée liquide d'un haut fourneau ou d'un cubilot. À la différence du lingot, il s'agit de fonte de première fusion et coulée à l'air libre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme\\errance",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "géophagie": {
+    "type": "specialized",
+    "exact_terms": [
+      "géophagie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "géophagie",
+          "synonyms": [
+            "géophagie"
+          ]
+        },
+        {
+          "name": "manger",
+          "synonyms": [
+            "manger"
+          ]
+        },
+        {
+          "name": "terre",
+          "synonyms": [
+            "terre"
+          ]
+        },
+        {
+          "name": "existe",
+          "synonyms": [
+            "existe"
+          ]
+        },
+        {
+          "name": "types",
+          "synonyms": [
+            "types"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La géophagie est le fait de manger de la terre.\nIl existe plusieurs types de géophagie :\n\nLa géophagie associée est l’ingestion de la terre présente sur les végétaux par les herbivores et omnivores (dont les humains et autres grands singes)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hangover": {
+    "type": "specialized",
+    "exact_terms": [
+      "hangover"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "hangover",
+          "synonyms": [
+            "hangover"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "gueule",
+          "synonyms": [
+            "gueule"
+          ]
+        },
+        {
+          "name": "bois",
+          "synonyms": [
+            "bois"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Hangover, qui signifie « gueule de bois » en anglais, peut désigner :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "harcèlement": {
+    "type": "specialized",
+    "exact_terms": [
+      "harcèlement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "harcèlement",
+          "synonyms": [
+            "harcèlement"
+          ]
+        },
+        {
+          "name": "mode",
+          "synonyms": [
+            "mode"
+          ]
+        },
+        {
+          "name": "persécution",
+          "synonyms": [
+            "persécution"
+          ]
+        },
+        {
+          "name": "consistant",
+          "synonyms": [
+            "consistant"
+          ]
+        },
+        {
+          "name": "enchaîner",
+          "synonyms": [
+            "enchaîner"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le harcèlement est un mode de persécution consistant à enchaîner de façon répétée des agissements ou des paroles hostiles afin de démoraliser et d'affaiblir psychologiquement la personne qui en est la victime.\nCe type de comportement peut être habituel pour le harceleur, et viser le statut social ou l'intégrité physique de la victime."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hypomanie": {
+    "type": "specialized",
+    "exact_terms": [
+      "hypomanie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "hypomanie",
+          "synonyms": [
+            "hypomanie"
+          ]
+        },
+        {
+          "name": "littéralement",
+          "synonyms": [
+            "littéralement"
+          ]
+        },
+        {
+          "name": "sous-manie",
+          "synonyms": [
+            "sous-manie"
+          ]
+        },
+        {
+          "name": "état",
+          "synonyms": [
+            "état"
+          ]
+        },
+        {
+          "name": "psychiatrique",
+          "synonyms": [
+            "psychiatrique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L’hypomanie (littéralement, « sous-manie ») est un état psychiatrique caractérisé par un trouble de l'humeur, laquelle peut être irritable, excitée, persistante et omniprésente, ainsi que par des troubles de la pensée et des troubles de comportements concomitants. Un individu en état hypomaniaque possède en général un besoin moins important de dormir ou de se reposer, est très extraverti, très compétitif, et manifeste une énergie débordante."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "identité sexuelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "identité sexuelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'identité",
+          "synonyms": [
+            "l'identité"
+          ]
+        },
+        {
+          "name": "sexuelle",
+          "synonyms": [
+            "sexuelle"
+          ]
+        },
+        {
+          "name": "manière",
+          "synonyms": [
+            "manière"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "perçoit",
+          "synonyms": [
+            "perçoit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'identité sexuelle est la manière dont une personne perçoit et définit son orientation sexuelle. \nL'identité sexuelle est étroitement liée à l'orientation sexuelle et au comportement sexuel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "idéation": {
+    "type": "specialized",
+    "exact_terms": [
+      "idéation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'idéation",
+          "synonyms": [
+            "l'idéation"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "créatif",
+          "synonyms": [
+            "créatif"
+          ]
+        },
+        {
+          "name": "production",
+          "synonyms": [
+            "production"
+          ]
+        },
+        {
+          "name": "développement",
+          "synonyms": [
+            "développement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'idéation est le processus créatif de production, développement, et communication de nouvelles idées ; le terme idée signifie ici un élément de base de la pensée, ou plutôt de la vie psychique en général, qui peut être aussi bien sensoriel ou concret qu'abstrait. L'idéation est la formation et l’enchaînement des idées."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "impulsivité": {
+    "type": "specialized",
+    "exact_terms": [
+      "impulsivité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'impulsivité",
+          "synonyms": [
+            "l'impulsivité"
+          ]
+        },
+        {
+          "name": "trait",
+          "synonyms": [
+            "trait"
+          ]
+        },
+        {
+          "name": "personnalité",
+          "synonyms": [
+            "personnalité"
+          ]
+        },
+        {
+          "name": "caractérisé",
+          "synonyms": [
+            "caractérisé"
+          ]
+        },
+        {
+          "name": "comportement",
+          "synonyms": [
+            "comportement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'impulsivité est un trait de personnalité caractérisé par un comportement direct adopté par un individu sans que celui-ci pense aux conséquences de ses actes. Le docteur Ernest S. Barratt a lié l'impulsivité à une prise de risque, un manque de planification mentale et une prise de décision rapide."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "inconscience": {
+    "type": "specialized",
+    "exact_terms": [
+      "inconscience"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'inconscience",
+          "synonyms": [
+            "l'inconscience"
+          ]
+        },
+        {
+          "name": "inconscience",
+          "synonyms": [
+            "inconscience"
+          ]
+        },
+        {
+          "name": "perte",
+          "synonyms": [
+            "perte"
+          ]
+        },
+        {
+          "name": "connaissance",
+          "synonyms": [
+            "connaissance"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'inconscience peut désigner :\n\nInconscience, perte de connaissance."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ivrogne": {
+    "type": "specialized",
+    "exact_terms": [
+      "ivrogne"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ivrogne",
+          "synonyms": [
+            "ivrogne"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "l'ivrogne",
+          "synonyms": [
+            "l'ivrogne"
+          ]
+        },
+        {
+          "name": "nouvelle",
+          "synonyms": [
+            "nouvelle"
+          ]
+        },
+        {
+          "name": "guy",
+          "synonyms": [
+            "guy"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Ivrogne peut faire référence à :\n\nL'Ivrogne, nouvelle de Guy de Maupassant (1884),\nL'Ivrogne, film grec de Yórgos Tzavéllas (1950)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "jeu de rôle": {
+    "type": "specialized",
+    "exact_terms": [
+      "jeu de rôle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "jeu",
+          "synonyms": [
+            "jeu"
+          ]
+        },
+        {
+          "name": "rôle",
+          "synonyms": [
+            "rôle"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "activité",
+          "synonyms": [
+            "activité"
+          ]
+        },
+        {
+          "name": "laquelle",
+          "synonyms": [
+            "laquelle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un jeu de rôle est une technique ou activité, par laquelle une personne interprète le rôle d'un personnage (réel ou imaginaire) dans un environnement (réel ou fictif). Le participant agit à travers ce rôle par des actions physiques ou imaginaires, par des actions narratives (dialogues improvisés, descriptions, jeu) et par des prises de décision sur le développement du personnage et de son histoire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "lumpenprolétariat": {
+    "type": "specialized",
+    "exact_terms": [
+      "lumpenprolétariat"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "lumpenprolétariat",
+          "synonyms": [
+            "lumpenprolétariat"
+          ]
+        },
+        {
+          "name": "l'allemand",
+          "synonyms": [
+            "l'allemand"
+          ]
+        },
+        {
+          "name": "lumpenproletariat",
+          "synonyms": [
+            "lumpenproletariat"
+          ]
+        },
+        {
+          "name": "littéralement",
+          "synonyms": [
+            "littéralement"
+          ]
+        },
+        {
+          "name": "prolétariat",
+          "synonyms": [
+            "prolétariat"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le lumpenprolétariat (de l'allemand Lumpenproletariat, littéralement « prolétariat en haillons »), parfois appelé « sous-prolétariat », est, dans le marxisme, la partie du prolétariat constituée des « éléments déclassés, voyous, mendiants, voleurs, indicateurs de police, etc."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie\\alcoolisme\\errance",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mentisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "mentisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "appelle",
+          "synonyms": [
+            "appelle"
+          ]
+        },
+        {
+          "name": "mentisme",
+          "synonyms": [
+            "mentisme"
+          ]
+        },
+        {
+          "name": "défilé",
+          "synonyms": [
+            "défilé"
+          ]
+        },
+        {
+          "name": "rapide",
+          "synonyms": [
+            "rapide"
+          ]
+        },
+        {
+          "name": "incoercible",
+          "synonyms": [
+            "incoercible"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "On appelle mentisme un défilé rapide et incoercible de pensées et d'images, que le sujet ne peut contrôler ou interrompre, et dont le contenu peut être plus ou moins angoissant. Il a initialement été décrit par l'aliéniste Philippe Chaslin."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "micro-expression": {
+    "type": "specialized",
+    "exact_terms": [
+      "micro-expression"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "micro-expression",
+          "synonyms": [
+            "micro-expression"
+          ]
+        },
+        {
+          "name": "expression",
+          "synonyms": [
+            "expression"
+          ]
+        },
+        {
+          "name": "faciale",
+          "synonyms": [
+            "faciale"
+          ]
+        },
+        {
+          "name": "brève",
+          "synonyms": [
+            "brève"
+          ]
+        },
+        {
+          "name": "involontaire",
+          "synonyms": [
+            "involontaire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une micro-expression est une expression faciale brève et involontaire que le visage humain exprime en fonction des émotions vécues. Plusieurs durées ont été avancées concernant les micro-expressions telles que 1/15 à 1/25 de seconde."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "misanthropie": {
+    "type": "specialized",
+    "exact_terms": [
+      "misanthropie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "misanthropie",
+          "synonyms": [
+            "misanthropie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "μῖσος",
+          "synonyms": [
+            "μῖσος"
+          ]
+        },
+        {
+          "name": "mîsos",
+          "synonyms": [
+            "mîsos"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La misanthropie (du grec ancien μῖσος / mîsos « haine » et ἄνθρωπος / ánthrôpos « homme », « genre humain ») est le fait de détester ou mépriser le genre humain dans son ensemble, sans aucune distinction de sexe, d'ethnie, de religion ou de nationalité.\nLa misanthropie s'oppose à la philanthropie (attitude de bienfaisance à l'égard d'autres personnes) et ne doit pas être confondue avec la misogynie (sentiment de mépris ou d'hostilité à l'égard des femmes) ou la misandrie (sentiment de mépris ou ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "monoïdéisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "monoïdéisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "monoïdéisme",
+          "synonyms": [
+            "monoïdéisme"
+          ]
+        },
+        {
+          "name": "théorie",
+          "synonyms": [
+            "théorie"
+          ]
+        },
+        {
+          "name": "l'hypnose",
+          "synonyms": [
+            "l'hypnose"
+          ]
+        },
+        {
+          "name": "1841",
+          "synonyms": [
+            "1841"
+          ]
+        },
+        {
+          "name": "james",
+          "synonyms": [
+            "james"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le monoïdéisme est une théorie sur l'hypnose. En 1841, James Braid, chirurgien écossais, pose les bases scientifiques de ce qu'il va appeler : « l'Hypnose »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "multipotentialité": {
+    "type": "specialized",
+    "exact_terms": [
+      "multipotentialité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "multipotentialité",
+          "synonyms": [
+            "multipotentialité"
+          ]
+        },
+        {
+          "name": "capacité",
+          "synonyms": [
+            "capacité"
+          ]
+        },
+        {
+          "name": "préférence",
+          "synonyms": [
+            "préférence"
+          ]
+        },
+        {
+          "name": "personne",
+          "synonyms": [
+            "personne"
+          ]
+        },
+        {
+          "name": "exceller",
+          "synonyms": [
+            "exceller"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La multipotentialité est la capacité et la préférence d'une personne à exceller dans deux ou plus de deux champs différents.\nLe substantif français multipotentialité et l'adjectif multipotentiel(le)(s) sont utilisés en pédagogie et en psychologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mère réfrigérateur": {
+    "type": "specialized",
+    "exact_terms": [
+      "mère réfrigérateur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mère",
+          "synonyms": [
+            "mère"
+          ]
+        },
+        {
+          "name": "réfrigérateur",
+          "synonyms": [
+            "réfrigérateur"
+          ]
+        },
+        {
+          "name": "expression",
+          "synonyms": [
+            "expression"
+          ]
+        },
+        {
+          "name": "utilisée",
+          "synonyms": [
+            "utilisée"
+          ]
+        },
+        {
+          "name": "surtout",
+          "synonyms": [
+            "surtout"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La mère réfrigérateur est une expression utilisée surtout dans les années 1950-1960 pour qualifier une attitude de manque de chaleur affective attribuée aux parents (souvent la mère) d'enfants autistes ou schizophrènes, leur imputant la responsabilité de l'autisme de leurs enfants. Cette hypothèse est réfutée par la science moderne, l'autisme ayant une origine multifactorielle, principalement génétique et environnementale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mémoire traumatique": {
+    "type": "specialized",
+    "exact_terms": [
+      "mémoire traumatique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'expression",
+          "synonyms": [
+            "l'expression"
+          ]
+        },
+        {
+          "name": "mémoire",
+          "synonyms": [
+            "mémoire"
+          ]
+        },
+        {
+          "name": "traumatique",
+          "synonyms": [
+            "traumatique"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "mémoire",
+          "synonyms": [
+            "mémoire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'expression « mémoire traumatique » peut faire référence à :\n\nla mémoire traumatique refoulée ;\nle trouble de stress post-traumatique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychopathologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "numératie": {
+    "type": "specialized",
+    "exact_terms": [
+      "numératie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "numératie",
+          "synonyms": [
+            "numératie"
+          ]
+        },
+        {
+          "name": "capacité",
+          "synonyms": [
+            "capacité"
+          ]
+        },
+        {
+          "name": "utiliser",
+          "synonyms": [
+            "utiliser"
+          ]
+        },
+        {
+          "name": "appliquer",
+          "synonyms": [
+            "appliquer"
+          ]
+        },
+        {
+          "name": "interpréter",
+          "synonyms": [
+            "interpréter"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La numératie est la capacité à utiliser, à appliquer, à interpréter, à communiquer, à créer et à critiquer des informations et des idées mathématiques de la vie réelle. C’est également la tendance d’un individu à réfléchir mathématiquement dans différentes situations professionnelles, personnelles, sociales et culturelles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "névrose": {
+    "type": "specialized",
+    "exact_terms": [
+      "névrose"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "névrose",
+          "synonyms": [
+            "névrose"
+          ]
+        },
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "psychique",
+          "synonyms": [
+            "psychique"
+          ]
+        },
+        {
+          "name": "lequel",
+          "synonyms": [
+            "lequel"
+          ]
+        },
+        {
+          "name": "sujet",
+          "synonyms": [
+            "sujet"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une névrose est un trouble psychique dans lequel le sujet est conscient de sa souffrance psychique et s'en plaint."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychanalyse",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ondinisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "ondinisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "sexualité",
+          "synonyms": [
+            "sexualité"
+          ]
+        },
+        {
+          "name": "ondinisme",
+          "synonyms": [
+            "ondinisme"
+          ]
+        },
+        {
+          "name": "urophilie",
+          "synonyms": [
+            "urophilie"
+          ]
+        },
+        {
+          "name": "paraphilie",
+          "synonyms": [
+            "paraphilie"
+          ]
+        },
+        {
+          "name": "liée",
+          "synonyms": [
+            "liée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans la sexualité, l’ondinisme ou urophilie est une paraphilie liée à l'urine.\nEn médecine, l’ondinisme ou syndrome d'Ondine est un syndrome respiratoire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "onirothérapie": {
+    "type": "specialized",
+    "exact_terms": [
+      "onirothérapie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'onirothérapie",
+          "synonyms": [
+            "l'onirothérapie"
+          ]
+        },
+        {
+          "name": "utilisé",
+          "synonyms": [
+            "utilisé"
+          ]
+        },
+        {
+          "name": "psychiatrie",
+          "synonyms": [
+            "psychiatrie"
+          ]
+        },
+        {
+          "name": "été",
+          "synonyms": [
+            "été"
+          ]
+        },
+        {
+          "name": "inventé",
+          "synonyms": [
+            "inventé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'onirothérapie est un terme utilisé en psychiatrie qui a été inventé par Roger Frétigny, psychiatre, et André Virel, docteur en psychologie. C'est le fait d'utiliser la pensée onirique dans un but thérapeutique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "onychophagie": {
+    "type": "specialized",
+    "exact_terms": [
+      "onychophagie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'onychophagie",
+          "synonyms": [
+            "l'onychophagie"
+          ]
+        },
+        {
+          "name": "l'acte",
+          "synonyms": [
+            "l'acte"
+          ]
+        },
+        {
+          "name": "ronger",
+          "synonyms": [
+            "ronger"
+          ]
+        },
+        {
+          "name": "ongles",
+          "synonyms": [
+            "ongles"
+          ]
+        },
+        {
+          "name": "général",
+          "synonyms": [
+            "général"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'onychophagie est l'acte de se ronger les ongles, en général des mains, et parfois des pieds.\nL'onychophagie est classée comme dans la catégorie « obsessive-compulsive and related disorders » dans le DSM-5 et comme faisant partie d'« autres troubles précisés du comportement et troubles émotionnels apparaissant habituellement durant l'enfance et l'adolescence » (F98.8) dans la CIM-10."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "p3": {
+    "type": "specialized",
+    "exact_terms": [
+      "p3"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "p-3",
+          "synonyms": [
+            "p-3"
+          ]
+        },
+        {
+          "name": "iii",
+          "synonyms": [
+            "iii"
+          ]
+        },
+        {
+          "name": "p03",
+          "synonyms": [
+            "p03"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "P3, P-3, P.3, P.III ou P03 peut faire référence à :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "paralogie": {
+    "type": "specialized",
+    "exact_terms": [
+      "paralogie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        },
+        {
+          "name": "l'évolution",
+          "synonyms": [
+            "l'évolution"
+          ]
+        },
+        {
+          "name": "paralogie",
+          "synonyms": [
+            "paralogie"
+          ]
+        },
+        {
+          "name": "lien",
+          "synonyms": [
+            "lien"
+          ]
+        },
+        {
+          "name": "évolutif",
+          "synonyms": [
+            "évolutif"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En biologie de l'évolution, une paralogie est un lien évolutif entre deux gènes issus d'un évènement de duplication.\nPour que deux gènes soient considérés comme paralogues, ils doivent être d'abord homologues, c'est-à-dire qu'ils descendent d'un même gène ancestral ; à la suite d'une duplication, les deux copies du gène divergent jusqu'à devenir deux gènes paralogues, dans une même espèce, ou dans deux espèces différentes (si la duplication est suivie par une spéciation)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "paraphilie": {
+    "type": "specialized",
+    "exact_terms": [
+      "paraphilie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "paraphilie",
+          "synonyms": [
+            "paraphilie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "παρά",
+          "synonyms": [
+            "παρά"
+          ]
+        },
+        {
+          "name": "pará",
+          "synonyms": [
+            "pará"
+          ]
+        },
+        {
+          "name": "auprès",
+          "synonyms": [
+            "auprès"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une paraphilie (du grec παρά / pará, « auprès de, à côté de » et φιλία / philía, « amitié, amour ») est une pratique sexuelle qui diffère des actes traditionnellement considérés comme normaux, ou le fait d'éprouver une attirance sexuelle considérée comme anormale. Elle n'est donc pas considérée comme un trouble mental, à la différence du trouble paraphilique, qui est diagnostiqué lorsque la paraphilie cause une détresse ou une altération cliniquement significative dans la vie de la personne, ou ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "parentification": {
+    "type": "specialized",
+    "exact_terms": [
+      "parentification"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "parentification",
+          "synonyms": [
+            "parentification"
+          ]
+        },
+        {
+          "name": "inversion",
+          "synonyms": [
+            "inversion"
+          ]
+        },
+        {
+          "name": "rôles",
+          "synonyms": [
+            "rôles"
+          ]
+        },
+        {
+          "name": "parent-enfant",
+          "synonyms": [
+            "parent-enfant"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La parentification, ou inversion des rôles parent-enfant, est le processus d'inversion des rôles par lequel un enfant ou un adolescent est obligé d'agir en tant que parent envers son propre parent ou bien ses frères et sœurs.\nTechniquement, deux types distincts de parentification ont été identifiés : la parentification instrumentale et la parentification émotionnelle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "preuve sociale": {
+    "type": "specialized",
+    "exact_terms": [
+      "preuve sociale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "preuve",
+          "synonyms": [
+            "preuve"
+          ]
+        },
+        {
+          "name": "sociale",
+          "synonyms": [
+            "sociale"
+          ]
+        },
+        {
+          "name": "principe",
+          "synonyms": [
+            "principe"
+          ]
+        },
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        },
+        {
+          "name": "sociale",
+          "synonyms": [
+            "sociale"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La preuve sociale est un principe de psychologie sociale. Selon ce principe, un individu ne sachant quoi faire ou penser, aura tendance à adopter le comportement ou le point de vue d'autres personnes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "profilage": {
+    "type": "specialized",
+    "exact_terms": [
+      "profilage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "profilage",
+          "synonyms": [
+            "profilage"
+          ]
+        },
+        {
+          "name": "criminel",
+          "synonyms": [
+            "criminel"
+          ]
+        },
+        {
+          "name": "analyse",
+          "synonyms": [
+            "analyse"
+          ]
+        },
+        {
+          "name": "comportementale",
+          "synonyms": [
+            "comportementale"
+          ]
+        },
+        {
+          "name": "méthode",
+          "synonyms": [
+            "méthode"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le profilage criminel, ou analyse comportementale, est une méthode permettant à des enquêteurs de déterminer le profil psychologique d'un criminel.\nLe profilage politique, racial ou social est une pratique policière discriminatoire consistant à cibler des individus ou des groupes en fonction de leurs identités politiques, raciales ou sociales, réelles ou présumées."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "préconscient": {
+    "type": "specialized",
+    "exact_terms": [
+      "préconscient"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "métapsychologie",
+          "synonyms": [
+            "métapsychologie"
+          ]
+        },
+        {
+          "name": "sigmund",
+          "synonyms": [
+            "sigmund"
+          ]
+        },
+        {
+          "name": "freud",
+          "synonyms": [
+            "freud"
+          ]
+        },
+        {
+          "name": "préconscient",
+          "synonyms": [
+            "préconscient"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans la métapsychologie de Sigmund Freud, le préconscient désigne une instance équivalente à la mémoire. On peut rencontrer ce terme abrégé en pcs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "préjugé": {
+    "type": "specialized",
+    "exact_terms": [
+      "préjugé"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "préjugé",
+          "synonyms": [
+            "préjugé"
+          ]
+        },
+        {
+          "name": "jugement",
+          "synonyms": [
+            "jugement"
+          ]
+        },
+        {
+          "name": "préalable",
+          "synonyms": [
+            "préalable"
+          ]
+        },
+        {
+          "name": "opinion",
+          "synonyms": [
+            "opinion"
+          ]
+        },
+        {
+          "name": "adoptée",
+          "synonyms": [
+            "adoptée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un préjugé (jugement préalable) est une opinion adoptée en l'absence d'informations ou de pratiques suffisantes. Parfois articulés sur des mythes ou des croyances, ou résultant d'une généralisation hâtive, les préjugés sont considérés dans une perspective bayésienne comme le point de départ de toute acquisition d'information, le processus d'apprentissage consistant simplement à les rectifier aussi vite que possible à la lumière de l'expérience un préjugé est une idée admise sans démonstration, a..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychologie sociale",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "psychanalyse": {
+    "type": "specialized",
+    "exact_terms": [
+      "psychanalyse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychanalyse",
+          "synonyms": [
+            "psychanalyse"
+          ]
+        },
+        {
+          "name": "discipline",
+          "synonyms": [
+            "discipline"
+          ]
+        },
+        {
+          "name": "fondée",
+          "synonyms": [
+            "fondée"
+          ]
+        },
+        {
+          "name": "sigmund",
+          "synonyms": [
+            "sigmund"
+          ]
+        },
+        {
+          "name": "freud",
+          "synonyms": [
+            "freud"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La psychanalyse est  « une discipline fondée par Sigmund Freud ». Parmi les définitions qu'il en a données, « l'une des plus explicites se trouve au début de l'article de l'Encyclopédie » paru en 1922 : Psychanalyse est le nom :\n\nD'un procédé pour l'investigation de processus mentaux à peu près inaccessibles autrement ;\nD'une méthode fondée sur cette investigation pour le traitement des désordres névrotiques ;\nd'une série de conceptions psychologiques acquises par ce moyen et qui s'accroissent e..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychanalyse",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "psychisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "psychisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychisme",
+          "synonyms": [
+            "psychisme"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "processus",
+          "synonyms": [
+            "processus"
+          ]
+        },
+        {
+          "name": "phénomènes",
+          "synonyms": [
+            "phénomènes"
+          ]
+        },
+        {
+          "name": "psychiques",
+          "synonyms": [
+            "psychiques"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le psychisme est l'ensemble des processus et phénomènes psychiques conscients ou inconscients, considéré en totalité ou par sous- ensembles, relevant de l’esprit, de l’intelligence, de l’affectivité et de la volonté constitutifs de la vie psychique d'un individu.\nDans une autre acception, le mot psychisme, accompagné d'un champ qualitatif, désigne un ensemble particulier de phénomènes psychiques formant un tout dans le tout du psychisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "psychodynamique": {
+    "type": "specialized",
+    "exact_terms": [
+      "psychodynamique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychodynamique",
+          "synonyms": [
+            "psychodynamique"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "rapportant",
+          "synonyms": [
+            "rapportant"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "psychisme",
+          "synonyms": [
+            "psychisme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Psychodynamique est un adjectif se rapportant à l'étude du psychisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "psychologie cognitive": {
+    "type": "specialized",
+    "exact_terms": [
+      "psychologie cognitive"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        },
+        {
+          "name": "cognitive",
+          "synonyms": [
+            "cognitive"
+          ]
+        },
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        },
+        {
+          "name": "connaissance",
+          "synonyms": [
+            "connaissance"
+          ]
+        },
+        {
+          "name": "étudie",
+          "synonyms": [
+            "étudie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La psychologie cognitive, ou psychologie de la connaissance, étudie les grandes fonctions psychologiques de l'être humain que sont la mémoire, le langage, l'intelligence, le raisonnement, la résolution de problèmes, la perception, l'attention et, récemment (depuis une cinquantaine d'année)[Depuis quand ?], les émotions, inhérentes à la psychologie cognitive. La psychologie cognitive est l'étude de l'ensemble des états mentaux et l'ensemble des processus psychiques, en résumé : l'étude des activi..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "psychopharmacologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "psychopharmacologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychopharmacologie",
+          "synonyms": [
+            "psychopharmacologie"
+          ]
+        },
+        {
+          "name": "l'étude",
+          "synonyms": [
+            "l'étude"
+          ]
+        },
+        {
+          "name": "scientifique",
+          "synonyms": [
+            "scientifique"
+          ]
+        },
+        {
+          "name": "produits",
+          "synonyms": [
+            "produits"
+          ]
+        },
+        {
+          "name": "psychotropes",
+          "synonyms": [
+            "psychotropes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La psychopharmacologie est l'étude scientifique des produits psychotropes, de leurs effets sur les sensations, l'humeur, la pensée, etc. et de leurs applications en psychiatrie et psychologie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "psychosomatique": {
+    "type": "specialized",
+    "exact_terms": [
+      "psychosomatique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychosomatique",
+          "synonyms": [
+            "psychosomatique"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "psyché",
+          "synonyms": [
+            "psyché"
+          ]
+        },
+        {
+          "name": "mental",
+          "synonyms": [
+            "mental"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme psychosomatique (du grec ancien: psyché, le mental et soma, le corps) ou maladie psychosomatique, désigne les maladies, les douleurs, ou les troubles physiques causés ou aggravés par des facteurs psychiques et psychologiques. On parle aussi en ce sens de somatisation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "représentation sociale": {
+    "type": "specialized",
+    "exact_terms": [
+      "représentation sociale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "théorie",
+          "synonyms": [
+            "théorie"
+          ]
+        },
+        {
+          "name": "représentations",
+          "synonyms": [
+            "représentations"
+          ]
+        },
+        {
+          "name": "sociales",
+          "synonyms": [
+            "sociales"
+          ]
+        },
+        {
+          "name": "centrale",
+          "synonyms": [
+            "centrale"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La théorie des représentations sociales est centrale dans plusieurs domaines des sciences sociales. La théorie a été développée au tournant des années 1960 par Serge Moscovici."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychologie sociale",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "rémanence": {
+    "type": "specialized",
+    "exact_terms": [
+      "rémanence"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "rémanence",
+          "synonyms": [
+            "rémanence"
+          ]
+        },
+        {
+          "name": "employée",
+          "synonyms": [
+            "employée"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        },
+        {
+          "name": "magnétisme",
+          "synonyms": [
+            "magnétisme"
+          ]
+        },
+        {
+          "name": "voir",
+          "synonyms": [
+            "voir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La rémanence est une notion employée dans plusieurs domaines :\n\nen magnétisme, voir Rémanence thermomagnétique et rémanence (magnétisme) ;\nen géomagnétisme, voir Paléomagnétisme ;\nen astronomie, voir Rémanent de supernova ;\nen informatique, un support de stockage ou un composant mémoire peut conserver ses données même lorsque l'alimentation électrique est coupée. Exemples : disque dur, mémoire non volatile, mémoire flash ;\nen science des matériaux, les déformations rémanentes à la compression (e..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "rêve": {
+    "type": "specialized",
+    "exact_terms": [
+      "rêve"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "rêve",
+          "synonyms": [
+            "rêve"
+          ]
+        },
+        {
+          "name": "disposition",
+          "synonyms": [
+            "disposition"
+          ]
+        },
+        {
+          "name": "l'esprit",
+          "synonyms": [
+            "l'esprit"
+          ]
+        },
+        {
+          "name": "généralement",
+          "synonyms": [
+            "généralement"
+          ]
+        },
+        {
+          "name": "nocturne",
+          "synonyms": [
+            "nocturne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le rêve est une disposition de l'esprit généralement nocturne, survenant au cours du sommeil, et qui procure à l'individu éveillé des souvenirs nommés rêves.\nAu cours de l'histoire et des civilisations, le rêve a été un moyen de s'affranchir du temps et de l'espace ordinaires, pour accéder au surnaturel, aux ancêtres, au divin, ou encore comme un moyen de guérison, de connaissance et de révélation."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "schismogenèse": {
+    "type": "specialized",
+    "exact_terms": [
+      "schismogenèse"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        },
+        {
+          "name": "anthropologie",
+          "synonyms": [
+            "anthropologie"
+          ]
+        },
+        {
+          "name": "schismogenèse",
+          "synonyms": [
+            "schismogenèse"
+          ]
+        },
+        {
+          "name": "littéralement",
+          "synonyms": [
+            "littéralement"
+          ]
+        },
+        {
+          "name": "schisme",
+          "synonyms": [
+            "schisme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En psychologie et anthropologie, la schismogenèse (littéralement schisme : « division, séparation », et genèse : « création ») désigne un processus de différenciation des normes de comportements d'un individu ou d'un groupe social. Le concept est créé par l'anthropologue, psychologue et épistémologue anglais Grégory Bateson lors de son étude du peuple des Iatmul et représente une esquisse de la notion de double-bind (double contrainte) que Bateson proposera en 1956 pour tenter d'expliquer certai..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "shutdown": {
+    "type": "specialized",
+    "exact_terms": [
+      "shutdown"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "shutdown",
+          "synonyms": [
+            "shutdown"
+          ]
+        },
+        {
+          "name": "shutdown",
+          "synonyms": [
+            "shutdown"
+          ]
+        },
+        {
+          "name": "l'arrêt",
+          "synonyms": [
+            "l'arrêt"
+          ]
+        },
+        {
+          "name": "activités",
+          "synonyms": [
+            "activités"
+          ]
+        },
+        {
+          "name": "gouvernementales",
+          "synonyms": [
+            "gouvernementales"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Shutdown peut désigner :\n\nle shutdown, l'arrêt des activités gouvernementales aux États-Unis à la suite d'un désaccord sur le budget au Congrès ;\nle shutdown de 2013 ;\nle shutdown, une commande informatique :\nle shutdown sous Unix ;\nle shutdown sous Windows.\nEn neurosciences, le shutdown autistique (= repli autistique ou « effondrement autistique »), réaction du cerveau d'une personne autiste face à un excès de stimuli ou d'informations à traiter conduisant à un repli sur soi temporaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "spin": {
+    "type": "specialized",
+    "exact_terms": [
+      "spin"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "spin",
+          "synonyms": [
+            "spin"
+          ]
+        },
+        {
+          "name": "spin",
+          "synonyms": [
+            "spin"
+          ]
+        },
+        {
+          "name": "physique",
+          "synonyms": [
+            "physique"
+          ]
+        },
+        {
+          "name": "quantique",
+          "synonyms": [
+            "quantique"
+          ]
+        },
+        {
+          "name": "propriété",
+          "synonyms": [
+            "propriété"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le spin (/spin/) est, en physique quantique, une propriété interne des particules, au même titre que la masse ou la charge électrique. Comme d'autres observables quantiques, sa mesure donne des valeurs discrètes et est soumise au principe d'incertitude."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "subconscient": {
+    "type": "specialized",
+    "exact_terms": [
+      "subconscient"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "subconscient",
+          "synonyms": [
+            "subconscient"
+          ]
+        },
+        {
+          "name": "appartient",
+          "synonyms": [
+            "appartient"
+          ]
+        },
+        {
+          "name": "domaines",
+          "synonyms": [
+            "domaines"
+          ]
+        },
+        {
+          "name": "étymologiquement",
+          "synonyms": [
+            "étymologiquement"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le subconscient est un concept qui appartient à plusieurs domaines. Étymologiquement, le terme signifie « sous la conscience » ; il est utilisé et discuté en psychologie et en philosophie ainsi qu'en neurosciences."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "suicide forcé": {
+    "type": "specialized",
+    "exact_terms": [
+      "suicide forcé"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "suicide",
+          "synonyms": [
+            "suicide"
+          ]
+        },
+        {
+          "name": "forcé",
+          "synonyms": [
+            "forcé"
+          ]
+        },
+        {
+          "name": "suicide",
+          "synonyms": [
+            "suicide"
+          ]
+        },
+        {
+          "name": "imposé",
+          "synonyms": [
+            "imposé"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le suicide forcé ou suicide imposé désigne une méthode d'exécution selon laquelle le condamné est amené à se suicider pour éviter la mise en œuvre d'une menace perçue comme pire que sa propre mort (comme la torture, le chantage à l'emprisonnement, au meurtre de ses proches, ou encore la perte de son honneur ou de sa position sociale). \nEn France, depuis 2020, le suicide forcé est reconnu par la loi comme le harcèlement d’un conjoint conduisant à un suicide ou à une tentative de suicide."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "surdon": {
+    "type": "specialized",
+    "exact_terms": [
+      "surdon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "surdon",
+          "synonyms": [
+            "surdon"
+          ]
+        },
+        {
+          "name": "ancienne",
+          "synonyms": [
+            "ancienne"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "l'orne",
+          "synonyms": [
+            "l'orne"
+          ]
+        },
+        {
+          "name": "été",
+          "synonyms": [
+            "été"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Surdon est une ancienne commune de l'Orne qui a été réunie à Chailloué en 1821.\nIl s'agit aujourd'hui de plusieurs entités, une cité, une gare et un hameau (également appelé Vieux Surdon) situées à l'ouest du territoire de Chailloué et divisées entre trois communes distinctes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "symptomatologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "symptomatologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "symptomatologie",
+          "synonyms": [
+            "symptomatologie"
+          ]
+        },
+        {
+          "name": "étude",
+          "synonyms": [
+            "étude"
+          ]
+        },
+        {
+          "name": "symptômes",
+          "synonyms": [
+            "symptômes"
+          ]
+        },
+        {
+          "name": "médecine",
+          "synonyms": [
+            "médecine"
+          ]
+        },
+        {
+          "name": "humaine",
+          "synonyms": [
+            "humaine"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La symptomatologie est l’étude :\n\ndes symptômes en médecine humaine et vétérinaire ;\ndes symptômes en pathologie végétale."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "syndrome de la page blanche": {
+    "type": "specialized",
+    "exact_terms": [
+      "syndrome de la page blanche"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "page",
+          "synonyms": [
+            "page"
+          ]
+        },
+        {
+          "name": "blanche",
+          "synonyms": [
+            "blanche"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "désigné",
+          "synonyms": [
+            "désigné"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le syndrome de la page blanche, aussi désigné par les termes panne d'inspiration, leucosélidophobie et leucosélophobie, est un trouble psychique de l'écrivain, ou d'autres artistes, se présentant comme l'impossibilité de commencer ou de continuer une œuvre."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "syndrome dissociatif": {
+    "type": "specialized",
+    "exact_terms": [
+      "syndrome dissociatif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "dissociatif",
+          "synonyms": [
+            "dissociatif"
+          ]
+        },
+        {
+          "name": "syndrome",
+          "synonyms": [
+            "syndrome"
+          ]
+        },
+        {
+          "name": "exprimant",
+          "synonyms": [
+            "exprimant"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le syndrome dissociatif est un syndrome exprimant une forme de désorganisation psychique initialement modélisée dans sa forme moderne par Pierre Janet[réf. nécessaire], puis décrite ultérieurement sous d'autres paradigmes dans la schizophrénie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tachyphémie": {
+    "type": "specialized",
+    "exact_terms": [
+      "tachyphémie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tachyphémie",
+          "synonyms": [
+            "tachyphémie"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "tachy",
+          "synonyms": [
+            "tachy"
+          ]
+        },
+        {
+          "name": "rapide",
+          "synonyms": [
+            "rapide"
+          ]
+        },
+        {
+          "name": "phêmê",
+          "synonyms": [
+            "phêmê"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Tachyphémie (du grec tachy \"rapide\" et phêmê \"parole\") est un trouble du débit verbal caractérisé par une accélération anormale de la parole.\nCe symptôme se traduit par un flot de paroles précipité et continu, parfois incohérent et difficilement intelligible."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "thermophobie": {
+    "type": "specialized",
+    "exact_terms": [
+      "thermophobie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "thermophobie",
+          "synonyms": [
+            "thermophobie"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "thermophobe",
+          "synonyms": [
+            "thermophobe"
+          ]
+        },
+        {
+          "name": "intolérance",
+          "synonyms": [
+            "intolérance"
+          ]
+        },
+        {
+          "name": "températures",
+          "synonyms": [
+            "températures"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La thermophobie (adjectif : thermophobe ) est une intolérance aux températures élevées des matériaux inorganiques ou des organismes. Le terme a un certain nombre d'utilisations spécifiques."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "thérapie des schémas": {
+    "type": "specialized",
+    "exact_terms": [
+      "thérapie des schémas"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "thérapie",
+          "synonyms": [
+            "thérapie"
+          ]
+        },
+        {
+          "name": "schémas",
+          "synonyms": [
+            "schémas"
+          ]
+        },
+        {
+          "name": "dite",
+          "synonyms": [
+            "dite"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "schémathérapie",
+          "synonyms": [
+            "schémathérapie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La thérapie des schémas (dite aussi schémathérapie ou thérapie centrée sur les schémas) est une méthode psychothérapeutique développée par le psychologue américain Jeffrey Young, à la suite de sa collaboration avec Aaron Beck qui faisait partie du courant des thérapies cognitivo-comportementales (TCC). Elle est utilisée en psychologie depuis le début du XXIe siècle dans le cadre du traitement des troubles de la personnalité et des troubles chroniques de l'Axe I (dépression, anxiété, etc.)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "toc": {
+    "type": "specialized",
+    "exact_terms": [
+      "toc"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "français",
+          "synonyms": [
+            "français"
+          ]
+        },
+        {
+          "name": "toc",
+          "synonyms": [
+            "toc"
+          ]
+        },
+        {
+          "name": "onomatopée",
+          "synonyms": [
+            "onomatopée"
+          ]
+        },
+        {
+          "name": "exprimant",
+          "synonyms": [
+            "exprimant"
+          ]
+        },
+        {
+          "name": "bruit",
+          "synonyms": [
+            "bruit"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En français, le mot toc est une onomatopée exprimant un bruit sec, utilisée en tant qu'interjection, le plus souvent répétée (« toc ! toc !"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tropisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "tropisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tropisme",
+          "synonyms": [
+            "tropisme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "τρόπος",
+          "synonyms": [
+            "τρόπος"
+          ]
+        },
+        {
+          "name": "trópos",
+          "synonyms": [
+            "trópos"
+          ]
+        },
+        {
+          "name": "direction",
+          "synonyms": [
+            "direction"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un tropisme (du grec τρόπος / trópos, « direction ») est la tendance d'un organisme (notamment une plante) à croître régulièrement dans une certaine direction, par exemple vers la lumière."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trouble cognitif": {
+    "type": "specialized",
+    "exact_terms": [
+      "trouble cognitif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "cognitif",
+          "synonyms": [
+            "cognitif"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "mental",
+          "synonyms": [
+            "mental"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un trouble cognitif désigne un trouble mental qui affecte la capacité de perception et de cognition, plus particulièrement et principalement la mémoire et la capacité de résolution de problèmes et à prendre des décisions (fonctions exécutives), ou encore la fluidité d’expression orale (ou fluence verbale). Bien que certains troubles mentaux comme le trouble anxieux, le trouble de l'humeur, et la psychose puissent affecter les fonctions mémorielles et cognitives, le DSM-5-TR ne les considère pas ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trouble schizophréniforme": {
+    "type": "specialized",
+    "exact_terms": [
+      "trouble schizophréniforme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "schizophréniforme",
+          "synonyms": [
+            "schizophréniforme"
+          ]
+        },
+        {
+          "name": "trouble",
+          "synonyms": [
+            "trouble"
+          ]
+        },
+        {
+          "name": "mental",
+          "synonyms": [
+            "mental"
+          ]
+        },
+        {
+          "name": "diagnostiqué",
+          "synonyms": [
+            "diagnostiqué"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le trouble schizophréniforme est un trouble mental diagnostiqué lorsque des symptômes de la schizophrénie sont présents durant une période significative comprise entre un et six mois, mais les signes de perturbations ne sont pas présents durant les plus de six mois requis pour le diagnostic de la schizophrénie. \nLes symptômes de ces deux troubles impliquent les délires, hallucinations, trouble du langage, comportement catatonique ou désorganisé et isolement social."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "télicité": {
+    "type": "specialized",
+    "exact_terms": [
+      "télicité"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "linguistique",
+          "synonyms": [
+            "linguistique"
+          ]
+        },
+        {
+          "name": "télicité",
+          "synonyms": [
+            "télicité"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "τέλος",
+          "synonyms": [
+            "τέλος"
+          ]
+        },
+        {
+          "name": "fin",
+          "synonyms": [
+            "fin"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En linguistique, la télicité (du grec τέλος, la fin) est la propriété d’un verbe ou d’un syntagme verbal qui présente une action ou un événement comme menés à leur terme en un sens ou un autre. Un verbe ou syntagme verbal possédant cette propriété est dit télique, alors que s’il présente l’action ou l’événement comme non achevés il est dit atélique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "victimisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "victimisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        },
+        {
+          "name": "victimisation",
+          "synonyms": [
+            "victimisation"
+          ]
+        },
+        {
+          "name": "poser",
+          "synonyms": [
+            "poser"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        },
+        {
+          "name": "victime",
+          "synonyms": [
+            "victime"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En psychologie, la victimisation est le fait de se poser comme victime d'un acte dans le but de susciter un sentiment de pitié ou de culpabilité.\nEn criminologie et victimologie, la victimisation désigne le processus par lequel une personne devient victime d'un acte criminel (agression, vol, viol…)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "victimologie": {
+    "type": "specialized",
+    "exact_terms": [
+      "victimologie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "victimologie",
+          "synonyms": [
+            "victimologie"
+          ]
+        },
+        {
+          "name": "domaine",
+          "synonyms": [
+            "domaine"
+          ]
+        },
+        {
+          "name": "sciences",
+          "synonyms": [
+            "sciences"
+          ]
+        },
+        {
+          "name": "criminelles",
+          "synonyms": [
+            "criminelles"
+          ]
+        },
+        {
+          "name": "comme",
+          "synonyms": [
+            "comme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La victimologie est le domaine des sciences criminelles qui, comme son nom l'indique, étudie la victime. Différents aspects sont étudiés variant de la prévention (étude de la relation victime-agresseur par exemple) à l'optimisation des modes de prise en charge par une meilleure connaissance des conséquences de l'acte délinquantiel sur la victime (stress, traumatisme, dissociation, résilience, etc.)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie\\psychiatrie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "volitif": {
+    "type": "specialized",
+    "exact_terms": [
+      "volitif"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "modalité",
+          "synonyms": [
+            "modalité"
+          ]
+        },
+        {
+          "name": "volitif",
+          "synonyms": [
+            "volitif"
+          ]
+        },
+        {
+          "name": "abrégé",
+          "synonyms": [
+            "abrégé"
+          ]
+        },
+        {
+          "name": "vol",
+          "synonyms": [
+            "vol"
+          ]
+        },
+        {
+          "name": "modalité",
+          "synonyms": [
+            "modalité"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La modalité du volitif (abrégé par VOL ) est une modalité linguistique qui indique les désirs, les souhaits ou les craintes du locuteur. Il est classé comme une sous-catégorie de modalité déontique, qui exprime la manière dont le monde devrait être, selon des normes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "écriture spéculaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "écriture spéculaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'écriture",
+          "synonyms": [
+            "l'écriture"
+          ]
+        },
+        {
+          "name": "spéculaire",
+          "synonyms": [
+            "spéculaire"
+          ]
+        },
+        {
+          "name": "appelée",
+          "synonyms": [
+            "appelée"
+          ]
+        },
+        {
+          "name": "communément",
+          "synonyms": [
+            "communément"
+          ]
+        },
+        {
+          "name": "écriture",
+          "synonyms": [
+            "écriture"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'écriture spéculaire, appelée plus communément « écriture en miroir », dont l'étymologie révèle « regarde, reproduction fidèle, image », est une forme d'écriture où les mots de la langue du transcripteur s'écrivent dans l'ordre inverse du mode de lecture normal associé à une inversion graphique latérale des lettres. Comme son nom l'indique, elle donne l'impression que les phrases transcrites sont reflétées par un miroir."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "érotisme": {
+    "type": "specialized",
+    "exact_terms": [
+      "érotisme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'érotisme",
+          "synonyms": [
+            "l'érotisme"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ἔρως",
+          "synonyms": [
+            "ἔρως"
+          ]
+        },
+        {
+          "name": "érôs",
+          "synonyms": [
+            "érôs"
+          ]
+        },
+        {
+          "name": "désir",
+          "synonyms": [
+            "désir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'érotisme (du grec ἔρως / érôs, « le désir amoureux ») est l'ensemble des phénomènes qui éveillent attirance ou désir sexuels, et de leurs multiples représentations, en particulier culturelles et artistiques.\nL'adjectif « érotique » qualifie une représentation graphique qui suscite chez la spectatrice ou le spectateur une excitation sexuelle."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "état modifié de conscience": {
+    "type": "specialized",
+    "exact_terms": [
+      "état modifié de conscience"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        },
+        {
+          "name": "l'état",
+          "synonyms": [
+            "l'état"
+          ]
+        },
+        {
+          "name": "paradigme",
+          "synonyms": [
+            "paradigme"
+          ]
+        },
+        {
+          "name": "recherche",
+          "synonyms": [
+            "recherche"
+          ]
+        },
+        {
+          "name": "scientifique",
+          "synonyms": [
+            "scientifique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Selon l'état et le paradigme de la recherche scientifique, un état modifié de conscience ou EMC (aussi appelé état de conscience modifié ou ECM) est un état mental différent de l’état de conscience ordinaire, « représentant une déviation dans l'expérience subjective ou dans le fonctionnement psychologique par rapport à certaines normes générales de la conscience à l'état de veille ». Ainsi en est-il des rêves, états hypnotiques, hallucinations, transe, méditation, états mystiques, etc.."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "psychologie",
+    "domaine_exact": "psychologie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

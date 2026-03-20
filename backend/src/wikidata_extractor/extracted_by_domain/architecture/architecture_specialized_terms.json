@@ -1,0 +1,3222 @@
+{
+  "appui": {
+    "type": "specialized",
+    "exact_terms": [
+      "appui"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "appui",
+          "synonyms": [
+            "appui"
+          ]
+        },
+        {
+          "name": "soutien",
+          "synonyms": [
+            "soutien"
+          ]
+        },
+        {
+          "name": "support",
+          "synonyms": [
+            "support"
+          ]
+        },
+        {
+          "name": "aide",
+          "synonyms": [
+            "aide"
+          ]
+        },
+        {
+          "name": "protection",
+          "synonyms": [
+            "protection"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un appui est un soutien, un support, ou bien une aide, une protection (définition du Petit Larousse).\nAppui peut désigner :\n\nAppui (architecture) ;\nAppui (statique) ;\nAppui de fenêtre ;\nAppui (pont) ;\nAppui aérien rapproché ;\nAppui gravitationnel ;\nAppui psychosocial."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "attente": {
+    "type": "specialized",
+    "exact_terms": [
+      "attente"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "attente",
+          "synonyms": [
+            "attente"
+          ]
+        },
+        {
+          "name": "attente",
+          "synonyms": [
+            "attente"
+          ]
+        },
+        {
+          "name": "marketing",
+          "synonyms": [
+            "marketing"
+          ]
+        },
+        {
+          "name": "attente",
+          "synonyms": [
+            "attente"
+          ]
+        },
+        {
+          "name": "psychologie",
+          "synonyms": [
+            "psychologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Attente peut désigner : \n\nattente, notion de marketing ;\nattente, notion de psychologie ;\nthéorie des attentes.\nAttente est un titre notamment porté par :\n\nAttente, mélodie pour voix et piano de Lili Boulanger (1910)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "baleine": {
+    "type": "specialized",
+    "exact_terms": [
+      "baleine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "zoologie",
+          "synonyms": [
+            "zoologie"
+          ]
+        },
+        {
+          "name": "baleine",
+          "synonyms": [
+            "baleine"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "φάλαινα",
+          "synonyms": [
+            "φάλαινα"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En zoologie, le terme baleine (du grec ancien φάλαινα / phálaina, « baleine ») désigne certains mammifères marins de grande taille, classés dans l'ordre des Cétacés.\nC'est un terme générique qui s'applique aux espèces appartenant au sous-ordre des Mysticètes (les cétacés à fanons) ainsi, improprement, qu'à certaines espèces d'Odontocètes (les cétacés à dents)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "blocage": {
+    "type": "specialized",
+    "exact_terms": [
+      "blocage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "blocage",
+          "synonyms": [
+            "blocage"
+          ]
+        },
+        {
+          "name": "obstacle",
+          "synonyms": [
+            "obstacle"
+          ]
+        },
+        {
+          "name": "passage",
+          "synonyms": [
+            "passage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un blocage est tout ce qui fait obstacle à un passage."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "boisement": {
+    "type": "specialized",
+    "exact_terms": [
+      "boisement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "boisement",
+          "synonyms": [
+            "boisement"
+          ]
+        },
+        {
+          "name": "boisement",
+          "synonyms": [
+            "boisement"
+          ]
+        },
+        {
+          "name": "massif",
+          "synonyms": [
+            "massif"
+          ]
+        },
+        {
+          "name": "forestier",
+          "synonyms": [
+            "forestier"
+          ]
+        },
+        {
+          "name": "boisement",
+          "synonyms": [
+            "boisement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Boisement peut désigner :\n\nun boisement ou massif forestier ;\nle boisement ou afforestation, plantation d'arbres sur une surface depuis très longtemps restée dépourvue d'arbres, voire n'ayant jamais été boisée. Dans le premier cas on a parlé aussi de reboisement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "boudine": {
+    "type": "specialized",
+    "exact_terms": [
+      "boudine"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "boudine",
+          "synonyms": [
+            "boudine"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "lieu",
+          "synonyms": [
+            "lieu"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        },
+        {
+          "name": "porté",
+          "synonyms": [
+            "porté"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Boudine est un nom de lieu notamment porté  par :\n\nLa Boudine, un lieu-dit et un site archéologique à Saumane-de-Vaucluse.\nBoudine est un nom de famille  notamment porté par :\n\nJean-Pierre Boudine, un auteur, éditeur et professeur de mathématiques français."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\verrerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "burin": {
+    "type": "specialized",
+    "exact_terms": [
+      "burin"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "burin",
+          "synonyms": [
+            "burin"
+          ]
+        },
+        {
+          "name": "outil",
+          "synonyms": [
+            "outil"
+          ]
+        },
+        {
+          "name": "métallique",
+          "synonyms": [
+            "métallique"
+          ]
+        },
+        {
+          "name": "rigide",
+          "synonyms": [
+            "rigide"
+          ]
+        },
+        {
+          "name": "allongé",
+          "synonyms": [
+            "allongé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un burin est un outil métallique rigide, allongé, parfois arborant un embout biseauté, pointu ou coupant, qui peut être habilement forcé ou percuté pour marquer, graver, enfoncer, creuser, percer, couper, sectionner etc., bref \"buriner la matière\" à l'époque moderne. Le burin de la forge est un ciseau d'acier dur, sans manche, qui sert à buriner dans le matériau ou la pièce en fer, à le couper à froid."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "béton autoplaçant": {
+    "type": "specialized",
+    "exact_terms": [
+      "béton autoplaçant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "béton",
+          "synonyms": [
+            "béton"
+          ]
+        },
+        {
+          "name": "autoplaçant",
+          "synonyms": [
+            "autoplaçant"
+          ]
+        },
+        {
+          "name": "bap",
+          "synonyms": [
+            "bap"
+          ]
+        },
+        {
+          "name": "béton",
+          "synonyms": [
+            "béton"
+          ]
+        },
+        {
+          "name": "ciment",
+          "synonyms": [
+            "ciment"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le béton autoplaçant (BAP) est un béton de ciment capable, sous le seul effet de la pesanteur, de se mettre en place dans les coffrages même les plus complexes et très encombrés sans nécessiter pour autant des moyens de vibration afin de consolider le mélange avec comme résultat un produit très homogène."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "bétonnière": {
+    "type": "specialized",
+    "exact_terms": [
+      "bétonnière"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "bétonnière",
+          "synonyms": [
+            "bétonnière"
+          ]
+        },
+        {
+          "name": "machine",
+          "synonyms": [
+            "machine"
+          ]
+        },
+        {
+          "name": "servant",
+          "synonyms": [
+            "servant"
+          ]
+        },
+        {
+          "name": "malaxer",
+          "synonyms": [
+            "malaxer"
+          ]
+        },
+        {
+          "name": "différents",
+          "synonyms": [
+            "différents"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une bétonnière est une machine servant à malaxer les différents constituants du mortier (ciment ou chaux, sable, eau) ou du béton. Le mot bétonneuse est parfois employé à la place de bétonnière, mais il s'agit d'un barbarisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "calepinage": {
+    "type": "specialized",
+    "exact_terms": [
+      "calepinage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "calepinage",
+          "synonyms": [
+            "calepinage"
+          ]
+        },
+        {
+          "name": "dessin",
+          "synonyms": [
+            "dessin"
+          ]
+        },
+        {
+          "name": "plan",
+          "synonyms": [
+            "plan"
+          ]
+        },
+        {
+          "name": "élévation",
+          "synonyms": [
+            "élévation"
+          ]
+        },
+        {
+          "name": "disposition",
+          "synonyms": [
+            "disposition"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le calepinage est le dessin, sur un plan ou une élévation, de la disposition d'éléments de formes définies pour former un motif, composer un assemblage, couvrir une surface ou remplir un volume. Le calepinage est par exemple nécessaire lors de la planification de carrelages, de couvertures, de placages, d'agencement, ou d'appareils."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "canali": {
+    "type": "specialized",
+    "exact_terms": [
+      "canali"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "canali",
+          "synonyms": [
+            "canali"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "famille",
+          "synonyms": [
+            "famille"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        },
+        {
+          "name": "porté",
+          "synonyms": [
+            "porté"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Canali est un nom de famille  notamment porté par :\n\nAnna Maria Canali (1918-2016), mezzo-soprano italienne ;\nFrancesco Canali (1764-1835), prêtre, cardinal et archevêque italien ;\nGiorgio Canali (it) (1958-), auteur-compositeur-interprète et chanteur italien ;\nLuca Canali (1925-2014), écrivain et poète italien ;\nNicola Canali (1874-1961), prêtre catholique italien, cardinal et camerlingue du Sacré Collège."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\charpenterie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "capot": {
+    "type": "specialized",
+    "exact_terms": [
+      "capot"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "capot",
+          "synonyms": [
+            "capot"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "lieu",
+          "synonyms": [
+            "lieu"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        },
+        {
+          "name": "porté",
+          "synonyms": [
+            "porté"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Capot est un nom de lieu notamment porté  par :\n\nCapot, une rivière située au nord de l'île de la Martinique.\nCapot est un nom de famille  notamment porté par :\n\nla famille Capot de Feuillide, une famille noble française originaire d'Armagnac ;\npour les membres de cette famille, voir l'article Famille Capot de Feuillide."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "carnaval": {
+    "type": "specialized",
+    "exact_terms": [
+      "carnaval"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "carnaval",
+          "synonyms": [
+            "carnaval"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "fête",
+          "synonyms": [
+            "fête"
+          ]
+        },
+        {
+          "name": "relativement",
+          "synonyms": [
+            "relativement"
+          ]
+        },
+        {
+          "name": "répandu",
+          "synonyms": [
+            "répandu"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le carnaval est un type de fête relativement répandu en Europe et en Amérique. Il consiste en une période pendant laquelle les habitants de la ville sortent déguisés (voire masqués ou bien maquillés) et se retrouvent pour chanter, danser, faire de la musique dans les rues, jeter des confettis et serpentins, défiler, éventuellement autour d’une parade constituée de musiciens, de danseurs et de chars décorés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\verrerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "cellulaire": {
+    "type": "specialized",
+    "exact_terms": [
+      "cellulaire"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "cellulaire",
+          "synonyms": [
+            "cellulaire"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "téléphone",
+          "synonyms": [
+            "téléphone"
+          ]
+        },
+        {
+          "name": "cellulaire",
+          "synonyms": [
+            "cellulaire"
+          ]
+        },
+        {
+          "name": "synonyme",
+          "synonyms": [
+            "synonyme"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "cellulaire peut faire référence à :\n\nun téléphone cellulaire, synonyme de téléphone mobile ;\nun réseau cellulaire ou réseau de téléphonie mobile ;\ncellulaire, en biologie, relatif à la cellule ;\nCellulaire, un roman de Stephen King."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "chant": {
+    "type": "specialized",
+    "exact_terms": [
+      "chant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chant",
+          "synonyms": [
+            "chant"
+          ]
+        },
+        {
+          "name": "l'ensemble",
+          "synonyms": [
+            "l'ensemble"
+          ]
+        },
+        {
+          "name": "production",
+          "synonyms": [
+            "production"
+          ]
+        },
+        {
+          "name": "sons",
+          "synonyms": [
+            "sons"
+          ]
+        },
+        {
+          "name": "musicaux",
+          "synonyms": [
+            "musicaux"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le chant est l'ensemble de la production de sons musicaux produite par la voix humaine. La personne qui génère le chant est appelée chanteur, chanteuse, ou vocaliste."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "chapeau de gendarme": {
+    "type": "specialized",
+    "exact_terms": [
+      "chapeau de gendarme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chapeau",
+          "synonyms": [
+            "chapeau"
+          ]
+        },
+        {
+          "name": "gendarme",
+          "synonyms": [
+            "gendarme"
+          ]
+        },
+        {
+          "name": "analogie",
+          "synonyms": [
+            "analogie"
+          ]
+        },
+        {
+          "name": "forme",
+          "synonyms": [
+            "forme"
+          ]
+        },
+        {
+          "name": "bicorne",
+          "synonyms": [
+            "bicorne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Chapeau de gendarme, par analogie de forme avec le bicorne équipant les gendarmes de la Gendarmerie de Napoléon Ier, peut désigner :\n\nchapeau de gendarme, un élément de menuiserie, charpente, ébénisterie, architecture ;\nChapeau de gendarme, un sommet (2 682 m) des Alpes-de-Haute-Provence, en France ;\nChapeau de Gendarme, une colline (572 m) des Pyrénées-Atlantiques en France, dans la province basque de la Soule, près de Licq-Atherey ;\nChapeau de Gendarme, un plissement très marqué d'une trentain..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\plomberie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "chevron": {
+    "type": "specialized",
+    "exact_terms": [
+      "chevron"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chevron",
+          "synonyms": [
+            "chevron"
+          ]
+        },
+        {
+          "name": "évoque",
+          "synonyms": [
+            "évoque"
+          ]
+        },
+        {
+          "name": "formes",
+          "synonyms": [
+            "formes"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme chevron évoque des formes en « V » ou en « W »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\charpenterie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "clouage": {
+    "type": "specialized",
+    "exact_terms": [
+      "clouage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "échecs",
+          "synonyms": [
+            "échecs"
+          ]
+        },
+        {
+          "name": "clouage",
+          "synonyms": [
+            "clouage"
+          ]
+        },
+        {
+          "name": "situation",
+          "synonyms": [
+            "situation"
+          ]
+        },
+        {
+          "name": "laquelle",
+          "synonyms": [
+            "laquelle"
+          ]
+        },
+        {
+          "name": "pièce",
+          "synonyms": [
+            "pièce"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Aux échecs, le clouage est une situation dans laquelle une pièce menacée ne peut pas se déplacer sans exposer une pièce de plus grande valeur à une capture. Clouer est l'action d'attaquer une pièce adverse de façon à créer un clouage."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "colombier": {
+    "type": "specialized",
+    "exact_terms": [
+      "colombier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "colombier",
+          "synonyms": [
+            "colombier"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "propre",
+          "synonyms": [
+            "propre"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Colombier est un nom commun ou un nom propre qui peut désigner :"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\charpenterie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "composant": {
+    "type": "specialized",
+    "exact_terms": [
+      "composant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "composant",
+          "synonyms": [
+            "composant"
+          ]
+        },
+        {
+          "name": "élément",
+          "synonyms": [
+            "élément"
+          ]
+        },
+        {
+          "name": "base",
+          "synonyms": [
+            "base"
+          ]
+        },
+        {
+          "name": "ensemble",
+          "synonyms": [
+            "ensemble"
+          ]
+        },
+        {
+          "name": "complexe",
+          "synonyms": [
+            "complexe"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un composant est un élément de base d'un ensemble plus complexe (structuré ou composite), lequel est un assemblage de composants souvent différents."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "conducteur de travaux": {
+    "type": "specialized",
+    "exact_terms": [
+      "conducteur de travaux"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chargé",
+          "synonyms": [
+            "chargé"
+          ]
+        },
+        {
+          "name": "travaux",
+          "synonyms": [
+            "travaux"
+          ]
+        },
+        {
+          "name": "celui",
+          "synonyms": [
+            "celui"
+          ]
+        },
+        {
+          "name": "planifie",
+          "synonyms": [
+            "planifie"
+          ]
+        },
+        {
+          "name": "contrôle",
+          "synonyms": [
+            "contrôle"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le chargé de travaux est celui qui planifie et contrôle les travaux de construction, ou d'aménagements paysagers. Il encadre une équipe de techniciens et d'ouvriers avec l'aide d'un ou plusieurs chefs de chantier."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "contre-fossé": {
+    "type": "specialized",
+    "exact_terms": [
+      "contre-fossé"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "contre-fossé",
+          "synonyms": [
+            "contre-fossé"
+          ]
+        },
+        {
+          "name": "contre-canal",
+          "synonyms": [
+            "contre-canal"
+          ]
+        },
+        {
+          "name": "ouvrage",
+          "synonyms": [
+            "ouvrage"
+          ]
+        },
+        {
+          "name": "d'art",
+          "synonyms": [
+            "d'art"
+          ]
+        },
+        {
+          "name": "fossé",
+          "synonyms": [
+            "fossé"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un « contre-fossé » ou « contre-canal » est un ouvrage d'art (fossé ou petit canal) construit parallèlement à un canal."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\fortification",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "crochetage": {
+    "type": "specialized",
+    "exact_terms": [
+      "crochetage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "crochetage",
+          "synonyms": [
+            "crochetage"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "ouverture",
+          "synonyms": [
+            "ouverture"
+          ]
+        },
+        {
+          "name": "serrure",
+          "synonyms": [
+            "serrure"
+          ]
+        },
+        {
+          "name": "dite",
+          "synonyms": [
+            "dite"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le crochetage est une technique d’ouverture de serrure dite « fine », ce qui signifie qu’elle permet d’ouvrir la serrure à l’aide d’outils spécifiques appelés crochets ou parapluies sans détruire la serrure[réf. nécessaire]."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\serrurerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "dallage": {
+    "type": "specialized",
+    "exact_terms": [
+      "dallage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "domaine",
+          "synonyms": [
+            "domaine"
+          ]
+        },
+        {
+          "name": "construction",
+          "synonyms": [
+            "construction"
+          ]
+        },
+        {
+          "name": "dallage",
+          "synonyms": [
+            "dallage"
+          ]
+        },
+        {
+          "name": "sol",
+          "synonyms": [
+            "sol"
+          ]
+        },
+        {
+          "name": "recouvrement",
+          "synonyms": [
+            "recouvrement"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Dans le domaine de la construction, le dallage d'un sol est son recouvrement par des dalles jointives, c'est-à-dire des plaques suffisamment épaisses pour ne pas se fracturer lors du passage de personnes ou de véhicules.\nEn géométrie, dallage est synonyme de pavage."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "diamant": {
+    "type": "specialized",
+    "exact_terms": [
+      "diamant"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "diamant",
+          "synonyms": [
+            "diamant"
+          ]
+        },
+        {
+          "name": "dja",
+          "synonyms": [
+            "dja"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "ἀδάμας",
+          "synonyms": [
+            "ἀδάμας"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le diamant (/dja.mɑ̃/, du grec ancien ἀδάμας / adámas, « indomptable ») est un minéral, constitué d'atomes de carbone à l'état cristallin. Sa renommée vient de sa rareté à l'état naturel et de son utilisation en joaillerie."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\verrerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "distancier": {
+    "type": "specialized",
+    "exact_terms": [
+      "distancier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "distanciers",
+          "synonyms": [
+            "distanciers"
+          ]
+        },
+        {
+          "name": "éléments",
+          "synonyms": [
+            "éléments"
+          ]
+        },
+        {
+          "name": "mécaniques",
+          "synonyms": [
+            "mécaniques"
+          ]
+        },
+        {
+          "name": "constituant",
+          "synonyms": [
+            "constituant"
+          ]
+        },
+        {
+          "name": "l'armature",
+          "synonyms": [
+            "l'armature"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les distanciers sont des éléments mécaniques constituant l'armature dans les constructions en béton armé. Leur rôle est de maintenir une certaine distance entre deux plaques de treillis soudé."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "démolition-reconstruction": {
+    "type": "specialized",
+    "exact_terms": [
+      "démolition-reconstruction"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "démolition-reconstruction",
+          "synonyms": [
+            "démolition-reconstruction"
+          ]
+        },
+        {
+          "name": "acte",
+          "synonyms": [
+            "acte"
+          ]
+        },
+        {
+          "name": "travaux",
+          "synonyms": [
+            "travaux"
+          ]
+        },
+        {
+          "name": "ayant",
+          "synonyms": [
+            "ayant"
+          ]
+        },
+        {
+          "name": "trait",
+          "synonyms": [
+            "trait"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une démolition-reconstruction est un acte de travaux ayant trait au BTP.\nDans certains cas, quand le projet de démolition vise à récupérer, recycler, réutiliser ou valoriser des matériaux, on parle de déconstruction)-reconstruction.\nÀ l'avenir le BIM va probablement de plus en plus contribuer à une évolution de la démolition vers la déconstruction."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "déversement": {
+    "type": "specialized",
+    "exact_terms": [
+      "déversement"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "résistance",
+          "synonyms": [
+            "résistance"
+          ]
+        },
+        {
+          "name": "matériaux",
+          "synonyms": [
+            "matériaux"
+          ]
+        },
+        {
+          "name": "déversement",
+          "synonyms": [
+            "déversement"
+          ]
+        },
+        {
+          "name": "phénomène",
+          "synonyms": [
+            "phénomène"
+          ]
+        },
+        {
+          "name": "d'instabilité",
+          "synonyms": [
+            "d'instabilité"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En résistance des matériaux, le déversement est un phénomène d'instabilité affectant une poutre subissant un moment de flexion.\nLorsqu'une poutre est fléchie, l'une de ses faces est tendue et l'autre est comprimée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "emplecton": {
+    "type": "specialized",
+    "exact_terms": [
+      "emplecton"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "emplecton",
+          "synonyms": [
+            "emplecton"
+          ]
+        },
+        {
+          "name": "grec",
+          "synonyms": [
+            "grec"
+          ]
+        },
+        {
+          "name": "ancien",
+          "synonyms": [
+            "ancien"
+          ]
+        },
+        {
+          "name": "ἔμπλεκτον",
+          "synonyms": [
+            "ἔμπλεκτον"
+          ]
+        },
+        {
+          "name": "construction",
+          "synonyms": [
+            "construction"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L' emplecton (en grec ancien : ἔμπλεκτον) est une construction de la Grèce et la Rome antique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "escalier mécanique": {
+    "type": "specialized",
+    "exact_terms": [
+      "escalier mécanique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "escalier",
+          "synonyms": [
+            "escalier"
+          ]
+        },
+        {
+          "name": "mécanique",
+          "synonyms": [
+            "mécanique"
+          ]
+        },
+        {
+          "name": "appelé",
+          "synonyms": [
+            "appelé"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "escalier",
+          "synonyms": [
+            "escalier"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un escalier mécanique, appelé aussi escalier roulant, escalateur ou escalator (marque tombée dans le domaine public, excepté en France), est un transporteur-élévateur adapté au transport de personnes, consistant en un escalier dont les marches mobiles sont entraînées mécaniquement tout en restant en permanence dans un plan horizontal.\nCet appareil est souvent muni d'une rampe mobile avançant à la même vitesse que les marches mais pas toujours."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "espagnolette": {
+    "type": "specialized",
+    "exact_terms": [
+      "espagnolette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'espagnolette",
+          "synonyms": [
+            "l'espagnolette"
+          ]
+        },
+        {
+          "name": "élément",
+          "synonyms": [
+            "élément"
+          ]
+        },
+        {
+          "name": "serrurerie",
+          "synonyms": [
+            "serrurerie"
+          ]
+        },
+        {
+          "name": "fermeture",
+          "synonyms": [
+            "fermeture"
+          ]
+        },
+        {
+          "name": "d'huisserie",
+          "synonyms": [
+            "d'huisserie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'espagnolette est un élément de serrurerie, fermeture d'huisserie à deux battants ;\nL'espagnolette est un type d'ornement figurant un buste de femme souriante engainée et généralement coiffée ou diadémée."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\serrurerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fer": {
+    "type": "specialized",
+    "exact_terms": [
+      "fer"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fer",
+          "synonyms": [
+            "fer"
+          ]
+        },
+        {
+          "name": "l'élément",
+          "synonyms": [
+            "l'élément"
+          ]
+        },
+        {
+          "name": "chimique",
+          "synonyms": [
+            "chimique"
+          ]
+        },
+        {
+          "name": "numéro",
+          "synonyms": [
+            "numéro"
+          ]
+        },
+        {
+          "name": "atomique",
+          "synonyms": [
+            "atomique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le fer est l'élément chimique de numéro atomique 26, de symbole Fe.\nLe corps simple dévoile plusieurs formes allotropiques selon la pression et la température."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "ferblantier": {
+    "type": "specialized",
+    "exact_terms": [
+      "ferblantier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "ferblantier",
+          "synonyms": [
+            "ferblantier"
+          ]
+        },
+        {
+          "name": "celui",
+          "synonyms": [
+            "celui"
+          ]
+        },
+        {
+          "name": "fabrique",
+          "synonyms": [
+            "fabrique"
+          ]
+        },
+        {
+          "name": "vend",
+          "synonyms": [
+            "vend"
+          ]
+        },
+        {
+          "name": "outils",
+          "synonyms": [
+            "outils"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le ferblantier est celui qui fabrique ou qui vend des outils ou ustensiles en fer-blanc, souvent ménagers (tels que les casseroles, bassines, assiettes, lanternes…). Il s'agit d'objets en fer recouvert d'une fine couche d'étain."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "fil à plomb": {
+    "type": "specialized",
+    "exact_terms": [
+      "fil à plomb"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "fil",
+          "synonyms": [
+            "fil"
+          ]
+        },
+        {
+          "name": "plomb",
+          "synonyms": [
+            "plomb"
+          ]
+        },
+        {
+          "name": "outil",
+          "synonyms": [
+            "outil"
+          ]
+        },
+        {
+          "name": "constitué",
+          "synonyms": [
+            "constitué"
+          ]
+        },
+        {
+          "name": "fil",
+          "synonyms": [
+            "fil"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le fil à plomb est un outil constitué d'un fil lesté utilisé pour obtenir des verticales (ou du moins la direction de la pesanteur à un endroit précis)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "gaucher": {
+    "type": "specialized",
+    "exact_terms": [
+      "gaucher"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "gaucher",
+          "synonyms": [
+            "gaucher"
+          ]
+        },
+        {
+          "name": "adjectif",
+          "synonyms": [
+            "adjectif"
+          ]
+        },
+        {
+          "name": "nom",
+          "synonyms": [
+            "nom"
+          ]
+        },
+        {
+          "name": "commun",
+          "synonyms": [
+            "commun"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot gaucher, adjectif ou nom commun, désigne originellement une personne qui se sert plus naturellement de la main gauche que de la main droite."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\charpenterie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "grenier": {
+    "type": "specialized",
+    "exact_terms": [
+      "grenier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "grenier",
+          "synonyms": [
+            "grenier"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "granarium",
+          "synonyms": [
+            "granarium"
+          ]
+        },
+        {
+          "name": "local",
+          "synonyms": [
+            "local"
+          ]
+        },
+        {
+          "name": "hors-sol",
+          "synonyms": [
+            "hors-sol"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le grenier (latin granarium) est un local hors-sol destiné au stockage du grain. Il peut être intégré à un bâtiment, ou constituer une petite construction indépendante (grenier à mil) et subsiste généralement à la bordure des fleuves."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "géonef": {
+    "type": "specialized",
+    "exact_terms": [
+      "géonef"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "géonef",
+          "synonyms": [
+            "géonef"
+          ]
+        },
+        {
+          "name": "aussi",
+          "synonyms": [
+            "aussi"
+          ]
+        },
+        {
+          "name": "désignée",
+          "synonyms": [
+            "désignée"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "d'earthship",
+          "synonyms": [
+            "d'earthship"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une géonef, aussi désignée sous le terme anglais d'earthship, est une habitation respectant l'environnement, autoconstruite à moindre coût en se basant sur la récupération et le recyclage de matériaux. Elle est conçue pour être autonome des énergies fossiles, autosuffisante en eau, en électricité, pour sa régulation thermique, voire en nourriture."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "immobilisation": {
+    "type": "specialized",
+    "exact_terms": [
+      "immobilisation"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "immobilisation",
+          "synonyms": [
+            "immobilisation"
+          ]
+        },
+        {
+          "name": "l'action",
+          "synonyms": [
+            "l'action"
+          ]
+        },
+        {
+          "name": "d'empêcher",
+          "synonyms": [
+            "d'empêcher"
+          ]
+        },
+        {
+          "name": "mouvements",
+          "synonyms": [
+            "mouvements"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une immobilisation est l'action d'empêcher les mouvements d'un objet ou d'un être. Dans le cas d'un être humain, il s'agit d'une restriction des libertés individuelles (liberté de mouvement, d'agir) qui ne peut être justifiée que pour un cas de force majeure (protection d'une personne face à un danger, avec ou contre son gré) ou dans le cas d'une personne prise en crime ou délit flagrant, dans des conditions fixées par la loi."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "liteau": {
+    "type": "specialized",
+    "exact_terms": [
+      "liteau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "architecture",
+          "synonyms": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "liteau",
+          "synonyms": [
+            "liteau"
+          ]
+        },
+        {
+          "name": "pièce",
+          "synonyms": [
+            "pièce"
+          ]
+        },
+        {
+          "name": "longue",
+          "synonyms": [
+            "longue"
+          ]
+        },
+        {
+          "name": "posée",
+          "synonyms": [
+            "posée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En architecture, un liteau est une pièce longue posée sur la charpente, constituant le support de la couverture.\nEn restauration, un liteau est une serviette blanche de préférence destinée à protéger les mains du serveur contre le contact brûlant des plats."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "manchon": {
+    "type": "specialized",
+    "exact_terms": [
+      "manchon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "manchon",
+          "synonyms": [
+            "manchon"
+          ]
+        },
+        {
+          "name": "renvoyer",
+          "synonyms": [
+            "renvoyer"
+          ]
+        },
+        {
+          "name": "manchon",
+          "synonyms": [
+            "manchon"
+          ]
+        },
+        {
+          "name": "poulet",
+          "synonyms": [
+            "poulet"
+          ]
+        },
+        {
+          "name": "manchon",
+          "synonyms": [
+            "manchon"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot manchon peut renvoyer à :\n\nManchon de Poulet\nManchon à incandescence, gaine de tissu incombustible ;\nManchon grillagé, dont le manchon de protection en viticulture, élément de protection ;\nManchon, protège-mains recouvert d'une fourrure.\nManchon de sertissage pour câbles : courte portion  de tube épais de section ovale en métal déformable permettant de constituer une boucle de câble métallique puis de le sertir avec un outil adapté (pince , presse hydraulique, presse à marteler) ."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\plomberie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mascaron": {
+    "type": "specialized",
+    "exact_terms": [
+      "mascaron"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "architecture",
+          "synonyms": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "mascaron",
+          "synonyms": [
+            "mascaron"
+          ]
+        },
+        {
+          "name": "masque",
+          "synonyms": [
+            "masque"
+          ]
+        },
+        {
+          "name": "ornement",
+          "synonyms": [
+            "ornement"
+          ]
+        },
+        {
+          "name": "représentant",
+          "synonyms": [
+            "représentant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En architecture, un mascaron ou masque, est un ornement représentant généralement un masque, une figure humaine, parfois effrayante, à la fonction apotropaïque : sa fonction originale était d'éloigner les mauvais esprits afin qu'ils ne pénètrent pas dans la demeure. Ils sont souvent apposés sur une clé d'arc de fenêtre ou de porte ou sur un linteau, ou un modillon."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\plomberie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mirador": {
+    "type": "specialized",
+    "exact_terms": [
+      "mirador"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mirador",
+          "synonyms": [
+            "mirador"
+          ]
+        },
+        {
+          "name": "l'origine",
+          "synonyms": [
+            "l'origine"
+          ]
+        },
+        {
+          "name": "catalan",
+          "synonyms": [
+            "catalan"
+          ]
+        },
+        {
+          "name": "espagnol",
+          "synonyms": [
+            "espagnol"
+          ]
+        },
+        {
+          "name": "portugais",
+          "synonyms": [
+            "portugais"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mirador est à l'origine un mot catalan, espagnol et portugais signifiant « point de vue, d'observation »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "mouchette": {
+    "type": "specialized",
+    "exact_terms": [
+      "mouchette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "mouchette",
+          "synonyms": [
+            "mouchette"
+          ]
+        },
+        {
+          "name": "personnage",
+          "synonyms": [
+            "personnage"
+          ]
+        },
+        {
+          "name": "romancier",
+          "synonyms": [
+            "romancier"
+          ]
+        },
+        {
+          "name": "georges",
+          "synonyms": [
+            "georges"
+          ]
+        },
+        {
+          "name": "bernanos",
+          "synonyms": [
+            "bernanos"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Mouchette peut désigner :\n\nun personnage du romancier Georges Bernanos, qui intervient dans Sous le soleil de Satan (1926), et dans la Nouvelle histoire de Mouchette (1937);\nMouchette, un film français de Robert Bresson réalisé en 1967, d'après la  Nouvelle histoire de Mouchette de Bernanos;\nun instrument ancien ayant la forme d'une paire de ciseaux destiné à tailler la mèche brûlée d'une chandelle et pourvu sur sa lame d'un petit réceptacle destiné à la recueillir;\nun  instrument de menuisier, ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "noquet": {
+    "type": "specialized",
+    "exact_terms": [
+      "noquet"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "noquet",
+          "synonyms": [
+            "noquet"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "chacune",
+          "synonyms": [
+            "chacune"
+          ]
+        },
+        {
+          "name": "pièces",
+          "synonyms": [
+            "pièces"
+          ]
+        },
+        {
+          "name": "coudées",
+          "synonyms": [
+            "coudées"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le noquet désigne chacune des pièces coudées dont on garnit les noues, les arêtiers et les cueillies des pénétrations en pente contre des murs, jouées des lucarnes ou émergences des toitures.\nCe sont des pièces façonnées par pliage d'un métal laminé (zinc, cuivre, plomb, acier, aluminium)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "opale": {
+    "type": "specialized",
+    "exact_terms": [
+      "opale"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "l'opale",
+          "synonyms": [
+            "l'opale"
+          ]
+        },
+        {
+          "name": "minéraloïde",
+          "synonyms": [
+            "minéraloïde"
+          ]
+        },
+        {
+          "name": "composé",
+          "synonyms": [
+            "composé"
+          ]
+        },
+        {
+          "name": "silice",
+          "synonyms": [
+            "silice"
+          ]
+        },
+        {
+          "name": "hydratée",
+          "synonyms": [
+            "hydratée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "L'opale est un minéraloïde composé de silice hydratée, de formule SiO2·n H2O, avec des traces d'aluminium, de potassium, de sodium et de calcium principalement. La teneur en eau est habituellement comprise entre 3 et 9 %, mais peut (rarement) dépasser 15 %."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\verrerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "panneau sandwich": {
+    "type": "specialized",
+    "exact_terms": [
+      "panneau sandwich"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "panneau",
+          "synonyms": [
+            "panneau"
+          ]
+        },
+        {
+          "name": "sandwich",
+          "synonyms": [
+            "sandwich"
+          ]
+        },
+        {
+          "name": "bardage",
+          "synonyms": [
+            "bardage"
+          ]
+        },
+        {
+          "name": "double",
+          "synonyms": [
+            "double"
+          ]
+        },
+        {
+          "name": "peau",
+          "synonyms": [
+            "peau"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un panneau sandwich ou bardage double peau monobloc est une gamme de matériau de construction monobloc, constitué d'une couche de matériau isolant entre deux plaques de matériau profilé. Il est destiné à la construction / rénovation de façades, bardages et de toitures."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "paroi": {
+    "type": "specialized",
+    "exact_terms": [
+      "paroi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "substantif",
+          "synonyms": [
+            "substantif"
+          ]
+        },
+        {
+          "name": "paroi",
+          "synonyms": [
+            "paroi"
+          ]
+        },
+        {
+          "name": "notamment",
+          "synonyms": [
+            "notamment"
+          ]
+        },
+        {
+          "name": "renvoyer",
+          "synonyms": [
+            "renvoyer"
+          ]
+        },
+        {
+          "name": "biologie",
+          "synonyms": [
+            "biologie"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le substantif paroi peut notamment renvoyer à : \n\nen biologie cellulaire, la paroi cellulaire ;\nen bactériologie, la paroi bactérienne ;\nen botanique, la paroi végétale et la paroi squelettique ;\nen mycologie, la paroi sporique.\nen construction, une paroi peut être un mur ou une cloison si elle est verticale, un plancher, un plafond ou un toit si elle est horizontale ou oblique."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pilette": {
+    "type": "specialized",
+    "exact_terms": [
+      "pilette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pilette",
+          "synonyms": [
+            "pilette"
+          ]
+        },
+        {
+          "name": "patronyme",
+          "synonyms": [
+            "patronyme"
+          ]
+        },
+        {
+          "name": "personnes",
+          "synonyms": [
+            "personnes"
+          ]
+        },
+        {
+          "name": "théodore",
+          "synonyms": [
+            "théodore"
+          ]
+        },
+        {
+          "name": "pilette",
+          "synonyms": [
+            "pilette"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pilette est le patronyme de plusieurs personnes :\n\nThéodore Pilette (1883-1921), pilote automobile belge ;\nAndré Pilette (1918-1993), pilote automobile belge, père du suivant ;\nTeddy Pilette (1942-), pilote automobile belge, fils du précédent ;\nÉmile Pilette (1844-1908), architecte du département du Nord, père d'Edmond ;\nEdmond Pilette (1882-1973), architecte français œuvrant à Toulouse.\nPilette désigne également une plante :\n\nPilette, plante hémicryptophyte des sous-bois d'Europe."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "piquage": {
+    "type": "specialized",
+    "exact_terms": [
+      "piquage"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "piquage",
+          "synonyms": [
+            "piquage"
+          ]
+        },
+        {
+          "name": "choses",
+          "synonyms": [
+            "choses"
+          ]
+        },
+        {
+          "name": "piquer",
+          "synonyms": [
+            "piquer"
+          ]
+        },
+        {
+          "name": "aiguille",
+          "synonyms": [
+            "aiguille"
+          ]
+        },
+        {
+          "name": "voir",
+          "synonyms": [
+            "voir"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme piquage peut désigner plusieurs choses :\n\nle fait de piquer avec une aiguille : voir par exemple Patchwork, Couture, Tissus d'ameublement, Tatouage, Dentelure ;\nle fait de marquer par des points ;\nle fait de placer des fleurs en papier sur des chars de carnaval ;\nune opération dans la transformation du lait en fromage , voir Fromage à pâte persillée ;\nune pénalité en hockey sur glace, voir Piquage (hockey sur glace) ;\nle fait de raccorder une canalisation à un réservoir ou à une autre c..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\plomberie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pointe": {
+    "type": "specialized",
+    "exact_terms": [
+      "pointe"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pointe",
+          "synonyms": [
+            "pointe"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "manière",
+          "synonyms": [
+            "manière"
+          ]
+        },
+        {
+          "name": "générale",
+          "synonyms": [
+            "générale"
+          ]
+        },
+        {
+          "name": "l'extrémité",
+          "synonyms": [
+            "l'extrémité"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pointe désigne de manière générale l'extrémité aiguë d'un corps quelconque."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\fortification",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pontis": {
+    "type": "specialized",
+    "exact_terms": [
+      "pontis"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pontis",
+          "synonyms": [
+            "pontis"
+          ]
+        },
+        {
+          "name": "commune",
+          "synonyms": [
+            "commune"
+          ]
+        },
+        {
+          "name": "française",
+          "synonyms": [
+            "française"
+          ]
+        },
+        {
+          "name": "située",
+          "synonyms": [
+            "située"
+          ]
+        },
+        {
+          "name": "département",
+          "synonyms": [
+            "département"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pontis est une commune française, située dans le département des Alpes-de-Haute-Provence, dans la région Provence-Alpes-Côte d'Azur.\nLe nom de ses habitants est Pontisois ou Pontissois."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\verrerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "programme": {
+    "type": "specialized",
+    "exact_terms": [
+      "programme"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "programme",
+          "synonyms": [
+            "programme"
+          ]
+        },
+        {
+          "name": "fournit",
+          "synonyms": [
+            "fournit"
+          ]
+        },
+        {
+          "name": "détails",
+          "synonyms": [
+            "détails"
+          ]
+        },
+        {
+          "name": "déroulement",
+          "synonyms": [
+            "déroulement"
+          ]
+        },
+        {
+          "name": "quelconque",
+          "synonyms": [
+            "quelconque"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un programme fournit les détails d'un déroulement quelconque de manière ordonnée. Il peut se présenter sous plusieurs formes."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pumi": {
+    "type": "specialized",
+    "exact_terms": [
+      "pumi"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pumi",
+          "synonyms": [
+            "pumi"
+          ]
+        },
+        {
+          "name": "chinois",
+          "synonyms": [
+            "chinois"
+          ]
+        },
+        {
+          "name": "pumizú",
+          "synonyms": [
+            "pumizú"
+          ]
+        },
+        {
+          "name": "groupe",
+          "synonyms": [
+            "groupe"
+          ]
+        },
+        {
+          "name": "ethnique",
+          "synonyms": [
+            "ethnique"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Les Pumi (chinois : Pumizú) sont un groupe ethnique. Ils constituent l'un des 56 groupes ethniques officiellement identifiés par la république populaire de Chine."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "receveur": {
+    "type": "specialized",
+    "exact_terms": [
+      "receveur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "receveur",
+          "synonyms": [
+            "receveur"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "receveur",
+          "synonyms": [
+            "receveur"
+          ]
+        },
+        {
+          "name": "membre",
+          "synonyms": [
+            "membre"
+          ]
+        },
+        {
+          "name": "l'administration",
+          "synonyms": [
+            "l'administration"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Receveur  peut faire référence à :\n\nUn receveur est un membre de l'administration (par exemple, un « receveur des contributions » ; on dit aussi « percepteur ») ou, sous l'Ancien Régime, chargé de percevoir, collecter, gérer des « recettes », ainsi le receveur des rentes. Le « receveur général » ou « receveur diocésain » doit collecter les recettes spéciales ou municipales."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\plomberie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "rosette": {
+    "type": "specialized",
+    "exact_terms": [
+      "rosette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "rosette",
+          "synonyms": [
+            "rosette"
+          ]
+        },
+        {
+          "name": "originellement",
+          "synonyms": [
+            "originellement"
+          ]
+        },
+        {
+          "name": "diminutif",
+          "synonyms": [
+            "diminutif"
+          ]
+        },
+        {
+          "name": "rose",
+          "synonyms": [
+            "rose"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot rosette est originellement un diminutif de « rose »."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\fontainerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "secret": {
+    "type": "specialized",
+    "exact_terms": [
+      "secret"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "secret",
+          "synonyms": [
+            "secret"
+          ]
+        },
+        {
+          "name": "latin",
+          "synonyms": [
+            "latin"
+          ]
+        },
+        {
+          "name": "secretus",
+          "synonyms": [
+            "secretus"
+          ]
+        },
+        {
+          "name": "information",
+          "synonyms": [
+            "information"
+          ]
+        },
+        {
+          "name": "délibérément",
+          "synonyms": [
+            "délibérément"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un secret (du latin secretus) est une information délibérément cachée ; tandis qu'une connaissance inaccessible est un mystère.\nLes deux notions peuvent se confondre dans l'usage, mais la possibilité de révéler un secret marque leur différence, tout comme le fait qu'une formule, une figure, un ouvrage proposant un mystère insondable puissent être secrets, comme il arrive dans l'ésotérisme."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\serrurerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "serrure": {
+    "type": "specialized",
+    "exact_terms": [
+      "serrure"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "serrure",
+          "synonyms": [
+            "serrure"
+          ]
+        },
+        {
+          "name": "mécanisme",
+          "synonyms": [
+            "mécanisme"
+          ]
+        },
+        {
+          "name": "fermeture",
+          "synonyms": [
+            "fermeture"
+          ]
+        },
+        {
+          "name": "porte",
+          "synonyms": [
+            "porte"
+          ]
+        },
+        {
+          "name": "véhicule",
+          "synonyms": [
+            "véhicule"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une serrure est un mécanisme de fermeture (d’une porte, d’un véhicule) qui ne peut être ouvert que par une clef ou une combinaison correspondante."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\serrurerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tadelakt": {
+    "type": "specialized",
+    "exact_terms": [
+      "tadelakt"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tadelakt",
+          "synonyms": [
+            "tadelakt"
+          ]
+        },
+        {
+          "name": "tadellakt",
+          "synonyms": [
+            "tadellakt"
+          ]
+        },
+        {
+          "name": "l'arabe",
+          "synonyms": [
+            "l'arabe"
+          ]
+        },
+        {
+          "name": "دلك",
+          "synonyms": [
+            "دلك"
+          ]
+        },
+        {
+          "name": "masser",
+          "synonyms": [
+            "masser"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le tadelakt ou tadellakt (de l'arabe دلك masser, frotter, polir, aplanir ; son déverbal est تدلاكت) est un enduit-stuc traditionnel de la culture du Maroc, et de l'artisanat marocain, lisse, doux, imperméable, fongicide, et brillant, à base de chaux de Marrakech, d'eau de chaux, et de savon noir, teinté de pigments colorés, traditionnellement utilisé pour étanchéifier les citernes d'eau, ou en artisanat d'art et arts décoratifs, pour enduire et étanchéifier des fontaines, bassins, piscines, vasq..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tasseau": {
+    "type": "specialized",
+    "exact_terms": [
+      "tasseau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "tasseau",
+          "synonyms": [
+            "tasseau"
+          ]
+        },
+        {
+          "name": "pièce",
+          "synonyms": [
+            "pièce"
+          ]
+        },
+        {
+          "name": "bois",
+          "synonyms": [
+            "bois"
+          ]
+        },
+        {
+          "name": "souvent",
+          "synonyms": [
+            "souvent"
+          ]
+        },
+        {
+          "name": "longue",
+          "synonyms": [
+            "longue"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un tasseau est une pièce en bois, le plus souvent longue, fine et rabotée. Sa section est carrée ou rectangulaire."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\charpenterie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "topette": {
+    "type": "specialized",
+    "exact_terms": [
+      "topette"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "topette",
+          "synonyms": [
+            "topette"
+          ]
+        },
+        {
+          "name": "apparu",
+          "synonyms": [
+            "apparu"
+          ]
+        },
+        {
+          "name": "xviiie",
+          "synonyms": [
+            "xviiie"
+          ]
+        },
+        {
+          "name": "siècle",
+          "synonyms": [
+            "siècle"
+          ]
+        },
+        {
+          "name": "fiole",
+          "synonyms": [
+            "fiole"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "La topette, mot apparu au XVIIIe siècle, est une fiole longue et étroite, faite de terre ou de verre, facile à transporter en poche ou dans un panier-repas.\nPar métonymie, la topette désigne aussi le contenu de la bouteille."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "toupie": {
+    "type": "specialized",
+    "exact_terms": [
+      "toupie"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "toupie",
+          "synonyms": [
+            "toupie"
+          ]
+        },
+        {
+          "name": "toupie",
+          "synonyms": [
+            "toupie"
+          ]
+        },
+        {
+          "name": "jouet",
+          "synonyms": [
+            "jouet"
+          ]
+        },
+        {
+          "name": "destiné",
+          "synonyms": [
+            "destiné"
+          ]
+        },
+        {
+          "name": "tourner",
+          "synonyms": [
+            "tourner"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme toupie peut désigner :\n\nToupie, jouet destiné à tourner sur lui-même le plus longtemps possible, en équilibre sur sa pointe.\nToupie, réservoir de camion spécialisé dans le transport de béton, appelé communément « camion-toupie » ou « malaxeur » dans le contexte professionnel."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\plomberie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "tractopelle": {
+    "type": "specialized",
+    "exact_terms": [
+      "tractopelle"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "chargeuse",
+          "synonyms": [
+            "chargeuse"
+          ]
+        },
+        {
+          "name": "pelleteuse",
+          "synonyms": [
+            "pelleteuse"
+          ]
+        },
+        {
+          "name": "tractopelle",
+          "synonyms": [
+            "tractopelle"
+          ]
+        },
+        {
+          "name": "selon",
+          "synonyms": [
+            "selon"
+          ]
+        },
+        {
+          "name": "l'usage",
+          "synonyms": [
+            "l'usage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une chargeuse pelleteuse ou un ou une tractopelle selon l'usage professionnel français courant est un engin de génie civil combinant un chargeur sur pneus et une pelleteuse. La pelle, de petite taille, est surtout destinée à des travaux légers (creusement de tranchées, engin d'appui sur tous chantiers ou en agriculture pour des travaux très diversifiés)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "vernis": {
+    "type": "specialized",
+    "exact_terms": [
+      "vernis"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "vernis",
+          "synonyms": [
+            "vernis"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "substance",
+          "synonyms": [
+            "substance"
+          ]
+        },
+        {
+          "name": "transparente",
+          "synonyms": [
+            "transparente"
+          ]
+        },
+        {
+          "name": "colorée",
+          "synonyms": [
+            "colorée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le terme vernis désigne une substance transparente ou colorée , sèche, permanente et brillante, déposée à l'état liquide et qui, en se solidifiant par évaporation, constitue une couche protectrice à la surface de l'objet (le subjectile) où il est étendu et qui le protège des agressions atmosphériques ou mécaniques (usure)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\verrerie\\vitrerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "verre craquelé": {
+    "type": "specialized",
+    "exact_terms": [
+      "verre craquelé"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "verre",
+          "synonyms": [
+            "verre"
+          ]
+        },
+        {
+          "name": "craquelé",
+          "synonyms": [
+            "craquelé"
+          ]
+        },
+        {
+          "name": "type",
+          "synonyms": [
+            "type"
+          ]
+        },
+        {
+          "name": "verre",
+          "synonyms": [
+            "verre"
+          ]
+        },
+        {
+          "name": "présentant",
+          "synonyms": [
+            "présentant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le verre craquelé est un type de verre présentant des craquelures dans la masse et utilisé à usage décoratif. La technique aurait été découverte à Murano (« vetro a ghiaccio ») au XVIe siècle avant d'être redécouverte au XIXe siècle et exploitée plus largement."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\verrerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "wagon": {
+    "type": "specialized",
+    "exact_terms": [
+      "wagon"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "wagon",
+          "synonyms": [
+            "wagon"
+          ]
+        },
+        {
+          "name": "belgique",
+          "synonyms": [
+            "belgique"
+          ]
+        },
+        {
+          "name": "véhicule",
+          "synonyms": [
+            "véhicule"
+          ]
+        },
+        {
+          "name": "destiné",
+          "synonyms": [
+            "destiné"
+          ]
+        },
+        {
+          "name": "transport",
+          "synonyms": [
+            "transport"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un wagon (/va.ɡɔ̃/, ou en Belgique /wa.ɡɔ̃/) est un véhicule destiné au transport par chemin de fer d'animaux ou de marchandises et incapable de se mouvoir par lui-même."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "architecture",
+    "domaine_exact": "architecture\\maçonnerie",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="10.0cm" height="12.0cm" viewBox="0 0 1000 1200"
+	xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<g stroke="black" stroke-width="1">
+<path d="M 650,450 L 450,50 50,250 250,650 Z" fill="red" />
+<path d="M 250,650 L 250,1150 650,1150 650,650 Z" fill="red" />
+<path d="M 650,450 L 750,650 950,550 850,350 Z" fill="lime" />
+<path d="M 650,650 L 650,1150 750,1150 750,650 Z" fill="lime" />
+<line x1="650" y1="650" x2="650" y2="450" />
+</g>
+<g font-style="italic" font-size="40" font-family="Times">
+<text text-anchor="end" x="640" y="570">h</text>
+<text text-anchor="middle" x="450" y="630">q</text>
+<text text-anchor="middle" x="700" y="630">p</text>
+<text text-anchor="start" x="920" y="450">a</text>
+<text text-anchor="end" x="750" y="380">a</text>
+<text text-anchor="start" x="570" y="250">b</text>
+<text text-anchor="end" x="250" y="135">b</text>
+<text text-anchor="end" x="240" y="920">c</text>
+<text text-anchor="middle" x="500" y="1190">c</text>
+<text text-anchor="middle" x="350" y="360" font-size="50">b²</text>
+<text text-anchor="middle" x="800" y="510" font-size="50">a²</text>
+<text text-anchor="middle" x="450" y="910" font-size="50">q · c</text>
+<text text-anchor="middle" x="700" y="910" font-size="50">p · c</text>
+</g>
+</svg>

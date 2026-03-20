@@ -1,0 +1,1102 @@
+{
+  "anycast": {
+    "type": "specialized",
+    "exact_terms": [
+      "anycast"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "anycast",
+          "synonyms": [
+            "anycast"
+          ]
+        },
+        {
+          "name": "technique",
+          "synonyms": [
+            "technique"
+          ]
+        },
+        {
+          "name": "d'adressage",
+          "synonyms": [
+            "d'adressage"
+          ]
+        },
+        {
+          "name": "routage",
+          "synonyms": [
+            "routage"
+          ]
+        },
+        {
+          "name": "permettant",
+          "synonyms": [
+            "permettant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Anycast est une technique d'adressage et de routage permettant de rediriger les données vers le serveur informatique le « plus proche » ou le « plus efficace » selon la politique de routage.\nCe terme se veut proche phonétiquement des termes unicast, broadcast et multicast."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "broadcast": {
+    "type": "specialized",
+    "exact_terms": [
+      "broadcast"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "broadcast",
+          "synonyms": [
+            "broadcast"
+          ]
+        },
+        {
+          "name": "verbe",
+          "synonyms": [
+            "verbe"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "composé",
+          "synonyms": [
+            "composé"
+          ]
+        },
+        {
+          "name": "broad",
+          "synonyms": [
+            "broad"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Broadcast est un verbe anglais composé par broad (large) et cast (distribuer), signifiant « diffuser ». Ce terme est essentiellement utilisé par les techniciens de télévision pour qualifier le niveau d'un équipement, d'un système de diffusion ou d'une source qui respectent les normes professionnelles (« qualité broadcast »)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "commutateur": {
+    "type": "specialized",
+    "exact_terms": [
+      "commutateur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "commutateur",
+          "synonyms": [
+            "commutateur"
+          ]
+        },
+        {
+          "name": "évolution",
+          "synonyms": [
+            "évolution"
+          ]
+        },
+        {
+          "name": "plurielle",
+          "synonyms": [
+            "plurielle"
+          ]
+        },
+        {
+          "name": "multicommutateur",
+          "synonyms": [
+            "multicommutateur"
+          ]
+        },
+        {
+          "name": "parfois",
+          "synonyms": [
+            "parfois"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot commutateur et son évolution plurielle « multicommutateur » ou parfois « multisélecteur » (en anglais switch / multiswitch) peut avoir différentes significations selon le domaine étudié.\n\nEn électrotechnique et en électronique :\nun commutateur électromécanique est un dispositif — mécanique sauf précision contraire — qui permet de choisir quels circuits seront reliés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "concentrateur": {
+    "type": "specialized",
+    "exact_terms": [
+      "concentrateur"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "concentrateur",
+          "synonyms": [
+            "concentrateur"
+          ]
+        },
+        {
+          "name": "concentrateur",
+          "synonyms": [
+            "concentrateur"
+          ]
+        },
+        {
+          "name": "ethernet",
+          "synonyms": [
+            "ethernet"
+          ]
+        },
+        {
+          "name": "informatique",
+          "synonyms": [
+            "informatique"
+          ]
+        },
+        {
+          "name": "concentrateur",
+          "synonyms": [
+            "concentrateur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Concentrateur peut désigner :\n\nconcentrateur Ethernet, en informatique, un concentrateur pour les connexions réseau Ethernet ;\nconcentrateur USB, en informatique, un concentrateur pour les connexions de périphériques USB.\nconcentrateur d'oxygène, dans le domaine médical, un appareil destiné aux personnes souffrant d'insuffisance respiratoire ;\nconcentrateur, en électricité, le concentrateur d'un panneau photovoltaïque à concentration."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "firewall": {
+    "type": "specialized",
+    "exact_terms": [
+      "firewall"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "firewall",
+          "synonyms": [
+            "firewall"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "signifie",
+          "synonyms": [
+            "signifie"
+          ]
+        },
+        {
+          "name": "littéralement",
+          "synonyms": [
+            "littéralement"
+          ]
+        },
+        {
+          "name": "mur",
+          "synonyms": [
+            "mur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Firewall est un mot anglais signifie littéralement « mur de feu ». Il peut faire référence à :\n\nEn informatique, un firewall est un pare-feu,\nEn astrophysique, firewall se traduit par mur de feu."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hairpinning": {
+    "type": "specialized",
+    "exact_terms": [
+      "hairpinning"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "réseau",
+          "synonyms": [
+            "réseau"
+          ]
+        },
+        {
+          "name": "informatique",
+          "synonyms": [
+            "informatique"
+          ]
+        },
+        {
+          "name": "hairpinning",
+          "synonyms": [
+            "hairpinning"
+          ]
+        },
+        {
+          "name": "décrit",
+          "synonyms": [
+            "décrit"
+          ]
+        },
+        {
+          "name": "communication",
+          "synonyms": [
+            "communication"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En réseau informatique, le hairpinning décrit une communication entre deux machines placées derrière le même routeur NAT qui utilisent l'adresse IP de leurs points de sorties pour communiquer. Tous les mécanismes de NAT ne supportent pas cette configuration de communication."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hostmask": {
+    "type": "specialized",
+    "exact_terms": [
+      "hostmask"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "hostmask",
+          "synonyms": [
+            "hostmask"
+          ]
+        },
+        {
+          "name": "irc",
+          "synonyms": [
+            "irc"
+          ]
+        },
+        {
+          "name": "représente",
+          "synonyms": [
+            "représente"
+          ]
+        },
+        {
+          "name": "l'adresse",
+          "synonyms": [
+            "l'adresse"
+          ]
+        },
+        {
+          "name": "assignée",
+          "synonyms": [
+            "assignée"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un hostmask sur IRC représente l'adresse assignée à un client par le serveur IRC. Les services IRC ainsi que les robots fournis par le serveur utilisent cette adresse pour identifier le client.\nLe hostmask ne doit pas être confondu avec une adresse électronique, malgré la ressemblance."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "hôte": {
+    "type": "specialized",
+    "exact_terms": [
+      "hôte"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "souvent",
+          "synonyms": [
+            "souvent"
+          ]
+        },
+        {
+          "name": "été",
+          "synonyms": [
+            "été"
+          ]
+        },
+        {
+          "name": "dit",
+          "synonyms": [
+            "dit"
+          ]
+        },
+        {
+          "name": "tort",
+          "synonyms": [
+            "tort"
+          ]
+        },
+        {
+          "name": "hôte",
+          "synonyms": [
+            "hôte"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Il a souvent été dit, à tort, que hôte était un terme polysémique désignant la personne qui reçoit ou qui accueille des invités, aussi bien que la personne qui est reçue en tant qu’invité. \nEn réalité  il existe deux mots différents, que leur féminin permet de distinguer : hôtesse désigne la personne qui reçoit ; hôte désigne la personne qui est reçue."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "multicast": {
+    "type": "specialized",
+    "exact_terms": [
+      "multicast"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "multicast",
+          "synonyms": [
+            "multicast"
+          ]
+        },
+        {
+          "name": "qu'on",
+          "synonyms": [
+            "qu'on"
+          ]
+        },
+        {
+          "name": "pourrait",
+          "synonyms": [
+            "pourrait"
+          ]
+        },
+        {
+          "name": "traduire",
+          "synonyms": [
+            "traduire"
+          ]
+        },
+        {
+          "name": "multidiffusion",
+          "synonyms": [
+            "multidiffusion"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le multicast (qu'on pourrait traduire par « multidiffusion ») est une forme de diffusion d'un émetteur (source unique) vers un groupe de récepteurs. Les termes « diffusion multipoint » ou « diffusion de groupe » sont également employés."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "métrique": {
+    "type": "specialized",
+    "exact_terms": [
+      "métrique"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "métrique",
+          "synonyms": [
+            "métrique"
+          ]
+        },
+        {
+          "name": "métrique",
+          "synonyms": [
+            "métrique"
+          ]
+        },
+        {
+          "name": "logiciel",
+          "synonyms": [
+            "logiciel"
+          ]
+        },
+        {
+          "name": "métrique",
+          "synonyms": [
+            "métrique"
+          ]
+        },
+        {
+          "name": "routage",
+          "synonyms": [
+            "routage"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Métrique peut désigner :\n\nMétrique (logiciel)\nMétrique (routage)\nEn littérature :\nMétrique (poésie)\nProse métrique\nChant (métrique)\nMétrique arabe\nEn mathématiques et en physique :\nEspace métrique\nMétrique (physique)\nMétrique de Carnot-Carathéodory\nMétrique de Kasner\nMétrique de Fubini-Study\nMétrique de Friedmann-Lemaître-Robertson-Walker, en cosmologie\nMétrique de Poincaré\nMétrique riemannienne\nTenseur métrique et tenseur métrique inverse\nEn liaison avec la théorie de la relativité d'Albert Ein..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pare-feu": {
+    "type": "specialized",
+    "exact_terms": [
+      "pare-feu"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pare-feu",
+          "synonyms": [
+            "pare-feu"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "objets",
+          "synonyms": [
+            "objets"
+          ]
+        },
+        {
+          "name": "destination",
+          "synonyms": [
+            "destination"
+          ]
+        },
+        {
+          "name": "pare-étincelles",
+          "synonyms": [
+            "pare-étincelles"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un pare-feu est un terme qui désigne plusieurs objets :\n\nà destination de pare-étincelles :\npare-feu domestique qui protège une habitation des projections d'un  foyer étincelant\npare-feu au théâtre, qui protège la salle des projections des feux de la  rampe\npare-feu qui protège le visage d'un pompier équipé de son casque, des éléments enflammés provenant d'un incendie\npare-feu, la zone dégagée le long d'une voie ferrée traversant une zone boisée\nà destination de coupe-feu :\npare-feu forestier, c..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "pivot": {
+    "type": "specialized",
+    "exact_terms": [
+      "pivot"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "pivot",
+          "synonyms": [
+            "pivot"
+          ]
+        },
+        {
+          "name": "faire",
+          "synonyms": [
+            "faire"
+          ]
+        },
+        {
+          "name": "pivot",
+          "synonyms": [
+            "pivot"
+          ]
+        },
+        {
+          "name": "liaison",
+          "synonyms": [
+            "liaison"
+          ]
+        },
+        {
+          "name": "autorisant",
+          "synonyms": [
+            "autorisant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Pivot peut faire référence à :\n\npivot, une liaison autorisant uniquement une rotation, en mécanique ; la partie verticale supportant un moulin sur pivot ;\npivot , mot employé dans divers sports :\nPivot, au basket-ball,\nPivot, au handball,\nPivot au tennis de table ;\npivot, mot employé dans le monde des start-ups ;\npivot, un équipement d'irrigation rotatif permanent en agriculture ;\npivot de Gauss, un algorithme d'algèbre linéaire ;\npivot grammatical, le mot autour duquel s'articule la phrase ;\nPi..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "port": {
+    "type": "specialized",
+    "exact_terms": [
+      "port"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "port",
+          "synonyms": [
+            "port"
+          ]
+        },
+        {
+          "name": "infrastructure",
+          "synonyms": [
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "construite",
+          "synonyms": [
+            "construite"
+          ]
+        },
+        {
+          "name": "l'homme",
+          "synonyms": [
+            "l'homme"
+          ]
+        },
+        {
+          "name": "située",
+          "synonyms": [
+            "située"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Un port est une infrastructure construite par l'homme, située sur le littoral maritime, sur les berges d'un lac ou sur un cours d'eau, et destinée à accueillir des bateaux et navires. Il existe par ailleurs des ports à sec installés en sus ou non d'un port maritime ou fluvial comme stationnement portuaire relié à une infrastructure à terre permettant un stockage de petites unités, comme des voiliers, ainsi que des transferts vers des réseaux ferroviaires et routiers."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "portier": {
+    "type": "specialized",
+    "exact_terms": [
+      "portier"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "jusqu'en",
+          "synonyms": [
+            "jusqu'en"
+          ]
+        },
+        {
+          "name": "1972",
+          "synonyms": [
+            "1972"
+          ]
+        },
+        {
+          "name": "charge",
+          "synonyms": [
+            "charge"
+          ]
+        },
+        {
+          "name": "portier",
+          "synonyms": [
+            "portier"
+          ]
+        },
+        {
+          "name": "constituait",
+          "synonyms": [
+            "constituait"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Jusqu'en 1972, la charge de portier constituait, dans la hiérarchie catholique, le premier degré des ordres mineurs."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "requête": {
+    "type": "specialized",
+    "exact_terms": [
+      "requête"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "requête",
+          "synonyms": [
+            "requête"
+          ]
+        },
+        {
+          "name": "droit",
+          "synonyms": [
+            "droit"
+          ]
+        },
+        {
+          "name": "recours",
+          "synonyms": [
+            "recours"
+          ]
+        },
+        {
+          "name": "exercé",
+          "synonyms": [
+            "exercé"
+          ]
+        },
+        {
+          "name": "devant",
+          "synonyms": [
+            "devant"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Une requête est :\n\nen droit : un recours exercé devant une juridiction, auquel il est répondu par un jugement ou une ordonnance ;\nen informatique, un moyen formel d'effectuer une action telle qu'une recherche d'information dans un système d'information, ou une génération de texte, d'image, de vidéo ou de son par l'intelligence artificielle générative :\ndans un réseau informatique, un message envoyé par un client vers un serveur qui émet une réponse ;\ndans une bases de données, une interrogation ..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "réseau": {
+    "type": "specialized",
+    "exact_terms": [
+      "réseau"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "premier",
+          "synonyms": [
+            "premier"
+          ]
+        },
+        {
+          "name": "ressort",
+          "synonyms": [
+            "ressort"
+          ]
+        },
+        {
+          "name": "réseau",
+          "synonyms": [
+            "réseau"
+          ]
+        },
+        {
+          "name": "désigne",
+          "synonyms": [
+            "désigne"
+          ]
+        },
+        {
+          "name": "concret",
+          "synonyms": [
+            "concret"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En premier ressort, le mot réseau désigne au sens concret « un ensemble de lignes entrelacées » et, au figuré « un ensemble de relations ». Par extension, il désigne un ensemble interconnecté, fait de composants et de leurs inter-relations, autorisant la circulation en mode continu ou discontinu de flux (eau, air, huile…) ou d'éléments finis (marchandises, informations, personnes…)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "réseau privé virtuel": {
+    "type": "specialized",
+    "exact_terms": [
+      "réseau privé virtuel"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "informatique",
+          "synonyms": [
+            "informatique"
+          ]
+        },
+        {
+          "name": "réseau",
+          "synonyms": [
+            "réseau"
+          ]
+        },
+        {
+          "name": "privé",
+          "synonyms": [
+            "privé"
+          ]
+        },
+        {
+          "name": "virtuel",
+          "synonyms": [
+            "virtuel"
+          ]
+        },
+        {
+          "name": "rpv",
+          "synonyms": [
+            "rpv"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En informatique, un réseau privé virtuel (RPV) ou réseau virtuel privé (RVP ; plus communément abrégé en VPN, de l'anglais : virtual private network), est un système permettant de créer un lien direct entre des ordinateurs distants, connectés à des réseaux locaux (LAN) différents, qui isole leurs échanges du reste du trafic se déroulant sur des réseaux de télécommunication publics.\nOn utilise notamment cette technologie en situation de télétravail ainsi que dans le cadre de l'informatique en nua..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "seau à jetons": {
+    "type": "specialized",
+    "exact_terms": [
+      "seau à jetons"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "seau",
+          "synonyms": [
+            "seau"
+          ]
+        },
+        {
+          "name": "jetons",
+          "synonyms": [
+            "jetons"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "token",
+          "synonyms": [
+            "token"
+          ]
+        },
+        {
+          "name": "bucket",
+          "synonyms": [
+            "bucket"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le seau à jetons (en anglais : token bucket) est un algorithme permettant de contrôler le débit passant par un nœud d'un réseau informatique. A ne pas confondre avec l'algorithme du seau percé (leaky bucket)."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "switch": {
+    "type": "specialized",
+    "exact_terms": [
+      "switch"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "switch",
+          "synonyms": [
+            "switch"
+          ]
+        },
+        {
+          "name": "anglais",
+          "synonyms": [
+            "anglais"
+          ]
+        },
+        {
+          "name": "l'on",
+          "synonyms": [
+            "l'on"
+          ]
+        },
+        {
+          "name": "traduire",
+          "synonyms": [
+            "traduire"
+          ]
+        },
+        {
+          "name": "commutateur",
+          "synonyms": [
+            "commutateur"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Le mot switch est un mot anglais que l'on peut traduire par « commutateur  » ou « interrupteur » en français."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "trou noir": {
+    "type": "specialized",
+    "exact_terms": [
+      "trou noir"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "astrophysique",
+          "synonyms": [
+            "astrophysique"
+          ]
+        },
+        {
+          "name": "trou",
+          "synonyms": [
+            "trou"
+          ]
+        },
+        {
+          "name": "noir",
+          "synonyms": [
+            "noir"
+          ]
+        },
+        {
+          "name": "objet",
+          "synonyms": [
+            "objet"
+          ]
+        },
+        {
+          "name": "céleste",
+          "synonyms": [
+            "céleste"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "En astrophysique, un trou noir est un objet céleste si compact que l'intensité de son champ gravitationnel empêche toute forme de matière ou de rayonnement de s'en échapper.\nDe tels objets ne peuvent ni émettre, ni diffuser la lumière et sont donc noirs, ce qui en astronomie revient à dire qu'ils sont optiquement invisibles."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "uri": {
+    "type": "specialized",
+    "exact_terms": [
+      "uri"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "uri",
+          "synonyms": [
+            "uri"
+          ]
+        },
+        {
+          "name": "uri",
+          "synonyms": [
+            "uri"
+          ]
+        },
+        {
+          "name": "canton",
+          "synonyms": [
+            "canton"
+          ]
+        },
+        {
+          "name": "suisse",
+          "synonyms": [
+            "suisse"
+          ]
+        },
+        {
+          "name": "uri",
+          "synonyms": [
+            "uri"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "Uri peut désigner :\n\nUri, un canton suisse ;\nUri, une commune italienne de la province de Sassari ;\nUri, le nom d'un des plus importants partis politiques sud-coréens ;\nPierre Uri, économiste français du XXe siècle ;\nUri, une petite île située dans une baie de la côte Nord-Est de Malekula, au Vanuatu ;\nUri, une ville du Cachemire ;\nUri, un bateau à aubes naviguant sur le lac des Quatre-Cantons, en Suisse ;\nUri: The Surgical Strike, un film indien de Aditya Dhar sorti en 2019.\nLe sigle URI peut f..."
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  },
+  "vlan": {
+    "type": "specialized",
+    "exact_terms": [
+      "vlan"
+    ],
+    "definition": {
+      "mandatory": [
+        {
+          "name": "sigle",
+          "synonyms": [
+            "sigle"
+          ]
+        },
+        {
+          "name": "vlan",
+          "synonyms": [
+            "vlan"
+          ]
+        },
+        {
+          "name": "réseau",
+          "synonyms": [
+            "réseau"
+          ]
+        },
+        {
+          "name": "local",
+          "synonyms": [
+            "local"
+          ]
+        },
+        {
+          "name": "virtuel",
+          "synonyms": [
+            "virtuel"
+          ]
+        }
+      ],
+      "contextual": [],
+      "raw_definition": "sigle :\nVLAN, un réseau local virtuel informatique.\nnom commun :\nvlan !"
+    },
+    "threshold": 0.9,
+    "domaine_parent": "informatique",
+    "domaine_exact": "informatique",
+    "validation_weight": 0.8,
+    "sources": [
+      "wikipedia"
+    ],
+    "confidence": 0.8
+  }
+}

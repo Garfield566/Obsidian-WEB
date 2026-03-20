@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"1d22a96ff15cc31f","type":"group","x":-640,"y":200,"width":925,"height":1360,"color":"#2d8647","label":"Chapitre DEUX: Espaces vectoriels réels"},
+		{"id":"9b42d5037837028b","type":"group","x":-600,"y":1040,"width":760,"height":484,"color":"3","label":"Famille Génératrice"},
+		{"id":"55278ab979a6283b","type":"text","text":"$$\n\\begin{pmatrix}  \\\\\n1&1&1&6\\\\  \\\\\n2&3&1&10\\\\  \\\\\n1&4&3&15\\\\ \\end{pmatrix}\n$$","x":-460,"y":-120,"width":250,"height":192},
+		{"id":"2da75297bba70ecf","type":"text","text":"cmbinaisont linéaire","x":-456,"y":521,"width":250,"height":60},
+		{"id":"15de8aba4f4763a8","type":"text","text":"### Vecteur combinaison linéaire de deux autre: \non doit résoudre le système ![{\\displaystyle {\\vec {v}}=2\\times {\\vec {u}}_{1}+1.5\\times {\\vec {u}}_{2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/87bb9e9e3f2abdce140ef9439b4469ae98a724fc)","x":-196,"y":260,"width":416,"height":160,"color":"6"},
+		{"id":"b043e4125f526ed4","type":"text","text":"### Familles libres ou linéairement indépendantes :\n**si la seule combinaison linéaire de ces vecteurs qui soit égale au vecteur nul est celle dont tous les coefficients sont nuls**. ","x":-188,"y":464,"width":408,"height":216},
+		{"id":"86259d6d0af5af8a","type":"text","text":"Une famille est libre si et seulement si le seul vecteur combinaison linéaire des vecteurs de cette famille avec des coefficients nuls est le vexteur nul.\n\nUne famille de vecteurs est libre si aucun vecteur de cette famille ne peut s'écrit comme combinaison linéaire des autre.\n\n$$ \\left \\{\n\\begin{array}{rcl}\n\\alpha+\\beta+\\gamma =0 \\\\\n-\\alpha+\\beta+ =0 \\\\ \n\\alpha+\\gamma =0 \n\\end{array}\n\\right.  $$","x":-190,"y":700,"width":404,"height":280,"color":"6"},
+		{"id":"9218da6176967c14","type":"text","text":"Toute sous famille d'une famille libre est libre. ","x":-520,"y":896,"width":250,"height":84,"color":"6"},
+		{"id":"4e56a271ae44edf3","type":"text","text":"Méthode de Gauss \"matrice\"","x":-129,"y":-247,"width":250,"height":60},
+		{"id":"82a0cada3b3e1487","type":"text","text":"$$\n\\begin{pmatrix}  \\\\\n1&1&1&6\\\\  \\\\\n0&1&-1&-2\\\\  \\\\\n0&0&5&15\\\\ \\end{pmatrix}\n$$","x":160,"y":-126,"width":250,"height":198},
+		{"id":"168af3d9601228ed","type":"text","text":"Le but de la méthode de Gauss est de simplifier un système par c'est règle d'égalité.   ","x":-160,"y":-160,"width":250,"height":133,"color":"6"},
+		{"id":"f9909a17b3c4ea65","type":"text","text":"Une famille est génératrice ci n'importe quel vecteur peut être créer avec une conbinaison linétaire de c'est vecteur. donc prouver que \n\n$$ \\left \\{\n\\begin{array}{rcl}\n\\alpha+\\beta+\\gamma = x \\\\\n-\\alpha+\\beta = y \\\\ \n\\alpha+\\gamma = z \n\\end{array}\n\\right.  $$","x":-560,"y":1080,"width":320,"height":240,"color":"#443f83"},
+		{"id":"e1abbdc446a7e787","type":"text","text":"On appelle base d'un espace vectoriel E toute famille qui est à la fois libre et génératrive. Soit (v1,v2,..,vp) de E, alors pour tout U qui apartien à E, il existe un unique P-uplet $(\\gamma ,\\dots)$ la def n'est pas entière\n","x":-240,"y":1095,"width":250,"height":225},
+		{"id":"4ea06b035610324d","type":"text","text":"% === x+(-5/3)*x ===\n```tikz\n\\usepackage{pgfplots}\n\\pgfplotsset{compat=1.16}\n\n\\begin{document}\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis lines=middle,\n    grid=both,\n    domain=-5:5,\n    samples=200,\n    xlabel={$x$},\n    ylabel={$f(x)$},\n    width=10cm,\n    height=7cm\n]\n\\addplot[blue, thick] {x+(-5/3)*x};\n\\end{axis}\n\\end{tikzpicture}\n\\end{document}\n```","x":-620,"y":1980,"width":440,"height":320}
+	],
+	"edges":[
+		{"id":"190ffb9a59783854","fromNode":"55278ab979a6283b","fromSide":"right","toNode":"82a0cada3b3e1487","toSide":"left"},
+		{"id":"94a422658ad7ec64","fromNode":"86259d6d0af5af8a","fromSide":"left","toNode":"9218da6176967c14","toSide":"top"}
+	]
+}

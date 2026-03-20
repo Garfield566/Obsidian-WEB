@@ -1,0 +1,820 @@
+"""Détecteur d'entités amélioré (V2) avec classification et résolution de contexte.
+
+Ce module combine:
+1. Détection d'entités brutes (personnes, lieux, dates, concepts)
+2. Classification via les bases de référence
+3. Résolution de contexte pour désambiguïser
+4. Formatage selon les conventions de tags
+"""
+
+import re
+from collections import Counter
+from dataclasses import dataclass, field
+from typing import Optional
+
+from ..parsers.note_parser import ParsedNote
+from .entity_classifier import (
+    EntityClassifier,
+    ClassifiedEntity,
+    EntityType,
+    ReferenceDatabase,
+)
+from .context_resolver import ContextResolver, NoteContext
+
+
+@dataclass
+class DetectedEntityV2:
+    """Entité détectée et classifiée."""
+
+    raw_text: str               # Texte original
+    entity_type: EntityType     # Type d'entité
+    suggested_tag: str          # Tag formaté selon les conventions
+    confidence: float           # Score de confiance final
+    occurrences: int = 1        # Nombre d'occurrences
+    source: str = ""            # Source de détection
+    in_title: bool = False      # Présent dans le titre
+    metadata: dict = field(default_factory=dict)
+
+
+@dataclass
+class NoteEntitiesV2:
+    """Entités détectées dans une note avec contexte."""
+
+    path: str
+    entities: list[DetectedEntityV2] = field(default_factory=list)
+    context: Optional[NoteContext] = None
+
+
+class EntityDetectorV2:
+    """Détecteur d'entités amélioré avec classification contextuelle.
+
+    Pipeline de détection:
+    1. Analyse du contexte de la note (domaine, personnes, période)
+    2. Détection brute des entités potentielles
+    3. Classification via les bases de référence
+    4. Résolution d'ambiguïté avec le contexte
+    5. Calcul du score de confiance final
+    """
+
+    # Patterns de détection
+    PROPER_NAME_PATTERN = re.compile(
+        r'\b([A-Z][a-zÀ-ÿ]+(?:[-\s][A-Z][a-zÀ-ÿ]+)*)\b'
+    )
+
+    ROMAN_NUMERAL_PATTERN = re.compile(
+        r'\b(XXI|XX|XIX|XVIII|XVII|XVI|XV|XIV|XIII|XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I)(?:e|ème)?\s*(?:siècle)?\b',
+        re.IGNORECASE
+    )
+
+    YEAR_PATTERN = re.compile(r'\b(1[0-9]{3}|20[0-2][0-9])\b')
+
+    # Seuils
+    MIN_NAME_LENGTH = 4
+    MAX_NAME_LENGTH = 50
+    MIN_OCCURRENCES_FOR_PLACE = 2
+    MIN_DENSITY_FOR_PLACE = 1 / 2000
+
+    def __init__(self, reference_db: Optional[ReferenceDatabase] = None):
+        self.db = reference_db or ReferenceDatabase()
+        self.classifier = EntityClassifier(self.db)
+        self.context_resolver = ContextResolver(self.db)
+
+    def detect_entities(self, note: ParsedNote) -> NoteEntitiesV2:
+        """Détecte et classifie les entités dans une note.
+
+        Args:
+            note: Note parsée
+
+        Returns:
+            NoteEntitiesV2 avec les entités détectées et le contexte
+        """
+        # Accès défensif aux attributs de la note
+        note_content = getattr(note, 'content', '') or ''
+        note_title = getattr(note, 'title', '') or ''
+        note_tags = getattr(note, 'tags', []) or []
+
+        # 1. Analyse le contexte de la note
+        context = self.context_resolver.analyze(
+            note_title,
+            note_content,
+            note_tags
+        )
+
+        # 2. Prépare le texte
+        text = f"{note_title}\n{note_content}"
+        text_lower = text.lower()
+        title_lower = note_title.lower()
+
+        # 3. Extrait les domaines validés des tags de la note
+        # Ces domaines servent à désambiguïser les lieux (geo vs entité)
+        validated_domains = self._extract_validated_domains(note_tags, context)
+
+        # 4. Détecte les entités brutes
+        raw_entities = []
+
+        # Détection des dates (siècles et années)
+        raw_entities.extend(self._detect_dates(text, title_lower))
+
+        # Détection des personnes connues
+        raw_entities.extend(self._detect_known_persons(text_lower, title_lower, context))
+
+        # Détection des concepts théoriques
+        raw_entities.extend(self._detect_concepts(text_lower, title_lower, context))
+
+        # Détection des lieux (avec domaines validés pour désambiguïsation)
+        raw_entities.extend(self._detect_places(text_lower, title_lower, len(text), validated_domains))
+
+        # Détection des lieux ambigus avec les DEUX classifications possibles
+        # Utile quand la note mélange contexte moderne et historique
+        raw_entities.extend(self._detect_ambiguous_places_both(
+            text_lower, title_lower, len(text), validated_domains
+        ))
+
+        # Détection des entités politiques
+        raw_entities.extend(self._detect_political_entities(text_lower, title_lower))
+
+        # Détection des disciplines
+        raw_entities.extend(self._detect_disciplines(text_lower, title_lower, context))
+
+        # Détection des mouvements artistiques
+        raw_entities.extend(self._detect_art_movements(text_lower, title_lower))
+
+        # 4. Déduplique et trie par confiance
+        entities = self._deduplicate_entities(raw_entities)
+        entities.sort(key=lambda e: e.confidence, reverse=True)
+
+        return NoteEntitiesV2(
+            path=note.path,
+            entities=entities,
+            context=context
+        )
+
+    def detect_entities_batch(
+        self, notes: list[ParsedNote]
+    ) -> dict[str, NoteEntitiesV2]:
+        """Détecte les entités dans plusieurs notes.
+
+        Args:
+            notes: Liste de notes parsées
+
+        Returns:
+            Dict {path: NoteEntitiesV2}
+        """
+        return {note.path: self.detect_entities(note) for note in notes}
+
+    def _extract_validated_domains(
+        self, tags: list[str], context: NoteContext
+    ) -> set[str]:
+        """Extrait les domaines validés des tags et du contexte de la note.
+
+        Les domaines validés servent à désambiguïser les lieux:
+        - Si la note a des tags histoire-grecque → Athènes = entité\\athènes-antique
+        - Si pas de contexte historique → Athènes = geo\\europe\\grèce\\athènes
+
+        Args:
+            tags: Liste des tags de la note
+            context: Contexte analysé de la note
+
+        Returns:
+            Ensemble de domaines validés (normalisés en minuscules)
+        """
+        validated = set()
+
+        # 1. Extrait les domaines des tags existants
+        for tag in tags:
+            tag_lower = tag.lower().strip()
+
+            # Tag avec préfixe hiérarchique (ex: "histoire\\histoire-romaine")
+            if "\\" in tag_lower:
+                parts = tag_lower.split("\\")
+                # Ajoute toutes les parties et combinaisons
+                for i, part in enumerate(parts):
+                    validated.add(part)
+                    # Ajoute aussi les sous-chemins (ex: "histoire-romaine")
+                    if i > 0:
+                        validated.add("\\".join(parts[:i+1]))
+            else:
+                validated.add(tag_lower)
+
+        # 2. Ajoute le domaine principal du contexte
+        if context.primary_domain:
+            validated.add(context.primary_domain.lower())
+
+        # 3. Ajoute les domaines secondaires du contexte
+        for domain in context.secondary_domains:
+            validated.add(domain.lower())
+
+        # 4. Ajoute les indices de période historique
+        # Si la note parle de périodes anciennes, c'est un contexte historique
+        historical_period_keywords = {
+            "antiquité", "antique", "ancien", "classique",
+            "hellénistique", "hellenistique", "médiéval", "medieval",
+            "renaissance", "av. j.-c.", "av j-c",
+        }
+
+        for domain in context.domain_scores.keys():
+            domain_lower = domain.lower()
+            if any(kw in domain_lower for kw in historical_period_keywords):
+                validated.add(domain_lower)
+                validated.add("antiquité")  # Ajoute aussi le tag générique
+
+        return validated
+
+    def _detect_dates(self, text: str, title_lower: str) -> list[DetectedEntityV2]:
+        """Détecte les siècles et années."""
+        entities = []
+
+        # Siècles
+        for match in self.ROMAN_NUMERAL_PATTERN.finditer(text):
+            raw_text = match.group(0)
+            roman = match.group(1).upper()
+
+            # Contexte pour la période (début/milieu/fin)
+            start = max(0, match.start() - 50)
+            end = min(len(text), match.end() + 50)
+            context_text = text[start:end].lower()
+
+            classified = self.classifier.classify(roman, context_text)
+
+            in_title = roman.lower() in title_lower or "siècle" in title_lower
+
+            confidence = classified.confidence
+            if in_title:
+                confidence = min(0.95, confidence + 0.1)
+
+            entities.append(DetectedEntityV2(
+                raw_text=raw_text,
+                entity_type=classified.entity_type,
+                suggested_tag=classified.tag,
+                confidence=confidence,
+                source="pattern_date",
+                in_title=in_title,
+                metadata=classified.metadata
+            ))
+
+        # Années
+        year_counts = Counter(self.YEAR_PATTERN.findall(text))
+        for year_str, count in year_counts.items():
+            if count >= 2 or year_str in title_lower:
+                classified = self.classifier.classify(year_str, "")
+
+                entities.append(DetectedEntityV2(
+                    raw_text=year_str,
+                    entity_type=classified.entity_type,
+                    suggested_tag=classified.tag,
+                    confidence=classified.confidence,
+                    occurrences=count,
+                    source="pattern_year",
+                    in_title=year_str in title_lower,
+                    metadata=classified.metadata
+                ))
+
+        return entities
+
+    def _detect_known_persons(
+        self, text_lower: str, title_lower: str, context: NoteContext
+    ) -> list[DetectedEntityV2]:
+        """Détecte les personnes connues dans la base de référence."""
+        entities = []
+
+        # Utilise les personnes déjà trouvées par le context resolver
+        for person_key in context.mentioned_persons:
+            person_info = self.db.lookup_person(person_key)
+            if person_info:
+                count = text_lower.count(person_key)
+                in_title = person_key in title_lower
+
+                classified = self.classifier.classify(person_key, text_lower)
+
+                # Ajuste la confiance selon les occurrences et le titre
+                confidence = classified.confidence
+                if in_title:
+                    confidence = min(0.95, confidence + 0.1)
+                if count >= 3:
+                    confidence = min(0.95, confidence + 0.05)
+
+                entities.append(DetectedEntityV2(
+                    raw_text=person_info.get("full_name", person_key),
+                    entity_type=EntityType.PERSON,
+                    suggested_tag=classified.tag,
+                    confidence=confidence,
+                    occurrences=count,
+                    source="reference_db",
+                    in_title=in_title,
+                    metadata=classified.metadata
+                ))
+
+        return entities
+
+    def _detect_concepts(
+        self, text_lower: str, title_lower: str, context: NoteContext
+    ) -> list[DetectedEntityV2]:
+        """Détecte les concepts théoriques."""
+        entities = []
+
+        # Parcourt les concepts de la base
+        concepts = self.db._concepts.get("concepts", {})
+        for concept_key, concept_info in concepts.items():
+            # Normalise pour la recherche
+            search_key = concept_key.replace("-", " ")
+
+            if search_key in text_lower or concept_key in text_lower:
+                count = text_lower.count(search_key) + text_lower.count(concept_key)
+                in_title = search_key in title_lower or concept_key in title_lower
+
+                # Classifie avec le contexte
+                classified = self.classifier.classify(concept_key, text_lower)
+
+                # Essaie de résoudre l'auteur
+                resolution = self.context_resolver.resolve_ambiguity(
+                    concept_key, "concept", context
+                )
+
+                if resolution["resolved"]:
+                    classified = ClassifiedEntity(
+                        raw_text=concept_key,
+                        entity_type=EntityType.CONCEPT,
+                        tag=resolution["tag"],
+                        confidence=classified.confidence + resolution["confidence_boost"],
+                        source="context_resolved",
+                        metadata={**classified.metadata, "author": resolution["author"]}
+                    )
+
+                confidence = classified.confidence
+                if in_title:
+                    confidence = min(0.95, confidence + 0.15)
+
+                entities.append(DetectedEntityV2(
+                    raw_text=concept_key,
+                    entity_type=EntityType.CONCEPT,
+                    suggested_tag=classified.tag,
+                    confidence=confidence,
+                    occurrences=count,
+                    source=classified.source,
+                    in_title=in_title,
+                    metadata=classified.metadata
+                ))
+
+        return entities
+
+    def _detect_places(
+        self, text_lower: str, title_lower: str, text_length: int,
+        validated_domains: set[str] = None
+    ) -> list[DetectedEntityV2]:
+        """Détecte les lieux géographiques avec filtrage anti-faux-positifs.
+
+        Pour les lieux ambigus (ex: Athènes, Rome, Sparte), le choix entre
+        geo\ et entité\ dépend des domaines validés de la note.
+
+        Args:
+            text_lower: Texte de la note en minuscules
+            title_lower: Titre de la note en minuscules
+            text_length: Longueur du texte
+            validated_domains: Domaines validés de la note (optionnel)
+
+        Returns:
+            Liste d'entités détectées
+        """
+        entities = []
+        validated_domains = validated_domains or set()
+
+        # Parcourt toutes les catégories de lieux
+        for category in ["continents", "regions", "countries", "cities", "historical_cities"]:
+            places = self.db._places.get(category, {})
+
+            for place_key, place_info in places.items():
+                if place_key in text_lower:
+                    count = text_lower.count(place_key)
+                    in_title = place_key in title_lower
+
+                    # Filtre anti-faux-positifs
+                    density = count / text_length if text_length > 0 else 0
+
+                    if not in_title:
+                        if count < self.MIN_OCCURRENCES_FOR_PLACE:
+                            continue
+                        if density < self.MIN_DENSITY_FOR_PLACE:
+                            continue
+
+                    # Vérifie si c'est un lieu ambigu
+                    if self.classifier.is_ambiguous_place(place_key):
+                        # Utilise les domaines validés pour choisir
+                        classified = self.classifier.classify_with_domains(
+                            place_key, validated_domains, text_lower
+                        )
+                    else:
+                        classified = self.classifier.classify(place_key, text_lower)
+
+                    # Ajuste la confiance
+                    confidence = classified.confidence
+                    if in_title:
+                        confidence = min(0.95, confidence + 0.15)
+                    if count >= 3:
+                        confidence = min(0.95, confidence + 0.05)
+                    if category in ["continents", "countries"]:
+                        confidence = min(0.95, confidence + 0.05)  # Bonus hiérarchie haute
+
+                    entities.append(DetectedEntityV2(
+                        raw_text=place_key,
+                        entity_type=classified.entity_type,
+                        suggested_tag=classified.tag,
+                        confidence=confidence,
+                        occurrences=count,
+                        source="reference_db",
+                        in_title=in_title,
+                        metadata=classified.metadata
+                    ))
+
+        return entities
+
+    def _detect_ambiguous_places_both(
+        self, text_lower: str, title_lower: str, text_length: int,
+        validated_domains: set[str]
+    ) -> list[DetectedEntityV2]:
+        """Détecte les lieux ambigus et retourne les DEUX classifications.
+
+        Pour les lieux comme Athènes, Rome, Sparte qui peuvent être:
+        - geo\\... (lieu géographique actuel)
+        - entité\\... (entité historique)
+
+        Cette méthode ajoute la classification ALTERNATIVE à celle déjà
+        détectée par _detect_places. Utile quand:
+        - La note mélange contexte moderne et historique
+        - On veut proposer les deux options à l'utilisateur
+
+        La classification alternative a une confiance légèrement réduite.
+        """
+        entities = []
+
+        # Récupère les lieux ambigus de la config
+        ambiguous_places = self.classifier.AMBIGUOUS_PLACES
+
+        for place_key, place_info in ambiguous_places.items():
+            if place_key in text_lower:
+                count = text_lower.count(place_key)
+                in_title = place_key in title_lower
+
+                # Filtre anti-faux-positifs (même logique que _detect_places)
+                density = count / text_length if text_length > 0 else 0
+
+                if not in_title:
+                    if count < self.MIN_OCCURRENCES_FOR_PLACE:
+                        continue
+                    if density < self.MIN_DENSITY_FOR_PLACE:
+                        continue
+
+                # Détermine la classification préférée
+                preferred = self.classifier.get_preferred_classification(
+                    place_key, validated_domains
+                )
+
+                # Ajoute la classification ALTERNATIVE (non préférée)
+                if preferred == "entity":
+                    # La classification préférée est entité, donc on ajoute geo
+                    alternative_tag = place_info["geo_tag"]
+                    alternative_type = EntityType.PLACE
+                else:
+                    # La classification préférée est geo, donc on ajoute entité
+                    alternative_tag = place_info["entity_tag"]
+                    alternative_type = EntityType.POLITICAL_ENTITY
+
+                # Confiance réduite pour l'alternative (pas le contexte principal)
+                confidence = 0.65  # Base réduite
+                if in_title:
+                    confidence = min(0.80, confidence + 0.10)
+                if count >= 3:
+                    confidence = min(0.80, confidence + 0.05)
+
+                entities.append(DetectedEntityV2(
+                    raw_text=place_key,
+                    entity_type=alternative_type,
+                    suggested_tag=alternative_tag,
+                    confidence=confidence,
+                    occurrences=count,
+                    source="ambiguous_alternative",
+                    in_title=in_title,
+                    metadata={
+                        "is_alternative": True,
+                        "preferred_classification": preferred,
+                        "historical_domains": list(place_info["historical_domains"]),
+                    }
+                ))
+
+        return entities
+
+    def _detect_political_entities(
+        self, text_lower: str, title_lower: str
+    ) -> list[DetectedEntityV2]:
+        """Détecte les entités politiques (empires, royaumes, etc.).
+
+        Utilise:
+        - Les noms directs de l'entité (ex: "second empire")
+        - Les termes associés (ex: "napoléon iii" -> second-empire-français)
+        """
+        entities = []
+        detected_entities = set()  # Évite les doublons
+
+        for category in ["empires", "kingdoms", "republics", "ancient_states"]:
+            political_entities = self.db._political_entities.get(category, {})
+
+            for entity_key, entity_info in political_entities.items():
+                if entity_key in detected_entities:
+                    continue
+
+                # Cherche tous les noms possibles
+                names_to_check = [entity_key] + entity_info.get("names", [])
+                # Ajoute aussi les termes associés (ex: "napoléon iii" pour second empire)
+                related_terms = entity_info.get("related", [])
+
+                # 1. Détection par nom direct
+                direct_match = False
+                direct_count = 0
+                in_title = False
+
+                for name in names_to_check:
+                    if name.lower() in text_lower:
+                        direct_match = True
+                        direct_count = max(direct_count, text_lower.count(name.lower()))
+                        if name.lower() in title_lower:
+                            in_title = True
+
+                # 2. Détection par termes associés (confiance légèrement réduite)
+                related_match = False
+                related_count = 0
+
+                for term in related_terms:
+                    if term.lower() in text_lower:
+                        related_match = True
+                        related_count += text_lower.count(term.lower())
+
+                # Décide si on ajoute l'entité
+                if direct_match or (related_match and related_count >= 2):
+                    classified = self.classifier.classify(entity_key, text_lower)
+
+                    confidence = classified.confidence
+
+                    # Bonus pour match direct
+                    if direct_match:
+                        if in_title:
+                            confidence = min(0.95, confidence + 0.15)
+                        if direct_count >= 2:
+                            confidence = min(0.95, confidence + 0.05)
+                    else:
+                        # Match par termes associés: confiance réduite sauf si nombreux
+                        confidence = confidence * 0.85
+                        if related_count >= 3:
+                            confidence = min(0.90, confidence + 0.10)
+
+                    total_count = direct_count + related_count
+                    source = "reference_db" if direct_match else "reference_related"
+
+                    entities.append(DetectedEntityV2(
+                        raw_text=names_to_check[0] if direct_match else related_terms[0],
+                        entity_type=EntityType.POLITICAL_ENTITY,
+                        suggested_tag=classified.tag,
+                        confidence=confidence,
+                        occurrences=total_count,
+                        source=source,
+                        in_title=in_title,
+                        metadata={**classified.metadata, "related_terms_found": related_count > 0}
+                    ))
+                    detected_entities.add(entity_key)
+
+        return entities
+
+    def _detect_disciplines(
+        self, text_lower: str, title_lower: str, context: NoteContext
+    ) -> list[DetectedEntityV2]:
+        """Détecte les disciplines académiques avec sous-domaines.
+
+        Stratégie:
+        1. Ajoute le domaine principal du contexte comme discipline (confiance haute)
+        2. Ajoute les domaines secondaires significatifs (confiance moyenne)
+        3. Détecte les mentions explicites de disciplines dans le texte
+
+        Cela permet de suggérer "économie" + "philosophie" pour une note
+        sur Adam Smith même si ces mots n'apparaissent pas souvent.
+        """
+        entities = []
+        detected_disciplines = set()
+
+        disciplines = self.db._disciplines.get("disciplines", {})
+
+        # 1. Ajoute le domaine principal comme discipline (si dans la base)
+        if context.primary_domain and context.primary_domain in disciplines:
+            discipline_info = disciplines[context.primary_domain]
+            tag = discipline_info.get("tag", context.primary_domain)
+
+            # Confiance basée sur le score et la dominance
+            base_confidence = 0.75
+            if context.dominance_ratio >= 3.0:
+                base_confidence = 0.85
+            elif context.dominance_ratio >= 2.0:
+                base_confidence = 0.80
+
+            entities.append(DetectedEntityV2(
+                raw_text=context.primary_domain,
+                entity_type=EntityType.DISCIPLINE,
+                suggested_tag=tag,
+                confidence=base_confidence,
+                occurrences=0,  # Basé sur le contexte, pas les occurrences
+                source="context_primary",
+                in_title=False,
+                metadata={"context_score": context.domain_scores.get(context.primary_domain, 0)}
+            ))
+            detected_disciplines.add(context.primary_domain)
+
+        # 2. Ajoute les domaines secondaires significatifs
+        for secondary in context.secondary_domains:
+            if secondary in disciplines and secondary not in detected_disciplines:
+                discipline_info = disciplines[secondary]
+                tag = discipline_info.get("tag", secondary)
+
+                # Score du domaine secondaire
+                secondary_score = context.domain_scores.get(secondary, 0)
+
+                # Confiance réduite pour les domaines secondaires
+                # mais augmentée si le score est significatif
+                base_confidence = 0.60
+                if secondary_score >= 5:
+                    base_confidence = 0.70
+                elif secondary_score >= 3:
+                    base_confidence = 0.65
+
+                entities.append(DetectedEntityV2(
+                    raw_text=secondary,
+                    entity_type=EntityType.DISCIPLINE,
+                    suggested_tag=tag,
+                    confidence=base_confidence,
+                    occurrences=0,
+                    source="context_secondary",
+                    in_title=False,
+                    metadata={"context_score": secondary_score}
+                ))
+                detected_disciplines.add(secondary)
+
+        # 3. Détecte les mentions explicites (méthode originale)
+        # Skip si déjà détecté par le contexte
+
+        for discipline_key, discipline_info in disciplines.items():
+            # Skip si déjà ajouté via le contexte
+            if discipline_key in detected_disciplines:
+                continue
+
+            # Cherche la discipline et ses alias
+            names_to_check = [discipline_key] + discipline_info.get("aliases", [])
+
+            for name in names_to_check:
+                # Utilise une regex pour compter les mots entiers uniquement
+                # Évite de matcher "économie" dans "microéconomie" ou "économique"
+                pattern = re.compile(r'\b' + re.escape(name) + r'\b')
+                matches = pattern.findall(text_lower)
+                count = len(matches)
+
+                if count == 0:
+                    continue
+
+                in_title = bool(pattern.search(title_lower))
+
+                # Filtre 1: Minimum d'occurrences plus strict (sauf si dans le titre)
+                if not in_title and count < 3:
+                    continue
+
+                # Filtre 2: Vérifie la cohérence avec le domaine principal
+                # Si le domaine principal est différent et plus fort, rejette
+                if context.primary_domain and context.primary_domain != discipline_key:
+                    # Si la discipline n'est pas dans les domaines secondaires non plus
+                    if discipline_key not in context.secondary_domains:
+                        # Rejette sauf si dans le titre ou très fréquent
+                        if not in_title and count < 5:
+                            continue
+
+                classified = self.classifier.classify(discipline_key, text_lower)
+
+                # Essaie de résoudre avec un sous-domaine SEULEMENT si:
+                # - La discipline est le domaine principal OU
+                # - La discipline est dans le titre OU
+                # - Occurrences >= 5
+                should_resolve_subdomain = (
+                    context.primary_domain == discipline_key or
+                    in_title or
+                    count >= 5
+                )
+
+                if should_resolve_subdomain:
+                    resolution = self.context_resolver.resolve_ambiguity(
+                        discipline_key, "discipline", context
+                    )
+
+                    if resolution["resolved"] and resolution["tag"]:
+                        classified = ClassifiedEntity(
+                            raw_text=discipline_key,
+                            entity_type=EntityType.DISCIPLINE,
+                            tag=resolution["tag"],
+                            confidence=classified.confidence + resolution["confidence_boost"],
+                            source="context_resolved",
+                            metadata={**classified.metadata, "subdomain": resolution["subdomain"]}
+                        )
+
+                confidence = classified.confidence
+                if in_title:
+                    confidence = min(0.95, confidence + 0.15)
+
+                # Pénalité si pas le domaine principal
+                if context.primary_domain and context.primary_domain != discipline_key:
+                    confidence = confidence * 0.7  # -30% si pas dominant
+
+                entities.append(DetectedEntityV2(
+                    raw_text=discipline_key,
+                    entity_type=EntityType.DISCIPLINE,
+                    suggested_tag=classified.tag,
+                    confidence=confidence,
+                    occurrences=count,
+                    source=classified.source,
+                    in_title=in_title,
+                    metadata=classified.metadata
+                ))
+                break  # Une seule détection par discipline
+
+        return entities
+
+    def _detect_art_movements(
+        self, text_lower: str, title_lower: str
+    ) -> list[DetectedEntityV2]:
+        """Détecte les mouvements artistiques."""
+        entities = []
+
+        movements = self.db._art_movements.get("movements", {})
+
+        for movement_key, movement_info in movements.items():
+            # Normalise pour la recherche
+            search_key = movement_key.replace("-", " ")
+
+            if search_key in text_lower or movement_key in text_lower:
+                count = text_lower.count(search_key) + text_lower.count(movement_key)
+                in_title = search_key in title_lower or movement_key in title_lower
+
+                classified = self.classifier.classify(movement_key, text_lower)
+
+                confidence = classified.confidence
+                if in_title:
+                    confidence = min(0.95, confidence + 0.15)
+                if count >= 2:
+                    confidence = min(0.95, confidence + 0.05)
+
+                entities.append(DetectedEntityV2(
+                    raw_text=movement_key,
+                    entity_type=EntityType.ART_MOVEMENT,
+                    suggested_tag=classified.tag,
+                    confidence=confidence,
+                    occurrences=count,
+                    source="reference_db",
+                    in_title=in_title,
+                    metadata=classified.metadata
+                ))
+
+        return entities
+
+    def _deduplicate_entities(
+        self, entities: list[DetectedEntityV2]
+    ) -> list[DetectedEntityV2]:
+        """Déduplique les entités en gardant la plus confiante."""
+        seen = {}
+
+        for entity in entities:
+            key = entity.suggested_tag.lower()
+            if key not in seen or entity.confidence > seen[key].confidence:
+                seen[key] = entity
+
+        return list(seen.values())
+
+
+def aggregate_entities_v2(
+    notes_entities: dict[str, NoteEntitiesV2],
+    min_notes: int = 2,
+) -> dict[str, list[str]]:
+    """Agrège les entités détectées à travers plusieurs notes.
+
+    Args:
+        notes_entities: Dict {path: NoteEntitiesV2}
+        min_notes: Nombre minimum de notes pour suggérer un tag
+
+    Returns:
+        Dict {suggested_tag: [note_paths]}
+    """
+    tag_to_notes: dict[str, list[str]] = {}
+
+    for path, note_entities in notes_entities.items():
+        for entity in note_entities.entities:
+            tag = entity.suggested_tag
+            if tag not in tag_to_notes:
+                tag_to_notes[tag] = []
+            if path not in tag_to_notes[tag]:
+                tag_to_notes[tag].append(path)
+
+    # Filtre par nombre minimum de notes
+    return {
+        tag: paths
+        for tag, paths in tag_to_notes.items()
+        if len(paths) >= min_notes
+    }

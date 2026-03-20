@@ -1,0 +1,295 @@
+{
+	"nodes":[
+		{
+			"type":"group",
+			"id":"ef44df39046b4d02",
+			"x":0,
+			"y":0,
+			"width":1390,
+			"height":1785,
+			"color":"#cba6f7",
+			"label":"Fonction exponentielle réelle",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"e2a260c14d2e4be3",
+			"x":1570,
+			"y":0,
+			"width":1340,
+			"height":1085,
+			"color":"#89b4fa",
+			"label":"Généralisation à d'autres ensembles",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"fa03dac269b54223",
+			"x":0,
+			"y":1965,
+			"width":1340,
+			"height":765,
+			"color":"#a6e3a1",
+			"label":"Applications",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"7fefe34b6282465d",
+			"x":1520,
+			"y":1965,
+			"width":910,
+			"height":390,
+			"color":"#fab387",
+			"label":"Variantes",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{"type":"text","id":"8f09fe65f9794159","x":40,"y":80,"width":450,"height":450,"color":"#a6e3a1","text":"**Graphique**\n\n```tikz\n\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis lines=middle,\n    grid=both,\n    domain=-3:3,\n    samples=200,\n    xlabel={$x$},\n    ylabel={$f(x)$},\n    width=10cm,\n    height=8cm\n]\n\\addplot[blue, thick] {exp(x)};\n\\end{axis}\n\\end{tikzpicture}\n\n```"},
+		{
+			"type":"text",
+			"id":"7d0df66200d443bc",
+			"x":520,
+			"y":80,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"### À partir de la fonction logarithme népérien\n\n$$f'(x)={\\frac {1}{\\ln '(f(x))}}=f(x).$$\n\nDéfinition — La fonction exp , de ℝ dans ℝ * + , est la bijection réciproque de la fonction logarithme népérien ."
+		},
+		{
+			"type":"text",
+			"id":"a3f8b09e0cb44a6d",
+			"x":950,
+			"y":80,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Caractérisation algébrique\n\nLa propriété algébrique de la fonction exponentielle (fonction continue non nulle transformant une somme en produit) est partagée par un ensemble de fonctions qui portent aussi le nom de fonctions exponentielles."
+		},
+		{
+			"type":"text",
+			"id":"0ed7be84dc0c4ab1",
+			"x":40,
+			"y":560,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"### Par une série entière\n\n$$a_{0}=1{\\text{ et }}\\forall n\\in \\mathbb {N} \\quad a_{n+1}={\\frac {a_{n}}{n+1}}$$\n\nLa fonction exponentielle et son approximation autour de zéro par les premiers termes de la série."
+		},
+		{
+			"type":"text",
+			"id":"2894011a2a3c4f5e",
+			"x":470,
+			"y":560,
+			"width":400,
+			"height":295,
+			"color":null,
+			"text":"### Étude de la fonction exponentielle\n\n$$\\lim _{x\\to -\\infty }\\exp(x)=0{\\text{ et }}\\lim _{x\\to +\\infty }\\exp(x)=+\\infty .$$\n\nLa fonction exp prend en 1 une valeur notée e , qui vaut environ 2,718 et est un nombre transcendant . La première des quatre définitions équivalentes ci-dessus montre que la fonction exp est de classe C ∞ ."
+		},
+		{"type":"text","id":"056cc045e0cf4076","x":470,"y":1005,"width":400,"height":295,"color":"#cba6f7","text":"### Par une équation différentielle\n\n$$f'=f\\qquad f(0)=1$$\n\nIl existe plusieurs points d'entrée possibles pour la définition de la fonction exponentielle : par la propriété de sa dérivée (la dérivée est égale à la fonction), par ses propriétés algébriques (elle transforme une somme en produit), ou par son développement en série."},
+		{"type":"text","id":"f6888cc8053e4a17","x":470,"y":1450,"width":400,"height":295,"color":"#cba6f7","text":"### Propriétés\n\n$$\\ln(e^{x})=x,\\ e^{\\ln(y)}=y$$\n\nLa fonction exponentielle, de $\\mathbb {R}$ sur $\\mathbb {R} _{+}^{*}$ , est la bijection réciproque de la fonction logarithme népérien : pour tous réels $y>0$ et $x$ , donc $e^{x}=y\\iff x=\\ln y$ La fonction exponentielle transforme les sommes en produits , c'est-..."},
+		{
+			"type":"text",
+			"id":"85776a918a0b49e9",
+			"x":1610,
+			"y":80,
+			"width":400,
+			"height":295,
+			"color":null,
+			"text":"### Dans le plan complexe\n\n$$\\exp(a+\\mathrm {i} b)=\\exp(a)(\\cos b+\\mathrm {i} \\sin b)$$\n\nDéfinitions On peut définir la fonction exp complexe de deux façons : En utilisant la propriété : $$\\exp(\\mathrm {i} x)=\\cos x+\\mathrm {i} \\sin x$$ , on écrit où a et b sont des nombres réels."
+		},
+		{
+			"type":"text",
+			"id":"1b2abda992bc42a9",
+			"x":2040,
+			"y":80,
+			"width":400,
+			"height":295,
+			"color":null,
+			"text":"### Représentations\n\n$$z=\\Re (\\exp(x+\\mathrm {i} y))$$\n\nSi $w=x+\\mathrm {i} y$ on peut représenter graphiquement, dans l'espace, les fonctions $w\\mapsto \\Re (\\exp(w))$ , $w\\mapsto \\Im (\\exp(w))$ , $w\\mapsto |\\exp(w)|$ et $w\\mapsto \\arg(\\exp(w))$ Surfaces représentant la partie réelle, la partie imaginaire, le module ..."
+		},
+		{
+			"type":"text",
+			"id":"776cf8a2a3f943cd",
+			"x":2470,
+			"y":80,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Fonctions exponentielles dans d'autres espaces\n\n$$\\exp(M)=\\mathrm {e} ^{M}=\\sum _{k=0}^{\\infty }{1 \\over k!}M^{k}$$\n\nExponentielle d'une matrice La définition de l'exponentielle comme série entière permet de définir l'exponentielle d'une matrice carrée M comme ."
+		},
+		{"type":"text","id":"fecaea219f124d8e","x":2470,"y":500,"width":400,"height":295,"color":"#cba6f7","text":"### Exponentielle d'un opérateur différentiel\n\n$$\\exp \\left(a{\\frac {\\mathrm {d} }{\\mathrm {d} x}}\\right)=\\mathrm {e} ^{a{\\frac {\\mathrm {d} }{\\mathrm {d} x}}}=\\sum _{k=0}^{\\infty }{a^{k} \\over k!}\\left({\\frac {\\mathrm {d} ^{k}}{\\mathrm {d} x^{k}}}\\right)$$\n\nOn peut de même définir l'exponentielle d'un opérateur différentiel D par : \\exp(D)..."},
+		{
+			"type":"text",
+			"id":"c4995a73448f4b03",
+			"x":1610,
+			"y":825,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Exponentielle dans un groupe additif\n\nLa définition de l'exponentielle comme un morphisme continu d'un groupe additif vers un groupe multiplicatif permet de définir une fonction exponentielle de ℝ vers tout groupe topologique ."
+		},
+		{
+			"type":"text",
+			"id":"8bfb46fe11904249",
+			"x":2040,
+			"y":825,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Exponentielle dans une variété différentielle\n\nLa définition de la fonction exponentielle comme solution d'une équation différentielle se généralise pour les groupes de Lie et les géodésiques dans les variétés riemanniennes"
+		},
+		{
+			"type":"text",
+			"id":"3c9c767d6c62452e",
+			"x":40,
+			"y":2045,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Équation différentielle linéaire\n\n$${\\frac {\\mathrm {d} }{\\mathrm {d} x}}\\lambda \\mathrm {e} ^{ax}=a\\lambda \\mathrm {e} ^{ax}$$\n\nL'importance majeure des fonctions exponentielles en sciences, provient du fait qu'elles sont proportionnelles à leur propre dérivée."
+		},
+		{
+			"type":"text",
+			"id":"b66e4f60417044b5",
+			"x":470,
+			"y":2045,
+			"width":400,
+			"height":320,
+			"color":null,
+			"text":"### Fonction trigonométrique\n\n$$\\sin x={{\\rm {e}}^{{\\rm {i}}x}-{\\rm {e}}^{-{\\rm {i}}x} \\over 2{\\rm {i}}}$$\n\nLa fonction exponentielle est d'une utilité capitale en trigonométrie. Les formules d'Euler (que l'on démontre à partir de la définition exp(i z ) = cos z + i sin z nous donnent un lien direct entre les fonctions cosinu..."
+		},
+		{
+			"type":"text",
+			"id":"b0320632fcee4f6e",
+			"x":900,
+			"y":2045,
+			"width":400,
+			"height":320,
+			"color":null,
+			"text":"### Fonction exponentielle et trigonométrie hyperbolique\n\n$$\\operatorname {cosh} x={\\frac {{\\rm {e}}^{x}+{\\rm {e}}^{-x}}{2}}$$\n\nÀ partir de la fonction exponentielle, on peut définir les fonctions de trigonométrie hyperbolique, définissant les fonctions hyperboliques cosinus hyperbolique , cosh et sinus hyperbolique , sinh , utilisées en partie dans les..."
+		},
+		{
+			"type":"text",
+			"id":"129db27f214d4be9",
+			"x":40,
+			"y":2395,
+			"width":400,
+			"height":295,
+			"color":null,
+			"text":"### Théorie de Fourier\n\n$$t\\mapsto {\\rm {e}}^{{\\rm {i}}kt}$$\n\nLes fonctions exponentielles où t est un réel et k un entier relatif sont utilisées dans la théorie de Fourier . Elles permettent d'exprimer toute fonction périodique comme somme de fonctions trigonométriques, ce sont les séries de Fourier ."
+		},
+		{
+			"type":"text",
+			"id":"7b59d42e07f44ec3",
+			"x":470,
+			"y":2395,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"### Fonction sigmoïde\n\n$$f(x)={\\frac {1}{1+{\\rm {e}}^{-x}}}$$\n\nLa fonction sigmoïde pour tout réel $x$ est particulièrement utile dans les réseaux de neurones pour calculer le gradient de l'erreur."
+		},
+		{
+			"type":"text",
+			"id":"bdac2d28e3ca44f0",
+			"x":1560,
+			"y":2045,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"**Exponentielle de base a**\n\nEn analyse réelle, l'exponentielle de base a est la fonction notée expa qui, à tout réel x, associe le réel ax. Elle n'a de sens que pour un réel a strictement positif. Elle étend à l'ensemble des réels la fonction, définie sur l'ensemble des entiers naturels, qui à l'entier n associe an."
+		},
+		{
+			"type":"text",
+			"id":"7bf0e068eb8546d7",
+			"x":1990,
+			"y":2045,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"**Fonction élémentaire**\n\nEn mathématiques, une fonction élémentaire est une fonction d'une variable construite à partir d'un nombre fini d'exponentielles, logarithmes, constantes, et racines n-ièmes par composition et combinaisons utilisant les quatre opérations élémentaires (+ – × ÷)."
+		}
+	],
+	"edges":[
+		{
+			"id":"5b36e94cabe84d7e",
+			"fromNode":"2894011a2a3c4f5e",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"056cc045e0cf4076",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"Définitions"
+		},
+		{
+			"id":"c21971d1d0c64e8e",
+			"fromNode":"056cc045e0cf4076",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"f6888cc8053e4a17",
+			"toSide":"top",
+			"toEnd":null,
+			"color":"#cba6f7",
+			"label":"Propriétés"
+		},
+		{
+			"id":"1fd4210b2a2b470f",
+			"fromNode":"776cf8a2a3f943cd",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"fecaea219f124d8e",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"Exponentielle d'un opérateur différentiel"
+		},
+		{
+			"id":"0b3b62ed24a2462b",
+			"fromNode":"ef44df39046b4d02",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"fa03dac269b54223",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"appliqué dans"
+		},
+		{
+			"id":"67f8dc16d3f64997",
+			"fromNode":"ef44df39046b4d02",
+			"fromSide":"right",
+			"fromEnd":null,
+			"toNode":"e2a260c14d2e4be3",
+			"toSide":"left",
+			"toEnd":null,
+			"color":null,
+			"label":"généralisé dans"
+		},
+		{
+			"id":"1ac149c6b0f1478a",
+			"fromNode":"ef44df39046b4d02",
+			"fromSide":"right",
+			"fromEnd":null,
+			"toNode":"7fefe34b6282465d",
+			"toSide":"left",
+			"toEnd":null,
+			"color":null,
+			"label":"cas particulier"
+		},
+		{
+			"id":"1a901a6c810e463c",
+			"fromNode":"fa03dac269b54223",
+			"fromSide":"top",
+			"fromEnd":null,
+			"toNode":"e2a260c14d2e4be3",
+			"toSide":"bottom",
+			"toEnd":null,
+			"color":null,
+			"label":"étendu dans"
+		}
+	]
+}

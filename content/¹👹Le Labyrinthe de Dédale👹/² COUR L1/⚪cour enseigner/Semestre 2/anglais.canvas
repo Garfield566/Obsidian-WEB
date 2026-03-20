@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1d645f7c1d84c9bd","type":"group","x":-920,"y":800,"width":1800,"height":1640,"color":"5","label":"Tème: Digital, apli, media"},
+		{"id":"f32adc73bf9adce0","type":"group","x":-340,"y":100,"width":440,"height":600,"color":"#9291ee","label":"Modo"},
+		{"id":"3cced46fc9f788f6","type":"text","text":"## S 2","x":-196,"y":-191,"width":250,"height":60,"color":"4"},
+		{"id":"496a43ef0c8250be","type":"text","text":"tO / ing","x":-100,"y":-80,"width":108,"height":60,"color":"#ff4747"},
+		{"id":"9b53cbe372115d03","type":"text","text":"Les verbe modo, on ne met rien pas de **to** ni **ing**.  \nexp \"I can hear you\"","x":-289,"y":120,"width":338,"height":114,"color":"#9e94d1"},
+		{"id":"74ac923d86383145","type":"file","file":"z_Assets/Unsorted/Pasted image 20260202162821.png","x":-320,"y":280,"width":400,"height":400},
+		{"id":"f52435c4cd120fa7","type":"text","text":"I + to go","x":-600,"y":0,"width":114,"height":60,"color":"3"},
+		{"id":"720c886e46c05c35","type":"text","text":"ing \" on créer un infinitif \"\nexp : I look forward to seeing ","x":187,"y":-15,"width":266,"height":90,"color":"5"},
+		{"id":"682053baae593261","type":"text","text":"to (préposition dans cette exemple)\nautre préposition : \n- With\n- by\n- at\n- of\n- to","x":317,"y":160,"width":273,"height":240},
+		{"id":"5a7b14f0ec1fbda5","type":"text","text":"### 4 P \n- Price\n- Place \n- Product\n- Promotion","x":-815,"y":906,"width":250,"height":294,"color":"2"},
+		{"id":"10c5d20d753af15d","x":-458,"y":1127,"width":778,"height":493,"type":"text","text":"## Le futur en anglais\n\nL'anglais ne possède pas de temps futur morphologique comme le français. Il utilise trois constructions principales.\n\n**1. Will + base verbale** C'est la forme la plus courante. Elle s'emploie pour les décisions spontanées, les promesses, les prédictions générales et les certitudes futures. _She will call you tomorrow. / I won't forget._\n\n**2. Be going to + base verbale** On l'utilise pour les intentions déjà décidées et les prédictions fondées sur une observation présente. _They are going to move to London. / Look at those clouds — it's going to rain._\n\n**3. Present Continuous (am/is/are + -ing)** Réservé aux arrangements fixes et aux rendez-vous planifiés, souvent accompagné d'un marqueur temporel. _I'm meeting Sarah on Friday. / We're flying to Rome next week._\n\n**Comment choisir ?** — Décision prise sur le moment → **will** — Plan ou intention préexistante → **be going to** — Événement concret et organisé → **present continuous**"}
+	],
+	"edges":[
+		{"id":"f88fb91cbddd86bf","fromNode":"496a43ef0c8250be","fromSide":"left","toNode":"f52435c4cd120fa7","toSide":"top"},
+		{"id":"1fe19549e73bf160","fromNode":"496a43ef0c8250be","fromSide":"right","toNode":"720c886e46c05c35","toSide":"top"},
+		{"id":"ab65902d8dd400c8","fromNode":"720c886e46c05c35","fromSide":"bottom","toNode":"682053baae593261","toSide":"top"},
+		{"id":"36a2ec8e03453121","fromNode":"496a43ef0c8250be","fromSide":"bottom","toNode":"9b53cbe372115d03","toSide":"top"}
+	]
+}

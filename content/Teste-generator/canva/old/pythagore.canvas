@@ -1,0 +1,60 @@
+{
+	"nodes":[
+		{
+			"type":"group",
+			"id":"fb2b83023d0a4141",
+			"backgroundStyle":null,
+			"x":-2468,
+			"y":313,
+			"width":1680,
+			"height":1255,
+			"color":"#cba6f7",
+			"label":"Géométrie"
+		},
+		{
+			"type":"group",
+			"id":"3c05a15f46724031",
+			"backgroundStyle":null,
+			"x":1240,
+			"y":299,
+			"width":1040,
+			"height":1280,
+			"color":"#cba6f7",
+			"label":"Calcul"
+		},
+		{
+			"type":"group",
+			"id":"e7ab4dca463345af",
+			"backgroundStyle":null,
+			"x":-390,
+			"y":-2635,
+			"width":780,
+			"height":1510,
+			"color":"#cba6f7",
+			"label":"Mathématiques"
+		},
+		{"type":"text","id":"5403dc8178ef4d07","text":"**Graphique**\n\n```tikz\n\\begin{tikzpicture}[scale=2]\n  % Triangle rectangle\n  \\draw[very thick] (0,0) -- (2.60,0) -- (2.60,1.50) -- cycle;\n\n  % Angle droit\n  \\draw (2.60,0) -- (2.40,0) -- (2.40,0.2) -- (2.60,0.2);\n\n  % Arc pour l'angle θ\n  \\draw[very thick, red] (0.6,0) arc (0:30:0.6);\n  \\node[red] at (0.8,0.15) {$\\theta$};\n\n  % Labels des côtés\n  \\node[below] at (1.30,0) {adjacent};\n  \\node[right] at (2.60,0.75) {opposé};\n  \\node[above left] at (1.30,0.75) {hypoténuse};\n\n  % Formule sinus\n  \\node[below, text width=5cm, align=center] at (1.30,-0.8) {$\\sin(\\theta) = \\frac{\\text{opposé}}{\\text{hypoténuse}}$};\n\\end{tikzpicture}\n```\n","x":-350,"y":-2555,"width":450,"height":450,"color":"#a6e3a1"},
+		{"type":"text","id":"6bfe0cff54e7446d","text":"### Triangle rectangle\n\nLa réciproque se déduit du théorème lui-même et d'un cas d'« égalité » des triangles : si l'on construit un triangle rectangle en C de sommets A , C et B' , avec CB = CB , on a AB = AB par le théorème de Pythagore, donc un triangle isométrique au triangle initial (les tr...","x":100,"y":-2555,"width":250,"height":345},
+		{"type":"text","id":"53ac23d5673548e4","text":"### Triplet pythagoricien\n\nCe cas particulier de triplet pythagoricien justifie l’usage de la corde à treize nœuds , qui aurait permis Note 1 de mesurer des distances mais aussi d’obtenir un angle droit sans équerre rigide en répartissant les douze intervalles qui séparent les nœuds sur les trois côtés d’un tri...","x":-350,"y":-1955,"width":310,"height":275},
+		{"type":"text","id":"0e11d270cc454ed8","text":"### Liste de théorèmes\n\nListe de théorèmes par ordre alphabétique.\nPour l'établissement de l'ordre alphabétique, il a été convenu ce qui suit : si le nom du théorème comprend des noms de mathématiciens ou de physiciens, on se base sur le premier nom propre cité ;\nsi le nom du théorème ne comprend pas de nom de mathémati...","x":0,"y":-1955,"width":350,"height":315},
+		{"type":"text","id":"955d3b503a614ca8","text":"#### Applications\n\nApplications Arpentage Corde à treize nœuds (le dernier superposé au premier) disposée en triangle rectangle.","x":-350,"y":-1410,"width":200,"height":245},
+		{"type":"text","id":"b809595e1bcd40d2","text":"![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/500px-P._Oxy._I_29.jpg)","x":-1753,"y":393,"width":400,"height":300,"color":"#cba6f7"},
+		{"type":"text","id":"99eb6359a06141b1","text":"#### Théorème\n\nEn mathématiques et en logique, un théorème (du grec théorêma, objet digne d'étude) est une assertion qui est démontrée, c'est-à-dire établie comme vraie à partir d'autres assertions déjà démontrées (théorèmes ou autres formes d'assertions) ou des assertions acceptées comme vraies, appelées axiomes.","x":-2428,"y":1158,"width":250,"height":370,"color":"#cba6f7"},
+		{"type":"text","id":"5124224418d2449c","text":"#### Sphère\n\nTriangle trirectangle à la surface d’une sphère, pour lequel la relation du théorème de Pythagore ne s’applique pas.","x":-1978,"y":1158,"width":250,"height":220,"color":"#cba6f7"},
+		{"type":"text","id":"eed2a37d31b4471d","text":"![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/500px-Rtriangle.svg.png)","x":1428,"y":379,"width":400,"height":300,"color":"#cba6f7"},
+		{"type":"text","id":"39d48082fda34d13","text":"### Géométrie euclidienne\n\nCela signifie que, dans les axiomes de la géométrie euclidienne, on peut remplacer l'« axiome » des parallèles par le « théorème » de Pythagore sans que les autres résultats de la géométrie soient modifiés.","x":-1753,"y":713,"width":350,"height":295},
+		{"type":"text","id":"603323f0d1b44a81","text":"#### Vecteur\n\nPar bilinéarité du produit scalaire , pour deux vecteurs quelconques u $\\vec {u}$ et v $\\vec {v}$ : u + v 2 = ( u + v ) ( u + v ) = u ...","x":-1528,"y":1158,"width":250,"height":245,"color":"#cba6f7"},
+		{"type":"text","id":"4b1bf90e33b14fe9","text":"#### Distance (mathématiques)\n\nEn mathématiques, une distance est une application qui formalise l'idée intuitive de distance, c'est-à-dire la longueur qui sépare deux points. C'est par l'analyse des principales propriétés de la distance usuelle que Fréchet introduit la notion d'espace métrique, développée ensuite par Hausdorff.","x":-1078,"y":1158,"width":250,"height":370,"color":"#cba6f7"},
+		{"type":"text","id":"17640301bc924ae6","text":"### Hypoténuse\n\nPour une formulation sans notations des sommets, le terme « hypoténuse » n'est utilisable qu'une fois acquis que le triangle est rectangle : Réciproque du théorème de Pythagore Si dans un triangle, le carré de la longueur d'un côté est égal à la somme des carrés...","x":1303,"y":720,"width":250,"height":345},
+		{"type":"text","id":"a3bb729b02af4f96","text":"### Côté\n\nPour une formulation sans notations des sommets, le terme « hypoténuse » n'est utilisable qu'une fois acquis que le triangle est rectangle : Réciproque du théorème de Pythagore Si dans un triangle, le carré de la longueur d'un côté est égal à la somme des carrés...","x":1628,"y":920,"width":250,"height":345}
+	],
+	"edges":[
+		{"id":"d85d0223e7364e57","fromNode":"39d48082fda34d13","fromSide":"bottom","toNode":"99eb6359a06141b1","toSide":"top","label":"type de"},
+		{"id":"d7af27c65b464fd7","fromNode":"39d48082fda34d13","fromSide":"bottom","toNode":"5124224418d2449c","toSide":"top","label":"type de"},
+		{"id":"ad431db5b2e746b0","fromNode":"39d48082fda34d13","fromSide":"bottom","toNode":"603323f0d1b44a81","toSide":"top","label":"type de"},
+		{"id":"d9a074e2593e4d7d","fromNode":"39d48082fda34d13","fromSide":"bottom","toNode":"4b1bf90e33b14fe9","toSide":"top","label":"composante de"},
+		{"id":"69497eb1a193447c","fromNode":"fb2b83023d0a4141","fromSide":"right","toNode":"3c05a15f46724031","toSide":"left","label":"détermine"},
+		{"id":"50ab405f63e2466a","fromNode":"fb2b83023d0a4141","fromSide":"top","toNode":"e7ab4dca463345af","toSide":"bottom","label":"Géométrie → Mathématiques"},
+		{"id":"9b7693ed5c2640ca","fromNode":"3c05a15f46724031","fromSide":"top","toNode":"e7ab4dca463345af","toSide":"bottom","label":"Calcul → Mathématiques"}
+	]
+}

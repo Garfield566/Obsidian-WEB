@@ -1,0 +1,43 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Wikipedia",
+	"behavior": "create",
+	"noteContentFormat": "{{selectorHtml:#mw-content-text|remove_html:(\".navbox,.printfooter,.side-box\")|markdown}}",
+	"properties": [
+		{
+			"name": "url",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "clippings, wikipedia",
+			"type": "multitext"
+		},
+		{
+			"name": "published",
+			"value": "{{schema:@Article:datePublished|date:\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "modified",
+			"value": "{{schema:@Article:dateModified|date:\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "date"
+		}
+	],
+	"triggers": [
+		"https://en.wikipedia.org"
+	],
+	"noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}} {{title}}",
+	"path": "00 Inbox/Clippings"
+}

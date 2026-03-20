@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{
+			"type":"group",
+			"id":"f93a24cd6fb2471f",
+			"backgroundStyle":null,
+			"x":-390,
+			"y":-4190,
+			"width":850,
+			"height":2660,
+			"color":"#cba6f7",
+			"label":"Spacetime"
+		},
+		{
+			"type":"group",
+			"id":"3e86a7c58f284edc",
+			"backgroundStyle":null,
+			"x":1280,
+			"y":-2107,
+			"width":330,
+			"height":1155,
+			"color":"#f9e2af",
+			"label":"Variantes"
+		},
+		{"type":"text","id":"76aff7c8df57420c","text":"**Graphique**\n\n```tikz\n\\begin{tikzpicture}[scale=1.2]\n  \\draw[->] (-3,0) -- (3,0) node[right] {$x$};\n  \\draw[->] (0,-3) -- (0,3) node[above] {$ct$};\n  \\draw[thick, orange, dashed] (-2.5,-2.5) -- (0,0) -- (2.5,2.5);\n  \\draw[thick, orange, dashed] (2.5,-2.5) -- (0,0) -- (-2.5,2.5);\n  \\draw[thick, blue] (0,-2.5) .. controls (0.5,0) .. (0,2.5);\n  \\node[blue, right] at (0.5,1) {Ligne d'univers};\n  \\node at (0,2.3) {Futur};\n  \\node at (0,-2.3) {Pass\\'{e}};\n\\end{tikzpicture}\n```","x":-350,"y":-4110,"width":450,"height":450,"color":"#a6e3a1"},
+		{"type":"text","id":"ba80d27801f44349","text":"### Espace-temps\n\nOn l'appelle souvent le quadrivecteur « énergie-impulsion », en exprimant ainsi le fait qu'énergie et impulsion (du moins quantité de mouvement ) sont réunies en un concept physique de manière indissociable, de la même façon que l'espace et le temps composent l'espace-temps.","x":-350,"y":-3510,"width":250,"height":345},
+		{"type":"text","id":"3651583f0ccb4b4e","text":"### James Clerk Maxwell\n\nÀ la fin du XIX e siècle , James Clerk Maxwell établit les équations régissant les ondes électromagnétiques et notamment les ondes lumineuses 1 .","x":100,"y":-3510,"width":250,"height":245},
+		{"type":"text","id":"6e50dbe4c43a4507","text":"### Observateur (physique)\n\nEn physique, un observateur est un hypothétique personnage doté d'instruments de mesure de l'espace et du temps, observant depuis son référentiel les expériences qui ont lieu à différents endroits de l'espace.\nEn physique newtonienne, relativité restreinte et relativité générale, avec...","x":-350,"y":-3015,"width":250,"height":370},
+		{"type":"file","id":"c3ecb1f1e77a4263","file":"images/World line.svg","x":125,"y":-3175,"width":200,"height":150},
+		{"type":"text","id":"a044509acd4b4dd5","text":"### Théorie de la relativité\n\nL'expression théorie de la relativité renvoie le plus souvent à deux théories complémentaires élaborées par Albert Einstein avec l'aide de son épouse Mileva Marić : la relativité restreinte (1905) et la relativité générale (1915).","x":100,"y":-3015,"width":250,"height":480},
+		{"type":"text","id":"10111ffa4329415f","text":"### postulates of special relativity\n\nLa relativité restreinte est la théorie élaborée par Albert Einstein en 1905 en vue de tirer toutes les conséquences physiques de la relativité galiléenne et du principe selon lequel la vitesse de la lumière dans le vide a la même valeur dans tous les référentiels galiléens (ou inertiels), ce qui...","x":-350,"y":-2385,"width":250,"height":370},
+		{"type":"text","id":"45f0b6de50534dfc","text":"### Mécanique newtonienne\n\nEn tenant compte de l'expression relativiste de l'énergie, on voit que l'énergie cinétique d'une particule est donnée par l'expression : E n e r g i e c i n e t i q u e = K = E m c 2 = m c 2 ( 1 1 ( v 2 / c 2 ) 1 ) {\\displaystyle \\mathrm {{...","x":125,"y":-4110,"width":250,"height":320},
+		{"type":"text","id":"b53f620505fa4fb4","text":"#### Exemples des rayons cosmiques et des muons\n\nExemples des rayons cosmiques et des muons On détecte en astronomie des particules porteuses d'une énergie colossale : les rayons cosmiques .","x":-350,"y":-1865,"width":200,"height":295},
+		{"type":"text","id":"51d80343af7d411a","text":"#### Cas des particules de masse nulle\n\nCas des particules de masse nulle Les expressions donnant E $E$ et p $p$ en fonction de m $m$ et v $v$ conduisent à la formule p = v .","x":100,"y":-2385,"width":200,"height":295},
+		{"type":"file","id":"c42efc84121f45eb","file":"images/CMB Timeline300 no WMAP.jpg","x":3125,"y":-80,"width":200,"height":150},
+		{"type":"text","id":"a852f4f3b9fd4472","text":"### Théorie scientifique\n\nUne théorie (du grec theoria, « contempler, observer, examiner ») est un ensemble cohérent de principes, de règles et de lois visant à décrire un ensemble de faits, induites par l'accumulation d'observations et d'expérimentations ou, dans le cas des mathématiques, déduites d'une base axiomatique ...","x":1320,"y":-2027,"width":250,"height":530},
+		{"type":"file","id":"5d36e5f8cd274221","file":"images/Newtons cradle animation book.gif","x":1345,"y":-1507,"width":200,"height":150},
+		{"type":"text","id":"d7694d3b64fe4096","text":"### Loi physique\n\nUne loi définit, en physique, un rapport immuable entre plusieurs grandeurs.","x":1320,"y":-1347,"width":250,"height":355}
+	],
+	"edges":[]
+}
