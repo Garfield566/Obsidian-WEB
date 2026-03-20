@@ -13,7 +13,6 @@ on:
 
 jobs:
   build:
-    # if: ${{ github.repository == 'jackyzha0/quartz' }} # Commented out for fork
     runs-on: ubuntu-latest
     steps:
       - name: Set lowercase repository owner environment variable
@@ -51,7 +50,7 @@ jobs:
         id: meta-pr
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ env.OWNER_LOWERCASE }}/quartz
+          images: ghcr.io/${{ github.repository_owner }}/quartz
           tags: |
             type=raw,value=sha-${{ env.GITHUB_SHA_SHORT }}
           labels: |
@@ -63,7 +62,7 @@ jobs:
         with:
           flavor: |
             latest=auto
-          images: ghcr.io/${{ env.OWNER_LOWERCASE }}/quartz
+          images: ghcr.io/${{ github.repository_owner }}/quartz
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
