@@ -1,10 +1,10 @@
 ---
-nom: "tokyo"
+nom: tokyo
 qid: Q7473516
 categorie: lieu
 tags: "#lieu"
-localisation: "Tokyo"
-pays: "Japon"
+localisation: Tokyo
+pays: Japon
 image: https://commons.wikimedia.org/wiki/Special:FilePath/Akiba_denkigai.jpg
 ---
 
