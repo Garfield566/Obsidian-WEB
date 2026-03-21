@@ -11,13 +11,13 @@ image: https://commons.wikimedia.org/wiki/Special:FilePath/Squalus_acanthias_ste
 > [!Infobox]
 > **Squalus acanthias**
 > ![image](https://commons.wikimedia.org/wiki/Special:FilePath/Squalus_acanthias_stellwagen.jpg)
-> - **Rang taxonomique** : espèce
-> - **Statut de conservation UICN** : espèce vulnérable
-> - **Nom scientifique du taxon** : Squalus acanthias
-> - **Taxon supérieur** : Squalus
-> - **Nom vernaculaire** : aiguillat
-> - **Aire de répartition** : Brésil
-> - **Nom court** : S. acanthias
+> - **P105** : espèce
+> - **P141** : espèce vulnérable
+> - **P225** : Squalus acanthias
+> - **P171** : Squalus
+> - **P1843** : aiguillat
+> - **P9714** : Brésil
+> - **P1813** : S. acanthias
 
 L'aiguillat commun, aussi appelé aiguillat tacheté, requin épineux (selon la CITES), ou simplement aiguillat, est une espèce de petits requins très prisée pour la consommation humaine. De ce fait, il dispose de nombreux noms vernaculaires, comme chien de mer en français, et spiny dogfish, dogfish ou grayfish en anglais. De petite taille, l'aiguillat commun est le représentant le plus courant des requins squaliformes. Sa réputation d'agressivité ne résiste pas à l'analyse éthologique: c'est un prudent réactif.
 
