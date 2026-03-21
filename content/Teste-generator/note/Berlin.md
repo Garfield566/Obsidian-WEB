@@ -11,21 +11,21 @@ image: https://commons.wikimedia.org/wiki/Special:FilePath/Cityscape_Berlin.jpg
 > [!Infobox]
 > **Berlin**
 > ![image](https://commons.wikimedia.org/wiki/Special:FilePath/Cityscape_Berlin.jpg)
-> - **P610** : Arkenberge
-> - **P150** : Mitte (Berlin), arrondissement de Friedrichshain-Kreuzberg, arrondissement de Pankow, arrondissement de Charlottenbourg-Wilmersdorf, arrondissement de Spandau
-> - **P194** : Chambre des députés
-> - **P209** : Cour constitutionnelle de l'État de Berlin
-> - **P190** : Kiev
-> - **P163** : drapeau de Berlin
-> - **P47** : Brandebourg
-> - **P237** : blasonnement de Berlin
-> - **P421** : Europe/Berlin
-> - **P473** : 030
-> - **P395** : B
-> - **P501** : Brandebourg
-> - **P1082** : 3,8 millions
+> - **Point culminant** : Arkenberge
+> - **Contient les subdivisions territoriales administratives** : Mitte (Berlin), arrondissement de Friedrichshain-Kreuzberg, arrondissement de Pankow, arrondissement de Charlottenbourg-Wilmersdorf, arrondissement de Spandau
+> - **Assemblée délibérante** : Chambre des députés
+> - **Corps judiciaire suprême** : Cour constitutionnelle de l'État de Berlin
+> - **Jumelage ou partenariat** : Kiev
+> - **Drapeau** : drapeau de Berlin
+> - **Limitrophe de** : Brandebourg
+> - **Blasonnement** : blasonnement de Berlin
+> - **Fuseau horaire** : Europe/Berlin
+> - **Indicatif téléphonique local/régional** : 030
+> - **Plaque d'immatriculation** : B
+> - **Enclavé dans** : Brandebourg
+> - **Population** : 3,8 millions
 > - **Creation** : 1244
-> - **P1249** : 1237, 1244
+> - **Date de première mention écrite** : 1237, 1244
 
 Berlin (/bɛʁ.lɛ̃/; en allemand: /bɛɐ̯ˈliːn/ ) est la capitale et la plus grande ville d'Allemagne et de l'Union européenne. C'est également l'un des seize lands (ou Länder) de la République fédérale.
 Située dans le nord-est du pays, Berlin compte environ 3,8 millions d'habitants, sur 892 km2. Ses habitants s'appellent les « Berlinois » (Berliner en allemand). Elle est la ville la plus peuplée de l'Union européenne, mais seulement la huitième agglomération la plus peuplée d'Europe. L'agglomération de Berlin s'étend sur 3 743,31 km2. La région métropolitaine de Berlin-Brandebourg qui cumule les länder de Berlin et de Brandebourg regroupe au total près de six millions d'habitants.
