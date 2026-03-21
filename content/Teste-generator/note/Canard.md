@@ -91,4 +91,4 @@ sentir le petit canard à la patte cassée: sentir mauvais (Québec).
 
 ## Symbolique
 
-Le canard voyait son nom attribué au 5e jour du mois de prairial du calendrier républicain / révolutionnaire français, généralement chaque 24 mai du calendrier grégorien. lalala
+Le canard voyait son nom attribué au 5e jour du mois de prairial du calendrier républicain / révolutionnaire français, généralement chaque 24 mai du calendrier grégorien. lalalalllllllllllllll
