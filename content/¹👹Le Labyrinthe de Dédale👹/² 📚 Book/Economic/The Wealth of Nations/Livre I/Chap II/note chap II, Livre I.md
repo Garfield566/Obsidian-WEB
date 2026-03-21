@@ -1,6 +1,6 @@
 ---
 canvas:
-  - "[[Sans titre.canvas]]"
+  - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 ---
 ## division T/ penchant naturel des H pour le troc

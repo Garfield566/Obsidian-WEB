@@ -1,6 +1,6 @@
 ---
 canvas:
-  - "[[Sans titre.canvas]]"
+  - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 ---
 ## L'inconvenant de la première utilisation des métaux comme monnaie

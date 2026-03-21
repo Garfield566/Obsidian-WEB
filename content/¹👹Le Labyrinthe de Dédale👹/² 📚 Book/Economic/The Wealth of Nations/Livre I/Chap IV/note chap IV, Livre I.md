@@ -1,6 +1,6 @@
 ---
 canvas:
-  - "[[Sans titre.canvas]]"
+  - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 ---
 ## Le pourquoi, l'utilisation de la monnaie 
