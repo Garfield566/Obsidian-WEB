@@ -1,17 +1,17 @@
 ---
-nom: "Le Sommet des dieux"
+nom: Le Sommet des dieux
 qid: Q107555499
 categorie: oeuvre
 tags: "#oeuvre"
-pays: "France, Luxembourg"
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/La_cima_degli_dei_logo_film.png/330px-La_cima_degli_dei_logo_film.png
+pays: France, Luxembourg
+image: Pasted image 20260322144847.png|300
 ---
 
 # Le Sommet des dieux (film)
 
 > [!Infobox]
 > **Le Sommet des dieux (film)**
-> ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/La_cima_degli_dei_logo_film.png/330px-La_cima_degli_dei_logo_film.png)
+> ![[Pasted image 20260322144847.png|300]]
 > - **Pays d'origine** : France, Luxembourg
 > - **Réalisé(e) ou mis(e) en scène par** : Patrick Imbert
 > - **Scénariste** : Patrick Imbert
@@ -37,7 +37,7 @@ C'est l'adaptation du manga Le Sommet des dieux de Jirō Taniguchi, lui-même d'
 > - [[Luxembourg]]
 > - [[Patrick Imbert]]
 > - [[22 septembre 2021]]
-> - [[Le Sommet des dieux]]
+> - [[⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Le Sommet des dieux]]
 > - [[français]]
 > - [[film ou téléfilm d'aventure]]
 > - [[drame]]

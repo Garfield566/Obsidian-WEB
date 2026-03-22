@@ -1,17 +1,17 @@
 ---
-nom: "Porco Rosso"
+nom: Porco Rosso
 qid: Q498375
 categorie: oeuvre
 tags: "#oeuvre"
-pays: "Japon"
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Porco_Rosso_Logo_fr.svg/330px-Porco_Rosso_Logo_fr.svg.png
+pays: Japon
+image: Pasted image 20260322144931.png|300
 ---
 
 # Porco Rosso
 
 > [!Infobox]
 > **Porco Rosso**
-> ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Porco_Rosso_Logo_fr.svg/330px-Porco_Rosso_Logo_fr.svg.png)
+> ![[Pasted image 20260322144931.png|300]]
 > - **Réalisé(e) ou mis(e) en scène par** : Hayao Miyazaki
 > - **Langue originelle du film ou de l'émission de télévision** : japonais
 > - **Scénariste** : Hayao Miyazaki
