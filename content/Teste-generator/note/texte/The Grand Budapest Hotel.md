@@ -11,7 +11,7 @@ image: https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/The_Grand_Budapest_H
 
 > [!Infobox]
 > **The Grand Budapest Hotel**
-> ![image](https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/The_Grand_Budapest_Hotel.png/330px-The_Grand_Budapest_Hotel.png)
+> ![[Pasted image 20260322131702.png|300]]
 > - **Lieu de l'action** : Carpates
 > - **Titre** : The Grand Budapest Hotel
 > - **Directeur ou directrice de la photographie** : Robert D. Yeoman
