@@ -6,5 +6,12 @@ views:
         - file.inFolder("⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel")
     minimumColumns: two
     id: 1774182047148-l0c7aa-Masonry
-  - type: cards
+  - type: list
     name: Vue
+    imageAspectRatio: 1.7
+  - type: dynamic-views-masonry
+    name: Vue 2
+    filters:
+      and:
+        - file.inFolder("⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel")
+    id: 1774182047148-xur18f-Vue 2
