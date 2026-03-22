@@ -11,11 +11,12 @@ views:
     name: Vue
     imageAspectRatio: 1.7
   - type: dynamic-views-masonry
-    name: Vue 2
+    name: AudioVisuel
     filters:
       and:
         - file.inFolder("⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel")
-    id: 1774182047148-xur18f-Vue 2
+        - file.name != "Templat audiovisuel"
+    id: 1774182047148-a593ag-AudioVisuel
     cardSize: 170
     imageFormat: poster
     imageRatio: 1.1
