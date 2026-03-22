@@ -1,10 +1,10 @@
 ---
-nom: "conclave"
+nom: conclave
 qid: Q116701124
 categorie: oeuvre
 tags: "#oeuvre"
-pays: "Royaume-Uni, États-Unis"
-image: https://commons.wikimedia.org/wiki/Special:FilePath/ConclaveBFILFF101024_(31_of_44)_(54062063801).jpg
+pays: Royaume-Uni, États-Unis
+image: Pasted image 20260322130951.png
 ---
 
 # Conclave (film)

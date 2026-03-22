@@ -1,10 +1,10 @@
 ---
-nom: "Birdman"
+nom: Birdman
 qid: Q13255497
 categorie: oeuvre
 tags: "#oeuvre"
-pays: "États-Unis"
-image: https://commons.wikimedia.org/wiki/Special:FilePath/Birdman_logo.png
+pays: États-Unis
+image: Pasted image 20260322130736.png
 ---
 
 # Birdman (film)
