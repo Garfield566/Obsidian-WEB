@@ -22,11 +22,7 @@ image: https://commons.wikimedia.org/wiki/Special:FilePath/Birdman_logo.png
 > - **Genre** : comédie, drame, humour noir, tragi-comédie
 > - **Pays d'origine** : États-Unis
 > - **Distinction reçue** : Oscar du meilleur film, Oscar du meilleur scénario original, Dallas-Fort Worth Film Critics Association Award du meilleur film
-> - **Note de la critique** : 5/5, 4/4, 3/4, 8.5/10, 91%
-> - **Producteur ou productrice** : Alejandro González Iñárritu, John Lesher, Arnon Milchan, James W. Skotchdopole
-> - **Scénariste** : Alejandro González Iñárritu, Nicolás Giacobone, Alexander Dinelaris Jr., Armando Bó
-> - **Titre** : Birdman
-> - **Lieu du tournage** : New York
+
 
 Birdman, ou Birdman ou (Les Vertus insoupçonnées de l'ignorance) au Québec, est un drame américain co-écrit, co-produit et réalisé par Alejandro González Iñárritu, sorti en 2014.
 Le film traite de l'adaptation théâtrale de la nouvelle Parlez-moi d'amour (What We Talk About When We Talk About Love) écrite par Raymond Carver en 1981.
