@@ -1,6 +1,7 @@
 ---
 title: Cowboy Bebop
 tags: []
+image: Pasted image 20250502193445.png|300
 ---
 
 # 🎥Cowboy Bebop
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # Cowboy-Bebop
 > ###### (1998–1999)
-> ![[Pasted image 20250502193445.png]]
+> ![[Pasted image 20250502193445.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
