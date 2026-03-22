@@ -1,17 +1,17 @@
 ---
-nom: "L'Associé du diable"
+nom: L'Associé du diable
 qid: Q224647
 categorie: oeuvre
 tags: "#oeuvre"
-pays: "États-Unis"
-image: https://commons.wikimedia.org/wiki/Special:FilePath/Devils-advocate.png
+pays: États-Unis
+image: Pasted image 20260322131145.png
 ---
 
 # L'Associé du diable
 
 > [!Infobox]
 > **L'Associé du diable**
-> ![image](https://commons.wikimedia.org/wiki/Special:FilePath/Devils-advocate.png)
+> ![[Pasted image 20260322131145.png|300]]
 > - **Réalisé(e) ou mis(e) en scène par** : Taylor Hackford
 > - **Scénariste** : Jonathan Lemkin, Tony Gilroy
 > - **Distribution** : Keanu Reeves, Al Pacino, Charlize Theron, Jeffrey Jones, Judith Ivey
