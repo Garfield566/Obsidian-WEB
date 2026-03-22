@@ -1,1 +1,267 @@
-{"nodes": [{"type": "group", "id": "cd55ecd333ca432d", "x": -2444, "y": -1110, "width": 1255, "height": 1237, "color": "#89dceb", "label": "Comment \u00e7a marche", "background": null, "backgroundStyle": null}, {"type": "group", "id": "c6f55c91a98944cc", "x": -680, "y": -2437, "width": 1360, "height": 1505, "color": "#cba6f7", "label": "R\u00e9actions de la photosynth\u00e8se", "background": null, "backgroundStyle": null}, {"type": "group", "id": "e73a9f04db554c94", "x": 1219, "y": 512, "width": 480, "height": 660, "color": "#cba6f7", "label": "Chlorophylle", "background": null, "backgroundStyle": null}, {"type": "group", "id": "d7373dbd720f49dc", "x": -1566, "y": 1139, "width": 480, "height": 390, "color": "#cba6f7", "label": "Photons et \u00e9lectrons", "background": null, "backgroundStyle": null}, {"type": "group", "id": "ef01e3d7ddfe40a1", "x": 1685, "y": 1685, "width": 550, "height": 390, "color": "#f38ba8", "label": "\u00c0 ne pas confondre", "background": null, "backgroundStyle": null}, {"type": "group", "id": "20b8877c959e4ca0", "x": -455, "y": 2437, "width": 910, "height": 510, "color": "#f5c2e7", "label": "Sources", "background": null, "backgroundStyle": null}, {"type": "text", "id": "928297825f3c4a60", "x": -2404, "y": -550, "width": 450, "height": 450, "color": "#a6e3a1", "text": "**Graphique**\n\n```tikz\n\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis lines=middle,\n    grid=both,\n    domain=0:5,\n    samples=200,\n    xlabel={$x$},\n    ylabel={$f(x)$},\n    width=10cm,\n    height=8cm\n]\n\\addplot[blue, thick] {exp(-1*x^2)};\n\\end{axis}\n\\end{tikzpicture}\n\n```"}, {"type": "text", "id": "ab30d298483c406c", "x": -1924, "y": -550, "width": 280, "height": 170, "color": null, "text": "### assimilats\n\nlumi\u00e8re, chlorophylle, H2O, CO2 \u2192 H+, e-, O2, assimilats (feuille)"}, {"type": "text", "id": "e4be65ce71b044b5", "x": -1924, "y": -1030, "width": 280, "height": 170, "color": "#89dceb", "text": "### G3P\n\n\u00e9nergie emmagasin\u00e9e \u2192 G3P, ADP, Pi, NADP+"}, {"type": "text", "id": "74e8aa64e1d947a3", "x": -1509, "y": -790, "width": 280, "height": 170, "color": "#89dceb", "text": "### ADP\n\n\u00e9nergie emmagasin\u00e9e \u2192 G3P, ADP, Pi, NADP+"}, {"type": "text", "id": "8422eb925a2b402c", "x": -1509, "y": -311, "width": 280, "height": 170, "color": "#89dceb", "text": "### NADP+\n\n\u00e9nergie emmagasin\u00e9e \u2192 G3P, ADP, Pi, NADP+"}, {"type": "text", "id": "d453afdbb5e245fd", "x": -1924, "y": -58, "width": 280, "height": 145, "color": "#89dceb", "text": "### (CH2O)n\n\nCO2, AH2, photons \u2192 (CH2O)n, AO"}, {"type": "text", "id": "626886f04fdb4f83", "x": -640, "y": -2037, "width": 400, "height": 245, "color": null, "text": "### Dioxyde de carbone\n\nDans la photosynth\u00e8se oxyg\u00e9nique, l'eau est le donneur d'\u00e9lectrons, dont la dissociation lib\u00e8re de l' oxyg\u00e8ne tandis que de l'eau est reform\u00e9e \u00e0 partir d'un atome d'oxyg\u00e8ne du dioxyde de carbone : 2 n CO 2 + 4 n H 2 O + photons \u2192 2(CH 2 O) n + 2 n O 2 + 2 n H 2 O ."}, {"type": "link", "id": "fd5b872f3da84701", "x": -640, "y": -2357, "width": 400, "height": 300, "color": "#cba6f7", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Carbon_dioxide_3D_ball.png/500px-Carbon_dioxide_3D_ball.png"}, {"type": "text", "id": "d3359512232742f1", "x": -640, "y": -1642, "width": 400, "height": 270, "color": "#cba6f7", "text": "#### Glucide\n\nOn parle de \u00ab plantes en C 3 \u00bb en r\u00e9f\u00e9rence au 3-phosphoglyc\u00e9rate , mol\u00e9cule \u00e0 trois atomes de carbone form\u00e9e par condensation du dioxyde de carbone CO 2 sur du ribulose-1,5-bisphosphate par la Rubisco : + CO 2 + H 2 O \u2192 2 D -ribulose-1,5-bisphosphate 3-phospho- D -glyc\u00e9rate Carboxylase/oxyg\u00e9nase..."}, {"type": "text", "id": "16b9511bcb9a4c76", "x": -190, "y": -2037, "width": 400, "height": 270, "color": null, "text": "### Grande Oxydation\n\nLes cyanobact\u00e9ries sont apparues plus tard, et l'exc\u00e8s d' oxyg\u00e8ne alors lib\u00e9r\u00e9 dans l' environnement aurait contribu\u00e9 \u00e0 la \u00ab Grande Oxydation \u00bb il y a environ 2,4 milliards d'ann\u00e9es [ 5 ] , rendant possible l'\u00e9volution des \u00eatres vivants vers des formes de vie plus complexes."}, {"type": "text", "id": "f941e7d357ea44dd", "x": 240, "y": -2037, "width": 400, "height": 220, "color": null, "text": "### R\u00e9actions directement d\u00e9pendantes de la lumi\u00e8re\n\nR\u00e9actions directement d\u00e9pendantes de la lumi\u00e8re Spectre d'absorption des chlorophylles a et b , les principaux pigments assimilateurs des v\u00e9g\u00e9taux, apparaissant de couleur verte car ils absorbent les..."}, {"type": "text", "id": "cc401674944a4cc6", "x": -640, "y": -1342, "width": 200, "height": 370, "color": null, "text": "#### Cas particuliers de photosynth\u00e8se\n\nCas particuliers de photosynth\u00e8se Plante au microscope \u00e9lectrique Animaux et photosynth\u00e8se La limace de mer , Elysia chlorotica , est le premier animal d\u00e9couvert capable d'utiliser la photosynth\u00e8se pour produire de l'\u00e9nergie."}, {"type": "text", "id": "828c72828e1c4017", "x": 1259, "y": 912, "width": 400, "height": 220, "color": null, "text": "### Chlorophylle a\n\nLa chlorophylle a est la principale forme de chlorophylle pr\u00e9sente chez les organismes qui mettent en \u0153uvre la photosynth\u00e8se. On en trouve \u00e9galement en petite quantit\u00e9 chez les bact\u00e9ries vertes sulfureuses."}, {"type": "link", "id": "d7106efa372f4c47", "x": 1259, "y": 592, "width": 400, "height": 300, "color": "#cba6f7", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Chlorophyll-a-3D-vdW.png/500px-Chlorophyll-a-3D-vdW.png"}, {"type": "text", "id": "5c1b75d6086546b1", "x": -1526, "y": 1219, "width": 400, "height": 270, "color": null, "text": "### Photosyst\u00e8me\n\nEnzymes membranaires et prot\u00e9ines transporteuses d' \u00e9lectrons de la photophosphorylation non cyclique ; PS II : photosyst\u00e8me II ; PQH 2 : plastoquinone ; cyt b 6 f : complexe cytochrome b 6 f ; PC : plastocyanine ; PS I : photosyst\u00e8me I ; Fd : ferr\u00e9doxine ; Fp : r\u00e9ductase ferr\u00e9doxine-NADP + ; ATP..."}, {"type": "text", "id": "24160a069d774c73", "x": 1725, "y": 1765, "width": 220, "height": 270, "color": null, "text": "#### \u2260 respiration cellulaire\n\nLa photosynth\u00e8se produit O\u2082 et glucose \u00e0 partir de CO\u2082 et lumi\u00e8re. La respiration cellulaire fait l'inverse : consomme O\u2082 et glucose pour produire de l'\u00e9nergie."}, {"type": "text", "id": "dbb84a913e5e4a71", "x": 1975, "y": 1765, "width": 220, "height": 220, "color": null, "text": "#### \u2260 chimiosynth\u00e8se\n\nLa chimiosynth\u00e8se utilise l'\u00e9nergie chimique au lieu de la lumi\u00e8re pour produire de la mati\u00e8re organique."}, {"type": "text", "id": "affcdf0b9d5841da", "x": -415, "y": 2517, "width": 400, "height": 180, "color": "#f5c2e7", "text": "PubMed"}, {"type": "text", "id": "af31a086d08142c1", "x": 15, "y": 2517, "width": 400, "height": 180, "color": "#f5c2e7", "text": "Proceedings of the National Academy of Sciences of the United States of America"}, {"type": "text", "id": "fc1bd34259c54589", "x": -415, "y": 2727, "width": 400, "height": 180, "color": "#f5c2e7", "text": "Journal of Cell Biology"}], "edges": [{"id": "2089655f37934059", "fromNode": "ab30d298483c406c", "fromSide": "top", "fromEnd": null, "toNode": "e4be65ce71b044b5", "toSide": "bottom", "toEnd": null, "color": null, "label": "cycle d'assimilation du carbone"}, {"id": "36d9da8b0d964f93", "fromNode": "e4be65ce71b044b5", "fromSide": "right", "fromEnd": null, "toNode": "74e8aa64e1d947a3", "toSide": "left", "toEnd": null, "color": "#89dceb", "label": "cycle d'assimilation du carbone"}, {"id": "07b49610a93141d5", "fromNode": "74e8aa64e1d947a3", "fromSide": "bottom", "fromEnd": null, "toNode": "8422eb925a2b402c", "toSide": "top", "toEnd": null, "color": "#89dceb", "label": "cycle d'assimilation du carbone"}, {"id": "3c006e6eeb774fab", "fromNode": "8422eb925a2b402c", "fromSide": "left", "fromEnd": null, "toNode": "d453afdbb5e245fd", "toSide": "right", "toEnd": null, "color": "#89dceb", "label": "produit"}, {"id": "accc924177664192", "fromNode": "626886f04fdb4f83", "fromSide": "bottom", "fromEnd": null, "toNode": "d3359512232742f1", "toSide": "top", "toEnd": null, "color": null, "label": "produit par"}, {"id": "fe580e80abdb441a", "fromNode": "e73a9f04db554c94", "fromSide": "top", "fromEnd": null, "toNode": "c6f55c91a98944cc", "toSide": "bottom", "toEnd": null, "color": null, "label": "contient"}, {"id": "5d3fdba5372840a6", "fromNode": "e73a9f04db554c94", "fromSide": "left", "fromEnd": null, "toNode": "d7373dbd720f49dc", "toSide": "right", "toEnd": null, "color": null, "label": "Chlorophylle \u2192 Photons et \u00e9lectrons"}, {"id": "60b5cd50da03431f", "fromNode": "c6f55c91a98944cc", "fromSide": "bottom", "fromEnd": null, "toNode": "d7373dbd720f49dc", "toSide": "top", "toEnd": null, "color": null, "label": "R\u00e9actions de la photosynth\u00e8se \u2192 Photons et \u00e9lectrons"}]}
+{
+	"nodes":[
+		{
+			"type":"group",
+			"id":"cd55ecd333ca432d",
+			"x":-2444,
+			"y":-1110,
+			"width":1255,
+			"height":1237,
+			"color":"#89dceb",
+			"label":"Comment ça marche",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"c6f55c91a98944cc",
+			"x":-680,
+			"y":-2437,
+			"width":1360,
+			"height":1505,
+			"color":"#cba6f7",
+			"label":"Réactions de la photosynthèse",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"e73a9f04db554c94",
+			"x":1219,
+			"y":512,
+			"width":480,
+			"height":660,
+			"color":"#cba6f7",
+			"label":"Chlorophylle",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"d7373dbd720f49dc",
+			"x":-1566,
+			"y":1139,
+			"width":480,
+			"height":390,
+			"color":"#cba6f7",
+			"label":"Photons et électrons",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"ef01e3d7ddfe40a1",
+			"x":1685,
+			"y":1685,
+			"width":550,
+			"height":390,
+			"color":"#f38ba8",
+			"label":"À ne pas confondre",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"20b8877c959e4ca0",
+			"x":-455,
+			"y":2437,
+			"width":910,
+			"height":510,
+			"color":"#f5c2e7",
+			"label":"Sources",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{"type":"text","id":"928297825f3c4a60","x":-2404,"y":-550,"width":450,"height":450,"color":"#a6e3a1","text":"**Graphique**\n\n```tikz\n\n\\begin{tikzpicture}\n\\begin{axis}[\n    axis lines=middle,\n    grid=both,\n    domain=0:5,\n    samples=200,\n    xlabel={$x$},\n    ylabel={$f(x)$},\n    width=10cm,\n    height=8cm\n]\n\\addplot[blue, thick] {exp(-1*x^2)};\n\\end{axis}\n\\end{tikzpicture}\n\n```"},
+		{
+			"type":"text",
+			"id":"ab30d298483c406c",
+			"x":-1924,
+			"y":-550,
+			"width":280,
+			"height":170,
+			"color":null,
+			"text":"### assimilats\n\nlumière, chlorophylle, H2O, CO2 → H+, e-, O2, assimilats (feuille)"
+		},
+		{"type":"text","id":"e4be65ce71b044b5","x":-1924,"y":-1030,"width":280,"height":170,"color":"#89dceb","text":"### G3P\n\nénergie emmagasinée → G3P, ADP, Pi, NADP+"},
+		{"type":"text","id":"74e8aa64e1d947a3","x":-1509,"y":-790,"width":280,"height":170,"color":"#89dceb","text":"### ADP\n\nénergie emmagasinée → G3P, ADP, Pi, NADP+"},
+		{"type":"text","id":"8422eb925a2b402c","x":-1509,"y":-311,"width":280,"height":170,"color":"#89dceb","text":"### NADP+\n\nénergie emmagasinée → G3P, ADP, Pi, NADP+"},
+		{"type":"text","id":"d453afdbb5e245fd","x":-1924,"y":-58,"width":280,"height":145,"color":"#89dceb","text":"### (CH2O)n\n\nCO2, AH2, photons → (CH2O)n, AO"},
+		{
+			"type":"text",
+			"id":"626886f04fdb4f83",
+			"x":-640,
+			"y":-2037,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"### Dioxyde de carbone\n\nDans la photosynthèse oxygénique, l'eau est le donneur d'électrons, dont la dissociation libère de l' oxygène tandis que de l'eau est reformée à partir d'un atome d'oxygène du dioxyde de carbone : 2 n CO 2 + 4 n H 2 O + photons → 2(CH 2 O) n + 2 n O 2 + 2 n H 2 O ."
+		},
+		{"type":"link","id":"fd5b872f3da84701","x":-640,"y":-2357,"width":400,"height":300,"color":"#cba6f7","url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Carbon_dioxide_3D_ball.png/500px-Carbon_dioxide_3D_ball.png"},
+		{"type":"text","id":"d3359512232742f1","x":-640,"y":-1642,"width":400,"height":270,"color":"#cba6f7","text":"#### Glucide\n\nOn parle de « plantes en C 3 » en référence au 3-phosphoglycérate , molécule à trois atomes de carbone formée par condensation du dioxyde de carbone CO 2 sur du ribulose-1,5-bisphosphate par la Rubisco : + CO 2 + H 2 O → 2 D -ribulose-1,5-bisphosphate 3-phospho- D -glycérate Carboxylase/oxygénase..."},
+		{
+			"type":"text",
+			"id":"16b9511bcb9a4c76",
+			"x":-190,
+			"y":-2037,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Grande Oxydation\n\nLes cyanobactéries sont apparues plus tard, et l'excès d' oxygène alors libéré dans l' environnement aurait contribué à la « Grande Oxydation » il y a environ 2,4 milliards d'années [ 5 ] , rendant possible l'évolution des êtres vivants vers des formes de vie plus complexes."
+		},
+		{
+			"type":"text",
+			"id":"f941e7d357ea44dd",
+			"x":240,
+			"y":-2037,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Réactions directement dépendantes de la lumière\n\nRéactions directement dépendantes de la lumière Spectre d'absorption des chlorophylles a et b , les principaux pigments assimilateurs des végétaux, apparaissant de couleur verte car ils absorbent les..."
+		},
+		{
+			"type":"text",
+			"id":"cc401674944a4cc6",
+			"x":-640,
+			"y":-1342,
+			"width":200,
+			"height":370,
+			"color":null,
+			"text":"#### Cas particuliers de photosynthèse\n\nCas particuliers de photosynthèse Plante au microscope électrique Animaux et photosynthèse La limace de mer , Elysia chlorotica , est le premier animal découvert capable d'utiliser la photosynthèse pour produire de l'énergie."
+		},
+		{
+			"type":"text",
+			"id":"828c72828e1c4017",
+			"x":1259,
+			"y":912,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Chlorophylle a\n\nLa chlorophylle a est la principale forme de chlorophylle présente chez les organismes qui mettent en œuvre la photosynthèse. On en trouve également en petite quantité chez les bactéries vertes sulfureuses."
+		},
+		{"type":"link","id":"d7106efa372f4c47","x":1259,"y":592,"width":400,"height":300,"color":"#cba6f7","url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Chlorophyll-a-3D-vdW.png/500px-Chlorophyll-a-3D-vdW.png"},
+		{
+			"type":"text",
+			"id":"5c1b75d6086546b1",
+			"x":-1526,
+			"y":1219,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Photosystème\n\nEnzymes membranaires et protéines transporteuses d' électrons de la photophosphorylation non cyclique ; PS II : photosystème II ; PQH 2 : plastoquinone ; cyt b 6 f : complexe cytochrome b 6 f ; PC : plastocyanine ; PS I : photosystème I ; Fd : ferrédoxine ; Fp : réductase ferrédoxine-NADP + ; ATP..."
+		},
+		{
+			"type":"text",
+			"id":"24160a069d774c73",
+			"x":1725,
+			"y":1765,
+			"width":220,
+			"height":270,
+			"color":null,
+			"text":"#### ≠ respiration cellulaire\n\nLa photosynthèse produit O₂ et glucose à partir de CO₂ et lumière. La respiration cellulaire fait l'inverse : consomme O₂ et glucose pour produire de l'énergie."
+		},
+		{
+			"type":"text",
+			"id":"dbb84a913e5e4a71",
+			"x":1975,
+			"y":1765,
+			"width":220,
+			"height":220,
+			"color":null,
+			"text":"#### ≠ chimiosynthèse\n\nLa chimiosynthèse utilise l'énergie chimique au lieu de la lumière pour produire de la matière organique."
+		},
+		{"type":"text","id":"affcdf0b9d5841da","x":-415,"y":2517,"width":400,"height":180,"color":"#f5c2e7","text":"PubMed"},
+		{"type":"text","id":"af31a086d08142c1","x":15,"y":2517,"width":400,"height":180,"color":"#f5c2e7","text":"Proceedings of the National Academy of Sciences of the United States of America"},
+		{"type":"text","id":"fc1bd34259c54589","x":-415,"y":2727,"width":400,"height":180,"color":"#f5c2e7","text":"Journal of Cell Biology"}
+	],
+	"edges":[
+		{
+			"id":"2089655f37934059",
+			"fromNode":"ab30d298483c406c",
+			"fromSide":"top",
+			"fromEnd":null,
+			"toNode":"e4be65ce71b044b5",
+			"toSide":"bottom",
+			"toEnd":null,
+			"color":null,
+			"label":"cycle d'assimilation du carbone"
+		},
+		{
+			"id":"36d9da8b0d964f93",
+			"fromNode":"e4be65ce71b044b5",
+			"fromSide":"right",
+			"fromEnd":null,
+			"toNode":"74e8aa64e1d947a3",
+			"toSide":"left",
+			"toEnd":null,
+			"color":"#89dceb",
+			"label":"cycle d'assimilation du carbone"
+		},
+		{
+			"id":"07b49610a93141d5",
+			"fromNode":"74e8aa64e1d947a3",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"8422eb925a2b402c",
+			"toSide":"top",
+			"toEnd":null,
+			"color":"#89dceb",
+			"label":"cycle d'assimilation du carbone"
+		},
+		{
+			"id":"3c006e6eeb774fab",
+			"fromNode":"8422eb925a2b402c",
+			"fromSide":"left",
+			"fromEnd":null,
+			"toNode":"d453afdbb5e245fd",
+			"toSide":"right",
+			"toEnd":null,
+			"color":"#89dceb",
+			"label":"produit"
+		},
+		{
+			"id":"accc924177664192",
+			"fromNode":"626886f04fdb4f83",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"d3359512232742f1",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"produit par"
+		},
+		{
+			"id":"fe580e80abdb441a",
+			"fromNode":"e73a9f04db554c94",
+			"fromSide":"top",
+			"fromEnd":null,
+			"toNode":"c6f55c91a98944cc",
+			"toSide":"bottom",
+			"toEnd":null,
+			"color":null,
+			"label":"contient"
+		},
+		{
+			"id":"5d3fdba5372840a6",
+			"fromNode":"e73a9f04db554c94",
+			"fromSide":"left",
+			"fromEnd":null,
+			"toNode":"d7373dbd720f49dc",
+			"toSide":"right",
+			"toEnd":null,
+			"color":null,
+			"label":"Chlorophylle → Photons et électrons"
+		},
+		{
+			"id":"60b5cd50da03431f",
+			"fromNode":"c6f55c91a98944cc",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"d7373dbd720f49dc",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"Réactions de la photosynthèse → Photons et électrons"
+		}
+	]
+}
