@@ -11,7 +11,7 @@ image: https://commons.wikimedia.org/wiki/Special:FilePath/Birdman_logo.png
 
 > [!Infobox]
 > **Birdman (film)**
-> ![image](https://commons.wikimedia.org/wiki/Special:FilePath/Birdman_logo.png)
+> ![[Pasted image 20260322130736.png|200]]
 > - **Réalisé(e) ou mis(e) en scène par** : Alejandro González Iñárritu
 > - **Société de production** : Searchlight Pictures, Worldview Entertainment
 > - **Distribution** : Michael Keaton, Emma Stone, Edward Norton, Andrea Riseborough, Zach Galifianakis
