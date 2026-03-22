@@ -6,6 +6,7 @@ canvas:
   - "[[audiovisuel_stripped.canvas]]"
 audiovisuel_overlap_test: []
 audiovisuel_stripped: []
+image: Pasted image 20250502131748.png|300
 ---
 
 # 🎥 Mononoke
@@ -13,7 +14,7 @@ audiovisuel_stripped: []
 > [!infobox]
 > # Mononoke
 > ###### (2007)
-> ![[Pasted image 20250502131748.png]]
+> ![[Pasted image 20250502131748.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
