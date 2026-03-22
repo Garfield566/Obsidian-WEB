@@ -1,6 +1,7 @@
 ---
 title: À l'Ouest, rien de nouveau
 tags: []
+image:
 ---
 
 # 🎥 À l'Ouest, rien de nouveau
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # À-l'ouest-rien-de-nouveau
 > ###### (2022)
->![cover|375](https://yvon.eu/wp-content/uploads/2022/11/A-louest-rien-de-nouveau-Felix-Kammerer.jpg)
+>![[Pasted image 20260322132954.png|]]
 > ###### Key-Facts
 > | | |
 > |---|---|
