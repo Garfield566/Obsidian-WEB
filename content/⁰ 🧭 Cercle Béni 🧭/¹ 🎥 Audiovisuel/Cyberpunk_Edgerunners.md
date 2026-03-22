@@ -17,7 +17,7 @@ audiovisuel_stripped:
 > [!infobox]
 > # Cyberpunk-Edgerunners
 > ###### (2022)
->![cover|375](https://sm.ign.com/ign_fr/photo/default/cyberpunk-edgerunners-season1-episode2-00-21-37-03-166188263_63pw.jpg)
+>![[Pasted image 20260322133455.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
