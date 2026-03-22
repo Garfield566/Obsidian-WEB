@@ -9,7 +9,7 @@ pays: "Japon"
 # Les Contes de Terremer
 
 > [!Infobox]
-> ![[Pasted image 20260322131423.png]]
+> ![[Pasted image 20260322131423.png|300]]
 > **Les Contes de Terremer**
 > - **Langue originelle du film ou de l'émission de télévision** : japonais
 > - **Réalisé(e) ou mis(e) en scène par** : Gorō Miyazaki
