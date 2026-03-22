@@ -20,7 +20,7 @@ image: https://commons.wikimedia.org/wiki/Special:FilePath/Vector_add_scale.svg
 En mathématiques, plus précisément en algèbre linéaire, un espace vectoriel est un ensemble d'objets, appelés vecteurs, que l'on peut additionner entre eux, et que l'on peut multiplier par un scalaire (pour les étirer ou les rétrécir). En d'autres termes, c'est un ensemble muni d'une structure permettant d'effectuer des combinaisons linéaires. Les scalaires sont généralement des nombres réels ou des nombres complexes, ou plus généralement pris dans n'importe quel corps.
 Étant donné un corps K, un espace vectoriel E sur K est un groupe commutatif (dont la loi est notée +) muni d'une action « compatible » de K (au sens de la définition ci-dessous).
 
-> [!definition] **Définition**
+### **Définition**
 >
 > Soit K un corps commutatif, comme le corps commutatif  $\mathbb {Q}$ des rationnels, celui, $\mathbb {R}$ , des réels ou celui, $\mathbb {C}$ , des complexes (on parlera dans ces cas d'espace vectoriel rationnel, réel ou complexe).
 > Un espace vectoriel sur K, ou K-espace vectoriel, est un ensemble E, dont les éléments sont appelés vecteurs (ou — plus rarement — points), muni de deux lois:
