@@ -1,6 +1,7 @@
 ---
 title: Dorohedoro
 tags: []
+image: Pasted image 20260322133718.png|300
 ---
 
 # 🎥 Dorohedoro
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # Dorohedoro
 > ###### (2020)
-> ![cover|375](https://occ-0-8407-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABa5lhqmhCcInDv3CgQAsEGJn_pTlcAEOaKA-n9slY5klxo0kpT91rjuOXPexMFmUx1CFkA4fISA4haOg0Zx6rG5CO1PMSnJmVIw4.jpg?r=0d0)
+> ![[Pasted image 20260322133718.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
