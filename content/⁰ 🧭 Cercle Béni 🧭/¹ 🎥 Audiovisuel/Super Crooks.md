@@ -1,6 +1,7 @@
 ---
 title: Super Crooks
 tags: []
+image: Pasted image 20250502185446.png|300
 ---
 
 # 🎥 Super Crooks
