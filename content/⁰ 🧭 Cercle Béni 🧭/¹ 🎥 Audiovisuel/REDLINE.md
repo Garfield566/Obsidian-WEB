@@ -8,12 +8,13 @@ note-audio: "1"
 note-scénario: "1"
 note-visuel: "1"
 animation.: Madhouse
+image: Pasted image 20250502194744.png|300
 ---
 
 > [!infobox]
 > # REDLINE
 > ###### (2009)
-> ![[Pasted image 20250502194744.png]]
+> ![[Pasted image 20250502194744.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|

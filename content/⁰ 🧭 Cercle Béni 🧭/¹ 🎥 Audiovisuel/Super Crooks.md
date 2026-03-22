@@ -8,7 +8,7 @@ tags: []
 > [!infobox]
 > # Super-Crooks
 > ###### (2021–2022)
-> ![[Pasted image 20250502185446.png]]
+> ![[Pasted image 20250502185446.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
