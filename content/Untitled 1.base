@@ -1,5 +1,8 @@
 views:
   - type: dynamic-views-masonry
     name: Masonry
+    filters:
+      and:
+        - '!file.hasLink("⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Léon")'
     minimumColumns: two
     id: 1774182047148-l0c7aa-Masonry
