@@ -3,13 +3,15 @@ views:
     name: Masonry
     filters:
       and:
-        - file.inFolder("⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel")
+        - '!file.inFolder("¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques/Licée")'
+        - and:
+            - file.inFolder("¹👹Le Labyrinthe de Dédale👹/² 📐 Mathématiques")
     order: []
     minimumColumns: two
     id: 1774182047148-l0c7aa-Masonry
-  - type: list
+  - type: dynamic-views-grid
     name: Vue
-    imageAspectRatio: 1.7
+    id: 1774182047148-u70q42-Vue
   - type: dynamic-views-masonry
     name: AudioVisuel
     filters:
