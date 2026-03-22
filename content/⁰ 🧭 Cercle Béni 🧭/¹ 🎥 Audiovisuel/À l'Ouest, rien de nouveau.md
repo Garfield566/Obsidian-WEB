@@ -1,7 +1,7 @@
 ---
 title: À l'Ouest, rien de nouveau
 tags: []
-image:
+image: Pasted image 20260322132954.png|300
 ---
 
 # 🎥 À l'Ouest, rien de nouveau
@@ -9,7 +9,7 @@ image:
 > [!infobox]
 > # À-l'ouest-rien-de-nouveau
 > ###### (2022)
->![[Pasted image 20260322132954.png|]]
+>![[Pasted image 20260322132954.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
