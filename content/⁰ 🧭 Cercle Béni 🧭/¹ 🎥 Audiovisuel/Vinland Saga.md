@@ -13,7 +13,7 @@ audiovisuel_stripped: []
 > [!infobox]
 > # Vinland-Saga
 > ###### (2019–)
-> ![[Pasted image 20250502193323.png]]
+> ![[Pasted image 20250502193323.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|

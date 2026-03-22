@@ -1,6 +1,7 @@
 ---
 title: Truman show
 tags: []
+image: Pasted image 20260322135313.png|300
 ---
 
 # 🎥 the Truman show
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # The-Truman-Show
 > ###### (1998)
-> ![cover|400](https://i2.wp.com/www.iletaitunefoislecinema.com/wp-content/uploads/2018/06/truman-show-e1532978013389.jpg?fit=1018%2C486&ssl=1)
+> ![[Pasted image 20260322135313.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
