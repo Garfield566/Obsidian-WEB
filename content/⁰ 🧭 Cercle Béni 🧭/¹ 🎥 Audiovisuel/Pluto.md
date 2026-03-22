@@ -1,6 +1,7 @@
 ---
 title: Pluto
 tags: []
+image: Pasted image 20250502185112.png|300
 ---
 
 # 🎥 Pluto
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # Pluto
 > ###### (2023)
-> ![[Pasted image 20250502185112.png]]
+> ![[Pasted image 20250502185112.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
