@@ -8,7 +8,7 @@ tags: []
 > [!infobox]
 > # L'Attaque-des-Titans
 > ###### (2013–2023)
->![cover|400](https://img.20mn.fr/9kr78x0KS5a2zl4AvQzhPw/1444x920_anime-attaque-titans-vit-actuellement-saison-finale-wakanim-alors-manga-doit-terminer-aussi-2021)
+>![[Pasted image 20260322134222.png]]
 > ###### Key-Facts
 > | | |
 > |---|---|
