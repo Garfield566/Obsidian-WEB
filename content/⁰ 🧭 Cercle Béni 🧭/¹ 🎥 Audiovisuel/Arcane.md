@@ -1,14 +1,14 @@
 ---
 title: Arcane
 tags: []
-image:
+image: Pasted image 20250502100359.png|300
 ---
 
 # 🎥 Arcane
 > [!infobox]
 > # Arcane
 > ###### (2021–2024)
-> ![[Pasted image 20250502100359.png]]
+> ![[Pasted image 20250502100359.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
