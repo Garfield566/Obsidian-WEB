@@ -1,6 +1,7 @@
 ---
 title: L'attaque des titans
 tags: []
+image: Pasted image 20260322134222.png|300
 ---
 
 # 🎥 *L'Attaque des Titans
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # L'Attaque-des-Titans
 > ###### (2013–2023)
->![[Pasted image 20260322134222.png]]
+>![[Pasted image 20260322134222.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
