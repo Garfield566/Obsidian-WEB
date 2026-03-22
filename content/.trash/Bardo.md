@@ -1,10 +1,10 @@
 ---
-nom: "Bardo"
+nom: Bardo
 qid: Q808036
 categorie: oeuvre
 tags: "#oeuvre"
-pays: "Pologne"
-localisation: "Bardo"
+pays: Pologne
+localisation: Bardo
 image: https://commons.wikimedia.org/wiki/Special:FilePath/2024_Bardo,_panorama_(1).jpg
 ---
 
