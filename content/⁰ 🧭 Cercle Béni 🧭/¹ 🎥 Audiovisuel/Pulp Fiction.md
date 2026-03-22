@@ -1,6 +1,7 @@
 ---
 title: Pulp Fiction
 tags: []
+image: Pasted image 20260322134735.png|300
 ---
 
 # 🎥 Pulp Fiction
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # Pulp-Fiction
 > ###### (1994)
-> ![cover|375](https://m.media-amazon.com/images/I/71ox+EoFO7L._UF1000,1000_QL80_.jpg)
+> ![[Pasted image 20260322134735.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
