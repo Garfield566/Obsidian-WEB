@@ -12,12 +12,13 @@ Réalisateurs: " Sunao Katabuchi"
 Scénariste: "1"
 sous_genres: "1"
 sticker: "1"
+image: Pasted image 20260322133337.png|300
 ---
 # 🎥 **# Black Lagoon**
 > [!infobox]
 > # Black-Lagoon
 > ###### (2006)
->![[Pasted image 20250502152416.png|375]]
+>![[Pasted image 20260322133337.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
