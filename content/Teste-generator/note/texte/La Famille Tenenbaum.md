@@ -1,17 +1,17 @@
 ---
-nom: "La Famille Tenenbaum"
+nom: La Famille Tenenbaum
 qid: Q935105
 categorie: oeuvre
 tags: "#oeuvre"
-pays: "États-Unis"
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Margot_and_Richie_Tenenbaum.jpg/330px-Margot_and_Richie_Tenenbaum.jpg
+pays: États-Unis
+image: Pasted image 20260322131256.png
 ---
 
 # La Famille Tenenbaum
 
 > [!Infobox]
 > **La Famille Tenenbaum**
-> ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Margot_and_Richie_Tenenbaum.jpg/330px-Margot_and_Richie_Tenenbaum.jpg)
+> ![[Pasted image 20260322131256.png|300]]
 > - **Réalisé(e) ou mis(e) en scène par** : Wes Anderson
 > - **Distribution** : Gene Hackman, Anjelica Huston, Gwyneth Paltrow, Ben Stiller, Luke Wilson
 > - **Scénariste** : Wes Anderson, Owen Wilson
