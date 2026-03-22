@@ -6,11 +6,12 @@ canvas:
   - "[[audiovisuel_stripped.canvas]]"
 audiovisuel_overlap_test: []
 audiovisuel_stripped: []
+image: Pasted image 20260322134838.png|300
 ---
 
 # 🎥 Samuel 
 
-![cover|700](https://www.magelis.org/wp-content/uploads/2024/03/AFFICHE_SAMUEL_260224-733x1024-1.jpg)
+![[Pasted image 20260322134838.png|300]]
 
 **Samuel** est une série d'animation française créée par Émilie Tronche et diffusée sur ARTE. Elle raconte l’histoire d’un garçon de 10 ans, Samuel, qui partage ses émotions et ses découvertes à travers les pages de son journal intime. Avec 21 épisodes, la série plonge dans les expériences quotidiennes des enfants de CM2, mêlant amitiés, premières amours, et moments de vie marquants.
 

@@ -1,13 +1,14 @@
 ---
 title: Samurai Champloo
 tags: []
+image: Pasted image 20260322134925.png
 ---
 
 # 🎥 Samurai Champloo
 > [!infobox]
 > # Samurai-Champloo
 > ###### (2004–2005)
-> ![cover|400](https://animeland.fr/wp-content/uploads/2019/05/Samurai-Champloo02.jpg)
+> ![[Pasted image 20260322134925.png]]
 > ###### Key-Facts
 > | | |
 > |---|---|
