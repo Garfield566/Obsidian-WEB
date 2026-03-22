@@ -4,6 +4,7 @@ views:
     filters:
       and:
         - file.inFolder("⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel")
+    order: []
     minimumColumns: two
     id: 1774182047148-l0c7aa-Masonry
   - type: list
@@ -15,3 +16,4 @@ views:
       and:
         - file.inFolder("⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel")
     id: 1774182047148-xur18f-Vue 2
+    cardSize: 320
