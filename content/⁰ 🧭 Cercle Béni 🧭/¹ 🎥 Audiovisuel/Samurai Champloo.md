@@ -1,9 +1,6 @@
 ---
 title: Samurai Champloo
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 
 # 🎥 Samurai Champloo

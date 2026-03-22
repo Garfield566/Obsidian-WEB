@@ -1,9 +1,6 @@
 ---
 title: Dorohedoro
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 
 # 🎥 Dorohedoro

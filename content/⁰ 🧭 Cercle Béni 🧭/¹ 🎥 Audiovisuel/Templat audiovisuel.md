@@ -1,8 +1,3 @@
----
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
----
 > [!infobox]
 > 
 > # Titre du Film/Série

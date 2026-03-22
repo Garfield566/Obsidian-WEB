@@ -1,9 +1,6 @@
 ---
 title: À l'Ouest, rien de nouveau
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 
 # 🎥 À l'Ouest, rien de nouveau

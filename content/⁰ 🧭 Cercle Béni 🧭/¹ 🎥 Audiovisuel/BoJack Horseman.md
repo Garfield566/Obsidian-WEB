@@ -1,9 +1,6 @@
 ---
 title: BoJack Horseman
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 
 # 🎥 BoJack Horseman

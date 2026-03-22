@@ -1,0 +1,368 @@
+{
+	"nodes":[
+		{
+			"type":"group",
+			"id":"a93b83e68fb34281",
+			"x":-455,
+			"y":-1852,
+			"width":910,
+			"height":665,
+			"color":"#cba6f7",
+			"label":"calcul infinitésimal",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"f99715dde54749a9",
+			"x":369,
+			"y":-816,
+			"width":1340,
+			"height":1110,
+			"color":"#89b4fa",
+			"label":"analyse complexe",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"f5a256e480e54caa",
+			"x":-455,
+			"y":1200,
+			"width":910,
+			"height":640,
+			"color":"#a6e3a1",
+			"label":"calcul des variations",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"833cafdd2f004055",
+			"x":-1975,
+			"y":-195,
+			"width":910,
+			"height":390,
+			"color":"#fab387",
+			"label":"équation intégrale",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"d3848e82c29c4a00",
+			"x":1520,
+			"y":1520,
+			"width":1340,
+			"height":1160,
+			"color":"#f38ba8",
+			"label":"analyse non standard",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"group",
+			"id":"90755d4b89cd4108",
+			"x":2180,
+			"y":261,
+			"width":910,
+			"height":690,
+			"color":"#f9e2af",
+			"label":"théorie des systèmes dynamiques",
+			"background":null,
+			"backgroundStyle":null
+		},
+		{
+			"type":"text",
+			"id":"b42a4a4ff5d447aa",
+			"x":-415,
+			"y":-1772,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Historique\n\nArticle détaillé : Histoire du calcul infinitésimal . Le développement du calcul infinitésimal est attribué à Archimède , Madhava de Sangamagrama , Fermat , Leibniz et Newton ."
+		},
+		{
+			"type":"text",
+			"id":"1ae6276a976a4d6e",
+			"x":15,
+			"y":-1772,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Principes\n\nBases Les bases conceptuelles du calcul infinitésimal incluent les notions de fonctions , limites , suites infinies, séries infinies et continuité . Ces outils incluent les techniques de manipulation symbolique associées à l' algèbre élémentaire et l' induction mathématique ."
+		},
+		{
+			"type":"text",
+			"id":"45204727f5f3421f",
+			"x":-415,
+			"y":-1472,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"### Bases\n\nLes bases conceptuelles du calcul infinitésimal incluent les notions de fonctions , limites , suites infinies, séries infinies et continuité . Ces outils incluent les techniques de manipulation symbolique associées à l' algèbre élémentaire et l' induction mathématique ."
+		},
+		{
+			"type":"text",
+			"id":"34838629f7154354",
+			"x":409,
+			"y":-736,
+			"width":400,
+			"height":295,
+			"color":null,
+			"text":"### Dérivée complexe\n\n$$f'(z)=\\lim _{h\\rightarrow 0}{\\frac {f(z+h)-f(z)}{h}}$$\n\nLa définition de la dérivée complexe , est en tout point semblable à celle de la dérivée réelle, si ce n'est que les opérations de corps (ici la soustraction et la division) sont remplacées par celles des complexes."
+		},
+		{
+			"type":"text",
+			"id":"bab88b107f3e4e6d",
+			"x":839,
+			"y":-736,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Intégrale curviligne\n\nTracé en trois dimensions de la valeur absolue de la fonction gamma complexe. Un outil puissant en analyse complexe est l' intégrale curviligne . L'intégrale, sur un chemin fermé, d'une fonction qui est holomorphe partout à l'intérieur du secteur délimité par le chemin fermé, est toujours nulle ;..."
+		},
+		{
+			"type":"text",
+			"id":"31782d2f979e4ba4",
+			"x":1269,
+			"y":-736,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Fonctions entières\n\nUne fonction entière (c'est-à-dire holomorphe dans le plan complexe tout entier) et bornée est nécessairement constante ; c'est l'énoncé du théorème de Liouville ."
+		},
+		{
+			"type":"text",
+			"id":"c75f707929474dfb",
+			"x":409,
+			"y":-411,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Extensions : surfaces de Riemann, analyse complexe à plusieurs variables, géométrie complexe\n\nExtensions : surfaces de Riemann, analyse complexe à plusieurs variables, géométrie complexe La théorie du prolongement analytique amène à des difficultés inattendues pour des fonctions aussi simples que la racine carrée ou le logarithme complexe ."
+		},
+		{"type":"text","id":"a925f08e896a48bc","x":409,"y":9,"width":400,"height":245,"color":"#cba6f7","text":"### Prolongement analytique\n\nUne propriété importante des fonctions holomorphes est que si une fonction est holomorphe sur un domaine U ouvert et connexe , alors ses valeurs sont entièrement déterminées par ses valeurs sur un voisinage d'un point de U."},
+		{
+			"type":"text",
+			"id":"c2ae0d566f3c40b7",
+			"x":839,
+			"y":-411,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Article annexe\n\nVoyages au pays des maths Nombre complexe Nombre dual Nombre complexe déployé .mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0."
+		},
+		{
+			"type":"text",
+			"id":"9babd31575bb4e8e",
+			"x":-415,
+			"y":1280,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"### Historique\n\nSans aller jusqu'au problème de la reine Didon , on peut faire remonter les principes variationnels à Pierre de Fermat (1657) et Christian Huygens (1690) pour l'étude de la propagation de la lumière ( principe de Fermat et principe de Huygens-Fresnel )."
+		},
+		{
+			"type":"text",
+			"id":"0ca9bbf5146a4bd3",
+			"x":15,
+			"y":1280,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"### Problèmes fondamentaux du calcul des variations\n\nProblème à extrémités fixes C'est le problème le plus simple, parfois appelé problème de Lagrange . Soit [ t 0 , t f ] un intervalle de la droite réelle et Ω 1 , Ω 2 des ouverts non vides dans un espace vectoriel normé E qu'on peut supposer de dimension finie."
+		},
+		{
+			"type":"text",
+			"id":"c2e070c713d0470a",
+			"x":-415,
+			"y":1555,
+			"width":400,
+			"height":245,
+			"color":null,
+			"text":"### Problème à extrémités fixes\n\nC'est le problème le plus simple, parfois appelé problème de Lagrange . Soit [ t 0 , t f ] un intervalle de la droite réelle et Ω 1 , Ω 2 des ouverts non vides dans un espace vectoriel normé E qu'on peut supposer de dimension finie."
+		},
+		{
+			"type":"text",
+			"id":"1da5533f5e0c47b5",
+			"x":-1935,
+			"y":-115,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Exemples\n\n$$f(x)=\\int _{a}^{b}K(x,t)\\,\\phi (t)\\,{\\rm {d}}t.$$\n\nÉquation de Fredholm du premier type L'une des équations intégrales les plus simples est l' équation intégrale de Fredholm du premier type : La notation est celle d'Arfken et Weber."
+		},
+		{
+			"type":"text",
+			"id":"e5c3849d725e4674",
+			"x":-1505,
+			"y":-115,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Caractéristiques\n\nSi la fonction connue f est identiquement zéro, l'équation intégrale est alors appelée « équation intégrale homogène ». Si elle est différente de zéro, elle est appelée « équation intégrale non homogène »."
+		},
+		{
+			"type":"text",
+			"id":"61d68fd91c8f420a",
+			"x":1560,
+			"y":1600,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Historique\n\nLa naissance du calcul différentiel et infinitésimal au XVII e siècle mena à l'introduction et à l'utilisation de quantités infiniment petites . Leibniz , Euler et Cauchy en firent grand usage. Cependant, ils ne purent éclairer pleinement la nature même de ces infiniment petits."
+		},
+		{
+			"type":"text",
+			"id":"e87a63b435e942d1",
+			"x":1990,
+			"y":1600,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Intérêt de l'analyse non standard\n\nIl y a deux types d'applications : il a été établi qu'un énoncé classique, possédant une démonstration dans le cadre de l'analyse non standard, était vrai dans le cadre des mathématiques classiques."
+		},
+		{
+			"type":"text",
+			"id":"3bcb44e97815403a",
+			"x":2420,
+			"y":1600,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Les axiomes\n\n$$\\pi ,e,2,\\mathbb {N} ,\\mathbb {R} ,\\mathbb {C}$$\n\nOn se place dans le cadre de la théorie des ensembles de Zermelo-Fraenkel. Les objets ou les ensembles définis par cette théorie seront qualifiés d'internes ou classiques."
+		},
+		{
+			"type":"text",
+			"id":"4a9f3f7af8254701",
+			"x":1560,
+			"y":1900,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Exemple 1 : Il existe un entier supérieur à tous les entiers standard\n\nExemple 1 : Il existe un entier supérieur à tous les entiers standard Nous voulons montrer que : il existe x entier, tel que, pour tout y standard entier, x > y. Soit donc R(x, y) défini par : x est entier et y est entier et x > y."
+		},
+		{"type":"text","id":"d83d274be6084b1c","x":1560,"y":2320,"width":400,"height":320,"color":"#cba6f7","text":"### Exemple 2 : Tout ensemble infini possède un élément non standard\n\n$$x_{F}$$\n\nSoit R(x, y) une relation « classique ». Par relation classique, on entend une relation ne faisant pas intervenir le nouveau prédicat « standard » dans son énoncé. Il s'agit donc d'une relation usuelle de nos mathématiques de tous les jours."},
+		{
+			"type":"text",
+			"id":"75573d2457d24891",
+			"x":1990,
+			"y":1900,
+			"width":400,
+			"height":195,
+			"color":null,
+			"text":"### Exemple 3 : Théorème de Nelson\n\nExemple 3 : Théorème de Nelson Ce théorème énonce que, si E est un ensemble, il existe une partie finie X de E contenant tous les éléments standard de E."
+		},
+		{"type":"text","id":"457387791b844648","x":1990,"y":2245,"width":400,"height":320,"color":"#cba6f7","text":"### Exemple 2 : Tout ensemble infini possède un élément non standard\n\n$$x_{F}$$\n\nSoit R(x, y) une relation « classique ». Par relation classique, on entend une relation ne faisant pas intervenir le nouveau prédicat « standard » dans son énoncé. Il s'agit donc d'une relation usuelle de nos mathématiques de tous les jours."},
+		{
+			"type":"text",
+			"id":"02f6fea2f33f4a7b",
+			"x":2220,
+			"y":341,
+			"width":400,
+			"height":220,
+			"color":null,
+			"text":"### Diversité d'étude\n\nÉquations différentielles L'étude du comportement des équations différentielles est à l'origine des systèmes dynamiques. Les questions qui surgissent sont de plusieurs natures."
+		},
+		{
+			"type":"text",
+			"id":"d9adeb2e3ac34ead",
+			"x":2650,
+			"y":341,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Équations différentielles\n\nL'étude du comportement des équations différentielles est à l'origine des systèmes dynamiques. Les questions qui surgissent sont de plusieurs natures. Elles concernent : le comportement limite des solutions ; la stabilité des solutions par rapport aux conditions initiales ; la stabilité des solut..."
+		},
+		{
+			"type":"text",
+			"id":"617655cf58554c64",
+			"x":2220,
+			"y":641,
+			"width":400,
+			"height":270,
+			"color":null,
+			"text":"### Itération d'applications continues\n\nL'itération consiste à considérer les composées successives $f^{n}$ d'une certaine application continue $f$ . Les puissances sont en général positives, mais peuvent être négatives lorsque l'inverse de $f$ est défini. L'étude porte essentiellement sur ses propriétés limites."
+		}
+	],
+	"edges":[
+		{
+			"id":"db310051321e4213",
+			"fromNode":"c75f707929474dfb",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"a925f08e896a48bc",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"Prolongement analytique"
+		},
+		{
+			"id":"de761bf849cb449a",
+			"fromNode":"4a9f3f7af8254701",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"d83d274be6084b1c",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"Axiome d'idéalisation"
+		},
+		{
+			"id":"3b32901b65e448ae",
+			"fromNode":"75573d2457d24891",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"457387791b844648",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"Axiome d'idéalisation"
+		},
+		{
+			"id":"3d35fed608ae48e3",
+			"fromNode":"a93b83e68fb34281",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"f5a256e480e54caa",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"lié à"
+		},
+		{
+			"id":"d822b889bd334355",
+			"fromNode":"a93b83e68fb34281",
+			"fromSide":"bottom",
+			"fromEnd":null,
+			"toNode":"f99715dde54749a9",
+			"toSide":"top",
+			"toEnd":null,
+			"color":null,
+			"label":"lié à"
+		},
+		{
+			"id":"a8648695df484973",
+			"fromNode":"f99715dde54749a9",
+			"fromSide":"right",
+			"fromEnd":null,
+			"toNode":"90755d4b89cd4108",
+			"toSide":"left",
+			"toEnd":null,
+			"color":null,
+			"label":"lié à"
+		},
+		{
+			"id":"531fa405077245a6",
+			"fromNode":"d3848e82c29c4a00",
+			"fromSide":"top",
+			"fromEnd":null,
+			"toNode":"a93b83e68fb34281",
+			"toSide":"bottom",
+			"toEnd":null,
+			"color":null,
+			"label":"lié à"
+		}
+	]
+}

@@ -1,9 +1,6 @@
 ---
 title: Pulp Fiction
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 
 # 🎥 Pulp Fiction

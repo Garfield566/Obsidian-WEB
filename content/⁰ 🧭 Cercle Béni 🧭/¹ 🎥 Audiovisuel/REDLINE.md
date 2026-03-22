@@ -8,8 +8,6 @@ note-audio: "1"
 note-scénario: "1"
 note-visuel: "1"
 animation.: Madhouse
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
 ---
 
 > [!infobox]

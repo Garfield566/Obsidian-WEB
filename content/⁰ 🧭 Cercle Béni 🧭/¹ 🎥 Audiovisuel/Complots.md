@@ -1,7 +1,3 @@
----
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
----
 #Psychological-Thriller
 
 #Medical-Drama

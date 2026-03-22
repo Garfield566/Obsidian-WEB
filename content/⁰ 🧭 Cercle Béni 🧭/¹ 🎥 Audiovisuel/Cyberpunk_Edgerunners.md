@@ -4,15 +4,12 @@ tags: []
 canvas:
   - "[[audiovisuel_overlap_test.canvas]]"
   - "[[audiovisuel_stripped.canvas]]"
-  - "[[audiovisuel_tag.canvas]]"
-  - "[[audiovisuel_folder.canvas]]"
 audiovisuel_overlap_test:
   - "[[Mononoke]]"
   - "[[Vinland Saga]]"
 audiovisuel_stripped:
   - "[[Mononoke]]"
   - "[[Vinland Saga]]"
-audiovisuel_tag: []
 ---
 
 # 🎥 Cyberpunk: Edgerunners

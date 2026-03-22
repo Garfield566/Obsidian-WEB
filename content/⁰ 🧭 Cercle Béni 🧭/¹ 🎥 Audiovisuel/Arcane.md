@@ -1,8 +1,6 @@
 ---
 title: Arcane
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
 ---
 
 # 🎥 Arcane

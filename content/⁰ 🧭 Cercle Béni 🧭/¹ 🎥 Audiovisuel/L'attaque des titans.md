@@ -1,9 +1,6 @@
 ---
 title: L'attaque des titans
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 
 # 🎥 *L'Attaque des Titans

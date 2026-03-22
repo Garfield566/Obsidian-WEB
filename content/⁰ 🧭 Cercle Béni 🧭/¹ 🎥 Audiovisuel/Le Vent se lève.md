@@ -1,8 +1,6 @@
 ---
 title: Le Vent se lève
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
 ---
 
 # **Le Vent se lève**

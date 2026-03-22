@@ -1,9 +1,6 @@
 ---
 title: Great Pretender
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 
 # 🎥 **Great Pretender**

@@ -1,8 +1,6 @@
 ---
 title: Pluto
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
 ---
 
 # 🎥 Pluto

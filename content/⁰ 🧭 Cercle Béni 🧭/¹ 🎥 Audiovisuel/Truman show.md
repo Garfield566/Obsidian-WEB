@@ -1,9 +1,6 @@
 ---
 title: Truman show
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 
 # 🎥 the Truman show

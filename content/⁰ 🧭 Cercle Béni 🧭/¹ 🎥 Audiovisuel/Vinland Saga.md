@@ -4,11 +4,8 @@ tags: []
 canvas:
   - "[[audiovisuel_overlap_test.canvas]]"
   - "[[audiovisuel_stripped.canvas]]"
-  - "[[audiovisuel_tag.canvas]]"
-  - "[[audiovisuel_folder.canvas]]"
 audiovisuel_overlap_test: []
 audiovisuel_stripped: []
-audiovisuel_tag: []
 ---
 
 # 🎥 Vinland Saga

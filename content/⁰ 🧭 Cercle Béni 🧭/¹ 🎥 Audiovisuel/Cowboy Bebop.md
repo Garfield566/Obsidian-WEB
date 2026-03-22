@@ -1,8 +1,6 @@
 ---
 title: Cowboy Bebop
 tags: []
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
 ---
 
 # 🎥Cowboy Bebop

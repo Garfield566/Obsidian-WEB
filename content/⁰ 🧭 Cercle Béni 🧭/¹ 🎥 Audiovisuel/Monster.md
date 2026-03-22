@@ -12,9 +12,6 @@ Scénariste: "1"
 sous_genres: "1"
 sticker: "1"
 Compositeurs.: Kuniaki Haishima
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 # 🎥 **Monster**
 > [!infobox]

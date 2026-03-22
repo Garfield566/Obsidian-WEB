@@ -5,8 +5,6 @@ Réalisateurs: Luc-Besson
 Scénariste: Luc-Besson
 Compositeurs.: Éric-Serra
 Année de Sortie: 1994
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
 ---
 # 🎥 Léon
 > [!infobox]

@@ -1,9 +1,6 @@
 ---
 dtbe-pluin: bic
 cover: ""
-canvas:
-  - "[[audiovisuel_folder.canvas]]"
-audiovisuel_folder: []
 ---
 # 🎥 **Monster**
 > [!infobox]
