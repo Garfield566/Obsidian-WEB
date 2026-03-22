@@ -1,19 +1,7 @@
 ---
-nom: "espace vectoriel"
-qid: Q125977
-categorie: espace
-tags: "#espace"
-image: https://commons.wikimedia.org/wiki/Special:FilePath/Vector_add_scale.svg
+cssclasses:
+  - math
 ---
-
-# Espace vectoriel
-
-> [!Infobox]
-> **Espace vectoriel**
-> ![image|300](https://commons.wikimedia.org/wiki/Special:FilePath/Vector_add_scale.svg)
-> - **Aspect de** : algèbre linéaire
-
-
 
 ## Structure d'espace vectoriel
 
