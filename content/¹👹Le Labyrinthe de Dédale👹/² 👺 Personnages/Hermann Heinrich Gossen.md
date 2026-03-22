@@ -29,9 +29,6 @@ Hermann Heinrich Gossen (1810-1858), modeste employé, peut être considéré co
 Même si elle ne porte que sur l'analyse d'un bien isolé, la découverte de la notion d'utilité marginale peut lui être attribuée ainsi qu'à des précurseurs comme l'économiste allemand Johann Heinrich von Thünen, ou français comme Jules Dupuit ou Augustin Cournot. 
 Léon Walras, en 1879, traduit le texte en français qui contribue à faire connaître Gossen auprès d'un public plus vaste.
 
-## Biographie
-
-Gossen étudie au lycée royal de Bonn, qui donnera naissance au lycée Beethoven de Bonn (de). Gossen s'inscrit le 18 décembre 1829 à l'université de Bonn, où il étudie pendant trois semestres. Il devient membre du Corps Rhenania Bonn (de).
 
 ## L'Exposition des Lois de l'Échange
 
