@@ -1,12 +1,13 @@
 ---
 dtbe-pluin: bic
 cover: ""
+image: Pasted image 20250502143954.png|300
 ---
 # 🎥 **Monster**
 > [!infobox]
 > # Monster
 > ###### (2004–2005)
-> ![[Pasted image 20250502143954.png]]
+> ![[Pasted image 20250502143954.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|

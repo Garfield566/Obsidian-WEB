@@ -10,6 +10,7 @@ audiovisuel_overlap_test:
 audiovisuel_stripped:
   - "[[Mononoke]]"
   - "[[Vinland Saga]]"
+image: Pasted image 20260322133455.png|300
 ---
 
 # 🎥 Cyberpunk: Edgerunners
