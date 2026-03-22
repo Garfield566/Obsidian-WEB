@@ -1,6 +1,7 @@
 ---
 title: Great Teacher Onizuka
 tags: []
+image: Pasted image 20260322133952.png|300]
 ---
 
 # 🎥 GTO
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # GTO
 > ###### (1999–2000)
-> ![cover|375](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRko3azLvdItH8mGwlHIfl8I9fLUSHXUIFxUw&s)
+> ![[Pasted image 20260322133952.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|

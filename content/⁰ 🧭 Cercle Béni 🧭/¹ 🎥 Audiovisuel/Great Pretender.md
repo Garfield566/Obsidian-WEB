@@ -1,6 +1,7 @@
 ---
 title: Great Pretender
 tags: []
+image: Pasted image 20260322133906.png|300
 ---
 
 # 🎥 **Great Pretender**
