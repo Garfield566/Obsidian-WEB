@@ -8,7 +8,7 @@ tags: []
 > [!infobox]
 > # Great-Pretender
 > ###### (2020–2021)
-> ![cover|375](https://www.shoshosein.com/sites/default/files/fiches/animes/great-pretender/great-pretender-wallpaper-02.jpg)
+> ![[Pasted image 20260322133906.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
