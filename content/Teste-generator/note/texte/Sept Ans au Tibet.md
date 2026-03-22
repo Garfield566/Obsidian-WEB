@@ -11,7 +11,7 @@ image: https://commons.wikimedia.org/wiki/Special:FilePath/SevenYearsInTibet01.j
 
 > [!Infobox]
 > **Sept Ans au Tibet**
-> ![image](https://commons.wikimedia.org/wiki/Special:FilePath/SevenYearsInTibet01.jpg)
+>![[Pasted image 20260322131621.png|300]]
 > - **Réalisé(e) ou mis(e) en scène par** : Jean-Jacques Annaud
 > - **Langue originelle du film ou de l'émission de télévision** : allemand, hindi, anglais
 > - **Scénariste** : Becky Johnston, Jean-Jacques Annaud, Heinrich Harrer
