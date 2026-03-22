@@ -1,6 +1,7 @@
 ---
 title: BoJack Horseman
 tags: []
+image: Pasted image 20260322133221.png|300
 ---
 
 # 🎥 BoJack Horseman
@@ -8,7 +9,7 @@ tags: []
 > [!infobox]
 > # BoJack-Horseman
 > ###### (2014–2020)
-> ![cover|400](https://image.tmdb.org/t/p/original/81BCTObfPk0EvarJpUgnGXHvM9x.jpg)
+> ![[Pasted image 20260322133221.png|300]]
 > ###### Key-Facts
 > | | |
 > |---|---|
