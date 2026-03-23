@@ -1,3 +1,5 @@
+#evenement\seconde-guerre-mondiale
+
 #geo\japon
 
 #personnage\militaire

@@ -3,6 +3,7 @@ nom: "Sept Ans au Tibet"
 qid: Q844883
 categorie: oeuvre
 tags: "#oeuvre"
+  - evenement\seconde-guerre-mondiale
   - personnage\militaire
   - personnage\militaire
 pays: "France, États-Unis, Royaume-Uni"

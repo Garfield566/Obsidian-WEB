@@ -3,6 +3,7 @@ nom: "espace vectoriel"
 qid: Q125977
 categorie: espace
 tags: "#espace"
+  - vecteur
 image: https://commons.wikimedia.org/wiki/Special:FilePath/Vector_add_scale.svg
 ---
 

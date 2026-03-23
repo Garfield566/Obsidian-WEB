@@ -1,3 +1,5 @@
+#evenement\seconde-guerre-mondiale
+
 #XX\1930
 
 #Karl-Polanyi

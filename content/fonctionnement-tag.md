@@ -2,6 +2,8 @@
 canvas:
   - "[[code tag00000.canvas]]"
 code tag00000: []
+tags:
+  - vecteur
 ---
 # Fonctionnement du Systeme de Tags
 

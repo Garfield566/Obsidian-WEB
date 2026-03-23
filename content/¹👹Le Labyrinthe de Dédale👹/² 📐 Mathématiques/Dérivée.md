@@ -2,6 +2,8 @@
 type: éfinition
 domine: Anlye
 moc_lie: Clcul ifférentiel
+tags:
+  - dérivée
 ---
 
 > [!infobox] 📚 Dérivée (Définition)

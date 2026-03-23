@@ -3,6 +3,7 @@ nom: "les thèse de Karl Polanyi"
 qid: Q1167239
 categorie: concept
 tags: "#concept"
+  - evenement\seconde-guerre-mondiale
   - XX\1930
   - personnage\militaire
 auteur: "Karl Polanyi"

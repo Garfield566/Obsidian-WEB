@@ -1,6 +1,8 @@
 ---
 type: Théorème
 domine: Anlye
+tags:
+  - récurrence
 ---
 > [!infobox] Raisonnement par Récurrence (Principe)
 > 

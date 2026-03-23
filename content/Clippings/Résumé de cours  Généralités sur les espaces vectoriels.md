@@ -8,6 +8,7 @@ created: 2026-03-22
 description: "Ressources de mathématiques"
 tags:
   - "clippings"
+  - vecteur
 image:
 ---
 désigne le corps ou .
