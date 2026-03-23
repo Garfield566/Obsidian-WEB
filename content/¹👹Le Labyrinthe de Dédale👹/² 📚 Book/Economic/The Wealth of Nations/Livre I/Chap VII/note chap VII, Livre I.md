@@ -1,3 +1,5 @@
+#économie
+
 #sociologie\socio-économie
 
 #anthropologie
