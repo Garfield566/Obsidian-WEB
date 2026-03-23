@@ -1,15 +1,17 @@
 ---
-nom: "A bord du darjeeling limited"
+nom: A bord du darjeeling limited
 qid: Q658944
 categorie: oeuvre
 tags: "#oeuvre"
-pays: "États-Unis"
+pays: États-Unis
+image: Pasted image 20260323104406.png
 ---
 
 # À bord du Darjeeling Limited
 
 > [!Infobox]
-> **À bord du Darjeeling Limited**
+> #### À bord du Darjeeling Limited
+> ![[Pasted image 20260323104406.png]]
 > - **Réalisé(e) ou mis(e) en scène par** : Wes Anderson
 > - **Distribution** : Owen Wilson, Adrien Brody, Anjelica Huston, Jason Schwartzman, Natalie Portman
 > - **Langue originelle du film ou de l'émission de télévision** : anglais
