@@ -1,3 +1,5 @@
+#personnage\militaire
+
 ---
 url: "https://en.wikipedia.org/wiki/Battle_of_Camar%C3%B3n"
 title: "Battle of Camarón - Wikipedia"

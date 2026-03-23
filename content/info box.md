@@ -1,3 +1,5 @@
+#personnage\scientifique
+
 # Docteur Zoidberg
 
 > [!infobox] # Docteur Zoidberg 

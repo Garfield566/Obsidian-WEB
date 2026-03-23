@@ -3,6 +3,7 @@ nom: Porco Rosso
 qid: Q498375
 categorie: oeuvre
 tags: "#oeuvre"
+  - Hayao-Miyazaki
 pays: Japon
 image: Pasted image 20260322144931.png|300
 ---

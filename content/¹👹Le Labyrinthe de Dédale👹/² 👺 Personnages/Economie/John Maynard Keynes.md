@@ -1,3 +1,7 @@
+#personnage\militaire
+
+#personnage\scientifique
+
 ---
 nom: John Maynard Keynes
 qid: Q9317

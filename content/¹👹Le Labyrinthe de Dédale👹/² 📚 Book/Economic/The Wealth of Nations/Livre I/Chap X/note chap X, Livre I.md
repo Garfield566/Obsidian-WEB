@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Les cinq facteurs qui déterminent les écarts de rémunération entre les professions
 ##### Extrait de "The Wealth of Nations" (p.174-175-176-177-178-179-180-181-182-183-184-185"Chap X, Livre I")
 >

@@ -1,3 +1,7 @@
+#personnage\scientifique
+
+#histoire\économique
+
 
 
 # Histoire / La théorie de la valeur travail de David Ricardo

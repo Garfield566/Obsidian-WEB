@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## L’état progressif de la société comme moteur du bien-être populaire
 ##### Extrait de "The Wealth of Nations" (p.153"Chap VIII, Livre I")
 >

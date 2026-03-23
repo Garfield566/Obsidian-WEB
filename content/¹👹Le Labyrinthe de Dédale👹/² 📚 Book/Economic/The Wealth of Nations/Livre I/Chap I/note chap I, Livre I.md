@@ -2,6 +2,9 @@
 canvas:
   - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
+tags:
+  - anthropologie
+  - sociologie\socio-économie
 ---
 ## La manufacture d'épingles
 ##### Extrait de "The Wealth of Nations" (p.72 "Chap I, livre I")

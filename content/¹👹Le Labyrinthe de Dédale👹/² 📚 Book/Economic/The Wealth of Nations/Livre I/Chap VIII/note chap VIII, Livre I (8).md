@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## La récompense du travail comme moteur de l’industrie et de la diligence ouvrière
 ##### Extrait de "The Wealth of Nations" (p.153"Chap VIII, Livre I")
 >

@@ -1,6 +1,6 @@
 ---
 title: À l'Ouest, rien de nouveau
-tags: []
+tags: [, "personnage\militaire"]
 image: Pasted image 20260322132954.png|300
 ---
 

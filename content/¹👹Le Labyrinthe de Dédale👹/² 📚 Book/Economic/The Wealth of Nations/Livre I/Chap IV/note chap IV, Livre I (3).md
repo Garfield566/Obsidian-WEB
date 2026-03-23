@@ -2,6 +2,9 @@
 canvas:
   - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
+tags:
+  - anthropologie
+  - sociologie\socio-économie
 ---
 ## L'inconvenant de la première utilisation des métaux comme monnaie
 ##### Extrait de "The Wealth of Nations" (p.93-94 "Chap IV, Livre I")

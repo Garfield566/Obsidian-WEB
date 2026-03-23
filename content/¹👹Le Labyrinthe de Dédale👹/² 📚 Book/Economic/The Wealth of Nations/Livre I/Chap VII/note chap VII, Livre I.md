@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Taux naturel et formation des prix dans l'économie politique classique
 ##### Extrait de "The Wealth of Nations" (p.125-126"Chap VII, Livre I")
 >

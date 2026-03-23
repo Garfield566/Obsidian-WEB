@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## La distinction entre le prix réel et le prix nominal
 ##### Extrait de "The Wealth of Nations" (p.102-103"Chap V, Livre I")
 >

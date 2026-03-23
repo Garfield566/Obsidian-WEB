@@ -2,6 +2,9 @@
 canvas:
   - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
+tags:
+  - anthropologie
+  - sociologie\socio-économie
 ---
 ## division T/ penchant naturel des H pour le troc
 ##### Extrait de "The Wealth of Nations" (p.81 "Chap II, Livre I")

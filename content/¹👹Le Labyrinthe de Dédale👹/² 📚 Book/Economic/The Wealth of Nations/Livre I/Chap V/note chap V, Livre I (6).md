@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Les conditions d'une valeur exacte d'échange (argent)
 ##### Extrait de "The Wealth of Nations" (p.107"Chap V, Livre I")
 >

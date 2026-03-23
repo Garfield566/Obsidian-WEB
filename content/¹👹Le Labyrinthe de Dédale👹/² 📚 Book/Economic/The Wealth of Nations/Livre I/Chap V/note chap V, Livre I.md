@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## def: riche / pauvre
 ##### Extrait de "The Wealth of Nations" (p.99 "Chap V, Livre I")
 > DU PRIX RÉEL ET DU PRIX NOMINAL DES MARCHANDISES, OU DE LEUR PRIX EN TRAVAIL ET DE LEUR PRIX EN ARGENT 

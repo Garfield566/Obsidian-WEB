@@ -3,6 +3,7 @@ url: "https://en.wikipedia.org/wiki/Adam_Smith"
 title: "Adam Smith - Wikipedia"
 tags:
   - clippings
+  - personnage\militaire
   - wikipedia
 published: 2001-09-10T16:42:46+02:00
 modified: ""

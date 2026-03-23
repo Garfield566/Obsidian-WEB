@@ -2,964 +2,1257 @@
   "version": "1.0",
   "decisions": [
     {
-      "id": "dec_1770039135107_lluvr4ntf",
-      "timestamp": "2026-02-02T13:32:15.107Z",
-      "type": "tag_deleted",
-      "original_name": "---------------------------------------"
+      "id": "dec_1774266796395_7e1zmxy90",
+      "timestamp": "2026-03-23T11:53:16.395Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_emg_010",
+      "original_name": "anthropologie",
+      "final_name": "anthropologie"
+    },
+    {
+      "id": "dec_1774266813792_7w032pi5k",
+      "timestamp": "2026-03-23T11:53:33.792Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_011",
+      "original_name": "anthropologie\\sciences de gestion",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266831350_j6qudwr18",
+      "timestamp": "2026-03-23T11:53:51.350Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_028",
+      "original_name": "anthropologie\\sociologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266844477_3m9ucupyk",
+      "timestamp": "2026-03-23T11:54:04.477Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_105",
+      "original_name": "anthropologie\\sociologie\\sociologie politique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266844933_p0my41qb7",
+      "timestamp": "2026-03-23T11:54:04.933Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_064",
+      "original_name": "anthropologie\\sociologie\\socio-économie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266845341_fshvctlpf",
+      "timestamp": "2026-03-23T11:54:05.341Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_053",
+      "original_name": "anthropologie\\sciences de l’information\\communication\\journalisme",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266846187_jz8je3ny3",
+      "timestamp": "2026-03-23T11:54:06.187Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_052",
+      "original_name": "anthropologie\\sciences de l’information\\communication",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266846546_ej2ob8jet",
+      "timestamp": "2026-03-23T11:54:06.546Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_043",
+      "original_name": "anthropologie\\sciences de l’information",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266846738_y2ktjn09r",
+      "timestamp": "2026-03-23T11:54:06.738Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_027",
+      "original_name": "anthropologie\\sciences de gestion\\comptabilité",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266847692_3jxuq1ysb",
+      "timestamp": "2026-03-23T11:54:07.692Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_012",
+      "original_name": "anthropologie\\sciences de gestion\\finance",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266860105_hze3fdb5y",
+      "timestamp": "2026-03-23T11:54:20.105Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_026",
+      "original_name": "architecture",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266864249_eflspzvra",
+      "timestamp": "2026-03-23T11:54:24.249Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_037",
+      "original_name": "architecture\\maçonnerie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774266870744_9pfvnrfmv",
+      "timestamp": "2026-03-23T11:54:30.744Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_088",
+      "original_name": "architecture\\marbrerie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039135506_s51xeo78a",
-      "timestamp": "2026-02-02T13:32:15.506Z",
-      "type": "tag_deleted",
-      "original_name": "2-pcs"
+      "id": "dec_1774266872129_ut8dlaapg",
+      "timestamp": "2026-03-23T11:54:32.129Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_089",
+      "original_name": "architecture\\taille de pierre",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039135999_29k9h2cbg",
-      "timestamp": "2026-02-02T13:32:15.999Z",
-      "type": "tag_deleted",
-      "original_name": "optimisation"
+      "id": "dec_1774266873347_cvs09s6xk",
+      "timestamp": "2026-03-23T11:54:33.347Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_090",
+      "original_name": "architecture\\taille de pierre\\marbrerie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039136390_t44kp0vtv",
-      "timestamp": "2026-02-02T13:32:16.390Z",
-      "type": "tag_deleted",
-      "original_name": "parallelisation"
+      "id": "dec_1774266873569_qo9pau3x7",
+      "timestamp": "2026-03-23T11:54:33.569Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_116",
+      "original_name": "architecture\\verrerie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039136768_fvoe6amip",
-      "timestamp": "2026-02-02T13:32:16.768Z",
-      "type": "tag_deleted",
-      "original_name": "reference"
+      "id": "dec_1774266882870_qjvu444u6",
+      "timestamp": "2026-03-23T11:54:42.870Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_004",
+      "original_name": "biologie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039137202_0wgsegxtv",
-      "timestamp": "2026-02-02T13:32:17.202Z",
-      "type": "tag_deleted",
-      "original_name": "Origine_de_la_maison_de_France"
+      "id": "dec_1774266892010_v9vs3xguw",
+      "timestamp": "2026-03-23T11:54:52.010Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_005",
+      "original_name": "biologie\\médecine",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039137757_zj4z9dxro",
-      "timestamp": "2026-02-02T13:32:17.757Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-"
+      "id": "dec_1774266895134_553v14nab",
+      "timestamp": "2026-03-23T11:54:55.134Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_021",
+      "original_name": "biologie\\biologie fonctionnelle",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039138293_zyjm2s0l6",
-      "timestamp": "2026-02-02T13:32:18.293Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-21"
+      "id": "dec_1774266897527_n3h5gsy5f",
+      "timestamp": "2026-03-23T11:54:57.527Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_022",
+      "original_name": "biologie\\biologie animale",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039138811_nq254xs5v",
-      "timestamp": "2026-02-02T13:32:18.811Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-9"
+      "id": "dec_1774266899818_485fiz8ao",
+      "timestamp": "2026-03-23T11:54:59.818Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_023",
+      "original_name": "biologie\\biologie animale\\zoologie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039139351_3102dsf8v",
-      "timestamp": "2026-02-02T13:32:19.351Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-Jean_Favier199913-14"
+      "id": "dec_1774266902295_tf2wddpc3",
+      "timestamp": "2026-03-23T11:55:02.295Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_031",
+      "original_name": "biologie\\biologie fonctionnelle\\anatomie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039139870_l0df8r8hs",
-      "timestamp": "2026-02-02T13:32:19.870Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-Jean_Favier199934-15"
+      "id": "dec_1774266903728_tdfbhs0fr",
+      "timestamp": "2026-03-23T11:55:03.728Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_032",
+      "original_name": "biologie\\mort",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039140337_kwfa20lf8",
-      "timestamp": "2026-02-02T13:32:20.337Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-Jean_Favier199938-16"
+      "id": "dec_1774266904520_umwbb05mw",
+      "timestamp": "2026-03-23T11:55:04.520Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_063",
+      "original_name": "biologie\\biologie fonctionnelle\\physiologie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039140765_sqg01cle2",
-      "timestamp": "2026-02-02T13:32:20.765Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-Jean_Favier199940-46-17"
+      "id": "dec_1774266904982_ertn98h7e",
+      "timestamp": "2026-03-23T11:55:04.982Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_080",
+      "original_name": "biologie\\biologie animale\\zoologie\\ornithologie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039141217_v1kuaszr1",
-      "timestamp": "2026-02-02T13:32:21.217Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-Jean_Favier199991-92"
+      "id": "dec_1774266905402_20fjf9wmf",
+      "timestamp": "2026-03-23T11:55:05.402Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_081",
+      "original_name": "biologie\\reproduction",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039141661_ov7yhtu42",
-      "timestamp": "2026-02-02T13:32:21.661Z",
-      "type": "tag_deleted",
-      "original_name": "cite_note-hi_109-24"
+      "id": "dec_1774266906109_6zm8gq35q",
+      "timestamp": "2026-03-23T11:55:06.109Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_104",
+      "original_name": "biologie\\biologie animale\\zoologie\\médecine vétérinaire",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039142074_3anaxcwpa",
-      "timestamp": "2026-02-02T13:32:22.074Z",
-      "type": "tag_deleted",
-      "original_name": "configuration-complete"
+      "id": "dec_1774266909168_dsy8hayeh",
+      "timestamp": "2026-03-23T11:55:09.168Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_029",
+      "original_name": "chimie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039142569_803ygnyk1",
-      "timestamp": "2026-02-02T13:32:22.569Z",
-      "type": "tag_deleted",
-      "original_name": "--------------------"
+      "id": "dec_1774266916549_l6gjgnh2l",
+      "timestamp": "2026-03-23T11:55:16.549Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_094",
+      "original_name": "christianisme\\catholicisme",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039143027_qjmo6pccq",
-      "timestamp": "2026-02-02T13:32:23.027Z",
-      "type": "tag_deleted",
-      "original_name": "definitions"
+      "id": "dec_1774266917191_10xjz3ygq",
+      "timestamp": "2026-03-23T11:55:17.191Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_119",
+      "original_name": "christianisme",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039143542_jod81wm3s",
-      "timestamp": "2026-02-02T13:32:23.542Z",
-      "type": "tag_deleted",
-      "original_name": "filtres-qualite"
+      "id": "dec_1774266923512_3p1dkp01a",
+      "timestamp": "2026-03-23T11:55:23.512Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_046",
+      "original_name": "cinema",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039143946_eq6qv4kjx",
-      "timestamp": "2026-02-02T13:32:23.946Z",
-      "type": "tag_deleted",
-      "original_name": "------"
+      "id": "dec_1774266924341_t7pfvgw1h",
+      "timestamp": "2026-03-23T11:55:24.341Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_118",
+      "original_name": "cinema\\fantastique",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039144360_8g9kxfvst",
-      "timestamp": "2026-02-02T13:32:24.360Z",
-      "type": "tag_deleted",
-      "original_name": "disque-externe"
+      "id": "dec_1774266932618_ztsxz62om",
+      "timestamp": "2026-03-23T11:55:32.618Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_001",
+      "original_name": "droit",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039144836_zksy4akod",
-      "timestamp": "2026-02-02T13:32:24.836Z",
-      "type": "tag_deleted",
-      "original_name": "f-drive"
+      "id": "dec_1774266933967_ip5jws1nu",
+      "timestamp": "2026-03-23T11:55:33.967Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_025",
+      "original_name": "droit\\justice",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039145302_jabdyjjbx",
-      "timestamp": "2026-02-02T13:32:25.302Z",
-      "type": "tag_deleted",
-      "original_name": "pc2"
+      "id": "dec_1774266934825_1ob9um410",
+      "timestamp": "2026-03-23T11:55:34.825Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_040",
+      "original_name": "droit\\droit privé",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039145740_oss4rardu",
-      "timestamp": "2026-02-02T13:32:25.740Z",
-      "type": "tag_deleted",
-      "original_name": "Division_of_Labor"
+      "id": "dec_1774266935334_tllnaj9pq",
+      "timestamp": "2026-03-23T11:55:35.334Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_062",
+      "original_name": "droit\\illégalité",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039146190_o8krl4k5j",
-      "timestamp": "2026-02-02T13:32:26.190Z",
-      "type": "tag_deleted",
-      "original_name": "Free_Market"
+      "id": "dec_1774266936138_uu6kzkipi",
+      "timestamp": "2026-03-23T11:55:36.138Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_072",
+      "original_name": "droit\\droit féodal",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039146650_ge4xwh4qt",
-      "timestamp": "2026-02-02T13:32:26.650Z",
-      "type": "tag_deleted",
-      "original_name": "Invisible_Hand"
+      "id": "dec_1774266936917_ozd1rn579",
+      "timestamp": "2026-03-23T11:55:36.917Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_073",
+      "original_name": "droit\\justice\\police",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039147100_92i5do28u",
-      "timestamp": "2026-02-02T13:32:27.100Z",
-      "type": "tag_deleted",
-      "original_name": "Laissez_Faire"
+      "id": "dec_1774266937385_n03x8790z",
+      "timestamp": "2026-03-23T11:55:37.385Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_074",
+      "original_name": "droit\\droit public",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039147512_bhjyzf6p9",
-      "timestamp": "2026-02-02T13:32:27.512Z",
-      "type": "tag_deleted",
-      "original_name": "Sting"
+      "id": "dec_1774266937829_45fu1wcox",
+      "timestamp": "2026-03-23T11:55:37.829Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_097",
+      "original_name": "droit\\jurisprudence",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039147935_y53ddmhhw",
-      "timestamp": "2026-02-02T13:32:27.935Z",
-      "type": "tag_deleted",
-      "original_name": "Heist"
+      "id": "dec_1774266938177_5wxvs04qz",
+      "timestamp": "2026-03-23T11:55:38.177Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_098",
+      "original_name": "droit\\droit privé\\droit des affaires",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039148364_dalozh3tv",
-      "timestamp": "2026-02-02T13:32:28.364Z",
-      "type": "tag_deleted",
-      "original_name": "Atias2004"
+      "id": "dec_1774266938501_mzn8wqyoj",
+      "timestamp": "2026-03-23T11:55:38.501Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_099",
+      "original_name": "droit\\droit privé\\droit des affaires\\droit des sociétés",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039148748_y5tkqltdu",
-      "timestamp": "2026-02-02T13:32:28.748Z",
-      "type": "tag_deleted",
-      "original_name": "ChemamaVandermersch2003"
+      "id": "dec_1774266938880_2bua2mwgh",
+      "timestamp": "2026-03-23T11:55:38.880Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_100",
+      "original_name": "droit\\droit privé\\droit social",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039149158_28fs3ue2b",
-      "timestamp": "2026-02-02T13:32:29.158Z",
-      "type": "tag_deleted",
-      "original_name": "Clair"
+      "id": "dec_1774266939113_7qfti8oec",
+      "timestamp": "2026-03-23T11:55:39.113Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_101",
+      "original_name": "droit\\droit privé\\droit social\\droit du travail",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039149573_c4c7qrdas",
-      "timestamp": "2026-02-02T13:32:29.573Z",
-      "type": "tag_deleted",
-      "original_name": "LaplanchePontalis1984"
+      "id": "dec_1774266954452_wopuek72z",
+      "timestamp": "2026-03-23T11:55:54.452Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_038",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md"
+      }
     },
     {
-      "id": "dec_1770039150027_mogbfdjr8",
-      "timestamp": "2026-02-02T13:32:30.027Z",
-      "type": "tag_deleted",
-      "original_name": "Belin_"
+      "id": "dec_1774266987741_01zh8t6ie",
+      "timestamp": "2026-03-23T11:56:27.741Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_014",
+      "original_name": "electronique",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039150464_9wtnimvvt",
-      "timestamp": "2026-02-02T13:32:30.464Z",
-      "type": "tag_deleted",
-      "original_name": "Bruit_ZaidmanSchmitt_Pantel1991"
+      "id": "dec_1774266990237_33hfhsc6n",
+      "timestamp": "2026-03-23T11:56:30.237Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_020",
+      "original_name": "electronique\\mécanique",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039150938_fvcoa34zl",
-      "timestamp": "2026-02-02T13:32:30.938Z",
-      "type": "tag_deleted",
-      "original_name": "Gantz2004"
+      "id": "dec_1774266990632_wqqgl7xg0",
+      "timestamp": "2026-03-23T11:56:30.632Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_045",
+      "original_name": "electronique\\électricité",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039151408_yuaedpge4",
-      "timestamp": "2026-02-02T13:32:31.408Z",
-      "type": "tag_deleted",
-      "original_name": "Sa"
+      "id": "dec_1774266991298_fmkc4qgwi",
+      "timestamp": "2026-03-23T11:56:31.298Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_055",
+      "original_name": "electronique\\électronique",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039151933_qxf29qjp9",
-      "timestamp": "2026-02-02T13:32:31.933Z",
-      "type": "tag_deleted",
-      "original_name": "Cohen"
+      "id": "dec_1774266991700_66v40pdlz",
+      "timestamp": "2026-03-23T11:56:31.700Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_084",
+      "original_name": "electronique\\nucléaire",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039152360_h6imjkyhz",
-      "timestamp": "2026-02-02T13:32:32.360Z",
-      "type": "tag_deleted",
-      "original_name": "HarocheRaimondBrune1997"
+      "id": "dec_1774266992102_6r6jcsjfw",
+      "timestamp": "2026-03-23T11:56:32.102Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_108",
+      "original_name": "electronique\\électricité\\électrotechnique",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039152772_pzhkxeqlk",
-      "timestamp": "2026-02-02T13:32:32.772Z",
-      "type": "tag_deleted",
-      "original_name": "Interpr"
+      "id": "dec_1774266992324_xd9ppvhas",
+      "timestamp": "2026-03-23T11:56:32.324Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_109",
+      "original_name": "electronique\\météorologie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039153167_cm8upedf9",
-      "timestamp": "2026-02-02T13:32:33.167Z",
-      "type": "tag_deleted",
-      "original_name": "Intervalle_de_fluctuation"
+      "id": "dec_1774266992516_uknwh3ll5",
+      "timestamp": "2026-03-23T11:56:32.516Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_110",
+      "original_name": "electronique\\optique",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039153547_ftvx4t11j",
-      "timestamp": "2026-02-02T13:32:33.547Z",
-      "type": "tag_deleted",
-      "original_name": "En_micro"
+      "id": "dec_1774266994397_792ntpgn6",
+      "timestamp": "2026-03-23T11:56:34.397Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_121",
+      "original_name": "genie_civil",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039153927_8si02027a",
-      "timestamp": "2026-02-02T13:32:33.927Z",
-      "type": "tag_deleted",
-      "original_name": "Interm"
+      "id": "dec_1774266996852_v3le6pk8j",
+      "timestamp": "2026-03-23T11:56:36.852Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_017",
+      "original_name": "geographie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039154336_vjazn6uf0",
-      "timestamp": "2026-02-02T13:32:34.336Z",
-      "type": "tag_deleted",
-      "original_name": "Piketty2013"
+      "id": "dec_1774266997950_2it8jilfy",
+      "timestamp": "2026-03-23T11:56:37.950Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_036",
+      "original_name": "geographie\\cartographie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039154813_8m1idiay2",
-      "timestamp": "2026-02-02T13:32:34.813Z",
-      "type": "tag_deleted",
-      "original_name": "view"
+      "id": "dec_1774266998687_sreg2q4sf",
+      "timestamp": "2026-03-23T11:56:38.687Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_058",
+      "original_name": "geographie\\géographie physique",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039155303_fnuuqtjqx",
-      "timestamp": "2026-02-02T13:32:35.303Z",
-      "type": "tag_deleted",
-      "original_name": "Autrand1994"
+      "id": "dec_1774267001518_0o0fgvx03",
+      "timestamp": "2026-03-23T11:56:41.518Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_065",
+      "original_name": "geographie\\toponymie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039155774_67rndxe06",
-      "timestamp": "2026-02-02T13:32:35.774Z",
-      "type": "tag_deleted",
-      "original_name": "BalardGenetRouche2003"
+      "id": "dec_1774267001746_zsk7rpmuc",
+      "timestamp": "2026-03-23T11:56:41.746Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_087",
+      "original_name": "geographie\\union européenne",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039156229_q6f7ylkd7",
-      "timestamp": "2026-02-02T13:32:36.229Z",
-      "type": "tag_deleted",
-      "original_name": "Duby2007"
+      "id": "dec_1774267002562_2fu2kpjrl",
+      "timestamp": "2026-03-23T11:56:42.562Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_115",
+      "original_name": "geographie\\géographie physique\\hydrologie",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039156724_1shs6yrrp",
-      "timestamp": "2026-02-02T13:32:36.724Z",
-      "type": "tag_deleted",
-      "original_name": "Ganshof1982"
+      "id": "dec_1774267009345_y870ygg2k",
+      "timestamp": "2026-03-23T11:56:49.345Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_002",
+      "original_name": "histoire\\art",
+      "reason": "user_rejected"
     },
     {
-      "id": "dec_1770039157326_xgowsxtdt",
-      "timestamp": "2026-02-02T13:32:37.326Z",
-      "type": "tag_deleted",
-      "original_name": "Gimpel1975"
+      "id": "dec_1774267021074_xjks5r9sx",
+      "timestamp": "2026-03-23T11:57:01.074Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_224",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 📚 Book/Economic/The Wealth of Nations/Livre I/Chap I/note into.md"
+      }
     },
-    {
-      "id": "dec_1770039157816_7b4mdxcbs",
-      "timestamp": "2026-02-02T13:32:37.816Z",
-      "type": "tag_deleted",
-      "original_name": "Le_Goff2006"
-    },
-    {
-      "id": "dec_1770039158323_kphyks6sp",
-      "timestamp": "2026-02-02T13:32:38.323Z",
-      "type": "tag_deleted",
-      "original_name": "Theis1990"
-    },
-    {
-      "id": "dec_1770039158761_t55fv00jv",
-      "timestamp": "2026-02-02T13:32:38.761Z",
-      "type": "tag_deleted",
-      "original_name": "Histoire_"
-    },
-    {
-      "id": "dec_1770039159319_4qmlb505q",
-      "timestamp": "2026-02-02T13:32:39.319Z",
-      "type": "tag_deleted",
-      "original_name": "10"
-    },
-    {
-      "id": "dec_1770039159799_nrcbj6wam",
-      "timestamp": "2026-02-02T13:32:39.799Z",
-      "type": "tag_deleted",
-      "original_name": "Aire"
-    },
-    {
-      "id": "dec_1770039160158_79bwc8x5f",
-      "timestamp": "2026-02-02T13:32:40.158Z",
-      "type": "tag_deleted",
-      "original_name": "Baruk1992"
-    },
-    {
-      "id": "dec_1770039160549_eufsldy4q",
-      "timestamp": "2026-02-02T13:32:40.549Z",
-      "type": "tag_deleted",
-      "original_name": "Bkouche2017"
-    },
-    {
-      "id": "dec_1770039160936_5zud6xmx6",
-      "timestamp": "2026-02-02T13:32:40.936Z",
-      "type": "tag_deleted",
-      "original_name": "Chemla_et_Shuchun_2005"
-    },
-    {
-      "id": "dec_1770039161466_lvw4njl7y",
-      "timestamp": "2026-02-02T13:32:41.466Z",
-      "type": "tag_deleted",
-      "original_name": "Cousquer"
-    },
-    {
-      "id": "dec_1770039161948_oli3l7ymr",
-      "timestamp": "2026-02-02T13:32:41.948Z",
-      "type": "tag_deleted",
-      "original_name": "Distance_euclidienne"
-    },
-    {
-      "id": "dec_1770039162375_np3zc7oxm",
-      "timestamp": "2026-02-02T13:32:42.375Z",
-      "type": "tag_deleted",
-      "original_name": "Dupliquer_un_carr"
-    },
-    {
-      "id": "dec_1770039162929_xd8vh9vrx",
-      "timestamp": "2026-02-02T13:32:42.929Z",
-      "type": "tag_deleted",
-      "original_name": "H"
-    },
-    {
-      "id": "dec_1770039163419_4y5m1roc8",
-      "timestamp": "2026-02-02T13:32:43.419Z",
-      "type": "tag_deleted",
-      "original_name": "Maor2007"
-    },
-    {
-      "id": "dec_1770039163992_nitb0tz0h",
-      "timestamp": "2026-02-02T13:32:43.992Z",
-      "type": "tag_deleted",
-      "original_name": "Martzloff1990"
-    },
-    {
-      "id": "dec_1770039164419_1gt23mlk8",
-      "timestamp": "2026-02-02T13:32:44.419Z",
-      "type": "tag_deleted",
-      "original_name": "Martzloff2006"
-    },
-    {
-      "id": "dec_1770039164835_otrmguu7r",
-      "timestamp": "2026-02-02T13:32:44.835Z",
-      "type": "tag_deleted",
-      "original_name": "Melville2004"
-    },
-    {
-      "id": "dec_1770039165277_rplliq1ii",
-      "timestamp": "2026-02-02T13:32:45.277Z",
-      "type": "tag_deleted",
-      "original_name": "PWW"
-    },
-    {
-      "id": "dec_1770039165690_lpyv7o4rb",
-      "timestamp": "2026-02-02T13:32:45.690Z",
-      "type": "tag_deleted",
-      "original_name": "Par_des_triangles_semblables"
-    },
-    {
-      "id": "dec_1770039166109_zwrj727b0",
-      "timestamp": "2026-02-02T13:32:46.109Z",
-      "type": "tag_deleted",
-      "original_name": "Par_le_puzzle_de_Gougu"
-    },
-    {
-      "id": "dec_1770039166543_mm824myma",
-      "timestamp": "2026-02-02T13:32:46.543Z",
-      "type": "tag_deleted",
-      "original_name": "Proust2015"
-    },
-    {
-      "id": "dec_1770039167157_hb2x04y3c",
-      "timestamp": "2026-02-02T13:32:47.157Z",
-      "type": "tag_deleted",
-      "original_name": "Robson2002"
-    },
-    {
-      "id": "dec_1770039167778_5pafv9cns",
-      "timestamp": "2026-02-02T13:32:47.778Z",
-      "type": "tag_deleted",
-      "original_name": "Rossi2007"
-    },
-    {
-      "id": "dec_1770039168233_8ueehzy8u",
-      "timestamp": "2026-02-02T13:32:48.233Z",
-      "type": "tag_deleted",
-      "original_name": "Triplets_pythagoriciens"
-    },
-    {
-      "id": "dec_1770039168658_f2tqynjbn",
-      "timestamp": "2026-02-02T13:32:48.658Z",
-      "type": "tag_deleted",
-      "original_name": "Vitrac1990"
-    },
-    {
-      "id": "dec_1770039169101_y6mkrtqdb",
-      "timestamp": "2026-02-02T13:32:49.101Z",
-      "type": "tag_deleted",
-      "original_name": "Vitrac1994"
-    },
-    {
-      "id": "dec_1770039169534_tbu77fj9e",
-      "timestamp": "2026-02-02T13:32:49.534Z",
-      "type": "tag_deleted",
-      "original_name": "d1e136"
-    },
-    {
-      "id": "dec_1770039169976_33qrzbagm",
-      "timestamp": "2026-02-02T13:32:49.976Z",
-      "type": "tag_deleted",
-      "original_name": "Bazin1994"
-    },
-    {
-      "id": "dec_1770039170417_ys8z352bu",
-      "timestamp": "2026-02-02T13:32:50.417Z",
-      "type": "tag_deleted",
-      "original_name": "BriselanceMorin2010"
-    },
-    {
-      "id": "dec_1770039170852_qh14cfknx",
-      "timestamp": "2026-02-02T13:32:50.852Z",
-      "type": "tag_deleted",
-      "original_name": "EisensteinMarina_Berger"
-    },
-    {
-      "id": "dec_1770039171274_wit551ohc",
-      "timestamp": "2026-02-02T13:32:51.274Z",
-      "type": "tag_deleted",
-      "original_name": "HitchcockTruffaut1985"
-    },
-    {
-      "id": "dec_1770039171774_bijsrnba7",
-      "timestamp": "2026-02-02T13:32:51.774Z",
-      "type": "tag_deleted",
-      "original_name": "J"
-    },
-    {
-      "id": "dec_1770039172225_3kfb9dkhc",
-      "timestamp": "2026-02-02T13:32:52.225Z",
-      "type": "tag_deleted",
-      "original_name": "Le_montage_non_lin"
-    },
-    {
-      "id": "dec_1770039172781_8668398uz",
-      "timestamp": "2026-02-02T13:32:52.781Z",
-      "type": "tag_deleted",
-      "original_name": "Sadoul1968"
-    },
-    {
-      "id": "dec_1770039173378_wtcwds90v",
-      "timestamp": "2026-02-02T13:32:53.378Z",
-      "type": "tag_deleted",
-      "original_name": "Vertov1923"
-    },
-    {
-      "id": "dec_1770039173876_2di2j7du0",
-      "timestamp": "2026-02-02T13:32:53.876Z",
-      "type": "tag_deleted",
-      "original_name": "ANR1"
-    },
-    {
-      "id": "dec_1770039174367_wwyrww9dn",
-      "timestamp": "2026-02-02T13:32:54.367Z",
-      "type": "tag_deleted",
-      "original_name": "ANR2"
-    },
-    {
-      "id": "dec_1770039174809_tz960iur1",
-      "timestamp": "2026-02-02T13:32:54.809Z",
-      "type": "tag_deleted",
-      "original_name": "Depeyrot2006"
-    },
-    {
-      "id": "dec_1770039175237_wkvr7cq5a",
-      "timestamp": "2026-02-02T13:32:55.237Z",
-      "type": "tag_deleted",
-      "original_name": "Marchetti1993"
-    },
-    {
-      "id": "dec_1770039175670_3qsh24l9h",
-      "timestamp": "2026-02-02T13:32:55.670Z",
-      "type": "tag_deleted",
-      "original_name": "Mesures_de_masse"
-    },
-    {
-      "id": "dec_1770039176111_j3881c5ko",
-      "timestamp": "2026-02-02T13:32:56.111Z",
-      "type": "tag_deleted",
-      "original_name": "Ar"
-    },
-    {
-      "id": "dec_1770039176481_h23imenv8",
-      "timestamp": "2026-02-02T13:32:56.481Z",
-      "type": "tag_deleted",
-      "original_name": "Gris_de_gris"
-    },
-    {
-      "id": "dec_1770039176832_oszi5xhxx",
-      "timestamp": "2026-02-02T13:32:56.832Z",
-      "type": "tag_deleted",
-      "original_name": "La_saign"
-    },
-    {
-      "id": "dec_1770039177237_441gk6ru3",
-      "timestamp": "2026-02-02T13:32:57.237Z",
-      "type": "tag_deleted",
-      "original_name": "Le_pressurage_direct"
-    },
-    {
-      "id": "dec_1770039177705_bq43tbvhi",
-      "timestamp": "2026-02-02T13:32:57.705Z",
-      "type": "tag_deleted",
-      "original_name": "Techniques_d"
-    },
-    {
-      "id": "dec_1770039178171_osk52t40l",
-      "timestamp": "2026-02-02T13:32:58.171Z",
-      "type": "tag_deleted",
-      "original_name": "Viniculture"
-    },
-    {
-      "id": "dec_1770039178544_jymqbwf9c",
-      "timestamp": "2026-02-02T13:32:58.544Z",
-      "type": "tag_deleted",
-      "original_name": "Vinification"
-    },
-    {
-      "id": "dec_1770039178912_b1yreo6pp",
-      "timestamp": "2026-02-02T13:32:58.912Z",
-      "type": "tag_deleted",
-      "original_name": "Alexis_Philonenko2003"
-    },
-    {
-      "id": "dec_1770039179312_dd5v1uukf",
-      "timestamp": "2026-02-02T13:32:59.312Z",
-      "type": "tag_deleted",
-      "original_name": "Barreau2013"
-    },
-    {
-      "id": "dec_1770039179681_c6tr3mknw",
-      "timestamp": "2026-02-02T13:32:59.681Z",
-      "type": "tag_deleted",
-      "original_name": "Chevalley2019"
-    },
-    {
-      "id": "dec_1770039180065_ke1np1qap",
-      "timestamp": "2026-02-02T13:33:00.065Z",
-      "type": "tag_deleted",
-      "original_name": "Dawes2023"
-    },
-    {
-      "id": "dec_1770039180497_scsxjt0b8",
-      "timestamp": "2026-02-02T13:33:00.497Z",
-      "type": "tag_deleted",
-      "original_name": "Doctrine_de_la_science"
-    },
-    {
-      "id": "dec_1770039180888_qx3xydda4",
-      "timestamp": "2026-02-02T13:33:00.888Z",
-      "type": "tag_deleted",
-      "original_name": "Ferrier1854"
-    },
-    {
-      "id": "dec_1770039181359_ebzgg0dzr",
-      "timestamp": "2026-02-02T13:33:01.359Z",
-      "type": "tag_deleted",
-      "original_name": "Godin2004"
-    },
-    {
-      "id": "dec_1770039181736_yioy47s0c",
-      "timestamp": "2026-02-02T13:33:01.736Z",
-      "type": "tag_deleted",
-      "original_name": "Le_Moigne1995"
-    },
-    {
-      "id": "dec_1770039182102_dpe7sqm51",
-      "timestamp": "2026-02-02T13:33:02.102Z",
-      "type": "tag_deleted",
-      "original_name": "Lecourt2018"
-    },
-    {
-      "id": "dec_1770039182494_jnj2n33ap",
-      "timestamp": "2026-02-02T13:33:02.494Z",
-      "type": "tag_deleted",
-      "original_name": "LecourtBourgeois2006"
-    },
-    {
-      "id": "dec_1770039182894_x1ec6dzny",
-      "timestamp": "2026-02-02T13:33:02.894Z",
-      "type": "tag_deleted",
-      "original_name": "Mach1904"
-    },
-    {
-      "id": "dec_1770039183293_7rxsgmhn7",
-      "timestamp": "2026-02-02T13:33:03.293Z",
-      "type": "tag_deleted",
-      "original_name": "Nadeau2016"
-    },
-    {
-      "id": "dec_1770039183708_pwqqp1zhb",
-      "timestamp": "2026-02-02T13:33:03.708Z",
-      "type": "tag_deleted",
-      "original_name": "PPA11"
-    },
-    {
-      "id": "dec_1770039184154_tas5a1ihq",
-      "timestamp": "2026-02-02T13:33:04.154Z",
-      "type": "tag_deleted",
-      "original_name": "Philosophie_de_la_Nature"
-    },
-    {
-      "id": "dec_1770039184562_dikg8j5jz",
-      "timestamp": "2026-02-02T13:33:04.562Z",
-      "type": "tag_deleted",
-      "original_name": "Philosophie_et_sciences_de_la_nature"
-    },
-    {
-      "id": "dec_1770039184985_gnibvh7ko",
-      "timestamp": "2026-02-02T13:33:04.985Z",
-      "type": "tag_deleted",
-      "original_name": "Renault2001"
-    },
-    {
-      "id": "dec_1770039185361_45aatof7x",
-      "timestamp": "2026-02-02T13:33:05.361Z",
-      "type": "tag_deleted",
-      "original_name": "Rey1992"
-    },
-    {
-      "id": "dec_1770039185767_30j4cay8h",
-      "timestamp": "2026-02-02T13:33:05.767Z",
-      "type": "tag_deleted",
-      "original_name": "ReyRey-Debove2007"
-    },
-    {
-      "id": "dec_1770039186136_g59eqpxzx",
-      "timestamp": "2026-02-02T13:33:06.136Z",
-      "type": "tag_deleted",
-      "original_name": "Schmid1983"
-    },
-    {
-      "id": "dec_1770039186496_zfhs5blhx",
-      "timestamp": "2026-02-02T13:33:06.496Z",
-      "type": "tag_deleted",
-      "original_name": "Schmid2019"
-    },
-    {
-      "id": "dec_1770039186976_r6jz1d5ja",
-      "timestamp": "2026-02-02T13:33:06.976Z",
-      "type": "tag_deleted",
-      "original_name": "Soler2000"
-    },
-    {
-      "id": "dec_1770039187379_7eyv1nxgb",
-      "timestamp": "2026-02-02T13:33:07.379Z",
-      "type": "tag_deleted",
-      "original_name": "Soler2019"
-    },
-    {
-      "id": "dec_1770039187747_ko3gjosg6",
-      "timestamp": "2026-02-02T13:33:07.747Z",
-      "type": "tag_deleted",
-      "original_name": "Trinquecoste2022"
-    },
-    {
-      "id": "dec_1770039188135_taz4kw3db",
-      "timestamp": "2026-02-02T13:33:08.135Z",
-      "type": "tag_deleted",
-      "original_name": "Wagner2002"
-    },
-    {
-      "id": "dec_1770039188530_w4rqm4p1e",
-      "timestamp": "2026-02-02T13:33:08.530Z",
-      "type": "tag_deleted",
-      "original_name": "i_0"
-    },
-    {
-      "id": "dec_1770039188933_wl2xhpaf3",
-      "timestamp": "2026-02-02T13:33:08.933Z",
-      "type": "tag_deleted",
-      "original_name": "i_34482"
-    },
-    {
-      "id": "dec_1770039189325_o9vfav7ay",
-      "timestamp": "2026-02-02T13:33:09.325Z",
-      "type": "tag_deleted",
-      "original_name": "s2"
-    },
-    {
-      "id": "dec_1770039189746_g44ifi8w2",
-      "timestamp": "2026-02-02T13:33:09.746Z",
-      "type": "tag_deleted",
-      "original_name": "Amic2020"
-    },
-    {
-      "id": "dec_1770039190192_dm5t8co5j",
-      "timestamp": "2026-02-02T13:33:10.192Z",
-      "type": "tag_deleted",
-      "original_name": "Breuille1992"
-    },
-    {
-      "id": "dec_1770039190606_9fuktx4k6",
-      "timestamp": "2026-02-02T13:33:10.606Z",
-      "type": "tag_deleted",
-      "original_name": "Duranty1876"
-    },
-    {
-      "id": "dec_1770039191104_ozkv74drr",
-      "timestamp": "2026-02-02T13:33:11.104Z",
-      "type": "tag_deleted",
-      "original_name": "Ferretti-Bocquillon2018"
-    },
-    {
-      "id": "dec_1770039191500_yfdcyu911",
-      "timestamp": "2026-02-02T13:33:11.500Z",
-      "type": "tag_deleted",
-      "original_name": "Gunnarsson1998"
-    },
-    {
-      "id": "dec_1770039191918_ris7k86ug",
-      "timestamp": "2026-02-02T13:33:11.918Z",
-      "type": "tag_deleted",
-      "original_name": "Joyeux-Prunel2015"
-    },
-    {
-      "id": "dec_1770039192334_khrfxs94h",
-      "timestamp": "2026-02-02T13:33:12.334Z",
-      "type": "tag_deleted",
-      "original_name": "Laurent1984"
-    },
-    {
-      "id": "dec_1770039192749_mhcg05n9b",
-      "timestamp": "2026-02-02T13:33:12.749Z",
-      "type": "tag_deleted",
-      "original_name": "Lista2005"
-    },
-    {
-      "id": "dec_1770039193203_702vx7l2q",
-      "timestamp": "2026-02-02T13:33:13.203Z",
-      "type": "tag_deleted",
-      "original_name": "Loyrette1994"
-    },
-    {
-      "id": "dec_1770039193625_kji9elq3v",
-      "timestamp": "2026-02-02T13:33:13.625Z",
-      "type": "tag_deleted",
-      "original_name": "Moffett1983"
-    },
-    {
-      "id": "dec_1770039194045_eqth9s1ci",
-      "timestamp": "2026-02-02T13:33:14.045Z",
-      "type": "tag_deleted",
-      "original_name": "Nocq1894"
-    },
-    {
-      "id": "dec_1770039194497_lj3f98fwx",
-      "timestamp": "2026-02-02T13:33:14.497Z",
-      "type": "tag_deleted",
-      "original_name": "Patry2014"
-    },
-    {
-      "id": "dec_1770039194949_4v7u334wp",
-      "timestamp": "2026-02-02T13:33:14.949Z",
-      "type": "tag_deleted",
-      "original_name": "Wildenstein1996"
-    },
-    {
-      "id": "dec_1770039195368_qo8lm2tfz",
-      "timestamp": "2026-02-02T13:33:15.368Z",
-      "type": "tag_deleted",
-      "original_name": "search"
-    },
-    {
-      "id": "dec_1770039195795_8iqv3vcgo",
-      "timestamp": "2026-02-02T13:33:15.795Z",
-      "type": "tag_deleted",
-      "original_name": "Badem2010"
-    },
-    {
-      "id": "dec_1770039196211_j4vp5vqxz",
-      "timestamp": "2026-02-02T13:33:16.211Z",
-      "type": "tag_deleted",
-      "original_name": "Cooke1990"
-    },
-    {
-      "id": "dec_1770039196732_5z7hp6870",
-      "timestamp": "2026-02-02T13:33:16.732Z",
-      "type": "tag_deleted",
-      "original_name": "Curtiss1980"
-    },
-    {
-      "id": "dec_1770039197272_0xc397w5i",
-      "timestamp": "2026-02-02T13:33:17.272Z",
-      "type": "tag_deleted",
-      "original_name": "Edgerton1999"
-    },
-    {
-      "id": "dec_1770039197749_u3upakto2",
-      "timestamp": "2026-02-02T13:33:17.749Z",
-      "type": "tag_deleted",
-      "original_name": "Figes2012"
-    },
-    {
-      "id": "dec_1770039198283_ko0s7jqs7",
-      "timestamp": "2026-02-02T13:33:18.283Z",
-      "type": "tag_deleted",
-      "original_name": "FletcherIshchenko2004"
-    },
-    {
-      "id": "dec_1770039198743_ogvwllm0m",
-      "timestamp": "2026-02-02T13:33:18.743Z",
-      "type": "tag_deleted",
-      "original_name": "Gooch1959"
-    },
-    {
-      "id": "dec_1770039199177_uvqh8i3aw",
-      "timestamp": "2026-02-02T13:33:19.177Z",
-      "type": "tag_deleted",
-      "original_name": "Gouttman1995"
-    },
-    {
-      "id": "dec_1770039199651_2ea3734ch",
-      "timestamp": "2026-02-02T13:33:19.651Z",
-      "type": "tag_deleted",
-      "original_name": "Guillemin1981"
-    },
-    {
-      "id": "dec_1770039200090_trfcyczc6",
-      "timestamp": "2026-02-02T13:33:20.090Z",
-      "type": "tag_deleted",
-      "original_name": "Hanio"
-    },
-    {
-      "id": "dec_1770039200505_ltifob4wf",
-      "timestamp": "2026-02-02T13:33:20.505Z",
-      "type": "tag_deleted",
-      "original_name": "Harris1999"
-    },
-    {
-      "id": "dec_1770039200952_wxvjct4fi",
-      "timestamp": "2026-02-02T13:33:20.952Z",
-      "type": "tag_deleted",
-      "original_name": "Lambert2011"
-    },
-    {
-      "id": "dec_1770039201390_bg30do2gt",
-      "timestamp": "2026-02-02T13:33:21.390Z",
-      "type": "tag_deleted",
-      "original_name": "Monnier1977"
-    },
-    {
-      "id": "dec_1770039201790_ck7szt7dc",
-      "timestamp": "2026-02-02T13:33:21.790Z",
-      "type": "tag_deleted",
-      "original_name": "Radzinsky2006"
-    },
-    {
-      "id": "dec_1770039202184_iary9d36t",
-      "timestamp": "2026-02-02T13:33:22.184Z",
-      "type": "tag_deleted",
-      "original_name": "Russell1877"
-    },
-    {
-      "id": "dec_1770039202615_q2k1zpvjb",
-      "timestamp": "2026-02-02T13:33:22.615Z",
-      "type": "tag_deleted",
-      "original_name": "SeatonRoffe1973"
-    },
-    {
-      "id": "dec_1770039203060_uioijsqep",
-      "timestamp": "2026-02-02T13:33:23.060Z",
-      "type": "tag_deleted",
-      "original_name": "Sweetman2001"
-    },
-    {
-      "id": "dec_1770039203541_z251fbhqd",
-      "timestamp": "2026-02-02T13:33:23.541Z",
-      "type": "tag_deleted",
-      "original_name": "ThomasScollins1991"
-    },
-    {
-      "id": "dec_1770039204008_dmmwml7rf",
-      "timestamp": "2026-02-02T13:33:24.008Z",
-      "type": "tag_deleted",
-      "original_name": "Distinction_entre_rimes_f"
-    },
-    {
-      "id": "dec_1770039204493_3prb7zgew",
-      "timestamp": "2026-02-02T13:33:24.493Z",
-      "type": "tag_deleted",
-      "original_name": "Rimes_crois"
-    },
-    {
-      "id": "dec_1770039204884_bh5kyclg1",
-      "timestamp": "2026-02-02T13:33:24.884Z",
-      "type": "tag_deleted",
-      "original_name": "Rimes_embrass"
-    },
-    {
-      "id": "dec_1770039205257_j3op64093",
-      "timestamp": "2026-02-02T13:33:25.257Z",
-      "type": "tag_deleted",
-      "original_name": "Wyczynski_1960"
-    },
-    {
-      "id": "dec_1770039205646_b2i60wibn",
-      "timestamp": "2026-02-02T13:33:25.646Z",
-      "type": "tag_deleted",
-      "original_name": "La_variante_Winawer"
+    {
+      "id": "dec_1774267021691_xxcva00n6",
+      "timestamp": "2026-03-23T11:57:01.691Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_224",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/PDF théorie de la valeur (Ricardo)/histoire-pensee-economique.md"
+      }
+    },
+    {
+      "id": "dec_1774267022799_b4z76ma3d",
+      "timestamp": "2026-03-23T11:57:02.799Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_ent_224",
+      "original_name": "histoire\\économique",
+      "final_name": "histoire\\économique"
+    },
+    {
+      "id": "dec_1774267028880_spsasxp71",
+      "timestamp": "2026-03-23T11:57:08.880Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_ent_068",
+      "original_name": "histoire\\ancienne",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267032964_ygew1fubh",
+      "timestamp": "2026-03-23T11:57:12.964Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_122",
+      "original_name": "informatique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267036235_um8jqwdsz",
+      "timestamp": "2026-03-23T11:57:16.235Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_006",
+      "original_name": "islam",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267037049_ah2cnazvb",
+      "timestamp": "2026-03-23T11:57:17.049Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_035",
+      "original_name": "islam\\théologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267041436_44yxv6buc",
+      "timestamp": "2026-03-23T11:57:21.436Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_039",
+      "original_name": "islam\\christianisme",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267042177_sgw08d7j0",
+      "timestamp": "2026-03-23T11:57:22.177Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_049",
+      "original_name": "islam\\liturgie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267042609_umj80lrp7",
+      "timestamp": "2026-03-23T11:57:22.609Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_082",
+      "original_name": "islam\\christianisme\\catholicisme",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267046736_sqctx8bpr",
+      "timestamp": "2026-03-23T11:57:26.736Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_047",
+      "original_name": "jeux\\echecs",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267047083_satelt7az",
+      "timestamp": "2026-03-23T11:57:27.083Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_061",
+      "original_name": "jeux",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267051372_63b5lvgdo",
+      "timestamp": "2026-03-23T11:57:31.372Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_008",
+      "original_name": "linguistique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267051761_3xpjxpdrn",
+      "timestamp": "2026-03-23T11:57:31.761Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_009",
+      "original_name": "linguistique\\grammaire",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267052493_i42wpau0e",
+      "timestamp": "2026-03-23T11:57:32.493Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_041",
+      "original_name": "linguistique\\lexicologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267053645_5eq1dp161",
+      "timestamp": "2026-03-23T11:57:33.645Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_042",
+      "original_name": "linguistique\\lexicologie\\onomastique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267053831_diykyj7eo",
+      "timestamp": "2026-03-23T11:57:33.831Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_050",
+      "original_name": "linguistique\\lexicologie\\onomastique\\toponymie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267054017_9joernu3r",
+      "timestamp": "2026-03-23T11:57:34.017Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_051",
+      "original_name": "linguistique\\rhétorique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267057202_77h2w6sct",
+      "timestamp": "2026-03-23T11:57:37.202Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_015",
+      "original_name": "litterature",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267057627_6zxii7drj",
+      "timestamp": "2026-03-23T11:57:37.627Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_016",
+      "original_name": "litterature\\livre",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267057807_kka2sug50",
+      "timestamp": "2026-03-23T11:57:37.807Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_024",
+      "original_name": "litterature\\livre\\typographie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267058485_jr8noe3k3",
+      "timestamp": "2026-03-23T11:57:38.485Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_056",
+      "original_name": "litterature\\poésie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267058677_ikdhi3gi3",
+      "timestamp": "2026-03-23T11:57:38.677Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_057",
+      "original_name": "litterature\\rhétorique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267059091_8lyt4n99e",
+      "timestamp": "2026-03-23T11:57:39.091Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_085",
+      "original_name": "litterature\\livre\\reliure",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267059283_m3e9a4gmr",
+      "timestamp": "2026-03-23T11:57:39.283Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_086",
+      "original_name": "litterature\\poésie\\versification",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267059691_1aqk1spms",
+      "timestamp": "2026-03-23T11:57:39.691Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_111",
+      "original_name": "litterature\\fantastique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267059859_sdzncfumw",
+      "timestamp": "2026-03-23T11:57:39.859Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_112",
+      "original_name": "litterature\\livre\\calligraphie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267060236_8k9l75c6x",
+      "timestamp": "2026-03-23T11:57:40.236Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_113",
+      "original_name": "litterature\\livre\\papeterie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267060422_ttbpc342n",
+      "timestamp": "2026-03-23T11:57:40.422Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_114",
+      "original_name": "litterature\\science-fiction",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267069269_mk1ffrsr5",
+      "timestamp": "2026-03-23T11:57:49.269Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_003",
+      "original_name": "mathematiques",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267071746_0y5573soq",
+      "timestamp": "2026-03-23T11:57:51.746Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_033",
+      "original_name": "mathematiques\\géométrie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267072754_7wxnmd7m3",
+      "timestamp": "2026-03-23T11:57:52.754Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_048",
+      "original_name": "mathematiques\\algèbre",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267072952_6l8usv66x",
+      "timestamp": "2026-03-23T11:57:52.952Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_075",
+      "original_name": "mathematiques\\arithmétique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267073192_fk9hnaqs4",
+      "timestamp": "2026-03-23T11:57:53.192Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_076",
+      "original_name": "mathematiques\\cryptologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267073349_kdym0jowi",
+      "timestamp": "2026-03-23T11:57:53.349Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_077",
+      "original_name": "mathematiques\\cryptologie\\cryptographie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267073636_myu1ohp19",
+      "timestamp": "2026-03-23T11:57:53.636Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_078",
+      "original_name": "mathematiques\\statistiques",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267073924_tm7wp6kty",
+      "timestamp": "2026-03-23T11:57:53.924Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_079",
+      "original_name": "mathematiques\\topologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267074104_xvifp2iyz",
+      "timestamp": "2026-03-23T11:57:54.104Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_102",
+      "original_name": "mathematiques\\algèbre\\algèbre linéaire",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267074691_ou0ab7s9g",
+      "timestamp": "2026-03-23T11:57:54.691Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_103",
+      "original_name": "mathematiques\\analyse",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267081487_h3ou7swqb",
+      "timestamp": "2026-03-23T11:58:01.487Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_030",
+      "original_name": "mecanique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267083460_g9htzbd3t",
+      "timestamp": "2026-03-23T11:58:03.460Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_007",
+      "original_name": "musique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267089992_z3y9qt7qb",
+      "timestamp": "2026-03-23T11:58:09.992Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_060",
+      "original_name": "mythologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267091971_wtf5slka7",
+      "timestamp": "2026-03-23T11:58:11.971Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_059",
+      "original_name": "numismatique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267093417_831jghj3q",
+      "timestamp": "2026-03-23T11:58:13.417Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_070",
+      "original_name": "oenologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267095606_1x5z2p34w",
+      "timestamp": "2026-03-23T11:58:15.606Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_013",
+      "original_name": "physique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267095918_xg83matsf",
+      "timestamp": "2026-03-23T11:58:15.918Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_019",
+      "original_name": "physique\\mécanique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267096088_czvk97d2h",
+      "timestamp": "2026-03-23T11:58:16.088Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_044",
+      "original_name": "physique\\électricité",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267096734_avoqxrzi4",
+      "timestamp": "2026-03-23T11:58:16.734Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_054",
+      "original_name": "physique\\électronique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267096890_oju12pgn6",
+      "timestamp": "2026-03-23T11:58:16.890Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_083",
+      "original_name": "physique\\nucléaire",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267097071_4yr3u6xmg",
+      "timestamp": "2026-03-23T11:58:17.071Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_106",
+      "original_name": "physique\\électricité\\électrotechnique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267097232_pzkssvhnx",
+      "timestamp": "2026-03-23T11:58:17.232Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_107",
+      "original_name": "physique\\météorologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267099073_9p9larqgo",
+      "timestamp": "2026-03-23T11:58:19.073Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_071",
+      "original_name": "poesie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267099241_39tf9l2bf",
+      "timestamp": "2026-03-23T11:58:19.241Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_092",
+      "original_name": "poesie\\versification",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267102960_tji698fow",
+      "timestamp": "2026-03-23T11:58:22.960Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_000",
+      "original_name": "politique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267105131_cz0zdx4ie",
+      "timestamp": "2026-03-23T11:58:25.131Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_034",
+      "original_name": "psychologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267105983_efhzqzcj9",
+      "timestamp": "2026-03-23T11:58:25.983Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_066",
+      "original_name": "psychologie\\psychopathologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267106169_dlp5vl9uc",
+      "timestamp": "2026-03-23T11:58:26.169Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_067",
+      "original_name": "psychologie\\psychopathologie\\alcoolisme",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267106343_z7hawqyar",
+      "timestamp": "2026-03-23T11:58:26.343Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_068",
+      "original_name": "psychologie\\psychopathologie\\alcoolisme\\errance",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267111100_msxnfep0r",
+      "timestamp": "2026-03-23T11:58:31.100Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_091",
+      "original_name": "psychologie\\psychanalyse",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267113150_6cv0mi49d",
+      "timestamp": "2026-03-23T11:58:33.150Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_093",
+      "original_name": "rhetorique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267115454_mg2el4vxl",
+      "timestamp": "2026-03-23T11:58:35.454Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_095",
+      "original_name": "sculpture\\taille de pierre",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267115616_ki5z84u6p",
+      "timestamp": "2026-03-23T11:58:35.616Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_096",
+      "original_name": "sculpture\\taille de pierre\\marbrerie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267115772_ksfzjmdv1",
+      "timestamp": "2026-03-23T11:58:35.772Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_120",
+      "original_name": "sculpture",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267120222_moc9lgh9g",
+      "timestamp": "2026-03-23T11:58:40.222Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_038",
+      "original_name": "sociologie",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267127763_xflz4jcf8",
+      "timestamp": "2026-03-23T11:58:47.763Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_emg_117",
+      "original_name": "sociologie\\sociologie politique",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267128072_exugexvu3",
+      "timestamp": "2026-03-23T11:58:48.072Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_emg_069",
+      "original_name": "sociologie\\socio-économie",
+      "final_name": "sociologie\\socio-économie"
+    },
+    {
+      "id": "dec_1774267150048_o5tco23a6",
+      "timestamp": "2026-03-23T11:59:10.048Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_036",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Docteur Zoidberg.md"
+      }
+    },
+    {
+      "id": "dec_1774267154791_1sevijh1x",
+      "timestamp": "2026-03-23T11:59:14.791Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_036",
+      "metadata": {
+        "note_path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/American History X.md"
+      }
+    },
+    {
+      "id": "dec_1774267156172_fbd7wow7l",
+      "timestamp": "2026-03-23T11:59:16.172Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_036",
+      "metadata": {
+        "note_path": "info box.md"
+      }
+    },
+    {
+      "id": "dec_1774267159379_amslz53f5",
+      "timestamp": "2026-03-23T11:59:19.379Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_ent_036",
+      "original_name": "personnage\\scientifique",
+      "final_name": "personnage\\scientifique"
+    },
+    {
+      "id": "dec_1774267168458_uh1a61no9",
+      "timestamp": "2026-03-23T11:59:28.458Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_ent_064",
+      "original_name": "personnage\\artiste",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267177418_sfm7x4amh",
+      "timestamp": "2026-03-23T11:59:37.418Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Sept Ans au Tibet.md"
+      }
+    },
+    {
+      "id": "dec_1774267179286_q3j5oa574",
+      "timestamp": "2026-03-23T11:59:39.286Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/American History X.md"
+      }
+    },
+    {
+      "id": "dec_1774267180392_6hpqatiwh",
+      "timestamp": "2026-03-23T11:59:40.392Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/À l'Ouest, rien de nouveau.md"
+      }
+    },
+    {
+      "id": "dec_1774267180824_2pqpdj2va",
+      "timestamp": "2026-03-23T11:59:40.824Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "YouTube Notes/Timestamps 2.md"
+      }
+    },
+    {
+      "id": "dec_1774267181551_f9ogqv6d7",
+      "timestamp": "2026-03-23T11:59:41.551Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "YouTube Notes/Timestamps 5.md"
+      }
+    },
+    {
+      "id": "dec_1774267187285_v1cf6kqjg",
+      "timestamp": "2026-03-23T11:59:47.285Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Sociologie/Marcel Mauss.md"
+      }
+    },
+    {
+      "id": "dec_1774267187980_vv74ctoqj",
+      "timestamp": "2026-03-23T11:59:47.980Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Economie/John Maynard Keynes.md"
+      }
+    },
+    {
+      "id": "dec_1774267189093_rufyozbsc",
+      "timestamp": "2026-03-23T11:59:49.093Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Economie/les thèse de Karl Polanyi.md"
+      }
+    },
+    {
+      "id": "dec_1774267189329_ublgen47d",
+      "timestamp": "2026-03-23T11:59:49.329Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 👺 Personnages/Economie/Adam Smith.md"
+      }
+    },
+    {
+      "id": "dec_1774267189683_cqggeccbe",
+      "timestamp": "2026-03-23T11:59:49.683Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/Battle of Camarón.md"
+      }
+    },
+    {
+      "id": "dec_1774267193757_kwyd19eet",
+      "timestamp": "2026-03-23T11:59:53.757Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_098",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² ⚜️ Histoire & géographie/la bataille de Camerone (1863)-vidéo.md"
+      }
+    },
+    {
+      "id": "dec_1774267195846_ugd5ltlzj",
+      "timestamp": "2026-03-23T11:59:55.846Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_ent_098",
+      "original_name": "personnage\\militaire",
+      "final_name": "personnage\\militaire"
+    },
+    {
+      "id": "dec_1774267204084_qc64cyz9l",
+      "timestamp": "2026-03-23T12:00:04.084Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_048",
+      "metadata": {
+        "note_path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Les Contes de Terremer.md"
+      }
+    },
+    {
+      "id": "dec_1774267204642_5dgnfzto1",
+      "timestamp": "2026-03-23T12:00:04.642Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_048",
+      "metadata": {
+        "note_path": "⁰ 🧭 Cercle Béni 🧭/¹ 🎥 Audiovisuel/Porco Rosso.md"
+      }
+    },
+    {
+      "id": "dec_1774267205044_eel3ttoef",
+      "timestamp": "2026-03-23T12:00:05.044Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_048",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² ♟ Chess/La défense française aux échecs - La bonne façon de la jouer.md"
+      }
+    },
+    {
+      "id": "dec_1774267205486_otws8qldi",
+      "timestamp": "2026-03-23T12:00:05.486Z",
+      "type": "note_removed_from_suggestion",
+      "suggestion_id": "lt_ent_048",
+      "metadata": {
+        "note_path": "¹👹Le Labyrinthe de Dédale👹/² 📈 Économie/Coin History.md"
+      }
+    },
+    {
+      "id": "dec_1774267218289_gs7j46d2l",
+      "timestamp": "2026-03-23T12:00:18.289Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_ent_089",
+      "original_name": "Wes-Anderson",
+      "final_name": "Wes-Anderson"
+    },
+    {
+      "id": "dec_1774267241996_0s48uoxnk",
+      "timestamp": "2026-03-23T12:00:41.996Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_ent_045",
+      "original_name": "Hayao-Miyazaki",
+      "final_name": "Hayao-Miyazaki"
+    },
+    {
+      "id": "dec_1774267248841_igb30ym8q",
+      "timestamp": "2026-03-23T12:00:48.841Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_ent_225",
+      "original_name": "Karl-Polanyi",
+      "final_name": "Karl-Polanyi"
+    },
+    {
+      "id": "dec_1774267263651_mabxlyo21",
+      "timestamp": "2026-03-23T12:01:03.651Z",
+      "type": "new_tag_accepted",
+      "suggestion_id": "lt_ent_199",
+      "original_name": "Marcel-Mauss",
+      "final_name": "Marcel-Mauss"
+    },
+    {
+      "id": "dec_1774267275438_gvdyx40f3",
+      "timestamp": "2026-03-23T12:01:15.438Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_ent_106",
+      "original_name": "Owen-Wilson",
+      "reason": "user_rejected"
+    },
+    {
+      "id": "dec_1774267276984_jvsidef61",
+      "timestamp": "2026-03-23T12:01:16.984Z",
+      "type": "new_tag_rejected",
+      "suggestion_id": "lt_ent_035",
+      "original_name": "Docteur-Zoidberg",
+      "reason": "user_rejected"
     }
   ]
 }

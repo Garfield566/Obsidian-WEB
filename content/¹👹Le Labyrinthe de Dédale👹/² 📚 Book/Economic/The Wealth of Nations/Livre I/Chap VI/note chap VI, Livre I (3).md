@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## La décomposition tripartite du prix des marchandises : rente, salaire et profit
 ##### Extrait de "The Wealth of Nations" (p.120-121"Chap VI, Livre I")
 >

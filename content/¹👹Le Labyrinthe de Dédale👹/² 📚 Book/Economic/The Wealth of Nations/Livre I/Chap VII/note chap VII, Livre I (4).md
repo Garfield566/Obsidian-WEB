@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Résistance des prix au-dessous du naturel et autorégulation par le marché libre
 ##### Extrait de "The Wealth of Nations" (p.132-133"Chap VII, Livre I")
 >

@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Réglementations corporatistes et distorsions temporaires des salaires naturels
 ##### Extrait de "The Wealth of Nations" (p.133"Chap VII, Livre I")
 >

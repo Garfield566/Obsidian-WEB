@@ -1,3 +1,5 @@
+#personnage\scientifique
+
 ---
 nom: Joseph Schumpeter
 qid: Q78477

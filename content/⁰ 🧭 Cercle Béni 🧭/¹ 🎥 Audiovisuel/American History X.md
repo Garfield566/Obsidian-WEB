@@ -3,6 +3,8 @@ nom: American History X
 qid: Q208572
 categorie: oeuvre
 tags: "#oeuvre"
+  - personnage\militaire
+  - personnage\scientifique
 pays: États-Unis
 image: Pasted image 20260322144757.png|300
 ---

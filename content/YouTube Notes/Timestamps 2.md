@@ -1,3 +1,5 @@
+#personnage\militaire
+
 ---
 title: "Comment la 1ère uerre Mondiale a transformé le Japon ?"
 channel: "Epoques Epiques"

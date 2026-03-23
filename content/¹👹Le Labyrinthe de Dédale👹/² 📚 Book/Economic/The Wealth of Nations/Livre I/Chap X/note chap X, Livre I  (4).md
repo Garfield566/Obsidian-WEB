@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## L’inégalité des emplois du travail causée par la police des métiers
 ##### Extrait de "The Wealth of Nations" (p.195"Chap X, Livre I")
 >

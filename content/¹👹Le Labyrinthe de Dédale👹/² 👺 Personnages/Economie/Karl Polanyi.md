@@ -1,3 +1,9 @@
+#Karl-Polanyi
+
+#personnage\scientifique
+
+#histoire\économique
+
 ---
 nom: Karl Polanyi
 qid: Q318029

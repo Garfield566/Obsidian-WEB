@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## De l’apparente inégalité des profits : salaire déguisé, risque et uniformité relative du capital
 ##### Extrait de "The Wealth of Nations" (p.186-187"Chap X, Livre I")
 >

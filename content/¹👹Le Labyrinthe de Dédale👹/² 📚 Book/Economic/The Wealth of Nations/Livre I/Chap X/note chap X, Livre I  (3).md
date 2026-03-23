@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Les trois conditions nécessaires à l'égalisation des profits et des salaires
 ##### Extrait de "The Wealth of Nations" (p.190-191"Chap X, Livre I")
 >

@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Le travail : la première des propriétés
 ##### Extrait de "The Wealth of Nations" (p.198"Chap X, Livre I")
 >

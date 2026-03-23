@@ -1,3 +1,5 @@
+#personnage\militaire
+
 ---
 nom: Pierre Joseph Jeanningros
 qid: Q3385617

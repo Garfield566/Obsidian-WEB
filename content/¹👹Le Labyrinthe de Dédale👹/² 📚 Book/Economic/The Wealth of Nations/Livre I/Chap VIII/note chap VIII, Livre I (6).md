@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## La régulation naturelle des salaires et de la population par l’offre et la demande de travail
 ##### Extrait de "The Wealth of Nations" (p.151-152-153"Chap VIII, Livre I")
 >

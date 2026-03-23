@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## La valeur stable du T / les autre marchandise or
 ##### Extrait de "The Wealth of Nations" (p.101-102"Chap V, Livre I")
 >

@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Auto ajustement de l’offre au marché et retour au prix naturel
 ##### Extrait de "The Wealth of Nations" (p.127-128"Chap VII, Livre I")
 >

@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## La valeur économique des enfants comme incitation au mariage précoce
 ##### Extrait de "The Wealth of Nations" (p.142"Chap VIII, Livre I")
 >

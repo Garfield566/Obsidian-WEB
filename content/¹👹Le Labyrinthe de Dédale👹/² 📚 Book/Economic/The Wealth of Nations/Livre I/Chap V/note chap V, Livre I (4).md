@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## La seule mesure réelle et définitive (Travail)
 ##### Extrait de "The Wealth of Nations" (p.102-103"Chap V, Livre I")
 >

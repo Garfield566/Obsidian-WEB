@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Accumulation du capital et montée en puissance des profits dans les chaînes de transformation
 ##### Extrait de "The Wealth of Nations" (p.121"Chap VI, Livre I")
 >

@@ -2,6 +2,9 @@
 canvas:
   - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
+tags:
+  - anthropologie
+  - sociologie\socio-économie
 ---
 ## définition de la valeur
 ##### Extrait de "The Wealth of Nations" (p.96-97 "Chap IV, Livre I")

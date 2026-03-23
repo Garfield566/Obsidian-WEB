@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Salaires, état économique d’un pays et condition des ouvriers : comparaison entre croissance, stagnation et déclin
 ##### Extrait de "The Wealth of Nations" (p.142-143-144-145"Chap VIII, Livre I")
 >

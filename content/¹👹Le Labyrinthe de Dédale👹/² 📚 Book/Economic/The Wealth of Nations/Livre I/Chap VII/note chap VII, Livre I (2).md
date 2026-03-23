@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Prix de marché, demande effective et ajustements concurentiels
 ##### Extrait de "The Wealth of Nations" (p.126-127"Chap VII, Livre I")
 >

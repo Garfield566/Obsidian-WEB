@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## L'OR mesure la valeur de l'argent pas l'inverse
 ##### Extrait de "The Wealth of Nations" (p.110"Chap V, Livre I")
 >

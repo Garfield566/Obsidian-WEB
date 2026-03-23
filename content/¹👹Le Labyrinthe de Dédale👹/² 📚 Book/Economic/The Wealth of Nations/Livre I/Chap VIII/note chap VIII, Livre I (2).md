@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Le salaire naturel dans l’état primitif et l’impact de la division du travail sur la valeur
 ##### Extrait de "The Wealth of Nations" (p.139"Chap VIII, Livre I")
 >

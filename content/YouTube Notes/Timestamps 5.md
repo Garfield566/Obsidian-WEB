@@ -1,3 +1,5 @@
+#personnage\militaire
+
 ---
 title: "Le CAUCHEMAR de l'Autriche-Hongrie pendant la Première Mondiale"
 channel: "Epoques Epiques"

@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## L'amélioration du niveau de vie des ouvriers grâce au progrès économique
 ##### Extrait de "The Wealth of Nations" (p.149-150"Chap VIII, Livre I")
 >

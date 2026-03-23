@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## L’investissement des capitaux dans le travail salarié
 ##### Extrait de "The Wealth of Nations" (p.118"Chap VI, Livre I")
 >

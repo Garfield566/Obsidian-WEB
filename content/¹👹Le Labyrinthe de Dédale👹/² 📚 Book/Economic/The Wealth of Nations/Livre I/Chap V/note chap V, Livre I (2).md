@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Le prix réelle par unité T
 ##### Extrait de "The Wealth of Nations" (p.99-100-101"Chap V, Livre I")
 > Le travail est donc la mesure réelle de la valeur échangeable de toute marchandise. 

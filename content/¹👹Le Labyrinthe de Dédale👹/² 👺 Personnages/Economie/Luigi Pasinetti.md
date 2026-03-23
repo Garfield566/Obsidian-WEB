@@ -1,3 +1,5 @@
+#personnage\scientifique
+
 ---
 nom: Luigi Pasinetti
 qid: Q1374683

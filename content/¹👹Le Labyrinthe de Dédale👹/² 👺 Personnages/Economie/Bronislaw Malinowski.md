@@ -1,3 +1,5 @@
+#personnage\scientifique
+
 ---
 nom: Bronisław Malinowski
 qid: Q184992

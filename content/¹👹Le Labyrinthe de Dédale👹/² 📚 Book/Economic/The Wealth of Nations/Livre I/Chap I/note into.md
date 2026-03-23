@@ -1,3 +1,5 @@
+#histoire\économique
+
 ## L'école historique écossaise
 
 ##### Extrait de "The Wealth of Nations" (p. "fin d'introduction")

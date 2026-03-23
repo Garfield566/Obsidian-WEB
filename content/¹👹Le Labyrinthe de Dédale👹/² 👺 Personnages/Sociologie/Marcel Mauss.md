@@ -1,3 +1,7 @@
+#Marcel-Mauss
+
+#personnage\militaire
+
 ---
 nom: Marcel Mauss
 qid: Q295393

@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Effets opposés de l’accroissement des capitaux sur les salaires et les profits
 ##### Extrait de "The Wealth of Nations" (p.161"Chap IX, Livre I")
 >

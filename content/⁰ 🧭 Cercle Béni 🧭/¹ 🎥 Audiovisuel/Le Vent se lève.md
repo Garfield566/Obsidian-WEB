@@ -1,6 +1,6 @@
 ---
 title: Le Vent se lève
-tags: []
+tags: [, "Hayao-Miyazaki"]
 ---
 
 # **Le Vent se lève**

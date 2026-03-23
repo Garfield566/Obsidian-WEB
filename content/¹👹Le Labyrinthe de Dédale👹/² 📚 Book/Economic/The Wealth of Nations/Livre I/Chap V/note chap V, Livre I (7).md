@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## Histoire monnaie, métaux de référence d'un people
 ##### Extrait de "The Wealth of Nations" (p.108-109-110"Chap V, Livre I")
 >

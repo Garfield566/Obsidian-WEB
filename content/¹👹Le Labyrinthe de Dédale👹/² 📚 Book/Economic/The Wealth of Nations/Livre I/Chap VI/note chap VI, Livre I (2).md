@@ -1,3 +1,7 @@
+#sociologie\socio-économie
+
+#anthropologie
+
 ## La dissociation du profit, du salaire et de la rente dans la formation des prix
 ##### Extrait de "The Wealth of Nations" (p.118-119-120"Chap VI, Livre I")
 >
