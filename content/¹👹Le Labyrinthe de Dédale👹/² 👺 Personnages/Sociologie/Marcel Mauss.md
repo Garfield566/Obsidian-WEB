@@ -1,6 +1,6 @@
-#geo\france
+#personnage\scientifique
 
-#Marcel-Mauss
+
 
 #personnage\militaire
 

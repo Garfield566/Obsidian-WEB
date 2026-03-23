@@ -1,10 +1,10 @@
 ---
 canvas:
-  - "[[zzzzz ⚙️/Sans titre.canvas]]"
+ - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 tags:
-  - anthropologie
-  - sociologie\socio-économie
+ - anthropologie
+ - sociologie\socio-économie
 ---
 ## La taille du marcher dans la division du T
 ##### Extrait de "The Wealth of Nations" (p.85 "Chap III, Livre I")

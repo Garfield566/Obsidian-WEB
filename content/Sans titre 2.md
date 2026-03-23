@@ -12,7 +12,6 @@
 > **Nationalité** | `=this.alignment` |
 >**Œuvres principales** | `Le Banquet/ Le Banquet/ Le Banquet/ Le Banquet/ Le Banquet/ Le Banquet/ Le Banquet/ Le Banquet/ Le Banquet/ ` |
 
-
 > [!notion]- #### Division du travail
 > 
 > > [!abstract] Définition 
@@ -137,5 +136,5 @@
 
 ## Liens Obsidienne
 
- #economy #Adam-Smith #France #The_Wealth_of_Nations 
-     
+ #economy #Adam-Smith #geo\france #The_Wealth_of_Nations 
+ 

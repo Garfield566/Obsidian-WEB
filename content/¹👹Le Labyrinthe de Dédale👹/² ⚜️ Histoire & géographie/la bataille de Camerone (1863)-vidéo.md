@@ -1,12 +1,11 @@
 ---
-title: "Le SACRIFICE de la LÉION : la bataille de Camerone (1863)."
-channel: "Batailles de France"
-published: 2025-04-15
-url: "https://www.youtube.com/watch?v=2DuZrkegR0A"
+title: e SACRIFICE de la ÉION : la bataille de Camerone (1863)."
+channel: "Batailles de published: 2025-04-15
+url: "https://www..com/watch?v=2DuZrkegR0A"
 thumbnailUrl: "https://i.ytimg.com/vi/2DuZrkegR0A/maxresdefault.jpg"
 tags:
-  - personnage\militaire
-  - personnage\militaire
+ - personnage\militaire
+ - personnage\militaire
 ---
 ## Le SACRIFICE de la LÉGION : la bataille de Camerone (1863).
 
@@ -159,4 +158,4 @@ Ce briefing document résume les principaux éléments du texte fourni, mettant 
 
 convert_to_textConvertir en source
 
-#France #histoire éricano-mexicaine #XIX #Mexique éon-III #Légion-étrangère 
+#geo\france #histoire éricano-mexicaine #XIX éon-III égion-étrangère 

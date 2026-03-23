@@ -7,7 +7,7 @@ type: personnage
 categorie: personnage-militaire
 genre: m
 domaine: histoire
-tags: "#histoire/personne/militaire"
+tags: ""
 nationalite: France
 image: http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A9n%C3%A9ral%20Jeanningros.jpg?width=330
 ---

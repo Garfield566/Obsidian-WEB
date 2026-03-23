@@ -2,7 +2,7 @@
 url: https://en.wikipedia.org/wiki/David_Ricardo
 title: David Ricardo - Wikipedia
 tags:
- - clippings
+ - s
  - wikipedia
 published: 2001-09-17T18:04:24+02:00
 modified: 2025-04-13T04:06:29+02:00
@@ -136,5 +136,5 @@ David Ricardo est un économiste essentiel pour comprendre l'avantage comparatif
 
 ## Liens Obsidienne
 
- #economy #David-Ricardo #Thomas-Malthus #John_Stuart-Mill 
+ #economy #David-Ricardo 
  

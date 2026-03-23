@@ -1,6 +1,6 @@
 ---
 canvas:
-  - "[[code tag00000.canvas]]"
+ - "[[code tag00000.canvas]]"
 code tag00000: []
 ---
 Voici l'architecture complète de ton projet. C'est un système en **2 parties** :
@@ -17,29 +17,29 @@ Le backend tourne dans GitHub Actions et analyse ton vault Obsidian pour génér
 
 ```
 Notes Obsidian (content/*.md)
-    ↓
-1. Parsing        → note_parser.py, link_extractor.py
-    ↓
-2. Embeddings     → embedder.py (sentence-transformers, modèle ~500MB)
-    ↓
-3-4. Indexation   → vector_index.py (recherche sémantique)
-    ↓
-3. Clustering     → detector.py / detector_v2.py (groupes de notes similaires)
-    ↓
+ ↓
+1. Parsing → note_parser.py, link_extractor.py
+ ↓
+2. Embeddings → embedder.py (sentence-transformers, modèle ~500MB)
+ ↓
+3-4. Indexation → vector_index.py (recherche sémantique)
+ ↓
+3. Clustering → detector.py / detector_v2.py (groupes de notes similaires)
+ ↓
 4. Tags existants → lecture du frontmatter YAML
-    ↓
-5. Santé          → analyzer.py (score 91%, alertes orphelins/doublons)
-    ↓
-6. Suggestions    → 4 sous-étapes :
-   8.1 Clusters   → generator.py (tags depuis les clusters)
-   8.2 Entités    → entity_detector.py + entity_classifier.py (personnes, lieux, concepts...)
-   8.3 Émergents  → emergent_detector.py (patterns vocabulaire dans clusters)
-   8.4 Spécialisés → emergent_detector.py (termes de specialized_terms.json)
-    ↓
-7. Attributions   → matcher.py (tags existants → notes non-tagguées)
-    ↓
-8. Doublons      → redundancy.py (tags sémantiquement similaires)
-    ↓
+ ↓
+5. Santé → analyzer.py (score 91%, alertes orphelins/doublons)
+ ↓
+6. Suggestions → 4 sous-étapes :
+ 8.1 Clusters → generator.py (tags depuis les clusters)
+ 8.2 Entités → entity_detector.py + entity_classifier.py (personnes, lieux, concepts...)
+ 8.3 Émergents → emergent_detector.py (patterns vocabulaire dans clusters)
+ 8.4 Spécialisés → emergent_detector.py (termes de specialized_terms.json)
+ ↓
+7. Attributions → matcher.py (tags existants → notes non-tagguées)
+ ↓
+8. Doublons → redundancy.py (tags sémantiquement similaires)
+ ↓
 Output: suggestions.json (1.1 MB, commité automatiquement)
 ```
 
@@ -94,19 +94,19 @@ Le plugin lit le `suggestions.json` généré par le backend et offre une UI pou
 
 ```
 plugin/src/
-├── main.ts                    → Point d'entrée du plugin Obsidian
-├── settings.ts                → Page de configuration
+├── main.ts → Point d'entrée du plugin Obsidian
+├── settings.ts → Page de configuration
 ├── models/
-│   └── types.ts               → Types TypeScript (suggestions, décisions, alertes)
+│ └── types.ts → Types TypeScript (suggestions, décisions, alertes)
 ├── services/
-│   ├── SuggestionLoader.ts    → Charge suggestions.json, cache, filtre par confiance
-│   ├── DecisionRecorder.ts    → Enregistre les décisions dans decisions.json
-│   ├── TagManager.ts          → Applique les tags (ajout/suppression/merge dans les notes)
-│   ├── VocabularyService.ts   → Enrichit les bases de référence (lieux, personnes, termes)
-│   └── WikidataService.ts     → Requêtes SPARQL vers Wikidata pour les alias
+│ ├── SuggestionLoader.ts → Charge suggestions.json, cache, filtre par confiance
+│ ├── DecisionRecorder.ts → Enregistre les décisions dans decisions.json
+│ ├── TagManager.ts → Applique les tags (ajout/suppression/merge dans les notes)
+│ ├── VocabularyService.ts → Enrichit les bases de référence (lieux, personnes, termes)
+│ └── WikidataService.ts → Requêtes SPARQL vers Wikidata pour les alias
 └── views/
-    ├── SuggestionModal.ts     → **Modal principal (93 KB)** - 7 onglets
-    └── SuggestionPanel.ts     → Panel latéral résumé
+ ├── SuggestionModal.ts → **Modal principal (93 KB)** - 7 onglets
+ └── SuggestionPanel.ts → Panel latéral résumé
 ```
 
 ### Les 7 onglets du Modal
@@ -123,25 +123,25 @@ plugin/src/
 
 ```
 suggestions.json (généré par backend)
-    ↓
+ ↓
 SuggestionLoader charge et cache les données
-    ↓
+ ↓
 SuggestionModal affiche les suggestions par onglet
-    ↓
+ ↓
 Utilisateur accepte/rejette/modifie
-    ↓
+ ↓
 TagManager applique les tags dans les fichiers .md
-    ↓
+ ↓
 DecisionRecorder écrit dans decisions.json
-    ↓
+ ↓
 decisions.json est lu par le backend au prochain run
-    → boucle de feedback
+ → boucle de feedback
 ```
 
 ### Build
 
 ```bash
-node esbuild.config.mjs production  → main.js
+node esbuild.config.mjs production → main.js
 ```
 
 Le `main.js` + `manifest.json` + `styles.css` sont copiés dans le vault : `C:\Users\robin tual\quartz\content\.obsidian\plugins\emergent-tags\`
@@ -152,28 +152,28 @@ Le `main.js` + `manifest.json` + `styles.css` sont copiés dans le vault : `C:\U
 
 ```
 ┌─────────────────────────────────────────────────┐
-│              GitHub Actions (Python)             │
-│                                                  │
-│  content/*.md ──→ Parse ──→ Embed ──→ Cluster   │
-│       ↓                                          │
-│  hierarchy.json ──→ EmergentDetector             │
-│  specialized_terms.json ──→ Validation cascade   │
-│       ↓                                          │
-│  suggestions.json (170 tags, 1.1 MB)             │
-│  ← decisions.json (feedback utilisateur)         │
+│ GitHub Actions (Python) │
+│ │
+│ content/*.md ──→ Parse ──→ Embed ──→ Cluster │
+│ ↓ │
+│ hierarchy.json ──→ EmergentDetector │
+│ specialized_terms.json ──→ Validation cascade │
+│ ↓ │
+│ suggestions.json (170 tags, 1.1 MB) │
+│ ← decisions.json (feedback utilisateur) │
 └──────────────────────┬──────────────────────────┘
-                       │ git push automatique
-                       ↓
+ │ git push automatique
+ ↓
 ┌─────────────────────────────────────────────────┐
-│           Plugin Obsidian (TypeScript)            │
-│                                                  │
-│  SuggestionLoader ──→ SuggestionModal (7 tabs)   │
-│       ↓                                          │
-│  Utilisateur accepte/rejette                     │
-│       ↓                                          │
-│  TagManager ──→ modifie les .md                  │
-│  DecisionRecorder ──→ decisions.json             │
-│  VocabularyService ──→ enrichit les références   │
+│ Plugin Obsidian (TypeScript) │
+│ │
+│ SuggestionLoader ──→ SuggestionModal (7 tabs) │
+│ ↓ │
+│ Utilisateur accepte/rejette │
+│ ↓ │
+│ TagManager ──→ modifie les .md │
+│ DecisionRecorder ──→ decisions.json │
+│ VocabularyService ──→ enrichit les références │
 └─────────────────────────────────────────────────┘
 ```
 

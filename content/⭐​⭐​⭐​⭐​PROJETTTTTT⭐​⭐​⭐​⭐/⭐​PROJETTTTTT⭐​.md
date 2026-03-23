@@ -1,6 +1,6 @@
 ---
 canvas:
-  - "[[⭐​⭐​⭐​⭐​PROJETTTTTT⭐​⭐​⭐​⭐/Sans titre.canvas]]"
+ - "[[⭐​⭐​⭐​⭐​PROJETTTTTT⭐​⭐​⭐​⭐/Sans titre.canvas]]"
 Sans titre: []
 ---
 Voilà le résumé complet mis à jour :

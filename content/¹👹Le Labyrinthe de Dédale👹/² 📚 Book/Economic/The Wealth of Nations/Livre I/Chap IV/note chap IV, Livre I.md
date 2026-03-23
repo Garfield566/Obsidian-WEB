@@ -1,10 +1,10 @@
 ---
 canvas:
-  - "[[zzzzz ⚙️/Sans titre.canvas]]"
+ - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 tags:
-  - anthropologie
-  - sociologie\socio-économie
+ - anthropologie
+ - sociologie\socio-économie
 ---
 ## Le pourquoi, l'utilisation de la monnaie 
 ##### Extrait de "The Wealth of Nations" (p.91-92 "Chap IV, Livre I")

@@ -1,8 +1,8 @@
 ---
 database-plugin: basic
 cover: "![[th.jpeg]]"
-Réalisateurs: Luc-Besson
-Scénariste: Luc-Besson
+Réalisateurs: uc-Besson
+Scénariste: uc-Besson
 Compositeurs.: Éric-Serra
 Année de Sortie: 1994
 image: th.jpeg|300
@@ -135,7 +135,7 @@ image: th.jpeg|300
 ||**Capacité à toucher le spectateur** : Le scénario réussit-il à générer de l'émotion, à surprendre ou à provoquer des réflexions profondes chez le spectateur ?||
 
 ###### Tags 
-  
+ 
  
  
  

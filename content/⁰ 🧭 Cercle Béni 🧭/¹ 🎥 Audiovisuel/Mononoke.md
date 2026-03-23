@@ -2,8 +2,8 @@
 title: Mononoke
 tags: []
 canvas:
-  - "[[audiovisuel_overlap_test.canvas]]"
-  - "[[audiovisuel_stripped.canvas]]"
+ - "[[audiovisuel_overlap_test.canvas]]"
+ - "[[audiovisuel_stripped.canvas]]"
 audiovisuel_overlap_test: []
 audiovisuel_stripped: []
 image: Pasted image 20250502131748.png|300

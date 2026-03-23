@@ -1,10 +1,9 @@
 ---
-nom: Le Sommet des dieux
+nom: e Sommet des dieux
 qid: Q107555499
 categorie: oeuvre
 tags: "#oeuvre"
-  - geo\france
-pays: France, Luxembourg
+pays: uxembourg
 image: Pasted image 20260322144847.png|300
 ---
 

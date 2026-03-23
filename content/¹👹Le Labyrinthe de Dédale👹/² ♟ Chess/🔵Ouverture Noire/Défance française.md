@@ -1,5 +1,5 @@
 ---
 canvas:
-  - "[[Chess.canvas]]"
+ - "[[Chess.canvas]]"
 Chess: []
 ---

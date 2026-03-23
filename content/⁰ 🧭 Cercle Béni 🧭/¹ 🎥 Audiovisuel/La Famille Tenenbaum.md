@@ -1,12 +1,12 @@
 ---
-nom: La Famille Tenenbaum
+nom: a Famille Tenenbaum
 qid: Q935105
 categorie: oeuvre
 tags: "#oeuvre"
-  - Anjelica-Huston
-  - Owen-Wilson
-  - Anjelica-Huston
-  - Wes-Anderson
+ - Anjelica-Huston
+ - Owen-Wilson
+ - Anjelica-Huston
+ - Wes-Anderson
 pays: États-Unis
 image: Pasted image 20260322131256.png
 ---
@@ -26,7 +26,6 @@ image: Pasted image 20260322131256.png
 > - **Publication** : 14 decembre 2001, 14 mars 2002, 28 decembre 2001
 > - **Sujet ou thème principal** : famille dysfonctionnelle
 > - **Pays d'origine** : États-Unis
-
 
 La Famille Tenenbaum (The Royal Tenenbaums) est un film américain réalisé par Wes Anderson sorti en 2001. C'est le troisième long-métrage du réalisateur. Le film suit la vie des trois enfants Tenenbaum qui ont tous connu un grand succès dans leur jeunesse avant de subir des déceptions et des échecs à l'âge adulte. Royal, leur père absent depuis vingt-deux ans, revient en prétextant une maladie et toute la famille Tenenbaum se retrouve réunie dans la maison familiale, ce qui va provoquer de nombreuses tensions.
 C'est la deuxième collaboration d'Anderson avec l'acteur Bill Murray qui apparaît dans tous les films du réalisateur à l'exception du premier. La musique originale est composée par Mark Mothersbaugh. Le film aborde les thèmes de la famille dysfonctionnelle, la limite floue entre l'enfance et l'âge d'adulte, l'amitié, l'amour, l'échec, la mort et le deuil.

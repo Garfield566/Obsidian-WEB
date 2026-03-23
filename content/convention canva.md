@@ -27,7 +27,7 @@ Document de référence pour la génération de fichiers `.canvas` Obsidian. Tou
 ### Sous-groupes
 
 - La couleur d'un sous-groupe est **une nuance de la même famille** que le groupe parent
-- Exemple : groupe parent bleu `#89dceb` → sous-groupe `#74c7ec` (bleu plus foncé)
+- Exemple : groupe parent bleu `` → sous-groupe `` (bleu plus foncé)
 
 ---
 
@@ -39,14 +39,14 @@ Les couleurs sont **porteuses de sens**, pas décoratives. Chaque couleur corres
 
 |Priorité|Type de contenu|Couleur|Hex principal|Nuances sous-groupes|
 |---|---|---|---|---|
-|—|**Nœud central**|Rose/Magenta|`#f5c2e7`|—|
-|1|**Notion/Concept** (idée abstraite)|Violet|`#cba6f7`|`#b4befe`, `#ddb6f2`|
-|2|**Définition** (explication formelle)|Vert|`#a6e3a1`|`#94e2d5`, `#b5e8b0`|
-|3|**Processus/Étape** (action, transformation)|Cyan/Bleu|`#89dceb`|`#74c7ec`, `#89b4fa`|
-|4|**Personne/Acteur**|Orange|`#fab387`|`#f2cdcd`, `#f5c2a0`|
-|5|**Objet/Entité concrète**|Jaune|`#f9e2af`|`#f5e0dc`, `#efe0b0`|
-|6|**Lieu/Géographie**|Rouge/Rose|`#f38ba8`|`#eba0ac`, `#e78fa8`|
-|7|**Événement/Date**|Bleu profond|`#89b4fa`|`#7dc4e4`, `#a6c8ff`|
+|—|**Nœud central**|Rose/Magenta|``|—|
+|1|**Notion/Concept** (idée abstraite)|Violet|``|``, ``|
+|2|**Définition** (explication formelle)|Vert|``|``, ``|
+|3|**Processus/Étape** (action, transformation)|Cyan/Bleu|``|``, ``|
+|4|**Personne/Acteur**|Orange|``|``, ``|
+|5|**Objet/Entité concrète**|Jaune|``|``, ``|
+|6|**Lieu/Géographie**|Rouge/Rose|``|``, ``|
+|7|**Événement/Date**|Bleu profond|``|``, ``|
 
 ### Logique de la palette
 
@@ -54,11 +54,11 @@ Les couleurs sont **porteuses de sens**, pas décoratives. Chaque couleur corres
 - **Vert** = formel/précis (définitions)
 - **Bleu/Cyan** = dynamique (processus, étapes)
 - **Couleurs chaudes** = concret (personnes, objets, lieux)
-- **Nœud central** = toujours magenta `#f5c2e7` (se démarque de tout le reste)
+- **Nœud central** = toujours magenta `` (se démarque de tout le reste)
 
 ### Règles
 
-- On utilise les **hex `#RRGGBB`** (pas limité aux 6 couleurs Obsidian de base)
+- On utilise les **hex ``** (pas limité aux 6 couleurs Obsidian de base)
 - Les groupes voisins sont de **couleurs différentes**
 - Les sous-groupes héritent d'une **nuance de la famille** du parent
 - La couleur d'un nœud correspond au **type de son contenu**, pas à sa position dans le graphe
@@ -182,12 +182,12 @@ Chaque nœud a **toujours** un body, même court (1 ligne minimum). Pas de nœud
 
 ```
 ┌──────────────────┐
-│  [image 200×150]  │
-│                    │
-│ ## Chloroplaste    │
-│ Organite à double  │
+│ [image 200×150] │
+│ │
+│ ## Chloroplaste │
+│ Organite à double │
 │ membrane. Siège de │
-│ la photosynthèse.  │
+│ la photosynthèse. │
 └──────────────────┘
 ```
 

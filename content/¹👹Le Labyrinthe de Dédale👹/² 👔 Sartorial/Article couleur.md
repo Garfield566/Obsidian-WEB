@@ -4,7 +4,7 @@ title: "Article couleur"
 author: ""
 description: ""
 tags:
-  - "clipping"
+ - "clipping"
 created: 2025-07-07T16:03:32+02:00
 ---
 # 

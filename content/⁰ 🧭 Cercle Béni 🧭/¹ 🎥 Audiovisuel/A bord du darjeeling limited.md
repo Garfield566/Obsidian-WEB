@@ -3,8 +3,8 @@ nom: A bord du darjeeling limited
 qid: Q658944
 categorie: oeuvre
 tags: "#oeuvre"
-  - Anjelica-Huston
-  - Owen-Wilson
+ - Anjelica-Huston
+ - Owen-Wilson
 pays: États-Unis
 image: Pasted image 20260323104406.png
 ---

@@ -2,7 +2,7 @@
 title: "Guide Extraction - 2 PCs en Parallèle"
 date: 2026-02-01
 tags:
-  - extraction
+ - extraction
 
 ---
 
@@ -56,14 +56,14 @@ Ce guide explique comment répartir l'extraction des 41 domaines sur **2 PCs dif
 
 ```
 backend/src/wikidata_extractor/
-├── extract_pc2.py                    [NOUVEAU]
-├── watch_pc2.py                      [NOUVEAU]
-├── extract_by_domain.py              [EXISTANT]
-├── domains_config_complete.py        [EXISTANT]
-├── wiktionary_extractor.py           [EXISTANT]
-├── wikipedia_extractor.py            [EXISTANT]
-├── arxiv_scraper.py                  [EXISTANT]
-└── requirements.txt                  [EXISTANT]
+├── extract_pc2.py [NOUVEAU]
+├── watch_pc2.py [NOUVEAU]
+├── extract_by_domain.py [EXISTANT]
+├── domains_config_complete.py [EXISTANT]
+├── wiktionary_extractor.py [EXISTANT]
+├── wikipedia_extractor.py [EXISTANT]
+├── arxiv_scraper.py [EXISTANT]
+└── requirements.txt [EXISTANT]
 ```
 
 **Installation sur PC2** :
@@ -106,16 +106,16 @@ python watch_pc2.py
 
 ```
 [15:30:45] PC1: [##########------------------------------------------] 25.0% |
-           Domaines: 5/20 | Temps: 12h23min |
-           En cours: economie (Sciences Sociales)
+ Domaines: 5/20 | Temps: 12h23min |
+ En cours: economie (Sciences Sociales)
 ```
 
 ### Affichage PC2
 
 ```
 [15:30:45] PC2: [############] 28.6% |
-           Domaines: 6/21 | Temps: 10h15min |
-           En cours: cinema (Arts Audiovisuels)
+ Domaines: 6/21 | Temps: 10h15min |
+ En cours: cinema (Arts Audiovisuels)
 ```
 
 ---
@@ -151,13 +151,13 @@ C:\Users\robin tual\quartz\backend\src\wikidata_extractor\extracted_by_domain\
 **Vérifier que PC1 contient maintenant** :
 ```
 extracted_by_domain/
-├── mathematiques/         [PC1]
-├── physique/              [PC1]
-├── chimie/                [PC1]
+├── mathematiques/ [PC1]
+├── physique/ [PC1]
+├── chimie/ [PC1]
 ├── ... (18 autres de PC1)
-├── peinture/              [PC2]
-├── cinema/                [PC2]
-├── musique/               [PC2]
+├── peinture/ [PC2]
+├── cinema/ [PC2]
+├── musique/ [PC2]
 ├── ... (18 autres de PC2)
 └── (41 domaines au total)
 ```
@@ -175,9 +175,9 @@ python extract_by_domain.py --merge-only
 extracted_by_domain/
 ├── mathematiques/
 ├── ... (tous les 41 domaines)
-├── enriched_vocabulary_complete.json      [FUSION FINALE]
-├── specialized_terms_complete.json        [FUSION FINALE]
-└── extraction_stats_complete.json         [FUSION FINALE]
+├── enriched_vocabulary_complete.json [FUSION FINALE]
+├── specialized_terms_complete.json [FUSION FINALE]
+└── extraction_stats_complete.json [FUSION FINALE]
 ```
 
 ---
@@ -315,9 +315,9 @@ extracted_by_domain/
 - [ ] Transférer `extracted_by_domain/` de PC2 vers PC1
 - [ ] Sur PC1, exécuter `python extract_by_domain.py --merge-only`
 - [ ] Vérifier les fichiers fusionnés finaux :
-  - `enriched_vocabulary_complete.json`
-  - `specialized_terms_complete.json`
-  - `extraction_stats_complete.json`
+ - `enriched_vocabulary_complete.json`
+ - `specialized_terms_complete.json`
+ - `extraction_stats_complete.json`
 
 ### Vérification
 

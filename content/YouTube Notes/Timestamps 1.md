@@ -1,4 +1,4 @@
-#geo\france
+
 
 ---
 title: "Qund lFRANCE ttquit lCHINE : lede l'opium."

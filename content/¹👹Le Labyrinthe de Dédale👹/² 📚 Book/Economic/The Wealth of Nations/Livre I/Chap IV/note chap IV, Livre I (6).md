@@ -1,10 +1,10 @@
 ---
 canvas:
-  - "[[zzzzz ⚙️/Sans titre.canvas]]"
+ - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 tags:
-  - anthropologie
-  - sociologie\socio-économie
+ - anthropologie
+ - sociologie\socio-économie
 ---
 ## déterminer la valeur échangeable
 ##### Extrait de "The Wealth of Nations" (p.97 "Chap IV, Livre I")

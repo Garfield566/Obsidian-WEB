@@ -1,5 +1,5 @@
 ---
-nom: Axel Leijonhufvud
+nom: Axel eijonhufvud
 qid: Q2182806
 type: personnage
 categorie: personnage-scientifique

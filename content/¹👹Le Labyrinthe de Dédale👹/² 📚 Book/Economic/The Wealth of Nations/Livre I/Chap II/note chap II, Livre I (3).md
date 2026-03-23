@@ -1,10 +1,10 @@
 ---
 canvas:
-  - "[[zzzzz ⚙️/Sans titre.canvas]]"
+ - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 tags:
-  - anthropologie
-  - sociologie\socio-économie
+ - anthropologie
+ - sociologie\socio-économie
 ---
 ## L'intérêt personnel 
 ##### Extrait de "The Wealth of Nations" (p.82 "Chap II, Livre I")

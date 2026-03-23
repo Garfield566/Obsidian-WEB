@@ -12,19 +12,19 @@ tube
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[
-    view={60}{30},
-    xlabel=$x$,
-    ylabel=$y$,
-    zlabel=$z$,
-    colormap/cool,
-    width=10cm,
-    height=8cm
+ view={60}{30},
+ xlabel=$x$,
+ ylabel=$y$,
+ zlabel=$z$,
+ colormap/cool,
+ width=10cm,
+ height=8cm
 ]
 \addplot3[
-    surf,
-    samples=15,
-    domain=-5:5,
-    y domain=-5:5
+ surf,
+ samples=15,
+ domain=-5:5,
+ y domain=-5:5
 ] {14*x^{0.5}*y^{0.5}};
 \end{axis}
 \end{tikzpicture}

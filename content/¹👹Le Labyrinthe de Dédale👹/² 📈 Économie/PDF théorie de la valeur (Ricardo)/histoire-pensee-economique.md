@@ -94,4 +94,4 @@ Par conséquent, si deux biens ont coûté la même quantité de travail (direct
 
 #Adam-Smith #Joseph-Schumpeter #David-Ricardo #The_Wealth_of_Nations 
 
-#History_of_Economic_Analysis #The_Worldly_Philosophers #Robert-Heilbroner #economy 
+#History_of_Economic_Analysis #economy 

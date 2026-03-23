@@ -2,9 +2,9 @@
 title: "Guide Extraction Complète - 41 Domaines"
 date: 2026-01-31
 tags:
-  - extraction
-  - guide
-  - tous-domaines
+ - extraction
+ - guide
+ - tous-domaines
 
 ---
 
@@ -260,19 +260,19 @@ Modifier `extract_all_complete.py` pour extraire seulement certaines catégories
 ```
 extracted_by_domain/
 ├── mathematiques/
-│   ├── mathematiques_enriched_vocabulary.json
-│   ├── mathematiques_specialized_terms.json
-│   └── mathematiques_stats.json
+│ ├── mathematiques_enriched_vocabulary.json
+│ ├── mathematiques_specialized_terms.json
+│ └── mathematiques_stats.json
 ├── physique/
-│   ├── physique_enriched_vocabulary.json
-│   ├── physique_specialized_terms.json
-│   └── physique_stats.json
+│ ├── physique_enriched_vocabulary.json
+│ ├── physique_specialized_terms.json
+│ └── physique_stats.json
 ├── chimie/ (à venir)
 ├── ... (39 autres domaines)
 └── [Après fusion]
-    ├── enriched_vocabulary_complete.json
-    ├── specialized_terms_complete.json
-    └── extraction_stats_complete.json
+ ├── enriched_vocabulary_complete.json
+ ├── specialized_terms_complete.json
+ └── extraction_stats_complete.json
 ```
 
 ### Fusion Finale
@@ -310,8 +310,8 @@ Le script `watch_all_complete.py` affiche :
 
 ```
 [15:30:45] GLOBAL: [##########------------------------------------------] 24.4% |
-           Domaines: 10/41 | Temps: 15h23min |
-           En cours: architecture (Arts Visuels)
+ Domaines: 10/41 | Temps: 15h23min |
+ En cours: architecture (Arts Visuels)
 ```
 
 ### Statistiques Affichées
@@ -348,25 +348,25 @@ Environ 30% des termes spécialisés peuvent avoir des définitions hors-sujet (
 ## 🚀 Prochaines Étapes
 
 1. **Lancer l'extraction**
-   ```bash
-   python extract_all_complete.py
-   ```
+ ```bash
+ python extract_all_complete.py
+ ```
 
 2. **Surveiller la progression** (optionnel)
-   ```bash
-   python watch_all_complete.py
-   ```
+ ```bash
+ python watch_all_complete.py
+ ```
 
 3. **Attendre ~3-4 jours**
 
 4. **Fusionner tous les domaines**
-   ```bash
-   python extract_by_domain.py --merge-only
-   ```
+ ```bash
+ python extract_by_domain.py --merge-only
+ ```
 
 5. **Vérifier les résultats**
-   - Échantillons aléatoires par domaine
-   - Statistiques globales
+ - Échantillons aléatoires par domaine
+ - Statistiques globales
 
 6. **Tri manuel des faux positifs** (optionnel)
 

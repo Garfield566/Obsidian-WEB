@@ -2,10 +2,10 @@
 url: "https://en.wikipedia.org/wiki/Adam_Smith"
 title: "Adam Smith - Wikipedia"
 tags:
-  - clippings
-  - personnage\militaire
-  - personnage\militaire
-  - wikipedia
+ - s
+ - personnage\militaire
+ - personnage\militaire
+ - wikipedia
 published: 2001-09-10T16:42:46+02:00
 modified: ""
 created: 2025-05-01
@@ -156,5 +156,5 @@ Adam Smith est un philosophe et économiste essentiel pour comprendre la naissan
 
 ## Liens Obsidienne
 
- #economy #Adam-Smith #France #The_Wealth_of_Nations 
-     
+ #economy #Adam-Smith #geo\france #The_Wealth_of_Nations 
+ 

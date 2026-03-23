@@ -2,14 +2,14 @@
 title: Cyberpunk_Edgerunners
 tags: []
 canvas:
-  - "[[audiovisuel_overlap_test.canvas]]"
-  - "[[audiovisuel_stripped.canvas]]"
+ - "[[audiovisuel_overlap_test.canvas]]"
+ - "[[audiovisuel_stripped.canvas]]"
 audiovisuel_overlap_test:
-  - "[[Mononoke]]"
-  - "[[Vinland Saga]]"
+ - "[[Mononoke]]"
+ - "[[Vinland Saga]]"
 audiovisuel_stripped:
-  - "[[Mononoke]]"
-  - "[[Vinland Saga]]"
+ - "[[Mononoke]]"
+ - "[[Vinland Saga]]"
 image: Pasted image 20260322133455.png|300
 ---
 

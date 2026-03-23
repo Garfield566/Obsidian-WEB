@@ -2,13 +2,13 @@
 title: "Résumé de cours : Généralités sur les espaces vectoriels"
 source: "https://www.bibmath.net/ressources/index.php?action=affiche&quoi=mathsup/cours/ev.html"
 author:
-  - "[[Fred Bayart]]"
+ - "[[Fred Bayart]]"
 published:
 created: 2026-03-22
 description: "Ressources de mathématiques"
 tags:
-  - "clippings"
-  - vecteur
+ - s"
+ - vecteur
 image:
 ---
 désigne le corps ou .

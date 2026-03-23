@@ -1,13 +1,12 @@
 ---
-brand: Lip
-cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkP8cq-yL26kBg0At9w&s"
+brand: ip
+cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkP8cq-y26kBg0At9w&s"
 tags: []
 created: "1867"
 ed: no
 gamme_de_prix: 40-3k
 note: "."
-pays_origine: France
-ticker: "."
+pays_origine: ticker: "."
 ---
 
 ![cover|500](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpOASsq7vfow2kqkJP8Hcq-yL26kBg0At9w&s)

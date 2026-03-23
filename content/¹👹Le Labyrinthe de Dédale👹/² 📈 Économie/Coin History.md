@@ -4,8 +4,8 @@ title:
 author:
 description:
 tags:
- - "clippings"
-  - XX\1930
+ - s"
+ - XX\1930
  - "medium"
 published:
 created: 2025-05-19T15:26:02+02:00
@@ -789,4 +789,4 @@ These examples have shown the “medium of exchange” function of money. Separa
 
 Anything can serve as money that habit or social convention and successful experience endow with the quality of general acceptability, and a variety of items have so served—from the [wampum](https://www.britannica.com/money/wampum) (beads made from shells) of American Indians, to [cowries](https://www.britannica.com/animal/cowrie) (brightly coloured shells) in India, to whales’ teeth among the Fijians, to tobacco among early colonists in [North America](https://www.britannica.com/place/North-America), to large stone disks on the Pacific island of [Yap](https://www.britannica.com/place/Yap-Islands), to cigarettes in post-World War II Germany and in prisons the world over. In fact, the wide use of cattle as money in [primitive](https://www.britannica.com/topic/primitive-culture) times survives in the word *pecuniary*, which comes from the Latin *pecus*, meaning cattle. The development of money has been marked by repeated innovations in the objects used as money.
 
-#économie #finance #economy 
+#économie #economy 

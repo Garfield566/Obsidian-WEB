@@ -23,7 +23,6 @@ image: Pasted image 20260322130736.png
 > - **Pays d'origine** : États-Unis
 > - **Distinction reçue** : Oscar du meilleur film, Oscar du meilleur scénario original, Dallas-Fort Worth Film Critics Association Award du meilleur film
 
-
 Birdman, ou Birdman ou (Les Vertus insoupçonnées de l'ignorance) au Québec, est un drame américain co-écrit, co-produit et réalisé par Alejandro González Iñárritu, sorti en 2014.
 Le film traite de l'adaptation théâtrale de la nouvelle Parlez-moi d'amour (What We Talk About When We Talk About Love) écrite par Raymond Carver en 1981.
 Se présentant sous la forme d'un seul et unique plan-séquence, il a fait l'ouverture du festival international du film de Venise en 2014, où il fut aussi présenté en compétition officielle.

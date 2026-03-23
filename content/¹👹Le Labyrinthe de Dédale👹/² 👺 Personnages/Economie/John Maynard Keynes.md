@@ -13,7 +13,7 @@ type: personnage
 categorie: personnage-scientifique
 genre: m
 domaine: science
-tags: "#science/personne/mathematiques"
+tags: ""
 nationalite: Royaume-Uni
 mouvement: Bloomsbury Group
 image: http://commons.wikimedia.org/wiki/Special:FilePath/Keynes%201933.jpg?width=330

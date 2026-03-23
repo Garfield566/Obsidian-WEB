@@ -3,7 +3,7 @@ nom: "espace vectoriel"
 qid: Q125977
 categorie: espace
 tags: "#espace"
-  - vecteur
+ - vecteur
 image: https://commons.wikimedia.org/wiki/Special:FilePath/Vector_add_scale.svg
 ---
 
@@ -14,18 +14,16 @@ image: https://commons.wikimedia.org/wiki/Special:FilePath/Vector_add_scale.svg
 > ![image|300](https://commons.wikimedia.org/wiki/Special:FilePath/Vector_add_scale.svg)
 > - **Aspect de** : algèbre linéaire
 
-
-
 ## Structure d'espace vectoriel
 
  Espace vectoriel
 On appelle **espace vectoriel sur $\mathbb{K}$** (ou $\mathbb{K}$-espace vectoriel) un ensemble $E$ muni de deux lois :
-  une **loi interne**, notée $+$, telle que $(E, +)$ soit un **groupe commutatif**. L'élément nul est noté $0_E$.
-  une **loi externe**, notée $\cdot$, qui est une application de $\mathbb{K} \times E$ dans $E$ vérifiant :
-  . $\forall (\alpha, \beta) \in \mathbb{K}^2, \forall x \in E,\ (\alpha + \beta) \cdot x = \alpha \cdot x + \beta \cdot x$.
-  1. $\forall \alpha \in \mathbb{K}, \forall (x, y) \in E^2,\ \alpha \cdot (x + y) = \alpha \cdot x + \alpha \cdot y$.
-   2. $\forall (\alpha, \beta) \in \mathbb{K}^2, \forall x \in E,\ \alpha \cdot (\beta \cdot x) = (\alpha \beta) \cdot x$.
-   3. $\forall x \in E,\ 1 \cdot x = x$.
+ une **loi interne**, notée $+$, telle que $(E, +)$ soit un **groupe commutatif**. L'élément nul est noté $0_E$.
+ une **loi externe**, notée $\cdot$, qui est une application de $\mathbb{K} \times E$ dans $E$ vérifiant :
+ . $\forall (\alpha, \beta) \in \mathbb{K}^2, \forall x \in E,\ (\alpha + \beta) \cdot x = \alpha \cdot x + \beta \cdot x$.
+ 1. $\forall \alpha \in \mathbb{K}, \forall (x, y) \in E^2,\ \alpha \cdot (x + y) = \alpha \cdot x + \alpha \cdot y$.
+ 2. $\forall (\alpha, \beta) \in \mathbb{K}^2, \forall x \in E,\ \alpha \cdot (\beta \cdot x) = (\alpha \beta) \cdot x$.
+ 3. $\forall x \in E,\ 1 \cdot x = x$.
 
  Les éléments de $E$ sont appelés des **vecteurs** et les éléments de $\mathbb{K}$ sont appelés des **scalaires**.
 

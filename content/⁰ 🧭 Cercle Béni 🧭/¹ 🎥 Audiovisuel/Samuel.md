@@ -2,8 +2,8 @@
 title: Samuel
 tags: []
 canvas:
-  - "[[audiovisuel_overlap_test.canvas]]"
-  - "[[audiovisuel_stripped.canvas]]"
+ - "[[audiovisuel_overlap_test.canvas]]"
+ - "[[audiovisuel_stripped.canvas]]"
 audiovisuel_overlap_test: []
 audiovisuel_stripped: []
 image: Pasted image 20260322134838.png|300

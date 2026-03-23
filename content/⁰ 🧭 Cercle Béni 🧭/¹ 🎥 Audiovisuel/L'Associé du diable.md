@@ -1,5 +1,5 @@
 ---
-nom: L'Associé du diable
+nom: Associé du diable
 qid: Q224647
 categorie: oeuvre
 tags: "#oeuvre"

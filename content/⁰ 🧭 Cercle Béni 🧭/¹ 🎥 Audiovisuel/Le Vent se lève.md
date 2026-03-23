@@ -1,6 +1,6 @@
 ---
-title: Le Vent se lève
-tags: [, "Hayao-Miyazaki", "XX\1930"]
+title: e Vent se lève
+tags: [ "Hayao-Miyazaki", "XX\1930"]
 ---
 
 # **Le Vent se lève**

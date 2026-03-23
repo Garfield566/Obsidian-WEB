@@ -1,10 +1,10 @@
 ---
 canvas:
-  - "[[zzzzz ⚙️/Sans titre.canvas]]"
+ - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 tags:
-  - anthropologie
-  - sociologie\socio-économie
+ - anthropologie
+ - sociologie\socio-économie
 ---
 ## la division du travail/ dans la singularité des individues
 ##### Extrait de "The Wealth of Nations" (p.83-84 "Chap II, Livre I")

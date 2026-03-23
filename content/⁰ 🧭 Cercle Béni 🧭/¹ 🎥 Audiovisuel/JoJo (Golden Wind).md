@@ -2,8 +2,8 @@
 title: JoJo (Golden Wind)
 tags: []
 canvas:
-  - "[[audiovisuel_overlap_test.canvas]]"
-  - "[[audiovisuel_stripped.canvas]]"
+ - "[[audiovisuel_overlap_test.canvas]]"
+ - "[[audiovisuel_stripped.canvas]]"
 audiovisuel_overlap_test: []
 audiovisuel_stripped: []
 ---

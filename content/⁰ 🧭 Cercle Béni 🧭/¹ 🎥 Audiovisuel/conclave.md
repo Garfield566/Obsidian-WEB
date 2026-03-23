@@ -3,8 +3,8 @@ nom: conclave
 qid: Q116701124
 categorie: oeuvre
 tags: "#oeuvre"
-  - Ralph-Fiennes
-  - Ralph-Fiennes
+ - Ralph-Fiennes
+ - Ralph-Fiennes
 pays: Royaume-Uni, États-Unis
 image: Pasted image 20260322130951.png
 ---
@@ -26,7 +26,6 @@ image: Pasted image 20260322130951.png
 > - **Compositeur ou compositrice** : Hauschka
 
 > - **D'après une œuvre de** : Robert Harris
-
 
 Conclave est un thriller psychologique américano-britannique réalisé par Edward Berger, sorti en 2024.
 Présenté au Festival international du film de Toronto 2024, il s'agit d'une adaptation du roman éponyme de Robert Harris. Il est l'un des dix meilleurs films de 2024 selon le National Board of Review et l'American Film Institute. Parmi plus de 300 nominations et 70 récompenses, il reçoit le Golden Globe du meilleur scénario et quatre BAFTA dont celui du meilleur film. Il décroche également huit nominations à la 97e cérémonie des Oscars dont celle du meilleur film, et gagne celui du meilleur scénario adapté.

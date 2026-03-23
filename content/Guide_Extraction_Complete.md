@@ -2,10 +2,9 @@
 title: "Guide - Extraction Complète Tous Domaines"
 date: 2026-01-31
 tags:
-  - extraction
-  - guide
-  - wikidata
-  - tous-domaines
+ - extraction
+ - guide
+ - tous-domaines
 ---
 
 # Guide d'Extraction Complète - Tous les Domaines
@@ -136,13 +135,13 @@ Pour chaque domaine :
 ```
 extracted_by_domain/
 ├── mathematiques/
-│   ├── mathematiques_enriched_vocabulary.json (1,980 termes)
-│   ├── mathematiques_specialized_terms.json (794 termes)
-│   └── mathematiques_stats.json
+│ ├── mathematiques_enriched_vocabulary.json (1,980 termes)
+│ ├── mathematiques_specialized_terms.json (794 termes)
+│ └── mathematiques_stats.json
 ├── physique/
-│   ├── physique_enriched_vocabulary.json (4,407 termes)
-│   ├── physique_specialized_terms.json (1,353 termes)
-│   └── physique_stats.json
+│ ├── physique_enriched_vocabulary.json (4,407 termes)
+│ ├── physique_specialized_terms.json (1,353 termes)
+│ └── physique_stats.json
 ├── chimie/ (à venir)
 ├── biologie/ (à venir)
 └── medecine/ (à venir)
@@ -171,17 +170,17 @@ extracted_by_domain/
 ### Limitations Connues
 
 1. ⚠️ **~30% de faux positifs sémantiques** sur termes spécialisés
-   - Exemple : "déclassement" (sociologie au lieu de nucléaire)
-   - Exemple : "rif" (géographie au lieu d'électronique)
-   - **Solution** : Tri manuel post-extraction recommandé
+ - Exemple : "déclassement" (sociologie au lieu de nucléaire)
+ - Exemple : "rif" (géographie au lieu d'électronique)
+ - **Solution** : Tri manuel post-extraction recommandé
 
 2. ⚠️ **Homonymie Wikipedia**
-   - Wikipedia retourne parfois la mauvaise définition
-   - Affecte principalement les termes courts ambigus
+ - Wikipedia retourne parfois la mauvaise définition
+ - Affecte principalement les termes courts ambigus
 
 3. ⚠️ **Termes génériques rejetés**
-   - "onde", "force", "énergie" parfois rejetés (trop courts)
-   - Trade-off qualité vs quantité
+ - "onde", "force", "énergie" parfois rejetés (trop courts)
+ - Trade-off qualité vs quantité
 
 ---
 

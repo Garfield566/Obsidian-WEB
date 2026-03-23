@@ -1,9 +1,9 @@
 ---
 canvas:
-  - "[[code tag00000.canvas]]"
+ - "[[code tag00000.canvas]]"
 code tag00000: []
 tags:
-  - vecteur
+ - vecteur
 ---
 # Fonctionnement du Systeme de Tags
 
@@ -130,12 +130,12 @@ mathematiques/
 ├── VSC: ["integrale", "matrice", "theoreme", ...]
 ├── VSCA: ["calcul", "equation", "nombre", ...]
 └── sous_notions/
-    ├── analyse/
-    │   ├── VSC: ["derivee", "limite", "convergence"]
-    │   └── VSCA: ["fonction", "suite"]
-    └── algebre/
-        ├── VSC: ["groupe", "anneau", "corps"]
-        └── VSCA: ["structure", "operation"]
+ ├── analyse/
+ │ ├── VSC: ["derivee", "limite", "convergence"]
+ │ └── VSCA: ["fonction", "suite"]
+ └── algebre/
+ ├── VSC: ["groupe", "anneau", "corps"]
+ └── VSCA: ["structure", "operation"]
 ```
 
 ### 2.3 Seuils de Validation par Profondeur
@@ -236,9 +236,9 @@ Domaine 'mathematiques' detecte via vocabulaire:
 2. Trouve les 15 notes voisines (similarite >= 0.55)
 3. Collecte les tags des voisins (tags populaires: 3+ notes)
 4. Pour chaque tag candidat:
-   a. Si PERSON/GEO/ENTITY: verifie mention dans la note
-   b. Si DISCIPLINE: verifie vocabulaire VSC/VSCA (min 3 mots)
-   c. Si nom propre probable: verifie mention dans la note
+ a. Si PERSON/GEO/ENTITY: verifie mention dans la note
+ b. Si DISCIPLINE: verifie vocabulaire VSC/VSCA (min 3 mots)
+ c. Si nom propre probable: verifie mention dans la note
 5. Genere suggestion d'attribution
 ```
 
@@ -322,10 +322,10 @@ pattern = rf'(?<![a-za-y]){mot}(?![a-za-y])'
 
 ```python
 def _count_whole_word(text, word) -> int:
-    """Compte les occurrences d'un mot ENTIER."""
+ """Compte les occurrences d'un mot ENTIER."""
 
 def _word_in_text(text, word) -> bool:
-    """Verifie si un mot ENTIER est present."""
+ """Verifie si un mot ENTIER est present."""
 ```
 
 ---
@@ -344,16 +344,16 @@ def _word_in_text(text, word) -> bool:
 
 ```python
 class TagFamily(Enum):
-    PERSON      # Personnes: p\nom-prenom
-    GEO         # Lieux: geo\lieu
-    ENTITY      # Entites politiques: entite\nom
-    AREA        # Aires culturelles: aire\nom
-    DATE        # Dates/Siecles: date\annee ou siecle\XX
-    DISCIPLINE  # Disciplines: domaine ou domaine\sous-domaine
-    MATH_OBJECT # Objets maths: math-obj\nom
-    ARTWORK     # Mouvements: art\mouvement
-    CATEGORY    # Categories generiques
-    GENERIC     # Autres
+ PERSON # Personnes: p\nom-prenom
+ GEO # Lieux: geo\lieu
+ ENTITY # Entites politiques: entite\nom
+ AREA # Aires culturelles: aire\nom
+ DATE # Dates/Siecles: date\annee ou siecle\XX
+ DISCIPLINE # Disciplines: domaine ou domaine\sous-domaine
+ MATH_OBJECT # Objets maths: math-obj\nom
+ ARTWORK # Mouvements: art\mouvement
+ CATEGORY # Categories generiques
+ GENERIC # Autres
 ```
 
 ---
@@ -362,46 +362,46 @@ class TagFamily(Enum):
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    ANALYSE D'UNE NOTE                       │
+│ ANALYSE D'UNE NOTE │
 └─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
+ │
+ ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  1. INDEXATION                                              │
-│     Note → Embedding 384D → Index FAISS                     │
+│ 1. INDEXATION │
+│ Note → Embedding 384D → Index FAISS │
 └─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
+ │
+ ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  2. RECHERCHE VOISINS                                       │
-│     find_neighbors(k=15, threshold=0.55)                    │
-│     Score = 0.6×semantique + 0.2×structurel + 0.2×contextuel│
+│ 2. RECHERCHE VOISINS │
+│ find_neighbors(k=15, threshold=0.55) │
+│ Score = 0.6×semantique + 0.2×structurel + 0.2×contextuel│
 └─────────────────────────────────────────────────────────────┘
-                              │
-              ┌───────────────┴───────────────┐
-              ▼                               ▼
-┌─────────────────────────┐     ┌─────────────────────────┐
-│  3a. NOUVEAUX TAGS      │     │  3b. TAGS EXISTANTS     │
-│  EmergentTagDetector    │     │  TagMatcherV2           │
-│                         │     │                         │
-│  - Analyse vocabulaire  │     │  - Tags des voisins     │
-│  - Seuils VSC/VSCA      │     │  - Verification vocab   │
-│  - Dominance si faible  │     │  - Min 3 mots domaine   │
-└─────────────────────────┘     └─────────────────────────┘
-              │                               │
-              └───────────────┬───────────────┘
-                              ▼
+ │
+ ┌───────────────┴───────────────┐
+ ▼ ▼
+┌─────────────────────────┐ ┌─────────────────────────┐
+│ 3a. NOUVEAUX TAGS │ │ 3b. TAGS EXISTANTS │
+│ EmergentTagDetector │ │ TagMatcherV2 │
+│ │ │ │
+│ - Analyse vocabulaire │ │ - Tags des voisins │
+│ - Seuils VSC/VSCA │ │ - Verification vocab │
+│ - Dominance si faible │ │ - Min 3 mots domaine │
+└─────────────────────────┘ └─────────────────────────┘
+ │ │
+ └───────────────┬───────────────┘
+ ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  4. SUGGESTIONS                                             │
-│     → emergent: nouveau tag a creer                         │
-│     → attribution: tag existant a attribuer                 │
-│     → entity: entite detectee                               │
+│ 4. SUGGESTIONS │
+│ → emergent: nouveau tag a creer │
+│ → attribution: tag existant a attribuer │
+│ → entity: entite detectee │
 └─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
+ │
+ ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  5. VALIDATION UTILISATEUR                                  │
-│     Accepter / Rejeter / Modifier                           │
+│ 5. VALIDATION UTILISATEUR │
+│ Accepter / Rejeter / Modifier │
 └─────────────────────────────────────────────────────────────┘
 ```
 

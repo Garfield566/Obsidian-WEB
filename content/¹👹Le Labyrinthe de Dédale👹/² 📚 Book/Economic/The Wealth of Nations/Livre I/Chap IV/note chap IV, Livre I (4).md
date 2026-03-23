@@ -1,11 +1,10 @@
 ---
 canvas:
-  - "[[zzzzz ⚙️/Sans titre.canvas]]"
+ - "[[zzzzz ⚙️/Sans titre.canvas]]"
 Sans titre: []
 tags:
-  - anthropologie
-  - geo\france
-  - sociologie\socio-économie
+ - anthropologie
+ - sociologie\socio-économie
 ---
 ## Histoire des monnaie UE / cupidités des rois
 ##### Extrait de "The Wealth of Nations" (p.94-95-96 "Chap IV, Livre I")

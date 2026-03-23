@@ -1,3 +1,5 @@
+#evenement\seconde-guerre-mondiale
+
 ---
 nom: Robert Heilbroner
 qid: Q1144214

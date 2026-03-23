@@ -2,8 +2,6 @@
 
 #XX\1930
 
-#Karl-Polanyi
-
 #personnage\scientifique
 
 #histoire\économique
@@ -15,7 +13,7 @@ type: personnage
 categorie: personnage-scientifique
 genre: m
 domaine: art
-tags: "#art/personne/litterature"
+tags: ""
 nationalite: Hongrie
 image: http://commons.wikimedia.org/wiki/Special:FilePath/Pol%C3%A1nyi%20K%C3%A1roly.jpg?width=330
 ---

@@ -3,10 +3,10 @@ nom: Porco Rosso
 qid: Q498375
 categorie: oeuvre
 tags: "#oeuvre"
-  - evenement\seconde-guerre-mondiale
-  - XX\1930
-  - Toshio-Suzuki
-  - Hayao-Miyazaki
+ - evenement\seconde-guerre-mondiale
+ - XX\1930
+ - Toshio-Suzuki
+ - Hayao-Miyazaki
 pays: Japon
 image: Pasted image 20260322144931.png|300
 ---

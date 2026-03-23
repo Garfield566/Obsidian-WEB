@@ -29,7 +29,6 @@ Hermann Heinrich Gossen (1810-1858), modeste employé, peut être considéré co
 Même si elle ne porte que sur l'analyse d'un bien isolé, la découverte de la notion d'utilité marginale peut lui être attribuée ainsi qu'à des précurseurs comme l'économiste allemand Johann Heinrich von Thünen, ou français comme Jules Dupuit ou Augustin Cournot. 
 Léon Walras, en 1879, traduit le texte en français qui contribue à faire connaître Gossen auprès d'un public plus vaste.
 
-
 ## L'Exposition des Lois de l'Échange
 
 Gossen expose dans ce livre ce qu'il présente comme les lois de la consommation.
