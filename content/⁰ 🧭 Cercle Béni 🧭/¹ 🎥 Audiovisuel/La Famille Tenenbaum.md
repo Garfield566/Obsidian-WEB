@@ -3,6 +3,9 @@ nom: La Famille Tenenbaum
 qid: Q935105
 categorie: oeuvre
 tags: "#oeuvre"
+  - Anjelica-Huston
+  - Owen-Wilson
+  - Anjelica-Huston
   - Wes-Anderson
 pays: États-Unis
 image: Pasted image 20260322131256.png

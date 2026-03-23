@@ -5,6 +5,7 @@ author:
 description:
 tags:
  - "clippings"
+  - XX\1930
  - "medium"
 published:
 created: 2025-05-19T15:26:02+02:00

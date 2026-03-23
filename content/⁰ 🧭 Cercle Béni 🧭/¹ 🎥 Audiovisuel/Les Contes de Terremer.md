@@ -3,6 +3,8 @@ nom: "Les Contes de Terremer"
 qid: Q721737
 categorie: oeuvre
 tags: "#oeuvre"
+  - geo\japon
+  - Toshio-Suzuki
   - Hayao-Miyazaki
 pays: "Japon"
 ---

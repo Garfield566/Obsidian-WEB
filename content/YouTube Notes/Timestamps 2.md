@@ -1,3 +1,5 @@
+#geo\japon
+
 #personnage\militaire
 
 ---

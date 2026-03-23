@@ -1,3 +1,5 @@
+#geo\suisse
+
 ---
 title: "Hublot"
 tags: []

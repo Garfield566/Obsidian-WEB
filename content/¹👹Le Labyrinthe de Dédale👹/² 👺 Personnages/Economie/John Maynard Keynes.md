@@ -1,3 +1,5 @@
+#XX\1930
+
 #personnage\militaire
 
 #personnage\scientifique

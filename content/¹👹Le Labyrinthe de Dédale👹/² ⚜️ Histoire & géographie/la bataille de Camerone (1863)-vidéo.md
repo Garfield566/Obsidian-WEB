@@ -6,6 +6,7 @@ url: "https://www.youtube.com/watch?v=2DuZrkegR0A"
 thumbnailUrl: "https://i.ytimg.com/vi/2DuZrkegR0A/maxresdefault.jpg"
 tags:
   - personnage\militaire
+  - personnage\militaire
 ---
 ## Le SACRIFICE de la LÉGION : la bataille de Camerone (1863).
 

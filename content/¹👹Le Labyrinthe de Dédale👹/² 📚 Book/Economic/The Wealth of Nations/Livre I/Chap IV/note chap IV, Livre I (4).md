@@ -4,6 +4,7 @@ canvas:
 Sans titre: []
 tags:
   - anthropologie
+  - geo\france
   - sociologie\socio-économie
 ---
 ## Histoire des monnaie UE / cupidités des rois

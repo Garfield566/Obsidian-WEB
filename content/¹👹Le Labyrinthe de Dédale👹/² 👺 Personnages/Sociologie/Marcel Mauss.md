@@ -1,3 +1,5 @@
+#geo\france
+
 #Marcel-Mauss
 
 #personnage\militaire

@@ -1,3 +1,7 @@
+#geo\suisse
+
+#XX\1930
+
 ---
 title: "Mido"
 tags: []

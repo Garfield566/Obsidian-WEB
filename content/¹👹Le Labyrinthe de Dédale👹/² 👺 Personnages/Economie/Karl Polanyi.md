@@ -1,3 +1,5 @@
+#XX\1930
+
 #Karl-Polanyi
 
 #personnage\scientifique
